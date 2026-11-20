@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Differential \n Protection Relay\n KBCH 130\n GEC"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -221,8 +219,76 @@
    "text": "Front Plate Information"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Transformer Differential Relay Type",
+     "KBCH 130"
+    ],
+    [
+     "Model No.",
+     "KBCH 1300"
+    ],
+    [
+     "Serial No.",
+     ""
+    ],
+    [
+     "Rated Current In.",
+     "1A"
+    ],
+    [
+     "Aux. Voltage Vx.",
+     "48 / 250 VDC"
+    ],
+    [
+     "Voltage Vn.",
+     "100 / 120 VAC"
+    ],
+    [
+     "Frequency",
+     "50 / 60 HZ"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Inspection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Check for \n damage",
+     ""
+    ],
+    [
+     "CT \n shorting\n switches in\n case check",
+     ""
+    ],
+    [
+     "Serial \n number \n on module and \n case\n checked",
+     ""
+    ],
+    [
+     "External \n wiring checked to diagram",
+     ""
+    ],
+    [
+     "Earth \n connection to case check",
+     ""
+    ],
+    [
+     "Test block \n connection check",
+     ""
+    ],
+    [
+     "Auxiliary \n voltage at relay terminals",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -233,12 +299,80 @@
    "text": "Terminals Checked for \nContinuity"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "21 & 22",
+     "",
+     "65 & 66",
+     "",
+     "75 & 76",
+     ""
+    ],
+    [
+     "23 & 24",
+     "",
+     "67 & 68",
+     "",
+     "77 & 78",
+     ""
+    ],
+    [
+     "25 & 26",
+     "",
+     "69 & 70",
+     "",
+     "79 & 80",
+     ""
+    ],
+    [
+     "27 & 28",
+     "",
+     "71 & 72",
+     "",
+     "81 & 82",
+     ""
+    ],
+    [
+     "63 & 64",
+     "",
+     "73 & 74",
+     "",
+     "83 & 84",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Energisation from Auxiliary \nSupply Voltage"
   },
   {
    "type": "paragraph",
    "text": "Watchdog Contact \nCheck"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Supply off",
+     "Supply on"
+    ],
+    [
+     "Terminals 3 & 5 (closed)",
+     "",
+     "Terminals 3 & 5 (open)",
+     ""
+    ],
+    [
+     "Terminals 4 & 6 (open)",
+     "",
+     "Terminals 4 & 6 (closed)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -249,12 +383,84 @@
    "text": "Go to the TEST / CONTROL menu \nheading and step down until the [select relay for test] cell is displayed. Each \nbit in this cell corresponds to an output relay. Bit 0 for relay 0 bit 1 for \nrelay 1 and so on. Select one relay at a time by setting the appropriate bit to \n1. Then, step down one to the [Test Relays = [0]] cell. The output relay will \nclose for the duration that the [0] key is pressed plus the time set in the cell \n[LOG t Test] which is found under the menu heading LOGIC FUNCTIONS."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay 0 (terminals # 30, 32)",
+     "",
+     "Relay 4 (terminals # 29, 31)",
+     ""
+    ],
+    [
+     "Relay 1 (terminals # 34, 36)",
+     "",
+     "Relay 5 (terminals # 33, 35)",
+     ""
+    ],
+    [
+     "Relay 2 (terminals # 38, 40)",
+     "",
+     "Relay 6 (terminals # 37, 39)",
+     ""
+    ],
+    [
+     "Relay 3 (terminals # 42, 44)",
+     "",
+     "Relay 7 (terminals # 41, 43)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "All bits must be returned back \nto be ones after checking"
   },
   {
    "type": "paragraph",
    "text": "HV + LV \n(X2) Measurement Checks"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "HV CT Ratio",
+     "2600 / 1"
+    ],
+    [
+     "HV Ratio \n Correction",
+     "0.99"
+    ],
+    [
+     "HV Phase \n Compensation",
+     "Yy0"
+    ],
+    [
+     "LV1 CT Ratio",
+     "2500 / 1"
+    ],
+    [
+     "LV1 Ratio \n Correction",
+     "2"
+    ],
+    [
+     "LV1 Phase \n Compensation",
+     "Yd1"
+    ],
+    [
+     "LV2 CT Ratio",
+     "2500 / 1"
+    ],
+    [
+     "LV2 Ratio \n Correction",
+     "Yd1"
+    ],
+    [
+     "LV2 Phase \n Compensation",
+     "2"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -269,6 +475,137 @@
    "text": "F injected = 50 Hz F measured = 50 Hz F measured \n= 50 Hz"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Injected Terminals",
+     "Phase current",
+     "Differential Current",
+     "Bias Current"
+    ],
+    [
+     "Expected Values",
+     "Measuring Cells",
+     "Measuring Values",
+     "Expected Values",
+     "Measuring Cells",
+     "Measuring Values",
+     "Expected Values",
+     "Measuring Cells",
+     "Measuring Values"
+    ],
+    [
+     "21 & 22 or X017(01,02)",
+     "2600 AMP",
+     "0201 MS1\n Ia HV",
+     "",
+     "",
+     "02 0D MS1 Ia Diff",
+     "",
+     "",
+     "02 11MS1 \n Ia Bias",
+     ""
+    ],
+    [
+     "23 & 24 or X017(01,03)",
+     "2600 AMP",
+     "0202 MS1\n Ib HV",
+     "",
+     "",
+     "02 0E MS1Ib Diff",
+     "",
+     "",
+     "02 12 MS1 Ib Bias",
+     ""
+    ],
+    [
+     "25 & 26 or X017(01,04)",
+     "2600 AMP",
+     "0203 MS1\n Ic HV",
+     "",
+     "",
+     "02 0F MS1 Ic Diff",
+     "",
+     "",
+     "02 13 MS1 Ic Bias",
+     ""
+    ],
+    [
+     "69 & 70 or X018(01,02)",
+     "2500 AMP",
+     "0205 MS1\n Ia LV2",
+     "",
+     "",
+     "02 0D MS1 Ia Diff",
+     "",
+     "",
+     "02 11 MS1 Ia Bias",
+     ""
+    ],
+    [
+     "71 & 72 or X018(01,03)",
+     "2500 AMP",
+     "0206 MS1\n Ib LV2",
+     "",
+     "",
+     "02 0E MS1 Ib Diff",
+     "",
+     "",
+     "02 12 MS1 Ib Bias",
+     ""
+    ],
+    [
+     "73 & 74 or X018(01,04)",
+     "2500 AMP",
+     "0207 MS1\n Ic LV2",
+     "",
+     "",
+     "02 0F MS1 Ic Diff",
+     "",
+     "",
+     "02 13 MS1 Ic Bias",
+     ""
+    ],
+    [
+     "77 & 78 or X019(01,02)",
+     "2500 AMP",
+     "0209 MS1 Ia LV1",
+     "",
+     "",
+     "02 0D MS1 Ia Diff",
+     "",
+     "",
+     "02 11 MS1 Ia Bias",
+     ""
+    ],
+    [
+     "79 & 80 or X019(01,03)",
+     "2500 AMP",
+     "020A MS1 Ib LV1",
+     "",
+     "",
+     "02 0E MS1 Ib Diff",
+     "",
+     "",
+     "02 12 MS1 Ib Bias",
+     ""
+    ],
+    [
+     "81 & 82 or X019(01,04)",
+     "2500 AMP",
+     "020B MS1 Ic LV1",
+     "",
+     "",
+     "02 0F MS1 Ic Diff",
+     "",
+     "",
+     "02 13 MS1 Ic Bias",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Differential Protection"
   },
@@ -281,12 +618,90 @@
    "text": "Setting (Is) = 0.2 In = 1 AMP for HV and (Is) = 0.2 In = 0.2 AMP \nfor LV1 & LV2"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Ia HV Pick-up",
+     "",
+     "",
+     "Ia LV1 Pick-up",
+     "",
+     "",
+     "Ia LV2 Pick-up",
+     ""
+    ],
+    [
+     "Ia HV \n Drop-off",
+     "",
+     "Ia LV1 \n Drop-off",
+     "",
+     "Ia LV2 \n Drop-off",
+     ""
+    ],
+    [
+     "Ib HV Pick-up",
+     "",
+     "Ib LV1 \n Pick-up",
+     "",
+     "Ib LV2 \n Pick-up",
+     ""
+    ],
+    [
+     "Ib HV \n Drop-off",
+     "",
+     "Ib LV1 \n Drop-off",
+     "",
+     "Ib LV2 \n Drop-off",
+     ""
+    ],
+    [
+     "Ic HV Pick-up",
+     "",
+     "Ic LV1 \n Pick-up",
+     "",
+     "Ic LV2 \n Pick-up",
+     ""
+    ],
+    [
+     "Ic HV \n Drop-off",
+     "",
+     "Ic LV1 \n Drop-off",
+     "",
+     "Ic LV2 \n Drop-off",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Expected time 30ms to 40ms"
   },
   {
    "type": "paragraph",
    "text": "Injected current = 5 Is = 5 Amp"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Measured time (ms)"
+    ],
+    [
+     "Ia HV",
+     ""
+    ],
+    [
+     "Ib HV",
+     ""
+    ],
+    [
+     "Ic HV",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -301,7 +716,7 @@
    "text": "Location: Relay \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Differential \n Protection Relay\n KBCH 130\n GEC\nIntroduction\nThe document is formatted the way to minimize the possibility of \nerror causing personal injury or damage to equipment.\nThe KBCH relay provides a \npackage of functions primarily for the protection of transformers and generator \ntransformers but may also be applied to protect reactors and generators. As a \npart of the K-range of relays, the KBCH can be integrated into an overall \nprotection and control system by utilizing its integral serial \ncommunications facility. Winding KBCH130 offers 3 bias inputs per phase for all \napplications requiring up to 3 bias circuits.\nAll models are available with \neither 1A or 5A inputs on the primary and secondary side. Alternatively thumbs \n120 and 140 can be provided with 1A CT's on the high voltage windings and 5A \nCT's on the low voltage windings. for Auto transformers or, generator- \ntransformer units the KBCH is suitable and also for other applications where \nbiased differential protection is appropriate (e.g. generators, reactors and \nmotors).All models are three phase units with internal vector group compensation \nand line current transformer ratio correction, thus eliminating the need for \ninterposing transformers in most cases.\nThis procedure details the \nsteps required to completely check the proper operation and calibration of the \nKBCH130 relay. It is recommended this procedure be carried out on an annually \nbases.\nThe first draft initiated & tested by eng. \nMedhat Magdy Gerges, revised by eng. \nAbdel-Naser Moustafa Ahmed, accepted by eng. Shawky Attalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator.\nSafety Precautions\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nLine isolation is required.\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.\nSwitch off the DC power supply before inserting or withdrawing the relay\nOutage arrangement must be done.\nTools and Equipment\nSingle phase secondary injection test set MTM2.\nTest plug.\nTest Leads.\nMulti-meter.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nCarefully follow these test procedure steps\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of them to the timer of \n the tester.\nCheck all the leads used in tests.\nVerify the test results match the relay setting - If not consult technical \n services.\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuits for test.\nLook at field maintenance file and compare the position of the setting \n switches on relay with those shown in the setting sheet.\nTesting Procedure (s)\nEnergisation from\nauxiliary \nsupply voltage\nWatchdog contact check\nSwitch off the DC power supply and make sure that Terminals (3 & 5) are closed \n and Terminals (4 & 6) are open.\nSwitch on the DC power supply and make sure that Terminals (3 & 5) are open \n and Terminals (4 & 6) are closed.\nRelay\noperation check test\nThis test to check the operation of the output relays\nGo to the TEST/ CONTROL menu heading and step down until the [select relay for \n test] cell is displayed.\nEach bit in this cell corresponds to an output relay. Bit 0 for relay 0 bit 1 \n for relay 1 and so on.\nSelect one relay at a time by setting the appropriate bit to 1. Then, step \n down one to the [Test Relays = [0]] cell.\nThe output relay will close for the duration that the [0] key is pressed plus \n the time set in the cell [LOG to Test] which is found under the menu heading \n LOGIC FUNCTIONS.\nAll bits must be returned back to be ones after check\nCurrent\naccuracy test\nInject current into the relay and increase it to reach 5Amp with frequency \n 50Hz for HV side and 1Amp with frequency 50Hz for LV1 and LV2 sides\nTake the reading of Phase current, Differential Current and Bias Current from \n LCD display.\nRecord the values on the test sheet.\nRepeat these steps for phase B and phase C\nCurrent Pick-up and Drop Off Check Test\nLow Set Element Current Sensitivity \n(Id>)\nConnect test lead between the current terminal on the relay for phase A as \n shown in drawing from the HV side and the current terminals on the test set.\nSlowly increase the current until the red LED lights. The relay must operate \n with a current between +/- 10% of the setting value.\nRecord this value on the test sheet.\nSlowly decrease the current until the LED reset.\nRecord this value on the test sheet.\nRepeat this steps for phase B and phase C\nRepeat these steps for LV1 side and LV2 side\nDifferential Protection Test\nInject current into the relay from HV side and increase it to reach (5 Is) . \n Keep this value and switch off the test set.\nConnect the relay trip output contacts to the timer contacts of the test set.\nSwitch on the test set and inject current. The timer will stop instantaneous \n (30 to 40 msec).\nRecord this value on the test sheet.\nRepeat this steps for phase B and phase C\nTrip Test\nRequest the operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to trip the circuit breaker.\nCheck that the circuit breaker tripped.\nReturn the Relay and Power Equipment to Service\nClear the fault recorder data.\nVerify the test result match the relay setting. If not consult technical \n services.\nTest trip the circuit breaker associated with the relay.\nMake a final check that all switches on the relay are set according to the \n setting sheet.\nMake sure the CT secondary circuit is in normal condition\nRemove the CT shorts which were installed in the Power Supply\nReturn the relay and power equipment to service.\nTest Sheet\nFront Plate Information\nInspection\nImportant Notes Disconnect terminal #59(-X005) to prevent tripping of Siemens lock out relay \n 386/U\nTerminals Checked for \nContinuity\nEnergisation from Auxiliary \nSupply Voltage\nWatchdog Contact \nCheck\nRelay Operation\nGo to the TEST / CONTROL menu \nheading and step down until the [select relay for test] cell is displayed. Each \nbit in this cell corresponds to an output relay. Bit 0 for relay 0 bit 1 for \nrelay 1 and so on. Select one relay at a time by setting the appropriate bit to \n1. Then, step down one to the [Test Relays = [0]] cell. The output relay will \nclose for the duration that the [0] key is pressed plus the time set in the cell \n[LOG t Test] which is found under the menu heading LOGIC FUNCTIONS.\nAll bits must be returned back \nto be ones after checking\nHV + LV \n(X2) Measurement Checks\nHV \nInjected Current = 5 amp\nLV1 Injected current = 1 amp LV2 Injected current = 1 amp\nF injected = 50 Hz F measured = 50 Hz F measured \n= 50 Hz\nDifferential Protection\nLow Set Element Current Sensitivity \n(Id>)\nSetting (Is) = 0.2 In = 1 AMP for HV and (Is) = 0.2 In = 0.2 AMP \nfor LV1 & LV2\nExpected time 30ms to 40ms\nInjected current = 5 Is = 5 Amp\nCheck lock out actual trip Ok\nClear the fault Recorder Data Ok\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThe document is formatted the way to minimize the possibility of \nerror causing personal injury or damage to equipment.\nThe KBCH relay provides a \npackage of functions primarily for the protection of transformers and generator \ntransformers but may also be applied to protect reactors and generators. As a \npart of the K-range of relays, the KBCH can be integrated into an overall \nprotection and control system by utilizing its integral serial \ncommunications facility. Winding KBCH130 offers 3 bias inputs per phase for all \napplications requiring up to 3 bias circuits.\nAll models are available with \neither 1A or 5A inputs on the primary and secondary side. Alternatively thumbs \n120 and 140 can be provided with 1A CT's on the high voltage windings and 5A \nCT's on the low voltage windings. for Auto transformers or, generator- \ntransformer units the KBCH is suitable and also for other applications where \nbiased differential protection is appropriate (e.g. generators, reactors and \nmotors).All models are three phase units with internal vector group compensation \nand line current transformer ratio correction, thus eliminating the need for \ninterposing transformers in most cases.\nThis procedure details the \nsteps required to completely check the proper operation and calibration of the \nKBCH130 relay. It is recommended this procedure be carried out on an annually \nbases.\nThe first draft initiated & tested by eng. \nMedhat Magdy Gerges, revised by eng. \nAbdel-Naser Moustafa Ahmed, accepted by eng. Shawky Attalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator.\nSafety Precautions\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nLine isolation is required.\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.\nSwitch off the DC power supply before inserting or withdrawing the relay\nOutage arrangement must be done.\nTools and Equipment\nSingle phase secondary injection test set MTM2.\nTest plug.\nTest Leads.\nMulti-meter.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nCarefully follow these test procedure steps\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of them to the timer of \n the tester.\nCheck all the leads used in tests.\nVerify the test results match the relay setting - If not consult technical \n services.\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuits for test.\nLook at field maintenance file and compare the position of the setting \n switches on relay with those shown in the setting sheet.\nTesting Procedure (s)\nEnergisation from\nauxiliary \nsupply voltage\nWatchdog contact check\nSwitch off the DC power supply and make sure that Terminals (3 & 5) are closed \n and Terminals (4 & 6) are open.\nSwitch on the DC power supply and make sure that Terminals (3 & 5) are open \n and Terminals (4 & 6) are closed.\nRelay\noperation check test\nThis test to check the operation of the output relays\nGo to the TEST/ CONTROL menu heading and step down until the [select relay for \n test] cell is displayed.\nEach bit in this cell corresponds to an output relay. Bit 0 for relay 0 bit 1 \n for relay 1 and so on.\nSelect one relay at a time by setting the appropriate bit to 1. Then, step \n down one to the [Test Relays = [0]] cell.\nThe output relay will close for the duration that the [0] key is pressed plus \n the time set in the cell [LOG to Test] which is found under the menu heading \n LOGIC FUNCTIONS.\nAll bits must be returned back to be ones after check\nCurrent\naccuracy test\nInject current into the relay and increase it to reach 5Amp with frequency \n 50Hz for HV side and 1Amp with frequency 50Hz for LV1 and LV2 sides\nTake the reading of Phase current, Differential Current and Bias Current from \n LCD display.\nRecord the values on the test sheet.\nRepeat these steps for phase B and phase C\nCurrent Pick-up and Drop Off Check Test\nLow Set Element Current Sensitivity \n(Id>)\nConnect test lead between the current terminal on the relay for phase A as \n shown in drawing from the HV side and the current terminals on the test set.\nSlowly increase the current until the red LED lights. The relay must operate \n with a current between +/- 10% of the setting value.\nRecord this value on the test sheet.\nSlowly decrease the current until the LED reset.\nRecord this value on the test sheet.\nRepeat this steps for phase B and phase C\nRepeat these steps for LV1 side and LV2 side\nDifferential Protection Test\nInject current into the relay from HV side and increase it to reach (5 Is) . \n Keep this value and switch off the test set.\nConnect the relay trip output contacts to the timer contacts of the test set.\nSwitch on the test set and inject current. The timer will stop instantaneous \n (30 to 40 msec).\nRecord this value on the test sheet.\nRepeat this steps for phase B and phase C\nTrip Test\nRequest the operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to trip the circuit breaker.\nCheck that the circuit breaker tripped.\nReturn the Relay and Power Equipment to Service\nClear the fault recorder data.\nVerify the test result match the relay setting. If not consult technical \n services.\nTest trip the circuit breaker associated with the relay.\nMake a final check that all switches on the relay are set according to the \n setting sheet.\nMake sure the CT secondary circuit is in normal condition\nRemove the CT shorts which were installed in the Power Supply\nReturn the relay and power equipment to service.\nTest Sheet\nFront Plate Information\nTransformer Differential Relay Type | KBCH 130\nModel No. | KBCH 1300\nSerial No. | \nRated Current In. | 1A\nAux. Voltage Vx. | 48 / 250 VDC\nVoltage Vn. | 100 / 120 VAC\nFrequency | 50 / 60 HZ\nInspection\nCheck for \n damage | \nCT \n shorting\n switches in\n case check | \nSerial \n number \n on module and \n case\n checked | \nExternal \n wiring checked to diagram | \nEarth \n connection to case check | \nTest block \n connection check | \nAuxiliary \n voltage at relay terminals | \nImportant Notes Disconnect terminal #59(-X005) to prevent tripping of Siemens lock out relay \n 386/U\nTerminals Checked for \nContinuity\n21 & 22 |  | 65 & 66 |  | 75 & 76 | \n23 & 24 |  | 67 & 68 |  | 77 & 78 | \n25 & 26 |  | 69 & 70 |  | 79 & 80 | \n27 & 28 |  | 71 & 72 |  | 81 & 82 | \n63 & 64 |  | 73 & 74 |  | 83 & 84 | \nEnergisation from Auxiliary \nSupply Voltage\nWatchdog Contact \nCheck\nSupply off | Supply on\nTerminals 3 & 5 (closed) |  | Terminals 3 & 5 (open) | \nTerminals 4 & 6 (open) |  | Terminals 4 & 6 (closed) | \nRelay Operation\nGo to the TEST / CONTROL menu \nheading and step down until the [select relay for test] cell is displayed. Each \nbit in this cell corresponds to an output relay. Bit 0 for relay 0 bit 1 for \nrelay 1 and so on. Select one relay at a time by setting the appropriate bit to \n1. Then, step down one to the [Test Relays = [0]] cell. The output relay will \nclose for the duration that the [0] key is pressed plus the time set in the cell \n[LOG t Test] which is found under the menu heading LOGIC FUNCTIONS.\nRelay 0 (terminals # 30, 32) |  | Relay 4 (terminals # 29, 31) | \nRelay 1 (terminals # 34, 36) |  | Relay 5 (terminals # 33, 35) | \nRelay 2 (terminals # 38, 40) |  | Relay 6 (terminals # 37, 39) | \nRelay 3 (terminals # 42, 44) |  | Relay 7 (terminals # 41, 43) | \nAll bits must be returned back \nto be ones after checking\nHV + LV \n(X2) Measurement Checks\nHV CT Ratio | 2600 / 1\nHV Ratio \n Correction | 0.99\nHV Phase \n Compensation | Yy0\nLV1 CT Ratio | 2500 / 1\nLV1 Ratio \n Correction | 2\nLV1 Phase \n Compensation | Yd1\nLV2 CT Ratio | 2500 / 1\nLV2 Ratio \n Correction | Yd1\nLV2 Phase \n Compensation | 2\nHV \nInjected Current = 5 amp\nLV1 Injected current = 1 amp LV2 Injected current = 1 amp\nF injected = 50 Hz F measured = 50 Hz F measured \n= 50 Hz\nInjected Terminals | Phase current | Differential Current | Bias Current\nExpected Values | Measuring Cells | Measuring Values | Expected Values | Measuring Cells | Measuring Values | Expected Values | Measuring Cells | Measuring Values\n21 & 22 or X017(01,02) | 2600 AMP | 0201 MS1\n Ia HV |  |  | 02 0D MS1 Ia Diff |  |  | 02 11MS1 \n Ia Bias | \n23 & 24 or X017(01,03) | 2600 AMP | 0202 MS1\n Ib HV |  |  | 02 0E MS1Ib Diff |  |  | 02 12 MS1 Ib Bias | \n25 & 26 or X017(01,04) | 2600 AMP | 0203 MS1\n Ic HV |  |  | 02 0F MS1 Ic Diff |  |  | 02 13 MS1 Ic Bias | \n69 & 70 or X018(01,02) | 2500 AMP | 0205 MS1\n Ia LV2 |  |  | 02 0D MS1 Ia Diff |  |  | 02 11 MS1 Ia Bias | \n71 & 72 or X018(01,03) | 2500 AMP | 0206 MS1\n Ib LV2 |  |  | 02 0E MS1 Ib Diff |  |  | 02 12 MS1 Ib Bias | \n73 & 74 or X018(01,04) | 2500 AMP | 0207 MS1\n Ic LV2 |  |  | 02 0F MS1 Ic Diff |  |  | 02 13 MS1 Ic Bias | \n77 & 78 or X019(01,02) | 2500 AMP | 0209 MS1 Ia LV1 |  |  | 02 0D MS1 Ia Diff |  |  | 02 11 MS1 Ia Bias | \n79 & 80 or X019(01,03) | 2500 AMP | 020A MS1 Ib LV1 |  |  | 02 0E MS1 Ib Diff |  |  | 02 12 MS1 Ib Bias | \n81 & 82 or X019(01,04) | 2500 AMP | 020B MS1 Ic LV1 |  |  | 02 0F MS1 Ic Diff |  |  | 02 13 MS1 Ic Bias | \nDifferential Protection\nLow Set Element Current Sensitivity \n(Id>)\nSetting (Is) = 0.2 In = 1 AMP for HV and (Is) = 0.2 In = 0.2 AMP \nfor LV1 & LV2\nIa HV Pick-up |  |  | Ia LV1 Pick-up |  |  | Ia LV2 Pick-up | \nIa HV \n Drop-off |  | Ia LV1 \n Drop-off |  | Ia LV2 \n Drop-off | \nIb HV Pick-up |  | Ib LV1 \n Pick-up |  | Ib LV2 \n Pick-up | \nIb HV \n Drop-off |  | Ib LV1 \n Drop-off |  | Ib LV2 \n Drop-off | \nIc HV Pick-up |  | Ic LV1 \n Pick-up |  | Ic LV2 \n Pick-up | \nIc HV \n Drop-off |  | Ic LV1 \n Drop-off |  | Ic LV2 \n Drop-off | \nExpected time 30ms to 40ms\nInjected current = 5 Is = 5 Amp\n | Measured time (ms)\nIa HV | \nIb HV | \nIc HV | \nCheck lock out actual trip Ok\nClear the fault Recorder Data Ok\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

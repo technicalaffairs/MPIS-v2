@@ -14,28 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment"
-  },
-  {
-   "type": "paragraph",
-   "text": "Differential Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "R30"
-  },
-  {
-   "type": "paragraph",
-   "text": "Kovo Praha"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -198,27 +184,50 @@
    "text": "C.T.2:"
   },
   {
-   "type": "paragraph",
-   "text": "Pick up"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Pick up"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "HV Side",
+     "LV Side"
+    ],
+    [
+     "PH",
+     "Pick up\n Value",
+     "Reset\n Value",
+     "Pick up\n Value",
+     "Reset\n Value"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:"
   }
  ],
- "text": "Power \n Stations\nTechnical Procedure\nEquipment\nDifferential Relay\nR30\nKovo Praha\nIntroduction\nThe three phase differential Relay type R30 is primarily intended to protect the \nfollowing system components\nTransformers.\nGenerators\nThe Relay is connected directly to main current Transformer of each feeder of \nthe protected item.\nThe first draft is imitated and tested by \neng. Mostafa Hasas, accepted by general director \neng. Farag Abo Yousef, and approved by eng. Abd ElMohsen Abd El-Ghafar: \nheadsector of Kafr El Dawar PS\nThis document revised by \neng. Mona Ahmed Elsharkawy: WDEPC inspection & quality control 's\nhead sector and MPIS coordinator.\nSafety Precaution\nA\n work permit must be issued and the maintenance staff should\n carry the suitable safety category\nWear\n your safety helmet & safety shoes.\nSafety\n fence with caution marks surrounding the work area is required.\nThe equipment isolation is required\nMake sure that CT secondary are shorted before isolate the current circuit for \n test current injection\nTools and Equipment\nISA test set (secondary injection voltage)\nWork to be carried out\nPreparation\nObtain a copy of relay setting from field maintenance file and\ncompare it with \nsetting on the relay\nObtain outage for transformer protected by this relay.\nObtain a copy of relay setting from field maintenance file and\ncompare it with \nsetting on the relay\nObtain outage for transformer protected by this relay.\nCheck that the two bus disconnecting switches are opened and tagged from all \nsides H.V, MV and LV sides.\nInspect the CT secondary circuits and all cabling supplying the relay \n including matching CT\nUse the station drawings to isolate the following\nBreakers trip coils.\nBreaker failure scheme associated with the Relay.\nDisturbance alarms and fault recorder associated with the Re.\nThis procedure is used to perform offload relay testing.\nCheck there is no AC current from CT's by using a clip on ammeter\nThis procedure is used to perform offload relay testing.\nCheck there is no AC current from CT's by using a clip on ammeter\nRequest Power Transformer to \nbe returned in Service\nTake crossed readings of R30 current sand voltages from all sides (HV and LV) \n sides and compare them to these for normal load condition\nPlace a copy of the test Result in the field maintenance file.\nTest Steps\nInject the current to points ( 1,19 ) for phase R for H.V side\nIncrease the injected current gradually till the red flags of the injected \n phases appear then record the pick up value .\nInject current greater than pick up then decrease injected current gradually \n until the red flag disappear then record the reset value .\nInject the current to points ( 3,19 ) for phase R for L.V side\nIncrease the injected current gradually till the red flags of the injected \n phases appear then record the pick up value .\nInject current greater than pick up then decrease injected current gradually \n until the red flag disappear then record the reset value\nRepeat the pervious steps from 1to 6 phase S but the injected current to point \n s ( 4,19) H.V side (6,19) L.V side\nRepeat the pervious steps from 1to 6 phase T but the injected current to \n points ( 7,19)\nReturn Relay and Associated \nEquipment to Service\nCheck the \n return of relay- wires and trip-flags to their original places and tighten \n them carefully.\nBe sure \n that the relay is completely ready for service any time.\nReturn the \n work permission.\nTest Sheet\nStation: \nunit: \nDate:\nType: \nSetting:\nC.T.1:\nC.T.2:\nPick up\nReset\nPick up\nReset\nLocation: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:",
+ "text": "Power \n Stations | Technical Procedure\nIntroduction\nThe three phase differential Relay type R30 is primarily intended to protect the \nfollowing system components\nTransformers.\nGenerators\nThe Relay is connected directly to main current Transformer of each feeder of \nthe protected item.\nThe first draft is imitated and tested by \neng. Mostafa Hasas, accepted by general director \neng. Farag Abo Yousef, and approved by eng. Abd ElMohsen Abd El-Ghafar: \nheadsector of Kafr El Dawar PS\nThis document revised by \neng. Mona Ahmed Elsharkawy: WDEPC inspection & quality control 's\nhead sector and MPIS coordinator.\nSafety Precaution\nA\n work permit must be issued and the maintenance staff should\n carry the suitable safety category\nWear\n your safety helmet & safety shoes.\nSafety\n fence with caution marks surrounding the work area is required.\nThe equipment isolation is required\nMake sure that CT secondary are shorted before isolate the current circuit for \n test current injection\nTools and Equipment\nISA test set (secondary injection voltage)\nWork to be carried out\nPreparation\nObtain a copy of relay setting from field maintenance file and\ncompare it with \nsetting on the relay\nObtain outage for transformer protected by this relay.\nObtain a copy of relay setting from field maintenance file and\ncompare it with \nsetting on the relay\nObtain outage for transformer protected by this relay.\nCheck that the two bus disconnecting switches are opened and tagged from all \nsides H.V, MV and LV sides.\nInspect the CT secondary circuits and all cabling supplying the relay \n including matching CT\nUse the station drawings to isolate the following\nBreakers trip coils.\nBreaker failure scheme associated with the Relay.\nDisturbance alarms and fault recorder associated with the Re.\nThis procedure is used to perform offload relay testing.\nCheck there is no AC current from CT's by using a clip on ammeter\nThis procedure is used to perform offload relay testing.\nCheck there is no AC current from CT's by using a clip on ammeter\nRequest Power Transformer to \nbe returned in Service\nTake crossed readings of R30 current sand voltages from all sides (HV and LV) \n sides and compare them to these for normal load condition\nPlace a copy of the test Result in the field maintenance file.\nTest Steps\nInject the current to points ( 1,19 ) for phase R for H.V side\nIncrease the injected current gradually till the red flags of the injected \n phases appear then record the pick up value .\nInject current greater than pick up then decrease injected current gradually \n until the red flag disappear then record the reset value .\nInject the current to points ( 3,19 ) for phase R for L.V side\nIncrease the injected current gradually till the red flags of the injected \n phases appear then record the pick up value .\nInject current greater than pick up then decrease injected current gradually \n until the red flag disappear then record the reset value\nRepeat the pervious steps from 1to 6 phase S but the injected current to point \n s ( 4,19) H.V side (6,19) L.V side\nRepeat the pervious steps from 1to 6 phase T but the injected current to \n points ( 7,19)\nReturn Relay and Associated \nEquipment to Service\nCheck the \n return of relay- wires and trip-flags to their original places and tighten \n them carefully.\nBe sure \n that the relay is completely ready for service any time.\nReturn the \n work permission.\nTest Sheet\nStation: \nunit: \nDate:\nType: \nSetting:\nC.T.1:\nC.T.2:\n | HV Side | LV Side\nPH | Pick up\n Value | Reset\n Value | Pick up\n Value | Reset\n Value\nR |  |  |  | \nS |  |  |  | \nT |  |  |  | \nLocation: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

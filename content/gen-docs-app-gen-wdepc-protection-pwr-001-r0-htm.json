@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Pilot Wire Relay"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -158,7 +156,7 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Diff Relay Type",
      "DL 411",
      "O/C relay type",
      "ISM21"
@@ -193,16 +191,55 @@
    "text": "Differential Relay \n(87PW)"
   },
   {
-   "type": "paragraph",
-   "text": "v = 6%"
-  },
-  {
-   "type": "paragraph",
-   "text": "g = 10%"
-  },
-  {
-   "type": "paragraph",
-   "text": "In =1"
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "Relay setting",
+     "Ph.",
+     "Relay results",
+     "remarks"
+    ],
+    [
+     "87PW",
+     "O/C"
+    ],
+    [
+     "Pick up",
+     "reset",
+     "Pick up",
+     "reset"
+    ],
+    [
+     "",
+     "v = 6%\n g = 10%",
+     "R",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "In =1\n T=0.2sec",
+     "S",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -233,7 +270,7 @@
    "text": "Location: Relay \nDesignation: Tested by: Signature: Test Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Pilot Wire Relay\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe DL400, is a pilot wire relay for the protection \nof overhead lines and cables. the protection detects phase faults in unearthed \nsystems and phase and earth faults in solidly or resistance earthed systems. the \nzone of protection may also include a power transformer.\nThe \ndocument is formatted the way to minimize the possibility of error causing \npersonal injury or damage to equipment.\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nfarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nThe line must \n be disconnect from two sides\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nThe line must \n be disconnect from two sides\nTools and Equipment\nISA test 3 phase.\nM. ammeter, Test Leads .\nSecondary injection test set .\nWork to be Carried Out\nRelays Preparation\nLook at field maintenance file and compare the setting on relay with those \n shown on the test sheet.\nSet the earth link on the relay to line side position.\nTest Steps\nO/C terminal\nConnect test leads between the current terminals ( 3 6) for phase ( R ).\nIncrease the current slowly until the relay operates.\nRecord this value in the test sheet.\nConnect test leads between the current terminals ( 4 6) for phase S and \n repeat the previous steps.\nConnect test leads between the current terminals ( 5 6) for phase T and \n repeat the previous steps.\nFor testing the time repeat the previous steps of the time.\nConnect test leads between the current terminals ( 3 6) for phase R and \n repeat the previous steps.\nDisconnect the terminal 9 is (+VDC)\nConnect test leads between the time terminals ( 9 10) for phase and \n repeat the previous steps for phase S & phase T.\n87PW Terminal\nConnect the test leads between the current terminals ( 1 2 ).\nIncrease the current slowly until the relay operates.\nRecord this value in the test sheet.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the test leads from the relay terminal \n block and the test set i.e.\n - Disconnect the test leads of the current terminals.\n - Disconnect the test leads between the trip contact.\nMake sure CT secondary circuits are in normal condition.\nIf any equipment associated with the relay has been isolated, it should be \n returned to service by the following restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTechnical Data\nPilot Wire \nDifferential Relay \n(87PW)\n\nTest \nSheet\nDifferential Relay \n(87PW)\nv = 6%\ng = 10%\nIn =1\nNotes:\n................................................................................................................................................................................................................................................\n................................................................................................................................................................................................................................................\n................................................................................................................................................................................................................................................\n................................................................................................................................................................................................................................................\n................................................................................................................................................................................................................................................\nLocation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe DL400, is a pilot wire relay for the protection \nof overhead lines and cables. the protection detects phase faults in unearthed \nsystems and phase and earth faults in solidly or resistance earthed systems. the \nzone of protection may also include a power transformer.\nThe \ndocument is formatted the way to minimize the possibility of error causing \npersonal injury or damage to equipment.\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nfarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nThe line must \n be disconnect from two sides\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nThe line must \n be disconnect from two sides\nTools and Equipment\nISA test 3 phase.\nM. ammeter, Test Leads .\nSecondary injection test set .\nWork to be Carried Out\nRelays Preparation\nLook at field maintenance file and compare the setting on relay with those \n shown on the test sheet.\nSet the earth link on the relay to line side position.\nTest Steps\nO/C terminal\nConnect test leads between the current terminals ( 3 6) for phase ( R ).\nIncrease the current slowly until the relay operates.\nRecord this value in the test sheet.\nConnect test leads between the current terminals ( 4 6) for phase S and \n repeat the previous steps.\nConnect test leads between the current terminals ( 5 6) for phase T and \n repeat the previous steps.\nFor testing the time repeat the previous steps of the time.\nConnect test leads between the current terminals ( 3 6) for phase R and \n repeat the previous steps.\nDisconnect the terminal 9 is (+VDC)\nConnect test leads between the time terminals ( 9 10) for phase and \n repeat the previous steps for phase S & phase T.\n87PW Terminal\nConnect the test leads between the current terminals ( 1 2 ).\nIncrease the current slowly until the relay operates.\nRecord this value in the test sheet.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the test leads from the relay terminal \n block and the test set i.e.\n - Disconnect the test leads of the current terminals.\n - Disconnect the test leads between the trip contact.\nMake sure CT secondary circuits are in normal condition.\nIf any equipment associated with the relay has been isolated, it should be \n returned to service by the following restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTechnical Data\nPilot Wire \nDifferential Relay \n(87PW)\nDiff Relay Type | DL 411 | O/C relay type | ISM21\nRated current In | 0.1A | Rated \ncurrent In | 0.5 - 1 A\nBasic setting range V | (4-6-8-10) % In | Current setting range | (1-2 ) In\nReset ratio range g | (10-15-20-25)% In | O/C time range | (0.2 10 ) sec\nTest \nSheet\nDifferential Relay \n(87PW)\nDate | Relay setting | Ph. | Relay results | remarks\n87PW | O/C\nPick up | reset | Pick up | reset\n | v = 6%\n g = 10% | R |  |  |  |  | \n | In =1\n T=0.2sec | S |  |  |  |  | \nT |  |  |  |  | \nNotes:\n................................................................................................................................................................................................................................................\n................................................................................................................................................................................................................................................\n................................................................................................................................................................................................................................................\n................................................................................................................................................................................................................................................\n................................................................................................................................................................................................................................................\nLocation: Relay \nDesignation: Tested by: Signature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

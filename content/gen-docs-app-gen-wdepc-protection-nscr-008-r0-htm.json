@@ -14,28 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Negative \n sequence \n Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "MRS1"
-  },
-  {
-   "type": "paragraph",
-   "text": "SEG"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -188,39 +174,47 @@
    "text": "Auxiliary PS : V"
   },
   {
-   "type": "paragraph",
-   "text": "SETTING"
-  },
-  {
-   "type": "paragraph",
-   "text": "PU/R"
-  },
-  {
-   "type": "paragraph",
-   "text": "TIME"
-  },
-  {
-   "type": "paragraph",
-   "text": "1ST"
-  },
-  {
-   "type": "paragraph",
-   "text": "2ND"
-  },
-  {
-   "type": "paragraph",
-   "text": "3RD"
-  },
-  {
-   "type": "paragraph",
-   "text": "4TH"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "SETTING",
+     "PU/R",
+     "TIME"
+    ],
+    [
+     "1ST",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2ND",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3RD",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4TH",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Tested\n by :\n………………..… \n Signature : ………… Last Test Date :\n/ /\nReviewed by :\n………………… \nSignature :… ……… \n Test Date /\n/\nApproved by :\n…………… .. Signature : …………..\n Test Date /\n/"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\nNegative \n sequence \n Relay\nMRS1\nSEG\nIntroduction\nThese procedure details the steps required to\ncompletely check the proper operation and calibration of MRS1 relay . it is recommended this\nprocedure be carried out every four years bases the first preliminary steps to\nprepare for relay testing describes the activates required prior to testing .\nThe first draft initiated by eng. \nMoustafa Osman ,tested and revised by eng.Ali Ghater , accepted by eng. Farag \nAbo Youseff :general manager, approved by eng. Gomaa Ghater: head sector of Kafr \nel Dawar Power Station, \nand certified by eng. Gaber Mohmed Frahat : WDEPC inspection and quality \ncontrol general director and MPIS coordinator.\nSafety Precautions\nThe equipment isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nTools and Equipment\nSecondary\ncurrent injection test set ( ISA Tester )\nAVO meter\nClamp ampere.\nWork to be Carried Out\nPreparation\nReview\ntechnical reference and manufacture manual.\nObtain\na copy of relay setting from field maintenance file and compare it with setting\non the relay.\nObtain\noutage for equipment protected by this relay.\nReview\ntechnical reference and manufacture manual.\nObtain\na copy of relay setting from field maintenance file and compare it with setting\non the relay.\nObtain\noutage for equipment protected by this relay.\nTesting Procedures\nConnect the current test set terminals to\npoint (B3-B4) for phase R.\nConnect the timer test set terminal to\npoint (D1-E1).\nInject the current for phase R then\nincrease the current gradually until the red flag for Negative sequence \nappears then record I2 (pick - up) and record\nthe time.\nDecrease the current gradually until the\nred flag disappear then record I2 (reset).\nRepeat steps 1-3 for phase S & T .\nConnect the current test set terminals to\npoint (B3-B4) for phase R.\nConnect the timer test set terminal to\npoint (D1-E1).\nInject the current for phase R then\nincrease the current gradually until the red flag for Negative sequence \nappears then record I2 (pick - up) and record\nthe time.\nDecrease the current gradually until the\nred flag disappear then record I2 (reset).\nRepeat steps 1-3 for phase S & T .\nReturning the Relays to Service\nReturn relay to service by removing the\nplug test\nMake sure CT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service.\nReturn the work permit\n.\nReturn relay to service by removing the\nplug test\nMake sure CT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service.\nReturn the work permit\n.\nTest Sheet\nStation : Unit :\nDate :\nRated current : A\nAuxiliary PS : V\nSETTING\nPU/R\nTIME\n1ST\n2ND\n3RD\n4TH\nTested\n by :\n………………..… \n Signature : ………… Last Test Date :\n/ /\nReviewed by :\n………………… \nSignature :… ……… \n Test Date /\n/\nApproved by :\n…………… .. Signature : …………..\n Test Date /\n/",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThese procedure details the steps required to\ncompletely check the proper operation and calibration of MRS1 relay . it is recommended this\nprocedure be carried out every four years bases the first preliminary steps to\nprepare for relay testing describes the activates required prior to testing .\nThe first draft initiated by eng. \nMoustafa Osman ,tested and revised by eng.Ali Ghater , accepted by eng. Farag \nAbo Youseff :general manager, approved by eng. Gomaa Ghater: head sector of Kafr \nel Dawar Power Station, \nand certified by eng. Gaber Mohmed Frahat : WDEPC inspection and quality \ncontrol general director and MPIS coordinator.\nSafety Precautions\nThe equipment isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nTools and Equipment\nSecondary\ncurrent injection test set ( ISA Tester )\nAVO meter\nClamp ampere.\nWork to be Carried Out\nPreparation\nReview\ntechnical reference and manufacture manual.\nObtain\na copy of relay setting from field maintenance file and compare it with setting\non the relay.\nObtain\noutage for equipment protected by this relay.\nReview\ntechnical reference and manufacture manual.\nObtain\na copy of relay setting from field maintenance file and compare it with setting\non the relay.\nObtain\noutage for equipment protected by this relay.\nTesting Procedures\nConnect the current test set terminals to\npoint (B3-B4) for phase R.\nConnect the timer test set terminal to\npoint (D1-E1).\nInject the current for phase R then\nincrease the current gradually until the red flag for Negative sequence \nappears then record I2 (pick - up) and record\nthe time.\nDecrease the current gradually until the\nred flag disappear then record I2 (reset).\nRepeat steps 1-3 for phase S & T .\nConnect the current test set terminals to\npoint (B3-B4) for phase R.\nConnect the timer test set terminal to\npoint (D1-E1).\nInject the current for phase R then\nincrease the current gradually until the red flag for Negative sequence \nappears then record I2 (pick - up) and record\nthe time.\nDecrease the current gradually until the\nred flag disappear then record I2 (reset).\nRepeat steps 1-3 for phase S & T .\nReturning the Relays to Service\nReturn relay to service by removing the\nplug test\nMake sure CT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service.\nReturn the work permit\n.\nReturn relay to service by removing the\nplug test\nMake sure CT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service.\nReturn the work permit\n.\nTest Sheet\nStation : Unit :\nDate :\nRated current : A\nAuxiliary PS : V\n | SETTING | PU/R | TIME\n1ST |  |  | \n2ND |  |  | \n3RD |  |  | \n4TH |  |  | \nTested\n by :\n………………..… \n Signature : ………… Last Test Date :\n/ /\nReviewed by :\n………………… \nSignature :… ……… \n Test Date /\n/\nApproved by :\n…………… .. Signature : …………..\n Test Date /\n/",
  "text_truncated": false,
  "links": [],
  "images": [

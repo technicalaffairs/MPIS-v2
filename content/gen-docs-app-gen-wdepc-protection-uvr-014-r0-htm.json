@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -97,34 +107,34 @@
    "text": "Under voltage relay Technical Data"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Aux. supply"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "RUZ3G"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Relay type"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Rated voltage"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Current setting range"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Time setting range"
+   "type": "table",
+   "rows": [
+    [
+     "220 DC",
+     "Aux. supply",
+     "RUZ3G",
+     "Relay type"
+    ],
+    [
+     "6 A",
+     "Contact rating",
+     "100 v",
+     "Rated voltage"
+    ],
+    [
+     "25 A",
+     "Max. Contact rating",
+     "(4585) V 50 V",
+     "Current setting range"
+    ],
+    [
+     "0.1 VA",
+     "Burden",
+     "(0 - 6) sec 3 sec",
+     "Time setting range"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -132,9 +142,41 @@
    "text": "Potential Transformers Technical Data"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "PT Location",
+     "PT"
+    ],
+    [
+     "Gen. OUT",
+     "6350 /86.6 /63.5 V 200 VA"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "heading",
    "level": 1,
    "text": "65 MW Generator (G1) \nTechnical Data"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "65",
+     "Voltage KV",
+     "10.5 star",
+     "Power MW"
+    ],
+    [
+     "4450 A",
+     "Power Factor",
+     "0.8",
+     "current A"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -142,29 +184,45 @@
    "text": "65 MW Generator (G1) Under Voltage Relay (e104) \ntest sheet"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Relay results"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "R"
-  },
-  {
-   "type": "paragraph",
-   "text": "V = 50 V"
-  },
-  {
-   "type": "paragraph",
-   "text": "T = 3 sec"
+   "type": "table",
+   "rows": [
+    [
+     "Remarks",
+     "Relay results",
+     "Ph",
+     "Relay Setting",
+     "Date"
+    ],
+    [
+     "time",
+     "reset",
+     "Pick up",
+     "R",
+     "V = 50 V\n T = 3 sec",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "T"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:"
   }
  ],
- "text": "Introduction\nThis document outlines the maintenance procedures P1 to completely check the proper operation and \ncalibration of the relay, this procedures must \nbe performed on yearly bases as indicated by Y1 in the title block. the \nfirst preliminary steps to prepare for relay testing describes the activates \nrequired prior to testing.\nThe first draft initiated by eng. Rasha Soliman, \ntested by eng Mohamed Rabee, accepted by general director eng. Hamdy Dorgam, \napproved by eng. Mohamed Abou Aiasha head sector of Damanhour power station and \nand\ncertified by eng. \nGaber Farahat \nWDEPC Inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff \n should carry the suitable safety category\nWear your safety helmet & safety shoes.\nSafety fence with caution marks surrounding the work area\nDisconnect the DC power supply\nTools and Equipment\nISA test set (secondary \n injection voltage)\nAvometer.\nWork to be carried out\nPreparation\nReview technical reference and manufacture manual.\nObtain a copy of relay setting from field maintenance file and \n compare it with setting on the relay\nTesting \nProcedures\nIsolate the secondary terminal of the voltage transformer.\nConnect the voltage test set terminals to phase R (1) ,phase S ( \n 2) and phase T (3)\nInject the the three phase voltage (each phase = 50 V) to the \n relay then decrease the voltage to phase R gradually until the red flag for \n phase R appears then record VR (pick - up)\nIncrease the voltage to phase R gradually until the red flag \n removed them record VR (reset)\nRepeat the steps from 3-4 but to the phase S, T\nReturn Relay and Associated \nEquipment to Service\nReturn relay to service by removing the test terminal.\nMake sure VT secondary circuits are in normal condition.\nIf any equipment associated with the relay has been isolated, it \n should be returned to service by the following restoration steps \n * Breaker trip coils. \n * Breaker failure scheme associated this relay.\n * Disturbance alarm and fault recorder associated with \n this relay. Make sure VT secondary \n circuits are in normal condition.\nReturn the work permit.\nUnder voltage relay Technical Data\nAux. supply\nRUZ3G\nRelay type\nRated voltage\nCurrent setting range\nTime setting range\nPotential Transformers Technical Data\n65 MW Generator (G1) \nTechnical Data\n65 MW Generator (G1) Under Voltage Relay (e104) \ntest sheet\nRelay results\nR\nV = 50 V\nT = 3 sec\nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document outlines the maintenance procedures P1 to completely check the proper operation and \ncalibration of the relay, this procedures must \nbe performed on yearly bases as indicated by Y1 in the title block. the \nfirst preliminary steps to prepare for relay testing describes the activates \nrequired prior to testing.\nThe first draft initiated by eng. Rasha Soliman, \ntested by eng Mohamed Rabee, accepted by general director eng. Hamdy Dorgam, \napproved by eng. Mohamed Abou Aiasha head sector of Damanhour power station and \nand\ncertified by eng. \nGaber Farahat \nWDEPC Inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff \n should carry the suitable safety category\nWear your safety helmet & safety shoes.\nSafety fence with caution marks surrounding the work area\nDisconnect the DC power supply\nTools and Equipment\nISA test set (secondary \n injection voltage)\nAvometer.\nWork to be carried out\nPreparation\nReview technical reference and manufacture manual.\nObtain a copy of relay setting from field maintenance file and \n compare it with setting on the relay\nTesting \nProcedures\nIsolate the secondary terminal of the voltage transformer.\nConnect the voltage test set terminals to phase R (1) ,phase S ( \n 2) and phase T (3)\nInject the the three phase voltage (each phase = 50 V) to the \n relay then decrease the voltage to phase R gradually until the red flag for \n phase R appears then record VR (pick - up)\nIncrease the voltage to phase R gradually until the red flag \n removed them record VR (reset)\nRepeat the steps from 3-4 but to the phase S, T\nReturn Relay and Associated \nEquipment to Service\nReturn relay to service by removing the test terminal.\nMake sure VT secondary circuits are in normal condition.\nIf any equipment associated with the relay has been isolated, it \n should be returned to service by the following restoration steps \n * Breaker trip coils. \n * Breaker failure scheme associated this relay.\n * Disturbance alarm and fault recorder associated with \n this relay. Make sure VT secondary \n circuits are in normal condition.\nReturn the work permit.\nUnder voltage relay Technical Data\n220 DC | Aux. supply | RUZ3G | Relay type\n6 A | Contact rating | 100 v | Rated voltage\n25 A | Max. Contact rating | (4585) V 50 V | Current setting range\n0.1 VA | Burden | (0 - 6) sec 3 sec | Time setting range\nPotential Transformers Technical Data\nPT Location | PT\nGen. OUT | 6350 /86.6 /63.5 V 200 VA\n65 MW Generator (G1) \nTechnical Data\n65 | Voltage KV | 10.5 star | Power MW\n4450 A | Power Factor | 0.8 | current A\n65 MW Generator (G1) Under Voltage Relay (e104) \ntest sheet\nRemarks | Relay results | Ph | Relay Setting | Date\ntime | reset | Pick up | R | V = 50 V\n T = 3 sec | \n |  |  |  | S\n |  |  | T\nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

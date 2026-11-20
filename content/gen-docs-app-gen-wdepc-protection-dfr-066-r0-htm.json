@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Transformer \n Differential Protection Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "IRD1-T2"
-  },
-  {
-   "type": "paragraph",
-   "text": "SEG"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -171,44 +161,42 @@
    "text": "C.T.1 : \nC.T.2 :"
   },
   {
-   "type": "paragraph",
-   "text": "H.V Side"
-  },
-  {
-   "type": "paragraph",
-   "text": "L.V Side"
-  },
-  {
-   "type": "paragraph",
-   "text": "PH"
-  },
-  {
-   "type": "paragraph",
-   "text": "Pick up value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset\n Value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Pick up value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset\n Value"
-  },
-  {
-   "type": "paragraph",
-   "text": "R"
-  },
-  {
-   "type": "paragraph",
-   "text": "S"
-  },
-  {
-   "type": "paragraph",
-   "text": "T"
+   "type": "table",
+   "rows": [
+    [
+     "H.V Side",
+     "L.V Side"
+    ],
+    [
+     "PH",
+     "Pick up value",
+     "Reset\n Value",
+     "Pick up value",
+     "Reset\n Value"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -223,7 +211,7 @@
    "text": "Approved\nby: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Transformer \n Differential Protection Relay\nIRD1-T2\nSEG\nIntroduction\nThree phase differential Relay type IRD1-T2\nis primarily intended to protect the transformers. The Relay is connected\ndirectly to main current Transformer of each feeder of the protected item.\nThe first draft initiated by eng. \nMoustafa Osman ,tested and revised by eng.Ali Ghater , accepted by eng. Farag \nAbo Youseff :general manager, approved by eng. Gomaa Ghater: head sector of Kafr \nel Dawar Power Station, \nand certified by eng. Gaber Mohmed Frahat : WDEPC inspection and quality \ncontrol general director and MPIS coordinator.\nSafety Precautions\nThe equipment isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.\nTools and Equipment\nSecondary\ncurrent injection test set ( ISA Tester )\nAVO meter\nClamp ampere.\nWork to be Carried Out\nSteps to Prepare for\nRelay Testing\nObtain\noutage for transformer protected by this relay.\nObtain\ncopy of Relay setting from field maintenance file.\nCheck\nthat the bus\ndisconnecting switches are opened.\nInspect\nthe CT secondary circuits and all cables supplying the relay including matching\nCT'S.\nObtain\noutage for transformer protected by this relay.\nObtain\ncopy of Relay setting from field maintenance file.\nCheck\nthat the bus\ndisconnecting switches are opened.\nInspect\nthe CT secondary circuits and all cables supplying the relay including matching\nCT'S.\nPreparation\nThis\nprocedure is used to perform offload relay testing.\nCheck\nthere is no AC current from CT's by using a clip on ammeter.\nThis\nprocedure is used to perform offload relay testing.\nCheck\nthere is no AC current from CT's by using a clip on ammeter.\nTest\nSteps\nInject the current to points ( A3,A4 ) for phase R for H.V side\nIncrease the injected current gradually till the red\n flags of the injected phases appear then record the pick up value .\ninject current greater than\n pick up value then decrease injected current gradually until the red flag\n disappear then record the reset value .\ninject the current to point (B3,B4)\n for phase R for L.V side .\nincrease the injected\n current gradually till the red flag of the injected phases appear then\n record the pick up value .\ninject current greater than\n pick up value then decrease injected current gradually until the red flag\n disappear then record the reset value .\nRepeat the pervious steps from 1 to 6 for phase S but\n the injected current to points (A5,A6) H.V side,\n (B5,B6)L.V side .\nRepeat the pervious steps from 1 to 6 for phase T but\n the injected current to points (A7,A8) H.V side, (B7,B8)L.V side .\nReturning the Relays to Service\nCheck the return of relay- wires and trip-flags to\n their original places and tighten them carefully.\nBe sure that the relay is completely ready for\n service any time.\nReturn the work permission.\nTest Sheet\nStation : Unit :\nManufacturer :\nSEG GERMANY\nC.T.1 : \nC.T.2 :\nH.V Side\nL.V Side\nPH\nPick up value\nReset\n Value\nPick up value\nReset\n Value\nR\nS\nT\nTested\nby: \nSignature: \nTest Date:\nReviewed\nby: \nSignature:\nApproved\nby: \nSignature:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThree phase differential Relay type IRD1-T2\nis primarily intended to protect the transformers. The Relay is connected\ndirectly to main current Transformer of each feeder of the protected item.\nThe first draft initiated by eng. \nMoustafa Osman ,tested and revised by eng.Ali Ghater , accepted by eng. Farag \nAbo Youseff :general manager, approved by eng. Gomaa Ghater: head sector of Kafr \nel Dawar Power Station, \nand certified by eng. Gaber Mohmed Frahat : WDEPC inspection and quality \ncontrol general director and MPIS coordinator.\nSafety Precautions\nThe equipment isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.\nTools and Equipment\nSecondary\ncurrent injection test set ( ISA Tester )\nAVO meter\nClamp ampere.\nWork to be Carried Out\nSteps to Prepare for\nRelay Testing\nObtain\noutage for transformer protected by this relay.\nObtain\ncopy of Relay setting from field maintenance file.\nCheck\nthat the bus\ndisconnecting switches are opened.\nInspect\nthe CT secondary circuits and all cables supplying the relay including matching\nCT'S.\nObtain\noutage for transformer protected by this relay.\nObtain\ncopy of Relay setting from field maintenance file.\nCheck\nthat the bus\ndisconnecting switches are opened.\nInspect\nthe CT secondary circuits and all cables supplying the relay including matching\nCT'S.\nPreparation\nThis\nprocedure is used to perform offload relay testing.\nCheck\nthere is no AC current from CT's by using a clip on ammeter.\nThis\nprocedure is used to perform offload relay testing.\nCheck\nthere is no AC current from CT's by using a clip on ammeter.\nTest\nSteps\nInject the current to points ( A3,A4 ) for phase R for H.V side\nIncrease the injected current gradually till the red\n flags of the injected phases appear then record the pick up value .\ninject current greater than\n pick up value then decrease injected current gradually until the red flag\n disappear then record the reset value .\ninject the current to point (B3,B4)\n for phase R for L.V side .\nincrease the injected\n current gradually till the red flag of the injected phases appear then\n record the pick up value .\ninject current greater than\n pick up value then decrease injected current gradually until the red flag\n disappear then record the reset value .\nRepeat the pervious steps from 1 to 6 for phase S but\n the injected current to points (A5,A6) H.V side,\n (B5,B6)L.V side .\nRepeat the pervious steps from 1 to 6 for phase T but\n the injected current to points (A7,A8) H.V side, (B7,B8)L.V side .\nReturning the Relays to Service\nCheck the return of relay- wires and trip-flags to\n their original places and tighten them carefully.\nBe sure that the relay is completely ready for\n service any time.\nReturn the work permission.\nTest Sheet\nStation : Unit :\nManufacturer :\nSEG GERMANY\nC.T.1 : \nC.T.2 :\nH.V Side | L.V Side\nPH | Pick up value | Reset\n Value | Pick up value | Reset\n Value\nR |  |  |  | \nS |  |  |  | \nT |  |  |  | \nTested\nby: \nSignature: \nTest Date:\nReviewed\nby: \nSignature:\nApproved\nby: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -24,16 +24,32 @@
    "text": "نظام معلومات إجراءات الصيانة"
   },
   {
-   "type": "paragraph",
-   "text": "الإجراء:\n الصيانة\n السنوية \n (I1-Y1)"
-  },
-  {
    "type": "table",
    "rows": [
+    [
+     "نظام\nمعلومات إجراءات\nالصيانة"
+    ],
     [
      "",
      "الوقايــة",
      "إجـراءات الصيانـة"
+    ],
+    [
+     "رقم المستند:\n DsR-055-r0a",
+     "المعدة:\n الوقاية المسافية \n 7SA612\n Siemens"
+    ],
+    [
+     "صادرة الى: \n الكريمات"
+    ],
+    [
+     "الموقف: \n معتمـد"
+    ],
+    [
+     "تاريخ الاعتماد: \n 02 أبريل 2008",
+     "الإجراء:\n الصيانة\n السنوية \n (I1-Y1)"
+    ],
+    [
+     "تاريخ المراجعة \nالتالية: أبريل \n2013"
     ]
    ],
    "truncated_rows": 0
@@ -51,8 +67,26 @@
    "text": "احتياطات \n الأمـان"
   },
   {
-   "type": "paragraph",
-   "text": "اتباع تعليمات\n السلامة والصحة المهنية لسلامة الأفراد والمعدات"
+   "type": "table",
+   "rows": [
+    [
+     "فصل المفتاح وكذلك فصل سكينتي المفتاح",
+     ""
+    ],
+    [
+     "فتح \n فتح \n أمر شغل معتمد وتوفر كارت فئة\n السلامة والصحة المهنية\n للعاملين",
+     ""
+    ],
+    [
+     "تسوير \n مكان العمل ووضع لافتات التحذير اللازمة",
+     ""
+    ],
+    [
+     "اتباع تعليمات\n السلامة والصحة المهنية لسلامة الأفراد والمعدات",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -61,6 +95,18 @@
   {
    "type": "table",
    "rows": [
+    [
+     "جهاز حقن ثانوى \n Omicron CMC156.AE.6",
+     ""
+    ],
+    [
+     "اسلاك الاختبار",
+     ""
+    ],
+    [
+     "جهاز كمبيوتر \n Lab top",
+     ""
+    ],
     [
      "وصلة الاتصال \n RS232",
      ""
@@ -80,19 +126,19 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "ضع مفتاح اختبار \n (test switch) \n على وضع الاختبار",
      "1."
     ],
     [
-     "",
+     "صل اطراف التيار والجهد من جهاز الحقن\n Omicron \n على اطراف مفتاح الاختبار(A1,A2,A3,A4) \n للتيار و(B1,B2,B3,B4) \n للجهد",
      "2."
     ],
     [
-     "",
+     "صل اطراف فصل الحقن من \n Omicron \n الى اطراف مفاتيح الاختبارA6(-) \n & C1(+)(a",
      "3."
     ],
     [
-     "",
+     "صل الكمنيوتر المحمول(Lab \n top) \n بجهاز الوقاية المسافية \n (F301) \n بإستخدام وصلة الإتصال \n RS232",
      "4."
     ],
     [
@@ -108,6 +154,10 @@
     [
      "من \n الكمبيوتر المحمول نفذ الاتى:-",
      "6."
+    ],
+    [
+     "(Start → Programs → Digsi4.71 → \n File → Open) \n Korimat → \n Feeder (D07A + R1 for example) →Right click on Distance device(7SA612) \n (a7SAa",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -128,6 +178,10 @@
     [
      "افتح \n الملف المغاير ثم قم بالاتى :-",
      "8."
+    ],
+    [
+     "(Settings → Device configuration \n (all functions are disabled except the test function )→ OK)",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -138,6 +192,10 @@
     [
      "افتح",
      "9."
+    ],
+    [
+     "Setting group A → Distance zones \n (Quad) → Export → Rio \n File → OK → saves in (desktop). file name (save)]))",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -156,7 +214,27 @@
    "type": "table",
    "rows": [
     [
-     "تأكد \n من ان قيمة الضبط لتيار الاختبار 0.6 امبير",
+     "Distance\n Parameters (test object) \n → file → import →look in (Desktop) → file name → open file \n → save and exit",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Parameters → hardware \n configurations → bin / analog l/p trip+1/-1 110v) ok",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "تأكد \n من ان قيمة الضبط لتيار الاختبار 0.6 امبير\n Test current (0.6a) and trigger \n is (1)",
      ""
     ]
    ],
@@ -189,7 +267,7 @@
      "2."
     ],
     [
-     "",
+     "صل اطراف فصل الحقن من \n Omicron \n الى اطراف مفاتيح الاختبار (A6(-) \n & C1(+)(a",
      "3."
     ],
     [
@@ -205,6 +283,10 @@
      "6."
     ],
     [
+     "Start → Programs → Digsi4.71 → \n File → Open) \n Korimat → \n Feeder (D07A + R1 for example) →Right click on Distance device)",
+     ""
+    ],
+    [
      "قم بعمل جهاز مغاير \n (variant fille) \n لتغيير الضبطيات حتى لا يتم التغيير فى الملف الاصلى",
      "7."
     ],
@@ -213,12 +295,24 @@
      "8."
     ],
     [
+     "(Settings → Device configuration \n (All functions are disabled except the over current function )→ OK)a",
+     ""
+    ],
+    [
      "افتح",
      "9."
     ],
     [
+     "(Setting group A → back up over \n current → OK)",
+     ""
+    ],
+    [
      "من الكمبيوتر المحمول \n Lab top \n افتح Omicron \n ثم اتبع الاتى من شاشة \n Omicron",
      "10."
+    ],
+    [
+     "Quick CMC\n Parameters → hardware configurations → bin / analog l/p (trip +1/-1 110v ) ok",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -262,8 +356,30 @@
    "text": "Injection of 3 phase symmetric secondary Current"
   },
   {
-   "type": "paragraph",
-   "text": "Over \n Current"
+   "type": "table",
+   "rows": [
+    [
+     "Result",
+     "Test \n Results",
+     "Protection Settings",
+     "Protective Function"
+    ],
+    [
+     "",
+     "Time (Sec)",
+     "Current (A)",
+     "Time (Sec)",
+     "Current (A)",
+     "Over \n Current"
+    ],
+    [
+     "",
+     "",
+     "2.5",
+     "0.93"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -289,7 +405,7 @@
      "2."
     ],
     [
-     "",
+     "صل اطراف فصل الحقن من \n Omicron \n الى اطراف مفاتيح الاختبار (A6(-) \n & C1(+)(a",
      "3."
     ],
     [
@@ -305,6 +421,10 @@
      "6."
     ],
     [
+     "Start → Programs → Digsi4.71 → \n File → Open\n Korimat → \n Feeder (D07A + R1 for example) →Right click on Distance \n device",
+     ""
+    ],
+    [
      "قم بعمل جهاز مغاير \n (variant fille) \n لتغيير الضبطيات حتى لا يتم التغيير فى الملف الاصلى",
      "7."
     ],
@@ -313,12 +433,24 @@
      "8."
     ],
     [
+     "(Settings → Device configuration \n (All functions are disabled except the Earth fault over current function )→ OK)a",
+     ""
+    ],
+    [
      "افتح",
      "9."
     ],
     [
+     "(Setting group A → back up over \n current → OK)",
+     ""
+    ],
+    [
      "من الكمبيوتر المحمول \n Lab top \n افتح Omicron \n ثم اتبع الاتى من شاشة \n Omicron",
      "10."
+    ],
+    [
+     "Quick CMC\n Parameters → hardware configurations → bin / analog l/p (trip +1/-1 110v ) ok",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -369,6 +501,26 @@
    "type": "table",
    "rows": [
     [
+     "Protective Function",
+     "Protection Settings",
+     "Test \n Results",
+     "Result"
+    ],
+    [
+     "Earth Current",
+     "Current (A)",
+     "Time (Sec)",
+     "Current (A)",
+     "Time (Sec)",
+     ""
+    ],
+    [
+     "0.2",
+     "2.5",
+     "",
+     ""
+    ],
+    [
      "0.2",
      "2.5",
      "",
@@ -392,7 +544,7 @@
    "text": "القائم بالفحص: \nالتوقيع: \n تاريخ التنفيذ:"
   }
  ],
- "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\nالإجراء:\n الصيانة\n السنوية \n (I1-Y1)\n\nمقدمـة\nهذا \nالمستند يبين خطوات الاختبار \nوالمعايرة لجهاز الوقاية المسافية \n(7SA612)\n أعد المستند \nالمهندسة \n/ \nبسمه شعبان محفوظ \nوراجعه واختبره\nالمهندس \n/ \nمحمد أحمد رجب ووافق \nعليه المهندس / محمود أحمد محمود المدير العام واعتمده المهندس / فتحى السيد \nابراهيم رئيس القطاع \nبمحطة توليد الكريمات \nII \nوراجعه المهندس / جمال عبد الوهاب منسق نظام معلومات اجراءات الصيانة بشركة الوجه \nالقبلى لأنتاج الكهرباء .\nاحتياطات \n الأمـان\nاتباع تعليمات\n السلامة والصحة المهنية لسلامة الأفراد والمعدات\nالعدد والأدوات والأجهزة المستخدمة\n\nالإجراءات المطلوب تنفيذها\nاختبار الوقاية المسافية لجهاز الوقاية \n(7SA612)\n\n\n\n\n\n\n\n\n\nSystem:\nSub \nSystem:\nProtection function: over current\nTest with \nSecondary Injection: Testing Device: Omicron CMC-156\nInjection of 3 phase symmetric secondary Current\nOver \n Current\nاسم \nالموقع: \nكود المعدة:\nالقائم بالفحص: \nالتوقيع: \n تاريخ التنفيذ:\nاختبار ضد\nالتسرب الأرضى لجهاز الوقاية (7SA612)\n\n\nSystem:\nSub \nSystem:\nProtection function: Earth \ncurrent\nTest with \nSecondary Injection: Testing Device: Omicron CMC-156\nInjection of 1 phase secondary current to ground (R-E then S-E then T-E)\n\nاسم \nالموقع: \nكود المعدة:\nالقائم بالفحص: \nالتوقيع: \n تاريخ التنفيذ:",
+ "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\nنظام\nمعلومات إجراءات\nالصيانة\n | الوقايــة | إجـراءات الصيانـة\nرقم المستند:\n DsR-055-r0a | المعدة:\n الوقاية المسافية \n 7SA612\n Siemens\nصادرة الى: \n الكريمات\nالموقف: \n معتمـد\nتاريخ الاعتماد: \n 02 أبريل 2008 | الإجراء:\n الصيانة\n السنوية \n (I1-Y1)\nتاريخ المراجعة \nالتالية: أبريل \n2013\nمقدمـة\nهذا \nالمستند يبين خطوات الاختبار \nوالمعايرة لجهاز الوقاية المسافية \n(7SA612)\n أعد المستند \nالمهندسة \n/ \nبسمه شعبان محفوظ \nوراجعه واختبره\nالمهندس \n/ \nمحمد أحمد رجب ووافق \nعليه المهندس / محمود أحمد محمود المدير العام واعتمده المهندس / فتحى السيد \nابراهيم رئيس القطاع \nبمحطة توليد الكريمات \nII \nوراجعه المهندس / جمال عبد الوهاب منسق نظام معلومات اجراءات الصيانة بشركة الوجه \nالقبلى لأنتاج الكهرباء .\nاحتياطات \n الأمـان\nفصل المفتاح وكذلك فصل سكينتي المفتاح | \nفتح \n فتح \n أمر شغل معتمد وتوفر كارت فئة\n السلامة والصحة المهنية\n للعاملين | \nتسوير \n مكان العمل ووضع لافتات التحذير اللازمة | \nاتباع تعليمات\n السلامة والصحة المهنية لسلامة الأفراد والمعدات | \nالعدد والأدوات والأجهزة المستخدمة\nجهاز حقن ثانوى \n Omicron CMC156.AE.6 | \nاسلاك الاختبار | \nجهاز كمبيوتر \n Lab top | \nوصلة الاتصال \n RS232 | \nوصلة الاتصال \n RS485 | \nالإجراءات المطلوب تنفيذها\nاختبار الوقاية المسافية لجهاز الوقاية \n(7SA612)\nضع مفتاح اختبار \n (test switch) \n على وضع الاختبار | 1.\nصل اطراف التيار والجهد من جهاز الحقن\n Omicron \n على اطراف مفتاح الاختبار(A1,A2,A3,A4) \n للتيار و(B1,B2,B3,B4) \n للجهد | 2.\nصل اطراف فصل الحقن من \n Omicron \n الى اطراف مفاتيح الاختبارA6(-) \n & C1(+)(a | 3.\nصل الكمنيوتر المحمول(Lab \n top) \n بجهاز الوقاية المسافية \n (F301) \n بإستخدام وصلة الإتصال \n RS232 | 4.\nصل الكمبيوتر \n المحمول\n (Lab top) \n بجهاز الحقن \n Omicron \n باستخدام وصلة الاتصال \n R5485 | 5.\nمن \n الكمبيوتر المحمول نفذ الاتى:- | 6.\n(Start → Programs → Digsi4.71 → \n File → Open) \n Korimat → \n Feeder (D07A + R1 for example) →Right click on Distance device(7SA612) \n (a7SAa | \nقم بعمل جهاز مغاير \n (variant file) \n لتغيير الضبطيات حتى لا يتم التغيير فى الملف الاصلى | 7.\nافتح \n الملف المغاير ثم قم بالاتى :- | 8.\n(Settings → Device configuration \n (all functions are disabled except the test function )→ OK) | \nافتح | 9.\nSetting group A → Distance zones \n (Quad) → Export → Rio \n File → OK → saves in (desktop). file name (save)])) | \nمن الكمبيوتر المحمول \n Lab top \n افتح Omicron \n ثم اتبع الاتى من شاشة \n Omicron | 10.\nDistance\n Parameters (test object) \n → file → import →look in (Desktop) → file name → open file \n → save and exit | \nParameters → hardware \n configurations → bin / analog l/p trip+1/-1 110v) ok | \nتأكد \n من ان قيمة الضبط لتيار الاختبار 0.6 امبير\n Test current (0.6a) and trigger \n is (1) | \nاختر عدد من النقاط على \n R-X diagram\n لكلا \n من انواع fault\n L1E-L2E-L3E then \n L1L2-L1L3-L2L3-L1L2L3\n وذلك لان لكلا منهما الخاصية \n (characteristic) \n الخاصة به | 11.\nاضغط \n على بدء الاختبار | 12.\nبعد انتهاء الاختبار اذهب الى \n Report \n لقراءة وطباعة التقرير | 13.\nاختبار ضد زيادة \n التيار لجهاز الوقاية (7SA612)\nضع مفتاح اختبار \n (test switch) \n على وضع الاختبار | 1.\nصل اطراف التيار من جهاز الحقن\n Omicron \n على اطراف مفتاح الاختبار(A1,A2,A3,A4) \n للتيار | 2.\nصل اطراف فصل الحقن من \n Omicron \n الى اطراف مفاتيح الاختبار (A6(-) \n & C1(+)(a | 3.\nصل الكمنيوتر المحمول(lab \n top) \n بجهاز الوقاية المسافية \n (F301) \n بإستخدام وصلة الإتصال \n RS232 | 4.\nصل الكمبيوتر \n المحمول\n (Lab top) \n بجهاز الحقن \n Omicron \n باستخدام وصلة الاتصال \n RS485 | 5.\nمن \n الكمبيوتر المحمول نفذ الاتى:- | 6.\nStart → Programs → Digsi4.71 → \n File → Open) \n Korimat → \n Feeder (D07A + R1 for example) →Right click on Distance device) | \nقم بعمل جهاز مغاير \n (variant fille) \n لتغيير الضبطيات حتى لا يتم التغيير فى الملف الاصلى | 7.\nافتح \n الملف المغاير ثم قم بالاتى :- | 8.\n(Settings → Device configuration \n (All functions are disabled except the over current function )→ OK)a | \nافتح | 9.\n(Setting group A → back up over \n current → OK) | \nمن الكمبيوتر المحمول \n Lab top \n افتح Omicron \n ثم اتبع الاتى من شاشة \n Omicron | 10.\nQuick CMC\n Parameters → hardware configurations → bin / analog l/p (trip +1/-1 110v ) ok | \nإحقن قيمة التيار علي الثلاث فازات بقيمة أقل من قيمة الضبط ( \n 0,93 أمبير)ثم زيادة هذة القيمة تدريجيا لمعرفة\n القيمة الفعلية | 11.\nإحقن القيمة الفعلية للتيار لحظيا لمعرفة الزمن الفعلي للفصل | 12.\nإدخل نتائج الإختبار داخل صفحة الإختبارِالموضحة | 13.\nSystem:\nSub \nSystem:\nProtection function: over current\nTest with \nSecondary Injection: Testing Device: Omicron CMC-156\nInjection of 3 phase symmetric secondary Current\nResult | Test \n Results | Protection Settings | Protective Function\n | Time (Sec) | Current (A) | Time (Sec) | Current (A) | Over \n Current\n |  | 2.5 | 0.93\nاسم \nالموقع: \nكود المعدة:\nالقائم بالفحص: \nالتوقيع: \n تاريخ التنفيذ:\nاختبار ضد\nالتسرب الأرضى لجهاز الوقاية (7SA612)\nضع مفتاح اختبار \n (test switch) \n على وضع الاختبار | 1.\nصل اطراف التيار من جهاز الحقن\n Omicron \n على اطراف مفتاح الاختبار(A1,A2,A3,A4) \n للتيار | 2.\nصل اطراف فصل الحقن من \n Omicron \n الى اطراف مفاتيح الاختبار (A6(-) \n & C1(+)(a | 3.\nصل الكمنيوتر المحمول(lab \n top) \n بجهاز الوقاية المسافية \n (F301) \n بإستخدام وصلة الإتصال \n RS232 | 4.\nصل الكمبيوتر \n المحمول\n (Lab top) \n بجهاز الحقن \n Omicron \n باستخدام وصلة الاتصال \n RS485 | 5.\nمن \n الكمبيوتر المحمول نفذ الاتى:- | 6.\nStart → Programs → Digsi4.71 → \n File → Open\n Korimat → \n Feeder (D07A + R1 for example) →Right click on Distance \n device | \nقم بعمل جهاز مغاير \n (variant fille) \n لتغيير الضبطيات حتى لا يتم التغيير فى الملف الاصلى | 7.\nافتح \n الملف المغاير ثم قم بالاتى :- | 8.\n(Settings → Device configuration \n (All functions are disabled except the Earth fault over current function )→ OK)a | \nافتح | 9.\n(Setting group A → back up over \n current → OK) | \nمن الكمبيوتر المحمول \n Lab top \n افتح Omicron \n ثم اتبع الاتى من شاشة \n Omicron | 10.\nQuick CMC\n Parameters → hardware configurations → bin / analog l/p (trip +1/-1 110v ) ok | \nإحقن قيمة التيار علي افازة \n واحدة\n بقيمة أقل من قيمة الضبط ( 0,2\n أمبير)ثم زيادة هذة القيمة تدريجيا لمعرفة\n القيمة الفعلية | 11.\nإحقن القيمة الفعلية للتيار لحظيا لمعرفة الزمن الفعلي للفصل | 12.\nكرر الحقن السابق على الثلاث فازات كلا على حده | 13.\nإدخل نتائج الإختبار داخل صفحة الإختبارِالموضحة | 14.\nSystem:\nSub \nSystem:\nProtection function: Earth \ncurrent\nTest with \nSecondary Injection: Testing Device: Omicron CMC-156\nInjection of 1 phase secondary current to ground (R-E then S-E then T-E)\nProtective Function | Protection Settings | Test \n Results | Result\nEarth Current | Current (A) | Time (Sec) | Current (A) | Time (Sec) | \n0.2 | 2.5 |  | \n0.2 | 2.5 |  | \n0.2 | 2.5 |  | \nاسم \nالموقع: \nكود المعدة:\nالقائم بالفحص: \nالتوقيع: \n تاريخ التنفيذ:",
  "text_truncated": false,
  "links": [
   {

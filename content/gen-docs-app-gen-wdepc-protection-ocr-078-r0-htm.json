@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -141,14 +151,34 @@
    "text": "Over Current Relay Technical Data"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Aux. supply"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Rated current"
+   "type": "table",
+   "rows": [
+    [
+     "220 DC",
+     "Aux. supply",
+     "RSZ3G",
+     "Relay type"
+    ],
+    [
+     "6 A",
+     "Contact rating",
+     "5A",
+     "Rated current"
+    ],
+    [
+     "25 A",
+     "Max. Contact rating",
+     "(4 10 ) A 4.4 A",
+     "Current setting range"
+    ],
+    [
+     "0.1 VA",
+     "Burden",
+     "0.4 - 12) sec 3sec \n )",
+     "Time \n setting range"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -156,42 +186,90 @@
    "text": "Current Transformers \nTechnical Data"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "CT"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "CT \n location"
+   "type": "table",
+   "rows": [
+    [
+     "CT",
+     "CT \n location"
+    ],
+    [
+     "Cl 1 n>10 - 30 VA (6000/5) \n A (f28-f29-f30)",
+     "Star point side"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "65 MW Generator (G1) Technical \nData"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "10.5 star",
+     "Voltage KV",
+     "65",
+     "Power \n MW"
+    ],
+    [
+     "0.8",
+     "Power factor",
+     "4450 A",
+     "current A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "65 MW Generator\n(G1) Over current relay\n (e84) test sheet"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Relay \n results"
-  },
-  {
-   "type": "paragraph",
-   "text": "I = 4.4 A"
-  },
-  {
-   "type": "paragraph",
-   "text": "T = 3sec"
+   "type": "table",
+   "rows": [
+    [
+     "remarks",
+     "Relay \n results",
+     "Ph.",
+     "Relay Setting",
+     "Date"
+    ],
+    [
+     "time",
+     "reset",
+     "Pick up"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "R",
+     "I = 4.4 A\n T = 3sec",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "T"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:"
   }
  ],
- "text": "Introduction\nThis document outlines the maintenance procedures P1 to completely check the proper operation and \ncalibration of the relay, this procedures must \nbe performed on yearly bases as indicated by Y1 in the title block.\nThe document is formatted the way to minimize the \npossibility of error causing personal injury or damage to equipment.\nThe first draft initiated by eng. Rasha Soliman, \ntested by eng Mohamed Rabee, accepted by general director eng. Hamdy Dorgam, \napproved by eng. Mohamed Abou Aiasha head sector of Damanhour power station and \nand\ncertified by eng. \nGaber Farahat \nWDEPC Inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nLine isolation is required.\nThe voltage transformer must be out of service.\nTools and Equipment\nSecondary injection test \n set .\nVoltmeter, clamp ammeter.\nTest leads, complete tool set.\nWork to be carried out\nOver current test\nDisconnect the circuit \n breaker .\nRemove the OC relay set \n for phase ( R )\nConnect test leads between the current terminal ( 1&4 ) on the OC \n relay set\nIncrease the injected \n current slowly until the red indication on over-current set appears\nRecord this value on \n the test sheet ( adjust it if needed )\nSwitch off the test set\nRepeat the above test from step ( 2 ) to ( 6 ) for phase ( S ) \n but the terminals (2 -5)\nRepeat the above test from step ( 2 ) to ( 6 ) for phase ( \n T ) but the terminals (3 -6)\nTime test\nRise the current at the pick up of the \nrelay\nTurn off the tester\nConnect test leads between the timer leads \n(15 -16) (the relay contact)\nTurn on the tester\nRecord this value in the test sheet\nRepeat the steps of timer for phases S and \nT\nRise the current at the pick up of the \nrelay\nTurn off the tester\nConnect test leads between the timer leads \n(15 -16) (the relay contact)\nTurn on the tester\nRecord this value in the test sheet\nRepeat the steps of timer for phases S and \nT\nReturn relay to service\nDisconnect the test leads from the terminal on the OC relay\nPut the OC relay set on this place.\nIf any equipment associated with the relay has been isolated, it should be \n returned to service by the following restoration: steps:\n * Breaker trip coil.\n * Breaker failure scheme associated with this relay.\n * Disturbance alarm and fault recorder associated with this relay.\nOver Current Relay Technical Data\nAux. supply\nRated current\nCurrent Transformers \nTechnical Data\nCT\nCT \n location\n65 MW Generator (G1) Technical \nData\n65 MW Generator\n(G1) Over current relay\n (e84) test sheet\nRelay \n results\nI = 4.4 A\nT = 3sec\nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document outlines the maintenance procedures P1 to completely check the proper operation and \ncalibration of the relay, this procedures must \nbe performed on yearly bases as indicated by Y1 in the title block.\nThe document is formatted the way to minimize the \npossibility of error causing personal injury or damage to equipment.\nThe first draft initiated by eng. Rasha Soliman, \ntested by eng Mohamed Rabee, accepted by general director eng. Hamdy Dorgam, \napproved by eng. Mohamed Abou Aiasha head sector of Damanhour power station and \nand\ncertified by eng. \nGaber Farahat \nWDEPC Inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nLine isolation is required.\nThe voltage transformer must be out of service.\nTools and Equipment\nSecondary injection test \n set .\nVoltmeter, clamp ammeter.\nTest leads, complete tool set.\nWork to be carried out\nOver current test\nDisconnect the circuit \n breaker .\nRemove the OC relay set \n for phase ( R )\nConnect test leads between the current terminal ( 1&4 ) on the OC \n relay set\nIncrease the injected \n current slowly until the red indication on over-current set appears\nRecord this value on \n the test sheet ( adjust it if needed )\nSwitch off the test set\nRepeat the above test from step ( 2 ) to ( 6 ) for phase ( S ) \n but the terminals (2 -5)\nRepeat the above test from step ( 2 ) to ( 6 ) for phase ( \n T ) but the terminals (3 -6)\nTime test\nRise the current at the pick up of the \nrelay\nTurn off the tester\nConnect test leads between the timer leads \n(15 -16) (the relay contact)\nTurn on the tester\nRecord this value in the test sheet\nRepeat the steps of timer for phases S and \nT\nRise the current at the pick up of the \nrelay\nTurn off the tester\nConnect test leads between the timer leads \n(15 -16) (the relay contact)\nTurn on the tester\nRecord this value in the test sheet\nRepeat the steps of timer for phases S and \nT\nReturn relay to service\nDisconnect the test leads from the terminal on the OC relay\nPut the OC relay set on this place.\nIf any equipment associated with the relay has been isolated, it should be \n returned to service by the following restoration: steps:\n * Breaker trip coil.\n * Breaker failure scheme associated with this relay.\n * Disturbance alarm and fault recorder associated with this relay.\nOver Current Relay Technical Data\n220 DC | Aux. supply | RSZ3G | Relay type\n6 A | Contact rating | 5A | Rated current\n25 A | Max. Contact rating | (4 10 ) A 4.4 A | Current setting range\n0.1 VA | Burden | 0.4 - 12) sec 3sec \n ) | Time \n setting range\nCurrent Transformers \nTechnical Data\nCT | CT \n location\nCl 1 n>10 - 30 VA (6000/5) \n A (f28-f29-f30) | Star point side\n65 MW Generator (G1) Technical \nData\n10.5 star | Voltage KV | 65 | Power \n MW\n0.8 | Power factor | 4450 A | current A\n65 MW Generator\n(G1) Over current relay\n (e84) test sheet\nremarks | Relay \n results | Ph. | Relay Setting | Date\ntime | reset | Pick up\n |  |  |  | R | I = 4.4 A\n T = 3sec | \n |  |  | S\n |  |  | T\nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

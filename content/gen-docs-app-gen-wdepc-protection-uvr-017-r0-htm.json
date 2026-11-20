@@ -14,28 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Under / Over Voltage Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "SPAU130 C"
-  },
-  {
-   "type": "paragraph",
-   "text": "ABB"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -217,51 +203,47 @@
    "text": "Auxiliary PS : V"
   },
   {
-   "type": "paragraph",
-   "text": "Test"
-  },
-  {
-   "type": "paragraph",
-   "text": "Phase"
-  },
-  {
-   "type": "paragraph",
-   "text": "V setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "V pick up"
-  },
-  {
-   "type": "paragraph",
-   "text": "V\n Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset factor"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time Record"
-  },
-  {
-   "type": "paragraph",
-   "text": "U.V"
-  },
-  {
-   "type": "paragraph",
-   "text": "O.V"
+   "type": "table",
+   "rows": [
+    [
+     "Test",
+     "Phase",
+     "V setting",
+     "V pick up",
+     "V\n Reset",
+     "Reset factor",
+     "Time setting",
+     "Time Record"
+    ],
+    [
+     "U.V",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "O.V",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Tested by : Signature : .. Last Test Date :\n/ /\nReviewed by : Signature :.. Test Date /\n/\nApproved by : Signature : …………..…………"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\nUnder / Over Voltage Relay\nSPAU130 C\nABB\nIntroduction\nThese\nprocedure details the steps required to completely check the proper operation\nand calibration of SPAU130 C relay. It\nis recommended this procedure be carried out every four years bases on the first\npreliminary steps to prepare for relay testing describes the activates required\nprior to testing .\nThe first draft initiated by eng. \nMoustafa Osman ,tested and revised by eng.Ali Ghater , accepted by eng. Farag \nAbo Youseff :general manager, approved by eng. Gomaa Ghater: head sector of Kafr \nel Dawar Power Station, \nand certified by eng. Gaber Mohmed Frahat : WDEPC inspection and quality \ncontrol general director and MPIS coordinato\nSafety Precautions\nThe equipment isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nTools and Equipment\nSecondary voltage injection test set .\nAVO meter\nSecondary voltage injection test set .\nAVO meter\nWork to be Carried Out\nPreparation\nReview technical reference and\nmanufacture manual .\nObtain a copy of relay setting\nfrom field maintenance file and compare it with setting on the relay\nReview technical reference and\nmanufacture manual .\nObtain a copy of relay setting\nfrom field maintenance file and compare it with setting on the relay\nTesting Procedures\nIsolate the secondary terminal of the\nvoltage transformer.\nConnect the voltage test set terminals to\nphase R (13) ,phase S ( 16 ) and phase T (19).\nInject the three phase voltage (each\nphase = 57.7 V) to the relay.\nDecrease the voltage to phase R gradually\nuntil the red flag for phase R appears then record VR (pick - up)\nIncrease the voltage to phase R gradually until the red flag disappear then\nrecord VR (reset)\nRepeat the steps (4,5)\nfor the phases (S , T ).\nInject the three phase voltage (each\nphase = 57.7 V) to the relay\nIncrease the voltage to phase R gradually\nuntil the red flag for phase R appears then record VR (pick - up) and time .\nDecrease the voltage to phase R gradually until the red flag disappear then\nrecord VR (reset)\nRepeat the steps (8,9) for the\nphases (S , T )\nIsolate the secondary terminal of the\nvoltage transformer.\nConnect the voltage test set terminals to\nphase R (13) ,phase S ( 16 ) and phase T (19).\nInject the three phase voltage (each\nphase = 57.7 V) to the relay.\nDecrease the voltage to phase R gradually\nuntil the red flag for phase R appears then record VR (pick - up)\nIncrease the voltage to phase R gradually until the red flag disappear then\nrecord VR (reset)\nRepeat the steps (4,5)\nfor the phases (S , T ).\nInject the three phase voltage (each\nphase = 57.7 V) to the relay\nIncrease the voltage to phase R gradually\nuntil the red flag for phase R appears then record VR (pick - up) and time .\nDecrease the voltage to phase R gradually until the red flag disappear then\nrecord VR (reset)\nRepeat the steps (8,9) for the\nphases (S , T )\nReturn Relay and Associated\nEquipment to Service\nReturn relay to service by removing the\ntest terminal .\nMake sure VT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service.\nReturn relay to service by removing the\ntest terminal .\nMake sure VT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service.\nReturn the work permit.\nTest sheet\nStation:\nCircuit\nDate\nRated voltage : V\nAuxiliary PS : V\nTest\nPhase\nV setting\nV pick up\nV\n Reset\nReset factor\nTime setting\nTime Record\nU.V\nO.V\nTested by : Signature : .. Last Test Date :\n/ /\nReviewed by : Signature :.. Test Date /\n/\nApproved by : Signature : …………..…………",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThese\nprocedure details the steps required to completely check the proper operation\nand calibration of SPAU130 C relay. It\nis recommended this procedure be carried out every four years bases on the first\npreliminary steps to prepare for relay testing describes the activates required\nprior to testing .\nThe first draft initiated by eng. \nMoustafa Osman ,tested and revised by eng.Ali Ghater , accepted by eng. Farag \nAbo Youseff :general manager, approved by eng. Gomaa Ghater: head sector of Kafr \nel Dawar Power Station, \nand certified by eng. Gaber Mohmed Frahat : WDEPC inspection and quality \ncontrol general director and MPIS coordinato\nSafety Precautions\nThe equipment isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nTools and Equipment\nSecondary voltage injection test set .\nAVO meter\nSecondary voltage injection test set .\nAVO meter\nWork to be Carried Out\nPreparation\nReview technical reference and\nmanufacture manual .\nObtain a copy of relay setting\nfrom field maintenance file and compare it with setting on the relay\nReview technical reference and\nmanufacture manual .\nObtain a copy of relay setting\nfrom field maintenance file and compare it with setting on the relay\nTesting Procedures\nIsolate the secondary terminal of the\nvoltage transformer.\nConnect the voltage test set terminals to\nphase R (13) ,phase S ( 16 ) and phase T (19).\nInject the three phase voltage (each\nphase = 57.7 V) to the relay.\nDecrease the voltage to phase R gradually\nuntil the red flag for phase R appears then record VR (pick - up)\nIncrease the voltage to phase R gradually until the red flag disappear then\nrecord VR (reset)\nRepeat the steps (4,5)\nfor the phases (S , T ).\nInject the three phase voltage (each\nphase = 57.7 V) to the relay\nIncrease the voltage to phase R gradually\nuntil the red flag for phase R appears then record VR (pick - up) and time .\nDecrease the voltage to phase R gradually until the red flag disappear then\nrecord VR (reset)\nRepeat the steps (8,9) for the\nphases (S , T )\nIsolate the secondary terminal of the\nvoltage transformer.\nConnect the voltage test set terminals to\nphase R (13) ,phase S ( 16 ) and phase T (19).\nInject the three phase voltage (each\nphase = 57.7 V) to the relay.\nDecrease the voltage to phase R gradually\nuntil the red flag for phase R appears then record VR (pick - up)\nIncrease the voltage to phase R gradually until the red flag disappear then\nrecord VR (reset)\nRepeat the steps (4,5)\nfor the phases (S , T ).\nInject the three phase voltage (each\nphase = 57.7 V) to the relay\nIncrease the voltage to phase R gradually\nuntil the red flag for phase R appears then record VR (pick - up) and time .\nDecrease the voltage to phase R gradually until the red flag disappear then\nrecord VR (reset)\nRepeat the steps (8,9) for the\nphases (S , T )\nReturn Relay and Associated\nEquipment to Service\nReturn relay to service by removing the\ntest terminal .\nMake sure VT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service.\nReturn relay to service by removing the\ntest terminal .\nMake sure VT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service.\nReturn the work permit.\nTest sheet\nStation:\nCircuit\nDate\nRated voltage : V\nAuxiliary PS : V\nTest | Phase | V setting | V pick up | V\n Reset | Reset factor | Time setting | Time Record\nU.V |  |  |  |  |  |  | \nO.V |  |  |  |  |  |  | \nTested by : Signature : .. Last Test Date :\n/ /\nReviewed by : Signature :.. Test Date /\n/\nApproved by : Signature : …………..…………",
  "text_truncated": false,
  "links": [],
  "images": [

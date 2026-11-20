@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -154,12 +152,90 @@
    "text": "General Data"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Feeder name plate",
+     ""
+    ],
+    [
+     "Serial number",
+     ""
+    ],
+    [
+     "Model number",
+     "SR469-P5-H1-A20"
+    ],
+    [
+     "Full load current (FLC)",
+     ""
+    ],
+    [
+     "Rated current (IN)",
+     "5 AMP"
+    ],
+    [
+     "Aux. voltage (VPS)",
+     "125 VDC"
+    ],
+    [
+     "GEK",
+     "1601-0013-c5"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Current Transformers Ratio"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase CT",
+     "Ground Fault CT"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Checking"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "For damaged",
+     ""
+    ],
+    [
+     "CT short switch",
+     ""
+    ],
+    [
+     "External wtring to diagram",
+     ""
+    ],
+    [
+     "Earth connection to case",
+     ""
+    ],
+    [
+     "Test block connection",
+     ""
+    ],
+    [
+     "Motor running hours (A4)",
+     ""
+    ],
+    [
+     "Number of trip since last \n commissioning",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -201,8 +277,55 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Expected RTD"
+   "type": "table",
+   "rows": [
+    [
+     "Injected Current",
+     "Expected RTD \n Temp.",
+     "Measure RTD Temp."
+    ],
+    [
+     "Phase A",
+     "Phase B",
+     "Phase C"
+    ],
+    [
+     "1",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -217,24 +340,45 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Applied line"
-  },
-  {
-   "type": "paragraph",
-   "text": "Expected"
-  },
-  {
-   "type": "paragraph",
-   "text": "Measured voltage"
-  },
-  {
-   "type": "paragraph",
-   "text": "Measured voltage"
-  },
-  {
-   "type": "paragraph",
-   "text": "Measured voltage"
+   "type": "table",
+   "rows": [
+    [
+     "Applied line \n neutral voltage",
+     "Expected \n voltage",
+     "Measured voltage\n phase\n A-B",
+     "Measured voltage\n phase\n B-C",
+     "Measured voltage\n phase\n C-A"
+    ],
+    [
+     "30 V",
+     "1575 V",
+     "",
+     "",
+     ""
+    ],
+    [
+     "60 V",
+     "3150 V",
+     "",
+     "",
+     ""
+    ],
+    [
+     "90 V",
+     "4725 V",
+     "",
+     "",
+     ""
+    ],
+    [
+     "120 V",
+     "6300 V",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -250,28 +394,79 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Injected"
-  },
-  {
-   "type": "paragraph",
-   "text": "Expected"
-  },
-  {
-   "type": "paragraph",
-   "text": "Measured"
-  },
-  {
-   "type": "paragraph",
-   "text": "Measured"
-  },
-  {
-   "type": "paragraph",
-   "text": "Measured"
+   "type": "table",
+   "rows": [
+    [
+     "Injected \n Current",
+     "Expected \n Current",
+     "Measured \n Diff. Current \n Phase A",
+     "Measured \n Diff. Current \n Phase B",
+     "Measured \n Diff. Current Phase C"
+    ],
+    [
+     "0.45 A",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.0 A",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2.5 A",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5 A",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Differential \nTripping Test"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Setting Values",
+     "Measure value"
+    ],
+    [
+     "Phase A",
+     "Phase B",
+     "Phase C"
+    ],
+    [
+     "Current",
+     "1.25A",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time",
+     "20 m sec",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -283,6 +478,37 @@
     "Setpoint S6",
     "Injected current will be on terminals G9,H9"
    ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Ground Fault",
+     "Current",
+     "Time"
+    ],
+    [
+     "Setting",
+     "Measure",
+     "Setting",
+     "Measure"
+    ],
+    [
+     "Alarm",
+     "0.5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Trip",
+     "0.75",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -298,6 +524,39 @@
     "Setpoint \n values / RTD setpoint",
     "Actual \n values / RTD temperature"
    ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "APPLIED \n RESISTANCE",
+     "EXPECTED\n RTD TEMP.",
+     "FUNCTION",
+     "MEASURE RTD TEMP."
+    ],
+    [
+     "RTD#1",
+     "RTD#3",
+     "RTD#5"
+    ],
+    [
+     "Ω",
+     "",
+     "ALARM",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Ω",
+     "",
+     "TRIP",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -320,6 +579,18 @@
    "text": "MOTOR FLC (amp) = O/L Pick-up Level (%) = 3XFLC \n Injected Current =3XFLC"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "O/L Curve Number",
+     "Injected Current",
+     "Expected Time",
+     "Time Measured"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Note:\nChange the unbalance trip to off\nChange the mechanical al jam trip to off"
   },
@@ -335,6 +606,17 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Injected Current",
+     "Expected Time to Trip",
+     "Measured Time to Trip"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Unbalance Test"
   },
@@ -343,11 +625,53 @@
    "text": "Set Points S6"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Pick-up Level",
+     "Measure"
+    ],
+    [
+     "Unbalance Alarm",
+     "",
+     ""
+    ],
+    [
+     "Unbalance Trip",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Time Setting",
+     "Measure"
+    ],
+    [
+     "Unbalance Alarm",
+     "",
+     ""
+    ],
+    [
+     "Unbalance Trip",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: \nRelay Designation: Tested by: \nSignature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment:\nIntroduction\nThe SR469 \nMotor Management Relay is a microprocessor based relay designed for the \nprotection and management of medium and large horsepower motors and driven \nequipment. The SR469 is equipped with 6 output relays for trips, alarms, and \nstart blocks. Motor protection, fault diagnostics, power metering, and RTU \nfunctions are integrated into one economical draw out package.\nThe first draft created & tested by eng. Elkassem Mohamed \nElbendary, reviewed by eng. Abdel-Naser Moustafa Ahmed, accepted by \neng. Shawky Attalla: \ngeneral manager, approved by eng. Abdel Elmegeed \nEmara head sector of SIDI KRIR Power Station, and \ncertified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nEnsure all CT path elements are secure after any test disturbance\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nMake sure CT secondary circuits are shorted\nMotor out of service and work permit required\nEnsure all CT path elements are secure after any test disturbance\nTools and Equipment\nSingle \n phase Secondary Injection Test Set MTM2.\nTest plug, Test Leads, \n Variable resistance\nAmmeter, Voltmeter\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or \n commissioning results of the relay testing.\nCheck the AC source is available \n to the tester.\nCheck the existence of the DC \n sources in panels.\nDisconnect the trip leads of the \n relay and connect one of them to the timer of the tester.\nCheck all the leads used in tests\nTest Steps\nConnect the current leads of a tester unit to the \n relay points according to the drawings and scheme.\nInject current to each couple of points till the \n red led of the device displays.\nRepeat the steps for each pair of points according \n to the test sheet.\nRecord the results.\nTesting the \nRelay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting.\nTest trip the circuit breaker associated with the \n relay\nTrip \nTest\nRequest the operator to switch on \n the main circuit breaker.\nOperate the output auxiliary \n contact by injection to trip the circuit breaker.\nCheck that the circuit breaker \n tripped.\nTest \nSheet\nPower station \nname: \nRelay type: Motor \nmanagement relay 469 Plus\nGeneral Data\nCurrent Transformers Ratio\nChecking\nNotes:\nRemove the DC plugs before any connections or disconnections of wires\nBefore performing the test following terminals must be shorted\nC1 & C2 to allow changing have any set point values\nC3 & C4 to prevent and of relay data from being corrupted of updated when \n relays is under test\nD17 & D23 \" emergency switch \" used in emergency as itdefeats the purpose of \n the relay, since it reset all trips and alarms so that a hot motor may be \n restarted\nTrip contact terminals (E2 & F1) to be wire free and connected to the test set \n timer.\nMake that the lockout relay is in off position\nIsconnect and isolate the av voltage terminals G1, H1, G2, H2\nFor single phase injection remove the current terminals H6, H7, H8, G6, G7, \n G8, AND bridge H6,G7 AND H7,G8 and current to be injected on terminals G6,H8\nSet the unbalanced trip setting \"A6\" to be off during current tests\nPhase Current \nAccuracy Test\nInjection will be single phase to \n neutral on the following terminals G6,H6 & G7, H7 & G8, H8 setpoint S2 system \n setup / current sensing / phase ct primary actual values A2 : metering data / \n current metering\nExpected RTD\nVoltage Input \nAccuracy Test\nSetpoint S2: system setup / voltage sensing / vtration connection type Y\nSetpoint S2: system setup / voltage sensing / vtration 52.5:1\nActual value A2 : metering data / voltage metering\nApplied line\nExpected\nMeasured voltage\nMeasured voltage\nMeasured voltage\nDifferential \nAccuracy Test\nInjected current will be on the following terminals G3,H3&G4,H4&G5,H5\nSetpoint S2 : system setup / current sensing / phase diff. ct\nSetpoint S2 : system setup / current sensing / ground ct\nActual values A2: metering data / current metering\nInjected\nExpected\nMeasured\nMeasured\nMeasured\nDifferential \nTripping Test\nGround Fault Test\nSetpoint S6\nInjected current will be on terminals G9,H9\nRTD Accuracy Test\nAn external resistance to be connected as one terminal to point A1 for rtd #3 \n remove terminals no 9,10,11 and an external resist ANCE to be connected as one \n side to the + VE terminal point # and the other side to be the - VE and common \n points 10,11(shorted together) and the same for RTD #1 & RTD # 5\nSetpoint \n values / RTD setpoint\nActual \n values / RTD temperature\nOver Load Curve \nTest\nIn order to inject 3\nOver Load Curve \nTest\nIn order to inject 3 phase current, jumper terminals 76,78 and 79,81 and \n inject current on terminals 75,82 any trip must be reset prior to each test, \n short the emergency restart terminals momentarily immediately prior to each \n over load curve test to ensure that the thermal capacity used is zero.\nMOTOR FLC (amp) = O/L Pick-up Level (%) = 3XFLC \n Injected Current =3XFLC\nNote:\nChange the unbalance trip to off\nChange the mechanical al jam trip to off\nShort Circuit Test\nS set-point / motor \n amps set point\nCurrent inject = \n 4XCT\nUnbalance Test\nSet Points S6\nLocation: \nRelay Designation: Tested by: \nSignature: \nTest Date:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe SR469 \nMotor Management Relay is a microprocessor based relay designed for the \nprotection and management of medium and large horsepower motors and driven \nequipment. The SR469 is equipped with 6 output relays for trips, alarms, and \nstart blocks. Motor protection, fault diagnostics, power metering, and RTU \nfunctions are integrated into one economical draw out package.\nThe first draft created & tested by eng. Elkassem Mohamed \nElbendary, reviewed by eng. Abdel-Naser Moustafa Ahmed, accepted by \neng. Shawky Attalla: \ngeneral manager, approved by eng. Abdel Elmegeed \nEmara head sector of SIDI KRIR Power Station, and \ncertified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nEnsure all CT path elements are secure after any test disturbance\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nMake sure CT secondary circuits are shorted\nMotor out of service and work permit required\nEnsure all CT path elements are secure after any test disturbance\nTools and Equipment\nSingle \n phase Secondary Injection Test Set MTM2.\nTest plug, Test Leads, \n Variable resistance\nAmmeter, Voltmeter\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or \n commissioning results of the relay testing.\nCheck the AC source is available \n to the tester.\nCheck the existence of the DC \n sources in panels.\nDisconnect the trip leads of the \n relay and connect one of them to the timer of the tester.\nCheck all the leads used in tests\nTest Steps\nConnect the current leads of a tester unit to the \n relay points according to the drawings and scheme.\nInject current to each couple of points till the \n red led of the device displays.\nRepeat the steps for each pair of points according \n to the test sheet.\nRecord the results.\nTesting the \nRelay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting.\nTest trip the circuit breaker associated with the \n relay\nTrip \nTest\nRequest the operator to switch on \n the main circuit breaker.\nOperate the output auxiliary \n contact by injection to trip the circuit breaker.\nCheck that the circuit breaker \n tripped.\nTest \nSheet\nPower station \nname: \nRelay type: Motor \nmanagement relay 469 Plus\nGeneral Data\nFeeder name plate | \nSerial number | \nModel number | SR469-P5-H1-A20\nFull load current (FLC) | \nRated current (IN) | 5 AMP\nAux. voltage (VPS) | 125 VDC\nGEK | 1601-0013-c5\nCurrent Transformers Ratio\nPhase CT | Ground Fault CT\nChecking\nFor damaged | \nCT short switch | \nExternal wtring to diagram | \nEarth connection to case | \nTest block connection | \nMotor running hours (A4) | \nNumber of trip since last \n commissioning | \nNotes:\nRemove the DC plugs before any connections or disconnections of wires\nBefore performing the test following terminals must be shorted\nC1 & C2 to allow changing have any set point values\nC3 & C4 to prevent and of relay data from being corrupted of updated when \n relays is under test\nD17 & D23 \" emergency switch \" used in emergency as itdefeats the purpose of \n the relay, since it reset all trips and alarms so that a hot motor may be \n restarted\nTrip contact terminals (E2 & F1) to be wire free and connected to the test set \n timer.\nMake that the lockout relay is in off position\nIsconnect and isolate the av voltage terminals G1, H1, G2, H2\nFor single phase injection remove the current terminals H6, H7, H8, G6, G7, \n G8, AND bridge H6,G7 AND H7,G8 and current to be injected on terminals G6,H8\nSet the unbalanced trip setting \"A6\" to be off during current tests\nPhase Current \nAccuracy Test\nInjection will be single phase to \n neutral on the following terminals G6,H6 & G7, H7 & G8, H8 setpoint S2 system \n setup / current sensing / phase ct primary actual values A2 : metering data / \n current metering\nInjected Current | Expected RTD \n Temp. | Measure RTD Temp.\nPhase A | Phase B | Phase C\n1 |  |  |  | \n2 |  |  |  | \n3 |  |  |  | \n4 |  |  |  | \n5 |  |  |  | \nVoltage Input \nAccuracy Test\nSetpoint S2: system setup / voltage sensing / vtration connection type Y\nSetpoint S2: system setup / voltage sensing / vtration 52.5:1\nActual value A2 : metering data / voltage metering\nApplied line \n neutral voltage | Expected \n voltage | Measured voltage\n phase\n A-B | Measured voltage\n phase\n B-C | Measured voltage\n phase\n C-A\n30 V | 1575 V |  |  | \n60 V | 3150 V |  |  | \n90 V | 4725 V |  |  | \n120 V | 6300 V |  |  | \nDifferential \nAccuracy Test\nInjected current will be on the following terminals G3,H3&G4,H4&G5,H5\nSetpoint S2 : system setup / current sensing / phase diff. ct\nSetpoint S2 : system setup / current sensing / ground ct\nActual values A2: metering data / current metering\nInjected \n Current | Expected \n Current | Measured \n Diff. Current \n Phase A | Measured \n Diff. Current \n Phase B | Measured \n Diff. Current Phase C\n0.45 A |  |  |  | \n1.0 A |  |  |  | \n2.5 A |  |  |  | \n5 A |  |  |  | \nDifferential \nTripping Test\n | Setting Values | Measure value\nPhase A | Phase B | Phase C\nCurrent | 1.25A |  |  | \nTime | 20 m sec |  |  | \nGround Fault Test\nSetpoint S6\nInjected current will be on terminals G9,H9\nGround Fault | Current | Time\nSetting | Measure | Setting | Measure\nAlarm | 0.5 |  |  | \nTrip | 0.75 |  |  | \nRTD Accuracy Test\nAn external resistance to be connected as one terminal to point A1 for rtd #3 \n remove terminals no 9,10,11 and an external resist ANCE to be connected as one \n side to the + VE terminal point # and the other side to be the - VE and common \n points 10,11(shorted together) and the same for RTD #1 & RTD # 5\nSetpoint \n values / RTD setpoint\nActual \n values / RTD temperature\nAPPLIED \n RESISTANCE | EXPECTED\n RTD TEMP. | FUNCTION | MEASURE RTD TEMP.\nRTD#1 | RTD#3 | RTD#5\nΩ |  | ALARM |  |  | \nΩ |  | TRIP |  |  | \nOver Load Curve \nTest\nIn order to inject 3\nOver Load Curve \nTest\nIn order to inject 3 phase current, jumper terminals 76,78 and 79,81 and \n inject current on terminals 75,82 any trip must be reset prior to each test, \n short the emergency restart terminals momentarily immediately prior to each \n over load curve test to ensure that the thermal capacity used is zero.\nMOTOR FLC (amp) = O/L Pick-up Level (%) = 3XFLC \n Injected Current =3XFLC\nO/L Curve Number | Injected Current | Expected Time | Time Measured\nNote:\nChange the unbalance trip to off\nChange the mechanical al jam trip to off\nShort Circuit Test\nS set-point / motor \n amps set point\nCurrent inject = \n 4XCT\nInjected Current | Expected Time to Trip | Measured Time to Trip\nUnbalance Test\nSet Points S6\n | Pick-up Level | Measure\nUnbalance Alarm |  | \nUnbalance Trip |  | \n | Time Setting | Measure\nUnbalance Alarm |  | \nUnbalance Trip |  | \nLocation: \nRelay Designation: Tested by: \nSignature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

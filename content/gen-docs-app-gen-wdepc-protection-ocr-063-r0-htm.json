@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Time Over Current Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "MDP\n GE"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -159,20 +153,170 @@
    "text": "General Data"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Breaker",
+     ""
+    ],
+    [
+     "Feeder description",
+     ""
+    ],
+    [
+     "Relay model number",
+     "MDP1120000DA"
+    ],
+    [
+     "In",
+     "5A"
+    ],
+    [
+     "VPS",
+     "125V"
+    ],
+    [
+     "GEK",
+     "100682"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Setting \nPhase"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Curve Selection",
+     ""
+    ],
+    [
+     "Function",
+     "151/B"
+    ],
+    [
+     "Tap range (1.5-13.125)",
+     ""
+    ],
+    [
+     "Time dial",
+     ""
+    ],
+    [
+     "Instantaneous range\n (1-31)",
+     ""
+    ],
+    [
+     "Instantaneous delay time (sec)",
+     ""
+    ],
+    [
+     "CT Ratio",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Ground"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Curve \n selection",
+     ""
+    ],
+    [
+     "Function",
+     "151/B"
+    ],
+    [
+     "Tap \n range (1.5-13.125)",
+     ""
+    ],
+    [
+     "Time \n dial",
+     ""
+    ],
+    [
+     "Instantaneous range (1-31)",
+     ""
+    ],
+    [
+     "Instantaneous delay time (sec)",
+     ""
+    ],
+    [
+     "CT \n ratio",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "General Check"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Check \n for \n damage",
+     ""
+    ],
+    [
+     "CT \n shorting switches",
+     ""
+    ],
+    [
+     "Serial number \n on \n module \n and \n case",
+     ""
+    ],
+    [
+     "External wiring \n to \n diagram",
+     ""
+    ],
+    [
+     "Earth connection \n to \n case",
+     ""
+    ],
+    [
+     "Test \n block connection",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Injection \nTerminals"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "PHASE A",
+     "1&2"
+    ],
+    [
+     "PHASE B",
+     "3&4"
+    ],
+    [
+     "PHASE C",
+     "5&6"
+    ],
+    [
+     "GROUND",
+     "7&8"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -209,12 +353,48 @@
    "text": "By increasing and \ndecreasing the injection current gradually until the pick-up then record the \npick-up and resetting values."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Function",
+     "Phase A",
+     "Phase B",
+     "Phase C"
+    ],
+    [
+     "Pick-up TOC Setting",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Reset pick-up TOC Setting",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Phase operating time verification"
   },
   {
    "type": "paragraph",
    "text": "Current injected = 2x pick-up value"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Expected Time",
+     "Phase A",
+     "Phase B",
+     "Phase C"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -225,6 +405,21 @@
    "text": "Reduce \nthe Setting \nto \n2X pick-up value"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "INJECTED \n CURRENT",
+     "PICK-UP TIME"
+    ],
+    [
+     "PHASE A",
+     "PHASE B",
+     "PHASE C"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Ground \nElement"
   },
@@ -233,15 +428,39 @@
    "text": "Ground Element Pick-up Verification"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Pick-up TOC Setting (AMP)",
+     ""
+    ],
+    [
+     "RESET Pick-up TOC Setting (AMP)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Ground Element Operating Time Verification"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Injected Value \n (AMP)",
+     "OPERATING TIME"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: \nRelay Designation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Time Over Current Relay\nMDP\n GE\nIntroduction\nMDP relays are digital microprocessor based \n,non-directional over current relays that protect against phase to phase and \nphase to ground faults.\nMDP relays performs the following functions:\nInverse over current including \n four characteristic curves and four values for definite time .\nInstantaneous over current protection with phase \n and ground current measurement\nOperating time and fault current of the last trip.\nThe first draft initiated & tested by eng. Elkassem Mohamed \nElbendary, revised by eng. Abdel-Naser Moustafa Ahmed, accepted by eng. Shawky \nAttalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer A and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nEnsure all CT path elements are secure after any test disturbance\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nMake sure CT secondary circuits are shorted\nMotor out of service and work permit required\nEnsure all CT path elements are secure after any test disturbance\nTools and Equipment\nSingle \n phase Secondary Injection Test Set MTM2.\nTest plug, Test Leads.\nAmmeter, Voltmeter\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or \n commissioning results of the relay testing.\nCheck the wires of the relay by \n hand.\nCheck the AC source is available \n to the tester.\nCheck the existence of the DC \n sources in panels.\nDisconnect the trip leads of the \n relay and connect one of them to the timer of the tester.\nCheck all the leads used in tests\nTest Steps\nConnect the current leads of a \n tester unit to the relay points according to the drawings and scheme to test \n phase pick-up by increasing and decreasing the \n injection current gradually until the relay pick-up then record the pick-up \n and resetting values in test sheet.\ninject current equal to 2 x pick-up \n value to test operating time then record the result in test sheet .by reduce the setting of \n instantaneous to 2x pick-up value and inject current and record that time.\nRepeat the steps for each phase \n according to the test sheet.\nConnect \n the current leads of a tester unit to the relay points according to the \n drawings and scheme to test ground pick-up by increasing and decreasing the \n injection current gradually until the relay pick-up then record the pick-up \n and resetting values in test sheet.\nTesting the Relay and Protection \n Outputs\nCarefully follow these test \n procedure steps\nVerify the test result match the \n relay setting.\nTest trip the circuit breaker \n associated with the relay.\nTrip \nTest\nRequest the operator to switch on \n the main circuit breaker.\nOperate the output auxiliary \n contact by injection to trip the circuit breaker.\nCheck that the circuit breaker \n tripped.\nTest Sheet\nGeneral Data\nSetting \nPhase\nGround\nGeneral Check\nInjection \nTerminals\nTripping Contact\n\nImportant Note The tripping contacts \nmust be wire free because of the change over.\nlong time inverse element\nPhase pick-up verification\nBy increasing and \ndecreasing the injection current gradually until the pick-up then record the \npick-up and resetting values.\nPhase operating time verification\nCurrent injected = 2x pick-up value\nInstantaneous Element\nReduce \nthe Setting \nto \n2X pick-up value\nGround \nElement\nGround Element Pick-up Verification\nGround Element Operating Time Verification\nLocation: \nRelay Designation: Tested by: Signature: \nTest Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nMDP relays are digital microprocessor based \n,non-directional over current relays that protect against phase to phase and \nphase to ground faults.\nMDP relays performs the following functions:\nInverse over current including \n four characteristic curves and four values for definite time .\nInstantaneous over current protection with phase \n and ground current measurement\nOperating time and fault current of the last trip.\nThe first draft initiated & tested by eng. Elkassem Mohamed \nElbendary, revised by eng. Abdel-Naser Moustafa Ahmed, accepted by eng. Shawky \nAttalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer A and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nEnsure all CT path elements are secure after any test disturbance\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nMake sure CT secondary circuits are shorted\nMotor out of service and work permit required\nEnsure all CT path elements are secure after any test disturbance\nTools and Equipment\nSingle \n phase Secondary Injection Test Set MTM2.\nTest plug, Test Leads.\nAmmeter, Voltmeter\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or \n commissioning results of the relay testing.\nCheck the wires of the relay by \n hand.\nCheck the AC source is available \n to the tester.\nCheck the existence of the DC \n sources in panels.\nDisconnect the trip leads of the \n relay and connect one of them to the timer of the tester.\nCheck all the leads used in tests\nTest Steps\nConnect the current leads of a \n tester unit to the relay points according to the drawings and scheme to test \n phase pick-up by increasing and decreasing the \n injection current gradually until the relay pick-up then record the pick-up \n and resetting values in test sheet.\ninject current equal to 2 x pick-up \n value to test operating time then record the result in test sheet .by reduce the setting of \n instantaneous to 2x pick-up value and inject current and record that time.\nRepeat the steps for each phase \n according to the test sheet.\nConnect \n the current leads of a tester unit to the relay points according to the \n drawings and scheme to test ground pick-up by increasing and decreasing the \n injection current gradually until the relay pick-up then record the pick-up \n and resetting values in test sheet.\nTesting the Relay and Protection \n Outputs\nCarefully follow these test \n procedure steps\nVerify the test result match the \n relay setting.\nTest trip the circuit breaker \n associated with the relay.\nTrip \nTest\nRequest the operator to switch on \n the main circuit breaker.\nOperate the output auxiliary \n contact by injection to trip the circuit breaker.\nCheck that the circuit breaker \n tripped.\nTest Sheet\nGeneral Data\nBreaker | \nFeeder description | \nRelay model number | MDP1120000DA\nIn | 5A\nVPS | 125V\nGEK | 100682\nSetting \nPhase\nCurve Selection | \nFunction | 151/B\nTap range (1.5-13.125) | \nTime dial | \nInstantaneous range\n (1-31) | \nInstantaneous delay time (sec) | \nCT Ratio | \nGround\nCurve \n selection | \nFunction | 151/B\nTap \n range (1.5-13.125) | \nTime \n dial | \nInstantaneous range (1-31) | \nInstantaneous delay time (sec) | \nCT \n ratio | \nGeneral Check\nCheck \n for \n damage | \nCT \n shorting switches | \nSerial number \n on \n module \n and \n case | \nExternal wiring \n to \n diagram | \nEarth connection \n to \n case | \nTest \n block connection | \nInjection \nTerminals\nPHASE A | 1&2\nPHASE B | 3&4\nPHASE C | 5&6\nGROUND | 7&8\nTripping Contact\nIOC&TOC FOR \n PHASE | 11&12\nIOC&TOC FOR \n GROUND | 11&13\nImportant Note The tripping contacts \nmust be wire free because of the change over.\nlong time inverse element\nPhase pick-up verification\nBy increasing and \ndecreasing the injection current gradually until the pick-up then record the \npick-up and resetting values.\nFunction | Phase A | Phase B | Phase C\nPick-up TOC Setting |  |  | \nReset pick-up TOC Setting |  |  | \nPhase operating time verification\nCurrent injected = 2x pick-up value\nExpected Time | Phase A | Phase B | Phase C\nInstantaneous Element\nReduce \nthe Setting \nto \n2X pick-up value\nINJECTED \n CURRENT | PICK-UP TIME\nPHASE A | PHASE B | PHASE C\nGround \nElement\nGround Element Pick-up Verification\nPick-up TOC Setting (AMP) | \nRESET Pick-up TOC Setting (AMP) | \nGround Element Operating Time Verification\nInjected Value \n (AMP) | OPERATING TIME\nLocation: \nRelay Designation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

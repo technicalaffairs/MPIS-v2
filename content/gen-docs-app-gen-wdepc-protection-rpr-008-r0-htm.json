@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -94,67 +104,40 @@
    "text": "Reverse \nPower Relay Technical Data"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Time setting"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "RRZ3FH"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Relay type"
-  },
-  {
-   "type": "paragraph",
-   "text": "220 DC"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Aux. supply"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Rated \n current In"
-  },
-  {
-   "type": "paragraph",
-   "text": "6 A"
-  },
-  {
-   "type": "paragraph",
-   "text": "Contact rating"
-  },
-  {
-   "type": "paragraph",
-   "text": "25 A"
-  },
-  {
-   "type": "paragraph",
-   "text": "Max. Contact \n rating"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Rated \n power Pn"
-  },
-  {
-   "type": "paragraph",
-   "text": "2 VA"
-  },
-  {
-   "type": "paragraph",
-   "text": "Burden"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Setting range"
+   "type": "table",
+   "rows": [
+    [
+     "0.5 - 6 sec",
+     "Time setting",
+     "RRZ3FH",
+     "Relay type"
+    ],
+    [
+     "220 DC",
+     "Aux. supply",
+     "5A",
+     "Rated \n current In"
+    ],
+    [
+     "6 A",
+     "Contact rating",
+     "100 v",
+     "Rated voltage Un"
+    ],
+    [
+     "25 A",
+     "Max. Contact \n rating",
+     "√ 3 Un x In",
+     "Rated \n power Pn"
+    ],
+    [
+     "2 VA",
+     "Burden",
+     "(0.5\n 8 ) % of Pn",
+     "Setting range"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -162,60 +145,85 @@
    "text": "Current and Potential \nTransformers Technical Data"
   },
   {
-   "type": "heading",
-   "level": 2,
-   "text": "PT data"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "CT \n data"
+   "type": "table",
+   "rows": [
+    [
+     "6350 /86.6 /63.5 \n V 200 VA",
+     "PT data"
+    ],
+    [
+     "Cl 1 n>10 - 30 \n VA (6000/5) A (f28-f29-f30)",
+     "CT \n data"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "65 MW Generator (G1) Technical \nData"
   },
   {
-   "type": "heading",
-   "level": 4,
-   "text": "Power Factor"
+   "type": "table",
+   "rows": [
+    [
+     "10.5 star",
+     "Voltage kv",
+     "65",
+     "Power MW"
+    ],
+    [
+     "0.8",
+     "Power Factor",
+     "4450 A",
+     "current A"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "65 MW Generator (G1) \n Reverse \nPower Relay (e96) test sheet"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Relay results"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "R"
-  },
-  {
-   "type": "paragraph",
-   "text": "I = 5 A"
-  },
-  {
-   "type": "paragraph",
-   "text": "V= 86.6 V"
-  },
-  {
-   "type": "paragraph",
-   "text": "T1 = 0 sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "T2 = 60 sec"
+   "type": "table",
+   "rows": [
+    [
+     "Remarks",
+     "Relay results",
+     "Ph",
+     "Relay Setting",
+     "Date"
+    ],
+    [
+     "time",
+     "reset",
+     "Pick up",
+     "R",
+     "I = 5 A\n V= 86.6 V\n T1 = 0 sec\n T2 = 60 sec",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "T"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:"
   }
  ],
- "text": "Introduction\nThis procedure outlines the testing procedures P1, to be carried out on an \nannually bases as indicated by Y1 in the title block.\nThe purpose of the relay is basically to prevent \ndamage on the turbine, if the driving torque less than the total losses in the \ngenerator and the prime mover, the generator starts to work as a synchronous \ncompensator, taking the necessary active power from the network. The total \nlosses, as the percentage of the rated power, may vary approx, from 1 to 3 %\nThe reverse power relay is provide with one step. \nThe relay shall be set at 1 % of the generator rated power and shall give an \nalarm and trip after a time delay of 60 sec.\nThe first draft initiated by eng. Rasha Soliman, \ntested by eng Mohamed Rabee, accepted by general director eng. Hamdy Dorgam, \napproved by eng. Mohamed Abou Aiasha head sector of Damanhour power station and \nand\ncertified by eng. \nGaber Farahat \nWDEPC Inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nThe line is out of \n service\nIsolate the relay from \n PT`s & CT`s\nTools and Equipment\nSecondary 1 phase \n injection test set\nMultimeter, test wires\nTest - plug\nWork to be carried out\nThe line is out of service\nConnect test leads between the test set \n and the voltage terminal (7&10) for phase ( R ) in the for the reverse power \n relay.\nConnect test leads between the test set \n and the current terminal (1&4) for phase ( R ) in the for the reverse power \n relay\nConnect test leads between the test set \n and the time terminal (22&23) for phase (R) in the reverse power relay.\nIncrease the current gradually until reach the operating value\nEnsure that the relay operates at the setting current value (100)mA\nEnsure that the relay operates at the setting time value (60) \n sec\nRepeat for phases S & T\nRecord this values on the test sheet\nTake off the equipments and the wires, then return the relay \n to its normal position\nReverse \nPower Relay Technical Data\nTime setting\nRRZ3FH\nRelay type\n220 DC\nAux. supply\nRated \n current In\n6 A\nContact rating\n25 A\nMax. Contact \n rating\nRated \n power Pn\n2 VA\nBurden\nSetting range\nCurrent and Potential \nTransformers Technical Data\nPT data\nCT \n data\n65 MW Generator (G1) Technical \nData\nPower Factor\n65 MW Generator (G1) \n Reverse \nPower Relay (e96) test sheet\nRelay results\nR\nI = 5 A\nV= 86.6 V\nT1 = 0 sec\nT2 = 60 sec\nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis procedure outlines the testing procedures P1, to be carried out on an \nannually bases as indicated by Y1 in the title block.\nThe purpose of the relay is basically to prevent \ndamage on the turbine, if the driving torque less than the total losses in the \ngenerator and the prime mover, the generator starts to work as a synchronous \ncompensator, taking the necessary active power from the network. The total \nlosses, as the percentage of the rated power, may vary approx, from 1 to 3 %\nThe reverse power relay is provide with one step. \nThe relay shall be set at 1 % of the generator rated power and shall give an \nalarm and trip after a time delay of 60 sec.\nThe first draft initiated by eng. Rasha Soliman, \ntested by eng Mohamed Rabee, accepted by general director eng. Hamdy Dorgam, \napproved by eng. Mohamed Abou Aiasha head sector of Damanhour power station and \nand\ncertified by eng. \nGaber Farahat \nWDEPC Inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nThe line is out of \n service\nIsolate the relay from \n PT`s & CT`s\nTools and Equipment\nSecondary 1 phase \n injection test set\nMultimeter, test wires\nTest - plug\nWork to be carried out\nThe line is out of service\nConnect test leads between the test set \n and the voltage terminal (7&10) for phase ( R ) in the for the reverse power \n relay.\nConnect test leads between the test set \n and the current terminal (1&4) for phase ( R ) in the for the reverse power \n relay\nConnect test leads between the test set \n and the time terminal (22&23) for phase (R) in the reverse power relay.\nIncrease the current gradually until reach the operating value\nEnsure that the relay operates at the setting current value (100)mA\nEnsure that the relay operates at the setting time value (60) \n sec\nRepeat for phases S & T\nRecord this values on the test sheet\nTake off the equipments and the wires, then return the relay \n to its normal position\nReverse \nPower Relay Technical Data\n0.5 - 6 sec | Time setting | RRZ3FH | Relay type\n220 DC | Aux. supply | 5A | Rated \n current In\n6 A | Contact rating | 100 v | Rated voltage Un\n25 A | Max. Contact \n rating | √ 3 Un x In | Rated \n power Pn\n2 VA | Burden | (0.5\n 8 ) % of Pn | Setting range\nCurrent and Potential \nTransformers Technical Data\n6350 /86.6 /63.5 \n V 200 VA | PT data\nCl 1 n>10 - 30 \n VA (6000/5) A (f28-f29-f30) | CT \n data\n65 MW Generator (G1) Technical \nData\n10.5 star | Voltage kv | 65 | Power MW\n0.8 | Power Factor | 4450 A | current A\n65 MW Generator (G1) \n Reverse \nPower Relay (e96) test sheet\nRemarks | Relay results | Ph | Relay Setting | Date\ntime | reset | Pick up | R | I = 5 A\n V= 86.6 V\n T1 = 0 sec\n T2 = 60 sec | \n |  |  |  | S\n |  |  | T\nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

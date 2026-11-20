@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment"
-  },
-  {
-   "type": "paragraph",
-   "text": "Differential Relay"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -181,8 +175,72 @@
    "text": "Front Plate Information"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Transformer \n Differential Relay Type",
+     "MBCH 16"
+    ],
+    [
+     "Model Number",
+     "MBCH 16 \n DIAD0752B"
+    ],
+    [
+     "Serial \n Number",
+     ""
+    ],
+    [
+     "Rated \n Current In",
+     "5A"
+    ],
+    [
+     "Aux. Voltage \n Vx",
+     "110/125\n Vdc"
+    ],
+    [
+     "Frequency",
+     "50\n HZ"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Inspection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Check For \n Damage",
+     ""
+    ],
+    [
+     "CT Shorting \n Switches in Case Check",
+     ""
+    ],
+    [
+     "Serial Number \n on Module and Case Checked",
+     ""
+    ],
+    [
+     "External Wiring \n Checked to Diagram",
+     ""
+    ],
+    [
+     "Earth \n Connection to Case Check",
+     ""
+    ],
+    [
+     "Test Block \n Connection Check",
+     ""
+    ],
+    [
+     "Auxiliary \n Voltage at Relay Terminals",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -229,8 +287,49 @@
    "text": "Injected Current = 0.3 In"
   },
   {
-   "type": "paragraph",
-   "text": "Operating Time"
+   "type": "table",
+   "rows": [
+    [
+     "Biased Terminals",
+     "Pick-up Current \n amp",
+     "Operating Time\n Current Injected =4In"
+    ],
+    [
+     "Theoretical Value",
+     "PICK-UP \n Injected \n Value"
+    ],
+    [
+     "HV X 011(01,02)",
+     "0.85",
+     "",
+     ""
+    ],
+    [
+     "LV1 X 012(01,02)",
+     "2.15",
+     "",
+     ""
+    ],
+    [
+     "LV2 X 013(01,02)",
+     "2.15",
+     "",
+     ""
+    ],
+    [
+     "LV3 X 014(01,02)",
+     "2.15",
+     "",
+     ""
+    ],
+    [
+     "LV4 X 015(01,02)",
+     "2.15",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "list",
@@ -248,20 +347,46 @@
    "text": "Injected Current = 0.3 In"
   },
   {
-   "type": "paragraph",
-   "text": "Operating Time"
-  },
-  {
    "type": "table",
    "rows": [
     [
      "Biased Terminals",
      "Pick-up Current \n amp",
-     ""
+     "Operating Time\n Current Injected =4In"
     ],
     [
      "Theoretical Value",
      "PICK-UP \n Injected \n Value"
+    ],
+    [
+     "HV X011(01,03)",
+     "0.85",
+     "",
+     ""
+    ],
+    [
+     "LV1 X 012(01,03)",
+     "2.15",
+     "",
+     ""
+    ],
+    [
+     "LV2 X 013(01,03)",
+     "2.15",
+     "",
+     ""
+    ],
+    [
+     "LV3 X 014(01,03)",
+     "2.15",
+     "",
+     ""
+    ],
+    [
+     "LV4 X 015(01,03)",
+     "2.15",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -275,20 +400,46 @@
    "text": "Injected Current = 0.3 In"
   },
   {
-   "type": "paragraph",
-   "text": "Operating Time"
-  },
-  {
    "type": "table",
    "rows": [
     [
      "Biased Terminals",
      "Pick-up Current \n amp",
-     ""
+     "Operating Time\n Current Injected =4In"
     ],
     [
      "Theoretical Value",
      "PICK-UP \n Injected \n Value"
+    ],
+    [
+     "HV X 011(01,04)",
+     "0.85",
+     "",
+     ""
+    ],
+    [
+     "LV1 X 012(01,04)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "LV2 X 013(01,04)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "LV3 X 014(01,04)",
+     "2.15",
+     "",
+     ""
+    ],
+    [
+     "LV4 X 015(01,04)",
+     "2.15",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -298,7 +449,7 @@
    "text": "Location: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\nDifferential Relay\nIntroduction\nThe MBCH16 is a high speed biased differential relay suitable for \nprotecting two or three winding transformers. It is extremely stable during \nthrough external faults and will not operate during inrush currents on \nenergizing. It is manufactured by GEC Alstrom.\nThis procedure details the steps required to completely check the \nproper operation and calibration of the MBCH relay. It is recommended this \nprocedure be carried out on a yearly bases. This work be carried out section of \nthis document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing \ndescribes the activities required prior to testing. Some of these steps could be \nperformed days before the actual test. The second section Preparation for \ntesting describes the steps to set up the equipment for performing the actual \ntests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility of \nerror causing personal injury or damage to equipment.\nThe first draft initiated & tested by eng. \nMedhat Magdy Gerges, revised by eng. \nAbdel-Naser Moustafa Ahmed, accepted by eng. Shawky Attalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator.\nSafety Precaution\nA work permit must \n be issued\nThe qualified \n maintenance staff should carry the suitable ID safety category,\nSafety fence with \n caution marks surrounding the work area is required,\nWear your safety and healthy \n equipment as safety helmet, safety shoes, ..etc.\nEnsure that the \n line isolation must be done.\nEnsure that the \n Power transformer was isolated.\nSwitch off DC \n power supply before inserting or withdrawing any card from the relay module.\nTools and Equipment\nSecondary \n injection test set MTM2.\nAvometer\nTest leads.\nWork to be carried out\nPreliminary \nSteps to Prepare for Relay Testing\nObtain outage for transformer protected by this relay.\nCheck that the two bus disconnect switches are opened and \n togged.\nLook at the EEHC panel nameplate and check that this EEHC \n system designation agrees with the power transformer that has been taken out \n of service for maintenance.\nInspect the CT secondary circuits and all cabling supplying \n the relaying including matching CT.\nCheck Earth connection to case.\nCheck for damage.\nUse the station drawings to isolate the following:\nBreaker trip coils\nBreaker failure scheme associated with the relay.\nDisturbance alarms and fault recorder associated with the relay.\nCheck the rated auxiliary voltage Vx (terminals \n 14 +ve and 13 ve).\nTesting the Relay and \nProtection Outputs\nThis procedure is used to perform off load relay testing.\nVerify the test results match the relay setting, if not \n consult technical services.\nTest trip the breaker associated with the relay.\nRelay Current Setting\nIn = 5 Amp\nIS = 0.3 In = 1.5 Amp\nTesting Procedure (s)\nSlowly increase the current until the relay operates, as \n indicated by the light emitting diode (LED) on the front plate.\nRecord the operating (differential) current and check that \n this is within 10% of the expected current as stated in the maintenance file.\nCheck the relay trips contacts are closed (terminals 2, 4) \n when the relay picks up and that these contacts open as the current is \n reduced.\nRepeat the same for the alarm contact (terminals 1,3).\nSwitch off the secondary injection test set\nPress the reset button on the relay front panel and check that \n the led indicator resets and the alarm contacts open.\nRepeat steps (from 1 to 6) for phases B&C\nOperating Time Test\nTo check the instantaneous (high set) element, inject 4 * ln \n current until the relay operates and switch off the test set.\nConnect the timed contact of the relay to the \"stop timer\" \n terminals of the secondary injection test set.\nSwitch on the current suddenly.\nRecord the relay operate time.\nNote: For 50 Hz relay this should be less than 20 ms.\nTest Sheet\nFront Plate Information\nInspection\nImportant Notes\nRack out the lock out relay # 386/ST\nCheck the rated auxiliary voltage vx ( terminals 14 +ve and 13 -ve).\nSetting\nIn = 5 Amp.\nIs = 0.3 In = 1.5 Amp.\nBias Check\nInject current at LV bias = 0.3xin = 0.3 x 5 x 25/44 = 0.85 amp.\nInject current at HV bias = 0.3xin = 0.3 x 5 x 43/30 = 2.15 amp.\nInject current to be one terminal on the test socket and the other on the \n earth.\nTime contact is from X002 (41,42) through the lock out relay injected current \n for checking the instantaneous trip will be in the HV = 4 in x 25/44 = 4 x 5 x \n 25/44 = 11.36 amp.\nPhase A\nInjected Current = 0.3 In\nOperating Time\nCheck Trip Contact Operation (2,4)\nCheck Alarm Contact Operation (1,3)\nPhase B\nInjected Current = 0.3 In\nOperating Time\n\nPhase C\nInjected Current = 0.3 In\nOperating Time\n\nLocation: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe MBCH16 is a high speed biased differential relay suitable for \nprotecting two or three winding transformers. It is extremely stable during \nthrough external faults and will not operate during inrush currents on \nenergizing. It is manufactured by GEC Alstrom.\nThis procedure details the steps required to completely check the \nproper operation and calibration of the MBCH relay. It is recommended this \nprocedure be carried out on a yearly bases. This work be carried out section of \nthis document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing \ndescribes the activities required prior to testing. Some of these steps could be \nperformed days before the actual test. The second section Preparation for \ntesting describes the steps to set up the equipment for performing the actual \ntests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility of \nerror causing personal injury or damage to equipment.\nThe first draft initiated & tested by eng. \nMedhat Magdy Gerges, revised by eng. \nAbdel-Naser Moustafa Ahmed, accepted by eng. Shawky Attalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator.\nSafety Precaution\nA work permit must \n be issued\nThe qualified \n maintenance staff should carry the suitable ID safety category,\nSafety fence with \n caution marks surrounding the work area is required,\nWear your safety and healthy \n equipment as safety helmet, safety shoes, ..etc.\nEnsure that the \n line isolation must be done.\nEnsure that the \n Power transformer was isolated.\nSwitch off DC \n power supply before inserting or withdrawing any card from the relay module.\nTools and Equipment\nSecondary \n injection test set MTM2.\nAvometer\nTest leads.\nWork to be carried out\nPreliminary \nSteps to Prepare for Relay Testing\nObtain outage for transformer protected by this relay.\nCheck that the two bus disconnect switches are opened and \n togged.\nLook at the EEHC panel nameplate and check that this EEHC \n system designation agrees with the power transformer that has been taken out \n of service for maintenance.\nInspect the CT secondary circuits and all cabling supplying \n the relaying including matching CT.\nCheck Earth connection to case.\nCheck for damage.\nUse the station drawings to isolate the following:\nBreaker trip coils\nBreaker failure scheme associated with the relay.\nDisturbance alarms and fault recorder associated with the relay.\nCheck the rated auxiliary voltage Vx (terminals \n 14 +ve and 13 ve).\nTesting the Relay and \nProtection Outputs\nThis procedure is used to perform off load relay testing.\nVerify the test results match the relay setting, if not \n consult technical services.\nTest trip the breaker associated with the relay.\nRelay Current Setting\nIn = 5 Amp\nIS = 0.3 In = 1.5 Amp\nTesting Procedure (s)\nSlowly increase the current until the relay operates, as \n indicated by the light emitting diode (LED) on the front plate.\nRecord the operating (differential) current and check that \n this is within 10% of the expected current as stated in the maintenance file.\nCheck the relay trips contacts are closed (terminals 2, 4) \n when the relay picks up and that these contacts open as the current is \n reduced.\nRepeat the same for the alarm contact (terminals 1,3).\nSwitch off the secondary injection test set\nPress the reset button on the relay front panel and check that \n the led indicator resets and the alarm contacts open.\nRepeat steps (from 1 to 6) for phases B&C\nOperating Time Test\nTo check the instantaneous (high set) element, inject 4 * ln \n current until the relay operates and switch off the test set.\nConnect the timed contact of the relay to the \"stop timer\" \n terminals of the secondary injection test set.\nSwitch on the current suddenly.\nRecord the relay operate time.\nNote: For 50 Hz relay this should be less than 20 ms.\nTest Sheet\nFront Plate Information\nTransformer \n Differential Relay Type | MBCH 16\nModel Number | MBCH 16 \n DIAD0752B\nSerial \n Number | \nRated \n Current In | 5A\nAux. Voltage \n Vx | 110/125\n Vdc\nFrequency | 50\n HZ\nInspection\nCheck For \n Damage | \nCT Shorting \n Switches in Case Check | \nSerial Number \n on Module and Case Checked | \nExternal Wiring \n Checked to Diagram | \nEarth \n Connection to Case Check | \nTest Block \n Connection Check | \nAuxiliary \n Voltage at Relay Terminals | \nImportant Notes\nRack out the lock out relay # 386/ST\nCheck the rated auxiliary voltage vx ( terminals 14 +ve and 13 -ve).\nSetting\nIn = 5 Amp.\nIs = 0.3 In = 1.5 Amp.\nBias Check\nInject current at LV bias = 0.3xin = 0.3 x 5 x 25/44 = 0.85 amp.\nInject current at HV bias = 0.3xin = 0.3 x 5 x 43/30 = 2.15 amp.\nInject current to be one terminal on the test socket and the other on the \n earth.\nTime contact is from X002 (41,42) through the lock out relay injected current \n for checking the instantaneous trip will be in the HV = 4 in x 25/44 = 4 x 5 x \n 25/44 = 11.36 amp.\nPhase A\nInjected Current = 0.3 In\nBiased Terminals | Pick-up Current \n amp | Operating Time\n Current Injected =4In\nTheoretical Value | PICK-UP \n Injected \n Value\nHV X 011(01,02) | 0.85 |  | \nLV1 X 012(01,02) | 2.15 |  | \nLV2 X 013(01,02) | 2.15 |  | \nLV3 X 014(01,02) | 2.15 |  | \nLV4 X 015(01,02) | 2.15 |  | \nCheck Trip Contact Operation (2,4)\nCheck Alarm Contact Operation (1,3)\nPhase B\nInjected Current = 0.3 In\nBiased Terminals | Pick-up Current \n amp | Operating Time\n Current Injected =4In\nTheoretical Value | PICK-UP \n Injected \n Value\nHV X011(01,03) | 0.85 |  | \nLV1 X 012(01,03) | 2.15 |  | \nLV2 X 013(01,03) | 2.15 |  | \nLV3 X 014(01,03) | 2.15 |  | \nLV4 X 015(01,03) | 2.15 |  | \nPhase C\nInjected Current = 0.3 In\nBiased Terminals | Pick-up Current \n amp | Operating Time\n Current Injected =4In\nTheoretical Value | PICK-UP \n Injected \n Value\nHV X 011(01,04) | 0.85 |  | \nLV1 X 012(01,04) |  |  | \nLV2 X 013(01,04) |  |  | \nLV3 X 014(01,04) | 2.15 |  | \nLV4 X 015(01,04) | 2.15 |  | \nLocation: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

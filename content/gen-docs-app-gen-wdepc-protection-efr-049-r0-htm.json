@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -95,61 +105,31 @@
    "text": "E/F \nRelay Technical Data"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Aux. supply"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "RSZF"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Relay type"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Rated current"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Current setting range"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "time setting range"
-  },
-  {
    "type": "table",
    "rows": [
     [
      "a \n 220 DC",
-     "",
-     "",
-     ""
+     "Aux. supply",
+     "RSZF",
+     "Relay type"
     ],
     [
      "a\n 6 A",
-     "",
+     "Contact rating",
      "a2.5",
-     ""
+     "Rated current"
     ],
     [
      "a \n 25 A",
-     "",
+     "Max. Contact rating",
      "a(2-5)A \n 2.5A",
-     ""
+     "Current setting range"
     ],
     [
      "a\n 0.1 VA",
-     "",
+     "Burden",
      "a(0-1)sec \n 0.5 sec",
-     ""
+     "time setting range"
     ]
    ],
    "truncated_rows": 0
@@ -179,29 +159,52 @@
    "text": "65 MW Generator (G1) technical data"
   },
   {
-   "type": "heading",
-   "level": 4,
-   "text": "Power factor"
+   "type": "table",
+   "rows": [
+    [
+     "10.5 star",
+     "Voltage KV",
+     "65",
+     "Power MW"
+    ],
+    [
+     "0.8",
+     "Power factor",
+     "4450 A",
+     "current A"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "65 MW Generator (G1) Stator \nEarth Fault Relay (e76) test sheet"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Relay results"
-  },
-  {
-   "type": "paragraph",
-   "text": "I = 2.5 A"
+   "type": "table",
+   "rows": [
+    [
+     "Remarks",
+     "Relay results",
+     "Relay Setting",
+     "Date"
+    ],
+    [
+     "time",
+     "reset",
+     "Pick up",
+     "I = 2.5 A\n T = 0.5 sec",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:"
   }
  ],
- "text": "Introduction\nThis procedure outlines the testing procedures P1, to be carried out on an \nannually bases as indicated by Y1 in the title block.\nThe first draft initiated by eng. Rasha Soliman, \ntested by eng Mohamed Rabee, accepted by general director eng. Hamdy Dorgam, \napproved by eng. Mohamed Abou Aiasha head sector of Damanhour power station and \nand\ncertified by eng. \nGaber Farahat \nWDEPC Inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nWear the appropriate safety and healthy equipment as safety shoes, helmet ... \netc\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nWear the appropriate safety and healthy equipment as safety shoes, helmet ... \netc\nUnit must be shutdown.\nCircuit breaker open and \n local.\nTools and Equipment\nSecondary injection test \n set .\nSuitable tool set.\nAvometer, test leads\nWork to be carried out\nConnect the current test \n set terminals to point (1-2) .\nConnect the timer test \n set terminal to point (15-16) .\nInject the current then \n increase the current gradually until the red flag appears then record I (pick \n - up) and record the time .\nDecrease the current \n gradually until the red flag disappear then record I (reset)\nFor find the time for \n trip increase the current until the timer red flag appear them record the time \n for trip .\nReturn Relay and Associated \nEquipment to Service\nReturn relay to service \n by removing the plug test\nMake sure CT secondary \n circuits are in normal condition.\nIf any equipment \n associated with the relay has been isolated, it should be returned to service \n by the following restoration steps:\n * Breaker trip coils\n * Breaker failure scheme associated this relay.\n * Disturbance alarm and fault recorder associated with \n this relay.\n * Make sure CT secondary circuits are in normal \n condition\nReturn the work permit.\nE/F \nRelay Technical Data\nAux. supply\nRSZF\nRelay type\nRated current\nCurrent setting range\ntime setting range\n\nCurrent transformers technical data\n\n65 MW Generator (G1) technical data\nPower factor\n65 MW Generator (G1) Stator \nEarth Fault Relay (e76) test sheet\nRelay results\nI = 2.5 A\nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis procedure outlines the testing procedures P1, to be carried out on an \nannually bases as indicated by Y1 in the title block.\nThe first draft initiated by eng. Rasha Soliman, \ntested by eng Mohamed Rabee, accepted by general director eng. Hamdy Dorgam, \napproved by eng. Mohamed Abou Aiasha head sector of Damanhour power station and \nand\ncertified by eng. \nGaber Farahat \nWDEPC Inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nWear the appropriate safety and healthy equipment as safety shoes, helmet ... \netc\nA work permit must be issued and the maintenance staff should carry the suitable \nsafety category\nSafety fence with caution marks surrounding the work area is required\nWear the appropriate safety and healthy equipment as safety shoes, helmet ... \netc\nUnit must be shutdown.\nCircuit breaker open and \n local.\nTools and Equipment\nSecondary injection test \n set .\nSuitable tool set.\nAvometer, test leads\nWork to be carried out\nConnect the current test \n set terminals to point (1-2) .\nConnect the timer test \n set terminal to point (15-16) .\nInject the current then \n increase the current gradually until the red flag appears then record I (pick \n - up) and record the time .\nDecrease the current \n gradually until the red flag disappear then record I (reset)\nFor find the time for \n trip increase the current until the timer red flag appear them record the time \n for trip .\nReturn Relay and Associated \nEquipment to Service\nReturn relay to service \n by removing the plug test\nMake sure CT secondary \n circuits are in normal condition.\nIf any equipment \n associated with the relay has been isolated, it should be returned to service \n by the following restoration steps:\n * Breaker trip coils\n * Breaker failure scheme associated this relay.\n * Disturbance alarm and fault recorder associated with \n this relay.\n * Make sure CT secondary circuits are in normal \n condition\nReturn the work permit.\nE/F \nRelay Technical Data\na \n 220 DC | Aux. supply | RSZF | Relay type\na\n 6 A | Contact rating | a2.5 | Rated current\na \n 25 A | Max. Contact rating | a(2-5)A \n 2.5A | Current setting range\na\n 0.1 VA | Burden | a(0-1)sec \n 0.5 sec | time setting range\nCurrent transformers technical data\nCT | CT location\nC1 n>10-15VA \n (50/5)A | Star point side\n65 MW Generator (G1) technical data\n10.5 star | Voltage KV | 65 | Power MW\n0.8 | Power factor | 4450 A | current A\n65 MW Generator (G1) Stator \nEarth Fault Relay (e76) test sheet\nRemarks | Relay results | Relay Setting | Date\ntime | reset | Pick up | I = 2.5 A\n T = 0.5 sec | \nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Generator Negative Phase Sequence Relay (46G)"
-  },
-  {
-   "type": "paragraph",
-   "text": "RARIB"
-  },
-  {
-   "type": "paragraph",
-   "text": "ABB"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -166,7 +156,7 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Relay Type",
      "RARIB",
      "Alarm \nsetting",
      "3-9 % IM 8 %"
@@ -249,38 +239,33 @@
    "text": "Generator Negative Phase Sequence Relay (46g)"
   },
   {
-   "type": "paragraph",
-   "text": "I =8%IM"
-  },
-  {
-   "type": "paragraph",
-   "text": "=0.37A"
-  },
-  {
-   "type": "paragraph",
-   "text": "I =12%IM"
-  },
-  {
-   "type": "paragraph",
-   "text": "=0.55A"
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "Date",
+     "Relay Setting",
+     "Ph.",
+     "Relay \n Results",
+     "Remarks"
+    ],
+    [
+     "ALARM",
+     "TRIP"
+    ],
+    [
      "Alarm",
      "Trip",
-     "",
-     "",
-     "",
-     "",
-     "",
-     ""
+     "Pick up",
+     "Reset",
+     "Time",
+     "Pick up",
+     "Reset",
+     "Time"
     ],
     [
      "",
-     "",
-     "",
+     "I =8%IM\n =0.37A\n T= 6 sec",
+     "I =12%IM\n =0.55A\n T at K=10",
      "R-S",
      "",
      "",
@@ -318,7 +303,7 @@
    "text": "Location: Relay \nDesignation: Tested by: Signature: Test Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Generator Negative Phase Sequence Relay (46G)\nRARIB\nABB\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe \nrelay circuit, tuned to the supply frequency, rejects the harmonics produced by \ncurrent transformer saturation. A slight time delay on operation helps to \nprovide stability on heavy external faults and is obtained by allowing the \nauto-transformer to saturate above the relay setting. This limits the current \nsupplied, and the attracted armature unit operates only on the slower part of \nits time-current.\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nFarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nThe transformer must be was isolated.\nMake sure CT Secondary circuits are shorted.\nEnsure all CT path elements are secure after any test disturbance\nTools and Equipment\nISA test set type ART/3 or Omicron.\nVoltmeter, Ammeter, test plug, and test leads.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the relay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of them to the timer of \n the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the current leads of a tester unit to the relay points according to \n the drawings and scheme.\nThe 1st in testing.\nInject current to each couple of points (9-10) to (R_S).in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 0.85A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.61A.\nRecord the results reset value at 0.61A\nInject current to each couple of points (9-11) to (R_T) in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 0.85A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.61A.\nRecord the results reset value at 0.61A\nInject current to each couple of points (10-11) to (T_S) in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 0.85A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.61A.\nRecord the results reset value at 0.61A\ntime test in the relay is connect terminal timer to{ B50_x5 (19_20)}in relay \n as connect terminal unit current to{B50_x1 (9_10)}in relay as inject the \n current to pick up relay and Record the results time .at k=1\nand repeat time test to(R_T) & (S_T).\nThe 2nd testing\nInject current to each couple of points (9-10) to (R_S).in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 1A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.9A.\nRecord the results reset value at 0.9A\nInject current to each couple of points (9-11) to (R_T) in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 1A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.9A.\nRecord the results reset value at 1A\nInject current to each couple of points (10-11) to (T_S) in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 1A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.9A.\nRecord the results reset value at 0.9A\nTime test in the relay is connect terminal timer to{ B50_x5 (17_18)}in relay \n as connect terminal unit current to{B50_x1 (9_10)}in relay as inject the \n current to pick up relay and Record the results time at k=1\n and repeat time test to(R_T) & (S_T).\nSwitch off secondary injection t test set.\nReturn the relay to the panel.\nReturn all connections to the normal position as before the test.\nClose the work permit\nTechnical Data\nfor\nGenerator Negative Phase Sequence Relay (46G)\nNegative Phase Sequence Relay\n\nCurrent \nTransformers\n\n300 MW Generator (G4)\n\nTest Sheet\nGenerator Negative Phase Sequence Relay (46g)\nI =8%IM\n=0.37A\nI =12%IM\n=0.55A\n\nLocation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe \nrelay circuit, tuned to the supply frequency, rejects the harmonics produced by \ncurrent transformer saturation. A slight time delay on operation helps to \nprovide stability on heavy external faults and is obtained by allowing the \nauto-transformer to saturate above the relay setting. This limits the current \nsupplied, and the attracted armature unit operates only on the slower part of \nits time-current.\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nFarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nThe transformer must be was isolated.\nMake sure CT Secondary circuits are shorted.\nEnsure all CT path elements are secure after any test disturbance\nTools and Equipment\nISA test set type ART/3 or Omicron.\nVoltmeter, Ammeter, test plug, and test leads.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the relay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of them to the timer of \n the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the current leads of a tester unit to the relay points according to \n the drawings and scheme.\nThe 1st in testing.\nInject current to each couple of points (9-10) to (R_S).in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 0.85A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.61A.\nRecord the results reset value at 0.61A\nInject current to each couple of points (9-11) to (R_T) in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 0.85A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.61A.\nRecord the results reset value at 0.61A\nInject current to each couple of points (10-11) to (T_S) in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 0.85A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.61A.\nRecord the results reset value at 0.61A\ntime test in the relay is connect terminal timer to{ B50_x5 (19_20)}in relay \n as connect terminal unit current to{B50_x1 (9_10)}in relay as inject the \n current to pick up relay and Record the results time .at k=1\nand repeat time test to(R_T) & (S_T).\nThe 2nd testing\nInject current to each couple of points (9-10) to (R_S).in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 1A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.9A.\nRecord the results reset value at 0.9A\nInject current to each couple of points (9-11) to (R_T) in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 1A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.9A.\nRecord the results reset value at 1A\nInject current to each couple of points (10-11) to (T_S) in terminal (B50_x1) \n till the red flag of the device displays.\nRecord the results pick up value at 1A.\nDecrease the current until the relay is reset and measure the current at reset \n 0.9A.\nRecord the results reset value at 0.9A\nTime test in the relay is connect terminal timer to{ B50_x5 (17_18)}in relay \n as connect terminal unit current to{B50_x1 (9_10)}in relay as inject the \n current to pick up relay and Record the results time at k=1\n and repeat time test to(R_T) & (S_T).\nSwitch off secondary injection t test set.\nReturn the relay to the panel.\nReturn all connections to the normal position as before the test.\nClose the work permit\nTechnical Data\nfor\nGenerator Negative Phase Sequence Relay (46G)\nNegative Phase Sequence Relay\nRelay Type | RARIB | Alarm \nsetting | 3-9 % IM 8 %\nRated\n Current | (1-2-5) A | Alarm time | 0.1 - 6 sec 6 sec\nSetting (IM) | (0.7-1.1) In 0.92 | DC Consumption | 12.5 watt\ntrip \nsetting | 4-16) % IM 12 % | Burden | 0.2 V.A /ph\nTime constant for tripping (k) | 1 - 63 sec 10 sec | Aux Voltage | 220 Vd.c\nCurrent \nTransformers\nCT Location | CT\n22\n kv Side | 70 V.A 5P20 - (12000/5) \n A CT-G3\n300 MW Generator (G4)\nPower MW | 300 | Voltage KV | 22 KV Star\nCurrent A | 11074 A | Power Factor | 0.8\nTest Sheet\nGenerator Negative Phase Sequence Relay (46g)\nDate | Relay Setting | Ph. | Relay \n Results | Remarks\nALARM | TRIP\nAlarm | Trip | Pick up | Reset | Time | Pick up | Reset | Time\n | I =8%IM\n =0.37A\n T= 6 sec | I =12%IM\n =0.55A\n T at K=10 | R-S |  |  |  |  |  |  | \nS-T |  |  |  |  |  |  | \nT-R |  |  |  |  |  |  | \nLocation: Relay \nDesignation: Tested by: Signature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Restricted Earth Fault Relay \n 87 NU"
-  },
-  {
-   "type": "paragraph",
-   "text": "RADHD\n ABB"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -137,6 +131,36 @@
    "text": "Restricted Earth Fault (87NU)"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay Type",
+     "RADHD",
+     "Aux. Supply",
+     "220 DC"
+    ],
+    [
+     "Rated Voltage",
+     "100V",
+     "Contact Rating",
+     "5 A"
+    ],
+    [
+     "Time",
+     "(10-20) msec",
+     "Max. Contact\n Rating",
+     "25 A"
+    ],
+    [
+     "Burden",
+     "0.1 VA",
+     "DC consumption",
+     "1.6 watt"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "heading",
    "level": 2,
    "text": "Current \ntransformers"
@@ -145,7 +169,15 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "CT Location",
+     "CT"
+    ],
+    [
+     "Neutral 6.3kv Side 1",
+     "30 V.A 5P10 - (2000/1) \n A CT-UN1"
+    ],
+    [
+     "Neutral 6.3kv Side 2",
      "30 V.A 5P10 - (2000/1) \n A CT-UN2"
     ]
    ],
@@ -160,13 +192,13 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Power",
      "32/16/16 MVA",
      "Voltage KV",
      "222x2.5% / 6.6/6.6 K.V"
     ],
     [
-     "",
+     "HV Current",
      "839.8 A",
      "Operating Point",
      "3 ~ 22 KV"
@@ -178,7 +210,7 @@
      "D/yn1/yn1"
     ],
     [
-     "",
+     "M.V2 \n Current",
      "1339.6 A",
      "Impedance \n Voltage Vcc",
      "10 %"
@@ -199,11 +231,35 @@
    "text": "High Impedance Single \nPhase Restricted Ground Fault Relay \n(87NU)"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "Relay Setting",
+     "Relay \n Results",
+     "Remarks"
+    ],
+    [
+     "Pick up",
+     "Reset",
+     ""
+    ],
+    [
+     "",
+     "V =100V",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: Transformer \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Restricted Earth Fault Relay \n 87 NU\nRADHD\n ABB\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe relay is basically a standard attracted armature \nunit of simple and robust construction. The operating coil of this unit is \nconnected in series with a small choke and capacitor, forming a series resonant \ncircuit. These components are energized from an auto-transformer which is tapped \nto provide seven current settings.\nThe relay circuit, tuned to the supply frequency, \nrejects the harmonics produced by current transformer saturation. A slight time \ndelay on operation helps to provide stability on heavy external faults and is \nobtained by allowing the auto-transformer to saturate above the relay setting. \nThis limits the current supplied, and the attracted armature unit operates only \non the slower part of its time-current.\nThe first draft initiated by eng. Ahmed Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam and\ncertified by eng. Gaber \nFarahat WDEPC \ninspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nThe transformer must be was isolated.\nMake sure CT Secondary circuits are shorted.\nEnsure all CT path elements are secure after any test disturbance.\nTools and Equipment\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter, test plug, and test leads.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \n relay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect \n one of them to the timer of the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the voltage leads of a tester unit to the \n relay points according to the drawings and scheme.\nInject voltage to each couple of points (37-38) till \n the red flag of the device displays.\nRecord the results pick up value at 97v.\nDecrees the voltage until the relay is reset and \n measure the voltage at reset 65v.\nRecord the results reset value at 68v.\nSwitch off secondary injection t test set.\nReturn the relay to the panel.\nReturn all connections to the normal position as \n before the test.\nClose the work permit.\nTechnical Data for\nHigh Impedance Single \nPhase Restricted Ground Fault Relay \n(87NU)\nRestricted Earth Fault (87NU)\nCurrent \ntransformers\n\nUnit \ntransformer\n\nTest Sheet\nfor \nUnit Transformer\nHigh Impedance Single \nPhase Restricted Ground Fault Relay \n(87NU)\nLocation: Transformer \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe relay is basically a standard attracted armature \nunit of simple and robust construction. The operating coil of this unit is \nconnected in series with a small choke and capacitor, forming a series resonant \ncircuit. These components are energized from an auto-transformer which is tapped \nto provide seven current settings.\nThe relay circuit, tuned to the supply frequency, \nrejects the harmonics produced by current transformer saturation. A slight time \ndelay on operation helps to provide stability on heavy external faults and is \nobtained by allowing the auto-transformer to saturate above the relay setting. \nThis limits the current supplied, and the attracted armature unit operates only \non the slower part of its time-current.\nThe first draft initiated by eng. Ahmed Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam and\ncertified by eng. Gaber \nFarahat WDEPC \ninspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nThe transformer must be was isolated.\nMake sure CT Secondary circuits are shorted.\nEnsure all CT path elements are secure after any test disturbance.\nTools and Equipment\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter, test plug, and test leads.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \n relay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect \n one of them to the timer of the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the voltage leads of a tester unit to the \n relay points according to the drawings and scheme.\nInject voltage to each couple of points (37-38) till \n the red flag of the device displays.\nRecord the results pick up value at 97v.\nDecrees the voltage until the relay is reset and \n measure the voltage at reset 65v.\nRecord the results reset value at 68v.\nSwitch off secondary injection t test set.\nReturn the relay to the panel.\nReturn all connections to the normal position as \n before the test.\nClose the work permit.\nTechnical Data for\nHigh Impedance Single \nPhase Restricted Ground Fault Relay \n(87NU)\nRestricted Earth Fault (87NU)\nRelay Type | RADHD | Aux. Supply | 220 DC\nRated Voltage | 100V | Contact Rating | 5 A\nTime | (10-20) msec | Max. Contact\n Rating | 25 A\nBurden | 0.1 VA | DC consumption | 1.6 watt\nCurrent \ntransformers\nCT Location | CT\nNeutral 6.3kv Side 1 | 30 V.A 5P10 - (2000/1) \n A CT-UN1\nNeutral 6.3kv Side 2 | 30 V.A 5P10 - (2000/1) \n A CT-UN2\nUnit \ntransformer\nPower | 32/16/16 MVA | Voltage KV | 222x2.5% / 6.6/6.6 K.V\nHV Current | 839.8 A | Operating Point | 3 ~ 22 KV\nM.V1 \n Current | 1339.6 A | Connection \n Symbol | D/yn1/yn1\nM.V2 \n Current | 1339.6 A | Impedance \n Voltage Vcc | 10 %\nTest Sheet\nfor \nUnit Transformer\nHigh Impedance Single \nPhase Restricted Ground Fault Relay \n(87NU)\nDate | Relay Setting | Relay \n Results | Remarks\nPick up | Reset | \n | V =100V |  |  | \nLocation: Transformer \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

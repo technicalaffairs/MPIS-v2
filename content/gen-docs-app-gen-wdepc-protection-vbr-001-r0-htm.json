@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Voltage Balance \n Protection (60G)\n RXBA 4"
-  },
-  {
-   "type": "paragraph",
-   "text": "ABB"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -110,16 +104,58 @@
    "text": "for Voltage Balance Protection (60G)"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Relay \n results"
+   "type": "table",
+   "rows": [
+    [
+     "date",
+     "Relay setting",
+     "Ph.",
+     "Relay \n results",
+     "remarks"
+    ],
+    [
+     "P.T1 side",
+     "P.T2 side"
+    ],
+    [
+     "Pick up",
+     "reset",
+     "Pick up",
+     "reset"
+    ],
+    [
+     "",
+     "",
+     "R",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: Equipment \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Voltage Balance \n Protection (60G)\n RXBA 4\nABB\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe RXBA 4 operates for single . two and three phase fuse failure in the \n supervised circuuits and for an interruption in any of the pilot_wires of \n their associeated fuses.\nThe relay operates fast enough (8ms)to inhibit undesired operation of under \n impedance.......\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nfarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the \n suitable safety category.\nMaintenance staff should be well trained qualified or directly supervised by \n some one who is .\nSafety fence with caution marks surrounding the work area is required.\nPersonal protective equipment must be used (safety shoes, helmet).\nSwitch off the DC power supply before inserting or withdrawing the relay.\nTools and Equipment\nSecondary injection test set\nTest leads\nTest plug handle type rtxb 18\nWork \nto be Carried Out\nIsart the test handle in test switch.\nConnect the relay testing set to terminal 5A phase(R) and 8A (neutral) of the \n test handle.\nIncress the voltage until the relay in the (R_PHASE)pick up and measure the \n voltage at pick up.\nSwitch off secandary injechiont test set.\nRepeat the mesurment with relay testing est connected terminal 6A phase(S) and \n 8A (neutral) at PT 1.\nRepeat the mesurment with relay testing est connected terminal 7A phase(T) and \n 8A (neutral) at PT 1.\nRecord the operation voltage value.\nSwitch off secondary injection test set.\nconnect the relay testing set to terminal 9A phase (R) AND 12A (neutral) the \n test handle at P.T 2.\nRepeat the measurement with relay testing est connected terminal 10A phase (S) \n and 12A (neutral) at P.T 2.\nRepeat the measurement with relay testing est connected terminal 11A phase (T) \n and 12A (neutral) at P.T 2.\nSwitch off secondary injection test set.\nRecord the operation voltage value.\nPull out the test handle.\nReturn the relay to the panel.\nReturn all connections to the normal position as before the test.\nClose the work permit.\nTest Sheet\nfor Voltage Balance Protection (60G)\nRelay \n results\nLocation: Equipment \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe RXBA 4 operates for single . two and three phase fuse failure in the \n supervised circuuits and for an interruption in any of the pilot_wires of \n their associeated fuses.\nThe relay operates fast enough (8ms)to inhibit undesired operation of under \n impedance.......\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nfarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the \n suitable safety category.\nMaintenance staff should be well trained qualified or directly supervised by \n some one who is .\nSafety fence with caution marks surrounding the work area is required.\nPersonal protective equipment must be used (safety shoes, helmet).\nSwitch off the DC power supply before inserting or withdrawing the relay.\nTools and Equipment\nSecondary injection test set\nTest leads\nTest plug handle type rtxb 18\nWork \nto be Carried Out\nIsart the test handle in test switch.\nConnect the relay testing set to terminal 5A phase(R) and 8A (neutral) of the \n test handle.\nIncress the voltage until the relay in the (R_PHASE)pick up and measure the \n voltage at pick up.\nSwitch off secandary injechiont test set.\nRepeat the mesurment with relay testing est connected terminal 6A phase(S) and \n 8A (neutral) at PT 1.\nRepeat the mesurment with relay testing est connected terminal 7A phase(T) and \n 8A (neutral) at PT 1.\nRecord the operation voltage value.\nSwitch off secondary injection test set.\nconnect the relay testing set to terminal 9A phase (R) AND 12A (neutral) the \n test handle at P.T 2.\nRepeat the measurement with relay testing est connected terminal 10A phase (S) \n and 12A (neutral) at P.T 2.\nRepeat the measurement with relay testing est connected terminal 11A phase (T) \n and 12A (neutral) at P.T 2.\nSwitch off secondary injection test set.\nRecord the operation voltage value.\nPull out the test handle.\nReturn the relay to the panel.\nReturn all connections to the normal position as before the test.\nClose the work permit.\nTest Sheet\nfor Voltage Balance Protection (60G)\ndate | Relay setting | Ph. | Relay \n results | remarks\nP.T1 side | P.T2 side\nPick up | reset | Pick up | reset\n |  | R |  |  |  |  | \nS |  |  |  | \nT |  |  |  | \nLocation: Equipment \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

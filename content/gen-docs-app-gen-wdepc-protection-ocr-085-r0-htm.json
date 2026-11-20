@@ -14,28 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time Over Current Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "IRI1"
-  },
-  {
-   "type": "paragraph",
-   "text": "SEG"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -208,51 +194,57 @@
    "text": "Auxiliary PS :\nV"
   },
   {
-   "type": "paragraph",
-   "text": "I setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "I pick up"
-  },
-  {
-   "type": "paragraph",
-   "text": "I\n Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset factor"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time Test"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remark"
-  },
-  {
-   "type": "paragraph",
-   "text": "R"
-  },
-  {
-   "type": "paragraph",
-   "text": "S"
-  },
-  {
-   "type": "paragraph",
-   "text": "T"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "I setting",
+     "I pick up",
+     "I\n Reset",
+     "Reset factor",
+     "Time setting",
+     "Time Test",
+     "Remark"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Tested \nby : \n Signature : ……..………… Last Test\n Date :\n/ /\nReviewed by :\n…………… \nSignature :…………..…… \n Test Date /\n/\nApproved by : \n Signature :\n.."
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\nTime Over Current Relay\nIRI1\nSEG\nIntroduction\nThese\nprocedure details the steps required to completely check the proper operation\nand calibration of IRI1 over Current Relay. it is\nrecommended this procedure be carried out every four years bases the first\npreliminary steps to prepare for relay testing describes the activates required\nprior to testing .\nThe first draft initiated by eng. \nMoustafa Osman ,tested and revised by eng.Ali Ghater , accepted by eng. Farag \nAbo Youseff :general manager, approved by eng. Gomaa Ghater: head sector of Kafr \nel Dawar Power Station, \nand certified by eng. Gaber Mohmed Frahat : WDEPC inspection and quality \ncontrol general director and MPIS coordinator.\nSafety Precautions\nThe equipment isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nTools and Equipment\nSecondary current injection test set .\nAVO meter\nClamp ampere.\nSecondary current injection test set .\nAVO meter\nClamp ampere.\nWork to be Carried Out\nPreparation\nReview technical reference and\nmanufacture manual.\nObtain a copy of relay setting\nfrom field maintenance file and compare it with setting on the relay\nObtain outage for equipment\nprotected by this relay.\nReview technical reference and\nmanufacture manual.\nObtain a copy of relay setting\nfrom field maintenance file and compare it with setting on the relay\nObtain outage for equipment\nprotected by this relay.\nTesting Procedures\nConnect the current test set terminals to\npoint (B3-B4) for phase R.\nConnect the timer test set terminal to\npoint (D4-E4).\nInject the current for phase R then\nincrease the current gradually until the red flag for phase R appears then record IR (pick -\nup) and record the time.\nDecrease the current gradually until the\nred flag disappear then record IR (reset).\nFor phase S connect\nthe current test set to point (B5-B6) then repeat steps from (1) to (4).\nFor phase T connect\nthe current test set to point (B7-B8) then repeat steps from (1) to (4).\nConnect the current test set terminals to\npoint (B3-B4) for phase R.\nConnect the timer test set terminal to\npoint (D4-E4).\nInject the current for phase R then\nincrease the current gradually until the red flag for phase R appears then record IR (pick -\nup) and record the time.\nDecrease the current gradually until the\nred flag disappear then record IR (reset).\nFor phase S connect\nthe current test set to point (B5-B6) then repeat steps from (1) to (4).\nFor phase T connect\nthe current test set to point (B7-B8) then repeat steps from (1) to (4).\nReturn Relay and Associated Equipment to\nService\nReturn relay to service by removing the\nplug test.\nMake sure CT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service\nReturn the work permit.\nReturn relay to service by removing the\nplug test.\nMake sure CT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service\nReturn the work permit.\nTestSheet\nStation: KAFR EL .D.P.S\nCircuit\nDate\nRated current : A\nAuxiliary PS :\nV\nI setting\nI pick up\nI\n Reset\nReset factor\nTime setting\nTime Test\nRemark\nR\nS\nT\nTested \nby : \n Signature : ……..………… Last Test\n Date :\n/ /\nReviewed by :\n…………… \nSignature :…………..…… \n Test Date /\n/\nApproved by : \n Signature :\n..",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThese\nprocedure details the steps required to completely check the proper operation\nand calibration of IRI1 over Current Relay. it is\nrecommended this procedure be carried out every four years bases the first\npreliminary steps to prepare for relay testing describes the activates required\nprior to testing .\nThe first draft initiated by eng. \nMoustafa Osman ,tested and revised by eng.Ali Ghater , accepted by eng. Farag \nAbo Youseff :general manager, approved by eng. Gomaa Ghater: head sector of Kafr \nel Dawar Power Station, \nand certified by eng. Gaber Mohmed Frahat : WDEPC inspection and quality \ncontrol general director and MPIS coordinator.\nSafety Precautions\nThe equipment isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nTools and Equipment\nSecondary current injection test set .\nAVO meter\nClamp ampere.\nSecondary current injection test set .\nAVO meter\nClamp ampere.\nWork to be Carried Out\nPreparation\nReview technical reference and\nmanufacture manual.\nObtain a copy of relay setting\nfrom field maintenance file and compare it with setting on the relay\nObtain outage for equipment\nprotected by this relay.\nReview technical reference and\nmanufacture manual.\nObtain a copy of relay setting\nfrom field maintenance file and compare it with setting on the relay\nObtain outage for equipment\nprotected by this relay.\nTesting Procedures\nConnect the current test set terminals to\npoint (B3-B4) for phase R.\nConnect the timer test set terminal to\npoint (D4-E4).\nInject the current for phase R then\nincrease the current gradually until the red flag for phase R appears then record IR (pick -\nup) and record the time.\nDecrease the current gradually until the\nred flag disappear then record IR (reset).\nFor phase S connect\nthe current test set to point (B5-B6) then repeat steps from (1) to (4).\nFor phase T connect\nthe current test set to point (B7-B8) then repeat steps from (1) to (4).\nConnect the current test set terminals to\npoint (B3-B4) for phase R.\nConnect the timer test set terminal to\npoint (D4-E4).\nInject the current for phase R then\nincrease the current gradually until the red flag for phase R appears then record IR (pick -\nup) and record the time.\nDecrease the current gradually until the\nred flag disappear then record IR (reset).\nFor phase S connect\nthe current test set to point (B5-B6) then repeat steps from (1) to (4).\nFor phase T connect\nthe current test set to point (B7-B8) then repeat steps from (1) to (4).\nReturn Relay and Associated Equipment to\nService\nReturn relay to service by removing the\nplug test.\nMake sure CT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service\nReturn the work permit.\nReturn relay to service by removing the\nplug test.\nMake sure CT secondary circuits are in\nnormal condition.\nIf any equipment associated with the\nrelay has been isolated, it should be returned to service\nReturn the work permit.\nTestSheet\nStation: KAFR EL .D.P.S\nCircuit\nDate\nRated current : A\nAuxiliary PS :\nV\n | I setting | I pick up | I\n Reset | Reset factor | Time setting | Time Test | Remark\nR |  |  |  |  |  |  | \nS |  |  |  |  |  |  | \nT |  |  |  |  |  |  | \nTested \nby : \n Signature : ……..………… Last Test\n Date :\n/ /\nReviewed by :\n…………… \nSignature :…………..…… \n Test Date /\n/\nApproved by : \n Signature :\n..",
  "text_truncated": false,
  "links": [],
  "images": [

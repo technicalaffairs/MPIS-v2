@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Over Current Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "MCGG \n 62\n GEC"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -338,12 +332,36 @@
    "type": "table",
    "rows": [
     [
+     "Relay Type",
+     "MCGG 62"
+    ],
+    [
+     "Designation",
+     "MCGG62F1CD0753D"
+    ],
+    [
+     "Serial Number",
+     "829343 H"
+    ],
+    [
+     "Feeder",
+     "Unit Auxiliary Transformer"
+    ],
+    [
+     "Cubical",
+     "1MAC 20"
+    ],
+    [
+     "Function",
+     "251 /AT Single Phase Over Current"
+    ],
+    [
      "Auxiliary Supply",
-     ""
+     "125 VDC"
     ],
     [
      "Rated Current",
-     ""
+     "5 AMP"
     ]
    ],
    "truncated_rows": 0
@@ -352,6 +370,31 @@
    "type": "heading",
    "level": 1,
    "text": "Setting"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "IN",
+     "5 amp",
+     "",
+     "CURVE",
+     "1 - 1 - 0"
+    ],
+    [
+     "IS",
+     "0.9 IN = 4.5 amp",
+     "Time Multiplier",
+     "0.1 sec"
+    ],
+    [
+     "I inst",
+     "11 x IS = 49.5 amp",
+     "CT Ratio",
+     "2500 / 1"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -371,6 +414,40 @@
    "text": "Operating Time at Specified Current"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Curve",
+     "2 x IS",
+     "5 x IS",
+     "10 x IS",
+     "20 x IS"
+    ],
+    [
+     "Normal",
+     "Range",
+     "Normal",
+     "Range",
+     "Normal",
+     "Range",
+     "Normal",
+     "Range"
+    ],
+    [
+     "LTI",
+     "120",
+     "114-126",
+     "30",
+     "28.5-31.5",
+     "13.3",
+     "12.6 - 14",
+     "6.32",
+     "66.64"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Note: \nThe operating time at specified current will be multiplied \nby time multiplier 0.1, i.e. operating time = 13.3 0.1 = 1.33 sec"
   },
@@ -378,6 +455,61 @@
    "type": "heading",
    "level": 1,
    "text": "Test Results"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Pick-up Check (amp)",
+     "Timing Check at 10 x IS (PUT IS=0.1 \n IN)"
+    ],
+    [
+     "Theoretical Range",
+     "Measured Values",
+     "Theoretical Values",
+     "Measured Time"
+    ],
+    [
+     "IS",
+     "1.1 IS",
+     "Pick-up",
+     "Drop-out",
+     "Current",
+     "Time"
+    ],
+    [
+     "Phase R",
+     "4.5",
+     "4.95",
+     "",
+     "",
+     "5 amp",
+     "1.3 SEC",
+     ""
+    ],
+    [
+     "Phase S",
+     "4.5",
+     "4.95",
+     "",
+     "",
+     "5 amp",
+     "1.3 SEC",
+     ""
+    ],
+    [
+     "Phase T",
+     "4.5",
+     "4.95",
+     "",
+     "",
+     "5 amp",
+     "1.3 SEC",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -392,11 +524,37 @@
    "text": "Put IS = 0.1 IN i.e IS = 0.5 Amp\nI inst = 5.5 Amp"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Injected Current (amp)",
+     "Measuring Time (sec)"
+    ],
+    [
+     "Phase R",
+     "",
+     ""
+    ],
+    [
+     "Phase S",
+     "",
+     ""
+    ],
+    [
+     "Phase T",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: \nRelay Designation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Over Current Relay\nMCGG \n 62\n GEC\nIntroduction\nThe document is formatted the way to minimize the \npossibility of error causing personal injury or damage to equipment.\nThe MCGG 62 is single, two, three or four pole over \ncurrent relay, Each pole of the relay provides a choice of four IDMT \ncharacteristics and three definite time characteristics. Additionally, each pole \nis provided with an instantaneous high-set element which can be disabled if not \nrequired. The MCGG 62 relay is Three phase with instantaneous elements Over \ncurrent protection Relay This procedure details the steps required to completely \ncheck the proper operation and calibration of the MCGG62 relay. It is \nrecommended this procedure to be carried out on an annually bases.\nThe first draft initiated & tested by eng. \nMedhat Magdy Gerges, revised by eng. \nAbdel-Naser Moustafa Ahmed, accepted by eng. Shawky Attalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nOutage \n arrangement must be done\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.\nSwitch off the DC power supply before inserting or withdrawing the relay\nOutage \n arrangement must be done\nTools and Equipment\nSingle \n phase Secondary Injection Test Set MTM2.\nTest plug,\n Test Leads.\nMulti-meter.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nCarefully follow these test procedure \nsteps\nCheck the wires of the relay by hand.\nCheck the AC source is available to the \ntester.\nCheck the existence of the DC sources in \npanels.\nDisconnect the trip leads of the relay \nand connect one of them to the timer of the tester.\nCheck all the leads used in tests.\nMake sure CT secondary circuits are \nshorted at the incoming terminal blocks before isolating the relay current \ncircuits for test.\nReview the manual and drawings.\nCarefully follow these test procedure \nsteps\nCheck the wires of the relay by hand.\nCheck the AC source is available to the \ntester.\nCheck the existence of the DC sources in \npanels.\nDisconnect the trip leads of the relay \nand connect one of them to the timer of the tester.\nCheck all the leads used in tests.\nMake sure CT secondary circuits are \nshorted at the incoming terminal blocks before isolating the relay current \ncircuits for test.\nLook at field maintenance \n file and compare the position of the setting switches on relay with those \n shown in the setting sheet.\nPower Supply Test\nPress the RESET button and check that all LEDs are illuminated. This confirms \nthat all measuring boards are operating satisfactorily\nPress the RESET button and check that all LEDs are illuminated. This confirms \nthat all measuring boards are operating satisfactorily\nCurrent Pick-up \nand Reset Check Test\nConnect \ntest lead between the current terminal on the relay for phase R as shown in drawing and the current terminals \non the test set.\nSlowly increase the current until the green \nLED lights. The relay must operate with a current between +/- 10% of the setting \nvalue.\nRecord this value on the test sheet.\nSlowly decrease the current until the green \nLED reset.\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nConnect \ntest lead between the current terminal on the relay for phase R as shown in drawing and the current terminals \non the test set.\nSlowly increase the current until the green \nLED lights. The relay must operate with a current between +/- 10% of the setting \nvalue.\nRecord this value on the test sheet.\nSlowly decrease the current until the green \nLED reset.\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nTime Setting \nTest\nConnect the relay time delayed output \ncontacts to the timer contacts of the test set.\nSwitch on the test set and inject current. \nThe timer will stop after delay time(1.3sec).\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nInject current into the relay and increase it to reach (5 Is) . Keep this \n value and switch off the test set.\nConnect the relay time delayed output \ncontacts to the timer contacts of the test set.\nSwitch on the test set and inject current. \nThe timer will stop after delay time(1.3sec).\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nInstantaneous \nSetting Test\nConnect the instantaneous trip out put \ncontacts to the timer contacts on the test set. This is to stop the current as \nsoon as the relay picks up.\nCAUTION: Do not keep this current on the \nrelay for more than a few seconds as it may exceed the rating and damage the \nrelay.\nDecrease the setting of Is to 0.1 In.\nIncrease current quickly to \nreach (11 Is). Keep this value and switch off the test set.\nConnect the relay trip output contacts to \nthe timer contacts of the test set.\nSwitch on the test set and inject current. \nThe timer will stop instantaneous (50ms).\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nConnect the instantaneous trip out put \ncontacts to the timer contacts on the test set. This is to stop the current as \nsoon as the relay picks up.\nCAUTION: Do not keep this current on the \nrelay for more than a few seconds as it may exceed the rating and damage the \nrelay.\nDecrease the setting of Is to 0.1 In.\nIncrease current quickly to \nreach (11 Is). Keep this value and switch off the test set.\nConnect the relay trip output contacts to \nthe timer contacts of the test set.\nSwitch on the test set and inject current. \nThe timer will stop instantaneous (50ms).\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nTrip Test\nRequest the \n operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to \n trip the circuit breaker.\nCheck that the circuit breaker tripped.\nReturn the Relay \nand Power Equipment to Service\nVerify the test result match the relay \nsetting. If not consult technical services.\nTest trip the circuit breaker associated \nwith the relay.\nMake a final check that all switches on the \nrelay are set according to the setting sheet.\nMake sure the CT secondary circuit is in \nnormal condition\nRemove the CT shorts which were installed in \nthe Power Supply\nReturn the relay and power equipment to \nservice.\nVerify the test result match the relay \nsetting. If not consult technical services.\nTest trip the circuit breaker associated \nwith the relay.\nMake a final check that all switches on the \nrelay are set according to the setting sheet.\nMake sure the CT secondary circuit is in \nnormal condition\nRemove the CT shorts which were installed in \nthe Power Supply\nReturn the relay and power equipment to \nservice.\nTest Sheet\n\nSetting\nImportant \nNotes\nRack out the two relays # 286-1/AT & 286-1/AT\nInjection current will be on X016\nOperating Time at Specified Current\nNote: \nThe operating time at specified current will be multiplied \nby time multiplier 0.1, i.e. operating time = 13.3 0.1 = 1.33 sec\nTest Results\nLEDS AND \nCONTACTS OPERATION \n OK\nInstantaneous \nElement\nPut IS = 0.1 IN i.e IS = 0.5 Amp\nI inst = 5.5 Amp\nLocation: \nRelay Designation: Tested by: Signature: \nTest Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThe document is formatted the way to minimize the \npossibility of error causing personal injury or damage to equipment.\nThe MCGG 62 is single, two, three or four pole over \ncurrent relay, Each pole of the relay provides a choice of four IDMT \ncharacteristics and three definite time characteristics. Additionally, each pole \nis provided with an instantaneous high-set element which can be disabled if not \nrequired. The MCGG 62 relay is Three phase with instantaneous elements Over \ncurrent protection Relay This procedure details the steps required to completely \ncheck the proper operation and calibration of the MCGG62 relay. It is \nrecommended this procedure to be carried out on an annually bases.\nThe first draft initiated & tested by eng. \nMedhat Magdy Gerges, revised by eng. \nAbdel-Naser Moustafa Ahmed, accepted by eng. Shawky Attalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nOutage \n arrangement must be done\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes ... ets\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.\nSwitch off the DC power supply before inserting or withdrawing the relay\nOutage \n arrangement must be done\nTools and Equipment\nSingle \n phase Secondary Injection Test Set MTM2.\nTest plug,\n Test Leads.\nMulti-meter.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nCarefully follow these test procedure \nsteps\nCheck the wires of the relay by hand.\nCheck the AC source is available to the \ntester.\nCheck the existence of the DC sources in \npanels.\nDisconnect the trip leads of the relay \nand connect one of them to the timer of the tester.\nCheck all the leads used in tests.\nMake sure CT secondary circuits are \nshorted at the incoming terminal blocks before isolating the relay current \ncircuits for test.\nReview the manual and drawings.\nCarefully follow these test procedure \nsteps\nCheck the wires of the relay by hand.\nCheck the AC source is available to the \ntester.\nCheck the existence of the DC sources in \npanels.\nDisconnect the trip leads of the relay \nand connect one of them to the timer of the tester.\nCheck all the leads used in tests.\nMake sure CT secondary circuits are \nshorted at the incoming terminal blocks before isolating the relay current \ncircuits for test.\nLook at field maintenance \n file and compare the position of the setting switches on relay with those \n shown in the setting sheet.\nPower Supply Test\nPress the RESET button and check that all LEDs are illuminated. This confirms \nthat all measuring boards are operating satisfactorily\nPress the RESET button and check that all LEDs are illuminated. This confirms \nthat all measuring boards are operating satisfactorily\nCurrent Pick-up \nand Reset Check Test\nConnect \ntest lead between the current terminal on the relay for phase R as shown in drawing and the current terminals \non the test set.\nSlowly increase the current until the green \nLED lights. The relay must operate with a current between +/- 10% of the setting \nvalue.\nRecord this value on the test sheet.\nSlowly decrease the current until the green \nLED reset.\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nConnect \ntest lead between the current terminal on the relay for phase R as shown in drawing and the current terminals \non the test set.\nSlowly increase the current until the green \nLED lights. The relay must operate with a current between +/- 10% of the setting \nvalue.\nRecord this value on the test sheet.\nSlowly decrease the current until the green \nLED reset.\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nTime Setting \nTest\nConnect the relay time delayed output \ncontacts to the timer contacts of the test set.\nSwitch on the test set and inject current. \nThe timer will stop after delay time(1.3sec).\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nInject current into the relay and increase it to reach (5 Is) . Keep this \n value and switch off the test set.\nConnect the relay time delayed output \ncontacts to the timer contacts of the test set.\nSwitch on the test set and inject current. \nThe timer will stop after delay time(1.3sec).\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nInstantaneous \nSetting Test\nConnect the instantaneous trip out put \ncontacts to the timer contacts on the test set. This is to stop the current as \nsoon as the relay picks up.\nCAUTION: Do not keep this current on the \nrelay for more than a few seconds as it may exceed the rating and damage the \nrelay.\nDecrease the setting of Is to 0.1 In.\nIncrease current quickly to \nreach (11 Is). Keep this value and switch off the test set.\nConnect the relay trip output contacts to \nthe timer contacts of the test set.\nSwitch on the test set and inject current. \nThe timer will stop instantaneous (50ms).\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nConnect the instantaneous trip out put \ncontacts to the timer contacts on the test set. This is to stop the current as \nsoon as the relay picks up.\nCAUTION: Do not keep this current on the \nrelay for more than a few seconds as it may exceed the rating and damage the \nrelay.\nDecrease the setting of Is to 0.1 In.\nIncrease current quickly to \nreach (11 Is). Keep this value and switch off the test set.\nConnect the relay trip output contacts to \nthe timer contacts of the test set.\nSwitch on the test set and inject current. \nThe timer will stop instantaneous (50ms).\nRecord this value on the test sheet.\nRepeat this steps for phase S and phase T\nTrip Test\nRequest the \n operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to \n trip the circuit breaker.\nCheck that the circuit breaker tripped.\nReturn the Relay \nand Power Equipment to Service\nVerify the test result match the relay \nsetting. If not consult technical services.\nTest trip the circuit breaker associated \nwith the relay.\nMake a final check that all switches on the \nrelay are set according to the setting sheet.\nMake sure the CT secondary circuit is in \nnormal condition\nRemove the CT shorts which were installed in \nthe Power Supply\nReturn the relay and power equipment to \nservice.\nVerify the test result match the relay \nsetting. If not consult technical services.\nTest trip the circuit breaker associated \nwith the relay.\nMake a final check that all switches on the \nrelay are set according to the setting sheet.\nMake sure the CT secondary circuit is in \nnormal condition\nRemove the CT shorts which were installed in \nthe Power Supply\nReturn the relay and power equipment to \nservice.\nTest Sheet\nRelay Type | MCGG 62\nDesignation | MCGG62F1CD0753D\nSerial Number | 829343 H\nFeeder | Unit Auxiliary Transformer\nCubical | 1MAC 20\nFunction | 251 /AT Single Phase Over Current\nAuxiliary Supply | 125 VDC\nRated Current | 5 AMP\nSetting\nIN | 5 amp |  | CURVE | 1 - 1 - 0\nIS | 0.9 IN = 4.5 amp | Time Multiplier | 0.1 sec\nI inst | 11 x IS = 49.5 amp | CT Ratio | 2500 / 1\nImportant \nNotes\nRack out the two relays # 286-1/AT & 286-1/AT\nInjection current will be on X016\nOperating Time at Specified Current\nCurve | 2 x IS | 5 x IS | 10 x IS | 20 x IS\nNormal | Range | Normal | Range | Normal | Range | Normal | Range\nLTI | 120 | 114-126 | 30 | 28.5-31.5 | 13.3 | 12.6 - 14 | 6.32 | 66.64\nNote: \nThe operating time at specified current will be multiplied \nby time multiplier 0.1, i.e. operating time = 13.3 0.1 = 1.33 sec\nTest Results\n | Pick-up Check (amp) | Timing Check at 10 x IS (PUT IS=0.1 \n IN)\nTheoretical Range | Measured Values | Theoretical Values | Measured Time\nIS | 1.1 IS | Pick-up | Drop-out | Current | Time\nPhase R | 4.5 | 4.95 |  |  | 5 amp | 1.3 SEC | \nPhase S | 4.5 | 4.95 |  |  | 5 amp | 1.3 SEC | \nPhase T | 4.5 | 4.95 |  |  | 5 amp | 1.3 SEC | \nLEDS AND \nCONTACTS OPERATION \n OK\nInstantaneous \nElement\nPut IS = 0.1 IN i.e IS = 0.5 Amp\nI inst = 5.5 Amp\n | Injected Current (amp) | Measuring Time (sec)\nPhase R |  | \nPhase S |  | \nPhase T |  | \nLocation: \nRelay Designation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

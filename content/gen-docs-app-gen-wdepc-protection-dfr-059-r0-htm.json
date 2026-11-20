@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Differential Relay ( \n 87G ) \n for Generator"
-  },
-  {
-   "type": "paragraph",
-   "text": "RADHA"
-  },
-  {
-   "type": "paragraph",
-   "text": "ABB"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -127,16 +117,58 @@
    "text": "Model: RADHA"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Relay Results"
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "Relay Setting",
+     "Ph.",
+     "Relay Results",
+     "Remarks"
+    ],
+    [
+     "22KVside",
+     "Star point side"
+    ],
+    [
+     "Pick up",
+     "Reset",
+     "Pick up",
+     "Reset"
+    ],
+    [
+     "",
+     "",
+     "R",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Differential Relay ( \n 87G ) \n for Generator\nRADHA\nABB\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe RADHA relay is of the high impedance restraint type(with a relatively high \nseries impedance in the differential circuit) and has been designed with filter \ncircuits which will attencate the dc component. tests and practical experience \nshow that RADHA with recommended setting does not operate undue for external \nshort-circuit sever for the extreme transient CT saturation.\nThis procedure details the steps required to \ncompletely check the proper operation and calibration of the \nrelay. It is recommended this procedure be carried out on an annually bases. The \ndocument is formatted the way to minimize the possibility of error causing \npersonal injury or damage to equipment.\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nFarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nEnsure isolation of the equipment which the protection relay will be tested.\nMake sure that CT secondary circuits are shorted before isolating the current \n for the injection.\nTools and Equipment\nOhmmeter, bridge type\nSingle-phase secondary test.\nTest plug handle tape rtxh 18.\nTest plug, test leads\nTest cabinet.\nWork to be Carried Out\nStart the test handle in test switch.\nConnect the relay testing set to terminal 3 L1 phase (R) and 6 (neutral) of the \n test handle.\nIncrease the voltage until the relay in the R_PHASE pick up and measure the \n voltage at pick up.\nSwitch off secondary test.\nRepeat the measurement with relay testing set connect 4_6 L2 phase (S).\nRecord the operating (differential voltage).\nSwitch off secondary injection test set.\nRepeat the measurement with relay testing set connected terminal 5_6 L3 phase \n (T).\nRecord the operating (differential voltage).\nSwitch off secondary test.\nPull out the test handle.\nReturn the relay to the panel.\nReturn all connections to the normal position as before the test.\nPlace a copy of the test result in the field maintenance file.\nClose the work permit.\nTest Sheet\nRelay Type: \nDifferential Relay for Generator (87G)\nModel: RADHA\nRelay Results\nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe RADHA relay is of the high impedance restraint type(with a relatively high \nseries impedance in the differential circuit) and has been designed with filter \ncircuits which will attencate the dc component. tests and practical experience \nshow that RADHA with recommended setting does not operate undue for external \nshort-circuit sever for the extreme transient CT saturation.\nThis procedure details the steps required to \ncompletely check the proper operation and calibration of the \nrelay. It is recommended this procedure be carried out on an annually bases. The \ndocument is formatted the way to minimize the possibility of error causing \npersonal injury or damage to equipment.\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nFarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nEnsure isolation of the equipment which the protection relay will be tested.\nMake sure that CT secondary circuits are shorted before isolating the current \n for the injection.\nTools and Equipment\nOhmmeter, bridge type\nSingle-phase secondary test.\nTest plug handle tape rtxh 18.\nTest plug, test leads\nTest cabinet.\nWork to be Carried Out\nStart the test handle in test switch.\nConnect the relay testing set to terminal 3 L1 phase (R) and 6 (neutral) of the \n test handle.\nIncrease the voltage until the relay in the R_PHASE pick up and measure the \n voltage at pick up.\nSwitch off secondary test.\nRepeat the measurement with relay testing set connect 4_6 L2 phase (S).\nRecord the operating (differential voltage).\nSwitch off secondary injection test set.\nRepeat the measurement with relay testing set connected terminal 5_6 L3 phase \n (T).\nRecord the operating (differential voltage).\nSwitch off secondary test.\nPull out the test handle.\nReturn the relay to the panel.\nReturn all connections to the normal position as before the test.\nPlace a copy of the test result in the field maintenance file.\nClose the work permit.\nTest Sheet\nRelay Type: \nDifferential Relay for Generator (87G)\nModel: RADHA\nDate | Relay Setting | Ph. | Relay Results | Remarks\n22KVside | Star point side\nPick up | Reset | Pick up | Reset\n |  | R |  |  |  |  | \nS |  |  |  | \nT |  |  |  | \nLocation: Generator \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [
