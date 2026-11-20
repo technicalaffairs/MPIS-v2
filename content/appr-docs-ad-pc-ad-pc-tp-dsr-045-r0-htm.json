@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Distance Relay\n 7SA511, 7SA513, MICOM P411 or P442"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -194,10 +192,19 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Figure 2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "list",
    "items": [
     "Click on the Test Object icon",
-    "Figure 2"
+    "Enter the parameters on the Device Setting \n tab"
    ]
   },
   {
@@ -235,12 +242,18 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Figure 3"
-  },
-  {
-   "type": "paragraph",
-   "text": "Figure 4"
+   "type": "table",
+   "rows": [
+    [
+     "General:",
+     ""
+    ],
+    [
+     "",
+     "Figure 3"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
@@ -248,13 +261,13 @@
     [
      "Analog:",
      ""
+    ],
+    [
+     "",
+     "Figure 4"
     ]
    ],
    "truncated_rows": 0
-  },
-  {
-   "type": "paragraph",
-   "text": "Figure 5"
   },
   {
    "type": "table",
@@ -262,6 +275,10 @@
     [
      "Binary:",
      ""
+    ],
+    [
+     "",
+     "Figure 5"
     ]
    ],
    "truncated_rows": 0
@@ -270,10 +287,10 @@
    "type": "list",
    "items": [
     "Select \"None\" \n for the Amplifiers unless the output power of the \n CMC is not \n enough and an external amplifier is required",
-    "Figure 4",
+    "Set : General: CMC 156 (3 \n Voltage & 3 current )",
     "Define the displayed names for each voltage and \n each current signal, i.e\n VA-N, VB-N, VC-N,IA, \n IB, IC \n The connection terminal on the protection scheme can be specified in the \n second column",
     "Ensure that the wining matrix is specified \n correcty i.e. that \n VA-N \n is connected to \n V1 \n of the CMC, etc",
-    "Figure 5",
+    "Click on the \n Binary / Analog inputs tab\n Set : Analog O/P : [ VA-N \n ,VB-N , VC-N , IA , IB \n & IC ]",
     "Define binary input 1 as \"Tip\". Define binary \n input 2 as \"start\"",
     "De-select all other crosses in the wiring matrix \n to indicate that these binary inputs are not used",
     "Define binary inputs 1-4 as \"potential free\" by \n selecting the relevant check box (1)\n If voltage sensing contacts are used, the trigger level of each input can be \n separately specified(2)",
@@ -610,6 +627,52 @@
    "text": "Line Angle"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "X1 =",
+     "R1 =",
+     "R1E =",
+     "RA1 =",
+     "RA1E =",
+     "T1 ="
+    ],
+    [
+     "X2 =",
+     "R2 =",
+     "R2E =",
+     "RA2 =",
+     "RA2E =",
+     "T2 ="
+    ],
+    [
+     "X3 =",
+     "R3 =",
+     "R3E =",
+     "X+A =",
+     "XE/XL =",
+     "T3 ="
+    ],
+    [
+     "X1B =",
+     "R1B =",
+     "R1BE =",
+     "X-A =",
+     "RE/RL=",
+     "T4 ="
+    ],
+    [
+     "X1L =",
+     "R1L =",
+     "R1LE =",
+     "RPG =",
+     "∆R/∆T =",
+     "T5 ="
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Test \nResults"
   },
@@ -621,14 +684,94 @@
    "type": "table",
    "rows": [
     [
+     "Phase",
+     "Z1",
+     "Z2",
+     "Z3",
+     "Z4"
+    ],
+    [
      "R1(0º)",
-     "",
+     "X1(90º)1",
      "R2(0º)",
-     "",
+     "X2(90º)1",
      "R3(0º)",
-     "",
+     "X3(90º)1",
      "R4(0º)",
+     "X4(90º)1"
+    ],
+    [
+     "RN",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
      ""
+    ],
+    [
+     "SN",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TN",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "RS",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "ST",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TR",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time",
+     "T1 =",
+     "T2=",
+     "T3=",
+     "T4= \n Sec"
     ]
    ],
    "truncated_rows": 0
@@ -672,7 +815,7 @@
    "text": "Location: Relay \nDesignation: Tested by: Signature: Last Test Date:\nApproved by: \nSignature: Test Date:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\n Distance Relay\n 7SA511, 7SA513, MICOM P411 or P442\nIntroduction\nThis document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the above title block.\nThis procedure details the steps required to completely check the proper \noperation and calibration of the distance relays \ntypes 7SA511, 7SA513, \nusing OMICRON CMC156 \nTest Set.\nThis Testing Procedure \nContains\nZone & Time reaches.\nDirectionality \n of relay\nCB Trip & Alarm and Signaling\nS.O.F Test.\nPower Swing \n Test.\nEnd to End \n Test: (send & receive).\nBack up \n ( O/C & E.F \n ) Test.\nThe first draft initiated by eng. Mohsen Abd El \nHameed, tested at Elaasher substations by eng. Ebraheem Hasan, reviewed by \nprotection manager eng. Fawzy Barakat, accepted by general manager eng. Elsaaied \nNagy, revised by quality control manager: eng. Mohamed Emran, and approved by \neng. Wageeh Mansy (Head Sector Of Protection, measurements & testes)\nA work permit must be issued and the \n qualified testing staff should carry the suitable safety categories.\nSafety fence with caution marks \n surrounding the work area is required.\nWear \n Safety and healthy equipment as safety helmet, safety shoes ... etc.\nCircuit breaker must be fully \n isolated.\nLine isolation is required.\nMake sure CT secondary circuits are shorted before isolating the current \n circuits for test current injection.\nSwitch off DC power supply before inserting or withdrawing the Distance Relay \n under test as 7SA511, 7SA513, MICOM P411 or P442\nTools and Equipment\nOMICRON test set type CMC156\nTest leads.\nClip on Ammeter, Voltmeter\nWork to be Carried Out\nPreparations\nThe preparation for testing requires four \nessential tasks can be accomplished in the office and two tasks ( items 5 \n& 6 ) requires the engineer to be on site\nChoosing the correct OMICRON test \n module.\nEntering test object parameters details and \n settings of the relay.\nHardware configuration details of the wiring \n connections and configuring binary inputs ... etc.\nDefining the report structure ( How will the \n results be formatted in the report ? ).\nRunning the test.\nSaving and printing the report.\nPreliminary Steps to Prepare for Relay Testing\nReview technical references material \n Manufacturers manual for distance relay\n 7SA511/7SA513/ MICOM P411 or P442\nReview technical references material \n Manufacturers manual for OMICRON test set .\nObtain copy of relay setting from field \n protection file and compare it with the setting on the relay.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches \n are open and tagged.\nInspect the CT secondary circuits, the VT (MCBS), and all cables supplying the relay 7SA511/ 7SA513/ MICOM P411 or P442.\nUse the station drawings to isolate the \n following items:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder \n associated with this relay.\nCarefully follow all test procedure steps.\nVerify the test results match the relay \n setting, if not consult technical services.\nTest trip the \n breaker associated with the relay\nThis \n procedure is used to perform off load relay testing.\nLook at the \n control panel nameplate and check that this control system designation agrees \n with the line that has been taken out of service for maintenance.\nCheck there is no \n AC current from CTs by using a clip on ammeter.\nCheck there is no \n AC voltage from VTs by using a voltmeter.\nTesting Procedures\nEstablishing \n the wiring between the relay and the OMICRON test set\nConnect the OMICRON Test Set to the distance relay\n under test as 7SA511 or 7SA513 or MICOM P411/P442 as following in \n figure1.\nConnect the voltage and current \n inputs of the relay to corresponding voltage and current outputs of OMICRON test set\nConnect the trip signal of relay to binary input of OMICRON test set.\nRestore DC \n supply to distance relay under test as 7SA511/7SA513/ MICOM P411 or P442.\nStarting OMICRON \n start page and Distance Test Module:\nStart OMICRON \n start page by clicking Omicron test universe.\nUnder (Test \n Module) Click on Distance \n Distance\nClick on the Test Object icon\nFigure 2\nNOTE:: You can enter the all parameters by using \nRIO file. Click import and choose RIO \nfile of this distance relay under test\nDevice Setting\nImport \nunder test distance relay as 7SA511/7SA513/MICOM P411 or P442 \nRIO file of this relay under test.\nClick \nOk \nagain to close the test object.\nImport \nunder test distance relay as 7SA511/7SA513/MICOM P411 or P442 \nRIO file of this relay under test.\nClick \nOk \nagain to close the test object.\nStep\n 2 \nConfiguring\n the\n Hardware\nClick on the icon \n hardware configuration \n or select \n insert \n I \n hardware configuration \n to open the dialog for the hardware configuration.\nEnter the all parameters as shown at figures ( \n 3, 4, 5 ).\nFigure 3\nFigure 4\n\nFigure 5\n\nSelect \"None\" \n for the Amplifiers unless the output power of the \n CMC is not \n enough and an external amplifier is required\nFigure 4\nDefine the displayed names for each voltage and \n each current signal, i.e\n VA-N, VB-N, VC-N,IA, \n IB, IC \n The connection terminal on the protection scheme can be specified in the \n second column\nEnsure that the wining matrix is specified \n correcty i.e. that \n VA-N \n is connected to \n V1 \n of the CMC, etc\nFigure 5\nDefine binary input 1 as \"Tip\". Define binary \n input 2 as \"start\"\nDe-select all other crosses in the wiring matrix \n to indicate that these binary inputs are not used\nDefine binary inputs 1-4 as \"potential free\" by \n selecting the relevant check box (1)\n If voltage sensing contacts are used, the trigger level of each input can be \n separately specified(2)\nClick on the binary outputs tab\nDe-select all crosses in the wiring matrix to \n indicate that no binary outputs are required for this test\nClick no the DC analog input tab\nDe-select all crosses in the wiring matrix to \n indicate that DC analog inputs are required for this test\nClick ok to return to the control center \n Set : Binary / Analog I/P : \n 1 I/P for stop contact [ +1 & -1 ]\nStep 3: \nEntering \nthe \nDefault Values \nas shown in figures 6, 7, 8\nClick \nTest View \nicon, under test view:\nClick \nsetting \ntab\nSet: I test = 2 A & Allow Reduction of I \ntest\nClick \nTrigger \ntab\nSet: OR / \nI ( TRIP )\nClick \nShot \ntab\nSet: \nAccording to RIO file by using {Add & Add T0 ) to test zone reaches & time \nreaches & directionality \nfor all zones & all phases.\nClick \nTest View \nicon, under test view:\nClick \nsetting \ntab\nSet: I test = 2 A & Allow Reduction of I \ntest\nClick \nTrigger \ntab\nSet: OR / \nI ( TRIP )\nClick \nShot \ntab\nSet: \nAccording to RIO file by using {Add & Add T0 ) to test zone reaches & time \nreaches & directionality \nfor all zones & all phases.\nFigure 6\nFigure 7\nFigure 8\n(1) Zone Time Reaches\nand Directionality of \nRelay\nStep\n 4: \nTest\ninjection: (start\n/ \ncontinue\nsweep)\nStep 5: \nDefining\nthe\nreport:\nClick PARAMETER / REPORT - Long \nform\nStep\n 6: \nReport\nview\nClick the \n REPORT \n button from the tool bar\nYou can see the \n results of this test in this report\nYou can save this \n repot:\nStep\n 7: \nSaving \nthe \nTest\nClick \n FILE \n SAVE \n Enter the file name \n SAVE\nYou can print \n this report.\n(2) CB Trip Alarm and \nSignaling\nRestore breaker \n Trip Coil & (Alarm and Fault Recorder) associated with this relay.\nTest: Injection \n start single test\n(3) End to End \nTest\nRECEIVE\nMake bridge on receive \n signal\nTest: injection start single test at zone (Z2).\n(4) S.O.F Test\nMake Bridge on \n manual close command.\nTest: injection \n start single test at Z2 or Z3\n(5) Back \nup (O/C & E.F) Test\nChoose point ( \n O/C & E.F ) out of distance\nTest: injection \n start single test.\n(6) \nPower Swing Blocking Test by using Ramping as Following\n\nUnder Test Modules click on RAMPING -\n RAMPING .\nEntering the default values :\nFigure 9\nTest: Injection \nSTART SINGLE TEST\nNote: Distance \nblocking ( No Trip )\n(7)\nVT Fuse Failure Test: By using Quick CMC\nSet the amplitude of V1 to 57.7 V.\nWhile pointing at the field for the amplitude of V1; \n Click the right mouse button \n Select equal \n magnitudes.\n Note \n that the voltage of all three phases have been set to 57.7 V\nSet the phase angles of V1 to 0.0\nWhile pointing at the field for the phase angle of V1 \n ; click the right mouse button select balance angles.\n Note \n that the phase angle displacement between the voltages are set to a constant \n 120 degree.\nCurrent amplitude and phase angles are entered in the same \n way.\nSpecify the frequency to 50 HZ.\nIf the PC is connected to a \n CMC 156; the status of the \n binary input would be shown \n on line ( Binary i/p 10 )\nSelect the current triple of the CMC 156\nSelect to step all thee current or 1 phase ( as you like )\nSpecify step size \n as 0.1 A\nClick the up button \n until the O/C relay pick up.\nSelect the current triple of the CMC 156\nSelect to step all three current or 1 phase ( as you like ).\nSpecify step size \n as 0.1 A.\nSelect AUTO STEP \n Check Box.\nClick the up button \n once.\nNote: \n the O/C relay pick up.\nSet \n : \n V1= 57.7 ; V2 \n = 57.7 ; V3 = 57.7 V\n I1 =1.0 ; 12 = 1.0 \n ; I3 = 1.0 A\nTest : injection\n start single test\n Note: normal \n operation\nSet \n :V1= \n 57.7 ; V2 = 57.7 ; V3 = 0.0V ( fuse failure i.e VT fail )\nTest : injection\n start single test\n Note:\n VT fail \n alarm & Distance block.\nIncrease current \n to 1.45 A.\n Note : O/C \n trip.\nRest all function on the distance relay by \npressing RESET on the keyboard of the \nrelay.\nRest all function on the distance relay by \npressing RESET on the keyboard of the \nrelay.\nReturn Relay and Associated \nEquipment to Service\nIf any equipment \n associated with the relay has been isolated, \n it should be returned to service \n by the following restoration steps:\nReturn relay to \n service by removing the test leads from the relay terminals block and the test \n set.\nMake sure \n CT \n and \n VT \n secondary circuits are in normal condition.\nIf any equipment \n associated with the relay has been isolated, \n it should be returned to service \n by the following restoration steps:\nBreaker trip coils.\nBreaker failure \n scheme associated this relay.\nDisturbance alarm \n and fault recorder associated with this relay.\nBreaker trip coils.\nBreaker failure \n scheme associated this relay.\nDisturbance alarm \n and fault recorder associated with this relay.\nRequest \nPower Line be Returned to Service\nTake crossed \n reading of all AC currents and voltages supplied to the relay \n 7SA511, 7SA513, MICOM P411 or P442 \n and compare them to those for normal load condition.\nCheck that \n readings agree with station meters (MW/MVAR/Power factor/Ampere/Voltages).\nPlace a copy of \n the test results in the field maintenance file.\nMaintenance Record Data Sheet\nfor Distance Relays 7SA511/7SA513/ MICOM P411 or P442\nLocation:\nRelay type: \nManufacturer:\nLine:\nLength:\nPrimary Setting: \nLine Impedance: \nOhm\nLine Angle\nTest \nResults\nZone & Time Reach\n\nDirectionality\nForward directional angle\nReverse directional angle\nO/C,E.F\nEmergency O/C & E/F\nFigure 12\nFigure 13\nFigure 14\nFigure 15\nLocation: Relay \nDesignation: Tested by: Signature: Last Test Date:\nApproved by: \nSignature: Test Date:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the above title block.\nThis procedure details the steps required to completely check the proper \noperation and calibration of the distance relays \ntypes 7SA511, 7SA513, \nusing OMICRON CMC156 \nTest Set.\nThis Testing Procedure \nContains\nZone & Time reaches.\nDirectionality \n of relay\nCB Trip & Alarm and Signaling\nS.O.F Test.\nPower Swing \n Test.\nEnd to End \n Test: (send & receive).\nBack up \n ( O/C & E.F \n ) Test.\nThe first draft initiated by eng. Mohsen Abd El \nHameed, tested at Elaasher substations by eng. Ebraheem Hasan, reviewed by \nprotection manager eng. Fawzy Barakat, accepted by general manager eng. Elsaaied \nNagy, revised by quality control manager: eng. Mohamed Emran, and approved by \neng. Wageeh Mansy (Head Sector Of Protection, measurements & testes)\nA work permit must be issued and the \n qualified testing staff should carry the suitable safety categories.\nSafety fence with caution marks \n surrounding the work area is required.\nWear \n Safety and healthy equipment as safety helmet, safety shoes ... etc.\nCircuit breaker must be fully \n isolated.\nLine isolation is required.\nMake sure CT secondary circuits are shorted before isolating the current \n circuits for test current injection.\nSwitch off DC power supply before inserting or withdrawing the Distance Relay \n under test as 7SA511, 7SA513, MICOM P411 or P442\nTools and Equipment\nOMICRON test set type CMC156\nTest leads.\nClip on Ammeter, Voltmeter\nWork to be Carried Out\nPreparations\nThe preparation for testing requires four \nessential tasks can be accomplished in the office and two tasks ( items 5 \n& 6 ) requires the engineer to be on site\nChoosing the correct OMICRON test \n module.\nEntering test object parameters details and \n settings of the relay.\nHardware configuration details of the wiring \n connections and configuring binary inputs ... etc.\nDefining the report structure ( How will the \n results be formatted in the report ? ).\nRunning the test.\nSaving and printing the report.\nPreliminary Steps to Prepare for Relay Testing\nReview technical references material \n Manufacturers manual for distance relay\n 7SA511/7SA513/ MICOM P411 or P442\nReview technical references material \n Manufacturers manual for OMICRON test set .\nObtain copy of relay setting from field \n protection file and compare it with the setting on the relay.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches \n are open and tagged.\nInspect the CT secondary circuits, the VT (MCBS), and all cables supplying the relay 7SA511/ 7SA513/ MICOM P411 or P442.\nUse the station drawings to isolate the \n following items:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder \n associated with this relay.\nCarefully follow all test procedure steps.\nVerify the test results match the relay \n setting, if not consult technical services.\nTest trip the \n breaker associated with the relay\nThis \n procedure is used to perform off load relay testing.\nLook at the \n control panel nameplate and check that this control system designation agrees \n with the line that has been taken out of service for maintenance.\nCheck there is no \n AC current from CTs by using a clip on ammeter.\nCheck there is no \n AC voltage from VTs by using a voltmeter.\nTesting Procedures\nEstablishing \n the wiring between the relay and the OMICRON test set\nConnect the OMICRON Test Set to the distance relay\n under test as 7SA511 or 7SA513 or MICOM P411/P442 as following in \n figure1.\nConnect the voltage and current \n inputs of the relay to corresponding voltage and current outputs of OMICRON test set\nConnect the trip signal of relay to binary input of OMICRON test set.\nRestore DC \n supply to distance relay under test as 7SA511/7SA513/ MICOM P411 or P442.\nStarting OMICRON \n start page and Distance Test Module:\nStart OMICRON \n start page by clicking Omicron test universe.\nUnder (Test \n Module) Click on Distance \n Distance\nFigure 2\nClick on the Test Object icon\nEnter the parameters on the Device Setting \n tab\nNOTE:: You can enter the all parameters by using \nRIO file. Click import and choose RIO \nfile of this distance relay under test\nDevice Setting\nImport \nunder test distance relay as 7SA511/7SA513/MICOM P411 or P442 \nRIO file of this relay under test.\nClick \nOk \nagain to close the test object.\nImport \nunder test distance relay as 7SA511/7SA513/MICOM P411 or P442 \nRIO file of this relay under test.\nClick \nOk \nagain to close the test object.\nStep\n 2 \nConfiguring\n the\n Hardware\nClick on the icon \n hardware configuration \n or select \n insert \n I \n hardware configuration \n to open the dialog for the hardware configuration.\nEnter the all parameters as shown at figures ( \n 3, 4, 5 ).\nGeneral: | \n | Figure 3\nAnalog: | \n | Figure 4\nBinary: | \n | Figure 5\nSelect \"None\" \n for the Amplifiers unless the output power of the \n CMC is not \n enough and an external amplifier is required\nSet : General: CMC 156 (3 \n Voltage & 3 current )\nDefine the displayed names for each voltage and \n each current signal, i.e\n VA-N, VB-N, VC-N,IA, \n IB, IC \n The connection terminal on the protection scheme can be specified in the \n second column\nEnsure that the wining matrix is specified \n correcty i.e. that \n VA-N \n is connected to \n V1 \n of the CMC, etc\nClick on the \n Binary / Analog inputs tab\n Set : Analog O/P : [ VA-N \n ,VB-N , VC-N , IA , IB \n & IC ]\nDefine binary input 1 as \"Tip\". Define binary \n input 2 as \"start\"\nDe-select all other crosses in the wiring matrix \n to indicate that these binary inputs are not used\nDefine binary inputs 1-4 as \"potential free\" by \n selecting the relevant check box (1)\n If voltage sensing contacts are used, the trigger level of each input can be \n separately specified(2)\nClick on the binary outputs tab\nDe-select all crosses in the wiring matrix to \n indicate that no binary outputs are required for this test\nClick no the DC analog input tab\nDe-select all crosses in the wiring matrix to \n indicate that DC analog inputs are required for this test\nClick ok to return to the control center \n Set : Binary / Analog I/P : \n 1 I/P for stop contact [ +1 & -1 ]\nStep 3: \nEntering \nthe \nDefault Values \nas shown in figures 6, 7, 8\nClick \nTest View \nicon, under test view:\nClick \nsetting \ntab\nSet: I test = 2 A & Allow Reduction of I \ntest\nClick \nTrigger \ntab\nSet: OR / \nI ( TRIP )\nClick \nShot \ntab\nSet: \nAccording to RIO file by using {Add & Add T0 ) to test zone reaches & time \nreaches & directionality \nfor all zones & all phases.\nClick \nTest View \nicon, under test view:\nClick \nsetting \ntab\nSet: I test = 2 A & Allow Reduction of I \ntest\nClick \nTrigger \ntab\nSet: OR / \nI ( TRIP )\nClick \nShot \ntab\nSet: \nAccording to RIO file by using {Add & Add T0 ) to test zone reaches & time \nreaches & directionality \nfor all zones & all phases.\nFigure 6\nFigure 7\nFigure 8\n(1) Zone Time Reaches\nand Directionality of \nRelay\nStep\n 4: \nTest\ninjection: (start\n/ \ncontinue\nsweep)\nStep 5: \nDefining\nthe\nreport:\nClick PARAMETER / REPORT - Long \nform\nStep\n 6: \nReport\nview\nClick the \n REPORT \n button from the tool bar\nYou can see the \n results of this test in this report\nYou can save this \n repot:\nStep\n 7: \nSaving \nthe \nTest\nClick \n FILE \n SAVE \n Enter the file name \n SAVE\nYou can print \n this report.\n(2) CB Trip Alarm and \nSignaling\nRestore breaker \n Trip Coil & (Alarm and Fault Recorder) associated with this relay.\nTest: Injection \n start single test\n(3) End to End \nTest\nRECEIVE\nMake bridge on receive \n signal\nTest: injection start single test at zone (Z2).\n(4) S.O.F Test\nMake Bridge on \n manual close command.\nTest: injection \n start single test at Z2 or Z3\n(5) Back \nup (O/C & E.F) Test\nChoose point ( \n O/C & E.F ) out of distance\nTest: injection \n start single test.\n(6) \nPower Swing Blocking Test by using Ramping as Following\nSet Voltage: | state \n(1) from 57.7 to 20.0 | V 1.5 T 0.001\n | state (2) from 20.0 to 57.7 | V 1.5 T 0.001\nSet Current: | state (1) from 0.0 \n to 1.0 | \n | state (2) from 1.0 to 0.0 | \nUnder Test Modules click on RAMPING -\n RAMPING .\nEntering the default values :\nFigure 9\nTest: Injection \nSTART SINGLE TEST\nNote: Distance \nblocking ( No Trip )\n(7)\nVT Fuse Failure Test: By using Quick CMC\nSet the amplitude of V1 to 57.7 V.\nWhile pointing at the field for the amplitude of V1; \n Click the right mouse button \n Select equal \n magnitudes.\n Note \n that the voltage of all three phases have been set to 57.7 V\nSet the phase angles of V1 to 0.0\nWhile pointing at the field for the phase angle of V1 \n ; click the right mouse button select balance angles.\n Note \n that the phase angle displacement between the voltages are set to a constant \n 120 degree.\nCurrent amplitude and phase angles are entered in the same \n way.\nSpecify the frequency to 50 HZ.\nIf the PC is connected to a \n CMC 156; the status of the \n binary input would be shown \n on line ( Binary i/p 10 )\nSelect the current triple of the CMC 156\nSelect to step all thee current or 1 phase ( as you like )\nSpecify step size \n as 0.1 A\nClick the up button \n until the O/C relay pick up.\nSelect the current triple of the CMC 156\nSelect to step all three current or 1 phase ( as you like ).\nSpecify step size \n as 0.1 A.\nSelect AUTO STEP \n Check Box.\nClick the up button \n once.\nNote: \n the O/C relay pick up.\nSet \n : \n V1= 57.7 ; V2 \n = 57.7 ; V3 = 57.7 V\n I1 =1.0 ; 12 = 1.0 \n ; I3 = 1.0 A\nTest : injection\n start single test\n Note: normal \n operation\nSet \n :V1= \n 57.7 ; V2 = 57.7 ; V3 = 0.0V ( fuse failure i.e VT fail )\nTest : injection\n start single test\n Note:\n VT fail \n alarm & Distance block.\nIncrease current \n to 1.45 A.\n Note : O/C \n trip.\nRest all function on the distance relay by \npressing RESET on the keyboard of the \nrelay.\nRest all function on the distance relay by \npressing RESET on the keyboard of the \nrelay.\nReturn Relay and Associated \nEquipment to Service\nIf any equipment \n associated with the relay has been isolated, \n it should be returned to service \n by the following restoration steps:\nReturn relay to \n service by removing the test leads from the relay terminals block and the test \n set.\nMake sure \n CT \n and \n VT \n secondary circuits are in normal condition.\nIf any equipment \n associated with the relay has been isolated, \n it should be returned to service \n by the following restoration steps:\nBreaker trip coils.\nBreaker failure \n scheme associated this relay.\nDisturbance alarm \n and fault recorder associated with this relay.\nBreaker trip coils.\nBreaker failure \n scheme associated this relay.\nDisturbance alarm \n and fault recorder associated with this relay.\nRequest \nPower Line be Returned to Service\nTake crossed \n reading of all AC currents and voltages supplied to the relay \n 7SA511, 7SA513, MICOM P411 or P442 \n and compare them to those for normal load condition.\nCheck that \n readings agree with station meters (MW/MVAR/Power factor/Ampere/Voltages).\nPlace a copy of \n the test results in the field maintenance file.\nMaintenance Record Data Sheet\nfor Distance Relays 7SA511/7SA513/ MICOM P411 or P442\nLocation:\nRelay type: \nManufacturer:\nLine:\nLength:\nPrimary Setting: \nLine Impedance: \nOhm\nLine Angle\nX1 = | R1 = | R1E = | RA1 = | RA1E = | T1 =\nX2 = | R2 = | R2E = | RA2 = | RA2E = | T2 =\nX3 = | R3 = | R3E = | X+A = | XE/XL = | T3 =\nX1B = | R1B = | R1BE = | X-A = | RE/RL= | T4 =\nX1L = | R1L = | R1LE = | RPG = | ∆R/∆T = | T5 =\nTest \nResults\nZone & Time Reach\nPhase | Z1 | Z2 | Z3 | Z4\nR1(0º) | X1(90º)1 | R2(0º) | X2(90º)1 | R3(0º) | X3(90º)1 | R4(0º) | X4(90º)1\nRN |  |  |  |  |  |  |  | \nSN |  |  |  |  |  |  |  | \nTN |  |  |  |  |  |  |  | \nRS |  |  |  |  |  |  |  | \nST |  |  |  |  |  |  |  | \nTR |  |  |  |  |  |  |  | \nTime | T1 = | T2= | T3= | T4= \n Sec\nDirectionality\nForward directional angle\nReverse directional angle\nO/C,E.F\nEmergency O/C & E/F\nFigure 12\nFigure 13\nFigure 14\nFigure 15\nLocation: Relay \nDesignation: Tested by: Signature: Last Test Date:\nApproved by: \nSignature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

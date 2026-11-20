@@ -74,17 +74,24 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Manufacturer",
      "Merlin Gerin",
+     "Serial No.",
      "",
-     "",
-     "",
+     "Date",
      ""
     ],
     [
      "Panel",
      "",
      "Feeder",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Characteristics:",
+     "",
      "",
      "",
      ""
@@ -150,15 +157,15 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Baud Rate",
      "2400",
-     "",
+     "Date Bits",
      "8",
-     "",
+     "Stop Bits",
      "1"
     ],
     [
-     "",
+     "Parity",
      "None",
      "Flow control",
      "X on / X off",
@@ -171,7 +178,7 @@
   {
    "type": "list",
    "items": [
-    "Parity"
+    "Apply setting to connect port"
    ]
   },
   {
@@ -186,9 +193,15 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Access level 1",
+     "ACC",
+     "Password",
+     "OTTER"
+    ],
+    [
+     "Access level 2",
      "2ACC",
-     "",
+     "Password",
      "TAIL"
     ]
    ],
@@ -197,6 +210,63 @@
   {
    "type": "paragraph",
    "text": "Preliminary Checks"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "From Level 1"
+    ],
+    [
+     "Enter\n Status Mode",
+     "STA",
+     "Review Status Report",
+     ""
+    ],
+    [
+     "Enter Date Mode",
+     "DAT",
+     "Check \n Date",
+     ""
+    ],
+    [
+     "Enter Time Mode",
+     "TIM",
+     "Set Clock to Local Time",
+     ""
+    ],
+    [
+     "From Level 2",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Enter Set Mode",
+     "SET",
+     "Issue Setting Print-out (attached page)",
+     ""
+    ],
+    [
+     "Enter Set Mode",
+     "SETL",
+     "Issue Setting Print-out (attached page)",
+     ""
+    ],
+    [
+     "Enter Set Mode",
+     "SETG",
+     "Issue Setting Print-out (attached page)",
+     ""
+    ],
+    [
+     "Enter Set Mode",
+     "SETP",
+     "Issue Setting Print-out (attached page)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -223,6 +293,406 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Zones",
+     "Fault\n Applied",
+     "Test Set",
+     "Distance Protection"
+    ],
+    [
+     "Angle \n Degrees",
+     "I Fault \n Amps",
+     "V \n Fault Volts",
+     "Z \n Fault \n Ohms",
+     "Operating\n Time (ms)",
+     "Led`s \n Indication \n (Service conditions)"
+    ],
+    [
+     "Zone 1",
+     "A-N",
+     "-90",
+     "1",
+     "12.5",
+     "7.8",
+     "40.0",
+     "A-G Ins Z1"
+    ],
+    [
+     "B-N",
+     "12.1",
+     "7.56",
+     "40.0",
+     "B-G Ins Z1"
+    ],
+    [
+     "C-N",
+     "12.9",
+     "8.0",
+     "50.0",
+     "C-G Ins Z1"
+    ],
+    [
+     "A-B",
+     "15.4",
+     "7.7",
+     "40.0",
+     "A-B Ins Z1"
+    ],
+    [
+     "B-C",
+     "14.9",
+     "7.95",
+     "40.0",
+     "B-C Ins Z1"
+    ],
+    [
+     "C-A",
+     "15.8",
+     "7.9",
+     "30.0",
+     "C-A Ins Z1"
+    ],
+    [
+     "Zone 2",
+     "A-N",
+     "-90",
+     "1",
+     "17.8",
+     "11.125",
+     "80.0",
+     "A-G Ins Z2"
+    ],
+    [
+     "B-N",
+     "17.3",
+     "10.8",
+     "80.0",
+     "B-G Ins Z2"
+    ],
+    [
+     "C-N",
+     "17.5",
+     "10.9",
+     "80.0",
+     "C-G Ins Z2"
+    ],
+    [
+     "A-B",
+     "21.9",
+     "10.95",
+     "80.0",
+     "A-B Ins Z2"
+    ],
+    [
+     "B-C",
+     "21.9",
+     "10.95",
+     "70.0",
+     "B-C Ins Z2"
+    ],
+    [
+     "C-A",
+     "10.5",
+     "10.75",
+     "80.0",
+     "C-A Ins Z2"
+    ],
+    [
+     "Zone 3",
+     "A-N",
+     "-90",
+     "1",
+     "10.9",
+     "6.8",
+     "2550",
+     "A-G Ins Z3"
+    ],
+    [
+     "B-N",
+     "10.8",
+     "6.75",
+     "2540",
+     "B-G Ins Z3"
+    ],
+    [
+     "C-N",
+     "11.1",
+     "6.99",
+     "2550",
+     "C-G Ins Z3"
+    ],
+    [
+     "A-B",
+     "13.7",
+     "6.85",
+     "2540",
+     "A-B Ins Z3"
+    ],
+    [
+     "B-C",
+     "13.5",
+     "7.75",
+     "2540",
+     "B-C Ins Z3"
+    ],
+    [
+     "C-A",
+     "13.1",
+     "6.55",
+     "2530",
+     "C-A Ins Z3"
+    ],
+    [
+     "Zone 4",
+     "A-N",
+     "-90",
+     "1",
+     "20.7",
+     "12.9",
+     "940",
+     "A-G Ins Z4"
+    ],
+    [
+     "B-N",
+     "21.0",
+     "13.125",
+     "950",
+     "B-G Ins Z4"
+    ],
+    [
+     "C-N",
+     "21.3",
+     "13.3",
+     "950",
+     "C-G Ins Z4"
+    ],
+    [
+     "A-B",
+     "26.0",
+     "13.0",
+     "940",
+     "A-B Ins Z4"
+    ],
+    [
+     "B-C",
+     "25.9",
+     "12.95",
+     "940",
+     "B-C Ins Z4"
+    ],
+    [
+     "C-A",
+     "25.9",
+     "12.95",
+     "940",
+     "C-A Ins Z4"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Zones",
+     "Fault\n Applied",
+     "Test Set",
+     "Distance Protection"
+    ],
+    [
+     "Angle \n Degrees",
+     "I Fault \n Amps",
+     "V \n Fault Volts",
+     "Z \n Fault \n Ohms",
+     "Operating\n Time (ms)",
+     "Led`s \n Indication \n (Service conditions)"
+    ],
+    [
+     "Zone 1",
+     "A-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "A-G Ins Z1"
+    ],
+    [
+     "B-N",
+     "",
+     "",
+     "",
+     "B-G Ins Z1"
+    ],
+    [
+     "C-N",
+     "",
+     "",
+     "",
+     "C-G Ins Z1"
+    ],
+    [
+     "A-B",
+     "",
+     "",
+     "",
+     "A-B Ins Z1"
+    ],
+    [
+     "B-C",
+     "",
+     "",
+     "",
+     "B-C Ins Z1"
+    ],
+    [
+     "C-A",
+     "",
+     "",
+     "",
+     "C-A Ins Z1"
+    ],
+    [
+     "Zone 2",
+     "A-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "A-G Ins Z2"
+    ],
+    [
+     "B-N",
+     "",
+     "",
+     "",
+     "B-G Ins Z2"
+    ],
+    [
+     "C-N",
+     "",
+     "",
+     "",
+     "C-G Ins Z2"
+    ],
+    [
+     "A-B",
+     "",
+     "",
+     "",
+     "A-B Ins Z2"
+    ],
+    [
+     "B-C",
+     "",
+     "",
+     "",
+     "B-C Ins Z2"
+    ],
+    [
+     "C-A",
+     "",
+     "",
+     "",
+     "C-A Ins Z2"
+    ],
+    [
+     "Zone 3",
+     "A-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "A-G Ins Z3"
+    ],
+    [
+     "B-N",
+     "",
+     "",
+     "",
+     "B-G Ins Z3"
+    ],
+    [
+     "C-N",
+     "",
+     "",
+     "",
+     "C-G Ins Z3"
+    ],
+    [
+     "A-B",
+     "",
+     "",
+     "",
+     "A-B Ins Z3"
+    ],
+    [
+     "B-C",
+     "",
+     "",
+     "",
+     "B-C Ins Z3"
+    ],
+    [
+     "C-A",
+     "",
+     "",
+     "",
+     "C-A Ins Z3"
+    ],
+    [
+     "Zone 4",
+     "A-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "A-G Ins Z4"
+    ],
+    [
+     "B-N",
+     "",
+     "",
+     "",
+     "B-G Ins Z4"
+    ],
+    [
+     "C-N",
+     "",
+     "",
+     "",
+     "C-G Ins Z4"
+    ],
+    [
+     "A-B",
+     "",
+     "",
+     "",
+     "A-B Ins Z4"
+    ],
+    [
+     "B-C",
+     "",
+     "",
+     "",
+     "B-C Ins Z4"
+    ],
+    [
+     "C-A",
+     "",
+     "",
+     "",
+     "C-A Ins Z4"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Tele Protection Test"
   },
@@ -241,6 +711,47 @@
    "text": "Zone 2 Fault"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Test \n on Distance Protection according",
+     "Checked",
+     "Fault in zone 1"
+    ],
+    [
+     "Apply \n zone 2 Fault",
+     "OK",
+     "No blocking signal sent"
+    ],
+    [
+     "Distance Protection",
+     "",
+     "No blocking signal \n received"
+    ],
+    [
+     "zone 2 comparator ( up to 20 ms ) plus the time",
+     "OK",
+     "Distance protection \n operates in zone 1 timing"
+    ],
+    [
+     "of communication timer (20 ms)",
+     "",
+     ""
+    ],
+    [
+     "Check \n that no blocking signal is sent",
+     "OK",
+     ""
+    ],
+    [
+     "Led \n indication A, N, com, Z",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Zone 2 Fault + \"BT\" Receive"
   },
@@ -248,8 +759,33 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Test \n on Distance Protection according",
+     "Checked",
+     "Fault in zone 3"
+    ],
+    [
+     "Apply \n Zone 2 Fault",
      "OK",
+     "Blocking signal sent"
+    ],
+    [
+     "Blocking Signal (BT) \n is received",
+     "OK",
+     "No blocking signal \n received"
+    ],
+    [
+     "Distance Protection operates in zone 2 timing",
+     "OK",
+     ""
+    ],
+    [
+     "No \n Blocking signal (BT) is sent",
+     "OK",
+     ""
+    ],
+    [
+     "Led \n Indication A, G time Z2",
+     "490 \n ms",
      ""
     ]
    ],
@@ -263,8 +799,24 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Test \n on Distance Protection according",
+     "Checked"
+    ],
+    [
+     "Apply \n zone 3 Fault",
      "OK"
+    ],
+    [
+     "Blocking signal (BT) \n is received",
+     "OK"
+    ],
+    [
+     "Distance Protection operates in zone 3 timing",
+     "OK"
+    ],
+    [
+     "Led \n Indication A, G time Z3",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -322,7 +874,7 @@
    "text": "Tested by: \nSignature: \nTested Date:"
   }
  ],
- "text": "\nIntroduction\nThis\n document outlines the testing procedure P1, which must be performed on an \n annually bases as\n indicated by Y1 in the title block.\nThis document initiated by eng. Hoda Mohamed \n Ahmed at Alx zone, tested by eng. Heba Abdel Meniem at Dekhaila II - Sedi \n Kirir PS, accepted by eng. Madiha Al Nagar general director, and certified by \n eng Esam Sadeq general director of Alx network and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nSafety and healthy \n equipment must be used (safety helmet , safety shoes ... etc).\nDisconnect the DC supply and\n Insert the test socket\nConnect the current terminal of the relay on the \n test socket to the testing equipment and be sure that the remaining current circuit is closed.\nConnect the voltage terminal of the relay on the \n test socket to the testing equipment.\nConnect the tripping output of the relay on the \n test socket to the stop contact of the testing equipment.\nRemove the output from the relay, which initiate \n breaker failure.\nRemove the output from the relay, which initiate \n event recorder and fault recorder.\nTools and Equipment\nSafety \n helmet and safety shoes.\nThree Phase injection test set \n Reference:\nDistance Protection test set \n Reference:\nWork\nto be Carried Out\n\nCommunications Set Up\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\n\nApply setting to connect port\n\nParity\nEntering Distance Protection Software\nNote: Darken areas \nshow characters to be typed\n\nPreliminary Checks\nZones Timing\nConnect the timer to output 32\nPull the fault recorder cartage out\nDisconnect the wire # 335 from the relay to prevent the event recorder \noperation.\nConnect the timer to output 32\nPull the fault recorder cartage out\nDisconnect the wire # 335 from the relay to prevent the event recorder \noperation.\nTele Protection Test\nCheck \n\"EDCB\" logic Blocking V Scheme\nCheck \n\"EDCB\" logic Blocking V Scheme\nZone 2 Fault\nZone 2 Fault + \"BT\" Receive\n\nZone 3 Fault + \"BT\" Sent\n\nRequirements for Relay to be back to Service\nClose the CB for testing the circuit\nTest the relay with any zone to check the trip \ncircuit\nRemove the test terminal (voltage and current )\nCall the dispatching center to put back the feeder \ninto service and after that check the following\nClose the CB for testing the circuit\nTest the relay with any zone to check the trip \ncircuit\nRemove the test terminal (voltage and current )\nCall the dispatching center to put back the feeder \ninto service and after that check the following\nThe current circuit with the clamp meter for all \nphases\nThe voltage circuit for all phases\nThe current circuit with the clamp meter for all \nphases\nThe voltage circuit for all phases\nSubstation Name: \nFeeder Name:\nTested by: \nSignature: \nTested Date:",
+ "text": "Protections | Technical Procedure\nIntroduction\nThis\n document outlines the testing procedure P1, which must be performed on an \n annually bases as\n indicated by Y1 in the title block.\nThis document initiated by eng. Hoda Mohamed \n Ahmed at Alx zone, tested by eng. Heba Abdel Meniem at Dekhaila II - Sedi \n Kirir PS, accepted by eng. Madiha Al Nagar general director, and certified by \n eng Esam Sadeq general director of Alx network and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nSafety and healthy \n equipment must be used (safety helmet , safety shoes ... etc).\nDisconnect the DC supply and\n Insert the test socket\nConnect the current terminal of the relay on the \n test socket to the testing equipment and be sure that the remaining current circuit is closed.\nConnect the voltage terminal of the relay on the \n test socket to the testing equipment.\nConnect the tripping output of the relay on the \n test socket to the stop contact of the testing equipment.\nRemove the output from the relay, which initiate \n breaker failure.\nRemove the output from the relay, which initiate \n event recorder and fault recorder.\nTools and Equipment\nSafety \n helmet and safety shoes.\nThree Phase injection test set \n Reference:\nDistance Protection test set \n Reference:\nWork\nto be Carried Out\nManufacturer | Merlin Gerin | Serial No. |  | Date | \nPanel |  | Feeder |  |  | \nCharacteristics: |  |  |  | \nVx | 220 V DC | CT Ratio | 2500/1 | VT Ratio | 220/0.1\nVn | 100 V AC | In | 1A | Test Set Used | TZ/2\nCommunications Set Up\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\nAccessories | → | Terminal | → | Parameters | → | Communications\nApply setting to connect port\nBaud Rate | 2400 | Date Bits | 8 | Stop Bits | 1\nParity | None | Flow control | X on / X off |  | \nApply setting to connect port\nEntering Distance Protection Software\nNote: Darken areas \nshow characters to be typed\nAccess level 1 | ACC | Password | OTTER\nAccess level 2 | 2ACC | Password | TAIL\nPreliminary Checks\nFrom Level 1\nEnter\n Status Mode | STA | Review Status Report | \nEnter Date Mode | DAT | Check \n Date | \nEnter Time Mode | TIM | Set Clock to Local Time | \nFrom Level 2 |  |  | \nEnter Set Mode | SET | Issue Setting Print-out (attached page) | \nEnter Set Mode | SETL | Issue Setting Print-out (attached page) | \nEnter Set Mode | SETG | Issue Setting Print-out (attached page) | \nEnter Set Mode | SETP | Issue Setting Print-out (attached page) | \nZones Timing\nConnect the timer to output 32\nPull the fault recorder cartage out\nDisconnect the wire # 335 from the relay to prevent the event recorder \noperation.\nConnect the timer to output 32\nPull the fault recorder cartage out\nDisconnect the wire # 335 from the relay to prevent the event recorder \noperation.\nZones | Fault\n Applied | Test Set | Distance Protection\nAngle \n Degrees | I Fault \n Amps | V \n Fault Volts | Z \n Fault \n Ohms | Operating\n Time (ms) | Led`s \n Indication \n (Service conditions)\nZone 1 | A-N | -90 | 1 | 12.5 | 7.8 | 40.0 | A-G Ins Z1\nB-N | 12.1 | 7.56 | 40.0 | B-G Ins Z1\nC-N | 12.9 | 8.0 | 50.0 | C-G Ins Z1\nA-B | 15.4 | 7.7 | 40.0 | A-B Ins Z1\nB-C | 14.9 | 7.95 | 40.0 | B-C Ins Z1\nC-A | 15.8 | 7.9 | 30.0 | C-A Ins Z1\nZone 2 | A-N | -90 | 1 | 17.8 | 11.125 | 80.0 | A-G Ins Z2\nB-N | 17.3 | 10.8 | 80.0 | B-G Ins Z2\nC-N | 17.5 | 10.9 | 80.0 | C-G Ins Z2\nA-B | 21.9 | 10.95 | 80.0 | A-B Ins Z2\nB-C | 21.9 | 10.95 | 70.0 | B-C Ins Z2\nC-A | 10.5 | 10.75 | 80.0 | C-A Ins Z2\nZone 3 | A-N | -90 | 1 | 10.9 | 6.8 | 2550 | A-G Ins Z3\nB-N | 10.8 | 6.75 | 2540 | B-G Ins Z3\nC-N | 11.1 | 6.99 | 2550 | C-G Ins Z3\nA-B | 13.7 | 6.85 | 2540 | A-B Ins Z3\nB-C | 13.5 | 7.75 | 2540 | B-C Ins Z3\nC-A | 13.1 | 6.55 | 2530 | C-A Ins Z3\nZone 4 | A-N | -90 | 1 | 20.7 | 12.9 | 940 | A-G Ins Z4\nB-N | 21.0 | 13.125 | 950 | B-G Ins Z4\nC-N | 21.3 | 13.3 | 950 | C-G Ins Z4\nA-B | 26.0 | 13.0 | 940 | A-B Ins Z4\nB-C | 25.9 | 12.95 | 940 | B-C Ins Z4\nC-A | 25.9 | 12.95 | 940 | C-A Ins Z4\nZones | Fault\n Applied | Test Set | Distance Protection\nAngle \n Degrees | I Fault \n Amps | V \n Fault Volts | Z \n Fault \n Ohms | Operating\n Time (ms) | Led`s \n Indication \n (Service conditions)\nZone 1 | A-N |  |  |  |  |  | A-G Ins Z1\nB-N |  |  |  | B-G Ins Z1\nC-N |  |  |  | C-G Ins Z1\nA-B |  |  |  | A-B Ins Z1\nB-C |  |  |  | B-C Ins Z1\nC-A |  |  |  | C-A Ins Z1\nZone 2 | A-N |  |  |  |  |  | A-G Ins Z2\nB-N |  |  |  | B-G Ins Z2\nC-N |  |  |  | C-G Ins Z2\nA-B |  |  |  | A-B Ins Z2\nB-C |  |  |  | B-C Ins Z2\nC-A |  |  |  | C-A Ins Z2\nZone 3 | A-N |  |  |  |  |  | A-G Ins Z3\nB-N |  |  |  | B-G Ins Z3\nC-N |  |  |  | C-G Ins Z3\nA-B |  |  |  | A-B Ins Z3\nB-C |  |  |  | B-C Ins Z3\nC-A |  |  |  | C-A Ins Z3\nZone 4 | A-N |  |  |  |  |  | A-G Ins Z4\nB-N |  |  |  | B-G Ins Z4\nC-N |  |  |  | C-G Ins Z4\nA-B |  |  |  | A-B Ins Z4\nB-C |  |  |  | B-C Ins Z4\nC-A |  |  |  | C-A Ins Z4\nTele Protection Test\nCheck \n\"EDCB\" logic Blocking V Scheme\nCheck \n\"EDCB\" logic Blocking V Scheme\nZone 2 Fault\nTest \n on Distance Protection according | Checked | Fault in zone 1\nApply \n zone 2 Fault | OK | No blocking signal sent\nDistance Protection |  | No blocking signal \n received\nzone 2 comparator ( up to 20 ms ) plus the time | OK | Distance protection \n operates in zone 1 timing\nof communication timer (20 ms) |  | \nCheck \n that no blocking signal is sent | OK | \nLed \n indication A, N, com, Z |  | \nZone 2 Fault + \"BT\" Receive\nTest \n on Distance Protection according | Checked | Fault in zone 3\nApply \n Zone 2 Fault | OK | Blocking signal sent\nBlocking Signal (BT) \n is received | OK | No blocking signal \n received\nDistance Protection operates in zone 2 timing | OK | \nNo \n Blocking signal (BT) is sent | OK | \nLed \n Indication A, G time Z2 | 490 \n ms | \nZone 3 Fault + \"BT\" Sent\nTest \n on Distance Protection according | Checked\nApply \n zone 3 Fault | OK\nBlocking signal (BT) \n is received | OK\nDistance Protection operates in zone 3 timing | OK\nLed \n Indication A, G time Z3 | \nRequirements for Relay to be back to Service\nClose the CB for testing the circuit\nTest the relay with any zone to check the trip \ncircuit\nRemove the test terminal (voltage and current )\nCall the dispatching center to put back the feeder \ninto service and after that check the following\nClose the CB for testing the circuit\nTest the relay with any zone to check the trip \ncircuit\nRemove the test terminal (voltage and current )\nCall the dispatching center to put back the feeder \ninto service and after that check the following\nThe current circuit with the clamp meter for all \nphases\nThe voltage circuit for all phases\nThe current circuit with the clamp meter for all \nphases\nThe voltage circuit for all phases\nSubstation Name: \nFeeder Name:\nTested by: \nSignature: \nTested Date:",
  "text_truncated": false,
  "links": [],
  "images": [

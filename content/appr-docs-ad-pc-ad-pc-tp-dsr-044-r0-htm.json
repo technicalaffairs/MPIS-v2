@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -189,6 +191,25 @@
    "type": "table",
    "rows": [
     [
+     "R",
+     "S",
+     "T"
+    ],
+    [
+     "Pick up",
+     "Reset",
+     "Pick up",
+     "Reset",
+     "Pick up",
+     "Reset"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "",
      "At angle 90",
      "At angle 0"
@@ -208,16 +229,85 @@
      "Meas",
      "Z v",
      "Meas"
+    ],
+    [
+     "R-S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S-T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T-R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time",
+     "",
+     "",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
-  },
-  {
-   "type": "paragraph",
-   "text": ".......................................................................................................................................................................................\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nA work permit must be issued and the maintenance staff should carry the suitable safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nSafety and healthy \n equipment must be used (safety helmet , safety shoes ... etc).\nPreliminary Steps to Prepare for Relay Testing\nPreparation\n\nTesting Procedure(s)\nTesting the Over Current Starting Unit\nTesting the PHase to Phase Impedance Characteristic\nTesting the Phase to Earth Impedance Characteristic\nPerformance and Tripping Tests\nReturn Relay and Associated Equipment to Service\nReturned Power Line to Service\nTest Sheet\nRelay type: Distance relay SD35\nPrimary Setting \nX1 = \nX2 = \nX3 = \nohm\nSetting Values:\nZ1 = \nC = \nI / IN =\nZ2 = \nC = \nIM =\nZ3 = \nC = \nT1 =\nc.t.R = \nT2 =\nv.t.R = \nT3 =\nK = T1 \non Z1\nT3 \non <-->\n\n.......................................................................................................................................................................................\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nA work permit must be issued and the maintenance staff should carry the suitable safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nSafety and healthy \n equipment must be used (safety helmet , safety shoes ... etc).\nPreliminary Steps to Prepare for Relay Testing\nPreparation\nSwitch | Position\nM1 | Zero\nB15,b16&b17 | Zero\nb10 | (1A or 2A) according to in of relay rated current\nb13 | Bus bar side or line side according to the direction\n of CT neutral earthling\nb20 | OFF\nb18 & b19 | LL\nb8 | On yellow line\nb10 | On blue line\nb23 | 180\nb24 | On SS position\nb14 | On Z\nb12 & b11 | To make test angle zero & 90 respectively\nB21( Z) | 0\nTesting Procedure(s)\nTesting the Over Current Starting Unit\nTesting the PHase to Phase Impedance Characteristic\nTesting the Phase to Earth Impedance Characteristic\nPerformance and Tripping Tests\nReturn Relay and Associated Equipment to Service\nReturned Power Line to Service\nTest Sheet\nRelay type: Distance relay SD35\nPrimary Setting \nX1 = \nX2 = \nX3 = \nohm\nSetting Values:\nZ1 = \nC = \nI / IN =\nZ2 = \nC = \nIM =\nZ3 = \nC = \nT1 =\nc.t.R = \nT2 =\nv.t.R = \nT3 =\nK = T1 \non Z1\nT3 \non <-->\nR | S | T\nPick up | Reset | Pick up | Reset | Pick up | Reset\n | At angle 90 | At angle 0\nI | II | I | II\nZ v | Meas | Z v | Meas | Z v | Meas | Z v | Meas\nR-S |  |  |  |  |  |  |  | \nS-T |  |  |  |  |  |  |  | \nT-R |  |  |  |  |  |  |  | \nR-N |  |  |  |  |  |  |  | \nS-N |  |  |  |  |  |  |  | \nT-N |  |  |  |  |  |  |  | \nTime |  |  |  | ",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Earth Fault Relay\n 51 N\n GEC"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -116,49 +114,63 @@
    "type": "table",
    "rows": [
     [
+     "Station :",
+     ""
+    ],
+    [
+     "Circuit \n :",
+     ""
+    ],
+    [
+     "Date :",
+     ""
+    ],
+    [
+     "Rated current \n :\n 1 A 5\nA :"
+    ],
+    [
+     "A C Voltage :"
+    ],
+    [
+     "D C\nVoltage :"
+    ],
+    [
      "Earth Fault Relay ( 51 ) :"
     ]
    ],
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Phase"
-  },
-  {
-   "type": "paragraph",
-   "text": "I setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "I pick up"
-  },
-  {
-   "type": "paragraph",
-   "text": "I\n Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset factor"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time Test"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remark"
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "I setting",
+     "I pick up",
+     "I\n Reset",
+     "Reset factor",
+     "Time setting",
+     "Time Test",
+     "Remark"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Tested by : .. \n Signature : .. \nLast Test Date : / /\nReviewed by \n: .. \nSignature :.. \n Test Date /\n/\nApproved by \n: .. \n Signature : \n.."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Figure 1"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment:\n Earth Fault Relay\n 51 N\n GEC\nIntroduction\nThe ( \n51 N ) is connected with over current\nrelay ( 50/51 ) on transformer which the secondary winding is star \nearthed\nThis relay is connected on the neutral of transformer and relay will operates \nwhen any current passes in neutral. (look at figure no. 1)\nThe first draft initiated\nby eng. Fahmy Abdel Khalek,\ntested at 05 June 2003 by eng. Hanan El-Badrawy, revised by EDEPCo. quality control eng. Adel Abdel Kader El-Nagar, accepted by general\ndirector eng. Mahmoud Saker and approved by eng. MostafaAlam TAlkha PS Head Sector.\nSafety Precautions\nA work permit must be issued and the qualified\nmaintenance staff should carry the suitable safety category.\nSafety fence (rope) with caution marks surrounding \n the work area is required.\nMake sure CT's secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nTools and Equipment\nSverker ( secondary injection current ) .\nCurrent test plug.\nClamp ampere or Avo meter.\nWork to be Carried Out\nInject the currentfrom plugtest on any phase to occur pick up and reset of relay andrecord these values and calculate a reset factor of this relay ( I reset / I\npick up ).\nFrom contact trip or lock out relay take\nthe time delay\nReturn the \nSverker on position off, \ninsert the plug test.\nReview technical reference material\nand Manufactures manual.\nObtain copy of relay setting from \n field maintenance file and compare it with the setting on the relay.\nInject the currentfrom plugtest on any phase to occur pick up and reset of relay andrecord these values and calculate a reset factor of this relay ( I reset / I\npick up ).\nFrom contact trip or lock out relay take\nthe time delay\nReturn the \nSverker on position off, \ninsert the plug test.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set.\nMake sure CT and VT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nReturn the work permit .\nMRDS \nMaintenance Record Data Sheet \nMRDS\nTest Sheet for \n Earth Fault Relay \ntype 51N \n - GEC\nUsing Sverker\n\nPhase\nI setting\nI pick up\nI\n Reset\nReset factor\nTime setting\nTime Test\nRemark\nTested by : .. \n Signature : .. \nLast Test Date : / /\nReviewed by \n: .. \nSignature :.. \n Test Date /\n/\nApproved by \n: .. \n Signature : \n..",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe ( \n51 N ) is connected with over current\nrelay ( 50/51 ) on transformer which the secondary winding is star \nearthed\nThis relay is connected on the neutral of transformer and relay will operates \nwhen any current passes in neutral. (look at figure no. 1)\nThe first draft initiated\nby eng. Fahmy Abdel Khalek,\ntested at 05 June 2003 by eng. Hanan El-Badrawy, revised by EDEPCo. quality control eng. Adel Abdel Kader El-Nagar, accepted by general\ndirector eng. Mahmoud Saker and approved by eng. MostafaAlam TAlkha PS Head Sector.\nSafety Precautions\nA work permit must be issued and the qualified\nmaintenance staff should carry the suitable safety category.\nSafety fence (rope) with caution marks surrounding \n the work area is required.\nMake sure CT's secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nTools and Equipment\nSverker ( secondary injection current ) .\nCurrent test plug.\nClamp ampere or Avo meter.\nWork to be Carried Out\nInject the currentfrom plugtest on any phase to occur pick up and reset of relay andrecord these values and calculate a reset factor of this relay ( I reset / I\npick up ).\nFrom contact trip or lock out relay take\nthe time delay\nReturn the \nSverker on position off, \ninsert the plug test.\nReview technical reference material\nand Manufactures manual.\nObtain copy of relay setting from \n field maintenance file and compare it with the setting on the relay.\nInject the currentfrom plugtest on any phase to occur pick up and reset of relay andrecord these values and calculate a reset factor of this relay ( I reset / I\npick up ).\nFrom contact trip or lock out relay take\nthe time delay\nReturn the \nSverker on position off, \ninsert the plug test.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set.\nMake sure CT and VT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nReturn the work permit .\nMRDS \nMaintenance Record Data Sheet \nMRDS\nTest Sheet for \n Earth Fault Relay \ntype 51N \n - GEC\nUsing Sverker\nStation : | \nCircuit \n : | \nDate : | \nRated current \n :\n 1 A 5\nA :\nA C Voltage :\nD C\nVoltage :\nEarth Fault Relay ( 51 ) :\nPhase | I setting | I pick up | I\n Reset | Reset factor | Time setting | Time Test | Remark\nTested by : .. \n Signature : .. \nLast Test Date : / /\nReviewed by \n: .. \nSignature :.. \n Test Date /\n/\nApproved by \n: .. \n Signature : \n..\nFigure 1",
  "text_truncated": false,
  "links": [],
  "images": [

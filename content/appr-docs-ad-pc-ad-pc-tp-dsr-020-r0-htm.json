@@ -1,25 +1,27 @@
 {
  "id": "appr-docs-ad-pc-ad-pc-tp-dsr-020-r0-htm",
  "doc_number": "DSR-020-R0",
- "title_en": "dsr-020-r0 \nAPPROVED",
- "title_ar": "",
+ "title_en": "",
+ "title_ar": "dsr-020-r0 \nAPPROVED",
  "category": "appr_docs",
  "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-020-r0.htm",
  "source_type": "html",
  "source_encoding": "utf-8",
- "language": "en",
+ "language": "ar",
  "languages_available": [
-  "en"
+  "ar"
  ],
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -407,8 +409,13 @@
    "text": "Pick up Values of under Impedance Starting"
   },
   {
-   "type": "paragraph",
-   "text": "Z = \n .............. \n Circle / lens"
+   "type": "table",
+   "rows": [
+    [
+     "Z = \n .............. \n Circle / lens"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
@@ -435,7 +442,7 @@
      "",
      "",
      "2.",
-     "",
+     "90o",
      "",
      "",
      "",
@@ -471,13 +478,13 @@
     ],
     [
      "11.",
-     "",
+     "90o 1)",
      "",
      "",
      "",
      "",
      "12.",
-     "",
+     "90o 1)",
      "",
      "",
      "",
@@ -495,12 +502,13 @@
    "text": "Pick up Values of Measurement"
   },
   {
-   "type": "paragraph",
-   "text": "Zone \n 1 \n N1= \n .............. \n m1 = \n............."
-  },
-  {
-   "type": "paragraph",
-   "text": "S - 0"
+   "type": "table",
+   "rows": [
+    [
+     "Zone \n 1 \n N1= \n .............. \n m1 = \n............."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
@@ -510,7 +518,7 @@
      "PZL",
      "Value",
      "R - 0",
-     "",
+     "S - 0",
      "T - 0",
      "FC",
      "PZL",
@@ -666,6 +674,16 @@
    "type": "table",
    "rows": [
     [
+     "Zone2 N2 =......... \n m2 =.........",
+     "Zone3 N3 =......... \n m3 =........."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "FC",
      "PZL",
      "Value",
@@ -735,6 +753,15 @@
    "type": "table",
    "rows": [
     [
+     "DIRECTIONAL \n ELEMENT"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "FC",
      "Value",
      "R-0"
@@ -760,6 +787,15 @@
    "type": "table",
    "rows": [
     [
+     "I \n = ...... X 0.2 IN = \n ......A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "FC",
      "Value",
      "R-0"
@@ -775,6 +811,33 @@
   {
    "type": "paragraph",
    "text": "Tripping Times"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Time(ms)",
+     "t1",
+     "t2",
+     "t3",
+     "t4"
+    ],
+    [
+     "Set \n value",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Measured",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -874,7 +937,7 @@
    "truncated_rows": 0
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nL Z92 is high-speed distance relay (static relay) but switched distance relay \nwith three time stepped zones. The relay is used as backup to a backup function \nof the distance relay L Z96. The relay provides three pole tripping output for \nall faults, the first zone can either be disable or time delayed so that three \npole tripping is not interfering with L Z96 single pole tripping (Device No. 21B \n/ 21GB).\nThe first draft initiated by eng Mohamed Mostafa from ME, The document tested at 21 Jan\n01 at \nHigh Dam PP. by eng. Abdel Hafiz frghaly and approved at 4 Dec.\n2001 also tested at Samalout 500kv, 27 April 02 and approved 27 July 02 by eng.\nMohamed Mostafa.\nSafety Precautions\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable safety category\nSafety \n fence with caution marks surrounding \n the work area is required.\nMake sure CT secondary circuits are \n shorted and VT secondary circuits are open.\nTools and Equipment\nTest loads.\nWork to be Carried Out\nPreliminary steps to prepare for relay testing\nReview technical reference material: \n Manufacturer's manual.\nObtain copy of relay setting from field maintenance file and compare it wit the \nsetting on the relay\nObtain outage for line protected by \n this relay.\nReview technical reference material: \n Manufacturer's manual.\nObtain copy of relay setting from field maintenance file and compare it wit the \nsetting on the relay\nObtain outage for line protected by \n this relay.\nTesting the Relay and Protection output\nCarefully follow these test procedure \n steps .\nVerify the test results match the \n relays if not consult technical services.\nTest trip the breaker associated with \n there.\nPrior to starting testing procedures \nensure the following steps\nPreparing the tester unit (XS92a) as a \nfigure (2-1)'(2-2) as the following:\nTesting Procedure\nChecking the Pick-up Value [Impedance \nValue] for the Measuring Elements and Starting\nZone 1 Test : [1st \nstage] \n - \n Prepare the test unit (X S92a).\n - Check XS 92a is ON (Ready).\n - As example (ph. R) test.\nWrite mode (F F & \n enter). \n F R = 50 \nDFR = 0 \n Sa = \n 1F1 \n A = \n 2 FC \n = 111 \n [ph .R - 0] TL \n = TI = 100 \n m.s \n TF = 400 m.s [t i + 100]\nWrite mode (Z Z & \n enter)\n Z L = value of Z1 \nΩ + 10 % Ω PZL = as \n test sheet [ex .85ْ ) DZL \n = 0.1 ZS \n = \n 0 \n PZS = 0 \n K0 = K0 of relay \n (0.8) PK0 = \n 0 KS = \n 0 , PKS =0\nPress on [start & \n (-)].\nWait until auto.stop, trigger point of \n start impedance is indicate on display\nRecord value of (Z L) in test sheet \n and remark the led lamps light on the relay [D & (R, N)] Lamps.\nPress (0 & enter).\nWith the same steps we test ph (S-0) \n & ph(T-0).\nChange (FC) only a follows:\n ph \n (S-0) ====> FC = 112 [Led light D, S, N].ph (T-0) ====> \n FC = 113 [Led light D, T, N].\nWe make the past steps at all angle as \n in test sheet.\nIn case (ph- ph) test :change FC \n as the following :ph (R S) ====> FC = 121 [Led light D, R, \n S].ph (S T) ====> FC = 122 [Led light D, S, T].ph (T R) \n ====> FC = 123 [Led light D, T, R].\nIn case (ph- ph) we write (Z L = Z1 + 10% Ω ) from test sheet.\nMake the program on XS92a as \n follow:-\n For example we take ph (R S).\nWrite mode (F F , \n enter). F R = \n 50 \n DF R = 0 F C = 121 \n ph (RS) SQ = 1 \n F1 \n A = 2 T I = T \n L = 100 m.s T F = \n 400 m.s (t1 + 100).\nWrite mode (Z Z , \n enter). Z L = Z1 + 15% \n Ω P Z L = as in test sheet \n ~ 85ْ D Z L = \n 0.1 \n K0 = K0 of \n relay Z \n S = \n 0 \n P Z S = 0 P \n K0 = \n 0 \n P K S = 0\nPress [Start , (-)].\nWait until auto. stop, trigger point \n of start impedance is indicate on display.\nRecord value of Z L for ph (R-S) in \n test sheet and remark the lighting led lamps on the relay [D, R, S].\nWith the past same steps we test ph \n (S-T) , ph (T-R).\nWrite mode (F F & \n enter). \n F R = 50 \nDFR = 0 \n Sa = \n 1F1 \n A = \n 2 FC \n = 111 \n [ph .R - 0] TL \n = TI = 100 \n m.s \n TF = 400 m.s [t i + 100]\nWrite mode (Z Z & \n enter)\n Z L = value of Z1 \nΩ + 10 % Ω PZL = as \n test sheet [ex .85ْ ) DZL \n = 0.1 ZS \n = \n 0 \n PZS = 0 \n K0 = K0 of relay \n (0.8) PK0 = \n 0 KS = \n 0 , PKS =0\nPress on [start & \n (-)].\nWait until auto.stop, trigger point of \n start impedance is indicate on display\nRecord value of (Z L) in test sheet \n and remark the led lamps light on the relay [D & (R, N)] Lamps.\nPress (0 & enter).\nWith the same steps we test ph (S-0) \n & ph(T-0).\nChange (FC) only a follows:\n ph \n (S-0) ====> FC = 112 [Led light D, S, N].ph (T-0) ====> \n FC = 113 [Led light D, T, N].\nWe make the past steps at all angle as \n in test sheet.\nIn case (ph- ph) test :change FC \n as the following :ph (R S) ====> FC = 121 [Led light D, R, \n S].ph (S T) ====> FC = 122 [Led light D, S, T].ph (T R) \n ====> FC = 123 [Led light D, T, R].\nIn case (ph- ph) we write (Z L = Z1 + 10% Ω ) from test sheet.\nMake the program on XS92a as \n follow:-\n For example we take ph (R S).\nWrite mode (F F , \n enter). F R = \n 50 \n DF R = 0 F C = 121 \n ph (RS) SQ = 1 \n F1 \n A = 2 T I = T \n L = 100 m.s T F = \n 400 m.s (t1 + 100).\nWrite mode (Z Z , \n enter). Z L = Z1 + 15% \n Ω P Z L = as in test sheet \n ~ 85ْ D Z L = \n 0.1 \n K0 = K0 of \n relay Z \n S = \n 0 \n P Z S = 0 P \n K0 = \n 0 \n P K S = 0\nPress [Start , (-)].\nWait until auto. stop, trigger point \n of start impedance is indicate on display.\nRecord value of Z L for ph (R-S) in \n test sheet and remark the lighting led lamps on the relay [D, R, S].\nWith the past same steps we test ph \n (S-T) , ph (T-R).\nZone \n2 Impedance \n[2nd Stage]\nWrite mode (F F , \n enter)\n FR = 50 \n DFR = 0 \n FC = 111 (ex. ph (R - N) \n SQ = \n 1F1 \n A = \n 2 \n T I = TL =100 \n m.s \n TF = 600 m.s (T2 + 100)\nWrite mode ZZ + \n enter. \n Z L = Z2 (Ω) + 15 % \n Ω \n PZL = as in test sheet (85ْ ) \n DZL = \n 0.1 \n K0= K0 of \n relay. \n ZS = \n 0 \n KS = \n 0 \n P Z S = \n 0 \n PK0 = \n 0 \n PKS = 0\nPress [start , (-)]\nWait until autom stop, trigger point \n of start impedance in indicate on display.\nRecord value of (Z L) for ph (R-N) in \n test sheet and remarks lighting led on the relay [D , T2 ,R, \n N].\nPress (0 ,enter).\nWait the same steps we test ph (S-N) , \n (T-N) we change FC only as the following : ph (S-N) \n write FC = 112 - led [D, S, N].ph (T-N) \n write FC = 113 - led [D, T, N].\nWe make the same steps at all angle as \n in test sheet.\nIn case of (ph.- ph) fault we \n change (FC) only as the following: ph (R-S) write FC = 121 led [D, T2 \n , R , S]. ph (S-T) write FC = 122 led [D, T2 , S , \n T]. ph (T-R) write FC = 123 led [D, T2 , T , R].\nRecord the value of ZL from \n display to the test sheet.\nRepeat the steps \n at all angles\nZone 3 \nImpedance [3 rd\nstage]\nRecord the value of (ZL) in test \n sheet.\nZone 4 Impedance [4 th stage]\nRecord the value of (Z L) in test \n sheet.\nTesting zone time : [operating time]\nOperating Time of zone 1 - \n[ T1 ]\nMake (0 , enter) for X S92a.\nChecking of \nLine Trip\nPlace a copy of the test result in the \n field maintenance file.\nTEST \nSHEET\nTest: Directional Check Relay \nDate: \n UN \n: \nV FN \n: Hz\nRelay type: LZ92 \n : LZ9-1 \nIN : 1 \nA\nPrimary Values\nU \n: KV\nI \n: A\nP \n: MW \nActive power into the line \n Active power into \nthe bus bar\nQ \n: MVAR \n Reactive power \ninto the \nline \n Reactive power \ninto the bus bar\n(Export, inductive load) (Import, capacitive load)\nTransformer \nRatios\nU1 \n: \n A \nUU : KV \nA KV\nVoltages at Test Sockets on EW 91\nUR-0 = ............V\n > .......... VSEC > \n..........KVPRIM IR-0 = ...... mV ــــ > \n......ASEC ــــ \n>......... APRIM\nUS-0 = ............V \n> ............VSEC > \n...........KVPRIM IS-0 = ....... mV ــــ > \n......ASEC \nــــ >......... APRIM\nUT-0 = ............V\n> ...........VSEC > ............KVPRIM \nIT-0 = ..... . mV ــــ > ......ASEC \n >......... APRIM\nUR-S = ............V> ...........VSEC \n> ...........KVPRIM KO IE = .....mV \n> .......ASEC ــــ >......... APRIM\nUS-T = .......... \nV > .......... VSEC \n> .......... \nKVPRIM \nASEC -15 UMEAS (UN - 100V) ; USEC - 30 \nUMEAS (UN -200V)\nUT-R = ...........V> .......... VSEC \nــــ > ............ \nKVPRIM \nISEC - ( UMEAS IN) \n0.125\nSettings During Test\nN1 = 0.0 \n% m1 = \nIII Operating \ncurrent : IB > 0.2 IN\nStar Point of Current Transformers\nBus bar side\nLine side\nDirectional Switch on KZ91-1\n+ \n-\nBehavior of the Relay\nDirection + \n Trip \n BlockingDirection - \n Trip \n Blocking\nDate:\nTest: pick - up values\nType of Relay: \nLZ92 LZ92-1 \n Var\nRelay Settings\nUN \n= ............ \nV \nIN = .............. A \nFN = .............. \nHzKO \n= \n.............. \nphiko = .............. \nVINEUTRAL = \n............x IN = \n......A R/X = \n............\nTest Conditions\nTest equipment : XS 92a\nIFZL > 4 Ohm/ph, \nset ZS = 0 Ohm/phIFZL > 4 Ohm/ph, \nset ZS = 0 Ohm/ph and PZS = PZLFor measurement set K0 \n- factor of XS92a = K0 - factor of relay.For \nstarting set K0 of XS92a = 1 (standard).\nPick up Values of under Impedance Starting\nZ = \n .............. \n Circle / lens\n\n1) BACKWARDS\nPick up Values of Measurement\nZone \n 1 \n N1= \n .............. \n m1 = \n.............\nS - 0\n\nTable of multiplication \nfactors (basis 90ْ )for the pick-up values 0,15,30 and \n60ْ.example: pick-up values 90ْ = 7.4 Ohmpick-up value 30ْ = 1,737 . 7,4 \n=12,85 Ohm at R/X = 2( Numeric table is only valid for reactance stop angle \n5ْ )\n\nTEST \n: PICK-UP VALUES\nType of Relay: LZ 92 \nLZ 92-1 Var.\nPick up Values of Measurement\n\n\n\nCheck of Directional Element\n\nCheck of Summation Current\n\nTripping Times\nPCB Settings\n1: Mode \ngrounded \n □ Optocoupler \n(EW91)\nisolated □ Phase \npreference ........ Normal\n □\n6a \n: 1 \nt1 \n □ 2 \nt1 □ \nInverted□\n6b: 1 \nk1=0.1 \n □ \n2 k1=1 □\n7 : \n1 t4 \n□ \n2 t4 □\n8a: 1 \n1 \n□ 2 t \n□ \nzone ....\n8b: 1 zone ext. \n □ \n2 PUTT □ \nzone ....\nRemarks\n....................................................................................................\nDate\nTEST \n: FUNCTIONAL \nTEST \nPOS; IN CUBICLE :A07RELAY TYPE : POWER SWING BLOCKING RELAY UP \n91/92\nTIMER SITTING tw : sec.\nMICRO SWITCH S187 : □ 1 : POWER SWING BLOCKING IN ALL \nZONES(OPERATION MODE) \n□ 2 : POWER SWING \nBLOCKING IN \nZONES \n2 , 3 AND 4 ONLYMICRO SWITCH \nS188 \n□ 1 : \ntw = 1(MULTIPLICATION \nFACTOR) □2 : tw \n= 10\n",
+ "text": "Protection | Technical Procedure\nIntroduction\nL Z92 is high-speed distance relay (static relay) but switched distance relay \nwith three time stepped zones. The relay is used as backup to a backup function \nof the distance relay L Z96. The relay provides three pole tripping output for \nall faults, the first zone can either be disable or time delayed so that three \npole tripping is not interfering with L Z96 single pole tripping (Device No. 21B \n/ 21GB).\nThe first draft initiated by eng Mohamed Mostafa from ME, The document tested at 21 Jan\n01 at \nHigh Dam PP. by eng. Abdel Hafiz frghaly and approved at 4 Dec.\n2001 also tested at Samalout 500kv, 27 April 02 and approved 27 July 02 by eng.\nMohamed Mostafa.\nSafety Precautions\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable safety category\nSafety \n fence with caution marks surrounding \n the work area is required.\nMake sure CT secondary circuits are \n shorted and VT secondary circuits are open.\nTools and Equipment\nTest loads.\nWork to be Carried Out\nPreliminary steps to prepare for relay testing\nReview technical reference material: \n Manufacturer's manual.\nObtain copy of relay setting from field maintenance file and compare it wit the \nsetting on the relay\nObtain outage for line protected by \n this relay.\nReview technical reference material: \n Manufacturer's manual.\nObtain copy of relay setting from field maintenance file and compare it wit the \nsetting on the relay\nObtain outage for line protected by \n this relay.\nTesting the Relay and Protection output\nCarefully follow these test procedure \n steps .\nVerify the test results match the \n relays if not consult technical services.\nTest trip the breaker associated with \n there.\nPrior to starting testing procedures \nensure the following steps\nPreparing the tester unit (XS92a) as a \nfigure (2-1)'(2-2) as the following:\nTesting Procedure\nChecking the Pick-up Value [Impedance \nValue] for the Measuring Elements and Starting\nZone 1 Test : [1st \nstage] \n - \n Prepare the test unit (X S92a).\n - Check XS 92a is ON (Ready).\n - As example (ph. R) test.\nWrite mode (F F & \n enter). \n F R = 50 \nDFR = 0 \n Sa = \n 1F1 \n A = \n 2 FC \n = 111 \n [ph .R - 0] TL \n = TI = 100 \n m.s \n TF = 400 m.s [t i + 100]\nWrite mode (Z Z & \n enter)\n Z L = value of Z1 \nΩ + 10 % Ω PZL = as \n test sheet [ex .85ْ ) DZL \n = 0.1 ZS \n = \n 0 \n PZS = 0 \n K0 = K0 of relay \n (0.8) PK0 = \n 0 KS = \n 0 , PKS =0\nPress on [start & \n (-)].\nWait until auto.stop, trigger point of \n start impedance is indicate on display\nRecord value of (Z L) in test sheet \n and remark the led lamps light on the relay [D & (R, N)] Lamps.\nPress (0 & enter).\nWith the same steps we test ph (S-0) \n & ph(T-0).\nChange (FC) only a follows:\n ph \n (S-0) ====> FC = 112 [Led light D, S, N].ph (T-0) ====> \n FC = 113 [Led light D, T, N].\nWe make the past steps at all angle as \n in test sheet.\nIn case (ph- ph) test :change FC \n as the following :ph (R S) ====> FC = 121 [Led light D, R, \n S].ph (S T) ====> FC = 122 [Led light D, S, T].ph (T R) \n ====> FC = 123 [Led light D, T, R].\nIn case (ph- ph) we write (Z L = Z1 + 10% Ω ) from test sheet.\nMake the program on XS92a as \n follow:-\n For example we take ph (R S).\nWrite mode (F F , \n enter). F R = \n 50 \n DF R = 0 F C = 121 \n ph (RS) SQ = 1 \n F1 \n A = 2 T I = T \n L = 100 m.s T F = \n 400 m.s (t1 + 100).\nWrite mode (Z Z , \n enter). Z L = Z1 + 15% \n Ω P Z L = as in test sheet \n ~ 85ْ D Z L = \n 0.1 \n K0 = K0 of \n relay Z \n S = \n 0 \n P Z S = 0 P \n K0 = \n 0 \n P K S = 0\nPress [Start , (-)].\nWait until auto. stop, trigger point \n of start impedance is indicate on display.\nRecord value of Z L for ph (R-S) in \n test sheet and remark the lighting led lamps on the relay [D, R, S].\nWith the past same steps we test ph \n (S-T) , ph (T-R).\nWrite mode (F F & \n enter). \n F R = 50 \nDFR = 0 \n Sa = \n 1F1 \n A = \n 2 FC \n = 111 \n [ph .R - 0] TL \n = TI = 100 \n m.s \n TF = 400 m.s [t i + 100]\nWrite mode (Z Z & \n enter)\n Z L = value of Z1 \nΩ + 10 % Ω PZL = as \n test sheet [ex .85ْ ) DZL \n = 0.1 ZS \n = \n 0 \n PZS = 0 \n K0 = K0 of relay \n (0.8) PK0 = \n 0 KS = \n 0 , PKS =0\nPress on [start & \n (-)].\nWait until auto.stop, trigger point of \n start impedance is indicate on display\nRecord value of (Z L) in test sheet \n and remark the led lamps light on the relay [D & (R, N)] Lamps.\nPress (0 & enter).\nWith the same steps we test ph (S-0) \n & ph(T-0).\nChange (FC) only a follows:\n ph \n (S-0) ====> FC = 112 [Led light D, S, N].ph (T-0) ====> \n FC = 113 [Led light D, T, N].\nWe make the past steps at all angle as \n in test sheet.\nIn case (ph- ph) test :change FC \n as the following :ph (R S) ====> FC = 121 [Led light D, R, \n S].ph (S T) ====> FC = 122 [Led light D, S, T].ph (T R) \n ====> FC = 123 [Led light D, T, R].\nIn case (ph- ph) we write (Z L = Z1 + 10% Ω ) from test sheet.\nMake the program on XS92a as \n follow:-\n For example we take ph (R S).\nWrite mode (F F , \n enter). F R = \n 50 \n DF R = 0 F C = 121 \n ph (RS) SQ = 1 \n F1 \n A = 2 T I = T \n L = 100 m.s T F = \n 400 m.s (t1 + 100).\nWrite mode (Z Z , \n enter). Z L = Z1 + 15% \n Ω P Z L = as in test sheet \n ~ 85ْ D Z L = \n 0.1 \n K0 = K0 of \n relay Z \n S = \n 0 \n P Z S = 0 P \n K0 = \n 0 \n P K S = 0\nPress [Start , (-)].\nWait until auto. stop, trigger point \n of start impedance is indicate on display.\nRecord value of Z L for ph (R-S) in \n test sheet and remark the lighting led lamps on the relay [D, R, S].\nWith the past same steps we test ph \n (S-T) , ph (T-R).\nZone \n2 Impedance \n[2nd Stage]\nWrite mode (F F , \n enter)\n FR = 50 \n DFR = 0 \n FC = 111 (ex. ph (R - N) \n SQ = \n 1F1 \n A = \n 2 \n T I = TL =100 \n m.s \n TF = 600 m.s (T2 + 100)\nWrite mode ZZ + \n enter. \n Z L = Z2 (Ω) + 15 % \n Ω \n PZL = as in test sheet (85ْ ) \n DZL = \n 0.1 \n K0= K0 of \n relay. \n ZS = \n 0 \n KS = \n 0 \n P Z S = \n 0 \n PK0 = \n 0 \n PKS = 0\nPress [start , (-)]\nWait until autom stop, trigger point \n of start impedance in indicate on display.\nRecord value of (Z L) for ph (R-N) in \n test sheet and remarks lighting led on the relay [D , T2 ,R, \n N].\nPress (0 ,enter).\nWait the same steps we test ph (S-N) , \n (T-N) we change FC only as the following : ph (S-N) \n write FC = 112 - led [D, S, N].ph (T-N) \n write FC = 113 - led [D, T, N].\nWe make the same steps at all angle as \n in test sheet.\nIn case of (ph.- ph) fault we \n change (FC) only as the following: ph (R-S) write FC = 121 led [D, T2 \n , R , S]. ph (S-T) write FC = 122 led [D, T2 , S , \n T]. ph (T-R) write FC = 123 led [D, T2 , T , R].\nRecord the value of ZL from \n display to the test sheet.\nRepeat the steps \n at all angles\nZone 3 \nImpedance [3 rd\nstage]\nRecord the value of (ZL) in test \n sheet.\nZone 4 Impedance [4 th stage]\nRecord the value of (Z L) in test \n sheet.\nTesting zone time : [operating time]\nOperating Time of zone 1 - \n[ T1 ]\nMake (0 , enter) for X S92a.\nChecking of \nLine Trip\nPlace a copy of the test result in the \n field maintenance file.\nTEST \nSHEET\nTest: Directional Check Relay \nDate: \n UN \n: \nV FN \n: Hz\nRelay type: LZ92 \n : LZ9-1 \nIN : 1 \nA\nPrimary Values\nU \n: KV\nI \n: A\nP \n: MW \nActive power into the line \n Active power into \nthe bus bar\nQ \n: MVAR \n Reactive power \ninto the \nline \n Reactive power \ninto the bus bar\n(Export, inductive load) (Import, capacitive load)\nTransformer \nRatios\nU1 \n: \n A \nUU : KV \nA KV\nVoltages at Test Sockets on EW 91\nUR-0 = ............V\n > .......... VSEC > \n..........KVPRIM IR-0 = ...... mV ــــ > \n......ASEC ــــ \n>......... APRIM\nUS-0 = ............V \n> ............VSEC > \n...........KVPRIM IS-0 = ....... mV ــــ > \n......ASEC \nــــ >......... APRIM\nUT-0 = ............V\n> ...........VSEC > ............KVPRIM \nIT-0 = ..... . mV ــــ > ......ASEC \n >......... APRIM\nUR-S = ............V> ...........VSEC \n> ...........KVPRIM KO IE = .....mV \n> .......ASEC ــــ >......... APRIM\nUS-T = .......... \nV > .......... VSEC \n> .......... \nKVPRIM \nASEC -15 UMEAS (UN - 100V) ; USEC - 30 \nUMEAS (UN -200V)\nUT-R = ...........V> .......... VSEC \nــــ > ............ \nKVPRIM \nISEC - ( UMEAS IN) \n0.125\nSettings During Test\nN1 = 0.0 \n% m1 = \nIII Operating \ncurrent : IB > 0.2 IN\nStar Point of Current Transformers\nBus bar side\nLine side\nDirectional Switch on KZ91-1\n+ \n-\nBehavior of the Relay\nDirection + \n Trip \n BlockingDirection - \n Trip \n Blocking\nDate:\nTest: pick - up values\nType of Relay: \nLZ92 LZ92-1 \n Var\nRelay Settings\nUN \n= ............ \nV \nIN = .............. A \nFN = .............. \nHzKO \n= \n.............. \nphiko = .............. \nVINEUTRAL = \n............x IN = \n......A R/X = \n............\nTest Conditions\nTest equipment : XS 92a\nIFZL > 4 Ohm/ph, \nset ZS = 0 Ohm/phIFZL > 4 Ohm/ph, \nset ZS = 0 Ohm/ph and PZS = PZLFor measurement set K0 \n- factor of XS92a = K0 - factor of relay.For \nstarting set K0 of XS92a = 1 (standard).\nPick up Values of under Impedance Starting\nZ = \n .............. \n Circle / lens\nFC | PZL | Value | R - \n 0 | S - \n 0 | T - \n 0 | FC | PZL | Value | R \n -S | S - \n T | T - \n R\n1. | 90ْ |  |  |  |  | 2. | 90o |  |  |  | \n1. | 45ْ |  |  |  |  | 2. | 45 |  |  |  | \n1. | 0ْ |  |  |  |  | 2. | 0ْ |  |  |  | \n11. | 90o 1) |  |  |  |  | 12. | 90o 1) |  |  |  | \n1) BACKWARDS\nPick up Values of Measurement\nZone \n 1 \n N1= \n .............. \n m1 = \n.............\n | PZL | Value | R - 0 | S - 0 | T - 0 | FC | PZL | Value | R -S | S - T | T - R\n1. | 90ْ |  |  |  |  |  | 90ْ |  |  |  | \n1. | 60ْ |  |  |  |  |  | 60ْ |  |  |  | \n1. | 30ْ |  |  |  |  |  | 30ْ |  |  |  | \n1. | 15ْ |  |  |  |  |  | 15ْ |  |  |  | \n1. | 0ْ |  |  |  |  |  | 0ْ |  |  |  | \nTable of multiplication \nfactors (basis 90ْ )for the pick-up values 0,15,30 and \n60ْ.example: pick-up values 90ْ = 7.4 Ohmpick-up value 30ْ = 1,737 . 7,4 \n=12,85 Ohm at R/X = 2( Numeric table is only valid for reactance stop angle \n5ْ )\n | R/X-1 | R/X-2 | R/X-3 | R/X-4 | R/X-5\n90ْ | 1 | 1 | 1 | 1 | 1\n60ْ | 1.099 | 1.099 | 1.099 | 1.099 | 1.099\n30ْ | 1.216 | 1.737 | 1.737 | 1.737 | 1.737\n15ْ | 1.060 | 2.120 | 2.913 | 2.913 | 2.913\n0ْ | 1 | 2 | 3 | 4 | 5\nTEST \n: PICK-UP VALUES\nType of Relay: LZ 92 \nLZ 92-1 Var.\nPick up Values of Measurement\nZone2 N2 =......... \n m2 =......... | Zone3 N3 =......... \n m3 =.........\nFC | PZL | Value | R-0 | S-0 | T-0 | FC | PZL | Value | R-0 | S-0 | T-0\n1. | 90ْ |  |  |  |  | 1. | 90ْ |  |  |  | \nZone \n extension \n US = ............ % \n X1\nFC | PZL | Value | R-0 | S-0 | T-0\n1. | 90ْ |  |  |  | \nCheck of Directional Element\nDIRECTIONAL \n ELEMENT\nFC | Value | R-0\n1. |  | \n1. |  | \nCheck of Summation Current\nI \n = ...... X 0.2 IN = \n ......A\nFC | Value | R-0\n1. |  | \nTripping Times\nTime(ms) | t1 | t2 | t3 | t4\nSet \n value |  |  |  | \nMeasured |  |  |  | \nPCB Settings\n1: Mode \ngrounded \n □ Optocoupler \n(EW91)\nisolated □ Phase \npreference ........ Normal\n □\n6a \n: 1 \nt1 \n □ 2 \nt1 □ \nInverted□\n6b: 1 \nk1=0.1 \n □ \n2 k1=1 □\n7 : \n1 t4 \n□ \n2 t4 □\n8a: 1 \n1 \n□ 2 t \n□ \nzone ....\n8b: 1 zone ext. \n □ \n2 PUTT □ \nzone ....\nRemarks\n....................................................................................................\nDate\nTEST \n: FUNCTIONAL \nTEST \nPOS; IN CUBICLE :A07RELAY TYPE : POWER SWING BLOCKING RELAY UP \n91/92\nTIMER SITTING tw : sec.\nMICRO SWITCH S187 : □ 1 : POWER SWING BLOCKING IN ALL \nZONES(OPERATION MODE) \n□ 2 : POWER SWING \nBLOCKING IN \nZONES \n2 , 3 AND 4 ONLYMICRO SWITCH \nS188 \n□ 1 : \ntw = 1(MULTIPLICATION \nFACTOR) □2 : tw \n= 10\nSIMULATION (I > 0,3 IN) | RESULT | EARMARKS\nPHASE TO \n PHASE FAULT R-S IN ZONE 1 | LZ92 \n TRIPSSIGNAL D APPEARS | \nTHEN PRESS \n TEST BUTTON S(FAST SYSTEM) | SIGNAL D \n DISAPPEARSYELLOW LED ON UPAPPEARSBLOCKING IS RELEASEDAFTER \n tw \n TRIP | \nSIMILAR FOR \n TEST BUTTON L (SLOW SYSTEM) | AS \n ABOVE | \nPHASE TO \n PHASE FAULT R-SIN ZONE 3 | L Z 92 \n TRIPSSIGNAL D APPEARS | \nTHEN PRESS \n TEST BUTTON S | SIGNAL D \n DISAPPEARSYELLOW LED ON UPAPPEARSTRIP AFTER \n tw | \nSIMILAR FOR \n TEST BUTTON L | AS \n ABOVE | ",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -200,6 +202,45 @@
    "text": "Amp Tap Setting :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase To Phase",
+     "GFD",
+     "Phase To Earth"
+    ],
+    [
+     "Injected Terminal",
+     "Measured Current",
+     "Injected Terminal",
+     "Measured Current",
+     "Injected Terminal",
+     "Measured Current"
+    ],
+    [
+     "3 5",
+     "( ) AMP",
+     "14 - 15",
+     "( ) AMP",
+     "3 4",
+     "( ) AMP"
+    ],
+    [
+     "5 7",
+     "( ) AMP",
+     "5 6",
+     "( ) AMP"
+    ],
+    [
+     "7 - 3",
+     "( ) AMP",
+     "7 - 8",
+     "( ) AMP"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\n Tested by : Signature : \n Reviewed by : Signature : \nTest Date : / / \n Approved by : \n Signature : \nTest Date : / /"
   },
@@ -208,7 +249,7 @@
    "text": "Fig (1) : Internal Connections for Fault detector relay ( CHC11A )"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe CHC11A relay is a complete three phase and ground multi contact \n high-speed non-directional over current relay. It has two targets, it may \n be applied wherever a high speed fault detector is required and it is used \n to detect the failed circuit breaker and to select the back up breakers to \n be tripped in order to isolate the fault. The relay has also a phase fault \n detector ( PFD ) used to detect three phase, phase to phase double phase \n to ground faults, and a ( GFD ) unit ( ground fault detector ), which would \n detect single phase to ground faults.\nThe first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama, Revised by Quality Control eng. Adel El-Nagar at \n EDEP Co., and accepted by General Director eng. Mahmoud Saker and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Station.\nThe first update initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama , at 24 April 2008 , revised by MDEP Co.quality \n control eng. Adel El-Nagar , accepted by General Director eng.Mohamed Anber, \n and approved by eng. Farouk Awad Ali Head Sector of Talkha Power Station, \n coordinate eng. Samir Abd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nA work permit must be issued & the \n staff of test must be qualified and carry the suitable safety \n category.\nThe transformer must be out of \n service.\nA work permit must be issued & the \n staff of test must be qualified and carry the suitable safety \n category.\nThe transformer must be out of \n service.\nTools and Equipment\nTest leads.\nTest plug handle.\nSecondary injection test set.\nWork to be Carried Out\nPreparation\nMake Sure C.T secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nLook at \n field maintenance fill and compare the position of the setting switches on \n relay with those shown on the setting sheet .\nTesting \nthe relay\nConnect D.C voltage between terminals ( 9 10 ) where 9 is the ve and 10 \n is\nthe + ve .\nConnect test leads to the relay contact ( 1 12 ) .\nMake short contact to the terminals ( 4 6 8 ) .\nPhase to ground test\nConnect test leads to \n current terminals ( 3 4 ) .\nIncrease the current until \n the relay picks up and closes its contacts .\nRecord the current value \n and the time value in the test sheet .\nConnect test leads to \n current terminals ( 5 6 ) & ( 7 8 ) respectively .\nRepeat the steps 5 and 6 .\nPhase to phase test\nConnect test leads to \n current terminals ( 3 5 ) , ( 5 7 ) , ( 7 3 ) .\nRepeat the steps 5 , 6 each \n time of the terminals .\nGFD unit test\nConnect test leads to current terminals ( 14 15 ) .\nIncrease the current slowly until the GFD unit picks up and the target \n appears instantaneously\nrecord the current value in the test sheet .\nThe steps for putting the relay into service\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nDisconnect the test leads from the terminals ( 14 - 15 ).\nDisconnect the test leads from the trip contact ( 1 - \n12 ).\nDisconnect the short connection between terminals ( \n4 - 6 - 8 ).\nDisconnect the leads from the D.C. terminals \n( 9 - 10 ).\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nDisconnect the test leads from the terminals ( 14 - 15 ).\nDisconnect the test leads from the trip contact ( 1 - \n12 ).\nDisconnect the short connection between terminals ( \n4 - 6 - 8 ).\nDisconnect the leads from the D.C. terminals \n( 9 - 10 ).\nTest Sheet For Fault Detector Relay\nTransf. \nNo.:\nRelay Type \n : \nRelay Model :\nC . T \nRatio : \n D.C Voltage :\nAmp Tap Setting :\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\n Tested by : Signature : \n Reviewed by : Signature : \nTest Date : / / \n Approved by : \n Signature : \nTest Date : / /\nFig (1) : Internal Connections for Fault detector relay ( CHC11A )",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe CHC11A relay is a complete three phase and ground multi contact \n high-speed non-directional over current relay. It has two targets, it may \n be applied wherever a high speed fault detector is required and it is used \n to detect the failed circuit breaker and to select the back up breakers to \n be tripped in order to isolate the fault. The relay has also a phase fault \n detector ( PFD ) used to detect three phase, phase to phase double phase \n to ground faults, and a ( GFD ) unit ( ground fault detector ), which would \n detect single phase to ground faults.\nThe first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama, Revised by Quality Control eng. Adel El-Nagar at \n EDEP Co., and accepted by General Director eng. Mahmoud Saker and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Station.\nThe first update initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama , at 24 April 2008 , revised by MDEP Co.quality \n control eng. Adel El-Nagar , accepted by General Director eng.Mohamed Anber, \n and approved by eng. Farouk Awad Ali Head Sector of Talkha Power Station, \n coordinate eng. Samir Abd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nA work permit must be issued & the \n staff of test must be qualified and carry the suitable safety \n category.\nThe transformer must be out of \n service.\nA work permit must be issued & the \n staff of test must be qualified and carry the suitable safety \n category.\nThe transformer must be out of \n service.\nTools and Equipment\nTest leads.\nTest plug handle.\nSecondary injection test set.\nWork to be Carried Out\nPreparation\nMake Sure C.T secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nLook at \n field maintenance fill and compare the position of the setting switches on \n relay with those shown on the setting sheet .\nTesting \nthe relay\nConnect D.C voltage between terminals ( 9 10 ) where 9 is the ve and 10 \n is\nthe + ve .\nConnect test leads to the relay contact ( 1 12 ) .\nMake short contact to the terminals ( 4 6 8 ) .\nPhase to ground test\nConnect test leads to \n current terminals ( 3 4 ) .\nIncrease the current until \n the relay picks up and closes its contacts .\nRecord the current value \n and the time value in the test sheet .\nConnect test leads to \n current terminals ( 5 6 ) & ( 7 8 ) respectively .\nRepeat the steps 5 and 6 .\nPhase to phase test\nConnect test leads to \n current terminals ( 3 5 ) , ( 5 7 ) , ( 7 3 ) .\nRepeat the steps 5 , 6 each \n time of the terminals .\nGFD unit test\nConnect test leads to current terminals ( 14 15 ) .\nIncrease the current slowly until the GFD unit picks up and the target \n appears instantaneously\nrecord the current value in the test sheet .\nThe steps for putting the relay into service\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nDisconnect the test leads from the terminals ( 14 - 15 ).\nDisconnect the test leads from the trip contact ( 1 - \n12 ).\nDisconnect the short connection between terminals ( \n4 - 6 - 8 ).\nDisconnect the leads from the D.C. terminals \n( 9 - 10 ).\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nDisconnect the test leads from the terminals ( 14 - 15 ).\nDisconnect the test leads from the trip contact ( 1 - \n12 ).\nDisconnect the short connection between terminals ( \n4 - 6 - 8 ).\nDisconnect the leads from the D.C. terminals \n( 9 - 10 ).\nTest Sheet For Fault Detector Relay\nTransf. \nNo.:\nRelay Type \n : \nRelay Model :\nC . T \nRatio : \n D.C Voltage :\nAmp Tap Setting :\nPhase To Phase | GFD | Phase To Earth\nInjected Terminal | Measured Current | Injected Terminal | Measured Current | Injected Terminal | Measured Current\n3 5 | ( ) AMP | 14 - 15 | ( ) AMP | 3 4 | ( ) AMP\n5 7 | ( ) AMP | 5 6 | ( ) AMP\n7 - 3 | ( ) AMP | 7 - 8 | ( ) AMP\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\n Tested by : Signature : \n Reviewed by : Signature : \nTest Date : / / \n Approved by : \n Signature : \nTest Date : / /\nFig (1) : Internal Connections for Fault detector relay ( CHC11A )",
  "text_truncated": false,
  "links": [],
  "images": [

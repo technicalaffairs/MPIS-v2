@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Differential Relay \n 7UT23"
-  },
-  {
-   "type": "paragraph",
-   "text": "Seimens"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -234,6 +228,112 @@
    "text": "Substation \n: Equipment \n: \nRelay type : Manufacturer :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay Data :",
+     "In : A , CT's : ( / ) A , Id \n : A ,"
+    ],
+    [
+     "Rated Current :",
+     "A"
+    ],
+    [
+     "Rated Voltage :",
+     "V"
+    ],
+    [
+     "Auxiliary Voltage:",
+     "Vdc"
+    ],
+    [
+     "Rated Frequency:",
+     "50 HZ"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "SIDE",
+     "PHASE",
+     "IOp ( A )",
+     "I Rest ( A )",
+     "TOp ( Sec. )",
+     "T Rest ( Sec. )"
+    ],
+    [
+     "220 KV",
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "66 KV",
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "11 KV",
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Output \nSignals"
   },
@@ -254,6 +354,15 @@
    "text": "Location: Relay \nDesignation: Approved by: Signature: \nTest Date:"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Figure ( 1 ): 7UT 23 front panel"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Figure ( 2 ): Basic circuit diagram of transformer differential relay system for \nthree-winding transformer"
   },
@@ -262,7 +371,7 @@
    "text": "Fig. ( 3 ) Connection diagram of differential relay 7UT 23"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:Differential Relay \n 7UT23\nSeimens\nIntroduction\nThis document outlines \n the testing procedure P1, which must be performed yearly as indicated by Y1 in \n the above title block.\nThe 7UT23 is a high Speed \n biased differential relay suitable for protecting three winding transformers \n it is extremely Stable during through external \n faults and will not operate during inrush \n currents on energizing. It is manufactured by Siemens.\nThis procedure details \n the steps required to completely check the proper operation and calibration of \n the 7UT23 relay ( figure 1 ).\nThe first draft initiated \n by eng. Mahmood Abd Allah Hasan at Suze protection management, tested on 4 July 2005 at Suz \n Cement Substation by eng. Mahmood Abd Allah Hasan, \n reviewed by protection manager eng. Shaban Ali, accepted and approved by \n general manager eng. Saad El-Attar, revised by quality control manager eng. \n Mohamed Omran, and certified by eng. Ali Atiia Eldeeb: Head sector of Canal \n Western Network and MPIS Canal Zone Coordinator.\nSafety Precautions\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nPower transformer \n isolation\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nSwitch off DC power \n Supply before inserting or withdrawing any card from the relay module.\nTools and Equipment\nSecondary injection test set\nAmmeter\nTest leads\nSecondary injection test set\nAmmeter\nTest leads\nWork to be Carried Out\nThe work to be carried \nout section of this document is divided into 3 sections :\nThe first is \n (preliminary steps to prepare for relay testing) describes the activities \n required prior to test .\nThe second is \n (preparation for test) describes the steps to prepare the equipment for \n performing the actual test.\nThe third is the \n actual test.\nPreliminary Steps to \nPrepare \nfor Relay Testing\nObtain outage for \n Transformer Protected by this relay.\nCheck the two bus \n disconnect Switches are opened and tagged.\nInspect the CT \n secondary circuits and all cables supplying the relay including matching CTs .\nUse the station \n drawings to isolate the following:\nBreaker trip coils.\nBreaker failure \n scheme associated with the relay.\nDisturbance alarms \n and fault recorder associated with the relay.\nCarefully follow these \n test procedure steps:\nPreparation\nThis procedure is used \n to perform off load relay testing.\nLook at the REA panel \n nameplate and check that this EEA system designation agrees with the\nPower transformer that \n has been taken out of service for maintenance\nCheck there is no AC \n current form CT's by using a clip on ammeter.\nCheck there is no AC \n voltage form VT's by using a voltmeter.\nRelay Current Setting Test\nConnect the secondary \n injection test terminal to phase (R) terminal on UHV side terminal block.\nSlowly increase the \n current until the relay operates, as indicated by the Light Emitting Diode ( \n LED ) on the relay front panel.\nRecord the operating \n (differential) current and check that this is within: ( 10% ) of the \n expected current as stated in the maintenance file.\nCheck the relay trip \n contacts are closed when the relay picks up and that these contacts open as \n the current is reduced.\nRepeat the same for \n the alarm contact.\nSwitch off the \n secondary injection test set.\nPress the reset button \n on the relay front panel and check that the led indicator resets and the alarm \n contact open.\nRepeat the steps from \n 1 to 7 for phases S , T on UHV side.\nRepeat the steps from \n 1 to 7 for phases R , S and T on HV side.\nRepeat the steps from 1 to 7 for phases R , S and T on LV side.\nNOTE: Before \nremoving the AC operating (injection) current Check there is no DC on the relay.\nOperating Time Test\nInject current until \n the relay operates and switch off the test set.\nConnect the timed \n contact of the relay to the\" stop timer\" terminals of the secondary injection \n set.\nSwitch on the current \n suddenly and note the operate time.\nRecord the relay \n operate time, this should be < 30 mSec.\nReturn The Relay and Associated Equipments to Service\nVerify the test result \n match the relay setting, If not consult technical services.\nTrip the circuit \n breaker associated with the relay.\nReturn relay to service by reconnecting the relay terminals which had been \n isolated before, and make sure that CTs and VTs secondary circuits are \n in normal conditions.\nAny equipment \n associated with the relay which had been isolated before must be returned \n toservice by the following restoration steps.\nBreaker trip coils.\nBreaker failure scheme \n associated with this relay.\nDisturbance alarm and \n fault recorder associated with this relay.\nRequest Power Transformer to be Returned in Service\nTake \n crossed readings of all AC currents and voltages from both HV and LV sides and \n compare them to those for normal load condition.\nCheck that these \n readings agree with station meters: MW, MVAR, Ammeters and power factor\nPlace a copy of the \n test result in the field maintenance file.\nTest Sheet\nSubstation \n: Equipment \n: \nRelay type : Manufacturer :\nOutput \nSignals\nAlarm\nTrip\nCircuit breaker trip\nLocation: Relay \nDesignation: Approved by: Signature: \nTest Date:\nFigure ( 2 ): Basic circuit diagram of transformer differential relay system for \nthree-winding transformer\nFig. ( 3 ) Connection diagram of differential relay 7UT 23",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines \n the testing procedure P1, which must be performed yearly as indicated by Y1 in \n the above title block.\nThe 7UT23 is a high Speed \n biased differential relay suitable for protecting three winding transformers \n it is extremely Stable during through external \n faults and will not operate during inrush \n currents on energizing. It is manufactured by Siemens.\nThis procedure details \n the steps required to completely check the proper operation and calibration of \n the 7UT23 relay ( figure 1 ).\nThe first draft initiated \n by eng. Mahmood Abd Allah Hasan at Suze protection management, tested on 4 July 2005 at Suz \n Cement Substation by eng. Mahmood Abd Allah Hasan, \n reviewed by protection manager eng. Shaban Ali, accepted and approved by \n general manager eng. Saad El-Attar, revised by quality control manager eng. \n Mohamed Omran, and certified by eng. Ali Atiia Eldeeb: Head sector of Canal \n Western Network and MPIS Canal Zone Coordinator.\nSafety Precautions\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nPower transformer \n isolation\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nSwitch off DC power \n Supply before inserting or withdrawing any card from the relay module.\nTools and Equipment\nSecondary injection test set\nAmmeter\nTest leads\nSecondary injection test set\nAmmeter\nTest leads\nWork to be Carried Out\nThe work to be carried \nout section of this document is divided into 3 sections :\nThe first is \n (preliminary steps to prepare for relay testing) describes the activities \n required prior to test .\nThe second is \n (preparation for test) describes the steps to prepare the equipment for \n performing the actual test.\nThe third is the \n actual test.\nPreliminary Steps to \nPrepare \nfor Relay Testing\nObtain outage for \n Transformer Protected by this relay.\nCheck the two bus \n disconnect Switches are opened and tagged.\nInspect the CT \n secondary circuits and all cables supplying the relay including matching CTs .\nUse the station \n drawings to isolate the following:\nBreaker trip coils.\nBreaker failure \n scheme associated with the relay.\nDisturbance alarms \n and fault recorder associated with the relay.\nCarefully follow these \n test procedure steps:\nPreparation\nThis procedure is used \n to perform off load relay testing.\nLook at the REA panel \n nameplate and check that this EEA system designation agrees with the\nPower transformer that \n has been taken out of service for maintenance\nCheck there is no AC \n current form CT's by using a clip on ammeter.\nCheck there is no AC \n voltage form VT's by using a voltmeter.\nRelay Current Setting Test\nConnect the secondary \n injection test terminal to phase (R) terminal on UHV side terminal block.\nSlowly increase the \n current until the relay operates, as indicated by the Light Emitting Diode ( \n LED ) on the relay front panel.\nRecord the operating \n (differential) current and check that this is within: ( 10% ) of the \n expected current as stated in the maintenance file.\nCheck the relay trip \n contacts are closed when the relay picks up and that these contacts open as \n the current is reduced.\nRepeat the same for \n the alarm contact.\nSwitch off the \n secondary injection test set.\nPress the reset button \n on the relay front panel and check that the led indicator resets and the alarm \n contact open.\nRepeat the steps from \n 1 to 7 for phases S , T on UHV side.\nRepeat the steps from \n 1 to 7 for phases R , S and T on HV side.\nRepeat the steps from 1 to 7 for phases R , S and T on LV side.\nNOTE: Before \nremoving the AC operating (injection) current Check there is no DC on the relay.\nOperating Time Test\nInject current until \n the relay operates and switch off the test set.\nConnect the timed \n contact of the relay to the\" stop timer\" terminals of the secondary injection \n set.\nSwitch on the current \n suddenly and note the operate time.\nRecord the relay \n operate time, this should be < 30 mSec.\nReturn The Relay and Associated Equipments to Service\nVerify the test result \n match the relay setting, If not consult technical services.\nTrip the circuit \n breaker associated with the relay.\nReturn relay to service by reconnecting the relay terminals which had been \n isolated before, and make sure that CTs and VTs secondary circuits are \n in normal conditions.\nAny equipment \n associated with the relay which had been isolated before must be returned \n toservice by the following restoration steps.\nBreaker trip coils.\nBreaker failure scheme \n associated with this relay.\nDisturbance alarm and \n fault recorder associated with this relay.\nRequest Power Transformer to be Returned in Service\nTake \n crossed readings of all AC currents and voltages from both HV and LV sides and \n compare them to those for normal load condition.\nCheck that these \n readings agree with station meters: MW, MVAR, Ammeters and power factor\nPlace a copy of the \n test result in the field maintenance file.\nTest Sheet\nSubstation \n: Equipment \n: \nRelay type : Manufacturer :\nRelay Data : | In : A , CT's : ( / ) A , Id \n : A ,\nRated Current : | A\nRated Voltage : | V\nAuxiliary Voltage: | Vdc\nRated Frequency: | 50 HZ\nSIDE | PHASE | IOp ( A ) | I Rest ( A ) | TOp ( Sec. ) | T Rest ( Sec. )\n220 KV | R |  |  |  | \nS |  |  |  | \nT |  |  |  | \n66 KV | R |  |  |  | \nS |  |  |  | \nT |  |  |  | \n11 KV | R |  |  |  | \nS |  |  |  | \nT |  |  |  | \nOutput \nSignals\nAlarm\nTrip\nCircuit breaker trip\nLocation: Relay \nDesignation: Approved by: Signature: \nTest Date:\nFigure ( 1 ): 7UT 23 front panel\nFigure ( 2 ): Basic circuit diagram of transformer differential relay system for \nthree-winding transformer\nFig. ( 3 ) Connection diagram of differential relay 7UT 23",
  "text_truncated": false,
  "links": [],
  "images": [

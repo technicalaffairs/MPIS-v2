@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -119,6 +121,36 @@
    "text": "Over \nCurrent Test"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "PH- R",
+     "PH- S",
+     "PH- T"
+    ],
+    [
+     "Ipu \n A",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Ido \n A",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R.F.",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Under Impedance Test"
   },
@@ -131,23 +163,23 @@
    "rows": [
     [
      "",
-     "",
+     "Z2(V)",
      "Z2(v)",
      "Z3(v)",
      "Z1 \n cal.=",
      "Z2 \n cal.=",
-     ""
+     "Z3 \n cal.="
     ],
     [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "90",
+     "0",
+     "90",
+     "0",
+     "90",
+     "0",
      "Z1(V/I)",
      "Z2(V/I)",
-     ""
+     "Z3(V/I)"
     ],
     [
      "L1-N",
@@ -175,6 +207,18 @@
     ],
     [
      "L3-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time",
      "",
      "",
      "",
@@ -201,23 +245,23 @@
    "rows": [
     [
      "",
-     "",
+     "Z2(V)",
      "Z2(v)",
      "Z3(v)",
      "Z1 \n cal.=",
      "Z2 \n cal.=",
-     ""
+     "Z3 \n cal.="
     ],
     [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "90",
+     "0",
+     "90",
+     "0",
+     "90",
+     "0",
      "Z1(V/I)",
      "Z2(V/I)",
-     ""
+     "Z3(V/I)"
     ],
     [
      "L1-N",
@@ -245,6 +289,18 @@
     ],
     [
      "L3-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time",
      "",
      "",
      "",
@@ -307,7 +363,7 @@
    "text": "Location: Relay \nlocation: \nTest Date: \nTested by: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document lists the testing procedures \nP1 for SD35a distance relay, which must be performed on an annually bases Y1 as \nindicated in the title block.\nThe first draft initiated by \neng. \nAbdel Raheem Salem Mohamed Ez, \ntested by eng. Khaled El-Etreby & eng. Atef Farh, revised by \nquality control eng. Tawfik Elabasery at EDEPCo.,\nand approved by eng. Monear Mahmoud El-Wakeel: Head Sector of \n Damietta \nPower Station.\nSafety Precautions\nA work \npermit must be issued and the qualified maintenance staff should carry the \nsuitable safety category,\nSafety \nfence (rope) with caution marks surrounding the work area,\nLine Isolation\nMake sure CT secondary circuits are \nshorted.\nVoltage Supply to the relay may be alive \neven after the line is isolated.\nIsolate DC supply to relay, when doing any \nadjustments or maintenance on the relay itself\nEnsure all CT path elements are secure \nafter any test disturbance.\nTools and Equipment\nTest set Siemens \n type \n 7VP48 & 7VP49,\nAmmeter, Phase \n rotation meter ,\nSmall slot \n screwdriver, test leads,\nClip-on ammeter \n (optional) .\nWork to be Carried Out\nThe line is out of service\nDisconnect the miniature circuit breaker \n (m.c.b) for the potential transformer PT\nConnect the link of current terminal \n F-X2 (47, 48, 49) (move the link up)\nDisconnect the voltage terminal F-X2 \n (61, 71, 81, 91)\nConnect the voltage leads UR, \n US, UT, UN to terminal F-X1 (61, \n 71, 81, 91)\nConnect the current leads IR, \n IN to terminal A-X1(44,12)\nInject 3phase voltage U1 = 100 & \n 1phase current\nInject 100V voltage and determine the \n P.U. value of current and measure the time (402, 502) (spare contact).\nInject the I P.U. and determine the \n operating voltage at the angles (0.09-180-270)\nRepeat the previous steps for Is, In \n (44,22) and It, In (44,32)\nConnect the voltage terminal F-X1 \n (61,71,81,91) & connect the miniature circuit breaker (m.c.b) for the \n potential transformer and move the link of terminal (47,48,49) down\nTest \nSheet\nRelay Type: SD35A \nManufacturer: AEG\nSetting\nI > \nIn = \nA \nZ1= \nC = \nT1 = Sec\nIM = In = \nA \nZ2= \nC = \nT2 = Sec\nK = \nZ3= \nC = \nT3 = Sec\nP.T.R= \nC.T.R.=\nTest \nResult\nOver \nCurrent Test\nUnder Impedance Test\nPhase to Neutral \n I = A\n\nOperating Zone = ( \n)\nPhase to Phase I = A\n\nOperating Zone = ( \n)\nRelay function protection \n (...................................)\nTrip function protection \n (...................................)\nPh-Ph: \n Z1,2,3=Z1,2,3*C/1.7 In\nPh-E: \n Z1,2,3=Z1,2,3(ph-ph) \n (1+k)/2\n....................................................................................................\nRemarks :\n-TL \n CB closed without isolators and tripped by SD35A ..........................................\n-Retightening on the terminals of CT and PT \n ...........................................\n-DC volt: + ve = \n ..........................\n- ve = ....................\nLocation: Relay \nlocation: \nTest Date: \nTested by: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document lists the testing procedures \nP1 for SD35a distance relay, which must be performed on an annually bases Y1 as \nindicated in the title block.\nThe first draft initiated by \neng. \nAbdel Raheem Salem Mohamed Ez, \ntested by eng. Khaled El-Etreby & eng. Atef Farh, revised by \nquality control eng. Tawfik Elabasery at EDEPCo.,\nand approved by eng. Monear Mahmoud El-Wakeel: Head Sector of \n Damietta \nPower Station.\nSafety Precautions\nA work \npermit must be issued and the qualified maintenance staff should carry the \nsuitable safety category,\nSafety \nfence (rope) with caution marks surrounding the work area,\nLine Isolation\nMake sure CT secondary circuits are \nshorted.\nVoltage Supply to the relay may be alive \neven after the line is isolated.\nIsolate DC supply to relay, when doing any \nadjustments or maintenance on the relay itself\nEnsure all CT path elements are secure \nafter any test disturbance.\nTools and Equipment\nTest set Siemens \n type \n 7VP48 & 7VP49,\nAmmeter, Phase \n rotation meter ,\nSmall slot \n screwdriver, test leads,\nClip-on ammeter \n (optional) .\nWork to be Carried Out\nThe line is out of service\nDisconnect the miniature circuit breaker \n (m.c.b) for the potential transformer PT\nConnect the link of current terminal \n F-X2 (47, 48, 49) (move the link up)\nDisconnect the voltage terminal F-X2 \n (61, 71, 81, 91)\nConnect the voltage leads UR, \n US, UT, UN to terminal F-X1 (61, \n 71, 81, 91)\nConnect the current leads IR, \n IN to terminal A-X1(44,12)\nInject 3phase voltage U1 = 100 & \n 1phase current\nInject 100V voltage and determine the \n P.U. value of current and measure the time (402, 502) (spare contact).\nInject the I P.U. and determine the \n operating voltage at the angles (0.09-180-270)\nRepeat the previous steps for Is, In \n (44,22) and It, In (44,32)\nConnect the voltage terminal F-X1 \n (61,71,81,91) & connect the miniature circuit breaker (m.c.b) for the \n potential transformer and move the link of terminal (47,48,49) down\nTest \nSheet\nRelay Type: SD35A \nManufacturer: AEG\nSetting\nI > \nIn = \nA \nZ1= \nC = \nT1 = Sec\nIM = In = \nA \nZ2= \nC = \nT2 = Sec\nK = \nZ3= \nC = \nT3 = Sec\nP.T.R= \nC.T.R.=\nTest \nResult\nOver \nCurrent Test\n | PH- R | PH- S | PH- T\nIpu \n A |  |  | \nIdo \n A |  |  | \nR.F. |  |  | \nUnder Impedance Test\nPhase to Neutral \n I = A\n | Z2(V) | Z2(v) | Z3(v) | Z1 \n cal.= | Z2 \n cal.= | Z3 \n cal.=\n90 | 0 | 90 | 0 | 90 | 0 | Z1(V/I) | Z2(V/I) | Z3(V/I)\nL1-N |  |  |  |  |  |  |  |  | \nL2-N |  |  |  |  |  |  |  |  | \nL3-N |  |  |  |  |  |  |  |  | \nTime |  |  |  |  |  |  |  |  | \nOperating Zone = ( \n)\nPhase to Phase I = A\n | Z2(V) | Z2(v) | Z3(v) | Z1 \n cal.= | Z2 \n cal.= | Z3 \n cal.=\n90 | 0 | 90 | 0 | 90 | 0 | Z1(V/I) | Z2(V/I) | Z3(V/I)\nL1-N |  |  |  |  |  |  |  |  | \nL2-N |  |  |  |  |  |  |  |  | \nL3-N |  |  |  |  |  |  |  |  | \nTime |  |  |  |  |  |  |  |  | \nOperating Zone = ( \n)\nRelay function protection \n (...................................)\nTrip function protection \n (...................................)\nPh-Ph: \n Z1,2,3=Z1,2,3*C/1.7 In\nPh-E: \n Z1,2,3=Z1,2,3(ph-ph) \n (1+k)/2\n....................................................................................................\nRemarks :\n-TL \n CB closed without isolators and tripped by SD35A ..........................................\n-Retightening on the terminals of CT and PT \n ...........................................\n-DC volt: + ve = \n ..........................\n- ve = ....................\nLocation: Relay \nlocation: \nTest Date: \nTested by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

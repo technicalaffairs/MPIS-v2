@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protections"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Distance Relay\n REL 316*4\n ABB"
+   "type": "table",
+   "rows": [
+    [
+     "Protections",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -394,6 +392,14 @@
    "type": "table",
    "rows": [
     [
+     "Station Name: \n --------------------------------------",
+     ""
+    ],
+    [
+     "Feeder Name: \n ---------------------------------------",
+     "Line Length = ------------ km"
+    ],
+    [
      "Relay number: \n ---------------------------------------",
      "----------------------------------"
     ],
@@ -484,6 +490,10 @@
      "----------------------------------"
     ],
     [
+     "Main CT/ PT Ratio",
+     ""
+    ],
+    [
      "CT 800 1300 / 1A",
      ""
     ],
@@ -493,19 +503,19 @@
     ],
     [
      "Line voltage Analogue inputs",
-     ""
+     "1 - 3 \n 57.5 V"
     ],
     [
      "Bus Bar voltage Analogue inputs",
-     ""
+     "5 \n 100V"
     ],
     [
      "Line current analogue inputs",
-     ""
+     "7 - 9 \n 1A"
     ],
     [
      "Io analogue input",
-     ""
+     "4 \n 1A"
     ]
    ],
    "truncated_rows": 0
@@ -992,6 +1002,214 @@
      "R-S",
      "S-T",
      "T-R"
+    ],
+    [
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "30",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "30",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "60",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "60",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "90",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "90",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "120",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "120",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "150",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "150",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "180",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "180",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "210",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "210",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "240",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "240",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "270",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "270",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "300",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "300",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "330",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "330",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "90",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "90",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "180",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "180",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "270",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "270",
+     "",
+     "",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -1005,6 +1223,20 @@
    "text": "Setting"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Io setting",
+     "Setting Angle",
+     "StrtAngle",
+     "End Angle",
+     "Time",
+     "U min"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Measuring"
   },
@@ -1012,7 +1244,23 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Io Trip",
+     "Strt Angle",
+     "End Angle",
+     "T Io",
+     "T 3 Io",
+     "Send",
+     "Rec",
+     "Dist Block"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Auto \n Reclosing:",
      "",
      "SynchroCheck:",
      "",
@@ -1063,7 +1311,7 @@
    "text": "Figure ( 1 \n): REL316*4 connection diagram with two input/output units 316DB62"
   }
  ],
- "text": "Protections\nTechnical Procedure\nEquipment\n Distance Relay\n REL 316*4\n ABB\nIntroduction\nThe\n REL316*4 digital line protection scheme is designed for the\n high-speed discriminative protection of lines and cables in\n distribution and transmission systems. The rated voltage of\n the line being protected is not a restriction and the\n protection is applicable to solidly or low-resistance\n grounded systems, systems with Petersen coils or to\n ungrounded systems.\nAll\n kinds of faults are detected including close-in three-phase,\n cross-country faults, evolving faults and high-resistance\n earth faults\nThis\n procedure details the steps required to completely check the\n proper operation and calibration of the relay. It is\n recommended this procedure be carried out on an annually\n bases. The document is formatted the way to minimize the\n possibility of error causing personal injury or damage to\n equipment.\nThe\n first draft initiated by eng. Samah Mokhtar Mostafa,\n tested at 31 Dec 2002 by eng.Yousef Melad Shahat at Wadi El-Noqra station, accepted by General director eng. \n Abdel Menem Rabie Motalaqeh,\n and approved by eng. Fawzy Mourse Mohamed:\n Head Sector of Aswan Network.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should\n carry the suitable safety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation\n is required.\nMake sure that CT\n secondary circuits are shorted before isolating the\n current circuits for test distance protection\nA work permit\n must be issued and the qualified maintenance staff should\n carry the suitable safety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation\n is required.\nMake sure that CT\n secondary circuits are shorted before isolating the\n current circuits for test distance protection\nTools and Equipment\nXS92a\n test set\nVoltmeter, Ammeter, and Test leads\nXS92a\n test set\nVoltmeter, Ammeter, and Test leads\nWork to be Carried Out\nSteps\nto prepare for relay testing\nReview\n technical reference material and manufacturer's manual\nObtain\n copy of relay setting from field maintenance file and\n compare it with the setting on the relay\nObtain\n outage for line protected by this relay\nCheck\n that the circuit breaker is opened and tagged\nInspect\n the CT secondary circuits, the VT miniature circuit\n breakers ( MCB's) and all cabling supplying the relaying\nUse\n the station drawings to isolate the following:\n * Breaker trip coils\n * Breaker failure scheme associated with the\n relay and disturbance alarms\nReview\n technical reference material and manufacturer's manual\nObtain\n copy of relay setting from field maintenance file and\n compare it with the setting on the relay\nObtain\n outage for line protected by this relay\nCheck\n that the circuit breaker is opened and tagged\nInspect\n the CT secondary circuits, the VT miniature circuit\n breakers ( MCB's) and all cabling supplying the relaying\nUse\n the station drawings to isolate the following:\n * Breaker trip coils\n * Breaker failure scheme associated with the\n relay and disturbance alarms\nTesting\nthe relay\nCarefully\n follow this test procedure\nVerify\n the test results match the relay setting\nTrip\n the circuit breaker associated with the relay\nCarefully\n follow this test procedure\nVerify\n the test results match the relay setting\nTrip\n the circuit breaker associated with the relay\nPreparation\nThis\n procedure should be used for performing off load line\nLook\n the EEC panel name plate and check this EEC system\n designation name plate agrees with the line that has been\n taken out of service for maintenance\nMake\n sure CT secondary circuits are shorted at the incoming\n terminal blocks before isolate the relay current circuits\n for test\nThis\n procedure should be used for performing off load line\nLook\n the EEC panel name plate and check this EEC system\n designation name plate agrees with the line that has been\n taken out of service for maintenance\nMake\n sure CT secondary circuits are shorted at the incoming\n terminal blocks before isolate the relay current circuits\n for test\nReading\nthe setting from the relay by using the PC\nConnecting\n the personal computer to the relay\nRun\n the REL316*4 program\nRead\n the setting\nConnecting\n the personal computer to the relay\nRun\n the REL316*4 program\nRead\n the setting\nDistance\nprotection test\nBe\n sure that the DC power of the relay is correct by\n applying a D.C voltmeter across points H2 and H3 on the\n rear of the relay\nConnect\n the current test leads on the current terminals of the\n relay T1,T3,T5,T6 and the voltage test leads on the\n voltage terminals of the relay T11,T12<T13,T13\nConnect\n A.C power to the test set\nInject\n current, voltage and phase angle by selecting the value\n of impedance (X)\nTo\n test zone (1) phase R to Neutral:\n * Take the value of (X)\n greater than the maximum value of working for zone 1 and\n decrease it slowly until the relay operates and\n the LED of (protection trip - zone 1) lights\nRepeat\n step 5 to test zone (1) phase S to Neutral.\nRepeat\n step 5 to test zone (1) phase T to Neutral.\nRepeat\n step 5 to test zone (1) phase R to S.\nRepeat\n step 5 to test zone (1) phase S to T.\nRepeat\n step 5 to test zone (1) phase T to R.\nRepeat\n step 5 to test zone (1) phase R to S To T.\nTo\n test zone (2) phase R to Neutral:\n * Take the value\n of (X) greater than the maximum value of working for\n zone 2 and decrease it slowly until the\n relay operates and the LED of (protection trip - zone 2)\n lights\nRepeat\n step 5 to test zone (2) phase S to Neutral\nRepeat\n step 5 to test zone (2) phase T to Neutral\nRepeat\n step 5 to test zone (2) phase R to S\nRepeat\n step 5 to test zone (2) phase S to T\nRepeat\n step 5 to test zone (2) phase T to R\nRepeat\n step 5 to test zone (2) phase R to S to T\nTo\n test zone (3) phase R to Neutral:\n * Take\n the value of (X) greater than the maximum value of\n working for zone 3 and decrease it slowly until the relay operates and the LED of (protection trip\n - zone 3) lights\nRepeat\n step 5 to zone (3) phase S to Neutral\nRepeat\n step 5 to zone (3) phase T to Neutral\nRepeat\n step 5 to zone (3) phase R to S\nRepeat\n step 5 to zone (3) phase S to T\nRepeat\n step 5 to zone (3) phase T to R\nRepeat\n step 5 to zone (3) phase R to S to T\nBe\n sure that the DC power of the relay is correct by\n applying a D.C voltmeter across points H2 and H3 on the\n rear of the relay\nConnect\n the current test leads on the current terminals of the\n relay T1,T3,T5,T6 and the voltage test leads on the\n voltage terminals of the relay T11,T12<T13,T13\nConnect\n A.C power to the test set\nInject\n current, voltage and phase angle by selecting the value\n of impedance (X)\nTo\n test zone (1) phase R to Neutral:\n * Take the value of (X)\n greater than the maximum value of working for zone 1 and\n decrease it slowly until the relay operates and\n the LED of (protection trip - zone 1) lights\nRepeat\n step 5 to test zone (1) phase S to Neutral.\nRepeat\n step 5 to test zone (1) phase T to Neutral.\nRepeat\n step 5 to test zone (1) phase R to S.\nRepeat\n step 5 to test zone (1) phase S to T.\nRepeat\n step 5 to test zone (1) phase T to R.\nRepeat\n step 5 to test zone (1) phase R to S To T.\nTo\n test zone (2) phase R to Neutral:\n * Take the value\n of (X) greater than the maximum value of working for\n zone 2 and decrease it slowly until the\n relay operates and the LED of (protection trip - zone 2)\n lights\nRepeat\n step 5 to test zone (2) phase S to Neutral\nRepeat\n step 5 to test zone (2) phase T to Neutral\nRepeat\n step 5 to test zone (2) phase R to S\nRepeat\n step 5 to test zone (2) phase S to T\nRepeat\n step 5 to test zone (2) phase T to R\nRepeat\n step 5 to test zone (2) phase R to S to T\nTo\n test zone (3) phase R to Neutral:\n * Take\n the value of (X) greater than the maximum value of\n working for zone 3 and decrease it slowly until the relay operates and the LED of (protection trip\n - zone 3) lights\nRepeat\n step 5 to zone (3) phase S to Neutral\nRepeat\n step 5 to zone (3) phase T to Neutral\nRepeat\n step 5 to zone (3) phase R to S\nRepeat\n step 5 to zone (3) phase S to T\nRepeat\n step 5 to zone (3) phase T to R\nRepeat\n step 5 to zone (3) phase R to S to T\nReturn\nrelay and associated equipment to service\nReturn\n relay to service by removing the test leads from the\n relay terminals and the test set\nMake\n sure CT and V T secondary circuits are in normal\n condition\nRemove\n the disturbance alarm LED`s on the relay which is caused\n by the test\nRequest\n feeder to be returned in service\nTake\n phasor readings of all A C currents and voltages and\n compare them to those for normal load condition\nCheck\n that these reading agree with station meters (MW, Mvar,\n Amperes and power factor)\nPlace\n a copy of the testresult in the field maintenance file\nReturn\n relay to service by removing the test leads from the\n relay terminals and the test set\nMake\n sure CT and V T secondary circuits are in normal\n condition\nRemove\n the disturbance alarm LED`s on the relay which is caused\n by the test\nRequest\n feeder to be returned in service\nTake\n phasor readings of all A C currents and voltages and\n compare them to those for normal load condition\nCheck\n that these reading agree with station meters (MW, Mvar,\n Amperes and power factor)\nPlace\n a copy of the testresult in the field maintenance file\nTest\nSheet\nfor Line protection type REL 316*4, ABB\n\n\nSecondary injection\nMeasuring Zone 1\n\nMeasuring Zone 2\n\nMeasuring Zone 3\n\nMeasuring Zone 4 (Non directional zone)\n\nSensitive Earth Fault Function\nSetting\nMeasuring\n\nLocation / Feeder: Relay\nCode/type/No. : \nTest Date: \nTested by: \nSignature:\nFigure ( 1 \n): REL316*4 connection diagram with two input/output units 316DB62",
+ "text": "Protections | Technical Procedure\nIntroduction\nThe\n REL316*4 digital line protection scheme is designed for the\n high-speed discriminative protection of lines and cables in\n distribution and transmission systems. The rated voltage of\n the line being protected is not a restriction and the\n protection is applicable to solidly or low-resistance\n grounded systems, systems with Petersen coils or to\n ungrounded systems.\nAll\n kinds of faults are detected including close-in three-phase,\n cross-country faults, evolving faults and high-resistance\n earth faults\nThis\n procedure details the steps required to completely check the\n proper operation and calibration of the relay. It is\n recommended this procedure be carried out on an annually\n bases. The document is formatted the way to minimize the\n possibility of error causing personal injury or damage to\n equipment.\nThe\n first draft initiated by eng. Samah Mokhtar Mostafa,\n tested at 31 Dec 2002 by eng.Yousef Melad Shahat at Wadi El-Noqra station, accepted by General director eng. \n Abdel Menem Rabie Motalaqeh,\n and approved by eng. Fawzy Mourse Mohamed:\n Head Sector of Aswan Network.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should\n carry the suitable safety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation\n is required.\nMake sure that CT\n secondary circuits are shorted before isolating the\n current circuits for test distance protection\nA work permit\n must be issued and the qualified maintenance staff should\n carry the suitable safety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation\n is required.\nMake sure that CT\n secondary circuits are shorted before isolating the\n current circuits for test distance protection\nTools and Equipment\nXS92a\n test set\nVoltmeter, Ammeter, and Test leads\nXS92a\n test set\nVoltmeter, Ammeter, and Test leads\nWork to be Carried Out\nSteps\nto prepare for relay testing\nReview\n technical reference material and manufacturer's manual\nObtain\n copy of relay setting from field maintenance file and\n compare it with the setting on the relay\nObtain\n outage for line protected by this relay\nCheck\n that the circuit breaker is opened and tagged\nInspect\n the CT secondary circuits, the VT miniature circuit\n breakers ( MCB's) and all cabling supplying the relaying\nUse\n the station drawings to isolate the following:\n * Breaker trip coils\n * Breaker failure scheme associated with the\n relay and disturbance alarms\nReview\n technical reference material and manufacturer's manual\nObtain\n copy of relay setting from field maintenance file and\n compare it with the setting on the relay\nObtain\n outage for line protected by this relay\nCheck\n that the circuit breaker is opened and tagged\nInspect\n the CT secondary circuits, the VT miniature circuit\n breakers ( MCB's) and all cabling supplying the relaying\nUse\n the station drawings to isolate the following:\n * Breaker trip coils\n * Breaker failure scheme associated with the\n relay and disturbance alarms\nTesting\nthe relay\nCarefully\n follow this test procedure\nVerify\n the test results match the relay setting\nTrip\n the circuit breaker associated with the relay\nCarefully\n follow this test procedure\nVerify\n the test results match the relay setting\nTrip\n the circuit breaker associated with the relay\nPreparation\nThis\n procedure should be used for performing off load line\nLook\n the EEC panel name plate and check this EEC system\n designation name plate agrees with the line that has been\n taken out of service for maintenance\nMake\n sure CT secondary circuits are shorted at the incoming\n terminal blocks before isolate the relay current circuits\n for test\nThis\n procedure should be used for performing off load line\nLook\n the EEC panel name plate and check this EEC system\n designation name plate agrees with the line that has been\n taken out of service for maintenance\nMake\n sure CT secondary circuits are shorted at the incoming\n terminal blocks before isolate the relay current circuits\n for test\nReading\nthe setting from the relay by using the PC\nConnecting\n the personal computer to the relay\nRun\n the REL316*4 program\nRead\n the setting\nConnecting\n the personal computer to the relay\nRun\n the REL316*4 program\nRead\n the setting\nDistance\nprotection test\nBe\n sure that the DC power of the relay is correct by\n applying a D.C voltmeter across points H2 and H3 on the\n rear of the relay\nConnect\n the current test leads on the current terminals of the\n relay T1,T3,T5,T6 and the voltage test leads on the\n voltage terminals of the relay T11,T12<T13,T13\nConnect\n A.C power to the test set\nInject\n current, voltage and phase angle by selecting the value\n of impedance (X)\nTo\n test zone (1) phase R to Neutral:\n * Take the value of (X)\n greater than the maximum value of working for zone 1 and\n decrease it slowly until the relay operates and\n the LED of (protection trip - zone 1) lights\nRepeat\n step 5 to test zone (1) phase S to Neutral.\nRepeat\n step 5 to test zone (1) phase T to Neutral.\nRepeat\n step 5 to test zone (1) phase R to S.\nRepeat\n step 5 to test zone (1) phase S to T.\nRepeat\n step 5 to test zone (1) phase T to R.\nRepeat\n step 5 to test zone (1) phase R to S To T.\nTo\n test zone (2) phase R to Neutral:\n * Take the value\n of (X) greater than the maximum value of working for\n zone 2 and decrease it slowly until the\n relay operates and the LED of (protection trip - zone 2)\n lights\nRepeat\n step 5 to test zone (2) phase S to Neutral\nRepeat\n step 5 to test zone (2) phase T to Neutral\nRepeat\n step 5 to test zone (2) phase R to S\nRepeat\n step 5 to test zone (2) phase S to T\nRepeat\n step 5 to test zone (2) phase T to R\nRepeat\n step 5 to test zone (2) phase R to S to T\nTo\n test zone (3) phase R to Neutral:\n * Take\n the value of (X) greater than the maximum value of\n working for zone 3 and decrease it slowly until the relay operates and the LED of (protection trip\n - zone 3) lights\nRepeat\n step 5 to zone (3) phase S to Neutral\nRepeat\n step 5 to zone (3) phase T to Neutral\nRepeat\n step 5 to zone (3) phase R to S\nRepeat\n step 5 to zone (3) phase S to T\nRepeat\n step 5 to zone (3) phase T to R\nRepeat\n step 5 to zone (3) phase R to S to T\nBe\n sure that the DC power of the relay is correct by\n applying a D.C voltmeter across points H2 and H3 on the\n rear of the relay\nConnect\n the current test leads on the current terminals of the\n relay T1,T3,T5,T6 and the voltage test leads on the\n voltage terminals of the relay T11,T12<T13,T13\nConnect\n A.C power to the test set\nInject\n current, voltage and phase angle by selecting the value\n of impedance (X)\nTo\n test zone (1) phase R to Neutral:\n * Take the value of (X)\n greater than the maximum value of working for zone 1 and\n decrease it slowly until the relay operates and\n the LED of (protection trip - zone 1) lights\nRepeat\n step 5 to test zone (1) phase S to Neutral.\nRepeat\n step 5 to test zone (1) phase T to Neutral.\nRepeat\n step 5 to test zone (1) phase R to S.\nRepeat\n step 5 to test zone (1) phase S to T.\nRepeat\n step 5 to test zone (1) phase T to R.\nRepeat\n step 5 to test zone (1) phase R to S To T.\nTo\n test zone (2) phase R to Neutral:\n * Take the value\n of (X) greater than the maximum value of working for\n zone 2 and decrease it slowly until the\n relay operates and the LED of (protection trip - zone 2)\n lights\nRepeat\n step 5 to test zone (2) phase S to Neutral\nRepeat\n step 5 to test zone (2) phase T to Neutral\nRepeat\n step 5 to test zone (2) phase R to S\nRepeat\n step 5 to test zone (2) phase S to T\nRepeat\n step 5 to test zone (2) phase T to R\nRepeat\n step 5 to test zone (2) phase R to S to T\nTo\n test zone (3) phase R to Neutral:\n * Take\n the value of (X) greater than the maximum value of\n working for zone 3 and decrease it slowly until the relay operates and the LED of (protection trip\n - zone 3) lights\nRepeat\n step 5 to zone (3) phase S to Neutral\nRepeat\n step 5 to zone (3) phase T to Neutral\nRepeat\n step 5 to zone (3) phase R to S\nRepeat\n step 5 to zone (3) phase S to T\nRepeat\n step 5 to zone (3) phase T to R\nRepeat\n step 5 to zone (3) phase R to S to T\nReturn\nrelay and associated equipment to service\nReturn\n relay to service by removing the test leads from the\n relay terminals and the test set\nMake\n sure CT and V T secondary circuits are in normal\n condition\nRemove\n the disturbance alarm LED`s on the relay which is caused\n by the test\nRequest\n feeder to be returned in service\nTake\n phasor readings of all A C currents and voltages and\n compare them to those for normal load condition\nCheck\n that these reading agree with station meters (MW, Mvar,\n Amperes and power factor)\nPlace\n a copy of the testresult in the field maintenance file\nReturn\n relay to service by removing the test leads from the\n relay terminals and the test set\nMake\n sure CT and V T secondary circuits are in normal\n condition\nRemove\n the disturbance alarm LED`s on the relay which is caused\n by the test\nRequest\n feeder to be returned in service\nTake\n phasor readings of all A C currents and voltages and\n compare them to those for normal load condition\nCheck\n that these reading agree with station meters (MW, Mvar,\n Amperes and power factor)\nPlace\n a copy of the testresult in the field maintenance file\nTest\nSheet\nfor Line protection type REL 316*4, ABB\nStation Name: \n -------------------------------------- | \nFeeder Name: \n --------------------------------------- | Line Length = ------------ km\nRelay number: \n --------------------------------------- | ----------------------------------\nKind of\n check | Remarks\nVisual\n check of external wiring | ---------------------------------\nCheck of\n relay grounding | ----------------------------------\nCheck of\n supply voltage (DC/AC) | ----------------------------------\nCheck of\n setting | ----------------------------------\nCheck of\n C.T. circuits | ---------------------------------\nCheck of\n P.T. circuits | ----------------------------------\nSecondary\n injection with test set type | ----------------------------------\nCheck of\n input signals | ---------------------------------\nCheck of\n signalization / alarms | ---------------------------------\nCheck of\n starting breaker failure protection | ---------------------------------\nCheck of\n HF circuits | ---------------------------------\nHF -\n \"End to End\" test | ----------------------------------\nCheck of\n tripping | \nCheck of\n reclosing | ----------------------------------\nDirectional\n check | ---------------------------------\nFinal\n check | \nSettings | ----------------------------------\nAccording to separate print out | ---------------------------------\nSoftware version of the relay | ----------------------------------\nMain CT/ PT Ratio | \nCT 800 1300 / 1A | \nVT 220 \n / 0.1 KV | \nLine voltage Analogue inputs | 1 - 3 \n 57.5 V\nBus Bar voltage Analogue inputs | 5 \n 100V\nLine current analogue inputs | 7 - 9 \n 1A\nIo analogue input | 4 \n 1A\nSecondary injection\nMeasuring Zone 1\nPZL | Sett | R-0 | S-0 | T-0 |  | PZL | Sett | R-S | S-T | T-R\n345 |  |  |  |  |  | 345 |  |  |  | \n0 |  |  |  |  |  | 0 |  |  |  | \n15 |  |  |  |  |  | 15 |  |  |  | \n30 |  |  |  |  |  | 30 |  |  |  | \n45 |  |  |  |  |  | 45 |  |  |  | \n60 |  |  |  |  |  | 60 |  |  |  | \n75 |  |  |  |  |  | 75 |  |  |  | \n90 |  |  |  |  |  | 90 |  |  |  | \n105 |  |  |  |  |  | 105 |  |  |  | \n90 |  |  |  |  |  | 90 |  |  |  | \nMeasuring Zone 2\nPZL | Sett | R-0 | S-0 | T-0 |  | PZL | Sett | R-S | S-T | T-R\n345 |  |  |  |  |  | 345 |  |  |  | \n0 |  |  |  |  |  | 0 |  |  |  | \n15 |  |  |  |  |  | 15 |  |  |  | \n30 |  |  |  |  |  | 30 |  |  |  | \n45 |  |  |  |  |  | 45 |  |  |  | \n60 |  |  |  |  |  | 60 |  |  |  | \n75 |  |  |  |  |  | 75 |  |  |  | \n90 |  |  |  |  |  | 90 |  |  |  | \n105 |  |  |  |  |  | 105 |  |  |  | \n90 |  |  |  |  |  | 90 |  |  |  | \nMeasuring Zone 3\nPZL | Sett | R-0 | S-0 | T-0 |  | PZL | Sett | R-S | S-T | T-R\n345 |  |  |  |  |  | 345 |  |  |  | \n0 |  |  |  |  |  | 0 |  |  |  | \n15 |  |  |  |  |  | 15 |  |  |  | \n30 |  |  |  |  |  | 30 |  |  |  | \n45 |  |  |  |  |  | 45 |  |  |  | \n60 |  |  |  |  |  | 60 |  |  |  | \n75 |  |  |  |  |  | 75 |  |  |  | \n90 |  |  |  |  |  | 90 |  |  |  | \n105 |  |  |  |  |  | 105 |  |  |  | \n90 |  |  |  |  |  | 90 |  |  |  | \nMeasuring Zone 4 (Non directional zone)\nPZL | Sett | R-0 | S-0 | T-0 |  | PZL | Sett | R-S | S-T | T-R\n0 |  |  |  |  |  | 0 |  |  |  | \n30 |  |  |  |  |  | 30 |  |  |  | \n60 |  |  |  |  |  | 60 |  |  |  | \n90 |  |  |  |  |  | 90 |  |  |  | \n120 |  |  |  |  |  | 120 |  |  |  | \n150 |  |  |  |  |  | 150 |  |  |  | \n180 |  |  |  |  |  | 180 |  |  |  | \n210 |  |  |  |  |  | 210 |  |  |  | \n240 |  |  |  |  |  | 240 |  |  |  | \n270 |  |  |  |  |  | 270 |  |  |  | \n300 |  |  |  |  |  | 300 |  |  |  | \n330 |  |  |  |  |  | 330 |  |  |  | \n0 |  |  |  |  |  | 0 |  |  |  | \n90 |  |  |  |  |  | 90 |  |  |  | \n180 |  |  |  |  |  | 180 |  |  |  | \n270 |  |  |  |  |  | 270 |  |  |  | \nSensitive Earth Fault Function\nSetting\nIo setting | Setting Angle | StrtAngle | End Angle | Time | U min\nMeasuring\nIo Trip | Strt Angle | End Angle | T Io | T 3 Io | Send | Rec | Dist Block\nAuto \n Reclosing: |  | SynchroCheck: |  | SCADA: | \nCB Trip Phase R: |  | CB Trip Phase S: |  | CB Trip Phase T: | \nAlarms: |  | Lamps: |  | Reset: | \nSOTF: |  | VT Sup: |  | Event Rec: | \nBlock VT MCB: |  | Com Send: |  | Com Rec: | \nLocation / Feeder: Relay\nCode/type/No. : \nTest Date: \nTested by: \nSignature:\nFigure ( 1 \n): REL316*4 connection diagram with two input/output units 316DB62",
  "text_truncated": false,
  "links": [],
  "images": [

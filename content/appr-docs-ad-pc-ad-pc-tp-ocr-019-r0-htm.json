@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Over Current Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "( 50/51 ) MCGG63"
-  },
-  {
-   "type": "paragraph",
-   "text": "GEC"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -189,40 +179,28 @@
    "text": "Over Current\n Relay : ( 50/51\n ) :"
   },
   {
-   "type": "paragraph",
-   "text": "I setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "I pick up"
-  },
-  {
-   "type": "paragraph",
-   "text": "I Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset factor"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time Test"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remark"
-  },
-  {
-   "type": "paragraph",
-   "text": "R"
-  },
-  {
    "type": "table",
    "rows": [
+    [
+     "",
+     "I setting",
+     "I pick up",
+     "I Reset",
+     "Reset factor",
+     "Time setting",
+     "Time Test",
+     "Remark"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
     [
      "S",
      "",
@@ -251,7 +229,7 @@
    "text": "Tested by :\n…………………………………..… \n Signature : …………..………… Last\nTest Date : / /\nReviewed by :\n……………………………….. \n Signature :…………..…………… \n Test Date \n/ /\nApproved by :\n……………………………….. \n Signature : …………..…………"
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\n Over Current Relay\n( 50/51 ) MCGG63\nGEC\nIntroduction\nThis document \n lists the testing procedures P1, which must be carried out on an annually \n bases as indicated by Y1 in the title block.\nThe\n MCGG63 relay is designed specially for over current with time\n delayed element the MCGG63 manufactured by GEC\nThe\n first draft initiated by eng. Fahmy Abdel Khalek, tested by\n eng. Hanan El_Badrawy at 18 June 2003, revised by quality\n control eng. Adel Abdel Kader El-Nagar at EDEPCo., accepted\n by general director eng. Mahmoud Saker and approved by eng.\n Mostafa Alam Head Sector of TAlkha PS.\nSafety Precautions\nA work permit must be issued\n and the qualified maintenance staff should carry the\n suitable safety category.\nSafety fence with caution marks\n surrounding the work area.\nA work permit must be issued\n and the qualified maintenance staff should carry the\n suitable safety category.\nSafety fence with caution marks\n surrounding the work area.\nTools and Equipment\nSverker 650 test set ( secondary \n injection current )\nCurrent test plug.\nClamp ampere or Avo meter .\nSverker 650 test set ( secondary \n injection current )\nCurrent test plug.\nClamp ampere or Avo meter .\nWork to be Carried\nOut\nPreparation\nReview the manufacture manual, \n obtain a copy of relay setting from \n field maintenance file, and compare it with the setting on the relay.\nMake \n sure C.T secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nReview the manufacture manual, \n obtain a copy of relay setting from \n field maintenance file, and compare it with the setting on the relay.\nTesting Procedures\nInject the current from the plug\n test on first phase (R), 2nd phase (S) and 3rd phase\n (T) until the green led lights then record I reset in test\n sheet, continue injection the current until the red led lights then\n record I pick up and calculate the reset factor of the relay \n ( I reset \n /I pick up \n ).\nFrom contact trip or lock out\n relay take the time delay and test the tripping OFC.B of\n this relay and recording the value in test sheet\nInsert the plug test after setting\n the Sverker on position off\nInject the current from the plug\n test on first phase (R), 2nd phase (S) and 3rd phase\n (T) until the green led lights then record I reset in test\n sheet, continue injection the current until the red led lights then\n record I pick up and calculate the reset factor of the relay \n ( I reset \n /I pick up \n ).\nFrom contact trip or lock out\n relay take the time delay and test the tripping OFC.B of\n this relay and recording the value in test sheet\nInsert the plug test after setting\n the Sverker on position off\nReturn Relay and Associated\nEquipment to Service\nReturn the work permit .\nReturn relay to service by\n removing the \n plug test\nReturn relay to service by\n removing the \n plug test\nReturn relay to service by\n removing the \n plug test\nMake sure CT and VT secondary circuits are in normal condition.\nMake sure CT and VT secondary circuits are in normal condition.\nIf\n any equipment associated with the relay has been\n isolated, it should be returned to service by the\n following restoration steps:\n - Breaker trip coils.\n - Breaker failure\n scheme associated this relay.\n - Disturbance\n alarm and fault recorder associated with this relay. Make\n sure CT and VT secondary circuits are in normal condition.\nReturn the work permit .\nTest sheet\n For: Over Current Relay type \nMCGG 63 - GEC\nUsing : Sverker ( secondary Injection current )\nStation:\nCircuit\nDate\nRated current \n1 A \n 5 A :\nA C Voltage \n:\nD C Voltage \n :\nOver Current\n Relay : ( 50/51\n ) :\nI setting\nI pick up\nI Reset\nReset factor\nTime setting\nTime Test\nRemark\nR\n\nTested by :\n…………………………………..… \n Signature : …………..………… Last\nTest Date : / /\nReviewed by :\n……………………………….. \n Signature :…………..…………… \n Test Date \n/ /\nApproved by :\n……………………………….. \n Signature : …………..…………",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document \n lists the testing procedures P1, which must be carried out on an annually \n bases as indicated by Y1 in the title block.\nThe\n MCGG63 relay is designed specially for over current with time\n delayed element the MCGG63 manufactured by GEC\nThe\n first draft initiated by eng. Fahmy Abdel Khalek, tested by\n eng. Hanan El_Badrawy at 18 June 2003, revised by quality\n control eng. Adel Abdel Kader El-Nagar at EDEPCo., accepted\n by general director eng. Mahmoud Saker and approved by eng.\n Mostafa Alam Head Sector of TAlkha PS.\nSafety Precautions\nA work permit must be issued\n and the qualified maintenance staff should carry the\n suitable safety category.\nSafety fence with caution marks\n surrounding the work area.\nA work permit must be issued\n and the qualified maintenance staff should carry the\n suitable safety category.\nSafety fence with caution marks\n surrounding the work area.\nTools and Equipment\nSverker 650 test set ( secondary \n injection current )\nCurrent test plug.\nClamp ampere or Avo meter .\nSverker 650 test set ( secondary \n injection current )\nCurrent test plug.\nClamp ampere or Avo meter .\nWork to be Carried\nOut\nPreparation\nReview the manufacture manual, \n obtain a copy of relay setting from \n field maintenance file, and compare it with the setting on the relay.\nMake \n sure C.T secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nReview the manufacture manual, \n obtain a copy of relay setting from \n field maintenance file, and compare it with the setting on the relay.\nTesting Procedures\nInject the current from the plug\n test on first phase (R), 2nd phase (S) and 3rd phase\n (T) until the green led lights then record I reset in test\n sheet, continue injection the current until the red led lights then\n record I pick up and calculate the reset factor of the relay \n ( I reset \n /I pick up \n ).\nFrom contact trip or lock out\n relay take the time delay and test the tripping OFC.B of\n this relay and recording the value in test sheet\nInsert the plug test after setting\n the Sverker on position off\nInject the current from the plug\n test on first phase (R), 2nd phase (S) and 3rd phase\n (T) until the green led lights then record I reset in test\n sheet, continue injection the current until the red led lights then\n record I pick up and calculate the reset factor of the relay \n ( I reset \n /I pick up \n ).\nFrom contact trip or lock out\n relay take the time delay and test the tripping OFC.B of\n this relay and recording the value in test sheet\nInsert the plug test after setting\n the Sverker on position off\nReturn Relay and Associated\nEquipment to Service\nReturn the work permit .\nReturn relay to service by\n removing the \n plug test\nReturn relay to service by\n removing the \n plug test\nReturn relay to service by\n removing the \n plug test\nMake sure CT and VT secondary circuits are in normal condition.\nMake sure CT and VT secondary circuits are in normal condition.\nIf\n any equipment associated with the relay has been\n isolated, it should be returned to service by the\n following restoration steps:\n - Breaker trip coils.\n - Breaker failure\n scheme associated this relay.\n - Disturbance\n alarm and fault recorder associated with this relay. Make\n sure CT and VT secondary circuits are in normal condition.\nReturn the work permit .\nTest sheet\n For: Over Current Relay type \nMCGG 63 - GEC\nUsing : Sverker ( secondary Injection current )\nStation:\nCircuit\nDate\nRated current \n1 A \n 5 A :\nA C Voltage \n:\nD C Voltage \n :\nOver Current\n Relay : ( 50/51\n ) :\n | I setting | I pick up | I Reset | Reset factor | Time setting | Time Test | Remark\nR |  |  |  |  |  |  | \nS |  |  |  |  |  |  | \nT |  |  |  |  |  |  | \nTested by :\n…………………………………..… \n Signature : …………..………… Last\nTest Date : / /\nReviewed by :\n……………………………….. \n Signature :…………..…………… \n Test Date \n/ /\nApproved by :\n……………………………….. \n Signature : …………..…………",
  "text_truncated": false,
  "links": [],
  "images": [

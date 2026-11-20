@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -364,47 +366,37 @@
    "text": "Measurement of Pick up values"
   },
   {
-   "type": "paragraph",
-   "text": "Current"
-  },
-  {
-   "type": "paragraph",
-   "text": "Nominal \n Value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Measured \n Value"
-  },
-  {
-   "type": "paragraph",
-   "text": "2* IB = 0.2 \n A"
-  },
-  {
-   "type": "paragraph",
-   "text": "3 sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "8* IB = 0.8 \n A"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.99"
-  },
-  {
-   "type": "paragraph",
-   "text": "16*IB = 1.6 \n A"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.74"
+   "type": "table",
+   "rows": [
+    [
+     "Current",
+     "Nominal \n Value",
+     "Measured \n Value"
+    ],
+    [
+     "2* IB = 0.2 \n A",
+     "3 sec",
+     ""
+    ],
+    [
+     "8* IB = 0.8 \n A",
+     "0.99",
+     ""
+    ],
+    [
+     "16*IB = 1.6 \n A",
+     "0.74",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location : \nRelay Designation:\nChecked by: \nSignature: \nTest Date: \nApproved by: \nSignature: \nDate:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nRC91 is a single phase static \nover current relay with an inverse line characteristic the RC91 module is \nincluded in LZ 96 relay configuration (A36), this relay provides back-up \ndirectional ground over current (DGOC) protection (Device No.67G), this relay \nhas a power supply module (NF 92) ,test unit (XX91).\nThe\nfirst draft initialed by Eng. Mohamed Mostafa, and tested at 01/01/02, Samalout 500, \n ME\nSafety Precautions\nWear safety and healthy equipments as safety \n helmet, safety shoes ..etc\nMake sure CT secondary circuits are \n shorted before the relay current circuits for test current injection.\nTools and Equipment\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay \nTesting\nUse the station drawing to isolate the \n following.\nDisturbance alarms and fault \n recorder associated with this relay.\nTesting the relay and protection output\nCarefully follow these test \n procedure steps .\nVerify the test results match \n the relays if not consults technical services.\nTest trip the breaker \n associated with the relay.\nTest trip the breaker \n associated with the relay.\nPrior to starting testing procedures ensure \nthe following steps\nThis procedure is used to \n perform off load relay testing.\nCheck that the panel name plate \n agrees with the EEC designation of the line that has been taken out of service \n for maintenance.\nCheck there is no AC current \n from CT by using clip-on ammeter\nCheck there is no AC voltage \n from VT by using voltmeter.\nCheck all external connections \n to the relay are in good condition and check that the terminal block wires are \n tight.\nCheck all external connections \n to the relay are in good condition and check that the terminal block wires are \n tight.\nTesting\nProcedure\nPrepare\n the test unit [XS92 \n a with YX91] as in figure (1 , 2) and preparing steps for test unit .\nDisconnect the DC - DC. \n converter (N F92).\nPut the test plug (YX91) in \n test unit (XX91) for this relay (RC91).\nConnect the D C. D C. \n converter (N F92).\nMake XS92a ON.\nMake XS92a ON.\nChecking the pickup current\nInjection Current only as \n the following Program:\nWrite \n mode [F F , \n enter] \n F R = \n 50 \n D F R = \n 0 \n F C = \n 01 \n A = \n 0 \n SQ = 1 \n F0 \n T I = T L = 100 \n ms \n T F = 4000 ms\nWrit \n mode [UI , \n enter] \n U = \n 0 \n I = \n 0.1 \n D I \n =0.01 \n PHI = 75\nMake enter & (+).\nWait unit stop, I on display \n = pickup current.\nRecord the value of current \n and time from display in test sheet.\nMake (0 \n & enter).\nChange the value of current \n according the test sheet, [Increasing the current].\nIn every time we record the \n pickup current and time from the display and writ in test sheet.\nWe find that the current \n increasing and the time is decreasing so recognize the inverse \n ch,s.\nWrit \n mode [UI , \n enter] \n U = \n 0 \n I = \n 0.1 \n D I \n =0.01 \n PHI = 75\nWe find that the current \n increasing and the time is decreasing so recognize the inverse \n ch,s.\nCheck the operation angle [Zone ch,s]: i.e. [Directionality\ntest]\nWrite \n mode [F F & \n enter] \n F R = \n 50 \n D F R = \n 0 \n F C = \n 01 \n A = \n 1 \n S Q = 1 \n F0 \n T I = T L = 100 \n m.s \n T F = 4000 m.s\nWrite \n mode [U I & \n enter] \n U = 20 \n V \n I = 0.2 \n A \n PHI = \n 0 \n DPHI = 1\nMake [Start & (+)]\nWait until stop , PHI \n indicate on display\nRecord this angle in test \n sheet.\nMake [0 & \n enter].\nChange the angle to (359 ) \n ====> P H I = 359 , A = 2 , D P h = 1\nMake start \n & (-)\nWait until stop , PHI \n indicate on display.\nRecord this angle in test \n sheet\nMake [0 & \n enter].\nDraw the phase diagram and \n definite the operating zone as the following:\nDraw the phase diagram and \n definite the operating zone as the following:\nChecking the trip line by \n protection\nRemove the under voltage \n prot, M1 , M2 (K40), conn.....the line\nWrite the program as follow \n :F F ====> F R = \n 50 \n D F R = \n 0 \n F C = \n 01 \n SQ = 1 \n F0 \n A = \n 0 \n T I = T L = \n 100 \n T F = \n 4000 \n U I = (enter) \n U = \n 20 \n I = \n 2 \n PHI = 70\nMake bridge between (1 , 2) \n on X S92 a.\nMake (Start), trip the line \n and make auto by the (3p, A . R).\nMake (0 & \n enter).\nDisconnect the DC - DC. \n converter (NF 92).\nDisconnect the (XS \n 92a).\nRemove the test socket \n (YX91).\nPut the under voltage relay \n in place it.\nConnect the DC - DC. \n converter (N F 92).\nMake measuring the AC \n current and voltage and record them in certificate test.\nPlace a copy of the test \n sheet of results in the field maintenance file.\nPlace a copy of the test \n sheet of results in the field maintenance file.\nPreparing the Tester Unit (X S92a) As the\nFollowing\nUse the (YB 92) hand terminal \n according to the test steps.\nFig. 2.1 - Test \nset XS92a with hand terminal, \ninterconnecting \ncable at the side and test connector YX91\nNF92 \nDC/DC converter for the solid-state \ncircuitsAU91/92 \nthree-phase voltage \namplifier XC92 \ncontrol \nunit YS92 \noptional memory \nunitEX92 \nmains input \nunit NX91 \nDC/DC converter for current \namplifierAI92 \nsingle-phase current \namplifierAX91/92 \noutput unit and switching \nlogicYX91 \ntest \nconnector YB92 \nhand terminal\nFig. 2.2 - Arrangement of the \nplug-in units in the racks.\nTest Sheet RC 91\nTime Earth \nfault [ ] \nMinimum Base Current : 0.1 \nIn \nBase Current Stop : 0.05 In Relay Settings\nIu : 0.1 x In = 0,1 A \n K : 0,3\n1 : 0 x 21u = 0 A \n1 Non Directional (link 340 out \n) [ ] \n1 Directional \n(link 340 in) [ \n]\nSignaling: W 90 = \n1 \n[ ] \n W 91 = 1 W 90 = \n0 \n[ ] W 91 = \n2\nMeasurement of Pick up values\nCurrent\nNominal \n Value\nMeasured \n Value\n2* IB = 0.2 \n A\n3 sec\n8* IB = 0.8 \n A\n0.99\n16*IB = 1.6 \n A\n0.74\nLocation : \nRelay Designation:\nChecked by: \nSignature: \nTest Date: \nApproved by: \nSignature: \nDate:",
+ "text": "Protection | Technical Procedure\nIntroduction\nRC91 is a single phase static \nover current relay with an inverse line characteristic the RC91 module is \nincluded in LZ 96 relay configuration (A36), this relay provides back-up \ndirectional ground over current (DGOC) protection (Device No.67G), this relay \nhas a power supply module (NF 92) ,test unit (XX91).\nThe\nfirst draft initialed by Eng. Mohamed Mostafa, and tested at 01/01/02, Samalout 500, \n ME\nSafety Precautions\nWear safety and healthy equipments as safety \n helmet, safety shoes ..etc\nMake sure CT secondary circuits are \n shorted before the relay current circuits for test current injection.\nTools and Equipment\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay \nTesting\nUse the station drawing to isolate the \n following.\nDisturbance alarms and fault \n recorder associated with this relay.\nTesting the relay and protection output\nCarefully follow these test \n procedure steps .\nVerify the test results match \n the relays if not consults technical services.\nTest trip the breaker \n associated with the relay.\nTest trip the breaker \n associated with the relay.\nPrior to starting testing procedures ensure \nthe following steps\nThis procedure is used to \n perform off load relay testing.\nCheck that the panel name plate \n agrees with the EEC designation of the line that has been taken out of service \n for maintenance.\nCheck there is no AC current \n from CT by using clip-on ammeter\nCheck there is no AC voltage \n from VT by using voltmeter.\nCheck all external connections \n to the relay are in good condition and check that the terminal block wires are \n tight.\nCheck all external connections \n to the relay are in good condition and check that the terminal block wires are \n tight.\nTesting\nProcedure\nPrepare\n the test unit [XS92 \n a with YX91] as in figure (1 , 2) and preparing steps for test unit .\nDisconnect the DC - DC. \n converter (N F92).\nPut the test plug (YX91) in \n test unit (XX91) for this relay (RC91).\nConnect the D C. D C. \n converter (N F92).\nMake XS92a ON.\nMake XS92a ON.\nChecking the pickup current\nInjection Current only as \n the following Program:\nWrite \n mode [F F , \n enter] \n F R = \n 50 \n D F R = \n 0 \n F C = \n 01 \n A = \n 0 \n SQ = 1 \n F0 \n T I = T L = 100 \n ms \n T F = 4000 ms\nWrit \n mode [UI , \n enter] \n U = \n 0 \n I = \n 0.1 \n D I \n =0.01 \n PHI = 75\nMake enter & (+).\nWait unit stop, I on display \n = pickup current.\nRecord the value of current \n and time from display in test sheet.\nMake (0 \n & enter).\nChange the value of current \n according the test sheet, [Increasing the current].\nIn every time we record the \n pickup current and time from the display and writ in test sheet.\nWe find that the current \n increasing and the time is decreasing so recognize the inverse \n ch,s.\nWrit \n mode [UI , \n enter] \n U = \n 0 \n I = \n 0.1 \n D I \n =0.01 \n PHI = 75\nWe find that the current \n increasing and the time is decreasing so recognize the inverse \n ch,s.\nCheck the operation angle [Zone ch,s]: i.e. [Directionality\ntest]\nWrite \n mode [F F & \n enter] \n F R = \n 50 \n D F R = \n 0 \n F C = \n 01 \n A = \n 1 \n S Q = 1 \n F0 \n T I = T L = 100 \n m.s \n T F = 4000 m.s\nWrite \n mode [U I & \n enter] \n U = 20 \n V \n I = 0.2 \n A \n PHI = \n 0 \n DPHI = 1\nMake [Start & (+)]\nWait until stop , PHI \n indicate on display\nRecord this angle in test \n sheet.\nMake [0 & \n enter].\nChange the angle to (359 ) \n ====> P H I = 359 , A = 2 , D P h = 1\nMake start \n & (-)\nWait until stop , PHI \n indicate on display.\nRecord this angle in test \n sheet\nMake [0 & \n enter].\nDraw the phase diagram and \n definite the operating zone as the following:\nDraw the phase diagram and \n definite the operating zone as the following:\nChecking the trip line by \n protection\nRemove the under voltage \n prot, M1 , M2 (K40), conn.....the line\nWrite the program as follow \n :F F ====> F R = \n 50 \n D F R = \n 0 \n F C = \n 01 \n SQ = 1 \n F0 \n A = \n 0 \n T I = T L = \n 100 \n T F = \n 4000 \n U I = (enter) \n U = \n 20 \n I = \n 2 \n PHI = 70\nMake bridge between (1 , 2) \n on X S92 a.\nMake (Start), trip the line \n and make auto by the (3p, A . R).\nMake (0 & \n enter).\nDisconnect the DC - DC. \n converter (NF 92).\nDisconnect the (XS \n 92a).\nRemove the test socket \n (YX91).\nPut the under voltage relay \n in place it.\nConnect the DC - DC. \n converter (N F 92).\nMake measuring the AC \n current and voltage and record them in certificate test.\nPlace a copy of the test \n sheet of results in the field maintenance file.\nPlace a copy of the test \n sheet of results in the field maintenance file.\nPreparing the Tester Unit (X S92a) As the\nFollowing\nUse the (YB 92) hand terminal \n according to the test steps.\nFig. 2.1 - Test \nset XS92a with hand terminal, \ninterconnecting \ncable at the side and test connector YX91\nNF92 \nDC/DC converter for the solid-state \ncircuitsAU91/92 \nthree-phase voltage \namplifier XC92 \ncontrol \nunit YS92 \noptional memory \nunitEX92 \nmains input \nunit NX91 \nDC/DC converter for current \namplifierAI92 \nsingle-phase current \namplifierAX91/92 \noutput unit and switching \nlogicYX91 \ntest \nconnector YB92 \nhand terminal\nFig. 2.2 - Arrangement of the \nplug-in units in the racks.\nTest Sheet RC 91\nTime Earth \nfault [ ] \nMinimum Base Current : 0.1 \nIn \nBase Current Stop : 0.05 In Relay Settings\nIu : 0.1 x In = 0,1 A \n K : 0,3\n1 : 0 x 21u = 0 A \n1 Non Directional (link 340 out \n) [ ] \n1 Directional \n(link 340 in) [ \n]\nSignaling: W 90 = \n1 \n[ ] \n W 91 = 1 W 90 = \n0 \n[ ] W 91 = \n2\nMeasurement of Pick up values\nCurrent | Nominal \n Value | Measured \n Value\n2* IB = 0.2 \n A | 3 sec | \n8* IB = 0.8 \n A | 0.99 | \n16*IB = 1.6 \n A | 0.74 | \nLocation : \nRelay Designation:\nChecked by: \nSignature: \nTest Date: \nApproved by: \nSignature: \nDate:",
  "text_truncated": false,
  "links": [],
  "images": [

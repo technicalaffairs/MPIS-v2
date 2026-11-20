@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -179,6 +181,29 @@
    "text": "Time Dial Setting : \n Amp Tap Setting \n:"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "No.",
+     "Circuit",
+     "I\n > Pick up Values",
+     "I \n >>"
+    ],
+    [
+     "IR",
+     "TR",
+     "IS",
+     "TS",
+     "IT",
+     "TT",
+     "IR",
+     "IS",
+     "IT"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:"
   },
@@ -199,7 +224,7 @@
    "text": "Figure 1: Wiring Diagram"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis\ndocument outlines the testing procedure I1, which must be carried on an annually \nbases as indicated by Y1 in the above title block,\nThe three phase instantaneous and definite time over current relays have been \ndesigned for the phase and earth fault protection of electrical plant and \nnetworks.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama at 29 April 2003, revised by Quality Control eng. Adel El-Nagar at EDEP Co., accepted by \nGeneral Director eng. Mahmoud Saker and approved by Eng. Moustfa Allam Head Sector of Talkha Power Station.\nThe \nfirst update initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama , at 29 April 2008 , revised by MDEP Co.quality control eng. \nAdel El-Nagar , accepted by General Director eng.Mohamed Anber, and approved by \neng. Farouk Awad Ali Head Sector of Talkha Power Station, coordinate eng. Samir \nAbd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety precautions.\nThe \n auxiliary transformer must be out of service.\nThe \n auxiliary transformer must be out of service.\nTools and Equipment\nWork to be Carried Out\nPreparation\nMake \n Sure C.T secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test .\nLook at field maintenance fill and compare the position of the setting \n switches on relay with those shown on the setting sheet.\nTesting the \nRelay\nConnect test leads between the current terminals ( A2 A3 ) for phase R. \nfigure 1\nConnect the test leads between the trip contact ( A4 A5 )\nFor O.C Test :\nConnect test leads between the current terminals ( A2 A3 ) for phase R. \nfigure 1\nConnect the test leads between the trip contact ( A4 A5 )\nFor O.C Test :\nIncrease the current slowly untill the relay picks up.\n4. Continue increasing the current until the relay trips\n5. Record the current value and the time value at which the relay \ntrips in the test sheet.\n6. For S.C Test:\nDecrease the S.C setting to the value (4) .\n7. Continue increasing the current until the relay trips instantaneously.\n8. Record the current value in the test sheet.\n9. Repeat the steps from (1 to 8) to phase S but the current \nterminals between ( A6 & A7 ), and between\nterminals ( A10 & A11 ) for phase T.\nReturn Relay and Associated Equipment to \nService\nDisconnect the test leads from the terminals (A10 - \n A11)\nDisconnect the test leads between the trip contact \n ( A4 - A5 )\nMake sure CT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm associated with this relay.\nTest Sheet for Aux. Transformer Time Over \nCurrent Relay\nRelay \nTAG : \n Manufacturer :\nType \n: Serial \nNo. :\nC.T Ratio \n: Rating \nData :\nTime Dial Setting : \n Amp Tap Setting \n:\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :\nFigure 1: Wiring Diagram",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis\ndocument outlines the testing procedure I1, which must be carried on an annually \nbases as indicated by Y1 in the above title block,\nThe three phase instantaneous and definite time over current relays have been \ndesigned for the phase and earth fault protection of electrical plant and \nnetworks.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama at 29 April 2003, revised by Quality Control eng. Adel El-Nagar at EDEP Co., accepted by \nGeneral Director eng. Mahmoud Saker and approved by Eng. Moustfa Allam Head Sector of Talkha Power Station.\nThe \nfirst update initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama , at 29 April 2008 , revised by MDEP Co.quality control eng. \nAdel El-Nagar , accepted by General Director eng.Mohamed Anber, and approved by \neng. Farouk Awad Ali Head Sector of Talkha Power Station, coordinate eng. Samir \nAbd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety precautions.\nThe \n auxiliary transformer must be out of service.\nThe \n auxiliary transformer must be out of service.\nTools and Equipment\nWork to be Carried Out\nPreparation\nMake \n Sure C.T secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test .\nLook at field maintenance fill and compare the position of the setting \n switches on relay with those shown on the setting sheet.\nTesting the \nRelay\nConnect test leads between the current terminals ( A2 A3 ) for phase R. \nfigure 1\nConnect the test leads between the trip contact ( A4 A5 )\nFor O.C Test :\nConnect test leads between the current terminals ( A2 A3 ) for phase R. \nfigure 1\nConnect the test leads between the trip contact ( A4 A5 )\nFor O.C Test :\nIncrease the current slowly untill the relay picks up.\n4. Continue increasing the current until the relay trips\n5. Record the current value and the time value at which the relay \ntrips in the test sheet.\n6. For S.C Test:\nDecrease the S.C setting to the value (4) .\n7. Continue increasing the current until the relay trips instantaneously.\n8. Record the current value in the test sheet.\n9. Repeat the steps from (1 to 8) to phase S but the current \nterminals between ( A6 & A7 ), and between\nterminals ( A10 & A11 ) for phase T.\nReturn Relay and Associated Equipment to \nService\nDisconnect the test leads from the terminals (A10 - \n A11)\nDisconnect the test leads between the trip contact \n ( A4 - A5 )\nMake sure CT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm associated with this relay.\nTest Sheet for Aux. Transformer Time Over \nCurrent Relay\nRelay \nTAG : \n Manufacturer :\nType \n: Serial \nNo. :\nC.T Ratio \n: Rating \nData :\nTime Dial Setting : \n Amp Tap Setting \n:\nNo. | Circuit | I\n > Pick up Values | I \n >>\nIR | TR | IS | TS | IT | TT | IR | IS | IT\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :\nFigure 1: Wiring Diagram",
  "text_truncated": false,
  "links": [],
  "images": [

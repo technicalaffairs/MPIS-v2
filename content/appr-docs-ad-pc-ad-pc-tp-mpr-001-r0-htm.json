@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -168,6 +170,96 @@
    "text": "C.T Ratio \n: \nMotor & Pump tag no."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Mode",
+     "Symbol",
+     "Setting",
+     "Measured Values",
+     "Remarks"
+    ],
+    [
+     "00",
+     "IE",
+     "",
+     "",
+     ""
+    ],
+    [
+     "01",
+     "I \n >> \n ( S.C )",
+     "",
+     "",
+     ""
+    ],
+    [
+     "02",
+     "T \n >>",
+     "",
+     "",
+     ""
+    ],
+    [
+     "03",
+     "I > \n ( O.C )",
+     "",
+     "",
+     ""
+    ],
+    [
+     "04",
+     "T >",
+     "",
+     "",
+     ""
+    ],
+    [
+     "05",
+     "I2 ( \n N.P.S )",
+     "",
+     "",
+     ""
+    ],
+    [
+     "06",
+     "T ( N.P.S )",
+     "",
+     "",
+     ""
+    ],
+    [
+     "07",
+     "IO \n ( E / F )",
+     "",
+     "",
+     ""
+    ],
+    [
+     "08",
+     "TO",
+     "",
+     "",
+     ""
+    ],
+    [
+     "0 30",
+     "I thermal",
+     "",
+     "",
+     ""
+    ],
+    [
+     "0 31",
+     "T thermal",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:"
   },
@@ -192,7 +284,7 @@
    "text": "Figure 1: Wiring diagram \n for earth fault detection \n (Io external)"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis\ndocument outlines the testing procedure P1, which must be carried on an annually \nbases as indicated by Y1 in the above title block,\nThe micro-processor controlled relays of the MCX912 provides a large number \n of protection functions, This relay can be used to replace several \n conventional relays.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama at 29 April 2003, revised by Quality Control eng. Adel El-Nagar at EDEP Co., accepted by General Director \neng. Mahmoud Saker, and approved by eng. Moustfa \nAlam Head Sector of Talkha Power Station.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nSafety fence (rope) with caution marks surrounding the work area is required\nMake sure that the the pump mechanically and electrically isolated.\nSwitch off DC\npower supply before inserting or withdrawing any card from the relay.\nSwitch off the AC power supply of the motor.\nTools and Equipment\nSecondary injection test.\nTest leads, and test plug handle.\nWork to be Carried Out\nPreparation\nMake Sure CT secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nObtain copy of relay setting from \n field maintenance file and compare it with the setting on the relay.\nTesting the Relay\nConnect the test leads between the current terminals ( A2 A3 ) phase R. \n (figure 1)\nConnect the test leads between the trip contact ( A4 A5 )\nIncrease the current slowly until the relay trips\nRecord the current value and the time value at which the relay trips in the \n test sheet .\nConnect the test leads between the current terminal ( A6 A7 ) phase S. \n (figure 1)\nIncrease the current very slow until the relay trips .\nRecord the current and the time values in the test sheet .\nChange the negative sequence time to 10 sec.\nIncrease the current until the relay trips\nRecord the current and the time values in the test sheet .\nRecord the current and the time values in the test sheet .\nIncrease the current to the S.C setting until the relay trips\nRecord the current and the time values in the test sheet .\nIncrease the current to a large value until the relay trips\nRecord both current and the time values in the test sheet .\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( A2 - A3 ) , ( A6 - A7 \n ) , ( A10 - A11 ) \n - Disconnect the test leads between the trip contact ( A4 - A5 ).\nMake sure CT and PT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet\nfor \n Motor Protection Over current / Thermal \n over load, type MCX912-5-5-1 at Pump House,\n ABB\nRelay Type \n: Manufacturer \n:\nC.T Ratio \n: \nMotor & Pump tag no.\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nLocation: \nLast\nTest Date:\nTested by : Signature : \nTest Date :\nReviewed by : Signature :\nApproved by \n: Signature :\nFigure 1: Wiring diagram \n for earth fault detection \n (Io external)",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis\ndocument outlines the testing procedure P1, which must be carried on an annually \nbases as indicated by Y1 in the above title block,\nThe micro-processor controlled relays of the MCX912 provides a large number \n of protection functions, This relay can be used to replace several \n conventional relays.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama at 29 April 2003, revised by Quality Control eng. Adel El-Nagar at EDEP Co., accepted by General Director \neng. Mahmoud Saker, and approved by eng. Moustfa \nAlam Head Sector of Talkha Power Station.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nSafety fence (rope) with caution marks surrounding the work area is required\nMake sure that the the pump mechanically and electrically isolated.\nSwitch off DC\npower supply before inserting or withdrawing any card from the relay.\nSwitch off the AC power supply of the motor.\nTools and Equipment\nSecondary injection test.\nTest leads, and test plug handle.\nWork to be Carried Out\nPreparation\nMake Sure CT secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nObtain copy of relay setting from \n field maintenance file and compare it with the setting on the relay.\nTesting the Relay\nConnect the test leads between the current terminals ( A2 A3 ) phase R. \n (figure 1)\nConnect the test leads between the trip contact ( A4 A5 )\nIncrease the current slowly until the relay trips\nRecord the current value and the time value at which the relay trips in the \n test sheet .\nConnect the test leads between the current terminal ( A6 A7 ) phase S. \n (figure 1)\nIncrease the current very slow until the relay trips .\nRecord the current and the time values in the test sheet .\nChange the negative sequence time to 10 sec.\nIncrease the current until the relay trips\nRecord the current and the time values in the test sheet .\nRecord the current and the time values in the test sheet .\nIncrease the current to the S.C setting until the relay trips\nRecord the current and the time values in the test sheet .\nIncrease the current to a large value until the relay trips\nRecord both current and the time values in the test sheet .\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( A2 - A3 ) , ( A6 - A7 \n ) , ( A10 - A11 ) \n - Disconnect the test leads between the trip contact ( A4 - A5 ).\nMake sure CT and PT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet\nfor \n Motor Protection Over current / Thermal \n over load, type MCX912-5-5-1 at Pump House,\n ABB\nRelay Type \n: Manufacturer \n:\nC.T Ratio \n: \nMotor & Pump tag no.\nMode | Symbol | Setting | Measured Values | Remarks\n00 | IE |  |  | \n01 | I \n >> \n ( S.C ) |  |  | \n02 | T \n >> |  |  | \n03 | I > \n ( O.C ) |  |  | \n04 | T > |  |  | \n05 | I2 ( \n N.P.S ) |  |  | \n06 | T ( N.P.S ) |  |  | \n07 | IO \n ( E / F ) |  |  | \n08 | TO |  |  | \n0 30 | I thermal |  |  | \n0 31 | T thermal |  |  | \nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nLocation: \nLast\nTest Date:\nTested by : Signature : \nTest Date :\nReviewed by : Signature :\nApproved by \n: Signature :\nFigure 1: Wiring diagram \n for earth fault detection \n (Io external)",
  "text_truncated": false,
  "links": [],
  "images": [

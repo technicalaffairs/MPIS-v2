@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -310,8 +312,138 @@
    "text": "Testing Results"
   },
   {
-   "type": "paragraph",
-   "text": "T -R"
+   "type": "table",
+   "rows": [
+    [
+     "Ph-Ph",
+     "I",
+     "II",
+     "III",
+     "Z4"
+    ],
+    [
+     "Th.",
+     "Mes.",
+     "Th.",
+     "Mes.",
+     "Th.",
+     "Mes.",
+     "Th.",
+     "Mes."
+    ],
+    [
+     "R -S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S -T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T -R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Ph-E",
+     "I",
+     "II",
+     "III",
+     "Z4",
+     "ZB"
+    ],
+    [
+     "Th.",
+     "Mes.",
+     "Th.",
+     "Mes.",
+     "Th.",
+     "Mes.",
+     "Th.",
+     "Mes.",
+     "Th.",
+     "Mes."
+    ],
+    [
+     "R-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -319,7 +451,7 @@
    "text": "CHECKED BY:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nSafety Precautions\nCheck that the bus and line disconnect switches are opened and\n Tagged.\nMake\n sure\n CT secondary are shorted.\nMake\n sure VT miniature circuit breaks (M.C.B's) is\n isolated. (opened).\nIsolate DC supply to relay.\nIsolate:\n * Breaks failure (BF) scheme associated with relay.\n * Breaker trip coil and transfer trip scheme \n * Auto-recluse associated with the\n Relay\nTools and Equipment\nTest set XS92 a (secondary\n injection)\nTest plug and test leads\nVoltammeter, Climb ammeters.\nPhase rotation meter\nWork to be Carried Out\nReview technical reference material manufacturer's manual\nObtain copy of relay\n LZ 96 a setting from field maintenance file.\nObtain outage for line protected by this\n relay LZ 96 a.\nCheck that the\n bus and line disconnect switches are opened and togged\nBlock protection signals\n to Breaker trip coils and transfer trip schemes.\nGo to the switchgear\n and inspect the CT 's, and VT Miniature circuit breaker (M.C.B's) and cabling supplying the\n relay LZ 96 a.\nCheck that the cables are in\n a good condition and the all wire connections are tight and clean.\nTesting procedure:\nConnect\n test plug of set test XS 92 a to the relay LZ 96 a\nRestore D.C supply to\n LZ 96 a relay scheme.\nPrepare the set test XS 92a as following:\nZone reaches Zone\n( I\n) \nPhase / earth\nMOD (ZZ) \nDistance\nZL \nup to setting Z1\nPZL \nAngle of setting line protected (0.360˚)\nK0 \n(0.7)\nFc \nfault code forward or refers 111 (phase R to E)\nSQ \n1F1\nA \n2\nTF \nTime fault zone (250) ms\nDZL \nStep parameters and range limits (0.1)\nStart(-) \ninjection of testing signals\nNote :\nWe entered\n the all above parameters according to the flow charts of set Test XS92a\nWhen the relay\n LZ96 a gives tripping signal press\n ◙ to stop injection\nRead the values in hand\n terminals of set test XS 92a, and compare this value with the value of setting in test sheet of relay\n LZ96 a\nPress the reset button an the\n front panel of the relay and check that the indicator ON MODE and VALUE\n windows in the front panel of relay are reset.\nRepeat the above test\n with the phase (S) by using fault code FC (112), phase (T) by using fault\n code FC (113).Make sure the relay LZ 96 a gives trip signaling with all\n phases.\nRepeat\n the above test, but in the refers direction by using fault code FC (011)\n & (012) & (013)Make sure that the relay LZ 96 a is blocked in\n refers direction\nPhase To Phase\nEnter all above parameters, but the deference that in\n (FC) \n Phase R-S \n 121 Forward direction (trip) \n Phase S-T \n 122 \n Forward direction (trip)\n Phase T-R \n 123 \n Forward direction (trip)\nIn the refers direction \n(021), (022), (023) (Block)\nZone II\nRepeat the above test for zone I , But change the value\n of ZL up to Z2 , and TF up to time of Z2 .\nMake sure that the relay LZ 96 a in forward direction (trip)\n & in reverse direction (Block)\nZone III\nRepeat the above test for zone II , But change the value\n of ZL up to Z3 , and TF up to time of Z3 .\nMake sure that the relay LZ 96 a in forward direction (trip)\n & in reverse direction (Block)\nZone IV\nRepeat the above test for zone III , But change the value\n of ZL up to Z4 , and TF up to time of Z4\nMake sure that the relay LZ 96 a in forward direction (trip)\n & in reverse direction at Z4 Make (Trip)\nMeasuring The Operating Times\nThe operating Time of a distance relay\n LZ 96 a should be measured using the trip contact (free contact). Connected The free contact to (+) and ( __\\__\n ) in the front panel of set test XS 92a .\nEnter the all parameters of ZL at ZL\n = 0.5 ZI\nWhen the trip occur the injection automatically stopped\n free contact. Then read the value of time zone(\n I ) in the hand terminal\nRepeat the above step to measuring the time of zone II , III , IV\nTime of Z1 at ZL = 0.5 Z1\nTime of Z2 at ZL = \n0.5( Z1+Z2 )\nTime of Z3 at ZL = 0.5( Z2+Z3 )\nTime of Z4 at ZL =0.5(\nZ3+Z4 )\nNote: How to Find \"Free Contact \" For Relay LZ 96 a ?\nSelect any contact and measured DC (Not Found)\nMeasured (Buzzer) by avometer (Not Found)\nMake trip\n by using, XS 92 a (then these contact-measured buzzes by avometer).\nConnect\n this free contact to set test XS92 a.\nEnd To End Test For Relay LZ 96 a\nRepeat the test of\n zone II and make sure that the\n trip occur at time of Z2.\nMake bridge on receive signal.\nMake sure that the relay\n LZ96 a trip zone II at time of zone\n I\nSwitch into Fault (SOIF) Test:\nRepeat the test of zone IV but ( SQ = 0F1) in\n set\n test XS92 a\nMake sure that the zone IV trip at time of zone I.\nReturn Protection Scheme And Associated Equipment to Service\nReturn relay\n LZ 96 a to service by with drawing the test plug handle From the relay.\nMake sure\n CT secondary are opened.\nReturn Relay to service by restoring supply Form\n :(VT) miniature circuit breaks (MCBS) is closed\nPlace the associated Breaker failure (B.F) protection Scheme\n in service.\nRestore the previously blocked disturbance alarms and fault recorders associated with this protection .\nReturn the relay power line carries (PLC) links to their normal position.\nTurn on the associated\n auto-reclosing scheme.\nTurn on the powers supply DC to\n relay LZ 96 a.\nTake crossed readings of all AC currents and voltages\n and power in the relay and compare them to those\n for normal load conditions.\nCheck that these readings agree with station Meters; MW, MVAR, Power factor, amperes, voltages.\nPlace a copy of the test results in the field maintenance\n test sheet (report) .\nTEST REPORT ZONE\nREACHES FOR LZ 96\nSTATION\n: \nFEEDER\n: \nDATE :\nSetting values:\nN1 \n= \nKB \n= \nm1 \n= \nc.t.r =\nN2 \n= \nØM\n= \nm2\n= \nv.t.r =\nN3 \n= \nKo \n= \nm3\n= \ni. =\nZA =\nTesting Results\nT -R\nCHECKED BY:",
+ "text": "Protection | Technical Procedure\nIntroduction\nSafety Precautions\nCheck that the bus and line disconnect switches are opened and\n Tagged.\nMake\n sure\n CT secondary are shorted.\nMake\n sure VT miniature circuit breaks (M.C.B's) is\n isolated. (opened).\nIsolate DC supply to relay.\nIsolate:\n * Breaks failure (BF) scheme associated with relay.\n * Breaker trip coil and transfer trip scheme \n * Auto-recluse associated with the\n Relay\nTools and Equipment\nTest set XS92 a (secondary\n injection)\nTest plug and test leads\nVoltammeter, Climb ammeters.\nPhase rotation meter\nWork to be Carried Out\nReview technical reference material manufacturer's manual\nObtain copy of relay\n LZ 96 a setting from field maintenance file.\nObtain outage for line protected by this\n relay LZ 96 a.\nCheck that the\n bus and line disconnect switches are opened and togged\nBlock protection signals\n to Breaker trip coils and transfer trip schemes.\nGo to the switchgear\n and inspect the CT 's, and VT Miniature circuit breaker (M.C.B's) and cabling supplying the\n relay LZ 96 a.\nCheck that the cables are in\n a good condition and the all wire connections are tight and clean.\nTesting procedure:\nConnect\n test plug of set test XS 92 a to the relay LZ 96 a\nRestore D.C supply to\n LZ 96 a relay scheme.\nPrepare the set test XS 92a as following:\nZone reaches Zone\n( I\n) \nPhase / earth\nMOD (ZZ) \nDistance\nZL \nup to setting Z1\nPZL \nAngle of setting line protected (0.360˚)\nK0 \n(0.7)\nFc \nfault code forward or refers 111 (phase R to E)\nSQ \n1F1\nA \n2\nTF \nTime fault zone (250) ms\nDZL \nStep parameters and range limits (0.1)\nStart(-) \ninjection of testing signals\nNote :\nWe entered\n the all above parameters according to the flow charts of set Test XS92a\nWhen the relay\n LZ96 a gives tripping signal press\n ◙ to stop injection\nRead the values in hand\n terminals of set test XS 92a, and compare this value with the value of setting in test sheet of relay\n LZ96 a\nPress the reset button an the\n front panel of the relay and check that the indicator ON MODE and VALUE\n windows in the front panel of relay are reset.\nRepeat the above test\n with the phase (S) by using fault code FC (112), phase (T) by using fault\n code FC (113).Make sure the relay LZ 96 a gives trip signaling with all\n phases.\nRepeat\n the above test, but in the refers direction by using fault code FC (011)\n & (012) & (013)Make sure that the relay LZ 96 a is blocked in\n refers direction\nPhase To Phase\nEnter all above parameters, but the deference that in\n (FC) \n Phase R-S \n 121 Forward direction (trip) \n Phase S-T \n 122 \n Forward direction (trip)\n Phase T-R \n 123 \n Forward direction (trip)\nIn the refers direction \n(021), (022), (023) (Block)\nZone II\nRepeat the above test for zone I , But change the value\n of ZL up to Z2 , and TF up to time of Z2 .\nMake sure that the relay LZ 96 a in forward direction (trip)\n & in reverse direction (Block)\nZone III\nRepeat the above test for zone II , But change the value\n of ZL up to Z3 , and TF up to time of Z3 .\nMake sure that the relay LZ 96 a in forward direction (trip)\n & in reverse direction (Block)\nZone IV\nRepeat the above test for zone III , But change the value\n of ZL up to Z4 , and TF up to time of Z4\nMake sure that the relay LZ 96 a in forward direction (trip)\n & in reverse direction at Z4 Make (Trip)\nMeasuring The Operating Times\nThe operating Time of a distance relay\n LZ 96 a should be measured using the trip contact (free contact). Connected The free contact to (+) and ( __\\__\n ) in the front panel of set test XS 92a .\nEnter the all parameters of ZL at ZL\n = 0.5 ZI\nWhen the trip occur the injection automatically stopped\n free contact. Then read the value of time zone(\n I ) in the hand terminal\nRepeat the above step to measuring the time of zone II , III , IV\nTime of Z1 at ZL = 0.5 Z1\nTime of Z2 at ZL = \n0.5( Z1+Z2 )\nTime of Z3 at ZL = 0.5( Z2+Z3 )\nTime of Z4 at ZL =0.5(\nZ3+Z4 )\nNote: How to Find \"Free Contact \" For Relay LZ 96 a ?\nSelect any contact and measured DC (Not Found)\nMeasured (Buzzer) by avometer (Not Found)\nMake trip\n by using, XS 92 a (then these contact-measured buzzes by avometer).\nConnect\n this free contact to set test XS92 a.\nEnd To End Test For Relay LZ 96 a\nRepeat the test of\n zone II and make sure that the\n trip occur at time of Z2.\nMake bridge on receive signal.\nMake sure that the relay\n LZ96 a trip zone II at time of zone\n I\nSwitch into Fault (SOIF) Test:\nRepeat the test of zone IV but ( SQ = 0F1) in\n set\n test XS92 a\nMake sure that the zone IV trip at time of zone I.\nReturn Protection Scheme And Associated Equipment to Service\nReturn relay\n LZ 96 a to service by with drawing the test plug handle From the relay.\nMake sure\n CT secondary are opened.\nReturn Relay to service by restoring supply Form\n :(VT) miniature circuit breaks (MCBS) is closed\nPlace the associated Breaker failure (B.F) protection Scheme\n in service.\nRestore the previously blocked disturbance alarms and fault recorders associated with this protection .\nReturn the relay power line carries (PLC) links to their normal position.\nTurn on the associated\n auto-reclosing scheme.\nTurn on the powers supply DC to\n relay LZ 96 a.\nTake crossed readings of all AC currents and voltages\n and power in the relay and compare them to those\n for normal load conditions.\nCheck that these readings agree with station Meters; MW, MVAR, Power factor, amperes, voltages.\nPlace a copy of the test results in the field maintenance\n test sheet (report) .\nTEST REPORT ZONE\nREACHES FOR LZ 96\nSTATION\n: \nFEEDER\n: \nDATE :\nSetting values:\nN1 \n= \nKB \n= \nm1 \n= \nc.t.r =\nN2 \n= \nØM\n= \nm2\n= \nv.t.r =\nN3 \n= \nKo \n= \nm3\n= \ni. =\nZA =\nTesting Results\nPh-Ph | I | II | III | Z4\nTh. | Mes. | Th. | Mes. | Th. | Mes. | Th. | Mes.\nR -S |  |  |  |  |  |  |  | \nS -T |  |  |  |  |  |  |  | \nT -R |  |  |  |  |  |  |  | \nPh-E | I | II | III | Z4 | ZB\nTh. | Mes. | Th. | Mes. | Th. | Mes. | Th. | Mes. | Th. | Mes.\nR-N |  |  |  |  |  |  |  |  |  | \nS-N |  |  |  |  |  |  |  |  |  | \nT-N |  |  |  |  |  |  |  |  |  | \nTime |  |  |  |  |  |  |  |  |  | \nCHECKED BY:",
  "text_truncated": false,
  "links": [],
  "images": [

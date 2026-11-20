@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -114,16 +116,60 @@
    "text": "Manufacturer of all \ndevices: Skoda"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Differential of 1SP10.",
+     "Over voltage (2)."
+    ],
+    [
+     "Impedance ( s . c) 1st stage, 2nd stage",
+     "Under frequency + under voltage over frequency."
+    ],
+    [
+     "Short circuit (s . c)",
+     "Stator Earth fault 1st harmonic."
+    ],
+    [
+     "Overload",
+     "Stator Earth fault 3rd harmonic"
+    ],
+    [
+     "Field loss 1st , 2nd stage + \n Asynchronous operation",
+     "Rotor Earth fault protection."
+    ],
+    [
+     "Unbalanced load 1st & 2nd stage",
+     "Under exciting."
+    ],
+    [
+     "Reverse Power protection (1).",
+     "Checking of TV1/2, TV2/2"
+    ],
+    [
+     "Reverse Power protection (2)",
+     "Under voltage of TV1/2"
+    ],
+    [
+     "Over voltage (1)",
+     "Under voltage of TV2/2."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Differential of \nGenerator SP10, RAX1"
   },
   {
-   "type": "paragraph",
-   "text": "C.T. : TA1/3"
-  },
-  {
-   "type": "paragraph",
-   "text": "10,000/5 A"
+   "type": "table",
+   "rows": [
+    [
+     "C.T. : TA1/3\n TA2/3",
+     "10,000/5 A\n 10,000/5A"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -707,268 +753,771 @@
    "text": "Test Sheet of Generator SP10 Protection Relays"
   },
   {
-   "type": "paragraph",
-   "text": "Power Station:\n Manufacturer : SKODA"
+   "type": "table",
+   "rows": [
+    [
+     "Power Station:\n Manufacturer : SKODA",
+     "Unit :"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Differential of SP10"
   },
   {
-   "type": "paragraph",
-   "text": "Set"
+   "type": "table",
+   "rows": [
+    [
+     "Type : RAX1",
+     "Function: F301",
+     "Setting : 0.2 \n In"
+    ],
+    [
+     "C.T.1 : TA1/3",
+     "C.T.1.R. : 10,000/5A",
+     "In : 5A"
+    ],
+    [
+     "C.T.2 : TA2/3",
+     "C.T.2.R. : 10,000/5A",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Set"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "heading",
-   "level": 6,
-   "text": "R-S"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "TA1/3",
+     "TA2/3",
+     "OPERATING COIL"
+    ],
+    [
+     "",
+     "Set\n value",
+     "Reset\n value",
+     "Reset factor",
+     "Set\n value",
+     "Reset\n value",
+     "Reset factor",
+     "Set value",
+     "Reset\n value",
+     "Reset factor"
+    ],
+    [
+     "R-S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S-T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R-T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Impedance short circuit"
   },
   {
-   "type": "heading",
-   "level": 2,
-   "text": "Function: F251"
+   "type": "table",
+   "rows": [
+    [
+     "Type: D15X1",
+     "Function: F251",
+     "Zn: \n 20 W"
+    ],
+    [
+     "C.T.: TA2/1\n P.T.: TV2/2",
+     "C.T.R. : \n 10,000/5A\n P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv",
+     "In: 5A\n Un :100V"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "heading",
-   "level": 2,
-   "text": "Zn: \n 20 W"
-  },
-  {
-   "type": "paragraph",
-   "text": "C.T.: TA2/1"
-  },
-  {
-   "type": "paragraph",
-   "text": "C.T.R. : \n 10,000/5A"
-  },
-  {
-   "type": "paragraph",
-   "text": "In: 5A"
-  },
-  {
-   "type": "paragraph",
-   "text": "Xr1= 30%Zn,\n 3 sec"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Setting",
+     "Set value",
+     "Reset value",
+     "Reset factor"
+    ],
+    [
+     "",
+     "R-S",
+     "S-T",
+     "R-T",
+     "R-S",
+     "S-T",
+     "R-T",
+     "R-S",
+     "S-T",
+     "R-T"
+    ],
+    [
+     "1st stage",
+     "Xr1=11%Zn",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2nd stage",
+     "Xr1= 30%Zn,\n 3 sec",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Short circuit"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Type : A33TX1",
+     "Function: \n F111",
+     "Setting: 1.8In,3 sec"
+    ],
+    [
+     "C.T.1: TA2/1",
+     "C.T.R.: \n 10,000/5A",
+     "In: 5A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Over load"
   },
   {
-   "type": "paragraph",
-   "text": "Setting : P:Ita=0.8In"
+   "type": "table",
+   "rows": [
+    [
+     "Type : \n A3PX1",
+     "Function: F131",
+     "In : 5A"
+    ],
+    [
+     "C.T.1 : \n TA2/1",
+     "C.T.R.: 10,000/5A",
+     "Setting : P:Ita=0.8In \n I : Ip = I n\n II : Ir = 1.4 I n"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "I : Ip = I n"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "heading",
-   "level": 6,
-   "text": "R"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Short circuit ( S.C. ) only",
+     "S.C. +Under voltage",
+     "Over Load"
+    ],
+    [
+     "",
+     "Set value",
+     "Reset\n value",
+     "Reset factor",
+     "Set value",
+     "Reset\n value",
+     "Reset factor",
+     "Set value",
+     "Reset\n value",
+     "Reset factor"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Field loss ( F 45 ) + Asynchronous \noperation ( F 441 )"
   },
   {
-   "type": "paragraph",
-   "text": "C.T. : TA2/1"
+   "type": "table",
+   "rows": [
+    [
+     "Type: D20X1",
+     "Function: F45 + F 441",
+     ""
+    ],
+    [
+     "C.T. : TA2/1\n P.T. : TV2/2",
+     "C.T.R. : 10,000/5A\n P.T.R. : 15/3 \n :0.1/3 : 0.1/3kv",
+     "In : 5A\n Un : 100V"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "C.T.R. : 10,000/5A"
-  },
-  {
-   "type": "paragraph",
-   "text": "In : 5A"
-  },
-  {
-   "type": "paragraph",
-   "text": "Pr1=10%Pn,t1=10s"
-  },
-  {
-   "type": "paragraph",
-   "text": "Pr2=10%Pn,t2=10s"
-  },
-  {
-   "type": "paragraph",
-   "text": "t3= 10s"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Setting",
+     "Injected current",
+     "F45",
+     "F45 + F441"
+    ],
+    [
+     "",
+     "Set value",
+     "Reset value",
+     "Set value",
+     "Reset value"
+    ],
+    [
+     "",
+     "R-S",
+     "S-T",
+     "R-T",
+     "R-S",
+     "S-T",
+     "R-T",
+     "R-T",
+     "R-T"
+    ],
+    [
+     "F \n 45 1ststage",
+     "1st V=0.5Z",
+     "2.3A",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "F 45 2nd stage",
+     "2nd Ur=0.8V",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Asynchronous operation",
+     "Pr1=10%Pn,t1=10s\n Pr2=10%Pn,t2=10s\n t3= 10s",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Unbalanced load"
   },
   {
-   "type": "heading",
-   "level": 1,
-   "text": "Set value"
+   "type": "table",
+   "rows": [
+    [
+     "Type : N10X1",
+     "Function: F46",
+     "In: 5A"
+    ],
+    [
+     "C.T.1 : TA2/1",
+     "C.T.R.: 10,000/5A",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "heading",
-   "level": 1,
-   "text": "Reset factor"
-  },
-  {
-   "type": "heading",
-   "level": 1,
-   "text": "Time"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Setting",
+     "Set value",
+     "Reset value",
+     "Reset factor",
+     "Time"
+    ],
+    [
+     "",
+     "R",
+     "T",
+     "R",
+     "T",
+     "R",
+     "T"
+    ],
+    [
+     "1st stage",
+     "I2p=8%In,T=5X",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2nd stage",
+     "I2ta =8%In",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Injected current",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Reverse power protection (1)"
   },
   {
-   "type": "heading",
-   "level": 4,
-   "text": "Function: F501"
-  },
-  {
-   "type": "paragraph",
-   "text": "C.T. : TA2/1"
-  },
-  {
-   "type": "paragraph",
-   "text": "C.T.R.: 10,000/5A"
-  },
-  {
-   "type": "paragraph",
-   "text": "In : 5A"
+   "type": "table",
+   "rows": [
+    [
+     "Type: Q1WX1",
+     "Function: F501",
+     ""
+    ],
+    [
+     "C.T. : TA2/1\n P.T. : TV2/2",
+     "C.T.R.: 10,000/5A\n P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv",
+     "In : 5A\n Un : 100V"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Reverse power protection \n(2)"
   },
   {
-   "type": "heading",
-   "level": 4,
-   "text": "Function: F502"
+   "type": "table",
+   "rows": [
+    [
+     "Type: Q1WX1",
+     "Function: F502",
+     ""
+    ],
+    [
+     "C.T. : TA3/3\n P.T. : TV1/2",
+     "C.T.R.: 10,000/5A\n P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv",
+     "In : 5A\n Un : 100V"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "C.T. : TA3/3"
-  },
-  {
-   "type": "paragraph",
-   "text": "C.T.R.: 10,000/5A"
-  },
-  {
-   "type": "paragraph",
-   "text": "In : 5A"
-  },
-  {
-   "type": "heading",
-   "level": 1,
-   "text": "F501"
-  },
-  {
-   "type": "heading",
-   "level": 1,
-   "text": "F502"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "F501",
+     "F502"
+    ],
+    [
+     "Setting",
+     "Injected voltage",
+     "Set value",
+     "Reset value",
+     "Reset factor",
+     "Set value",
+     "Reset value",
+     "Reset factor"
+    ],
+    [
+     "R-N",
+     "R-N",
+     "R-N",
+     "R-N"
+    ],
+    [
+     "Pr=0.5%Pn , t=1sec",
+     "57.7 V",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Over voltage (1)"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Type: V2TX1",
+     "Function: F381",
+     ""
+    ],
+    [
+     "P.T. :",
+     "P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv",
+     "Un : 100V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Over voltage (2)"
   },
   {
-   "type": "heading",
-   "level": 4,
-   "text": "Function: F382"
+   "type": "table",
+   "rows": [
+    [
+     "Type: V2TX1",
+     "Function: F382",
+     ""
+    ],
+    [
+     "P.T. :",
+     "P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv",
+     "Un : 100V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Setting",
+     "Over voltage(1)",
+     "Over voltage(2)"
+    ],
+    [
+     "",
+     "Set value",
+     "Reset value",
+     "Reset factor",
+     "Set value",
+     "Reset value",
+     "Reset factor"
+    ],
+    [
+     "",
+     "R-S",
+     "R-S",
+     "R-S",
+     "R-S",
+     "R-S",
+     "R-S"
+    ],
+    [
+     "1st stage",
+     "Ur1=1.2Un,t=2sec",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2nd stage",
+     "Xr1= 30%Zn,3 sec",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Under Frequency (F39) + Under \nvoltage (F375) + Over frequency (F39)"
   },
   {
-   "type": "paragraph",
-   "text": "Type: F11X1"
+   "type": "table",
+   "rows": [
+    [
+     "Type: F11X1 \n +V15",
+     "Function: F39\n +F375",
+     ""
+    ],
+    [
+     "P.T. : TV1/2",
+     "P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv",
+     "Un : 100V"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Function: F39"
-  },
-  {
-   "type": "paragraph",
-   "text": "Injected"
-  },
-  {
-   "type": "paragraph",
-   "text": "Set"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Setting",
+     "Injected\n Voltage",
+     "Set\n value",
+     "Reset\n value",
+     "Reset\n factor"
+    ],
+    [
+     "Under frequency",
+     "F=46HZ",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Under voltage",
+     "Ur=0.5Un",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Over frequency",
+     "F=52HZ",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Stator earth fault 1st harmonic"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Type: GF1TX1",
+     "Function: F421",
+     ""
+    ],
+    [
+     "P.T. : L11",
+     "P.T.R. : 15/3 \n :0.1kv",
+     "Un : 100V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Stator earth fault 3rd harmonic"
   },
   {
-   "type": "paragraph",
-   "text": "Injected"
+   "type": "table",
+   "rows": [
+    [
+     "Type: GF3TX1",
+     "Function: F422",
+     ""
+    ],
+    [
+     "P.T.1 : L11",
+     "P.T.1.R. : 15/3 \n :0.1kv",
+     "Un : 100V"
+    ],
+    [
+     "P.T.2 : TV2/1",
+     "P.T.2.R. : 15/3 \n :0.1/3 : 0.1/3kv",
+     "Un : 100V"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Set"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Setting",
+     "Injected\n Voltage",
+     "Set\n value",
+     "Reset\n value",
+     "Reset\n factor"
+    ],
+    [
+     "Stator 1stharmonic",
+     "Ug=5%Un, t=2sec",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Stator 3rdharmonic",
+     "Not adjustable",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Rotor earth \nfault protection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type :",
+     "Function: F431",
+     "Setting:"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Set value",
+     "Reset value"
+    ],
+    [
+     "First stage",
+     "",
+     ""
+    ],
+    [
+     "Second stage",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -978,62 +1527,171 @@
    "type": "table",
    "rows": [
     [
-     "C.T. : TA2/1",
-     "C.T.R. : 10,000/5A",
+     "Type: D30X1",
+     "Function: F 442",
      ""
     ],
     [
+     "C.T. : TA2/1",
+     "C.T.R. : 10,000/5A",
+     "In \n : 5A"
+    ],
+    [
      "P.T. : TV2/2",
-     "",
+     "P.T.R. : 15/3 \n :0.1/3 : 0.1/3kv",
      "Un : 100V"
     ]
    ],
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Zs= \n -1.6Zn"
+   "type": "table",
+   "rows": [
+    [
+     "Setting",
+     "Injected current",
+     "F45+F442"
+    ],
+    [
+     "Set value",
+     "Reset value"
+    ],
+    [
+     "S-T",
+     "S-T"
+    ],
+    [
+     "Zs= \n -1.6Zn\n r \n =2Zn",
+     "2.3A",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Under voltage of TV1/2"
   },
   {
-   "type": "heading",
-   "level": 1,
-   "text": "Function: F375"
-  },
-  {
-   "type": "paragraph",
-   "text": "Un:100V"
+   "type": "table",
+   "rows": [
+    [
+     "Type : 3*V15",
+     "Function: F375",
+     "Setting: Ur = 0.5Un"
+    ],
+    [
+     "P.T. : TV1/2",
+     "P.T.R.: 15/3 \n :0.1/3 : 0.1/3kv",
+     "Un:100V"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Under voltage of TV2/2"
   },
   {
-   "type": "paragraph",
-   "text": "Set"
+   "type": "table",
+   "rows": [
+    [
+     "Type : V33X1",
+     "Function: F376",
+     "Setting: Ur = 0.65Un"
+    ],
+    [
+     "P.T. : TV2/2",
+     "P.T.R.: 15/3 \n :0.1/3 \n : 0.1/3kv",
+     "Un:100V"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Reset"
-  },
-  {
-   "type": "heading",
-   "level": 1,
-   "text": "Set"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset"
+   "type": "table",
+   "rows": [
+    [
+     "U. Voltage of TV1/2",
+     "U. Voltage of TV2/2",
+     ""
+    ],
+    [
+     "PH-N",
+     "Set \n value",
+     "Reset\n value",
+     "Reset factor",
+     "PH-PH",
+     "Set\n value",
+     "Reset\n value",
+     "Reset factor",
+     ""
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "R-S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "S-T",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "R-T",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "COMMENT:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "LAST TEST DATE :",
+     "TEST DATE :"
+    ],
+    [
+     "TESTED BY :",
+     "SIGNATURE:"
+    ],
+    [
+     "REVIEWED BY:",
+     "SIGNATURE:"
+    ],
+    [
+     "APPROVED BY :",
+     "SIGNATURE:"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document outlines the \ntesting procedure I1, which must be performed every six months as indicated by M6 in the above title block.\nThis patent concerns the test \n of protection relays of the generator manufactured by SKODA \n PLZEN. \n The generator is of type 3 H6688/2VH, rated active power 222MW, rated \n apparent power 277.5MVA, power factor 0.8, and voltages 15.75 \n 5%KV.\nThe first draft initiated by eng. Maysa Sayed \n Ahmed Ahmady, tested at 2 June 2003 by \n eng. Iman Rizk Abdel_Hamed El_Ashry, reviewed by eng. Adel Abd El Kader \n EL Nagar EDEPCo. quality control engineer, accepted by general director eng. \n Mahmoud El Sayed Sakr, and approved by eng. Mohamed Reda Abdel Aziz Soliman, \n Pi - Talkha Sector Head.\nSafety Precautions\nAscertain the disconnection of the \n exciter, generator, main transform and home transformer .\nSet up a work permission including \n maintenance members, safety class, etc.\nPut caution signs at the place of work, make \n a fence ( rope), if possible, around the work area and put no smoking \n signs.\nBe sure that the team members wear the necessary manufacturing safety equipments.\nBe aware of parts in service.\nFollow the work permission instructions.\nTools and Instruments\nAn AC voltage source of type Z11\nAn AC current source of type Z11\nFrequency Converter Set\nVarying - Resistance Box\nAn ammeter & A voltmeter.\nA timer unit TM-2 ( Program )\nSome leads & screws.\nWork to be Carried Out\nPreparation of relays\nReview the manual.\nPrepare the previous results of the relay \n testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are \n disconnected and the d.c. source is available.\nCheck the existence of the d.c. sources in \n panels.\nDisconnect the trip leads of the relay and \n connect the timer to them.\nCheck all the leads used in tests.\nPreparation of testing tools\nConnect the testing units of Z11 to a power \n source.\nConnect the timer to a power source and its \n terminals to the trip terminals of the relay under test.\nPlace an ammeter on current leads of Z11 to \n measure the current.\nConnect the voltmeter in parallel with the \n voltage leads of Z11 ( the other unit ) to measure the voltage.\nThe test of almost all generator protection devices is achieved by isolating \n either CT circuits or PT circuits or both.\nProtection Devices\nManufacturer of all \ndevices: Skoda\nDifferential of \nGenerator SP10, RAX1\nC.T. : TA1/3\n10,000/5 A\nTest steps\nPlace the socket (ZZ10) in XJ1 in panel HS01.\nInject the current to the operating coil ( \n inner points of XJ1 )to terminals ( 11,12,13,14 ) of the socket phase to \n phase (ph-ph) .\nIncrease the injected current of the first \n (ph-ph) till the red flag of device displays indicating the injected couple of \n phases. The timer closes instantaneously.\nRepeat the steps for the other pair of phases.\nRecord the results.\nRepeat the steps for the 2- transformers sides \n :\n XJ2 \n TA2/3 PH -N \n XJ3 TA1/3 PH N\nImpedance S.C. 1st \nstage + 2nd stage, D15X1\nIts a double stage,3 phase impedance protection with a circular \ncharacteristic and distinguishing of the effected phase. The second stage has a \ntime member .\nP.T. TV 2/2 15/ \n3 \n:0.1/3 \n:01/3 KV\nC.T. TA 2/1 \n10,000/5\nTest Steps\nPlace a socket (ZZ10) in Z2 ( TV 2/2 ) .\nPlace a socket (ZZ10) in Z9 ( TA 2/1) .\nFix the timer leads in (172,198) at the rear \n of HH05.\nInject current to the outer points of Z9 \n ph-ph (11, 12) & (11,13) & (12,13) respectively.\nFix the value of the injected current at 4.3A\nIncrease the injected voltage on the outer \n points of Z2 (the same phases of current injection) till the red flag \n vanishes.\nKeep on decreasing the voltage till the red \n flag of the device indicating the injected ph-ph- displays and the timer \n closes almost instantaneously. The tripping voltage (1.st stage) represents \n the S.C. impedance of SP.\n - To test the second stage for the same ( ph-ph ).\nFix the timer leads in (172,200) at the rear \n of HH05.\nRepeat the same steps of the first stage.\nWhen the flag of 2nd stage appears, make the \n timer start its action till it stops recording the trip time.\nRepeat the previous steps for the each pair of \n phases.\nRecord the voltage and time for 1st &2nd stage \n for each phase phase.\nShort circuit , A33TX1\nIts a 3 phase over current \nprotection with a distinguishing of the effected phase with a time member The \ndevice is blocked by the under voltage device (F376)\nC.T. \nTA2/1 10,000A\nTest Steps\nDrive the under voltage device out (F376)\nPlace the socket (ZZ10) in Z9.\nInject current via Z11 in terminals (11,14) \n then (12,14) and finally (13,14) of Z9 phase neutral injection.\nConnect the timer leads to (172,191) at the \n rear of HH04.\nIncrease the current till the red flag of the \n injected phase displays .At this moment make the timer start its action till \n it stops indicating the tripping time in the case of over current only.\nRepeat the steps for each phase.\nRecord the results.\nDrive the under voltage device (F376) in .\nRepeat the same steps .The tripping time in \n this case for each phase is instantaneous. (over current+ under voltage ) .\nRecord the results in the absence and presence \n of F376.\nOver load , A3PX1\nIts a single phase \nprotection with one dependent member and two independent members. One \nindependent measuring member conditions action of the dependent member\nC.T. \nTA2/1 10,000/5A\nTest Steps\nPlace the socket (ZZ10) in Z9 .\nInject current via Z11 on terminals (11,14) of \n Z9 (R-neutral) .\nIncrease current gradually till the flag of ( \n the dependent then the conditional and finally the effectual independent \n member ) displays i.e. the flag of both first and second stage displays .\nRecord the results.\nField loss (1st & 2nd stage) + Asynchronous operation \n, D20X1\nField failure protection with \nautomatics for control of output . It has a circle shifted distance \ncharacteristic to the negative impedance semi Axis.\nP.T. TV 2/2 15/\n3 \n:0.1/3 \n:01/3 KV\nC.T. TA 2/1 \n10,000/5\nTest Steps\nInject the voltage on \n terminals ( 11, 12 )& (12,13) & ( 11,13 ) of Z2 (ph-ph) respectively .\nKeeping a value of 2.3A \n injection, increase the voltage till the red flag of the injected 2 - phases \n disappears (reset value) .\nDecrease the injected \n voltage gradually till the vanished flag reappear. Make the timer start \n acting till it stops. (almost instantaneously) .\nRepeat the steps for the \n other 2 pair of phases.\nPlace a socket (ZZ10) in Z2 and another one in \n Z9\nFix the timer leads in (172,190) at the rear of \n panel HH03.\nInject a current of 2.3A to points (11,14) \n (R-N) of Z9\nInject the voltage on \n terminals ( 11, 12 )& (12,13) & ( 11,13 ) of Z2 (ph-ph) respectively .\nKeeping a value of 2.3A \n injection, increase the voltage till the red flag of the injected 2 - phases \n disappears (reset value) .\nDecrease the injected \n voltage gradually till the vanished flag reappear. Make the timer start \n acting till it stops. (almost instantaneously) .\nRepeat the steps for the \n other 2 pair of phases.\nTo test F441 Asynchronous \noperation\nFollow the previous sequence of steps for \n testing the field loss device except :\nFix the timer leads in (172,192) at the rear of \n panel HH03.\nInject the current 2.3 A to points (11,14) of \n Z9 (R-N).\nInject the voltage on terminals (11,13) only of \n Z2 (R-T) .\nAs soon as the flag of (R-T) displays in F45 ( \n field loss device ) , make the timer start its action till it stops (10 \n seconds ) . All the red flags of F441 display simultaneously, the moment the \n timer closes indicating the first and second stages of F441 .\nRecord the time and voltage.\nUnbalanced load 1st, \n2nd stage , N10X1\nIts a \ndependent protection at phase unbalance . The protection measures magnitude of \nthe negative phase sequence of the stator current I2 and in \ndependence on it, it determinates delay time according to \nReverse current time \ncharacteristic.\nC.T. \nTA 2/1 10,000/5A.\nTest Steps\nPlace the socket (ZZ10) in Z9 (TA2/1) .\nInject the current to the inner pts. of Z9 \n (phase R or T-N) .\nFix the timer leads in terminals (172,188) at \n the rear of panel HH02.\nIncrease the current gradually till the red \n flag of the device (1 st stage) displays.\nRepeat the steps for the other phase. (T or R).\nChange the timer leads to terminals ( 210, 222) \n .\nRepeat the steps of the first stage for the \n second stage.\nTo check the time element, inject a current of \n 5 A, and record the trip time.\nRecord the results of the first and second \n stages of currents.\nReverse Power Protections (1) , Q1WX1\nIts a double - stage protection of the \ngenerator. This protection has one member for measuring of power presupposes \nconstant rated voltage i.e. P \na \nI cos \n.It has two independent time outputs. First of them can be locked e.g. by \nmachine protections.\nP.T. TV \n2/2 15/ \n3 \n:0.1/3 \n:01/3 KV\nC.T. TA \n2/1 10,000/5\nTest Steps\nPut a socket (ZZ10) in Z2 .\nPut a socket (ZZ10) in Z9.\nFix the timer leads in ( 172,189) at the rear \n of panel (HH02) .\nInject the voltage on the inner pts. of Z2 ( R- \n neutral ) (11,14) .\nInject the current on the inner pts. of Z9 ( R- \n neutral ) (11,14) .\nFix the injected voltage at 57.7V then raise \n the injected current till the red flag of the device displays. At this moment \n make the timer start its action till it stops.\nRepeat the steps for each phase.\nRecord the results.\nReverse \nPower Protection (2), Q1WX1\nP.T. TV 1/2 15/ \n3 \n:0.1/3 \n:01/3 KV\nC.T. TA 3/3 10,000/5\nTest Steps\nExactly the same \ntesting steps of Reverse power device (1) except the following:\nPut a socket (ZZ10) in Z3 (T.V 1/2 ) (R-N) \n terminal (11,14) .\nPut a socket (ZZ10) in Z7 (T.A 3/3 ) (R-N) \n terminal (11,12) .\nFix the timer leads in ( 172, 193) at the rear \n of panel (HH 05 )\nOver \nvoltage (1), V2TX1\nIt's a double stage over voltage protection with \ndelay of the first stage\nP.T. TV 1/2 15/ \n3 \n:0.1/3 \n:0.1/3 KV for 1 st unit 210MW\nP.T. TV 3/2 15/ \n3 \n:0.1/3 \n:0.1/3 KV for 2 nd unit 210MW\nTest Steps\nPlace the socket ZZ10 in Z3 ( \n 1 st unit 210MW \n ) .\nPlace the socket ZZ10 in Z1 ( \n 2 nd unit 210MW \n ) .\nFix the timer terminals in (172, 187 ) at the \n rear of panel HH03 .\nInject the voltage to points ( 11 , 12 ) of Z3 \n (R-S) ( 1 st unit 210MW \n ) .\nInject the voltage to points ( 11 , 12 ) of Z1 \n (R-S) ( 2 nd unit 210MW \n ) .\nIncrease the voltage gradually till the red \n flag displays. At this moment let the timer start its action till it stops.\nRecord the voltage and time of the first stage.\nKeep on increasing the voltage till the red \n flag of the 2 nd stage displays. Make the timer start its action till it \n stops. Timer terminals are ( 210 , 220 ) for 2nd stage .\nRecord the results of the 1st and 2nd stage.\nOver voltage (2), V2TX1\nP.T. TV 2/2 \n15/ 3 \n:0.1/3 \n:0.1/3 KV\nTest steps\nThe same test steps of over voltage device (1) \nexcept:\nThe socket is Z2\nThe timer contacts of 1 st stage is (172,190)\nThe timer contacts of 2 nd stage is ( 210 , 224 \n )\nUnder frequency + under \nvoltage + Over frequency, F11X1\nP.T. TV 2/2 \n 15/ \n3 \n:0.1/3 \n:0.1/3 KV\nTest Steps\nPlace the socket ZZ10 in Z2.\nFix the timer terminals in ( 172 , 189 ) at the \n rear of panel HH04 .\nConnect the leads of the Frequency Converter \n set to points (11,12) (R-S) of Z2.\nInject a voltage of 100V on (11,12)\nChange the frequency (raise) gradually till the \n red flag of the over frequency displays. ( set value) .\nDecrease the frequency till the red flag of the \n over frequency vanishes (reset value)\nKeep on decreasing the frequency till the red \n flag of the under frequency displays ( set value )\nRecord the results.\nNote: the device gives almost the same results \n at any voltage lower than 100V.\nStator Earth Fault \nProtection type\nGF1TX1, 1st \nharmonic\nThis protection measures voltage of the generator \nneutral against the earth .\nP.T. L11 15/\n3 \n:0.1 KV\nTest Steps\nPlace the socket ZZ10 in Z4 .\nFix the timer terminals in ( 172,192 ) at the \n rear of panel HH02 .\nInject the voltage on the inner points of Z4 ( \n phase N ) .\nIncrease the voltage till the red flag of \n the device displays . At this moment let the timer start acting till it stops \n (trip time)\nRecord the voltage and time.\nStator Earth Fault Protection \ntype GF3TX1, 3rd \nharmonic,\nP.T. L11 15/\n3 \n:0.1 KV\nP.T. TV 2/1 15/ \n3 \n:0.1/3 \n:0.1/3 KV\nTest Steps\nPlace the socket ZZ10 in Z4 ( L11 , TV2/1 ) .\nConnect the leads of a testing unit ( Z11 ) to \n (11,12) of Z4 {(ph-n ) of L11} .\nConnect the other testing unit (Z11) to (13,14 \n ) of Z4 {(ph-n) of TV2/1 }\nInject a voltage of 5 volt to (11,12) and fix \n it .\nIncrease the voltage on terminals ( 13,14 ) \n gradually till the red flag of the device appears .\nCompare the results of the original (delivery) \n secondary ones and the previous ones as well.\nRotor Earth Fault Protection\ntype F431, SKODA\nIt is an earth fault protection and measuring \nof insulation state of generator stator. Its the protection with DC \nsuperposition.\nIt is of type GRX1 for unit 1\nG1 Rotor Insulating \nCondition Checking\nSupply 220 Vdc \n between 15 ( -) & 16 (+) . Supply an a.c. voltage of 100V to terminals 12,13 .\nA 750 V will be \n measured on C4 then with \" IZOL . G2 \" pressed down.\nConnect \n resistance R = 68 kW ( by a resistance box) to terminal 1{ ground } and 4 . With \" Isolation \n G2\" push button pressed down the 1A, 2A relays will start operating and the \n respective millimeter on the panel must indicate 20 mA in stabilized \n state / within about 3 sec.\nRepeat the test \n with 220 Va.c to terminals 12,14.\nG1 Generator Earth Connection \nTest\nSupply 220 Vdc between 15 (-) & 16(+). Supply an a.c. voltage of 100 V to terminals 12 , 13.\nTerminals 1,5 are disconnected. With \n the press of \" Test G2\" push button, the B, 1B relays, J reed relay, C,D \n relays will close.\nThe alarm relay will fall into the \n red flag and the 1B relay has about 2 sec slow release.\nConnect terminal 1 {ground}&5 \n through resistance about 220 ohm. The D relay closes with voltage lower than \n 50V. Check that contact on terminals 6 - 7 & 8 - 9 closes.\nPress down the Reset push button then \n the white flag displays again + 220 V on terminal 11, the B, 1B,J,C, and D \n relays will start operating. The NG2 magnetic indicator will start operating. \n Circuits of contacts on terminals 6-7 , 8-9 are opened . With + 220V \n connection to terminal 10, the magnetic indicator will release\nTesting of exciting of terminals 12-14\nSupply an a.c. voltage of \n 100V to terminals (12,13) and measure by a voltmeter the existence of 220 V \n on terminals (12,14) .\nRotor Earth Fault \nProtection F431, SKODA for \n2nd unit 210MW\nIt is an earth fault protection and measuring \nof insulation state of generator stator. Its the protection with DC \nsuperposition.\nIt is of type GR100 for unit 2\nTest steps\nCheck the existence of the dc voltage ( 220 VDC \n ) .\nFulfill the self test of the device.\nPlace the leads of the varying-resistance box \n on terminals (3,5) at the rear of panel hh06\nDecrease the value of resistance gradually till \n the red lamp indicating both the first stage (R <) and the relay signal \n switches on.\nKeep on decreasing the resistance till the \n red lamp indicating both the second stage (R<</t) and the relay tripping \n value switches on.\nRecord the value of the resistance for the two \n stages & compare them with the previous ones.\nUnder \nExciting type D30X1\nThe protection operates on basis of impedance \nmeasuring. Its characteristic is offset - mho\nP.T. TV 2/2 15/ \n3 :0.1/3 \n:01/3 KV\nC.T. \nTA 2/1 10,000/5\nTest Steps\nFollow the same sequence of testing for Field \n loss device (F45) regarding the following differences:\nInject the voltage only to terminals ( 12 , 13 \n ) of Z2 ( S -T ) .\nKeep on the injection of 2.3 A to points \n (11,14) of Z9 (R-N)\nBoth the red flag indicating ( S&T ) on F45 and \n the red flags of the Under exciting device display simultaneously .\nThis device gives only a signal.\nUnder Voltage of TV 1/2 \n,\n3*V15\nP.T. TV 1/2 15/ \n3 \n:0.1/3 \n:0.1/3 KV\nTest Steps\nPlace the \n socket ZZ10 in XJ3 in panel ( HS03) .\nInject the voltage first to (11,12) then ( 13,14 ) and finally ( 15,16) \n of XJ3 (ph-N) .\nIncrease the injected voltage till the red flag of the injected phase \n vanishes (Reset value).\nDecrease gradually the injected voltage till the red flag of the phase \n reappears.\nRepeat the steps for each phase.\nRecord the results.\nUnder Voltage of TV2/2 , V33X1\nP.T. TV 2/2 15/ \n3 \n:0.1/3 \n:0.1/3 KV\nTest Steps\nPlace the \n socket ZZ10 in Z2.\nFix the timer \n leads in ( 172, 195) at the rear of panel HH04\nInject the \n voltage on points (11, 12) then (12, 13) and finally (11,13 ) of Z2 phase to \n phase .\nIncrease the \n voltage till the red flag of the injected 2 phases vanishes.\nDecrease the voltage till the red flag of the \n injected 2 phases reappears . Make the timer start acting till it stops. This \n time represents the signal time of the device.\nRepeat the \n steps for the other two pairs of phases.\nRecord the \n results.\nPro Maintenance Procedures\nLoosen the leads of the testing instruments.\nCheck the return of relay- wires and \n trip-leads to their original places and tighten them carefully.\nPress the main RESET button in HH01.\nBe sure that the relay is completely ready for \n service any time.\nAlienate the testing materials and equipments \n in addition to the caution signs and leave the place clean.\nReturn the work permission.\nTest Sheet of Generator SP10 Protection Relays\nPower Station:\n Manufacturer : SKODA\nDifferential of SP10\nSet\nReset\nSet\nReset\nReset\nR-S\nImpedance short circuit\nFunction: F251\nZn: \n 20 W\nC.T.: TA2/1\nC.T.R. : \n 10,000/5A\nIn: 5A\nXr1= 30%Zn,\n 3 sec\nShort circuit\nOver load\nSetting : P:Ita=0.8In\nI : Ip = I n\nReset\nReset\nReset\nR\nField loss ( F 45 ) + Asynchronous \noperation ( F 441 )\nC.T. : TA2/1\nC.T.R. : 10,000/5A\nIn : 5A\nPr1=10%Pn,t1=10s\nPr2=10%Pn,t2=10s\nt3= 10s\nUnbalanced load\nSet value\nReset factor\nTime\nReverse power protection (1)\nFunction: F501\nC.T. : TA2/1\nC.T.R.: 10,000/5A\nIn : 5A\nReverse power protection \n(2)\nFunction: F502\nC.T. : TA3/3\nC.T.R.: 10,000/5A\nIn : 5A\nF501\nF502\nOver voltage (1)\nOver voltage (2)\nFunction: F382\nUnder Frequency (F39) + Under \nvoltage (F375) + Over frequency (F39)\nType: F11X1\nFunction: F39\nInjected\nSet\nReset\nReset\nStator earth fault 1st harmonic\nStator earth fault 3rd harmonic\nInjected\nSet\nReset\nReset\nRotor earth \nfault protection\nUnder exciting\n\nZs= \n -1.6Zn\nUnder voltage of TV1/2\nFunction: F375\nUn:100V\nUnder voltage of TV2/2\nSet\nReset\nSet\nReset\nCOMMENT:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the \ntesting procedure I1, which must be performed every six months as indicated by M6 in the above title block.\nThis patent concerns the test \n of protection relays of the generator manufactured by SKODA \n PLZEN. \n The generator is of type 3 H6688/2VH, rated active power 222MW, rated \n apparent power 277.5MVA, power factor 0.8, and voltages 15.75 \n 5%KV.\nThe first draft initiated by eng. Maysa Sayed \n Ahmed Ahmady, tested at 2 June 2003 by \n eng. Iman Rizk Abdel_Hamed El_Ashry, reviewed by eng. Adel Abd El Kader \n EL Nagar EDEPCo. quality control engineer, accepted by general director eng. \n Mahmoud El Sayed Sakr, and approved by eng. Mohamed Reda Abdel Aziz Soliman, \n Pi - Talkha Sector Head.\nSafety Precautions\nAscertain the disconnection of the \n exciter, generator, main transform and home transformer .\nSet up a work permission including \n maintenance members, safety class, etc.\nPut caution signs at the place of work, make \n a fence ( rope), if possible, around the work area and put no smoking \n signs.\nBe sure that the team members wear the necessary manufacturing safety equipments.\nBe aware of parts in service.\nFollow the work permission instructions.\nTools and Instruments\nAn AC voltage source of type Z11\nAn AC current source of type Z11\nFrequency Converter Set\nVarying - Resistance Box\nAn ammeter & A voltmeter.\nA timer unit TM-2 ( Program )\nSome leads & screws.\nWork to be Carried Out\nPreparation of relays\nReview the manual.\nPrepare the previous results of the relay \n testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are \n disconnected and the d.c. source is available.\nCheck the existence of the d.c. sources in \n panels.\nDisconnect the trip leads of the relay and \n connect the timer to them.\nCheck all the leads used in tests.\nPreparation of testing tools\nConnect the testing units of Z11 to a power \n source.\nConnect the timer to a power source and its \n terminals to the trip terminals of the relay under test.\nPlace an ammeter on current leads of Z11 to \n measure the current.\nConnect the voltmeter in parallel with the \n voltage leads of Z11 ( the other unit ) to measure the voltage.\nThe test of almost all generator protection devices is achieved by isolating \n either CT circuits or PT circuits or both.\nProtection Devices\nManufacturer of all \ndevices: Skoda\nDifferential of 1SP10. | Over voltage (2).\nImpedance ( s . c) 1st stage, 2nd stage | Under frequency + under voltage over frequency.\nShort circuit (s . c) | Stator Earth fault 1st harmonic.\nOverload | Stator Earth fault 3rd harmonic\nField loss 1st , 2nd stage + \n Asynchronous operation | Rotor Earth fault protection.\nUnbalanced load 1st & 2nd stage | Under exciting.\nReverse Power protection (1). | Checking of TV1/2, TV2/2\nReverse Power protection (2) | Under voltage of TV1/2\nOver voltage (1) | Under voltage of TV2/2.\nDifferential of \nGenerator SP10, RAX1\nC.T. : TA1/3\n TA2/3 | 10,000/5 A\n 10,000/5A\nTest steps\nPlace the socket (ZZ10) in XJ1 in panel HS01.\nInject the current to the operating coil ( \n inner points of XJ1 )to terminals ( 11,12,13,14 ) of the socket phase to \n phase (ph-ph) .\nIncrease the injected current of the first \n (ph-ph) till the red flag of device displays indicating the injected couple of \n phases. The timer closes instantaneously.\nRepeat the steps for the other pair of phases.\nRecord the results.\nRepeat the steps for the 2- transformers sides \n :\n XJ2 \n TA2/3 PH -N \n XJ3 TA1/3 PH N\nImpedance S.C. 1st \nstage + 2nd stage, D15X1\nIts a double stage,3 phase impedance protection with a circular \ncharacteristic and distinguishing of the effected phase. The second stage has a \ntime member .\nP.T. TV 2/2 15/ \n3 \n:0.1/3 \n:01/3 KV\nC.T. TA 2/1 \n10,000/5\nTest Steps\nPlace a socket (ZZ10) in Z2 ( TV 2/2 ) .\nPlace a socket (ZZ10) in Z9 ( TA 2/1) .\nFix the timer leads in (172,198) at the rear \n of HH05.\nInject current to the outer points of Z9 \n ph-ph (11, 12) & (11,13) & (12,13) respectively.\nFix the value of the injected current at 4.3A\nIncrease the injected voltage on the outer \n points of Z2 (the same phases of current injection) till the red flag \n vanishes.\nKeep on decreasing the voltage till the red \n flag of the device indicating the injected ph-ph- displays and the timer \n closes almost instantaneously. The tripping voltage (1.st stage) represents \n the S.C. impedance of SP.\n - To test the second stage for the same ( ph-ph ).\nFix the timer leads in (172,200) at the rear \n of HH05.\nRepeat the same steps of the first stage.\nWhen the flag of 2nd stage appears, make the \n timer start its action till it stops recording the trip time.\nRepeat the previous steps for the each pair of \n phases.\nRecord the voltage and time for 1st &2nd stage \n for each phase phase.\nShort circuit , A33TX1\nIts a 3 phase over current \nprotection with a distinguishing of the effected phase with a time member The \ndevice is blocked by the under voltage device (F376)\nC.T. \nTA2/1 10,000A\nTest Steps\nDrive the under voltage device out (F376)\nPlace the socket (ZZ10) in Z9.\nInject current via Z11 in terminals (11,14) \n then (12,14) and finally (13,14) of Z9 phase neutral injection.\nConnect the timer leads to (172,191) at the \n rear of HH04.\nIncrease the current till the red flag of the \n injected phase displays .At this moment make the timer start its action till \n it stops indicating the tripping time in the case of over current only.\nRepeat the steps for each phase.\nRecord the results.\nDrive the under voltage device (F376) in .\nRepeat the same steps .The tripping time in \n this case for each phase is instantaneous. (over current+ under voltage ) .\nRecord the results in the absence and presence \n of F376.\nOver load , A3PX1\nIts a single phase \nprotection with one dependent member and two independent members. One \nindependent measuring member conditions action of the dependent member\nC.T. \nTA2/1 10,000/5A\nTest Steps\nPlace the socket (ZZ10) in Z9 .\nInject current via Z11 on terminals (11,14) of \n Z9 (R-neutral) .\nIncrease current gradually till the flag of ( \n the dependent then the conditional and finally the effectual independent \n member ) displays i.e. the flag of both first and second stage displays .\nRecord the results.\nField loss (1st & 2nd stage) + Asynchronous operation \n, D20X1\nField failure protection with \nautomatics for control of output . It has a circle shifted distance \ncharacteristic to the negative impedance semi Axis.\nP.T. TV 2/2 15/\n3 \n:0.1/3 \n:01/3 KV\nC.T. TA 2/1 \n10,000/5\nTest Steps\nInject the voltage on \n terminals ( 11, 12 )& (12,13) & ( 11,13 ) of Z2 (ph-ph) respectively .\nKeeping a value of 2.3A \n injection, increase the voltage till the red flag of the injected 2 - phases \n disappears (reset value) .\nDecrease the injected \n voltage gradually till the vanished flag reappear. Make the timer start \n acting till it stops. (almost instantaneously) .\nRepeat the steps for the \n other 2 pair of phases.\nPlace a socket (ZZ10) in Z2 and another one in \n Z9\nFix the timer leads in (172,190) at the rear of \n panel HH03.\nInject a current of 2.3A to points (11,14) \n (R-N) of Z9\nInject the voltage on \n terminals ( 11, 12 )& (12,13) & ( 11,13 ) of Z2 (ph-ph) respectively .\nKeeping a value of 2.3A \n injection, increase the voltage till the red flag of the injected 2 - phases \n disappears (reset value) .\nDecrease the injected \n voltage gradually till the vanished flag reappear. Make the timer start \n acting till it stops. (almost instantaneously) .\nRepeat the steps for the \n other 2 pair of phases.\nTo test F441 Asynchronous \noperation\nFollow the previous sequence of steps for \n testing the field loss device except :\nFix the timer leads in (172,192) at the rear of \n panel HH03.\nInject the current 2.3 A to points (11,14) of \n Z9 (R-N).\nInject the voltage on terminals (11,13) only of \n Z2 (R-T) .\nAs soon as the flag of (R-T) displays in F45 ( \n field loss device ) , make the timer start its action till it stops (10 \n seconds ) . All the red flags of F441 display simultaneously, the moment the \n timer closes indicating the first and second stages of F441 .\nRecord the time and voltage.\nUnbalanced load 1st, \n2nd stage , N10X1\nIts a \ndependent protection at phase unbalance . The protection measures magnitude of \nthe negative phase sequence of the stator current I2 and in \ndependence on it, it determinates delay time according to \nReverse current time \ncharacteristic.\nC.T. \nTA 2/1 10,000/5A.\nTest Steps\nPlace the socket (ZZ10) in Z9 (TA2/1) .\nInject the current to the inner pts. of Z9 \n (phase R or T-N) .\nFix the timer leads in terminals (172,188) at \n the rear of panel HH02.\nIncrease the current gradually till the red \n flag of the device (1 st stage) displays.\nRepeat the steps for the other phase. (T or R).\nChange the timer leads to terminals ( 210, 222) \n .\nRepeat the steps of the first stage for the \n second stage.\nTo check the time element, inject a current of \n 5 A, and record the trip time.\nRecord the results of the first and second \n stages of currents.\nReverse Power Protections (1) , Q1WX1\nIts a double - stage protection of the \ngenerator. This protection has one member for measuring of power presupposes \nconstant rated voltage i.e. P \na \nI cos \n.It has two independent time outputs. First of them can be locked e.g. by \nmachine protections.\nP.T. TV \n2/2 15/ \n3 \n:0.1/3 \n:01/3 KV\nC.T. TA \n2/1 10,000/5\nTest Steps\nPut a socket (ZZ10) in Z2 .\nPut a socket (ZZ10) in Z9.\nFix the timer leads in ( 172,189) at the rear \n of panel (HH02) .\nInject the voltage on the inner pts. of Z2 ( R- \n neutral ) (11,14) .\nInject the current on the inner pts. of Z9 ( R- \n neutral ) (11,14) .\nFix the injected voltage at 57.7V then raise \n the injected current till the red flag of the device displays. At this moment \n make the timer start its action till it stops.\nRepeat the steps for each phase.\nRecord the results.\nReverse \nPower Protection (2), Q1WX1\nP.T. TV 1/2 15/ \n3 \n:0.1/3 \n:01/3 KV\nC.T. TA 3/3 10,000/5\nTest Steps\nExactly the same \ntesting steps of Reverse power device (1) except the following:\nPut a socket (ZZ10) in Z3 (T.V 1/2 ) (R-N) \n terminal (11,14) .\nPut a socket (ZZ10) in Z7 (T.A 3/3 ) (R-N) \n terminal (11,12) .\nFix the timer leads in ( 172, 193) at the rear \n of panel (HH 05 )\nOver \nvoltage (1), V2TX1\nIt's a double stage over voltage protection with \ndelay of the first stage\nP.T. TV 1/2 15/ \n3 \n:0.1/3 \n:0.1/3 KV for 1 st unit 210MW\nP.T. TV 3/2 15/ \n3 \n:0.1/3 \n:0.1/3 KV for 2 nd unit 210MW\nTest Steps\nPlace the socket ZZ10 in Z3 ( \n 1 st unit 210MW \n ) .\nPlace the socket ZZ10 in Z1 ( \n 2 nd unit 210MW \n ) .\nFix the timer terminals in (172, 187 ) at the \n rear of panel HH03 .\nInject the voltage to points ( 11 , 12 ) of Z3 \n (R-S) ( 1 st unit 210MW \n ) .\nInject the voltage to points ( 11 , 12 ) of Z1 \n (R-S) ( 2 nd unit 210MW \n ) .\nIncrease the voltage gradually till the red \n flag displays. At this moment let the timer start its action till it stops.\nRecord the voltage and time of the first stage.\nKeep on increasing the voltage till the red \n flag of the 2 nd stage displays. Make the timer start its action till it \n stops. Timer terminals are ( 210 , 220 ) for 2nd stage .\nRecord the results of the 1st and 2nd stage.\nOver voltage (2), V2TX1\nP.T. TV 2/2 \n15/ 3 \n:0.1/3 \n:0.1/3 KV\nTest steps\nThe same test steps of over voltage device (1) \nexcept:\nThe socket is Z2\nThe timer contacts of 1 st stage is (172,190)\nThe timer contacts of 2 nd stage is ( 210 , 224 \n )\nUnder frequency + under \nvoltage + Over frequency, F11X1\nP.T. TV 2/2 \n 15/ \n3 \n:0.1/3 \n:0.1/3 KV\nTest Steps\nPlace the socket ZZ10 in Z2.\nFix the timer terminals in ( 172 , 189 ) at the \n rear of panel HH04 .\nConnect the leads of the Frequency Converter \n set to points (11,12) (R-S) of Z2.\nInject a voltage of 100V on (11,12)\nChange the frequency (raise) gradually till the \n red flag of the over frequency displays. ( set value) .\nDecrease the frequency till the red flag of the \n over frequency vanishes (reset value)\nKeep on decreasing the frequency till the red \n flag of the under frequency displays ( set value )\nRecord the results.\nNote: the device gives almost the same results \n at any voltage lower than 100V.\nStator Earth Fault \nProtection type\nGF1TX1, 1st \nharmonic\nThis protection measures voltage of the generator \nneutral against the earth .\nP.T. L11 15/\n3 \n:0.1 KV\nTest Steps\nPlace the socket ZZ10 in Z4 .\nFix the timer terminals in ( 172,192 ) at the \n rear of panel HH02 .\nInject the voltage on the inner points of Z4 ( \n phase N ) .\nIncrease the voltage till the red flag of \n the device displays . At this moment let the timer start acting till it stops \n (trip time)\nRecord the voltage and time.\nStator Earth Fault Protection \ntype GF3TX1, 3rd \nharmonic,\nP.T. L11 15/\n3 \n:0.1 KV\nP.T. TV 2/1 15/ \n3 \n:0.1/3 \n:0.1/3 KV\nTest Steps\nPlace the socket ZZ10 in Z4 ( L11 , TV2/1 ) .\nConnect the leads of a testing unit ( Z11 ) to \n (11,12) of Z4 {(ph-n ) of L11} .\nConnect the other testing unit (Z11) to (13,14 \n ) of Z4 {(ph-n) of TV2/1 }\nInject a voltage of 5 volt to (11,12) and fix \n it .\nIncrease the voltage on terminals ( 13,14 ) \n gradually till the red flag of the device appears .\nCompare the results of the original (delivery) \n secondary ones and the previous ones as well.\nRotor Earth Fault Protection\ntype F431, SKODA\nIt is an earth fault protection and measuring \nof insulation state of generator stator. Its the protection with DC \nsuperposition.\nIt is of type GRX1 for unit 1\nG1 Rotor Insulating \nCondition Checking\nSupply 220 Vdc \n between 15 ( -) & 16 (+) . Supply an a.c. voltage of 100V to terminals 12,13 .\nA 750 V will be \n measured on C4 then with \" IZOL . G2 \" pressed down.\nConnect \n resistance R = 68 kW ( by a resistance box) to terminal 1{ ground } and 4 . With \" Isolation \n G2\" push button pressed down the 1A, 2A relays will start operating and the \n respective millimeter on the panel must indicate 20 mA in stabilized \n state / within about 3 sec.\nRepeat the test \n with 220 Va.c to terminals 12,14.\nG1 Generator Earth Connection \nTest\nSupply 220 Vdc between 15 (-) & 16(+). Supply an a.c. voltage of 100 V to terminals 12 , 13.\nTerminals 1,5 are disconnected. With \n the press of \" Test G2\" push button, the B, 1B relays, J reed relay, C,D \n relays will close.\nThe alarm relay will fall into the \n red flag and the 1B relay has about 2 sec slow release.\nConnect terminal 1 {ground}&5 \n through resistance about 220 ohm. The D relay closes with voltage lower than \n 50V. Check that contact on terminals 6 - 7 & 8 - 9 closes.\nPress down the Reset push button then \n the white flag displays again + 220 V on terminal 11, the B, 1B,J,C, and D \n relays will start operating. The NG2 magnetic indicator will start operating. \n Circuits of contacts on terminals 6-7 , 8-9 are opened . With + 220V \n connection to terminal 10, the magnetic indicator will release\nTesting of exciting of terminals 12-14\nSupply an a.c. voltage of \n 100V to terminals (12,13) and measure by a voltmeter the existence of 220 V \n on terminals (12,14) .\nRotor Earth Fault \nProtection F431, SKODA for \n2nd unit 210MW\nIt is an earth fault protection and measuring \nof insulation state of generator stator. Its the protection with DC \nsuperposition.\nIt is of type GR100 for unit 2\nTest steps\nCheck the existence of the dc voltage ( 220 VDC \n ) .\nFulfill the self test of the device.\nPlace the leads of the varying-resistance box \n on terminals (3,5) at the rear of panel hh06\nDecrease the value of resistance gradually till \n the red lamp indicating both the first stage (R <) and the relay signal \n switches on.\nKeep on decreasing the resistance till the \n red lamp indicating both the second stage (R<</t) and the relay tripping \n value switches on.\nRecord the value of the resistance for the two \n stages & compare them with the previous ones.\nUnder \nExciting type D30X1\nThe protection operates on basis of impedance \nmeasuring. Its characteristic is offset - mho\nP.T. TV 2/2 15/ \n3 :0.1/3 \n:01/3 KV\nC.T. \nTA 2/1 10,000/5\nTest Steps\nFollow the same sequence of testing for Field \n loss device (F45) regarding the following differences:\nInject the voltage only to terminals ( 12 , 13 \n ) of Z2 ( S -T ) .\nKeep on the injection of 2.3 A to points \n (11,14) of Z9 (R-N)\nBoth the red flag indicating ( S&T ) on F45 and \n the red flags of the Under exciting device display simultaneously .\nThis device gives only a signal.\nUnder Voltage of TV 1/2 \n,\n3*V15\nP.T. TV 1/2 15/ \n3 \n:0.1/3 \n:0.1/3 KV\nTest Steps\nPlace the \n socket ZZ10 in XJ3 in panel ( HS03) .\nInject the voltage first to (11,12) then ( 13,14 ) and finally ( 15,16) \n of XJ3 (ph-N) .\nIncrease the injected voltage till the red flag of the injected phase \n vanishes (Reset value).\nDecrease gradually the injected voltage till the red flag of the phase \n reappears.\nRepeat the steps for each phase.\nRecord the results.\nUnder Voltage of TV2/2 , V33X1\nP.T. TV 2/2 15/ \n3 \n:0.1/3 \n:0.1/3 KV\nTest Steps\nPlace the \n socket ZZ10 in Z2.\nFix the timer \n leads in ( 172, 195) at the rear of panel HH04\nInject the \n voltage on points (11, 12) then (12, 13) and finally (11,13 ) of Z2 phase to \n phase .\nIncrease the \n voltage till the red flag of the injected 2 phases vanishes.\nDecrease the voltage till the red flag of the \n injected 2 phases reappears . Make the timer start acting till it stops. This \n time represents the signal time of the device.\nRepeat the \n steps for the other two pairs of phases.\nRecord the \n results.\nPro Maintenance Procedures\nLoosen the leads of the testing instruments.\nCheck the return of relay- wires and \n trip-leads to their original places and tighten them carefully.\nPress the main RESET button in HH01.\nBe sure that the relay is completely ready for \n service any time.\nAlienate the testing materials and equipments \n in addition to the caution signs and leave the place clean.\nReturn the work permission.\nTest Sheet of Generator SP10 Protection Relays\nPower Station:\n Manufacturer : SKODA | Unit :\nDifferential of SP10\nType : RAX1 | Function: F301 | Setting : 0.2 \n In\nC.T.1 : TA1/3 | C.T.1.R. : 10,000/5A | In : 5A\nC.T.2 : TA2/3 | C.T.2.R. : 10,000/5A | \n | TA1/3 | TA2/3 | OPERATING COIL\n | Set\n value | Reset\n value | Reset factor | Set\n value | Reset\n value | Reset factor | Set value | Reset\n value | Reset factor\nR-S |  |  |  |  |  |  |  |  | \nS-T |  |  |  |  |  |  |  |  | \nR-T |  |  |  |  |  |  |  |  | \nImpedance short circuit\nType: D15X1 | Function: F251 | Zn: \n 20 W\nC.T.: TA2/1\n P.T.: TV2/2 | C.T.R. : \n 10,000/5A\n P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv | In: 5A\n Un :100V\n | Setting | Set value | Reset value | Reset factor\n | R-S | S-T | R-T | R-S | S-T | R-T | R-S | S-T | R-T\n1st stage | Xr1=11%Zn |  |  |  |  |  |  |  |  | \n2nd stage | Xr1= 30%Zn,\n 3 sec |  |  |  |  |  |  |  |  | \nShort circuit\nType : A33TX1 | Function: \n F111 | Setting: 1.8In,3 sec\nC.T.1: TA2/1 | C.T.R.: \n 10,000/5A | In: 5A\nOver load\nType : \n A3PX1 | Function: F131 | In : 5A\nC.T.1 : \n TA2/1 | C.T.R.: 10,000/5A | Setting : P:Ita=0.8In \n I : Ip = I n\n II : Ir = 1.4 I n\n | Short circuit ( S.C. ) only | S.C. +Under voltage | Over Load\n | Set value | Reset\n value | Reset factor | Set value | Reset\n value | Reset factor | Set value | Reset\n value | Reset factor\nR |  |  |  |  |  |  |  |  | \nS |  |  |  |  |  |  |  |  | \nT |  |  |  |  |  |  |  |  | \nField loss ( F 45 ) + Asynchronous \noperation ( F 441 )\nType: D20X1 | Function: F45 + F 441 | \nC.T. : TA2/1\n P.T. : TV2/2 | C.T.R. : 10,000/5A\n P.T.R. : 15/3 \n :0.1/3 : 0.1/3kv | In : 5A\n Un : 100V\n | Setting | Injected current | F45 | F45 + F441\n | Set value | Reset value | Set value | Reset value\n | R-S | S-T | R-T | R-S | S-T | R-T | R-T | R-T\nF \n 45 1ststage | 1st V=0.5Z | 2.3A |  |  |  |  |  |  |  | \nF 45 2nd stage | 2nd Ur=0.8V |  |  |  |  |  |  |  | \nAsynchronous operation | Pr1=10%Pn,t1=10s\n Pr2=10%Pn,t2=10s\n t3= 10s |  |  |  |  |  |  |  | \nUnbalanced load\nType : N10X1 | Function: F46 | In: 5A\nC.T.1 : TA2/1 | C.T.R.: 10,000/5A | \n | Setting | Set value | Reset value | Reset factor | Time\n | R | T | R | T | R | T\n1st stage | I2p=8%In,T=5X |  |  |  |  |  |  |  | \n2nd stage | I2ta =8%In |  |  |  |  |  |  |  | \nInjected current |  |  |  |  |  |  |  |  | \nReverse power protection (1)\nType: Q1WX1 | Function: F501 | \nC.T. : TA2/1\n P.T. : TV2/2 | C.T.R.: 10,000/5A\n P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv | In : 5A\n Un : 100V\nReverse power protection \n(2)\nType: Q1WX1 | Function: F502 | \nC.T. : TA3/3\n P.T. : TV1/2 | C.T.R.: 10,000/5A\n P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv | In : 5A\n Un : 100V\n | F501 | F502\nSetting | Injected voltage | Set value | Reset value | Reset factor | Set value | Reset value | Reset factor\nR-N | R-N | R-N | R-N\nPr=0.5%Pn , t=1sec | 57.7 V |  |  |  |  |  | \nOver voltage (1)\nType: V2TX1 | Function: F381 | \nP.T. : | P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv | Un : 100V\nOver voltage (2)\nType: V2TX1 | Function: F382 | \nP.T. : | P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv | Un : 100V\n | Setting | Over voltage(1) | Over voltage(2)\n | Set value | Reset value | Reset factor | Set value | Reset value | Reset factor\n | R-S | R-S | R-S | R-S | R-S | R-S\n1st stage | Ur1=1.2Un,t=2sec |  |  |  |  |  | \n2nd stage | Xr1= 30%Zn,3 sec |  |  |  |  |  | \nUnder Frequency (F39) + Under \nvoltage (F375) + Over frequency (F39)\nType: F11X1 \n +V15 | Function: F39\n +F375 | \nP.T. : TV1/2 | P.T.R. : 15/3 \n :0.1/3 \n : 0.1/3kv | Un : 100V\n | Setting | Injected\n Voltage | Set\n value | Reset\n value | Reset\n factor\nUnder frequency | F=46HZ |  |  |  | \nUnder voltage | Ur=0.5Un |  |  | \nOver frequency | F=52HZ |  |  | \nStator earth fault 1st harmonic\nType: GF1TX1 | Function: F421 | \nP.T. : L11 | P.T.R. : 15/3 \n :0.1kv | Un : 100V\nStator earth fault 3rd harmonic\nType: GF3TX1 | Function: F422 | \nP.T.1 : L11 | P.T.1.R. : 15/3 \n :0.1kv | Un : 100V\nP.T.2 : TV2/1 | P.T.2.R. : 15/3 \n :0.1/3 : 0.1/3kv | Un : 100V\n | Setting | Injected\n Voltage | Set\n value | Reset\n value | Reset\n factor\nStator 1stharmonic | Ug=5%Un, t=2sec |  |  |  | \nStator 3rdharmonic | Not adjustable |  |  |  | \nRotor earth \nfault protection\nType : | Function: F431 | Setting:\n | Set value | Reset value\nFirst stage |  | \nSecond stage |  | \nUnder exciting\nType: D30X1 | Function: F 442 | \nC.T. : TA2/1 | C.T.R. : 10,000/5A | In \n : 5A\nP.T. : TV2/2 | P.T.R. : 15/3 \n :0.1/3 : 0.1/3kv | Un : 100V\nSetting | Injected current | F45+F442\nSet value | Reset value\nS-T | S-T\nZs= \n -1.6Zn\n r \n =2Zn | 2.3A |  | \nUnder voltage of TV1/2\nType : 3*V15 | Function: F375 | Setting: Ur = 0.5Un\nP.T. : TV1/2 | P.T.R.: 15/3 \n :0.1/3 : 0.1/3kv | Un:100V\nUnder voltage of TV2/2\nType : V33X1 | Function: F376 | Setting: Ur = 0.65Un\nP.T. : TV2/2 | P.T.R.: 15/3 \n :0.1/3 \n : 0.1/3kv | Un:100V\nU. Voltage of TV1/2 | U. Voltage of TV2/2 | \nPH-N | Set \n value | Reset\n value | Reset factor | PH-PH | Set\n value | Reset\n value | Reset factor | \nR |  |  |  | R-S |  |  |  | \nS |  |  |  | S-T |  |  |  | \nT |  |  |  | R-T |  |  |  | \nCOMMENT:\nLAST TEST DATE : | TEST DATE :\nTESTED BY : | SIGNATURE:\nREVIEWED BY: | SIGNATURE:\nAPPROVED BY : | SIGNATURE:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -224,6 +226,10 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Feeder:",
+     ""
+    ],
     [
      "Relay \n number:",
      ""
@@ -639,16 +645,60 @@
    "type": "table",
    "rows": [
     [
+     "Feeder:",
+     ""
+    ],
+    [
+     "Relay \n number",
+     ""
+    ],
+    [
+     "Kind of check",
+     "Remarks"
+    ],
+    [
+     "Visual check",
+     "----------------------------------"
+    ],
+    [
      "Check of \n relay grounding",
      ""
     ],
     [
+     "Visual \n check of external wiring",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n supply voltage (DC/AC)",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n CT. circuits \n RATIO 800/1A",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n PT. circuits \n RATIO 220000/100V",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n input signals",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n alarm signals",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n starting breaker failure protection",
+     "---------------------------------"
+    ],
+    [
      "Tripping",
-     ""
+     "---------------------------------"
     ],
     [
      "Settings",
-     ""
+     "----------------------------------"
     ]
    ],
    "truncated_rows": 0
@@ -678,7 +728,7 @@
    "text": "Approved by: \nSignature: \nDate:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThe REL 511 is \na universal line protection, control monitoring terminal that can be applied to \nthe distribution and sub-transmission overhead lin and cables in solidly \nearthed, as well as in high impedance earthed and isolated networks. The basic \nprotection function in REL 511 is a distance protection with individual \nmeasuring elements for the different types of faults that belong to the \nvarious impedance zones. The terminal includes five impedance measuring zones \nwith programmable directionality.\nThe \nindependent measuring elements provide general fault criterion\nThis procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe\n first draft initiated by eng. Samah Mokhtar Mostafa,\n tested at 15 Oct 2002 by eng. Yousef Melad Shahat at El Eslah Portable station, accepted by General director eng. \n Abdel Menem Rabie Motalaqeh,\n and approved by eng. Fawzy Mourse Mohamed:\n Head Sector of Aswan Network.\nSafety Precautions\nA work permit\nmust be issued\nThe qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nA work permit\nmust be issued\nThe qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nTools and Equipment\nVoltmeter, Ammeter, \nand Test leads\nXS92a test \n set\nVoltmeter, Ammeter, \nand Test leads\nWork to be Carried Out\nSteps to Prepare for \nRelay Testing\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the VT \nminiature circuit breakers ( mcbS) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the VT \nminiature circuit breakers ( mcbS) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nTesting the \nrelay\nCarefully follow this test procedure\nVerify the test results match the relay setting\nTrip the circuit breaker associated with the relay\nPreparation\nThis procedure should be used for performing off load line\nLook the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test\nReading the \nsetting from \nthe relay \nusing \nthe PC\nBy using the six keys on the MMI (Man Machine Interface) of the relay read the \n setting\nDistance protection test\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points X16 (17) and X16 (18) on the rear of the relay\nConnect the current test leads on the current terminals of the relay \n X11(1,2,3,8) and the voltage test leads on the voltage terminals of the relay \n X12 (1,6,8,10)\nConnect AC power to the test set\nInject current, voltage and phase angle by selecting the value of impedance \n (X)\nTo test zone (1) phase R to Neutral:\n a) Take the value of (X) greater than the maximum value of working for zone 2 \n and decrease it slowly until the \n relay operates and the Red LED (right) on the MMI be steady light\n b) Display the last disturbance on the LCD of the MMI and check the displayed \n disturbance with the actual \n fault disturbance\nRepeat step 5 to test zone (1) phase S to Neutral\nRepeat step 5 to test zone (1) phase T to Neutral\nRepeat step 5 to test zone (1) phase R to S\nRepeat step 5 to test zone (1) phase S to T\nRepeat step 5 to test zone (1) phase T to R\nRepeat step 5 to test zone (1) phase R to S To T\nTo test zone (2) phase R to Neutral :\n a) Take the value of (X) greater than the maximum value of working for zone \n 2 \n and decrease it slowly until the \n relay operates and the Red LED (right) on the MMI be steady light\n b) Display the last disturbance on the LCD of the MMI and check the displayed \n disturbance with the actual \n fault disturbance\nRepeat step 5 to test zone (2) phase S to Neutral\nRepeat step 5 to test zone (2) phase T to Neutral\nRepeat step 5 to test zone (2) phase R to S\nRepeat step 5 to test zone (2) phase S to T\nRepeat step 5 to test zone (2) phase T to R\nRepeat step 5 to test zone (2) phase R to S to T\nTo test zone (3) phase R to Neutral:\n a) Take the value of (X) greater than the maximum value of working for zone 2 \n and decrease it slowly until the relay operates and the \n Red LED (right) on the MMI be steady light\n b) Display the last disturbance on the LCD of the MMI and check the displayed \n disturbance with the \n actual fault disturbance\nRepeat step 5 to zone (3) phase S to Neutral\nRepeat step 5 to zone (3) phase T to Neutral\nRepeat step 5 to zone (3) phase R to S\nRepeat step 5 to zone (3) phase S to T\nRepeat step 5 to zone (3) phase T to R\nRepeat step 5 to zone (3) phase R to S to T\nReturn relay and \nassociated equipment to \nservice\nReturn relay to service by removing the test leads from the relay terminals \n and the test set\nMake sure CT and VT secondary circuits are in normal condition\nRemove the disturbance alarm LED's on the relay which is caused by the test\nRequest feeder to be returned in service\nTake phasor readings of all AC currents and voltages and compare them to \n those for normal load condition\nCheck that these reading agree with station meters (MW, \n Mvar, Amperes and power \n factor)\nPlace a copy of the test result in \n the field maintenance file\nTest Sheet\nFor Line protection Relay type REL 511\n\n\n\n\n\nTest Sheet\nFor Line protection Relay type REL 511\n\n1) Communication Port to SCS OR/AND SMS when \nincluded.\n2) Optical output from local MMI connection made \nwith a special interface cable.\n3) Reserved for parallel line:\n or CT supervision \n or 4 step earth fault overcurrent\n4) Reserved for ref. voltage, 5) Reserved for directional earth-fault function\nTested by: \nTest Date: \nSignature:\nApproved by: \nSignature: \nDate:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe REL 511 is \na universal line protection, control monitoring terminal that can be applied to \nthe distribution and sub-transmission overhead lin and cables in solidly \nearthed, as well as in high impedance earthed and isolated networks. The basic \nprotection function in REL 511 is a distance protection with individual \nmeasuring elements for the different types of faults that belong to the \nvarious impedance zones. The terminal includes five impedance measuring zones \nwith programmable directionality.\nThe \nindependent measuring elements provide general fault criterion\nThis procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe\n first draft initiated by eng. Samah Mokhtar Mostafa,\n tested at 15 Oct 2002 by eng. Yousef Melad Shahat at El Eslah Portable station, accepted by General director eng. \n Abdel Menem Rabie Motalaqeh,\n and approved by eng. Fawzy Mourse Mohamed:\n Head Sector of Aswan Network.\nSafety Precautions\nA work permit\nmust be issued\nThe qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nA work permit\nmust be issued\nThe qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nTools and Equipment\nVoltmeter, Ammeter, \nand Test leads\nXS92a test \n set\nVoltmeter, Ammeter, \nand Test leads\nWork to be Carried Out\nSteps to Prepare for \nRelay Testing\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the VT \nminiature circuit breakers ( mcbS) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the VT \nminiature circuit breakers ( mcbS) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nTesting the \nrelay\nCarefully follow this test procedure\nVerify the test results match the relay setting\nTrip the circuit breaker associated with the relay\nPreparation\nThis procedure should be used for performing off load line\nLook the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test\nReading the \nsetting from \nthe relay \nusing \nthe PC\nBy using the six keys on the MMI (Man Machine Interface) of the relay read the \n setting\nDistance protection test\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points X16 (17) and X16 (18) on the rear of the relay\nConnect the current test leads on the current terminals of the relay \n X11(1,2,3,8) and the voltage test leads on the voltage terminals of the relay \n X12 (1,6,8,10)\nConnect AC power to the test set\nInject current, voltage and phase angle by selecting the value of impedance \n (X)\nTo test zone (1) phase R to Neutral:\n a) Take the value of (X) greater than the maximum value of working for zone 2 \n and decrease it slowly until the \n relay operates and the Red LED (right) on the MMI be steady light\n b) Display the last disturbance on the LCD of the MMI and check the displayed \n disturbance with the actual \n fault disturbance\nRepeat step 5 to test zone (1) phase S to Neutral\nRepeat step 5 to test zone (1) phase T to Neutral\nRepeat step 5 to test zone (1) phase R to S\nRepeat step 5 to test zone (1) phase S to T\nRepeat step 5 to test zone (1) phase T to R\nRepeat step 5 to test zone (1) phase R to S To T\nTo test zone (2) phase R to Neutral :\n a) Take the value of (X) greater than the maximum value of working for zone \n 2 \n and decrease it slowly until the \n relay operates and the Red LED (right) on the MMI be steady light\n b) Display the last disturbance on the LCD of the MMI and check the displayed \n disturbance with the actual \n fault disturbance\nRepeat step 5 to test zone (2) phase S to Neutral\nRepeat step 5 to test zone (2) phase T to Neutral\nRepeat step 5 to test zone (2) phase R to S\nRepeat step 5 to test zone (2) phase S to T\nRepeat step 5 to test zone (2) phase T to R\nRepeat step 5 to test zone (2) phase R to S to T\nTo test zone (3) phase R to Neutral:\n a) Take the value of (X) greater than the maximum value of working for zone 2 \n and decrease it slowly until the relay operates and the \n Red LED (right) on the MMI be steady light\n b) Display the last disturbance on the LCD of the MMI and check the displayed \n disturbance with the \n actual fault disturbance\nRepeat step 5 to zone (3) phase S to Neutral\nRepeat step 5 to zone (3) phase T to Neutral\nRepeat step 5 to zone (3) phase R to S\nRepeat step 5 to zone (3) phase S to T\nRepeat step 5 to zone (3) phase T to R\nRepeat step 5 to zone (3) phase R to S to T\nReturn relay and \nassociated equipment to \nservice\nReturn relay to service by removing the test leads from the relay terminals \n and the test set\nMake sure CT and VT secondary circuits are in normal condition\nRemove the disturbance alarm LED's on the relay which is caused by the test\nRequest feeder to be returned in service\nTake phasor readings of all AC currents and voltages and compare them to \n those for normal load condition\nCheck that these reading agree with station meters (MW, \n Mvar, Amperes and power \n factor)\nPlace a copy of the test result in \n the field maintenance file\nTest Sheet\nFor Line protection Relay type REL 511\nFeeder: | \nRelay \n number: | \nRelay Type: | \nZone 1 | \nL1-L2 |  | L2-L3 |  | L3-L1 |  | L1-N |  | L2-N |  | L1-N | \nAngle | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms)\n90 |  |  |  |  |  |  |  |  |  |  |  | \n70 |  |  |  |  |  |  |  |  |  |  |  | \n30 |  |  |  |  |  |  |  |  |  |  |  | \n0 |  |  |  |  |  |  |  |  |  |  |  | \nZone 2 | \nL1-L2 |  | L2-L3 |  | L3-L1 |  | L1-N |  | L2-N |  | L1-N | \nAngle | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms)\n90 |  |  |  |  |  |  |  |  |  |  |  | \n70 |  |  |  |  |  |  |  |  |  |  |  | \n30 |  |  |  |  |  |  |  |  |  |  |  | \n0 |  |  |  |  |  |  |  |  |  |  |  | \nZone 3 | \nL1-L2 |  | L2-L3 |  | L3-L1 |  | L1-N |  | L2-N |  | L1-N | \nAngle | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms)\n90 |  |  |  |  |  |  |  |  |  |  |  | \n70 |  |  |  |  |  |  |  |  |  |  |  | \n30 |  |  |  |  |  |  |  |  |  |  |  | \n0 |  |  |  |  |  |  |  |  |  |  |  | \nZone 4R | \nL1-L2 |  | L2-L3 |  | L3-L1 |  | L1-N |  | L2-N |  | L1-N | \nAngle | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms) | Z | T(ms)\n90 |  |  |  |  |  |  |  |  |  |  |  | \n70 |  |  |  |  |  |  |  |  |  |  |  | \n30 |  |  |  |  |  |  |  |  |  |  |  | \n0 |  |  |  |  |  |  |  |  |  |  |  | \nTest Sheet\nFor Line protection Relay type REL 511\nFeeder: | \nRelay \n number | \nKind of check | Remarks\nVisual check | ----------------------------------\nCheck of \n relay grounding | \nVisual \n check of external wiring | ---------------------------------\nCheck of \n supply voltage (DC/AC) | ----------------------------------\nCheck of \n CT. circuits \n RATIO 800/1A | ---------------------------------\nCheck of \n PT. circuits \n RATIO 220000/100V | ----------------------------------\nCheck of \n input signals | ---------------------------------\nCheck of \n alarm signals | ---------------------------------\nCheck of \n starting breaker failure protection | ---------------------------------\nTripping | ---------------------------------\nSettings | ----------------------------------\n1) Communication Port to SCS OR/AND SMS when \nincluded.\n2) Optical output from local MMI connection made \nwith a special interface cable.\n3) Reserved for parallel line:\n or CT supervision \n or 4 step earth fault overcurrent\n4) Reserved for ref. voltage, 5) Reserved for directional earth-fault function\nTested by: \nTest Date: \nSignature:\nApproved by: \nSignature: \nDate:",
  "text_truncated": false,
  "links": [],
  "images": [

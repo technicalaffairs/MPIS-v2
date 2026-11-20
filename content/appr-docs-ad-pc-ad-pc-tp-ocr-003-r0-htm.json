@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -206,11 +208,47 @@
    "text": "Testing of instantaneous O/C Relay, \ntype: KZ-1 C.T R = 750/1 \nManufacturer: Russia"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay",
+     "Setting",
+     "I op A",
+     "I reset A",
+     "Kr =I r / I op",
+     "Remarks"
+    ],
+    [
+     "Prim",
+     "Sec"
+    ],
+    [
+     "1 PT (A)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2 PT",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nThe type (KZ-1) relay\ngroup employs two relays in a two phase circuit and is intended for\ninstantaneous current cut off. The elementary diagram of the type KZ-1 relay\nset is given in figure 1. The relay set includes two type (PT-40) current relays 1PT& 2PT type PII 251 auxiliary relays PII and one type PY-21\nindicating relay (PY).\nThe\nfirst draft initialed by Eng. Mohamed Mostafa, and tested at 01/02/02, Samalout 500, \nME\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety category,\nSafety fence (rope) with caution marks surrounding the work area.\nLine isolation,\nMake sure CT secondary circuits are\n shorted before isolating the relay current circuits for test current\n injection.\nTools and Equipment\nTest set type (YII3-1).\nAvometer,\n Clip-on ammeter, Test leads.\nWork to be carried out\nPreliminary Steps to Prepare for Relay Testing\nReview technical reference material:\n Manufacturer's manual\nObtain copy of relay setting form\n field maintenance file and compare it with the setting on the relay.\nObtain outage for line protected by\n relay.\nCheck that the bus and line disconnect\n switches are opened and tagged.\nInspect the CT secondary circuits, the\n VT miniature circuit breakers (MCB`S) and all cabling supplying the relay.\nUse the station drawing to isolate the\n following : \n - Breaker trip coils.\n - Breaker failure\n scheme associated with this relay.\n - Disturbance alarms\n and fault recorder associated with this relay.\nTesting the Relay and Protection Out Put\nCarefully follow these test procedure steps from page 3 to page 5\nVerify the test results match the relay setting if not consult technical\n services.\nTest trip the breaker associated with the relay.\nPrior to Starting Testing Procedure (S) Ensure\nthe Following Steps\nThis procedure is used to perform\n off load relay testing.\nCheek that the panel nameplate\n agrees with the EEA designation of the line that has been taken out of\n service for maintenance.\nCheck there is not AC current from\n CT by using clip-on ammeter.\nCheck there is no AC voltage from VT\n by using voltmeter.\nCheek all external connections to\n the relay are in good condition and check that terminal block wires are\n tight.\nTesting Procedures\nChecking The Pick-Up Current (1 PT & 2 PT)\nRemove the normal current blocks and put the block test as the following.\nUse the test unit (YII3-1) for Injection current as ex on relay (1PT)\nCleaning the relay contact and measure it by Avometer (\n Ω)\nConnect the relay contact (N.O) on (Avometer) position (Ω) or terminal\n contact of test unit (YII 3-1)\nConnect the terminal current output (A, B) for the (YII3-1) on the\n terminal of test block (ph A).\nInjection the current from (auto) and increase it until the current relay\n picked-up and the contact is closed and\n relay the value of current from the test unit is (IOP.)\nDecrease the current from the (auto) until the relay is reset and the\n contact is open.\nRead this value and its (Ireset).\nRecord the value of Iap. & Ir. In test sheet.\nAs the same steps of testing for (1PT) on ph. (A), we testing the relay\n (2PT) on ph(C).\nDisconnect the test unit (YII3-1).\nTesting the Operating Time of the Auxiliary Relay (PII)\nPreparing the test unit (YII3-1) for Injection the (D.C. voltage).\nRemove the relay (PII) form the casing and put on the table.\nClean the relay contacts by spray.\nMeasure the relay contacts by Avometer (Ω)\nInject the relay coil with (DC vol.) ~\n 150 V from the terminal ( + & -\n ) of the (YII3-1)\nConnect the relay contact (N.O) on the terminal of relay contact for\n (YII3-1)\nAdjust the time of (YII3-1) on ( ┐OP┌\n ) Position.\nInjection the (D.C. vol)~150V and measure the operating\n time (Top.) from the (YII 3-1)\nDisconnect the Injection (YًII3-1) is off.\nConnect the terminal of relay contact (N.6) on relay contact for the (YII3-1)\nChange the position of contact (switch No. 2) on (┐R┌) position\nConnect the switch No. (6) & No. (7) on position.\nMake the switch No. (7) on (return) position.\nMeasure the reset time of relay (PII)\nMake the test unit (YII3-1) is off\nRecord the (Top. & Tr.) in the test sheet put the aux. Relay (PII)\n in place it.\nClean the alarm relay (PY) by (spray) and mea sure it contacts by Avometer\n (Ω)\nChecking the Tripping of the Line by Protection\nConnect the trip and signal terminal.\nLeave the (B.F.) terminal is off.\nConnect the CB of the line and the Isolators is off.\nConnect the strap (H) for auto reclosure (3F).\nInject the current on ph.(A) & ph (C) respectively until the operate\n 1PT & 2PT and trip the line and out reclosure (3F)\nStop the Injection and disconnect the (DC) of CB.\nConnect the B.F. terminal.\nPut the normal blocks in the same place.\nCheck all the terminal is good and tied.\nConnect the line and measure the current of the line by clip-meter and\n measure the volt.\nFinch the permission.\nPut the test sheet in the field maintenance file.\nGeneral:\nThe type \" K31, K32, K33, K34, and K35 \" relay\ngroups are protection devices incorporating various relay necessary for the\nprotection of a certain circuit. All the component elements of each group \nare housed in a common casing. The relay groups are designed for direct current \noperation.\nThe type \" K31, K32, K33, K34 and K35\" protection devices are intended for \noperation in stationary installations al ambient temperature between - 5 and + \n35\" C in the general industrial and export designs and between - 10 and + 40 \" C \nin the tropical designs.\nRelay having letter \" I \" in the type designation ( K3 1-T, K3 2-T ) are \nintended for operation in tropical climate. The tropical design differs from \ngeneral industrial one in materials protection coatings of parts and finishing.\nTest Sheet\nTesting of instantaneous O/C Relay, \ntype: KZ-1 C.T R = 750/1 \nManufacturer: Russia\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text": "Protection | Technical Procedure\nThe type (KZ-1) relay\ngroup employs two relays in a two phase circuit and is intended for\ninstantaneous current cut off. The elementary diagram of the type KZ-1 relay\nset is given in figure 1. The relay set includes two type (PT-40) current relays 1PT& 2PT type PII 251 auxiliary relays PII and one type PY-21\nindicating relay (PY).\nThe\nfirst draft initialed by Eng. Mohamed Mostafa, and tested at 01/02/02, Samalout 500, \nME\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety category,\nSafety fence (rope) with caution marks surrounding the work area.\nLine isolation,\nMake sure CT secondary circuits are\n shorted before isolating the relay current circuits for test current\n injection.\nTools and Equipment\nTest set type (YII3-1).\nAvometer,\n Clip-on ammeter, Test leads.\nWork to be carried out\nPreliminary Steps to Prepare for Relay Testing\nReview technical reference material:\n Manufacturer's manual\nObtain copy of relay setting form\n field maintenance file and compare it with the setting on the relay.\nObtain outage for line protected by\n relay.\nCheck that the bus and line disconnect\n switches are opened and tagged.\nInspect the CT secondary circuits, the\n VT miniature circuit breakers (MCB`S) and all cabling supplying the relay.\nUse the station drawing to isolate the\n following : \n - Breaker trip coils.\n - Breaker failure\n scheme associated with this relay.\n - Disturbance alarms\n and fault recorder associated with this relay.\nTesting the Relay and Protection Out Put\nCarefully follow these test procedure steps from page 3 to page 5\nVerify the test results match the relay setting if not consult technical\n services.\nTest trip the breaker associated with the relay.\nPrior to Starting Testing Procedure (S) Ensure\nthe Following Steps\nThis procedure is used to perform\n off load relay testing.\nCheek that the panel nameplate\n agrees with the EEA designation of the line that has been taken out of\n service for maintenance.\nCheck there is not AC current from\n CT by using clip-on ammeter.\nCheck there is no AC voltage from VT\n by using voltmeter.\nCheek all external connections to\n the relay are in good condition and check that terminal block wires are\n tight.\nTesting Procedures\nChecking The Pick-Up Current (1 PT & 2 PT)\nRemove the normal current blocks and put the block test as the following.\nUse the test unit (YII3-1) for Injection current as ex on relay (1PT)\nCleaning the relay contact and measure it by Avometer (\n Ω)\nConnect the relay contact (N.O) on (Avometer) position (Ω) or terminal\n contact of test unit (YII 3-1)\nConnect the terminal current output (A, B) for the (YII3-1) on the\n terminal of test block (ph A).\nInjection the current from (auto) and increase it until the current relay\n picked-up and the contact is closed and\n relay the value of current from the test unit is (IOP.)\nDecrease the current from the (auto) until the relay is reset and the\n contact is open.\nRead this value and its (Ireset).\nRecord the value of Iap. & Ir. In test sheet.\nAs the same steps of testing for (1PT) on ph. (A), we testing the relay\n (2PT) on ph(C).\nDisconnect the test unit (YII3-1).\nTesting the Operating Time of the Auxiliary Relay (PII)\nPreparing the test unit (YII3-1) for Injection the (D.C. voltage).\nRemove the relay (PII) form the casing and put on the table.\nClean the relay contacts by spray.\nMeasure the relay contacts by Avometer (Ω)\nInject the relay coil with (DC vol.) ~\n 150 V from the terminal ( + & -\n ) of the (YII3-1)\nConnect the relay contact (N.O) on the terminal of relay contact for\n (YII3-1)\nAdjust the time of (YII3-1) on ( ┐OP┌\n ) Position.\nInjection the (D.C. vol)~150V and measure the operating\n time (Top.) from the (YII 3-1)\nDisconnect the Injection (YًII3-1) is off.\nConnect the terminal of relay contact (N.6) on relay contact for the (YII3-1)\nChange the position of contact (switch No. 2) on (┐R┌) position\nConnect the switch No. (6) & No. (7) on position.\nMake the switch No. (7) on (return) position.\nMeasure the reset time of relay (PII)\nMake the test unit (YII3-1) is off\nRecord the (Top. & Tr.) in the test sheet put the aux. Relay (PII)\n in place it.\nClean the alarm relay (PY) by (spray) and mea sure it contacts by Avometer\n (Ω)\nChecking the Tripping of the Line by Protection\nConnect the trip and signal terminal.\nLeave the (B.F.) terminal is off.\nConnect the CB of the line and the Isolators is off.\nConnect the strap (H) for auto reclosure (3F).\nInject the current on ph.(A) & ph (C) respectively until the operate\n 1PT & 2PT and trip the line and out reclosure (3F)\nStop the Injection and disconnect the (DC) of CB.\nConnect the B.F. terminal.\nPut the normal blocks in the same place.\nCheck all the terminal is good and tied.\nConnect the line and measure the current of the line by clip-meter and\n measure the volt.\nFinch the permission.\nPut the test sheet in the field maintenance file.\nGeneral:\nThe type \" K31, K32, K33, K34, and K35 \" relay\ngroups are protection devices incorporating various relay necessary for the\nprotection of a certain circuit. All the component elements of each group \nare housed in a common casing. The relay groups are designed for direct current \noperation.\nThe type \" K31, K32, K33, K34 and K35\" protection devices are intended for \noperation in stationary installations al ambient temperature between - 5 and + \n35\" C in the general industrial and export designs and between - 10 and + 40 \" C \nin the tropical designs.\nRelay having letter \" I \" in the type designation ( K3 1-T, K3 2-T ) are \nintended for operation in tropical climate. The tropical design differs from \ngeneral industrial one in materials protection coatings of parts and finishing.\nTest Sheet\nTesting of instantaneous O/C Relay, \ntype: KZ-1 C.T R = 750/1 \nManufacturer: Russia\nRelay | Setting | I op A | I reset A | Kr =I r / I op | Remarks\nPrim | Sec\n1 PT (A) |  |  |  |  |  | \n2 PT |  |  |  |  |  | \nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

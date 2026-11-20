@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -236,6 +238,54 @@
    "text": "PH-E"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "X1=",
+     "X2=",
+     "X3=",
+     "Ώ \n /PH"
+    ],
+    [
+     "C.T.R=",
+     "P.T.R=",
+     "L=",
+     "Km"
+    ],
+    [
+     "A1=",
+     "B1=",
+     "Cos =",
+     ""
+    ],
+    [
+     "A2=",
+     "B2=",
+     "Ko =",
+     ""
+    ],
+    [
+     "HG3=",
+     "S31,K=",
+     "Ώ\n/PH=",
+     ""
+    ],
+    [
+     "XO=",
+     "S32,K=",
+     "Ώ\n/PH=",
+     ""
+    ],
+    [
+     "Xr,s,t=",
+     "CCM3=",
+     "CCM4=",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Test Result"
   },
@@ -394,7 +444,7 @@
    "text": "Location: ................................ \nLine/circuit Name & Number: ................................ \nDate: ................................ Tested by:\n.............................................. \nSignature :.................."
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document lists the \n testing procedures P1 for L8b distance relay, which must be \n performed on an annually bases Y1 as indicated in the title block.\nThe first draft initiated by \neng. \nAbdel Raheem Salem Mohamed Ez, \ntested by eng. Khaled El-Etreby & eng. Atef Farh, revised by \nquality control eng. Tawfik Elabasery at EDEPCo.,\nand approved by eng. Monear Mahmoud El-Wakeel: Head Sector of \n Damietta \nPower Station.\nSafety Precautions\nLine Isolation and work permit required.\nMake sure CT secondary circuits are shorted.\nVoltage Supply to the relay may be alive even after the line is isolated.\nIsolate DC supply to relay, when \n doing any adjustments or maintenance on the relay itself\nEnsure all CT path elements are secure after any test disturbance.\nBBC Relay Test Set Type Siemene,\nAmmeter 5 amp, Phase rotation meter,\nSmall slot screwdriver, Test leads\n5 amp. clip-on ammeter (optional)\nWork to be Carried Out\nPrepare\nthe siemens tester.\nDisconnect\nthe DC supply by pull the hand.\nDisconnect\nthe miniature circuit breaker (m.c.b) for the potential transformer PT\nMake\na short for the points (1,2,3,4,01,02,03,04) from down.\nMake\na short for the point (01,02,03,04) from up\nRemove\nthe terminal \"a\" of the ssx 117.\nTurn\nthe links from \"01 to 11\" and from 16 to 18 to horizontal position\ninstead of the vertical position.\nConnect\nthe DC supply by push the hand.\nConnect\nthe voltage leads UR1 US1 UT1 UN to\nterminal (6,7,8,5).\nConnect\nthe timer leads \"11,22\" to terminal x 1(411,511).\nPrepare\nthe siemens tester.\nDisconnect\nthe DC supply by pull the hand.\nDisconnect\nthe miniature circuit breaker (m.c.b) for the potential transformer PT\nMake\na short for the points (1,2,3,4,01,02,03,04) from down.\nMake\na short for the point (01,02,03,04) from up\nRemove\nthe terminal \"a\" of the ssx 117.\nTurn\nthe links from \"01 to 11\" and from 16 to 18 to horizontal position\ninstead of the vertical position.\nConnect\nthe DC supply by push the hand.\nConnect\nthe voltage leads UR1 US1 UT1 UN to\nterminal (6,7,8,5).\nConnect\nthe timer leads \"11,22\" to terminal x 1(411,511).\nTest \nPhase R\nConnect\n the current leads IR1 IN to terminal (2,1)\nInject\n 100V & current 0.5A and adjust the angle to 287 then raise the current\n value to:\n 1 amp. for long transmission lines and to 3:4 amp. for short transmission \n lines (10km)\nDisconnect\n the current injection and lower the voltage valve to the calculated valve of\n 3rd zone.\nInject\n the current the notice the time if it is 3rd zone you must raise the voltage\n if it is start you must lower the voltage until obtain the end of the\n zones.\nRepeat\n 4.5 to obtain the end of 1st & 2nd zones.\nConnect\n the current leads IR1 IN to terminal (2,1)\nInject\n 100V & current 0.5A and adjust the angle to 287 then raise the current\n value to:\n 1 amp. for long transmission lines and to 3:4 amp. for short transmission \n lines (10km)\nDisconnect\n the current injection and lower the voltage valve to the calculated valve of\n 3rd zone.\nInject\n the current the notice the time if it is 3rd zone you must raise the voltage\n if it is start you must lower the voltage until obtain the end of the\n zones.\nRepeat\n 4.5 to obtain the end of 1st & 2nd zones.\nTest\nPhase S\nConnect\n the current terminals between tester & 18b as follow:(Sto3),(Nto1)\nRepeat\n steps 2-5 in ph-R test.\nConnect\n the current terminals between tester & 18b as follow:(Sto3),(Nto1)\nRepeat\n steps 2-5 in ph-R test.\nTest\nPhase T\nConnect\n (T to 4)(N to1)\nRepeat\n steps 2-5 in ph-R test.\nConnect\n (T to 4)(N to1)\nRepeat\n steps 2-5 in ph-R test.\nTest\nSheet\nFor Protective Relays 220KV \nSW.GR. (main protection) Date\nRelay\nName: Distance Protection\nRelay\nType :\nL8b \nCompany: BBC\nPrimary Setting\nX1= \nX2= \nX3= Ώ\n/PH (X=V/I)\nSecondary Setting\nPH-PH\n\nPH-E\nTest Result\nPH-PH\n\nPH-E\n\nLocation: ................................ \nLine/circuit Name & Number: ................................ \nDate: ................................ Tested by:\n.............................................. \nSignature :..................",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document lists the \n testing procedures P1 for L8b distance relay, which must be \n performed on an annually bases Y1 as indicated in the title block.\nThe first draft initiated by \neng. \nAbdel Raheem Salem Mohamed Ez, \ntested by eng. Khaled El-Etreby & eng. Atef Farh, revised by \nquality control eng. Tawfik Elabasery at EDEPCo.,\nand approved by eng. Monear Mahmoud El-Wakeel: Head Sector of \n Damietta \nPower Station.\nSafety Precautions\nLine Isolation and work permit required.\nMake sure CT secondary circuits are shorted.\nVoltage Supply to the relay may be alive even after the line is isolated.\nIsolate DC supply to relay, when \n doing any adjustments or maintenance on the relay itself\nEnsure all CT path elements are secure after any test disturbance.\nBBC Relay Test Set Type Siemene,\nAmmeter 5 amp, Phase rotation meter,\nSmall slot screwdriver, Test leads\n5 amp. clip-on ammeter (optional)\nWork to be Carried Out\nPrepare\nthe siemens tester.\nDisconnect\nthe DC supply by pull the hand.\nDisconnect\nthe miniature circuit breaker (m.c.b) for the potential transformer PT\nMake\na short for the points (1,2,3,4,01,02,03,04) from down.\nMake\na short for the point (01,02,03,04) from up\nRemove\nthe terminal \"a\" of the ssx 117.\nTurn\nthe links from \"01 to 11\" and from 16 to 18 to horizontal position\ninstead of the vertical position.\nConnect\nthe DC supply by push the hand.\nConnect\nthe voltage leads UR1 US1 UT1 UN to\nterminal (6,7,8,5).\nConnect\nthe timer leads \"11,22\" to terminal x 1(411,511).\nPrepare\nthe siemens tester.\nDisconnect\nthe DC supply by pull the hand.\nDisconnect\nthe miniature circuit breaker (m.c.b) for the potential transformer PT\nMake\na short for the points (1,2,3,4,01,02,03,04) from down.\nMake\na short for the point (01,02,03,04) from up\nRemove\nthe terminal \"a\" of the ssx 117.\nTurn\nthe links from \"01 to 11\" and from 16 to 18 to horizontal position\ninstead of the vertical position.\nConnect\nthe DC supply by push the hand.\nConnect\nthe voltage leads UR1 US1 UT1 UN to\nterminal (6,7,8,5).\nConnect\nthe timer leads \"11,22\" to terminal x 1(411,511).\nTest \nPhase R\nConnect\n the current leads IR1 IN to terminal (2,1)\nInject\n 100V & current 0.5A and adjust the angle to 287 then raise the current\n value to:\n 1 amp. for long transmission lines and to 3:4 amp. for short transmission \n lines (10km)\nDisconnect\n the current injection and lower the voltage valve to the calculated valve of\n 3rd zone.\nInject\n the current the notice the time if it is 3rd zone you must raise the voltage\n if it is start you must lower the voltage until obtain the end of the\n zones.\nRepeat\n 4.5 to obtain the end of 1st & 2nd zones.\nConnect\n the current leads IR1 IN to terminal (2,1)\nInject\n 100V & current 0.5A and adjust the angle to 287 then raise the current\n value to:\n 1 amp. for long transmission lines and to 3:4 amp. for short transmission \n lines (10km)\nDisconnect\n the current injection and lower the voltage valve to the calculated valve of\n 3rd zone.\nInject\n the current the notice the time if it is 3rd zone you must raise the voltage\n if it is start you must lower the voltage until obtain the end of the\n zones.\nRepeat\n 4.5 to obtain the end of 1st & 2nd zones.\nTest\nPhase S\nConnect\n the current terminals between tester & 18b as follow:(Sto3),(Nto1)\nRepeat\n steps 2-5 in ph-R test.\nConnect\n the current terminals between tester & 18b as follow:(Sto3),(Nto1)\nRepeat\n steps 2-5 in ph-R test.\nTest\nPhase T\nConnect\n (T to 4)(N to1)\nRepeat\n steps 2-5 in ph-R test.\nConnect\n (T to 4)(N to1)\nRepeat\n steps 2-5 in ph-R test.\nTest\nSheet\nFor Protective Relays 220KV \nSW.GR. (main protection) Date\nRelay\nName: Distance Protection\nRelay\nType :\nL8b \nCompany: BBC\nPrimary Setting\nX1= \nX2= \nX3= Ώ\n/PH (X=V/I)\nSecondary Setting\nPH-PH\nX1= | X2= | X3= | Ώ \n /PH\nPH-E\nX1= | X2= | X3= | Ώ \n /PH\nC.T.R= | P.T.R= | L= | Km\nA1= | B1= | Cos = | \nA2= | B2= | Ko = | \nHG3= | S31,K= | Ώ\n/PH= | \nXO= | S32,K= | Ώ\n/PH= | \nXr,s,t= | CCM3= | CCM4= | \nTest Result\nPH-PH\nPH-PH | 1st \n Zone | 2nd\n ZONE | 3nd ZONE\nV | I | X | V | I | X | V | I | S\nR-S |  |  |  |  |  |  |  |  | \nS-T |  |  |  |  |  |  |  |  | \nT-R |  |  |  |  |  |  |  |  | \nTIME |  |  |  |  |  |  |  |  | \nPH-E\nPH-E | 1st Zone | 2nd\n Zone | 3nd Zone\nV | I | X | V | I | X | V | I | S\nR-E |  |  |  |  |  |  |  |  | \nS-E |  |  |  |  |  |  |  |  | \nT-E |  |  |  |  |  |  |  |  | \nTIME |  |  |  |  |  |  |  |  | \nLocation: ................................ \nLine/circuit Name & Number: ................................ \nDate: ................................ Tested by:\n.............................................. \nSignature :..................",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -81,8 +83,111 @@
    "text": "Set up"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "UR",
+     "A (R)",
+     "Phase Voltage",
+     "57.7 V"
+    ],
+    [
+     "US",
+     "B (S)",
+     "Phase Voltage",
+     "57.7 V"
+    ],
+    [
+     "PUS",
+     "Angle of B (S)",
+     "Phase Voltage",
+     "240"
+    ],
+    [
+     "UT",
+     "C (T)",
+     "Phase Voltage",
+     "57.7 V"
+    ],
+    [
+     "PUT",
+     "Angle of C (T)",
+     "Phase Voltage",
+     "120"
+    ],
+    [
+     "IR",
+     "A (R)",
+     "Phase Current",
+     "1.0 Amp"
+    ],
+    [
+     "PIR",
+     "Angle of A (R)",
+     "Phase Current",
+     "330 (30 lagging)"
+    ],
+    [
+     "IS",
+     "B (S)",
+     "Phase Current",
+     "1 A"
+    ],
+    [
+     "PIS",
+     "Angle of B (S)",
+     "Phase Voltage",
+     "210"
+    ],
+    [
+     "IT",
+     "C (T)",
+     "Phase Current",
+     "1 Amp"
+    ],
+    [
+     "PIT",
+     "Angle of C (T)",
+     "Phase Current",
+     "90"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Use list Designator \"FF\" to enter the following control\n parameters"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "FR",
+     "Frequency",
+     "50"
+    ],
+    [
+     "Fc",
+     "Fault Code",
+     "000 For three phase voltage injection"
+    ],
+    [
+     "SQ",
+     "Sequence",
+     "2 For Static test"
+    ],
+    [
+     "I F =",
+     "40 m sec.",
+     ""
+    ],
+    [
+     "MOD",
+     "UI 3",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -94,6 +199,47 @@
    "text": "Press \" START\" to inject the test quantity. Use a multi-meter\n and verify that phase to neutral quantity being injected is =57-7 V and\n phase - phase quantity being injected is equal to 100 V Read the displays on\n the fault locator DTA Display unit and record them on the test sheets:"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Input Value",
+     "Secondary",
+     "Expected Value"
+    ],
+    [
+     "VAN",
+     "57.7V",
+     "288KV"
+    ],
+    [
+     "VBN",
+     "57.7V",
+     "288KV"
+    ],
+    [
+     "VCN",
+     "57.7V",
+     "288KV"
+    ],
+    [
+     "VAB",
+     "100V",
+     "500KV"
+    ],
+    [
+     "VBC",
+     "100V",
+     "500KV"
+    ],
+    [
+     "VCA",
+     "100V",
+     "500KV"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "heading",
    "level": 3,
    "text": "Current Measurements"
@@ -101,6 +247,37 @@
   {
    "type": "paragraph",
    "text": "Fault locator SEL-DTA Display unit should read:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Input \n Value",
+     "Secondary",
+     "Expected \n Value"
+    ],
+    [
+     "VAN",
+     "57.7V",
+     "288KV"
+    ],
+    [
+     "IAN",
+     "1 amp",
+     "2000 Amp"
+    ],
+    [
+     "MW",
+     "",
+     "1500MW (3-f)or 500MW (1f)"
+    ],
+    [
+     "MVAR",
+     "",
+     "866MVAR (3-f)or 288.8MVAR (1f)"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -117,16 +294,154 @@
    "text": "Change the fault code to 022 and change the current parameters as follow\n and keep voltage stay the same."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "IR",
+     "0"
+    ],
+    [
+     "IS",
+     "3.5 Amp"
+    ],
+    [
+     "PIS",
+     "184 (-176)"
+    ],
+    [
+     "IT",
+     "3.5 Amp"
+    ],
+    [
+     "PIT",
+     "4"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "The Fault locator should read:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "EVENT:",
+     "BC \n Location",
+     "= \n 118.075 KM"
+    ],
+    [
+     "DURATION:",
+     "Fault Current",
+     "= 7000 Amp"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Repeat the test for A phase to Ground Fault with including source\n impedance after changing the following parameters:\n A phase -ground Fault (Source Z= 70.08-l261 of line pos. sequence impedance\n )"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Fault Code",
+     "",
+     "011"
+    ],
+    [
+     "IR",
+     "0.7",
+     "Amp"
+    ],
+    [
+     "PIR",
+     "282",
+     "(-78)"
+    ],
+    [
+     "UR",
+     "16.4",
+     "VOLT"
+    ],
+    [
+     "US",
+     "70.1",
+     "VOLT"
+    ],
+    [
+     "PUS",
+     "-130",
+     ""
+    ],
+    [
+     "UT",
+     "64.6",
+     "VOLT"
+    ],
+    [
+     "PUT",
+     "134",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Repeat the Fault injection For B phase to C phase (line to Line fault)\n with the following parameters:\n B-C- Phase Fault. (Source Z=70.08 =1.261 of Line Pos. Sequence impedance)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Fault Code",
+     "022"
+    ],
+    [
+     "U R",
+     "57.7 V"
+    ],
+    [
+     "US",
+     "32.1 V"
+    ],
+    [
+     "PUS",
+     "- 154"
+    ],
+    [
+     "UT",
+     "32.1 V"
+    ],
+    [
+     "PUT",
+     "154"
+    ],
+    [
+     "IR",
+     "0 Amp"
+    ],
+    [
+     "IS",
+     "0.99 Amp"
+    ],
+    [
+     "PIS",
+     "-176"
+    ],
+    [
+     "IT",
+     "0.99 Amp"
+    ],
+    [
+     "PIT",
+     "4"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -142,11 +457,45 @@
    "text": "FC 011, 012, or 013 for AG, BG or CG Fault 021, 022 or 023 for AB, BC, or\n CA Fault SQ 1F1 or 1F0"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "A",
+     "0"
+    ],
+    [
+     "TF",
+     "100"
+    ],
+    [
+     "PZL",
+     "85 (Line angle) or 75 MTA f - f or 78 f - \n G Fault"
+    ],
+    [
+     "ZS",
+     "0 or ZS value given in the relay setting"
+    ],
+    [
+     "PPS",
+     "0 or ZS angle given in the relay setting"
+    ],
+    [
+     "KO",
+     "0.7 (See value given in the relay setting)"
+    ],
+    [
+     "PRO",
+     "338 (See relay setting Calculation - 22)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: \nFault Recorder Code: \nChecked by: \nDate: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nThis procedure details the steps required to completely check \n the proper operation and calibration of the fault locator SEL-49 relay. It is \n recommended this procedure be carried out on an annually bases. This work be \n carried out section of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing \n describes the activities required prior to testing. Some of these steps could \n be performed days before the actual test. The second section Preparation for \n testing describes the steps to set up the equipment for performing the actual \n tests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility \n of error causing personal injury or damage to equipment.\nThe first draft \ninitialed & tested by eng. Abdel Azeem Anor, approved by general director of \n Quality eng. Sameer Mohamed Atta.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety \n category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nPermission between S/S and NECC to disconnect the line.\nMake sure CT secondary are shorted at current test switch.\nMake sure VT secondary are opened at voltage test switch.\nIsolate DC supply to SEL 49 when maintenance on the SEL-49 and SEL data.\nTools and Equipment\nPreliminary Steps to Prepare for Relay Testing\nPreparations\nTesting Procedure(s)\nInjection Test\nSet up\nUse list Designator \"FF\" to enter the following control\n parameters\nVoltage Measurements\nPress \" START\" to inject the test quantity. Use a multi-meter\n and verify that phase to neutral quantity being injected is =57-7 V and\n phase - phase quantity being injected is equal to 100 V Read the displays on\n the fault locator DTA Display unit and record them on the test sheets:\nCurrent Measurements\nFault locator SEL-DTA Display unit should read:\nFault Measurements\nPhase A to Ground Fault-Source at the Bus (No Source\nImpedance Zs=0)\nChange the fault code to 022 and change the current parameters as follow\n and keep voltage stay the same.\nThe Fault locator should read:\nRepeat the test for A phase to Ground Fault with including source\n impedance after changing the following parameters:\n A phase -ground Fault (Source Z= 70.08-l261 of line pos. sequence impedance\n )\nRepeat the Fault injection For B phase to C phase (line to Line fault)\n with the following parameters:\n B-C- Phase Fault. (Source Z=70.08 =1.261 of Line Pos. Sequence impedance)\nFault Impedance Measurment by ZZ Mode\nFault test may be also made without making calculation of voltages and\n current by ZZ mode:\nFC 011, 012, or 013 for AG, BG or CG Fault 021, 022 or 023 for AB, BC, or\n CA Fault SQ 1F1 or 1F0\nLocation: \nFault Recorder Code: \nChecked by: \nDate: \nSignature:",
+ "text": "Protection | Technical \n Procedure\nThis procedure details the steps required to completely check \n the proper operation and calibration of the fault locator SEL-49 relay. It is \n recommended this procedure be carried out on an annually bases. This work be \n carried out section of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing \n describes the activities required prior to testing. Some of these steps could \n be performed days before the actual test. The second section Preparation for \n testing describes the steps to set up the equipment for performing the actual \n tests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility \n of error causing personal injury or damage to equipment.\nThe first draft \ninitialed & tested by eng. Abdel Azeem Anor, approved by general director of \n Quality eng. Sameer Mohamed Atta.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety \n category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nPermission between S/S and NECC to disconnect the line.\nMake sure CT secondary are shorted at current test switch.\nMake sure VT secondary are opened at voltage test switch.\nIsolate DC supply to SEL 49 when maintenance on the SEL-49 and SEL data.\nTools and Equipment\nPreliminary Steps to Prepare for Relay Testing\nPreparations\nTesting Procedure(s)\nInjection Test\nSet up\nUR | A (R) | Phase Voltage | 57.7 V\nUS | B (S) | Phase Voltage | 57.7 V\nPUS | Angle of B (S) | Phase Voltage | 240\nUT | C (T) | Phase Voltage | 57.7 V\nPUT | Angle of C (T) | Phase Voltage | 120\nIR | A (R) | Phase Current | 1.0 Amp\nPIR | Angle of A (R) | Phase Current | 330 (30 lagging)\nIS | B (S) | Phase Current | 1 A\nPIS | Angle of B (S) | Phase Voltage | 210\nIT | C (T) | Phase Current | 1 Amp\nPIT | Angle of C (T) | Phase Current | 90\nUse list Designator \"FF\" to enter the following control\n parameters\nFR | Frequency | 50\nFc | Fault Code | 000 For three phase voltage injection\nSQ | Sequence | 2 For Static test\nI F = | 40 m sec. | \nMOD | UI 3 | \nVoltage Measurements\nPress \" START\" to inject the test quantity. Use a multi-meter\n and verify that phase to neutral quantity being injected is =57-7 V and\n phase - phase quantity being injected is equal to 100 V Read the displays on\n the fault locator DTA Display unit and record them on the test sheets:\nInput Value | Secondary | Expected Value\nVAN | 57.7V | 288KV\nVBN | 57.7V | 288KV\nVCN | 57.7V | 288KV\nVAB | 100V | 500KV\nVBC | 100V | 500KV\nVCA | 100V | 500KV\nCurrent Measurements\nFault locator SEL-DTA Display unit should read:\nInput \n Value | Secondary | Expected \n Value\nVAN | 57.7V | 288KV\nIAN | 1 amp | 2000 Amp\nMW |  | 1500MW (3-f)or 500MW (1f)\nMVAR |  | 866MVAR (3-f)or 288.8MVAR (1f)\nFault Measurements\nPhase A to Ground Fault-Source at the Bus (No Source\nImpedance Zs=0)\nChange the fault code to 022 and change the current parameters as follow\n and keep voltage stay the same.\nIR | 0\nIS | 3.5 Amp\nPIS | 184 (-176)\nIT | 3.5 Amp\nPIT | 4\nThe Fault locator should read:\nEVENT: | BC \n Location | = \n 118.075 KM\nDURATION: | Fault Current | = 7000 Amp\nRepeat the test for A phase to Ground Fault with including source\n impedance after changing the following parameters:\n A phase -ground Fault (Source Z= 70.08-l261 of line pos. sequence impedance\n )\nFault Code |  | 011\nIR | 0.7 | Amp\nPIR | 282 | (-78)\nUR | 16.4 | VOLT\nUS | 70.1 | VOLT\nPUS | -130 | \nUT | 64.6 | VOLT\nPUT | 134 | \nRepeat the Fault injection For B phase to C phase (line to Line fault)\n with the following parameters:\n B-C- Phase Fault. (Source Z=70.08 =1.261 of Line Pos. Sequence impedance)\nFault Code | 022\nU R | 57.7 V\nUS | 32.1 V\nPUS | - 154\nUT | 32.1 V\nPUT | 154\nIR | 0 Amp\nIS | 0.99 Amp\nPIS | -176\nIT | 0.99 Amp\nPIT | 4\nFault Impedance Measurment by ZZ Mode\nFault test may be also made without making calculation of voltages and\n current by ZZ mode:\nFC 011, 012, or 013 for AG, BG or CG Fault 021, 022 or 023 for AB, BC, or\n CA Fault SQ 1F1 or 1F0\nA | 0\nTF | 100\nPZL | 85 (Line angle) or 75 MTA f - f or 78 f - \n G Fault\nZS | 0 or ZS value given in the relay setting\nPPS | 0 or ZS angle given in the relay setting\nKO | 0.7 (See value given in the relay setting)\nPRO | 338 (See relay setting Calculation - 22)\nLocation: \nFault Recorder Code: \nChecked by: \nDate: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

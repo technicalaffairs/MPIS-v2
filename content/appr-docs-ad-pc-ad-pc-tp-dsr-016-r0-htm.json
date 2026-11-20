@@ -25,10 +25,6 @@
   },
   {
    "type": "paragraph",
-   "text": "Issued to: \n Networks"
-  },
-  {
-   "type": "paragraph",
    "text": "Introduction"
   },
   {
@@ -307,6 +303,62 @@
    "text": "Phase / Earth"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Zone I",
+     "Zone II",
+     "Zone III",
+     "Zone IV"
+    ],
+    [
+     "Setting",
+     "Testing",
+     "Setting",
+     "Testing",
+     "Setting",
+     "Testing",
+     "Setting",
+     "Testing"
+    ],
+    [
+     "R E",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S - E",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T - E",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Tested by:"
   },
@@ -319,8 +371,98 @@
    "text": "Phase to phase"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase \"type of\nfault\"",
+     "Zone I",
+     "Zone II",
+     "Zone III",
+     "Zone IV"
+    ],
+    [
+     "Setting",
+     "Testing",
+     "Setting",
+     "Testing",
+     "Setting",
+     "Testing",
+     "Setting",
+     "Testing"
+    ],
+    [
+     "R S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S - T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T - R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Time Reaches"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Time of zone",
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    [
+     "Setting",
+     "Testing",
+     "Setting",
+     "Testing",
+     "Setting",
+     "Testing",
+     "Setting",
+     "Testing"
+    ],
+    [
+     "Test value",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -367,7 +509,7 @@
    "text": "figure 3 b . Ground\nDistance characteristics"
   }
  ],
- "text": "\nIssued to: \n Networks\nIntroduction\nSafety Precautions\nCheck that the bus and line disconnected switches are opened and Tagged\nMake sure C.T secondary are shorted.\nV.T miniature circuit breaks ( M.C. Bs) is isolated (\n opened)\nIsolate D.C supply to\n relay, when doing any adjustments or maintenance or the relay SEL 321\nIsolate Breaker failure ( B.F) scheme associated with relay,\nDisturbance alarm or fault recorder associated with relay.\nIsolate breaker trip coils and transfer trip scheme.\nAuto \n recluse , associated must be isolate with relay\n SEL 321 ( Test plug isolate the all above points\nTools and Equipment\nTest set type XS92a.\nAmmeter.\nTest leads\nTimer\nWork to be Carried Out\nSteps To Prepare For Relay Testing\nReview technical reference materiel manufactures manual\nObtain copy of relay\n SEL 321 setting from field maintenance file\nObtain outage for line protected by this relay\n SEL 321 opened and tagged.\nCheck that the bus and line disconnected switches are opened and tagged.\nBlock protection signaling to : breaker trip coils and transfer trip schemes\nGo to the switchgear and inspect the C.T S and V.T miniature circuit breakers ( MCBs) , and all cabling supplying the relay.\nCheck that the cables are in good condition and the all wire connections are tight and clean.\nConnect the set test XS92 a to the relay SEL\n 321 according to the figure\nTesting Procedures\nZone Reaches\nZone I \nPhase To Earth\nRestore DC supply to relay SEL 321 scheme.\nPrepare the set test xs92 or following:\nNotes:\nWe entered the above parameters according to the Flowchart of set test XS92a\nWhen the relay gives tripping signal press\n ◙ to stop injection.\nRead the values of testing in hand terminals of set test XS92a. And compare this value with the value of setting in test sheet of relay\n SEL 321.\nPress the reset button on the relay front panel and check that the led indicator reset and the alarm contacts open\nRepeat the above test with the phases ( S ) by using FC ( fault code)( 112) & phase (T) by using FC (113) . Make sure relay SEL 321 gives trip signaling with all phases R,S,T in\n forward direction.\nRepeat the above test, but in the reverse direction by using FC fault code (011),( 012) ,(013), make sure that the relay SEL 321 is blocked in the reverse direction .\nPhase To Phase\nEntered the all above parameters, but in fault code (FC) as following: -\nZone II\nRepeat the above test for zone I but the value of ZL up to Z2(setting )\n and time fault ( TF) Up to time of zone (2)\nMake sure that the relay SEL 321 gives trip signaling in the values of setting and in the forward\n direction and the relay gives block in reverse direction.\nZone III\nRepeat the above test for zone II\n but the value of ZL up to Z3(setting) and time fault ( TF)\n up to time of zone (3).\nMake sure that the relay SEL 321 gives trip signaling in the values of setting and in the forward\n direction but in reverse direction the relay blocks.\nZone IV\nRepeat the above test for zone II\n but the value of ZL up to Z4(setting) and time fault ( TF)\n up to time of zone (4)\nMake sure that the relay SEL 321 gives trip signaling in the values of setting and in the forward\n direction but in reverse direction the relay SEL 321 blocked.\nMeasuring The Operating Times\nThe operating time of distance relay\n SEL 321 should be measured by using tripping contact ( free contact)\nConnected the free contact to\n \" + \" and \"__\\__ \" in the front panel of set test XS92 a.\nEnter the all parameter of zone I by ZL = 0.5 Z1 (setting)\nWhen the trip occurs the injection automatically stopped by free contact of relay SEL 321. Then\n read the value of time zone I in the hand terminal of set test XS92a.\nRepeat the above step to measuring the operating time of zone II ,\n III, IV\nNote\nHow to find \" free contact \" for relay SEL 321 ?\nSelect any contact in the relay SEL\n 321 and measured DC ( Not Found)\nMeasured (ohm) buzzer by using\n avometer for this free contact selected (Not found).\nMake trip by distance relay SEL 321 and measured ohm (buzzer) for this free contact (measured of buzzer) with trip signaling.\nConnect this free contact selected to set test XS92 a in two point + &\"\n __\\__ \" in the front panel of set\n test\nEnd To End Test For Relay SEL 321\nRepeat the test procedures of zone II and make sure that the trip occur at time of zone II (T2)\nMake brigade ON receive signal.\nMake sure that the relay SEL 321 gives trip signaling of zone II at time of zone I\n (T1)\nSwitch Into Fault ( SOIF) Test\nRepeat the test of zone IV (SQ = 1F1) make sure that the relay SEL 321 gives trip signaling in time of zone IV (T4)\nRepeat the above test of zone IV (SQ = OF1) in set test XS92a make sure that the relay SEL 321 gives trip signaling in time of zone I (\n T1)\nReturn Protection Scheme And Associated Equipment To service\nReturn relay SEL 321 to service by withdrawing test plug handle from the relay.\nMake sure C.T secondary are opened.\nReturn relay to service by restoring supply\n from voltage transformer (V.T miniature circuit breakers (MCBs ) is closed.\nPlace the associated barker failure ( B.F) protection scheme back in service.\nRestore the previously blocked disturbance alarms and fault recorders associated with this protection.\nReturn the relay power line carrier (PLC) links to their normal position.\nTurn ON the associated auto \n recluse scheme.\nTurn ON the power supply DC to relay SEL 321\nTake crossed readings of all AC currents and voltages supplied to the relay SEL 321 and compare them to those for normal load conditions.\nCheck that these receding agree with station\n meters MW, MVAR, Power Factor, Amperes, and voltages.\nPlace a copy of the test results in the field of maintenance file\n and test sheet\nTest Sheet\nSetting Values\nDate : \n / \n/\nSubstation :\nLine:\nLength: \nkm\nC.T ratio:\nV.T ratio: \nK0: \nangle =\nC.T earthling:\nZ1 = \nΩ/ph\nZ2 = \nΩ/ph\nZ3 = \nΩ/ph\nZ4 = \nΩ/ph\nT1 = \nm sec\nT2 = \nm sec\nT3 = \nm sec\nT4 = \nm sec\nTesting Results\nPhase / Earth\nTested by:\nDate:\nPhase to phase\nTime Reaches\nDirectionality Of Relay SEL\n321\nForward \n[ \n]\nOR Reverse \n[ ]\nEnd To End Test \nOK\nSwitch Into Fault ( soif ) test \nOK\nDATE: \n/ /\nTested by:\nfigure 1 . SEL 321 Front Panel\n(one I\\O board version )\nfigure 2 . SEL 321 Rear Panel\n(one I\\O board version )\nfigure 3 a . \nThree Phase and Phase -Phase\ndistance Characteristics\nfigure 3 b . Ground\nDistance characteristics",
+ "text": "Protection | Technical Procedure\nIntroduction\nSafety Precautions\nCheck that the bus and line disconnected switches are opened and Tagged\nMake sure C.T secondary are shorted.\nV.T miniature circuit breaks ( M.C. Bs) is isolated (\n opened)\nIsolate D.C supply to\n relay, when doing any adjustments or maintenance or the relay SEL 321\nIsolate Breaker failure ( B.F) scheme associated with relay,\nDisturbance alarm or fault recorder associated with relay.\nIsolate breaker trip coils and transfer trip scheme.\nAuto \n recluse , associated must be isolate with relay\n SEL 321 ( Test plug isolate the all above points\nTools and Equipment\nTest set type XS92a.\nAmmeter.\nTest leads\nTimer\nWork to be Carried Out\nSteps To Prepare For Relay Testing\nReview technical reference materiel manufactures manual\nObtain copy of relay\n SEL 321 setting from field maintenance file\nObtain outage for line protected by this relay\n SEL 321 opened and tagged.\nCheck that the bus and line disconnected switches are opened and tagged.\nBlock protection signaling to : breaker trip coils and transfer trip schemes\nGo to the switchgear and inspect the C.T S and V.T miniature circuit breakers ( MCBs) , and all cabling supplying the relay.\nCheck that the cables are in good condition and the all wire connections are tight and clean.\nConnect the set test XS92 a to the relay SEL\n 321 according to the figure\nTesting Procedures\nZone Reaches\nZone I \nPhase To Earth\nRestore DC supply to relay SEL 321 scheme.\nPrepare the set test xs92 or following:\nNotes:\nWe entered the above parameters according to the Flowchart of set test XS92a\nWhen the relay gives tripping signal press\n ◙ to stop injection.\nRead the values of testing in hand terminals of set test XS92a. And compare this value with the value of setting in test sheet of relay\n SEL 321.\nPress the reset button on the relay front panel and check that the led indicator reset and the alarm contacts open\nRepeat the above test with the phases ( S ) by using FC ( fault code)( 112) & phase (T) by using FC (113) . Make sure relay SEL 321 gives trip signaling with all phases R,S,T in\n forward direction.\nRepeat the above test, but in the reverse direction by using FC fault code (011),( 012) ,(013), make sure that the relay SEL 321 is blocked in the reverse direction .\nPhase To Phase\nEntered the all above parameters, but in fault code (FC) as following: -\nZone II\nRepeat the above test for zone I but the value of ZL up to Z2(setting )\n and time fault ( TF) Up to time of zone (2)\nMake sure that the relay SEL 321 gives trip signaling in the values of setting and in the forward\n direction and the relay gives block in reverse direction.\nZone III\nRepeat the above test for zone II\n but the value of ZL up to Z3(setting) and time fault ( TF)\n up to time of zone (3).\nMake sure that the relay SEL 321 gives trip signaling in the values of setting and in the forward\n direction but in reverse direction the relay blocks.\nZone IV\nRepeat the above test for zone II\n but the value of ZL up to Z4(setting) and time fault ( TF)\n up to time of zone (4)\nMake sure that the relay SEL 321 gives trip signaling in the values of setting and in the forward\n direction but in reverse direction the relay SEL 321 blocked.\nMeasuring The Operating Times\nThe operating time of distance relay\n SEL 321 should be measured by using tripping contact ( free contact)\nConnected the free contact to\n \" + \" and \"__\\__ \" in the front panel of set test XS92 a.\nEnter the all parameter of zone I by ZL = 0.5 Z1 (setting)\nWhen the trip occurs the injection automatically stopped by free contact of relay SEL 321. Then\n read the value of time zone I in the hand terminal of set test XS92a.\nRepeat the above step to measuring the operating time of zone II ,\n III, IV\nNote\nHow to find \" free contact \" for relay SEL 321 ?\nSelect any contact in the relay SEL\n 321 and measured DC ( Not Found)\nMeasured (ohm) buzzer by using\n avometer for this free contact selected (Not found).\nMake trip by distance relay SEL 321 and measured ohm (buzzer) for this free contact (measured of buzzer) with trip signaling.\nConnect this free contact selected to set test XS92 a in two point + &\"\n __\\__ \" in the front panel of set\n test\nEnd To End Test For Relay SEL 321\nRepeat the test procedures of zone II and make sure that the trip occur at time of zone II (T2)\nMake brigade ON receive signal.\nMake sure that the relay SEL 321 gives trip signaling of zone II at time of zone I\n (T1)\nSwitch Into Fault ( SOIF) Test\nRepeat the test of zone IV (SQ = 1F1) make sure that the relay SEL 321 gives trip signaling in time of zone IV (T4)\nRepeat the above test of zone IV (SQ = OF1) in set test XS92a make sure that the relay SEL 321 gives trip signaling in time of zone I (\n T1)\nReturn Protection Scheme And Associated Equipment To service\nReturn relay SEL 321 to service by withdrawing test plug handle from the relay.\nMake sure C.T secondary are opened.\nReturn relay to service by restoring supply\n from voltage transformer (V.T miniature circuit breakers (MCBs ) is closed.\nPlace the associated barker failure ( B.F) protection scheme back in service.\nRestore the previously blocked disturbance alarms and fault recorders associated with this protection.\nReturn the relay power line carrier (PLC) links to their normal position.\nTurn ON the associated auto \n recluse scheme.\nTurn ON the power supply DC to relay SEL 321\nTake crossed readings of all AC currents and voltages supplied to the relay SEL 321 and compare them to those for normal load conditions.\nCheck that these receding agree with station\n meters MW, MVAR, Power Factor, Amperes, and voltages.\nPlace a copy of the test results in the field of maintenance file\n and test sheet\nTest Sheet\nSetting Values\nDate : \n / \n/\nSubstation :\nLine:\nLength: \nkm\nC.T ratio:\nV.T ratio: \nK0: \nangle =\nC.T earthling:\nZ1 = \nΩ/ph\nZ2 = \nΩ/ph\nZ3 = \nΩ/ph\nZ4 = \nΩ/ph\nT1 = \nm sec\nT2 = \nm sec\nT3 = \nm sec\nT4 = \nm sec\nTesting Results\nPhase / Earth\nPhase | Zone I | Zone II | Zone III | Zone IV\nSetting | Testing | Setting | Testing | Setting | Testing | Setting | Testing\nR E |  |  |  |  |  |  |  | \nS - E |  |  |  |  |  |  |  | \nT - E |  |  |  |  |  |  |  | \nTested by:\nDate:\nPhase to phase\nPhase \"type of\nfault\" | Zone I | Zone II | Zone III | Zone IV\nSetting | Testing | Setting | Testing | Setting | Testing | Setting | Testing\nR S |  |  |  |  |  |  |  | \nS - T |  |  |  |  |  |  |  | \nT - R |  |  |  |  |  |  |  | \nTime Reaches\nTime of zone | T1 | T2 | T3 | T4\nSetting | Testing | Setting | Testing | Setting | Testing | Setting | Testing\nTest value |  |  |  |  |  |  |  | \nDirectionality Of Relay SEL\n321\nForward \n[ \n]\nOR Reverse \n[ ]\nEnd To End Test \nOK\nSwitch Into Fault ( soif ) test \nOK\nDATE: \n/ /\nTested by:\nfigure 1 . SEL 321 Front Panel\n(one I\\O board version )\nfigure 2 . SEL 321 Rear Panel\n(one I\\O board version )\nfigure 3 a . \nThree Phase and Phase -Phase\ndistance Characteristics\nfigure 3 b . Ground\nDistance characteristics",
  "text_truncated": false,
  "links": [],
  "images": [

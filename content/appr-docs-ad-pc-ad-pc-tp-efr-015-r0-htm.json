@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -160,6 +162,17 @@
    "text": "Shorted Terminal : Injected Voltage \n:"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Injected Terminal",
+     "Injected Voltage",
+     "Measured Time"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\n Tested by : Signature : Last \nTest Date: / \n/\nReviewed by : Signature : \nTest Date : / / \n Approved by \n: Signature :"
   },
@@ -172,7 +185,7 @@
    "text": "Figure (1) : (0246A6971-4) \nInternal connections (front view) for PJG12B"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document lists the testing procedure I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe PJG12B relay is \ndesigned primarily for the detection of grounds in normally ungrounded machine \nfield circuits and cause an alarm.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama , revised by quality control eng. Adel El-Nagar at EDEP Co. quality control eng. Adel El-Nagar and accepted by General Director \neng. Mahmoud Saker, and approved by eng. Moustfa \nAlam Head Sector of Talkha Power Station.\nThe first update initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama , at 23 April 2008 , revised by MDEP Co.quality control eng. \nAdel El-Nagar , accepted by General Director eng.Mohamed Anber, and approved by \neng. Farouk Awad Ali Head Sector of Talkha Power Station, coordinate eng. Samir \nAbd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nSafety fence (rope) with caution marks surrounding the work area is \n required.\nA work permit must be issued & \n the test staff must be qualified and carry the suitable safety category..\nThe generator must be out of \n service.\nTools and Equipment\nSecondary injection test set.\nTest plug handle.\nTest leads.\nVoltmeter.\nWork to be Carried Out\nPreparation\nMake sure PT secondary circuit are opened at the incoming terminal blocks \n before isolating the relay voltage circuit for test\nObtain copy of relay setting from \n field maintenance file and compare it with the setting on the relay.\nTesting the Relay\nConnect the test leads between \n the voltage terminals ( 9 10 ). see figure 1\nConnect the test leads between \n the trip contact ( 1 2 )\nMake a short connection \n between terminals ( 3 4 ) .\nIncrease the volt slowly until \n the relay picks up and the target appears .\nKeep the pick up voltage value \n until the relay trips .\nRecord the voltage value & the \n time value in the test sheet .\nReturn Relay and associated Equipment into \nService\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nDisconnect the test leads from the terminals ( 9 - 10 ).\nDisconnect the test leads from the trip contact ( 1 - 2 ).\nTake off the short connection from terminals ( \n3 - 4 ).\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nDisconnect the test leads from the terminals ( 9 - 10 ).\nDisconnect the test leads from the trip contact ( 1 - 2 ).\nTake off the short connection from terminals ( \n3 - 4 ).\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet for Field Ground Relay\nUnit No. :\nRelay Type \n : Relay \nVoltage :\nRelay Model \n: Relay Contact \n:\nShorted Terminal : Injected Voltage \n:\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\n Tested by : Signature : Last \nTest Date: / \n/\nReviewed by : Signature : \nTest Date : / / \n Approved by \n: Signature :\n* Short Fingers (Trip Contact)\nFigure (1) : (0246A6971-4) \nInternal connections (front view) for PJG12B",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document lists the testing procedure I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe PJG12B relay is \ndesigned primarily for the detection of grounds in normally ungrounded machine \nfield circuits and cause an alarm.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama , revised by quality control eng. Adel El-Nagar at EDEP Co. quality control eng. Adel El-Nagar and accepted by General Director \neng. Mahmoud Saker, and approved by eng. Moustfa \nAlam Head Sector of Talkha Power Station.\nThe first update initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama , at 23 April 2008 , revised by MDEP Co.quality control eng. \nAdel El-Nagar , accepted by General Director eng.Mohamed Anber, and approved by \neng. Farouk Awad Ali Head Sector of Talkha Power Station, coordinate eng. Samir \nAbd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nSafety fence (rope) with caution marks surrounding the work area is \n required.\nA work permit must be issued & \n the test staff must be qualified and carry the suitable safety category..\nThe generator must be out of \n service.\nTools and Equipment\nSecondary injection test set.\nTest plug handle.\nTest leads.\nVoltmeter.\nWork to be Carried Out\nPreparation\nMake sure PT secondary circuit are opened at the incoming terminal blocks \n before isolating the relay voltage circuit for test\nObtain copy of relay setting from \n field maintenance file and compare it with the setting on the relay.\nTesting the Relay\nConnect the test leads between \n the voltage terminals ( 9 10 ). see figure 1\nConnect the test leads between \n the trip contact ( 1 2 )\nMake a short connection \n between terminals ( 3 4 ) .\nIncrease the volt slowly until \n the relay picks up and the target appears .\nKeep the pick up voltage value \n until the relay trips .\nRecord the voltage value & the \n time value in the test sheet .\nReturn Relay and associated Equipment into \nService\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nDisconnect the test leads from the terminals ( 9 - 10 ).\nDisconnect the test leads from the trip contact ( 1 - 2 ).\nTake off the short connection from terminals ( \n3 - 4 ).\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nDisconnect the test leads from the terminals ( 9 - 10 ).\nDisconnect the test leads from the trip contact ( 1 - 2 ).\nTake off the short connection from terminals ( \n3 - 4 ).\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet for Field Ground Relay\nUnit No. :\nRelay Type \n : Relay \nVoltage :\nRelay Model \n: Relay Contact \n:\nShorted Terminal : Injected Voltage \n:\nInjected Terminal | Injected Voltage | Measured Time\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\n Tested by : Signature : Last \nTest Date: / \n/\nReviewed by : Signature : \nTest Date : / / \n Approved by \n: Signature :\n* Short Fingers (Trip Contact)\nFigure (1) : (0246A6971-4) \nInternal connections (front view) for PJG12B",
  "text_truncated": false,
  "links": [],
  "images": [
