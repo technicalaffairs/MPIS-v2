@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -40,6 +42,64 @@
   {
    "type": "paragraph",
    "text": "Technical Specification"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Name of Pump",
+     "Mazout \n Unloading Pump"
+    ],
+    [
+     "No. of Pumps",
+     "4"
+    ],
+    [
+     "Pump Type",
+     "GTS133 -100FBEM/ 012"
+    ],
+    [
+     "Pump speed",
+     "1450 \n RPM"
+    ],
+    [
+     "Press. delivery",
+     "78 \n PSI"
+    ],
+    [
+     "Delivered quantity",
+     "600 \n GPM"
+    ],
+    [
+     "Temp Range",
+     "300 - 400 oF"
+    ],
+    [
+     "Motor Power",
+     "57.3 \n HP"
+    ],
+    [
+     "Flexible Coupling Type",
+     "Falk 60 T"
+    ],
+    [
+     "Shaft Seal Type",
+     "Packing"
+    ],
+    [
+     "Lubrication",
+     "Mobil gear 629 or gulf lube HD30"
+    ],
+    [
+     "Grease",
+     "Moblilux \n grease No. 2 or gulf crowm grease 2"
+    ],
+    [
+     "Manufacture",
+     "Transamerica Delaval IMO Pump Division USA"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -181,12 +241,34 @@
    "text": "Assembly of the Pump"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Lube WT ( I b )",
+     "0.19"
+    ],
+    [
+     "Operating \n Alignment Limits ( Inch )",
+     "< \n 0.005"
+    ],
+    [
+     "Gap Of Coupling ( \n Inch )",
+     "0.125"
+    ],
+    [
+     "Cover Bolt Torque \n ( I b In )",
+     "200"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "list",
    "items": [
     "Clean every parts well",
     "Assembly every part in reverse \n sequence of disassembly.",
     "After finishing assembly of the\n pump it must be rotated by hand.",
-    "200"
+    "Realign the pump and motor according \n to the following table:"
    ]
   },
   {
@@ -213,85 +295,83 @@
    "text": "Legend \nTable"
   },
   {
-   "type": "heading",
-   "level": 2,
-   "text": "Designation"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Designation"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
-     "",
+     "Item",
+     "Designation",
+     "Item",
+     "Designation",
+     "Item",
+     "Designation"
+    ],
+    [
+     "1",
+     "Case",
      "17",
-     "",
+     "Ball bearing",
      "33",
      "Spacer"
     ],
     [
-     "",
-     "",
+     "2",
+     "Gasket",
      "18",
      "Ball bearing",
      "34",
      "Key"
     ],
     [
-     "",
-     "",
+     "3",
+     "Spacer",
      "19",
      "Support Washer",
      "35",
      "Drive Gear"
     ],
     [
-     "",
-     "",
+     "4",
+     "Rabbet Ring",
      "20",
      "Retaining ring",
      "36",
      "Drive Gear"
     ],
     [
-     "",
-     "",
+     "5",
+     "Cap screw",
      "21",
      "Sleeve",
      "37",
      "Bushing"
     ],
     [
-     "",
-     "",
+     "6",
+     "Intermediate In Board \n Cover",
      "22",
      "Inboard Washer",
      "38",
      "Out board Washer"
     ],
     [
-     "",
-     "",
+     "7",
+     "Intermediate Out Board \n Cover",
      "23",
      "Lock Washer",
      "39",
      "Washer"
     ],
     [
-     "",
-     "",
+     "8",
+     "Gasket",
      "24",
      "Bolt",
      "40",
-     ""
+     "Lock Washer"
     ],
     [
      "9",
-     "",
+     "Cap screw",
      "25",
      "O-ring",
      "41",
@@ -299,7 +379,7 @@
     ],
     [
      "10",
-     "",
+     "Washer",
      "26",
      "O-ring",
      "42",
@@ -307,7 +387,7 @@
     ],
     [
      "11",
-     "",
+     "Nut",
      "27",
      "Bearing Retainer",
      "43",
@@ -315,7 +395,7 @@
     ],
     [
      "12",
-     "",
+     "Drive Shaft",
      "28",
      "Bearing Retainer",
      "44",
@@ -323,7 +403,7 @@
     ],
     [
      "13",
-     "",
+     "Driven Shaft",
      "29",
      "Bolt",
      "45",
@@ -331,7 +411,7 @@
     ],
     [
      "14",
-     "",
+     "O ring",
      "30",
      "Lip Seal",
      "46",
@@ -339,7 +419,7 @@
     ],
     [
      "15",
-     "",
+     "Lip Seal",
      "31",
      "Roller Bearing",
      "47",
@@ -347,7 +427,7 @@
     ],
     [
      "16",
-     "",
+     "Shim",
      "32",
      "Retaining ring",
      "48",
@@ -369,6 +449,86 @@
    "text": "Trouble Shooting"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Trouble",
+     "Possible Reasons",
+     "Remedy"
+    ],
+    [
+     "1. Loss of Flow",
+     "System component malfunction",
+     "Inspect all system components and \n correct malfunction make sure all valve are in their proper position and suction and discharge line are open"
+    ],
+    [
+     "",
+     "Incorrect pump rotation",
+     "Shut down immediately. \n Imo Pump are unidirectional and extended reverse rotation can cause damage. \n Reveres the direction of the driver"
+    ],
+    [
+     "",
+     "Loss of prime or boost pressure",
+     "Shut down the pump \n repine the pump and restart repeat until pump primes. \n Check boost system for malfunction"
+    ],
+    [
+     "",
+     "Air leak in suction",
+     "Symptoms are form in the fluid and noise. Reseal and tighten all joints in suction line"
+    ],
+    [
+     "",
+     "Low oil level in reservoir",
+     "May be accompanied by noise and air in the fluid fill reservoir to proper level be sure intake is for enough below the minimum fluid level to prevent vortex"
+    ],
+    [
+     "",
+     "In sufficient inlet",
+     "May be accompanied by noise \n may be caused by high fluid viscosity on cold start. Check suction line for blockage, closed valve or foot valve, clogged strainer. Check for plugged breather in tank"
+    ],
+    [
+     "",
+     "Mechanical trouble",
+     "Loss coupling, broken \n shaft, failed pump, may be accompanied by noise or vibration locate and correct cause"
+    ],
+    [
+     "2. Noisy or vibration Pump",
+     "Insufficient inlet pressure",
+     "May be pump speed excessive"
+    ],
+    [
+     "Air in fluid",
+     "Check for leak in suction line low fluid level vortex at inlet to suction line, or return lines above fluid level"
+    ],
+    [
+     "Pump not aligned",
+     "Realign the pump. Misalignment \n may also be caused be temperature variation"
+    ],
+    [
+     "Mechanical problems",
+     "Loose or mis-positioned coupling broken shaft, bad bearing"
+    ],
+    [
+     "3. Excessive Power \n Consumption",
+     "Pump speed excessive",
+     "Reduce pump rotational speed"
+    ],
+    [
+     "High fluid viscosity",
+     "Reduce viscosity by temperature control of fluid"
+    ],
+    [
+     "High pressure",
+     "Checks for blockage of \n discharge line from the pump"
+    ],
+    [
+     "Mechanical",
+     "Bent shaft, tight pacing pipe strain, failed pump locate and correct cause"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Operation of the Pump"
   },
@@ -380,7 +540,7 @@
    ]
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, which \nperformed on an annually bases or \nat any troubles accrues \nas indicated by Y1 in the title block.\nThe function of Mazout (screw pump) \nfuel oil unloading pump:\ntransferring Mazout from pipes to storage tanks.\nThe first draft is initiated by eng. Emad El \ndin Ali Elbana, reviewed by eng. Sadek Massoad, revised by EDEPC inspection & \nquality control eng. Samir Abd El- Gelil, approved by general manager eng. Mokhter Abd Ellatif, \n and certified by eng. Aly Mostafa El-Lethy: EDEPC inspection \n& quality control head sector.\nTechnical Specification\nSafety Precautions\nA work permit \n must be issued and the qualified maintenance staff should carry the suitable \n safety category,\nSafety fence with caution marks must be surrounding the work area isrequired,\nWear safety \n and healthy equipment as safety helmet, safety shoes ... etc\nIsolate the circuit \n breaker for Motor of this Pump.\nIsolate the electrical \n cable bearing of the motor of this pump\nThe pump \n must be isolated mechanically by closing suction and delivery valves \n and drain it.\nA work permit \n must be issued and the qualified maintenance staff should carry the suitable \n safety category,\nIsolate the circuit \n breaker for Motor of this Pump.\nIsolate the electrical \n cable bearing of the motor of this pump\nThe pump \n must be isolated mechanically by closing suction and delivery valves \n and drain it.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid, and\n suitable lifting device.\nManual puller, feeler gauge.\nLessen set screws, and grease.\nWork to be Carried Out\nDisassembly \nof the Pump\nRemove pump from driver coupling, \n mounting bracket remove bottom plug (45) from out board geas cover (43) and \n drain lubricating oil remove plugs (46) and drain pump.\nlock drive shaft (12) at in board end of \n pump to avoid rotation of shafts.\nRemove drive (44) gear cover subassembly \n (43) and gasket (42).\nRemove drive gear bolt (24) with lock \n washer (23) and out board washer (38)\n Note: Insert a \n soft metal rod copper or brass between gear teeth to prevent shaft rotation.\nUsing a gear puller remove drive gear \n (35) key (34)\nRemove drives gear bolt (24) with lock \n washer (23) and out board washer (38)\nUse a gear puller remove drive gear (36) \n with bushing (37), washer (39), lock washer (40), and bolt (41) remove key \n (34).\nSlide gear spacers (33) from drive and \n driven shaft (12) and (13) remove retaining rings (32) from intermediate out \n board cover (7) .\nRemove packing from shaft (12) and (13) \n in free end.\nRemove must (11) with washers (10) insert \n two jacking bolts into intermediate out board cover (7) and Remove cover (7) \n and also remove roller bearing (35) and lip seals (15) .\nRemove bolts (29) and washers bearing \n retainer (28) with O ring (25) and bearing retainer (27) with O ring (26).\nRemove lip seal (30)form bearing \n retainers (27) Remove O rings (25) and (26) bearing retainers (27) ,(28).\nSlide sleeve (21) form drive shaft (12) \n remove retaining ring(20) and shim(48) form drive shaft (12) .\nRemove bolt (24) with lock washer (23) \n and in board washer .(22) form drive shaft (13) .\nRemove packing form shaft(12)and (13) in \n the drive end.\nRemove nuts (11) with washers (10) form \n in intermediate in board cover (6) insert two (2) jacking bolts into cover \n (6) and remove cover (6) remove bolt bearing(17) and (18) shim (16) and wash \n support (19) and lip seal (15) from shaft (12) and (13) .\nSlide O rings (14) from shaft (12) and \n (13) .\nRemove cap screws (5) and spacers (3) \n with rabbet ring (4) form in board out board ends of pump remove gasket (2) \n from case (1)\nRemove shaft (12) , (13) from case (1)\nInspection of the Pump \nParts\nCheck ball bearing (27) and \n renewed if \n necessary\nCheck ball bearing (28) and \n renewed if \n necessary\nCheck Roller bearing (31) \n and renewed if \n necessary.\nCheck casing (1)\nCheck spacer (3) and renewed if it needed\nCheck intermediate inboard cover (6)\nCheck intermediate inboard cover (7)\nCheck drive shaft (12) and renewed if \n necessary.\nCheck drive shaft (13) and renewed if \n necessary\nCheck ball bearing (17) and renewed if \n necessary\nCheck ball bearing (18) and renewed if \n necessary\nCheck ball bearing (27) and \n renewed if \n necessary\nCheck ball bearing (28) and \n renewed if \n necessary\nCheck Roller bearing (31) \n and renewed if \n necessary.\nCheck Retaining ring (32) and \n renewed\n if \n necessary.\nCheck drive gear (35) and Check driven gear (36)\nPreparing for Assembly\nChange all Gasket and all O-ring\nChange Rabbet ring (4)\nChange Shim (16)\nChange Sleeve (21)\nChange Spacer (33)\nChange Bushing (37)\nChange Shim (48)\nAssembly of the Pump\nClean every parts well\nAssembly every part in reverse \n sequence of disassembly.\nAfter finishing assembly of the\n pump it must be rotated by hand.\n200\nOperation of the Pump\nOperate the pump by coordination \n with the shift engineer.\nEnsure that the pump is OK and record the \n readings of pressure, temp., vibration, according to the technical \n specification table at introduction, and compare with the previous reading.\nLocation: Equipment code:\nChecked by \nSignature: Date :\nGTS 133 - 100\nLegend \nTable\nDesignation\nDesignation\n\nTrouble Shooting\nOperation of the Pump\nOperate the pump by coordination \n with the shift engineer.\nEnsure that the pump is OK and record the \n readings of pressure, temp., vibration, according to the technical \n specification table at introduction, and compare with the previous reading.",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, which \nperformed on an annually bases or \nat any troubles accrues \nas indicated by Y1 in the title block.\nThe function of Mazout (screw pump) \nfuel oil unloading pump:\ntransferring Mazout from pipes to storage tanks.\nThe first draft is initiated by eng. Emad El \ndin Ali Elbana, reviewed by eng. Sadek Massoad, revised by EDEPC inspection & \nquality control eng. Samir Abd El- Gelil, approved by general manager eng. Mokhter Abd Ellatif, \n and certified by eng. Aly Mostafa El-Lethy: EDEPC inspection \n& quality control head sector.\nTechnical Specification\nName of Pump | Mazout \n Unloading Pump\nNo. of Pumps | 4\nPump Type | GTS133 -100FBEM/ 012\nPump speed | 1450 \n RPM\nPress. delivery | 78 \n PSI\nDelivered quantity | 600 \n GPM\nTemp Range | 300 - 400 oF\nMotor Power | 57.3 \n HP\nFlexible Coupling Type | Falk 60 T\nShaft Seal Type | Packing\nLubrication | Mobil gear 629 or gulf lube HD30\nGrease | Moblilux \n grease No. 2 or gulf crowm grease 2\nManufacture | Transamerica Delaval IMO Pump Division USA\nSafety Precautions\nA work permit \n must be issued and the qualified maintenance staff should carry the suitable \n safety category,\nSafety fence with caution marks must be surrounding the work area isrequired,\nWear safety \n and healthy equipment as safety helmet, safety shoes ... etc\nIsolate the circuit \n breaker for Motor of this Pump.\nIsolate the electrical \n cable bearing of the motor of this pump\nThe pump \n must be isolated mechanically by closing suction and delivery valves \n and drain it.\nA work permit \n must be issued and the qualified maintenance staff should carry the suitable \n safety category,\nIsolate the circuit \n breaker for Motor of this Pump.\nIsolate the electrical \n cable bearing of the motor of this pump\nThe pump \n must be isolated mechanically by closing suction and delivery valves \n and drain it.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid, and\n suitable lifting device.\nManual puller, feeler gauge.\nLessen set screws, and grease.\nWork to be Carried Out\nDisassembly \nof the Pump\nRemove pump from driver coupling, \n mounting bracket remove bottom plug (45) from out board geas cover (43) and \n drain lubricating oil remove plugs (46) and drain pump.\nlock drive shaft (12) at in board end of \n pump to avoid rotation of shafts.\nRemove drive (44) gear cover subassembly \n (43) and gasket (42).\nRemove drive gear bolt (24) with lock \n washer (23) and out board washer (38)\n Note: Insert a \n soft metal rod copper or brass between gear teeth to prevent shaft rotation.\nUsing a gear puller remove drive gear \n (35) key (34)\nRemove drives gear bolt (24) with lock \n washer (23) and out board washer (38)\nUse a gear puller remove drive gear (36) \n with bushing (37), washer (39), lock washer (40), and bolt (41) remove key \n (34).\nSlide gear spacers (33) from drive and \n driven shaft (12) and (13) remove retaining rings (32) from intermediate out \n board cover (7) .\nRemove packing from shaft (12) and (13) \n in free end.\nRemove must (11) with washers (10) insert \n two jacking bolts into intermediate out board cover (7) and Remove cover (7) \n and also remove roller bearing (35) and lip seals (15) .\nRemove bolts (29) and washers bearing \n retainer (28) with O ring (25) and bearing retainer (27) with O ring (26).\nRemove lip seal (30)form bearing \n retainers (27) Remove O rings (25) and (26) bearing retainers (27) ,(28).\nSlide sleeve (21) form drive shaft (12) \n remove retaining ring(20) and shim(48) form drive shaft (12) .\nRemove bolt (24) with lock washer (23) \n and in board washer .(22) form drive shaft (13) .\nRemove packing form shaft(12)and (13) in \n the drive end.\nRemove nuts (11) with washers (10) form \n in intermediate in board cover (6) insert two (2) jacking bolts into cover \n (6) and remove cover (6) remove bolt bearing(17) and (18) shim (16) and wash \n support (19) and lip seal (15) from shaft (12) and (13) .\nSlide O rings (14) from shaft (12) and \n (13) .\nRemove cap screws (5) and spacers (3) \n with rabbet ring (4) form in board out board ends of pump remove gasket (2) \n from case (1)\nRemove shaft (12) , (13) from case (1)\nInspection of the Pump \nParts\nCheck ball bearing (27) and \n renewed if \n necessary\nCheck ball bearing (28) and \n renewed if \n necessary\nCheck Roller bearing (31) \n and renewed if \n necessary.\nCheck casing (1)\nCheck spacer (3) and renewed if it needed\nCheck intermediate inboard cover (6)\nCheck intermediate inboard cover (7)\nCheck drive shaft (12) and renewed if \n necessary.\nCheck drive shaft (13) and renewed if \n necessary\nCheck ball bearing (17) and renewed if \n necessary\nCheck ball bearing (18) and renewed if \n necessary\nCheck ball bearing (27) and \n renewed if \n necessary\nCheck ball bearing (28) and \n renewed if \n necessary\nCheck Roller bearing (31) \n and renewed if \n necessary.\nCheck Retaining ring (32) and \n renewed\n if \n necessary.\nCheck drive gear (35) and Check driven gear (36)\nPreparing for Assembly\nChange all Gasket and all O-ring\nChange Rabbet ring (4)\nChange Shim (16)\nChange Sleeve (21)\nChange Spacer (33)\nChange Bushing (37)\nChange Shim (48)\nAssembly of the Pump\nLube WT ( I b ) | 0.19\nOperating \n Alignment Limits ( Inch ) | < \n 0.005\nGap Of Coupling ( \n Inch ) | 0.125\nCover Bolt Torque \n ( I b In ) | 200\nClean every parts well\nAssembly every part in reverse \n sequence of disassembly.\nAfter finishing assembly of the\n pump it must be rotated by hand.\nRealign the pump and motor according \n to the following table:\nOperation of the Pump\nOperate the pump by coordination \n with the shift engineer.\nEnsure that the pump is OK and record the \n readings of pressure, temp., vibration, according to the technical \n specification table at introduction, and compare with the previous reading.\nLocation: Equipment code:\nChecked by \nSignature: Date :\nGTS 133 - 100\nLegend \nTable\nItem | Designation | Item | Designation | Item | Designation\n1 | Case | 17 | Ball bearing | 33 | Spacer\n2 | Gasket | 18 | Ball bearing | 34 | Key\n3 | Spacer | 19 | Support Washer | 35 | Drive Gear\n4 | Rabbet Ring | 20 | Retaining ring | 36 | Drive Gear\n5 | Cap screw | 21 | Sleeve | 37 | Bushing\n6 | Intermediate In Board \n Cover | 22 | Inboard Washer | 38 | Out board Washer\n7 | Intermediate Out Board \n Cover | 23 | Lock Washer | 39 | Washer\n8 | Gasket | 24 | Bolt | 40 | Lock Washer\n9 | Cap screw | 25 | O-ring | 41 | Bolt\n10 | Washer | 26 | O-ring | 42 | Gasket\n11 | Nut | 27 | Bearing Retainer | 43 | Gear Cover Sub - Assembly\n12 | Drive Shaft | 28 | Bearing Retainer | 44 | Nut\n13 | Driven Shaft | 29 | Bolt | 45 | Plug\n14 | O ring | 30 | Lip Seal | 46 | Plug\n15 | Lip Seal | 31 | Roller Bearing | 47 | Set screw\n16 | Shim | 32 | Retaining ring | 48 | Shim\n |  |  |  | 49 | Packing Cover Sub - Assembly\nTrouble Shooting\nTrouble | Possible Reasons | Remedy\n1. Loss of Flow | System component malfunction | Inspect all system components and \n correct malfunction make sure all valve are in their proper position and suction and discharge line are open\n | Incorrect pump rotation | Shut down immediately. \n Imo Pump are unidirectional and extended reverse rotation can cause damage. \n Reveres the direction of the driver\n | Loss of prime or boost pressure | Shut down the pump \n repine the pump and restart repeat until pump primes. \n Check boost system for malfunction\n | Air leak in suction | Symptoms are form in the fluid and noise. Reseal and tighten all joints in suction line\n | Low oil level in reservoir | May be accompanied by noise and air in the fluid fill reservoir to proper level be sure intake is for enough below the minimum fluid level to prevent vortex\n | In sufficient inlet | May be accompanied by noise \n may be caused by high fluid viscosity on cold start. Check suction line for blockage, closed valve or foot valve, clogged strainer. Check for plugged breather in tank\n | Mechanical trouble | Loss coupling, broken \n shaft, failed pump, may be accompanied by noise or vibration locate and correct cause\n2. Noisy or vibration Pump | Insufficient inlet pressure | May be pump speed excessive\nAir in fluid | Check for leak in suction line low fluid level vortex at inlet to suction line, or return lines above fluid level\nPump not aligned | Realign the pump. Misalignment \n may also be caused be temperature variation\nMechanical problems | Loose or mis-positioned coupling broken shaft, bad bearing\n3. Excessive Power \n Consumption | Pump speed excessive | Reduce pump rotational speed\nHigh fluid viscosity | Reduce viscosity by temperature control of fluid\nHigh pressure | Checks for blockage of \n discharge line from the pump\nMechanical | Bent shaft, tight pacing pipe strain, failed pump locate and correct cause\nOperation of the Pump\nOperate the pump by coordination \n with the shift engineer.\nEnsure that the pump is OK and record the \n readings of pressure, temp., vibration, according to the technical \n specification table at introduction, and compare with the previous reading.",
  "text_truncated": false,
  "links": [],
  "images": [

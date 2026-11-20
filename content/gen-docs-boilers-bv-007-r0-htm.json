@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Electric Gate Valve"
-  },
-  {
-   "type": "paragraph",
-   "text": "MOSTRO S 41 123"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -48,6 +42,60 @@
   {
    "type": "paragraph",
    "text": "Technical specification of equipment"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type of valve",
+     "MOSTRO S 41 123"
+    ],
+    [
+     "Kind",
+     "Gate"
+    ],
+    [
+     "Drive",
+     "Electric"
+    ],
+    [
+     "Manufacture",
+     "INTER SIGMA"
+    ],
+    [
+     "Country",
+     "CZECH"
+    ],
+    [
+     "PN",
+     "160,250,320,400"
+    ],
+    [
+     "Temperature ( C )",
+     "200 : 525"
+    ],
+    [
+     "Medium",
+     "Water steam"
+    ],
+    [
+     "Joint",
+     "Welding"
+    ],
+    [
+     "Cold \n test pressure (Kg/Cm)",
+     "Nominal Pressure (PN)"
+    ],
+    [
+     "320",
+     "400"
+    ],
+    [
+     "480",
+     "600"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -433,56 +481,111 @@
    "text": "Trouble Shouting"
   },
   {
-   "type": "paragraph",
-   "text": "Sealing surfaces"
-  },
-  {
-   "type": "paragraph",
-   "text": "Seat grinding"
+   "type": "table",
+   "rows": [
+    [
+     "Trouble",
+     "Possible Reasons",
+     "Remedy"
+    ],
+    [
+     "1. Leakage",
+     "Sealing surfaces \n Seat damaged by foreign object or \n by flowing substance.",
+     "Seat grinding \n Replacement of damage part."
+    ],
+    [
+     "2. \n Broken packing \n cover\n (stuffing box follower)",
+     "Squeezing of soft seal ring due to \n fluctuating temperatures.",
+     "Replacements of the packing cover."
+    ],
+    [
+     "Loosened bolts of the cover due to \n piping vibration.",
+     "Retighten the bolts."
+    ],
+    [
+     "3. Leakage \n packing",
+     "Worn packing",
+     "Adequate tightening of bolts."
+    ],
+    [
+     "Packing dried up.",
+     "Replacement of the packing."
+    ],
+    [
+     "4. Defect \n in electric servomotor",
+     "Defect in limit switches",
+     "Readjust limit switches."
+    ],
+    [
+     "Defect in moment switches.",
+     "Readjust moment switches."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Table No. (1) Recommended \nFiller Materials"
   },
   {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "KbIX"
-  },
-  {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "KbIX"
-  },
-  {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B302"
-  },
-  {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B312"
-  },
-  {
-   "type": "paragraph",
-   "text": "G315/GMoCr14"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B321"
+   "type": "table",
+   "rows": [
+    [
+     "Valve Material",
+     "Weld Wire",
+     "DIN",
+     "AWS",
+     "Electrode",
+     "DIN",
+     "AWS"
+    ],
+    [
+     "11416.1",
+     "UnionIMo",
+     "SGMo",
+     "ER\n 80S-G",
+     "E-B121",
+     "KbIX\n S/245/26",
+     "E7016"
+    ],
+    [
+     "12022.1",
+     "UnionIMo",
+     "SGMo",
+     "ER\n 80S-G",
+     "E-B121",
+     "KbIX\n S/245/26",
+     "E7016"
+    ],
+    [
+     "15020.1",
+     "UnionIMo",
+     "SGMo",
+     "ER\n 80S-G",
+     "E-B302\n E.MO-48",
+     "EkbMo",
+     "E7018-A1"
+    ],
+    [
+     "15121.5",
+     "UnionICrMo",
+     "SGCrMo1",
+     "ER\n 80S-G",
+     "E-B312\n E-CrMo-14B",
+     "EkbCrMo1",
+     "E8018-B2"
+    ],
+    [
+     "15128.5",
+     "G315/GMoCr14\n UnionIMoV2",
+     "SGMoV",
+     "",
+     "E-B321\n E-CrMoV-14B",
+     "EkbCrMo2/26",
+     "E9016-B3"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -491,9 +594,294 @@
   {
    "type": "paragraph",
    "text": "LEGEND of FIG (1)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "No.",
+     "NAME",
+     "Material",
+     "Standard"
+    ],
+    [
+     "I-III",
+     "I-III",
+     "IV-X"
+    ],
+    [
+     "1",
+     "Body",
+     "",
+     "15128.9",
+     "15128.9",
+     ""
+    ],
+    [
+     "2",
+     "Nipple",
+     "",
+     "15128.9",
+     "15128.9",
+     ""
+    ],
+    [
+     "3",
+     "Hand wheel",
+     "26",
+     ""
+    ],
+    [
+     "4",
+     "Saddle",
+     "",
+     "15",
+     ""
+    ],
+    [
+     "5",
+     "Pressure tight cover",
+     "",
+     "15128.1",
+     "15128.1",
+     ""
+    ],
+    [
+     "6",
+     "Schafting",
+     "",
+     "15",
+     ""
+    ],
+    [
+     "7",
+     "Wedge",
+     "",
+     "15128.1",
+     ""
+    ],
+    [
+     "8",
+     "Spindle",
+     "",
+     "17",
+     "15",
+     ""
+    ],
+    [
+     "9",
+     "Yoke",
+     "",
+     "422643.1",
+     "422744.1",
+     ""
+    ],
+    [
+     "10",
+     "Spindle nut",
+     "423046.0",
+     ""
+    ],
+    [
+     "11",
+     "Sleeve",
+     "11",
+     ""
+    ],
+    [
+     "12",
+     "Gland follower",
+     "",
+     "27",
+     ""
+    ],
+    [
+     "13",
+     "Pin",
+     "11",
+     ""
+    ],
+    [
+     "14",
+     "Bush",
+     "14",
+     ""
+    ],
+    [
+     "15",
+     "Ring",
+     "",
+     "12",
+     "15",
+     ""
+    ],
+    [
+     "16",
+     "Divided ring",
+     "",
+     "15128.9",
+     "15128.9",
+     ""
+    ],
+    [
+     "17",
+     "Plate",
+     "",
+     "26(11)",
+     "27(15)",
+     ""
+    ],
+    [
+     "18",
+     "Nut",
+     "11",
+     ""
+    ],
+    [
+     "20",
+     "Dust seal ring",
+     "Felt",
+     ""
+    ],
+    [
+     "21",
+     "Bolt",
+     "15",
+     ""
+    ],
+    [
+     "22",
+     "Bolt",
+     "11",
+     ""
+    ],
+    [
+     "23",
+     "Nut",
+     "15",
+     "CSN31530.3"
+    ],
+    [
+     "24",
+     "Nut",
+     "",
+     "CSN 02 1401.51"
+    ],
+    [
+     "25",
+     "Lubricator",
+     "",
+     "CSN 02 7410"
+    ],
+    [
+     "26",
+     "Ball bearing",
+     "",
+     "CSN 02 4731"
+    ],
+    [
+     "27",
+     "Sealing material",
+     "PD 005/5",
+     ""
+    ],
+    [
+     "28",
+     "Sealing ring",
+     "",
+     "PD 005/1",
+     "PD005/5",
+     ""
+    ],
+    [
+     "29",
+     "Flange",
+     "15",
+     ""
+    ],
+    [
+     "30",
+     "Gear wheel",
+     "12",
+     ""
+    ],
+    [
+     "31",
+     "Bearing",
+     "18",
+     ""
+    ],
+    [
+     "32",
+     "Box",
+     "24",
+     ""
+    ],
+    [
+     "33",
+     "Electric drive",
+     "Type MODACT",
+     ""
+    ],
+    [
+     "34",
+     "Bolt",
+     "11",
+     ""
+    ],
+    [
+     "35",
+     "Bolt",
+     "15",
+     ""
+    ],
+    [
+     "36",
+     "Cover",
+     "24",
+     ""
+    ],
+    [
+     "37",
+     "Coupling",
+     "",
+     ""
+    ],
+    [
+     "38",
+     "Drive gear",
+     "12",
+     ""
+    ],
+    [
+     "39",
+     "Drive gear shaft",
+     "",
+     ""
+    ],
+    [
+     "40",
+     "Nut",
+     "",
+     ""
+    ],
+    [
+     "41",
+     "Gear",
+     "12",
+     ""
+    ],
+    [
+     "42",
+     "Bolt",
+     "11",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nEquipment:\n Electric Gate Valve\nMOSTRO S 41 123\nIntroduction\nThis document lists the \nmaintenance procedure of electric gate valve, depending on external / internal \nleakage.\nThis valve used as fully opening or closing completely (Open / closed only \n state)\nThe first draft initiated and \ntested by eng. Fawzy Ahmed Basuoni at 14 Jan 2004, accepted by General Director \neng. Saad Mostafa, revised by EDEPC eng. Samir Abdel-Gelil, and approved by eng. Awad \nMohammed Fathy Soliman Head Sector of Talkha power station.\nTechnical specification of equipment\nSafety Precautions\nA work permit must be issued and \n qualified maintenance staff should carry the suitable safety category.\nSafety fence with caution marks \nsurrounding the work area.\nWear your safety helmet, shoes, etc.\nIsolate valve mechanically and \nelectrically.\nDrain the pipeline, which connected to \nthis valve.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid.\nSuitable lifting device.\nWork to be Carried Out\nBefore Isolating the Valve \nMechanically & Electrically\nCheck any leakage from valve gland. If it \n found, retighten on gland bolts.\nCheck any leakage from the pressure tight \n cover. If it found retighten the cover nut.\nCheck any internal leakage.\nCheck any leakage from the valve bodies \n (cracks or mechanical wear). Remark the point of leakage.\nCheck the operation of the valve drive \n during closing/ opening of the valve.\nCheck any leakage from valve gland. If it \n found, retighten on gland bolts.\nCheck any leakage from the pressure tight \n cover. If it found retighten the cover nut.\nCheck any internal leakage.\nCheck any leakage from the valve bodies \n (cracks or mechanical wear). Remark the point of leakage.\nCheck the operation of the valve drive \n during closing/ opening of the valve.\nAfter Isolating the Valve \nMechanically & Electrically\nBe sure the valve was out of operation and the pressure inside \nthe pipeline connected to the valve must be zero from the two end of the valve.\nBe sure the pipeline is drained.\nBe sure the circuit breaker isolated for electric drive type.\nBe sure the valve was out of operation and the pressure inside \nthe pipeline connected to the valve must be zero from the two end of the valve.\nBe sure the pipeline is drained.\nBe sure the circuit breaker isolated for electric drive type.\nDisassembly the valve\nScrew off the nuts (24) of gland bolts \n(22).\nTake up gland follower (12).\nDismantle the sleeve (11) with glands \nbolt.\nScrew off nut (18).\nTake up plate (17) by using two \nwithdraws.\nTake out the dividing ring (16) and \ntake up the ring (15).\nTurn the hand wheel (3) to open it \nthen the end of spindle (8) pressed on the bottom of pressure tight cover (5) \nand take it up.\nScrew off the nuts (23) and bolts \n(21), which connected yoke (9) with nipple (2).\nTake out the yoke (9) with spindle \n(8), with wedge (7) with all parts above.\nTake out the wedge (7) from spindle \n(8).\nTurn the spindle ( 8 ) until goes out \nfrom spindle nut (10).\nTake out the gland follower (12) from \nspindle (8).\nWithdraws the spindle (8) from \npressure tight cover (5).\nTake out the sealing (27) and gland \nsealing (28) from pressure tight cover (5).\nScrew off bolt (34), which connected \nelectric drive (33) with box (32) .\nLift the electric drive with suitable \nlifting device.\nWithdraw the coupling half from the \ndrive gear shaft (38).\nScrew off bolts (35) and take out \ncover (36) of box (32) .\nTake out the gear drive (38) with its \nshaft (39) by hammering on the lower end.\nTakes out the bearing (31) of the gear \ndrive (38).\nScrew off the nut (40) and then take \nout gear (41).\nWith draw the gear wheel (30) from the \nspindle nut (10).\nTake out the \nbox (32).\nScrew \noff the bolts (42) and then take out flange (29).\nTake out the spindle nut (10) from \nyoke (9), bearing (26) and dust seal (20).\nScrew off the nuts (24) of gland bolts \n(22).\nTake up gland follower (12).\nDismantle the sleeve (11) with glands \nbolt.\nScrew off nut (18).\nTake up plate (17) by using two \nwithdraws.\nTake out the dividing ring (16) and \ntake up the ring (15).\nTurn the hand wheel (3) to open it \nthen the end of spindle (8) pressed on the bottom of pressure tight cover (5) \nand take it up.\nScrew off the nuts (23) and bolts \n(21), which connected yoke (9) with nipple (2).\nTake out the yoke (9) with spindle \n(8), with wedge (7) with all parts above.\nTake out the wedge (7) from spindle \n(8).\nTurn the spindle ( 8 ) until goes out \nfrom spindle nut (10).\nTake out the gland follower (12) from \nspindle (8).\nWithdraws the spindle (8) from \npressure tight cover (5).\nTake out the sealing (27) and gland \nsealing (28) from pressure tight cover (5).\nScrew off bolt (34), which connected \nelectric drive (33) with box (32) .\nLift the electric drive with suitable \nlifting device.\nWithdraw the coupling half from the \ndrive gear shaft (38).\nScrew off bolts (35) and take out \ncover (36) of box (32) .\nTake out the gear drive (38) with its \nshaft (39) by hammering on the lower end.\nTakes out the bearing (31) of the gear \ndrive (38).\nScrew off the nut (40) and then take \nout gear (41).\nWith draw the gear wheel (30) from the \nspindle nut (10).\nTake out the \nbox (32).\nScrew \noff the bolts (42) and then take out flange (29).\nTake out the spindle nut (10) from \nyoke (9), bearing (26) and dust seal (20).\nInspection and Repair of all Parts\nCheck the valve wedge (7) and regrind \nthe sealing surface of it if needed.\nCheck the valve seat (saddle) (4) and \nregrind it if needed. When grinding the seats of the movers, attention must be \npaid to maintaining the angles of the sealing surfaces. In order to secure the \nmover function it is not allowed to reduce the seat parts by more than 0.8 mm in \ntotal (not more than 0.4 mm for one surface).\nRepair the valve wedge (7) and valve \nseats (4) in a specialist workshop if grinding can not repair the wear in there.\nCheck the spindle (8) and repair it if \nneeded or replace it.\nCheck the spindles nut (10) and repair \nit if needed or replace it.\nCheck the bearing (26) and replace it \nif needed.\nCheck the dust seal rings (20) and \nreplace them if needed.\nCheck the bush (14) and repair it if \nneeded or replace it.\nCheck the coupling insert and replaced \nif it needed.\nCheck the gears (38) , (41) , (30) \nand bearing (31).\nCheck the body (1), nipple (25) from \nany cracks or wear by using penetration fluids and repair it if found by using \nsuitable filler material or its equivalent acc. to table (1).\nIf the valve damaged, change it w.r.t. the material as stated in table 1\nCheck the valve wedge (7) and regrind \nthe sealing surface of it if needed.\nCheck the valve seat (saddle) (4) and \nregrind it if needed. When grinding the seats of the movers, attention must be \npaid to maintaining the angles of the sealing surfaces. In order to secure the \nmover function it is not allowed to reduce the seat parts by more than 0.8 mm in \ntotal (not more than 0.4 mm for one surface).\nRepair the valve wedge (7) and valve \nseats (4) in a specialist workshop if grinding can not repair the wear in there.\nCheck the spindle (8) and repair it if \nneeded or replace it.\nCheck the spindles nut (10) and repair \nit if needed or replace it.\nCheck the bearing (26) and replace it \nif needed.\nCheck the dust seal rings (20) and \nreplace them if needed.\nCheck the bush (14) and repair it if \nneeded or replace it.\nCheck the coupling insert and replaced \nif it needed.\nCheck the gears (38) , (41) , (30) \nand bearing (31).\nCheck the body (1), nipple (25) from \nany cracks or wear by using penetration fluids and repair it if found by using \nsuitable filler material or its equivalent acc. to table (1).\nIf the valve damaged, change it w.r.t. the material as stated in table 1\nAssembly of Valve\nClean every part well before any \nassembly.\nAssembly the valve parts in reverse \nsequence of disassembly.\nClean every part well before any \nassembly.\nAssembly the valve parts in reverse \nsequence of disassembly.\nReplace the Packing of Valve Gland\nClean the stuffing box chamber and the \ncover well.\nLubricate the gland bolts and nuts.\nUse suitable size of packing.\nWire the suitable packing size on a \npart of shaft with the same diameter of valve spindle.\nCut all packing rings along the shaft \nby using sharp knife.\nFit the rings in the stuffing box \nchamber with the cut turned 180 , \nstarting at 9 clock.\nTighten the gland bolts.\nOpen \nand close the valve and be sure that the valve operation is correct.\nClean the stuffing box chamber and the \ncover well.\nLubricate the gland bolts and nuts.\nUse suitable size of packing.\nWire the suitable packing size on a \npart of shaft with the same diameter of valve spindle.\nCut all packing rings along the shaft \nby using sharp knife.\nFit the rings in the stuffing box \nchamber with the cut turned 180 , \nstarting at 9 clock.\nTighten the gland bolts.\nOpen \nand close the valve and be sure that the valve operation is correct.\nIf you need any \nhelp please go to the operating instruction for repairs and maintenance D-4.\nAfter \nsuccessfully assembly coordinate with the shift operation engineer to test the \nvalve to check that every thing is OK\nNotes: \n...............................................\n.....................................................................\nLocation: Valve Tag No.: \nTest Date: \nTested by: \nSignature:\nTrouble Shouting\nSealing surfaces\nSeat grinding\nTable No. (1) Recommended \nFiller Materials\nER\nKbIX\nER\nKbIX\nER\nE-B302\nER\nE-B312\nG315/GMoCr14\nE-B321\nFigure (1): Valve type MOSTRO S 41 123\nLEGEND of FIG (1)",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document lists the \nmaintenance procedure of electric gate valve, depending on external / internal \nleakage.\nThis valve used as fully opening or closing completely (Open / closed only \n state)\nThe first draft initiated and \ntested by eng. Fawzy Ahmed Basuoni at 14 Jan 2004, accepted by General Director \neng. Saad Mostafa, revised by EDEPC eng. Samir Abdel-Gelil, and approved by eng. Awad \nMohammed Fathy Soliman Head Sector of Talkha power station.\nTechnical specification of equipment\nType of valve | MOSTRO S 41 123\nKind | Gate\nDrive | Electric\nManufacture | INTER SIGMA\nCountry | CZECH\nPN | 160,250,320,400\nTemperature ( C ) | 200 : 525\nMedium | Water steam\nJoint | Welding\nCold \n test pressure (Kg/Cm) | Nominal Pressure (PN)\n320 | 400\n480 | 600\nSafety Precautions\nA work permit must be issued and \n qualified maintenance staff should carry the suitable safety category.\nSafety fence with caution marks \nsurrounding the work area.\nWear your safety helmet, shoes, etc.\nIsolate valve mechanically and \nelectrically.\nDrain the pipeline, which connected to \nthis valve.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid.\nSuitable lifting device.\nWork to be Carried Out\nBefore Isolating the Valve \nMechanically & Electrically\nCheck any leakage from valve gland. If it \n found, retighten on gland bolts.\nCheck any leakage from the pressure tight \n cover. If it found retighten the cover nut.\nCheck any internal leakage.\nCheck any leakage from the valve bodies \n (cracks or mechanical wear). Remark the point of leakage.\nCheck the operation of the valve drive \n during closing/ opening of the valve.\nCheck any leakage from valve gland. If it \n found, retighten on gland bolts.\nCheck any leakage from the pressure tight \n cover. If it found retighten the cover nut.\nCheck any internal leakage.\nCheck any leakage from the valve bodies \n (cracks or mechanical wear). Remark the point of leakage.\nCheck the operation of the valve drive \n during closing/ opening of the valve.\nAfter Isolating the Valve \nMechanically & Electrically\nBe sure the valve was out of operation and the pressure inside \nthe pipeline connected to the valve must be zero from the two end of the valve.\nBe sure the pipeline is drained.\nBe sure the circuit breaker isolated for electric drive type.\nBe sure the valve was out of operation and the pressure inside \nthe pipeline connected to the valve must be zero from the two end of the valve.\nBe sure the pipeline is drained.\nBe sure the circuit breaker isolated for electric drive type.\nDisassembly the valve\nScrew off the nuts (24) of gland bolts \n(22).\nTake up gland follower (12).\nDismantle the sleeve (11) with glands \nbolt.\nScrew off nut (18).\nTake up plate (17) by using two \nwithdraws.\nTake out the dividing ring (16) and \ntake up the ring (15).\nTurn the hand wheel (3) to open it \nthen the end of spindle (8) pressed on the bottom of pressure tight cover (5) \nand take it up.\nScrew off the nuts (23) and bolts \n(21), which connected yoke (9) with nipple (2).\nTake out the yoke (9) with spindle \n(8), with wedge (7) with all parts above.\nTake out the wedge (7) from spindle \n(8).\nTurn the spindle ( 8 ) until goes out \nfrom spindle nut (10).\nTake out the gland follower (12) from \nspindle (8).\nWithdraws the spindle (8) from \npressure tight cover (5).\nTake out the sealing (27) and gland \nsealing (28) from pressure tight cover (5).\nScrew off bolt (34), which connected \nelectric drive (33) with box (32) .\nLift the electric drive with suitable \nlifting device.\nWithdraw the coupling half from the \ndrive gear shaft (38).\nScrew off bolts (35) and take out \ncover (36) of box (32) .\nTake out the gear drive (38) with its \nshaft (39) by hammering on the lower end.\nTakes out the bearing (31) of the gear \ndrive (38).\nScrew off the nut (40) and then take \nout gear (41).\nWith draw the gear wheel (30) from the \nspindle nut (10).\nTake out the \nbox (32).\nScrew \noff the bolts (42) and then take out flange (29).\nTake out the spindle nut (10) from \nyoke (9), bearing (26) and dust seal (20).\nScrew off the nuts (24) of gland bolts \n(22).\nTake up gland follower (12).\nDismantle the sleeve (11) with glands \nbolt.\nScrew off nut (18).\nTake up plate (17) by using two \nwithdraws.\nTake out the dividing ring (16) and \ntake up the ring (15).\nTurn the hand wheel (3) to open it \nthen the end of spindle (8) pressed on the bottom of pressure tight cover (5) \nand take it up.\nScrew off the nuts (23) and bolts \n(21), which connected yoke (9) with nipple (2).\nTake out the yoke (9) with spindle \n(8), with wedge (7) with all parts above.\nTake out the wedge (7) from spindle \n(8).\nTurn the spindle ( 8 ) until goes out \nfrom spindle nut (10).\nTake out the gland follower (12) from \nspindle (8).\nWithdraws the spindle (8) from \npressure tight cover (5).\nTake out the sealing (27) and gland \nsealing (28) from pressure tight cover (5).\nScrew off bolt (34), which connected \nelectric drive (33) with box (32) .\nLift the electric drive with suitable \nlifting device.\nWithdraw the coupling half from the \ndrive gear shaft (38).\nScrew off bolts (35) and take out \ncover (36) of box (32) .\nTake out the gear drive (38) with its \nshaft (39) by hammering on the lower end.\nTakes out the bearing (31) of the gear \ndrive (38).\nScrew off the nut (40) and then take \nout gear (41).\nWith draw the gear wheel (30) from the \nspindle nut (10).\nTake out the \nbox (32).\nScrew \noff the bolts (42) and then take out flange (29).\nTake out the spindle nut (10) from \nyoke (9), bearing (26) and dust seal (20).\nInspection and Repair of all Parts\nCheck the valve wedge (7) and regrind \nthe sealing surface of it if needed.\nCheck the valve seat (saddle) (4) and \nregrind it if needed. When grinding the seats of the movers, attention must be \npaid to maintaining the angles of the sealing surfaces. In order to secure the \nmover function it is not allowed to reduce the seat parts by more than 0.8 mm in \ntotal (not more than 0.4 mm for one surface).\nRepair the valve wedge (7) and valve \nseats (4) in a specialist workshop if grinding can not repair the wear in there.\nCheck the spindle (8) and repair it if \nneeded or replace it.\nCheck the spindles nut (10) and repair \nit if needed or replace it.\nCheck the bearing (26) and replace it \nif needed.\nCheck the dust seal rings (20) and \nreplace them if needed.\nCheck the bush (14) and repair it if \nneeded or replace it.\nCheck the coupling insert and replaced \nif it needed.\nCheck the gears (38) , (41) , (30) \nand bearing (31).\nCheck the body (1), nipple (25) from \nany cracks or wear by using penetration fluids and repair it if found by using \nsuitable filler material or its equivalent acc. to table (1).\nIf the valve damaged, change it w.r.t. the material as stated in table 1\nCheck the valve wedge (7) and regrind \nthe sealing surface of it if needed.\nCheck the valve seat (saddle) (4) and \nregrind it if needed. When grinding the seats of the movers, attention must be \npaid to maintaining the angles of the sealing surfaces. In order to secure the \nmover function it is not allowed to reduce the seat parts by more than 0.8 mm in \ntotal (not more than 0.4 mm for one surface).\nRepair the valve wedge (7) and valve \nseats (4) in a specialist workshop if grinding can not repair the wear in there.\nCheck the spindle (8) and repair it if \nneeded or replace it.\nCheck the spindles nut (10) and repair \nit if needed or replace it.\nCheck the bearing (26) and replace it \nif needed.\nCheck the dust seal rings (20) and \nreplace them if needed.\nCheck the bush (14) and repair it if \nneeded or replace it.\nCheck the coupling insert and replaced \nif it needed.\nCheck the gears (38) , (41) , (30) \nand bearing (31).\nCheck the body (1), nipple (25) from \nany cracks or wear by using penetration fluids and repair it if found by using \nsuitable filler material or its equivalent acc. to table (1).\nIf the valve damaged, change it w.r.t. the material as stated in table 1\nAssembly of Valve\nClean every part well before any \nassembly.\nAssembly the valve parts in reverse \nsequence of disassembly.\nClean every part well before any \nassembly.\nAssembly the valve parts in reverse \nsequence of disassembly.\nReplace the Packing of Valve Gland\nClean the stuffing box chamber and the \ncover well.\nLubricate the gland bolts and nuts.\nUse suitable size of packing.\nWire the suitable packing size on a \npart of shaft with the same diameter of valve spindle.\nCut all packing rings along the shaft \nby using sharp knife.\nFit the rings in the stuffing box \nchamber with the cut turned 180 , \nstarting at 9 clock.\nTighten the gland bolts.\nOpen \nand close the valve and be sure that the valve operation is correct.\nClean the stuffing box chamber and the \ncover well.\nLubricate the gland bolts and nuts.\nUse suitable size of packing.\nWire the suitable packing size on a \npart of shaft with the same diameter of valve spindle.\nCut all packing rings along the shaft \nby using sharp knife.\nFit the rings in the stuffing box \nchamber with the cut turned 180 , \nstarting at 9 clock.\nTighten the gland bolts.\nOpen \nand close the valve and be sure that the valve operation is correct.\nIf you need any \nhelp please go to the operating instruction for repairs and maintenance D-4.\nAfter \nsuccessfully assembly coordinate with the shift operation engineer to test the \nvalve to check that every thing is OK\nNotes: \n...............................................\n.....................................................................\nLocation: Valve Tag No.: \nTest Date: \nTested by: \nSignature:\nTrouble Shouting\nTrouble | Possible Reasons | Remedy\n1. Leakage | Sealing surfaces \n Seat damaged by foreign object or \n by flowing substance. | Seat grinding \n Replacement of damage part.\n2. \n Broken packing \n cover\n (stuffing box follower) | Squeezing of soft seal ring due to \n fluctuating temperatures. | Replacements of the packing cover.\nLoosened bolts of the cover due to \n piping vibration. | Retighten the bolts.\n3. Leakage \n packing | Worn packing | Adequate tightening of bolts.\nPacking dried up. | Replacement of the packing.\n4. Defect \n in electric servomotor | Defect in limit switches | Readjust limit switches.\nDefect in moment switches. | Readjust moment switches.\nTable No. (1) Recommended \nFiller Materials\nValve Material | Weld Wire | DIN | AWS | Electrode | DIN | AWS\n11416.1 | UnionIMo | SGMo | ER\n 80S-G | E-B121 | KbIX\n S/245/26 | E7016\n12022.1 | UnionIMo | SGMo | ER\n 80S-G | E-B121 | KbIX\n S/245/26 | E7016\n15020.1 | UnionIMo | SGMo | ER\n 80S-G | E-B302\n E.MO-48 | EkbMo | E7018-A1\n15121.5 | UnionICrMo | SGCrMo1 | ER\n 80S-G | E-B312\n E-CrMo-14B | EkbCrMo1 | E8018-B2\n15128.5 | G315/GMoCr14\n UnionIMoV2 | SGMoV |  | E-B321\n E-CrMoV-14B | EkbCrMo2/26 | E9016-B3\nFigure (1): Valve type MOSTRO S 41 123\nLEGEND of FIG (1)\nNo. | NAME | Material | Standard\nI-III | I-III | IV-X\n1 | Body |  | 15128.9 | 15128.9 | \n2 | Nipple |  | 15128.9 | 15128.9 | \n3 | Hand wheel | 26 | \n4 | Saddle |  | 15 | \n5 | Pressure tight cover |  | 15128.1 | 15128.1 | \n6 | Schafting |  | 15 | \n7 | Wedge |  | 15128.1 | \n8 | Spindle |  | 17 | 15 | \n9 | Yoke |  | 422643.1 | 422744.1 | \n10 | Spindle nut | 423046.0 | \n11 | Sleeve | 11 | \n12 | Gland follower |  | 27 | \n13 | Pin | 11 | \n14 | Bush | 14 | \n15 | Ring |  | 12 | 15 | \n16 | Divided ring |  | 15128.9 | 15128.9 | \n17 | Plate |  | 26(11) | 27(15) | \n18 | Nut | 11 | \n20 | Dust seal ring | Felt | \n21 | Bolt | 15 | \n22 | Bolt | 11 | \n23 | Nut | 15 | CSN31530.3\n24 | Nut |  | CSN 02 1401.51\n25 | Lubricator |  | CSN 02 7410\n26 | Ball bearing |  | CSN 02 4731\n27 | Sealing material | PD 005/5 | \n28 | Sealing ring |  | PD 005/1 | PD005/5 | \n29 | Flange | 15 | \n30 | Gear wheel | 12 | \n31 | Bearing | 18 | \n32 | Box | 24 | \n33 | Electric drive | Type MODACT | \n34 | Bolt | 11 | \n35 | Bolt | 15 | \n36 | Cover | 24 | \n37 | Coupling |  | \n38 | Drive gear | 12 | \n39 | Drive gear shaft |  | \n40 | Nut |  | \n41 | Gear | 12 | \n42 | Bolt | 11 | ",
  "text_truncated": false,
  "links": [],
  "images": [

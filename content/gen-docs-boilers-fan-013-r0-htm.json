@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Induced Draft Fan Double Inlet"
-  },
-  {
-   "type": "paragraph",
-   "text": "89TVAFG"
-  },
-  {
-   "type": "paragraph",
-   "text": "Westinghouse Sturtevant Division USA"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -52,6 +42,80 @@
   {
    "type": "paragraph",
    "text": "Technical Specification"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "No. of fans per unit",
+     "2"
+    ],
+    [
+     "Type of fan",
+     "Centrifugal fan heavy duty fan wheel"
+    ],
+    [
+     "Manufacture of Motor",
+     "GE USA"
+    ],
+    [
+     "Manufacture of fan",
+     "Westinghouse \n USA"
+    ],
+    [
+     "Speed of motor",
+     "985 \n RPM"
+    ],
+    [
+     "Motor",
+     "1250 HP"
+    ],
+    [
+     "Volume",
+     "258000 CFM"
+    ],
+    [
+     "Type of recommended oil",
+     "SAE 30"
+    ],
+    [
+     "Type of equivalent oil",
+     "Turbo 68"
+    ],
+    [
+     "Quantity of grease for \n coupling",
+     "3.6 \n LBS"
+    ],
+    [
+     "Quantity of oil for \n bearing Gallon",
+     "4-1/2 \n QT / Brg"
+    ],
+    [
+     "Rotor Weight",
+     "8250 LBS"
+    ],
+    [
+     "Interval exchange of oil \n and grease",
+     "Three \n month"
+    ],
+    [
+     "Bearing type / size",
+     "Dodge RET \n Sleevoil 5.44 USA"
+    ],
+    [
+     "Coupling type and size",
+     "Zurn \n Amerigear USA \n Series f 105"
+    ],
+    [
+     "Total weight of fan",
+     "39400 LBS"
+    ],
+    [
+     "Outlet pressure",
+     "23 PSI"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -169,8 +233,32 @@
    "rows": [
     [
      "Item",
-     "",
-     "",
+     "Unit",
+     "Ref.",
+     "Measured"
+    ],
+    [
+     "Lube WT ()",
+     "Ib",
+     "3.6",
+     ""
+    ],
+    [
+     "Operating Alignment Limits",
+     "Inch",
+     "< \n 0.005",
+     ""
+    ],
+    [
+     "Gap of Coupling",
+     "Inch",
+     "0.125",
+     ""
+    ],
+    [
+     "Flange Bolt Torque",
+     "FT. LBS",
+     "313",
      ""
     ]
    ],
@@ -186,7 +274,7 @@
     "If the Bolts are found to be lease tighten it and change the Bolts are Broken",
     "Inspected for mechanical interference between fan and Components",
     "Upper Clearance = 5/8 inch and lower \n clearance = 1/4 inch",
-    "313",
+    "Table no. 1",
     "After successful inspection, operate the \n fan again, read all available record values and put them in table (2) and compare \n between the value before and after inspection"
    ]
   },
@@ -195,69 +283,212 @@
    "text": "Table No. (2) The Induced Draft \nFan 89TVAFG"
   },
   {
-   "type": "heading",
-   "level": 2,
-   "text": "Axial \n clearance between bearing and collar (Inch)"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Limit of alignment of coupling"
-  },
-  {
-   "type": "heading",
-   "level": 6,
-   "text": "Temperature rear bearing house"
-  },
-  {
-   "type": "heading",
-   "level": 6,
-   "text": "Temperature front bearing house"
-  },
-  {
-   "type": "heading",
-   "level": 6,
-   "text": "Vibration level in front bearing"
+   "type": "table",
+   "rows": [
+    [
+     "No.",
+     "Item",
+     "Setting Value",
+     "Unit",
+     "Record \n Value",
+     "Remarks"
+    ],
+    [
+     "Before \n Ins",
+     "After \n Ins"
+    ],
+    [
+     "",
+     "During Assembles of \n Induced Draft Fan"
+    ],
+    [
+     "1",
+     "Floating bearing",
+     "1.00\"",
+     "INCH",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Upper clearance if shaft \n seal",
+     "5/16",
+     "INCH",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Lower clearance if shaft \n seal",
+     "11/16",
+     "INCH",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "Upper clearance if wheel",
+     "5/8",
+     "INCH",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "Lower clearance if wheel",
+     "1/4",
+     "INCH",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "Gap between hubs coupling",
+     "0.250",
+     "INCH",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "Axial \n clearance between bearing and collar (Inch)",
+     "0.016",
+     "INCH",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "Limit of alignment of coupling",
+     "0.005",
+     "INCH",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "During \n Operation of\n Induced Draft Fan"
+    ],
+    [
+     "1",
+     "Temperature rear bearing house",
+     "80",
+     "5F",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Temperature front bearing house",
+     "80",
+     "5F",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Vibration level in front bearing",
+     "3 : 6",
+     "mils",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "Vibration level in rear \n bearing",
+     "3 : 6",
+     "mils",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Trouble Shooting"
   },
   {
-   "type": "paragraph",
-   "text": "The amount of lubrication \n must be verified."
-  },
-  {
-   "type": "paragraph",
-   "text": "The correct of oil type is \n used."
-  },
-  {
-   "type": "paragraph",
-   "text": "Investigated the oil \n contamination."
-  },
-  {
-   "type": "paragraph",
-   "text": "Change the dust seal if it \n needed."
-  },
-  {
-   "type": "paragraph",
-   "text": "High bearing temperature"
-  },
-  {
-   "type": "paragraph",
-   "text": "Check the quantity of \n cooling water."
-  },
-  {
-   "type": "paragraph",
-   "text": "Clean the cooling piping."
-  },
-  {
-   "type": "paragraph",
-   "text": "Clean and check (check \n valve) of cooling system"
-  },
-  {
-   "type": "paragraph",
-   "text": "Disassemble the bearing \n clean and fill new oil."
+   "type": "table",
+   "rows": [
+    [
+     "Trouble",
+     "Possible Reasons",
+     "Remedy"
+    ],
+    [
+     "Excessive Fan vibration",
+     "No alignment Between the driver and driven",
+     "Make alignment Between The driven and driver."
+    ],
+    [
+     "Loose anchoring devices on the fan's foundation",
+     "Fixed the fanُs very \n well by fixing of screws."
+    ],
+    [
+     "Vibration result of aero-dynamic forces",
+     "Caused by duct obstructions ether up stream or down stream \n of the fan."
+    ],
+    [
+     "The wheel unbalance caused by erosion of the blades and end \n plate or side plates.",
+     "Make balanced for the wheel or re-placed if needed."
+    ],
+    [
+     "5- Improper lubricant \n viscosity may be cause of vibration",
+     "Check to make sure the lubricant used in the \n bearing has the properties recommended"
+    ],
+    [
+     "Bearing Wear",
+     "Inadequate Lubrication",
+     "The amount of lubrication \n must be verified.\n The correct of oil type is \n used.\n Check the specification of \n oil."
+    ],
+    [
+     "Oil contamination",
+     "Investigated the oil \n contamination.\n Change the dust seal if it \n needed.\n Check any internal coolant \n leak."
+    ],
+    [
+     "Misalignment",
+     "Check alignment if it needed."
+    ],
+    [
+     "High bearing temperature",
+     "Non existent lubrication",
+     "Check the percentage of \n lubricant and add oil if it needed."
+    ],
+    [
+     "Lubrication used doses mot meet the manufacture's specification",
+     "Check \n the viscosity of oil and change the oil for specification oil."
+    ],
+    [
+     "Insufficient water cooling",
+     "Check the quantity of \n cooling water.\n Clean the cooling piping.\n Clean and check (check \n valve) of cooling system\n Check the pressure of \n cooling system."
+    ],
+    [
+     "Alignment of bearing with \n other components is not correct",
+     "Disassemble of bearing \n and inspect clearance of components."
+    ],
+    [
+     "Bearing is worm or \n defective",
+     "Change the bearing with \n new bearing"
+    ],
+    [
+     "Impurities in the bearing",
+     "Disassemble the bearing \n clean and fill new oil.\n Change the dust seal."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -272,7 +503,7 @@
    "text": "Figure \nNo.2"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\n Induced Draft Fan Double Inlet\n89TVAFG\nWestinghouse Sturtevant Division USA\nIntroduction\nThis document out lines the major maintenance procedures P1, which must be carried \n out on an annually bases as indicated by \n Y1 in the title block.\nThe induced fans function: pulling the combustion \n gases from the furnace through the heat transfer surface in the superheaters, reheaters, economizer, and gases side preheater into the stack.\nThe first draft initiated by \n eng. Emad El din Ali, reviewed by eng. Sadek Massoad, revised by \n EDEPC \n inspection & quality control \n eng. Samir Abd El- Gelil, \napproved by eng. Mokhter Abd Ellatif; head \nSector of \n Abu Soltan Power Station, and certified by eng. Aly Mostafa Al Lethy EDEPC \n inspection & quality control head sector.\nTechnical Specification\nSafety Precautions\nA work \n permit must be issued, the qualified maintenance staff should carry the \n suitable safety category\nSafety fence with caution marks \n surrounding the work area is requires,\nWear your safety helmet, shoes ... etc\nIsolate the circuit breaker for the forced draft fan.\nTools and Equipment\nComplete maintenance tool set\nCleaning fluid feeler gauge, anti dust \n mask\nSuitable lifting device.\nWork to be Carried \nOut\nAfter Isolating the Induced Draft Fan 89TVAFG Figure (1),(1a)\nDisassembly of the Rear and \nFront Bearing type (Dodge RT Sleevoil 5.44)\nTake out the temperatures sensor\nDrain the oil from the bearing house\nIsolate the cooling water supply\nDisassemble all cooling water house\nScrew off the nuts (1) connected with bearing house cover (2)\nScrew off the plunger screw (3)\nRemove cover top half from bearing (2)\nRemove sleeve top half (3) from shaft\nLift the shaft by Jack\nRemove dust seal (5)\nCheck the thrust collar for the fixed bearing (front bearing )\nCheck the Babbitt face for any scratches and\n renewed if it needed\nCheck the alignment of shaft wheel and motor\nCheck the Babbitt face thrust plates (6)\nAssembly \nof the of the Rear and front Bearing\nClean every part well\nAssembly every part in reverse sequence \n of disassembly\nAfter finishing assembly of the\nbearing, \n the shaft must be rotated \n manually.\nRealignment of the fan and motor \n according to Table (1)\nDisassembly of the coupling type Zurn SERIES ( F ), Figure (2)\nDisassemble the safety cover of coupling\nScrew off the bolt (1) of coupling sleeve (2)\nRemove the tow sleeves from hubs (3) and check hubs and sleeves teeth for any \n mechanical wear after clean every part well\nCheck the O-ring in grooves seal (5)\nCheck gap with feeler for hub separation at 905C \n points min. gap = 0.155\" max. gap = 0.250\nChang the gasket between tow sleeve (4)\nAssembly of the \nCoupling\nClean every part well\nAssembly every part in reverse sequence \n of disassembly\nAfter finishing assembly of the\nbearing \n it mast be rotated the shaft manually\nGrease the coupling according to Table \n (1)\nRealignment of the fan and motor \n according to Table (1)\nImpeller, Case, Shaft and Foundation\nCheck the shaft seal clearance after change it upper clearance = 5/16\n In and Lower clearance = 11/16 \n Inch,\nTable no. 1\n\nClean every part well\nCheck the Shaft from any defect (cracks deflection ) and repair or exchange \n it if needed\nCheck the Impeller from any defect (cracks deflection ) and repair or \n exchange it if needed Check the foundation from any defect and Repair it if \n needed\nCheck all anchor points from any defect (cracks deflection ) and repair or \n exchange it if needed\nIf the Bolts are found to be lease tighten it and change the Bolts are Broken\nInspected for mechanical interference between fan and Components\nUpper Clearance = 5/8 inch and lower \n clearance = 1/4 inch\n313\nAfter successful inspection, operate the \n fan again, read all available record values and put them in table (2) and compare \n between the value before and after inspection\nTable No. (2) The Induced Draft \nFan 89TVAFG\nAxial \n clearance between bearing and collar (Inch)\nLimit of alignment of coupling\nTemperature rear bearing house\nTemperature front bearing house\nVibration level in front bearing\nTrouble Shooting\nThe amount of lubrication \n must be verified.\nThe correct of oil type is \n used.\nInvestigated the oil \n contamination.\nChange the dust seal if it \n needed.\nHigh bearing temperature\nCheck the quantity of \n cooling water.\nClean the cooling piping.\nClean and check (check \n valve) of cooling system\nDisassemble the bearing \n clean and fill new oil.\nFigure \nNo. 1\nFigure \nNo. 1a\nFigure \nNo.2",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document out lines the major maintenance procedures P1, which must be carried \n out on an annually bases as indicated by \n Y1 in the title block.\nThe induced fans function: pulling the combustion \n gases from the furnace through the heat transfer surface in the superheaters, reheaters, economizer, and gases side preheater into the stack.\nThe first draft initiated by \n eng. Emad El din Ali, reviewed by eng. Sadek Massoad, revised by \n EDEPC \n inspection & quality control \n eng. Samir Abd El- Gelil, \napproved by eng. Mokhter Abd Ellatif; head \nSector of \n Abu Soltan Power Station, and certified by eng. Aly Mostafa Al Lethy EDEPC \n inspection & quality control head sector.\nTechnical Specification\nNo. of fans per unit | 2\nType of fan | Centrifugal fan heavy duty fan wheel\nManufacture of Motor | GE USA\nManufacture of fan | Westinghouse \n USA\nSpeed of motor | 985 \n RPM\nMotor | 1250 HP\nVolume | 258000 CFM\nType of recommended oil | SAE 30\nType of equivalent oil | Turbo 68\nQuantity of grease for \n coupling | 3.6 \n LBS\nQuantity of oil for \n bearing Gallon | 4-1/2 \n QT / Brg\nRotor Weight | 8250 LBS\nInterval exchange of oil \n and grease | Three \n month\nBearing type / size | Dodge RET \n Sleevoil 5.44 USA\nCoupling type and size | Zurn \n Amerigear USA \n Series f 105\nTotal weight of fan | 39400 LBS\nOutlet pressure | 23 PSI\nSafety Precautions\nA work \n permit must be issued, the qualified maintenance staff should carry the \n suitable safety category\nSafety fence with caution marks \n surrounding the work area is requires,\nWear your safety helmet, shoes ... etc\nIsolate the circuit breaker for the forced draft fan.\nTools and Equipment\nComplete maintenance tool set\nCleaning fluid feeler gauge, anti dust \n mask\nSuitable lifting device.\nWork to be Carried \nOut\nAfter Isolating the Induced Draft Fan 89TVAFG Figure (1),(1a)\nDisassembly of the Rear and \nFront Bearing type (Dodge RT Sleevoil 5.44)\nTake out the temperatures sensor\nDrain the oil from the bearing house\nIsolate the cooling water supply\nDisassemble all cooling water house\nScrew off the nuts (1) connected with bearing house cover (2)\nScrew off the plunger screw (3)\nRemove cover top half from bearing (2)\nRemove sleeve top half (3) from shaft\nLift the shaft by Jack\nRemove dust seal (5)\nCheck the thrust collar for the fixed bearing (front bearing )\nCheck the Babbitt face for any scratches and\n renewed if it needed\nCheck the alignment of shaft wheel and motor\nCheck the Babbitt face thrust plates (6)\nAssembly \nof the of the Rear and front Bearing\nClean every part well\nAssembly every part in reverse sequence \n of disassembly\nAfter finishing assembly of the\nbearing, \n the shaft must be rotated \n manually.\nRealignment of the fan and motor \n according to Table (1)\nDisassembly of the coupling type Zurn SERIES ( F ), Figure (2)\nDisassemble the safety cover of coupling\nScrew off the bolt (1) of coupling sleeve (2)\nRemove the tow sleeves from hubs (3) and check hubs and sleeves teeth for any \n mechanical wear after clean every part well\nCheck the O-ring in grooves seal (5)\nCheck gap with feeler for hub separation at 905C \n points min. gap = 0.155\" max. gap = 0.250\nChang the gasket between tow sleeve (4)\nAssembly of the \nCoupling\nClean every part well\nAssembly every part in reverse sequence \n of disassembly\nAfter finishing assembly of the\nbearing \n it mast be rotated the shaft manually\nGrease the coupling according to Table \n (1)\nRealignment of the fan and motor \n according to Table (1)\nImpeller, Case, Shaft and Foundation\nCheck the shaft seal clearance after change it upper clearance = 5/16\n In and Lower clearance = 11/16 \n Inch,\nTable no. 1\nItem | Unit | Ref. | Measured\nLube WT () | Ib | 3.6 | \nOperating Alignment Limits | Inch | < \n 0.005 | \nGap of Coupling | Inch | 0.125 | \nFlange Bolt Torque | FT. LBS | 313 | \nClean every part well\nCheck the Shaft from any defect (cracks deflection ) and repair or exchange \n it if needed\nCheck the Impeller from any defect (cracks deflection ) and repair or \n exchange it if needed Check the foundation from any defect and Repair it if \n needed\nCheck all anchor points from any defect (cracks deflection ) and repair or \n exchange it if needed\nIf the Bolts are found to be lease tighten it and change the Bolts are Broken\nInspected for mechanical interference between fan and Components\nUpper Clearance = 5/8 inch and lower \n clearance = 1/4 inch\nTable no. 1\nAfter successful inspection, operate the \n fan again, read all available record values and put them in table (2) and compare \n between the value before and after inspection\nTable No. (2) The Induced Draft \nFan 89TVAFG\nNo. | Item | Setting Value | Unit | Record \n Value | Remarks\nBefore \n Ins | After \n Ins\n | During Assembles of \n Induced Draft Fan\n1 | Floating bearing | 1.00\" | INCH |  |  | \n2 | Upper clearance if shaft \n seal | 5/16 | INCH |  |  | \n3 | Lower clearance if shaft \n seal | 11/16 | INCH |  |  | \n4 | Upper clearance if wheel | 5/8 | INCH |  |  | \n5 | Lower clearance if wheel | 1/4 | INCH |  |  | \n6 | Gap between hubs coupling | 0.250 | INCH |  |  | \n7 | Axial \n clearance between bearing and collar (Inch) | 0.016 | INCH |  |  | \n8 | Limit of alignment of coupling | 0.005 | INCH |  |  | \n | During \n Operation of\n Induced Draft Fan\n1 | Temperature rear bearing house | 80 | 5F |  |  | \n2 | Temperature front bearing house | 80 | 5F |  |  | \n3 | Vibration level in front bearing | 3 : 6 | mils |  |  | \n4 | Vibration level in rear \n bearing | 3 : 6 | mils |  |  | \nTrouble Shooting\nTrouble | Possible Reasons | Remedy\nExcessive Fan vibration | No alignment Between the driver and driven | Make alignment Between The driven and driver.\nLoose anchoring devices on the fan's foundation | Fixed the fanُs very \n well by fixing of screws.\nVibration result of aero-dynamic forces | Caused by duct obstructions ether up stream or down stream \n of the fan.\nThe wheel unbalance caused by erosion of the blades and end \n plate or side plates. | Make balanced for the wheel or re-placed if needed.\n5- Improper lubricant \n viscosity may be cause of vibration | Check to make sure the lubricant used in the \n bearing has the properties recommended\nBearing Wear | Inadequate Lubrication | The amount of lubrication \n must be verified.\n The correct of oil type is \n used.\n Check the specification of \n oil.\nOil contamination | Investigated the oil \n contamination.\n Change the dust seal if it \n needed.\n Check any internal coolant \n leak.\nMisalignment | Check alignment if it needed.\nHigh bearing temperature | Non existent lubrication | Check the percentage of \n lubricant and add oil if it needed.\nLubrication used doses mot meet the manufacture's specification | Check \n the viscosity of oil and change the oil for specification oil.\nInsufficient water cooling | Check the quantity of \n cooling water.\n Clean the cooling piping.\n Clean and check (check \n valve) of cooling system\n Check the pressure of \n cooling system.\nAlignment of bearing with \n other components is not correct | Disassemble of bearing \n and inspect clearance of components.\nBearing is worm or \n defective | Change the bearing with \n new bearing\nImpurities in the bearing | Disassemble the bearing \n clean and fill new oil.\n Change the dust seal.\nFigure \nNo. 1\nFigure \nNo. 1a\nFigure \nNo.2",
  "text_truncated": false,
  "links": [],
  "images": [

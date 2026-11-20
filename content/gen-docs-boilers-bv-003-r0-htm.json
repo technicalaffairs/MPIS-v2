@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Manual Stop Valve (Weld/ \n Flange End)"
-  },
-  {
-   "type": "paragraph",
-   "text": "V 30 121 & V 30 -111"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -48,6 +42,59 @@
   {
    "type": "paragraph",
    "text": "Technical Specification"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type of valve",
+     "Weld end",
+     "Flange end"
+    ],
+    [
+     "V 30 121",
+     "V 30 -111"
+    ],
+    [
+     "Kind",
+     "Stop valve"
+    ],
+    [
+     "Drive",
+     "Manual"
+    ],
+    [
+     "Manufacturer",
+     "INTER SIGMA"
+    ],
+    [
+     "Country",
+     "CZECH"
+    ],
+    [
+     "Medium",
+     "Water steam"
+    ],
+    [
+     "PN",
+     "64 , 100"
+    ],
+    [
+     "",
+     "Nominal pressure (PN)"
+    ],
+    [
+     "",
+     "64",
+     "100"
+    ],
+    [
+     "Cold test pressure (Kg/Cm)",
+     "375",
+     "480"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -190,64 +237,111 @@
    "text": "Trouble Shouting"
   },
   {
-   "type": "paragraph",
-   "text": "Seat grinding"
-  },
-  {
-   "type": "paragraph",
-   "text": "2. \n Broken packing \n cover"
+   "type": "table",
+   "rows": [
+    [
+     "Trouble",
+     "Possible Reasons",
+     "Remedy"
+    ],
+    [
+     "1. \n Leakage",
+     "Sealing surfaces seat damaged \n by foreign object or by flowing substance.",
+     "Seat grinding \n Replacement of damage part."
+    ],
+    [
+     "2. \n Broken packing \n cover\n (stuffing box follower)",
+     "Squeezing of soft seal ring due \n to fluctuating temperatures.",
+     "Replacements of the packing \n cover."
+    ],
+    [
+     "Loosened bolts of the cover due \n to piping vibration.",
+     "Retighten the bolts."
+    ],
+    [
+     "3. Leakage \n packing",
+     "Worn packing",
+     "Adequate tightening of bolts."
+    ],
+    [
+     "Packing dried up.",
+     "Replacement of the packing."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Table No. (1) Recommended \nFiller Materials"
   },
   {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "KbIX"
-  },
-  {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "KbIX"
-  },
-  {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B302"
-  },
-  {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B312"
-  },
-  {
-   "type": "paragraph",
-   "text": "G315/GMoCr14"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B321"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-CrMoV-14B"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B329"
+   "type": "table",
+   "rows": [
+    [
+     "Valve material",
+     "Weld wire\n (First layer)",
+     "DIN",
+     "AWS",
+     "Electrode\n (2nd layer)",
+     "DIN",
+     "AWS"
+    ],
+    [
+     "11416.1",
+     "UnionIMo",
+     "SGMo",
+     "ER\n 80S-G",
+     "E-B121",
+     "KbIX\n S/245/26",
+     "E7016"
+    ],
+    [
+     "12022.1",
+     "UnionIMo",
+     "SGMo",
+     "ER\n 80S-G",
+     "E-B121",
+     "KbIX\n S/245/26",
+     "E7016"
+    ],
+    [
+     "15020.1",
+     "UnionIMo",
+     "SGMo",
+     "ER\n 80S-G",
+     "E-B302\n E.MO-48",
+     "EkbMo",
+     "E7018-A1"
+    ],
+    [
+     "15121.5",
+     "UnionICrMo",
+     "SGCrMo1",
+     "ER\n 80S-G",
+     "E-B312\n E-CrMo-14B",
+     "EkbCrMo1",
+     "E8018-B2"
+    ],
+    [
+     "15128.5",
+     "G315/GMoCr14\n UnionIMoV2",
+     "SGMoV",
+     "",
+     "E-B321\n E-CrMoV-14B",
+     "EkbCrMo2/26",
+     "E9016-B3"
+    ],
+    [
+     "15313.5",
+     "UnionICrMO910",
+     "SGCrMo2",
+     "",
+     "E-B329\n E-CrMo1-35B",
+     "EkbCrMo2",
+     "E9015-B3"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -262,11 +356,146 @@
    "text": "LEGEND of FIG (1, 2)"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "No.",
+     "NAME",
+     "Material",
+     "Standard"
+    ],
+    [
+     "III",
+     "IX"
+    ],
+    [
+     "1",
+     "Body",
+     "422643.1",
+     "422744.5",
+     ""
+    ],
+    [
+     "2",
+     "Yoke",
+     "422643.1",
+     "422744.5",
+     ""
+    ],
+    [
+     "3",
+     "Cone",
+     "11523.0",
+     "11523.0",
+     ""
+    ],
+    [
+     "4",
+     "Spindle",
+     "17027.6",
+     "17027.6",
+     ""
+    ],
+    [
+     "5",
+     "Nut",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "Stud bolt",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "Gasket",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "Nut",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9",
+     "Gland bolt",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "Gland packing",
+     "",
+     "",
+     ""
+    ],
+    [
+     "11",
+     "Cooling ring",
+     "",
+     "",
+     ""
+    ],
+    [
+     "12",
+     "Gland follower",
+     "11523.5",
+     "11523.5",
+     ""
+    ],
+    [
+     "13",
+     "Retaining screw",
+     "",
+     "",
+     ""
+    ],
+    [
+     "14",
+     "Yoke sleeve",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "Nut",
+     "",
+     "",
+     ""
+    ],
+    [
+     "16",
+     "Hand wheel",
+     "",
+     "",
+     ""
+    ],
+    [
+     "17",
+     "Valve seat",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: Valve Tag No.: \nTest Date: \nTested by: \nSignature:"
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nEquipment:\n Manual Stop Valve (Weld/ \n Flange End)\nV 30 121 & V 30 -111\nIntroduction\nThis document lists the \nmaintenance procedure P1 of manual stop valve, depending on external / internal \nleakage.\nThe weld end valve used at high pressure circuit super heaters and pre heaters, \nand the Flanged end valves used at low pressure circuit as evaporator, \neconomizer.\nThe first draft initiated and \ntested by eng. Fawzy Ahmed Basuoni at 10 Jan 2004, accepted by General Director \neng. Saad Mostafa, revised by EDEPC eng.. Samir Abdel-Gelil, and approved by eng. Awad \nMohammed Fathy Soliman Head Sector of Talkha power station.\nTechnical Specification\nSafety Precautions\nA work permit must be issued and qualified \n maintenance staff should carry the suitable safety category.\nSafety fence (rope) with caution marks \nsurrounding the work area is required.\nWear your safety helmet, shoes, etc.\nIsolate valve mechanically.\nDrain the pipeline, which connected to this \nvalve.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid.\nSuitable lifting device.\nWork to be Carried Out\nBefore Isolated the Valve \nMechanically\nCheck any leakage from valve gland. If it \n found, retighten on gland bolts.\nCheck any leakage from gasket between yoke \n cover and valve body. If it found retighten the bolts.\nCheck any internal leakage.\nCheck any leakage from the valve bodies \n (cracks or mechanical wear). Remark the point of leakage.\nCheck any leakage form flange end for flange \n type.\nAfter Isolated the Valve \nMechanically\nBe sure the valve was out of operation and the \n pressure inside the pipeline connected to the valve must be zero from the two \n end of the valve.\nBe sure the pipeline is drained.\nDisassembly the Valve\nScrew off nut (5) of stud bolts (6), which \n connected body (1) with yoke cover (2).\nTake out from hand wheel (16) all parts of the \n valve except body.\nTake out cone (3) from spindle (4).\nScrew off nut (15) and take out hand wheel \n (16)\nScrew off nut (8) of gland bolts (9).\nTurn the yoke (2) around spindle (4) until the \n yoke take out from spindle.\nTake out the gland follower (12).\nScrews off the retaining screw (13).\nTake out yoke sleeve (14) from yoke (2).\nTake out the gland packing (10), cooling ring \n (11).\nScrew of nuts of bolts for flange end for \n flange type valve.\nInspection and Repair of \nall Parts\nCheck the valves cone (3) and regrind the \n sealing surface of it if needed.\nCheck the valves seat (17) and regrind it if \n needed.\nRepair the valve cone (3) and valve seats (17) \n in a specialist workshop if grinding can not repair the wear in there. ( in \n weld type the valve end must be cut from the pipe line , in flange type it is \n easy which flange bolts screwed off only)\nCheck the Spindle (4) and repair it if needed \n or replace it.\nCheck the yoke sleeve (14) and repair it if \n needed or replace it.\nChecks cooling ring (11) and repair it if \n needed or replace it.\nCheck the Gland follower (12) and repair it if \n needed or replace it.\nClean every connection face.\nChange gasket (7).\nCheck the body (1) from any cracks or wear by \n using penetration fluids and repair it if found by using suitable filler \n material or its equivalent acc. to table (1).\nChange gasket for flange end.\nIf the valve damaged change it w.r.t. the material as stated in table 1\nAssembly of Valve\nClean every part well before any assembly.\nAssembly the valve parts in reverse sequence \n of disassembly.\nReplace the Packing of \nvalve Gland\nClean the stuffing box chamber and the cover \n well.\nLubricate the gland bolts and nuts.\nUse suitable size of packing.\nWire the suitable packing size on a part of \n shaft with the same diameter of valve spindle.\nCut all packing rings along the shaft by using \n sharp knife.\nFit the rings in the stuffing box chamber with \n the cut turned 180 , starting at 9 clock.\nTight the gland bolts.\nOpen and close the valve and be sure that the \n valve operation is correct.\nIf \nyou need any help please go to the operating instruction for repairs and \nmaintenance D-4.\nPut the valve into operation and check the \nlist of checking before isolated.\nNotes:\nTrouble Shouting\nSeat grinding\n2. \n Broken packing \n cover\nTable No. (1) Recommended \nFiller Materials\nER\nKbIX\nER\nKbIX\nER\nE-B302\nER\nE-B312\nG315/GMoCr14\nE-B321\nE-CrMoV-14B\nE-B329\nFigure (1) : Welded Valve V 30 121\nFigure (2) : Flanged Valve V 30 111\nLEGEND of FIG (1, 2)\nLocation: Valve Tag No.: \nTest Date: \nTested by: \nSignature:",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document lists the \nmaintenance procedure P1 of manual stop valve, depending on external / internal \nleakage.\nThe weld end valve used at high pressure circuit super heaters and pre heaters, \nand the Flanged end valves used at low pressure circuit as evaporator, \neconomizer.\nThe first draft initiated and \ntested by eng. Fawzy Ahmed Basuoni at 10 Jan 2004, accepted by General Director \neng. Saad Mostafa, revised by EDEPC eng.. Samir Abdel-Gelil, and approved by eng. Awad \nMohammed Fathy Soliman Head Sector of Talkha power station.\nTechnical Specification\nType of valve | Weld end | Flange end\nV 30 121 | V 30 -111\nKind | Stop valve\nDrive | Manual\nManufacturer | INTER SIGMA\nCountry | CZECH\nMedium | Water steam\nPN | 64 , 100\n | Nominal pressure (PN)\n | 64 | 100\nCold test pressure (Kg/Cm) | 375 | 480\nSafety Precautions\nA work permit must be issued and qualified \n maintenance staff should carry the suitable safety category.\nSafety fence (rope) with caution marks \nsurrounding the work area is required.\nWear your safety helmet, shoes, etc.\nIsolate valve mechanically.\nDrain the pipeline, which connected to this \nvalve.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid.\nSuitable lifting device.\nWork to be Carried Out\nBefore Isolated the Valve \nMechanically\nCheck any leakage from valve gland. If it \n found, retighten on gland bolts.\nCheck any leakage from gasket between yoke \n cover and valve body. If it found retighten the bolts.\nCheck any internal leakage.\nCheck any leakage from the valve bodies \n (cracks or mechanical wear). Remark the point of leakage.\nCheck any leakage form flange end for flange \n type.\nAfter Isolated the Valve \nMechanically\nBe sure the valve was out of operation and the \n pressure inside the pipeline connected to the valve must be zero from the two \n end of the valve.\nBe sure the pipeline is drained.\nDisassembly the Valve\nScrew off nut (5) of stud bolts (6), which \n connected body (1) with yoke cover (2).\nTake out from hand wheel (16) all parts of the \n valve except body.\nTake out cone (3) from spindle (4).\nScrew off nut (15) and take out hand wheel \n (16)\nScrew off nut (8) of gland bolts (9).\nTurn the yoke (2) around spindle (4) until the \n yoke take out from spindle.\nTake out the gland follower (12).\nScrews off the retaining screw (13).\nTake out yoke sleeve (14) from yoke (2).\nTake out the gland packing (10), cooling ring \n (11).\nScrew of nuts of bolts for flange end for \n flange type valve.\nInspection and Repair of \nall Parts\nCheck the valves cone (3) and regrind the \n sealing surface of it if needed.\nCheck the valves seat (17) and regrind it if \n needed.\nRepair the valve cone (3) and valve seats (17) \n in a specialist workshop if grinding can not repair the wear in there. ( in \n weld type the valve end must be cut from the pipe line , in flange type it is \n easy which flange bolts screwed off only)\nCheck the Spindle (4) and repair it if needed \n or replace it.\nCheck the yoke sleeve (14) and repair it if \n needed or replace it.\nChecks cooling ring (11) and repair it if \n needed or replace it.\nCheck the Gland follower (12) and repair it if \n needed or replace it.\nClean every connection face.\nChange gasket (7).\nCheck the body (1) from any cracks or wear by \n using penetration fluids and repair it if found by using suitable filler \n material or its equivalent acc. to table (1).\nChange gasket for flange end.\nIf the valve damaged change it w.r.t. the material as stated in table 1\nAssembly of Valve\nClean every part well before any assembly.\nAssembly the valve parts in reverse sequence \n of disassembly.\nReplace the Packing of \nvalve Gland\nClean the stuffing box chamber and the cover \n well.\nLubricate the gland bolts and nuts.\nUse suitable size of packing.\nWire the suitable packing size on a part of \n shaft with the same diameter of valve spindle.\nCut all packing rings along the shaft by using \n sharp knife.\nFit the rings in the stuffing box chamber with \n the cut turned 180 , starting at 9 clock.\nTight the gland bolts.\nOpen and close the valve and be sure that the \n valve operation is correct.\nIf \nyou need any help please go to the operating instruction for repairs and \nmaintenance D-4.\nPut the valve into operation and check the \nlist of checking before isolated.\nNotes:\nTrouble Shouting\nTrouble | Possible Reasons | Remedy\n1. \n Leakage | Sealing surfaces seat damaged \n by foreign object or by flowing substance. | Seat grinding \n Replacement of damage part.\n2. \n Broken packing \n cover\n (stuffing box follower) | Squeezing of soft seal ring due \n to fluctuating temperatures. | Replacements of the packing \n cover.\nLoosened bolts of the cover due \n to piping vibration. | Retighten the bolts.\n3. Leakage \n packing | Worn packing | Adequate tightening of bolts.\nPacking dried up. | Replacement of the packing.\nTable No. (1) Recommended \nFiller Materials\nValve material | Weld wire\n (First layer) | DIN | AWS | Electrode\n (2nd layer) | DIN | AWS\n11416.1 | UnionIMo | SGMo | ER\n 80S-G | E-B121 | KbIX\n S/245/26 | E7016\n12022.1 | UnionIMo | SGMo | ER\n 80S-G | E-B121 | KbIX\n S/245/26 | E7016\n15020.1 | UnionIMo | SGMo | ER\n 80S-G | E-B302\n E.MO-48 | EkbMo | E7018-A1\n15121.5 | UnionICrMo | SGCrMo1 | ER\n 80S-G | E-B312\n E-CrMo-14B | EkbCrMo1 | E8018-B2\n15128.5 | G315/GMoCr14\n UnionIMoV2 | SGMoV |  | E-B321\n E-CrMoV-14B | EkbCrMo2/26 | E9016-B3\n15313.5 | UnionICrMO910 | SGCrMo2 |  | E-B329\n E-CrMo1-35B | EkbCrMo2 | E9015-B3\nFigure (1) : Welded Valve V 30 121\nFigure (2) : Flanged Valve V 30 111\nLEGEND of FIG (1, 2)\nNo. | NAME | Material | Standard\nIII | IX\n1 | Body | 422643.1 | 422744.5 | \n2 | Yoke | 422643.1 | 422744.5 | \n3 | Cone | 11523.0 | 11523.0 | \n4 | Spindle | 17027.6 | 17027.6 | \n5 | Nut |  |  | \n6 | Stud bolt |  |  | \n7 | Gasket |  |  | \n8 | Nut |  |  | \n9 | Gland bolt |  |  | \n10 | Gland packing |  |  | \n11 | Cooling ring |  |  | \n12 | Gland follower | 11523.5 | 11523.5 | \n13 | Retaining screw |  |  | \n14 | Yoke sleeve |  |  | \n15 | Nut |  |  | \n16 | Hand wheel |  |  | \n17 | Valve seat |  |  | \nLocation: Valve Tag No.: \nTest Date: \nTested by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [
