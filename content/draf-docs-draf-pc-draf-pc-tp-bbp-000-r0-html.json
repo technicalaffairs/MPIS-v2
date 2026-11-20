@@ -1,0 +1,547 @@
+{
+ "id": "draf-docs-draf-pc-draf-pc-tp-bbp-000-r0-html",
+ "doc_number": "BBP-000-R0",
+ "title_en": "bbp-000-r0 \nfirst draft",
+ "title_ar": "",
+ "category": "draft_documents",
+ "source_path": "draf_docs/draf_pc/draf_pc_tp/bbp-000-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the testing procedures I1, which recommended to be carried \nout on an annually bases as indicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding work area is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear your safety equipment as helmet, shoes, breathing mask, safety glass...etc."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.",
+    "Safety fence with caution marks surrounding work area is required.",
+    "Wear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.",
+    "Manual block to interrupted tripping circuits.",
+    "Make sure that CT's secondary \n circuits are shorted, check there is no current from CT's.",
+    "Block any disturbance alarms or fault recorder associated\n with this protection."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set.",
+    "Ammeter, Voltmeter, Test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "breaker trip coils",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow this test procedures",
+    "Verify the test results match the relay settings, if not consult technical\n services.",
+    "Test trip the circuit breakers associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing \nProcedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking of isolating on and off information signal by measuring on p.c.\n b. of BA3 cord by using 4 measuring."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Close",
+     "Open",
+     "Minus"
+    ],
+    [
+     "Isolator 1)",
+     "C24",
+     "C25",
+     "C28"
+    ],
+    [
+     "Isolator 2)",
+     "C26",
+     "C27",
+     "C28"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test of isolating position signal on BA3 for each feeder :- Fig (2a \n 2b)",
+    "You will get 10V reading after the filter.",
+    "If you did not get the right reading for the isolator position, you must\n check the terminals from 1-5 on the terminals strip or you can check on the\n filter board of each feeder."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Internal Checks"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Draw out all plugs on terminal for the isolator position signals except the\n minus.",
+    "Short circuit all CT's coming to the bus bar protection and\n disconnect the link to the bus bar Protection and disconnect the links to bus\n bar protection on the terminal strip.",
+    "Put all plugs on the BP1 the position M fig (3)",
+    "Bridge the blocking loop ( BP1,a18,BP2,a20) (fig 4) (fig 5)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring of Feeder Threshold Values"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Close isolator of feeder 1 onto bus bar 1 by means of a plug signal on\n terminal L1 cause an impressed current to follow in phase R of feeder 1",
+    "Check the operation value of feeder threshold stage at BA1( phase R at C18,phase\n SatC20and phaseTatC22)(fig2a)",
+    "This procedure to be done for each feeder and bus coupler in all phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring of monitoring Currents"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Close isolator and cause an impressed current as in item 2",
+    "Check the operating value of 1 monitoring the shod on the associated\n BS1card phase R At a10, phase S at C10 and phase Tat C12.The operating value\n of the threshold stage on the first BS1 card is Set to an input voltage25\n MV( rms)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring of I General Starting Current"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This measurement is on principal the same as described in item 2",
+    "Measuring point on the second BS1 card ( phase Rat a 10, phase S at C10 and\n phase T at C12) to be continued for all phases and bus bar sections"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase Comparison test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch the input cts for one bus bar section in series and close the\n corresponding isolators. Impress a current greater than the threshold values\n in item 2",
+    "The protection has to decide for trip, I.e. the LED Son the corresponding\n BA3cards must be on reverse one after another the current direction for each\n feeder.",
+    "repeat this test for each phase, bus bar section and also for coupled\n sections"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Switching of DC supply"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch off and on the D.C supplies when the protection is blocked and\n unblocked",
+    "Switching a blocked protection the blocking indication must appear again ,\n an unblocked",
+    "Protection must be still in the unblocked mode when switching on."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "L.E.D test\nPress the button LED-prolong on the BP0 all LEDS must be signaling\n( fig-6)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Automatic Testing\nOpen all isolators\nPress \" start self checking test button.\nTest must run during the test the test LED must light up and the\nobstruction relay operate. After conclusion of the test , there must no\nlonger be a signal present .\nClose all isolators and repeat test."
+  },
+  {
+   "type": "paragraph",
+   "text": "Continuous monitoring"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Put Columbus .Bus plug for FT into position M\n Extract isolating plug in the plus of in solter at the terminal strip.",
+    "After the time delay set on card BP11 the LEDS of the\n corresponding feeder ( isolator) an FT must light up.",
+    "Put Columbus plug for FA into position M,\n interrupt control circuit of trip relay Draw out .The corresponding trip\n relay card BH5 resp.BH6or the amplifier cardBU3After a short time delay\n the FA and corresponding feeder LEDS must light up.",
+    "Put Columbus plug for FK into position \" M \"\n makes a coupling between Bus bars via isolators .After integration time the\n LED's for the participating bus bar bus bar and FK lights up.",
+    "Put Columbus for س I into position M switch\n one feeder onto bus bar to be tested and load associated transformers in one\n phase with current that is certain to cause the س I monitor threshold\n stage to operate (stage already tested under 3.2.2 ) after the time set on\n the BP11 cared, LED F س I and the LEO for the associated bus bar must\n light up."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Device \nFeeder electronic"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Draw out one card of the feeder electronic and start the testing device.",
+    "Cancel indication.",
+    "Draw out one card ( but all BS3 ) with in this section and start the\n testing device.",
+    "Cancel indication.",
+    "Remove the bridge (BP1 , a18-BP2,a20)",
+    "Drawing out card causes blocking."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "During AT running make a current in feed one feeder (\n isolator in on position)\n The current must exceed the set current total monitor threshold , the test\n must be interrupted immediately."
+  },
+  {
+   "type": "paragraph",
+   "text": "External Tests\nSignaling to the control room"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Draw out any ( minus) plug on terminal L1 while FT is in position M.A after\n integration Time the signal protection faulty appears.",
+    "Switch button on BP0inAus position the signal protection blocked\n must appear",
+    "Draw out the DC/DC converter produces the signal dc- faulty",
+    "Switch off the MCB( CB200).( Fig 10)\n The signal main switch unit off must appear.",
+    "During an automatic test the signal blocked is on and disappeared\n after the test.",
+    "Press simultaneously the red button PAII( BP0) and PAI ( BA3)\n Signal : Trip relay excited."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip Circuits\nClose the trip- circuit by putting in the corresponding plug\non terminal L 4 and press simultaneously the button PAII ( BP0) and PAI ( BA3 )\n. The CB must trip."
+  },
+  {
+   "type": "paragraph",
+   "text": "Isolator Running Time\nThe integration time (BP 11) is fixed at delivery for appr. (2.4\nsec.). If the isolator running time is grater resistor R 16 (BP 11) has to be\nchanged. R16 = 2.7 M ohms, t = 9 sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Current Transformer Circuits\nBefore switching on the main current transformers the\ndirection of power flow and the magnitude of the current in the individual\nfeeders is determined. Then per solidly coupled bus bar unit first of all"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Feeders with the same direction power (e.g. towards the Bus bars) are\n switched on.",
+    "The amplitude must increase in accordance with the primary quantity as\n each feeder is switched on severally.",
+    "The feeders with the reverse direction of power are switched on intern.",
+    "The amplitude must now be reduced in accordance with the primary quantity\n as each feeder is switched on severally and reach approx. 0 mV after the\n last feeder (or bus- coupler breaker) is switched on."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Final Setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect synchronous time switch to terminal strip in accordance with\n circuits diagram and check start self"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check t switch function with synchronous switch. 12.0 noon Daily"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect synchronous time switch to terminal strip in accordance with\n circuits diagram and check start self",
+    "Check t switch function with synchronous switch. 12.0 noon Daily"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Continues\n monitoring (\n setting)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Each of those zones can be switched alternatively to signal (M)or to\n signal and block (B)",
+    "Here the fault indication for the individual checking zones is also\n performed. These area:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "FT : Fault in isolator position signaling (M)\n FA : Fault in electronic control circuit of trip relay (M)\n FK : Fault in internal simulation circuits for solid\n coupling conditions (B)\n F∑ I : Fault in current total monitoring (B)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Mode of Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Each outgoing feeder can be alternatively operated in position\n A or S A duty the feeder is only\n switched off in the event of a trip signal for the bus bar to which it is\n connected if the fault current of this feeder is higher than the set feeder\n threshold. S duty the feeder is switched off in the event of a trip signal for bus\n bar to which it is connected, independent of the magnitude of the current\n in this feeder. The operating mode is selected for each feeder on the\n associated BA3 \""
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting In Operation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Put in all plugs\n(except L4) at terminals."
+  },
+  {
+   "type": "paragraph",
+   "text": "All cts are connected and and 1= 0 ( fig 9)"
+  },
+  {
+   "type": "paragraph",
+   "text": "No signal or blocking is there."
+  },
+  {
+   "type": "paragraph",
+   "text": "Final start of the automaticL4, which feeds the DC, \nsupply for the trip relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Put in all plugs\n(except L4) at terminals.",
+    "All cts are connected and and 1= 0 ( fig 9)",
+    "No signal or blocking is there.",
+    "Final start of the automaticL4, which feeds the DC, \nsupply for the trip relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing of the back up protection type I\nAs the testing of the back up protections usually takes place which testing of the\nbus bar protection .\nThe following tests are to be carried out within a suitable place ( preferable\nat the end of the internal checks). For testing the Sam tools and instrument as\nfor the bus bar protection are required."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Draw out the plug which responsible for D.C supply of the trip relays.",
+    "Draw out signaling plugs ( exempt minus ) on the terminals L1,L2 and L3",
+    "Test the blocking button on the BR0 ( fig 7) if blocked the LED light."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tests"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Short circuit and disconnect all cts (terminal strip).",
+    "Connect in series the input transformers in one phase of this busbar\n section and load with a current, which exceeds the feeder threshold, set\n highest.",
+    "Impress current (greater than 1 starting).",
+    "Busbar protection trips.",
+    "Reverse current direction in the feeder to be tested.",
+    "Busbar protection gives no trip.",
+    "Busbar protection gives no trip."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "CB Failure Protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch on test current switch on trip signal from the protection of the\n feeder with the reversed direction (L3, terminal1). This actuates the back\n up protection.",
+    "After 100 ms base time the present time on timing stage T1 of the\n associated (fig 8) a busbar",
+    "Trip signal is given which is signaled on the LEDS of the corresponding\n BA3cards."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Failure Protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch on test current .Switch on general staring signal from the\n protection of the feeder with the reversed current direction ( L3,terminal 2\n )",
+    "After 100 ms base time and the present time on the timing stage T2 of the\n associated BP2 card .A trip signal is given especially for this feeder.",
+    "After the time which is set on T3 a busbar trip occurs ( T2 and T3) are\n running in parallels T3 must be greater than T2 )",
+    "Single and common trip are signaled via LEDS on the corresponding BA3\n cards.",
+    "Put in all plugs at 1, L2 and L3",
+    "Connect CTs ( check 1 at BA3)",
+    "Put in the plug on terminal L4, which feeds the D.C supply for the trip\n relays."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated \nequipment to service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test lead connections from the\n relay.",
+    "Any equipment associated with the relay has been isolated should be returned\n to service As:\n * Breaker trip coils.\n * Breaker failure scheme associated with this relay.\n * Disturbance alarms and fault recorder associated with this relay.\n * Check that CT secondary are in normal condition."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power line be Returned Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Take crossed readings of all AC currents supplied to the relay and\n compare them to those for normal load conditions."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that readings agree with station meters: (A, V, \nMW, MVAR, Power factor)\nFig (3)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents supplied to the relay and\n compare them to those for normal load conditions.",
+    "Check that readings agree with station meters: (A, V, \nMW, MVAR, Power factor)\nFig (3)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring values of feeder threshold (ASW) and total current monitoring\n(F∑1) for the busbar protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring values of total current for the general starting\nsignal (∑1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "66KV"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Feeder",
+     "SS",
+     "Total\n CT\n (A)",
+     "R\n (A)",
+     "S\n (A)",
+     "T\n (A)",
+     "Primary\n current\n (A)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "220KV"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Feeder",
+     "SS",
+     "Total\n CT\n (A)",
+     "R\n (A)",
+     "S\n (A)",
+     "T\n (A)",
+     "Primary\n current\n (A)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "66KV"
+  },
+  {
+   "type": "paragraph",
+   "text": "220KV"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThis procedure details the testing procedures I1, which recommended to be carried \nout on an annually bases as indicated by Y1 in the title block.\nSafety Precautions\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nManual block to interrupted tripping circuits.\nMake sure that CT's secondary \n circuits are shorted, check there is no current from CT's.\nBlock any disturbance alarms or fault recorder associated\n with this protection.\nTools and Equipment\nSecondary injection test set.\nAmmeter, Voltmeter, Test leads.\nWork to be Carried Out\nSteps to Prepare for Relay Testing\nbreaker trip coils\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nTesting the Relay\nCarefully follow this test procedures\nVerify the test results match the relay settings, if not consult technical\n services.\nTest trip the circuit breakers associated with the relay.\nTesting \nProcedure\nChecking of isolating on and off information signal by measuring on p.c.\n b. of BA3 cord by using 4 measuring.\n\nTest of isolating position signal on BA3 for each feeder :- Fig (2a \n 2b)\nYou will get 10V reading after the filter.\nIf you did not get the right reading for the isolator position, you must\n check the terminals from 1-5 on the terminals strip or you can check on the\n filter board of each feeder.\nInternal Checks\nDraw out all plugs on terminal for the isolator position signals except the\n minus.\nShort circuit all CT's coming to the bus bar protection and\n disconnect the link to the bus bar Protection and disconnect the links to bus\n bar protection on the terminal strip.\nPut all plugs on the BP1 the position M fig (3)\nBridge the blocking loop ( BP1,a18,BP2,a20) (fig 4) (fig 5)\nMeasuring of Feeder Threshold Values\nClose isolator of feeder 1 onto bus bar 1 by means of a plug signal on\n terminal L1 cause an impressed current to follow in phase R of feeder 1\nCheck the operation value of feeder threshold stage at BA1( phase R at C18,phase\n SatC20and phaseTatC22)(fig2a)\nThis procedure to be done for each feeder and bus coupler in all phases\nMeasuring of monitoring Currents\nClose isolator and cause an impressed current as in item 2\nCheck the operating value of 1 monitoring the shod on the associated\n BS1card phase R At a10, phase S at C10 and phase Tat C12.The operating value\n of the threshold stage on the first BS1 card is Set to an input voltage25\n MV( rms)\nMeasuring of I General Starting Current\nThis measurement is on principal the same as described in item 2\nMeasuring point on the second BS1 card ( phase Rat a 10, phase S at C10 and\n phase T at C12) to be continued for all phases and bus bar sections\nPhase Comparison test\nSwitch the input cts for one bus bar section in series and close the\n corresponding isolators. Impress a current greater than the threshold values\n in item 2\nThe protection has to decide for trip, I.e. the LED Son the corresponding\n BA3cards must be on reverse one after another the current direction for each\n feeder.\nrepeat this test for each phase, bus bar section and also for coupled\n sections\nSwitching of DC supply\nSwitch off and on the D.C supplies when the protection is blocked and\n unblocked\nSwitching a blocked protection the blocking indication must appear again ,\n an unblocked\nProtection must be still in the unblocked mode when switching on.\nL.E.D test\nPress the button LED-prolong on the BP0 all LEDS must be signaling\n( fig-6)\nAutomatic Testing\nOpen all isolators\nPress \" start self checking test button.\nTest must run during the test the test LED must light up and the\nobstruction relay operate. After conclusion of the test , there must no\nlonger be a signal present .\nClose all isolators and repeat test.\nContinuous monitoring\nPut Columbus .Bus plug for FT into position M\n Extract isolating plug in the plus of in solter at the terminal strip.\nAfter the time delay set on card BP11 the LEDS of the\n corresponding feeder ( isolator) an FT must light up.\nPut Columbus plug for FA into position M,\n interrupt control circuit of trip relay Draw out .The corresponding trip\n relay card BH5 resp.BH6or the amplifier cardBU3After a short time delay\n the FA and corresponding feeder LEDS must light up.\nPut Columbus plug for FK into position \" M \"\n makes a coupling between Bus bars via isolators .After integration time the\n LED's for the participating bus bar bus bar and FK lights up.\nPut Columbus for س I into position M switch\n one feeder onto bus bar to be tested and load associated transformers in one\n phase with current that is certain to cause the س I monitor threshold\n stage to operate (stage already tested under 3.2.2 ) after the time set on\n the BP11 cared, LED F س I and the LEO for the associated bus bar must\n light up.\nTesting Device \nFeeder electronic\nDraw out one card of the feeder electronic and start the testing device.\nCancel indication.\nDraw out one card ( but all BS3 ) with in this section and start the\n testing device.\nCancel indication.\nRemove the bridge (BP1 , a18-BP2,a20)\nDrawing out card causes blocking.\nDuring AT running make a current in feed one feeder (\n isolator in on position)\n The current must exceed the set current total monitor threshold , the test\n must be interrupted immediately.\nExternal Tests\nSignaling to the control room\nDraw out any ( minus) plug on terminal L1 while FT is in position M.A after\n integration Time the signal protection faulty appears.\nSwitch button on BP0inAus position the signal protection blocked\n must appear\nDraw out the DC/DC converter produces the signal dc- faulty\nSwitch off the MCB( CB200).( Fig 10)\n The signal main switch unit off must appear.\nDuring an automatic test the signal blocked is on and disappeared\n after the test.\nPress simultaneously the red button PAII( BP0) and PAI ( BA3)\n Signal : Trip relay excited.\nTrip Circuits\nClose the trip- circuit by putting in the corresponding plug\non terminal L 4 and press simultaneously the button PAII ( BP0) and PAI ( BA3 )\n. The CB must trip.\nIsolator Running Time\nThe integration time (BP 11) is fixed at delivery for appr. (2.4\nsec.). If the isolator running time is grater resistor R 16 (BP 11) has to be\nchanged. R16 = 2.7 M ohms, t = 9 sec.\nCurrent Transformer Circuits\nBefore switching on the main current transformers the\ndirection of power flow and the magnitude of the current in the individual\nfeeders is determined. Then per solidly coupled bus bar unit first of all\nFeeders with the same direction power (e.g. towards the Bus bars) are\n switched on.\nThe amplitude must increase in accordance with the primary quantity as\n each feeder is switched on severally.\nThe feeders with the reverse direction of power are switched on intern.\nThe amplitude must now be reduced in accordance with the primary quantity\n as each feeder is switched on severally and reach approx. 0 mV after the\n last feeder (or bus- coupler breaker) is switched on.\nFinal Setting\nConnect synchronous time switch to terminal strip in accordance with\n circuits diagram and check start self\nCheck t switch function with synchronous switch. 12.0 noon Daily\nConnect synchronous time switch to terminal strip in accordance with\n circuits diagram and check start self\nCheck t switch function with synchronous switch. 12.0 noon Daily\nContinues\n monitoring (\n setting)\nEach of those zones can be switched alternatively to signal (M)or to\n signal and block (B)\nHere the fault indication for the individual checking zones is also\n performed. These area:\nFT : Fault in isolator position signaling (M)\n FA : Fault in electronic control circuit of trip relay (M)\n FK : Fault in internal simulation circuits for solid\n coupling conditions (B)\n F∑ I : Fault in current total monitoring (B)\nMode of Protection\nEach outgoing feeder can be alternatively operated in position\n A or S A duty the feeder is only\n switched off in the event of a trip signal for the bus bar to which it is\n connected if the fault current of this feeder is higher than the set feeder\n threshold. S duty the feeder is switched off in the event of a trip signal for bus\n bar to which it is connected, independent of the magnitude of the current\n in this feeder. The operating mode is selected for each feeder on the\n associated BA3 \"\nSetting In Operation\nPut in all plugs\n(except L4) at terminals.\nAll cts are connected and and 1= 0 ( fig 9)\nNo signal or blocking is there.\nFinal start of the automaticL4, which feeds the DC, \nsupply for the trip relay\nPut in all plugs\n(except L4) at terminals.\nAll cts are connected and and 1= 0 ( fig 9)\nNo signal or blocking is there.\nFinal start of the automaticL4, which feeds the DC, \nsupply for the trip relay\nTesting of the back up protection type I\nAs the testing of the back up protections usually takes place which testing of the\nbus bar protection .\nThe following tests are to be carried out within a suitable place ( preferable\nat the end of the internal checks). For testing the Sam tools and instrument as\nfor the bus bar protection are required.\nDraw out the plug which responsible for D.C supply of the trip relays.\nDraw out signaling plugs ( exempt minus ) on the terminals L1,L2 and L3\nTest the blocking button on the BR0 ( fig 7) if blocked the LED light.\nTests\nShort circuit and disconnect all cts (terminal strip).\nConnect in series the input transformers in one phase of this busbar\n section and load with a current, which exceeds the feeder threshold, set\n highest.\nImpress current (greater than 1 starting).\nBusbar protection trips.\nReverse current direction in the feeder to be tested.\nBusbar protection gives no trip.\nBusbar protection gives no trip.\nCB Failure Protection\nSwitch on test current switch on trip signal from the protection of the\n feeder with the reversed direction (L3, terminal1). This actuates the back\n up protection.\nAfter 100 ms base time the present time on timing stage T1 of the\n associated (fig 8) a busbar\nTrip signal is given which is signaled on the LEDS of the corresponding\n BA3cards.\nRelay Failure Protection\nSwitch on test current .Switch on general staring signal from the\n protection of the feeder with the reversed current direction ( L3,terminal 2\n )\nAfter 100 ms base time and the present time on the timing stage T2 of the\n associated BP2 card .A trip signal is given especially for this feeder.\nAfter the time which is set on T3 a busbar trip occurs ( T2 and T3) are\n running in parallels T3 must be greater than T2 )\nSingle and common trip are signaled via LEDS on the corresponding BA3\n cards.\nPut in all plugs at 1, L2 and L3\nConnect CTs ( check 1 at BA3)\nPut in the plug on terminal L4, which feeds the D.C supply for the trip\n relays.\nReturn Relay and Associated \nequipment to service\nReturn relay to service by removing the test lead connections from the\n relay.\nAny equipment associated with the relay has been isolated should be returned\n to service As:\n * Breaker trip coils.\n * Breaker failure scheme associated with this relay.\n * Disturbance alarms and fault recorder associated with this relay.\n * Check that CT secondary are in normal condition.\nRequest Power line be Returned Service\nTake crossed readings of all AC currents supplied to the relay and\n compare them to those for normal load conditions.\nCheck that readings agree with station meters: (A, V, \nMW, MVAR, Power factor)\nFig (3)\nTake crossed readings of all AC currents supplied to the relay and\n compare them to those for normal load conditions.\nCheck that readings agree with station meters: (A, V, \nMW, MVAR, Power factor)\nFig (3)\nMeasuring values of feeder threshold (ASW) and total current monitoring\n(F∑1) for the busbar protection\nMeasuring values of total current for the general starting\nsignal (∑1)\n66KV\n\n220KV\n\n66KV\n220KV",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-007-13.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-07-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-07-3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-07-2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-002.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-07-4.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-07-7.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-07-6.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-07-8.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-07-9.gif",
+   "alt": ""
+  }
+ ]
+}
