@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -86,84 +88,18 @@
    "text": "Work to be Carried Out"
   },
   {
-   "type": "paragraph",
-   "text": "HV ON / OFF switch"
-  },
-  {
-   "type": "paragraph",
-   "text": "NORM / OFF / REV POLARITY switch"
-  },
-  {
-   "type": "paragraph",
-   "text": "VOLTAGE CONTROL"
-  },
-  {
-   "type": "paragraph",
-   "text": "SENSITIVITY switch"
-  },
-  {
-   "type": "paragraph",
-   "text": "Mill amperes LO / HI switch"
-  },
-  {
-   "type": "paragraph",
-   "text": "5 KV / 10 KV switch"
-  },
-  {
-   "type": "paragraph",
-   "text": "TEST KV switch"
-  },
-  {
-   "type": "paragraph",
-   "text": "RANGE switch"
-  },
-  {
-   "type": "paragraph",
-   "text": "INTERFERENCE SUPPRESSOR switch"
-  },
-  {
-   "type": "paragraph",
-   "text": "Capacitance multiplier switch"
-  },
-  {
-   "type": "paragraph",
-   "text": "OFF"
-  },
-  {
-   "type": "paragraph",
-   "text": "NORM"
-  },
-  {
-   "type": "paragraph",
-   "text": "0"
-  },
-  {
-   "type": "paragraph",
-   "text": "a"
-  },
-  {
-   "type": "paragraph",
-   "text": "LO ( normally )"
-  },
-  {
-   "type": "paragraph",
-   "text": "10 KV ( normally )"
-  },
-  {
-   "type": "paragraph",
-   "text": "10 KV ( normally )"
-  },
-  {
-   "type": "paragraph",
-   "text": "20 %"
-  },
-  {
-   "type": "paragraph",
-   "text": "OFF"
-  },
-  {
-   "type": "paragraph",
-   "text": "SHORT"
+   "type": "table",
+   "rows": [
+    [
+     "Main breaker",
+     "OFF"
+    ],
+    [
+     "HV ON / OFF switch \n NORM / OFF / REV POLARITY switch \n VOLTAGE CONTROL\n SENSITIVITY switch \n Mill amperes LO / HI switch\n 5 KV / 10 KV switch \n TEST KV switch \n RANGE switch \n INTERFERENCE SUPPRESSOR switch\n Capacitance multiplier switch\n Capacitance measuring dials",
+     "OFF\n NORM\n 0\n a\n LO ( normally )\n 10 KV ( normally )\n 10 KV ( normally )\n 20 %\n OFF\n SHORT\n 00.0"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -229,12 +165,124 @@
    "text": "Temperature: \nCorrection Factor:"
   },
   {
-   "type": "paragraph",
-   "text": "TEST \n No."
-  },
-  {
-   "type": "paragraph",
-   "text": "TEST \n KV"
+   "type": "table",
+   "rows": [
+    [
+     "TEST \n No.",
+     "TEST \n KV",
+     "UST-GST Mode",
+     "Measures",
+     "Capacitance",
+     "% Dissipation \n Factor"
+    ],
+    [
+     "Test Type",
+     "Pos",
+     "Dial Reading",
+     "Multr.",
+     "Cap.\n (P.F)",
+     "Dial Reading",
+     "Meas.\n %D.F",
+     "20 C\n %D.F"
+    ],
+    [
+     "Norm.",
+     "Rev.",
+     "Norm.",
+     "Rev."
+    ],
+    [
+     "1",
+     "10",
+     "UST",
+     "3",
+     "CHL",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "10",
+     "GST\n L-GND",
+     "4",
+     "CHG+CLG",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "10",
+     "GST\n L-Guard",
+     "5",
+     "CHG",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "5",
+     "UST",
+     "3",
+     "CHL",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "5",
+     "GST\n L-GND",
+     "4",
+     "CHL+CLG",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "5",
+     "GST\n L-Guard",
+     "5",
+     "CLG",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -273,22 +321,38 @@
    "text": "Temperature: \nCorrection Factor:"
   },
   {
-   "type": "paragraph",
-   "text": "TEST \n No."
-  },
-  {
-   "type": "paragraph",
-   "text": "TEST\n KV"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
-     "5",
+     "TEST \n No.",
+     "TEST\n KV",
+     "UST-GST Mode",
+     "Measures",
+     "Capacitance",
+     "% Dissipation \n Factor"
+    ],
+    [
+     "Test \n Type",
+     "Pos.",
+     "Dial Reading",
+     "MULTR.",
+     "CAP.\n (P.F)",
+     "Dial Reading",
+     "Meas.\n %D.F",
+     "20 C\n %D.F"
+    ],
+    [
+     "Norm.",
+     "Rev.",
+     "Norm.",
+     "Rev."
+    ],
+    [
+     "1",
+     "10",
      "UST",
-     "",
-     "",
+     "3",
+     "CHL",
      "",
      "",
      "",
@@ -299,11 +363,131 @@
      ""
     ],
     [
+     "2",
+     "10",
+     "GST\n L-Guard",
+     "6",
+     "CHL+CHG",
      "",
      "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "10",
+     "GST\n L-Guard",
+     "5",
+     "CHG",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "5",
+     "UST",
+     "3",
+     "CLT",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "5",
      "GST\n L-GND",
+     "6",
+     "CLT+CLG",
      "",
      "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "5",
+     "GST\n L-Guard",
+     "5",
+     "CLG",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "5",
+     "UST",
+     "3",
+     "CHT",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "5",
+     "GST\n L-Guard",
+     "6",
+     "CHT+CHT",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9",
+     "5",
+     "GST\n L-Guard",
+     "5",
+     "CRG",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "5",
+     "GST\n L-GND",
+     "4",
+     "CHG+CLG+CRG",
      "",
      "",
      "",
@@ -465,22 +649,25 @@
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "C1 = C2 - C3"
-  },
-  {
-   "type": "paragraph",
-   "text": "C5DF5 - C6DF6\nDF4 = \n------------------------\nC5 \n- C6"
-  },
-  {
-   "type": "paragraph",
-   "text": "Note : Short each winding on itself"
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "Equivalent \n Circuit",
+     "Measurement Interchecks (Calculated)"
+    ],
+    [
      "",
+     "C1 = C2 - C3\n C4 = C5 - C6"
+    ],
+    [
+     "C2DF2 - C3DF3\nDF1 = ------------------------\n C2 - C3"
+    ],
+    [
+     "H = High - voltage winding\nL = Low - voltage winding \nG = Ground",
+     "C5DF5 - C6DF6\nDF4 = \n------------------------\nC5 \n- C6"
+    ],
+    [
+     "Note : Short each winding on itself",
      "Note : Subscripts are test numbers"
     ]
    ],
@@ -590,7 +777,7 @@
      "8",
      "GST\n L-GUARD",
      "6",
-     "",
+     "CHT+CTG",
      "R+G",
      "T",
      "H",
@@ -623,22 +810,25 @@
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "C1 = C2 - C3"
-  },
-  {
-   "type": "paragraph",
-   "text": "C5DF5 - C6DF6\nDF4 = \n------------------------\nC5 \n- C6"
-  },
-  {
-   "type": "paragraph",
-   "text": "Note : Short each winding on itself"
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "Equivalent \n Circuit",
+     "Measurement Interchecks (Calculated)"
+    ],
+    [
      "",
+     "C1 = C2 - C3\n C4 = C5 - C6\nC7 = C8 - C9"
+    ],
+    [
+     "C2DF2 - C3DF3\nDF1 = ------------------------\n C2 - C3"
+    ],
+    [
+     "H = High - voltage winding\nL = Low - voltage winding \nG = Ground",
+     "C5DF5 - C6DF6\nDF4 = \n------------------------\nC5 \n- C6"
+    ],
+    [
+     "Note : Short each winding on itself",
      "Note : Subscripts are test numbers"
     ]
    ],
@@ -649,11 +839,173 @@
    "text": "Temperature Correction of \nDissipation Factor (D.F)"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "º C",
+     "D-F",
+     "º C",
+     "D-F"
+    ],
+    [
+     "15",
+     "1.20",
+     "40",
+     "0.42"
+    ],
+    [
+     "16",
+     "1.16",
+     "41",
+     "0.40"
+    ],
+    [
+     "17",
+     "1.12",
+     "42",
+     "0.38"
+    ],
+    [
+     "18",
+     "1.08",
+     "44",
+     "0.36"
+    ],
+    [
+     "19",
+     "1.04",
+     "45",
+     "0.34"
+    ],
+    [
+     "20",
+     "1.00",
+     "46",
+     "0.33"
+    ],
+    [
+     "21",
+     "0.96",
+     "47",
+     "0.31"
+    ],
+    [
+     "22",
+     "0.91",
+     "48",
+     "0.30"
+    ],
+    [
+     "23",
+     "0.87",
+     "49",
+     "0.29"
+    ],
+    [
+     "24",
+     "0.83",
+     "50",
+     "0.28"
+    ],
+    [
+     "25",
+     "0.79",
+     "52",
+     "0.26"
+    ],
+    [
+     "26",
+     "0.76",
+     "54",
+     "0.23"
+    ],
+    [
+     "27",
+     "0.73",
+     "56",
+     "0.21"
+    ],
+    [
+     "28",
+     "0.70",
+     "58",
+     "0.19"
+    ],
+    [
+     "29",
+     "0.67",
+     "60",
+     "0.18"
+    ],
+    [
+     "30",
+     "0.63",
+     "61",
+     "0.17"
+    ],
+    [
+     "31",
+     "0.60",
+     "62",
+     "0.16"
+    ],
+    [
+     "32",
+     "0.58",
+     "64",
+     "0.15"
+    ],
+    [
+     "33",
+     "0.56",
+     "66",
+     "0.14"
+    ],
+    [
+     "34",
+     "0.53",
+     "68",
+     "0.13"
+    ],
+    [
+     "35",
+     "0.51",
+     "70",
+     "0.12"
+    ],
+    [
+     "36",
+     "0.49",
+     "71",
+     "0.11"
+    ],
+    [
+     "37",
+     "0.47",
+     "76",
+     "0.10"
+    ],
+    [
+     "38",
+     "0.45",
+     "80",
+     "0.09"
+    ],
+    [
+     "39",
+     "0.44",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Capacitance and Dissipation Factor test set"
   }
  ],
- "text": "Power \n Stations\nTechnical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which performed every 2 \n years as indicated by Y2 in the above title block.\nThe capacitance and \n dissipation factor test set is used for shop and field testing of high \n voltage electrical insulating systems at 50 /60 HZ by applying test \n voltage up to 12kv the test set evaluates. The \ncondition and quality of electrical insulation materials and manufacturing \nprocesses and reveals contamination. Fractures, punctures and other defects \n accompany the aging of insulation.\nThe first draft \n initiated by: eng. Fahmy Fathy Abdel Khalek, tested at 05 May 2003 by eng. Hanan Mahmoud El Badrawy, revised by eng. Adel Abd Alkdar El Nagar: \n EDEPCo quality control, \n accepted by general director eng. Mahmoud El Saied Saker and approved by \n eng. Mostafa Alam Head Sector of Talka PS.\nSafety Precautions\nA work permit \n must be issued, the maintenance staff should be qualified and carry the \n suitable safety category .\nSafety fence \n (rope) with caution marks surrounding the work area is required.\nWear safety \n helmet, and safety shoes.\nThe ground \n connection must be the first made and the last removed.\nThe transformer \n out of service.\nTools and Equipment\n\nWork to be Carried Out\nHV ON / OFF switch\nNORM / OFF / REV POLARITY switch\nVOLTAGE CONTROL\nSENSITIVITY switch\nMill amperes LO / HI switch\n5 KV / 10 KV switch\nTEST KV switch\nRANGE switch\nINTERFERENCE SUPPRESSOR switch\nCapacitance multiplier switch\nOFF\nNORM\n0\na\nLO ( normally )\n10 KV ( normally )\n10 KV ( normally )\n20 %\nOFF\nSHORT\nConnect the test set to the \ndesired transformer winding\nWarning: During this test a voltage \n will be induced in all windings of the transformer .Treat \nall terminals as energized\nMake a short \n circuit on HV and LV transformer\nSet the UST / \n GST test mode selector switch to the required position for the particular test \n to be performed ( normally UST-3 ) .\nEnergize the \n test set by closing the main breaker switch.\nClose the \n external interlock switch.\nSet the HV ON / \n OFF switch to ON.\nAdvance VOLTAGE \n CONTROL to desired test voltage.\nRead the value \n of transformer excitation current on the output millimeter.\nNote : If the \nmain breaker trip when advancing the VOLTAGE CONTROL, the output capabilities of \nthe test set have been exceeded. Measure the transformer excitation current at a \nlower test voltage . The current capability is doubled by using the 5 KV voltage \nrange .\nWhen the test \n has been completed, gradually reduce the test voltage to zero, open the \n external interlock switch or switch the HV ON / OFF switch OFF, then the main \n breaker to off .\nRemove a short \n circuit on HV and LV transformer\nIN CASE OF EMERGENCY\nPower can be interrupted immediately by either switching the main breaker off or \nopening the external interlock switch.\nTwo Winding \nTransformer\nCapacitance \n& Dissipation Factor Tests\nTransformer Over-All Test\nPower of Transformer: \nSub Station:\nConnection: \nTransformer No.:\nTemperature: \nCorrection Factor:\nTEST \n No.\nTEST \n KV\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :\nThree Winding \nTransformer\nCapacitance \n& Dissipation Factor Tests\nTransformer Over-All Test\nPower of Transformer: \nSub Station:\nConnection: \nTransformer No.:\nTemperature: \nCorrection Factor:\nTEST \n No.\nTEST\n KV\n\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : Signature : Test Date : / /\nApproved by \n: Signature :\nTwo-winding Transformer Test Connections\n\nC1 = C2 - C3\nC5DF5 - C6DF6\nDF4 = \n------------------------\nC5 \n- C6\nNote : Short each winding on itself\n\nThree-winding transformer test connections\n\nC1 = C2 - C3\nC5DF5 - C6DF6\nDF4 = \n------------------------\nC5 \n- C6\nNote : Short each winding on itself\n\nTemperature Correction of \nDissipation Factor (D.F)\nCapacitance and Dissipation Factor test set",
+ "text": "Power \n Stations | Technical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which performed every 2 \n years as indicated by Y2 in the above title block.\nThe capacitance and \n dissipation factor test set is used for shop and field testing of high \n voltage electrical insulating systems at 50 /60 HZ by applying test \n voltage up to 12kv the test set evaluates. The \ncondition and quality of electrical insulation materials and manufacturing \nprocesses and reveals contamination. Fractures, punctures and other defects \n accompany the aging of insulation.\nThe first draft \n initiated by: eng. Fahmy Fathy Abdel Khalek, tested at 05 May 2003 by eng. Hanan Mahmoud El Badrawy, revised by eng. Adel Abd Alkdar El Nagar: \n EDEPCo quality control, \n accepted by general director eng. Mahmoud El Saied Saker and approved by \n eng. Mostafa Alam Head Sector of Talka PS.\nSafety Precautions\nA work permit \n must be issued, the maintenance staff should be qualified and carry the \n suitable safety category .\nSafety fence \n (rope) with caution marks surrounding the work area is required.\nWear safety \n helmet, and safety shoes.\nThe ground \n connection must be the first made and the last removed.\nThe transformer \n out of service.\nTools and Equipment\nPower input cable. | Blue low voltage cable.\nControl unit type\n AVTM670065Ja device. | Ground cable.\nInterconnection cable | High - voltage cable clip.\nRed low voltage cable. | High - voltage out put cable.\nHigh voltage unit. | Foot switch protected interlock\nWork to be Carried Out\nMain breaker | OFF\nHV ON / OFF switch \n NORM / OFF / REV POLARITY switch \n VOLTAGE CONTROL\n SENSITIVITY switch \n Mill amperes LO / HI switch\n 5 KV / 10 KV switch \n TEST KV switch \n RANGE switch \n INTERFERENCE SUPPRESSOR switch\n Capacitance multiplier switch\n Capacitance measuring dials | OFF\n NORM\n 0\n a\n LO ( normally )\n 10 KV ( normally )\n 10 KV ( normally )\n 20 %\n OFF\n SHORT\n 00.0\nConnect the test set to the \ndesired transformer winding\nWarning: During this test a voltage \n will be induced in all windings of the transformer .Treat \nall terminals as energized\nMake a short \n circuit on HV and LV transformer\nSet the UST / \n GST test mode selector switch to the required position for the particular test \n to be performed ( normally UST-3 ) .\nEnergize the \n test set by closing the main breaker switch.\nClose the \n external interlock switch.\nSet the HV ON / \n OFF switch to ON.\nAdvance VOLTAGE \n CONTROL to desired test voltage.\nRead the value \n of transformer excitation current on the output millimeter.\nNote : If the \nmain breaker trip when advancing the VOLTAGE CONTROL, the output capabilities of \nthe test set have been exceeded. Measure the transformer excitation current at a \nlower test voltage . The current capability is doubled by using the 5 KV voltage \nrange .\nWhen the test \n has been completed, gradually reduce the test voltage to zero, open the \n external interlock switch or switch the HV ON / OFF switch OFF, then the main \n breaker to off .\nRemove a short \n circuit on HV and LV transformer\nIN CASE OF EMERGENCY\nPower can be interrupted immediately by either switching the main breaker off or \nopening the external interlock switch.\nTwo Winding \nTransformer\nCapacitance \n& Dissipation Factor Tests\nTransformer Over-All Test\nPower of Transformer: \nSub Station:\nConnection: \nTransformer No.:\nTemperature: \nCorrection Factor:\nTEST \n No. | TEST \n KV | UST-GST Mode | Measures | Capacitance | % Dissipation \n Factor\nTest Type | Pos | Dial Reading | Multr. | Cap.\n (P.F) | Dial Reading | Meas.\n %D.F | 20 C\n %D.F\nNorm. | Rev. | Norm. | Rev.\n1 | 10 | UST | 3 | CHL |  |  |  |  |  |  |  | \n2 | 10 | GST\n L-GND | 4 | CHG+CLG |  |  |  |  |  |  |  | \n3 | 10 | GST\n L-Guard | 5 | CHG |  |  |  |  |  |  |  | \n4 | 5 | UST | 3 | CHL |  |  |  |  |  |  |  | \n5 | 5 | GST\n L-GND | 4 | CHL+CLG |  |  |  |  |  |  |  | \n6 | 5 | GST\n L-Guard | 5 | CLG |  |  |  |  |  |  |  | \nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :\nThree Winding \nTransformer\nCapacitance \n& Dissipation Factor Tests\nTransformer Over-All Test\nPower of Transformer: \nSub Station:\nConnection: \nTransformer No.:\nTemperature: \nCorrection Factor:\nTEST \n No. | TEST\n KV | UST-GST Mode | Measures | Capacitance | % Dissipation \n Factor\nTest \n Type | Pos. | Dial Reading | MULTR. | CAP.\n (P.F) | Dial Reading | Meas.\n %D.F | 20 C\n %D.F\nNorm. | Rev. | Norm. | Rev.\n1 | 10 | UST | 3 | CHL |  |  |  |  |  |  |  | \n2 | 10 | GST\n L-Guard | 6 | CHL+CHG |  |  |  |  |  |  |  | \n3 | 10 | GST\n L-Guard | 5 | CHG |  |  |  |  |  |  |  | \n4 | 5 | UST | 3 | CLT |  |  |  |  |  |  |  | \n5 | 5 | GST\n L-GND | 6 | CLT+CLG |  |  |  |  |  |  |  | \n6 | 5 | GST\n L-Guard | 5 | CLG |  |  |  |  |  |  |  | \n7 | 5 | UST | 3 | CHT |  |  |  |  |  |  |  | \n8 | 5 | GST\n L-Guard | 6 | CHT+CHT |  |  |  |  |  |  |  | \n9 | 5 | GST\n L-Guard | 5 | CRG |  |  |  |  |  |  |  | \n10 | 5 | GST\n L-GND | 4 | CHG+CLG+CRG |  |  |  |  |  |  |  | \nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : Signature : Test Date : / /\nApproved by \n: Signature :\nTwo-winding Transformer Test Connections\nTest\n No. | UST - GST Mode | Measures | Test Lead Conn. | Remarks\nTest\n Type | Pos | Cap. Symbol | Bridge\n Symbol | Black | Red | Blue\n1 | UST | 3 | CHL | R | H | L | --- | \n2 | GST\n L-GND | 4 | CHL+CLG | R+B+G | H | L | --- | L grounded\n3 | GST\n L-GND | 5 | CLG | G | H | L | --- | L grounded\n4 | GST\n L-GND | 3 | CHL | R | L | H | --- | \n5 | GST\n L-GND | 4 | CHL+CLG | R+B+G | L | H | --- | L grounded\n6 | GST\n L-GND | 5 | CLG | G | L | H | --- | L grounded\n7 | GST\n L-GND | 4 | CHG+CLG | R+B+G | H & L | --- | --- | \n8 |  |  |  |  |  |  |  | \n9 |  |  |  |  |  |  |  | \n10 |  |  |  |  |  |  |  | \nEquivalent \n Circuit | Measurement Interchecks (Calculated)\n | C1 = C2 - C3\n C4 = C5 - C6\nC2DF2 - C3DF3\nDF1 = ------------------------\n C2 - C3\nH = High - voltage winding\nL = Low - voltage winding \nG = Ground | C5DF5 - C6DF6\nDF4 = \n------------------------\nC5 \n- C6\nNote : Short each winding on itself | Note : Subscripts are test numbers\nThree-winding transformer test connections\nTest\n No. | UST - GST Mode | Measures | Test Lead Conn. | Remarks\nTest\n Type | Pos | Cap. Symbol | Bridge\n Symbol | Black | Red | Blue\n1 | UST | 3 | CHL | R | H | L | T | T \n grounded\n2 | GST\n L-GND | 6 | CHL+CHG | R+G | H | L | T | T \n guarded\n L grounded\n3 | GST\n L-GND | 5 | CHG | G | H | L | T | L & T\n guarded\n4 | UST | 3 | CLT | R | L | T | H | H \n grounded\n5 | GST\n L-GUARD | 6 | CLT+CLG | R+G | L | T | H | H \n guarded\n T grounded\n6 | GST\n L-GUARD | 5 | CLG | G | L | T | H | T & H\n guarded\n7 | UST | 3 | CHT | R | T | H | L | L grounded\n8 | GST\n L-GUARD | 6 | CHT+CTG | R+G | T | H | L | L guarded\n H grounded\n9 | GST\n L-GUARD | 5 | CTG | G | T | H | L | H & L\n guarded\n10 | GST\n L-GND | 4 | CHG+CLG+CTG | R+B+G | H+L+T | --- | --- | \nEquivalent \n Circuit | Measurement Interchecks (Calculated)\n | C1 = C2 - C3\n C4 = C5 - C6\nC7 = C8 - C9\nC2DF2 - C3DF3\nDF1 = ------------------------\n C2 - C3\nH = High - voltage winding\nL = Low - voltage winding \nG = Ground | C5DF5 - C6DF6\nDF4 = \n------------------------\nC5 \n- C6\nNote : Short each winding on itself | Note : Subscripts are test numbers\nTemperature Correction of \nDissipation Factor (D.F)\nº C | D-F | º C | D-F\n15 | 1.20 | 40 | 0.42\n16 | 1.16 | 41 | 0.40\n17 | 1.12 | 42 | 0.38\n18 | 1.08 | 44 | 0.36\n19 | 1.04 | 45 | 0.34\n20 | 1.00 | 46 | 0.33\n21 | 0.96 | 47 | 0.31\n22 | 0.91 | 48 | 0.30\n23 | 0.87 | 49 | 0.29\n24 | 0.83 | 50 | 0.28\n25 | 0.79 | 52 | 0.26\n26 | 0.76 | 54 | 0.23\n27 | 0.73 | 56 | 0.21\n28 | 0.70 | 58 | 0.19\n29 | 0.67 | 60 | 0.18\n30 | 0.63 | 61 | 0.17\n31 | 0.60 | 62 | 0.16\n32 | 0.58 | 64 | 0.15\n33 | 0.56 | 66 | 0.14\n34 | 0.53 | 68 | 0.13\n35 | 0.51 | 70 | 0.12\n36 | 0.49 | 71 | 0.11\n37 | 0.47 | 76 | 0.10\n38 | 0.45 | 80 | 0.09\n39 | 0.44 |  | \nCapacitance and Dissipation Factor test set",
  "text_truncated": false,
  "links": [],
  "images": [

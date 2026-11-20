@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Substations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Substations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -69,8 +71,14 @@
     ],
     [
      "1.",
-     "",
+     "Check \n the oil level and record the values",
      "Litres",
+     ""
+    ],
+    [
+     "2.",
+     "Check the position of PV01-MM",
+     "Open □\n Closed □",
      ""
     ]
    ],
@@ -81,38 +89,82 @@
    "text": "Vacuum Module"
   },
   {
-   "type": "paragraph",
-   "text": "VP01-VM \n □"
-  },
-  {
-   "type": "paragraph",
-   "text": "VP01-VM \n □"
-  },
-  {
-   "type": "paragraph",
-   "text": "Correct \n □"
+   "type": "table",
+   "rows": [
+    [
+     "3.",
+     "Record the vacuum of sensor 1",
+     "mbar",
+     ""
+    ],
+    [
+     "4.",
+     "Record the vacuum of \n sensor 2",
+     "mbar",
+     ""
+    ],
+    [
+     "5.",
+     "Check vacuum pump oil level",
+     "VP01-VM \n □\n VP02-VM \n □",
+     ""
+    ],
+    [
+     "6.",
+     "Choice of active \n vacuum pump\n (when leaving pla)",
+     "VP01-VM \n □\n VP02-VM \n □",
+     ""
+    ],
+    [
+     "7.",
+     "Compare position of priority switch to active pump",
+     "Correct \n □\n Not correct □",
+     ""
+    ],
+    [
+     "8.",
+     "Inspect the vacuum sight glass for oil",
+     "OK □",
+     ""
+    ],
+    [
+     "9.",
+     "Drain vacuum pump condense trap of condense",
+     "OK □",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "The PLC module"
   },
   {
-   "type": "paragraph",
-   "text": "Printout OK \n □"
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "10.",
+     "Check printouts and Qty of paper in tray\n (1 month's \n consumption)",
+     "Printout OK \n □ \n Paper OK \n □",
+     ""
+    ],
+    [
+     "11.",
+     "Check remote alarms against centre of operations",
+     "□",
+     ""
+    ],
+    [
      "12.",
-     "",
-     "",
+     "Register any alarms and irregularities",
+     "No Alarm □\n Alarm □",
      ""
     ],
     [
      "13.",
-     "",
-     "",
+     "Alarms cancelled",
+     "□",
      ""
     ]
    ],
@@ -126,39 +178,51 @@
    "type": "table",
    "rows": [
     [
+     "14.",
+     "Register pump pressure M1",
+     "bar □",
+     "PT01-M1"
+    ],
+    [
      "",
+     "Register cable pressure M1",
+     "bar □",
+     "PT01-CB"
+    ],
+    [
+     "15.",
      "Register pump pressure M2",
-     "",
-     ""
+     "bar □",
+     "PT01-M2"
     ],
     [
      "",
      "Register cable pressure M2",
-     "",
-     ""
+     "bar □",
+     "PT02-CB"
     ],
     [
      "16.",
-     "",
-     "",
+     "Register pump pressure M3",
+     "bar □",
      "PT01-M3"
     ],
     [
      "",
      "Register cable pressure M3",
-     "",
+     "bar □",
      "PT03-CB"
     ],
     [
      "17.",
-     "",
-     "",
+     "Register pump pressure M4",
+     "bar □",
      "PT01-M4"
     ],
     [
      "",
      "Register cable pressure M4",
-     "",
+     "bar □",
      "PT04-CB"
     ],
     [
@@ -181,6 +245,18 @@
    "text": "Main module"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "20.",
+     "Discrepancies for oil pump leakage",
+     "cm",
+     "LT 01-TM"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Air pressure module"
   },
@@ -188,21 +264,39 @@
    "type": "table",
    "rows": [
     [
+     "21.",
+     "Check oil level of the compressors",
+     "OK □",
+     "AC01-AM"
+    ],
+    [
+     "",
+     "",
+     "OK □",
+     "AC02-AM"
+    ],
+    [
      "22.",
+     "Check nos. of running hours on the compressors",
+     "Hours \n □",
+     "AC01-AM"
+    ],
+    [
      "",
      "",
-     ""
+     "Hours □",
+     "AC02-AM"
     ],
     [
      "23.",
-     "",
-     "",
+     "Run time trap on all air pressure tanks",
+     "OK □",
      "EV01-AM\n EV02-AM\n EV03-AM\n EV04-AM"
     ],
     [
      "24.",
-     "",
-     "",
+     "Check cooling element",
+     "OK □",
      "AD01-AM\n AD01-AM"
     ]
    ],
@@ -216,9 +310,15 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "25.",
      "Register oil leaks in the pumping plant",
+     "No Leaks \n □",
+     ""
+    ],
+    [
      "",
+     "",
+     "Leaks □",
      ""
     ],
     [
@@ -230,7 +330,7 @@
     [
      "",
      "All switches and valves are in normal position",
-     "",
+     "Leaks □",
      ""
     ]
    ],
@@ -245,7 +345,7 @@
    "text": "Tested by: Signature: \nDate:"
   }
  ],
- "text": "Substations\nTechnical Procedure\nIntroduction\nThis documents out lines \n the equipment inspection I1, to be performed on a monthly bases \n as indicated by M1 in the above titled block.\n The first draft initiated by eng. Khaled Ragaa Zaky, Taba Marine Cable Substation - Sina network \n Sector\nSafety Precautions\nWork order must be issued and the qualified \n maintenace staff should the suitable safety category,\nWear safety helmet, shoes\nTools and Equipment\nPersenal protective equipment\nWork to be Carried Out\nTank Module\n\nVacuum Module\nVP01-VM \n □\nVP01-VM \n □\nCorrect \n □\nThe PLC module\nPrintout OK \n □\n\nD-TAM panel on the PLC module\n\nMain module\nAir pressure module\n\nGeneral\n\nNote: Regarding the \nemergency power supply generator follow the instructions given by the supplier.\nTested by: Signature: \nDate:",
+ "text": "Substations | Technical Procedure\nIntroduction\nThis documents out lines \n the equipment inspection I1, to be performed on a monthly bases \n as indicated by M1 in the above titled block.\n The first draft initiated by eng. Khaled Ragaa Zaky, Taba Marine Cable Substation - Sina network \n Sector\nSafety Precautions\nWork order must be issued and the qualified \n maintenace staff should the suitable safety category,\nWear safety helmet, shoes\nTools and Equipment\nPersenal protective equipment\nWork to be Carried Out\nTank Module\nNo. | Points of Inspection | Recorded\n Values / Events | Remarks\n1. | Check \n the oil level and record the values | Litres | \n2. | Check the position of PV01-MM | Open □\n Closed □ | \nVacuum Module\n3. | Record the vacuum of sensor 1 | mbar | \n4. | Record the vacuum of \n sensor 2 | mbar | \n5. | Check vacuum pump oil level | VP01-VM \n □\n VP02-VM \n □ | \n6. | Choice of active \n vacuum pump\n (when leaving pla) | VP01-VM \n □\n VP02-VM \n □ | \n7. | Compare position of priority switch to active pump | Correct \n □\n Not correct □ | \n8. | Inspect the vacuum sight glass for oil | OK □ | \n9. | Drain vacuum pump condense trap of condense | OK □ | \nThe PLC module\n10. | Check printouts and Qty of paper in tray\n (1 month's \n consumption) | Printout OK \n □ \n Paper OK \n □ | \n11. | Check remote alarms against centre of operations | □ | \n12. | Register any alarms and irregularities | No Alarm □\n Alarm □ | \n13. | Alarms cancelled | □ | \nD-TAM panel on the PLC module\n14. | Register pump pressure M1 | bar □ | PT01-M1\n | Register cable pressure M1 | bar □ | PT01-CB\n15. | Register pump pressure M2 | bar □ | PT01-M2\n | Register cable pressure M2 | bar □ | PT02-CB\n16. | Register pump pressure M3 | bar □ | PT01-M3\n | Register cable pressure M3 | bar □ | PT03-CB\n17. | Register pump pressure M4 | bar □ | PT01-M4\n | Register cable pressure M4 | bar □ | PT04-CB\n18. | Register humidity | % | \n19. | Register temperature | C | \nMain module\n20. | Discrepancies for oil pump leakage | cm | LT 01-TM\nAir pressure module\n21. | Check oil level of the compressors | OK □ | AC01-AM\n |  | OK □ | AC02-AM\n22. | Check nos. of running hours on the compressors | Hours \n □ | AC01-AM\n |  | Hours □ | AC02-AM\n23. | Run time trap on all air pressure tanks | OK □ | EV01-AM\n EV02-AM\n EV03-AM\n EV04-AM\n24. | Check cooling element | OK □ | AD01-AM\n AD01-AM\nGeneral\n25. | Register oil leaks in the pumping plant | No Leaks \n □ | \n |  | Leaks □ | \n26. | Final check | All valves in\n normal position | \n | All switches and valves are in normal position | Leaks □ | \nNote: Regarding the \nemergency power supply generator follow the instructions given by the supplier.\nTested by: Signature: \nDate:",
  "text_truncated": false,
  "links": [],
  "images": [

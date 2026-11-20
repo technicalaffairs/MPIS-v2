@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Transmission Lines",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -74,6 +84,10 @@
    "type": "table",
    "rows": [
     [
+     "String &Posts.",
+     "Phase to earth"
+    ],
+    [
      "C",
      "C+g",
      "T",
@@ -83,7 +97,7 @@
      "0.7m",
      "1.2m",
      "1.1m",
-     ""
+     "1.6"
     ]
    ],
    "truncated_rows": 0
@@ -309,134 +323,6 @@
    "text": "Check List For the Electrical Withstand of Posts (W.C.1.1.2.)"
   },
   {
-   "type": "paragraph",
-   "text": "Determination Of Data Necessary For Calculation"
-  },
-  {
-   "type": "paragraph",
-   "text": "L=.measured or with N x P =."
-  },
-  {
-   "type": "paragraph",
-   "text": "b=b1+b2=..\n b = ."
-  },
-  {
-   "type": "paragraph",
-   "text": "cg=c1+c2=cg\n = ."
-  },
-  {
-   "type": "paragraph",
-   "text": "Li: Shortest distance between the live part and the ground\n part of the post after the length of non-insulating parts is subtracted."
-  },
-  {
-   "type": "paragraph",
-   "text": "By calculation: LI= (L-Cg)-b"
-  },
-  {
-   "type": "paragraph",
-   "text": "Li=....."
-  },
-  {
-   "type": "paragraph",
-   "text": "For the calculation of Lc: h =... (in all the\n Safety volume not shunted by guard pieces)"
-  },
-  {
-   "type": "paragraph",
-   "text": "nd = (not shunted by guard pieces)"
-  },
-  {
-   "type": "paragraph",
-   "text": "For the calculation with pollution"
-  },
-  {
-   "type": "paragraph",
-   "text": ":nc' = (all the shunted\n insulator sheds)"
-  },
-  {
-   "type": "paragraph",
-   "text": "nd = (all the damaged\n insulator sheds)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Post Type:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Post insulator without equipment inside"
-  },
-  {
-   "type": "paragraph",
-   "text": "Post insulator with equipment inside"
-  },
-  {
-   "type": "paragraph",
-   "text": "String characteristics:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Non polluted ."
-  },
-  {
-   "type": "paragraph",
-   "text": "Polluted."
-  },
-  {
-   "type": "paragraph",
-   "text": "Dry."
-  },
-  {
-   "type": "paragraph",
-   "text": "Calculation and Check Relative to Switching Over voltages"
-  },
-  {
-   "type": "paragraph",
-   "text": "LC=LI-(nd x p) - h"
-  },
-  {
-   "type": "paragraph",
-   "text": "Lc=."
-  },
-  {
-   "type": "paragraph",
-   "text": "L2=."
-  },
-  {
-   "type": "paragraph",
-   "text": "(values given in W.C 1.1.2. *Electrical withstand in the\n working Zone')"
-  },
-  {
-   "type": "paragraph",
-   "text": "a)Post insulators without equipment inside (L2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "live working is authorized if"
-  },
-  {
-   "type": "paragraph",
-   "text": "Lc ≥ L2"
-  },
-  {
-   "type": "paragraph",
-   "text": "Live working is prohibited if"
-  },
-  {
-   "type": "paragraph",
-   "text": "Lc < L2"
-  },
-  {
-   "type": "paragraph",
-   "text": "b) Post insulator with equipment inside"
-  },
-  {
-   "type": "paragraph",
-   "text": "LC/Li = ."
-  },
-  {
-   "type": "paragraph",
-   "text": "K2 ="
-  },
-  {
    "type": "table",
    "rows": [
     [
@@ -455,53 +341,9 @@
     ]
    ],
    "truncated_rows": 0
-  },
-  {
-   "type": "paragraph",
-   "text": "Calculation and Check Relative to Pollution\n LP=(L-b) - (nd + nc') x P"
-  },
-  {
-   "type": "paragraph",
-   "text": "For Long Rod"
-  },
-  {
-   "type": "paragraph",
-   "text": "LP = . = .."
-  },
-  {
-   "type": "paragraph",
-   "text": "r = Lp/L-b OR 1- n/N = with n=nd + nc'"
-  },
-  {
-   "type": "paragraph",
-   "text": "r = ..."
-  },
-  {
-   "type": "paragraph",
-   "text": "a) In case of polluted or non- polluted dry posts"
-  },
-  {
-   "type": "paragraph",
-   "text": "If r ≥ 0.7 live working is authorized"
-  },
-  {
-   "type": "paragraph",
-   "text": "If r > 0.7 live working is prohibited ."
-  },
-  {
-   "type": "paragraph",
-   "text": "b) In case of wet posts:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Live working is prohibited ..."
-  },
-  {
-   "type": "paragraph",
-   "text": "Reminder: the distance conditions shall be also checked\n into the safety volume around the posts and if any around the breaking\n chambers."
   }
  ],
- "text": "Introduction\nThe purpose of this\n procedure is to provide detailed safe method for transmission lines\n maintenance staff to minimize the possibility of error causing personal injury\n or damage to equipment.\nThe \n Transmission Line engineers in head \n office and zones using their background field experience and EETC / EDF \n documentation to create this procedure. The document was updated in HTML \n Format at Feb. 2004.\nSafety Precautions\nA work permit must be\n issued.\nVisually inspect\n all equipment (sticks, ropes, slings)\nInspect the\n insulation of insulating ropes using leakage surface tester.\nClean all poles by\n silicon cloth.\nBe sure that all\n sticks have been tested and the date of last inspection not more than six\n months refer to the inspection certificate.\nEarthing resistance for the line is in permissible value (black soil < 10 \n ohm, Rocky soil < 30 ohm, sandy soil < 20 ohm) .\nTools and Equipment\nWireless communication devices\nTarpaulin. \n (1)\nRacks. \n (2)\nSurface Leakage\n Tester \n (1)\nStatic\n Inverter \n (1)\nSilicon\n Cloth \n (5)\nClimbing Stick with\n hook \n (1)\nComplete fall arrest and life line\n insulating rope.\nSmall\n Pulley \n (2)\nInsulating Rope\n (80m) \n (1)\nSling \n (5)\nExtendible Hand Pole\n 3.08 \n (2)\nDouble Brush (Medium\n Size) (2)\nHexagonal\n Adapter \n (1)\nClamp 39mm\n Diameter \n (1)\nCarbine \n (5)\nMechanical\n Tester \n (1)\nDistances\n\nC, C +g , T , T +g\n illustrate in fig.(1)\nSpecial Operating Mode (S.O.M)\nAutomatic reclosing\n unit on the line must be on the position OFF.\nIf the line\n Switched off during the work, dont switch it ON again before\n telling the work supervisor to lower the line man to the land.\nWork to be Carried Out\nWe have to get live\n working Authorization.\nCheck the radio link.\nCheck the line name\n and define the tower number to be cleaned.\nParking the car not\n under the conductor.\nPut the Tarpaulin and\n bring out the materials.\nPut Racks and bring\n the insulation poles.\nInspect Individual and\n collecting materials and tools.\nCheck the insulating\n rope (Using surface tester).\nSilicon insulating\n poles (using Silicon cloth).\nThe first line man\n will climb the tower with climbing tools and insulating rope\nThe line man climb to\n a location in the same level of the first phase and fix the life line to the\n tower with Nylon sling and carabine.\nThe first line will\n climb to the top phase and fix the pulley of the insulating rope at the top\n cross arm see Fig (2).\nThe second line man\n climb to a location in the same level of the first line man.\nIn case of porcelain\n insulators, check the state of insulator using mechanical tester.\nCollect and record the\n data necessary for calculation as illustrated in the check list form\n attached.\nThe lineman on the\n ground fixes the insulating pole and brush to the insulating rope.\nIn case of cleaning\n Porcelain insulator use the mechanical test to check the string of\n insulators mechanically.\nThe lineman on the\n tower left the insulating pole and brush to start cleaning the string from\n top to bottom.\nAfter finishing work\n on the first circuit move all equipment to the second circuit.\nAfter finishing the\n work all equipment must be lowered.\nReturn the live working\n authorization\nFigure (1)\nFigure (2)\nU = 220 KV\n1. Determination of Data Necessary for Calculation\nL=3.15 m. measured or with N = 2 (L=N x P)\nN: no. of insulators, C1: The lower metallic part of the\n insulator, C2: The Higher metallic part of the insulator, P: Pitch, h: length\n of the brush\nCg: Length shunted by guard pieces, b: Sum of non insulating\n parts\nCg = C1+C2= Cg =\nLi: Shortest distance between the live part and the ground\n part of the string after the length of non-insulating parts is subtracted.\nBy calculation: LI= (L-Cg)-b \n Li = 2.94\nFor the calculation of Lc: h = 0.15 (in all the safety volume\n not shunted by guard pieces)\n:nd = 0 (not shunted by guard pieces)\nFor the calculation with pollution:\n:nc' = 2 (no of the shunted\n insulators)\n:nd = 0. (no of the damaged\n insulators)\nString Characteristics:\nNon polluted ..\nPolluted....\nDry...\nWet\n2. Calculation and Check Relative to\nSwitching Over voltages\nLC=LI-(nd x p) -h\nLc=..2.94 - (0xp) - 0.15 = 2.79 (Lc: Corrected length)\nL2=0.96 (L2 for 220KV=0.96)\n(Values given in W.C 1.1.2. Electrical withstand in the\n working Zone*)\nLive working is authorized if\nLc ≥ L2\n .\nLive working is prohibited if\nLc < L2\n .\n3. Calculation and Check Relative to\nPollution\nnd = 0..\nn= nd +nc' = ..2.\nnc' = .2.\nN = .21\nDry string n1= 6.\n(Values given in W.C 1.1.2. Electrical withstand in the\n working Zone*)\nCase of polluted or non polluted dry strings\nIf n < n1, live working is authorized\n .....\nIf n > n1, live working is prohibited\n .....\nIf n < n1, live working is authorized\n .....\nIf n > n1, live working is prohibited\n .....\nLive working is prohibited\nReminder: The distance conditions\nshall be also checked into the safety volumes around the strings.\nCheck List For the Electrical Withstand of Posts (W.C.1.1.2.)\nDetermination Of Data Necessary For Calculation\nL=.measured or with N x P =.\nb=b1+b2=..\n b = .\ncg=c1+c2=cg\n = .\nLi: Shortest distance between the live part and the ground\n part of the post after the length of non-insulating parts is subtracted.\nBy calculation: LI= (L-Cg)-b\nLi=.....\nFor the calculation of Lc: h =... (in all the\n Safety volume not shunted by guard pieces)\nnd = (not shunted by guard pieces)\nFor the calculation with pollution\n:nc' = (all the shunted\n insulator sheds)\nnd = (all the damaged\n insulator sheds)\nPost Type:\nPost insulator without equipment inside\nPost insulator with equipment inside\nString characteristics:\nNon polluted .\nPolluted.\nDry.\nCalculation and Check Relative to Switching Over voltages\nLC=LI-(nd x p) - h\nLc=.\nL2=.\n(values given in W.C 1.1.2. *Electrical withstand in the\n working Zone')\na)Post insulators without equipment inside (L2)\nlive working is authorized if\nLc ≥ L2\nLive working is prohibited if\nLc < L2\nb) Post insulator with equipment inside\nLC/Li = .\nK2 =\n\nCalculation and Check Relative to Pollution\n LP=(L-b) - (nd + nc') x P\nFor Long Rod\nLP = . = ..\nr = Lp/L-b OR 1- n/N = with n=nd + nc'\nr = ...\na) In case of polluted or non- polluted dry posts\nIf r ≥ 0.7 live working is authorized\nIf r > 0.7 live working is prohibited .\nb) In case of wet posts:\nLive working is prohibited ...\nReminder: the distance conditions shall be also checked\n into the safety volume around the posts and if any around the breaking\n chambers.",
+ "text": "Transmission Lines | Technical Procedure\nIntroduction\nThe purpose of this\n procedure is to provide detailed safe method for transmission lines\n maintenance staff to minimize the possibility of error causing personal injury\n or damage to equipment.\nThe \n Transmission Line engineers in head \n office and zones using their background field experience and EETC / EDF \n documentation to create this procedure. The document was updated in HTML \n Format at Feb. 2004.\nSafety Precautions\nA work permit must be\n issued.\nVisually inspect\n all equipment (sticks, ropes, slings)\nInspect the\n insulation of insulating ropes using leakage surface tester.\nClean all poles by\n silicon cloth.\nBe sure that all\n sticks have been tested and the date of last inspection not more than six\n months refer to the inspection certificate.\nEarthing resistance for the line is in permissible value (black soil < 10 \n ohm, Rocky soil < 30 ohm, sandy soil < 20 ohm) .\nTools and Equipment\nWireless communication devices\nTarpaulin. \n (1)\nRacks. \n (2)\nSurface Leakage\n Tester \n (1)\nStatic\n Inverter \n (1)\nSilicon\n Cloth \n (5)\nClimbing Stick with\n hook \n (1)\nComplete fall arrest and life line\n insulating rope.\nSmall\n Pulley \n (2)\nInsulating Rope\n (80m) \n (1)\nSling \n (5)\nExtendible Hand Pole\n 3.08 \n (2)\nDouble Brush (Medium\n Size) (2)\nHexagonal\n Adapter \n (1)\nClamp 39mm\n Diameter \n (1)\nCarbine \n (5)\nMechanical\n Tester \n (1)\nDistances\nString &Posts. | Phase to earth\nC | C+g | T | T+g\n0.7m | 1.2m | 1.1m | 1.6\nC, C +g , T , T +g\n illustrate in fig.(1)\nSpecial Operating Mode (S.O.M)\nAutomatic reclosing\n unit on the line must be on the position OFF.\nIf the line\n Switched off during the work, dont switch it ON again before\n telling the work supervisor to lower the line man to the land.\nWork to be Carried Out\nWe have to get live\n working Authorization.\nCheck the radio link.\nCheck the line name\n and define the tower number to be cleaned.\nParking the car not\n under the conductor.\nPut the Tarpaulin and\n bring out the materials.\nPut Racks and bring\n the insulation poles.\nInspect Individual and\n collecting materials and tools.\nCheck the insulating\n rope (Using surface tester).\nSilicon insulating\n poles (using Silicon cloth).\nThe first line man\n will climb the tower with climbing tools and insulating rope\nThe line man climb to\n a location in the same level of the first phase and fix the life line to the\n tower with Nylon sling and carabine.\nThe first line will\n climb to the top phase and fix the pulley of the insulating rope at the top\n cross arm see Fig (2).\nThe second line man\n climb to a location in the same level of the first line man.\nIn case of porcelain\n insulators, check the state of insulator using mechanical tester.\nCollect and record the\n data necessary for calculation as illustrated in the check list form\n attached.\nThe lineman on the\n ground fixes the insulating pole and brush to the insulating rope.\nIn case of cleaning\n Porcelain insulator use the mechanical test to check the string of\n insulators mechanically.\nThe lineman on the\n tower left the insulating pole and brush to start cleaning the string from\n top to bottom.\nAfter finishing work\n on the first circuit move all equipment to the second circuit.\nAfter finishing the\n work all equipment must be lowered.\nReturn the live working\n authorization\nFigure (1)\nFigure (2)\nU = 220 KV\n1. Determination of Data Necessary for Calculation\nL=3.15 m. measured or with N = 2 (L=N x P)\nN: no. of insulators, C1: The lower metallic part of the\n insulator, C2: The Higher metallic part of the insulator, P: Pitch, h: length\n of the brush\nCg: Length shunted by guard pieces, b: Sum of non insulating\n parts\nCg = C1+C2= Cg =\nLi: Shortest distance between the live part and the ground\n part of the string after the length of non-insulating parts is subtracted.\nBy calculation: LI= (L-Cg)-b \n Li = 2.94\nFor the calculation of Lc: h = 0.15 (in all the safety volume\n not shunted by guard pieces)\n:nd = 0 (not shunted by guard pieces)\nFor the calculation with pollution:\n:nc' = 2 (no of the shunted\n insulators)\n:nd = 0. (no of the damaged\n insulators)\nString Characteristics:\nNon polluted ..\nPolluted....\nDry...\nWet\n2. Calculation and Check Relative to\nSwitching Over voltages\nLC=LI-(nd x p) -h\nLc=..2.94 - (0xp) - 0.15 = 2.79 (Lc: Corrected length)\nL2=0.96 (L2 for 220KV=0.96)\n(Values given in W.C 1.1.2. Electrical withstand in the\n working Zone*)\nLive working is authorized if\nLc ≥ L2\n .\nLive working is prohibited if\nLc < L2\n .\n3. Calculation and Check Relative to\nPollution\nnd = 0..\nn= nd +nc' = ..2.\nnc' = .2.\nN = .21\nDry string n1= 6.\n(Values given in W.C 1.1.2. Electrical withstand in the\n working Zone*)\nCase of polluted or non polluted dry strings\nIf n < n1, live working is authorized\n .....\nIf n > n1, live working is prohibited\n .....\nIf n < n1, live working is authorized\n .....\nIf n > n1, live working is prohibited\n .....\nLive working is prohibited\nReminder: The distance conditions\nshall be also checked into the safety volumes around the strings.\nCheck List For the Electrical Withstand of Posts (W.C.1.1.2.)\n | LC /LI ≥ K2 | LC/LI < K2\nLC ≥ L2 | AUTHORIZED | PROHIBITED\nLC < L2 | ",
  "text_truncated": false,
  "links": [],
  "images": [

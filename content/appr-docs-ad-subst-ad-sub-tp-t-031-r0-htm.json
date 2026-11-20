@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Substations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Substations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -130,17 +132,30 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Rated Nameplate volts kV",
+     "VT Ratio",
+     "Voltmeter Readings",
+     "Ammeter Readings",
+     "CT Ratio",
+     "Line Current (Amps)",
+     "Apparent Watts Calc'd",
+     "Wattmeter\n Readings",
+     "Watt meter mult'p",
+     "True Watts Calc'd",
      "Percent\n Excitation Calc'd"
+    ],
+    [
+     "AVE",
+     "RMS",
+     "A",
+     "B",
+     "C",
+     "A",
+     "B",
+     "C",
+     "A",
+     "B",
+     "C"
     ]
    ],
    "truncated_rows": 0
@@ -158,7 +173,7 @@
    "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
   }
  ],
- "text": "Substations\nTechnical Procedure\nIntroduction\nThis document lists the equipment Testing Procedure checklist, which must be performed for Power Transformers \naccording to each manufacturer Instructions. (eng Khaled initiate the first \ndraft)\nSafety Precautions\nThe transformer frame must be securely grounded.\nAll neutral bushings should be filled to securely grounded.\nAll oil filled bushings must be filled to normal required oil\n level.\nAll oil compartments of the transformer under test must be filled with oil to the normal required oil level.\nCurrent instrument transformers must have their secondary windings shorted together and grounded.\nTest areas should be completely enclosed with a protective barrier that will prevent unauthorized access.\nNote: The load loss expressed in\nwatts should not vary from the original test value (If available) by more than \n+ 7%\nTools and Equipment\nAmmeter, Wattmeter\nVoltmeter (RMS)\nAverage voltmeter (calibrated in RMS)\nCurrent transformer with proper ratio\nVoltage transformer with proper ratio\nWork to be Carried Out\nReview the transformer control\n plan. check any information available on the original factory test date uses it as guide.\nRecord the transformer's ambient oil temperature.\nDetermine the winding and tape position to be used for the test.\nDetermine the voltage required for the test. (From the nameplate).\nDetermine the metering required for the test.(i) voltage (ii) ammeters (iii) wattmeter's\nGround the transformer tank.\nCheck that oil is at required levels and in all oil filled bushings.\nGround solidly all neutral bushings of the transformer to be tested.\nShort and ground the secondary windings of all current transformers.\nConnect leads between adjustable AC power source and the bushings of the winding selected for test. All remaining bushings are open and not connected.\nClear the test area of personal, then energize the transformer increase the voltage slowly. verify that voltage are balanced and that meter values are reasonable, tank reading, then reduce the applied voltage and switch off the supply circuit.\nCalculation No Load losses and Excitation current measurement\nFor single phase: \nWA=I1 *E1\nI1 = Single phase Line Amp\nE1 = Single phase applied volts.\nFor three phases:\nWA = (I3 * E3 ) /1.732\nWhere: \nI 3 = Sum of three line amps\nE3 = Three phase applied volts\nPercent excitation current:\n% Iex = (IAV\n/ Ir ) * 100\n%\nWhere: \nIex Percent excitation current\nI AV = Average line current\nIr = Rated line current (from nameplate).\nTransformer No Load Losses and Excitation Current Measurements\n\nType of\nTransformer: \n Single Phase: \nSerial\nNumber: \nThree Phase:\nKVA Rating: \nKV Rating:\nRemarks:\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text": "Substations | Technical Procedure\nIntroduction\nThis document lists the equipment Testing Procedure checklist, which must be performed for Power Transformers \naccording to each manufacturer Instructions. (eng Khaled initiate the first \ndraft)\nSafety Precautions\nThe transformer frame must be securely grounded.\nAll neutral bushings should be filled to securely grounded.\nAll oil filled bushings must be filled to normal required oil\n level.\nAll oil compartments of the transformer under test must be filled with oil to the normal required oil level.\nCurrent instrument transformers must have their secondary windings shorted together and grounded.\nTest areas should be completely enclosed with a protective barrier that will prevent unauthorized access.\nNote: The load loss expressed in\nwatts should not vary from the original test value (If available) by more than \n+ 7%\nTools and Equipment\nAmmeter, Wattmeter\nVoltmeter (RMS)\nAverage voltmeter (calibrated in RMS)\nCurrent transformer with proper ratio\nVoltage transformer with proper ratio\nWork to be Carried Out\nReview the transformer control\n plan. check any information available on the original factory test date uses it as guide.\nRecord the transformer's ambient oil temperature.\nDetermine the winding and tape position to be used for the test.\nDetermine the voltage required for the test. (From the nameplate).\nDetermine the metering required for the test.(i) voltage (ii) ammeters (iii) wattmeter's\nGround the transformer tank.\nCheck that oil is at required levels and in all oil filled bushings.\nGround solidly all neutral bushings of the transformer to be tested.\nShort and ground the secondary windings of all current transformers.\nConnect leads between adjustable AC power source and the bushings of the winding selected for test. All remaining bushings are open and not connected.\nClear the test area of personal, then energize the transformer increase the voltage slowly. verify that voltage are balanced and that meter values are reasonable, tank reading, then reduce the applied voltage and switch off the supply circuit.\nCalculation No Load losses and Excitation current measurement\nFor single phase: \nWA=I1 *E1\nI1 = Single phase Line Amp\nE1 = Single phase applied volts.\nFor three phases:\nWA = (I3 * E3 ) /1.732\nWhere: \nI 3 = Sum of three line amps\nE3 = Three phase applied volts\nPercent excitation current:\n% Iex = (IAV\n/ Ir ) * 100\n%\nWhere: \nIex Percent excitation current\nI AV = Average line current\nIr = Rated line current (from nameplate).\nTransformer No Load Losses and Excitation Current Measurements\nRated Nameplate volts kV | VT Ratio | Voltmeter Readings | Ammeter Readings | CT Ratio | Line Current (Amps) | Apparent Watts Calc'd | Wattmeter\n Readings | Watt meter mult'p | True Watts Calc'd | Percent\n Excitation Calc'd\nAVE | RMS | A | B | C | A | B | C | A | B | C\nType of\nTransformer: \n Single Phase: \nSerial\nNumber: \nThree Phase:\nKVA Rating: \nKV Rating:\nRemarks:\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

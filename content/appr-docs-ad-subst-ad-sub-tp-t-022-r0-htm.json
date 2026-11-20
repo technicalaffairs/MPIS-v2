@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Substations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Substations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -121,99 +123,26 @@
    "type": "table",
    "rows": [
     [
-     "10",
-     "",
-     "",
-     "",
-     ""
+     "D.C Winding Resistance Test (Two-Winding Transformer)"
     ],
-    [
-     "11",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "12",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "13",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "14",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "15",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "16",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "17",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "18",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "19",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "LV SIDE",
-     "",
-     "",
-     "",
-     ""
-    ]
-   ],
-   "truncated_rows": 0
-  },
-  {
-   "type": "table",
-   "rows": [
     [
      "Tap Position",
-     "",
+     "Current",
      "Phase A",
      "Phase B",
      "Phase \n C"
     ],
     [
-     "(H1-H0)",
-     "(H2-H0)",
-     "(H3-H0)"
+     "(H1-H2)",
+     "(H2-H3)",
+     "(H3-H1)"
+    ],
+    [
+     "1",
+     "",
+     "",
+     "",
+     ""
     ],
     [
      "2",
@@ -344,16 +273,177 @@
     [
      "LV SIDE",
      "",
+     "X1-X0",
+     "X2-X0",
+     "X3-X0"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "D.C Winding Resistance Test (Three-Winding\n Transformer)"
+    ],
+    [
+     "Tap Position",
+     "Current",
+     "Phase A",
+     "Phase B",
+     "Phase \n C"
+    ],
+    [
+     "(H1-H0)",
+     "(H2-H0)",
+     "(H3-H0)"
+    ],
+    [
+     "1",
+     "",
      "",
      "",
      ""
     ],
     [
-     "TERTIARY",
+     "2",
      "",
      "",
      "",
      ""
+    ],
+    [
+     "3",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "11",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "12",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "13",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "14",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "16",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "17",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "18",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "19",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "LV SIDE",
+     "",
+     "X1-X0",
+     "X2-X0",
+     "X3-X0"
+    ],
+    [
+     "TERTIARY",
+     "",
+     "Y1-Y2",
+     "Y2-Y3",
+     "Y3-Y1"
     ]
    ],
    "truncated_rows": 0
@@ -363,7 +453,7 @@
    "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
   }
  ],
- "text": "Substations\nTechnical Procedure\nIntroduction\nThis document lists the equipment testing procedure\nchecklist, which must be performed for power transformers. according to each\nmanufacturer instructions.\nSafety Precautions\nA work \n order must be issued and the qualified test group staff should carry the suitable safety \n category,\nSafety fence (rope) with caution marks \n surrounding the work area,\nIsolate the transformer out of service and earth\nDisassemble all clamp from bushings (Hi-voltage\n side, Low-voltage side and tertiary if exists)\nThe presence of current in load is signaled by\n flashing caution lamp and a display segment.\nBecause of the amount of energy that can be\n stored in a magnetic field, precautions should be taken before\n disconnecting the test leads from the transformer that is under test.\nNever remove the leads during the testing process\n and always allow enough time (it may take several minuets) to completely\n discharge the transformer being tested.\nConnect the earth of tester to common earth of\n Substation.\nTest equipment type \nWRT100 The company address:\nElectrical Testing Instruments Scarbough, Ontario Canada M1V1E7\ntelephone 416-292-8181, fax: 416-292-8188\nThe test equipment is specifically designed for the\nmeasurement of dc resistance in high inductive alternator windings. It offers a\nchoice of 4 full-scale resistance ranges in 2 channels.\nTest equipment type \nWRT100 The company address:\nElectrical Testing Instruments Scarbough, Ontario Canada M1V1E7\ntelephone 416-292-8181, fax: 416-292-8188\nThe test equipment is specifically designed for the\nmeasurement of dc resistance in high inductive alternator windings. It offers a\nchoice of 4 full-scale resistance ranges in 2 channels.\nWork to be Carried Out\nIn case of star connection, connect the current test\n leads to each phase between HV bushing to neutral, and in case of delta\n connection put them between the two HV bushings\nConnect the voltage test leads inside the current test\n leads.\nNote\nthat: Potential test leads must not touch the current leads\nEnsure that test/dumb switch is in dump \n position (green color).\nConnect the power cable and switch the test \n equipment ON.\nDepress the test switch and wait until the \n current indicator reaches the maximum and stop rising. The yellow ready lamp \n should be flashing.\nNote :\nThe yellow flashing ready lamp means current is flowing in the load\ncurrent leads Must not be Disconnected while the lamp is flashing\nYou can change the range of the resistance to get accurate results, but it\n is not permitted to change the current setting while the current flow. If\n you need to change the current setting you should terminate the test.\nTo terminate the test, depress the dump switch, wait for the ready lamp to\n stop flashing.\nNote: Dont operate\nthe tap-changer during the test otherwise the current will be disconnected.\nRecord the result for each phase and neutral at each tap-changer position\n in case of tapchanger on the HV side.\nRepeat each step with each phase (R, S & T).\nRecord the results in the record sheet\nRun the test with each LV winding and for each phase. In the same\n manner and the same precautions.\nRecord the results in the record sheet.\n\n\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text": "Substations | Technical Procedure\nIntroduction\nThis document lists the equipment testing procedure\nchecklist, which must be performed for power transformers. according to each\nmanufacturer instructions.\nSafety Precautions\nA work \n order must be issued and the qualified test group staff should carry the suitable safety \n category,\nSafety fence (rope) with caution marks \n surrounding the work area,\nIsolate the transformer out of service and earth\nDisassemble all clamp from bushings (Hi-voltage\n side, Low-voltage side and tertiary if exists)\nThe presence of current in load is signaled by\n flashing caution lamp and a display segment.\nBecause of the amount of energy that can be\n stored in a magnetic field, precautions should be taken before\n disconnecting the test leads from the transformer that is under test.\nNever remove the leads during the testing process\n and always allow enough time (it may take several minuets) to completely\n discharge the transformer being tested.\nConnect the earth of tester to common earth of\n Substation.\nTest equipment type \nWRT100 The company address:\nElectrical Testing Instruments Scarbough, Ontario Canada M1V1E7\ntelephone 416-292-8181, fax: 416-292-8188\nThe test equipment is specifically designed for the\nmeasurement of dc resistance in high inductive alternator windings. It offers a\nchoice of 4 full-scale resistance ranges in 2 channels.\nTest equipment type \nWRT100 The company address:\nElectrical Testing Instruments Scarbough, Ontario Canada M1V1E7\ntelephone 416-292-8181, fax: 416-292-8188\nThe test equipment is specifically designed for the\nmeasurement of dc resistance in high inductive alternator windings. It offers a\nchoice of 4 full-scale resistance ranges in 2 channels.\nWork to be Carried Out\nIn case of star connection, connect the current test\n leads to each phase between HV bushing to neutral, and in case of delta\n connection put them between the two HV bushings\nConnect the voltage test leads inside the current test\n leads.\nNote\nthat: Potential test leads must not touch the current leads\nEnsure that test/dumb switch is in dump \n position (green color).\nConnect the power cable and switch the test \n equipment ON.\nDepress the test switch and wait until the \n current indicator reaches the maximum and stop rising. The yellow ready lamp \n should be flashing.\nNote :\nThe yellow flashing ready lamp means current is flowing in the load\ncurrent leads Must not be Disconnected while the lamp is flashing\nYou can change the range of the resistance to get accurate results, but it\n is not permitted to change the current setting while the current flow. If\n you need to change the current setting you should terminate the test.\nTo terminate the test, depress the dump switch, wait for the ready lamp to\n stop flashing.\nNote: Dont operate\nthe tap-changer during the test otherwise the current will be disconnected.\nRecord the result for each phase and neutral at each tap-changer position\n in case of tapchanger on the HV side.\nRepeat each step with each phase (R, S & T).\nRecord the results in the record sheet\nRun the test with each LV winding and for each phase. In the same\n manner and the same precautions.\nRecord the results in the record sheet.\nD.C Winding Resistance Test (Two-Winding Transformer)\nTap Position | Current | Phase A | Phase B | Phase \n C\n(H1-H2) | (H2-H3) | (H3-H1)\n1 |  |  |  | \n2 |  |  |  | \n3 |  |  |  | \n4 |  |  |  | \n5 |  |  |  | \n6 |  |  |  | \n7 |  |  |  | \n8 |  |  |  | \n9 |  |  |  | \n10 |  |  |  | \n11 |  |  |  | \n12 |  |  |  | \n13 |  |  |  | \n14 |  |  |  | \n15 |  |  |  | \n16 |  |  |  | \n17 |  |  |  | \n18 |  |  |  | \n19 |  |  |  | \nLV SIDE |  | X1-X0 | X2-X0 | X3-X0\nD.C Winding Resistance Test (Three-Winding\n Transformer)\nTap Position | Current | Phase A | Phase B | Phase \n C\n(H1-H0) | (H2-H0) | (H3-H0)\n1 |  |  |  | \n2 |  |  |  | \n3 |  |  |  | \n4 |  |  |  | \n5 |  |  |  | \n6 |  |  |  | \n7 |  |  |  | \n8 |  |  |  | \n9 |  |  |  | \n10 |  |  |  | \n11 |  |  |  | \n12 |  |  |  | \n13 |  |  |  | \n14 |  |  |  | \n15 |  |  |  | \n16 |  |  |  | \n17 |  |  |  | \n18 |  |  |  | \n19 |  |  |  | \nLV SIDE |  | X1-X0 | X2-X0 | X3-X0\nTERTIARY |  | Y1-Y2 | Y2-Y3 | Y3-Y1\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [
