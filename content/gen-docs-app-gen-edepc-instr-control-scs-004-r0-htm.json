@@ -1,0 +1,241 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-scs-004-r0-htm",
+ "doc_number": "STS-004-R0",
+ "title_en": "STS-004-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/SCS-004-r0.HTM",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines \n the testing procedures for vibration control system:\n Speedtronic card (Vibration Card): SVDC (Channel 1: 1L0S, Channel \n 2:1L0R, Channel 3: 1L0Q) \n No. of detectors \n on unit: Two on \n turbine , one on generator"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft \n initiated by eng. Wagdy Eid Mansour and tested by eng. Magdy Saad at 31 May 2003, \n reviewed by eng. Abdel Momem El-Emam at EDEPCo., accepted by general \n eng. Yousry Abdel Maksuod, and approved by eng. Mostafa Alam Head Sector of \n Talkha power plant."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Turbine shutdown",
+    "Work order must be issued",
+    "Wear your safety helmet, shoes ... etc"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibrator set type IC 4988A100AA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi tester - general\n purpose, 0-150 VDC, 0-500 VAC\n with freq. Response of \n 10 Hz to 20 KHz, 0.01 V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Oscillator, output 3.5 V,\n into approx. 250 Ω, range 100 - 15000 Hz"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Calibrator set type IC 4988A100AA",
+    "Multi tester - general\n purpose, 0-150 VDC, 0-500 VAC\n with freq. Response of \n 10 Hz to 20 KHz, 0.01 V",
+    "Oscillator, output 3.5 V,\n into approx. 250 Ω, range 100 - 15000 Hz"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check vibration transducer ( 39 V 1.2.3. ) for d.c \nresistance and not grounded, the vibration card: SVDC (ILOS, ILOR, ILOQ)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check vibration transducer ( 39 V 1.2.3. ) for d.c \nresistance and not grounded, the vibration card: SVDC (ILOS, ILOR, ILOQ)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Detector fault check - SVDC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Using ohmmeter, check transducer cable shield to \n determine that it is continuous from transducer to speedtronic panel, and \n connected to common only at panel end and not at any other place.",
+    "Temporarily jumper pin 7 (C12B44) to pin 15 \n (D12B45) of SVDC. see that vibration trouble is indicated by the annunciator \n and card mounted indicator light",
+    "Remove jumper ; press \" reset \" PB1 on SVDC and \n check that annunciator can be cleared",
+    "Disconnect connector at vibration transducer and \n check that vibration trouble is annunciated",
+    "Replace connector and reset by means of PB1",
+    "Repeat steps1 to 5 for vibration channels \n 2 and 3 if used jumper (C13B46) to (D13B47) for channel 2 and (C14B48) to \n (D14B49) for channel 3"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Speedtronic CARD: SVDC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure vibration level ref. to trip setting value for the 3 channels, adjust\n R1 if the level out of setting.\n - Trip setting : 1 IN / SEC (2.54 CM. SEC>) \n SVDC, Set point Adj. R1\n - Trip level voltage :0.141 VRMS (0.2 VOLTSPK)",
+    "Repeat step 1 at SVDC (ILOR) & SVDC (ILOQ)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Vibration trip - SVDC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure \n vibration level ref. to trip setting for the three channels, adjust \n the \"ADJ\" pot. R1 on the SVDC card full CW if the vibration level out of setting.",
+    "If the speedtronic calibrator is used, connect \n one lead from the oscillator (C12B44) to the test pot (J7 on the calibrator) \n connect the other end of the test pot (J10 on the calibrator) to PIN7 SVDC",
+    "Connect other end of oscillator (D12B45) to pin \n 15, SVDC (ACOM.)\n Note: If the speedtronic calibrator is not available, some means of \n adjusting your oscillator output voltage between 0 volt and 0.177 volts RMS \n must be provided.",
+    "Connect a 220 OHM resistor across pins 7 and 15, \n SVDC, to simulate the coil impedance at 72 DEG.F. or connect the pickup",
+    "Connect a digital voltmeter across pins 7 \n (C12B44) and 15 (D12B45), SVDC",
+    "Connect a voltmeter to pin 48, SVDC",
+    "Set frequency to 100 HZ., press reset button \"RST\" \n on the SVDC card",
+    "Adjust oscillator voltage per control SPEC. \n setting",
+    "Observe that the panel meter indicates the trip \n level voltage is per control SPCE setting",
+    "Adjust \"ADJ\" POT R1 CCW until the light just \n comes on",
+    "Reduce oscillator voltage and press reset button, \n then increase it slowly to the trip level voltage PER THH CONT SPEC. setting \n the meter at pin 48, SVDC should indicate a logic change to 1 and the light on \n the card should come",
+    "Repeat steps 10 and 11 until the card mounted \n light cannot be reset at the trip level",
+    "Repeat steps from 1 to 12 for channel no 2, 3."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "MRDS Maintenance Record Data \nSheet MRDS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Vibration Control System Channel No."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "CARD",
+     "Manuf. Setting",
+     "Before\n Adjust.",
+     "After \n Adjust.",
+     "Adjustment"
+    ],
+    [
+     "INCH / Sec",
+     "Volt",
+     "Accuracy"
+    ],
+    [
+     "SVDC\n (ILOS)",
+     "1.",
+     "0.141 VRMS\n or 0.2 V PK",
+     "2 %",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Vibration Control System Channel No."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "CARD",
+     "Manuf. Setting",
+     "Before\n Adjust.",
+     "After \n Adjust.",
+     "Adjustment"
+    ],
+    [
+     "INCH / Sec",
+     "Volt",
+     "Accuracy"
+    ],
+    [
+     "SVDC\n (ILOS)",
+     "1.",
+     "0.141 VRMS\n or 0.2 V PK",
+     "2 %",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Vibration Control System Channel No."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "CARD",
+     "Manuf. Setting",
+     "Before\n Adjust.",
+     "After \n Adjust.",
+     "Adjustment"
+    ],
+    [
+     "INCH / Sec",
+     "Volt",
+     "Accuracy"
+    ],
+    [
+     "SVDC\n (ILOS)",
+     "1.",
+     "0.141 VRMS\n or 0.2 V PK",
+     "2 %",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "Power Stations\nTechnical Procedure\nIntroduction\nThis document outlines \n the testing procedures for vibration control system:\n Speedtronic card (Vibration Card): SVDC (Channel 1: 1L0S, Channel \n 2:1L0R, Channel 3: 1L0Q) \n No. of detectors \n on unit: Two on \n turbine , one on generator\nThe first draft \n initiated by eng. Wagdy Eid Mansour and tested by eng. Magdy Saad at 31 May 2003, \n reviewed by eng. Abdel Momem El-Emam at EDEPCo., accepted by general \n eng. Yousry Abdel Maksuod, and approved by eng. Mostafa Alam Head Sector of \n Talkha power plant.\nSafety Precautions\nTurbine shutdown\nWork order must be issued\nWear your safety helmet, shoes ... etc\nTools and Equipment\nCalibrator set type IC 4988A100AA\nMulti tester - general\n purpose, 0-150 VDC, 0-500 VAC\n with freq. Response of \n 10 Hz to 20 KHz, 0.01 V\nOscillator, output 3.5 V,\n into approx. 250 Ω, range 100 - 15000 Hz\nCalibrator set type IC 4988A100AA\nMulti tester - general\n purpose, 0-150 VDC, 0-500 VAC\n with freq. Response of \n 10 Hz to 20 KHz, 0.01 V\nOscillator, output 3.5 V,\n into approx. 250 Ω, range 100 - 15000 Hz\nWork to be carried out\nCheck vibration transducer ( 39 V 1.2.3. ) for d.c \nresistance and not grounded, the vibration card: SVDC (ILOS, ILOR, ILOQ)\nCheck vibration transducer ( 39 V 1.2.3. ) for d.c \nresistance and not grounded, the vibration card: SVDC (ILOS, ILOR, ILOQ)\nDetector fault check - SVDC\nUsing ohmmeter, check transducer cable shield to \n determine that it is continuous from transducer to speedtronic panel, and \n connected to common only at panel end and not at any other place.\nTemporarily jumper pin 7 (C12B44) to pin 15 \n (D12B45) of SVDC. see that vibration trouble is indicated by the annunciator \n and card mounted indicator light\nRemove jumper ; press \" reset \" PB1 on SVDC and \n check that annunciator can be cleared\nDisconnect connector at vibration transducer and \n check that vibration trouble is annunciated\nReplace connector and reset by means of PB1\nRepeat steps1 to 5 for vibration channels \n 2 and 3 if used jumper (C13B46) to (D13B47) for channel 2 and (C14B48) to \n (D14B49) for channel 3\nSpeedtronic CARD: SVDC\nMeasure vibration level ref. to trip setting value for the 3 channels, adjust\n R1 if the level out of setting.\n - Trip setting : 1 IN / SEC (2.54 CM. SEC>) \n SVDC, Set point Adj. R1\n - Trip level voltage :0.141 VRMS (0.2 VOLTSPK)\nRepeat step 1 at SVDC (ILOR) & SVDC (ILOQ)\nVibration trip - SVDC\nMeasure \n vibration level ref. to trip setting for the three channels, adjust \n the \"ADJ\" pot. R1 on the SVDC card full CW if the vibration level out of setting.\nIf the speedtronic calibrator is used, connect \n one lead from the oscillator (C12B44) to the test pot (J7 on the calibrator) \n connect the other end of the test pot (J10 on the calibrator) to PIN7 SVDC\nConnect other end of oscillator (D12B45) to pin \n 15, SVDC (ACOM.)\n Note: If the speedtronic calibrator is not available, some means of \n adjusting your oscillator output voltage between 0 volt and 0.177 volts RMS \n must be provided.\nConnect a 220 OHM resistor across pins 7 and 15, \n SVDC, to simulate the coil impedance at 72 DEG.F. or connect the pickup\nConnect a digital voltmeter across pins 7 \n (C12B44) and 15 (D12B45), SVDC\nConnect a voltmeter to pin 48, SVDC\nSet frequency to 100 HZ., press reset button \"RST\" \n on the SVDC card\nAdjust oscillator voltage per control SPEC. \n setting\nObserve that the panel meter indicates the trip \n level voltage is per control SPCE setting\nAdjust \"ADJ\" POT R1 CCW until the light just \n comes on\nReduce oscillator voltage and press reset button, \n then increase it slowly to the trip level voltage PER THH CONT SPEC. setting \n the meter at pin 48, SVDC should indicate a logic change to 1 and the light on \n the card should come\nRepeat steps 10 and 11 until the card mounted \n light cannot be reset at the trip level\nRepeat steps from 1 to 12 for channel no 2, 3.\nMRDS Maintenance Record Data \nSheet MRDS\nVibration Control System Channel No.\n\nVibration Control System Channel No.\n\nVibration Control System Channel No.\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

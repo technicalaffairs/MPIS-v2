@@ -1,0 +1,267 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-tcs-001-r0-htm",
+ "doc_number": "TCS-001-R0",
+ "title_en": "TCS-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/TCS-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Station"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:Turbine Control \n System\n SIEMENS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the \nequipment inspection I1, which must be performed on an annually bases as indicated \nby Y1 in the title block and during overhaul"
+  },
+  {
+   "type": "paragraph",
+   "text": "TCS consists of three parts"
+  },
+  {
+   "type": "paragraph",
+   "text": "Servo \nposition controller (SPC) system"
+  },
+  {
+   "type": "paragraph",
+   "text": "Startup \nand load limited device"
+  },
+  {
+   "type": "paragraph",
+   "text": "Electro \nhydraulic converter (EHC)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Servo \nposition controller (SPC) system",
+    "Startup \nand load limited device",
+    "Electro \nhydraulic converter (EHC)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Servo position controller (SPC) system"
+  },
+  {
+   "type": "paragraph",
+   "text": "There \nare two SPC`s in control loop, one is primary and other is backup. The servo \nposition controller (SPC) is a servo-valve driver that accepts a device net or \n4-20 mA based position demand signal from a system controller, and accurately \nposition proportional or integrating servo-valves. The SPC`s position feedback \ncircuit includes integral excitation and signal conditioning circuitry for LVDT \nand RVDT based position sensing devices. The SPC`S associated PC interface \nsoftware program allows a user to configure; auto-calibrate, dynamically adjust, \nand manually stroke the controlled servo"
+  },
+  {
+   "type": "paragraph",
+   "text": "Startup and load limited device"
+  },
+  {
+   "type": "paragraph",
+   "text": "The \nfunction of the hydraulic speed governor with starting and load limiting device \nis to operate the control valves to give the appropriate turbine steam \nthroughout for the particular load condition"
+  },
+  {
+   "type": "paragraph",
+   "text": "Electro hydraulic converter (EHC)"
+  },
+  {
+   "type": "paragraph",
+   "text": "The \nelectro hydraulic converter (EHC) is the connecting element between the \nelectrical and hydraulic parts of the turbine control system. It converts the \nsignals from the electric governor into hydraulic signals and amplifies them \nbefore transmitting them to the actuating devices"
+  },
+  {
+   "type": "paragraph",
+   "text": "For testing of TCS perform the following"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check \nservo position controller (SPC) system. Check startup and load limited device, \ncheck elector hydraulic converter (EHC) review data base configuration and test \nl/O electronic modules"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first \ndraft initiated by eng. Bassem El-Said, tested by eng. Ghareb Saied Ghareb, accepted by \neng. Ibrahim El-Saied Abdel-Hamed: general director, revised by eng. Abdel \nMeniem El-Emam: EDEPC I &C quality control, approved by eng. Mokhtar Abdel-Latef Mady: head sector of Ataka \nPS"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document accepted by eng.\nSamir Abdel Gilel: EDEPC \ninspection and \nquality control general director & MPIS coordinator, and \ncertified by eng. Mervat Ez-Elden: EDEPC head sector of \ninspection & quality control."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work order must be issued."
+  },
+  {
+   "type": "paragraph",
+   "text": "The maintenance staff should be qualified and \n carry the suitable safety ID category"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear safety and healthy equipment as safety helmet, safety shoes, ... etc"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work area is required"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work order must be issued.",
+    "The maintenance staff should be qualified and \n carry the suitable safety ID category",
+    "Wear safety and healthy equipment as safety helmet, safety shoes, ... etc",
+    "Safety fence with caution marks surrounding the work area is required"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Personal computer (laptop)"
+  },
+  {
+   "type": "paragraph",
+   "text": "RS-232 connection cable"
+  },
+  {
+   "type": "paragraph",
+   "text": "Digital multi-meter, Fluke 187"
+  },
+  {
+   "type": "paragraph",
+   "text": "Screw driver kit, manual tools"
+  },
+  {
+   "type": "paragraph",
+   "text": "Oil spry cleaner & teflon roll"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration device (inject voltage from (0 -10) V with 200 mA"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Personal computer (laptop)",
+    "RS-232 connection cable",
+    "Digital multi-meter, Fluke 187",
+    "Screw driver kit, manual tools",
+    "Oil spry cleaner & teflon roll",
+    "Calibration device (inject voltage from (0 -10) V with 200 mA"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain a copy of (SPC, \nLVDT) maintenance manuals"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain a copy of schematic \nloop wiring diagram and data sheets"
+  },
+  {
+   "type": "paragraph",
+   "text": "Backup configuration \nsoftware for SPC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain a copy of (SPC, \nLVDT) maintenance manuals",
+    "Obtain a copy of schematic \nloop wiring diagram and data sheets",
+    "Backup configuration \nsoftware for SPC"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "SPC \ntest"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the system power \nsupply"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the system power \nsupply",
+    "Connect the SPC with \n PC by using RS-232 connection",
+    "Ensure that the \n configuration of SPC is equal to original configuration",
+    "If there are errors \n with the configuration, load it from the backup configuration",
+    "Turn the SPC to \n manual mode via operator station (DSC) then give order 0 value",
+    "Connect a voltmeter \n and an ammeter to the output of the SPC",
+    "Give order to open \n 50% to SPC from operator station, measure the output current from the SPC, \n the SPC feedback from LVDT loop (current), and reading feedback on DCS and \n the mechanical opening percentage",
+    "Increase the opening \n order by the rate 10% and record the reading each time",
+    "The reading of LVDT \n feedback current and order of DSC to SPC and mechanical opening percentage \n must be equal."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check over \nload and there is applied volt on the motor terminals",
+    "Check power \nsupply on the positioner, and make loop check for mA feedback",
+    "Give an order \nto open it 20%, 50%, 70%, 100% from operator station (DCS) then record the \nreading of DCS feedback, positioner feedback (mA) and mechanical stroke compare \nall reading if there is a problem, adjust the stroke",
+    "All reading of \nDCS order, DCS feedback, positioner (mA) and mechanical stroke"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Electro hydraulic converter (EHC) test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect the plunger coil from SPC circuit 2",
+    "Connect plunger coil to injection device with \nvoltage from(0-10)V or ampere from(0-200)mA",
+    "Connect ammeter and voltmeter with the plunger \ncoil",
+    "Prepare the oil circuit to have trip oil pressure \nand remove all mechanical and electrical protection by turn the circuit to test \nmode",
+    "Energize the solenoids SC11S244, SC11S241, and \nSC11S201 give an order to open with 100% to remove the protection of the \nhydraulic - hydraulic",
+    "Inject a voltage on the terminal plunger coil from \n(0-10) V and record the readings in the table",
+    "Measure the mA of the LVDT",
+    "Record the percentage of EHC mechanical position",
+    "Record the value of all oil pressure indicator, and \nat which value the control valve are open this for all control valve \nHP1,HP2,HP3,HP4,LP1,LP2",
+    "Record the percentage of opening values of the \ncontrol valves (feedback in DSC and mechanical position)",
+    "Make a test for the limit switches of the control \nvalve and stop valve of the HPT, and LPT, and check the opening percentage of \nthe positioner",
+    "Compare applied voltage, oil pressure, percentage \nof opening values of the control valves, LVDT (mA), and EHC mechanical position \nwith SIEMENS document",
+    "Compare percentage of opening values, limit \nswitches in DSC with mechanical position"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: System \nDesignation: Tested by: Signature: \nTest Date:"
+  }
+ ],
+ "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Turbine Control \n System\n SIEMENS\nIntroduction\nThis document outlines the \nequipment inspection I1, which must be performed on an annually bases as indicated \nby Y1 in the title block and during overhaul\nTCS consists of three parts\nServo \nposition controller (SPC) system\nStartup \nand load limited device\nElectro \nhydraulic converter (EHC)\nServo \nposition controller (SPC) system\nStartup \nand load limited device\nElectro \nhydraulic converter (EHC)\nServo position controller (SPC) system\nThere \nare two SPC`s in control loop, one is primary and other is backup. The servo \nposition controller (SPC) is a servo-valve driver that accepts a device net or \n4-20 mA based position demand signal from a system controller, and accurately \nposition proportional or integrating servo-valves. The SPC`s position feedback \ncircuit includes integral excitation and signal conditioning circuitry for LVDT \nand RVDT based position sensing devices. The SPC`S associated PC interface \nsoftware program allows a user to configure; auto-calibrate, dynamically adjust, \nand manually stroke the controlled servo\nStartup and load limited device\nThe \nfunction of the hydraulic speed governor with starting and load limiting device \nis to operate the control valves to give the appropriate turbine steam \nthroughout for the particular load condition\nElectro hydraulic converter (EHC)\nThe \nelectro hydraulic converter (EHC) is the connecting element between the \nelectrical and hydraulic parts of the turbine control system. It converts the \nsignals from the electric governor into hydraulic signals and amplifies them \nbefore transmitting them to the actuating devices\nFor testing of TCS perform the following\nCheck \nservo position controller (SPC) system. Check startup and load limited device, \ncheck elector hydraulic converter (EHC) review data base configuration and test \nl/O electronic modules\nThe first \ndraft initiated by eng. Bassem El-Said, tested by eng. Ghareb Saied Ghareb, accepted by \neng. Ibrahim El-Saied Abdel-Hamed: general director, revised by eng. Abdel \nMeniem El-Emam: EDEPC I &C quality control, approved by eng. Mokhtar Abdel-Latef Mady: head sector of Ataka \nPS\nThis document accepted by eng.\nSamir Abdel Gilel: EDEPC \ninspection and \nquality control general director & MPIS coordinator, and \ncertified by eng. Mervat Ez-Elden: EDEPC head sector of \ninspection & quality control.\nSafety Precautions\nA work order must be issued.\nThe maintenance staff should be qualified and \n carry the suitable safety ID category\nWear safety and healthy equipment as safety helmet, safety shoes, ... etc\nSafety fence with caution marks surrounding the work area is required\nA work order must be issued.\nThe maintenance staff should be qualified and \n carry the suitable safety ID category\nWear safety and healthy equipment as safety helmet, safety shoes, ... etc\nSafety fence with caution marks surrounding the work area is required\nTools and Equipment\nPersonal computer (laptop)\nRS-232 connection cable\nDigital multi-meter, Fluke 187\nScrew driver kit, manual tools\nOil spry cleaner & teflon roll\nCalibration device (inject voltage from (0 -10) V with 200 mA\nPersonal computer (laptop)\nRS-232 connection cable\nDigital multi-meter, Fluke 187\nScrew driver kit, manual tools\nOil spry cleaner & teflon roll\nCalibration device (inject voltage from (0 -10) V with 200 mA\nWork to be Carried Out\nPreparation\nObtain a copy of (SPC, \nLVDT) maintenance manuals\nObtain a copy of schematic \nloop wiring diagram and data sheets\nBackup configuration \nsoftware for SPC\nObtain a copy of (SPC, \nLVDT) maintenance manuals\nObtain a copy of schematic \nloop wiring diagram and data sheets\nBackup configuration \nsoftware for SPC\nSPC \ntest\nCheck the system power \nsupply\nCheck the system power \nsupply\nConnect the SPC with \n PC by using RS-232 connection\nEnsure that the \n configuration of SPC is equal to original configuration\nIf there are errors \n with the configuration, load it from the backup configuration\nTurn the SPC to \n manual mode via operator station (DSC) then give order 0 value\nConnect a voltmeter \n and an ammeter to the output of the SPC\nGive order to open \n 50% to SPC from operator station, measure the output current from the SPC, \n the SPC feedback from LVDT loop (current), and reading feedback on DCS and \n the mechanical opening percentage\nIncrease the opening \n order by the rate 10% and record the reading each time\nThe reading of LVDT \n feedback current and order of DSC to SPC and mechanical opening percentage \n must be equal.\nCheck over \nload and there is applied volt on the motor terminals\nCheck power \nsupply on the positioner, and make loop check for mA feedback\nGive an order \nto open it 20%, 50%, 70%, 100% from operator station (DCS) then record the \nreading of DCS feedback, positioner feedback (mA) and mechanical stroke compare \nall reading if there is a problem, adjust the stroke\nAll reading of \nDCS order, DCS feedback, positioner (mA) and mechanical stroke\nElectro hydraulic converter (EHC) test\nDisconnect the plunger coil from SPC circuit 2\nConnect plunger coil to injection device with \nvoltage from(0-10)V or ampere from(0-200)mA\nConnect ammeter and voltmeter with the plunger \ncoil\nPrepare the oil circuit to have trip oil pressure \nand remove all mechanical and electrical protection by turn the circuit to test \nmode\nEnergize the solenoids SC11S244, SC11S241, and \nSC11S201 give an order to open with 100% to remove the protection of the \nhydraulic - hydraulic\nInject a voltage on the terminal plunger coil from \n(0-10) V and record the readings in the table\nMeasure the mA of the LVDT\nRecord the percentage of EHC mechanical position\nRecord the value of all oil pressure indicator, and \nat which value the control valve are open this for all control valve \nHP1,HP2,HP3,HP4,LP1,LP2\nRecord the percentage of opening values of the \ncontrol valves (feedback in DSC and mechanical position)\nMake a test for the limit switches of the control \nvalve and stop valve of the HPT, and LPT, and check the opening percentage of \nthe positioner\nCompare applied voltage, oil pressure, percentage \nof opening values of the control valves, LVDT (mA), and EHC mechanical position \nwith SIEMENS document\nCompare percentage of opening values, limit \nswitches in DSC with mechanical position\nLocation: System \nDesignation: Tested by: Signature: \nTest Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/tcs_001-01.jpg",
+   "alt": ""
+  }
+ ]
+}

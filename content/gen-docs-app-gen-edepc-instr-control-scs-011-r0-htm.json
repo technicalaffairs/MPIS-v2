@@ -1,0 +1,188 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-scs-011-r0-htm",
+ "doc_number": "STS-011-R0",
+ "title_en": "STS-011-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/SCS-011-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Station"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n Speedtronic \n System \n IC 3600 SUFA, IC 3600 SFKC\n Magnetic Pickup, Servo Valve\n General Electric \n GT Mark II,\n Model NO IC No 4930MS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the testing procedures P1, to be performed on an annually bases as indicated by Y1 in the title \n block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The liquid fuel control system of GE GT mark II model no. 4930MS, Cards No. IC \n3600 SFUA (1L-1I), SFKC (1L-1H) and magnetic Pickup (77FD1, 77FD2) P/N \n(184A8691G5) and servo valve (65FP) P/N (312A6077P1),"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Sawsan El_Lethy, tested by \neng. Mohamed Hasan EL_Sehrawy at 02 Jan 2004, reversed by \nEDEPCo. quality control eng. Abdel Menem Al Emam, and approved by director eng. \nMohamed Goda EL_Said"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Work permit must be issued the \n maintenance staff should be qualified and carry the suitable safety category",
+    "Safety fence with caution marks \n surrounding the work area is required.",
+    "Wear \n the personal\n protective equipment as (safety shoes, Helmet).",
+    "Turbine must be shut down"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Digital AVO. Meter, Frequency meter",
+    "Digital AVO. Meter, Frequency meter",
+    "Speed tronic calibrator set model (151A4925)",
+    "Speed tronic calibrator set model (151A4925)",
+    "Remover card.",
+    "Special tool to adjust the variable resistance at the cards"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Magnetic Pickup (77FD1, 77FD2)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check DC resistance should be 550 ohm",
+    "Check the insulation of the wires and check that the wires OK \n not defected.",
+    "Check the gap = 0.7 mm."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make jumper between 1C to 15 G",
+    "Repeat the steps for Channel ( B )"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Cheek Signal 2FC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Force to (1) gate 2WX at SLEH (IL4L)",
+    "Inject FD. speed at G11 & G15 for C10 1800RPM",
+    "Change FD. Speed for channel ( A ) only . and cheek Logic ( 0 ) to \n ( 1 ) on the card SFUA ( 40 50 % ) {the difference is 700 } ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check Alarm / Trip Signal 2SF"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Force to 0 2WX SLEH (1L4L)",
+    "Inject frequency from C10 G11 \n G15",
+    "Check frequency between C10 and A com"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "BIS ADJ/MILT"
+  },
+  {
+   "type": "paragraph",
+   "text": "SFKC CARD"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove VMPA card 1L2W & 1L3W",
+    "Remove SFPB card 1L1P",
+    "Jumper pin 32 at SSZB (1L1P) to N12",
+    "Make max VCE SSKC 1L1R pin 35 \n 34",
+    "Inject turbine speed",
+    "Change VCE from SSKC 1L1R according to the table"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Servo Valve (65FP)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check DC resistance shod be (1kΩ)",
+    "Check the ground",
+    "Wire coil wire may be closed"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Stability Gain Adjustment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Gain (Servo Volt Change/ VCE Change)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Pull SFUA or disconnect feed back oscillator",
+    "Set 1005 NHP",
+    "Adjust (VCE) from card SSKC to obtain voltage at SCB LINE (24) equal= 0",
+    "Read voltage at TP2 ref on SFKC as equ. = 0.3",
+    "Adjust VCE to increase ref. By\n E = E0 + E1 \n E = E0 + 4/ GAIN\n E = -0.03 + 4/3.2 = 1.22",
+    "Adjust VCE until voltage at Tp2 (ref) on SFKC card is 1.22 volt",
+    "Read servo voltage pin (24) adjust STAB POT R 104 if necessary to obtain \n 4.0 0.2 volt"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Equipment \nDesignation: Test Date: \nTested by: \nSignature:"
+  }
+ ],
+ "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\n Speedtronic \n System \n IC 3600 SUFA, IC 3600 SFKC\n Magnetic Pickup, Servo Valve\n General Electric \n GT Mark II,\n Model NO IC No 4930MS\nIntroduction\nThis document outlines the testing procedures P1, to be performed on an annually bases as indicated by Y1 in the title \n block.\nThe liquid fuel control system of GE GT mark II model no. 4930MS, Cards No. IC \n3600 SFUA (1L-1I), SFKC (1L-1H) and magnetic Pickup (77FD1, 77FD2) P/N \n(184A8691G5) and servo valve (65FP) P/N (312A6077P1),\nThe first draft initiated by eng. Sawsan El_Lethy, tested by \neng. Mohamed Hasan EL_Sehrawy at 02 Jan 2004, reversed by \nEDEPCo. quality control eng. Abdel Menem Al Emam, and approved by director eng. \nMohamed Goda EL_Said\nSafety Precautions\nWork permit must be issued the \n maintenance staff should be qualified and carry the suitable safety category\nSafety fence with caution marks \n surrounding the work area is required.\nWear \n the personal\n protective equipment as (safety shoes, Helmet).\nTurbine must be shut down\nTools and Equipment\nDigital AVO. Meter, Frequency meter\nDigital AVO. Meter, Frequency meter\nSpeed tronic calibrator set model (151A4925)\nSpeed tronic calibrator set model (151A4925)\nRemover card.\nSpecial tool to adjust the variable resistance at the cards\nWork to be Carried Out\nMagnetic Pickup (77FD1, 77FD2)\nCheck DC resistance should be 550 ohm\nCheck the insulation of the wires and check that the wires OK \n not defected.\nCheck the gap = 0.7 mm.\nMake jumper between 1C to 15 G\nRepeat the steps for Channel ( B )\nCheek Signal 2FC\nForce to (1) gate 2WX at SLEH (IL4L)\nInject FD. speed at G11 & G15 for C10 1800RPM\nChange FD. Speed for channel ( A ) only . and cheek Logic ( 0 ) to \n ( 1 ) on the card SFUA ( 40 50 % ) {the difference is 700 } .\nCheck Alarm / Trip Signal 2SF\nForce to 0 2WX SLEH (1L4L)\nInject frequency from C10 G11 \n G15\nCheck frequency between C10 and A com\nBIS ADJ/MILT\nSFKC CARD\nRemove VMPA card 1L2W & 1L3W\nRemove SFPB card 1L1P\nJumper pin 32 at SSZB (1L1P) to N12\nMake max VCE SSKC 1L1R pin 35 \n 34\nInject turbine speed\nChange VCE from SSKC 1L1R according to the table\nServo Valve (65FP)\nCheck DC resistance shod be (1kΩ)\nCheck the ground\nWire coil wire may be closed\nStability Gain Adjustment\nGain (Servo Volt Change/ VCE Change)\nPull SFUA or disconnect feed back oscillator\nSet 1005 NHP\nAdjust (VCE) from card SSKC to obtain voltage at SCB LINE (24) equal= 0\nRead voltage at TP2 ref on SFKC as equ. = 0.3\nAdjust VCE to increase ref. By\n E = E0 + E1 \n E = E0 + 4/ GAIN\n E = -0.03 + 4/3.2 = 1.22\nAdjust VCE until voltage at Tp2 (ref) on SFKC card is 1.22 volt\nRead servo voltage pin (24) adjust STAB POT R 104 if necessary to obtain \n 4.0 0.2 volt\nLocation: Equipment \nDesignation: Test Date: \nTested by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "../all_docs/graphics/STS-011-01.jpg",
+   "alt": ""
+  }
+ ]
+}

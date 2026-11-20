@@ -1,0 +1,224 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-scs-019-r0-htm",
+ "doc_number": "STS-019-R0",
+ "title_en": "STS-019-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/SCS-019-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Station"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:Speed Tronic \n MK IV control system\n Speed / load setpoint check - TNR\n General Electric"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum Hassan"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \n certified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear the appropriate safety equipment as safety shoes, safety helmet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work \n area is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit at shut down mode"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch off all CB's on the (MCC)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category",
+    "Wear the appropriate safety equipment as safety shoes, safety helmet",
+    "Unit at shut down mode",
+    "Switch off all CB's on the (MCC)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Screw driver,\n Jumpers"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Display \"data\" list 16, \n logic forcing and enter the signals L70L, L70R, L83JD2, L83PRES1, L83PRES2, \n L83TNROP and TNR",
+    "Force logic signal \n L83PRES2 to be logic \"1\" check that \"TNR\"displayed corresponds to the value of \n start up preset constant TNKR7 given in the control spec. settings, adjust PROM \n constant TNKR7 if necessary.",
+    "Force logic signal \n L83PRES2 back to \"0\" and L83PRES1 to be logic \"1\" check that \"TNR\" agrees with \n the value of load preset constant TNKR2 given the control spec. setting, if \n necessary adjust PROM constant TNKR2",
+    "Unforce all logic \n signals",
+    "Force logic signal \n L83JD2 and L83TNROP to be logic \"1\" make setpoint lower signal L70L a logic \n \"1\" and check that \"TNR\" goes to the minimum operating value TNKR4 as given in \n control spec. setting make setpoint lower signal a logic \"0\" and make \n setpoint raise signal L70R a logic \"1\" check that \"TNR\" goes to the maximum \n operating setpoint TNKR3 as given in the control as specified in the \n settings DWG, adjust PROM constants if necessary. Unforce all logic signals \n when check out is completed.",
+    "Repeat para. 5 above \n for all rates given in spec - setting according to the attached table"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Name",
+     "K value",
+     "Untts",
+     ""
+    ],
+    [
+     "TNKLOST",
+     "K not USED",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR 1_2",
+     "K 8.000",
+     "% MIN",
+     ""
+    ],
+    [
+     "TNKR\n 1_3",
+     "K 30.000",
+     "% MIN",
+     ""
+    ],
+    [
+     "TNKR\n 1_4",
+     "K 1.000",
+     "% MIN",
+     ""
+    ],
+    [
+     "TNKR\n 1_8",
+     "K 6.000",
+     "% MIN",
+     ""
+    ],
+    [
+     "TNKR\n 2",
+     "K 100.300",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR\n 3",
+     "K 107.000",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR\n 4",
+     "K 95.000",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR\n 5",
+     "K not used",
+     "% SPD",
+     ""
+    ],
+    [
+     "",
+     "KN 100.300",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR 8",
+     "K 0.30000",
+     "CNT 00",
+     ""
+    ],
+    [
+     "L33 CDMN",
+     "L1/0",
+     "LOGIC",
+     ""
+    ],
+    [
+     "L33 CDMX",
+     "L1/0",
+     "LOGIC",
+     ""
+    ],
+    [
+     "Desing _ speed",
+     "R 100.000",
+     "% SPD",
+     ""
+    ],
+    [
+     "Full _ load _ SP",
+     "R 104.000",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNR",
+     "V",
+     "% SPD",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Equipment \nDesignation: Tested by: Signature: \nTest Date:"
+  }
+ ],
+ "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Speed Tronic \n MK IV control system\n Speed / load setpoint check - TNR\n General Electric\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum Hassan\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \n certified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nSafety Precautions\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nSafety fence with caution marks surrounding the work \n area is required.\nUnit at shut down mode\nSwitch off all CB's on the (MCC)\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nUnit at shut down mode\nSwitch off all CB's on the (MCC)\nTools and Equipment\nScrew driver,\n Jumpers\nWork to be Carried Out\nDisplay \"data\" list 16, \n logic forcing and enter the signals L70L, L70R, L83JD2, L83PRES1, L83PRES2, \n L83TNROP and TNR\nForce logic signal \n L83PRES2 to be logic \"1\" check that \"TNR\"displayed corresponds to the value of \n start up preset constant TNKR7 given in the control spec. settings, adjust PROM \n constant TNKR7 if necessary.\nForce logic signal \n L83PRES2 back to \"0\" and L83PRES1 to be logic \"1\" check that \"TNR\" agrees with \n the value of load preset constant TNKR2 given the control spec. setting, if \n necessary adjust PROM constant TNKR2\nUnforce all logic \n signals\nForce logic signal \n L83JD2 and L83TNROP to be logic \"1\" make setpoint lower signal L70L a logic \n \"1\" and check that \"TNR\" goes to the minimum operating value TNKR4 as given in \n control spec. setting make setpoint lower signal a logic \"0\" and make \n setpoint raise signal L70R a logic \"1\" check that \"TNR\" goes to the maximum \n operating setpoint TNKR3 as given in the control as specified in the \n settings DWG, adjust PROM constants if necessary. Unforce all logic signals \n when check out is completed.\nRepeat para. 5 above \n for all rates given in spec - setting according to the attached table\n\nLocation: Equipment \nDesignation: Tested by: Signature: \nTest Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

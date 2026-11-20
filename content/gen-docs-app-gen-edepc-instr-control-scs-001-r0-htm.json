@@ -1,0 +1,231 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-scs-001-r0-htm",
+ "doc_number": "STS-001-R1",
+ "title_en": "STS-001-r1 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/SCS-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Instrument & Control"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \noutlines the testing procedure for start up Control System for the gas turbine \nat the locations: Talkha GT, Hurgada, Sharm Al-Shaikh, and Port Said GT Power Stations."
+  },
+  {
+   "type": "paragraph",
+   "text": "The calibrated cards: SSKC - SGDD,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Components : SSKC, SGDD, VCE METER, Start up \n indicating light."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Wagdy Eid \nMansour and tested by eng. Magdy Saad El Khamesy, at date 2/6/2003 ,reviewed by eng. Abd \nEl-Monem El-Emam at EDEPC, accepted by general director eng. Yousry Ahmed Abd El-Maksoud \nand approved by eng. Mostafa Abdel Hameed Allam: Head Sector of Talkha Power \nStation."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document was updated at Port Said by adding \nCharacteristics \"C/CS\" curve to the document at 20Nov 2004."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is updated by eng. Wagdy Eid \nMansour , tested by eng. Eman El Bastawesy at date 11/2/2009 ,Reviewed by EDEPC \nquality control eng. Adel Elnagar , Accepted by general director eng. Mamdouh \nEl-saeid Anber ,and approved by eng.Farouk awad head sector of Talkha Power \nPlant ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Turbine shutdown."
+  },
+  {
+   "type": "paragraph",
+   "text": "Work order \n must be issued."
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear your \n safety helmet, shoes .... etc"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Digital voltmeter, 0-150 VDC 0-500 VAC,\n With freq. response of 10 Hz to 20 Khz, accuracy 0.01 V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibrator set cat no. IC 4988A100AA"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Digital voltmeter, 0-150 VDC 0-500 VAC,\n With freq. response of 10 Hz to 20 Khz, accuracy 0.01 V",
+    "Calibrator set cat no. IC 4988A100AA"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fire VCE"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the Fire VCE value not lower than \"Warm-up\" VCE. \nAdjust \"Warm-up\" pot. full CCW to prevent interaction."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect voltmeter to \" VCE \" pin 24 of SSKC (H07 R13) and Acom (G01R02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Depress \"Fire \" (PB-5) and read the value if different calibrator used."
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjust pot. R102 to set \" Fire \" VCE to value as given in the control spec.setting"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the Fire VCE value not lower than \"Warm-up\" VCE. \nAdjust \"Warm-up\" pot. full CCW to prevent interaction.",
+    "Connect voltmeter to \" VCE \" pin 24 of SSKC (H07 R13) and Acom (G01R02)",
+    "Depress \"Fire \" (PB-5) and read the value if different calibrator used.",
+    "Adjust pot. R102 to set \" Fire \" VCE to value as given in the control spec.setting"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "\" Warm - up \" VCE"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Depress \" WU \" (PB - 3) and check the correct value",
+    "Adjust pot R101 to set \" Warm-up \" VCE value as given in the spec, \n control - cont sys settings"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "\" Accelerate \" VCE"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Depress \" ACC \" (PB - 1) and hold for 3 minutes. check to see that VCE \n increases to accelerate limit on 60 SEC time constant. (reaches limit in 3 \n minutes)",
+    "After VCE has reached accelerate limit adjust pot R100 to set \"Accel limit\" \n VCE as given in the control spec. settings"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Notes: \nIf \" TCC \" (PB-2) is depressed \nthe one minute time constant is reduced"
+  },
+  {
+   "type": "paragraph",
+   "text": "\" \nAccelerate \" VCE level will be reached in approximately 20 seconds"
+  },
+  {
+   "type": "paragraph",
+   "text": "\" Maximum \" VCE"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Depress \" MAX \" (PB-6)",
+    "Set VCE to 10 volts. Adjust VCE meter using test voltmeter and \" MAX \" \n pushbutton, 10 volts",
+    "Adjust pot R 106 to set \" MAX \" VCE to value as given in the control spec. \n setting"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Minimum \" VCE \""
+  },
+  {
+   "type": "list",
+   "items": [
+    "Depress \" Min \" (PB - 4)",
+    "Adjust pot R 104 to set \" MIN \" VCE to the value given in the control spec. - \n setting"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Recheck of VCE Setting"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Jumper \" NOTLCDA-4 \" (SW6R34) to acom (GOIR 02) to put \"0\" on pin 30 of SSKC \n and remove VCE clamp",
+    "Jumper to drop out the \" Firing \" SLEH element and put \"0\" on pin 28 of SSKC \n check value is \" fire \" VCE",
+    "Jumper to pick up the \" 28 FDX \" SLEH element and put \"0\" on pin 18 of SSKC \n after 2 SEC check value is \" Warm-up \" VCE",
+    "Jumper to pick up the \"2WX\" SLEH element and put \"0\" on pin 6 of SSKC check \n that VCE accelerates on a one minute time constant",
+    "Rotate \" MAN VCE \" knob through its range verify that \" speed control abnormal \n \" light energizes with a slight clockwise movement from off. Return knob to \n off.",
+    "Remove jumper to drop out the firing SLEH element and check that VCE goes to \n zero.",
+    "Remove all jumpers and test equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "MRDS \nMaintenance Record Data Sheet \nMRDS \nFor\nStart Up Control Card SSKC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Card \nDesignation:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: \nSignature: \nTest Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "MRDS \nMaintenance Record Data Sheet \nMRDS \nFor\nStart Up Control Card SSKC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Card \nDesignation:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: \nSignature: \nTest Date:"
+  }
+ ],
+ "text": "Instrument & Control\nTechnical Procedure\nIntroduction\nThis document \noutlines the testing procedure for start up Control System for the gas turbine \nat the locations: Talkha GT, Hurgada, Sharm Al-Shaikh, and Port Said GT Power Stations.\nThe calibrated cards: SSKC - SGDD,\nComponents : SSKC, SGDD, VCE METER, Start up \n indicating light.\nThe first draft initiated by eng. Wagdy Eid \nMansour and tested by eng. Magdy Saad El Khamesy, at date 2/6/2003 ,reviewed by eng. Abd \nEl-Monem El-Emam at EDEPC, accepted by general director eng. Yousry Ahmed Abd El-Maksoud \nand approved by eng. Mostafa Abdel Hameed Allam: Head Sector of Talkha Power \nStation.\nThis document was updated at Port Said by adding \nCharacteristics \"C/CS\" curve to the document at 20Nov 2004.\nThe first draft is updated by eng. Wagdy Eid \nMansour , tested by eng. Eman El Bastawesy at date 11/2/2009 ,Reviewed by EDEPC \nquality control eng. Adel Elnagar , Accepted by general director eng. Mamdouh \nEl-saeid Anber ,and approved by eng.Farouk awad head sector of Talkha Power \nPlant .\nSafety Precautions\nTurbine shutdown.\nWork order \n must be issued.\nWear your \n safety helmet, shoes .... etc\nTools and Equipment\nDigital voltmeter, 0-150 VDC 0-500 VAC,\n With freq. response of 10 Hz to 20 Khz, accuracy 0.01 V\nCalibrator set cat no. IC 4988A100AA\nDigital voltmeter, 0-150 VDC 0-500 VAC,\n With freq. response of 10 Hz to 20 Khz, accuracy 0.01 V\nCalibrator set cat no. IC 4988A100AA\nWork to be Carried Out\nFire VCE\nCheck the Fire VCE value not lower than \"Warm-up\" VCE. \nAdjust \"Warm-up\" pot. full CCW to prevent interaction.\nConnect voltmeter to \" VCE \" pin 24 of SSKC (H07 R13) and Acom (G01R02)\nDepress \"Fire \" (PB-5) and read the value if different calibrator used.\nAdjust pot. R102 to set \" Fire \" VCE to value as given in the control spec.setting\nCheck the Fire VCE value not lower than \"Warm-up\" VCE. \nAdjust \"Warm-up\" pot. full CCW to prevent interaction.\nConnect voltmeter to \" VCE \" pin 24 of SSKC (H07 R13) and Acom (G01R02)\nDepress \"Fire \" (PB-5) and read the value if different calibrator used.\nAdjust pot. R102 to set \" Fire \" VCE to value as given in the control spec.setting\n\" Warm - up \" VCE\nDepress \" WU \" (PB - 3) and check the correct value\nAdjust pot R101 to set \" Warm-up \" VCE value as given in the spec, \n control - cont sys settings\n\" Accelerate \" VCE\nDepress \" ACC \" (PB - 1) and hold for 3 minutes. check to see that VCE \n increases to accelerate limit on 60 SEC time constant. (reaches limit in 3 \n minutes)\nAfter VCE has reached accelerate limit adjust pot R100 to set \"Accel limit\" \n VCE as given in the control spec. settings\nNotes: \nIf \" TCC \" (PB-2) is depressed \nthe one minute time constant is reduced\n\" \nAccelerate \" VCE level will be reached in approximately 20 seconds\n\" Maximum \" VCE\nDepress \" MAX \" (PB-6)\nSet VCE to 10 volts. Adjust VCE meter using test voltmeter and \" MAX \" \n pushbutton, 10 volts\nAdjust pot R 106 to set \" MAX \" VCE to value as given in the control spec. \n setting\nMinimum \" VCE \"\nDepress \" Min \" (PB - 4)\nAdjust pot R 104 to set \" MIN \" VCE to the value given in the control spec. - \n setting\nRecheck of VCE Setting\nJumper \" NOTLCDA-4 \" (SW6R34) to acom (GOIR 02) to put \"0\" on pin 30 of SSKC \n and remove VCE clamp\nJumper to drop out the \" Firing \" SLEH element and put \"0\" on pin 28 of SSKC \n check value is \" fire \" VCE\nJumper to pick up the \" 28 FDX \" SLEH element and put \"0\" on pin 18 of SSKC \n after 2 SEC check value is \" Warm-up \" VCE\nJumper to pick up the \"2WX\" SLEH element and put \"0\" on pin 6 of SSKC check \n that VCE accelerates on a one minute time constant\nRotate \" MAN VCE \" knob through its range verify that \" speed control abnormal \n \" light energizes with a slight clockwise movement from off. Return knob to \n off.\nRemove jumper to drop out the firing SLEH element and check that VCE goes to \n zero.\nRemove all jumpers and test equipment.\nMRDS \nMaintenance Record Data Sheet \nMRDS \nFor\nStart Up Control Card SSKC\nLocation: Card \nDesignation:\nTested by: \nSignature: \nTest Date:\nMRDS \nMaintenance Record Data Sheet \nMRDS \nFor\nStart Up Control Card SSKC\nLocation: Card \nDesignation:\nTested by: \nSignature: \nTest Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/SCS-013-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/SCS-001-01.gif",
+   "alt": ""
+  }
+ ]
+}

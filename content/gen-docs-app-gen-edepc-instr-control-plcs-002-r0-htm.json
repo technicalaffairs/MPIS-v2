@@ -1,0 +1,150 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-plcs-002-r0-htm",
+ "doc_number": "PLCS-002-R0",
+ "title_en": "PLCS-002-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/plcs-002-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Station"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:PLC System\n C 100"
+  },
+  {
+   "type": "paragraph",
+   "text": "Westinghouse USA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the title block"
+  },
+  {
+   "type": "paragraph",
+   "text": "The \nfirst draft initiated and tested by eng. Alaa Ibrahim Elshal , reviewed by eng. Ali Abdel Galil Abdel Kader revised by EDEPC quality control eng Abd EL Monaem AL Emam, accepted by I & C \ndept. manager eng. Mohamad Ellawindi , and approved by eng. Mohammad Elsarag head sector of \nDemiatta CCPS"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \n certified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector"
+  },
+  {
+   "type": "paragraph",
+   "text": "Components"
+  },
+  {
+   "type": "paragraph",
+   "text": "The PLC system consist of:\nProgrammable logic controller C 100 consists of the following units:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "One \n control unit type (5120 - 8)",
+    "One \n power supply type (5 F00 - 220 A) 24 VDC, Vmin = 20 V, Vmax = 28 V",
+    "One \n coupler type (5800)",
+    "One \n RS232 interface (58X1)",
+    "Two \n modules for analog inputs type (5212)",
+    "One \n module for logic inputs type (5211)",
+    "Two \n module for logic outputs type (5302)",
+    "One \n module for analog outputs 1/5v type (5315.V)",
+    "One \n module for analog outputs 4/20 mA type (5315.I)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work area is required"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear safety and healthy equipment as safety helmet, safety shoes ... etc"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit in stand still"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category",
+    "Safety fence with caution marks surrounding the work area is required",
+    "Wear safety and healthy equipment as safety helmet, safety shoes ... etc",
+    "Unit in stand still"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Multimeter, screw driver",
+    "Wire connection",
+    "Contact cleaner",
+    "Console of PLC : CEGELEC processing unit type C 100/5120"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Unit in stand still",
+    "Cleaning all cards",
+    "Tightening",
+    "Check the power supply o.k green \n lamp LED located in the power supply module (5f00)",
+    "If green lamp LED is on the power \n supply module ok",
+    "If not change the P.S. module",
+    "Using the CEGELEC console",
+    "Push the two (ON) push bottom \n simultaneously (of CEGELEC console)",
+    "Choose the (debug) by enter F5",
+    "Choose the data sequence by the \n cursor",
+    "Choose the test sequence # 2(from \n manuel)",
+    "Observe the data of sequence # 2",
+    "If the numerical number \n associated to the data equal 5000 or 2000 : the module which under test from \n the I/O modules is failure change the defective module",
+    "If reading is less than 2000 for \n all I/O modules the modules are o.k",
+    "Close the work order"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: System \nDesignation: Tested by: Signature: \nTest Date:"
+  }
+ ],
+ "text": "Power \n Station\nTechnical \n Procedure\nEquipment:PLC System\n C 100\nWestinghouse USA\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the title block\nThe \nfirst draft initiated and tested by eng. Alaa Ibrahim Elshal , reviewed by eng. Ali Abdel Galil Abdel Kader revised by EDEPC quality control eng Abd EL Monaem AL Emam, accepted by I & C \ndept. manager eng. Mohamad Ellawindi , and approved by eng. Mohammad Elsarag head sector of \nDemiatta CCPS\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \n certified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nComponents\nThe PLC system consist of:\nProgrammable logic controller C 100 consists of the following units:\nOne \n control unit type (5120 - 8)\nOne \n power supply type (5 F00 - 220 A) 24 VDC, Vmin = 20 V, Vmax = 28 V\nOne \n coupler type (5800)\nOne \n RS232 interface (58X1)\nTwo \n modules for analog inputs type (5212)\nOne \n module for logic inputs type (5211)\nTwo \n module for logic outputs type (5302)\nOne \n module for analog outputs 1/5v type (5315.V)\nOne \n module for analog outputs 4/20 mA type (5315.I)\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipment as safety helmet, safety shoes ... etc\nUnit in stand still\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipment as safety helmet, safety shoes ... etc\nUnit in stand still\nTools and Equipment\nMultimeter, screw driver\nWire connection\nContact cleaner\nConsole of PLC : CEGELEC processing unit type C 100/5120\nWork to be Carried Out\nUnit in stand still\nCleaning all cards\nTightening\nCheck the power supply o.k green \n lamp LED located in the power supply module (5f00)\nIf green lamp LED is on the power \n supply module ok\nIf not change the P.S. module\nUsing the CEGELEC console\nPush the two (ON) push bottom \n simultaneously (of CEGELEC console)\nChoose the (debug) by enter F5\nChoose the data sequence by the \n cursor\nChoose the test sequence # 2(from \n manuel)\nObserve the data of sequence # 2\nIf the numerical number \n associated to the data equal 5000 or 2000 : the module which under test from \n the I/O modules is failure change the defective module\nIf reading is less than 2000 for \n all I/O modules the modules are o.k\nClose the work order\nLocation: System \nDesignation: Tested by: Signature: \nTest Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}
