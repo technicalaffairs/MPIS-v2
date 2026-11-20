@@ -14,28 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment"
-  },
-  {
-   "type": "paragraph",
-   "text": "Solid Static\n under Frequency Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "SDF-1"
-  },
-  {
-   "type": "paragraph",
-   "text": "Westinghouse"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -149,23 +135,90 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Ch/s Test of\n solid static under Frequency \n Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "Unit: \n Date:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Testing Instrument Used"
+   "type": "table",
+   "rows": [
+    [
+     "Position",
+     ""
+    ],
+    [
+     "Type",
+     ""
+    ],
+    [
+     "Serial No.",
+     ""
+    ],
+    [
+     "Marker",
+     ""
+    ],
+    [
+     "PT Ratio",
+     ""
+    ],
+    [
+     "Initial Setting",
+     "Frequency tap",
+     ""
+    ],
+    [
+     "Time Dial",
+     ""
+    ],
+    [
+     "Testing Instrument Used",
+     "1. AC Power Supply Model EP - 400"
+    ],
+    [
+     "2. DC Supply Source 125 Vdc"
+    ],
+    [
+     "3. Timer Model MCS-5N"
+    ],
+    [
+     "Initial Test Result",
+     "Operating frequency",
+     ""
+    ],
+    [
+     "Time tripping",
+     ""
+    ],
+    [
+     "Last Test Result",
+     "Operating frequency",
+     ""
+    ],
+    [
+     "Time tripping",
+     ""
+    ],
+    [
+     "Procedures and Testing Terminals",
+     "1. Cleaning the relay by using spray."
+    ],
+    [
+     "2. Connect relay terminals (8,9) to the \n testing instrument output"
+    ],
+    [
+     "3. Connect the relay contact terminals \n (1,10) to the timer."
+    ],
+    [
+     "4. Connect the relay terminals (4,2) to \n the DC power source"
+    ],
+    [
+     "5. Adjusting the testing instrument \n output to equal the operating frequency\n of relay and record \n the tripping time."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\nSolid Static\n under Frequency Relay\nSDF-1\nWestinghouse\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on an annually\nbases as indicated by Y1 in the above title block\nSolid\nstatic under frequency relay SDF-1 to protect the generator.\nThe first draft imitated by \neng. Ahmed EL-Husany, tested by eng. Tarek EL-kafafy, accepted by general director \neng. Nady Mosaed, and approved by\neng. Mohamed EL-Tahawy: head sector of Shoubra EL-Kheima PS.\nThis document revised by\neng.Nageh Soliman Shousha, CEPC quality control director, and certified by\neng. Afaf Ebrahim el Dib: CEPC \nhead sector of inspection and quality control\n& MPIS coordinator.\nSafety Precaution\nA\n work permit must be issued and the qualified maintenance staff should\n carry the suitable safety category\nWear\n your safety helmet & safety shoes.\nSafety\n fence with caution marks surrounding the work area\nUnit\n is out of service .\nDisconnect\n DC power supply .\nTools and Equipment\nAC power supply model EP-400\nDC\n power supply (125 VDC)\nTimer model MCS-5N\nAvometer, Test leads\nWork to be carried out\nDisconnect the terminals of the relay and\nget it out of the panel .\nClean the relay using a spray.\nClean contacts of the relay using contact\nburnisher\nConnect the relay terminals ( 8 , 9 ) to\nthe testing instrument output.\nConnect the relay terminals ( 1 , 10 ) to\nthe timer.\nConnect the relay terminals ( 4 , 2 ) to\nthe DC power source.\nAdjust the frequency of AC power supply\nat 50 HZ\nDecrease the frequency slowly\nRecord the frequency and tripping \ntime at which the relay will operate\nRecord the values in the test \nsheet\nConnect the relay terminals again \nand connect DC power supply\nDisconnect the terminals of the relay and\nget it out of the panel .\nClean the relay using a spray.\nClean contacts of the relay using contact\nburnisher\nConnect the relay terminals ( 8 , 9 ) to\nthe testing instrument output.\nConnect the relay terminals ( 1 , 10 ) to\nthe timer.\nConnect the relay terminals ( 4 , 2 ) to\nthe DC power source.\nAdjust the frequency of AC power supply\nat 50 HZ\nDecrease the frequency slowly\nRecord the frequency and tripping \ntime at which the relay will operate\nRecord the values in the test \nsheet\nConnect the relay terminals again \nand connect DC power supply\nCh/s Test of\n solid static under Frequency \n Relay\nUnit: \n Date:\nTesting Instrument Used\nLocation: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on an annually\nbases as indicated by Y1 in the above title block\nSolid\nstatic under frequency relay SDF-1 to protect the generator.\nThe first draft imitated by \neng. Ahmed EL-Husany, tested by eng. Tarek EL-kafafy, accepted by general director \neng. Nady Mosaed, and approved by\neng. Mohamed EL-Tahawy: head sector of Shoubra EL-Kheima PS.\nThis document revised by\neng.Nageh Soliman Shousha, CEPC quality control director, and certified by\neng. Afaf Ebrahim el Dib: CEPC \nhead sector of inspection and quality control\n& MPIS coordinator.\nSafety Precaution\nA\n work permit must be issued and the qualified maintenance staff should\n carry the suitable safety category\nWear\n your safety helmet & safety shoes.\nSafety\n fence with caution marks surrounding the work area\nUnit\n is out of service .\nDisconnect\n DC power supply .\nTools and Equipment\nAC power supply model EP-400\nDC\n power supply (125 VDC)\nTimer model MCS-5N\nAvometer, Test leads\nWork to be carried out\nDisconnect the terminals of the relay and\nget it out of the panel .\nClean the relay using a spray.\nClean contacts of the relay using contact\nburnisher\nConnect the relay terminals ( 8 , 9 ) to\nthe testing instrument output.\nConnect the relay terminals ( 1 , 10 ) to\nthe timer.\nConnect the relay terminals ( 4 , 2 ) to\nthe DC power source.\nAdjust the frequency of AC power supply\nat 50 HZ\nDecrease the frequency slowly\nRecord the frequency and tripping \ntime at which the relay will operate\nRecord the values in the test \nsheet\nConnect the relay terminals again \nand connect DC power supply\nDisconnect the terminals of the relay and\nget it out of the panel .\nClean the relay using a spray.\nClean contacts of the relay using contact\nburnisher\nConnect the relay terminals ( 8 , 9 ) to\nthe testing instrument output.\nConnect the relay terminals ( 1 , 10 ) to\nthe timer.\nConnect the relay terminals ( 4 , 2 ) to\nthe DC power source.\nAdjust the frequency of AC power supply\nat 50 HZ\nDecrease the frequency slowly\nRecord the frequency and tripping \ntime at which the relay will operate\nRecord the values in the test \nsheet\nConnect the relay terminals again \nand connect DC power supply\nPosition | \nType | \nSerial No. | \nMarker | \nPT Ratio | \nInitial Setting | Frequency tap | \nTime Dial | \nTesting Instrument Used | 1. AC Power Supply Model EP - 400\n2. DC Supply Source 125 Vdc\n3. Timer Model MCS-5N\nInitial Test Result | Operating frequency | \nTime tripping | \nLast Test Result | Operating frequency | \nTime tripping | \nProcedures and Testing Terminals | 1. Cleaning the relay by using spray.\n2. Connect relay terminals (8,9) to the \n testing instrument output\n3. Connect the relay contact terminals \n (1,10) to the timer.\n4. Connect the relay terminals (4,2) to \n the DC power source\n5. Adjusting the testing instrument \n output to equal the operating frequency\n of relay and record \n the tripping time.\nLocation: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

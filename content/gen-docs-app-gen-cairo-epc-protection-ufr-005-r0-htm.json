@@ -25,18 +25,6 @@
   },
   {
    "type": "paragraph",
-   "text": "Equipment:\n Time Under Frequency"
-  },
-  {
-   "type": "paragraph",
-   "text": "FCX 103b"
-  },
-  {
-   "type": "paragraph",
-   "text": "Issued \n to: \n Wady Hof PS"
-  },
-  {
-   "type": "paragraph",
    "text": "Introduction"
   },
   {
@@ -147,6 +135,26 @@
     [
      "Frequency Hz",
      "Time \n Delay Sec"
+    ],
+    [
+     "D",
+     "48.3",
+     "0.15"
+    ],
+    [
+     "C",
+     "48.2",
+     "0.15"
+    ],
+    [
+     "B",
+     "48.0",
+     "0.15"
+    ],
+    [
+     "A",
+     "46.5",
+     "0.15"
     ]
    ],
    "truncated_rows": 0
@@ -165,6 +173,38 @@
      "Volt",
      "Frequency\n Measured",
      "Measured \n Time Sec."
+    ],
+    [
+     "D",
+     "R-S",
+     "F1(28;30)",
+     "100",
+     "",
+     ""
+    ],
+    [
+     "C",
+     "R-S",
+     "F1(28;30)",
+     "100",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "R-S",
+     "F1(28;30)",
+     "100",
+     "",
+     ""
+    ],
+    [
+     "A",
+     "R-S",
+     "F1(28;30)",
+     "100",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -173,16 +213,34 @@
    "type": "table",
    "rows": [
     [
+     "Stage",
+     "Alarm \n Point",
+     "Trip \n Point",
+     "Action"
+    ],
+    [
+     "D",
+     "F4 (35;36)",
+     "-----",
+     "Alarm"
+    ],
+    [
+     "C",
+     "F4 (39;40)",
+     "------",
+     "Alarm"
+    ],
+    [
      "B",
      "---------\n ---------",
      "F2 (7;8)\n F2 (9;10)",
-     ""
+     "* Main CB trip (by 220 Vac)\n * Main CB trip (by 125 Vdc)"
     ],
     [
      "A",
      "-------\n -------\n -------",
      "F3 (1;2)\n F3 (3;4)\n F3 (5;6)",
-     ""
+     "* Generator CB trip (by 125 Vdc)\n * Generator CB trip (by 220 Vac)\n * Field CB trip"
     ]
    ],
    "truncated_rows": 0
@@ -196,7 +254,7 @@
    "text": "Figure \n(1)"
   }
  ],
- "text": "\nEquipment:\n Time Under Frequency\nFCX 103b\nIssued \n to: \n Wady Hof PS\nIntroduction\nThis document\ndetails the testing procedure required to completely check the proper operation\nand calibration of the time under frequency\nrelay. It is recommended this procedure to be carried out on an annually bases.\nThe\ndocument is formatted the way to minimize the possibility of error causing\npersonal injury or damage to equipment.\nSolid \nstate frequency relay with extremely high accuracy and stability for graded load \nshedding in system with an energy deficit (partial failure of generation or \ntransmission units)\nFor \nsplitting up a grid system by opening tie-lines to prevent complete system \ncollapse\nFor \nisolating small systems having their own generation from the main system in the \ncase of fault the latter (e.g. disconnection of an industrial system with its \nown generation).\nFor the \nprotection of generators and auxiliaries, where frequency supervision can avoid \ndamage to turbines and auxiliary drives\nThis document initiated eng. Ayman \nMohamed Mohamed, test by eng. Mohamed El-Sayed Ahmed, eng. Maher Abd Elgwad Salem, approved by \neng. Mohamed Salah Eldin Abd Elghafar: general manager of Wadi Hof PS.\nThis document revised by eng. Nageh Soliman Shousha: \nCEPC quality control director, land certified by eng. Afaf Ebrahim El-Dib: CEPC \ninspection & quality control's head sector and MPIS coordinator\nSafety Precautions\nGas turbine out off service.\nTest leads\nScrew - driver\nPower source.\nWork to be Carried \nOut\nThe main \n transformer off\nRemove the \n terminals F1 (28,30)\nConnect the relay \n test unit to a power source (24 volt dc)\nConnect the \n injection device test leads between the terminals at F1 (28,30) as shown in \n the figure (1)\nInject the setting \n voltage (100 volt) and the rated frequency (50Hz)\nDecrease the \n frequency gradually until the relay stage (D) pick-up\nRecord the result \n on the test sheet\nTurn off the \n injection device and connect the time terminal on the injection device to \n terminal (17,18) o the relay test unit\nTurn on the \n injection device and inject the value appear i step (6) suddenly and record \n the time taken to pick-up this stage\nRecord the result \n o the test sheet\nRepeat steps from \n step (5) to step (10) for stages (C;B;A) at terminals (18;19);(18;20);(18;21) \n for time respectively.\nMaintenance Record Data Sheet \nFor Frequency Relay\nData:\nPT \nRatio. = (11500/√3) / (100√3) \nV/V\nRated voltage U = \n100 V\nRated Frequency = \n50 Hz\nSetting Time = \n0.15 Sec\nSetting\n\nMeasured Values\n\n\n..........................................................................................................................................................Location: \nRelay Code: Checked \nby: Date: \nSignature:\nFigure \n(1)",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document\ndetails the testing procedure required to completely check the proper operation\nand calibration of the time under frequency\nrelay. It is recommended this procedure to be carried out on an annually bases.\nThe\ndocument is formatted the way to minimize the possibility of error causing\npersonal injury or damage to equipment.\nSolid \nstate frequency relay with extremely high accuracy and stability for graded load \nshedding in system with an energy deficit (partial failure of generation or \ntransmission units)\nFor \nsplitting up a grid system by opening tie-lines to prevent complete system \ncollapse\nFor \nisolating small systems having their own generation from the main system in the \ncase of fault the latter (e.g. disconnection of an industrial system with its \nown generation).\nFor the \nprotection of generators and auxiliaries, where frequency supervision can avoid \ndamage to turbines and auxiliary drives\nThis document initiated eng. Ayman \nMohamed Mohamed, test by eng. Mohamed El-Sayed Ahmed, eng. Maher Abd Elgwad Salem, approved by \neng. Mohamed Salah Eldin Abd Elghafar: general manager of Wadi Hof PS.\nThis document revised by eng. Nageh Soliman Shousha: \nCEPC quality control director, land certified by eng. Afaf Ebrahim El-Dib: CEPC \ninspection & quality control's head sector and MPIS coordinator\nSafety Precautions\nGas turbine out off service.\nTest leads\nScrew - driver\nPower source.\nWork to be Carried \nOut\nThe main \n transformer off\nRemove the \n terminals F1 (28,30)\nConnect the relay \n test unit to a power source (24 volt dc)\nConnect the \n injection device test leads between the terminals at F1 (28,30) as shown in \n the figure (1)\nInject the setting \n voltage (100 volt) and the rated frequency (50Hz)\nDecrease the \n frequency gradually until the relay stage (D) pick-up\nRecord the result \n on the test sheet\nTurn off the \n injection device and connect the time terminal on the injection device to \n terminal (17,18) o the relay test unit\nTurn on the \n injection device and inject the value appear i step (6) suddenly and record \n the time taken to pick-up this stage\nRecord the result \n o the test sheet\nRepeat steps from \n step (5) to step (10) for stages (C;B;A) at terminals (18;19);(18;20);(18;21) \n for time respectively.\nMaintenance Record Data Sheet \nFor Frequency Relay\nData:\nPT \nRatio. = (11500/√3) / (100√3) \nV/V\nRated voltage U = \n100 V\nRated Frequency = \n50 Hz\nSetting Time = \n0.15 Sec\nSetting\nStage | Under Frequency\nFrequency Hz | Time \n Delay Sec\nD | 48.3 | 0.15\nC | 48.2 | 0.15\nB | 48.0 | 0.15\nA | 46.5 | 0.15\nMeasured Values\nStage | Phase | Terminal | Volt | Frequency\n Measured | Measured \n Time Sec.\nD | R-S | F1(28;30) | 100 |  | \nC | R-S | F1(28;30) | 100 |  | \nB | R-S | F1(28;30) | 100 |  | \nA | R-S | F1(28;30) | 100 |  | \nStage | Alarm \n Point | Trip \n Point | Action\nD | F4 (35;36) | ----- | Alarm\nC | F4 (39;40) | ------ | Alarm\nB | ---------\n --------- | F2 (7;8)\n F2 (9;10) | * Main CB trip (by 220 Vac)\n * Main CB trip (by 125 Vdc)\nA | -------\n -------\n ------- | F3 (1;2)\n F3 (3;4)\n F3 (5;6) | * Generator CB trip (by 125 Vdc)\n * Generator CB trip (by 220 Vac)\n * Field CB trip\n..........................................................................................................................................................Location: \nRelay Code: Checked \nby: Date: \nSignature:\nFigure \n(1)",
  "text_truncated": false,
  "links": [],
  "images": [

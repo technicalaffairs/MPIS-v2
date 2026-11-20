@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time - Under\n Voltage Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "USX 116"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -104,8 +94,65 @@
    "text": "Test Sheet"
   },
   {
-   "type": "paragraph",
-   "text": "70 volt."
+   "type": "table",
+   "rows": [
+    [
+     "PT Ratio:",
+     ":",
+     "(11500/√3) / (100/√3) Volt."
+    ],
+    [
+     "Rated Voltage",
+     ":",
+     "100 volt"
+    ],
+    [
+     "Setting",
+     ":",
+     "70 % = 70 volt."
+    ],
+    [
+     "Time setting",
+     ":",
+     "0.5 Sec"
+    ],
+    [
+     "Before = ( \n ) / After = ( \n )"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Ter.",
+     "Setting",
+     "Before test",
+     "After test",
+     "Remark"
+    ],
+    [
+     "F1 (29)",
+     "70 volt.\n 0.5 sec",
+     "",
+     "",
+     "Test terminal."
+    ],
+    [
+     "F3 (30)",
+     "",
+     ""
+    ],
+    [
+     "F3 (17)",
+     "Trip \n terminal."
+    ],
+    [
+     "F3 (18)"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -116,39 +163,83 @@
    "text": "Technical Data for: Time-Under voltage \nrelay Type USX116"
   },
   {
-   "type": "paragraph",
-   "text": "Setting range for pick-up \n value"
-  },
-  {
-   "type": "paragraph",
-   "text": "a. delayed trip"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset ratio = reset \n value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Consumption at 24V"
-  },
-  {
-   "type": "paragraph",
-   "text": "a. \n below pick-up"
-  },
-  {
-   "type": "paragraph",
-   "text": "Insulation tests"
-  },
-  {
-   "type": "paragraph",
-   "text": "Tripping contactor Reed"
-  },
-  {
-   "type": "paragraph",
-   "text": "1 normally open contact"
+   "type": "table",
+   "rows": [
+    [
+     "Rated \n Voltage Un",
+     "100/200 V (selector \n switch)"
+    ],
+    [
+     "Rated frequency \n Fn",
+     "50-60 Hz"
+    ],
+    [
+     "Setting range for pick-up \n value\n a. delayed trip\n b. instantaneous trip",
+     "30 60% Un"
+    ],
+    [
+     "60 100% Un"
+    ],
+    [
+     "Time setting \n range Td",
+     "0.05 0.5 s , 0.5 5 \n s"
+    ],
+    [
+     "Operating time of \n instantaneous trip",
+     "--"
+    ],
+    [
+     "Reset ratio = reset \n value \n Pick-up value",
+     "105%"
+    ],
+    [
+     "Consumption",
+     "<1.8 VA at Un"
+    ],
+    [
+     "Auxiliary supply",
+     "24 V (+20 to +30 V)"
+    ],
+    [
+     "Consumption at 24V\n a. \n below pick-up\n b. \n max. tripped",
+     "0.9 W"
+    ],
+    [
+     "2W"
+    ],
+    [
+     "Loading Capacity, \n continuous trip",
+     "1.2 Un"
+    ],
+    [
+     "Permissible ambient \n temperature",
+     "- 5 C to + 40 C"
+    ],
+    [
+     "Insulation tests\n Intermediate p.t.",
+     "2kV/50Hz,1 min or 3kV,1/50 s (does not apply to terminals, which are \n connected to a common power supply 24 V) 5kV, 1/50 s"
+    ],
+    [
+     "Tripping contactor Reed\n Contact rating",
+     "1 normally open contact\n 50 W, 50 VA but U<250 V\n ~ ; I<2.5 A- , < 1.7 A ~"
+    ],
+    [
+     "Mech. Design",
+     "Plug-in assembly height \n 3E , width 4 divisions"
+    ],
+    [
+     "Visual Signals",
+     "Starting and tripping signal lamps with common push-button reset."
+    ],
+    [
+     "Mass.",
+     "0.920 kg"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\nTime - Under\n Voltage Relay\nUSX 116\nIntroduction\nThis document out lines the testing procedure P1, to be \n performed on an annually bases as indicated Y1 in the title block\nThe measured voltage is coupled via an intermediate PT, which provides DC \n isolation from the primary circuit and rectifiers to one or two electronic \n triggers which upon picking up exit electronic timing elements\nThe output of each relay is contactors, and there are signal lambs for both \n pick-up and tripping, which remain illuminated until reset. the input \n circuitry of the relay is arranged to prevent interference on the input leads \n from entering the measuring system The output contact of the under voltage is \n energized when the input voltage is below setting tripping contact made.\nThis document initiated by eng. Ayman Mohamed Mohamed, tested by eng. Maher \n Abdel Gwad Salem, accepted by eng. Mohamed Elsayed Ahmed, and approved by \n general manger eng. Mohamed Salah Eldin Abdel Ghafar. This document revised by \n eng. Nageh Soliman Shousha: CEPC quality control director, and certified by \n eng. Afaf Ebrahim El-Dib: CEPC inspection & quality control's Head Sector and \n MPIS coordinator\nSafety Precaution\nA\n work permit must be issued and the qualified maintenance staff should\n carry the suitable safety category\nWear\n your safety helmet & safety shoes.\nSafety\n fence with caution marks surrounding the work area is required.\nGas turbine out off service.\nTools and Equipment\nInjection device model Manta MTS-1710.\nTest Leads.\nScrews.\nPower source 220 volt for injection device\nWork to be carried out\nThe main transformer off.\nRemove the terminals F1 (29, 30)\nConnect the relay test unit to a power source.\nConnect the Injection device test leads between \n the voltage terminals at F1 (29, 30) as shown in figure (1).\nIncrease the injected voltage gradually to the \n nominal voltage then decrease the voltage gradually until the relay it \n pick-up.\nRecord this voltage on the test sheet.\nCompare the result with final setting and \n measurement.\nTurn off the injection device.\nConnect the time terminal for the injection \n device to terminal F3 (17; 18) and inject the voltage which appeared in step 6 \n suddenly.\nRecord the time on the test sheet.\nCompare the result \n with final setting and measurement.\nTest Sheet\n70 volt.\nLocation: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:\nTechnical Data for: Time-Under voltage \nrelay Type USX116\nSetting range for pick-up \n value\na. delayed trip\nReset ratio = reset \n value\nConsumption at 24V\na. \n below pick-up\nInsulation tests\nTripping contactor Reed\n1 normally open contact",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document out lines the testing procedure P1, to be \n performed on an annually bases as indicated Y1 in the title block\nThe measured voltage is coupled via an intermediate PT, which provides DC \n isolation from the primary circuit and rectifiers to one or two electronic \n triggers which upon picking up exit electronic timing elements\nThe output of each relay is contactors, and there are signal lambs for both \n pick-up and tripping, which remain illuminated until reset. the input \n circuitry of the relay is arranged to prevent interference on the input leads \n from entering the measuring system The output contact of the under voltage is \n energized when the input voltage is below setting tripping contact made.\nThis document initiated by eng. Ayman Mohamed Mohamed, tested by eng. Maher \n Abdel Gwad Salem, accepted by eng. Mohamed Elsayed Ahmed, and approved by \n general manger eng. Mohamed Salah Eldin Abdel Ghafar. This document revised by \n eng. Nageh Soliman Shousha: CEPC quality control director, and certified by \n eng. Afaf Ebrahim El-Dib: CEPC inspection & quality control's Head Sector and \n MPIS coordinator\nSafety Precaution\nA\n work permit must be issued and the qualified maintenance staff should\n carry the suitable safety category\nWear\n your safety helmet & safety shoes.\nSafety\n fence with caution marks surrounding the work area is required.\nGas turbine out off service.\nTools and Equipment\nInjection device model Manta MTS-1710.\nTest Leads.\nScrews.\nPower source 220 volt for injection device\nWork to be carried out\nThe main transformer off.\nRemove the terminals F1 (29, 30)\nConnect the relay test unit to a power source.\nConnect the Injection device test leads between \n the voltage terminals at F1 (29, 30) as shown in figure (1).\nIncrease the injected voltage gradually to the \n nominal voltage then decrease the voltage gradually until the relay it \n pick-up.\nRecord this voltage on the test sheet.\nCompare the result with final setting and \n measurement.\nTurn off the injection device.\nConnect the time terminal for the injection \n device to terminal F3 (17; 18) and inject the voltage which appeared in step 6 \n suddenly.\nRecord the time on the test sheet.\nCompare the result \n with final setting and measurement.\nTest Sheet\nPT Ratio: | : | (11500/√3) / (100/√3) Volt.\nRated Voltage | : | 100 volt\nSetting | : | 70 % = 70 volt.\nTime setting | : | 0.5 Sec\nBefore = ( \n ) / After = ( \n )\nTer. | Setting | Before test | After test | Remark\nF1 (29) | 70 volt.\n 0.5 sec |  |  | Test terminal.\nF3 (30) |  | \nF3 (17) | Trip \n terminal.\nF3 (18)\nLocation: Relay Designation:\nTestedby: \nTest \nDate: \n Signature:\nTechnical Data for: Time-Under voltage \nrelay Type USX116\nRated \n Voltage Un | 100/200 V (selector \n switch)\nRated frequency \n Fn | 50-60 Hz\nSetting range for pick-up \n value\n a. delayed trip\n b. instantaneous trip | 30 60% Un\n60 100% Un\nTime setting \n range Td | 0.05 0.5 s , 0.5 5 \n s\nOperating time of \n instantaneous trip | --\nReset ratio = reset \n value \n Pick-up value | 105%\nConsumption | <1.8 VA at Un\nAuxiliary supply | 24 V (+20 to +30 V)\nConsumption at 24V\n a. \n below pick-up\n b. \n max. tripped | 0.9 W\n2W\nLoading Capacity, \n continuous trip | 1.2 Un\nPermissible ambient \n temperature | - 5 C to + 40 C\nInsulation tests\n Intermediate p.t. | 2kV/50Hz,1 min or 3kV,1/50 s (does not apply to terminals, which are \n connected to a common power supply 24 V) 5kV, 1/50 s\nTripping contactor Reed\n Contact rating | 1 normally open contact\n 50 W, 50 VA but U<250 V\n ~ ; I<2.5 A- , < 1.7 A ~\nMech. Design | Plug-in assembly height \n 3E , width 4 divisions\nVisual Signals | Starting and tripping signal lamps with common push-button reset.\nMass. | 0.920 kg",
  "text_truncated": false,
  "links": [],
  "images": [

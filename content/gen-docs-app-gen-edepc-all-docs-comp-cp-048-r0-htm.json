@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "1CV12MX2, 9KAC001"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -65,6 +63,10 @@
      "6.9-8.6 Bar"
     ],
     [
+     "Nominal capacity",
+     "34 mVmin"
+    ],
+    [
      "Motor rating power",
      "300 hp"
     ],
@@ -73,31 +75,51 @@
      "2.4/5.1 bar"
     ],
     [
-     "",
+     "Cooling water Max \n temperature",
+     "35 C"
+    ],
+    [
+     "Recommended oil",
+     "Centac oil"
+    ],
+    [
+     "Oil reservoir \n capacity",
+     "133 lit"
+    ],
+    [
+     "Operating oil \n press.",
+     "2.1 bar"
+    ],
+    [
+     "Operating oil temp.",
+     "46 C"
+    ],
+    [
+     "Oil flow",
      "64 L/min"
     ],
     [
-     "",
+     "Weight of compressor",
      "3200 kg"
     ],
     [
-     "",
+     "Seal air min press.",
      "0.4 bar"
     ],
     [
-     "",
+     "Instrument air \n press.",
      "5-8 bar"
     ],
     [
-     "",
+     "Compression ratio",
      "9"
     ],
     [
-     "",
+     "1st stage max \n vibration",
      "0.8 mils"
     ],
     [
-     "",
+     "2nd stage max \n vibration",
      "0.75 mils"
     ]
    ],
@@ -106,6 +128,61 @@
   {
    "type": "paragraph",
    "text": "Stage data at specified \n discharge pressure"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Compressor stages",
+     "Units",
+     "Stage l",
+     "Stage 2",
+     "Notes"
+    ],
+    [
+     "Stage inlet press,",
+     "bar",
+     "0.98",
+     "3.085",
+     ""
+    ],
+    [
+     "Stage inlet temp.",
+     "C",
+     "40",
+     "36.33",
+     ""
+    ],
+    [
+     "Stage discharge \n press",
+     "bar",
+     "3.105",
+     "9.765",
+     "9.8 at discharge"
+    ],
+    [
+     "Stage discharge \n temp.",
+     "C",
+     "205.53",
+     "206.4",
+     "46.33 \n after cooler"
+    ],
+    [
+     "Cooling water \n press, drop",
+     "bar",
+     "0.02",
+     "0.006",
+     ""
+    ],
+    [
+     "Pressure ratio",
+     "",
+     "3.17",
+     "3.17",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -278,44 +355,56 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Item",
+     "Units",
+     "Before \n Inspection",
+     "After Inspection"
+    ],
+    [
+     "1ST stage pressure",
      "kpa",
      "",
      ""
     ],
     [
-     "",
+     "1ST stage temp.",
      "ْ C",
      "",
      ""
     ],
     [
-     "",
+     "1ST stage vibration",
      "mils",
      "",
      ""
     ],
     [
-     "",
+     "2nd stage pressure",
      "kpa",
      "",
      ""
     ],
     [
-     "",
+     "2nd stage temp.",
      "ْC",
      "",
      ""
     ],
     [
-     "",
+     "2nd stage vibration",
      "mils",
      "",
      ""
     ],
     [
-     "",
+     "Oil pressure",
      "kpa",
+     "",
+     ""
+    ],
+    [
+     "Oil temp.",
+     "C",
      "",
      ""
     ]
@@ -359,6 +448,444 @@
    "text": "MACHINE SERIAL NUMBER: M97-9919 REV 1CV12MX2 EGYPTIAN ELECTRIC 00421107 \nMC"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "SEQ",
+     "QTY",
+     "PART NUMBER",
+     "REV",
+     "NOUN",
+     "DESCRIPTION",
+     "Com. No."
+    ],
+    [
+     "",
+     "",
+     "7X13837",
+     "E",
+     "ASSEMBLY",
+     "COMPRESSOR",
+     "00283795"
+    ],
+    [
+     "1",
+     "1.0",
+     "7X14381",
+     "E",
+     "LINEBORE-SAE",
+     "CV1 2STG FLOW150#",
+     "68081355"
+    ],
+    [
+     "2",
+     "1.0",
+     "1X10247",
+     "C",
+     "SEARING-BG",
+     "CV1-BULLGEAR PL'N",
+     "94932357"
+    ],
+    [
+     "4",
+     "1.0",
+     "1X10245",
+     "D",
+     "BEARING-BG",
+     "6ULLGEAR CV1 THST",
+     "94932290"
+    ],
+    [
+     "5",
+     "1.0",
+     "7X11977",
+     "E",
+     "GEAR & SHAFT",
+     "& SHAFT CV1 50HZ",
+     "67768382"
+    ],
+    [
+     "3",
+     "2.0",
+     "18A7S28",
+     "",
+     "NIPPLE",
+     "2-1/2 X 3",
+     "95050027"
+    ],
+    [
+     "11",
+     "1.0",
+     "1X13975",
+     "",
+     "SPRING",
+     "GAP TYPE 5-WAVE",
+     "67862367"
+    ],
+    [
+     "12",
+     "6.0",
+     "34A7S3",
+     "",
+     "PLUG",
+     "1/4 IN SOCKET HD",
+     "95250932"
+    ],
+    [
+     "14",
+     "22.0",
+     "1X11314A070",
+     "",
+     "CAPSCREW",
+     "M20X2.5X70LG SHC",
+     "67S09822"
+    ],
+    [
+     "15",
+     "2.0",
+     "1X3054A100",
+     "0",
+     "PIN-TAPER",
+     "16MMX100MM THD",
+     "67585836"
+    ],
+    [
+     "16",
+     "2.0",
+     "1X3094A",
+     "0",
+     "NUT",
+     "M16X2 HEX",
+     "67585828"
+    ],
+    [
+     "18",
+     "4.0",
+     "1X3120A035",
+     "",
+     "CAPSCREW",
+     "CV1-M10X35MM",
+     "94588522"
+    ],
+    [
+     "19",
+     "4.0",
+     "94589264",
+     "",
+     "WASHER",
+     "LOCK 10MM",
+     "94589254"
+    ],
+    [
+     "25",
+     "2.0",
+     "3X654",
+     "c",
+     "NOZZLE",
+     "SPRAY F II",
+     "67544064"
+    ],
+    [
+     "26",
+     "1.0",
+     "5X12365",
+     "E",
+     "■ \n COVER",
+     "SEAL 3'GEAR CV1",
+     "67735886"
+    ],
+    [
+     "29",
+     "2.0",
+     "31A7C11",
+     "",
+     "PLUG",
+     "2-1/2 IN",
+     "95033171"
+    ],
+    [
+     "30",
+     "4.0",
+     "1X15100.6",
+     "c",
+     "PLUG HEX",
+     "3/4 SAE STRT THRD",
+     "67878777"
+    ],
+    [
+     "36",
+     "1.0",
+     "34A7S6",
+     "",
+     "PLUG",
+     "3/4 IN",
+     "95267191"
+    ],
+    [
+     "37",
+     "2.0",
+     "34A7S6",
+     "",
+     "PLUG",
+     "3/4 IN",
+     "95267191"
+    ],
+    [
+     "38",
+     "2.0",
+     "34A7S6",
+     "",
+     "PLUG",
+     "3/4 IN",
+     "95267191"
+    ],
+    [
+     "40",
+     "1.0",
+     "1X10502",
+     "",
+     "KEY",
+     "B'GEAR 18X11X70",
+     "67758417"
+    ],
+    [
+     "50",
+     "1.0",
+     "1X12832",
+     "",
+     "NAMEPLATE",
+     "S/N SPECIAL",
+     "67831693"
+    ],
+    [
+     "52",
+     "1.0",
+     "8A16X148",
+     "",
+     "NAMEPLATE",
+     "DIRECTION ARROW",
+     "95337127"
+    ],
+    [
+     "53",
+     "6.0",
+     "122A2S57E",
+     "",
+     "DRIVE SCREW",
+     "",
+     "95869806"
+    ],
+    [
+     "54",
+     "2.0",
+     "1X2734",
+     "0",
+     "NAMEPLATE",
+     "CENTAC-NEW LOGO",
+     "67575019"
+    ],
+    [
+     "55",
+     "8.0",
+     "122A2S101E",
+     "",
+     "DRIVE SCREW",
+     "",
+     "95869822"
+    ],
+    [
+     "50",
+     "1.0",
+     "5X13867",
+     "c",
+     "HOUSING",
+     "CV1 M0P50&5QHZSAE",
+     "67378652"
+    ],
+    [
+     "61",
+     "1.0",
+     "3X11426",
+     "B",
+     "GEROTOR",
+     "MOP CV1 50 HZ",
+     "67769349"
+    ],
+    [
+     "62",
+     "1.0",
+     "5X12796",
+     "A",
+     "SPACER",
+     "MOP 50 HZ",
+     "67769356"
+    ],
+    [
+     "63",
+     "1.0",
+     "1X17559",
+     "",
+     ".SEAL",
+     "DBL LIPB/G-CV1/1A",
+     "67932517"
+    ],
+    [
+     "54",
+     "1.0",
+     "20A11EM255",
+     "0",
+     "O-RING",
+     "5-5/8X5-7/8X1/8",
+     "95023388"
+    ],
+    [
+     "65",
+     "1.0",
+     "3X11250",
+     "",
+     "GASKET",
+     "CV1 B'GEAR COVER",
+     "67740001"
+    ],
+    [
+     "56",
+     "6.0",
+     "1X3049A035",
+     "A",
+     "CAPSCREW",
+     "M10X1.5 HEX SOC",
+     "67716548"
+    ],
+    [
+     "67",
+     "6.0",
+     "94589254",
+     "",
+     "WASHER",
+     "LOCK 10MM",
+     "94589264"
+    ],
+    [
+     "68",
+     "1.0",
+     "23A9C605",
+     "0",
+     "KEY",
+     "3/16X5/8 WOODRUFF",
+     "95373775"
+    ],
+    [
+     "69",
+     "1.0",
+     "1X10443A024",
+     "",
+     "PIN",
+     "ROLL 5MMX24MM SS",
+     "67752568"
+    ],
+    [
+     "70",
+     "1.0",
+     "3X643",
+     "0",
+     "SHIM",
+     "OIL PUMP F II",
+     "67544056"
+    ],
+    [
+     "71",
+     "1.0",
+     "428A10C05",
+     "",
+     "ELBOW",
+     "1/4 X 1/8 INCH",
+     "95271565"
+    ],
+    [
+     "72",
+     "2.0",
+     "9A7C0003X0035",
+     "",
+     "TUBING",
+     "1/4 IN",
+     "95606448"
+    ],
+    [
+     "73",
+     "1.0",
+     "1X16129.1",
+     "",
+     "ELBOW 1/4\"",
+     "ST THRD/FLARELESS",
+     "6790332B"
+    ],
+    [
+     "74",
+     "1.0",
+     "1X15100.6",
+     "c",
+     "PLUG HEX",
+     "3/4 SAE STRT THRD",
+     "67878777"
+    ],
+    [
+     "75",
+     "1.0",
+     "37A10C1",
+     "",
+     "ELBOW",
+     "1/8X1/8",
+     "95087532"
+    ],
+    [
+     "76",
+     "2.0",
+     "9A7MOD04XQ035BF",
+     "0",
+     "TUBING",
+     "1/8 INCH",
+     "95144937"
+    ],
+    [
+     "77",
+     "2.0",
+     "1X7258",
+     "0",
+     "CLIP",
+     "TUBING 1/8\"",
+     "00132472"
+    ],
+    [
+     "78",
+     "2.0",
+     "119A2R39",
+     "",
+     "CAPSCREW",
+     "#6-32X3/8 HEX SOC",
+     "95498952"
+    ],
+    [
+     "10",
+     "1.0",
+     "7X13217",
+     "B",
+     "HEAD",
+     "MACH CV1 SI",
+     "68081074"
+    ],
+    [
+     "10",
+     "l.D",
+     "5X16414",
+     "",
+     "SFPARATOR",
+     "MDTSTIIRF fVI STG1",
+     "SR1.T7R7<3"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "INGERS0L \nRAND"
   },
@@ -375,380 +902,472 @@
    "text": "MACHINE SERIAL NUMBER: M97-9919 REV 1CV12MX2 EGYPTIAN ELECTRIC 00421107 \nMC"
   },
   {
-   "type": "paragraph",
-   "text": "95022364"
-  },
-  {
-   "type": "paragraph",
-   "text": "67748491"
-  },
-  {
-   "type": "paragraph",
-   "text": "67765511"
-  },
-  {
-   "type": "paragraph",
-   "text": "67745703"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "95226650"
+     "SEQ",
+     "QTY",
+     "PART NUMBER",
+     "REV",
+     "NOUN",
+     "DESCRIPTION",
+     "COM NO"
     ],
     [
+     "113",
+     "2-0",
+     "20A11EM386",
      "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67693952"
+     "0-RING",
+     "17X17-3/8X3/16",
+     "95439006"
     ],
     [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67638932"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67643585"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "95070272"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "95B57520"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "95223038"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67878769"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "679155611"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67735761"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67716548"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "94589264"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67726752"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67730721"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67638155"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "95326039"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67502914"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67956045"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67767889"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67887604"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67753525"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "68022409"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "5763B163"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67584920"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "68054345"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "68054212"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "95506499"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "68076694"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "68137587"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67744672"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67715011"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "67948844"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "95156402"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "95026860"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "95269320"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "11",
+     "16.0",
+     "1X11314A070",
+     "",
+     "CAPSCREW",
+     "M20X2.5X70LG SHC",
      "67809822"
     ],
     [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "11",
+     "2.0",
+     "1X10544A080",
+     "A",
+     "PIN",
+     "DOWEL 14MH D X 80",
      "67765370"
     ],
     [
+     "11",
+     "1.0",
+     "305A17B2",
      "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "COCK",
+     "1/4 GAUGE M AND F",
      "95226650"
     ],
     [
+     "12",
+     "1.0",
+     "5X11599",
+     "B",
+     "BEARING-PLN",
+     "ASSEMBLY",
+     "67693952"
+    ],
+    [
+     "12",
+     "1.0",
+     "3X1650",
+     "A",
+     "GASKET",
+     "BEARING FLANGE",
+     "67638932"
+    ],
+    [
+     "12",
+     "2.0",
+     "20A11EM240",
      "",
+     "O-RING",
+     "3-3/4X4X1/8",
+     "95022364"
+    ],
+    [
+     "12",
+     "1.0",
+     "20A11EM256",
+     "0",
+     "O-RING",
+     "5-3/4X6X1/8",
+     "95023396"
+    ],
+    [
+     "12",
+     "3.0",
+     "1X3049A035",
+     "A",
+     "CAPSCREW",
+     "M10X1.5 HEX SOC",
+     "67716548"
+    ],
+    [
+     "12",
+     "1.0",
+     "3X1642",
+     "J",
+     "SEAL",
+     "1.25 BUSHING ASSY",
+     "67643585"
+    ],
+    [
+     "12",
+     "3.0",
+     "20A11EM033",
      "",
+     "O-RING",
+     "2X2-1/8X1/16",
+     "95070272"
+    ],
+    [
+     "12",
+     "1.0",
+     "25A13S6X",
      "",
+     "PIN",
+     "ROLL 3/32 X 1/4",
+     "95B57520"
+    ],
+    [
+     "13",
+     "1.0",
+     "161A13S268",
+     "0",
+     "RING",
+     "RETAINING",
+     "95223038"
+    ],
+    [
+     "13",
+     "2.0",
+     "1X15100.5",
+     "C",
+     "PLUG HEX",
+     "9/16 SAE STRT THD",
+     "67878769"
+    ],
+    [
+     "14",
+     "1.0",
+     "5X15047",
      "",
+     "BEARING",
+     "THR ASS'Y CV1-I50",
+     "679155611"
+    ],
+    [
+     "14",
+     "1.0",
+     "1X10384",
+     "E",
+     "SHIM",
+     "THRST BRG CV-1",
+     "67735761"
+    ],
+    [
+     "14",
+     "3.0",
+     "1X3049A035",
+     "A",
+     "CAPSCREW",
+     "M10X1.5 HEX SOC",
+     "67716548"
+    ],
+    [
+     "15",
+     "1.0",
+     "5X12217",
+     "B",
+     "COVER",
+     "THRST BRG CV1 1&2",
+     "67748491"
+    ],
+    [
+     "15",
+     "1.0",
+     "20A11EM264",
      "",
+     "0-RING",
+     "7-1/2X7-3/4X1/8",
+     "95024444"
+    ],
+    [
+     "15",
+     "3.0",
+     "94589264",
      "",
+     "WASHER",
+     "LOCK 10MM",
+     "94589264"
+    ],
+    [
+     "15",
+     "3.0",
+     "1X3O49AO30D",
+     "",
+     "CAPSCREW",
+     "HEX SOC M10X30",
+     "67726752"
+    ],
+    [
+     "15",
+     "1.0",
+     "1X10356",
+     "B",
+     "SEAL ■",
+     "SECURITY CV1",
+     "67730721"
+    ],
+    [
+     "15",
+     "1.0",
+     "3X1609",
+     "A",
+     "CARRIER",
+     "BRG-THR-BUTTON-FI",
+     "67638155"
+    ],
+    [
+     "15",
+     "1.0",
+     "26A19X200",
+     "",
+     "BEARING-BALL",
+     "BALL SER 62 FII",
+     "95326039"
+    ],
+    [
+     "15",
+     "1.0",
+     "1736B6-1",
+     "2",
+     "BUTTON",
+     "THRUST BUTTON",
+     ">"
+    ],
+    [
+     "16",
+     "",
+     "7X12014-DF",
+     "A",
+     "ROTOR",
+     "ASSY C12X 125# SI",
+     "67502914"
+    ],
+    [
+     "17",
+     "1.0",
+     "5X12743",
+     "D",
+     "PINION",
+     "GEAR CV1 50HZ 1ST",
+     "67956045"
+    ],
+    [
+     "17",
+     "1.0",
+     "7X12671",
+     "C",
+     "IMPELLER-M",
+     "COM-MACH CV1-S1",
+     "67767889"
+    ],
+    [
+     "17",
+     "1.0",
+     "3X11330",
+     "C",
+     "NOSE",
+     "IMP CV1 1ST",
+     "67887604"
+    ],
+    [
+     "17",
+     "1.0",
+     "3X12676",
+     "",
+     "BOLT-ROTOR",
+     "IMP-CV1-S1 5/15\"",
+     "67753525"
+    ],
+    [
+     "17",
+     "1.0",
+     "3X1612",
+     "A",
+     "COLLAR",
+     "THRUST-1CII-2STG",
+     "68022409"
+    ],
+    [
+     "17",
+     "1.0",
+     "3X1101",
+     "C",
+     "BOLT-ROTOR",
+     "ROTOR-THRUST-1CII",
+     "5763B163"
+    ],
+    [
+     "18",
+     "1.0",
+     "7X14164",
+     "",
+     "BODY",
+     "DIFF CV1-S1 100*",
+     "67584920"
+    ],
+    [
+     "18",
+     "3.0",
+     "1X10443A036",
+     "",
+     "PIN",
+     "TENSION 5MMD X 36",
+     "68054345"
+    ],
+    [
+     "13",
+     "6.0",
+     "1X22550",
+     "",
+     "CAPSCREW",
+     "MSX1.25X35 HEX SS",
+     "67765511"
+    ],
+    [
+     "18",
+     "6.0",
+     "14ASS65",
+     "",
+     "WASHER",
+     "LOCK 5/16 SS",
+     "68054212"
+    ],
+    [
+     "20",
+     "1.0",
+     "7X13218",
+     "A",
+     "HEAD",
+     "MACH 52 CV1",
+     "95506499"
+    ],
+    [
+     "20",
+     "1.0",
+     "5X16415",
+     "",
+     "SEPARATOR",
+     "MOISTURE CV1 STG2",
+     "68076694"
+    ],
+    [
+     "20",
+     "1.0",
+     "1X10403",
+     "",
+     "GASKET 5\"DIN",
+     "NON-ASBESTOS",
+     "68137587"
+    ],
+    [
+     "20",
+     "8.0",
+     "1X3310A060",
+     "0",
+     "CAPSCREW",
+     "M16X2X60 LG HEX",
+     "67744672"
+    ],
+    [
+     "21",
+     "1.0",
+     "7X12929",
+     "D",
+     "COOLER-AIR",
+     "CV1 STG-2 STD RT",
+     "67715011"
+    ],
+    [
+     "21",
+     "1.0",
+     "20A11EM380",
+     "",
+     "O-RING",
+     "11.5X11.87X3/16",
+     "67948844"
+    ],
+    [
+     "21",
+     "4.0",
+     "20A11EM344",
+     "0",
+     "O-RING",
+     "3-7/8X4-1/4X3/16",
+     "95156402"
+    ],
+    [
+     "21",
+     "2.0",
+     "20A11EM382",
+     "",
+     "O-RING",
+     "13X13-3/8X3/16",
+     "95026860"
+    ],
+    [
+     "21",
+     "12 0",
+     "1X1I314A070",
+     "",
+     "CAPSCREW",
+     "M20X2.5X70LG SHC",
+     "95269320"
+    ],
+    [
+     "21",
+     "2.0",
+     "1X10544A0B0 '",
+     "A",
+     "PIN",
+     "DOWEL 14MM 0 X 80",
+     "67809822"
+    ],
+    [
+     "21",
+     "1.0",
+     "305A17B2",
+     "",
+     "COCK",
+     "1/4 GAUGE M AND F",
+     "67765370"
+    ],
+    [
+     "22",
+     "1.0",
+     "5X12067",
+     "D",
+     "BEARING-PLN",
+     "ASSY PLN CV1 2ND",
+     "95226650"
+    ],
+    [
+     "22",
+     "1.0",
+     "3X11151",
+     "A",
+     "-GASKET",
+     "PLN BRG 2ND CV1",
      "67748616"
+    ],
+    [
+     "m",
+     "1.0",
+     "20A11EH240",
+     "",
+     "O-RING",
+     "3-3/4X4X1/8",
+     "67745703"
     ]
    ],
    "truncated_rows": 0
   }
  ],
- "text": "Power Stations\nTechnical Procedure\n1CV12MX2, 9KAC001\nIntroduction\nThis \n document outlines the \n equipment inspection list I1, to be performed on an annually bases \n as indicated by Y1 in the above title block.\nThe air compressors are used to supply \n the station with service air and instrument air.\nTechnical Specification\n\nStage data at specified \n discharge pressure\nThe first \n draft is initiated by eng. Hatem \n Esmat Aly, \n reviewed by eng. Ahmed Abdel Rahman: maintenance manager, \n tested by eng. Sameh \n Ibrahem Kamal, \n revised by eng.\nSamir Abdel Gilel: EDEPC inspection \n & quality control general director & \nMPIS coordinator, accepted by general \n manager eng. Mahmoud Al-Naqeeb, and approved by eng. \n Tarek Yousef; head sector of \n Ayon Mousa PS.\nThis document accepted by \neng. \nSamir Abdel Gilel: EDEPC inspection and quality control general director & \nMPIS coordinator, \nand certified by accountant Mahmoud Mohamed Soliman: EDEPC \nplanning & financial prediction head sector and supervisor of inspection & \nquality control's head sector.\nSafety Precautions\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety \n and healthy equipment as safety helmet, safety shoes ... etc\nIsolate the circuit breaker for the motor of this compressor.\nIsolate the electrical cable feeding of the motor of this \n compressor.\nThe compressor must be isolated mechanically by closing \n delivery valve.\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety \n and healthy equipment as safety helmet, safety shoes ... etc\nIsolate the circuit breaker for the motor of this compressor.\nIsolate the electrical cable feeding of the motor of this \n compressor.\nThe compressor must be isolated mechanically by closing \n delivery valve.\nClose the cooling water supply.\nTools and Equipment\nComplete maintenance tool set.\nCleaning articles (fluid, rags, soft brushes. etc)\nManual puller,\n Feeler gauge,\nCompressed air supply.\nSpray gun,\n grease\nWork to be Carried Out\nIntake Filter\nVisually inspect all inlet air filter elements \n and replace if necessary. Check the filter \n housing for corrosion and check the sealing surface.\nRemove the housing cover.\nRemove the top seal plate.\nRemove dirty cartridge \n and clean or replace as required.\nClean bottom seal plate \n in base of filter housing.\nNOTE: when a \ntotal differential pressure across filter housing of 15\" w.c is indicated clean \nor replace filter element.\nInlet Throttle Valve\nObserve for freedom of \n movement of the inlet valve during the stroking procedure.\nBy Pass Valve\nInspect the seals for damage. Replace damaged seals as required and reinstall \n valve.\nDischarge Check Valve\nWhen inspecting the check valve, look for: rust, broken springs, damaged \n seals, freedom of movement\nRepair or replace as necessary and reinstall discharge check valve\nOil Suction Screen\nInspect and clean the oil suction screen with \n solvent.\nOil filter\nVisually inspect and replace the oil filter element. A single line type oil \n filter is furnished consisting of a 10 micron replaceable cartridge element.\nOil Cooler\nVisually inspect the oil cooler tubes:\nMatch mark and remove bonnets from oil cooler and inspect zinc anode for \n erosion for oxide deposits. Scrape to brighten surface and replace if more \n than half is corroded away.\nCarefully examine tubes for scale and clean if necessary .After cleaning, \n examine for erosion or corrosion.\nAfter maintenance inspection or cleaning, both shell and tube side should be \n carefully vented and full of liquid.\nMist Arrestor:\nVisually inspect the oil mist arrestor. Clean the housing and replace the. \n element if saturated.\nTake oil sample and analyze against Ingersoil-Rand oil Specification Replace \n oil if necessary\nRotate the bull gear by hand and feel for roughness in the bearings.\nVisually inspect the coupling. Lubricate if necessary.\nRemove and clean the condensate trap.\nCheck function of pressure gauges and thermometers, recalibrate if necessary. \n Clean thermometer pockets.\nMRDS \nMaintenance Record Data Sheet MRDS\n\nNOTE: (1 Mils = 1/1000 Inch = 25.4 u.m )\nLocation: \nCompressor Code:\nChecked by: \nTested\nDate: Signature:\nAir Compressor\n 1st \nStage\nAir Compressor\n 2nd \nStage\nINGERS0L \nRAND\nCENTAC DIV. - OF MATERIAL\nDATE:\nMACHINE SERIAL NUMBER: M97-9919 REV 1CV12MX2 EGYPTIAN ELECTRIC 00421107 \nMC\nINGERS0L \nRAND\nCENTAC DIV. - OF MATERIAL\nDATE:\nMACHINE SERIAL NUMBER: M97-9919 REV 1CV12MX2 EGYPTIAN ELECTRIC 00421107 \nMC\n95022364\n67748491\n67765511\n67745703\n",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis \n document outlines the \n equipment inspection list I1, to be performed on an annually bases \n as indicated by Y1 in the above title block.\nThe air compressors are used to supply \n the station with service air and instrument air.\nTechnical Specification\nCompressor \n model/serial no. | 1CV12MX2 / M97-9919\nNo. of compressors | 3 Compressors (A,B,C)\nNumber of stages | 2 Stages\nNominal motor speed | 2975 RPM\nRated pressure | 6.9-8.6 Bar\nNominal capacity | 34 mVmin\nMotor rating power | 300 hp\nCooling water \n Min/Max pressure | 2.4/5.1 bar\nCooling water Max \n temperature | 35 C\nRecommended oil | Centac oil\nOil reservoir \n capacity | 133 lit\nOperating oil \n press. | 2.1 bar\nOperating oil temp. | 46 C\nOil flow | 64 L/min\nWeight of compressor | 3200 kg\nSeal air min press. | 0.4 bar\nInstrument air \n press. | 5-8 bar\nCompression ratio | 9\n1st stage max \n vibration | 0.8 mils\n2nd stage max \n vibration | 0.75 mils\nStage data at specified \n discharge pressure\nCompressor stages | Units | Stage l | Stage 2 | Notes\nStage inlet press, | bar | 0.98 | 3.085 | \nStage inlet temp. | C | 40 | 36.33 | \nStage discharge \n press | bar | 3.105 | 9.765 | 9.8 at discharge\nStage discharge \n temp. | C | 205.53 | 206.4 | 46.33 \n after cooler\nCooling water \n press, drop | bar | 0.02 | 0.006 | \nPressure ratio |  | 3.17 | 3.17 | \nThe first \n draft is initiated by eng. Hatem \n Esmat Aly, \n reviewed by eng. Ahmed Abdel Rahman: maintenance manager, \n tested by eng. Sameh \n Ibrahem Kamal, \n revised by eng.\nSamir Abdel Gilel: EDEPC inspection \n & quality control general director & \nMPIS coordinator, accepted by general \n manager eng. Mahmoud Al-Naqeeb, and approved by eng. \n Tarek Yousef; head sector of \n Ayon Mousa PS.\nThis document accepted by \neng. \nSamir Abdel Gilel: EDEPC inspection and quality control general director & \nMPIS coordinator, \nand certified by accountant Mahmoud Mohamed Soliman: EDEPC \nplanning & financial prediction head sector and supervisor of inspection & \nquality control's head sector.\nSafety Precautions\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety \n and healthy equipment as safety helmet, safety shoes ... etc\nIsolate the circuit breaker for the motor of this compressor.\nIsolate the electrical cable feeding of the motor of this \n compressor.\nThe compressor must be isolated mechanically by closing \n delivery valve.\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety \n and healthy equipment as safety helmet, safety shoes ... etc\nIsolate the circuit breaker for the motor of this compressor.\nIsolate the electrical cable feeding of the motor of this \n compressor.\nThe compressor must be isolated mechanically by closing \n delivery valve.\nClose the cooling water supply.\nTools and Equipment\nComplete maintenance tool set.\nCleaning articles (fluid, rags, soft brushes. etc)\nManual puller,\n Feeler gauge,\nCompressed air supply.\nSpray gun,\n grease\nWork to be Carried Out\nIntake Filter\nVisually inspect all inlet air filter elements \n and replace if necessary. Check the filter \n housing for corrosion and check the sealing surface.\nRemove the housing cover.\nRemove the top seal plate.\nRemove dirty cartridge \n and clean or replace as required.\nClean bottom seal plate \n in base of filter housing.\nNOTE: when a \ntotal differential pressure across filter housing of 15\" w.c is indicated clean \nor replace filter element.\nInlet Throttle Valve\nObserve for freedom of \n movement of the inlet valve during the stroking procedure.\nBy Pass Valve\nInspect the seals for damage. Replace damaged seals as required and reinstall \n valve.\nDischarge Check Valve\nWhen inspecting the check valve, look for: rust, broken springs, damaged \n seals, freedom of movement\nRepair or replace as necessary and reinstall discharge check valve\nOil Suction Screen\nInspect and clean the oil suction screen with \n solvent.\nOil filter\nVisually inspect and replace the oil filter element. A single line type oil \n filter is furnished consisting of a 10 micron replaceable cartridge element.\nOil Cooler\nVisually inspect the oil cooler tubes:\nMatch mark and remove bonnets from oil cooler and inspect zinc anode for \n erosion for oxide deposits. Scrape to brighten surface and replace if more \n than half is corroded away.\nCarefully examine tubes for scale and clean if necessary .After cleaning, \n examine for erosion or corrosion.\nAfter maintenance inspection or cleaning, both shell and tube side should be \n carefully vented and full of liquid.\nMist Arrestor:\nVisually inspect the oil mist arrestor. Clean the housing and replace the. \n element if saturated.\nTake oil sample and analyze against Ingersoil-Rand oil Specification Replace \n oil if necessary\nRotate the bull gear by hand and feel for roughness in the bearings.\nVisually inspect the coupling. Lubricate if necessary.\nRemove and clean the condensate trap.\nCheck function of pressure gauges and thermometers, recalibrate if necessary. \n Clean thermometer pockets.\nMRDS \nMaintenance Record Data Sheet MRDS\nItem | Units | Before \n Inspection | After Inspection\n1ST stage pressure | kpa |  | \n1ST stage temp. | ْ C |  | \n1ST stage vibration | mils |  | \n2nd stage pressure | kpa |  | \n2nd stage temp. | ْC |  | \n2nd stage vibration | mils |  | \nOil pressure | kpa |  | \nOil temp. | C |  | \nNOTE: (1 Mils = 1/1000 Inch = 25.4 u.m )\nLocation: \nCompressor Code:\nChecked by: \nTested\nDate: Signature:\nAir Compressor\n 1st \nStage\nAir Compressor\n 2nd \nStage\nINGERS0L \nRAND\nCENTAC DIV. - OF MATERIAL\nDATE:\nMACHINE SERIAL NUMBER: M97-9919 REV 1CV12MX2 EGYPTIAN ELECTRIC 00421107 \nMC\nSEQ | QTY | PART NUMBER | REV | NOUN | DESCRIPTION | Com. No.\n |  | 7X13837 | E | ASSEMBLY | COMPRESSOR | 00283795\n1 | 1.0 | 7X14381 | E | LINEBORE-SAE | CV1 2STG FLOW150# | 68081355\n2 | 1.0 | 1X10247 | C | SEARING-BG | CV1-BULLGEAR PL'N | 94932357\n4 | 1.0 | 1X10245 | D | BEARING-BG | 6ULLGEAR CV1 THST | 94932290\n5 | 1.0 | 7X11977 | E | GEAR & SHAFT | & SHAFT CV1 50HZ | 67768382\n3 | 2.0 | 18A7S28 |  | NIPPLE | 2-1/2 X 3 | 95050027\n11 | 1.0 | 1X13975 |  | SPRING | GAP TYPE 5-WAVE | 67862367\n12 | 6.0 | 34A7S3 |  | PLUG | 1/4 IN SOCKET HD | 95250932\n14 | 22.0 | 1X11314A070 |  | CAPSCREW | M20X2.5X70LG SHC | 67S09822\n15 | 2.0 | 1X3054A100 | 0 | PIN-TAPER | 16MMX100MM THD | 67585836\n16 | 2.0 | 1X3094A | 0 | NUT | M16X2 HEX | 67585828\n18 | 4.0 | 1X3120A035 |  | CAPSCREW | CV1-M10X35MM | 94588522\n19 | 4.0 | 94589264 |  | WASHER | LOCK 10MM | 94589254\n25 | 2.0 | 3X654 | c | NOZZLE | SPRAY F II | 67544064\n26 | 1.0 | 5X12365 | E | ■ \n COVER | SEAL 3'GEAR CV1 | 67735886\n29 | 2.0 | 31A7C11 |  | PLUG | 2-1/2 IN | 95033171\n30 | 4.0 | 1X15100.6 | c | PLUG HEX | 3/4 SAE STRT THRD | 67878777\n36 | 1.0 | 34A7S6 |  | PLUG | 3/4 IN | 95267191\n37 | 2.0 | 34A7S6 |  | PLUG | 3/4 IN | 95267191\n38 | 2.0 | 34A7S6 |  | PLUG | 3/4 IN | 95267191\n40 | 1.0 | 1X10502 |  | KEY | B'GEAR 18X11X70 | 67758417\n50 | 1.0 | 1X12832 |  | NAMEPLATE | S/N SPECIAL | 67831693\n52 | 1.0 | 8A16X148 |  | NAMEPLATE | DIRECTION ARROW | 95337127\n53 | 6.0 | 122A2S57E |  | DRIVE SCREW |  | 95869806\n54 | 2.0 | 1X2734 | 0 | NAMEPLATE | CENTAC-NEW LOGO | 67575019\n55 | 8.0 | 122A2S101E |  | DRIVE SCREW |  | 95869822\n50 | 1.0 | 5X13867 | c | HOUSING | CV1 M0P50&5QHZSAE | 67378652\n61 | 1.0 | 3X11426 | B | GEROTOR | MOP CV1 50 HZ | 67769349\n62 | 1.0 | 5X12796 | A | SPACER | MOP 50 HZ | 67769356\n63 | 1.0 | 1X17559 |  | .SEAL | DBL LIPB/G-CV1/1A | 67932517\n54 | 1.0 | 20A11EM255 | 0 | O-RING | 5-5/8X5-7/8X1/8 | 95023388\n65 | 1.0 | 3X11250 |  | GASKET | CV1 B'GEAR COVER | 67740001\n56 | 6.0 | 1X3049A035 | A | CAPSCREW | M10X1.5 HEX SOC | 67716548\n67 | 6.0 | 94589254 |  | WASHER | LOCK 10MM | 94589264\n68 | 1.0 | 23A9C605 | 0 | KEY | 3/16X5/8 WOODRUFF | 95373775\n69 | 1.0 | 1X10443A024 |  | PIN | ROLL 5MMX24MM SS | 67752568\n70 | 1.0 | 3X643 | 0 | SHIM | OIL PUMP F II | 67544056\n71 | 1.0 | 428A10C05 |  | ELBOW | 1/4 X 1/8 INCH | 95271565\n72 | 2.0 | 9A7C0003X0035 |  | TUBING | 1/4 IN | 95606448\n73 | 1.0 | 1X16129.1 |  | ELBOW 1/4\" | ST THRD/FLARELESS | 6790332B\n74 | 1.0 | 1X15100.6 | c | PLUG HEX | 3/4 SAE STRT THRD | 67878777\n75 | 1.0 | 37A10C1 |  | ELBOW | 1/8X1/8 | 95087532\n76 | 2.0 | 9A7MOD04XQ035BF | 0 | TUBING | 1/8 INCH | 95144937\n77 | 2.0 | 1X7258 | 0 | CLIP | TUBING 1/8\" | 00132472\n78 | 2.0 | 119A2R39 |  | CAPSCREW | #6-32X3/8 HEX SOC | 95498952\n10 | 1.0 | 7X13217 | B | HEAD | MACH CV1 SI | 68081074\n10 | l.D | 5X16414 |  | SFPARATOR | MDTSTIIRF fVI STG1 | SR1.T7R7<3\nINGERS0L \nRAND\nCENTAC DIV. - OF MATERIAL\nDATE:\nMACHINE SERIAL NUMBER: M97-9919 REV 1CV12MX2 EGYPTIAN ELECTRIC 00421107 \nMC\nSEQ | QTY | PART NUMBER | REV | NOUN | DESCRIPTION | COM NO\n113 | 2-0 | 20A11EM386 |  | 0-RING | 17X17-3/8X3/16 | 95439006\n11 | 16.0 | 1X11314A070 |  | CAPSCREW | M20X2.5X70LG SHC | 67809822\n11 | 2.0 | 1X10544A080 | A | PIN | DOWEL 14MH D X 80 | 67765370\n11 | 1.0 | 305A17B2 |  | COCK | 1/4 GAUGE M AND F | 95226650\n12 | 1.0 | 5X11599 | B | BEARING-PLN | ASSEMBLY | 67693952\n12 | 1.0 | 3X1650 | A | GASKET | BEARING FLANGE | 67638932\n12 | 2.0 | 20A11EM240 |  | O-RING | 3-3/4X4X1/8 | 95022364\n12 | 1.0 | 20A11EM256 | 0 | O-RING | 5-3/4X6X1/8 | 95023396\n12 | 3.0 | 1X3049A035 | A | CAPSCREW | M10X1.5 HEX SOC | 67716548\n12 | 1.0 | 3X1642 | J | SEAL | 1.25 BUSHING ASSY | 67643585\n12 | 3.0 | 20A11EM033 |  | O-RING | 2X2-1/8X1/16 | 95070272\n12 | 1.0 | 25A13S6X |  | PIN | ROLL 3/32 X 1/4 | 95B57520\n13 | 1.0 | 161A13S268 | 0 | RING | RETAINING | 95223038\n13 | 2.0 | 1X15100.5 | C | PLUG HEX | 9/16 SAE STRT THD | 67878769\n14 | 1.0 | 5X15047 |  | BEARING | THR ASS'Y CV1-I50 | 679155611\n14 | 1.0 | 1X10384 | E | SHIM | THRST BRG CV-1 | 67735761\n14 | 3.0 | 1X3049A035 | A | CAPSCREW | M10X1.5 HEX SOC | 67716548\n15 | 1.0 | 5X12217 | B | COVER | THRST BRG CV1 1&2 | 67748491\n15 | 1.0 | 20A11EM264 |  | 0-RING | 7-1/2X7-3/4X1/8 | 95024444\n15 | 3.0 | 94589264 |  | WASHER | LOCK 10MM | 94589264\n15 | 3.0 | 1X3O49AO30D |  | CAPSCREW | HEX SOC M10X30 | 67726752\n15 | 1.0 | 1X10356 | B | SEAL ■ | SECURITY CV1 | 67730721\n15 | 1.0 | 3X1609 | A | CARRIER | BRG-THR-BUTTON-FI | 67638155\n15 | 1.0 | 26A19X200 |  | BEARING-BALL | BALL SER 62 FII | 95326039\n15 | 1.0 | 1736B6-1 | 2 | BUTTON | THRUST BUTTON | >\n16 |  | 7X12014-DF | A | ROTOR | ASSY C12X 125# SI | 67502914\n17 | 1.0 | 5X12743 | D | PINION | GEAR CV1 50HZ 1ST | 67956045\n17 | 1.0 | 7X12671 | C | IMPELLER-M | COM-MACH CV1-S1 | 67767889\n17 | 1.0 | 3X11330 | C | NOSE | IMP CV1 1ST | 67887604\n17 | 1.0 | 3X12676 |  | BOLT-ROTOR | IMP-CV1-S1 5/15\" | 67753525\n17 | 1.0 | 3X1612 | A | COLLAR | THRUST-1CII-2STG | 68022409\n17 | 1.0 | 3X1101 | C | BOLT-ROTOR | ROTOR-THRUST-1CII | 5763B163\n18 | 1.0 | 7X14164 |  | BODY | DIFF CV1-S1 100* | 67584920\n18 | 3.0 | 1X10443A036 |  | PIN | TENSION 5MMD X 36 | 68054345\n13 | 6.0 | 1X22550 |  | CAPSCREW | MSX1.25X35 HEX SS | 67765511\n18 | 6.0 | 14ASS65 |  | WASHER | LOCK 5/16 SS | 68054212\n20 | 1.0 | 7X13218 | A | HEAD | MACH 52 CV1 | 95506499\n20 | 1.0 | 5X16415 |  | SEPARATOR | MOISTURE CV1 STG2 | 68076694\n20 | 1.0 | 1X10403 |  | GASKET 5\"DIN | NON-ASBESTOS | 68137587\n20 | 8.0 | 1X3310A060 | 0 | CAPSCREW | M16X2X60 LG HEX | 67744672\n21 | 1.0 | 7X12929 | D | COOLER-AIR | CV1 STG-2 STD RT | 67715011\n21 | 1.0 | 20A11EM380 |  | O-RING | 11.5X11.87X3/16 | 67948844\n21 | 4.0 | 20A11EM344 | 0 | O-RING | 3-7/8X4-1/4X3/16 | 95156402\n21 | 2.0 | 20A11EM382 |  | O-RING | 13X13-3/8X3/16 | 95026860\n21 | 12 0 | 1X1I314A070 |  | CAPSCREW | M20X2.5X70LG SHC | 95269320\n21 | 2.0 | 1X10544A0B0 ' | A | PIN | DOWEL 14MM 0 X 80 | 67809822\n21 | 1.0 | 305A17B2 |  | COCK | 1/4 GAUGE M AND F | 67765370\n22 | 1.0 | 5X12067 | D | BEARING-PLN | ASSY PLN CV1 2ND | 95226650\n22 | 1.0 | 3X11151 | A | -GASKET | PLN BRG 2ND CV1 | 67748616\nm | 1.0 | 20A11EH240 |  | O-RING | 3-3/4X4X1/8 | 67745703",
  "text_truncated": false,
  "links": [],
  "images": [

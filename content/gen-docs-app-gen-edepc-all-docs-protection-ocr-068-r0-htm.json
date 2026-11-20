@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Time Over Current \n Relay very Inverse\n 121AC53A6A type IAC"
-  },
-  {
-   "type": "paragraph",
-   "text": "General Electric"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -302,6 +296,57 @@
    "text": "Test Sheet"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Location",
+     ":",
+     ""
+    ],
+    [
+     "Relay Name",
+     ":",
+     "Over voltage relays"
+    ],
+    [
+     "Model",
+     ":",
+     "12IAV71A3A"
+    ],
+    [
+     "Manufacture",
+     ":",
+     "General Electric"
+    ],
+    [
+     "T.D.",
+     ":",
+     "2.5"
+    ],
+    [
+     "Earth Leakage",
+     ":",
+     "51 GN"
+    ],
+    [
+     "Tap Position (CD)",
+     ":",
+     "2"
+    ],
+    [
+     "Time Dial",
+     ":",
+     "8.6"
+    ],
+    [
+     "I (op)",
+     ":",
+     "2 amp"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": ":"
   },
@@ -336,7 +381,7 @@
    "text": "Location: Relay \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:Time Over Current \n Relay very Inverse\n 121AC53A6A type IAC\nGeneral Electric\nIntroduction\nThis document outlines the testing procedure P1, to be performed on an annually \nbases as indicated by Y1 in the title block.\nThe relay 51 GN with type IAC produce generator earth fault protection, and this \nachieved by mounted it on the neutral phase. This procedure details the steps \nrequired to completely check the proper operation and calibration of the relay \nusing secondary injection test set.\nThe document is formatted the way to minimize the possibility of error \ncausing personal injury or damage to equipment.\nThe first draft initiated by eng. Eslam Mahmoud Abas, tested by eng. Tamer \nMohamed Mokhtar, accepted by eng. Sawsan Mohamed El-Lethy: Port \nSaid general director, approved by eng Mohamed Hesain Ahmed Gomaa: head sector, and certified by eng. Zakaria El-Shahat: EDEPC MPIS \nCoordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff \n should carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nEquipment isolation (disconnect switches are opened and tagged).\nMeasure the current circuit of the relay by clip ammeter to be sure that is no \n current.\nMake sure CT secondary are shorted before isolating relay current \n circuits for test current injection.\nA work permit must be issued.\nThe qualified maintenance staff \n should carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nEquipment isolation (disconnect switches are opened and tagged).\nMeasure the current circuit of the relay by clip ammeter to be sure that is no \n current.\nMake sure CT secondary are shorted before isolating relay current \n circuits for test current injection.\nTools and Equipment\nSecondary injection test set with timer.\nTest leads, clamp ammeter, voltmeter, Test plug.\nComplete tool set.\nWork to be Carried Out\nPreparation\nReview the manual and drawings.\nPrepare the previous \n or commissioning results of the relay testing.\nCheck the wires of \n the relay by hand\nCheck the AC source \n is available to the tester\nCheck the existence \n of the DC sources in panels\nObtain the input \n terminals of the relay (current terminals) and also the output terminals \n (trip terminals) from the station from the station drawing\nRemove the relay \n plug and insert the test plug\nDisconnect the trip \n leads of the relay and connect one of them to the timer of the tester\nPrepare the test \n sheet for the tested relay\nTesting the \nover current element\nCurrent Setting Test\nConnect test between the \ncurrent terminals on the relay (5&6) and the current terminals on the test set\nSlowly increase the \ncurrent until the relay pick up and record it as a pick up value\nRecord this value on the \ntest sheet (adjust it if needed)\nIncrease the injected \ncurrent to a value 25% greater than the operate value\nRecord this value on the \ntest sheet (adjust it if needed)\nConnect test between the \ncurrent terminals on the relay (5&6) and the current terminals on the test set\nSlowly increase the \ncurrent until the relay pick up and record it as a pick up value\nRecord this value on the \ntest sheet (adjust it if needed)\nIncrease the injected \ncurrent to a value 25% greater than the operate value\nRecord this value on the \ntest sheet (adjust it if needed)\nTime setting test\nInject current into relay \nuntil the relay picks up. Keep this value and switch off the test set.\nConnect the relay time \ndelayed output contacts (1.2) to the timer contacts of the test set.\nSwitch on the test set and \ninject current. The timer will stop once the relay has picked up.\nRecord this value on the \ntest sheet (adjust it if needed).\nRepeat steps (1.2.3.4) on \na various pick up values and record these values on the test sheet.\nRemove the leads from the \ntime delayed contact and the test set.\nInject current into relay \nuntil the relay picks up. Keep this value and switch off the test set.\nConnect the relay time \ndelayed output contacts (1.2) to the timer contacts of the test set.\nSwitch on the test set and \ninject current. The timer will stop once the relay has picked up.\nRecord this value on the \ntest sheet (adjust it if needed).\nRepeat steps (1.2.3.4) on \na various pick up values and record these values on the test sheet.\nRemove the leads from the \ntime delayed contact and the test set.\nCircuit \nbreaker trip test\nSet up the circuit breaker \nfor a trip test.\nInject current into the \nrelay until the circuit breaker trips at the time delayed setting.\nClose the circuit breaker \nagain.\nRemove the wire from the \nrelay time delayed contact terminals No. 2 or 1.\nInject a value of current \ngreater than the instantaneous setting suddenly into relay until the circuit \nbreaker trips at the instantaneous setting.\nSet up the circuit breaker \nfor a trip test.\nInject current into the \nrelay until the circuit breaker trips at the time delayed setting.\nClose the circuit breaker \nagain.\nRemove the wire from the \nrelay time delayed contact terminals No. 2 or 1.\nInject a value of current \ngreater than the instantaneous setting suddenly into relay until the circuit \nbreaker trips at the instantaneous setting.\nReturn relay to\nservice\nDisconnect the test leads \nfrom terminal on the relay.\nRemove the test plug from \nthe relay.\nPut the plug of connection \nfor current relay.\nRe-install the wire which \nwas removed.\nRemove the shorts from the \nCT secondary circuits.\nReturn the relay and power \nequipment to service.\nIf any equipment \nassociated with the relay has been isolated, it should be returned to service by \nthe following restoration steps:\nDisconnect the test leads \nfrom terminal on the relay.\nRemove the test plug from \nthe relay.\nPut the plug of connection \nfor current relay.\nRe-install the wire which \nwas removed.\nRemove the shorts from the \nCT secondary circuits.\nReturn the relay and power \nequipment to service.\nIf any equipment \nassociated with the relay has been isolated, it should be returned to service by \nthe following restoration steps:\nBreaker trip coil.\nBreaker failure scheme associated this relay.\nDisturbance alarm and fault recorder associated \nwith this relay.\nBreaker trip coil.\nBreaker failure scheme associated this relay.\nDisturbance alarm and fault recorder associated \nwith this relay.\nTest Sheet\n:\n\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines the testing procedure P1, to be performed on an annually \nbases as indicated by Y1 in the title block.\nThe relay 51 GN with type IAC produce generator earth fault protection, and this \nachieved by mounted it on the neutral phase. This procedure details the steps \nrequired to completely check the proper operation and calibration of the relay \nusing secondary injection test set.\nThe document is formatted the way to minimize the possibility of error \ncausing personal injury or damage to equipment.\nThe first draft initiated by eng. Eslam Mahmoud Abas, tested by eng. Tamer \nMohamed Mokhtar, accepted by eng. Sawsan Mohamed El-Lethy: Port \nSaid general director, approved by eng Mohamed Hesain Ahmed Gomaa: head sector, and certified by eng. Zakaria El-Shahat: EDEPC MPIS \nCoordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff \n should carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nEquipment isolation (disconnect switches are opened and tagged).\nMeasure the current circuit of the relay by clip ammeter to be sure that is no \n current.\nMake sure CT secondary are shorted before isolating relay current \n circuits for test current injection.\nA work permit must be issued.\nThe qualified maintenance staff \n should carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nEquipment isolation (disconnect switches are opened and tagged).\nMeasure the current circuit of the relay by clip ammeter to be sure that is no \n current.\nMake sure CT secondary are shorted before isolating relay current \n circuits for test current injection.\nTools and Equipment\nSecondary injection test set with timer.\nTest leads, clamp ammeter, voltmeter, Test plug.\nComplete tool set.\nWork to be Carried Out\nPreparation\nReview the manual and drawings.\nPrepare the previous \n or commissioning results of the relay testing.\nCheck the wires of \n the relay by hand\nCheck the AC source \n is available to the tester\nCheck the existence \n of the DC sources in panels\nObtain the input \n terminals of the relay (current terminals) and also the output terminals \n (trip terminals) from the station from the station drawing\nRemove the relay \n plug and insert the test plug\nDisconnect the trip \n leads of the relay and connect one of them to the timer of the tester\nPrepare the test \n sheet for the tested relay\nTesting the \nover current element\nCurrent Setting Test\nConnect test between the \ncurrent terminals on the relay (5&6) and the current terminals on the test set\nSlowly increase the \ncurrent until the relay pick up and record it as a pick up value\nRecord this value on the \ntest sheet (adjust it if needed)\nIncrease the injected \ncurrent to a value 25% greater than the operate value\nRecord this value on the \ntest sheet (adjust it if needed)\nConnect test between the \ncurrent terminals on the relay (5&6) and the current terminals on the test set\nSlowly increase the \ncurrent until the relay pick up and record it as a pick up value\nRecord this value on the \ntest sheet (adjust it if needed)\nIncrease the injected \ncurrent to a value 25% greater than the operate value\nRecord this value on the \ntest sheet (adjust it if needed)\nTime setting test\nInject current into relay \nuntil the relay picks up. Keep this value and switch off the test set.\nConnect the relay time \ndelayed output contacts (1.2) to the timer contacts of the test set.\nSwitch on the test set and \ninject current. The timer will stop once the relay has picked up.\nRecord this value on the \ntest sheet (adjust it if needed).\nRepeat steps (1.2.3.4) on \na various pick up values and record these values on the test sheet.\nRemove the leads from the \ntime delayed contact and the test set.\nInject current into relay \nuntil the relay picks up. Keep this value and switch off the test set.\nConnect the relay time \ndelayed output contacts (1.2) to the timer contacts of the test set.\nSwitch on the test set and \ninject current. The timer will stop once the relay has picked up.\nRecord this value on the \ntest sheet (adjust it if needed).\nRepeat steps (1.2.3.4) on \na various pick up values and record these values on the test sheet.\nRemove the leads from the \ntime delayed contact and the test set.\nCircuit \nbreaker trip test\nSet up the circuit breaker \nfor a trip test.\nInject current into the \nrelay until the circuit breaker trips at the time delayed setting.\nClose the circuit breaker \nagain.\nRemove the wire from the \nrelay time delayed contact terminals No. 2 or 1.\nInject a value of current \ngreater than the instantaneous setting suddenly into relay until the circuit \nbreaker trips at the instantaneous setting.\nSet up the circuit breaker \nfor a trip test.\nInject current into the \nrelay until the circuit breaker trips at the time delayed setting.\nClose the circuit breaker \nagain.\nRemove the wire from the \nrelay time delayed contact terminals No. 2 or 1.\nInject a value of current \ngreater than the instantaneous setting suddenly into relay until the circuit \nbreaker trips at the instantaneous setting.\nReturn relay to\nservice\nDisconnect the test leads \nfrom terminal on the relay.\nRemove the test plug from \nthe relay.\nPut the plug of connection \nfor current relay.\nRe-install the wire which \nwas removed.\nRemove the shorts from the \nCT secondary circuits.\nReturn the relay and power \nequipment to service.\nIf any equipment \nassociated with the relay has been isolated, it should be returned to service by \nthe following restoration steps:\nDisconnect the test leads \nfrom terminal on the relay.\nRemove the test plug from \nthe relay.\nPut the plug of connection \nfor current relay.\nRe-install the wire which \nwas removed.\nRemove the shorts from the \nCT secondary circuits.\nReturn the relay and power \nequipment to service.\nIf any equipment \nassociated with the relay has been isolated, it should be returned to service by \nthe following restoration steps:\nBreaker trip coil.\nBreaker failure scheme associated this relay.\nDisturbance alarm and fault recorder associated \nwith this relay.\nBreaker trip coil.\nBreaker failure scheme associated this relay.\nDisturbance alarm and fault recorder associated \nwith this relay.\nTest Sheet\nLocation | : | \nRelay Name | : | Over voltage relays\nModel | : | 12IAV71A3A\nManufacture | : | General Electric\nT.D. | : | 2.5\nEarth Leakage | : | 51 GN\nTap Position (CD) | : | 2\nTime Dial | : | 8.6\nI (op) | : | 2 amp\n:\nCurrent |  |  |  |  |  |  | \nTime |  |  |  |  |  |  | \nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [
