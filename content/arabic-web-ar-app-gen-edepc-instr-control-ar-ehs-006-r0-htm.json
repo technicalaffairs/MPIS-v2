@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "محطات الطاقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nElectro \n Hydraulic System (Steam Turbine Control) Pressure Control at First Stage \n Module A11\n Skoda Plzen"
+   "type": "table",
+   "rows": [
+    [
+     "محطات الطاقة",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -135,80 +133,34 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Input mA"
-  },
-  {
-   "type": "paragraph",
-   "text": "X30:373,374"
-  },
-  {
-   "type": "paragraph",
-   "text": "4"
-  },
-  {
-   "type": "paragraph",
-   "text": "8"
-  },
-  {
-   "type": "paragraph",
-   "text": "12"
-  },
-  {
-   "type": "paragraph",
-   "text": "16"
-  },
-  {
-   "type": "paragraph",
-   "text": "20"
-  },
-  {
-   "type": "paragraph",
-   "text": "Corresponding pressure (Mpa)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0"
-  },
-  {
-   "type": "paragraph",
-   "text": "4"
-  },
-  {
-   "type": "paragraph",
-   "text": "8"
-  },
-  {
-   "type": "paragraph",
-   "text": "12"
-  },
-  {
-   "type": "paragraph",
-   "text": "16"
-  },
-  {
-   "type": "paragraph",
-   "text": "O/P \n Signal (DC.v)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0"
-  },
-  {
-   "type": "paragraph",
-   "text": "2.5"
-  },
-  {
-   "type": "paragraph",
-   "text": "5"
-  },
-  {
-   "type": "paragraph",
-   "text": "7.5"
-  },
-  {
-   "type": "paragraph",
-   "text": "10"
+   "type": "table",
+   "rows": [
+    [
+     "Input mA\nX30:373,374",
+     "4",
+     "8",
+     "12",
+     "16",
+     "20"
+    ],
+    [
+     "Corresponding pressure (Mpa)",
+     "0",
+     "4",
+     "8",
+     "12",
+     "16"
+    ],
+    [
+     "O/P \n Signal (DC.v)",
+     "0",
+     "2.5",
+     "5",
+     "7.5",
+     "10"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -246,7 +198,7 @@
    "text": "Calibration sheet for pressure at turbiine first stage control"
   }
  ],
- "text": "محطات الطاقة\nالإجراء الفني\nمعدات\nElectro \n Hydraulic System (Steam Turbine Control) Pressure Control at First Stage \n Module A11\n Skoda Plzen\nمقدمة\nThis module to control the pressure at first stage turbine 14.1 Mpa\nThis document outlines the \ntesting procedure P1, which performed every six months as indicated by M6 in the \ntitle block.\nThe first draft initiated by \neng. Ashraf Farid, tested by\n eng. Ashraf Farid at 4 May 2003, revised \nby EDEPCo. quality control eng. Abdl Menem Al Emam, accepted by general \ndirector: eng. Aly Abd El-Whab, and approved by eng. Awad Mohamed Fathy; Head \nSector of Talkha Power Station.\nاحتياطات السلامة\nA work permit must be issued and the qualified \n maintenance staff should be carry the\nفئة السلامة المناسبة,\nسياج أمان مع علامات تحذير \n مطلوب المحيطة بمنطقة العمل.\nارتداء خوذة السلامة الخاصة بك، وأحذية السلامة\n. إلخ\nUnit out of service\nA work permit must be issued and the qualified \n maintenance staff should be carry the\nفئة السلامة المناسبة,\nسياج أمان مع علامات تحذير \n مطلوب المحيطة بمنطقة العمل.\nارتداء خوذة السلامة الخاصة بك، وأحذية السلامة\n. إلخ\nUnit out of service\nالأدوات والمعدات\nDigital \n Multimeter type Fluke 85\nmA\n injection set type Siemens Calibrator O5 7NH2011\nmV injection set type: Siemens Calibrator O5 7NH2011\nScrew driver\nDigital \n Multimeter type Fluke 85\nmA\n injection set type Siemens Calibrator O5 7NH2011\nmV injection set type: Siemens Calibrator O5 7NH2011\nScrew driver\nالعمل المراد تنفيذه\nNotes: Inject I/P \nControl Signal 4-20 mA corresponding measuring range to be controlled 0-16 Mpa.\nConnect mA generator to point X30:373, 374 in \n rear control cabinet side no. jc03.\nخذ البطاقة رقم نوع A11 + 32 (D3005B1) بالداخل \n الوحدة A11 (الصمام اليدوي) خارج موضعها إلى مرحل تنشيط D K3 بالداخل \n رقم البطاقة : نوع A11 + 76 (D7301B1).\nInject 18.1 mA corresponding limit control \n signal 14.1 Mpa during this lamp H9 in front card A13+34 type (D7209B1) will be light.\nIf the lamp H9 not light change variable \n rsistance R3 in front card A11+56 type(H2502B1) until light comes.\nConnect mA generator to point X30:373, 374 in \n rear control cabinet side no. jc03.\nخذ البطاقة رقم نوع A11 + 32 (D3005B1) بالداخل \n الوحدة A11 (الصمام اليدوي) خارج موضعها إلى مرحل تنشيط D K3 بالداخل \n رقم البطاقة : نوع A11 + 76 (D7301B1).\nInject 18.1 mA corresponding limit control \n signal 14.1 Mpa during this lamp H9 in front card A13+34 type (D7209B1) will be light.\nIf the lamp H9 not light change variable \n rsistance R3 in front card A11+56 type(H2502B1) until light comes.\nInput mA\nX30:373,374\n4\n8\n12\n16\n20\nCorresponding pressure (Mpa)\n0\n4\n8\n12\n16\nO/P \n Signal (DC.v)\n0\n2.5\n5\n7.5\n10\nReturn Circuit in Service\nRemove mA Injection set\nReturn the card no. A11+ \n 32 type(D3005B1) to normal position.\nRemove mA Injection set\nReturn the card no. A11+ \n 32 type(D3005B1) to normal position.\nCalibration sheet for pressure at turbiine first stage control\nCalibration sheet for pressure at turbiine first stage control\nCalibration sheet for pressure at turbiine first stage control\nCalibration sheet for pressure at turbiine first stage control",
+ "text": "محطات الطاقة | الإجراء الفني\nمقدمة\nThis module to control the pressure at first stage turbine 14.1 Mpa\nThis document outlines the \ntesting procedure P1, which performed every six months as indicated by M6 in the \ntitle block.\nThe first draft initiated by \neng. Ashraf Farid, tested by\n eng. Ashraf Farid at 4 May 2003, revised \nby EDEPCo. quality control eng. Abdl Menem Al Emam, accepted by general \ndirector: eng. Aly Abd El-Whab, and approved by eng. Awad Mohamed Fathy; Head \nSector of Talkha Power Station.\nاحتياطات السلامة\nA work permit must be issued and the qualified \n maintenance staff should be carry the\nفئة السلامة المناسبة,\nسياج أمان مع علامات تحذير \n مطلوب المحيطة بمنطقة العمل.\nارتداء خوذة السلامة الخاصة بك، وأحذية السلامة\n. إلخ\nUnit out of service\nA work permit must be issued and the qualified \n maintenance staff should be carry the\nفئة السلامة المناسبة,\nسياج أمان مع علامات تحذير \n مطلوب المحيطة بمنطقة العمل.\nارتداء خوذة السلامة الخاصة بك، وأحذية السلامة\n. إلخ\nUnit out of service\nالأدوات والمعدات\nDigital \n Multimeter type Fluke 85\nmA\n injection set type Siemens Calibrator O5 7NH2011\nmV injection set type: Siemens Calibrator O5 7NH2011\nScrew driver\nDigital \n Multimeter type Fluke 85\nmA\n injection set type Siemens Calibrator O5 7NH2011\nmV injection set type: Siemens Calibrator O5 7NH2011\nScrew driver\nالعمل المراد تنفيذه\nNotes: Inject I/P \nControl Signal 4-20 mA corresponding measuring range to be controlled 0-16 Mpa.\nConnect mA generator to point X30:373, 374 in \n rear control cabinet side no. jc03.\nخذ البطاقة رقم نوع A11 + 32 (D3005B1) بالداخل \n الوحدة A11 (الصمام اليدوي) خارج موضعها إلى مرحل تنشيط D K3 بالداخل \n رقم البطاقة : نوع A11 + 76 (D7301B1).\nInject 18.1 mA corresponding limit control \n signal 14.1 Mpa during this lamp H9 in front card A13+34 type (D7209B1) will be light.\nIf the lamp H9 not light change variable \n rsistance R3 in front card A11+56 type(H2502B1) until light comes.\nConnect mA generator to point X30:373, 374 in \n rear control cabinet side no. jc03.\nخذ البطاقة رقم نوع A11 + 32 (D3005B1) بالداخل \n الوحدة A11 (الصمام اليدوي) خارج موضعها إلى مرحل تنشيط D K3 بالداخل \n رقم البطاقة : نوع A11 + 76 (D7301B1).\nInject 18.1 mA corresponding limit control \n signal 14.1 Mpa during this lamp H9 in front card A13+34 type (D7209B1) will be light.\nIf the lamp H9 not light change variable \n rsistance R3 in front card A11+56 type(H2502B1) until light comes.\nInput mA\nX30:373,374 | 4 | 8 | 12 | 16 | 20\nCorresponding pressure (Mpa) | 0 | 4 | 8 | 12 | 16\nO/P \n Signal (DC.v) | 0 | 2.5 | 5 | 7.5 | 10\nReturn Circuit in Service\nRemove mA Injection set\nReturn the card no. A11+ \n 32 type(D3005B1) to normal position.\nRemove mA Injection set\nReturn the card no. A11+ \n 32 type(D3005B1) to normal position.\nCalibration sheet for pressure at turbiine first stage control\nCalibration sheet for pressure at turbiine first stage control\nCalibration sheet for pressure at turbiine first stage control\nCalibration sheet for pressure at turbiine first stage control",
  "text_truncated": false,
  "links": [],
  "images": [

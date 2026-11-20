@@ -14,44 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "محطات الطاقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "Digital Input Cards\n Types: 7379A06 G02, \n7380A36 G01\n Westinghouse Company"
-  },
-  {
-   "type": "paragraph",
-   "text": "Digital Input Cards\n Types: 7379A06 G02, \n7380A36 G01\n Westinghouse Company"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-001-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: Al_Arish \n PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:\nTesting Procedures \n ( P1 Y1 )"
-  },
-  {
-   "type": "paragraph",
-   "text": "Approved Date: 17 Jan 2004"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: Jan 2009"
+   "type": "table",
+   "rows": [
+    [
+     "محطات الطاقة",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -231,7 +201,7 @@
    "text": "Location: \nEquipment code: \nتم الفحص بواسطة: \nالتاريخ: \nالتوقيع:"
   }
  ],
- "text": "محطات الطاقة\nالإجراء الفني\nDigital Input Cards\n Types: 7379A06 G02, \n7380A36 G01\n Westinghouse Company\nDigital Input Cards\n Types: 7379A06 G02, \n7380A36 G01\n Westinghouse Company\nرقم الوثيقة: DCS-001-r0\nصدرت إلى: Al_Arish \n PS\nحالة: \n موافقة\nإجراء:\nTesting Procedures \n ( P1 Y1 )\nApproved Date: 17 Jan 2004\nDate to be Reviewed: Jan 2009\nمقدمة\nQCI and \nQSE are Digital Input Cards, each of 16 Channel, from switches. QCI indicates temp., \npressure, diff. switches and QSE indicates the events time of switches working\nThis document \noutlines the testing procedures P1 for QCI and \nQSE carts, \nwhich must be carried out on an annually bases as indicated by Y1 in the above \ntitle block\nالمسودة الأولى بدأها المهندس. Ahmed \nEsmail Fouad & eng. Khalil Ahmed Awwad, QCI tested at 05 \nMay 2002, QSE tested at 01 May 2003 and revised by EDEPCo. quality \ncontrol eng. Abdel Menem Al Emam, accepted by general\ndirector: eng Mohamed Abdel Ghafar, and approved by \neng. Yosery \nMohamed Salama Head Sector of EL-Aresh Power Station.\nاحتياطات السلامة\nيجب إصدار تصريح العمل والمؤهلين \nيجب أن تحمل أشياء الصيانة \nفئة السلامة المناسبة.\nسياج أمان (حبل) مع علامات التحذير \nمطلوب المحيطة بمنطقة العمل.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nيجب إصدار تصريح العمل والمؤهلين \nيجب أن تحمل أشياء الصيانة \nفئة السلامة المناسبة.\nسياج أمان (حبل) مع علامات التحذير \nمطلوب المحيطة بمنطقة العمل.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nالأدوات والمعدات\nSafety helmet, shoes,\nHand held Radio; wireless communications means.\nScrew Driver, Nut Driver, and test leads.\nIsolating tape.\nSafety helmet, shoes,\nHand held Radio; wireless communications means.\nScrew Driver, Nut Driver, and test leads.\nIsolating tape.\nالعمل المراد تنفيذه\nSteps to \nPrepare for test\nReview \n technical reference material and manufactures manual.\nOpen DPU Cabinet.\nUsing \n cabinet Termination Identify the location for the desired Card.\nReview \n technical reference material and manufactures manual.\nOpen DPU Cabinet.\nUsing \n cabinet Termination Identify the location for the desired Card.\nStart Test\nUsing cabinet Termination list for each card Identify the \n input wires for the first channel\nUsing the screw driver remove this two wires and isolate by \n tape.\nMake Jumper to test the channel.\nUsing radio to see if the contact closed in CCR ''Central \n Control Room''\nIf the reading is Ok, repeat steps 1 to 5 for the another 15 \n channels.\nIf any reading for any channel in CCR not correct replace the \n Card.\nUsing cabinet Termination list for each card Identify the \n input wires for the first channel\nUsing the screw driver remove this two wires and isolate by \n tape.\nMake Jumper to test the channel.\nUsing radio to see if the contact closed in CCR ''Central \n Control Room''\nIf the reading is Ok, repeat steps 1 to 5 for the another 15 \n channels.\nIf any reading for any channel in CCR not correct replace the \n Card.\nبطاقة العودة إلى \nالخدمة\nRemove the \n jumper\nReconnect \n the input wires to terminal strip.\nClose the \n cabinet.\nPlace a copy \n of test result in the field maintenance file.\nRemove the \n jumper\nReconnect \n the input wires to terminal strip.\nClose the \n cabinet.\nPlace a copy \n of test result in the field maintenance file.\nLocation: \nEquipment code: \nتم الفحص بواسطة: \nالتاريخ: \nالتوقيع:",
+ "text": "محطات الطاقة | الإجراء الفني\nمقدمة\nQCI and \nQSE are Digital Input Cards, each of 16 Channel, from switches. QCI indicates temp., \npressure, diff. switches and QSE indicates the events time of switches working\nThis document \noutlines the testing procedures P1 for QCI and \nQSE carts, \nwhich must be carried out on an annually bases as indicated by Y1 in the above \ntitle block\nالمسودة الأولى بدأها المهندس. Ahmed \nEsmail Fouad & eng. Khalil Ahmed Awwad, QCI tested at 05 \nMay 2002, QSE tested at 01 May 2003 and revised by EDEPCo. quality \ncontrol eng. Abdel Menem Al Emam, accepted by general\ndirector: eng Mohamed Abdel Ghafar, and approved by \neng. Yosery \nMohamed Salama Head Sector of EL-Aresh Power Station.\nاحتياطات السلامة\nيجب إصدار تصريح العمل والمؤهلين \nيجب أن تحمل أشياء الصيانة \nفئة السلامة المناسبة.\nسياج أمان (حبل) مع علامات التحذير \nمطلوب المحيطة بمنطقة العمل.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nيجب إصدار تصريح العمل والمؤهلين \nيجب أن تحمل أشياء الصيانة \nفئة السلامة المناسبة.\nسياج أمان (حبل) مع علامات التحذير \nمطلوب المحيطة بمنطقة العمل.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nالأدوات والمعدات\nSafety helmet, shoes,\nHand held Radio; wireless communications means.\nScrew Driver, Nut Driver, and test leads.\nIsolating tape.\nSafety helmet, shoes,\nHand held Radio; wireless communications means.\nScrew Driver, Nut Driver, and test leads.\nIsolating tape.\nالعمل المراد تنفيذه\nSteps to \nPrepare for test\nReview \n technical reference material and manufactures manual.\nOpen DPU Cabinet.\nUsing \n cabinet Termination Identify the location for the desired Card.\nReview \n technical reference material and manufactures manual.\nOpen DPU Cabinet.\nUsing \n cabinet Termination Identify the location for the desired Card.\nStart Test\nUsing cabinet Termination list for each card Identify the \n input wires for the first channel\nUsing the screw driver remove this two wires and isolate by \n tape.\nMake Jumper to test the channel.\nUsing radio to see if the contact closed in CCR ''Central \n Control Room''\nIf the reading is Ok, repeat steps 1 to 5 for the another 15 \n channels.\nIf any reading for any channel in CCR not correct replace the \n Card.\nUsing cabinet Termination list for each card Identify the \n input wires for the first channel\nUsing the screw driver remove this two wires and isolate by \n tape.\nMake Jumper to test the channel.\nUsing radio to see if the contact closed in CCR ''Central \n Control Room''\nIf the reading is Ok, repeat steps 1 to 5 for the another 15 \n channels.\nIf any reading for any channel in CCR not correct replace the \n Card.\nبطاقة العودة إلى \nالخدمة\nRemove the \n jumper\nReconnect \n the input wires to terminal strip.\nClose the \n cabinet.\nPlace a copy \n of test result in the field maintenance file.\nRemove the \n jumper\nReconnect \n the input wires to terminal strip.\nClose the \n cabinet.\nPlace a copy \n of test result in the field maintenance file.\nLocation: \nEquipment code: \nتم الفحص بواسطة: \nالتاريخ: \nالتوقيع:",
  "text_truncated": false,
  "links": [],
  "images": [

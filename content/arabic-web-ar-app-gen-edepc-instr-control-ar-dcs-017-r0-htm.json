@@ -14,52 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "محطات الطاقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات:"
-  },
-  {
-   "type": "paragraph",
-   "text": "DCS\n Cabinets,\n Power Supply"
-  },
-  {
-   "type": "paragraph",
-   "text": "Model MU-PSRB04\n Honeywell-USA"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-017-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: Abu Sultan 4X150MW"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:"
-  },
-  {
-   "type": "paragraph",
-   "text": "اختبار إجراءات (P1:Y1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة تاريخ: 26 Feb 2005"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: Feb 2010"
+   "type": "table",
+   "rows": [
+    [
+     "محطات الطاقة",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -273,7 +235,7 @@
    "text": "Print copy of MRDS for the power supply control cct"
   }
  ],
- "text": "محطات الطاقة\nالإجراء الفني\nمعدات:\nDCS\n Cabinets,\n Power Supply\nModel MU-PSRB04\n Honeywell-USA\nرقم الوثيقة: DCS-017-r0\nصدرت إلى: Abu Sultan 4X150MW\nحالة: موافقة\nإجراء:\nاختبار إجراءات (P1:Y1)\nموافقة تاريخ: 26 Feb 2005\nتاريخ المراد مراجعتها: Feb 2010\nمقدمة\nThis document outlines\nthe inspection checklist for DCS cabinets.\nThere are four HPM cabinets per unit\nplus four common HPM cabinets In the station manufactured by Honeywell company.\nEach cabinet has two power supplies, one is working and the other is for\nstandby \"Backup\" The major parts of each cabinet are (Electronic Card\nProcessors and Power Supply including batteries). They are installed in the\nrelay room of each unit. The main target is to keep power good for all system\ncabinets.\nThe standard HPM power system provides an integrated\nsystem battery backup option. The power system can also be easily upgraded to\nredundancy in the field.\nThe two power supplies 1 & 2 are in service at\nthe same time. If a failure occurred to one of them the system will Remove it\nand take the power source from the other power supply.\nIt provide 24\nVdc power to the High-Performance Process Manager Module and I/O Subsystem. 24\nVdc transmitter power is provided through standard FTA connections. Both\nsystems support single or redundant power supplies in a highly compact space.\nThe standard system provides 50-hour memory backup and includes rechargeable\nbatteries with a charger. The AC-Only power system uses alkaline batteries and\nprovides somewhat lower memory backup time.\nEach power supply on both systems provide a relay\nwith a Form-A contact output that de-energizes (contact opens) in the event of\npower loss.\nThe first draft initiated by eng. Islam Sabry on\n05 May 2004, submitted by eng. Ibrahim Hefny on\n09 May 2004, reviewed by EDEPC\nQuality Control eng. Abdel Menem Al Emam, accepted by General Director eng. \nHamdy\nAzab and approved by eng. Mokhtar Abdel Latef Head Sector of Abu Sultan Power\nPlant.\nThis document is certified by eng. Samir \n Abd El Gilil EDEPC MPIS coordinator, and certified by accountant; \nMahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control قطاع الرأس.\nالسلامة\nالاحتياطات\nA work permit must be issued, the qualified maintenance staff must carry the suitable \nID safety category.\nSafety\nFence with caution marks surrounding the work area is required.\nارتداء معدات السلامة والصحية مثل خوذة السلامة، \nأحذية السلامة... الخ.\nThe unit should be out of service.\nA work permit must be issued, the qualified maintenance staff must carry the suitable \nID safety category.\nSafety\nFence with caution marks surrounding the work area is required.\nارتداء معدات السلامة والصحية مثل خوذة السلامة، \nأحذية السلامة... الخ.\nThe unit should be out of service.\nTools and\nEquipment\nSafety helmet, Shoes, and\nrags.\nScrew Driver Kit.\nSafety helmet, Shoes, and\nrags.\nScrew Driver Kit.\nالعمل المراد تنفيذه\nSteps to prepare for check\nReview Technical reference\nmaterial and manufactures manual.\nObtain copy of\n(HPM Cabinets) field maintenance File.\nSteps to prepare for check\nReview Technical reference\nmaterial and manufactures manual.\nObtain copy of\n(HPM Cabinets) field maintenance File.\nNotes to be in Mind:\nBattery Backup\nAn option to the standard\nHPM power system is a backup battery capable of providing regulated 24 Vdc\npower in the event of the loss of ac input power. The battery is a compact set\nof gel cells that is mounted within the cabinets power system enclosure.\nA fully charged battery\nprovides a minimum of 20 minutes of backup for a fully loaded High-Performance\nProcess Manager.\nDiagnostic and alarm\ncapabilities inform the operator of the existing state of readiness of the\nbattery and charger.\nBecause the backup batteries\nprovide input to the power supplies rather than powering the load directly,\nvoltage regulation is equally as good when operating from either batteries or\nline power. If line power fails, load power is not interrupted during switchover.\nA single LED on each power module of the AC-Only\nsystem annunciates power loss, while the standard system has separate LED\nindicators for:\n\"Charging\" led means Improper charging of\nbackup battery\n\"Ac in\" led means loss of ac power\n\"Fan/Temp\" led means high temperature or\ncooling- fan failure\n\"Battery\" led means failure or disconnection of\nbattery\n\"Dc out\" led means Loss of dc power\nThe normal status of all the LED's is to be lighting\na green color.\nThe up normal condition occurred when any one of the LED's is blinking \"Flashing\".\nإذا كان هناك أي ضوء يومض علينا تغييره\nالجزء المقابل مع جزء جديد.\nTesting Procedure (HPM Cabinets)\nOpen the cabinet and notice each led on the power\nsupply.\nWrite down the status of each led in the inspection sheet.\nIf the Battery Led on the status LED's is blinking so\nthe battery has to be replaced with a new one.\nIf the Fan/Temp Led on the status LED's is blinking\nso, a problem of the cooling system may be occurred, and we have to check out\nthe cooling fan. if it is damaged it can be replaced with a new one.\nRepeat all the previous steps for all cabinets and\nfor all units.\nOpen the cabinet and notice each led on the power\nsupply.\nWrite down the status of each led in the inspection sheet.\nIf the Battery Led on the status LED's is blinking so\nthe battery has to be replaced with a new one.\nIf the Fan/Temp Led on the status LED's is blinking\nso, a problem of the cooling system may be occurred, and we have to check out\nthe cooling fan. if it is damaged it can be replaced with a new one.\nRepeat all the previous steps for all cabinets and\nfor all units.\nPrint copy of MRDS for the power supply control cct",
+ "text": "محطات الطاقة | الإجراء الفني\nمقدمة\nThis document outlines\nthe inspection checklist for DCS cabinets.\nThere are four HPM cabinets per unit\nplus four common HPM cabinets In the station manufactured by Honeywell company.\nEach cabinet has two power supplies, one is working and the other is for\nstandby \"Backup\" The major parts of each cabinet are (Electronic Card\nProcessors and Power Supply including batteries). They are installed in the\nrelay room of each unit. The main target is to keep power good for all system\ncabinets.\nThe standard HPM power system provides an integrated\nsystem battery backup option. The power system can also be easily upgraded to\nredundancy in the field.\nThe two power supplies 1 & 2 are in service at\nthe same time. If a failure occurred to one of them the system will Remove it\nand take the power source from the other power supply.\nIt provide 24\nVdc power to the High-Performance Process Manager Module and I/O Subsystem. 24\nVdc transmitter power is provided through standard FTA connections. Both\nsystems support single or redundant power supplies in a highly compact space.\nThe standard system provides 50-hour memory backup and includes rechargeable\nbatteries with a charger. The AC-Only power system uses alkaline batteries and\nprovides somewhat lower memory backup time.\nEach power supply on both systems provide a relay\nwith a Form-A contact output that de-energizes (contact opens) in the event of\npower loss.\nThe first draft initiated by eng. Islam Sabry on\n05 May 2004, submitted by eng. Ibrahim Hefny on\n09 May 2004, reviewed by EDEPC\nQuality Control eng. Abdel Menem Al Emam, accepted by General Director eng. \nHamdy\nAzab and approved by eng. Mokhtar Abdel Latef Head Sector of Abu Sultan Power\nPlant.\nThis document is certified by eng. Samir \n Abd El Gilil EDEPC MPIS coordinator, and certified by accountant; \nMahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control قطاع الرأس.\nالسلامة\nالاحتياطات\nA work permit must be issued, the qualified maintenance staff must carry the suitable \nID safety category.\nSafety\nFence with caution marks surrounding the work area is required.\nارتداء معدات السلامة والصحية مثل خوذة السلامة، \nأحذية السلامة... الخ.\nThe unit should be out of service.\nA work permit must be issued, the qualified maintenance staff must carry the suitable \nID safety category.\nSafety\nFence with caution marks surrounding the work area is required.\nارتداء معدات السلامة والصحية مثل خوذة السلامة، \nأحذية السلامة... الخ.\nThe unit should be out of service.\nTools and\nEquipment\nSafety helmet, Shoes, and\nrags.\nScrew Driver Kit.\nSafety helmet, Shoes, and\nrags.\nScrew Driver Kit.\nالعمل المراد تنفيذه\nSteps to prepare for check\nReview Technical reference\nmaterial and manufactures manual.\nObtain copy of\n(HPM Cabinets) field maintenance File.\nSteps to prepare for check\nReview Technical reference\nmaterial and manufactures manual.\nObtain copy of\n(HPM Cabinets) field maintenance File.\nNotes to be in Mind:\nBattery Backup\nAn option to the standard\nHPM power system is a backup battery capable of providing regulated 24 Vdc\npower in the event of the loss of ac input power. The battery is a compact set\nof gel cells that is mounted within the cabinets power system enclosure.\nA fully charged battery\nprovides a minimum of 20 minutes of backup for a fully loaded High-Performance\nProcess Manager.\nDiagnostic and alarm\ncapabilities inform the operator of the existing state of readiness of the\nbattery and charger.\nBecause the backup batteries\nprovide input to the power supplies rather than powering the load directly,\nvoltage regulation is equally as good when operating from either batteries or\nline power. If line power fails, load power is not interrupted during switchover.\nA single LED on each power module of the AC-Only\nsystem annunciates power loss, while the standard system has separate LED\nindicators for:\n\"Charging\" led means Improper charging of\nbackup battery\n\"Ac in\" led means loss of ac power\n\"Fan/Temp\" led means high temperature or\ncooling- fan failure\n\"Battery\" led means failure or disconnection of\nbattery\n\"Dc out\" led means Loss of dc power\nThe normal status of all the LED's is to be lighting\na green color.\nThe up normal condition occurred when any one of the LED's is blinking \"Flashing\".\nإذا كان هناك أي ضوء يومض علينا تغييره\nالجزء المقابل مع جزء جديد.\nTesting Procedure (HPM Cabinets)\nOpen the cabinet and notice each led on the power\nsupply.\nWrite down the status of each led in the inspection sheet.\nIf the Battery Led on the status LED's is blinking so\nthe battery has to be replaced with a new one.\nIf the Fan/Temp Led on the status LED's is blinking\nso, a problem of the cooling system may be occurred, and we have to check out\nthe cooling fan. if it is damaged it can be replaced with a new one.\nRepeat all the previous steps for all cabinets and\nfor all units.\nOpen the cabinet and notice each led on the power\nsupply.\nWrite down the status of each led in the inspection sheet.\nIf the Battery Led on the status LED's is blinking so\nthe battery has to be replaced with a new one.\nIf the Fan/Temp Led on the status LED's is blinking\nso, a problem of the cooling system may be occurred, and we have to check out\nthe cooling fan. if it is damaged it can be replaced with a new one.\nRepeat all the previous steps for all cabinets and\nfor all units.\nPrint copy of MRDS for the power supply control cct",
  "text_truncated": false,
  "links": [
   {

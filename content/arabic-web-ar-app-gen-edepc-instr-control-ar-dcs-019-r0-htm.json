@@ -14,36 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "محطات الطاقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nDistributed Control System"
-  },
-  {
-   "type": "paragraph",
-   "text": "Engineer \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Westinghouse Company"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-019-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: \n دمياط CCPS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \nموافقة"
+   "type": "table",
+   "rows": [
+    [
+     "محطات الطاقة",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -261,7 +239,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "محطات الطاقة\nالإجراء الفني\nمعدات\nDistributed Control System\nEngineer \n Station\nWestinghouse Company\nرقم الوثيقة: DCS-019-r0\nصدرت إلى: \n دمياط CCPS\nحالة: \nموافقة\nمقدمة\nThis document outlines the equipment inspection \nI1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe function of this engineer station is to review and update all the software \nfiles of DCS system\nThe engineer station consists of:\nMSP card, processor for CRT, Part # ( 772B388G57) .\nMSP card, processor for printer, Part # (772B388G29)\nMSP card, processor for keyboard , Part # (772B388G56)\nMDM card, memory card, Part # (7381A81G01)\nبطاقة MHC، بطاقة التحكم في الطرق السريعة للبيانات، الجزء رقم (7381A93G01)\nDisk controller card, Part # (405A689G03)\nMMI power supply, input :220VAC,output:+12VDC,+ 5VDC, part # \n(4D33613G02)\nDisk drive assembly W/floppy drive (80MB), part # (3D04153G08)\n2 مروحة تبريد، 230 فولت تيار متردد، 14 وات، الجزء رقم (2450D25G03)\nThe first draft initiated by eng. Mohamed Abu Elkheir at 02 \nمارس 2005، تم اختباره بواسطة المهندس. محمد يونس في \n08 March 2005, revised by quality control eng. Abdel Menem ALEmam at \nEDEPC accepted by general director, eng. Adel ELkelany, and approved by eng. \nMohamed Hamouda EL Sarage; Damietta CCPS \nHead Sector.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nاحتياطات السلامة\nA work permit must be \nissued and the qualified maintenance staff should carry the suitable safety \ncategory (using ground strap)\nThe online maintenance work \non the engineer station cabinet must not affect the operation status of the plant.\nMake a backup of software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nA work permit must be \nissued and the qualified maintenance staff should carry the suitable safety \ncategory (using ground strap)\nThe online maintenance work \non the engineer station cabinet must not affect the operation status of the plant.\nMake a backup of software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nالأدوات والمعدات\nمجموعة أدوات مناسبة، مفك براغي، مفك صامولة، ومنفاخ هواء \n (مكنسة كهربائية)\nSpray video cleaner.\nGround strap, Card extractor.\nDigital voltmeter (DVM): Fluke 87.\nمجموعة أدوات مناسبة، مفك براغي، مفك صامولة، ومنفاخ هواء \n (مكنسة كهربائية)\nSpray video cleaner.\nGround strap, Card extractor.\nDigital voltmeter (DVM): Fluke 87.\nالعمل المراد تنفيذه\nCheck the back up software for the cabinet.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nCheck the operation of network card function \n (data highway controller card (MHC) by using (system highway errors \n diagram).\nClean all cabinet cards from dust by blower.\nCheck the operation of cabinet cooling fan \n for (noise temp.).\n- إذا كان هناك أي LED لثلاثة مصابيح LED لجهد الإخراج\n OFF that is means the power supply is failure \n and must be replaced\n- إذا كان هناك أي LED لثلاثة مصابيح LED لجهد الإخراج\n OFF that is means the power supply is failure \n and must be replaced\nCheck the operation of hard disk by using key \n switch on config mode.\nCheck the performance of operator keyboard.\nCheck the performance of engineer keyboard.\nClean the printer.\nCheck the operation of printer.\nCheck the configuration program for printer.\nCheck the two cooling fans operation, and \n check the sound & temperature.\nCheck the back up software for the cabinet.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nCheck the operation of network card function \n (data highway controller card (MHC) by using (system highway errors \n diagram).\nClean all cabinet cards from dust by blower.\nCheck the operation of cabinet cooling fan \n for (noise temp.).\n- إذا كان هناك أي LED لثلاثة مصابيح LED لجهد الإخراج\n OFF that is means the power supply is failure \n and must be replaced\nCheck the operation of hard disk by using key \n switch on config mode.\nCheck the performance of operator keyboard.\nCheck the performance of engineer keyboard.\nClean the printer.\nCheck the operation of printer.\nCheck the configuration program for printer.\nCheck the two cooling fans operation, and \n check the sound & temperature.\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "محطات الطاقة | الإجراء الفني\nمقدمة\nThis document outlines the equipment inspection \nI1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe function of this engineer station is to review and update all the software \nfiles of DCS system\nThe engineer station consists of:\nMSP card, processor for CRT, Part # ( 772B388G57) .\nMSP card, processor for printer, Part # (772B388G29)\nMSP card, processor for keyboard , Part # (772B388G56)\nMDM card, memory card, Part # (7381A81G01)\nبطاقة MHC، بطاقة التحكم في الطرق السريعة للبيانات، الجزء رقم (7381A93G01)\nDisk controller card, Part # (405A689G03)\nMMI power supply, input :220VAC,output:+12VDC,+ 5VDC, part # \n(4D33613G02)\nDisk drive assembly W/floppy drive (80MB), part # (3D04153G08)\n2 مروحة تبريد، 230 فولت تيار متردد، 14 وات، الجزء رقم (2450D25G03)\nThe first draft initiated by eng. Mohamed Abu Elkheir at 02 \nمارس 2005، تم اختباره بواسطة المهندس. محمد يونس في \n08 March 2005, revised by quality control eng. Abdel Menem ALEmam at \nEDEPC accepted by general director, eng. Adel ELkelany, and approved by eng. \nMohamed Hamouda EL Sarage; Damietta CCPS \nHead Sector.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nاحتياطات السلامة\nA work permit must be \nissued and the qualified maintenance staff should carry the suitable safety \ncategory (using ground strap)\nThe online maintenance work \non the engineer station cabinet must not affect the operation status of the plant.\nMake a backup of software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nA work permit must be \nissued and the qualified maintenance staff should carry the suitable safety \ncategory (using ground strap)\nThe online maintenance work \non the engineer station cabinet must not affect the operation status of the plant.\nMake a backup of software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nالأدوات والمعدات\nمجموعة أدوات مناسبة، مفك براغي، مفك صامولة، ومنفاخ هواء \n (مكنسة كهربائية)\nSpray video cleaner.\nGround strap, Card extractor.\nDigital voltmeter (DVM): Fluke 87.\nمجموعة أدوات مناسبة، مفك براغي، مفك صامولة، ومنفاخ هواء \n (مكنسة كهربائية)\nSpray video cleaner.\nGround strap, Card extractor.\nDigital voltmeter (DVM): Fluke 87.\nالعمل المراد تنفيذه\nCheck the back up software for the cabinet.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nCheck the operation of network card function \n (data highway controller card (MHC) by using (system highway errors \n diagram).\nClean all cabinet cards from dust by blower.\nCheck the operation of cabinet cooling fan \n for (noise temp.).\n- إذا كان هناك أي LED لثلاثة مصابيح LED لجهد الإخراج\n OFF that is means the power supply is failure \n and must be replaced\n- إذا كان هناك أي LED لثلاثة مصابيح LED لجهد الإخراج\n OFF that is means the power supply is failure \n and must be replaced\nCheck the operation of hard disk by using key \n switch on config mode.\nCheck the performance of operator keyboard.\nCheck the performance of engineer keyboard.\nClean the printer.\nCheck the operation of printer.\nCheck the configuration program for printer.\nCheck the two cooling fans operation, and \n check the sound & temperature.\nCheck the back up software for the cabinet.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nCheck the operation of network card function \n (data highway controller card (MHC) by using (system highway errors \n diagram).\nClean all cabinet cards from dust by blower.\nCheck the operation of cabinet cooling fan \n for (noise temp.).\n- إذا كان هناك أي LED لثلاثة مصابيح LED لجهد الإخراج\n OFF that is means the power supply is failure \n and must be replaced\nCheck the operation of hard disk by using key \n switch on config mode.\nCheck the performance of operator keyboard.\nCheck the performance of engineer keyboard.\nClean the printer.\nCheck the operation of printer.\nCheck the configuration program for printer.\nCheck the two cooling fans operation, and \n check the sound & temperature.\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [

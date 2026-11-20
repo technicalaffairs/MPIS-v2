@@ -14,40 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "محطات الطاقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات:\nDiamo System Cards"
-  },
-  {
-   "type": "paragraph",
-   "text": "K110, 810, 540, 530"
-  },
-  {
-   "type": "paragraph",
-   "text": "SKODA PLZEN"
-  },
-  {
-   "type": "paragraph",
-   "text": "وثيقة\n لا: \n DSC-002-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: \n Talkha 2x210MW"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:\n Testing Procedures (P1-M6)"
+   "type": "table",
+   "rows": [
+    [
+     "محطات الطاقة",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -188,40 +162,25 @@
    "text": "Fixed Trouble Shooting:"
   },
   {
-   "type": "paragraph",
-   "text": "Signal"
-  },
-  {
-   "type": "paragraph",
-   "text": "Fault"
-  },
-  {
-   "type": "paragraph",
-   "text": "فعل"
-  },
-  {
-   "type": "paragraph",
-   "text": "0031A13"
-  },
-  {
-   "type": "paragraph",
-   "text": "Fuse"
-  },
-  {
-   "type": "paragraph",
-   "text": "استبدل المصهر"
-  },
-  {
-   "type": "paragraph",
-   "text": "0062A90"
-  },
-  {
-   "type": "paragraph",
-   "text": "Power supply(220v) cutting"
-  },
-  {
-   "type": "paragraph",
-   "text": "Check power supply"
+   "type": "table",
+   "rows": [
+    [
+     "Signal",
+     "Fault",
+     "فعل"
+    ],
+    [
+     "0031A13",
+     "Fuse",
+     "استبدل المصهر"
+    ],
+    [
+     "0062A90",
+     "Power supply(220v) cutting",
+     "Check power supply"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -260,7 +219,7 @@
    "text": "إعادة ضبط"
   }
  ],
- "text": "محطات الطاقة\nالإجراء الفني\nمعدات:\nDiamo System Cards\nK110, 810, 540, 530\nSKODA PLZEN\nوثيقة\n لا: \n DSC-002-r0\nصدرت إلى: \n Talkha 2x210MW\nحالة: \n موافقة\nإجراء:\n Testing Procedures (P1-M6)\nمقدمة\nتوضح هذه الوثيقة إجراء الاختبار P1، \nوالتي يتم إجراؤها كل ستة أشهر كما هو موضح بواسطة M6 في مقطع العنوان\nبطاقات ديامو (K) المسؤولة عن \nملحقات الحماية للوحدة (مروحة الهواء، مروحة إعادة تدوير الغاز، مضخة المكثفات، \nمضخة مياه التغذية .. الخ). كل تلك البطاقات لديها وحدة برمجة خاصة، \nالتي تم وضعها في الموضع (أ)، بينما تم وضع البطاقة التي تم اختبارها في الموضع \n(ب) انظر الشكل (1).\nThe first draft initiated by eng. Ramadan Helmy, tested at 04 \nMay 2003, revised by quality control eng. Abdl Menem Al Emam at EDEPCo., \naccepted by: eng. Aly Abd Elwhab, and approved by eng. Awad Mohamed Fathy - Head \nSector of talkha power station\nاحتياطات السلامة\nيجب إصدار تصريح العمل و \n يجب أن يحمل موظفو الصيانة المؤهلون فئة السلامة المناسبة.\nسياج أمان مع علامات تحذير \nمطلوب المحيطة بمنطقة العمل.\nارتدِ خوذة الأمان والأحذية وما إلى ذلك.\nيجب إصدار تصريح العمل و \n يجب أن يحمل موظفو الصيانة المؤهلون فئة السلامة المناسبة.\nسياج أمان مع علامات تحذير \nمطلوب المحيطة بمنطقة العمل.\nارتدِ خوذة الأمان والأحذية وما إلى ذلك.\nيجب أن تكون التوربينات خارج الخدمة.\nالأدوات والمعدات\nPortable automatic card tester type (ATUPI ), made by Zat \n company.\nThe portable automatic DIAMO unit tester ATU P1 used for testing and verifying the logic units DIAMO.\nIt comprises an assembly of input and output display unit converters and a \n Control board fitted with p Z 80 the memory part of the control board is \n Located on the front panel of the instrument and it is designed as a plug in \n Interchangeable module.\nThe testing program for the respective unit type is stored inside this module.\nThe tested unit is plugged into four URS connectors fixed on the front panel \n of the tester.\nThe control is placed on the front \n panel and it consists of a press-button set and Of a seven-segment display.\nالعمل المراد تنفيذه\nPut the reference programming cards (k110 OR k810 OR k530 OR k540) in \n position (A) tester.\nPut the tested card in position (B) tester which we need to test.\nقم بتوصيل مصدر الطاقة بجهاز الاختبار وحدد الوضع التلقائي.\nSwitch (ON) tester\nThe display list indicate the type of program tested card.\nPress (start) button to start the test\nThe tester now is ready to run program of testing all function of the card and \n holding at any one of trouble occur and appear in digital monitor.\nPress (START) tester with press (ON) push bottom of tested card.\nPress push bottom (OFF) in tested card with press (START) of tester.\nPress both switch (ON) + (OFF) on tested card at the same time with press \n (START) in tester, wait up to the mark (END) appear in display\nPress (START) tester with press (ON) push bottom of tested card.\nPress push bottom (OFF) in tested card with press (START) of tester.\nPress both switch (ON) + (OFF) on tested card at the same time with press \n (START) in tester, wait up to the mark (END) appear in display\nPress both switch (ON) + (OFF) on tested card at the same time with press \n (START) in tester, wait up to the mark (END) appear in display\nIf any holding coming during test steps, this means trouble inside element of \n tested card as follows\nFixed Trouble Shooting:\nSignal\nFault\nفعل\n0031A13\nFuse\nاستبدل المصهر\n0062A90\nPower supply(220v) cutting\nCheck power supply\nLocation: \nSystem cabinet tag no. :\nتم الفحص \nبواسطة: \nالتوقيع: التاريخ:\nFigure (1) Tester View\nSymbol according to \nassociated drawing\nK1,K2,Kn end terminal socket tested card position(B).\n+I\n-I\nيبدأ\nإعادة ضبط",
+ "text": "محطات الطاقة | الإجراء الفني\nمقدمة\nتوضح هذه الوثيقة إجراء الاختبار P1، \nوالتي يتم إجراؤها كل ستة أشهر كما هو موضح بواسطة M6 في مقطع العنوان\nبطاقات ديامو (K) المسؤولة عن \nملحقات الحماية للوحدة (مروحة الهواء، مروحة إعادة تدوير الغاز، مضخة المكثفات، \nمضخة مياه التغذية .. الخ). كل تلك البطاقات لديها وحدة برمجة خاصة، \nالتي تم وضعها في الموضع (أ)، بينما تم وضع البطاقة التي تم اختبارها في الموضع \n(ب) انظر الشكل (1).\nThe first draft initiated by eng. Ramadan Helmy, tested at 04 \nMay 2003, revised by quality control eng. Abdl Menem Al Emam at EDEPCo., \naccepted by: eng. Aly Abd Elwhab, and approved by eng. Awad Mohamed Fathy - Head \nSector of talkha power station\nاحتياطات السلامة\nيجب إصدار تصريح العمل و \n يجب أن يحمل موظفو الصيانة المؤهلون فئة السلامة المناسبة.\nسياج أمان مع علامات تحذير \nمطلوب المحيطة بمنطقة العمل.\nارتدِ خوذة الأمان والأحذية وما إلى ذلك.\nيجب إصدار تصريح العمل و \n يجب أن يحمل موظفو الصيانة المؤهلون فئة السلامة المناسبة.\nسياج أمان مع علامات تحذير \nمطلوب المحيطة بمنطقة العمل.\nارتدِ خوذة الأمان والأحذية وما إلى ذلك.\nيجب أن تكون التوربينات خارج الخدمة.\nالأدوات والمعدات\nPortable automatic card tester type (ATUPI ), made by Zat \n company.\nThe portable automatic DIAMO unit tester ATU P1 used for testing and verifying the logic units DIAMO.\nIt comprises an assembly of input and output display unit converters and a \n Control board fitted with p Z 80 the memory part of the control board is \n Located on the front panel of the instrument and it is designed as a plug in \n Interchangeable module.\nThe testing program for the respective unit type is stored inside this module.\nThe tested unit is plugged into four URS connectors fixed on the front panel \n of the tester.\nThe control is placed on the front \n panel and it consists of a press-button set and Of a seven-segment display.\nالعمل المراد تنفيذه\nPut the reference programming cards (k110 OR k810 OR k530 OR k540) in \n position (A) tester.\nPut the tested card in position (B) tester which we need to test.\nقم بتوصيل مصدر الطاقة بجهاز الاختبار وحدد الوضع التلقائي.\nSwitch (ON) tester\nThe display list indicate the type of program tested card.\nPress (start) button to start the test\nThe tester now is ready to run program of testing all function of the card and \n holding at any one of trouble occur and appear in digital monitor.\nPress (START) tester with press (ON) push bottom of tested card.\nPress push bottom (OFF) in tested card with press (START) of tester.\nPress both switch (ON) + (OFF) on tested card at the same time with press \n (START) in tester, wait up to the mark (END) appear in display\nPress (START) tester with press (ON) push bottom of tested card.\nPress push bottom (OFF) in tested card with press (START) of tester.\nPress both switch (ON) + (OFF) on tested card at the same time with press \n (START) in tester, wait up to the mark (END) appear in display\nPress both switch (ON) + (OFF) on tested card at the same time with press \n (START) in tester, wait up to the mark (END) appear in display\nIf any holding coming during test steps, this means trouble inside element of \n tested card as follows\nFixed Trouble Shooting:\nSignal | Fault | فعل\n0031A13 | Fuse | استبدل المصهر\n0062A90 | Power supply(220v) cutting | Check power supply\nLocation: \nSystem cabinet tag no. :\nتم الفحص \nبواسطة: \nالتوقيع: التاريخ:\nFigure (1) Tester View\nSymbol according to \nassociated drawing\nK1,K2,Kn end terminal socket tested card position(B).\n+I\n-I\nيبدأ\nإعادة ضبط",
  "text_truncated": false,
  "links": [],
  "images": [

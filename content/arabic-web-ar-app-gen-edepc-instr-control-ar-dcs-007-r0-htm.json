@@ -14,48 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n المحطة"
-  },
-  {
-   "type": "paragraph",
-   "text": "التقنية \n الإجراء"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات:Distributing \n Cabinets System"
-  },
-  {
-   "type": "paragraph",
-   "text": "QBO (16) Channel \n Digital Output (48vdc)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Digital Output Card,\n 2840A79G01\n Westinghouse"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-007-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: \n ش\nArish PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \nموافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:Testing \n Card Procedures (P1 - Y1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة Date: 19 Sep 2004"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: Sep 2009"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n المحطة",
+     "التقنية \n الإجراء"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -245,7 +211,7 @@
    "text": "Location: Card \nDesignation: Tested by: \nTest Date: \nSignature:"
   }
  ],
- "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:Distributing \n Cabinets System\nQBO (16) Channel \n Digital Output (48vdc)\nDigital Output Card,\n 2840A79G01\n Westinghouse\nرقم الوثيقة: DCS-007-r0\nصدرت إلى: \n ش\nArish PS\nحالة: \nموافقة\nإجراء:Testing \n Card Procedures (P1 - Y1)\nموافقة Date: 19 Sep 2004\nتاريخ المراد مراجعتها: Sep 2009\nمقدمة\nThis document \noutlines the routine testing procedures P1, which must performed on an \nannually bases as \nindicated by Y1 in the title block.\nDCS QBO \nتحتوي بطاقة الإخراج الرقمية على 16 قناة إخراج للإشارة إلى مصباح التنبيه على المشغل \nالقرص على MIMIC\nThe first draft initiated by eng: \nAhmed Esmail Fouad, and eng. Khalil Awwad, \ntested at 16 Dec. 2003, revised by EDEPC. quality control \neng: Abd El Monaem Al \nEmam, accepted by general director eng: Mohamed \nAbdel Ghafar, \napproved by eng: Yosry Mohamed Salama Head \nSector of El-Arish Power Station, and certified by eng. Aly Mostafa Allethy: EDEPCo. Head Sector of \ninspection & quality control.\nاحتياطات السلامة\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \n(rope) with caution marks surrounding the work area is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nWear Anti static hand probe to avoid electrical \n choke\nUnit must be shutdown.\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \n(rope) with caution marks surrounding the work area is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nWear Anti static hand probe to avoid electrical \n choke\nUnit must be shutdown.\nالأدوات والمعدات\nDigital multi-meter\nHand held radio wave for communication\nScrew driver, Nut driver, and isolating tape\nمكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار\nDigital multi-meter\nHand held radio wave for communication\nScrew driver, Nut driver, and isolating tape\nمكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار\nالعمل المراد تنفيذه\nSteps to Prepare for Test\nمراجعة المواد المرجعية الفنية ودليل التصنيع.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired QBO card.\nمراجعة المواد المرجعية الفنية ودليل التصنيع.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired QBO card.\nStart Test\nUsing cabinet termination list for each card identify the three I/P wires for \n the 1شارع channel.\nUsing the screw driver to remove these two wires and isolate with tape.\nقم بتوصيل أسلاك الفولتميتر إلى 1شارع channel.\nUsing radio from CCR make forced 1=on for this point according to the \n termination list.\nشاهد قراءة الفولتميتر لرؤية جهة الاتصال مغلقة أو مفتوحة.\nIf the reading is OK, repeat steps 1 to 5 for the another 15 channels.\nIf any reading for any channel in CCR not correct replace the card.\nUsing cabinet termination list for each card identify the three I/P wires for \n the 1شارع channel.\nUsing the screw driver to remove these two wires and isolate with tape.\nقم بتوصيل أسلاك الفولتميتر إلى 1شارع channel.\nUsing radio from CCR make forced 1=on for this point according to the \n termination list.\nشاهد قراءة الفولتميتر لرؤية جهة الاتصال مغلقة أو مفتوحة.\nIf the reading is OK, repeat steps 1 to 5 for the another 15 channels.\nIf any reading for any channel in CCR not correct replace the card.\nReturn Card to Service\nRemove the voltmeter leads.\nReconnect the O/P wires to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nRemove the voltmeter leads.\nReconnect the O/P wires to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nLocation: Card \nDesignation: Tested by: \nTest Date: \nSignature:",
+ "text": "القوة \n المحطة | التقنية \n الإجراء\nمقدمة\nThis document \noutlines the routine testing procedures P1, which must performed on an \nannually bases as \nindicated by Y1 in the title block.\nDCS QBO \nتحتوي بطاقة الإخراج الرقمية على 16 قناة إخراج للإشارة إلى مصباح التنبيه على المشغل \nالقرص على MIMIC\nThe first draft initiated by eng: \nAhmed Esmail Fouad, and eng. Khalil Awwad, \ntested at 16 Dec. 2003, revised by EDEPC. quality control \neng: Abd El Monaem Al \nEmam, accepted by general director eng: Mohamed \nAbdel Ghafar, \napproved by eng: Yosry Mohamed Salama Head \nSector of El-Arish Power Station, and certified by eng. Aly Mostafa Allethy: EDEPCo. Head Sector of \ninspection & quality control.\nاحتياطات السلامة\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \n(rope) with caution marks surrounding the work area is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nWear Anti static hand probe to avoid electrical \n choke\nUnit must be shutdown.\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \n(rope) with caution marks surrounding the work area is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nWear Anti static hand probe to avoid electrical \n choke\nUnit must be shutdown.\nالأدوات والمعدات\nDigital multi-meter\nHand held radio wave for communication\nScrew driver, Nut driver, and isolating tape\nمكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار\nDigital multi-meter\nHand held radio wave for communication\nScrew driver, Nut driver, and isolating tape\nمكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار\nالعمل المراد تنفيذه\nSteps to Prepare for Test\nمراجعة المواد المرجعية الفنية ودليل التصنيع.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired QBO card.\nمراجعة المواد المرجعية الفنية ودليل التصنيع.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired QBO card.\nStart Test\nUsing cabinet termination list for each card identify the three I/P wires for \n the 1شارع channel.\nUsing the screw driver to remove these two wires and isolate with tape.\nقم بتوصيل أسلاك الفولتميتر إلى 1شارع channel.\nUsing radio from CCR make forced 1=on for this point according to the \n termination list.\nشاهد قراءة الفولتميتر لرؤية جهة الاتصال مغلقة أو مفتوحة.\nIf the reading is OK, repeat steps 1 to 5 for the another 15 channels.\nIf any reading for any channel in CCR not correct replace the card.\nUsing cabinet termination list for each card identify the three I/P wires for \n the 1شارع channel.\nUsing the screw driver to remove these two wires and isolate with tape.\nقم بتوصيل أسلاك الفولتميتر إلى 1شارع channel.\nUsing radio from CCR make forced 1=on for this point according to the \n termination list.\nشاهد قراءة الفولتميتر لرؤية جهة الاتصال مغلقة أو مفتوحة.\nIf the reading is OK, repeat steps 1 to 5 for the another 15 channels.\nIf any reading for any channel in CCR not correct replace the card.\nReturn Card to Service\nRemove the voltmeter leads.\nReconnect the O/P wires to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nRemove the voltmeter leads.\nReconnect the O/P wires to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nLocation: Card \nDesignation: Tested by: \nTest Date: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

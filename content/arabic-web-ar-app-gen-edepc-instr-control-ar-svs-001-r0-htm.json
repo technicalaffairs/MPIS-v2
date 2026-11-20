@@ -14,40 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n المحطة"
-  },
-  {
-   "type": "paragraph",
-   "text": "التقنية \n الإجراء"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات:نظام سلامة الصمام\nREC 920\n CEGELEC - ALSTOM"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: VSS-001-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى:\n Demiatta CCPS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:\n فحص المعدات (I1-Y1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة تاريخ: 12 July 2005"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ ليكون \n تمت المراجعة: Juyl 2010"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n المحطة",
+     "التقنية \n الإجراء"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -337,7 +311,7 @@
    "text": "الموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:"
   }
  ],
- "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:نظام سلامة الصمام\nREC 920\n CEGELEC - ALSTOM\nرقم الوثيقة: VSS-001-r0\nصدرت إلى:\n Demiatta CCPS\nحالة: \n موافقة\nإجراء:\n فحص المعدات (I1-Y1)\nموافقة تاريخ: 12 July 2005\nتاريخ ليكون \n تمت المراجعة: Juyl 2010\nمقدمة\nThis document outlines the equipment inspection I1, which must performed on an \nannually bases as indicated by Y1 in the title block\nThe \nfirst draft initiated and tested by eng. Alaa Ibrahim El-Shal, reviewed by eng. \nGabr Aly Ramadan, تمت مراجعته بواسطة EDEPC مراقبة الجودة المهندس عبد المنعم الإمام، accepted by I&C \ndept. manager eng. Mohamad El-Lawindi, and approved by eng. Mohammad Elsarag head sector of \nDemiatta CCPS.\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nComponents\nThe safety system consist of two channels reading \nand three identical processor give three outputs, two outputs enough to trip \naction (two output of three system)\nThis system consists of :\nOne card power supply type APER with output 24 vdc & 125 vdc\nThree \ncards type SFSR\nThree \nstatic switches cards type ISRS\n12 \nsoleniod VLV, 125 vdc\nThree \ncards type SFSR\nThree \nstatic switches cards type ISRS\n12 \nsoleniod VLV, 125 vdc\nاحتياطات السلامة\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل\nارتداء معدات السلامة والصحة مثل خوذة السلامة وأحذية السلامة ... الخ\nUnit in stand still\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل\nارتداء معدات السلامة والصحة مثل خوذة السلامة وأحذية السلامة ... الخ\nUnit in stand still\nالأدوات والمعدات\nDigital multimeter, screw driver\nWire connection\nContact cleaner\nSemi flexible wire with 10 cm length to clean the by connections\nDigital multimeter, screw driver\nWire connection\nContact cleaner\nSemi flexible wire with 10 cm length to clean the by connections\nالعمل المراد تنفيذه\nClean all cards\nTightening\nCheck the green lamp LED : BF\nIf on : power supply is ok\nIf not change the power supply card\nCheck the two green lamp LED :QA \n (1.2) for eah card of SFSR\nIf on : card is o.k\nIf not : change the defective \n card\nCheck the yellow lamp LED : E & \n the green lamp LED U for each ard type ISRS\nIf o.k card is o.k if not : \n change the card\nClean & tighten well the solenoid \n valves\nCheck the solenoid valve by using \n digital multimeter check the DC reading resistance should be (550 Ω) 2%\nClean all cards\nTightening\nCheck the green lamp LED : BF\nIf on : power supply is ok\nIf not change the power supply card\nCheck the two green lamp LED :QA \n (1.2) for eah card of SFSR\nIf on : card is o.k\nIf not : change the defective \n card\nCheck the yellow lamp LED : E & \n the green lamp LED U for each ard type ISRS\nIf o.k card is o.k if not : \n change the card\nClean & tighten well the solenoid \n valves\nCheck the solenoid valve by using \n digital multimeter check the DC reading resistance should be (550 Ω) 2%\n\n13. If reading is not o.k: change the \ndefective solenoid\nUnit in Operating Mode\nLub Oil Sequence Tests\nActivate the auto test at \n operating mode from DCS to simulate the lub. Oil leakage\nSelect for running lube oil main \n pump\nإذا تم الاختبار، الاختبار على ما يرام\nIf not, change the pressure \n switch CBPS 10\nSelect emergency oil pump\nIf test is done test is ok\nIf not change the pressure switch \n CBPS 12\nSelect standby pump\nIf test is done test is ok\nIf not change the pressure switch \n CBPS 09\nSequence test is end\nActivate the auto test at \n operating mode from DCS to simulate the lub. Oil leakage\nSelect for running lube oil main \n pump\nإذا تم الاختبار، الاختبار على ما يرام\nIf not, change the pressure \n switch CBPS 10\nSelect emergency oil pump\nIf test is done test is ok\nIf not change the pressure switch \n CBPS 12\nSelect standby pump\nIf test is done test is ok\nIf not change the pressure switch \n CBPS 09\nSequence test is end\nالموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:\nالموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:",
+ "text": "القوة \n المحطة | التقنية \n الإجراء\nمقدمة\nThis document outlines the equipment inspection I1, which must performed on an \nannually bases as indicated by Y1 in the title block\nThe \nfirst draft initiated and tested by eng. Alaa Ibrahim El-Shal, reviewed by eng. \nGabr Aly Ramadan, تمت مراجعته بواسطة EDEPC مراقبة الجودة المهندس عبد المنعم الإمام، accepted by I&C \ndept. manager eng. Mohamad El-Lawindi, and approved by eng. Mohammad Elsarag head sector of \nDemiatta CCPS.\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nComponents\nThe safety system consist of two channels reading \nand three identical processor give three outputs, two outputs enough to trip \naction (two output of three system)\nThis system consists of :\nOne card power supply type APER with output 24 vdc & 125 vdc\nThree \ncards type SFSR\nThree \nstatic switches cards type ISRS\n12 \nsoleniod VLV, 125 vdc\nThree \ncards type SFSR\nThree \nstatic switches cards type ISRS\n12 \nsoleniod VLV, 125 vdc\nاحتياطات السلامة\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل\nارتداء معدات السلامة والصحة مثل خوذة السلامة وأحذية السلامة ... الخ\nUnit in stand still\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل\nارتداء معدات السلامة والصحة مثل خوذة السلامة وأحذية السلامة ... الخ\nUnit in stand still\nالأدوات والمعدات\nDigital multimeter, screw driver\nWire connection\nContact cleaner\nSemi flexible wire with 10 cm length to clean the by connections\nDigital multimeter, screw driver\nWire connection\nContact cleaner\nSemi flexible wire with 10 cm length to clean the by connections\nالعمل المراد تنفيذه\nClean all cards\nTightening\nCheck the green lamp LED : BF\nIf on : power supply is ok\nIf not change the power supply card\nCheck the two green lamp LED :QA \n (1.2) for eah card of SFSR\nIf on : card is o.k\nIf not : change the defective \n card\nCheck the yellow lamp LED : E & \n the green lamp LED U for each ard type ISRS\nIf o.k card is o.k if not : \n change the card\nClean & tighten well the solenoid \n valves\nCheck the solenoid valve by using \n digital multimeter check the DC reading resistance should be (550 Ω) 2%\nClean all cards\nTightening\nCheck the green lamp LED : BF\nIf on : power supply is ok\nIf not change the power supply card\nCheck the two green lamp LED :QA \n (1.2) for eah card of SFSR\nIf on : card is o.k\nIf not : change the defective \n card\nCheck the yellow lamp LED : E & \n the green lamp LED U for each ard type ISRS\nIf o.k card is o.k if not : \n change the card\nClean & tighten well the solenoid \n valves\nCheck the solenoid valve by using \n digital multimeter check the DC reading resistance should be (550 Ω) 2%\nTerminal strip X1 | Terminal strip X2\nCoil no | UY1 | UY2 | UY3 | UY4 | UY5 | UY6 | UY7 | UY8 | UY9 | UY10 | UY11 | UY12\nصالة\n points | 3&4 | 9&10 | 15&16 | 31&32 | 35&36 | 47&48 | 3&4 | 9&10 | 15&16 | 31&32 | 35&36 | 47&48\n13. If reading is not o.k: change the \ndefective solenoid\nUnit in Operating Mode\nLub Oil Sequence Tests\nActivate the auto test at \n operating mode from DCS to simulate the lub. Oil leakage\nSelect for running lube oil main \n pump\nإذا تم الاختبار، الاختبار على ما يرام\nIf not, change the pressure \n switch CBPS 10\nSelect emergency oil pump\nIf test is done test is ok\nIf not change the pressure switch \n CBPS 12\nSelect standby pump\nIf test is done test is ok\nIf not change the pressure switch \n CBPS 09\nSequence test is end\nActivate the auto test at \n operating mode from DCS to simulate the lub. Oil leakage\nSelect for running lube oil main \n pump\nإذا تم الاختبار، الاختبار على ما يرام\nIf not, change the pressure \n switch CBPS 10\nSelect emergency oil pump\nIf test is done test is ok\nIf not change the pressure switch \n CBPS 12\nSelect standby pump\nIf test is done test is ok\nIf not change the pressure switch \n CBPS 09\nSequence test is end\nالموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:\nالموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:",
  "text_truncated": false,
  "links": [],
  "images": [

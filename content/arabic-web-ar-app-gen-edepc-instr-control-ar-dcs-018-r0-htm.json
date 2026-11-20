@@ -14,36 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "محطات الطاقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nDistributed Control System"
-  },
-  {
-   "type": "paragraph",
-   "text": "VAX \n Highway Interface (VXI)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Westinghouse Company"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-018-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: \n دمياط CCPS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: موافقة"
+   "type": "table",
+   "rows": [
+    [
+     "محطات الطاقة",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -211,7 +189,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "محطات الطاقة\nالإجراء الفني\nمعدات\nDistributed Control System\nVAX \n Highway Interface (VXI)\nWestinghouse Company\nرقم الوثيقة: DCS-018-r0\nصدرت إلى: \n دمياط CCPS\nحالة: موافقة\nمقدمة\nThis document outlines the equipment inspection \nI1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe function of the VXI is to get and print the data of any unit operation \nwithin a certain time to serve fault analysis for example.\nThe VAX highway \ninterface (VXI) Consists of:\nMSP card, controller card, \npart # (772B388G59) .\nMUA card, interface card, \npart # (7381A06G01).\nMHC card, data highway \ncontroller card, part # (7381A93G01)\nMMI power supply,input:220VAC, \noutput :+12VDC، + 5VDC)، الجزء # (4D33613G02).\n2 Cooling fan, 230VAC, 14 \nwatt, part # (2450D25G03) .\nالمسودة الأولى بدأها المهندس. محمد أبو الخير في 03 مارس 2005، \nتم اختباره بواسطة المهندس. محمد يونس في 09 مارس 2005، تمت مراجعته بواسطة مراقبة الجودة م. عبد \nمنعم الإمام في EDEPC تم قبوله من قبل المدير العام م. عادل الكيلاني، و \nوافق عليها المهندس . محمد حمودة السراج رئيس قطاع مركز شرطة دمياط.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nاحتياطات السلامة\nA work permit must be issued \nand the qualified maintenance staff should carry the suitable safety category\nPersonal \npratective equipment must be used ground strap \n...etc.\nThe online maintenance work on \nthe VXI cabinet must not affect the operation status of the plant.\nMake backup for software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nA work permit must be issued \nand the qualified maintenance staff should carry the suitable safety category\nPersonal \npratective equipment must be used ground strap \n...etc.\nThe online maintenance work on \nthe VXI cabinet must not affect the operation status of the plant.\nMake backup for software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nالأدوات والمعدات\nSuitable tool set, \nscrew driver, nut driver, and air blower \n (Vacuum Cleaner)\nSpray video cleaner\nحزام أرضي، مستخرج البطاقة\nDigital voltmeter DVM model Fluk 87\nSuitable tool set, \nscrew driver, nut driver, and air blower \n (Vacuum Cleaner)\nSpray video cleaner\nحزام أرضي، مستخرج البطاقة\nDigital voltmeter DVM model Fluk 87\nالعمل المراد تنفيذه\nCheck the operation of network card function \n [data highway controller card (MHC)] using system highway errors diagram.\nClean all cabinet card from dust by blower.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nتحقق من حالة مصدر الطاقة عن طريق \nالمصابيح \n on front of power supply:\nIf three LEDS for output voltage \n (-12,+12,+5VDC) \n تشغيل يعني أن مصدر الطاقة على ما يرام.\nIf any LED of three output voltage LEDS OFF that is means the power supply failed and must be replaced\nCheck the operation of cabinet cooling fan \n for noise and temperature.\nCheck the operation of network card function \n [data highway controller card (MHC)] using system highway errors diagram.\nClean all cabinet card from dust by blower.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nتحقق من حالة مصدر الطاقة عن طريق \nالمصابيح \n on front of power supply:\nIf three LEDS for output voltage \n (-12,+12,+5VDC) \n تشغيل يعني أن مصدر الطاقة على ما يرام.\nIf any LED of three output voltage LEDS OFF that is means the power supply failed and must be replaced\nCheck the operation of cabinet cooling fan \n for noise and temperature.\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "محطات الطاقة | الإجراء الفني\nمقدمة\nThis document outlines the equipment inspection \nI1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe function of the VXI is to get and print the data of any unit operation \nwithin a certain time to serve fault analysis for example.\nThe VAX highway \ninterface (VXI) Consists of:\nMSP card, controller card, \npart # (772B388G59) .\nMUA card, interface card, \npart # (7381A06G01).\nMHC card, data highway \ncontroller card, part # (7381A93G01)\nMMI power supply,input:220VAC, \noutput :+12VDC، + 5VDC)، الجزء # (4D33613G02).\n2 Cooling fan, 230VAC, 14 \nwatt, part # (2450D25G03) .\nالمسودة الأولى بدأها المهندس. محمد أبو الخير في 03 مارس 2005، \nتم اختباره بواسطة المهندس. محمد يونس في 09 مارس 2005، تمت مراجعته بواسطة مراقبة الجودة م. عبد \nمنعم الإمام في EDEPC تم قبوله من قبل المدير العام م. عادل الكيلاني، و \nوافق عليها المهندس . محمد حمودة السراج رئيس قطاع مركز شرطة دمياط.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nاحتياطات السلامة\nA work permit must be issued \nand the qualified maintenance staff should carry the suitable safety category\nPersonal \npratective equipment must be used ground strap \n...etc.\nThe online maintenance work on \nthe VXI cabinet must not affect the operation status of the plant.\nMake backup for software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nA work permit must be issued \nand the qualified maintenance staff should carry the suitable safety category\nPersonal \npratective equipment must be used ground strap \n...etc.\nThe online maintenance work on \nthe VXI cabinet must not affect the operation status of the plant.\nMake backup for software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nالأدوات والمعدات\nSuitable tool set, \nscrew driver, nut driver, and air blower \n (Vacuum Cleaner)\nSpray video cleaner\nحزام أرضي، مستخرج البطاقة\nDigital voltmeter DVM model Fluk 87\nSuitable tool set, \nscrew driver, nut driver, and air blower \n (Vacuum Cleaner)\nSpray video cleaner\nحزام أرضي، مستخرج البطاقة\nDigital voltmeter DVM model Fluk 87\nالعمل المراد تنفيذه\nCheck the operation of network card function \n [data highway controller card (MHC)] using system highway errors diagram.\nClean all cabinet card from dust by blower.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nتحقق من حالة مصدر الطاقة عن طريق \nالمصابيح \n on front of power supply:\nIf three LEDS for output voltage \n (-12,+12,+5VDC) \n تشغيل يعني أن مصدر الطاقة على ما يرام.\nIf any LED of three output voltage LEDS OFF that is means the power supply failed and must be replaced\nCheck the operation of cabinet cooling fan \n for noise and temperature.\nCheck the operation of network card function \n [data highway controller card (MHC)] using system highway errors diagram.\nClean all cabinet card from dust by blower.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nتحقق من حالة مصدر الطاقة عن طريق \nالمصابيح \n on front of power supply:\nIf three LEDS for output voltage \n (-12,+12,+5VDC) \n تشغيل يعني أن مصدر الطاقة على ما يرام.\nIf any LED of three output voltage LEDS OFF that is means the power supply failed and must be replaced\nCheck the operation of cabinet cooling fan \n for noise and temperature.\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [

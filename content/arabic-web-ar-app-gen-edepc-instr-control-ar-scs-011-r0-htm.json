@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n المحطة"
-  },
-  {
-   "type": "paragraph",
-   "text": "التقنية \n الإجراء"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات:\nSpeedtronic \n System \n IC 3600 سوفا، IC 3600 SFKC\n Magnetic Pickup, Servo Valve\n General Electric \n جي تي مارك الثاني,\n الموديل رقم IC رقم 4930MS"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n المحطة",
+     "التقنية \n الإجراء"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -132,44 +130,34 @@
    "text": "Make jumper between 1C to 15 G"
   },
   {
-   "type": "paragraph",
-   "text": "FD \n speed (RPM)"
+   "type": "table",
+   "rows": [
+    [
+     "FD \n speed (RPM)",
+     "OUT \n (V D.C)",
+     "ADJ"
+    ],
+    [
+     "0.00",
+     "0",
+     "R(102) (1)"
+    ],
+    [
+     "2000",
+     "4.44",
+     ""
+    ],
+    [
+     "3600",
+     "8.0",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
-   "text": "OUT \n (V D.C)"
-  },
-  {
-   "type": "paragraph",
-   "text": "ADJ"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.00"
-  },
-  {
-   "type": "paragraph",
-   "text": "0"
-  },
-  {
-   "type": "paragraph",
-   "text": "R(102) (1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "2000"
-  },
-  {
-   "type": "paragraph",
-   "text": "4.44"
-  },
-  {
-   "type": "paragraph",
-   "text": "3600"
-  },
-  {
-   "type": "paragraph",
-   "text": "8.0"
+   "text": "Inject flow driver according to the table."
   },
   {
    "type": "paragraph",
@@ -179,6 +167,7 @@
    "type": "list",
    "items": [
     "Make jumper between 1C to 15 G",
+    "Inject flow driver according to the table.",
     "كرر الخطوات للقناة ( B )"
    ]
   },
@@ -274,60 +263,34 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "VCE (V.dc)"
-  },
-  {
-   "type": "paragraph",
-   "text": "NHP \n (RPM)"
-  },
-  {
-   "type": "paragraph",
-   "text": "TP2 \n REF volt"
-  },
-  {
-   "type": "paragraph",
-   "text": "ADJUSTMENT"
-  },
-  {
-   "type": "paragraph",
-   "text": "2"
-  },
-  {
-   "type": "paragraph",
-   "text": "5100"
-  },
-  {
-   "type": "paragraph",
-   "text": "0"
-  },
-  {
-   "type": "paragraph",
-   "text": "ZERO \n 103 (3)"
-  },
-  {
-   "type": "paragraph",
-   "text": "9"
-  },
-  {
-   "type": "paragraph",
-   "text": "5100"
-  },
-  {
-   "type": "paragraph",
-   "text": "7 \n 0.05"
-  },
-  {
-   "type": "paragraph",
-   "text": "9"
-  },
-  {
-   "type": "paragraph",
-   "text": "1024"
-  },
-  {
-   "type": "paragraph",
-   "text": "1.4 \n 0.05"
+   "type": "table",
+   "rows": [
+    [
+     "VCE (V.dc)",
+     "NHP \n (RPM)",
+     "TP2 \n REF volt",
+     "ADJUSTMENT"
+    ],
+    [
+     "2",
+     "5100",
+     "0",
+     "ZERO \n 103 (3)"
+    ],
+    [
+     "9",
+     "5100",
+     "7 \n 0.05",
+     ""
+    ],
+    [
+     "9",
+     "1024",
+     "1.4 \n 0.05",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -418,7 +381,7 @@
    "text": "الموقع: المعدات \nالتعيين: تاريخ الاختبار: \nتم اختباره بواسطة: \nالتوقيع:"
   }
  ],
- "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:\nSpeedtronic \n System \n IC 3600 سوفا، IC 3600 SFKC\n Magnetic Pickup, Servo Valve\n General Electric \n جي تي مارك الثاني,\n الموديل رقم IC رقم 4930MS\nمقدمة\nتوضح هذه الوثيقة إجراءات الاختبار P1، التي سيتم إجراؤها على أساس سنوي كما هو موضح في Y1 في العنوان \n كتلة.\nThe liquid fuel control system of GE GT mark II model no. 4930MS, Cards No. IC \n3600 SFUA (1L-1I), SFKC (1L-1H) and magnetic Pickup (77FD1, 77FD2) P/N \n(184A8691G5) and servo valve (65FP) P/N (312A6077P1),\nThe first draft initiated by eng. Sawsan El_Lethy, tested by \neng. Mohamed Hasan EL_Sehrawy at 02 Jan 2004, reversed by \nEDEPCo. quality control eng. Abdel Menem Al Emam, and approved by director eng. \nMohamed Goda EL_Said\nاحتياطات السلامة\nيجب أن يتم إصدار تصريح العمل \n يجب أن يكون موظفو الصيانة مؤهلين ويحملون فئة السلامة المناسبة\nسياج أمان مع علامات تحذير \n مطلوب المحيطة بمنطقة العمل.\nيرتدي \n the personal\n protective equipment as (safety shoes, Helmet).\nTurbine must be shut down\nيجب أن يتم إصدار تصريح العمل \n يجب أن يكون موظفو الصيانة مؤهلين ويحملون فئة السلامة المناسبة\nسياج أمان مع علامات تحذير \n مطلوب المحيطة بمنطقة العمل.\nيرتدي \n the personal\n protective equipment as (safety shoes, Helmet).\nTurbine must be shut down\nالأدوات والمعدات\nDigital AVO. Meter, Frequency meter\nSpeed tronic calibrator set model (151A4925)\nRemover card.\nأداة خاصة لضبط المقاومة المتغيرة على البطاقات\nDigital AVO. Meter, Frequency meter\nSpeed tronic calibrator set model (151A4925)\nRemover card.\nأداة خاصة لضبط المقاومة المتغيرة على البطاقات\nالعمل المراد تنفيذه\nMagnetic Pickup (77FD1, 77FD2)\nتأكد من أن مقاومة التيار المستمر يجب أن تكون 550 أوم\nCheck the insulation of the wires and check that the wires OK \n not defected.\nيفحص the gap = 0.7 mm.\nتأكد من أن مقاومة التيار المستمر يجب أن تكون 550 أوم\nCheck the insulation of the wires and check that the wires OK \n not defected.\nيفحص the gap = 0.7 mm.\nMake jumper between 1C to 15 G\nFD \n speed (RPM)\nOUT \n (V D.C)\nADJ\n0.00\n0\nR(102) (1)\n2000\n4.44\n3600\n8.0\nكرر الخطوات للقناة ( B )\nMake jumper between 1C to 15 G\nكرر الخطوات للقناة ( B )\nإشارة الخد 2FC\nForce to (1) gate 2WX at SLEH (IL4L)\nInject FD. speed at G11 & G15 for C10 1800RPM\nChange FD. Speed for channel ( A ) only . and cheek Logic ( 0 ) to \n ( 1 ) on the card SFUA ( 40 50 % ) {the difference is 700 } .\nForce to (1) gate 2WX at SLEH (IL4L)\nInject FD. speed at G11 & G15 for C10 1800RPM\nChange FD. Speed for channel ( A ) only . and cheek Logic ( 0 ) to \n ( 1 ) on the card SFUA ( 40 50 % ) {the difference is 700 } .\nCheck Alarm / Trip Signal 2SF\nForce to 0 2WX SLEH (1L4L)\nInject frequency from C10 G11 \n G15\nCheck frequency between C10 and A com\nForce to 0 2WX SLEH (1L4L)\nInject frequency from C10 G11 \n G15\nCheck frequency between C10 and A com\nBIS ADJ/MILT\nSFKC CARD\nRemove VMPA card 1L2W & 1L3W\nRemove SFPB card 1L1P\nJumper pin 32 at SSZB (1L1P) to N12\nMake max VCE SSKC 1L1R pin 35 \n 34\nحقن سرعة التوربينات\nChange VCE from SSKC 1L1R according to the table\nRemove VMPA card 1L2W & 1L3W\nRemove SFPB card 1L1P\nJumper pin 32 at SSZB (1L1P) to N12\nMake max VCE SSKC 1L1R pin 35 \n 34\nحقن سرعة التوربينات\nChange VCE from SSKC 1L1R according to the table\nVCE (V.dc)\nNHP \n (RPM)\nTP2 \n REF volt\nADJUSTMENT\n2\n5100\n0\nZERO \n 103 (3)\n9\n5100\n7 \n 0.05\n9\n1024\n1.4 \n 0.05\nServo Valve (65FP)\nCheck DC resistance shod be (1kΩ)\nCheck the ground\nWire coil wire may be closed\nCheck DC resistance shod be (1kΩ)\nCheck the ground\nWire coil wire may be closed\nStability Gain Adjustment\nالكسب (تغيير فولت المؤازرة/تغيير VCE)\nPull SFUA or disconnect feed back oscillator\nضبط 1005 NHP\nAdjust (VCE) from card SSKC to obtain voltage at SCB LINE (24) equal= 0\nRead voltage at TP2 ref on SFKC as equ. = 0.3\nAdjust VCE to increase ref. By\n E = E0 + E1 \n E = E0 + 4/ GAIN\n E = -0.03 + 4/3.2 = 1.22\nAdjust VCE until voltage at Tp2 (ref) on SFKC card is 1.22 volt\nRead servo voltage pin (24) adjust STAB POT R 104 if necessary to obtain \n 4.0 0.2 volt\nPull SFUA or disconnect feed back oscillator\nضبط 1005 NHP\nAdjust (VCE) from card SSKC to obtain voltage at SCB LINE (24) equal= 0\nRead voltage at TP2 ref on SFKC as equ. = 0.3\nAdjust VCE to increase ref. By\n E = E0 + E1 \n E = E0 + 4/ GAIN\n E = -0.03 + 4/3.2 = 1.22\nAdjust VCE until voltage at Tp2 (ref) on SFKC card is 1.22 volt\nRead servo voltage pin (24) adjust STAB POT R 104 if necessary to obtain \n 4.0 0.2 volt\nالموقع: المعدات \nالتعيين: تاريخ الاختبار: \nتم اختباره بواسطة: \nالتوقيع:\nالموقع: المعدات \nالتعيين: تاريخ الاختبار: \nتم اختباره بواسطة: \nالتوقيع:\nالموقع: المعدات \nالتعيين: تاريخ الاختبار: \nتم اختباره بواسطة: \nالتوقيع:\nالموقع: المعدات \nالتعيين: تاريخ الاختبار: \nتم اختباره بواسطة: \nالتوقيع:",
+ "text": "القوة \n المحطة | التقنية \n الإجراء\nمقدمة\nتوضح هذه الوثيقة إجراءات الاختبار P1، التي سيتم إجراؤها على أساس سنوي كما هو موضح في Y1 في العنوان \n كتلة.\nThe liquid fuel control system of GE GT mark II model no. 4930MS, Cards No. IC \n3600 SFUA (1L-1I), SFKC (1L-1H) and magnetic Pickup (77FD1, 77FD2) P/N \n(184A8691G5) and servo valve (65FP) P/N (312A6077P1),\nThe first draft initiated by eng. Sawsan El_Lethy, tested by \neng. Mohamed Hasan EL_Sehrawy at 02 Jan 2004, reversed by \nEDEPCo. quality control eng. Abdel Menem Al Emam, and approved by director eng. \nMohamed Goda EL_Said\nاحتياطات السلامة\nيجب أن يتم إصدار تصريح العمل \n يجب أن يكون موظفو الصيانة مؤهلين ويحملون فئة السلامة المناسبة\nسياج أمان مع علامات تحذير \n مطلوب المحيطة بمنطقة العمل.\nيرتدي \n the personal\n protective equipment as (safety shoes, Helmet).\nTurbine must be shut down\nيجب أن يتم إصدار تصريح العمل \n يجب أن يكون موظفو الصيانة مؤهلين ويحملون فئة السلامة المناسبة\nسياج أمان مع علامات تحذير \n مطلوب المحيطة بمنطقة العمل.\nيرتدي \n the personal\n protective equipment as (safety shoes, Helmet).\nTurbine must be shut down\nالأدوات والمعدات\nDigital AVO. Meter, Frequency meter\nSpeed tronic calibrator set model (151A4925)\nRemover card.\nأداة خاصة لضبط المقاومة المتغيرة على البطاقات\nDigital AVO. Meter, Frequency meter\nSpeed tronic calibrator set model (151A4925)\nRemover card.\nأداة خاصة لضبط المقاومة المتغيرة على البطاقات\nالعمل المراد تنفيذه\nMagnetic Pickup (77FD1, 77FD2)\nتأكد من أن مقاومة التيار المستمر يجب أن تكون 550 أوم\nCheck the insulation of the wires and check that the wires OK \n not defected.\nيفحص the gap = 0.7 mm.\nتأكد من أن مقاومة التيار المستمر يجب أن تكون 550 أوم\nCheck the insulation of the wires and check that the wires OK \n not defected.\nيفحص the gap = 0.7 mm.\nMake jumper between 1C to 15 G\nFD \n speed (RPM) | OUT \n (V D.C) | ADJ\n0.00 | 0 | R(102) (1)\n2000 | 4.44 | \n3600 | 8.0 | \nInject flow driver according to the table.\nكرر الخطوات للقناة ( B )\nMake jumper between 1C to 15 G\nInject flow driver according to the table.\nكرر الخطوات للقناة ( B )\nإشارة الخد 2FC\nForce to (1) gate 2WX at SLEH (IL4L)\nInject FD. speed at G11 & G15 for C10 1800RPM\nChange FD. Speed for channel ( A ) only . and cheek Logic ( 0 ) to \n ( 1 ) on the card SFUA ( 40 50 % ) {the difference is 700 } .\nForce to (1) gate 2WX at SLEH (IL4L)\nInject FD. speed at G11 & G15 for C10 1800RPM\nChange FD. Speed for channel ( A ) only . and cheek Logic ( 0 ) to \n ( 1 ) on the card SFUA ( 40 50 % ) {the difference is 700 } .\nCheck Alarm / Trip Signal 2SF\nForce to 0 2WX SLEH (1L4L)\nInject frequency from C10 G11 \n G15\nCheck frequency between C10 and A com\nForce to 0 2WX SLEH (1L4L)\nInject frequency from C10 G11 \n G15\nCheck frequency between C10 and A com\nBIS ADJ/MILT\nSFKC CARD\nRemove VMPA card 1L2W & 1L3W\nRemove SFPB card 1L1P\nJumper pin 32 at SSZB (1L1P) to N12\nMake max VCE SSKC 1L1R pin 35 \n 34\nحقن سرعة التوربينات\nChange VCE from SSKC 1L1R according to the table\nRemove VMPA card 1L2W & 1L3W\nRemove SFPB card 1L1P\nJumper pin 32 at SSZB (1L1P) to N12\nMake max VCE SSKC 1L1R pin 35 \n 34\nحقن سرعة التوربينات\nChange VCE from SSKC 1L1R according to the table\nVCE (V.dc) | NHP \n (RPM) | TP2 \n REF volt | ADJUSTMENT\n2 | 5100 | 0 | ZERO \n 103 (3)\n9 | 5100 | 7 \n 0.05 | \n9 | 1024 | 1.4 \n 0.05 | \nServo Valve (65FP)\nCheck DC resistance shod be (1kΩ)\nCheck the ground\nWire coil wire may be closed\nCheck DC resistance shod be (1kΩ)\nCheck the ground\nWire coil wire may be closed\nStability Gain Adjustment\nالكسب (تغيير فولت المؤازرة/تغيير VCE)\nPull SFUA or disconnect feed back oscillator\nضبط 1005 NHP\nAdjust (VCE) from card SSKC to obtain voltage at SCB LINE (24) equal= 0\nRead voltage at TP2 ref on SFKC as equ. = 0.3\nAdjust VCE to increase ref. By\n E = E0 + E1 \n E = E0 + 4/ GAIN\n E = -0.03 + 4/3.2 = 1.22\nAdjust VCE until voltage at Tp2 (ref) on SFKC card is 1.22 volt\nRead servo voltage pin (24) adjust STAB POT R 104 if necessary to obtain \n 4.0 0.2 volt\nPull SFUA or disconnect feed back oscillator\nضبط 1005 NHP\nAdjust (VCE) from card SSKC to obtain voltage at SCB LINE (24) equal= 0\nRead voltage at TP2 ref on SFKC as equ. = 0.3\nAdjust VCE to increase ref. By\n E = E0 + E1 \n E = E0 + 4/ GAIN\n E = -0.03 + 4/3.2 = 1.22\nAdjust VCE until voltage at Tp2 (ref) on SFKC card is 1.22 volt\nRead servo voltage pin (24) adjust STAB POT R 104 if necessary to obtain \n 4.0 0.2 volt\nالموقع: المعدات \nالتعيين: تاريخ الاختبار: \nتم اختباره بواسطة: \nالتوقيع:\nالموقع: المعدات \nالتعيين: تاريخ الاختبار: \nتم اختباره بواسطة: \nالتوقيع:\nالموقع: المعدات \nالتعيين: تاريخ الاختبار: \nتم اختباره بواسطة: \nالتوقيع:\nالموقع: المعدات \nالتعيين: تاريخ الاختبار: \nتم اختباره بواسطة: \nالتوقيع:",
  "text_truncated": false,
  "links": [],
  "images": [

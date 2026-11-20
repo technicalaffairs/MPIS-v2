@@ -14,44 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n المحطة"
-  },
-  {
-   "type": "paragraph",
-   "text": "التقنية \n الإجراء"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات:نظام PLC\n C 100"
-  },
-  {
-   "type": "paragraph",
-   "text": "وستنجهاوس الولايات المتحدة الأمريكية"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: PLCS-002-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى:\n Demiatta CCPS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:\n فحص المعدات (I1-Y1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة تاريخ: 12 July 2005"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ ليكون \n تمت المراجعة: يوليو 2010"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n المحطة",
+     "التقنية \n الإجراء"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -274,7 +244,7 @@
    "text": "Location: System \nDesignation: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:"
   }
  ],
- "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:نظام PLC\n C 100\nوستنجهاوس الولايات المتحدة الأمريكية\nرقم الوثيقة: PLCS-002-r0\nصدرت إلى:\n Demiatta CCPS\nحالة: \n موافقة\nإجراء:\n فحص المعدات (I1-Y1)\nموافقة تاريخ: 12 July 2005\nتاريخ ليكون \n تمت المراجعة: يوليو 2010\nمقدمة\nThis document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the title block\nThe \nfirst draft initiated and tested by eng. Alaa Ibrahim Elshal , reviewed by eng. Ali Abdel Galil Abdel Kader تمت مراجعته بواسطة EDEPC مراقبة الجودة المهندس عبد المنعم الإمام، accepted by I & C \ndept. manager eng. Mohamad Ellawindi , and approved by eng. Mohammad Elsarag head sector of \nDemiatta CCPS\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nComponents\nThe PLC system consist of:\nProgrammable logic controller C 100 consists of the following units:\nOne \n control unit type (5120 - 8)\nOne \n power supply type (5 F00 - 220 A) 24 VDC, Vmin = 20 V, Vmax = 28 V\nOne \n coupler type (5800)\nOne \n RS232 interface (58X1)\nاثنان \n وحدات للمدخلات التناظرية من النوع (5212)\nOne \n module for logic inputs type (5211)\nTwo \n module for logic outputs type (5302)\nOne \n module for analog outputs 1/5v type (5315.V)\nواحد \n وحدة للمخرجات التناظرية 4/20 مللي أمبير من النوع (5315.I)\nOne \n control unit type (5120 - 8)\nOne \n power supply type (5 F00 - 220 A) 24 VDC, Vmin = 20 V, Vmax = 28 V\nOne \n coupler type (5800)\nOne \n RS232 interface (58X1)\nاثنان \n وحدات للمدخلات التناظرية من النوع (5212)\nOne \n module for logic inputs type (5211)\nTwo \n module for logic outputs type (5302)\nOne \n module for analog outputs 1/5v type (5315.V)\nواحد \n وحدة للمخرجات التناظرية 4/20 مللي أمبير من النوع (5315.I)\nاحتياطات السلامة\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل\nارتداء معدات السلامة والصحة مثل خوذة السلامة وأحذية السلامة ... الخ\nUnit in stand still\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل\nارتداء معدات السلامة والصحة مثل خوذة السلامة وأحذية السلامة ... الخ\nUnit in stand still\nالأدوات والمعدات\nMultimeter, screw driver\nWire connection\nContact cleaner\nConsole of PLC : CEGELEC processing unit type C 100/5120\nMultimeter, screw driver\nWire connection\nContact cleaner\nConsole of PLC : CEGELEC processing unit type C 100/5120\nالعمل المراد تنفيذه\nUnit in stand still\nCleaning all cards\nTightening\nCheck the power supply o.k green \n lamp LED located in the power supply module (5f00)\nإذا كان المصباح الأخضر LED قيد التشغيل \n وحدة العرض موافق\nIf not change the P.S. module\nUsing the CEGELEC console\nPush the two (ON) push bottom \n simultaneously (of CEGELEC console)\nChoose the (debug) by enter F5\nChoose the data sequence by the \n cursor\nاختر تسلسل الاختبار رقم 2(من \n مانويل)\nObserve the data of sequence # 2\nIf the numerical number \n associated to the data equal 5000 or 2000 : the module which under test from \n the I/O modules is failure change the defective module\nإذا كانت القراءة أقل من 2000 ل \n جميع وحدات الإدخال/الإخراج (الوحدات) على ما يرام\nClose the work order\nUnit in stand still\nCleaning all cards\nTightening\nCheck the power supply o.k green \n lamp LED located in the power supply module (5f00)\nإذا كان المصباح الأخضر LED قيد التشغيل \n وحدة العرض موافق\nIf not change the P.S. module\nUsing the CEGELEC console\nPush the two (ON) push bottom \n simultaneously (of CEGELEC console)\nChoose the (debug) by enter F5\nChoose the data sequence by the \n cursor\nاختر تسلسل الاختبار رقم 2(من \n مانويل)\nObserve the data of sequence # 2\nIf the numerical number \n associated to the data equal 5000 or 2000 : the module which under test from \n the I/O modules is failure change the defective module\nإذا كانت القراءة أقل من 2000 ل \n جميع وحدات الإدخال/الإخراج (الوحدات) على ما يرام\nClose the work order\nLocation: System \nDesignation: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:",
+ "text": "القوة \n المحطة | التقنية \n الإجراء\nمقدمة\nThis document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the title block\nThe \nfirst draft initiated and tested by eng. Alaa Ibrahim Elshal , reviewed by eng. Ali Abdel Galil Abdel Kader تمت مراجعته بواسطة EDEPC مراقبة الجودة المهندس عبد المنعم الإمام، accepted by I & C \ndept. manager eng. Mohamad Ellawindi , and approved by eng. Mohammad Elsarag head sector of \nDemiatta CCPS\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nComponents\nThe PLC system consist of:\nProgrammable logic controller C 100 consists of the following units:\nOne \n control unit type (5120 - 8)\nOne \n power supply type (5 F00 - 220 A) 24 VDC, Vmin = 20 V, Vmax = 28 V\nOne \n coupler type (5800)\nOne \n RS232 interface (58X1)\nاثنان \n وحدات للمدخلات التناظرية من النوع (5212)\nOne \n module for logic inputs type (5211)\nTwo \n module for logic outputs type (5302)\nOne \n module for analog outputs 1/5v type (5315.V)\nواحد \n وحدة للمخرجات التناظرية 4/20 مللي أمبير من النوع (5315.I)\nOne \n control unit type (5120 - 8)\nOne \n power supply type (5 F00 - 220 A) 24 VDC, Vmin = 20 V, Vmax = 28 V\nOne \n coupler type (5800)\nOne \n RS232 interface (58X1)\nاثنان \n وحدات للمدخلات التناظرية من النوع (5212)\nOne \n module for logic inputs type (5211)\nTwo \n module for logic outputs type (5302)\nOne \n module for analog outputs 1/5v type (5315.V)\nواحد \n وحدة للمخرجات التناظرية 4/20 مللي أمبير من النوع (5315.I)\nاحتياطات السلامة\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل\nارتداء معدات السلامة والصحة مثل خوذة السلامة وأحذية السلامة ... الخ\nUnit in stand still\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل\nارتداء معدات السلامة والصحة مثل خوذة السلامة وأحذية السلامة ... الخ\nUnit in stand still\nالأدوات والمعدات\nMultimeter, screw driver\nWire connection\nContact cleaner\nConsole of PLC : CEGELEC processing unit type C 100/5120\nMultimeter, screw driver\nWire connection\nContact cleaner\nConsole of PLC : CEGELEC processing unit type C 100/5120\nالعمل المراد تنفيذه\nUnit in stand still\nCleaning all cards\nTightening\nCheck the power supply o.k green \n lamp LED located in the power supply module (5f00)\nإذا كان المصباح الأخضر LED قيد التشغيل \n وحدة العرض موافق\nIf not change the P.S. module\nUsing the CEGELEC console\nPush the two (ON) push bottom \n simultaneously (of CEGELEC console)\nChoose the (debug) by enter F5\nChoose the data sequence by the \n cursor\nاختر تسلسل الاختبار رقم 2(من \n مانويل)\nObserve the data of sequence # 2\nIf the numerical number \n associated to the data equal 5000 or 2000 : the module which under test from \n the I/O modules is failure change the defective module\nإذا كانت القراءة أقل من 2000 ل \n جميع وحدات الإدخال/الإخراج (الوحدات) على ما يرام\nClose the work order\nUnit in stand still\nCleaning all cards\nTightening\nCheck the power supply o.k green \n lamp LED located in the power supply module (5f00)\nإذا كان المصباح الأخضر LED قيد التشغيل \n وحدة العرض موافق\nIf not change the P.S. module\nUsing the CEGELEC console\nPush the two (ON) push bottom \n simultaneously (of CEGELEC console)\nChoose the (debug) by enter F5\nChoose the data sequence by the \n cursor\nاختر تسلسل الاختبار رقم 2(من \n مانويل)\nObserve the data of sequence # 2\nIf the numerical number \n associated to the data equal 5000 or 2000 : the module which under test from \n the I/O modules is failure change the defective module\nإذا كانت القراءة أقل من 2000 ل \n جميع وحدات الإدخال/الإخراج (الوحدات) على ما يرام\nClose the work order\nLocation: System \nDesignation: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:",
  "text_truncated": false,
  "links": [],
  "images": [

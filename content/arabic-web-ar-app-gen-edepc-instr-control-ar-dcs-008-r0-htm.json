@@ -14,40 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n المحطة"
-  },
-  {
-   "type": "paragraph",
-   "text": "التقنية \n الإجراء"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات:Distributing \n Cabinets System, \n QLI (8) Loop Interface, Analog (3 Input ,1Output )\n Digital (2Input , 2output)\n7381A10 G03\nWestinghouse"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-008-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: \nEl Arish\nملاحظة:"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \nموافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:Testing \n Card Procedures (P1 - Y1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Approved Date: 19 Sep 2004"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: Sep 2009"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n المحطة",
+     "التقنية \n الإجراء"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -277,7 +251,7 @@
    "text": "Name: \n Signature: \n Date:"
   }
  ],
- "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:Distributing \n Cabinets System, \n QLI (8) Loop Interface, Analog (3 Input ,1Output )\n Digital (2Input , 2output)\n7381A10 G03\nWestinghouse\nرقم الوثيقة: DCS-008-r0\nصدرت إلى: \nEl Arish\nملاحظة:\nحالة: \nموافقة\nإجراء:Testing \n Card Procedures (P1 - Y1)\nApproved Date: 19 Sep 2004\nDate to be Reviewed: Sep 2009\nمقدمة\nThis document \noutlines the routine testing procedures P1, which must performed on a \nannually bases as \nindicated by Y1 in the title block.\nDCS QLI Card Analog Input 3 channel (2,3,4) 4- \n20 mA ,Analog Output 1 channel (5) 4- 20 mA , 2 channel (0,1) digital Input, 2 \nchannel (6,7) digital Output.\nملاحظة: الرقمية \nلا يمكن اختبار قناة الإدخال والإخراج في محطتنا لأنها غير مستخدمة، \nالإدخال / الإخراج التناظري المستخدم لتعليقات الموضع والأوامر للتحكم \nالصمامات.\nاحتياطات السلامة\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \n(rope) with caution marks surrounding the work area is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nقم بارتداء مسبار يدوي مضاد للكهرباء الساكنة لتجنب الكهرباء \n خنق\nUnit must be shutdown.\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \n(rope) with caution marks surrounding the work area is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nقم بارتداء مسبار يدوي مضاد للكهرباء الساكنة لتجنب الكهرباء \n خنق\nUnit must be shutdown.\nالأدوات والمعدات\nDigital multi-meter\nHand held radio wave for communication\nma source, ma Tester.\nScrew driver, Nut driver, and isolating tape\nمكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار\nDigital multi-meter\nHand held radio wave for communication\nma source, ma Tester.\nScrew driver, Nut driver, and isolating tape\nمكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار\nالعمل المراد تنفيذه\nSteps to Prepare for Test\nمراجعة المواد المرجعية الفنية ودليل التصنيع.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired QLI card.\nمراجعة المواد المرجعية الفنية ودليل التصنيع.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired QLI card.\nStart Test\nUsing cabinet termination list for each card identify the two I/P wires for \n the 2اختصار الثاني channel.\nUsing the screw driver to remove these two wires and isolate with tape.\nConnect the m a leads to the 1شارع channel.\nInject 4 m A,8 m A,12 m A,16 m A and 20 m A according to 0 %,25 %,50 %,75% and \n 100% .\nقارن قراءة جهاز الاختبار باستخدام الراديو مع القراءة الموجودة في جهاز التحكم المركزي \n غرفة (CCR).\nإذا كانت القراءة جيدة أو ضمن النطاق ( +0.01m a), repeat steps 1 \n to 5 for channels 3,4 .\nUsing cabinet termination list identify the 2 output wires for channel 5 .\nUsing the screw driver remove this tow wires and isolate with tape.\nقم بتوصيل m اختبار يؤدي إلى القناة 5.\nFrom CCR give command 0%, 25%, 50%, 75%, 100% which equals 4m A ,8m A , 12m A \n , 16m A and 20m A .\nCompare the tester reading using radio with the reading in the central control \n room (CCR) .\nIf any reading for any channel in CCR not correct replace the card.\nUsing cabinet termination list for each card identify the two I/P wires for \n the 2اختصار الثاني channel.\nUsing the screw driver to remove these two wires and isolate with tape.\nConnect the m a leads to the 1شارع channel.\nInject 4 m A,8 m A,12 m A,16 m A and 20 m A according to 0 %,25 %,50 %,75% and \n 100% .\nقارن قراءة جهاز الاختبار باستخدام الراديو مع القراءة الموجودة في جهاز التحكم المركزي \n غرفة (CCR).\nإذا كانت القراءة جيدة أو ضمن النطاق ( +0.01m a), repeat steps 1 \n to 5 for channels 3,4 .\nUsing cabinet termination list identify the 2 output wires for channel 5 .\nUsing the screw driver remove this tow wires and isolate with tape.\nقم بتوصيل m اختبار يؤدي إلى القناة 5.\nFrom CCR give command 0%, 25%, 50%, 75%, 100% which equals 4m A ,8m A , 12m A \n , 16m A and 20m A .\nCompare the tester reading using radio with the reading in the central control \n room (CCR) .\nIf any reading for any channel in CCR not correct replace the card.\nReturn Card to Service\nإزالة م اختبار ..\nReconnect the wires to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nإزالة م اختبار ..\nReconnect the wires to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nLocation: Card \nDesignation: Tested by: \nTest Date: \nSignature:\nGeneral Director Approval:\nName: \n Signature: \n Date:",
+ "text": "القوة \n المحطة | التقنية \n الإجراء\nمقدمة\nThis document \noutlines the routine testing procedures P1, which must performed on a \nannually bases as \nindicated by Y1 in the title block.\nDCS QLI Card Analog Input 3 channel (2,3,4) 4- \n20 mA ,Analog Output 1 channel (5) 4- 20 mA , 2 channel (0,1) digital Input, 2 \nchannel (6,7) digital Output.\nملاحظة: الرقمية \nلا يمكن اختبار قناة الإدخال والإخراج في محطتنا لأنها غير مستخدمة، \nالإدخال / الإخراج التناظري المستخدم لتعليقات الموضع والأوامر للتحكم \nالصمامات.\nاحتياطات السلامة\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \n(rope) with caution marks surrounding the work area is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nقم بارتداء مسبار يدوي مضاد للكهرباء الساكنة لتجنب الكهرباء \n خنق\nUnit must be shutdown.\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \n(rope) with caution marks surrounding the work area is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nقم بارتداء مسبار يدوي مضاد للكهرباء الساكنة لتجنب الكهرباء \n خنق\nUnit must be shutdown.\nالأدوات والمعدات\nDigital multi-meter\nHand held radio wave for communication\nma source, ma Tester.\nScrew driver, Nut driver, and isolating tape\nمكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار\nDigital multi-meter\nHand held radio wave for communication\nma source, ma Tester.\nScrew driver, Nut driver, and isolating tape\nمكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار\nالعمل المراد تنفيذه\nSteps to Prepare for Test\nمراجعة المواد المرجعية الفنية ودليل التصنيع.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired QLI card.\nمراجعة المواد المرجعية الفنية ودليل التصنيع.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired QLI card.\nStart Test\nUsing cabinet termination list for each card identify the two I/P wires for \n the 2اختصار الثاني channel.\nUsing the screw driver to remove these two wires and isolate with tape.\nConnect the m a leads to the 1شارع channel.\nInject 4 m A,8 m A,12 m A,16 m A and 20 m A according to 0 %,25 %,50 %,75% and \n 100% .\nقارن قراءة جهاز الاختبار باستخدام الراديو مع القراءة الموجودة في جهاز التحكم المركزي \n غرفة (CCR).\nإذا كانت القراءة جيدة أو ضمن النطاق ( +0.01m a), repeat steps 1 \n to 5 for channels 3,4 .\nUsing cabinet termination list identify the 2 output wires for channel 5 .\nUsing the screw driver remove this tow wires and isolate with tape.\nقم بتوصيل m اختبار يؤدي إلى القناة 5.\nFrom CCR give command 0%, 25%, 50%, 75%, 100% which equals 4m A ,8m A , 12m A \n , 16m A and 20m A .\nCompare the tester reading using radio with the reading in the central control \n room (CCR) .\nIf any reading for any channel in CCR not correct replace the card.\nUsing cabinet termination list for each card identify the two I/P wires for \n the 2اختصار الثاني channel.\nUsing the screw driver to remove these two wires and isolate with tape.\nConnect the m a leads to the 1شارع channel.\nInject 4 m A,8 m A,12 m A,16 m A and 20 m A according to 0 %,25 %,50 %,75% and \n 100% .\nقارن قراءة جهاز الاختبار باستخدام الراديو مع القراءة الموجودة في جهاز التحكم المركزي \n غرفة (CCR).\nإذا كانت القراءة جيدة أو ضمن النطاق ( +0.01m a), repeat steps 1 \n to 5 for channels 3,4 .\nUsing cabinet termination list identify the 2 output wires for channel 5 .\nUsing the screw driver remove this tow wires and isolate with tape.\nقم بتوصيل m اختبار يؤدي إلى القناة 5.\nFrom CCR give command 0%, 25%, 50%, 75%, 100% which equals 4m A ,8m A , 12m A \n , 16m A and 20m A .\nCompare the tester reading using radio with the reading in the central control \n room (CCR) .\nIf any reading for any channel in CCR not correct replace the card.\nReturn Card to Service\nإزالة م اختبار ..\nReconnect the wires to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nإزالة م اختبار ..\nReconnect the wires to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nLocation: Card \nDesignation: Tested by: \nTest Date: \nSignature:\nGeneral Director Approval:\nName: \n Signature: \n Date:",
  "text_truncated": false,
  "links": [],
  "images": [
