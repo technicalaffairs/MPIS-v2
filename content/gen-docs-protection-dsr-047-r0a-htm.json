@@ -1,7 +1,7 @@
 {
  "id": "gen-docs-protection-dsr-047-r0a-htm",
  "doc_number": "DSR-047-R0A",
- "title_en": "",
+ "title_en": "DSR-047-R0A APPROVED",
  "title_ar": "DsR-047-r0a \nمعتمد",
  "category": "protection",
  "source_path": "gen_docs/Protection/DsR-047-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -466,5 +467,408 @@
    "src": "graphics/DsR-047-01.jpg",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System."
+    ],
+    [
+     "",
+     "Protection.",
+     "Maintenance Procedures."
+    ],
+    [
+     "Document No.: DsR-047-r0a.",
+     "Equipment: Distance protection G21G on the main generator, model CYS2D-BS1, Toshiba."
+    ],
+    [
+     "Issued to: El-Walidia."
+    ],
+    [
+     "Status: Approved."
+    ],
+    [
+     "Approval Date: 24 May 2005.",
+     "Procedure: Testing using a current and voltage injection set model PHU-100."
+    ],
+    [
+     "Next Review Date: May 2010."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document explains the test steps that must be carried out annually. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at New Assiut Power Station \"El-Walidia\" 2x300 MW, Upper Egypt Electricity Production Company, and the test was carried out on 8 May 2005 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Issue an approved work permit from the competent authority, and the test crew must carry an industrial safety category card.",
+    "Fence the work area and place the necessary warning signs.",
+    "Follow the occupational safety and health instructions for the safety of personnel and equipment.",
+    "The unit is shut down and out of service, and the generator is out of service.",
+    "Make sure the protection device to be tested is as stated on the name plate."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment Used."
+  },
+  {
+   "type": "paragraph",
+   "text": "2 current and voltage injection sets model PHU-100."
+  },
+  {
+   "type": "list",
+   "items": [
+    "2 current and voltage injection sets model PHU-100.",
+    "2 standard V-A AC current measuring instruments, model YOKOGAWA.",
+    "Test Leads.",
+    "2 transformers 400/200 V, 1 kVA, single phase.",
+    "1 test plug model XRT-1.",
+    "1 three-phase switch.",
+    "Avometer Fluky 87.",
+    "1 Digital Phase Meter (KDK DPF-30N).",
+    "Contact point cleaning tools (spray CROWN-8276)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Maintenance Steps to be Carried Out."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Disconnect terminals T5 44, 46 inside cell P1PRP to prevent disabling the generator cooling water system.",
+     "1."
+    ],
+    [
+     "Remove the front cover of the relay, phase R.",
+     "2."
+    ],
+    [
+     "Withdraw the relay connection comb, phase R.",
+     "3."
+    ],
+    [
+     "Clean the contact points using (Spray CROWN-8276).",
+     "4."
+    ],
+    [
+     "Clean the relay from dust using the air blower, taking care not to direct the air at the springs.",
+     "5."
+    ],
+    [
+     "Connect the following red + black points on the test plug (x1, 20), (2, 19), (6, 15), (8, 13).",
+     "6."
+    ],
+    [
+     "Insert the test plug into the relay.",
+     "7."
+    ],
+    [
+     "Connect the circuit as shown in the attached figure, using current wires rated for 10 A.",
+     "8."
+    ],
+    [
+     "Set the angle measuring instrument selector to LEAD.",
+     "9."
+    ],
+    [
+     "Connect the current injection leads to points (x5, 7) as shown in the figure for phase R.",
+     "10."
+    ],
+    [
+     "Connect the voltage injection leads to points (x9, 10) as shown in the figure for phase R.",
+     "11."
+    ],
+    [
+     "Inject voltage at 110 V.",
+     "12."
+    ],
+    [
+     "Raise the current to 10 A.",
+     "13."
+    ],
+    [
+     "Set the angle to the value given in the attached table.",
+     "14."
+    ],
+    [
+     "Lower the voltage value gradually until relay 21G operates.",
+     "15."
+    ],
+    [
+     "Record the voltage value at which the relay operates.",
+     "16."
+    ],
+    [
+     "Reset on phase R.",
+     "17."
+    ],
+    [
+     "Reset the lockout relay 86G.",
+     "18."
+    ],
+    [
+     "Withdraw the test plug.",
+     "19."
+    ],
+    [
+     "Clean the relay connection comb.",
+     "20."
+    ],
+    [
+     "Insert the relay connection comb.",
+     "21."
+    ],
+    [
+     "Replace the cover.",
+     "22."
+    ],
+    [
+     "Repeat steps 11 to 13 on phase Y.",
+     "23."
+    ],
+    [
+     "Repeat steps 11 to 13 on phase B.",
+     "24."
+    ],
+    [
+     "Inside cell PRP1 T5:44, 46, connect the two terminals.",
+     "25."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Input current I : 10 A ( V lead for I )"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "RESULTS",
+     "PHASE ANGLE",
+     "PHASE"
+    ],
+    [
+     "315",
+     "255",
+     "195",
+     "135",
+     "15",
+     "75"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "R"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Y"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "B"
+    ],
+    [
+     "",
+     "43.7",
+     "40.0",
+     "43.7",
+     "52.3",
+     "52.3",
+     "57.1",
+     "DESIGN VALUE"
+    ],
+    [
+     "",
+     "10%",
+     "7%",
+     "CRITERIA"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "General Inspection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Checking Item",
+     "Result"
+    ],
+    [
+     "Appearance casing",
+     ""
+    ],
+    [
+     "Tightness of fastening",
+     ""
+    ],
+    [
+     "Smooth rack in rack out",
+     ""
+    ],
+    [
+     "CT shorting provision",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase Characteristic"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the operating value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting forward 70% , backward 40%"
+  },
+  {
+   "type": "paragraph",
+   "text": "Input current 10A (v lead for I )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the operating value",
+    "Setting forward 70% , backward 40%",
+    "Input current 10A (v lead for I )"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Phase Angle",
+     "Result"
+    ],
+    [
+     "75",
+     "15",
+     "135",
+     "195",
+     "255",
+     "315"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Y",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Design Value",
+     "57.1v",
+     "52.3v",
+     "52.3v",
+     "43.7v",
+     "40v",
+     "43.7v",
+     ""
+    ],
+    [
+     "Criteria",
+     "(+,-)7%",
+     "(+,-)10%",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site Name: Protection Code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Maintained by: Signature: Maintenance Date:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company.\nMaintenance Procedures Information System.\nMaintenance Procedures Information System.\n | Protection. | Maintenance Procedures.\nDocument No.: DsR-047-r0a. | Equipment: Distance protection G21G on the main generator, model CYS2D-BS1, Toshiba.\nIssued to: El-Walidia.\nStatus: Approved.\nApproval Date: 24 May 2005. | Procedure: Testing using a current and voltage injection set model PHU-100.\nNext Review Date: May 2010.\nIntroduction.\nThis document explains the test steps that must be carried out annually. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at New Assiut Power Station \"El-Walidia\" 2x300 MW, Upper Egypt Electricity Production Company, and the test was carried out on 8 May 2005 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed.\nSafety Precautions.\nIssue an approved work permit from the competent authority, and the test crew must carry an industrial safety category card.\nFence the work area and place the necessary warning signs.\nFollow the occupational safety and health instructions for the safety of personnel and equipment.\nThe unit is shut down and out of service, and the generator is out of service.\nMake sure the protection device to be tested is as stated on the name plate.\nTools and Equipment Used.\n2 current and voltage injection sets model PHU-100.\n2 current and voltage injection sets model PHU-100.\n2 standard V-A AC current measuring instruments, model YOKOGAWA.\nTest Leads.\n2 transformers 400/200 V, 1 kVA, single phase.\n1 test plug model XRT-1.\n1 three-phase switch.\nAvometer Fluky 87.\n1 Digital Phase Meter (KDK DPF-30N).\nContact point cleaning tools (spray CROWN-8276).\nMaintenance Steps to be Carried Out.\nDisconnect terminals T5 44, 46 inside cell P1PRP to prevent disabling the generator cooling water system. | 1.\nRemove the front cover of the relay, phase R. | 2.\nWithdraw the relay connection comb, phase R. | 3.\nClean the contact points using (Spray CROWN-8276). | 4.\nClean the relay from dust using the air blower, taking care not to direct the air at the springs. | 5.\nConnect the following red + black points on the test plug (x1, 20), (2, 19), (6, 15), (8, 13). | 6.\nInsert the test plug into the relay. | 7.\nConnect the circuit as shown in the attached figure, using current wires rated for 10 A. | 8.\nSet the angle measuring instrument selector to LEAD. | 9.\nConnect the current injection leads to points (x5, 7) as shown in the figure for phase R. | 10.\nConnect the voltage injection leads to points (x9, 10) as shown in the figure for phase R. | 11.\nInject voltage at 110 V. | 12.\nRaise the current to 10 A. | 13.\nSet the angle to the value given in the attached table. | 14.\nLower the voltage value gradually until relay 21G operates. | 15.\nRecord the voltage value at which the relay operates. | 16.\nReset on phase R. | 17.\nReset the lockout relay 86G. | 18.\nWithdraw the test plug. | 19.\nClean the relay connection comb. | 20.\nInsert the relay connection comb. | 21.\nReplace the cover. | 22.\nRepeat steps 11 to 13 on phase Y. | 23.\nRepeat steps 11 to 13 on phase B. | 24.\nInside cell PRP1 T5:44, 46, connect the two terminals. | 25.\nInput current I : 10 A ( V lead for I )\nRESULTS | PHASE ANGLE | PHASE\n315 | 255 | 195 | 135 | 15 | 75\n |  |  |  |  |  |  | R\n |  |  |  |  |  |  | Y\n |  |  |  |  |  |  | B\n | 43.7 | 40.0 | 43.7 | 52.3 | 52.3 | 57.1 | DESIGN VALUE\n | 10% | 7% | CRITERIA\nTest Sheet\nRelay Test\nGeneral Inspection\nChecking Item | Result\nAppearance casing | \nTightness of fastening | \nSmooth rack in rack out | \nCT shorting provision | \nPhase Characteristic\nMeasure the operating value\nSetting forward 70% , backward 40%\nInput current 10A (v lead for I )\nMeasure the operating value\nSetting forward 70% , backward 40%\nInput current 10A (v lead for I )\nPhase | Phase Angle | Result\n75 | 15 | 135 | 195 | 255 | 315\nR |  |  |  |  |  |  | \nY |  |  |  |  |  |  | \nB |  |  |  |  |  |  | \nDesign Value | 57.1v | 52.3v | 52.3v | 43.7v | 40v | 43.7v | \nCriteria | (+,-)7% | (+,-)10% | \nSite Name: Protection Code:\nMaintained by: Signature: Maintenance Date:",
+ "translation_review": "draft — needs human review before operational use"
 }
