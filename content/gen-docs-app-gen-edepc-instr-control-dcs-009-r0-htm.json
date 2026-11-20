@@ -1,0 +1,156 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-dcs-009-r0-htm",
+ "doc_number": "DCS-009-R0",
+ "title_en": "DCS-009-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/DCS-009-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Station"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:Distributing \n Cabinets System, \n QLI (8) Loop"
+  },
+  {
+   "type": "paragraph",
+   "text": "QAO (4) Channel (4 \n to 20 ma)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Analog Output card"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \noutlines the routine testing procedures P1, which must performed on a \nannually bases as \nindicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "DCS QAO Card Analog Output card ( 4- 20 mA) to \ncontrol valve"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng: \nAhmed Esmail Fouad, and eng. Khalil Awwad, \ntested at \n 3 Jan.2004, revised by EDEPC. quality control \neng: Abd El Monaem Al \nEmam, accepted by general director eng: Mohamed \nAbdel Ghafar, \napproved by eng: Yosry Mohamed Salama Head \nSector of El-Arish Power Station, and certified by eng. Aly Mostafa Allethy: EDEPCo. Head Sector of \ninspection & quality control."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, \nthe qualified maintenance staff should\n carry the suitable safety category,",
+    "Wear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc",
+    "Unit must be shutdown.",
+    "Wear Anti static hand probe to avoid electrical \n choke"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Digital multi-meter",
+    "Digital multi-meter",
+    "Hand held radio wave for communication",
+    "Screw driver, Nut driver, and isolating tape",
+    "ma source, ma Tester.",
+    "Antistatic vacuum cleaner for dust cleaning",
+    "Antistatic vacuum cleaner for dust cleaning"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Steps to Prepare for Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material and manufactures manual.",
+    "Open DPU cabinet.",
+    "Using cabinet termination identify the location for the desired \n QAO card."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Start Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Using cabinet termination list for each card identify the two O/P wires for \n the 2nd channel.",
+    "Using the screw driver to remove this two wires and isolate with tape.",
+    "Connect the m A tester leads to the 1st channel.",
+    "From CCR give command 0%, 25%, 50%, 75%, 100% which equals 4m A ,8m A , 12m A \n , 16m A and 20m A .",
+    "Compare the command from CCR using radio with the mA reading.",
+    "If the reading is OK or within the range ( + 0.01 mA ), repeat steps 1 \n to 5 for the another 3 channels.",
+    "If any reading for any channel in CCR not correct replace the card."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Return Card to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the m a tester..",
+    "Reconnect the O/P to terminal strip.",
+    "Close the cabinet.",
+    "Place a copy of test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Card \nDesignation: Tested by: \nTest Date: \nSignature:"
+  },
+  {
+   "type": "heading",
+   "level": 6,
+   "text": "General Director Approval"
+  },
+  {
+   "type": "paragraph",
+   "text": "Name: \n Signature: \n Date:"
+  }
+ ],
+ "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Distributing \n Cabinets System, \n QLI (8) Loop\nQAO (4) Channel (4 \n to 20 ma)\nAnalog Output card\nIntroduction\nThis document \noutlines the routine testing procedures P1, which must performed on a \nannually bases as \nindicated by Y1 in the title block.\nDCS QAO Card Analog Output card ( 4- 20 mA) to \ncontrol valve\nThe first draft initiated by eng: \nAhmed Esmail Fouad, and eng. Khalil Awwad, \ntested at \n 3 Jan.2004, revised by EDEPC. quality control \neng: Abd El Monaem Al \nEmam, accepted by general director eng: Mohamed \nAbdel Ghafar, \napproved by eng: Yosry Mohamed Salama Head \nSector of El-Arish Power Station, and certified by eng. Aly Mostafa Allethy: EDEPCo. Head Sector of \ninspection & quality control.\nSafety Precautions\nA work permit must be issued, \nthe qualified maintenance staff should\n carry the suitable safety category,\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nUnit must be shutdown.\nWear Anti static hand probe to avoid electrical \n choke\nTools and Equipment\nDigital multi-meter\nDigital multi-meter\nHand held radio wave for communication\nScrew driver, Nut driver, and isolating tape\nma source, ma Tester.\nAntistatic vacuum cleaner for dust cleaning\nAntistatic vacuum cleaner for dust cleaning\nWork to be Carried Out\nSteps to Prepare for Test\nReview technical reference material and manufactures manual.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired \n QAO card.\nStart Test\nUsing cabinet termination list for each card identify the two O/P wires for \n the 2nd channel.\nUsing the screw driver to remove this two wires and isolate with tape.\nConnect the m A tester leads to the 1st channel.\nFrom CCR give command 0%, 25%, 50%, 75%, 100% which equals 4m A ,8m A , 12m A \n , 16m A and 20m A .\nCompare the command from CCR using radio with the mA reading.\nIf the reading is OK or within the range ( + 0.01 mA ), repeat steps 1 \n to 5 for the another 3 channels.\nIf any reading for any channel in CCR not correct replace the card.\nReturn Card to Service\nRemove the m a tester..\nReconnect the O/P to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nLocation: Card \nDesignation: Tested by: \nTest Date: \nSignature:\nGeneral Director Approval\nName: \n Signature: \n Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../Instr+control/graphics/DCS-009-01.jpg",
+   "alt": ""
+  }
+ ]
+}

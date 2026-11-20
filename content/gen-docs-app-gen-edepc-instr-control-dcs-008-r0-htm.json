@@ -1,0 +1,154 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-dcs-008-r0-htm",
+ "doc_number": "DCS-008-R0",
+ "title_en": "DCS-008-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/DCS-008-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Station"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:Distributing \n Cabinets System, \n QLI (8) Loop Interface, Analog (3 Input ,1Output )\n Digital (2Input , 2output)\n 7381A10 G03\n Westinghouse"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \noutlines the routine testing procedures P1, which must performed on a \nannually bases as \nindicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "DCS QLI Card Analog Input 3 channel (2,3,4) 4- \n20 mA ,Analog Output 1 channel (5) 4- 20 mA , 2 channel (0,1) digital Input, 2 \nchannel (6,7) digital Output."
+  },
+  {
+   "type": "heading",
+   "level": 5,
+   "text": "NOTE: The digital \ninput /output channel can not be tested in our station because it is Not used , \nThe analog input /output used for position feedback and command for control \nvalves ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, \nthe qualified maintenance staff should\n carry the suitable safety category,",
+    "Wear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc",
+    "Wear anti static hand probe to avoid electrical \n choke",
+    "Unit must be shutdown."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Digital multi-meter",
+    "Digital multi-meter",
+    "Hand held radio wave for communication",
+    "ma source, ma Tester.",
+    "Screw driver, Nut driver, and isolating tape",
+    "Antistatic vacuum cleaner for dust cleaning",
+    "Antistatic vacuum cleaner for dust cleaning"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Steps to Prepare for Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material and manufactures manual.",
+    "Open DPU cabinet.",
+    "Using cabinet termination identify the location for the desired QLI card."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Start Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Using cabinet termination list for each card identify the two I/P wires for \n the 2nd channel.",
+    "Using the screw driver to remove these two wires and isolate with tape.",
+    "Connect the m a leads to the 1st channel.",
+    "Inject 4 m A,8 m A,12 m A,16 m A and 20 m A according to 0 %,25 %,50 %,75% and \n 100% .",
+    "Compare the tester reading using radio with the reading in the central control \n room ( CCR) .",
+    "If the reading is OK or within the range ( +0.01m a), repeat steps 1 \n to 5 for channels 3,4 .",
+    "Using cabinet termination list identify the 2 output wires for channel 5 .",
+    "Using the screw driver remove this tow wires and isolate with tape.",
+    "Connect the m A tester leads to channel 5 .",
+    "From CCR give command 0%, 25%, 50%, 75%, 100% which equals 4m A ,8m A , 12m A \n , 16m A and 20m A .",
+    "Compare the tester reading using radio with the reading in the central control \n room (CCR) .",
+    "If any reading for any channel in CCR not correct replace the card."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Return Card to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the m a tester..",
+    "Reconnect the wires to terminal strip.",
+    "Close the cabinet.",
+    "Place a copy of test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Card \nDesignation: Tested by: \nTest Date: \nSignature:"
+  },
+  {
+   "type": "heading",
+   "level": 6,
+   "text": "General Director Approval:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Name: \n Signature: \n Date:"
+  }
+ ],
+ "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Distributing \n Cabinets System, \n QLI (8) Loop Interface, Analog (3 Input ,1Output )\n Digital (2Input , 2output)\n 7381A10 G03\n Westinghouse\nIntroduction\nThis document \noutlines the routine testing procedures P1, which must performed on a \nannually bases as \nindicated by Y1 in the title block.\nDCS QLI Card Analog Input 3 channel (2,3,4) 4- \n20 mA ,Analog Output 1 channel (5) 4- 20 mA , 2 channel (0,1) digital Input, 2 \nchannel (6,7) digital Output.\nNOTE: The digital \ninput /output channel can not be tested in our station because it is Not used , \nThe analog input /output used for position feedback and command for control \nvalves .\nSafety Precautions\nA work permit must be issued, \nthe qualified maintenance staff should\n carry the suitable safety category,\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nWear anti static hand probe to avoid electrical \n choke\nUnit must be shutdown.\nTools and Equipment\nDigital multi-meter\nDigital multi-meter\nHand held radio wave for communication\nma source, ma Tester.\nScrew driver, Nut driver, and isolating tape\nAntistatic vacuum cleaner for dust cleaning\nAntistatic vacuum cleaner for dust cleaning\nWork to be Carried Out\nSteps to Prepare for Test\nReview technical reference material and manufactures manual.\nOpen DPU cabinet.\nUsing cabinet termination identify the location for the desired QLI card.\nStart Test\nUsing cabinet termination list for each card identify the two I/P wires for \n the 2nd channel.\nUsing the screw driver to remove these two wires and isolate with tape.\nConnect the m a leads to the 1st channel.\nInject 4 m A,8 m A,12 m A,16 m A and 20 m A according to 0 %,25 %,50 %,75% and \n 100% .\nCompare the tester reading using radio with the reading in the central control \n room ( CCR) .\nIf the reading is OK or within the range ( +0.01m a), repeat steps 1 \n to 5 for channels 3,4 .\nUsing cabinet termination list identify the 2 output wires for channel 5 .\nUsing the screw driver remove this tow wires and isolate with tape.\nConnect the m A tester leads to channel 5 .\nFrom CCR give command 0%, 25%, 50%, 75%, 100% which equals 4m A ,8m A , 12m A \n , 16m A and 20m A .\nCompare the tester reading using radio with the reading in the central control \n room (CCR) .\nIf any reading for any channel in CCR not correct replace the card.\nReturn Card to Service\nRemove the m a tester..\nReconnect the wires to terminal strip.\nClose the cabinet.\nPlace a copy of test result in the field maintenance file.\nLocation: Card \nDesignation: Tested by: \nTest Date: \nSignature:\nGeneral Director Approval:\nName: \n Signature: \n Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../Instr+control/graphics/DCS-008-01.jpg",
+   "alt": ""
+  }
+ ]
+}

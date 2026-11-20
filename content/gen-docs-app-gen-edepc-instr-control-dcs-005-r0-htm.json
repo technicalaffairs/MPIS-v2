@@ -1,0 +1,250 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-dcs-005-r0-htm",
+ "doc_number": "DCS-005-R0",
+ "title_en": "dcs-005-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/dcs-005-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Station"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:Distributing Cabinets \n System DSC Cards:"
+  },
+  {
+   "type": "paragraph",
+   "text": "PCU 11, PCU12, PCU13, PCU14, PCU15, PCU16, PCU17, PCU18, \n PCU31, PCU32,"
+  },
+  {
+   "type": "paragraph",
+   "text": "PCU33, PCU34, PCU35, PCU41 INFI 90 Bailey \n (USA)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Document No: \n DCS-005-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: Ayon Moussa PS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: \n APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedure:Card Testing \n Procedures (P1 - D1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \noutlines the routine check I1 , which must performed on a daily bases as \nindicated by D1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "(PCU): \n Process Control Unit"
+  },
+  {
+   "type": "paragraph",
+   "text": "These \n cabinets contains the following type of cards:"
+  },
+  {
+   "type": "paragraph",
+   "text": "MFP:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi \n function processor"
+  },
+  {
+   "type": "paragraph",
+   "text": "NIS:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Network interface"
+  },
+  {
+   "type": "paragraph",
+   "text": "NPM:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Network processor module"
+  },
+  {
+   "type": "paragraph",
+   "text": "MFC:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi \n function controller"
+  },
+  {
+   "type": "paragraph",
+   "text": "Each \n previous module card has an indication lamp at the top"
+  },
+  {
+   "type": "paragraph",
+   "text": "At normal \n operation to be green light when the module card main or redundancy"
+  },
+  {
+   "type": "paragraph",
+   "text": "At fault \n to be red light when the module card main or redundancy each previous module \n card have 8 small red indication lamb in the module card front."
+  },
+  {
+   "type": "list",
+   "items": [
+    "At fault \n to be red light when the module card main or redundancy each previous module \n card have 8 small red indication lamb in the module card front."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The \n daily task for I & C engineers is monitoring DSC for Boiler to ensure on \n the normal operation"
+  },
+  {
+   "type": "paragraph",
+   "text": "If there \n is an alarm you must open a work order and follow the steps stated at work to \n be carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first \n draft initiated by eng: Gad El Mawla M. Abdel Rahman, reviewed by eng Mahmoud \n Ahmed Mahmoud, field tested by Mohamed Atta Farg at 11 May 2003, revised \n by EDEPC quality control eng: Abd El Monaem Al Emam, accepted by general \n director eng: Tarek Youssf, approved by eng: Mekhaael Gorge Habashi Sector \n inspector of Ayoun Moussa Power Station, and certified by eng. Aly Mostafa \n Allethy: EDEPCo. Head Sector of Inspection and quality control"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work \n permit must be issued, the qualified maintenance staff \n should carry the suitable safety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence \n with caution marks surrounding the work area is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear your \n safety helmet, safety shoes, eye glass, nose mouth \"dust cover\" .... etc"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear anti static hand probe to avoid electrical \n choke"
+  },
+  {
+   "type": "paragraph",
+   "text": "The unit in service."
+  },
+  {
+   "type": "list",
+   "items": [
+    "The unit in service."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Digital \n multi-meter"
+  },
+  {
+   "type": "paragraph",
+   "text": "Hand \n held radio wave for communication"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Hand \n held radio wave for communication"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried \nOut"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the fixed alarm at control room by I&C \n engineer or by maintenance request from operation department."
+  },
+  {
+   "type": "paragraph",
+   "text": "By \n DCS System information, I&C engineer will defined the kind of problem \n & which cabinet, and which module card cause the problem at Card its self \n or software or at the field"
+  },
+  {
+   "type": "list",
+   "items": [
+    "By \n DCS System information, I&C engineer will defined the kind of problem \n & which cabinet, and which module card cause the problem at Card its self \n or software or at the field"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "When \n (NPM & NIS) at main operation the 8 indication lamp to be count from 8 to \n 1 by flash red light."
+  },
+  {
+   "type": "paragraph",
+   "text": "When \n (NPM & NIS) at redundancy the indication lamp to be (OFF) except \n indication lamp (7&8) to be fixed red light"
+  },
+  {
+   "type": "list",
+   "items": [
+    "When \n (NPM & NIS) at redundancy the indication lamp to be (OFF) except \n indication lamp (7&8) to be fixed red light"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "When \n (MFP&MFC) at main operation the indication lamp to be (OFF) except the \n indication lamp (7&8) to be fixed red light."
+  },
+  {
+   "type": "paragraph",
+   "text": "When (MFP \n & MFC) at redundancy the indication lamp to be (OFF) except the indication \n lamp (7)"
+  },
+  {
+   "type": "paragraph",
+   "text": "If \n the module card (MFP-NIS-NPM & MFC) have trouble the moduel have facility \n of (hard ware or soft ware) reset"
+  },
+  {
+   "type": "paragraph",
+   "text": "If \n the reset (hard ware or software) successful it is OK"
+  },
+  {
+   "type": "paragraph",
+   "text": "If \n the reset (hard ware or soft ware) not successful, this means the problem in \n moduel card it self the you have to change the moduel card"
+  },
+  {
+   "type": "list",
+   "items": [
+    "If \n the reset (hard ware or soft ware) not successful, this means the problem in \n moduel card it self the you have to change the moduel card"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Card \nDesignation: Test \nDate: \nTested \nby: \nSignature:"
+  }
+ ],
+ "text": "Power \n Station\nTechnical Procedure\nEquipment:Distributing Cabinets \n System DSC Cards:\nPCU 11, PCU12, PCU13, PCU14, PCU15, PCU16, PCU17, PCU18, \n PCU31, PCU32,\nPCU33, PCU34, PCU35, PCU41 INFI 90 Bailey \n (USA)\nDocument No: \n DCS-005-r0\nIssued to: Ayon Moussa PS\nStatus: \n APPROVED\nProcedure:Card Testing \n Procedures (P1 - D1)\nIntroduction\nThis document \noutlines the routine check I1 , which must performed on a daily bases as \nindicated by D1 in the title block.\n(PCU): \n Process Control Unit\nThese \n cabinets contains the following type of cards:\nMFP:\nMulti \n function processor\nNIS:\nNetwork interface\nNPM:\nNetwork processor module\nMFC:\nMulti \n function controller\nEach \n previous module card has an indication lamp at the top\nAt normal \n operation to be green light when the module card main or redundancy\nAt fault \n to be red light when the module card main or redundancy each previous module \n card have 8 small red indication lamb in the module card front.\nAt fault \n to be red light when the module card main or redundancy each previous module \n card have 8 small red indication lamb in the module card front.\nThe \n daily task for I & C engineers is monitoring DSC for Boiler to ensure on \n the normal operation\nIf there \n is an alarm you must open a work order and follow the steps stated at work to \n be carried out\nThe first \n draft initiated by eng: Gad El Mawla M. Abdel Rahman, reviewed by eng Mahmoud \n Ahmed Mahmoud, field tested by Mohamed Atta Farg at 11 May 2003, revised \n by EDEPC quality control eng: Abd El Monaem Al Emam, accepted by general \n director eng: Tarek Youssf, approved by eng: Mekhaael Gorge Habashi Sector \n inspector of Ayoun Moussa Power Station, and certified by eng. Aly Mostafa \n Allethy: EDEPCo. Head Sector of Inspection and quality control\nSafety Precautions\nA work \n permit must be issued, the qualified maintenance staff \n should carry the suitable safety category,\nSafety fence \n with caution marks surrounding the work area is required.\nWear your \n safety helmet, safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nWear anti static hand probe to avoid electrical \n choke\nThe unit in service.\nThe unit in service.\nTools and Equipment\nDigital \n multi-meter\nHand \n held radio wave for communication\nHand \n held radio wave for communication\nWork to be Carried \nOut\nCheck the fixed alarm at control room by I&C \n engineer or by maintenance request from operation department.\nBy \n DCS System information, I&C engineer will defined the kind of problem \n & which cabinet, and which module card cause the problem at Card its self \n or software or at the field\nBy \n DCS System information, I&C engineer will defined the kind of problem \n & which cabinet, and which module card cause the problem at Card its self \n or software or at the field\nWhen \n (NPM & NIS) at main operation the 8 indication lamp to be count from 8 to \n 1 by flash red light.\nWhen \n (NPM & NIS) at redundancy the indication lamp to be (OFF) except \n indication lamp (7&8) to be fixed red light\nWhen \n (NPM & NIS) at redundancy the indication lamp to be (OFF) except \n indication lamp (7&8) to be fixed red light\nWhen \n (MFP&MFC) at main operation the indication lamp to be (OFF) except the \n indication lamp (7&8) to be fixed red light.\nWhen (MFP \n & MFC) at redundancy the indication lamp to be (OFF) except the indication \n lamp (7)\nIf \n the module card (MFP-NIS-NPM & MFC) have trouble the moduel have facility \n of (hard ware or soft ware) reset\nIf \n the reset (hard ware or software) successful it is OK\nIf \n the reset (hard ware or soft ware) not successful, this means the problem in \n moduel card it self the you have to change the moduel card\nIf \n the reset (hard ware or soft ware) not successful, this means the problem in \n moduel card it self the you have to change the moduel card\nLocation: Card \nDesignation: Test \nDate: \nTested \nby: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

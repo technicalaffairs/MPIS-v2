@@ -1,0 +1,254 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-cwc-001-r0-htm",
+ "doc_number": "CWC-001-R0",
+ "title_en": "CWC-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/CWC-001-r0.HTM",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Document No: CWC-001-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: Ataka PS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedure:\n Equipment Inspection \n (I1- Y1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved Date: \n 07 Sep 2006"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: \n Sep 2011"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines \n the equipment inspection checklist I1, to be carried out on an annually \n bases as indicated by Y1 in the above title block"
+  },
+  {
+   "type": "paragraph",
+   "text": "Condensate water \n circuit function is to transfer the main condensate water from main condenser to \n feed water Tank (FWT) via Four LP Heaters."
+  },
+  {
+   "type": "paragraph",
+   "text": "Condensate water \n circuit consists of two condensate pumps with 6KV motor drives, open loop \n control & closed loop control for controlling condensate water circuit."
+  },
+  {
+   "type": "paragraph",
+   "text": "Open loop control \n (sequence control), which have releases and protections for sequence control \n group control (GC) & Sub-Group (SGC) and 6KV motor drive and its condensate \n Pumps."
+  },
+  {
+   "type": "paragraph",
+   "text": "Closed loop \n circuits function to control the main condenser level closed loop, feed water \n tank level closed loop, and minimum flow closed loop to protect the condensate \n pumps."
+  },
+  {
+   "type": "paragraph",
+   "text": "Main condenser \n level closed loop to control the condenser level via the main condensate \n control valve (from condenser to FWT)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Feed water tank \n level closed loop to controls FWT level via make up control valves (from FWT \n to make up tanks)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Minimum flow \n closed loop to control the minimum flow via minimum flow control valve (from \n discharge pumps to main condenser)."
+  },
+  {
+   "type": "paragraph",
+   "text": "The closed loop \n circuits components are Level/Flow transmitters, control system (DCS), and \n motorized control valves (Siemens actuator)."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by \n eng. Mahmoud Saad Eldin Bakry, tested by eng Waleed Wahba, revised by quality control eng. Abdel-Moniem \n AlEmam EDEPC, accepted by I&C general manager eng. Ibrahim El-Sayed, and \n approved by eng. Mokhtar Abd El-Latef Mady: Head Sector of Ataka PS."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \n accepted by eng. Samir Abdel Gilil EDEPC \n inspection & quality control \n general director & MPIS coordinator, and \n certified by accountant Mahmoud Soliman EDEPC \n planning. & financial predecting and \n supervisor of inspection & quality control's head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work order must be issued; the maintenance staff should carry \nthe suitable safety ID category.",
+    "Wear safety and healthy equipment as safety helmet, safety shoes, anti static \n hand probe to avoid electrical shock etc",
+    "Safety fence with caution marks surrounding the work area is required",
+    "The unit must be out of service"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Digital multi-meter.",
+    "Screw driver kit, manual tools",
+    "Oil spry cleaner & Teflon roll.",
+    "Pneumatic Calibrator",
+    "External 24VDC power supply.",
+    "Current injector"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to \nbe Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "For testing of condensate system perform the following:"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "First check releases and protections of the \n condensate pumps"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Second check closed loop circuits of \n main condenser level, FWT level, and minimum flow"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain a copy of individual devices (level/flow transmitters, limit switches, \n flow switches, temperature switch, RTD, diff. pressure switch, position transmitter, \n motorize valve (Auma actuator), motorize control valves (Siemens \n actuator), power adjuster) maintenance manuals.",
+    "Obtain a copy of SAMA diagram of condensate water control system."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "First \nReleases and Protections of the Condensate Pumps"
+  },
+  {
+   "type": "paragraph",
+   "text": "Releases and Protections of \nSequence Control (GC & SGC) Condensate Pumps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the Flow Transmitter of the main condensate water according to approved MPIS, and Checks low / high flow limit values setting. This Check needs the \n unit out service.",
+    "Check the Limit Switches of close signal for HP Stop for valves and LP Bypass \n stop valves according to approved MPIS. This check needs the unit out service.",
+    "Check the Level Transmitter of the main condenser according to approved MPIS, \n and check high level limit value setting. This check needs the unit out \n service.",
+    "Check Limit Switches of close signal for Min. flow control valve main \n condensate water and level control valve of main condenser level."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Releases and Protections of 6KV \nMotor Drive for Condensate Pumps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the motor cooling water flow switch according to approved MPIS, and \n check signal F<Min. on the monitoring system",
+    "Check the Limit Switches of downstream and upstream valves according to \n approved MPIS.",
+    "Check the Limit Switches of discharge first stage and suction second stage \n valves according to approved MPIS.",
+    "Check the motorize (auma drive) valve stroke of Polishing unit bypass \n according to approved MPIS.",
+    "Check the thrust bearing temperature switch according to approved MPIS, and \n check signal T>Max. on the monitoring system.",
+    "Check RTD of slot winding temperature of 6KV motor according to approved MPIS \n and check the limit values temperature setting.",
+    "Check the diff. Pressure switch of condensate filter pump according to \n approved MPIS, and check signal DP>Max. on the monitoring system.",
+    "Check the Level Switches of condenser level according to approved MPIS."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Second Closed Loop Circuit of \nCondensate Water Circuit"
+  },
+  {
+   "type": "paragraph",
+   "text": "Closed Loop Circuit of Main \nCondenser"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the level transmitter according to approved MPIS.",
+    "Check the devices termination and cable termination of control valve (Siemens \n actuator).",
+    "Check the power adjuster (24VDC/380VAC).",
+    "Check the open/close limit switches, open/close torque switches and check of \n its mechanism.",
+    "Check the power supply position transmitter check of its mechanism.",
+    "Check the stroke of control valve and adjust position \n transmitter according to stroke."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Closed Loop Circuit of FWT \nLevel"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the level transmitter according to approved MPIS.",
+    "Check the devices termination and cable termination of control valve (Siemens \n actuator).",
+    "Check the power adjuster (24VDC/380VAC).",
+    "Check the open/close limit switches, open/close torque switches and check of \n its mechanism.",
+    "Check the power supply position transmitter check of its mechanism.",
+    "Check the stroke of control valve and adjust position transmitter according \n to stroke."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Closed Loop Circuit of Minimum \nFlow"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the flow transmitter according to approved MPIS.",
+    "Check the devices termination and cable termination of control valve (Siemens \n actuator).",
+    "Check the power adjuster (24VDC/380VAC).",
+    "Check the open/close limit switches, open/close torque switches and check of \n its mechanism.",
+    "Check the power supply position transmitter check of its mechanism.",
+    "Check the stroke of control valve and adjust position transmitter according \n to stroke."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nCircuit Code: Checked \nby: \nDate: \nSignature:"
+  }
+ ],
+ "text": "Power Stations\nTechnical Procedure\nDocument No: CWC-001-r0\nIssued to: Ataka PS\nStatus: APPROVED\nProcedure:\n Equipment Inspection \n (I1- Y1)\nApproved Date: \n 07 Sep 2006\nDate to be Reviewed: \n Sep 2011\nIntroduction\nThis document outlines \n the equipment inspection checklist I1, to be carried out on an annually \n bases as indicated by Y1 in the above title block\nCondensate water \n circuit function is to transfer the main condensate water from main condenser to \n feed water Tank (FWT) via Four LP Heaters.\nCondensate water \n circuit consists of two condensate pumps with 6KV motor drives, open loop \n control & closed loop control for controlling condensate water circuit.\nOpen loop control \n (sequence control), which have releases and protections for sequence control \n group control (GC) & Sub-Group (SGC) and 6KV motor drive and its condensate \n Pumps.\nClosed loop \n circuits function to control the main condenser level closed loop, feed water \n tank level closed loop, and minimum flow closed loop to protect the condensate \n pumps.\nMain condenser \n level closed loop to control the condenser level via the main condensate \n control valve (from condenser to FWT).\nFeed water tank \n level closed loop to controls FWT level via make up control valves (from FWT \n to make up tanks).\nMinimum flow \n closed loop to control the minimum flow via minimum flow control valve (from \n discharge pumps to main condenser).\nThe closed loop \n circuits components are Level/Flow transmitters, control system (DCS), and \n motorized control valves (Siemens actuator).\nThe first draft initiated by \n eng. Mahmoud Saad Eldin Bakry, tested by eng Waleed Wahba, revised by quality control eng. Abdel-Moniem \n AlEmam EDEPC, accepted by I&C general manager eng. Ibrahim El-Sayed, and \n approved by eng. Mokhtar Abd El-Latef Mady: Head Sector of Ataka PS.\nThis document \n accepted by eng. Samir Abdel Gilil EDEPC \n inspection & quality control \n general director & MPIS coordinator, and \n certified by accountant Mahmoud Soliman EDEPC \n planning. & financial predecting and \n supervisor of inspection & quality control's head sector.\nSafety \nPrecautions\nA work order must be issued; the maintenance staff should carry \nthe suitable safety ID category.\nWear safety and healthy equipment as safety helmet, safety shoes, anti static \n hand probe to avoid electrical shock etc\nSafety fence with caution marks surrounding the work area is required\nThe unit must be out of service\nTools \nand Equipment\nDigital multi-meter.\nScrew driver kit, manual tools\nOil spry cleaner & Teflon roll.\nPneumatic Calibrator\nExternal 24VDC power supply.\nCurrent injector\nWork to \nbe Carried Out\nFor testing of condensate system perform the following:\nFirst check releases and protections of the \n condensate pumps\nSecond check closed loop circuits of \n main condenser level, FWT level, and minimum flow\nPreparation\nObtain a copy of individual devices (level/flow transmitters, limit switches, \n flow switches, temperature switch, RTD, diff. pressure switch, position transmitter, \n motorize valve (Auma actuator), motorize control valves (Siemens \n actuator), power adjuster) maintenance manuals.\nObtain a copy of SAMA diagram of condensate water control system.\nFirst \nReleases and Protections of the Condensate Pumps\nReleases and Protections of \nSequence Control (GC & SGC) Condensate Pumps\nCheck the Flow Transmitter of the main condensate water according to approved MPIS, and Checks low / high flow limit values setting. This Check needs the \n unit out service.\nCheck the Limit Switches of close signal for HP Stop for valves and LP Bypass \n stop valves according to approved MPIS. This check needs the unit out service.\nCheck the Level Transmitter of the main condenser according to approved MPIS, \n and check high level limit value setting. This check needs the unit out \n service.\nCheck Limit Switches of close signal for Min. flow control valve main \n condensate water and level control valve of main condenser level.\nReleases and Protections of 6KV \nMotor Drive for Condensate Pumps\nCheck the motor cooling water flow switch according to approved MPIS, and \n check signal F<Min. on the monitoring system\nCheck the Limit Switches of downstream and upstream valves according to \n approved MPIS.\nCheck the Limit Switches of discharge first stage and suction second stage \n valves according to approved MPIS.\nCheck the motorize (auma drive) valve stroke of Polishing unit bypass \n according to approved MPIS.\nCheck the thrust bearing temperature switch according to approved MPIS, and \n check signal T>Max. on the monitoring system.\nCheck RTD of slot winding temperature of 6KV motor according to approved MPIS \n and check the limit values temperature setting.\nCheck the diff. Pressure switch of condensate filter pump according to \n approved MPIS, and check signal DP>Max. on the monitoring system.\nCheck the Level Switches of condenser level according to approved MPIS.\nSecond Closed Loop Circuit of \nCondensate Water Circuit\nClosed Loop Circuit of Main \nCondenser\nCheck the level transmitter according to approved MPIS.\nCheck the devices termination and cable termination of control valve (Siemens \n actuator).\nCheck the power adjuster (24VDC/380VAC).\nCheck the open/close limit switches, open/close torque switches and check of \n its mechanism.\nCheck the power supply position transmitter check of its mechanism.\nCheck the stroke of control valve and adjust position \n transmitter according to stroke.\nClosed Loop Circuit of FWT \nLevel\nCheck the level transmitter according to approved MPIS.\nCheck the devices termination and cable termination of control valve (Siemens \n actuator).\nCheck the power adjuster (24VDC/380VAC).\nCheck the open/close limit switches, open/close torque switches and check of \n its mechanism.\nCheck the power supply position transmitter check of its mechanism.\nCheck the stroke of control valve and adjust position transmitter according \n to stroke.\nClosed Loop Circuit of Minimum \nFlow\nCheck the flow transmitter according to approved MPIS.\nCheck the devices termination and cable termination of control valve (Siemens \n actuator).\nCheck the power adjuster (24VDC/380VAC).\nCheck the open/close limit switches, open/close torque switches and check of \n its mechanism.\nCheck the power supply position transmitter check of its mechanism.\nCheck the stroke of control valve and adjust position transmitter according \n to stroke.\nLocation: \nCircuit Code: Checked \nby: \nDate: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/cwc-001-01.jpg",
+   "alt": ""
+  }
+ ]
+}

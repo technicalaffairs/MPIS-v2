@@ -1,0 +1,172 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-dcs-015-r0-htm",
+ "doc_number": "DCS-015-R0",
+ "title_en": "dcs-015-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/dcs-015-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Station"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n Distributed Control System (DPU)\n MSQ, MSE, MME, MHC, QAW, QAV, QRT, \n QAO, QCI, QRO, QBE Cards, \n Westinghouse"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the \ntesting procedure P1, which must performed on an annually bases as indicted by \nY1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated \nby eng. Mohamed Abu Elkheir, reviewed by eng. Aly Abd Elglil Abd Elqader, tested by eng.\nMohamed Younes at 10 Jan 2005, revised by EDEPC quality control eng. Abd \nElmenem Alemam, accepted by general director eng. Adel Alkelany, and approved by \neng. Mohamed Hamouda Elsarage Head Sector of Damietta CCPS."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document is certified by eng. Samir \n Abd El Gilil EDEPC MPIS coordinator, and certified by accountant; \n Mahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control head sector."
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "The Distributed Processing \nUnit (DPU) \nconsist of:"
+  },
+  {
+   "type": "paragraph",
+   "text": "MSQ \ncard, controller card, Part # (7381A29G05)"
+  },
+  {
+   "type": "paragraph",
+   "text": "MSE card,\nmemory \ncard, Part # (7381A83G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "MME card, memory \ncard, Part # (7381A34G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "MHC \ncard, data high way controller card, Part # (7381A93G01)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QAW \ncard, analog input card, (4-20mA), Part # (7379A31G04)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QAV \ncard, analog input card, (-50,+50mV), Part # (7379A21G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QRT \ncard, analog input card, (0-33mV), Part # (7379A62G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QAO \ncard, analog output card, (4-20mA), Part # (2840A21G01)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QCI \ncard, digital input card, Part # (7379A08G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QRO \ncard, digital output card, Part # (2840A18G01)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QBE \ncard, bus extender card, Part # (7379A84G01)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multibus power supply, input 220V AC, output: + 12VDC, + 5VDC, PART # (1D5482G06)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Q-Line\npower supply, input 220V AC, output: + 13VDC, PART # (405A662G02)."
+  },
+  {
+   "type": "paragraph",
+   "text": "8 cooling fan, 230 VAC, 14 watt, Part # \n(2450D25G03)."
+  },
+  {
+   "type": "paragraph",
+   "text": "24 VDC transmitter\npower supply."
+  },
+  {
+   "type": "paragraph",
+   "text": "The cabinets receive the signals from sensors at the field (unit) then change it \nto ma and mv signals proportion with the actual values at field, then transmit \nit to displayed at monitors to process it according to the operation \ncircumstances."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the qualified maintenance staff should carry the suitable safety category",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Wear appropriate \n personal protective safety equipment as safety shoes\n and helmet"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Screw \n driver, nut driver, air blower.",
+    "Spray video \n cleaner.",
+    "Ground \n strap.",
+    "Card \n extractor.",
+    "Digital \n voltmeter (DVM)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the back up software for the cabinet.",
+    "Check the operation of net work card function \n (data highway controller card (MHC card) by using (system highway errors) \n diagram.",
+    "Clean all cabinet cards from dust by blower.",
+    "Check the cabinet status by using (system \n status display) diagram.",
+    "Check the multibus power supply of primary \n controller (+ 12V DC , 5V DC) .",
+    "Check the transmitter power supply (24V DC) \n status by leds on the front of P.S.",
+    "Check Q-line power supply (13V DC) status by \n using system status display diagram.",
+    "Check the operation of cabinet cooling fan.",
+    "Check the multibus power supply of Secondary \n controller (+12V DC , 5V DC) .",
+    "Check both of primary and backup Controller \n data base by using configuration diagram on the operator station."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nDCS \nDesignation: Tested by: Signature: \nTest Date:"
+  }
+ ],
+ "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\n Distributed Control System (DPU)\n MSQ, MSE, MME, MHC, QAW, QAV, QRT, \n QAO, QCI, QRO, QBE Cards, \n Westinghouse\nIntroduction\nThis document outlines the \ntesting procedure P1, which must performed on an annually bases as indicted by \nY1 in the title block.\nThe first draft initiated \nby eng. Mohamed Abu Elkheir, reviewed by eng. Aly Abd Elglil Abd Elqader, tested by eng.\nMohamed Younes at 10 Jan 2005, revised by EDEPC quality control eng. Abd \nElmenem Alemam, accepted by general director eng. Adel Alkelany, and approved by \neng. Mohamed Hamouda Elsarage Head Sector of Damietta CCPS.\nThis document is certified by eng. Samir \n Abd El Gilil EDEPC MPIS coordinator, and certified by accountant; \n Mahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control head sector.\nThe Distributed Processing \nUnit (DPU) \nconsist of:\nMSQ \ncard, controller card, Part # (7381A29G05)\nMSE card,\nmemory \ncard, Part # (7381A83G02)\nMME card, memory \ncard, Part # (7381A34G02)\nMHC \ncard, data high way controller card, Part # (7381A93G01)\nQAW \ncard, analog input card, (4-20mA), Part # (7379A31G04)\nQAV \ncard, analog input card, (-50,+50mV), Part # (7379A21G02)\nQRT \ncard, analog input card, (0-33mV), Part # (7379A62G02)\nQAO \ncard, analog output card, (4-20mA), Part # (2840A21G01)\nQCI \ncard, digital input card, Part # (7379A08G02)\nQRO \ncard, digital output card, Part # (2840A18G01)\nQBE \ncard, bus extender card, Part # (7379A84G01)\nMultibus power supply, input 220V AC, output: + 12VDC, + 5VDC, PART # (1D5482G06).\nQ-Line\npower supply, input 220V AC, output: + 13VDC, PART # (405A662G02).\n8 cooling fan, 230 VAC, 14 watt, Part # \n(2450D25G03).\n24 VDC transmitter\npower supply.\nThe cabinets receive the signals from sensors at the field (unit) then change it \nto ma and mv signals proportion with the actual values at field, then transmit \nit to displayed at monitors to process it according to the operation \ncircumstances.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety category\nSafety fence with caution marks surrounding the work area is required.\nWear appropriate \n personal protective safety equipment as safety shoes\n and helmet\nTools and Equipment\nScrew \n driver, nut driver, air blower.\nSpray video \n cleaner.\nGround \n strap.\nCard \n extractor.\nDigital \n voltmeter (DVM).\nWork to be Carried Out\nCheck the back up software for the cabinet.\nCheck the operation of net work card function \n (data highway controller card (MHC card) by using (system highway errors) \n diagram.\nClean all cabinet cards from dust by blower.\nCheck the cabinet status by using (system \n status display) diagram.\nCheck the multibus power supply of primary \n controller (+ 12V DC , 5V DC) .\nCheck the transmitter power supply (24V DC) \n status by leds on the front of P.S.\nCheck Q-line power supply (13V DC) status by \n using system status display diagram.\nCheck the operation of cabinet cooling fan.\nCheck the multibus power supply of Secondary \n controller (+12V DC , 5V DC) .\nCheck both of primary and backup Controller \n data base by using configuration diagram on the operator station.\nLocation: \nDCS \nDesignation: Tested by: Signature: \nTest Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

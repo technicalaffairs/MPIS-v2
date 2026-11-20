@@ -1,0 +1,155 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-dcs-018-r0-htm",
+ "doc_number": "DCS-018-R0",
+ "title_en": "DCS-018-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/EDEPC/Instr+control/DCS-018-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n Distributed Control System"
+  },
+  {
+   "type": "paragraph",
+   "text": "VAX \n Highway Interface (VXI)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection \nI1, to be performed on an annually bases as indicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The function of the VXI is to get and print the data of any unit operation \nwithin a certain time to serve fault analysis for example."
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "The VAX highway \ninterface (VXI) Consists of:"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "MSP card, controller card, \npart # (772B388G59) ."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "MUA card, interface card, \npart # (7381A06G01)."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "MHC card, data highway \ncontroller card, part # (7381A93G01)"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "MMI power supply,input:220VAC, \noutput :+12VDC ,+ 5VDC), part # (4D33613G02)."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "2 Cooling fan, 230VAC, 14 \nwatt, part # (2450D25G03) ."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Mohamed Abu Elkheir at 03 March 2005, \ntested by eng. Mohamed Younes at 09 March 2005, revised by quality control eng. Abdel \nMenem AL Emam at EDEPC accepted by general director, eng. Adel Elkelany, and \napproved by eng . Mohamed Hamouda EL Sarage Head Sector of .Damietta CCPS."
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "This document \naccepted by\neng. Samir Abdel Gilil; EDEPC MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "A work permit must be issued \nand the qualified maintenance staff should carry the suitable safety category"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "The online maintenance work on \nthe VXI cabinet must not affect the operation status of the plant."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Make backup for software \nbefore work if it is required."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued \nand the qualified maintenance staff should carry the suitable safety category",
+    "Personal \npratective equipment must be used ground strap \n...etc.",
+    "The online maintenance work on \nthe VXI cabinet must not affect the operation status of the plant.",
+    "Make backup for software \nbefore work if it is required.",
+    "Disconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Suitable tool set, \n screw driver, nut driver, and air blower \n (Vacuum Cleaner)",
+    "Spray video cleaner",
+    "Ground strap, Card extractor",
+    "Digital voltmeter DVM model Fluk 87"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the operation of network card function \n [data highway controller card (MHC)] using system highway errors diagram.",
+    "Clean all cabinet card from dust by blower.",
+    "Check the cabinet status by using (system \n status display) diagram.",
+    "Check the power supply status by \n LEDS \n on front of power supply:",
+    "If three LEDS for output voltage \n (-12,+12,+5VDC) \n ON that is means the power supply is ok .",
+    "If any LED of three output voltage LEDS OFF that is means the power supply failed and must be replaced",
+    "Check the operation of cabinet cooling fan \n for noise and temperature."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
+  }
+ ],
+ "text": "Power Stations\nTechnical Procedure\nEquipment\n Distributed Control System\nVAX \n Highway Interface (VXI)\nIntroduction\nThis document outlines the equipment inspection \nI1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe function of the VXI is to get and print the data of any unit operation \nwithin a certain time to serve fault analysis for example.\nThe VAX highway \ninterface (VXI) Consists of:\nMSP card, controller card, \npart # (772B388G59) .\nMUA card, interface card, \npart # (7381A06G01).\nMHC card, data highway \ncontroller card, part # (7381A93G01)\nMMI power supply,input:220VAC, \noutput :+12VDC ,+ 5VDC), part # (4D33613G02).\n2 Cooling fan, 230VAC, 14 \nwatt, part # (2450D25G03) .\nThe first draft initiated by eng. Mohamed Abu Elkheir at 03 March 2005, \ntested by eng. Mohamed Younes at 09 March 2005, revised by quality control eng. Abdel \nMenem AL Emam at EDEPC accepted by general director, eng. Adel Elkelany, and \napproved by eng . Mohamed Hamouda EL Sarage Head Sector of .Damietta CCPS.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nSafety Precautions\nA work permit must be issued \nand the qualified maintenance staff should carry the suitable safety category\nThe online maintenance work on \nthe VXI cabinet must not affect the operation status of the plant.\nMake backup for software \nbefore work if it is required.\nA work permit must be issued \nand the qualified maintenance staff should carry the suitable safety category\nPersonal \npratective equipment must be used ground strap \n...etc.\nThe online maintenance work on \nthe VXI cabinet must not affect the operation status of the plant.\nMake backup for software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nTools and Equipment\nSuitable tool set, \n screw driver, nut driver, and air blower \n (Vacuum Cleaner)\nSpray video cleaner\nGround strap, Card extractor\nDigital voltmeter DVM model Fluk 87\nWork to be Carried Out\nCheck the operation of network card function \n [data highway controller card (MHC)] using system highway errors diagram.\nClean all cabinet card from dust by blower.\nCheck the cabinet status by using (system \n status display) diagram.\nCheck the power supply status by \n LEDS \n on front of power supply:\nIf three LEDS for output voltage \n (-12,+12,+5VDC) \n ON that is means the power supply is ok .\nIf any LED of three output voltage LEDS OFF that is means the power supply failed and must be replaced\nCheck the operation of cabinet cooling fan \n for noise and temperature.\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}
