@@ -1341,45 +1341,63 @@ def load_i18n(root):
     return out
 
 
-CSS = """/* MPIS v2 — modern, responsive, RTL/LTR, dark/light, print-friendly */
-:root{--bg:#f6f7f9;--surface:#fff;--surface-2:#eef1f4;--text:#16202b;--muted:#5b6b7a;
---border:#dbe2e8;--accent:#0b5cad;--accent-2:#0e7a5f;--warn:#8a5a00;--warn-bg:#fff4d6;
---radius:14px;--shadow:0 2px 10px rgba(16,32,43,.08)}
-[data-theme="dark"]{--bg:#10161d;--surface:#18222c;--surface-2:#212e3a;--text:#e8eef3;
---muted:#9fb0bf;--border:#2c3c4a;--accent:#6db3ff;--accent-2:#4cc2a0;--warn:#ffcf5c;--warn-bg:#3a2f10;
---shadow:0 2px 12px rgba(0,0,0,.35)}
+CSS = """/* MPIS v2 — professional ministry portal: navy + gold, clean rows, photo banner */
+:root{--bg:#f4f6f8;--surface:#fff;--surface-2:#eef1f4;--text:#1c2733;--muted:#5c6b7a;
+--border:#d8dee4;--navy:#0a2a4a;--navy-2:#123a5e;--gold:#b98a1d;--accent:#0a2a4a;--accent-2:#0e7a5f;--warn:#8a5a00;--warn-bg:#fff4d6;
+--radius:10px;--shadow:0 1px 4px rgba(10,42,74,.08)}
+[data-theme="dark"]{--bg:#0f161d;--surface:#18222c;--surface-2:#212e3a;--text:#e8eef3;
+--muted:#9fb0bf;--border:#2c3c4a;--navy:#d8e6f5;--navy-2:#b8cfe6;--gold:#d4af37;--accent:#6db3ff;--accent-2:#4cc2a0;--warn:#ffcf5c;--warn-bg:#3a2f10;
+--shadow:0 1px 6px rgba(0,0,0,.35)}
 *{box-sizing:border-box}
 body{margin:0;font-family:"Segoe UI",Tahoma,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
-[dir="rtl"] body{font-family:"Segoe UI",Tahoma,Arial,sans-serif}
 a{color:var(--accent)}
-.wrap{max-width:1060px;margin:0 auto;padding:0 18px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 .topbar{background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
-.topbar .wrap{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:10px;padding-bottom:10px}
-.brand{font-weight:700;font-size:1.15rem;text-decoration:none;color:var(--text)}
-.brand{display:flex;align-items:center;gap:8px}
-.brand-logo{height:34px;width:34px;border-radius:50%;object-fit:cover}
-.hero-logo{height:140px;width:140px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 12px;background:#fff}
-.hero-banner{width:100%;height:300px;object-fit:cover;display:block;border-radius:var(--radius);margin-bottom:16px}
+.topbar .wrap{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.brand{font-weight:700;font-size:1.2rem;text-decoration:none;color:var(--navy)}
+.brand{display:flex;align-items:center;gap:10px}
+.brand small{display:block;font-size:.68rem;font-weight:400;color:var(--muted);line-height:1.3}
+.brand-logo{height:42px;width:42px;border-radius:50%;object-fit:cover}
 .controls{display:flex;gap:8px;flex-wrap:wrap}
-button,.btn{cursor:pointer;border:1px solid var(--border);background:var(--surface-2);color:var(--text);
-border-radius:999px;padding:7px 14px;font-size:.9rem;text-decoration:none;display:inline-block}
-button:hover,.btn:hover{border-color:var(--accent)}
-.hero{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;border-radius:var(--radius);text-align:center;
-padding:28px;margin:22px 0;box-shadow:var(--shadow)}
-.hero h1{margin:.2em 0;font-size:1.7rem;line-height:1.4}
-.hero p{margin:.3em 0;opacity:.95}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0}
-.stat{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;text-align:center;box-shadow:var(--shadow)}
-.stat b{display:block;font-size:1.6rem}
-.stat span{color:var(--muted);font-size:.9rem}
-.searchbox{display:flex;gap:8px;margin:18px 0}
-.searchbox input{flex:1;padding:12px 16px;border:1px solid var(--border);border-radius:999px;font-size:1rem;background:var(--surface);color:var(--text)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+button,.btn{cursor:pointer;border:1px solid var(--border);background:var(--surface);color:var(--text);
+border-radius:8px;padding:7px 14px;font-size:.9rem;text-decoration:none;display:inline-block}
+button:hover,.btn:hover{border-color:var(--navy)}
+.hero{position:relative;overflow:hidden;border-radius:0 0 12px 12px;margin:0 0 8px;box-shadow:var(--shadow)}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,42,74,.82),rgba(10,42,74,.68))}
+.hero-inner{position:relative;z-index:1;text-align:center;color:#fff;padding:44px 24px 40px}
+.hero-logo{height:110px;width:110px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 14px;background:#fff;border:4px solid rgba(255,255,255,.85)}
+.hero-inner h1{margin:.2em 0;font-size:1.8rem;line-height:1.4;color:#fff}
+.hero-inner p{margin:.3em 0;opacity:.95}
+.hero-inner .org{font-size:.95rem;opacity:.9}
+.hero-inner .sub{color:#e8d9a8;font-weight:600;letter-spacing:.4px}
+.stats{display:flex;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin:18px 0;box-shadow:var(--shadow);overflow:hidden}
+.stat{flex:1;padding:16px 10px;text-align:center}
+.stat+.stat{border-inline-start:1px solid var(--border)}
+.stat b{display:block;font-size:1.7rem;color:var(--navy);line-height:1.2}
+.stat span{color:var(--muted);font-size:.88rem}
+.search-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow);margin:-34px 0 8px;position:relative;z-index:2}
+.searchbox{display:flex;gap:8px}
+.searchbox input{flex:1;padding:12px 16px;border:1px solid var(--border);border-radius:8px;font-size:1rem;background:var(--surface);color:var(--text)}
+.searchbox button{background:var(--navy);color:#fff;border-color:var(--navy)}
+main h2{color:var(--navy);font-size:1.25rem;border-inline-start:4px solid var(--gold);padding-inline-start:12px;margin:28px 0 10px}
+.cat-list{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+.cat-row{display:flex;align-items:center;gap:14px;padding:12px 4px;border-bottom:1px solid var(--border);text-decoration:none;color:var(--text)}
+.cat-row:hover{background:var(--surface-2)}
+.cat-row img{width:72px;height:72px;border-radius:8px;object-fit:cover;flex:none}
+.cat-row h3{margin:0;font-size:1rem;color:var(--navy)}
+.cat-row p{margin:2px 0 0;color:var(--muted);font-size:.85rem}
+.cat-row .count{margin-inline-start:auto;color:var(--muted);font-size:.85rem;white-space:nowrap}
+.feat-list{list-style:none;padding:0;margin:0}
+.feat-list li{border-bottom:1px solid var(--border);padding:10px 4px}
+.feat-list li a{text-decoration:none;display:flex;gap:12px;align-items:baseline}
+.feat-no{background:var(--navy);color:#fff;border-radius:6px;padding:3px 10px;font-weight:700;font-size:.9rem;flex:none}
+[data-theme="dark"] .feat-no{background:#2c4a68}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);text-decoration:none;color:var(--text);display:block}
 .card-img{width:100%;height:150px;object-fit:cover;display:block;border-radius:8px;margin-bottom:10px;background:var(--surface-muted)}
-.cat-head{display:flex;gap:16px;align-items:center;margin:8px 0 16px}
-.cat-head img{width:220px;height:140px;object-fit:cover;border-radius:8px;flex:none}
-.cat-head h1{margin:0}
+.cat-head{display:flex;gap:18px;align-items:center;margin:18px 0 8px;padding-bottom:14px;border-bottom:2px solid var(--gold)}
+.cat-head img{width:180px;height:120px;object-fit:cover;border-radius:8px;flex:none}
+.cat-head h1{margin:0;color:var(--navy)}
 .card:hover{border-color:var(--accent)}
 .card h3{margin:.1em 0;font-size:1.05rem}
 .card p{margin:.2em 0;color:var(--muted);font-size:.88rem}
@@ -1398,12 +1416,12 @@ padding:28px;margin:22px 0;box-shadow:var(--shadow)}
 .doc-body ul{padding-inline-start:22px}
 .doc-body img{max-width:100%;height:auto;border:1px solid var(--border);border-radius:8px}
 .page-label{color:var(--muted);font-size:.85rem;border-top:1px dashed var(--border);padding-top:10px;margin-top:18px}
-footer{color:var(--muted);font-size:.88rem;padding:26px 0 40px}
+footer{color:var(--muted);font-size:.88rem;padding:26px 0 40px;border-top:1px solid var(--border);margin-top:30px}
 .results{list-style:none;padding:0}
 .results li{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 14px;margin:8px 0}
 .results li a{text-decoration:none;font-weight:600}
 @media print{.topbar,.controls,.searchbox,.noprint{display:none!important}body{background:#fff;color:#000}.doc-body{box-shadow:none;border:none}}
-@media (max-width:640px){.hero h1{font-size:1.3rem}.doc-body{padding:14px}}
+@media (max-width:640px){.hero-inner h1{font-size:1.3rem}.doc-body{padding:14px}.cat-list{grid-template-columns:1fr}.cat-head{flex-direction:column;align-items:flex-start}.cat-head img{width:100%;height:160px}}
 """
 
 JS = """// MPIS v2 — theme, language UI strings, live search
@@ -1711,25 +1729,26 @@ def build(content_dir, dist_dir, v1_root):
     total = len(manifest)
     both = sum(1 for m in manifest if m.get("translation_status") == "available")
     missing = sum(1 for m in manifest if m.get("translation_status") == "missing")
-    def _cat_cover(cat):
+    def _cat_thumb(cat):
         hero = COVERS.get(cat)
         if hero and os.path.isfile(os.path.join(_covers_src, hero)):
-            return f"<img class='card-img' src='assets/covers/{hero}' alt='' loading='lazy'>"
+            return f"assets/covers/{hero}"
         got = cat_img.get(cat)
         if got:
-            return f"<img class='card-img' src='assets/img/{got[1]}' alt='' loading='lazy'>"
-        return "<img class='card-img' src='assets/logo.png' alt='' loading='lazy'>"
+            return f"assets/img/{got[1]}"
+        return "assets/logo.png"
     cat_cards = "".join(
-        f"<a class='card' href='categories/{esc(cat)}.html'>{_cat_cover(cat)}<h3 data-cat data-cat-ar='{esc(CATEGORY_AR.get(cat, cat))}' data-cat-en='{esc(CATEGORY_EN.get(cat, cat))}'>{esc(CATEGORY_AR.get(cat, cat))}</h3>"
-        f"<p>{esc(cat)} — {len(ms)} <span data-i18n='documents'>documents</span></p></a>"
+        f"<a class='cat-row' href='categories/{esc(cat)}.html'><img src='{_cat_thumb(cat)}' alt='' loading='lazy'>"
+        f"<div><h3 data-cat data-cat-ar='{esc(CATEGORY_AR.get(cat, cat))}' data-cat-en='{esc(CATEGORY_EN.get(cat, cat))}'>{esc(CATEGORY_AR.get(cat, cat))}</h3>"
+        f"<p>{esc(cat)}</p></div><span class='count'>{len(ms)} <span data-i18n='documents'>documents</span></span></a>"
         for cat, ms in sorted(cats.items(), key=lambda kv: -len(kv[1])))
     feat = ""
     for no in FEATURED:
         ms = [m for m in manifest if (m.get("doc_number") or "").upper().startswith(no)]
         en = next((m for m in ms if m["language"] == "en"), None)
         if en:
-            feat += (f"<a class='card' href='docs/{en['id']}.html'><img class='card-img' src='assets/covers/transformer-testing.jpg' alt='' loading='lazy' onerror=\"this.style.display='none'\"><h3>{esc(no)}</h3>"
-                     f"<p>{esc((en.get('title_en') or '')[:120])}</p></a>")
+            feat += (f"<li><a href='docs/{en['id']}.html'><span class='feat-no'>{esc(no)}</span>"
+                     f"<span>{esc((en.get('title_en') or '')[:140])}</span></a></li>")
     with open(os.path.join(dist_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(f"""<!DOCTYPE html><html lang="ar" dir="rtl" data-theme="light">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1737,26 +1756,26 @@ def build(content_dir, dist_dir, v1_root):
 <link rel="stylesheet" href="assets/style.css">
 <script>window.MPIS_I18N={json.dumps(i18n, ensure_ascii=False)};</script>
 <script src="assets/app.js" defer></script></head>
-<body><header class="topbar"><div class="wrap"><a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Ministry of Electricity logo"> MPIS v2</a>
+<body><header class="topbar"><div class="wrap"><a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Ministry of Electricity logo"><span>MPIS v2<small>Ministry of Electricity &amp; Renewable Energy</small></span></a>
 <div class="controls"><button id="langBtn" type="button">English</button>
 <button id="themeBtn" type="button">🌙</button></div></div></header>
 <main class="wrap">
-<section class="hero"><img class="hero-banner" src="assets/covers/transformers.jpg" alt="Power transformer in a substation"><img class="hero-logo" src="assets/logo.png" alt="Ministry of Electricity and Renewable Energy logo"><p><span data-i18n="org_line1">{esc(i18n['ar']['org_line1'])}</span> — <span data-i18n="org_line2">{esc(i18n['ar']['org_line2'])}</span></p>
+<section class="hero"><img class="hero-bg" src="assets/covers/transformers.jpg" alt="Power transformer in a substation"><div class="hero-inner"><img class="hero-logo" src="assets/logo.png" alt="Ministry of Electricity and Renewable Energy logo"><p class="org"><span data-i18n="org_line1">{esc(i18n['ar']['org_line1'])}</span> — <span data-i18n="org_line2">{esc(i18n['ar']['org_line2'])}</span></p>
 <h1 data-i18n="site_title">نظام معلومات إجراءات الصيانة</h1>
-<p>Maintenance Procedure Information System — MPIS</p>
-<p data-i18n="org_line3">{esc(i18n['ar']['org_line3'])}</p></section>
+<p class="sub">Maintenance Procedure Information System — MPIS</p>
+<p class="org" data-i18n="org_line3">{esc(i18n['ar']['org_line3'])}</p></div></section>
 <div class="stats">
 <div class="stat"><b>{total}</b><span data-i18n="stats_docs">documents</span></div>
 <div class="stat"><b>{len(cats)}</b><span data-i18n="stats_categories">categories</span></div>
 <div class="stat"><b>{both}</b><span data-i18n="stats_translated">documents with both languages</span></div>
 </div>
-<div class="searchbox"><input id="q" type="search" data-i18n-ph="search_placeholder" placeholder="ابحث في المستندات…">
-<button type="button" onclick="doSearch(document.getElementById('q').value)" data-i18n="search_button">بحث</button></div>
+<div class="search-card"><div class="searchbox"><input id="q" type="search" data-i18n-ph="search_placeholder" placeholder="ابحث في المستندات…">
+<button type="button" onclick="doSearch(document.getElementById('q').value)" data-i18n="search_button">بحث</button></div></div>
 <div id="results"></div>
 <h2 data-i18n="featured_tests">إجراءات اختبار المحولات — المترجمة بالكامل</h2>
-<div class="grid">{feat}</div>
+<ul class="feat-list">{feat}</ul>
 <h2 data-i18n="categories">الأقسام</h2>
-<div class="grid">{cat_cards}</div>
+<div class="cat-list">{cat_cards}</div>
 <h2 data-i18n="about_migration">عن هذه النسخة</h2>
 <p data-i18n="about_migration_text"></p>
 <p><a href="docs/arabic-web-ar-appr-docs-ar-ad-subst-ad-ss-docs-new-translated-t-022-r0a-htm.html">T-022-r0a (Arabic)</a> ·
