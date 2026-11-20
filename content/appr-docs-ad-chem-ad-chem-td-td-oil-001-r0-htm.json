@@ -147,10 +147,22 @@
    "type": "table",
    "rows": [
     [
+     "Test",
+     "Reference",
+     "Unit",
+     "Limit Value \n according to IEEE"
+    ],
+    [
      "Dielectric Strength",
      "ASTMD877-87(89)(7)",
      "KV, minimum",
      "30"
+    ],
+    [
+     "Power Factor",
+     "ASTMD924-82(90)(9)",
+     "25oC, \n % max.\n 100oC, % max.",
+     "0.05\n 0.30"
     ],
     [
      "Interfacial Tension",
@@ -194,43 +206,31 @@
    "text": "Test Limits-New Oil Received in New Equipment"
   },
   {
-   "type": "paragraph",
-   "text": "0.04 in gap:"
-  },
-  {
-   "type": "paragraph",
-   "text": "20"
-  },
-  {
-   "type": "paragraph",
-   "text": "30"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
+     "Test",
      "Method",
-     "",
-     ""
+     "Units",
+     "Value for Voltage Class"
     ],
     [
-     "",
+     "<69 KV",
      "69-230KV"
     ],
     [
-     "",
+     "Dielectric Strength",
      "ASTM D1816-84(90)(17)",
-     "KVminimum",
-     "",
-     ""
+     "KVminimum \n 0.04 in gap:\n 0.08 in gap:",
+     "20 \n 40",
+     "30\n 48"
     ],
     [
-     "",
+     "Dielectric Strength",
      "ASTM D877-87(89)(7)",
-     "",
-     "",
-     ""
+     "KV, minimum",
+     "30",
+     "30"
     ],
     [
      "Visual Examination",
@@ -238,6 +238,34 @@
      "",
      "Bright and clear",
      "Bright and clear"
+    ],
+    [
+     "Power \n Factor",
+     "ASTM D924-82(90)(11)",
+     "25oC,%maximum\n 100oC,%maximum",
+     "0.15\n 1.50",
+     "0.10\n 1.00"
+    ],
+    [
+     "Interfacial \n Tension",
+     "ASTM D971-91(10)",
+     "mN/m, minimum",
+     "35",
+     "35"
+    ],
+    [
+     "Color",
+     "ASTM D1500-91(14)",
+     "ASTM units",
+     "1.0",
+     "1.0"
+    ],
+    [
+     "Water Content",
+     "ASTM D1533-88(16)",
+     "ppm, maximum",
+     "25",
+     "20"
     ]
    ],
    "truncated_rows": 0
@@ -254,10 +282,58 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Test",
+     "Method",
+     "Units",
+     "Limit Value according to IEEE"
+    ],
+    [
+     "Dielectric Strength",
+     "ASTM D1816-84(90)(17)",
+     "0.04 in gap:\n 0.08 in gap:\n KV min.",
+     "30\n 60"
+    ],
+    [
+     "Dielectric Strength",
+     "ASTM D877-87(89)(7)",
+     "kV min.",
+     "30"
+    ],
+    [
+     "Moisture Content",
+     "ASTM D1533-88(16)",
+     "ppm max.",
+     "10"
+    ],
+    [
+     "Gas Content",
+     "ASTM D3612-90 (28)\n ASTM D2945-90(24)",
+     "% max.",
+     "0.5*"
+    ],
+    [
+     "Interfacial Tension",
+     "ASTM D971-91(10)",
+     "mN/m min.",
+     "40"
+    ],
+    [
+     "Color",
+     "ASTM D1500-91(14)",
+     "ASTM units max.",
+     "0.5"
+    ],
+    [
+     "Power Factor",
+     "ASTM D924-82(90)(9)",
+     "25oC, % max. \n 100oC, % max.",
+     "0.05\n 0.30"
+    ],
+    [
+     "Acid Number",
      "ASTM \n D974-87(11)",
-     "",
-     ""
+     "mg KOH/g max.",
+     "0.03"
     ]
    ],
    "truncated_rows": 0
@@ -278,6 +354,12 @@
    "type": "table",
    "rows": [
     [
+     "Test",
+     "Method",
+     "Units",
+     "Limit Value\n according to IEEE"
+    ],
+    [
      "Dielectric Strength",
      "ASTM D1816-84(90)(17)",
      "0.04 in gap\n 0.08 in gap:\n KV min",
@@ -290,10 +372,28 @@
      "30"
     ],
     [
-     "",
+     "Power \n Factor",
+     "ASTM \n D924-82(90)(9)",
+     "% maximum, 25oC",
+     "0.10"
+    ],
+    [
+     "Moisture \n Content",
      "ASTM D1533-88(16)",
-     "",
-     ""
+     "ppm maximum",
+     "20"
+    ],
+    [
+     "Interfacial \n Tension",
+     "ASTM D971-91(10)",
+     "mN/m minimum",
+     "35"
+    ],
+    [
+     "Color",
+     "ASTM D1500-91(14)",
+     "ASTM units maximum",
+     "1.0"
     ],
     [
      "Visual Examination",
@@ -313,14 +413,10 @@
    "text": "ASTM D3487 Functional Properties \nRequirements"
   },
   {
-   "type": "paragraph",
-   "text": "Chemical:"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
+     "Property",
      "Limit",
      "ASTM Test \n Method"
     ],
@@ -347,7 +443,7 @@
      "D93"
     ],
     [
-     "",
+     "Interfacial tension at 25oC. \n min dynes/cm",
      "40B",
      "40B",
      "D 971"
@@ -365,19 +461,19 @@
      ""
     ],
     [
-     "",
+     "100oC",
      "3.0(36)c",
      "3.0(36)c",
      "D445"
     ],
     [
-     "",
+     "40oC",
      "12.0(66)c",
      "12.0(66)c",
      ""
     ],
     [
-     "",
+     "0oC",
      "76.0(350)",
      "760.(350)",
      ""
@@ -389,13 +485,19 @@
      ""
     ],
     [
+     "Power factor, at 60 Hz max.",
      "",
+     "",
+     ""
+    ],
+    [
+     "25oC",
      "0.05",
      "0.05",
      "D924"
     ],
     [
-     "",
+     "100oC",
      "0.30",
      "0.30",
      ""
@@ -414,12 +516,18 @@
     ],
     [
      "VDE electrodes, min. KV \n either at 0.04-in(1.02- mm) gap, or at 0.08-in. (2.04-mm) gap",
-     "28D",
-     "28D",
+     "28D\n 56D",
+     "28D\n 56D",
      "D1816"
     ],
     [
+     "Chemical:",
      "",
+     "",
+     ""
+    ],
+    [
+     "Corrosive Sulfur",
      "non corrosive",
      "non corrosive",
      "D1275"
@@ -448,26 +556,10 @@
    "text": "IEC \n(1982 ) Specification for inhibited \nmineral insulating oils"
   },
   {
-   "type": "paragraph",
-   "text": "Breakdown voltage:"
-  },
-  {
-   "type": "paragraph",
-   "text": "as delivered, kv"
-  },
-  {
-   "type": "paragraph",
-   "text": "7.12"
-  },
-  {
-   "type": "paragraph",
-   "text": "≥\n 30"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
+     "Property",
      "Test method,\n sub-clause of \n Section One of\n this publication",
      "Permissible limiting values\n for measured characteristics"
     ],
@@ -477,9 +569,14 @@
      "Class IIIA"
     ],
     [
+     "Breakdown voltage:\n as delivered, kv\n after treatment, kv",
+     "7.12",
+     "≥\n 30\n ≥ 50 \n a)"
+    ],
+    [
      "Water Content, mg/kg",
-     "",
-     ""
+     "7.9",
+     "b)"
     ]
    ],
    "truncated_rows": 0
@@ -501,18 +598,10 @@
    "text": "BS 148 (1984) uninhibited mineral insulating oils"
   },
   {
-   "type": "paragraph",
-   "text": "7.7"
-  },
-  {
-   "type": "paragraph",
-   "text": "< 0.03"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
+     "Property",
      "Test method",
      "Limiting values for measured \n characteristics"
     ],
@@ -520,6 +609,11 @@
      "Class I",
      "Class II",
      "Class III"
+    ],
+    [
+     "Neutralization Value, mg KOH per g of oil",
+     "7.7",
+     "< 0.03"
     ]
    ],
    "truncated_rows": 0
@@ -527,9 +621,27 @@
   {
    "type": "paragraph",
    "text": "Note: \nFollowing is an example of a typical ASTM code number D924-82(90)(9) derived \nfrom this method:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Designation Number",
+     "Year of Original / Last Revision Adoption",
+     "Year of Last Reapproval",
+     "Refer to Test Reference Number in ASTM"
+    ],
+    [
+     "D924",
+     "82",
+     "(90)",
+     "(9)"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "\nIntroduction\nThe reliable performance of oil in insulation\nsystems depends upon basic characteristics of the oil that can affect overall\napparatus characteristics.\nCertain qualities of installing oil used in\nelectrical equipment must be maintained if the oil is to perform its multiple\nrole of electrical insulation, arc quenching, and heat transfer properly. It \nmust flow readily at low temperatures and have high flash and fire points for \nsafety. Its dielectric losses should not become excessive. It should not be \nallowed to become so deteriorated or contaminated that it adversely affects \nother materials in the apparatus or that its circulation through the apparatus \nis impaired.\nInsulating oil that is received in electrical equipment will exhibit slightly \ndifferent characteristics from new oil received in bulk, which has not been in \ncontact with apparatus construction materials.\nThe purpose of this \nguide is to assist the power equipment operator in evaluating the serviceability \nof new, unused oil being received in equipment; oil as received for filling new \nequipment at the installation site; and oil as processed into equipment. It also \nassists the operator in maintaining the oil in serviceable condition.\nInformation\nNew Oil Properties\nNew mineral \ninsulating oils must conform to certain qualifying functional requirements \nlisted in Table1of ASTM D3487-88(27) these characteristics can be degraded at \nthe point of receipt of the oil, depending on the condition and use of dedicated \nshipping.\nNewly refined oil have \nmany characteristics related to their chemical and molecular structure that are \ndirectly measured by test methods such as viscosity, flash and fire points, pour \nand aniline points, density, oxidation stability, gassing tendency, and \ndielectric strength. Many characteristics not necessarily related to the \nfunctional performance of mineral insulating oil are evaluated because of their \nsensitivity to contamination in the oil: interfacial tension, power factor, \ndielectric breakdown voltage, color, water content, and neutralization number.\nTest Limits: New Oil Properties- As Received from The Refinery\nWhen mineral-insulating oil is received in the field for\ninstallation in electrical equipment, it should be checked for certain key\nvalues that may be affected by shipping and storage. These are given in Table1.\nInsulating oil is ordinarily shipped in three types of\ncontainers: Drums, Tank trailers, and Rail cars. Rail cars are usually under the\ncontrol of the refiner and dedicated to insulating oil shipment, so they tend to\nbe the cleanest. Drums are the least desirable method of insulated oil transport\nbut may be necessary for small purchases. Drums should be stored under cover to\nprevent contamination by moisture. Before processing, it is necessary to check\nthe quality of the 0il in each drum or after blending of the oil in a large\ntank.\nThe check test to determine that the electrical characteristics\nhave not been impaired during transit or storage. Table 1. Contains a list of\nrecommended acceptance tests for shipments of mineral insulating oil as received\nfrom refinery.\nNew Oil Properties- Oil Received in New Equipment\nMineral \ninsulating oil that has been shipped within new equipment from the manufacturing \nplant may be evaluated by sampling the equipment at the job site. Note that the \nnew oil characteristics will have changed the oil has been filtered and dried at \nthe factory.\nThe \nmoisture content is lower and the more sensitive dielectric breakdown test is a \nrecommended test, ASTM D1816-84 (90)[17], other properties which are sensitive \nto certain dissolved or particulate contaminates will reflect the exposure to \nnormal equipment construction material of insulating oil in equipment.\nRecommended test limits for mineral insulating oil received\nin new equipment are given in Table 2.\nNew Oil Properties- Before Entering into Equipment, 345 kV and\nAbove\nPrior to filling equipment run at 345 kV and above with\nmineral insulating oil, manufacturers generally require rigorous processing of\nthe oil to remove all moisture, particulate matter, and gases that dissolved\nduring shipment.\nTable 3. Contains test limits that insure that the oil is\ndried contains no excess particulate matter and contains a minimum amount of\ndissolved gasses. The object is to fill high-voltage equipment with oil contain\nthe least amount of particulate material and water, oil sample are taken before\noil enters the electric equipment.\nNew Oil Properties- After Processing and \nFilling Equipment\nPrior to Energizing Equipment\nWhen mineral-insulating oil is received in bulk shipping\ncontainers it is processed according to the instructions of the manufacturer and\nthen introduced into the equipment.\nTable 4. Gives test limits for mineral insulating oil in\nequipment after processing and standing time before energizing.\nSampling\nAccurate sampling methods are extremely important due their\neffect on the reliability of the test results for the sampled material. In order\nto minimize the possibility of obtaining a non-representative sample the\nprocedures and precautions outlined in the latest revision of ASTM D923-91 [8]\nshould be followed.\nThe user should be cautioned that sampling equipment under\nnegative pressure (vacuum) might cause an air bubble to be drawn into the tank\nthis could possibly cause catastrophic dielectric failure (an explosion).\nDirectives\nNew mineral insulating oil must be analyzed before charged into \nequipment or before energizing the transformer to insure that it is agreed with \nthe recommendations in this guide. If the product standards given by the\nmanufacturer differ from recommendations in this guide the manufactures\ninstructions are to be given preference.\nTable 1\nTest limits for Shipments of New Mineral Insulating \nOil as Received from the Refinery\n\nTable 2\nTest Limits-New Oil Received in New Equipment\n0.04 in gap:\n20\n30\n\nTable 3\nTest Limits for New Oil Processed for \n Equipment, 345 kV Class and Above Prior to Filing\n\n*Unless a lower value is specified by the manufacturer.\nTable 4\nTest Limits for New Oil in Equipment, After Filing and Standing,\nImmediately Prior to Energizing:\n\nTABLE 5\nASTM D3487 Functional Properties \nRequirements\nChemical:\n\nB In certain sections of the \nUnited States and Canada. it is common practice to specify a lower or higher \npour point depending upon climatic conditions\nC At the temperatures \npreviously used for insulating oil viscosity determinations these values \ncorrespond to 3.1 cSt (36 SUS) at 210oF \n(98.9oC) \nand to 13.0 cSt (70 SUS) at 100oF \n(37.8oC)\nD These limits by Method D1816 are applicable only \nto new oil which has been filtered dehydrated and degassed.\nTABLE 6\nIEC \n(1982 ) Specification for inhibited \nmineral insulating oils\nBreakdown voltage:\nas delivered, kv\n7.12\n≥\n 30\n\na) This test is only \nrequired when the oil sample taken on delivery shows breakdown voltage less than \n30kv and it is desired to show that contaminants may be effectively removed by a \nrelatively mild treatment.\nb) No requirement for water \ncontent on delivery is included as it is usual in most applications to process \nthe oil before use. However, in some countries, it is usual for standards to \nspecify maximum water content on delivery, in this case the water content should \nbe less than 30 mg/kg in bulk delivery and less than 40 mg/kg in drum delivery.\nTABLE 7\nBS 148 (1984) uninhibited mineral insulating oils\n7.7\n< 0.03\n\nNote: \nFollowing is an example of a typical ASTM code number D924-82(90)(9) derived \nfrom this method:",
+ "text": "Chemical | Technical Directive\nIntroduction\nThe reliable performance of oil in insulation\nsystems depends upon basic characteristics of the oil that can affect overall\napparatus characteristics.\nCertain qualities of installing oil used in\nelectrical equipment must be maintained if the oil is to perform its multiple\nrole of electrical insulation, arc quenching, and heat transfer properly. It \nmust flow readily at low temperatures and have high flash and fire points for \nsafety. Its dielectric losses should not become excessive. It should not be \nallowed to become so deteriorated or contaminated that it adversely affects \nother materials in the apparatus or that its circulation through the apparatus \nis impaired.\nInsulating oil that is received in electrical equipment will exhibit slightly \ndifferent characteristics from new oil received in bulk, which has not been in \ncontact with apparatus construction materials.\nThe purpose of this \nguide is to assist the power equipment operator in evaluating the serviceability \nof new, unused oil being received in equipment; oil as received for filling new \nequipment at the installation site; and oil as processed into equipment. It also \nassists the operator in maintaining the oil in serviceable condition.\nInformation\nNew Oil Properties\nNew mineral \ninsulating oils must conform to certain qualifying functional requirements \nlisted in Table1of ASTM D3487-88(27) these characteristics can be degraded at \nthe point of receipt of the oil, depending on the condition and use of dedicated \nshipping.\nNewly refined oil have \nmany characteristics related to their chemical and molecular structure that are \ndirectly measured by test methods such as viscosity, flash and fire points, pour \nand aniline points, density, oxidation stability, gassing tendency, and \ndielectric strength. Many characteristics not necessarily related to the \nfunctional performance of mineral insulating oil are evaluated because of their \nsensitivity to contamination in the oil: interfacial tension, power factor, \ndielectric breakdown voltage, color, water content, and neutralization number.\nTest Limits: New Oil Properties- As Received from The Refinery\nWhen mineral-insulating oil is received in the field for\ninstallation in electrical equipment, it should be checked for certain key\nvalues that may be affected by shipping and storage. These are given in Table1.\nInsulating oil is ordinarily shipped in three types of\ncontainers: Drums, Tank trailers, and Rail cars. Rail cars are usually under the\ncontrol of the refiner and dedicated to insulating oil shipment, so they tend to\nbe the cleanest. Drums are the least desirable method of insulated oil transport\nbut may be necessary for small purchases. Drums should be stored under cover to\nprevent contamination by moisture. Before processing, it is necessary to check\nthe quality of the 0il in each drum or after blending of the oil in a large\ntank.\nThe check test to determine that the electrical characteristics\nhave not been impaired during transit or storage. Table 1. Contains a list of\nrecommended acceptance tests for shipments of mineral insulating oil as received\nfrom refinery.\nNew Oil Properties- Oil Received in New Equipment\nMineral \ninsulating oil that has been shipped within new equipment from the manufacturing \nplant may be evaluated by sampling the equipment at the job site. Note that the \nnew oil characteristics will have changed the oil has been filtered and dried at \nthe factory.\nThe \nmoisture content is lower and the more sensitive dielectric breakdown test is a \nrecommended test, ASTM D1816-84 (90)[17], other properties which are sensitive \nto certain dissolved or particulate contaminates will reflect the exposure to \nnormal equipment construction material of insulating oil in equipment.\nRecommended test limits for mineral insulating oil received\nin new equipment are given in Table 2.\nNew Oil Properties- Before Entering into Equipment, 345 kV and\nAbove\nPrior to filling equipment run at 345 kV and above with\nmineral insulating oil, manufacturers generally require rigorous processing of\nthe oil to remove all moisture, particulate matter, and gases that dissolved\nduring shipment.\nTable 3. Contains test limits that insure that the oil is\ndried contains no excess particulate matter and contains a minimum amount of\ndissolved gasses. The object is to fill high-voltage equipment with oil contain\nthe least amount of particulate material and water, oil sample are taken before\noil enters the electric equipment.\nNew Oil Properties- After Processing and \nFilling Equipment\nPrior to Energizing Equipment\nWhen mineral-insulating oil is received in bulk shipping\ncontainers it is processed according to the instructions of the manufacturer and\nthen introduced into the equipment.\nTable 4. Gives test limits for mineral insulating oil in\nequipment after processing and standing time before energizing.\nSampling\nAccurate sampling methods are extremely important due their\neffect on the reliability of the test results for the sampled material. In order\nto minimize the possibility of obtaining a non-representative sample the\nprocedures and precautions outlined in the latest revision of ASTM D923-91 [8]\nshould be followed.\nThe user should be cautioned that sampling equipment under\nnegative pressure (vacuum) might cause an air bubble to be drawn into the tank\nthis could possibly cause catastrophic dielectric failure (an explosion).\nDirectives\nNew mineral insulating oil must be analyzed before charged into \nequipment or before energizing the transformer to insure that it is agreed with \nthe recommendations in this guide. If the product standards given by the\nmanufacturer differ from recommendations in this guide the manufactures\ninstructions are to be given preference.\nTable 1\nTest limits for Shipments of New Mineral Insulating \nOil as Received from the Refinery\nTest | Reference | Unit | Limit Value \n according to IEEE\nDielectric Strength | ASTMD877-87(89)(7) | KV, minimum | 30\nPower Factor | ASTMD924-82(90)(9) | 25oC, \n % max.\n 100oC, % max. | 0.05\n 0.30\nInterfacial Tension | ASTM D971-91(10) | mN/m min. | 40\nColor | ASTM D1500-91(14) | ASTM units max. | 0.5\nAcid Number | ASTM D974-87(11) | mg KOH/g maximum | 0.03\nVisual Examination | ASTM D1524-84(15) |  | Bright and clear\nWater Content | ASTM D1533-88(16) | max. ppm | 35\nTable 2\nTest Limits-New Oil Received in New Equipment\nTest | Method | Units | Value for Voltage Class\n<69 KV | 69-230KV\nDielectric Strength | ASTM D1816-84(90)(17) | KVminimum \n 0.04 in gap:\n 0.08 in gap: | 20 \n 40 | 30\n 48\nDielectric Strength | ASTM D877-87(89)(7) | KV, minimum | 30 | 30\nVisual Examination | ASTM D1524-84(15) |  | Bright and clear | Bright and clear\nPower \n Factor | ASTM D924-82(90)(11) | 25oC,%maximum\n 100oC,%maximum | 0.15\n 1.50 | 0.10\n 1.00\nInterfacial \n Tension | ASTM D971-91(10) | mN/m, minimum | 35 | 35\nColor | ASTM D1500-91(14) | ASTM units | 1.0 | 1.0\nWater Content | ASTM D1533-88(16) | ppm, maximum | 25 | 20\nTable 3\nTest Limits for New Oil Processed for \n Equipment, 345 kV Class and Above Prior to Filing\nTest | Method | Units | Limit Value according to IEEE\nDielectric Strength | ASTM D1816-84(90)(17) | 0.04 in gap:\n 0.08 in gap:\n KV min. | 30\n 60\nDielectric Strength | ASTM D877-87(89)(7) | kV min. | 30\nMoisture Content | ASTM D1533-88(16) | ppm max. | 10\nGas Content | ASTM D3612-90 (28)\n ASTM D2945-90(24) | % max. | 0.5*\nInterfacial Tension | ASTM D971-91(10) | mN/m min. | 40\nColor | ASTM D1500-91(14) | ASTM units max. | 0.5\nPower Factor | ASTM D924-82(90)(9) | 25oC, % max. \n 100oC, % max. | 0.05\n 0.30\nAcid Number | ASTM \n D974-87(11) | mg KOH/g max. | 0.03\n*Unless a lower value is specified by the manufacturer.\nTable 4\nTest Limits for New Oil in Equipment, After Filing and Standing,\nImmediately Prior to Energizing:\nTest | Method | Units | Limit Value\n according to IEEE\nDielectric Strength | ASTM D1816-84(90)(17) | 0.04 in gap\n 0.08 in gap:\n KV min | 30\n 48\nDielectric Strength | ASTM D877-87(89)(7) | kV min. | 30\nPower \n Factor | ASTM \n D924-82(90)(9) | % maximum, 25oC | 0.10\nMoisture \n Content | ASTM D1533-88(16) | ppm maximum | 20\nInterfacial \n Tension | ASTM D971-91(10) | mN/m minimum | 35\nColor | ASTM D1500-91(14) | ASTM units maximum | 1.0\nVisual Examination | ASTM D1524-84(15) |  | Bright and clear\nTABLE 5\nASTM D3487 Functional Properties \nRequirements\nProperty | Limit | ASTM Test \n Method\nType I | Type II\nPhysical: |  |  | \nColor, max | 0.5 | 0.5 | D1500\nFlash point, min. oC | 145 | 145 | D93\nInterfacial tension at 25oC. \n min dynes/cm | 40B | 40B | D 971\nSpecific gravity. 15oC /15oC max. | 0.91 | 0.91 | D1298\nViscosity, max. cSt (SUS) at: |  |  | \n100oC | 3.0(36)c | 3.0(36)c | D445\n40oC | 12.0(66)c | 12.0(66)c | \n0oC | 76.0(350) | 760.(350) | \nElectrical : |  |  | \nPower factor, at 60 Hz max. |  |  | \n25oC | 0.05 | 0.05 | D924\n100oC | 0.30 | 0.30 | \nDielectric breakdown voltage \n at 60 Hz: |  |  | \nDisk electrodes, min. KV | 30 | 30 | D877\nVDE electrodes, min. KV \n either at 0.04-in(1.02- mm) gap, or at 0.08-in. (2.04-mm) gap | 28D\n 56D | 28D\n 56D | D1816\nChemical: |  |  | \nCorrosive Sulfur | non corrosive | non corrosive | D1275\nB In certain sections of the \nUnited States and Canada. it is common practice to specify a lower or higher \npour point depending upon climatic conditions\nC At the temperatures \npreviously used for insulating oil viscosity determinations these values \ncorrespond to 3.1 cSt (36 SUS) at 210oF \n(98.9oC) \nand to 13.0 cSt (70 SUS) at 100oF \n(37.8oC)\nD These limits by Method D1816 are applicable only \nto new oil which has been filtered dehydrated and degassed.\nTABLE 6\nIEC \n(1982 ) Specification for inhibited \nmineral insulating oils\nProperty | Test method,\n sub-clause of \n Section One of\n this publication | Permissible limiting values\n for measured characteristics\nClass IA | Class IIA | Class IIIA\nBreakdown voltage:\n as delivered, kv\n after treatment, kv | 7.12 | ≥\n 30\n ≥ 50 \n a)\nWater Content, mg/kg | 7.9 | b)\na) This test is only \nrequired when the oil sample taken on delivery shows breakdown voltage less than \n30kv and it is desired to show that contaminants may be effectively removed by a \nrelatively mild treatment.\nb) No requirement for water \ncontent on delivery is included as it is usual in most applications to process \nthe oil before use. However, in some countries, it is usual for standards to \nspecify maximum water content on delivery, in this case the water content should \nbe less than 30 mg/kg in bulk delivery and less than 40 mg/kg in drum delivery.\nTABLE 7\nBS 148 (1984) uninhibited mineral insulating oils\nProperty | Test method | Limiting values for measured \n characteristics\nClass I | Class II | Class III\nNeutralization Value, mg KOH per g of oil | 7.7 | < 0.03\nNote: \nFollowing is an example of a typical ASTM code number D924-82(90)(9) derived \nfrom this method:\nDesignation Number | Year of Original / Last Revision Adoption | Year of Last Reapproval | Refer to Test Reference Number in ASTM\nD924 | 82 | (90) | (9)",
  "text_truncated": false,
  "links": [],
  "images": [

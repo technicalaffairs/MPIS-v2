@@ -139,26 +139,24 @@
    "text": "Preparation of Sample"
   },
   {
-   "type": "list",
-   "items": [
-    "If \n they meet the criterion, use their average to determine the dielectric \n breakdown voltage of the sample but if they do not meet the criterion, make \n five additional breakdowns on the sample and use the average of all ten \n breakdowns as the dielectric breakdown voltage of the sample.",
-    "If the dielectric \n strength is above or below a specified level, only five breakdowns are \n required."
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "X = mean of the five individual values."
-  },
-  {
    "type": "table",
    "rows": [
     [
      "1.",
-     ""
+     "Apply the voltage and increase from zero at the rate of approximately \n 0.5 kv/s until breakdown occurs, as indicated be operation of the circuit- \n interrupting equipment record the value. Occasional \n momentary discharges may occur which do not result in operation of the \n interrupting equipment : these shall be disregarded."
+    ],
+    [
+     "2.",
+     "Determine \n the value of the dielectric breakdown voltage of an oil \n by making five breakdowns on one filling of \n the cup. Examine the five breakdowns for statistical \n consistency. \n If \n they meet the criterion, use their average to determine the dielectric \n breakdown voltage of the sample but if they do not meet the criterion, make \n five additional breakdowns on the sample and use the average of all ten \n breakdowns as the dielectric breakdown voltage of the sample.\n If the dielectric \n strength is above or below a specified level, only five breakdowns are \n required."
     ],
     [
      "3.",
      "Calculate the mean and \n standard deviation of the five breakdowns as follows:"
+    ],
+    [
+     "",
+     "",
+     "Where:\n X = mean of the five individual values.\n Xi = i th breakdown voltage. \n S = standard deviation."
     ]
    ],
    "truncated_rows": 0
@@ -176,44 +174,39 @@
    "text": "The \nreport shall include the following:"
   },
   {
-   "type": "paragraph",
-   "text": "-The test method used.\n -The number of tests, the volts at each breakdown, and the average of all \n breakdowns reported to the nearest 1kv.If the test made are above or below \nthe specified level, the report shall be made in one of the following ways"
-  },
-  {
-   "type": "paragraph",
-   "text": "Passed if all of the five breakdown were \nabove the specified level."
-  },
-  {
-   "type": "paragraph",
-   "text": "Failed if all of the five breakdown were \nbelow the specified level"
-  },
-  {
-   "type": "paragraph",
-   "text": "Not greater than the maximum of the five breakdowns \nif all were below the specified level."
-  },
-  {
-   "type": "list",
-   "items": [
-    "Passed if all of the five breakdown were \nabove the specified level.",
-    "Failed if all of the five breakdown were \nbelow the specified level",
-    "Not less \n than the minimum of the five breakdowns \n if all were above the specified level.",
-    "Not greater than the maximum of the five breakdowns \nif all were below the specified level."
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "-The approximate temperature of the oil at \nthe time of the test.\n -The electrode spacing."
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "-The test method used.\n -The number of tests, the volts at each breakdown, and the average of all \n breakdowns reported to the nearest 1kv.If the test made are above or below \nthe specified level, the report shall be made in one of the following ways\nPassed if all of the five breakdown were \nabove the specified level.\nFailed if all of the five breakdown were \nbelow the specified level\n Not less \n than the minimum of the five breakdowns \n if all were above the specified level.\nNot greater than the maximum of the five breakdowns \nif all were below the specified level.\n-The approximate temperature of the oil at \nthe time of the test.\n -The electrode spacing."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Recommendation"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "The \ndielectric breakdown voltage of a liquid at commercial power frequencies is \naffected by the degree of uniformity of the electric field, the area of the \nelectrodes or volume of the liquid under maximum stress, the temperature of the \nliquid (especially as it affects the relative saturation level of moisture in \nsolution), gassing tendencies of the liquid under the influence of electric \nstress, concentration of dissolved gases (especially if saturation levels are \nexceeded as result of sudden cooling or decrease in pressure, which may cause \nthe formation of gas bubbles), incompatibility with materials of construction, \nand velocity of flow. A decrease in dielectric \nstrength of the liquid can have an accentuated effect on the electric creepage \nstrength of solid insulating materials immersed in the liquid."
+    ],
+    [
+     "",
+     "If the breakdown voltage \nis not in the proper range for the conditioned oil due to the existence of \nmoisture or impurities it is recommended to send another sample to central \nchemical laboratory to observe the result or carry out the test in the filed."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Figure 1 VDE Electrodes"
   }
  ],
- "text": "\nIntroduction\nThis document outlines the checklists I1, \nwhich must be performed on an annually bases as indicated by Y1 in the above \n title block and according to the directives of the Central Chemical \n Laboratories.\nThis method covers the determination of the dielectric breakdown voltage of insulating oils of petroleum origin. The method is applicable to liquid petroleum oils commonly used in cables, transformers, oil circuit breakers, and similar apparatus \nas an insulating and cooling medium. The suitability of this method for testing oils having viscosities of more than 19 \nCSt ( mm2 \n/ s ) (100 SUS ) at 40oC ( 104 oF ) has not been \ndetermined.\nNote \n1:\nThis method is more sensitive to the deleterious effects of moisture in solution \nthan method D 877, especially when cellulose fibers are present in the oil.(D 877 is ASTM standard test method is recommended for acceptance of insulating \nliquid received from vendors in tank cars, tank trucks, drums, and liquid from \npower system apparatus rated below 230kv, using Disk Electrodes).\nNote 2:\nThis method is recommended for testing filtered, degassed, dehydrated oil \nprior to and during the filling of power systems apparatus rated above 230 kv, \nand for testing samples of oil from the apparatus after filling.\nIt is also \nfinding increased usage for testing oils from transformers in service.\nNote 3:\nThis method is not recommended for, and should not be used for, acceptance tests \non oil received from vendors in tank cars, tank trucks or drums.\nSignificance\nThe dielectric breakdown voltage of an insulating liquid is of importance as a measure of the liquids ability to withstand electric stress without failure. It serves to indicate the presence of contaminating agents such as water dirt, moist \ncellulose fibers, or conducting particles in the liquid, one or more of which may be present in significant concentrations when low breakdown voltages are obtained. However, \na high dielectric breakdown voltage does not necessarily indicate the absence of \nall contaminants; it may merely indicate that the concentrations of contaminants \nthat are present in the liquid between the electrodes are not large enough to \naffect deleteriously the average breakdown voltage of the liquid when tested by \nthis method.\nSummary of method\nThe oil (all cases of oils for transformers, for \noil filled cables, for circuit breakers ) whether new or used contained in a \nspecified apparatus, is subjected to an electric field with a continuously \nincreasing rate of voltage rise, till the oil breakdown. This intended to reveal \nthe extent of physical pollution by water and other suspended matter and the \nadvisability of carrying out drying and filtration treatment before the oils are \nintroduced into the apparatus for which they are intended.\nDefinition\nThe dielectric \nbreakdown voltage is the voltage reached during the test at the time the first \nspark occurs between electrodes. Whether it be transient or established.\nSafety Precautions\nThe sample must be taken as MPIS procedure Number TD-SS-003-r0.\nMake sure the sample bottle is correctly label.\nMake sure the sample bottle is free from dust and dirt.\nThe sample must be kept away from exposure to direct sunlight.\nThis method is sensitive to the deleterious effects of moisture in solution, so the sample must be taken under clean and dry environmental condition.\nEnvironmental Recommendation\nDo not throw the sample oil in the sewage because this oil will prevent the swage treatment process collect in tight containers and return it back to the vendor to recycle it. (always remember that this oil is load for your wastes but it is valuable material for them.\nAvoid oil spillage to the ground.\nTools and Equipment\nApparatus\nTransformer (Step-up transformer).\nCircuit-Interrupting Equipment.\nVoltage-Control Equipment \n the rate of voltage rise shall be 0.5 kv/s 20%.\nVoltmeter.\nAccuracy-The combined \n accuracy of the voltmeter and voltage divider circuit should be such that \n measurement error does not exceed 5% at the rate -of-voltage rise (0.5 kv/s \n 20%).\nThe test cell shall be provided with a motor- driven two bladed impeller \noperating at a speed between 200 and 300rpm. The impeller, located below the \nlower edge of the electrodes, shall rotate in such a direction that the \nresulting liquid flow is directed downward against the bottom of the test cell.\nWork to be Carried Out\nPreparation of Sample\nIf \n they meet the criterion, use their average to determine the dielectric \n breakdown voltage of the sample but if they do not meet the criterion, make \n five additional breakdowns on the sample and use the average of all ten \n breakdowns as the dielectric breakdown voltage of the sample.\nIf the dielectric \n strength is above or below a specified level, only five breakdowns are \n required.\nX = mean of the five individual values.\n\nIf the ratio S/X exceeds 0.1, it is probable that the standard deviation of the \nfive breakdowns is excessive and therefore that the probable error of their \naverage is also excessive.\nReport\nThe \nreport shall include the following:\n-The test method used.\n -The number of tests, the volts at each breakdown, and the average of all \n breakdowns reported to the nearest 1kv.If the test made are above or below \nthe specified level, the report shall be made in one of the following ways\nPassed if all of the five breakdown were \nabove the specified level.\nFailed if all of the five breakdown were \nbelow the specified level\nNot greater than the maximum of the five breakdowns \nif all were below the specified level.\nPassed if all of the five breakdown were \nabove the specified level.\nFailed if all of the five breakdown were \nbelow the specified level\nNot less \n than the minimum of the five breakdowns \n if all were above the specified level.\nNot greater than the maximum of the five breakdowns \nif all were below the specified level.\n-The approximate temperature of the oil at \nthe time of the test.\n -The electrode spacing.\nRecommendation\nFigure 1 VDE Electrodes",
+ "text": "Chemical | Technical Procedure\nIntroduction\nThis document outlines the checklists I1, \nwhich must be performed on an annually bases as indicated by Y1 in the above \n title block and according to the directives of the Central Chemical \n Laboratories.\nThis method covers the determination of the dielectric breakdown voltage of insulating oils of petroleum origin. The method is applicable to liquid petroleum oils commonly used in cables, transformers, oil circuit breakers, and similar apparatus \nas an insulating and cooling medium. The suitability of this method for testing oils having viscosities of more than 19 \nCSt ( mm2 \n/ s ) (100 SUS ) at 40oC ( 104 oF ) has not been \ndetermined.\nNote \n1:\nThis method is more sensitive to the deleterious effects of moisture in solution \nthan method D 877, especially when cellulose fibers are present in the oil.(D 877 is ASTM standard test method is recommended for acceptance of insulating \nliquid received from vendors in tank cars, tank trucks, drums, and liquid from \npower system apparatus rated below 230kv, using Disk Electrodes).\nNote 2:\nThis method is recommended for testing filtered, degassed, dehydrated oil \nprior to and during the filling of power systems apparatus rated above 230 kv, \nand for testing samples of oil from the apparatus after filling.\nIt is also \nfinding increased usage for testing oils from transformers in service.\nNote 3:\nThis method is not recommended for, and should not be used for, acceptance tests \non oil received from vendors in tank cars, tank trucks or drums.\nSignificance\nThe dielectric breakdown voltage of an insulating liquid is of importance as a measure of the liquids ability to withstand electric stress without failure. It serves to indicate the presence of contaminating agents such as water dirt, moist \ncellulose fibers, or conducting particles in the liquid, one or more of which may be present in significant concentrations when low breakdown voltages are obtained. However, \na high dielectric breakdown voltage does not necessarily indicate the absence of \nall contaminants; it may merely indicate that the concentrations of contaminants \nthat are present in the liquid between the electrodes are not large enough to \naffect deleteriously the average breakdown voltage of the liquid when tested by \nthis method.\nSummary of method\nThe oil (all cases of oils for transformers, for \noil filled cables, for circuit breakers ) whether new or used contained in a \nspecified apparatus, is subjected to an electric field with a continuously \nincreasing rate of voltage rise, till the oil breakdown. This intended to reveal \nthe extent of physical pollution by water and other suspended matter and the \nadvisability of carrying out drying and filtration treatment before the oils are \nintroduced into the apparatus for which they are intended.\nDefinition\nThe dielectric \nbreakdown voltage is the voltage reached during the test at the time the first \nspark occurs between electrodes. Whether it be transient or established.\nSafety Precautions\nThe sample must be taken as MPIS procedure Number TD-SS-003-r0.\nMake sure the sample bottle is correctly label.\nMake sure the sample bottle is free from dust and dirt.\nThe sample must be kept away from exposure to direct sunlight.\nThis method is sensitive to the deleterious effects of moisture in solution, so the sample must be taken under clean and dry environmental condition.\nEnvironmental Recommendation\nDo not throw the sample oil in the sewage because this oil will prevent the swage treatment process collect in tight containers and return it back to the vendor to recycle it. (always remember that this oil is load for your wastes but it is valuable material for them.\nAvoid oil spillage to the ground.\nTools and Equipment\nApparatus\nTransformer (Step-up transformer).\nCircuit-Interrupting Equipment.\nVoltage-Control Equipment \n the rate of voltage rise shall be 0.5 kv/s 20%.\nVoltmeter.\nAccuracy-The combined \n accuracy of the voltmeter and voltage divider circuit should be such that \n measurement error does not exceed 5% at the rate -of-voltage rise (0.5 kv/s \n 20%).\nThe test cell shall be provided with a motor- driven two bladed impeller \noperating at a speed between 200 and 300rpm. The impeller, located below the \nlower edge of the electrodes, shall rotate in such a direction that the \nresulting liquid flow is directed downward against the bottom of the test cell.\nWork to be Carried Out\nPreparation of Sample\n1. | Apply the voltage and increase from zero at the rate of approximately \n 0.5 kv/s until breakdown occurs, as indicated be operation of the circuit- \n interrupting equipment record the value. Occasional \n momentary discharges may occur which do not result in operation of the \n interrupting equipment : these shall be disregarded.\n2. | Determine \n the value of the dielectric breakdown voltage of an oil \n by making five breakdowns on one filling of \n the cup. Examine the five breakdowns for statistical \n consistency. \n If \n they meet the criterion, use their average to determine the dielectric \n breakdown voltage of the sample but if they do not meet the criterion, make \n five additional breakdowns on the sample and use the average of all ten \n breakdowns as the dielectric breakdown voltage of the sample.\n If the dielectric \n strength is above or below a specified level, only five breakdowns are \n required.\n3. | Calculate the mean and \n standard deviation of the five breakdowns as follows:\n |  | Where:\n X = mean of the five individual values.\n Xi = i th breakdown voltage. \n S = standard deviation.\nIf the ratio S/X exceeds 0.1, it is probable that the standard deviation of the \nfive breakdowns is excessive and therefore that the probable error of their \naverage is also excessive.\nReport\nThe \nreport shall include the following:\n | -The test method used.\n -The number of tests, the volts at each breakdown, and the average of all \n breakdowns reported to the nearest 1kv.If the test made are above or below \nthe specified level, the report shall be made in one of the following ways\nPassed if all of the five breakdown were \nabove the specified level.\nFailed if all of the five breakdown were \nbelow the specified level\n Not less \n than the minimum of the five breakdowns \n if all were above the specified level.\nNot greater than the maximum of the five breakdowns \nif all were below the specified level.\n-The approximate temperature of the oil at \nthe time of the test.\n -The electrode spacing.\nRecommendation\n | The \ndielectric breakdown voltage of a liquid at commercial power frequencies is \naffected by the degree of uniformity of the electric field, the area of the \nelectrodes or volume of the liquid under maximum stress, the temperature of the \nliquid (especially as it affects the relative saturation level of moisture in \nsolution), gassing tendencies of the liquid under the influence of electric \nstress, concentration of dissolved gases (especially if saturation levels are \nexceeded as result of sudden cooling or decrease in pressure, which may cause \nthe formation of gas bubbles), incompatibility with materials of construction, \nand velocity of flow. A decrease in dielectric \nstrength of the liquid can have an accentuated effect on the electric creepage \nstrength of solid insulating materials immersed in the liquid.\n | If the breakdown voltage \nis not in the proper range for the conditioned oil due to the existence of \nmoisture or impurities it is recommended to send another sample to central \nchemical laboratory to observe the result or carry out the test in the filed.\nFigure 1 VDE Electrodes",
  "text_truncated": false,
  "links": [],
  "images": [

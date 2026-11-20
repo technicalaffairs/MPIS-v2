@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Directives"
-  },
-  {
-   "type": "paragraph",
-   "text": "Directive:\n Corrugated Plate Separator"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical Directives"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -92,12 +90,62 @@
    "text": "Oily Effluent from Machine Hall"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Flow Rate",
+     "Daily Quantity",
+     "H C Content",
+     "S.S"
+    ],
+    [
+     "25m3",
+     "500m3",
+     "0:50 mg/l",
+     "60 mg/l"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Mazout Preparation Area"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Flow Rate",
+     "Daily Quantity",
+     "H C Content",
+     "S.S"
+    ],
+    [
+     "20m3",
+     "20m3",
+     "0:50 mg/l",
+     "60 mg/l"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Mazout Storage \nArea"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Instantaneous \n Flow Rate",
+     "Daily Quantity"
+    ],
+    [
+     "10m3 /h",
+     "100m3 ( 8 day /year )"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -200,93 +248,32 @@
    "text": "Given below are problems which may be encountered, the possible causes, \n and the recommended maintenance."
   },
   {
-   "type": "list",
-   "items": [
-    "Insufficient head",
-    "Outlet weir set too high",
-    "Blocked feed line",
-    "Blocked CPI"
-   ]
-  },
-  {
-   "type": "list",
-   "items": [
-    "Check outlet weir height and feed head",
-    "Check feed line and clean if required.",
-    "Check sludge level, clean if required.",
-    "Drain unit and clean as required."
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Oil in the effluent."
-  },
-  {
-   "type": "list",
-   "items": [
-    "Feed rate too high",
-    "Partially pluggedCPI",
-    "Oil weir too high",
-    "Oil particles too small",
-    "Oil specific gravity too high."
-   ]
-  },
-  {
-   "type": "list",
-   "items": [
-    "Check feed rate, reduce if required",
-    "Inspect packs and clean if required.",
-    "Check oil weir's height and adjust as \n required.",
-    "Test incoming oil for particle size \n distribution and specific gravity. Consult with lancy."
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Water in separated oil"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Oil weir too low",
-    "Plugged CPI",
-    "Plugged effluent line"
-   ]
-  },
-  {
-   "type": "list",
-   "items": [
-    "Check and adjust, or clean as required."
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Solids in effluent"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Sludge level too high",
-    "Flow rate, too high",
-    "Plugged CPI",
-    "Solids particles too small or light"
-   ]
-  },
-  {
-   "type": "list",
-   "items": [
-    "Check sludge level and lower or clean as \n required.",
-    "Check flow rate and adjust as required.",
-    "Check CPI and clean as required.",
-    "Analyze solids and consult lancy."
-   ]
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "Problem",
+     "Possible Cause",
+     "Maintenance"
+    ],
+    [
      "No \n flow out of unit",
-     "",
-     ""
+     "Insufficient head \n Outlet weir set too high\n Blocked feed line \n Blocked CPI",
+     "Check outlet weir height and feed head\n Check feed line and clean if required.\n Check sludge level, clean if required.\n Drain unit and clean as required."
+    ],
+    [
+     "Oil in the effluent.",
+     "Feed rate too high \n Partially pluggedCPI\n Oil weir too high \n Oil particles too small \n Oil specific gravity too high.",
+     "Check feed rate, reduce if required\n Inspect packs and clean if required.\n Check oil weir's height and adjust as \n required.\n Test incoming oil for particle size \n distribution and specific gravity. Consult with lancy."
+    ],
+    [
+     "Water in separated oil",
+     "Oil weir too low \n Plugged CPI\n Plugged effluent line",
+     "Check and adjust, or clean as required."
+    ],
+    [
+     "Solids in effluent",
+     "Sludge level too high \n Flow rate, too high \n Plugged CPI\n Solids particles too small or light",
+     "Check sludge level and lower or clean as \n required.\n Check flow rate and adjust as required.\n Check CPI and clean as required.\n Analyze solids and consult lancy."
     ]
    ],
    "truncated_rows": 0
@@ -302,9 +289,135 @@
   {
    "type": "paragraph",
    "text": "Law Number(4) for 1994"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Item",
+     "Test",
+     "Maximum Limit"
+    ],
+    [
+     "1",
+     "Temperature oC",
+     "Over 10oC\n A-nort"
+    ],
+    [
+     "2",
+     "PH Value",
+     "6 to 9"
+    ],
+    [
+     "3",
+     "Color",
+     "Nil"
+    ],
+    [
+     "4",
+     "Chemical \n Oxygen Demand dichromate mg/L",
+     "80"
+    ],
+    [
+     "5",
+     "Biochemical Oxygen Demand mg/L",
+     "60"
+    ],
+    [
+     "6",
+     "Total Dissolves Solid mg/L",
+     "2000"
+    ],
+    [
+     "7",
+     "ASH of Dissolves Solid mg/L",
+     "1800"
+    ],
+    [
+     "8",
+     "Total Suspended Solid mg/L",
+     "50"
+    ],
+    [
+     "9",
+     "Turbidity (NTU)",
+     "50"
+    ],
+    [
+     "10",
+     "Sulphide as S-- mg/L",
+     "1"
+    ],
+    [
+     "11",
+     "Oil &grease \n mg/L",
+     "15"
+    ],
+    [
+     "12",
+     "Phosphate as P O4- mg/L",
+     "1"
+    ],
+    [
+     "13",
+     "Nitrate as No3- \n mg/L",
+     "40"
+    ],
+    [
+     "14",
+     "Ammonia as NH3 \n mg/L",
+     "3"
+    ],
+    [
+     "15",
+     "Mercury as Hg mg/L",
+     "0.005"
+    ],
+    [
+     "16",
+     "Lead as Pb mg/L",
+     "0.5"
+    ],
+    [
+     "17",
+     "Cadmium as Cd mg/L",
+     "0.05"
+    ],
+    [
+     "18",
+     "Copper as Cu mg/L",
+     "1.5"
+    ],
+    [
+     "19",
+     "Nickel as Ni mg/L",
+     "0.1"
+    ],
+    [
+     "20",
+     "Manganese as Mn mg/L",
+     "1"
+    ],
+    [
+     "21",
+     "Aluminum as Al mg/L",
+     "3"
+    ],
+    [
+     "22",
+     "Silver as Ag mg/L",
+     "0.1"
+    ],
+    [
+     "23",
+     "Cyanide as CN mg/L",
+     "0.1"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Power \n Station\nTechnical Directives\nDirective:\n Corrugated Plate Separator\nIntroduction\nThis document covers the Corrugated Plate \nSeparator System in Abu Sultan Power Plant. After separation, water flow into \na 500 M3 retention basin to neutralization. The parameters be according to law \nNumber 4 for year1994.\nThis document was initiated by Chemist\\Essam Abdalaziz Mohamed And \nreviewed by Chemist\\ Mohamed Ahmed Farrag Revised by quality control chemist: \nSaad Sadeek Hasanen at EDEPC, and approved by Eng: Faweze Sobhe Head Sector of \nAbu Sultan Power Station.\nThis document is accepted by eng. Samir Abd El-Galil EDEPC MPIS coordinator, \n and certified by accountant; Mahmoud Mohamed Soliman; EDEPC admin and \n financial inspection, quality control general director and supervisor of \n inspection and quality control Head Sector.\nInformation\nDescription of Equipment\nThe plate separator consists of\nCPS basin; it set into its concrete pit, it should be installed with at least 9'0\"\nof overhead clearance to facilitate the removal \nof the CPI pack.\nCorrugated plate interceptor (CPI) pack.\nBucket oil weir.\nThe adjustable effluent weir.\nCoalescing media.\nCPS basin; it set into its concrete pit, it should be installed with at least 9'0\"\nof overhead clearance to facilitate the removal \nof the CPI pack.\nCorrugated plate interceptor (CPI) pack.\nBucket oil weir.\nThe adjustable effluent weir.\nCoalescing media.\nThe oil separator receive the effluents \npumped from various points of the power plant.\nOily Effluent from Machine Hall\nMazout Preparation Area\nMazout Storage \nArea\nGeneral \nOperation\nThe flow through the system will be by gravity. The \ninfluent head is at least 12\" above the height of the CPS effluent weir. The influent \nenters the gravity separation section where heavy solids drop out. The flow then \nproceeds through polypropylene prefilter media before passing through the corrugated plate interceptor. \nSeparated oil flows into the adjusted oil trough to out, the clean water flows \nover the effluent weir into a water sump, from which it can flow by gravity to \nthe evaporation pond. If oil level exceed the limits specified, flow will be \ndiverted back to the holding pond.\nCPS \nOperation\nThe influent \noverflows the inlet weir into a quiescent zone located ahead of the CPI pack. In this area \nthe liquids velocities are slowed. The lighter gravity liquid rises to the \npeaks of the corrugations and continues to the rises until reaching the gutters \nat the inlet of the pack, and the heavier liquid flows out the lower portion of the \npack to the effluent trough. If any \nsolids are present, these solids collect in the valleys of the corrugations and \nare collected in gutters located at the pack outlet. These gutters direct \nthe solids to the bottom of the separator basin.\nSludge Withdrawal\nSludge \nbuildup should be monitored closely, especially immediately after startup until \nexperience is gained. Solids buildup should not be allowed to reach bottom of the CPI pack.\nSludge \nbuildup should be monitored by observing \nthe discharge from the sludge removal pump.\nIn removing \nsludge, short intervals of withdrawal are superior to one long withdrawal. The \nshort intervals allow the sludge to resettle and therefore, help prevent \n\"rat-holing\".\nDraining\nPrior to \ndraining it is necessary to remove the oil layer so as not to contaminate the \neffluent side of the basin.\nOil removal \ncan be accomplished by lowering the bucket weir or by closing off the effluent so \nthat the water level rises, forcing the oil layer into the oil bucket.\nDirectives\nMaintenance \nInstructions for Corrugated Plate Separator\nPeriodic\nIf the \nsludge level is properly maintained, no routine maintenance is required on the \nCPS, because there are no moving parts.\nSupports \nsystems such as oil withdrawal, sludge withdrawal, heaters or feed pump should \nbe maintained in accordance with the instructions for those specific units.\nPeriodic \nvisual inspection of the unit is recommended. This inspection should check for \nleaks, and determine whether the unit appears to be functioning properly, i.e. \nclean water flow over the effluent weir and oil over into the bucket weir.\nPack \nCleaning\nOperating \nexperience has shown that the smoothness of the corrugated plates generally \nprevents oils and solids from accumulating on their surfaces. If dirt and \nheavy oil do buildup within the pack or packs, they will require cleaning as \nthis will reduce the efficiency of the unit.\nThe \npreferred method is to clean the packs in place. After the \nunit has been drained, a high pressure hose can be employed to wash down the \nplates. Prior to draining it is necessary, of course, to remove the oil layer. \nThis is can accomplished by lowering the bucket weir height.\nAn alternative method is to remove the packs. Before attempting to lift the \n pack, the units should be hosed down, the CPI structure won't support the \n weight of heavy solids during lifting bar through the two lifting lugs.\nWhen putting the unit back in service after draining, always fill with clean \n water first.\nCaution: Do not drain the separator until all of the oil has been removed.\nTroubleshooting\nGiven below are problems which may be encountered, the possible causes, \n and the recommended maintenance.\nInsufficient head\nOutlet weir set too high\nBlocked feed line\nBlocked CPI\nCheck outlet weir height and feed head\nCheck feed line and clean if required.\nCheck sludge level, clean if required.\nDrain unit and clean as required.\nOil in the effluent.\nFeed rate too high\nPartially pluggedCPI\nOil weir too high\nOil particles too small\nOil specific gravity too high.\nCheck feed rate, reduce if required\nInspect packs and clean if required.\nCheck oil weir's height and adjust as \n required.\nTest incoming oil for particle size \n distribution and specific gravity. Consult with lancy.\nWater in separated oil\nOil weir too low\nPlugged CPI\nPlugged effluent line\nCheck and adjust, or clean as required.\nSolids in effluent\nSludge level too high\nFlow rate, too high\nPlugged CPI\nSolids particles too small or light\nCheck sludge level and lower or clean as \n required.\nCheck flow rate and adjust as required.\nCheck CPI and clean as required.\nAnalyze solids and consult lancy.\n\nTreatment Effluent Water\nMaximum Permissible limits with Compliance with\nLaw Number(4) for 1994",
+ "text": "Power \n Station | Technical Directives\nIntroduction\nThis document covers the Corrugated Plate \nSeparator System in Abu Sultan Power Plant. After separation, water flow into \na 500 M3 retention basin to neutralization. The parameters be according to law \nNumber 4 for year1994.\nThis document was initiated by Chemist\\Essam Abdalaziz Mohamed And \nreviewed by Chemist\\ Mohamed Ahmed Farrag Revised by quality control chemist: \nSaad Sadeek Hasanen at EDEPC, and approved by Eng: Faweze Sobhe Head Sector of \nAbu Sultan Power Station.\nThis document is accepted by eng. Samir Abd El-Galil EDEPC MPIS coordinator, \n and certified by accountant; Mahmoud Mohamed Soliman; EDEPC admin and \n financial inspection, quality control general director and supervisor of \n inspection and quality control Head Sector.\nInformation\nDescription of Equipment\nThe plate separator consists of\nCPS basin; it set into its concrete pit, it should be installed with at least 9'0\"\nof overhead clearance to facilitate the removal \nof the CPI pack.\nCorrugated plate interceptor (CPI) pack.\nBucket oil weir.\nThe adjustable effluent weir.\nCoalescing media.\nCPS basin; it set into its concrete pit, it should be installed with at least 9'0\"\nof overhead clearance to facilitate the removal \nof the CPI pack.\nCorrugated plate interceptor (CPI) pack.\nBucket oil weir.\nThe adjustable effluent weir.\nCoalescing media.\nThe oil separator receive the effluents \npumped from various points of the power plant.\nOily Effluent from Machine Hall\nFlow Rate | Daily Quantity | H C Content | S.S\n25m3 | 500m3 | 0:50 mg/l | 60 mg/l\nMazout Preparation Area\nFlow Rate | Daily Quantity | H C Content | S.S\n20m3 | 20m3 | 0:50 mg/l | 60 mg/l\nMazout Storage \nArea\nInstantaneous \n Flow Rate | Daily Quantity\n10m3 /h | 100m3 ( 8 day /year )\nGeneral \nOperation\nThe flow through the system will be by gravity. The \ninfluent head is at least 12\" above the height of the CPS effluent weir. The influent \nenters the gravity separation section where heavy solids drop out. The flow then \nproceeds through polypropylene prefilter media before passing through the corrugated plate interceptor. \nSeparated oil flows into the adjusted oil trough to out, the clean water flows \nover the effluent weir into a water sump, from which it can flow by gravity to \nthe evaporation pond. If oil level exceed the limits specified, flow will be \ndiverted back to the holding pond.\nCPS \nOperation\nThe influent \noverflows the inlet weir into a quiescent zone located ahead of the CPI pack. In this area \nthe liquids velocities are slowed. The lighter gravity liquid rises to the \npeaks of the corrugations and continues to the rises until reaching the gutters \nat the inlet of the pack, and the heavier liquid flows out the lower portion of the \npack to the effluent trough. If any \nsolids are present, these solids collect in the valleys of the corrugations and \nare collected in gutters located at the pack outlet. These gutters direct \nthe solids to the bottom of the separator basin.\nSludge Withdrawal\nSludge \nbuildup should be monitored closely, especially immediately after startup until \nexperience is gained. Solids buildup should not be allowed to reach bottom of the CPI pack.\nSludge \nbuildup should be monitored by observing \nthe discharge from the sludge removal pump.\nIn removing \nsludge, short intervals of withdrawal are superior to one long withdrawal. The \nshort intervals allow the sludge to resettle and therefore, help prevent \n\"rat-holing\".\nDraining\nPrior to \ndraining it is necessary to remove the oil layer so as not to contaminate the \neffluent side of the basin.\nOil removal \ncan be accomplished by lowering the bucket weir or by closing off the effluent so \nthat the water level rises, forcing the oil layer into the oil bucket.\nDirectives\nMaintenance \nInstructions for Corrugated Plate Separator\nPeriodic\nIf the \nsludge level is properly maintained, no routine maintenance is required on the \nCPS, because there are no moving parts.\nSupports \nsystems such as oil withdrawal, sludge withdrawal, heaters or feed pump should \nbe maintained in accordance with the instructions for those specific units.\nPeriodic \nvisual inspection of the unit is recommended. This inspection should check for \nleaks, and determine whether the unit appears to be functioning properly, i.e. \nclean water flow over the effluent weir and oil over into the bucket weir.\nPack \nCleaning\nOperating \nexperience has shown that the smoothness of the corrugated plates generally \nprevents oils and solids from accumulating on their surfaces. If dirt and \nheavy oil do buildup within the pack or packs, they will require cleaning as \nthis will reduce the efficiency of the unit.\nThe \npreferred method is to clean the packs in place. After the \nunit has been drained, a high pressure hose can be employed to wash down the \nplates. Prior to draining it is necessary, of course, to remove the oil layer. \nThis is can accomplished by lowering the bucket weir height.\nAn alternative method is to remove the packs. Before attempting to lift the \n pack, the units should be hosed down, the CPI structure won't support the \n weight of heavy solids during lifting bar through the two lifting lugs.\nWhen putting the unit back in service after draining, always fill with clean \n water first.\nCaution: Do not drain the separator until all of the oil has been removed.\nTroubleshooting\nGiven below are problems which may be encountered, the possible causes, \n and the recommended maintenance.\nProblem | Possible Cause | Maintenance\nNo \n flow out of unit | Insufficient head \n Outlet weir set too high\n Blocked feed line \n Blocked CPI | Check outlet weir height and feed head\n Check feed line and clean if required.\n Check sludge level, clean if required.\n Drain unit and clean as required.\nOil in the effluent. | Feed rate too high \n Partially pluggedCPI\n Oil weir too high \n Oil particles too small \n Oil specific gravity too high. | Check feed rate, reduce if required\n Inspect packs and clean if required.\n Check oil weir's height and adjust as \n required.\n Test incoming oil for particle size \n distribution and specific gravity. Consult with lancy.\nWater in separated oil | Oil weir too low \n Plugged CPI\n Plugged effluent line | Check and adjust, or clean as required.\nSolids in effluent | Sludge level too high \n Flow rate, too high \n Plugged CPI\n Solids particles too small or light | Check sludge level and lower or clean as \n required.\n Check flow rate and adjust as required.\n Check CPI and clean as required.\n Analyze solids and consult lancy.\nTreatment Effluent Water\nMaximum Permissible limits with Compliance with\nLaw Number(4) for 1994\nItem | Test | Maximum Limit\n1 | Temperature oC | Over 10oC\n A-nort\n2 | PH Value | 6 to 9\n3 | Color | Nil\n4 | Chemical \n Oxygen Demand dichromate mg/L | 80\n5 | Biochemical Oxygen Demand mg/L | 60\n6 | Total Dissolves Solid mg/L | 2000\n7 | ASH of Dissolves Solid mg/L | 1800\n8 | Total Suspended Solid mg/L | 50\n9 | Turbidity (NTU) | 50\n10 | Sulphide as S-- mg/L | 1\n11 | Oil &grease \n mg/L | 15\n12 | Phosphate as P O4- mg/L | 1\n13 | Nitrate as No3- \n mg/L | 40\n14 | Ammonia as NH3 \n mg/L | 3\n15 | Mercury as Hg mg/L | 0.005\n16 | Lead as Pb mg/L | 0.5\n17 | Cadmium as Cd mg/L | 0.05\n18 | Copper as Cu mg/L | 1.5\n19 | Nickel as Ni mg/L | 0.1\n20 | Manganese as Mn mg/L | 1\n21 | Aluminum as Al mg/L | 3\n22 | Silver as Ag mg/L | 0.1\n23 | Cyanide as CN mg/L | 0.1",
  "text_truncated": false,
  "links": [],
  "images": [
