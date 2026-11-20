@@ -1,0 +1,39 @@
+name: Deploy MPIS v2 to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out MPIS v2
+        uses: actions/checkout@v4
+      - name: Check out MPIS v1 (image source)
+        uses: actions/checkout@v4
+        with:
+          repository: technicalaffairs/MPIS
+          path: v1
+      - name: Build the site
+        run: python3 tools/build_site.py --content content --dist site/dist --v1-root v1
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
