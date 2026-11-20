@@ -14,36 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Ethernet Interface"
-  },
-  {
-   "type": "paragraph",
-   "text": "IC697CMM742"
-  },
-  {
-   "type": "paragraph",
-   "text": "Alstom"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: \n APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Approved \n Date: 25 Nov 2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: \n Nov 2013"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -172,99 +150,31 @@
    "text": "Technical Specifications"
   },
   {
-   "type": "paragraph",
-   "text": "Module \n Operating Voltage"
-  },
-  {
-   "type": "paragraph",
-   "text": "Module Current \n Drain"
-  },
-  {
-   "type": "paragraph",
-   "text": "Module \n Operating Temperature"
-  },
-  {
-   "type": "paragraph",
-   "text": "0 C to +55C (32F \n to 131F), ambient"
-  },
-  {
-   "type": "paragraph",
-   "text": "LAN \n ONLINE"
-  },
-  {
-   "type": "paragraph",
-   "text": "SERIAL ACTIVE"
-  },
-  {
-   "type": "paragraph",
-   "text": "STATUS"
-  },
-  {
-   "type": "paragraph",
-   "text": "-Station Manager \n (RS232) Port: 6pin female RJ11"
-  },
-  {
-   "type": "paragraph",
-   "text": "-Software Load \n (RS485) Port: 15pin female Dconnector"
-  },
-  {
-   "type": "paragraph",
-   "text": "-10BaseT Port: \n 8pin female RJ45"
-  },
-  {
-   "type": "paragraph",
-   "text": "-AUI Port: 15pin \n female Dconnector with slidelock"
-  },
-  {
-   "type": "paragraph",
-   "text": "-10Base2 port: \n female BNC connector"
-  },
-  {
-   "type": "paragraph",
-   "text": "IEEE 802.2 Logical \n Link Control Class I"
-  },
-  {
-   "type": "paragraph",
-   "text": "IEEE 802.3 CSMA/CD \n Medium Access Control 10Mbps"
-  },
-  {
-   "type": "paragraph",
-   "text": "Station Mgr Port: \n RS232 DTE 300 19200 bps"
-  },
-  {
-   "type": "paragraph",
-   "text": "Software Load Port: \n RS485 DTE 300 19200 bps"
-  },
-  {
-   "type": "paragraph",
-   "text": "10BaseT Port: \n Ethernet, IEEE 802.3 CSMA/CD"
-  },
-  {
-   "type": "paragraph",
-   "text": "10Base2 Port: \n Ethernet, IEEE 802.3 CSMA/CD"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
+     "Module \n Operating Voltage",
      "+5 VDC, +12 VDC \n (from MFC power supply)"
     ],
     [
-     "",
+     "Module Current \n Drain",
      "2.0 Amps (+5 VDC), \n typical 0.5 Amps (+12 VDC), maximum when powering an external AUI \n transceiver"
     ],
     [
+     "Module \n Operating Temperature",
+     "0 C to +55C (32F \n to 131F), ambient"
+    ],
+    [
      "LED Indicators",
-     "MODULE OK"
+     "MODULE OK\n LAN \n ONLINE \n SERIAL ACTIVE\n STATUS"
     ],
     [
      "Connectors",
-     ""
+     "-Station Manager \n (RS232) Port: 6pin female RJ11\n -Software Load \n (RS485) Port: 15pin female Dconnector\n -10BaseT Port: \n 8pin female RJ45\n -AUI Port: 15pin \n female Dconnector with slidelock\n -10Base2 port: \n female BNC connector"
     ],
     [
      "Fuse, \n Replaceable",
-     ""
+     "5 x 20mm, 250V, \n 1.0A, slow acting"
     ],
     [
      "Interface \n Specifications:",
@@ -272,15 +182,15 @@
     ],
     [
      "LAN",
-     ""
+     "IEEE 802.2 Logical \n Link Control Class I\n IEEE 802.3 CSMA/CD \n Medium Access Control 10Mbps"
     ],
     [
      "Serial Ports",
-     ""
+     "Station Mgr Port: \n RS232 DTE 300 19200 bps\n Software Load Port: \n RS485 DTE 300 19200 bps"
     ],
     [
      "Network Ports",
-     ""
+     "10BaseT Port: \n Ethernet, IEEE 802.3 CSMA/CD\n 10Base2 Port: \n Ethernet, IEEE 802.3 CSMA/CD\n AUI Port: Ethernet, \n IEEE 802.3 CSMA/CD"
     ]
    ],
    "truncated_rows": 0
@@ -325,7 +235,7 @@
    "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
   }
  ],
- "text": "Power \n Stations\nTechnical Procedure\nEquipment\n Ethernet Interface\nIC697CMM742\nAlstom\nStatus: \n APPROVED\nApproved \n Date: 25 Nov 2008\nDate to be Reviewed: \n Nov 2013\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThe IC697CMM742 Ethernet Interface provides\nhigh performance TCP/IP communications for the \nC80-75 MFC.\nThe Ethernet Interface plugs into a single slot in\na C80-75 MFC rack and is configured with the MFC\nwindows programming software. Up to four Ethernet\nInterface modules can be installed in a C80-75\nMFC CPU rack.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, \naccepted by general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan \nhead sector of Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nTCP/IP communication services using SRTP.\nFull MFC programming and configuration \n services.\nComprehensive station management and \n diagnostic tools.\nStatus Indications\nEthernet Interface LED Indicators\nModule ok\nON: This LED is on if the Ethernet Interface has passed \ndiagnostics and is operating properly.\nOFF: This LED is OFF if the module fails a diagnostic test, \nor if a fatal failure is \ndetected during operation\nON: This LED is on if the Ethernet Interface has passed \ndiagnostics and is operating properly.\nOFF: This LED is OFF if the module fails a diagnostic test, \nor if a fatal failure is \ndetected during operation\nBlinking\nThis LED is BLINKING during diagnostics, or to indicate special \noperating conditions or when the Ethernet Interface is transferring data on the \nnetwork.\nLAN ONLINE ON\nThis LED is\nON when the Ethernet Interface is connected to the Ethernet \nnetwork and is ready to communicate.\nOFF This LED is OFF when:\nThe Ethernet Interface is not communicating in the network due \n to disconnection or disruption of the cable.\nThe Ethernet Interface has malfunctioned.\nThe Ethernet Interface has been commanded not to enter the \n network.\nSerial active OFF: This LED is OFF during inactivity at the \nRS485 serial port.\nBLINKING This LED is BLINKING during data transfer at the RS485 \nserial port, or to indicate special operation conditions.\nStatus OK\nON: This LED is ON when the module is operating without exception \nconditions.\nOFF This LED is OFF if the Ethernet Interface detects an event \n(exception \ncondition) during operation that requires supervisory attention.\nON: This LED is ON when the module is operating without exception \nconditions.\nOFF This LED is OFF if the Ethernet Interface detects an event \n(exception \ncondition) during operation that requires supervisory attention.\nTechnical Specifications\nModule \n Operating Voltage\nModule Current \n Drain\nModule \n Operating Temperature\n0 C to +55C (32F \n to 131F), ambient\nLAN \n ONLINE\nSERIAL ACTIVE\nSTATUS\n-Station Manager \n (RS232) Port: 6pin female RJ11\n-Software Load \n (RS485) Port: 15pin female Dconnector\n-10BaseT Port: \n 8pin female RJ45\n-AUI Port: 15pin \n female Dconnector with slidelock\n-10Base2 port: \n female BNC connector\nIEEE 802.2 Logical \n Link Control Class I\nIEEE 802.3 CSMA/CD \n Medium Access Control 10Mbps\nStation Mgr Port: \n RS232 DTE 300 19200 bps\nSoftware Load Port: \n RS485 DTE 300 19200 bps\n10BaseT Port: \n Ethernet, IEEE 802.3 CSMA/CD\n10Base2 Port: \n Ethernet, IEEE 802.3 CSMA/CD\n\nSafety \nPrecautions\nA work permit must be issued\nMFC power must be off when connecting or disconnecting the transceiver\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text": "Power \n Stations | Technical Procedure\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThe IC697CMM742 Ethernet Interface provides\nhigh performance TCP/IP communications for the \nC80-75 MFC.\nThe Ethernet Interface plugs into a single slot in\na C80-75 MFC rack and is configured with the MFC\nwindows programming software. Up to four Ethernet\nInterface modules can be installed in a C80-75\nMFC CPU rack.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, \naccepted by general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan \nhead sector of Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nTCP/IP communication services using SRTP.\nFull MFC programming and configuration \n services.\nComprehensive station management and \n diagnostic tools.\nStatus Indications\nEthernet Interface LED Indicators\nModule ok\nON: This LED is on if the Ethernet Interface has passed \ndiagnostics and is operating properly.\nOFF: This LED is OFF if the module fails a diagnostic test, \nor if a fatal failure is \ndetected during operation\nON: This LED is on if the Ethernet Interface has passed \ndiagnostics and is operating properly.\nOFF: This LED is OFF if the module fails a diagnostic test, \nor if a fatal failure is \ndetected during operation\nBlinking\nThis LED is BLINKING during diagnostics, or to indicate special \noperating conditions or when the Ethernet Interface is transferring data on the \nnetwork.\nLAN ONLINE ON\nThis LED is\nON when the Ethernet Interface is connected to the Ethernet \nnetwork and is ready to communicate.\nOFF This LED is OFF when:\nThe Ethernet Interface is not communicating in the network due \n to disconnection or disruption of the cable.\nThe Ethernet Interface has malfunctioned.\nThe Ethernet Interface has been commanded not to enter the \n network.\nSerial active OFF: This LED is OFF during inactivity at the \nRS485 serial port.\nBLINKING This LED is BLINKING during data transfer at the RS485 \nserial port, or to indicate special operation conditions.\nStatus OK\nON: This LED is ON when the module is operating without exception \nconditions.\nOFF This LED is OFF if the Ethernet Interface detects an event \n(exception \ncondition) during operation that requires supervisory attention.\nON: This LED is ON when the module is operating without exception \nconditions.\nOFF This LED is OFF if the Ethernet Interface detects an event \n(exception \ncondition) during operation that requires supervisory attention.\nTechnical Specifications\nModule \n Operating Voltage | +5 VDC, +12 VDC \n (from MFC power supply)\nModule Current \n Drain | 2.0 Amps (+5 VDC), \n typical 0.5 Amps (+12 VDC), maximum when powering an external AUI \n transceiver\nModule \n Operating Temperature | 0 C to +55C (32F \n to 131F), ambient\nLED Indicators | MODULE OK\n LAN \n ONLINE \n SERIAL ACTIVE\n STATUS\nConnectors | -Station Manager \n (RS232) Port: 6pin female RJ11\n -Software Load \n (RS485) Port: 15pin female Dconnector\n -10BaseT Port: \n 8pin female RJ45\n -AUI Port: 15pin \n female Dconnector with slidelock\n -10Base2 port: \n female BNC connector\nFuse, \n Replaceable | 5 x 20mm, 250V, \n 1.0A, slow acting\nInterface \n Specifications: | \nLAN | IEEE 802.2 Logical \n Link Control Class I\n IEEE 802.3 CSMA/CD \n Medium Access Control 10Mbps\nSerial Ports | Station Mgr Port: \n RS232 DTE 300 19200 bps\n Software Load Port: \n RS485 DTE 300 19200 bps\nNetwork Ports | 10BaseT Port: \n Ethernet, IEEE 802.3 CSMA/CD\n 10Base2 Port: \n Ethernet, IEEE 802.3 CSMA/CD\n AUI Port: Ethernet, \n IEEE 802.3 CSMA/CD\nSafety \nPrecautions\nA work permit must be issued\nMFC power must be off when connecting or disconnecting the transceiver\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

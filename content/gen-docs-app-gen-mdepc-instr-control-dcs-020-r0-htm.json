@@ -14,32 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Fip Bus Controller Modules"
-  },
-  {
-   "type": "paragraph",
-   "text": "IC687BEM742\n Alstom"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: \n APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Approved\n Date: \n 24 Nov 2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: \n Nov 2013"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -66,116 +48,26 @@
    "text": "Technical Specifications for IC687BEM742"
   },
   {
-   "type": "paragraph",
-   "text": "Operating \n Conditions:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Atmospheric \n Pressure"
-  },
-  {
-   "type": "paragraph",
-   "text": "80 kPa to 108 kPa"
-  },
-  {
-   "type": "paragraph",
-   "text": "Storage and Transport Characteristics"
-  },
-  {
-   "type": "paragraph",
-   "text": "Atmospheric \n Pressure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Free Fall"
-  },
-  {
-   "type": "paragraph",
-   "text": "66 kPa to \n 108 kPa"
-  },
-  {
-   "type": "paragraph",
-   "text": "General \n Specifications"
-  },
-  {
-   "type": "paragraph",
-   "text": "Module Operating \n Voltage Module Current Drain"
-  },
-  {
-   "type": "paragraph",
-   "text": "Memory for \n IC687BEM742"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Module Operating \n Voltage Module Current Drain",
-    "Memory for \n IC687BEM742"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Leds"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Leds"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Data Rate for \n IC687BEM742"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Data Rate for \n IC687BEM742",
-    "Protocol"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "5 VDC (from backplane)"
-  },
-  {
-   "type": "paragraph",
-   "text": "1.4 A, \n typical"
-  },
-  {
-   "type": "paragraph",
-   "text": "2 Megabytes of RAM"
-  },
-  {
-   "type": "paragraph",
-   "text": "2 \n Megabytes of Flash"
-  },
-  {
-   "type": "paragraph",
-   "text": "OK \n Module OK"
-  },
-  {
-   "type": "paragraph",
-   "text": "RUN \n Bus Arbiter \n Status"
-  },
-  {
-   "type": "paragraph",
-   "text": "CD1 Carrier Detect \n Channel 1"
-  },
-  {
-   "type": "paragraph",
-   "text": "TEN 1 \n Transmit Enable \n Channel 1"
-  },
-  {
-   "type": "paragraph",
-   "text": "CD 2 \n Carrier Detect \n Channel 2"
-  },
-  {
-   "type": "paragraph",
-   "text": "TEN 2 \n Transmit Enable \n Channel 2"
-  },
-  {
-   "type": "paragraph",
-   "text": "1 Mbit/second"
+   "type": "table",
+   "rows": [
+    [
+     "Quantity",
+     "14 per \n module"
+    ],
+    [
+     "Operating \n Conditions: \n Atmospheric \n Pressure",
+     "80 kPa to 108 kPa"
+    ],
+    [
+     "Storage and Transport Characteristics\n Atmospheric \n Pressure \n Free Fall",
+     "66 kPa to \n 108 kPa\n 250mm (9.84 \n inches)"
+    ],
+    [
+     "General \n Specifications\n Module Operating \n Voltage Module Current Drain \n Memory for \n IC687BEM742\n Leds \n Data Rate for \n IC687BEM742\n Protocol",
+     "5 VDC (from backplane)\n 1.4 A, \n typical\n 2 Megabytes of RAM\n 2 \n Megabytes of Flash\n OK \n Module OK\n RUN \n Bus Arbiter \n Status\n CD1 Carrier Detect \n Channel 1\n TEN 1 \n Transmit Enable \n Channel 1\n CD 2 \n Carrier Detect \n Channel 2\n TEN 2 \n Transmit Enable \n Channel 2\n 1 Mbit/second\n FIP/World \n FIP"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -248,7 +140,7 @@
    "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
   }
  ],
- "text": "Power \n Stations\nTechnical Procedure\nEquipment\n Fip Bus Controller Modules\nIC687BEM742\n Alstom\nStatus: \n APPROVED\nApproved\n Date: \n 24 Nov 2008\nDate to be Reviewed: \n Nov 2013\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThis FIP Bus Controller (FBC) \nis a two channel bus controller that occupies a single slot in an IC697 \nMFCVME Integrator rack. The FBC is configured with Windows* based programming \nsoftware. I/O devices on the FIP bus are scanned asynchronously by the bus \ncontroller; I/O data is transferred to the CPU once per scan.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nTechnical Specifications for IC687BEM742\nOperating \n Conditions:\nAtmospheric \n Pressure\n80 kPa to 108 kPa\nStorage and Transport Characteristics\nAtmospheric \n Pressure\nFree Fall\n66 kPa to \n 108 kPa\nGeneral \n Specifications\nModule Operating \n Voltage Module Current Drain\nMemory for \n IC687BEM742\nModule Operating \n Voltage Module Current Drain\nMemory for \n IC687BEM742\nLeds\nLeds\nData Rate for \n IC687BEM742\nData Rate for \n IC687BEM742\nProtocol\n5 VDC (from backplane)\n1.4 A, \n typical\n2 Megabytes of RAM\n2 \n Megabytes of Flash\nOK \n Module OK\nRUN \n Bus Arbiter \n Status\nCD1 Carrier Detect \n Channel 1\nTEN 1 \n Transmit Enable \n Channel 1\nCD 2 \n Carrier Detect \n Channel 2\nTEN 2 \n Transmit Enable \n Channel 2\n1 Mbit/second\nFeatures\nInterfaces FIP or World \n FIP I/O serial bus to C80-75 MFC.\nData rate for \n IC687BEM742 is 1 Mbit/second,\nTwo FIP Bus Controllers \n per MFC system.\nTwo FIP bus channels \n provide redundant bus capability.\nRS485 serial port \n attaches to PC for easy insystem firmware upgrade (no PROMS to change).\nPushbutton for resetting \n Bus Controller and enabling Bus Controller to accept upgrades.\nFIP bus faults managed \n by MFC Alarm processor Function.\nSix status LEDs.\nSoftware configuration (no DIP switches or jumpers to set)\nSafety \nPrecautions\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nRemoving a Module\nFirst, make sure rack power is turned off. Then, use a medium-blade, slotted \n screwdriver to loosen the top and bottom holding screws just enough to free \n the module from the rack. Note: Screws are held captive in the module, so they \n do not have to be removed from the module.\nGrasp the board firmly at the top and bottom of the board cover with your \n thumbs on the front of the cover and your fingers on the plastic rack clips on \n the back of the cover.\nSqueeze the rack clips on the back of the cover with your fingers to disengage \n the clips from the rack rail, and then pull the board firmly toward you until \n it clears the rack.\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text": "Power \n Stations | Technical Procedure\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThis FIP Bus Controller (FBC) \nis a two channel bus controller that occupies a single slot in an IC697 \nMFCVME Integrator rack. The FBC is configured with Windows* based programming \nsoftware. I/O devices on the FIP bus are scanned asynchronously by the bus \ncontroller; I/O data is transferred to the CPU once per scan.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nTechnical Specifications for IC687BEM742\nQuantity | 14 per \n module\nOperating \n Conditions: \n Atmospheric \n Pressure | 80 kPa to 108 kPa\nStorage and Transport Characteristics\n Atmospheric \n Pressure \n Free Fall | 66 kPa to \n 108 kPa\n 250mm (9.84 \n inches)\nGeneral \n Specifications\n Module Operating \n Voltage Module Current Drain \n Memory for \n IC687BEM742\n Leds \n Data Rate for \n IC687BEM742\n Protocol | 5 VDC (from backplane)\n 1.4 A, \n typical\n 2 Megabytes of RAM\n 2 \n Megabytes of Flash\n OK \n Module OK\n RUN \n Bus Arbiter \n Status\n CD1 Carrier Detect \n Channel 1\n TEN 1 \n Transmit Enable \n Channel 1\n CD 2 \n Carrier Detect \n Channel 2\n TEN 2 \n Transmit Enable \n Channel 2\n 1 Mbit/second\n FIP/World \n FIP\nFeatures\nInterfaces FIP or World \n FIP I/O serial bus to C80-75 MFC.\nData rate for \n IC687BEM742 is 1 Mbit/second,\nTwo FIP Bus Controllers \n per MFC system.\nTwo FIP bus channels \n provide redundant bus capability.\nRS485 serial port \n attaches to PC for easy insystem firmware upgrade (no PROMS to change).\nPushbutton for resetting \n Bus Controller and enabling Bus Controller to accept upgrades.\nFIP bus faults managed \n by MFC Alarm processor Function.\nSix status LEDs.\nSoftware configuration (no DIP switches or jumpers to set)\nSafety \nPrecautions\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nRemoving a Module\nFirst, make sure rack power is turned off. Then, use a medium-blade, slotted \n screwdriver to loosen the top and bottom holding screws just enough to free \n the module from the rack. Note: Screws are held captive in the module, so they \n do not have to be removed from the module.\nGrasp the board firmly at the top and bottom of the board cover with your \n thumbs on the front of the cover and your fingers on the plastic rack clips on \n the back of the cover.\nSqueeze the rack clips on the back of the cover with your fingers to disengage \n the clips from the rack rail, and then pull the board firmly toward you until \n it clears the rack.\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,36 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Redundancy Communications \n Module"
-  },
-  {
-   "type": "paragraph",
-   "text": "IC 687 RCM 711"
-  },
-  {
-   "type": "paragraph",
-   "text": "Alstom"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: \n APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Approved \n Date: 24 Nov 2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: \n Nov 2013"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -147,7 +125,7 @@
    "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
   }
  ],
- "text": "Power \n Stations\nTechnical Procedure\nEquipment\n Redundancy Communications \n Module\nIC 687 RCM 711\nAlstom\nStatus: \n APPROVED\nApproved \n Date: 24 Nov 2008\nDate to be Reviewed: \n Nov 2013\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThis Redundancy Communications Module (RCM)\nprovides a path for a synchronizing message from \nthe active to \nthe backup unit which is used to synchronize\nthe two CPUs in a FIP single rack redundancy \nsystem. It \nalso provides the path for the transfer of shared I/O\ndata between the two units. The physical connection\nbetween units in a FIP single rack redundancy \nsystem can \nhave up to 3 feet (0.9 meters) total of\ninterconnecting cable. The CPUs for FIP single rack\nRedundancy systems can be either IC697CPX928\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nSupports FIP Redundant system configurations.\nTwo Redundancy Communications Modules required\n per system (in redundancy rack).\nSingle slot VME width module\nProvides path for shared I/O and synchronizing\n message between Primary and Secondary MFCs.\nHigh Speed Parallel Bus Expansion Interface.\nFive LED indicators for board and system status.\nPushbutton switch for manual switch from active to\n backup unit.\nFunctions\nThis Redundancy \nCommunications Module (RCM) provides a path for a synchronizing message from the \nactive to the backup unit which is used to synchronize the two CPUs in a FIP \nsingle rack redundancy system. It also provides the path for the transfer of \nshared I/O data between the two units. The physical connection between units in \na FIP single rack redundancy system can have up to 3 feet (0.9 meters) total of \ninterconnecting cable. The CPUs for FIP single rack.\nRedundancy systems can be \neither IC697CPX928 or IC697CPX935.\nStatus Indications\nThe five green LEDs at the top of the module provide\nstatus information. The top LED (BOARD OK) is ON\nwhen power is applied, the board is configured, \nthere were no \ndiagnostic failures in the RCM, no diagnostic\nfailures when establishing communications (the \nlink) with \nthe other RCM, and no failures in communications\non the link.\nThe other LEDs (LOCAL READY, LOCAL ACTIVE,\nREMOTE READY, and REMOTE ACTIVE) indicate the\ncontrol status of the Primary and Secondary units \nin a Hot Standby CPU Redundancy system.\nSafety \nPrecautions\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nRemoving a module\n MFC power must be off when connecting or disconnecting the transceiver\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text": "Power \n Stations | Technical Procedure\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThis Redundancy Communications Module (RCM)\nprovides a path for a synchronizing message from \nthe active to \nthe backup unit which is used to synchronize\nthe two CPUs in a FIP single rack redundancy \nsystem. It \nalso provides the path for the transfer of shared I/O\ndata between the two units. The physical connection\nbetween units in a FIP single rack redundancy \nsystem can \nhave up to 3 feet (0.9 meters) total of\ninterconnecting cable. The CPUs for FIP single rack\nRedundancy systems can be either IC697CPX928\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nSupports FIP Redundant system configurations.\nTwo Redundancy Communications Modules required\n per system (in redundancy rack).\nSingle slot VME width module\nProvides path for shared I/O and synchronizing\n message between Primary and Secondary MFCs.\nHigh Speed Parallel Bus Expansion Interface.\nFive LED indicators for board and system status.\nPushbutton switch for manual switch from active to\n backup unit.\nFunctions\nThis Redundancy \nCommunications Module (RCM) provides a path for a synchronizing message from the \nactive to the backup unit which is used to synchronize the two CPUs in a FIP \nsingle rack redundancy system. It also provides the path for the transfer of \nshared I/O data between the two units. The physical connection between units in \na FIP single rack redundancy system can have up to 3 feet (0.9 meters) total of \ninterconnecting cable. The CPUs for FIP single rack.\nRedundancy systems can be \neither IC697CPX928 or IC697CPX935.\nStatus Indications\nThe five green LEDs at the top of the module provide\nstatus information. The top LED (BOARD OK) is ON\nwhen power is applied, the board is configured, \nthere were no \ndiagnostic failures in the RCM, no diagnostic\nfailures when establishing communications (the \nlink) with \nthe other RCM, and no failures in communications\non the link.\nThe other LEDs (LOCAL READY, LOCAL ACTIVE,\nREMOTE READY, and REMOTE ACTIVE) indicate the\ncontrol status of the Primary and Secondary units \nin a Hot Standby CPU Redundancy system.\nSafety \nPrecautions\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nRemoving a module\n MFC power must be off when connecting or disconnecting the transceiver\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [
