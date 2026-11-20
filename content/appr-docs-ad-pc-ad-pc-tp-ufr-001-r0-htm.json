@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Under Frequency Relay 81LL"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -172,6 +170,32 @@
    "text": "D.C \nVolt :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Injected Voltage",
+     "Measured Frequency",
+     "Time Trip"
+    ],
+    [
+     "V",
+     "H.Z",
+     ""
+    ],
+    [
+     "V",
+     "H.Z",
+     ""
+    ],
+    [
+     "V",
+     "H.Z",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:"
   },
@@ -188,7 +212,7 @@
    "text": "Approved by \n: Signature :"
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment:\n Under Frequency Relay 81LL\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe type SFF31 relays are static under frequency relays that provide a single \nset point for under frequency tripping if the system disturbance such that the \nload excceds the generation the system is in danger of collapse, then this relay \nwill trip the system. (Generator Protection)\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama at 29 April 2003, revised by EDEPC quality control eng. Adel El-Nagar, accepted by \ngeneral director eng. Mahmoud Saker and approved by eng. Moustfa Allam: Head Sector of Talkha Power Station.\nSafety Precautions\nA work \n permit must be issued & the staff of test must be qualified and carry \n the suitable safety precautions\nSafety fence with caution marks surrounding the work area is \n required.\nThe generator must be out of service.\nThe generator must be out of service.\nTools and Equipment\nTest Plug Handle .\nTest Leads .\nPCR 500L Test Set .\nTest Plug Handle .\nTest Leads .\nPCR 500L Test Set .\nWork to be Carried Out\nPreparation\nMake Sure PT secondary circuit are opened at the \nincoming terminal blocks before isolating\nthe relay voltage circuit for test ,\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay.\nMake Sure PT secondary circuit are opened at the \nincoming terminal blocks before isolating\nthe relay voltage circuit for test ,\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay.\nTesting the Relay\nConnect the relay studs ( 7 , 10 ) to the DC source 125 V DC where stud \n 7 is the + ve and stud 10 is the ve.\nConnect the test leads between the trip contact ( 1 2 ).\nConnect \n test leads to line to line terminals ( 4 5 ).\nIncrease the voltage at 115 v.\nAdjust \n the frequency to a normal value.\nDecrease the frequency slowly until the relay trips instantaneously.\nRecord \n the frequency value and the time trip in the test sheet.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( 4 - 5 )\n - Disconnect the test leads between the trip contact ( 1 - 2 ) \n - Disconnect the DC terminals from ( 7-10 )\nMake sure CT and PT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet\nfor Static Under Frequency Relay\nUnit No\nRelay Type \n : \nRelay Model :\nP.T. \nRatio : \nRelay Contact :\nFreq. Setting \n: Injected Terminal \n:\nD.C \nVolt :\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date:\nReviewed by : \nSignature : \nTest Date :\nApproved by \n: Signature :",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe type SFF31 relays are static under frequency relays that provide a single \nset point for under frequency tripping if the system disturbance such that the \nload excceds the generation the system is in danger of collapse, then this relay \nwill trip the system. (Generator Protection)\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy & \neng. Azza Salama at 29 April 2003, revised by EDEPC quality control eng. Adel El-Nagar, accepted by \ngeneral director eng. Mahmoud Saker and approved by eng. Moustfa Allam: Head Sector of Talkha Power Station.\nSafety Precautions\nA work \n permit must be issued & the staff of test must be qualified and carry \n the suitable safety precautions\nSafety fence with caution marks surrounding the work area is \n required.\nThe generator must be out of service.\nThe generator must be out of service.\nTools and Equipment\nTest Plug Handle .\nTest Leads .\nPCR 500L Test Set .\nTest Plug Handle .\nTest Leads .\nPCR 500L Test Set .\nWork to be Carried Out\nPreparation\nMake Sure PT secondary circuit are opened at the \nincoming terminal blocks before isolating\nthe relay voltage circuit for test ,\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay.\nMake Sure PT secondary circuit are opened at the \nincoming terminal blocks before isolating\nthe relay voltage circuit for test ,\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay.\nTesting the Relay\nConnect the relay studs ( 7 , 10 ) to the DC source 125 V DC where stud \n 7 is the + ve and stud 10 is the ve.\nConnect the test leads between the trip contact ( 1 2 ).\nConnect \n test leads to line to line terminals ( 4 5 ).\nIncrease the voltage at 115 v.\nAdjust \n the frequency to a normal value.\nDecrease the frequency slowly until the relay trips instantaneously.\nRecord \n the frequency value and the time trip in the test sheet.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( 4 - 5 )\n - Disconnect the test leads between the trip contact ( 1 - 2 ) \n - Disconnect the DC terminals from ( 7-10 )\nMake sure CT and PT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet\nfor Static Under Frequency Relay\nUnit No\nRelay Type \n : \nRelay Model :\nP.T. \nRatio : \nRelay Contact :\nFreq. Setting \n: Injected Terminal \n:\nD.C \nVolt :\nInjected Voltage | Measured Frequency | Time Trip\nV | H.Z | \nV | H.Z | \nV | H.Z | \nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date:\nReviewed by : \nSignature : \nTest Date :\nApproved by \n: Signature :",
  "text_truncated": false,
  "links": [],
  "images": [

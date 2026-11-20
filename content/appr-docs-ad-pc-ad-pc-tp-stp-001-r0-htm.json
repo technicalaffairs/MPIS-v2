@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -601,6 +603,64 @@
    "text": "Test Result"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Neutral Side",
+     "Output Side"
+    ],
+    [
+     "Value \n Phase",
+     "Ipu \n mA",
+     "Ido \n mA",
+     "T1 \n m sec",
+     "T2 \n m sec",
+     "T3 \n m sec",
+     "Ipu \n mA",
+     "Ido \n mA",
+     "T1 \n m sec",
+     "T2 \n m sec"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "L.O.R. 286-1G ( )"
   },
@@ -628,9 +688,21 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
+     "H.V. side",
+     "L.V. side",
      "through matching"
+    ],
+    [
+     "Value \n Phase",
+     "Ipu \n A",
+     "Ido \n A",
+     "T1\n m sec",
+     "T2\n m sec",
+     "Ipu \n A",
+     "Ido \n A",
+     "T1\n m sec",
+     "Ipu \n A",
+     "Ido \n A"
     ],
     [
      "R",
@@ -646,6 +718,18 @@
     ],
     [
      "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
      "",
      "",
      "",
@@ -691,9 +775,21 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
+     "Out put side",
+     "Neutral side",
      "through matching"
+    ],
+    [
+     "Value /\n Phase",
+     "Ipu \n A",
+     "Ido \n A",
+     "T1\n m sec",
+     "T2\n m sec",
+     "Ipu \n A",
+     "Ido \n A",
+     "T1\n m sec",
+     "Ipu \n A",
+     "Ido \n A"
     ],
     [
      "R",
@@ -709,6 +805,18 @@
     ],
     [
      "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
      "",
      "",
      "",
@@ -766,7 +874,7 @@
    "rows": [
     [
      "I",
-     "",
+     "Ipu =",
      "",
      "",
      ""
@@ -869,6 +977,15 @@
    "type": "table",
    "rows": [
     [
+     "",
+     "Ipu A",
+     "Ido A",
+     "T2",
+     "T3",
+     "T4",
+     "R.F."
+    ],
+    [
      "R",
      "",
      "",
@@ -901,6 +1018,65 @@
   {
    "type": "paragraph",
    "text": "Ch c 2 normal setting {I>,I>>,T(I>),T(I>>)}"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "U = 100 Un",
+     "U = 50 Un",
+     "U = 0.0Un"
+    ],
+    [
+     "I> A",
+     "I>> A",
+     "Tsec",
+     "I> A",
+     "I>> A",
+     "Tsec",
+     "I> A",
+     "I>> A",
+     "Tsec"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -939,6 +1115,20 @@
      "Ido mA",
      "T sec",
      "Tsec"
+    ],
+    [
+     "Ia",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Ib",
+     "",
+     "",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -1103,12 +1293,51 @@
    "type": "table",
    "rows": [
     [
+     "Value/Phase",
+     "P.U.",
+     "D.O"
+    ],
+    [
      "Ur-s < (P.T.1 )",
      "",
      ""
     ],
     [
      "Ur-s < \n (P.T.2 )",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Value/Phase",
+     "I>P.U \n A",
+     "I>d.o \n A",
+     "R.F.",
+     "Tmsec."
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
      "",
      ""
     ]
@@ -1150,11 +1379,32 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
-     "",
+     "Value /\n Phase",
+     "I>P.U A",
+     "I>d.o A",
+     "Tmsec.",
      "R.F"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -1206,16 +1456,78 @@
    "text": "(Step up transformer)"
   },
   {
-   "type": "paragraph",
-   "text": "Alarm"
-  },
-  {
-   "type": "paragraph",
-   "text": "Alarm ="
-  },
-  {
-   "type": "paragraph",
-   "text": "Alarm ="
+   "type": "table",
+   "rows": [
+    [
+     "No.",
+     "Protection System",
+     "Relay Type",
+     "Relay Setting",
+     "Test Result."
+    ],
+    [
+     "1",
+     "Buchholz Relay",
+     "",
+     "Alarm \n Trip",
+     ""
+    ],
+    [
+     "2",
+     "Oil Temp.",
+     "",
+     "Alarm = \n Trip =",
+     ""
+    ],
+    [
+     "3",
+     "Winding Temp.",
+     "",
+     "Alarm =\n Trip =",
+     ""
+    ],
+    [
+     "4",
+     "Oil Level",
+     "",
+     "Alarm",
+     ""
+    ],
+    [
+     "5",
+     "Sprinkler Device",
+     "",
+     "Trip",
+     ""
+    ],
+    [
+     "6",
+     "Check for Trip CB.",
+     "",
+     "Trip",
+     ""
+    ],
+    [
+     "7",
+     "220kv CB B.F.",
+     "",
+     "Trip",
+     ""
+    ],
+    [
+     "8",
+     "Check CT & P.T Leads",
+     ""
+    ],
+    [
+     "9",
+     "Pressure relief valve",
+     "",
+     "Trip",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -1272,6 +1584,48 @@
   {
    "type": "paragraph",
    "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Value / Phase",
+     "Ipu A",
+     "Ido A",
+     "T sec",
+     "R.F",
+     "I>> A",
+     "T (I>>) msec"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -1334,6 +1688,36 @@
    "text": "Test Result"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase / Value",
+     "Ipu A",
+     "Ido A",
+     "T sec"
+    ],
+    [
+     "R",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "6.3kv CB \nclosed and tripped by Idiff..............................."
   },
@@ -1360,6 +1744,36 @@
   {
    "type": "paragraph",
    "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "phase/ Value",
+     "Upu v",
+     "Udo v",
+     "T sec"
+    ],
+    [
+     "R",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -1390,6 +1804,36 @@
    "text": "Test Result"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "phase / Value",
+     "Upu v",
+     "Udo \n v",
+     "T sec"
+    ],
+    [
+     "R",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": ".............................................6.3kv CB closed and tripped by the \nrelay."
   },
@@ -1414,7 +1858,7 @@
    "text": "........................ \n..........................."
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThe scheme protection system for steam \nturbine is manufactured by CEE France and this Scheme is a solid state type. The \nscheme protection will protect generator, step up transformer, There is table \nfor protective relays.\nThe first draft initiated by \neng. Abdel Raheem Salem Mohamed Ez, \ntested by eng. Khaled El-Etreby & eng. Atef Farh, revised by \nquality control eng. Tawfik Elabasery at EDEPCo., and approved by eng. Monear Mahmoud El-Wakeel: Head Sector of\n Damietta \nPower Station.\nSafety Precautions\nA work permit \n must be issued and the qualified maintenance staff should carry the suitable \n safety category,\nSafety fence with caution marks surrounding the work area \n is required.\nSteam turbine out of service and work \n permit required.\nA work permit \n must be issued and the qualified maintenance staff should carry the suitable \n safety category,\nMake sure CT \n secondary circuit are shorted.\nVoltage \ntransformer miniature circuit breakers (m.c.b) is opened\nTools and Equipment\nSiemens test \n set which consists of two units\nCurrent unit \n type 7VP48.\nVoltage unit \n type 7VP49.\nVoltmeter,\n Ammeter.\nTest leads, \n screw driver.\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay \nTesting\nReview technical reference material \n manufactures / manual.\nObtain copy of relay setting from field \n maintenance file.\nObtain outage for unit protected by this \n relay\nCheck that the bus and unit disconnect \n switches are opened and tagged.\nInspect the secondary circuits of CT .\nInspect VT miniature circuit breakers (m.c.b.) \n and all cabling supplying the relay.\nBlock any disturbance alarms or fault \n recorders associated with this protection.\nPreparation of Test\nPlace the two cases one on the top \n of other (the voltage unit on the top of current unit)\nConnect the two units together by \n the cable connector 7 XV6201 between test plug \"X2\" in current unit and \n test plug \"X1\" in voltage unit.\nConnect the power supply cable \n 7XV6200 (3*380 V) between the plug \"X1\" in the current unit and the source \n (careful the positive sequence).\nConnect an ammeter with the socket \n \"17 ,18\" in current unit and voltmeter with the socket \"5,6\" in voltage \n unit.\nGenerator \nDifferential\nTo permit the relay operate the current \n must be pass through the operating coil.\nInject the current to the relay for each \n phase of the two sides the current leads put as the follow: \n Phases neutral side Output side \n PH-R AR3, AN3 AR4,AN4 \n PH-S AS3,AN3 \n AS4,AN4 \n PH-T \n AT3,AN3 AT4,AN4\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the current \n the green lamp light, read and record the drop out value.\nIncrease the current the to pick up \n value then measure the time T1 (timer point 149,150) free contact.\nRepeat this for each phases of the two \n sides.\nTransformer Differential\nTo permit the relay operate the current \n must be pass through the operating coil.\nInject the current to the relay for each \n phase of the two sides the current leads put as the \n follow: \n phases L.V. \n side H.V. side \n PH-R AR7, AN7 \n 14(relay), AN7\n PH-S AS7, AN7 \n 18(relay), AN7\n PH-T AT7, AN7 \n 22(relay), AN7\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the current \n untill the green lamp light, read and record the drop out value.\nIncrease the current to the pick up \n value then measure the time T1 (timer point 149,150) free contact.\nRepeat this for each phases of the two \n sides.\nOver All \nDiff\nTo permit the relay \n operate the current must be pass through the operating coil.\nInject the current to \n the relay for each phase of the two sides the current leads put as the \n follow: \n Phases neutral side \n 220kv side\n PH-R AR1, AN1 \n 14(relay), AN1 \n PH-S AS1,AN1 \n 18(relay), AN1 \n PH-T AT1,AN1 \n 22(relay),AN1\nIncrease the current until the green \n lamp distinguished read and record the pick up value then,\nDecrease the current until the green \n lamp light, read and record the drop out value.\nIncrease the current the to pick up \n value then measure the time T1 (timer point 149,150) free contact.\nRepeat this for each phases of the two \n sides.\nReverse \nPower\nDisconnect the two fuse switches for \n sec. P.T.\nDisconnect the links of terminals \n VR2,VS2,VT2\nConnect \n the voltage leads UR, US, UT . from the \n tester to terminals VR2,VS2,VT2 (relay \n side)\nConnect the current leads IR, \n IN from the tester to \n terminal (2,3) on the relay\nInject 3-ط voltage UL = \n 100v\nInject small current (mA) to adjust the \n angle at 180 on the digital where the selector current L1 and \n Voltage (U1-U2) then increase it until green lamp \n distinguished record the p.u. value (Ipu= mA) then determine the \n operating angle zone, at 180 again decrease the current until lamp light \n record the d.o. value(Id.o)\nConnect \n the current leads IT, IN \n from the tester to terminal (10,11) on \n the relay .\nInject 3-ط voltage UL = \n 100v\nInject small current (mA) to adjust the \n angle at 180 on the digital where the selector current L3 and \n Voltage (U1-U2) then increase it until green lamp \n distinguished record the p.u. value (Ipu= mA) then determine the \n operating angle zone, at 180 again decrease the current until lamp light \n record the d.o. value (Id.o)\nDetermine the long time at the p.u \n value T (timer point 149,150) free contact.\ndetermine the short time at the p.u \n value T (timer point 13,17).\nLoss of \nField\nDisconnect the two fuse switches for \n sec. P.T.\nDisconnect the links of terminals \n VR2,VS2,VT2\nConnect \n the voltage leads UR, US, UT . from the \n tester to terminals VR2,VS2,VT2 (relay \n side)\nConnect \n the current leads IR, IN \n from the tester to terminal (2,3) on \n the relay\nInject 3-ط voltage UL = \n 100v\nInject small current (mA) to adjust the \n angle at 270 on the digital where the selector current L1 and \n Voltage (UR-UT) which not exist this require reversing \n the current then increase it until green lamp distinguished record this \n value (Ipu= mA) then determine time T (timer point 149,150) the \n operating angle zone, at 270 again decrease the current until lamp light \n record this value (Id.o)\nConnect \n the current leads IT, IN \n from the tester to terminal (7,6) on \n the relay .\nInject 3-ط voltage UL = \n 100v\nInject small current (mA) to adjust the \n angle at 270 on the digital where the selector current L3 and \n Voltage (UT-UR) then increase it until green lamp \n distinguished record this value (Ipu= mA) then determine time T \n (timer point 149 , 150) the operating angle zone , at 270 again decrease the \n current until lamp light record this value (Id.o)\nVoltage \nRestraint Over Current\nDisconnect the two fuse switches for \n sec. P.T.\nDisconnect the links of terminals \n VR2,VS2,VT2\nConnect the voltage leads UR, US, UT . from \n the tester to terminals VR2,VS2,VT2 \n (relay side)\nPut the current leads as follow: \n PH-R 2,3 on the relay\n PH-S 6.7 on the relay\n PH-T 10,11 on the relay\nOver \n Current test\nApply 100 v\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the \n current the green lamp light, read and record the drop out value.\nIncrease the current to pick up value \n then measure the time T1 (timer point 149,150) free contact\nRepeat the previous step for each \n phases at different values of the voltage 50 v , 0.0v\nShort \n Circuit test\nAs the o/c test but its value known \n from the flag (b) not from lamp.\nRepeat this for all phases.\nNegative \nPhase Sequence\nInject the current to the relay by \n putting current leads to terminals\n phases terminal on relay \n ph-R 2,3 \n ph-S 6,7\n ph-T 10,11\nDefinite element Ib \n a- Increase the mA current until the green lamp \n distinguished record this value (Ib pu) then,\n b- Decrease the current until the green lamp light \n record this value (Id d.o.) \n c- Measure the definite time Ib pu = 3*K%*In*K1\nInverse element Ia\n a - Increase the current to value = 3*K%* In (Ia \n pu)\n b - Increase the current to value = n*3*K%*In, \n measure the time Tn\nStator \nEarth Fault\nInject the current to the relay by \n putting current leads to terminals A01,A02\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the \n current the green lamp light , read and record the drop out value\nIncrease the current to pick up value \n then measure the time T1 (timer point 149,150) free contact\nTransformer Earth Fault\nInject the current to the relay by \n putting current leads to terminals A03,A04\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the \n current untill the green lamp light, read and record the drop out value\nIncrease the current to pick up then \n measure the time T (timer point 149 , 150) free contact .\nOver \nFluxing\nDisconnect the two fuse switches for sec \n PT.\nDisconnect the links of terminals \n VR2,VS2,VT2\nConnect \n the voltage leads UR, US from the tester\n to terminals VR2,VS2 (relay side)\nIncrease the voltage until the green \n lamp distinguished, read and record the pick up value then decrease the \n voltage untill the green lamp light, read and record the drop out value.\nIncrease the voltage to pick up then \n measure the time T1 (timer point 149,150) free contact.\nVoltage \nBalance\nDisconnect the two fuse switches for \n sec. PT.\nDisconnect the links of terminals \n VR1,VS1,VT1 & VR2,VS2,VT2 and VR3,VS3,VT3and VR4,VS4,VT4\nPut the voltage leads to prot. side : \n ph-R-S points 22,23, phR-T 22,24 and ph S-T 23,24 on relay AVR ph-R-S \n points 6,7, phR-T 6,8 and ph S-T 7,8 on relay\nIncrease the voltage (p.u) until the \n flag appear.\nRotor \nEarth Fault\nPut \n the variable resistance between the slip ring of the rotor or terminal A0 \n in the protection cabinet and earth then decrease the resistance value \n gradually until the trip commend appear at L.O.R.\nMeasure this resistance value (Rpu).\nDead Machine Relay\nRelay Type : RAGUA, Manufacture: ABB\nIncrease the voltage (p.u) until the \n flag appear.\nDisconnect the \n m.c.b for sec. P.T.\nDisconnect the link for terminal VR1,VS1,VT1 & VR2,VS2,VT2 & VR3,VS3,VT3 and VR4,VS4,VT4\nUnder voltage Element Test\nConnect the voltage leads to points \n VR2,VS2\nIncrease the voltage to 100 v to release \n the under voltage element\nWait 4 sec. the fuse failure flag is appear\nDecrease the voltage until fuse failure is \n release, record this value as P.U value\nIncrease the voltage until the under \n voltage element is released record the d.o. value .\nRepeat the steps from 3-5 but the voltage \n leads connected to terminals \n VR3,VS3\nOver Current Element\nConnect the current leads to the \n terminals PH-R (AR5,point 4 on relay)\nIncrease the current until the \n trip flag is appeared, record this pu value\nDecrease the current until the \n flag red release, record this d.o value\nRepeat, the stops from to 3 for \n ph.s & ph.T but with connecting the current leads to terminals PH-S \n (AS5,point 6 on relay) PH-T (AT5,point 8 on relay)\nFunctions of Dead Machine Test\nConnect the voltage leads to the terminal (VR2,VS2)\nConnect the current leads to the terminal\n PH-R (AR5,point 4 on relay)\nConnect the timer to free contact on this \n relays\nInject the pu. value of current at voltage \n element is released and not released\nMeasure the time of trip, record this \n voltage\nRepeat the steps from 2-5 to the other \n phases\nBack up function\nInject the voltage 100 v as \n pervious\nInject the pu. current for ph. R \n as pervious\nDecrease the voltage to p.u. \n value, trip command appear\nMeasure the time as pervious\nTrip C ct test\nAdjust the current to p.u. value, while \n the voltage equal zero\nClose the unit CB's without isolators\nInject the current, the unit CB's will \n tripped\nFrequency Protection\nOver and \n Under Frequency\nDisconnect \n the m.b.c. of the secondary circuit of the potential transformer.\nDisconnect \n the links of ...... MAC 124 (VR2, VS2, VT2).\nConnect the \n voltage leads to points terminals ...... MAC 124 (VR2, \n VS2, VT2).\nInject the voltage, \n increase the voltage to Un. (normal)\nIncrease \n the frequency until the relay picks up, record this value F > pu, then \n decrease the frequency until the relay drop off, record this value F > do. \n (do: drop out)\nMeasure \n this time from free contact where the relay picks up.\nAgain \n adjust the frequency to Fn. (n: nominal)\nDecrease \n the frequency until the relay picks up, record this value F < pu, then \n increase the frequency until the relay drop off, record this value F < do.\nMeasure \n this time from free contact where the relay picks up.\nWhen the \n relay operate, decrease the voltage until the relay block, record this value \n U block, then increase the voltage until the relay ready, record this value \n U ready.\nDisconnect \n the m.b.c. of the secondary circuit of the potential transformer.\nDisconnect \n the links of ...... MAC 124 (VR2, VS2, VT2).\nConnect the \n voltage leads to points terminals ...... MAC 124 (VR2, \n VS2, VT2).\nInject the voltage, \n increase the voltage to Un. (normal)\nIncrease \n the frequency until the relay picks up, record this value F > pu, then \n decrease the frequency until the relay drop off, record this value F > do. \n (do: drop out)\nMeasure \n this time from free contact where the relay picks up.\nAgain \n adjust the frequency to Fn. (n: nominal)\nDecrease \n the frequency until the relay picks up, record this value F < pu, then \n increase the frequency until the relay drop off, record this value F < do.\nMeasure \n this time from free contact where the relay picks up.\nWhen the \n relay operate, decrease the voltage until the relay block, record this value \n U block, then increase the voltage until the relay ready, record this value \n U ready.\n6.3kv equipment\nNegative Sequence Relay, type : M2 AS 370B, FIR Italy\nEquipment is out of service and its CB \n in test position\nConnect the current leads on the test \n device L1,N to the points (1A,2A) on the relay\nIncrease the current to pick up value \n (green lamp light), record this value\nDecrease the current to drop out value \n (green lamp distinguished ), record this value\nRepeat the steps from 2-4 for the other \n phases .where the current leads connected as follow L2-N on the test device to \n 3A,4A on the relay and L3-N to 5A,6A\nAdjust the current at 5 IPU\nMeasure the time from free contact (10A, \n 5B)\nClose the CB in test position and \n inject the 5 Ipu, CB will tripped\nDifferential Relay\nType : M1AM 030B FIR Italy\nEquipment is out of service and its \n CB in test pos\nConnect the current leads on the test \n device L1,N to the points (1,4)on the relay\nIncrease the current until the red \n lamp light (pick up value) record this value\nDecrease the current until the red \n lamp distinguished (drop out value) record this value\nInject the PU value and measure the \n time from free contact (6,7)\nClose CB in test position and inject \n the current, the CB is tripped\nOver Current Relay\nType : M2AM 370B FIR Italy\nThe equipment is out of service and its \n CB in test pos.\n(A) Over Current test I >\nConnect the current leads on test device \n L1,N to the points (1A,6A)on the relay\nIncrease the current to pick up value \n (lamp light), record this value\nDecrease the current to drop out value \n (lamp distinguished ), record this value\nInject the P.U. value current, and \n record the time from free contact (1B, 3B)\nIncrease the current to SC value (I \n >>lamp light), record this value\nMeasure the time of I >> value\nRepeat the steps for ph-S & ph-T, by \n connecting the current leads to the points (3A,6A) & (5A,6A)\n(B) Trip C CT Test\nAdjust the I >> value for any phase\nClose the CB in test position\nInject the current. the CB is tripped\nNegative Sequence Relay for Busbar Voltage 6.3kv ( 147B )\nType. UKT 913 , ABB\nBB 6.3 kv out of service and CB's in test \n position.\nDisconnect the m.c.b for sec. circuit of P.T\nConnect the voltage leads on the test device L1,N \n to the points A4, A7 on the relay\nIncrease the voltage until the led lamp light \n (yellow lamp start) record this pu value\ndecrease the voltage untill the led lamp reset record the d.o value\nInject the p.u. value and measure the time when \n the red lamp light (trip) record this time value from frre contact (A3,A1)\nConnect the CB in \n the test position, inject this \n value to trip it.\nUnder Voltage Relay BB 6.3kv (127 B)\nType : M2VN 320B FIR Italy\nBB 6.3 kv out of service and CB s in test \n position\nDisconnect the m.c.b for sec. circuit of P.T.\nConnect the voltage leads on the test device \n L1,L2,L3,N to the points 1A,4A,7A,2A on the relay\nIncrease the voltage until the red lamp \n distinguished, record this d.o value\nDecrease the voltage until the red lamp light, \n record this p.u value. and record the time by free contact 4B,6B\nClose pump C.B in test position and tripped it by \n U< relay\nLocation: Relay Code: \nTest Date: Tested by: \nSignature:\nTest Sheet\nRelay Name : Generator Differential\nRelay Type : DTM7033 Manufacture \n: CEE\nRelay setting:\nC.T.R. \n(Neutral Side) = 10000/1 In = 1.0A inverce chc.\n C.T.R ( Output Side) = 10000/1 Id/In = \n0.1 KR% = 10 \n Irated \ngen. = 8786 A \nId prim .=\nTest Result\nL.O.R. 286-1G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name :\nStep Up Transformer Differential\nRelay Type : DTT 7031 Manufacture \n: CEE\nRelay Setting : \n C.T.R.(H.V side) = 1000/1 In = 1.0 A\n C.T.R.(L.V. side) = 10000/1 Ir/In \n= I/In =\n I rated traf.(11.5KV) \n= 8183A Id prim .=\nTest Result\n\nL.O.R. 386U + \n286 - 1G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Over All Differential\nRelay Type : DTT 7031 Manufacture \n: CEE\nRelay Setting : \n C.T.R. (out pot side) = 1000/1 In = 1.0 A\n C.T.R. (neutral side) = 10000/1 Ir/In \n= I/In =\nId prim . =\nTest Result\n\nL.O.R. \n386U + 286 - 1G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Reverse Power\nRelay Type : WTGA 7131 Manufacture \n: CEE\nRelay Setting :\n C.T.R. = 10000/1 T1 (Long Time) = \n15.0 sec.\n P.T.R. = 11500/100 T2 (Short Time) = \n2.0 sec\n Psec = 0.10 pn\nEq. Used : Psec \n= V* I COS\nTest Result\nT = \nSec \n = \n( )\nInjection (VR-S ; IR) \n :\n For VR-S = 100 v, = 180\n Ipu = mA Ido \n = mA \nT = Sec \n = ( )\nT = \nSec \n = \n( )\n** For V = 100v\n\nPprim = Vsec.*Isec.*C.T.R.*P.T.R.\nPprim. =\nL.O.R. 286-2G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : \nLoss Of field (40G)\nRelay Type : YTM 7111 Manufacture \n: CEE\nRelay Setting :\n C.T.R. = 10000/1 P.T.R. = 11.5/0.1 kv\n Diameter min. drop value K1 = 287 %\n Offset max. drop value K2 = 6%\nGenerator Data : \n X1d = 25% ; Xd = \n206% ; I rated = 8786 A \nEquation :\n (a) (I2, K1) I2 = \nV/Zn *100/K1 + K2\n (b) (I1,K2) I1 = \nV/Zn * 100/K2\nTest Result\nT = Sec \n= ( )\n L.O.R. 286-2G ( )\nInjection (VR-T = 100\n ; IR) :\n For VR-T = 100 v, =270\n Ipu = A Ido \n = A \n T = Sec \n = ( )\nT = Sec \n= ( )\n L.O.R. 286-2G ( )\nMathematical Result :\n(a) Circle diameter (12) setting (K1)\n I2 = 100/57.7 *100/(287+6) = 0.59 A\n(b) Circle Offset (II) Setting (K2)\n I1 = 100/57.7 *100/6 = 28A\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Voltage Restraint Over \nCurrent\nRelay Type : \nITV7266 Manufacture \n: CEE\nRelay setting: C.T.R. = 10000/1 I/In = 1.0A\n P.T.R = 11.5/0.1 kv U< = off\n I> =(0.5 +\n∑1) \nIn T(I> ) = (0.5 +\n∑1) see\n I>> =(1.0 +\n∑2) \nIn T(I>> ) = (0.1 +\n∑t2) \nsee\n∑1 = \n0.4 \n∑t1 \n=2.8\n∑2 \n=0.5 \n∑t2 \n=1.4 selector (a-b) = 2\nI rated gen.= 8786A I> prim. = I>> prim. \n=\nTest Result\nCh c 1 (U = 100 % Un - inverse time \ncurve I/I> , T) I>> = max \n∑2 = max, \nvalue\n\nCh c 2 normal setting {I>,I>>,T(I>),T(I>>)}\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Negative Phase Sequence\nRelay Type : ITT 7521 Manufacture: \nCEE\nRelay Setting :\n C.T.R. = 10000/1 In = 1.0 A.\n Dependent Time Unit (inverse) In =K% In = 0.08A\n T(Ia) \n= 4.5 sec K% =8\n Independent Time Unit (definite) : Ib = K% \nKIn = 0.064A\n T(Ia)= \n20 sec K% =0.8\nIa prim. = Ib prim. =\n\nL.O.R. 286-1G \n( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Stator Earth Fault (64G)\nRelay Type : ITG 7114 Manufacture \n: CEE\nRelay Setting :\n C.T.R. = 200/1 In = 1.0 A.\n I . = 0.07A T = Sec\nP.T.R. (neutral \npoint) = shunt resistance =\nvoltege setting \nprim. = voltege setting sec.=\nTest Result\nIpu = mA Ido \n= mA\n T = Sec\nL.O.R. 286-1G \n( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Step Up Transformer Earth \nFault \nRelay Type : ITG 7114 Manufacture \n: CEE \nRelay Setting :\n C.T.R = 2000/1 I = 0.2 A \n T = 1.2 Sec\n In = 1.0 A Irated traf. \n= Id prim .=\nTest Result\nI pu = mA \nIdo = mA\n T = Sec\nL.O.R. 286-1G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay \nName : \nOver fluxing\nRelay Type : FTT 7111 Manufacture : CEE \nRelay Setting :\n P.T.R = 11.5/0.1 kv V/HZ > 1.1 Vn/Fn\n V = 110 v T1 = 600 \nmSec T2 = 3.0 Sec\nTest Result\nU pu = V Udo \n= v\n T1 = Sec (alarm) T2 \n= Sec\nL.O.R. 286 - 1G( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay \nName : Voltage Balance (60G)\nRelay Type : TTGB 7031 Manufacture : CEE\nRelay Setting :\n Ua - Ub = 10 v P.T.R = 11.5/0.1 kv\nTest Result\nU pu = V\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay \nName : \nRotor Earth Fault (64G)\nRelay Type : TTE 7015 Manufacture :CEE\nRelay Setting : R = 6.2 KO\nTest Result\n R = KO \n L.O.R. 286-2G ( )\n -Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n............................................................................................................................................................\nDead Machine Relay\nRelay type : RAGUA \nManufacture : ABB\nRelay setting : I > \n(3ph) = A Ur-s <(P.T.1) = \nV Ur-s<(P.T.2) = V\n T343 (Back \nUp) = T143 (hold U< in case stand still)= V\nT331 A (F.F) \n= C.T.R. = P.T.R.=\nTest Result\n- Under Voltage element test:\n\nCase No.1: Injection \n{I>+Ur-s>(P.T.1) 100V+Ur-s>(P.T.2)100 V}at the same time dead machine trip with \ntime = ms\nCase No.2: Injection {I>Ur-s<(P.T.1) + Ur-s<(P.T.2)} \nat the same time dead machine trip with time = ms\nCase No. 3 Injection {I>+Ur-s>(P.T.1) 100 V + \nUr-s<(P.T.2)}at the same time dead machine trip with time = ms\nCase No. 4 Injection \n{I>+Ur-s<(P.T.1) + Ur-s>(P.T.2) 100 V}at the same time dead machine trip with \ntime = ms\nCase No.1: Injection \n{I>+Ur-s>(P.T.1) 100V+Ur-s>(P.T.2)100 V}at the same time dead machine trip with \ntime = ms\nCase No.2: Injection {I>Ur-s<(P.T.1) + Ur-s<(P.T.2)} \nat the same time dead machine trip with time = ms\nCase No. 3 Injection {I>+Ur-s>(P.T.1) 100 V + \nUr-s<(P.T.2)}at the same time dead machine trip with time = ms\nCase No. 4 Injection \n{I>+Ur-s<(P.T.1) + Ur-s>(P.T.2) 100 V}at the same time dead machine trip with \ntime = ms\nBack up protection test \n : Ur-s(P.T.1) 100 V Ur-s (P.T.2) 100 \n V\n\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay \nName : \nOver/ Under Frequency\nRelay Type : HDG 7020 Manufacture : CEE\nRelay Setting :\n F1 = 51.5 HZ F2 = 47.5 HZ\nTest Result\nU ready = v Ubloch \n= v\nFo/f = HZ Fu/f \n= HZ\n -Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nTest sheet for \nProtective Relays S.T. Unit No.:\n(Step up transformer)\nAlarm\nAlarm =\nAlarm =\nStep up trf fan group 1 : 60\n ؛C (winding ) on - \n 50 ؛C (oil ) off\n fan group 2 : 70 ؛C (winding ) \n on - 70 ؛C (oil ) off\nC.B.S D ......... & D......... are closed and tripped by reverse \n power (short time)\nMeasuring the trip signal on trip coil of D ........, \n D......... by L.O.R 286-1G\nMeasuring the trip signal on trip coil of D ........, \n D.......... by L.O.R 286-2G\nMeasuring the trip signal on trip coil of D ........, \n D.......... by L.O.R 386-U\nStep up trf fan group 1 : 60\n ؛C (winding ) on - \n 50 ؛C (oil ) off\n fan group 2 : 70 ؛C (winding ) \n on - 70 ؛C (oil ) off\nLocation \n : Date :\nTested by \n : Signature:\n...................................... \n .....................................\n..................................... \n ......................................\nRelay function protection \n .....................................................................................................\nTrip circuit \n .....................................................................................................\nD.C supply \n .....................................................................................................\nCheck for tightening terminal C.T&P.T. \n ...................................................................................\nC.B 6.3kv closed in test position and tripped by \n .....................................................................\nTest \nSheet for Protective Relays 6.3kv Steam Turbine Unit No.\nEquipment: ............................ \nDate: ..............................\nRelay Name : \nOver Current Relay \n(150- 151/M )\nRelay Type : M2AM 370B Manufacture \n: FIR\nRelay setting: \n C.T.R. = 200/1 In = \n1.0A\n I> = 0.6 In \n Curve BA1,BCB1 k = 10\n I>> = 6.5 In T ( \nI>>) = 0.02 sec\nTest Result\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n............................................................................................................................................................\nRelay Name : \nEarth Fault Relay \n(151G/M )\nRelay Type : M1AM 630B Manufacture: \nFIR\nRelay setting: C.T.R. = 100/1 \nIon = 1.0A Io>8% Ion \n Curve CC1,BCB1 \nk =0.5\nTest Result\nIpu \n= m A Ido = \n m A\n T3 = msec \nT5 = msec\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n............................................................................................................................................................\nRelay Name : \nNegative Phase \nSequence (146/M )\nRelay Type : M2AS370A Manufacture \n: FIR\nRelay setting: \n C.T.R. = 200/1 Ion = 1.0A I2> = \noff\nI2> = 14% In k1 = 2 T = \n10\nTest Result\nIpu \n= m A Ido \n= m A\n T3 = msec \nT5 = msec\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n............................................................................................................................................................\nRelay Name : \nDifferential Protection (187 /M ) \nRelay Type : M1AS030B Manufacture \n: FIR\nRelay setting: \n C.T.R. = 125/1 In = 0.02A Ion>=2.5 In\nTest Result\n6.3kv CB \nclosed and tripped by Idiff...............................\n-Relay function protection (.......................................)\n-Trip function for relay \n(......................................)\n............................................................................................................................................................\nRelay \nName : \nUnder Voltage Relay (127/B)\nRelay Type : M2VN320B \n Manufacture : FIR\nRelay setting: \n P.T.R. \n= 6300/3 / 100/3 \n Uph< = 43.5 v T =3.0 sec.\nTest Result\n.............................................6.3kv CB closed and tripped by the \nrelay.\n -Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n.........................................................................................................................................................\nRelay Name : \nNegative \nPhase Sequence (147/ B )\nRelay Type : UKT913 Manufacture \n: ABB\nRelay setting: \n P.T.R. \n= 6300/ 100 Uph< = 6.0 v T =5.0 sec.\nTest Result\n.............................................6.3kv CB closed and tripped by the \nrelay.\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n.........................................................................................................................................................\nLocation: Relay code: \nSteam Turbine no. Protection \nScheme\nTested by: Signature: Date:\n......................... \n..........................\n........................ \n...........................",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe scheme protection system for steam \nturbine is manufactured by CEE France and this Scheme is a solid state type. The \nscheme protection will protect generator, step up transformer, There is table \nfor protective relays.\nThe first draft initiated by \neng. Abdel Raheem Salem Mohamed Ez, \ntested by eng. Khaled El-Etreby & eng. Atef Farh, revised by \nquality control eng. Tawfik Elabasery at EDEPCo., and approved by eng. Monear Mahmoud El-Wakeel: Head Sector of\n Damietta \nPower Station.\nSafety Precautions\nA work permit \n must be issued and the qualified maintenance staff should carry the suitable \n safety category,\nSafety fence with caution marks surrounding the work area \n is required.\nSteam turbine out of service and work \n permit required.\nA work permit \n must be issued and the qualified maintenance staff should carry the suitable \n safety category,\nMake sure CT \n secondary circuit are shorted.\nVoltage \ntransformer miniature circuit breakers (m.c.b) is opened\nTools and Equipment\nSiemens test \n set which consists of two units\nCurrent unit \n type 7VP48.\nVoltage unit \n type 7VP49.\nVoltmeter,\n Ammeter.\nTest leads, \n screw driver.\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay \nTesting\nReview technical reference material \n manufactures / manual.\nObtain copy of relay setting from field \n maintenance file.\nObtain outage for unit protected by this \n relay\nCheck that the bus and unit disconnect \n switches are opened and tagged.\nInspect the secondary circuits of CT .\nInspect VT miniature circuit breakers (m.c.b.) \n and all cabling supplying the relay.\nBlock any disturbance alarms or fault \n recorders associated with this protection.\nPreparation of Test\nPlace the two cases one on the top \n of other (the voltage unit on the top of current unit)\nConnect the two units together by \n the cable connector 7 XV6201 between test plug \"X2\" in current unit and \n test plug \"X1\" in voltage unit.\nConnect the power supply cable \n 7XV6200 (3*380 V) between the plug \"X1\" in the current unit and the source \n (careful the positive sequence).\nConnect an ammeter with the socket \n \"17 ,18\" in current unit and voltmeter with the socket \"5,6\" in voltage \n unit.\nGenerator \nDifferential\nTo permit the relay operate the current \n must be pass through the operating coil.\nInject the current to the relay for each \n phase of the two sides the current leads put as the follow: \n Phases neutral side Output side \n PH-R AR3, AN3 AR4,AN4 \n PH-S AS3,AN3 \n AS4,AN4 \n PH-T \n AT3,AN3 AT4,AN4\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the current \n the green lamp light, read and record the drop out value.\nIncrease the current the to pick up \n value then measure the time T1 (timer point 149,150) free contact.\nRepeat this for each phases of the two \n sides.\nTransformer Differential\nTo permit the relay operate the current \n must be pass through the operating coil.\nInject the current to the relay for each \n phase of the two sides the current leads put as the \n follow: \n phases L.V. \n side H.V. side \n PH-R AR7, AN7 \n 14(relay), AN7\n PH-S AS7, AN7 \n 18(relay), AN7\n PH-T AT7, AN7 \n 22(relay), AN7\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the current \n untill the green lamp light, read and record the drop out value.\nIncrease the current to the pick up \n value then measure the time T1 (timer point 149,150) free contact.\nRepeat this for each phases of the two \n sides.\nOver All \nDiff\nTo permit the relay \n operate the current must be pass through the operating coil.\nInject the current to \n the relay for each phase of the two sides the current leads put as the \n follow: \n Phases neutral side \n 220kv side\n PH-R AR1, AN1 \n 14(relay), AN1 \n PH-S AS1,AN1 \n 18(relay), AN1 \n PH-T AT1,AN1 \n 22(relay),AN1\nIncrease the current until the green \n lamp distinguished read and record the pick up value then,\nDecrease the current until the green \n lamp light, read and record the drop out value.\nIncrease the current the to pick up \n value then measure the time T1 (timer point 149,150) free contact.\nRepeat this for each phases of the two \n sides.\nReverse \nPower\nDisconnect the two fuse switches for \n sec. P.T.\nDisconnect the links of terminals \n VR2,VS2,VT2\nConnect \n the voltage leads UR, US, UT . from the \n tester to terminals VR2,VS2,VT2 (relay \n side)\nConnect the current leads IR, \n IN from the tester to \n terminal (2,3) on the relay\nInject 3-ط voltage UL = \n 100v\nInject small current (mA) to adjust the \n angle at 180 on the digital where the selector current L1 and \n Voltage (U1-U2) then increase it until green lamp \n distinguished record the p.u. value (Ipu= mA) then determine the \n operating angle zone, at 180 again decrease the current until lamp light \n record the d.o. value(Id.o)\nConnect \n the current leads IT, IN \n from the tester to terminal (10,11) on \n the relay .\nInject 3-ط voltage UL = \n 100v\nInject small current (mA) to adjust the \n angle at 180 on the digital where the selector current L3 and \n Voltage (U1-U2) then increase it until green lamp \n distinguished record the p.u. value (Ipu= mA) then determine the \n operating angle zone, at 180 again decrease the current until lamp light \n record the d.o. value (Id.o)\nDetermine the long time at the p.u \n value T (timer point 149,150) free contact.\ndetermine the short time at the p.u \n value T (timer point 13,17).\nLoss of \nField\nDisconnect the two fuse switches for \n sec. P.T.\nDisconnect the links of terminals \n VR2,VS2,VT2\nConnect \n the voltage leads UR, US, UT . from the \n tester to terminals VR2,VS2,VT2 (relay \n side)\nConnect \n the current leads IR, IN \n from the tester to terminal (2,3) on \n the relay\nInject 3-ط voltage UL = \n 100v\nInject small current (mA) to adjust the \n angle at 270 on the digital where the selector current L1 and \n Voltage (UR-UT) which not exist this require reversing \n the current then increase it until green lamp distinguished record this \n value (Ipu= mA) then determine time T (timer point 149,150) the \n operating angle zone, at 270 again decrease the current until lamp light \n record this value (Id.o)\nConnect \n the current leads IT, IN \n from the tester to terminal (7,6) on \n the relay .\nInject 3-ط voltage UL = \n 100v\nInject small current (mA) to adjust the \n angle at 270 on the digital where the selector current L3 and \n Voltage (UT-UR) then increase it until green lamp \n distinguished record this value (Ipu= mA) then determine time T \n (timer point 149 , 150) the operating angle zone , at 270 again decrease the \n current until lamp light record this value (Id.o)\nVoltage \nRestraint Over Current\nDisconnect the two fuse switches for \n sec. P.T.\nDisconnect the links of terminals \n VR2,VS2,VT2\nConnect the voltage leads UR, US, UT . from \n the tester to terminals VR2,VS2,VT2 \n (relay side)\nPut the current leads as follow: \n PH-R 2,3 on the relay\n PH-S 6.7 on the relay\n PH-T 10,11 on the relay\nOver \n Current test\nApply 100 v\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the \n current the green lamp light, read and record the drop out value.\nIncrease the current to pick up value \n then measure the time T1 (timer point 149,150) free contact\nRepeat the previous step for each \n phases at different values of the voltage 50 v , 0.0v\nShort \n Circuit test\nAs the o/c test but its value known \n from the flag (b) not from lamp.\nRepeat this for all phases.\nNegative \nPhase Sequence\nInject the current to the relay by \n putting current leads to terminals\n phases terminal on relay \n ph-R 2,3 \n ph-S 6,7\n ph-T 10,11\nDefinite element Ib \n a- Increase the mA current until the green lamp \n distinguished record this value (Ib pu) then,\n b- Decrease the current until the green lamp light \n record this value (Id d.o.) \n c- Measure the definite time Ib pu = 3*K%*In*K1\nInverse element Ia\n a - Increase the current to value = 3*K%* In (Ia \n pu)\n b - Increase the current to value = n*3*K%*In, \n measure the time Tn\nStator \nEarth Fault\nInject the current to the relay by \n putting current leads to terminals A01,A02\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the \n current the green lamp light , read and record the drop out value\nIncrease the current to pick up value \n then measure the time T1 (timer point 149,150) free contact\nTransformer Earth Fault\nInject the current to the relay by \n putting current leads to terminals A03,A04\nIncrease the current until the green \n lamp distinguished read and record the pick up value then decrease the \n current untill the green lamp light, read and record the drop out value\nIncrease the current to pick up then \n measure the time T (timer point 149 , 150) free contact .\nOver \nFluxing\nDisconnect the two fuse switches for sec \n PT.\nDisconnect the links of terminals \n VR2,VS2,VT2\nConnect \n the voltage leads UR, US from the tester\n to terminals VR2,VS2 (relay side)\nIncrease the voltage until the green \n lamp distinguished, read and record the pick up value then decrease the \n voltage untill the green lamp light, read and record the drop out value.\nIncrease the voltage to pick up then \n measure the time T1 (timer point 149,150) free contact.\nVoltage \nBalance\nDisconnect the two fuse switches for \n sec. PT.\nDisconnect the links of terminals \n VR1,VS1,VT1 & VR2,VS2,VT2 and VR3,VS3,VT3and VR4,VS4,VT4\nPut the voltage leads to prot. side : \n ph-R-S points 22,23, phR-T 22,24 and ph S-T 23,24 on relay AVR ph-R-S \n points 6,7, phR-T 6,8 and ph S-T 7,8 on relay\nIncrease the voltage (p.u) until the \n flag appear.\nRotor \nEarth Fault\nPut \n the variable resistance between the slip ring of the rotor or terminal A0 \n in the protection cabinet and earth then decrease the resistance value \n gradually until the trip commend appear at L.O.R.\nMeasure this resistance value (Rpu).\nDead Machine Relay\nRelay Type : RAGUA, Manufacture: ABB\nIncrease the voltage (p.u) until the \n flag appear.\nDisconnect the \n m.c.b for sec. P.T.\nDisconnect the link for terminal VR1,VS1,VT1 & VR2,VS2,VT2 & VR3,VS3,VT3 and VR4,VS4,VT4\nUnder voltage Element Test\nConnect the voltage leads to points \n VR2,VS2\nIncrease the voltage to 100 v to release \n the under voltage element\nWait 4 sec. the fuse failure flag is appear\nDecrease the voltage until fuse failure is \n release, record this value as P.U value\nIncrease the voltage until the under \n voltage element is released record the d.o. value .\nRepeat the steps from 3-5 but the voltage \n leads connected to terminals \n VR3,VS3\nOver Current Element\nConnect the current leads to the \n terminals PH-R (AR5,point 4 on relay)\nIncrease the current until the \n trip flag is appeared, record this pu value\nDecrease the current until the \n flag red release, record this d.o value\nRepeat, the stops from to 3 for \n ph.s & ph.T but with connecting the current leads to terminals PH-S \n (AS5,point 6 on relay) PH-T (AT5,point 8 on relay)\nFunctions of Dead Machine Test\nConnect the voltage leads to the terminal (VR2,VS2)\nConnect the current leads to the terminal\n PH-R (AR5,point 4 on relay)\nConnect the timer to free contact on this \n relays\nInject the pu. value of current at voltage \n element is released and not released\nMeasure the time of trip, record this \n voltage\nRepeat the steps from 2-5 to the other \n phases\nBack up function\nInject the voltage 100 v as \n pervious\nInject the pu. current for ph. R \n as pervious\nDecrease the voltage to p.u. \n value, trip command appear\nMeasure the time as pervious\nTrip C ct test\nAdjust the current to p.u. value, while \n the voltage equal zero\nClose the unit CB's without isolators\nInject the current, the unit CB's will \n tripped\nFrequency Protection\nOver and \n Under Frequency\nDisconnect \n the m.b.c. of the secondary circuit of the potential transformer.\nDisconnect \n the links of ...... MAC 124 (VR2, VS2, VT2).\nConnect the \n voltage leads to points terminals ...... MAC 124 (VR2, \n VS2, VT2).\nInject the voltage, \n increase the voltage to Un. (normal)\nIncrease \n the frequency until the relay picks up, record this value F > pu, then \n decrease the frequency until the relay drop off, record this value F > do. \n (do: drop out)\nMeasure \n this time from free contact where the relay picks up.\nAgain \n adjust the frequency to Fn. (n: nominal)\nDecrease \n the frequency until the relay picks up, record this value F < pu, then \n increase the frequency until the relay drop off, record this value F < do.\nMeasure \n this time from free contact where the relay picks up.\nWhen the \n relay operate, decrease the voltage until the relay block, record this value \n U block, then increase the voltage until the relay ready, record this value \n U ready.\nDisconnect \n the m.b.c. of the secondary circuit of the potential transformer.\nDisconnect \n the links of ...... MAC 124 (VR2, VS2, VT2).\nConnect the \n voltage leads to points terminals ...... MAC 124 (VR2, \n VS2, VT2).\nInject the voltage, \n increase the voltage to Un. (normal)\nIncrease \n the frequency until the relay picks up, record this value F > pu, then \n decrease the frequency until the relay drop off, record this value F > do. \n (do: drop out)\nMeasure \n this time from free contact where the relay picks up.\nAgain \n adjust the frequency to Fn. (n: nominal)\nDecrease \n the frequency until the relay picks up, record this value F < pu, then \n increase the frequency until the relay drop off, record this value F < do.\nMeasure \n this time from free contact where the relay picks up.\nWhen the \n relay operate, decrease the voltage until the relay block, record this value \n U block, then increase the voltage until the relay ready, record this value \n U ready.\n6.3kv equipment\nNegative Sequence Relay, type : M2 AS 370B, FIR Italy\nEquipment is out of service and its CB \n in test position\nConnect the current leads on the test \n device L1,N to the points (1A,2A) on the relay\nIncrease the current to pick up value \n (green lamp light), record this value\nDecrease the current to drop out value \n (green lamp distinguished ), record this value\nRepeat the steps from 2-4 for the other \n phases .where the current leads connected as follow L2-N on the test device to \n 3A,4A on the relay and L3-N to 5A,6A\nAdjust the current at 5 IPU\nMeasure the time from free contact (10A, \n 5B)\nClose the CB in test position and \n inject the 5 Ipu, CB will tripped\nDifferential Relay\nType : M1AM 030B FIR Italy\nEquipment is out of service and its \n CB in test pos\nConnect the current leads on the test \n device L1,N to the points (1,4)on the relay\nIncrease the current until the red \n lamp light (pick up value) record this value\nDecrease the current until the red \n lamp distinguished (drop out value) record this value\nInject the PU value and measure the \n time from free contact (6,7)\nClose CB in test position and inject \n the current, the CB is tripped\nOver Current Relay\nType : M2AM 370B FIR Italy\nThe equipment is out of service and its \n CB in test pos.\n(A) Over Current test I >\nConnect the current leads on test device \n L1,N to the points (1A,6A)on the relay\nIncrease the current to pick up value \n (lamp light), record this value\nDecrease the current to drop out value \n (lamp distinguished ), record this value\nInject the P.U. value current, and \n record the time from free contact (1B, 3B)\nIncrease the current to SC value (I \n >>lamp light), record this value\nMeasure the time of I >> value\nRepeat the steps for ph-S & ph-T, by \n connecting the current leads to the points (3A,6A) & (5A,6A)\n(B) Trip C CT Test\nAdjust the I >> value for any phase\nClose the CB in test position\nInject the current. the CB is tripped\nNegative Sequence Relay for Busbar Voltage 6.3kv ( 147B )\nType. UKT 913 , ABB\nBB 6.3 kv out of service and CB's in test \n position.\nDisconnect the m.c.b for sec. circuit of P.T\nConnect the voltage leads on the test device L1,N \n to the points A4, A7 on the relay\nIncrease the voltage until the led lamp light \n (yellow lamp start) record this pu value\ndecrease the voltage untill the led lamp reset record the d.o value\nInject the p.u. value and measure the time when \n the red lamp light (trip) record this time value from frre contact (A3,A1)\nConnect the CB in \n the test position, inject this \n value to trip it.\nUnder Voltage Relay BB 6.3kv (127 B)\nType : M2VN 320B FIR Italy\nBB 6.3 kv out of service and CB s in test \n position\nDisconnect the m.c.b for sec. circuit of P.T.\nConnect the voltage leads on the test device \n L1,L2,L3,N to the points 1A,4A,7A,2A on the relay\nIncrease the voltage until the red lamp \n distinguished, record this d.o value\nDecrease the voltage until the red lamp light, \n record this p.u value. and record the time by free contact 4B,6B\nClose pump C.B in test position and tripped it by \n U< relay\nLocation: Relay Code: \nTest Date: Tested by: \nSignature:\nTest Sheet\nRelay Name : Generator Differential\nRelay Type : DTM7033 Manufacture \n: CEE\nRelay setting:\nC.T.R. \n(Neutral Side) = 10000/1 In = 1.0A inverce chc.\n C.T.R ( Output Side) = 10000/1 Id/In = \n0.1 KR% = 10 \n Irated \ngen. = 8786 A \nId prim .=\nTest Result\nNeutral Side | Output Side\nValue \n Phase | Ipu \n mA | Ido \n mA | T1 \n m sec | T2 \n m sec | T3 \n m sec | Ipu \n mA | Ido \n mA | T1 \n m sec | T2 \n m sec\nR |  |  |  |  |  |  |  |  | \nS |  |  |  |  |  |  |  |  | \nT |  |  |  |  |  |  |  |  | \nL.O.R. 286-1G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name :\nStep Up Transformer Differential\nRelay Type : DTT 7031 Manufacture \n: CEE\nRelay Setting : \n C.T.R.(H.V side) = 1000/1 In = 1.0 A\n C.T.R.(L.V. side) = 10000/1 Ir/In \n= I/In =\n I rated traf.(11.5KV) \n= 8183A Id prim .=\nTest Result\nH.V. side | L.V. side | through matching\nValue \n Phase | Ipu \n A | Ido \n A | T1\n m sec | T2\n m sec | Ipu \n A | Ido \n A | T1\n m sec | Ipu \n A | Ido \n A\nR |  |  |  |  |  |  |  |  | \nS |  |  |  |  |  |  |  |  | \nT |  |  |  |  |  |  |  |  | \nL.O.R. 386U + \n286 - 1G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Over All Differential\nRelay Type : DTT 7031 Manufacture \n: CEE\nRelay Setting : \n C.T.R. (out pot side) = 1000/1 In = 1.0 A\n C.T.R. (neutral side) = 10000/1 Ir/In \n= I/In =\nId prim . =\nTest Result\nOut put side | Neutral side | through matching\nValue /\n Phase | Ipu \n A | Ido \n A | T1\n m sec | T2\n m sec | Ipu \n A | Ido \n A | T1\n m sec | Ipu \n A | Ido \n A\nR |  |  |  |  |  |  |  |  | \nS |  |  |  |  |  |  |  |  | \nT |  |  |  |  |  |  |  |  | \nL.O.R. \n386U + 286 - 1G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Reverse Power\nRelay Type : WTGA 7131 Manufacture \n: CEE\nRelay Setting :\n C.T.R. = 10000/1 T1 (Long Time) = \n15.0 sec.\n P.T.R. = 11500/100 T2 (Short Time) = \n2.0 sec\n Psec = 0.10 pn\nEq. Used : Psec \n= V* I COS\nTest Result\nT = \nSec \n = \n( )\nInjection (VR-S ; IR) \n :\n For VR-S = 100 v, = 180\n Ipu = mA Ido \n = mA \nT = Sec \n = ( )\nT = \nSec \n = \n( )\n** For V = 100v\nI | Ipu = |  |  | \nPprim = Vsec.*Isec.*C.T.R.*P.T.R.\nPprim. =\nL.O.R. 286-2G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : \nLoss Of field (40G)\nRelay Type : YTM 7111 Manufacture \n: CEE\nRelay Setting :\n C.T.R. = 10000/1 P.T.R. = 11.5/0.1 kv\n Diameter min. drop value K1 = 287 %\n Offset max. drop value K2 = 6%\nGenerator Data : \n X1d = 25% ; Xd = \n206% ; I rated = 8786 A \nEquation :\n (a) (I2, K1) I2 = \nV/Zn *100/K1 + K2\n (b) (I1,K2) I1 = \nV/Zn * 100/K2\nTest Result\nT = Sec \n= ( )\n L.O.R. 286-2G ( )\nInjection (VR-T = 100\n ; IR) :\n For VR-T = 100 v, =270\n Ipu = A Ido \n = A \n T = Sec \n = ( )\nT = Sec \n= ( )\n L.O.R. 286-2G ( )\nMathematical Result :\n(a) Circle diameter (12) setting (K1)\n I2 = 100/57.7 *100/(287+6) = 0.59 A\n(b) Circle Offset (II) Setting (K2)\n I1 = 100/57.7 *100/6 = 28A\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Voltage Restraint Over \nCurrent\nRelay Type : \nITV7266 Manufacture \n: CEE\nRelay setting: C.T.R. = 10000/1 I/In = 1.0A\n P.T.R = 11.5/0.1 kv U< = off\n I> =(0.5 +\n∑1) \nIn T(I> ) = (0.5 +\n∑1) see\n I>> =(1.0 +\n∑2) \nIn T(I>> ) = (0.1 +\n∑t2) \nsee\n∑1 = \n0.4 \n∑t1 \n=2.8\n∑2 \n=0.5 \n∑t2 \n=1.4 selector (a-b) = 2\nI rated gen.= 8786A I> prim. = I>> prim. \n=\nTest Result\nCh c 1 (U = 100 % Un - inverse time \ncurve I/I> , T) I>> = max \n∑2 = max, \nvalue\n | Ipu A | Ido A | T2 | T3 | T4 | R.F.\nR |  |  |  |  |  | \nS |  |  |  |  |  | \nT |  |  |  |  |  | \nCh c 2 normal setting {I>,I>>,T(I>),T(I>>)}\n | U = 100 Un | U = 50 Un | U = 0.0Un\nI> A | I>> A | Tsec | I> A | I>> A | Tsec | I> A | I>> A | Tsec\nR |  |  |  |  |  |  |  |  | \nS |  |  |  |  |  |  |  |  | \nT |  |  |  |  |  |  |  |  | \n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Negative Phase Sequence\nRelay Type : ITT 7521 Manufacture: \nCEE\nRelay Setting :\n C.T.R. = 10000/1 In = 1.0 A.\n Dependent Time Unit (inverse) In =K% In = 0.08A\n T(Ia) \n= 4.5 sec K% =8\n Independent Time Unit (definite) : Ib = K% \nKIn = 0.064A\n T(Ia)= \n20 sec K% =0.8\nIa prim. = Ib prim. =\n | Ipu mA | Ido mA | T sec | Tsec\nIa |  |  |  | \nIb |  |  |  | \nL.O.R. 286-1G \n( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Stator Earth Fault (64G)\nRelay Type : ITG 7114 Manufacture \n: CEE\nRelay Setting :\n C.T.R. = 200/1 In = 1.0 A.\n I . = 0.07A T = Sec\nP.T.R. (neutral \npoint) = shunt resistance =\nvoltege setting \nprim. = voltege setting sec.=\nTest Result\nIpu = mA Ido \n= mA\n T = Sec\nL.O.R. 286-1G \n( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay Name : Step Up Transformer Earth \nFault \nRelay Type : ITG 7114 Manufacture \n: CEE \nRelay Setting :\n C.T.R = 2000/1 I = 0.2 A \n T = 1.2 Sec\n In = 1.0 A Irated traf. \n= Id prim .=\nTest Result\nI pu = mA \nIdo = mA\n T = Sec\nL.O.R. 286-1G ( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay \nName : \nOver fluxing\nRelay Type : FTT 7111 Manufacture : CEE \nRelay Setting :\n P.T.R = 11.5/0.1 kv V/HZ > 1.1 Vn/Fn\n V = 110 v T1 = 600 \nmSec T2 = 3.0 Sec\nTest Result\nU pu = V Udo \n= v\n T1 = Sec (alarm) T2 \n= Sec\nL.O.R. 286 - 1G( )\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay \nName : Voltage Balance (60G)\nRelay Type : TTGB 7031 Manufacture : CEE\nRelay Setting :\n Ua - Ub = 10 v P.T.R = 11.5/0.1 kv\nTest Result\nU pu = V\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay \nName : \nRotor Earth Fault (64G)\nRelay Type : TTE 7015 Manufacture :CEE\nRelay Setting : R = 6.2 KO\nTest Result\n R = KO \n L.O.R. 286-2G ( )\n -Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n............................................................................................................................................................\nDead Machine Relay\nRelay type : RAGUA \nManufacture : ABB\nRelay setting : I > \n(3ph) = A Ur-s <(P.T.1) = \nV Ur-s<(P.T.2) = V\n T343 (Back \nUp) = T143 (hold U< in case stand still)= V\nT331 A (F.F) \n= C.T.R. = P.T.R.=\nTest Result\n- Under Voltage element test:\nValue/Phase | P.U. | D.O\nUr-s < (P.T.1 ) |  | \nUr-s < \n (P.T.2 ) |  | \nValue/Phase | I>P.U \n A | I>d.o \n A | R.F. | Tmsec.\nR |  |  |  | \nS |  |  |  | \nT |  |  |  | \nCase No.1: Injection \n{I>+Ur-s>(P.T.1) 100V+Ur-s>(P.T.2)100 V}at the same time dead machine trip with \ntime = ms\nCase No.2: Injection {I>Ur-s<(P.T.1) + Ur-s<(P.T.2)} \nat the same time dead machine trip with time = ms\nCase No. 3 Injection {I>+Ur-s>(P.T.1) 100 V + \nUr-s<(P.T.2)}at the same time dead machine trip with time = ms\nCase No. 4 Injection \n{I>+Ur-s<(P.T.1) + Ur-s>(P.T.2) 100 V}at the same time dead machine trip with \ntime = ms\nCase No.1: Injection \n{I>+Ur-s>(P.T.1) 100V+Ur-s>(P.T.2)100 V}at the same time dead machine trip with \ntime = ms\nCase No.2: Injection {I>Ur-s<(P.T.1) + Ur-s<(P.T.2)} \nat the same time dead machine trip with time = ms\nCase No. 3 Injection {I>+Ur-s>(P.T.1) 100 V + \nUr-s<(P.T.2)}at the same time dead machine trip with time = ms\nCase No. 4 Injection \n{I>+Ur-s<(P.T.1) + Ur-s>(P.T.2) 100 V}at the same time dead machine trip with \ntime = ms\nBack up protection test \n : Ur-s(P.T.1) 100 V Ur-s (P.T.2) 100 \n V\nValue /\n Phase | I>P.U A | I>d.o A | Tmsec. | R.F\nR |  |  |  | \nS |  |  |  | \nT |  |  |  | \n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nRelay \nName : \nOver/ Under Frequency\nRelay Type : HDG 7020 Manufacture : CEE\nRelay Setting :\n F1 = 51.5 HZ F2 = 47.5 HZ\nTest Result\nU ready = v Ubloch \n= v\nFo/f = HZ Fu/f \n= HZ\n -Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n......................................................................................................................................................................\nTest sheet for \nProtective Relays S.T. Unit No.:\n(Step up transformer)\nNo. | Protection System | Relay Type | Relay Setting | Test Result.\n1 | Buchholz Relay |  | Alarm \n Trip | \n2 | Oil Temp. |  | Alarm = \n Trip = | \n3 | Winding Temp. |  | Alarm =\n Trip = | \n4 | Oil Level |  | Alarm | \n5 | Sprinkler Device |  | Trip | \n6 | Check for Trip CB. |  | Trip | \n7 | 220kv CB B.F. |  | Trip | \n8 | Check CT & P.T Leads | \n9 | Pressure relief valve |  | Trip | \nStep up trf fan group 1 : 60\n ؛C (winding ) on - \n 50 ؛C (oil ) off\n fan group 2 : 70 ؛C (winding ) \n on - 70 ؛C (oil ) off\nC.B.S D ......... & D......... are closed and tripped by reverse \n power (short time)\nMeasuring the trip signal on trip coil of D ........, \n D......... by L.O.R 286-1G\nMeasuring the trip signal on trip coil of D ........, \n D.......... by L.O.R 286-2G\nMeasuring the trip signal on trip coil of D ........, \n D.......... by L.O.R 386-U\nStep up trf fan group 1 : 60\n ؛C (winding ) on - \n 50 ؛C (oil ) off\n fan group 2 : 70 ؛C (winding ) \n on - 70 ؛C (oil ) off\nLocation \n : Date :\nTested by \n : Signature:\n...................................... \n .....................................\n..................................... \n ......................................\nRelay function protection \n .....................................................................................................\nTrip circuit \n .....................................................................................................\nD.C supply \n .....................................................................................................\nCheck for tightening terminal C.T&P.T. \n ...................................................................................\nC.B 6.3kv closed in test position and tripped by \n .....................................................................\nTest \nSheet for Protective Relays 6.3kv Steam Turbine Unit No.\nEquipment: ............................ \nDate: ..............................\nRelay Name : \nOver Current Relay \n(150- 151/M )\nRelay Type : M2AM 370B Manufacture \n: FIR\nRelay setting: \n C.T.R. = 200/1 In = \n1.0A\n I> = 0.6 In \n Curve BA1,BCB1 k = 10\n I>> = 6.5 In T ( \nI>>) = 0.02 sec\nTest Result\nValue / Phase | Ipu A | Ido A | T sec | R.F | I>> A | T (I>>) msec\nR |  |  |  |  |  | \nS |  |  |  |  |  | \nT |  |  |  |  |  | \n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n............................................................................................................................................................\nRelay Name : \nEarth Fault Relay \n(151G/M )\nRelay Type : M1AM 630B Manufacture: \nFIR\nRelay setting: C.T.R. = 100/1 \nIon = 1.0A Io>8% Ion \n Curve CC1,BCB1 \nk =0.5\nTest Result\nIpu \n= m A Ido = \n m A\n T3 = msec \nT5 = msec\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n............................................................................................................................................................\nRelay Name : \nNegative Phase \nSequence (146/M )\nRelay Type : M2AS370A Manufacture \n: FIR\nRelay setting: \n C.T.R. = 200/1 Ion = 1.0A I2> = \noff\nI2> = 14% In k1 = 2 T = \n10\nTest Result\nIpu \n= m A Ido \n= m A\n T3 = msec \nT5 = msec\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n............................................................................................................................................................\nRelay Name : \nDifferential Protection (187 /M ) \nRelay Type : M1AS030B Manufacture \n: FIR\nRelay setting: \n C.T.R. = 125/1 In = 0.02A Ion>=2.5 In\nTest Result\nPhase / Value | Ipu A | Ido A | T sec\nR |  |  | \nS |  |  | \nT |  |  | \n6.3kv CB \nclosed and tripped by Idiff...............................\n-Relay function protection (.......................................)\n-Trip function for relay \n(......................................)\n............................................................................................................................................................\nRelay \nName : \nUnder Voltage Relay (127/B)\nRelay Type : M2VN320B \n Manufacture : FIR\nRelay setting: \n P.T.R. \n= 6300/3 / 100/3 \n Uph< = 43.5 v T =3.0 sec.\nTest Result\nphase/ Value | Upu v | Udo v | T sec\nR |  |  | \nS |  |  | \nT |  |  | \n.............................................6.3kv CB closed and tripped by the \nrelay.\n -Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n.........................................................................................................................................................\nRelay Name : \nNegative \nPhase Sequence (147/ B )\nRelay Type : UKT913 Manufacture \n: ABB\nRelay setting: \n P.T.R. \n= 6300/ 100 Uph< = 6.0 v T =5.0 sec.\nTest Result\nphase / Value | Upu v | Udo \n v | T sec\nR |  |  | \nS |  |  | \nT |  |  | \n.............................................6.3kv CB closed and tripped by the \nrelay.\n-Relay \nfunction protection (.......................................)\n-Trip \nfunction for relay (......................................)\n.........................................................................................................................................................\nLocation: Relay code: \nSteam Turbine no. Protection \nScheme\nTested by: Signature: Date:\n......................... \n..........................\n........................ \n...........................",
  "text_truncated": false,
  "links": [],
  "images": [

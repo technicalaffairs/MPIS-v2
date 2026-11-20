@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -183,6 +185,27 @@
    "text": "P.T. \nRatio : Voltage Setting :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Injected Terminal",
+     "Measuring Voltage",
+     "Measuring Time"
+    ],
+    [
+     "U.V ( )",
+     "V",
+     "Sec"
+    ],
+    [
+     "O.V ( )",
+     "V",
+     "Sec"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:"
   },
@@ -211,7 +234,7 @@
    "text": "Figure 1: (0165A7570-11) Internal Connections For Relay Type LAV69A \n (Front View)"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document lists the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe IAV69A relay is a time delay under \nvoltage and over voltage relay designed to be used whenever protection against \nan abnormal voltage condition is required. This relay has two targets and \ncloses its left hand contacts when the voltage increases the predetermined value \nand its right contacts when the voltage decreases another predetermined value, \nin both cases one target of the two appears.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \nHamdy & eng. Azza Salama at 29 April 2003, revised by EDEPC quality control eng. Adel El-Nagar, accepted by General Director \neng. Mahmoud Saker, and approved by eng. Moustfa \nAlam Head Sector of Talkha Power Station.\nSafety Precautions\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable safety category.\nMaintenance staff should be will trained and qualified or directly supervised \n by some one who is.\nSafety fence with caution marks surrounding the work area \n is required.\nWear your safety and healthy equipment as safety helmet, safety shoes ..etc.\nThe \n generator must be out of service.\nTools and Equipment\nWork to be Carried Out\nPreparation\nMake Sure PT secondary circuit are opened at the incoming terminal \n blocks before isolating the relay voltage circuit for test.\nLook at field maintenance fill and compare the position of the setting \nswitches on relay with those shown on the setting sheet.\nMake Sure PT secondary circuit are opened at the incoming terminal \n blocks before isolating the relay voltage circuit for test.\nLook at field maintenance fill and compare the position of the setting \nswitches on relay with those shown on the setting sheet.\nTesting the Relay\nConnect test leads between the relay contact ( relay trip ) (1 \n 11 ).\nConnect test leads between the relay contact ( relay trip ) (1 \n 11 ).\nUnder Voltage Test\nConnect test leads between the low voltage terminal ( 5 6 ).\nAdjust the voltage to 120V on the secondary injection test set.\nDecrease the voltage slowly until the right contact closes and the right flag \nappears.\nRecord the voltage value and the time value at which the contact closes in the \ntest sheet.\nConnect test leads between the low voltage terminal ( 5 6 ).\nAdjust the voltage to 120V on the secondary injection test set.\nDecrease the voltage slowly until the right contact closes and the right flag \nappears.\nOver Voltage Test\nConnect the test leads between the high voltage terminals ( 15 \n16 ) .\nAdjust the voltage to 120V on the secondary injection test set.\nIncrease the voltage slowly until the left contact closes and the left flag \nappears and trips.\nRecord the voltage and the time values in the test sheet.\nConnect the test leads between the high voltage terminals ( 15 \n16 ) .\nAdjust the voltage to 120V on the secondary injection test set.\nIncrease the voltage slowly until the left contact closes and the left flag \nappears and trips.\nRecord the voltage and the time values in the test sheet.\nReturn Relay and associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( 15 - 16 )\n - Disconnect the test leads from the terminals ( 5 - 6 )\n - Disconnect the test leads from the trip contact \n ( 1 - 11 )\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet For Under/Over Voltage Relay\nUnit No. :\nRelay \nType : \n Relay Model :\nRelay \nContact : T.D \n :\nP.T. \nRatio : Voltage Setting :\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date:\nReviewed by : \nSignature : \nTest Date :\nApproved by \n: Signature :\nGEI-90810 Voltage Relay Type LAV69A\n*\n = Short Finger\nFigure 1: (0165A7570-11) Internal Connections For Relay Type LAV69A \n (Front View)",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document lists the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe IAV69A relay is a time delay under \nvoltage and over voltage relay designed to be used whenever protection against \nan abnormal voltage condition is required. This relay has two targets and \ncloses its left hand contacts when the voltage increases the predetermined value \nand its right contacts when the voltage decreases another predetermined value, \nin both cases one target of the two appears.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \nHamdy & eng. Azza Salama at 29 April 2003, revised by EDEPC quality control eng. Adel El-Nagar, accepted by General Director \neng. Mahmoud Saker, and approved by eng. Moustfa \nAlam Head Sector of Talkha Power Station.\nSafety Precautions\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable safety category.\nMaintenance staff should be will trained and qualified or directly supervised \n by some one who is.\nSafety fence with caution marks surrounding the work area \n is required.\nWear your safety and healthy equipment as safety helmet, safety shoes ..etc.\nThe \n generator must be out of service.\nTools and Equipment\nWork to be Carried Out\nPreparation\nMake Sure PT secondary circuit are opened at the incoming terminal \n blocks before isolating the relay voltage circuit for test.\nLook at field maintenance fill and compare the position of the setting \nswitches on relay with those shown on the setting sheet.\nMake Sure PT secondary circuit are opened at the incoming terminal \n blocks before isolating the relay voltage circuit for test.\nLook at field maintenance fill and compare the position of the setting \nswitches on relay with those shown on the setting sheet.\nTesting the Relay\nConnect test leads between the relay contact ( relay trip ) (1 \n 11 ).\nConnect test leads between the relay contact ( relay trip ) (1 \n 11 ).\nUnder Voltage Test\nConnect test leads between the low voltage terminal ( 5 6 ).\nAdjust the voltage to 120V on the secondary injection test set.\nDecrease the voltage slowly until the right contact closes and the right flag \nappears.\nRecord the voltage value and the time value at which the contact closes in the \ntest sheet.\nConnect test leads between the low voltage terminal ( 5 6 ).\nAdjust the voltage to 120V on the secondary injection test set.\nDecrease the voltage slowly until the right contact closes and the right flag \nappears.\nOver Voltage Test\nConnect the test leads between the high voltage terminals ( 15 \n16 ) .\nAdjust the voltage to 120V on the secondary injection test set.\nIncrease the voltage slowly until the left contact closes and the left flag \nappears and trips.\nRecord the voltage and the time values in the test sheet.\nConnect the test leads between the high voltage terminals ( 15 \n16 ) .\nAdjust the voltage to 120V on the secondary injection test set.\nIncrease the voltage slowly until the left contact closes and the left flag \nappears and trips.\nRecord the voltage and the time values in the test sheet.\nReturn Relay and associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( 15 - 16 )\n - Disconnect the test leads from the terminals ( 5 - 6 )\n - Disconnect the test leads from the trip contact \n ( 1 - 11 )\nCheck that the CT and PT secondary connections return to its normal position as \nbefore the test.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet For Under/Over Voltage Relay\nUnit No. :\nRelay \nType : \n Relay Model :\nRelay \nContact : T.D \n :\nP.T. \nRatio : Voltage Setting :\nInjected Terminal | Measuring Voltage | Measuring Time\nU.V ( ) | V | Sec\nO.V ( ) | V | Sec\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date:\nReviewed by : \nSignature : \nTest Date :\nApproved by \n: Signature :\nGEI-90810 Voltage Relay Type LAV69A\n*\n = Short Finger\nFigure 1: (0165A7570-11) Internal Connections For Relay Type LAV69A \n (Front View)",
  "text_truncated": false,
  "links": [],
  "images": [

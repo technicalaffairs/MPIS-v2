@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Over Current Relay\n A 325\nMERLIN GERIN"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -131,7 +129,37 @@
    "type": "table",
    "rows": [
     [
+     "Phases",
+     "R",
+     "S",
+     "T"
+    ],
+    [
+     "Setting",
+     "",
+     "",
+     ""
+    ],
+    [
      "l ( Pickup)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "l (Reset)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Rest Factor",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time Setting",
      "",
      "",
      ""
@@ -153,7 +181,7 @@
    "text": "Location: \n Protection \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:Over Current Relay\n A 325\nMERLIN GERIN\nIntroduction\nThis\ndocument outlines the testing procedures P1, which must be performed\non an annually bases \nas indicated by Y1 in the above title block.\nThe over current A325 is an static relay manufactured by MERLIN GERIN. This procedure details the steps required to completely check the proper \noperation and calibration of the relay.\nThe first draft \ninitialed by eng. \n Ashraf Sayed Zahean and eng. Ibrahim Mohammed Selim, \ntested at 13 Jan 2005 at Beni Sweif by eng. \n Ashraf Sayed Zahean, eng. Ibrahim Mohammed Selim, \n approved by general director of protection \n eng. Mostafa Ahmed Zaky, and\nThis document certified by eng. Ahmed Saied \n Abd Elazez general director of quality control and MPIS ME zone coordinator \n EETC.\nSafety Precautions\nA work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,\nSafety \n fence with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet ... etc.\nEnsure that the Line isolation is done.\nMake \n sure CT secondary circuits are shorted before isolating the relay's current \n circuit and injection the test current.\nTools and Equipment\nSecondary \n injection test set type SR 76a\nAmmeter, \n Voltmeter, test leads\nWork to be Carried Out\nCarefully follow all test procedure steps.\nVerify the test results match the relay setting, if not consult technical \n services.\nTest trip the breaker associated with the relay.\nMake sure CT secondary circuit are shorted at \n the incoming terminal blocks before isolating the relay current circuit for \n test.\nLook at field maintenance file and compare the position of the setting \n switches on relay with those shown on the setting sheet.\nUse the station drawings to isolate the \n following:\n - Breaker trip coils\n - CT secondary circuit associated with the relay and disturbance alarms\nLabel the wires before removing its form \n terminal by switch off the DC power of the relay lock of the relay\nRemove the input current terminals number C1,C2,C3,C4,C5,C6 from the relay\nConnect test leads between the current terminals number C1 and C2 on the relay \n to the current terminals on the test set to test phase R of over current\nSlowly increase the current until the red indication ((on)) over-current unit \n appears\nRecord this value on the test sheet (pickup value)\nIncrease the injected current higher than the operating value\nSlowly decrease the current until the relay resets\nRecord this value on the test sheet (reset value)\nRepeat the above test from step 1 to step 8 for other phases, but inject \n current at terminal C3 and C4 for phase S and terminals C5 and C6 for phase T\nInject current higher than the setting value \n so the relay picks up firmly\nKeep the injected current and switch off the test set\nRemove wire and isolate from delayed contacts number S4 and S5 on the relay \n and connect timer terminals on the test set\nSwitch on the test set\nStart the test by injecting current into the relay. The timer will stop once \n the relay has picked up\nRecord this value of time on the test sheet\nRepeat the above test from step 1 to step 6 for other phases, but inject \n current at terminal C3 and C4 for phase S and terminals C5 and C6 for phase T.\nVerify the test results match the relay \n setting. if not consult the technical services\nConnect the input current terminals number C1,C2,C3,C4,C5,C6 and delayed \n contact terminal S4,S5 to the relay\nTest trip the circuit breaker associated with the relay\nRequest the operator to switch on the main \n circuit breaker\nOperate the output-contact by hand to trip the circuit breaker\nCheck that the circuit breaker trip.\n\nMeasure aux. DC:\nCheck signal circuit:\nCheck alarm circuit:\nCheck tripping circuit\nLocation: \n Protection \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis\ndocument outlines the testing procedures P1, which must be performed\non an annually bases \nas indicated by Y1 in the above title block.\nThe over current A325 is an static relay manufactured by MERLIN GERIN. This procedure details the steps required to completely check the proper \noperation and calibration of the relay.\nThe first draft \ninitialed by eng. \n Ashraf Sayed Zahean and eng. Ibrahim Mohammed Selim, \ntested at 13 Jan 2005 at Beni Sweif by eng. \n Ashraf Sayed Zahean, eng. Ibrahim Mohammed Selim, \n approved by general director of protection \n eng. Mostafa Ahmed Zaky, and\nThis document certified by eng. Ahmed Saied \n Abd Elazez general director of quality control and MPIS ME zone coordinator \n EETC.\nSafety Precautions\nA work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,\nSafety \n fence with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet ... etc.\nEnsure that the Line isolation is done.\nMake \n sure CT secondary circuits are shorted before isolating the relay's current \n circuit and injection the test current.\nTools and Equipment\nSecondary \n injection test set type SR 76a\nAmmeter, \n Voltmeter, test leads\nWork to be Carried Out\nCarefully follow all test procedure steps.\nVerify the test results match the relay setting, if not consult technical \n services.\nTest trip the breaker associated with the relay.\nMake sure CT secondary circuit are shorted at \n the incoming terminal blocks before isolating the relay current circuit for \n test.\nLook at field maintenance file and compare the position of the setting \n switches on relay with those shown on the setting sheet.\nUse the station drawings to isolate the \n following:\n - Breaker trip coils\n - CT secondary circuit associated with the relay and disturbance alarms\nLabel the wires before removing its form \n terminal by switch off the DC power of the relay lock of the relay\nRemove the input current terminals number C1,C2,C3,C4,C5,C6 from the relay\nConnect test leads between the current terminals number C1 and C2 on the relay \n to the current terminals on the test set to test phase R of over current\nSlowly increase the current until the red indication ((on)) over-current unit \n appears\nRecord this value on the test sheet (pickup value)\nIncrease the injected current higher than the operating value\nSlowly decrease the current until the relay resets\nRecord this value on the test sheet (reset value)\nRepeat the above test from step 1 to step 8 for other phases, but inject \n current at terminal C3 and C4 for phase S and terminals C5 and C6 for phase T\nInject current higher than the setting value \n so the relay picks up firmly\nKeep the injected current and switch off the test set\nRemove wire and isolate from delayed contacts number S4 and S5 on the relay \n and connect timer terminals on the test set\nSwitch on the test set\nStart the test by injecting current into the relay. The timer will stop once \n the relay has picked up\nRecord this value of time on the test sheet\nRepeat the above test from step 1 to step 6 for other phases, but inject \n current at terminal C3 and C4 for phase S and terminals C5 and C6 for phase T.\nVerify the test results match the relay \n setting. if not consult the technical services\nConnect the input current terminals number C1,C2,C3,C4,C5,C6 and delayed \n contact terminal S4,S5 to the relay\nTest trip the circuit breaker associated with the relay\nRequest the operator to switch on the main \n circuit breaker\nOperate the output-contact by hand to trip the circuit breaker\nCheck that the circuit breaker trip.\nPhases | R | S | T\nSetting |  |  | \nl ( Pickup) |  |  | \nl (Reset) |  |  | \nRest Factor |  |  | \nTime Setting |  |  | \nMeasure aux. DC:\nCheck signal circuit:\nCheck alarm circuit:\nCheck tripping circuit\nLocation: \n Protection \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

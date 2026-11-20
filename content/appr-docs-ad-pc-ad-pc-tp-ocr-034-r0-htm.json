@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -137,13 +139,9 @@
    "type": "heading",
    "level": 3,
    "text": "Trip Test"
-  },
-  {
-   "type": "paragraph",
-   "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThe METI 31+ MCGG 63 relay is designed specially for directional control of\n the time delayed element of the over Current relay type MCGG, and Manufactured\n by GEC. This procedure details the steps required to completely check the proper\n operation and calibration of the METI 31+MCGG 63 relay. It is recommended this\n procedure be carried out on a yearly bases. This work be carried out section\n of this document is divided into 3 sections.\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nLine isolation is required.\nMake sure CT Secondary circuits are shorted before isolating the relay\n current circuits for current injection.\nWork to be Carried out\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult technical\n services.\nTest trip the circuit breaker associated with the relay.\nTesting Procedure(s)\nPreparations\nOver-Current Test\nDirectional Test\nConnect leads between the current terminal (no. 23 on the directional\n element relay and no. 22 on the over current element relay) and tester unit\n phase R also.\nA negative reading indicates output contacts open.\nA positive reading indicates output contacts closed.\n That is mean, negative reading is operating area, positive reading is non\n operating area.\nThe angles obtained during the above tests should be within +6 of the\n boundary angles quoted in the table 1.\n\nMinimum Operating Voltage\nTrip Test\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe METI 31+ MCGG 63 relay is designed specially for directional control of\n the time delayed element of the over Current relay type MCGG, and Manufactured\n by GEC. This procedure details the steps required to completely check the proper\n operation and calibration of the METI 31+MCGG 63 relay. It is recommended this\n procedure be carried out on a yearly bases. This work be carried out section\n of this document is divided into 3 sections.\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nLine isolation is required.\nMake sure CT Secondary circuits are shorted before isolating the relay\n current circuits for current injection.\nWork to be Carried out\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult technical\n services.\nTest trip the circuit breaker associated with the relay.\nTesting Procedure(s)\nPreparations\nOver-Current Test\nDirectional Test\nConnect leads between the current terminal (no. 23 on the directional\n element relay and no. 22 on the over current element relay) and tester unit\n phase R also.\nA negative reading indicates output contacts open.\nA positive reading indicates output contacts closed.\n That is mean, negative reading is operating area, positive reading is non\n operating area.\nThe angles obtained during the above tests should be within +6 of the\n boundary angles quoted in the table 1.\nFront Panel SwitchPosition | Relay Characteristic\n AngleI Op REF V Pol | Output Contacts Open:\n Phase Shifter\n Indication\n- 60 | I lags V by 60 | 30 lag through 0 to 150 lead\n- 45 | I lags V by 45 | 45 lag through 0 to 135 lead\n0 | in phase | 90 lag through 0 to 90 lead\n+ 30 | I leads V by 30 | 120 lag through 0 to 60 lead\n+45 | I leads V by 45 | 135 lag through 0 to 45 lead\nMinimum Operating Voltage\nTrip Test",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Substations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical\n Bulletin"
+   "type": "table",
+   "rows": [
+    [
+     "Substations",
+     "Technical\n Bulletin"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -54,6 +56,36 @@
    "text": "The measurement of dielectric strength should be made with an oil tester rated \naccording to the oil to be measured and using IEC electrodes. The following \ntable provides the allowable KV ratings for dielectric testing. The frequency \nrecommended for these tests by the IEC are as follows:\n - After filling or refilling,\n - Prior to energizing,\n - Then after 12 months and subsequently every 2 years after that,\n - Tap changer neutral point every 6 years."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Category\n of Transformer",
+     "Limits"
+    ],
+    [
+     "> 420 Kv",
+     "> 50 Kv/2.5 mm"
+    ],
+    [
+     "> 170 Kv up to 420 Kv",
+     "> 50 Kv/2.5 mm"
+    ],
+    [
+     "> 72.5 Kv up to 170Kv",
+     "> 40 Kv/2.5 mm"
+    ],
+    [
+     "Up to 72.5 Kv",
+     "> 30 Kv/2.5 mm"
+    ],
+    [
+     "Neutral point of tapchanger",
+     "> 25 Kv/2.5 mm"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Neutralization number (Acidity) Testing"
   },
@@ -68,6 +100,10 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Neutralization number",
+     "Evaluation"
+    ],
     [
      "less than 0.2",
      "Good"
@@ -108,6 +144,35 @@
    "text": "The following table\nprovides the IEC acceptable limit for resistivity"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Category Of Transformer",
+     "Limits Ohms-cm"
+    ],
+    [
+     "20 degree C",
+     "90 degrees C"
+    ],
+    [
+     "420 Kv",
+     "> 2 x 10 13",
+     "> 1 x 10 11"
+    ],
+    [
+     "170Kv up to 420Kv",
+     "> 2 x 10 13",
+     "> 1 x 10 11"
+    ],
+    [
+     "72.5Kv up to 170Kv",
+     "> 6 x 10 12",
+     "> 2 x 10 11"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Testing For Water Content"
   },
@@ -126,25 +191,33 @@
    "text": "The table below provides the IEC limits for water content\nwhich are only applicable where the acidity values are > 0.1 mg KOH/g."
   },
   {
-   "type": "paragraph",
-   "text": "> 420 Kv"
-  },
-  {
-   "type": "list",
-   "items": [
-    "After filling or refilling,",
-    "Prior to energizing,"
-   ]
-  },
-  {
-   "type": "list",
-   "items": [
-    "After filling or refilling,",
-    "Prior to energizing,"
-   ]
+   "type": "table",
+   "rows": [
+    [
+     "Category Of Transformer",
+     "Limits",
+     "Frequency of Tests"
+    ],
+    [
+     "> 420 Kv\n > 170 Kv up to 420 Kv",
+     "< 20 mg/Kg",
+     "After filling or refilling,\n Prior to energizing,\n Then after 12 months, subsequently in conjunction with dissolved gas\n analysis testing."
+    ],
+    [
+     "> 72.5 Kv up to 170 Kv",
+     "< 20 mg/Kg",
+     "After filling or refilling,\n Prior to energizing,\n Then after 12 months, subsequently every 6 years or in conjunction\n with dissolved gas analysis testing."
+    ],
+    [
+     "Up to 72.5 Kv",
+     "No free moisture at room temperature",
+     "Only when breakdown voltage approaches the rejection\n level."
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Substations\nTechnical\n Bulletin\nIntroduction\nThe first approval of the document was at 29 Dec 1997, MPIS \nGeneral Directorate looked at the document and revised at 12 Feb. 2002 to be as MPIS \nrules.\nMonitor the condition of insulating oil is a proactive means\nof detecting equipment problems in the early stages. However insulating oil can\nbegin to deteriorate through relatively normal operating conditions and become a\npotential hazard to the proper operation of equipment.\nThis bulletin outline 4 common tests which are used to\ndetermine the degree of deterioration of insulating oil. These tests are\nDielectric strength, neutralization number (acidity), resistivety and water\ncontent. The following section provides information regarding the IEC\nrecommended values for each test and recommended test frequencies.\nInformation\nDielectric Strength Testing\nThe absorption of moisture by transformer insulating oil has\na direct bearing on the transformer's insulation performance. Moisture content\nis normally checked by measuring the dielectric strength. It can also be\nchecked by measuring an oil sample's resistively, tan 8, or actual water\ncontent.\nThe measurement of dielectric strength should be made with an oil tester rated \naccording to the oil to be measured and using IEC electrodes. The following \ntable provides the allowable KV ratings for dielectric testing. The frequency \nrecommended for these tests by the IEC are as follows:\n - After filling or refilling,\n - Prior to energizing,\n - Then after 12 months and subsequently every 2 years after that,\n - Tap changer neutral point every 6 years.\nNeutralization number (Acidity) Testing\nThe neutralization number is important because the level of\nacidity in the oil determines the rate of sludge buildup, -and sludge hinders\ncooling efficiency. Less than 0.2 inhibits sludge formation, 0.5 allows sludge\nbuildup, and more than 0.5 accelerates sludge development.\nAccording to IEC; for all transformers the neutralization\nnumber must not be greater than 0.5 mg Koh/g, at this point the oil would have\nto be processed. The frequency for this test is every 6 years as long as the\ntest results do not exceed 0.3 mg Koh/g. Readings above this amount indicate the\noil must be monitored closer and tested more often. The table below is an\nexample taken from a Hitachi transformer manual and follows the guide set by IEC.\n\nResistivity Testing\nThe resistively of the insulating oil is directly related to\nthe insulation performance of the transformer. Resistively, such as insulation\nresistance, decreases with transformer temperature.\nIEC recommends the following frequencies for conducting\nresistivity tests:\nAfter filling and refilling,\nPrior to energizing,\nThen after 12 months and subsequently every 6 years after that.\nThe following table\nprovides the IEC acceptable limit for resistivity\nTesting For Water Content\nMeasure the water content of the oil by using the Karl Fischer method\nNote:\nThe Karl Fischer method\ndetects the existence of water in the organic solvent. It calls for titration of\nthe sample liquid by dissolving the sample oil in absolute methyl alcohol, then\nintroducing the dissolved sample by measured amounts into the Karl Fischer\nreagent, which is a solution of iodine, sulfur dioxide, pyridine, and absolute\nmethyl alcohol with a reddish brown color. The color of the reagent becomes\nlight yellow if water exists in the sample liquid. The end point is found\nvisually or by potentiometric titration.\nThe table below provides the IEC limits for water content\nwhich are only applicable where the acidity values are > 0.1 mg KOH/g.\n> 420 Kv\nAfter filling or refilling,\nPrior to energizing,\nAfter filling or refilling,\nPrior to energizing,",
+ "text": "Substations | Technical\n Bulletin\nIntroduction\nThe first approval of the document was at 29 Dec 1997, MPIS \nGeneral Directorate looked at the document and revised at 12 Feb. 2002 to be as MPIS \nrules.\nMonitor the condition of insulating oil is a proactive means\nof detecting equipment problems in the early stages. However insulating oil can\nbegin to deteriorate through relatively normal operating conditions and become a\npotential hazard to the proper operation of equipment.\nThis bulletin outline 4 common tests which are used to\ndetermine the degree of deterioration of insulating oil. These tests are\nDielectric strength, neutralization number (acidity), resistivety and water\ncontent. The following section provides information regarding the IEC\nrecommended values for each test and recommended test frequencies.\nInformation\nDielectric Strength Testing\nThe absorption of moisture by transformer insulating oil has\na direct bearing on the transformer's insulation performance. Moisture content\nis normally checked by measuring the dielectric strength. It can also be\nchecked by measuring an oil sample's resistively, tan 8, or actual water\ncontent.\nThe measurement of dielectric strength should be made with an oil tester rated \naccording to the oil to be measured and using IEC electrodes. The following \ntable provides the allowable KV ratings for dielectric testing. The frequency \nrecommended for these tests by the IEC are as follows:\n - After filling or refilling,\n - Prior to energizing,\n - Then after 12 months and subsequently every 2 years after that,\n - Tap changer neutral point every 6 years.\nCategory\n of Transformer | Limits\n> 420 Kv | > 50 Kv/2.5 mm\n> 170 Kv up to 420 Kv | > 50 Kv/2.5 mm\n> 72.5 Kv up to 170Kv | > 40 Kv/2.5 mm\nUp to 72.5 Kv | > 30 Kv/2.5 mm\nNeutral point of tapchanger | > 25 Kv/2.5 mm\nNeutralization number (Acidity) Testing\nThe neutralization number is important because the level of\nacidity in the oil determines the rate of sludge buildup, -and sludge hinders\ncooling efficiency. Less than 0.2 inhibits sludge formation, 0.5 allows sludge\nbuildup, and more than 0.5 accelerates sludge development.\nAccording to IEC; for all transformers the neutralization\nnumber must not be greater than 0.5 mg Koh/g, at this point the oil would have\nto be processed. The frequency for this test is every 6 years as long as the\ntest results do not exceed 0.3 mg Koh/g. Readings above this amount indicate the\noil must be monitored closer and tested more often. The table below is an\nexample taken from a Hitachi transformer manual and follows the guide set by IEC.\nNeutralization number | Evaluation\nless than 0.2 | Good\n0.2 to 0.5 | Acceptable, but oil should be replaced soon\nMore than 0.5 | Bad. Oil should be replaced immediately\nResistivity Testing\nThe resistively of the insulating oil is directly related to\nthe insulation performance of the transformer. Resistively, such as insulation\nresistance, decreases with transformer temperature.\nIEC recommends the following frequencies for conducting\nresistivity tests:\nAfter filling and refilling,\nPrior to energizing,\nThen after 12 months and subsequently every 6 years after that.\nThe following table\nprovides the IEC acceptable limit for resistivity\nCategory Of Transformer | Limits Ohms-cm\n20 degree C | 90 degrees C\n420 Kv | > 2 x 10 13 | > 1 x 10 11\n170Kv up to 420Kv | > 2 x 10 13 | > 1 x 10 11\n72.5Kv up to 170Kv | > 6 x 10 12 | > 2 x 10 11\nTesting For Water Content\nMeasure the water content of the oil by using the Karl Fischer method\nNote:\nThe Karl Fischer method\ndetects the existence of water in the organic solvent. It calls for titration of\nthe sample liquid by dissolving the sample oil in absolute methyl alcohol, then\nintroducing the dissolved sample by measured amounts into the Karl Fischer\nreagent, which is a solution of iodine, sulfur dioxide, pyridine, and absolute\nmethyl alcohol with a reddish brown color. The color of the reagent becomes\nlight yellow if water exists in the sample liquid. The end point is found\nvisually or by potentiometric titration.\nThe table below provides the IEC limits for water content\nwhich are only applicable where the acidity values are > 0.1 mg KOH/g.\nCategory Of Transformer | Limits | Frequency of Tests\n> 420 Kv\n > 170 Kv up to 420 Kv | < 20 mg/Kg | After filling or refilling,\n Prior to energizing,\n Then after 12 months, subsequently in conjunction with dissolved gas\n analysis testing.\n> 72.5 Kv up to 170 Kv | < 20 mg/Kg | After filling or refilling,\n Prior to energizing,\n Then after 12 months, subsequently every 6 years or in conjunction\n with dissolved gas analysis testing.\nUp to 72.5 Kv | No free moisture at room temperature | Only when breakdown voltage approaches the rejection\n level.",
  "text_truncated": false,
  "links": [],
  "images": [

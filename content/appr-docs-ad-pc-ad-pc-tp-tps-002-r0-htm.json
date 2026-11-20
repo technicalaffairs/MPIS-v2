@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Transformer Protection \n Scheme\n BT10 of unit 210 MW,\n type KTRT 18X20"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -108,6 +106,36 @@
   {
    "type": "paragraph",
    "text": "Protection Devices"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Differential of 1BT 10 \n DTN 920",
+     "Manufacturer: ABB \n ARAB"
+    ],
+    [
+     "Over current \n A3TX1",
+     "Manufacturer: Skoda"
+    ],
+    [
+     "Over load \n A3TX1",
+     "Manufacturer: Skoda"
+    ],
+    [
+     "Over load & short \n circuit of 1BA IKT943",
+     "Manufacturer: ABB \n ARAB"
+    ],
+    [
+     "Over load & short \n circuit of 1BB IKT943",
+     "Manufacturer: ABB ARAB"
+    ],
+    [
+     "Short circuit \n D15X1",
+     "Manufacturer: Skoda"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -308,24 +336,20 @@
    "text": "Differential of BT10"
   },
   {
-   "type": "paragraph",
-   "text": "C.T.1 :"
-  },
-  {
-   "type": "paragraph",
-   "text": "C.T. 2 : \n TA10/1"
-  },
-  {
-   "type": "paragraph",
-   "text": "C.T.1.R : 1000/5A"
-  },
-  {
-   "type": "paragraph",
-   "text": "C.T.2.R : 2500/5A"
-  },
-  {
-   "type": "paragraph",
-   "text": "In : 5A"
+   "type": "table",
+   "rows": [
+    [
+     "Type : DTN 920",
+     "Function: F303",
+     "Manufacturer: ABB ARAB"
+    ],
+    [
+     "C.T.1 : \n C.T. 2 : \n TA10/1\n C.T. 3 : \n TA11/1",
+     "C.T.1.R : 1000/5A\n C.T.2.R : 2500/5A\n C.T.3.R : 2500/5A",
+     "In : 5A\n Setting : g = 30%In"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
@@ -378,12 +402,48 @@
    "text": "Over current"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Type : A3TX1",
+     "Function: F134",
+     "Manufacturer: SKODA"
+    ],
+    [
+     "C.T. : \n TA8/2",
+     "C.T. R. : 1000/5A",
+     "In : 5A"
+    ],
+    [
+     "Setting: Ir = 2 In,1 sec"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Over load"
   },
   {
-   "type": "paragraph",
-   "text": "Setting: Ir = 1.1 In, 1sec"
+   "type": "table",
+   "rows": [
+    [
+     "Type : A3TX1",
+     "Function: F135",
+     "Manufacturer: SKODA"
+    ],
+    [
+     "C.T. : \n TA8/1",
+     "C.T.R. : 1000/5A",
+     "In : 5A"
+    ],
+    [
+     "Setting: Ir = 1.1 In, 1sec",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
@@ -434,6 +494,22 @@
   {
    "type": "paragraph",
    "text": "Over current & \nS.C OF BA"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : IKT 943",
+     "Function: F133",
+     "Manufacturer: ABB ARAB"
+    ],
+    [
+     "C.T. : TA10/2",
+     "C.T.R : 2500/5A",
+     "In : 5A"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
@@ -493,6 +569,22 @@
    "type": "table",
    "rows": [
     [
+     "Type : IKT 943",
+     "Function: F132",
+     "Manufacturer: ABB ARAB"
+    ],
+    [
+     "C.T. : TA11/2",
+     "C.T.R : 2500/5A",
+     "In : 5A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "",
      "Setting",
      "Set value",
@@ -547,6 +639,27 @@
    "type": "table",
    "rows": [
     [
+     "Type : \n D15X1",
+     "Function: F137",
+     "Manufacturer: ABB ARAB"
+    ],
+    [
+     "C.T. : TA8/2",
+     "C.T.R : 1000/5A",
+     "In : 5A"
+    ],
+    [
+     "P.T. \n : TV 2/2",
+     "P.T.R : \n 15/3 \n :0.1/3 \n : 0.1/3kv",
+     "Un : 100V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "",
      "Setting",
      "Set value",
@@ -596,9 +709,31 @@
   {
    "type": "paragraph",
    "text": "Comment:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Last Test Date:",
+     "Test Date:"
+    ],
+    [
+     "Test bY :",
+     "Signature:"
+    ],
+    [
+     "Reviewed by:",
+     "Signature:"
+    ],
+    [
+     "Approved bY :",
+     "Signature:"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Protection\nTechnical Procedure\nTransformer Protection \n Scheme\n BT10 of unit 210 MW,\n type KTRT 18X20\nIntroduction\nThis document outlines the \ntesting procedure I1, which must be performed every 6 months as indicated by M6 in the above title block.\nThis patent concerns the test of Protection \n Relays of home transformer, manufactured by SKODA and ABB ARAB . The \n transformer is of type KTRT 18X20, rated power 20MVA, vector group Dd0, and \n voltages 15.75 8x2%/6.3KV.\nThe first draft initiated \n by eng. Maysa Ahmady, tested at 27 Jan. 2003 by eng. Iman Rizk ElAshry, \n revised by quality control \n engineer eng. Adel Abd El Kader EL Nagar of EDEPCo, accepted by general \n director eng . Mahmoud Sakr, and approved by Eng .Mustafa Alaam Sector Head.\nSafety Precautions\nA work permit \nmust be issued and the qualified maintenance staff should carry the suitable \nsafety category\nSafety fence \n(rope) with caution marks and \n no smoking signs surrounding the work area must be used.\nWearing safety \nhelmet, shoes are necessary\nAscertain the disconnection of the exciter, \n the generator, main transform and home transformer .\nBe sure that the team members wear \n the necessary manufacturing safety equipments\nBe aware of parts in service.\nFollow the work permission instructions.\nTools and Equipment\nAn A.C. voltage source of type Z11\nAn A.C. current source of type Z11\nVarying - Resistance Box\nAn ammeter & A voltmeter\nA timer unit TM-2 ( Program )\nSome leads & \n screws.\nWork to be Carried Out\nRelays Preparation\nReview the manual.\nPrepare the previous results \n of the relay testing.\nCheck the wires of the relay \n beforehand.\nBe sure that the unit and the \n transformer are disconnected and the d.c. source is available.\nCheck the existence of the\n d.c. sources in panels.\nDisconnect the trip leads of \n the relay and connect the timer to them.\nCheck all the leads used in \n tests.\nTools Preparation\nConnect the testing units \n of Z11 to a power source.\nConnect the timer to a \n power source and its terminals to the trip terminals of the relay under test.\nPlace an ammeter on current leads of Z11 to measure the \n current.\nConnect the voltmeter in parallel with the voltage \n leads of Z11 ( the other unit ) to measure the voltage.\nProtection Devices\nDifferential \nof BT 10 ,Type \nDTN 920\nC.T \n: TA 8/1 1000/5A\nTA 10/1 & TA11/1 2500/5A\nTest \nsteps\nConnect the current leads of a tester unit Z11 to points (261,262) & (261,263) \n & (261,264) on low tension side of TA 10/1,TA11/1 respectively (on rosette) \n then terminals (268,265 ) & ( 268 ,266 ) & ( 268 , 267 ) on high tension side \n of TA8/1 respectively ( on rosette ) .\nInject current to each \n couple of points till the red flag of the device displays.\nRepeat the steps for each \n pair of points either on L .T .S or H .T . S .\nRecord the results.\nOver \nCurrent , \nType \n A3TX1\nIts a 3 phase over current \nprotection without distinguishing of the effected phases with a time member.\nC.T : TA \n8/2 1000/5A\nTest \nsteps\nPlace the socket ZZ10 in \n Z12.\nFix the timer leads in ( \n 172, 185 ) at the rear of panel HH02 .\nInject the current to \n terminals ( 11,14 ) & ( 12,14 ) & ( 13,14 ) of Z12 respectively ( ph N ).\nIncrease the current till \n the red flag indicating phase displays. Let the timer start acting till it \n stops indicating the tripping time of the device (its red flay displays).\nRepeat the steps for each \n phase.\nRecord the results.\nOver Load , \nType \n A3TX1\nIts a 3 phase over \ncurrent protection without distinguishing of the effected phases with a time \nmember.\nC.T \n: TA 8/1 1000/5A\nTest steps\nPlace the socket ZZ10 in \n Z12.\nFix the timer leads in ( \n 172, 188 ) at the rear of panel HH05 .\nInject the current to \n terminals ( 11, 14 ) & ( 12,14 ) & ( 13,14 ) of Z12 respectively ( ph N ).\nIncrease the current till \n red flag indicating phase displays. Let the timer start acting till it stops \n indicating the signaling time of the device (its red flay displays).\nRepeat the steps for each \n phase.\nRecord the results.\nOver Current & Short Circuit of 1BA ,Type \nIKT943\nC.T. : \nTA10/2 2500/5A\nOver Current & Short Circuit of 1BA ,Type \nIKT943 \nC.T. : \nTA11/2 2500/5A\nThe previous 2 devices \nhave the same sequence of testing and give only signals\nOver \nCurrent Element\nConnect the tester ( Z11 ) \n leads to ( A2,A3 ) of the device.\nLoosen ( A4 , A5 )leads and \n connect the timer leads to them.\nConnect the main D.C. of \n the cubicle.\nIncrease the current till \n the yellow lamp of the device ignites ( signal value ) . let the timer start \n acting till the red lamp ignites and the timer stops .\nRepeat the test by \n connecting the tester to ( A6 , A7 ) then ( A10 , A11 ) instead of ( \n A2,A3 ) .\nShort \nCircuit Element\nConnect the tester ( Z11 ) \n leads to ( A2,A3 ) of the device .\nLoosen ( A8 , A9 )leads and \n connect the timer leads to them .\nConnect the main D.C. of \n the cubicle.\nIncrease the current till \n the red lamp of the device ignites and the timer closes instantaneously.\nRepeat the test by \n connecting the tester to (A6 , A7 ) then ( A10 , A11 ) instead of ( A2,A3 \n )\nRerecord the results.\nBoth the over current \nand short circuit elements gives signals only with no tripping.\nShort \nCircuit \n ,Type \nD15X1\nIts a double - stage, 3 \nphase impedance protection with a circular characteristic and distinguishing of \nthe effected phase. The second stage has a time member\nC.T. \n: TA \n8/2 1000/5A\nP.T. : \nTV 2/2 15/√3 : 0.1/√3 : 0.1 / 3 KV .\nTest Steps\nPlace the socket ZZ10 in \n Z2, and another one in Z9 (HH01)\nFix the timer (element ) \n leads in ( 172,193 ) at the rear of panel HH02 .\nInject the current to \n points (11,12) then ( 12, 13 ) and finally ( 11,13 ) of Z9 phase to phase.\nInject the voltage by the \n other tester to points (11, 12) then (12, 13) and finally ( 11,13 ) of Z2 \n phase to phase.\nFixing a value of 4.3A, \n increase the injected voltage till the red flags indicating the injected \n phases disappear (reset value ) then decrease the voltage gradually till the \n disappearing flags reappear( set value of 1st stage ) . Let the \n timer act indicating the tripping time of the 1st stage.\nThe tripping voltage (1st \n stage) represents the S.C. impedance of 1SP.\nTo test the 2nd stage Test\nDrive the 1st \n stage device out of place.\nLeave the timer leads in ( \n 172 , 193 ) at the rear of panel HH02 .\nRepeat the previous steps .\nWhen the flag of 2nd \n stage appears make the timer start acting till it stops recording the tripping \n time of 2nd stage.\nRepeat the previous steps \n for each pair of phases.\nRepeat the results of each \n phase phase.\nReturning the Relays to Service\nRelease \n the leads of the testing instruments.\nCheck the return of relay- \n wires and trip-leads to their original places and tighten them carefully .\nPress the main RESET \n button in HH01 for those devices in the control room .\nPress the RESET button \n for those devices in the 6.3 KV hall and check the relay setting .\nBe sure that the relay is \n completely ready for service any time.\nAlienate the testing materials and equipments \n in addition to the caution signs and leave the place clean.\nReturn the work permission.\nTest Sheet of Home Transformer BT10 Protection Relays\nPower Station \nName:\nDifferential of BT10\nC.T.1 :\nC.T. 2 : \n TA10/1\nC.T.1.R : 1000/5A\nC.T.2.R : 2500/5A\nIn : 5A\n\nOver current\nOver load\nSetting: Ir = 1.1 In, 1sec\n\nOver current & \nS.C OF BA\n\nOver \ncurrent & S.C OF BB\n\nShort Circuit\n\nComment:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the \ntesting procedure I1, which must be performed every 6 months as indicated by M6 in the above title block.\nThis patent concerns the test of Protection \n Relays of home transformer, manufactured by SKODA and ABB ARAB . The \n transformer is of type KTRT 18X20, rated power 20MVA, vector group Dd0, and \n voltages 15.75 8x2%/6.3KV.\nThe first draft initiated \n by eng. Maysa Ahmady, tested at 27 Jan. 2003 by eng. Iman Rizk ElAshry, \n revised by quality control \n engineer eng. Adel Abd El Kader EL Nagar of EDEPCo, accepted by general \n director eng . Mahmoud Sakr, and approved by Eng .Mustafa Alaam Sector Head.\nSafety Precautions\nA work permit \nmust be issued and the qualified maintenance staff should carry the suitable \nsafety category\nSafety fence \n(rope) with caution marks and \n no smoking signs surrounding the work area must be used.\nWearing safety \nhelmet, shoes are necessary\nAscertain the disconnection of the exciter, \n the generator, main transform and home transformer .\nBe sure that the team members wear \n the necessary manufacturing safety equipments\nBe aware of parts in service.\nFollow the work permission instructions.\nTools and Equipment\nAn A.C. voltage source of type Z11\nAn A.C. current source of type Z11\nVarying - Resistance Box\nAn ammeter & A voltmeter\nA timer unit TM-2 ( Program )\nSome leads & \n screws.\nWork to be Carried Out\nRelays Preparation\nReview the manual.\nPrepare the previous results \n of the relay testing.\nCheck the wires of the relay \n beforehand.\nBe sure that the unit and the \n transformer are disconnected and the d.c. source is available.\nCheck the existence of the\n d.c. sources in panels.\nDisconnect the trip leads of \n the relay and connect the timer to them.\nCheck all the leads used in \n tests.\nTools Preparation\nConnect the testing units \n of Z11 to a power source.\nConnect the timer to a \n power source and its terminals to the trip terminals of the relay under test.\nPlace an ammeter on current leads of Z11 to measure the \n current.\nConnect the voltmeter in parallel with the voltage \n leads of Z11 ( the other unit ) to measure the voltage.\nProtection Devices\nDifferential of 1BT 10 \n DTN 920 | Manufacturer: ABB \n ARAB\nOver current \n A3TX1 | Manufacturer: Skoda\nOver load \n A3TX1 | Manufacturer: Skoda\nOver load & short \n circuit of 1BA IKT943 | Manufacturer: ABB \n ARAB\nOver load & short \n circuit of 1BB IKT943 | Manufacturer: ABB ARAB\nShort circuit \n D15X1 | Manufacturer: Skoda\nDifferential \nof BT 10 ,Type \nDTN 920\nC.T \n: TA 8/1 1000/5A\nTA 10/1 & TA11/1 2500/5A\nTest \nsteps\nConnect the current leads of a tester unit Z11 to points (261,262) & (261,263) \n & (261,264) on low tension side of TA 10/1,TA11/1 respectively (on rosette) \n then terminals (268,265 ) & ( 268 ,266 ) & ( 268 , 267 ) on high tension side \n of TA8/1 respectively ( on rosette ) .\nInject current to each \n couple of points till the red flag of the device displays.\nRepeat the steps for each \n pair of points either on L .T .S or H .T . S .\nRecord the results.\nOver \nCurrent , \nType \n A3TX1\nIts a 3 phase over current \nprotection without distinguishing of the effected phases with a time member.\nC.T : TA \n8/2 1000/5A\nTest \nsteps\nPlace the socket ZZ10 in \n Z12.\nFix the timer leads in ( \n 172, 185 ) at the rear of panel HH02 .\nInject the current to \n terminals ( 11,14 ) & ( 12,14 ) & ( 13,14 ) of Z12 respectively ( ph N ).\nIncrease the current till \n the red flag indicating phase displays. Let the timer start acting till it \n stops indicating the tripping time of the device (its red flay displays).\nRepeat the steps for each \n phase.\nRecord the results.\nOver Load , \nType \n A3TX1\nIts a 3 phase over \ncurrent protection without distinguishing of the effected phases with a time \nmember.\nC.T \n: TA 8/1 1000/5A\nTest steps\nPlace the socket ZZ10 in \n Z12.\nFix the timer leads in ( \n 172, 188 ) at the rear of panel HH05 .\nInject the current to \n terminals ( 11, 14 ) & ( 12,14 ) & ( 13,14 ) of Z12 respectively ( ph N ).\nIncrease the current till \n red flag indicating phase displays. Let the timer start acting till it stops \n indicating the signaling time of the device (its red flay displays).\nRepeat the steps for each \n phase.\nRecord the results.\nOver Current & Short Circuit of 1BA ,Type \nIKT943\nC.T. : \nTA10/2 2500/5A\nOver Current & Short Circuit of 1BA ,Type \nIKT943 \nC.T. : \nTA11/2 2500/5A\nThe previous 2 devices \nhave the same sequence of testing and give only signals\nOver \nCurrent Element\nConnect the tester ( Z11 ) \n leads to ( A2,A3 ) of the device.\nLoosen ( A4 , A5 )leads and \n connect the timer leads to them.\nConnect the main D.C. of \n the cubicle.\nIncrease the current till \n the yellow lamp of the device ignites ( signal value ) . let the timer start \n acting till the red lamp ignites and the timer stops .\nRepeat the test by \n connecting the tester to ( A6 , A7 ) then ( A10 , A11 ) instead of ( \n A2,A3 ) .\nShort \nCircuit Element\nConnect the tester ( Z11 ) \n leads to ( A2,A3 ) of the device .\nLoosen ( A8 , A9 )leads and \n connect the timer leads to them .\nConnect the main D.C. of \n the cubicle.\nIncrease the current till \n the red lamp of the device ignites and the timer closes instantaneously.\nRepeat the test by \n connecting the tester to (A6 , A7 ) then ( A10 , A11 ) instead of ( A2,A3 \n )\nRerecord the results.\nBoth the over current \nand short circuit elements gives signals only with no tripping.\nShort \nCircuit \n ,Type \nD15X1\nIts a double - stage, 3 \nphase impedance protection with a circular characteristic and distinguishing of \nthe effected phase. The second stage has a time member\nC.T. \n: TA \n8/2 1000/5A\nP.T. : \nTV 2/2 15/√3 : 0.1/√3 : 0.1 / 3 KV .\nTest Steps\nPlace the socket ZZ10 in \n Z2, and another one in Z9 (HH01)\nFix the timer (element ) \n leads in ( 172,193 ) at the rear of panel HH02 .\nInject the current to \n points (11,12) then ( 12, 13 ) and finally ( 11,13 ) of Z9 phase to phase.\nInject the voltage by the \n other tester to points (11, 12) then (12, 13) and finally ( 11,13 ) of Z2 \n phase to phase.\nFixing a value of 4.3A, \n increase the injected voltage till the red flags indicating the injected \n phases disappear (reset value ) then decrease the voltage gradually till the \n disappearing flags reappear( set value of 1st stage ) . Let the \n timer act indicating the tripping time of the 1st stage.\nThe tripping voltage (1st \n stage) represents the S.C. impedance of 1SP.\nTo test the 2nd stage Test\nDrive the 1st \n stage device out of place.\nLeave the timer leads in ( \n 172 , 193 ) at the rear of panel HH02 .\nRepeat the previous steps .\nWhen the flag of 2nd \n stage appears make the timer start acting till it stops recording the tripping \n time of 2nd stage.\nRepeat the previous steps \n for each pair of phases.\nRepeat the results of each \n phase phase.\nReturning the Relays to Service\nRelease \n the leads of the testing instruments.\nCheck the return of relay- \n wires and trip-leads to their original places and tighten them carefully .\nPress the main RESET \n button in HH01 for those devices in the control room .\nPress the RESET button \n for those devices in the 6.3 KV hall and check the relay setting .\nBe sure that the relay is \n completely ready for service any time.\nAlienate the testing materials and equipments \n in addition to the caution signs and leave the place clean.\nReturn the work permission.\nTest Sheet of Home Transformer BT10 Protection Relays\nPower Station \nName:\nDifferential of BT10\nType : DTN 920 | Function: F303 | Manufacturer: ABB ARAB\nC.T.1 : \n C.T. 2 : \n TA10/1\n C.T. 3 : \n TA11/1 | C.T.1.R : 1000/5A\n C.T.2.R : 2500/5A\n C.T.3.R : 2500/5A | In : 5A\n Setting : g = 30%In\n | TA 8 /1 ( H.T.S.) | TA10/1 & TA11/1 ( L.T.S.)\nSet value | Reset value | Reset factor | Set value | Reset value | Reset factor\nR |  |  |  |  |  | \nS |  |  |  |  |  | \nT |  |  |  |  |  | \nOver current\nType : A3TX1 | Function: F134 | Manufacturer: SKODA\nC.T. : \n TA8/2 | C.T. R. : 1000/5A | In : 5A\nSetting: Ir = 2 In,1 sec\nOver load\nType : A3TX1 | Function: F135 | Manufacturer: SKODA\nC.T. : \n TA8/1 | C.T.R. : 1000/5A | In : 5A\nSetting: Ir = 1.1 In, 1sec |  | \n | Over current | Over load\nSet value | Reset value | Reset factor | Set value | Reset value | Reset factor\nR |  |  |  |  |  | \nS |  |  |  |  |  | \nT |  |  |  |  |  | \nOver current & \nS.C OF BA\nType : IKT 943 | Function: F133 | Manufacturer: ABB ARAB\nC.T. : TA10/2 | C.T.R : 2500/5A | In : 5A\n | Setting | Set value | Reset value | Reset factor\nR | S | T | R | S | T | R | S | T\n0.C | Ir = 0.8 \n In , 6 sec |  |  |  |  |  |  |  |  | \nS.C | Ir = 4In, \n 150m sec |  |  |  |  |  |  |  |  | \nOver \ncurrent & S.C OF BB\nType : IKT 943 | Function: F132 | Manufacturer: ABB ARAB\nC.T. : TA11/2 | C.T.R : 2500/5A | In : 5A\n | Setting | Set value | Reset value | Reset factor\nR | S | T | R | S | T | R | S | T\n0.C | Ir = 0.8 \n In , 6 sec |  |  |  |  |  |  |  |  | \nS.C | Ir = 4In, 150m sec |  |  |  |  |  |  |  |  | \nShort Circuit\nType : \n D15X1 | Function: F137 | Manufacturer: ABB ARAB\nC.T. : TA8/2 | C.T.R : 1000/5A | In : 5A\nP.T. \n : TV 2/2 | P.T.R : \n 15/3 \n :0.1/3 \n : 0.1/3kv | Un : 100V\n | Setting | Set value | Reset value | Reset factor\nR-S | S-T | R-T | R-S | S-T | R-T | R-S | S-T | R-T\n1st \n stage | Xr1=10%Zn |  |  |  |  |  |  |  |  | \n2nd \n stage | Xr1= 43%Zn,4 sec |  |  |  |  |  |  |  |  | \nComment:\nLast Test Date: | Test Date:\nTest bY : | Signature:\nReviewed by: | Signature:\nApproved bY : | Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -128,12 +130,25 @@
    "text": "Relay Start At \n: Amp With Time : \n Sec, T . D :"
   },
   {
-   "type": "paragraph",
-   "text": "5 Time Pick Up Current"
-  },
-  {
-   "type": "paragraph",
-   "text": "10 Time : Pick Up Current"
+   "type": "table",
+   "rows": [
+    [
+     "Current Studs ( 5 6 )",
+     "Voltage Studs ( 7 8 )",
+     "Measured Time"
+    ],
+    [
+     "5 Time Pick Up Current\n 5 x \n = \n Amp",
+     "120 Volt",
+     "Sec"
+    ],
+    [
+     "10 Time : Pick Up Current\n 10 x \n = Amp",
+     "120 Volt",
+     "sec"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -148,7 +163,7 @@
    "text": "Approved by \n: Signature :"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document lists the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThese relays are designed for operation at rated system voltage to detect an \n abnormal power flow in a given direction. for balanced load conditions only \n one relay is required per terminal .\nThe \n first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama at 23 April 2003, revised by EDEPCo., Quality Control \neng. Adel El-Nagar, accepted by General Director eng. Mahmoud Saker, and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Station.\nSafety Precautions\nA work permit \nmust be issued and the qualified test staff should carry the suitable \nsafely category\nA work permit \nmust be issued and the qualified test staff should carry the suitable \nsafely category\nSafety fence (rope) with caution marks surrounding the work area is required.\nTools and Equipment\nTest Plug handle, Clamp ammeter.\nSecondary injection test set OR \n Double-F2200 test set\nTest Leads.\nWork to be Carried Out\nPreparation\nMake Sure C.T secondary circuit are opened at the incoming terminal blocks \n before isolating the relay current circuit for test\nLook \n at field maintenance file and compare the position of the setting switches \n on relay with those shown on the test sheet.\nTesting the Relay \nFigure 1\nConnect the test leads between current terminals ( 5 - 6 ).\nConnect the test leads between the Voltage terminals ( 7 - 8 ).\nConnect the test leads \n between the trip terminals ( 1 - 2 )\nIncrease the voltage to 120 volt.\nIncrease the current slowly until the relay picks up.\nRecord the value of the current as the start current.\nIncrease the current to the value 5 x Istart then 10 x Istart.\nRecord the time, which the relay trips at every current value.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the current terminals ( 5 - 6 ) , \n voltage terminals ( 7 - 8 )\n - Disconnect the test leads between the trip contact (1- 2 )\nMake sure CT and PT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils, - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet for Reverse Power Relay ICW51A,\n GE\nUnit No. :\nRelay Type \n : Relay Model \n:\nRelay Voltage \n: Relay Range \n:\nRelay Start At \n: Amp With Time : \n Sec, T . D :\n5 Time Pick Up Current\n10 Time : Pick Up Current\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document lists the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThese relays are designed for operation at rated system voltage to detect an \n abnormal power flow in a given direction. for balanced load conditions only \n one relay is required per terminal .\nThe \n first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama at 23 April 2003, revised by EDEPCo., Quality Control \neng. Adel El-Nagar, accepted by General Director eng. Mahmoud Saker, and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Station.\nSafety Precautions\nA work permit \nmust be issued and the qualified test staff should carry the suitable \nsafely category\nA work permit \nmust be issued and the qualified test staff should carry the suitable \nsafely category\nSafety fence (rope) with caution marks surrounding the work area is required.\nTools and Equipment\nTest Plug handle, Clamp ammeter.\nSecondary injection test set OR \n Double-F2200 test set\nTest Leads.\nWork to be Carried Out\nPreparation\nMake Sure C.T secondary circuit are opened at the incoming terminal blocks \n before isolating the relay current circuit for test\nLook \n at field maintenance file and compare the position of the setting switches \n on relay with those shown on the test sheet.\nTesting the Relay \nFigure 1\nConnect the test leads between current terminals ( 5 - 6 ).\nConnect the test leads between the Voltage terminals ( 7 - 8 ).\nConnect the test leads \n between the trip terminals ( 1 - 2 )\nIncrease the voltage to 120 volt.\nIncrease the current slowly until the relay picks up.\nRecord the value of the current as the start current.\nIncrease the current to the value 5 x Istart then 10 x Istart.\nRecord the time, which the relay trips at every current value.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the current terminals ( 5 - 6 ) , \n voltage terminals ( 7 - 8 )\n - Disconnect the test leads between the trip contact (1- 2 )\nMake sure CT and PT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils, - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet for Reverse Power Relay ICW51A,\n GE\nUnit No. :\nRelay Type \n : Relay Model \n:\nRelay Voltage \n: Relay Range \n:\nRelay Start At \n: Amp With Time : \n Sec, T . D :\nCurrent Studs ( 5 6 ) | Voltage Studs ( 7 8 ) | Measured Time\n5 Time Pick Up Current\n 5 x \n = \n Amp | 120 Volt | Sec\n10 Time : Pick Up Current\n 10 x \n = Amp | 120 Volt | sec\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :",
  "text_truncated": false,
  "links": [],
  "images": [

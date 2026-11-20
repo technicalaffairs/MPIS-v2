@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -137,8 +139,14 @@
    "text": "Test Steps"
   },
   {
-   "type": "paragraph",
-   "text": "C.T. TA 9/1,TA1/2 10.000/5A"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "C.T. TA 9/1,TA1/2 10.000/5A\n TA5/3 1000/5A"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "list",
@@ -166,12 +174,14 @@
    "text": "It is a one - phase over current protection suitable e.g. for locking of earth \nfault protection GF1XIby the earth current of very high voltage"
   },
   {
-   "type": "paragraph",
-   "text": "CT TA6/1 750/5A (1st unit)"
-  },
-  {
-   "type": "paragraph",
-   "text": "TA6/1 1000/5A (2nd unit)"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "CT TA6/1 750/5A (1st unit)\n TA6/1 1000/5A (2nd unit)"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -200,6 +210,16 @@
    "text": "It is a protection device for short circuit protection of \nthe body of tank this operate if any earth fault happened on the body itself ."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "C.T. TA7 200/5A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Test Steps"
   },
@@ -222,6 +242,16 @@
    "text": "This protection is a differential protection on the Transmission Line between transformer 1ATO,\n(15.75/220kv) and B.B. GIS, restricted by operation of over current \nF51 on that TL ."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "C.T. TA5/1 1000/5A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Test Steps"
   },
@@ -238,6 +268,16 @@
   {
    "type": "paragraph",
    "text": "Quick Acting Relay (Pilot) type A15"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "C.T. TA5/1 1000/5A"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -262,6 +302,16 @@
    "text": "The protection measures voltage of the generator neutral against the earth. At \nearth connection Ug=0 takes place and the protection acts"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "P.T. TV3/1 15:3/0.1 : 3/ 0.1 : 3 KV"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Test Steps"
   },
@@ -280,6 +330,16 @@
    "text": "Restricted Ground Fault type RADHD,"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "C.T. TA25(1st unit) 1000/5A\n TA(2nd unit) \n1000/5A\n TA5/2 \n 1000/5A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Test Steps"
   },
@@ -295,6 +355,16 @@
   {
    "type": "paragraph",
    "text": "Differential of AT10 type RAX1"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "C.T. TA4/2 10.000/5A\n TA 5/4 \n1000/5A"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -488,6 +558,13 @@
      "",
      "",
      ""
+    ],
+    [
+     "Tank protection",
+     "Ir = In,\n t=0.1 sec",
+     "",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -511,6 +588,21 @@
   {
    "type": "table",
    "rows": [
+    [
+     "PH-N",
+     "Quick acting relay",
+     "Comparison protection",
+     "PH-PH",
+     "Comparison protection"
+    ],
+    [
+     "Set value",
+     "Reset value",
+     "Set value",
+     "Reset value",
+     "Set value",
+     "Reset value"
+    ],
     [
      "R",
      "",
@@ -670,7 +762,7 @@
    "text": "Approved by: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document outlines the testing procedure I1, which must performed every six \nmonths as indicated by M6 in the title block.\nThis patent concerns the test of Protection \nRelays of home transformer, manufactured by SKODA and ABB ARAB. The \ntransformer is of type KTRT 18X20, rated power 20MVA, vector group Dd0, and \nvoltages 15.75 8x2%/6.3KV.\nThe first draft initiated by \neng. Maysa Ahmady, tested at 27 Jan.2003 by eng. Iman Rizk El-Ashry, revised by EDEPCo. quality \ncontrol engineer eng. Adel Abdel Kader EL Nagar, accepted by general \ndirector eng. Mahmoud Sakr, and approved by eng. Mustafa Allam Talkha Power \nStation Sector Head\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety class,\nSafety fence with caution marks & \nno smoking signs surrounding \nthe work area is required,\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ntransformer protection scheme.\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety class,\nSafety fence with caution marks & \nno smoking signs surrounding \nthe work area is required,\nWear \n safety helmet, safety shoes\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ntransformer protection scheme.\nAscertain the disconnection of the exciter, generator, main transform and home transformer\nBe aware of \n parts in service.\nFollow the work \n permission instructions.\nTools and Equipment\nAn AC voltage source of type Z11.\nAn AC \n current source of type Z11\nAn ammeter & A voltmeter.\nA timer unit TM-2 ( Program )\nSome leads & \n screws.\nWork to be Carried Out\nRelay Preparation\nReview \n the manual.\nPrepare \n the previous results of the relay testing.\nCheck \n the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and \n the d.c. source is available.\nCheck \n the existence of the \n d.c. sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck \n all the leads used in tests.\nTest Tools Preparation\nConnect the testing units of Z11 to a power source\nConnect the timer to a power source and its terminals to the trip terminals of \n the relay under test\nPlace an ammeter on current leads of Z11 to measure the \n current.\nConnect the voltmeter in parallel with the voltage leads of \n Z11 ( the other unit ) to measure the voltage.\nThe test of all main transformer protection devices is \nachieved by isolating either CT circuits or PT circuits or both.\nThis is \ndone by using a special socket for testing. This makes the test results depend \nonly on the action of relays\nTesting \nProcedures\nDifferential of Unit \n1BT10, R43X1,SKODA for \n( Generator + Transformer )\nIt is a 3-point differential protection with a measuring \nmember in each phase locked switching on surge\nTest Steps\nC.T. TA 9/1,TA1/2 10.000/5A\nPlace the socket ZZ10 in Z10 (TA 9/1)(HH01)\nInject the current on points (11,12,13,14(N)) of Z10 either phase - phase or \n phase - neutral\nFix the timer leads to (172,197) at the rear of panel HH02\nIncrease the current till the red flag of the device displays and the timer \n closes (almost instantaneously)\nRepeat the test for each case and record both the current and tripping time\nPlace the socket ZZ10 in Z17 (TA1/2 & TA5/3)(HH01)\nInject the current phase - phase on Z17 for each current transformer\nRepeat the steps 3 to 5\nPlace a socket ZZ10 in Z10 and another one the Z17\nInject the current on the neutral of Z10 and a phase of Z17 (TA1/2) then \n (TA5/3)\nRepeat the steps 3 to 5\nRecord the results\nShort Circuit In Neutral, \nA22X1\nIt is a one - phase over current protection suitable e.g. for locking of earth \nfault protection GF1XIby the earth current of very high voltage\nCT TA6/1 750/5A (1st unit)\nTA6/1 1000/5A (2nd unit)\nTest Steps\nPlace the socket ZZ10 in Z5 (TA6/1) (HH01)\nInject the current in points (11,12(N)) of Z5\nFix the timer leads to (172,195) at the rear of panel HH05\nIncrease the current gradually till the red flag of the device displays. At \n this moment, make the timer start acting till it stops indicating the \n signaling time\nRecord the current and time\nTank Protection type A33TX1, \nF17\nIt is a three phase / RST / over current protection with distinguishing of the \neffected phase with a time member\nIt is a protection device for short circuit protection of \nthe body of tank this operate if any earth fault happened on the body itself .\nTest Steps\nPlace the socket ZZ10 in Z6 (HH01)\nInject the current on points (11,12(N)) of Z6\nFix the timer leads to (172,196) at the rear of panel HH02\nIncrease the current gradually till the red flag of the device displays. At \n this moment, make the timer start acting till it stops indicating the tripping \n time\nRecord the current and time\nComparison Protection (Pilot ) \nF52\n , TYPE S103, S105\nThis protection is a differential protection on the Transmission Line between transformer 1ATO,\n(15.75/220kv) and B.B. GIS, restricted by operation of over current \nF51 on that TL .\nTest Steps\nPlace the socket ZZ10 in XJ2 in HS01\nInject the current on points (11,12,13,14(N)) of XJ2 either phase - phase or \n phase - neutral\nIncrease the current gradually till the red flag of the device displays\nRepeat the test for the different cases of injection\nRecord the current value in each case\nQuick Acting Relay (Pilot) type A15\nTest Steps\nPlace the socket ZZ10 in XJ1 in HS01\nInject the current on points (11,12) then (13,14) and finally (15,16) of XJ1\nIncrease the current gradually till the red flag of the device displays\nRepeat the test for each cases of injection\nRecord the results\nEarth Fault Protection type GF1TX1\nThe protection measures voltage of the generator neutral against the earth. At \nearth connection Ug=0 takes place and the protection acts\nTest Steps\nPlace the socket ZZ10 in Z1 (HH01)\nInject the voltage in phase R & the neutral of TV 3/1\nFix the timer leads to (172,195) at the rear of panel HH05\nIncrease the voltage gradually till the red flag of the device displays. At \n this moment, make the timer start acting till it stops indicating the \n signaling time.\nRecord the voltage and time\nRestricted Ground Fault type RADHD,\nTest Steps\nPlace the special testing socket of the device in its place in HS01\nFasten the tester leads in (A3,A4) of the socket\nIncrease the injected voltage gradually till the red flag of the device \n displays\nRecord the value of the voltage\nDifferential of AT10 type RAX1\nTest Steps\nPlace the socket ZZ10 in X01 (TA5/4) in HS07\nInject the current to points (3,4,5) of Z01 phase to phase\nIncrease the injected current gradually till the red flags of the injected \n phases display. The timer closes instantaneously\nRecord the values of current and time values in the test sheet\nRepeat the previous steps to points (3,4,5) of Z02 phase to phase in HS07\nRecord the values of current and time values in the test sheet.\nRepeat the previous steps to points (1,2,3) of Z04 - operating coil - phase to \n phase in HS07\nRecord the values of current and time values in the test sheet.\nReturning the Relays to Service\nRelease the leads \n of the testing instruments.\nCheck the return of relay- wires and \n trip-leads to their original places and tighten them carefully.\nPress the main RESET button in HH01 for \n those devices in the control room.\nBe sure that the relay is completely ready for \n service any time.\nAlienate (push out) the testing materials and equipments \n in addition to the caution signs and leave the place clean.\nReturn the work permission.\nTest \nSheet of main transformer AT 10 protection relays\nPower \nStation : Unit :\nManufacturer : SKODA\nDifferential of unit\nType \n: R43X1 \nFunction : F302 \nSetting :0.6 In\nC.T.1 \n: TA9/1 \nC.T.1.R : 10.0005/A \nIn : 5A\nC.T.2 : TA 5/3 \nC.T.2.R.: 1000/5A\nC.T.3 : TA1/2 \nC.T.3.R. : 10,000/5A\n\n\nShort \nCircuit in Neutral\nType : A22X1 \nFunction : F16 \nSetting : Ir = 2 In\nC.T. : TA6/1 \nC.T.R : \nIn : 5A\nTank Protection\nType : A33TX1 \nFunction : F17 \nIn = 5A\nC.T. : TA7 \nC.T.R : 200/5A\n\nComparison protection\nType : \nFunction : F52 \nSetting : not adjustable \nC.T. : TA5/1 \nC.T.R : 1000/1A \nIn : 5A\nQuick Acting Relay\nType : A15 \nFunction : F51 \nSetting : Ir = 0.9In\nC.T. : TA5/1 \nC.T.R : 1000/1A \nIn : 1A\n\nEarth \nFault Protection\nType : GF1TX \nFunction : F423 \nSetting : Ug = 0.5%Un, t=2sec\nP.T. : TV3/1 \nP.T.R : 15/3 :0.1/3 :0.1/3kv \nUn : 100v\nRestricted Ground \nFault\nType \n: RADHD \nFunction : F60 \nSetting :not adjustable\nC.T.1 \n: TA5/2 \nC.T.1.R : 10005/A \nIn : 5A\nC.T.2 : TA \nC.T.2.R.: 1000/5A\n\nDifferential of AT 10\nType \n: RAX1 \nFunction : F305 \nSetting :Ir = 0.7 In\nC.T.1 \n: TA5/4 \nC.T.1.R : 1000/5A \nIn : 5A\nC.T.2 : TA 4/2 \nC.T.2.R.: 10.000/5A\n\nLast Test Date: \nTest Date:\nTested by: \nSignature:\nReviewed by: \nSignature:\nApproved by: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedure I1, which must performed every six \nmonths as indicated by M6 in the title block.\nThis patent concerns the test of Protection \nRelays of home transformer, manufactured by SKODA and ABB ARAB. The \ntransformer is of type KTRT 18X20, rated power 20MVA, vector group Dd0, and \nvoltages 15.75 8x2%/6.3KV.\nThe first draft initiated by \neng. Maysa Ahmady, tested at 27 Jan.2003 by eng. Iman Rizk El-Ashry, revised by EDEPCo. quality \ncontrol engineer eng. Adel Abdel Kader EL Nagar, accepted by general \ndirector eng. Mahmoud Sakr, and approved by eng. Mustafa Allam Talkha Power \nStation Sector Head\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety class,\nSafety fence with caution marks & \nno smoking signs surrounding \nthe work area is required,\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ntransformer protection scheme.\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety class,\nSafety fence with caution marks & \nno smoking signs surrounding \nthe work area is required,\nWear \n safety helmet, safety shoes\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ntransformer protection scheme.\nAscertain the disconnection of the exciter, generator, main transform and home transformer\nBe aware of \n parts in service.\nFollow the work \n permission instructions.\nTools and Equipment\nAn AC voltage source of type Z11.\nAn AC \n current source of type Z11\nAn ammeter & A voltmeter.\nA timer unit TM-2 ( Program )\nSome leads & \n screws.\nWork to be Carried Out\nRelay Preparation\nReview \n the manual.\nPrepare \n the previous results of the relay testing.\nCheck \n the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and \n the d.c. source is available.\nCheck \n the existence of the \n d.c. sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck \n all the leads used in tests.\nTest Tools Preparation\nConnect the testing units of Z11 to a power source\nConnect the timer to a power source and its terminals to the trip terminals of \n the relay under test\nPlace an ammeter on current leads of Z11 to measure the \n current.\nConnect the voltmeter in parallel with the voltage leads of \n Z11 ( the other unit ) to measure the voltage.\nThe test of all main transformer protection devices is \nachieved by isolating either CT circuits or PT circuits or both.\nThis is \ndone by using a special socket for testing. This makes the test results depend \nonly on the action of relays\nTesting \nProcedures\nDifferential of Unit \n1BT10, R43X1,SKODA for \n( Generator + Transformer )\nIt is a 3-point differential protection with a measuring \nmember in each phase locked switching on surge\nTest Steps\n | C.T. TA 9/1,TA1/2 10.000/5A\n TA5/3 1000/5A\nPlace the socket ZZ10 in Z10 (TA 9/1)(HH01)\nInject the current on points (11,12,13,14(N)) of Z10 either phase - phase or \n phase - neutral\nFix the timer leads to (172,197) at the rear of panel HH02\nIncrease the current till the red flag of the device displays and the timer \n closes (almost instantaneously)\nRepeat the test for each case and record both the current and tripping time\nPlace the socket ZZ10 in Z17 (TA1/2 & TA5/3)(HH01)\nInject the current phase - phase on Z17 for each current transformer\nRepeat the steps 3 to 5\nPlace a socket ZZ10 in Z10 and another one the Z17\nInject the current on the neutral of Z10 and a phase of Z17 (TA1/2) then \n (TA5/3)\nRepeat the steps 3 to 5\nRecord the results\nShort Circuit In Neutral, \nA22X1\nIt is a one - phase over current protection suitable e.g. for locking of earth \nfault protection GF1XIby the earth current of very high voltage\n | CT TA6/1 750/5A (1st unit)\n TA6/1 1000/5A (2nd unit)\nTest Steps\nPlace the socket ZZ10 in Z5 (TA6/1) (HH01)\nInject the current in points (11,12(N)) of Z5\nFix the timer leads to (172,195) at the rear of panel HH05\nIncrease the current gradually till the red flag of the device displays. At \n this moment, make the timer start acting till it stops indicating the \n signaling time\nRecord the current and time\nTank Protection type A33TX1, \nF17\nIt is a three phase / RST / over current protection with distinguishing of the \neffected phase with a time member\nIt is a protection device for short circuit protection of \nthe body of tank this operate if any earth fault happened on the body itself .\n | C.T. TA7 200/5A\nTest Steps\nPlace the socket ZZ10 in Z6 (HH01)\nInject the current on points (11,12(N)) of Z6\nFix the timer leads to (172,196) at the rear of panel HH02\nIncrease the current gradually till the red flag of the device displays. At \n this moment, make the timer start acting till it stops indicating the tripping \n time\nRecord the current and time\nComparison Protection (Pilot ) \nF52\n , TYPE S103, S105\nThis protection is a differential protection on the Transmission Line between transformer 1ATO,\n(15.75/220kv) and B.B. GIS, restricted by operation of over current \nF51 on that TL .\n | C.T. TA5/1 1000/5A\nTest Steps\nPlace the socket ZZ10 in XJ2 in HS01\nInject the current on points (11,12,13,14(N)) of XJ2 either phase - phase or \n phase - neutral\nIncrease the current gradually till the red flag of the device displays\nRepeat the test for the different cases of injection\nRecord the current value in each case\nQuick Acting Relay (Pilot) type A15\n | C.T. TA5/1 1000/5A\nTest Steps\nPlace the socket ZZ10 in XJ1 in HS01\nInject the current on points (11,12) then (13,14) and finally (15,16) of XJ1\nIncrease the current gradually till the red flag of the device displays\nRepeat the test for each cases of injection\nRecord the results\nEarth Fault Protection type GF1TX1\nThe protection measures voltage of the generator neutral against the earth. At \nearth connection Ug=0 takes place and the protection acts\n | P.T. TV3/1 15:3/0.1 : 3/ 0.1 : 3 KV\nTest Steps\nPlace the socket ZZ10 in Z1 (HH01)\nInject the voltage in phase R & the neutral of TV 3/1\nFix the timer leads to (172,195) at the rear of panel HH05\nIncrease the voltage gradually till the red flag of the device displays. At \n this moment, make the timer start acting till it stops indicating the \n signaling time.\nRecord the voltage and time\nRestricted Ground Fault type RADHD,\n | C.T. TA25(1st unit) 1000/5A\n TA(2nd unit) \n1000/5A\n TA5/2 \n 1000/5A\nTest Steps\nPlace the special testing socket of the device in its place in HS01\nFasten the tester leads in (A3,A4) of the socket\nIncrease the injected voltage gradually till the red flag of the device \n displays\nRecord the value of the voltage\nDifferential of AT10 type RAX1\n | C.T. TA4/2 10.000/5A\n TA 5/4 \n1000/5A\nTest Steps\nPlace the socket ZZ10 in X01 (TA5/4) in HS07\nInject the current to points (3,4,5) of Z01 phase to phase\nIncrease the injected current gradually till the red flags of the injected \n phases display. The timer closes instantaneously\nRecord the values of current and time values in the test sheet\nRepeat the previous steps to points (3,4,5) of Z02 phase to phase in HS07\nRecord the values of current and time values in the test sheet.\nRepeat the previous steps to points (1,2,3) of Z04 - operating coil - phase to \n phase in HS07\nRecord the values of current and time values in the test sheet.\nReturning the Relays to Service\nRelease the leads \n of the testing instruments.\nCheck the return of relay- wires and \n trip-leads to their original places and tighten them carefully.\nPress the main RESET button in HH01 for \n those devices in the control room.\nBe sure that the relay is completely ready for \n service any time.\nAlienate (push out) the testing materials and equipments \n in addition to the caution signs and leave the place clean.\nReturn the work permission.\nTest \nSheet of main transformer AT 10 protection relays\nPower \nStation : Unit :\nManufacturer : SKODA\nDifferential of unit\nType \n: R43X1 \nFunction : F302 \nSetting :0.6 In\nC.T.1 \n: TA9/1 \nC.T.1.R : 10.0005/A \nIn : 5A\nC.T.2 : TA 5/3 \nC.T.2.R.: 1000/5A\nC.T.3 : TA1/2 \nC.T.3.R. : 10,000/5A\nTA 9/1 |  | TA 9/1 | TA 5/3 | TA1/2 | TA9/1\nPH-N | Set\n Value | Reset\n Value | PH-PH | Set\n Value | Reset\n Value | Set\n Value | Reset\n Value | Set\n Value | Reset\n Value | Neutral\nR |  |  | R-S |  |  |  |  |  |  | \nS |  |  | S-T |  |  |  |  |  |  | \nT |  |  | R-T |  |  |  |  |  |  | \nTA 5/3 | TA 1/2\nPH | Set\n Value | Reset\n Value | Set\n Value | Reset\n Value\nR |  |  |  | \nS |  |  |  | \nT |  |  |  | \nShort \nCircuit in Neutral\nType : A22X1 \nFunction : F16 \nSetting : Ir = 2 In\nC.T. : TA6/1 \nC.T.R : \nIn : 5A\nTank Protection\nType : A33TX1 \nFunction : F17 \nIn = 5A\nC.T. : TA7 \nC.T.R : 200/5A\nRelay | Setting | Set value | Reset value | Reset factor\nShort circuit in neutral | Ir = 2In |  |  | \nTank protection | Ir = In,\n t=0.1 sec |  |  | \nComparison protection\nType : \nFunction : F52 \nSetting : not adjustable \nC.T. : TA5/1 \nC.T.R : 1000/1A \nIn : 5A\nQuick Acting Relay\nType : A15 \nFunction : F51 \nSetting : Ir = 0.9In\nC.T. : TA5/1 \nC.T.R : 1000/1A \nIn : 1A\nPH-N | Quick acting relay | Comparison protection | PH-PH | Comparison protection\nSet value | Reset value | Set value | Reset value | Set value | Reset value\nR |  |  |  |  | R-S |  | \nS |  |  |  |  | S-T |  | \nT |  |  |  |  | T-R |  | \nEarth \nFault Protection\nType : GF1TX \nFunction : F423 \nSetting : Ug = 0.5%Un, t=2sec\nP.T. : TV3/1 \nP.T.R : 15/3 :0.1/3 :0.1/3kv \nUn : 100v\nRestricted Ground \nFault\nType \n: RADHD \nFunction : F60 \nSetting :not adjustable\nC.T.1 \n: TA5/2 \nC.T.1.R : 10005/A \nIn : 5A\nC.T.2 : TA \nC.T.2.R.: 1000/5A\nEarth fault protection | Restricted ground fault\nSet value | Reset value | Reset factor | Set value | Reset value | Reset factor\nDifferential of AT 10\nType \n: RAX1 \nFunction : F305 \nSetting :Ir = 0.7 In\nC.T.1 \n: TA5/4 \nC.T.1.R : 1000/5A \nIn : 5A\nC.T.2 : TA 4/2 \nC.T.2.R.: 10.000/5A\n | TA 5/4 | TA 4/2 | Operating coil\nSet value | Reset value | Reset factor | Set value | Reset value | Reset factor | Set value | Reset value | Reset factor\nR-S |  |  |  |  |  |  |  |  | \nS-T |  |  |  |  |  |  |  |  | \nR-T |  |  |  |  |  |  |  |  | \nLast Test Date: \nTest Date:\nTested by: \nSignature:\nReviewed by: \nSignature:\nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

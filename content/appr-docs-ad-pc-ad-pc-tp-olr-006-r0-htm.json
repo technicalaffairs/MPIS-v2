@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -218,48 +228,109 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Figure 1: Secondary \n thermal relay type ST"
-  },
-  {
-   "type": "paragraph",
-   "text": "casing removed"
-  },
-  {
-   "type": "paragraph",
-   "text": "Figure 2: Secondary \n thermal relay type ST"
-  },
-  {
-   "type": "paragraph",
-   "text": "casing removed view from \n below"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "n",
-     ""
-    ],
-    [
-     "q",
-     ""
-    ],
-    [
-     "r",
-     ""
+     "Figure 1: Secondary \n thermal relay type ST\n casing removed",
+     "Figure 2: Secondary \n thermal relay type ST \n casing removed view from \n below"
     ]
    ],
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Figure 5 : Secondary thermal relay type ST with breaking contact connected for \ntesting"
+   "type": "table",
+   "rows": [
+    [
+     "References",
+     ""
+    ],
+    [
+     "a",
+     "Temperature pointer"
+    ],
+    [
+     "a`",
+     "Maximum temperature pointer"
+    ],
+    [
+     "b",
+     "Point for setting training \n temperature"
+    ],
+    [
+     "c",
+     "Instantaneous tripping signal"
+    ],
+    [
+     "d",
+     "Thermal release contact"
+    ],
+    [
+     "e",
+     "Internal auxiliary contact"
+    ],
+    [
+     "f",
+     "Instantaneous trip setting \n scale"
+    ],
+    [
+     "g",
+     "Test terminals"
+    ],
+    [
+     "h",
+     "Rheostat for current \n adjustment"
+    ],
+    [
+     "i",
+     "Resetting knob for max. temp. \n pointer"
+    ],
+    [
+     "k",
+     "Thermal trip signal"
+    ],
+    [
+     "l",
+     "Instantaneous release contact"
+    ],
+    [
+     "m",
+     "Front plate"
+    ],
+    [
+     "n",
+     "Space for noting current \n setting"
+    ],
+    [
+     "o",
+     "Service / testing screw"
+    ],
+    [
+     "p",
+     "Test terminal links"
+    ],
+    [
+     "q",
+     "Current adjustment screw"
+    ],
+    [
+     "r",
+     "Correcting screw"
+    ],
+    [
+     "",
+     "Figure 3: \n Secondary thermal relay ST internal \n connections\n (Diagram as attached to each relay)"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
    "rows": [
     [
      "Figure 4: Secondary \n thermal relay type ST with breaking contact connected for service"
+    ],
+    [
+     "Figure 5 : Secondary thermal relay type ST with breaking contact connected for \ntesting"
     ]
    ],
    "truncated_rows": 0
@@ -329,6 +400,40 @@
    "text": "PICKUP \nCurrent = \nA \n RESET \nCurrent = \nA"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "PHASE",
+     "PICKUP VALUE",
+     "RESET VALUE"
+    ],
+    [
+     "I O.L ( A )",
+     "T I O.L ( Min. )",
+     "I O.L ( A )"
+    ],
+    [
+     "R",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "0.41",
+     "80",
+     "0.37"
+    ],
+    [
+     "T",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "4) Time delay test:"
   },
@@ -385,7 +490,7 @@
    "text": "Approved by: Signature:"
   }
  ],
- "text": "Introduction\nThis document outlines the testing procedures P1, to be performed \nevery six months as indicated by M6 in the above title block.\nThis procedure, details the steps required to completely check the proper \noperation and calibration of the relay ( STKK ).\nThe first draft initiated & tested by eng. Mahmoud El-Attar, accepted \nby eng. Saad \nEl-Attar: protection \ngeneral manager, revised and certified by eng. Mohamed Omran: development & quality \nsurveillance general manager \nand MPIS Canal zone coordinator, and \napproved by eng. Al-Saied Abd El-Azez Alnagy: head sector of protection, measuring & \ntestes.\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nThis procedure should be performed for off load lines so line isolation \n and work permit are required.\nIsolate the relay DC supply before drawing out any relay card.\nIsolate the relay \n associated breaker trip Coils, breaker failure system, disturbance alarm \n and fault recorder systems\nTools and \nEquipment\nSecondary Injection \n test set ( Sverker ).\nTest leads,\nAvometer\nAC supply\nWork to be carried out\nRelays Preparation\nReview \ntechnical reference material: Manufacturer's manual.\nObtain copy of relay settings from field \n maintenance file and compare it with the relay settings .\nObtain outage for line \n protected by this relay .( work permit must be issued )\nCheck that the bus and \n line disconnect switches are opened and tagged .\nMake sure CTs Secondary \n circuits are shorted before isolating the relay current circuits for current \n injection.\nIsolate the relay DC \n supply .\nCheck that all cables \n supplying the relay and all wire connections are in good conditions.\nTesting the Relay and Protection Outputs\nRelay\nwith Make contact or \nBreak contact\nRelay\nwith Make Contact\nUnder operating \n conditions, in figure 1, the screw ( O ) is screwed into the upper hole.\nUpon removing it, the \n tripping circuit is interrupted. See corresponding diagram.\nWhen screwed into the \n lower hole, the current transformer is short circuited.\nBy opening the links ( P \n ) and connecting the test \n set terminals to the middle screws, the relay can be tested in site.\nRelay\nwith Break contact\nThis relay possess two \nscrews which in normal operation conditions are screwed into the blind holes ( \nfig. 4 ).\nScrew one from the two \n screws into the upper hole between the upper contacts to short out the \n tripping contact which is normally closed.\nThe second screw is \n screwed into the lower hole to short out the current transformer ( fig. 5 ) by \n opening the links ( P ) and \n connecting the test set terminals to the middle screws, the relay can be \n tested in site .\nTester \nPreparation\nConnect the power supply \n to the tester unit (Sverker ).\nConnect the connecting \n terminals between the relay and Sverker.\nParameters \nPreparation\nReview the test \n certificate for required settings.\nPickup value = Iop = 0.4 \n IN\nRelay Testing \nThe test is accomplished in two stages:\nFinding relay operating \n current value.\nFinding relay operating \n time.\nFinding relay operating current\nConnect the relay to \n tester phase ( S ).\nSlowly increase the \n injected current until the relay operate ( indicated by the flag ).\nRecord the operating \n current ( Iop ) in test sheet.\nCheck that the relay trip \n contact is closed. ( for Relay with Make contact ).\nCheck that the relay \n Alarm contact and breaker failure contact.\nFinding relay operating time\nThe operating time should \n be measured using the trip contact ( free contact ).\nInject testing current \n until the relay operate, then switch off the test set ( Sverker ).\nConnect the timed \n contact of the relay to the timer stop terminals of the secondary injection \n test set ( Sverker ).\nSwitch on the tester with timer ( ON ) and measure \n the operating time .\nRecord the operating \n time in test sheet .\nNOTE : How to find \" free \ncontact\" on relay ( STKK ):\nSelect any free contact \n and measure it`s DC voltage ( must have not DC voltage ).\ncheck that it is normal \n open contact using avometer buzzer.\ncheck that it is close \n with trip , using tester ( Sverker ) and avometer buzzer .\nReturn Protection \nScheme and \nAssociated \nEquipment\nto \nservice\nReturn relay ( STKK ) to \n service by removing the test leads from the relay terminals.\nMake sure CT Secondaries \n are not short circuited.\nPlace the associated \n breaker failure ( BF ) protection scheme back in service.\nRestore the previously \n blocked disturbance alarms and fault recorders associated with this \n protection.\nTurn ON the power supply \n DC to relay ( STKK ).\nTake crossed readings of \n all AC currents and voltages supplied to the relay ( STKK ) and compare them \n to those for normal load conditions.\nCheck that these readings \n agree with station meters MW, MVAR, Power Factor, Amperes, and Voltages.\nPlace a copy of the test results in the field maintenance file.\nFigure 1: Secondary \n thermal relay type ST\ncasing removed\nFigure 2: Secondary \n thermal relay type ST\ncasing removed view from \n below\n\nFigure 5 : Secondary thermal relay type ST with breaking contact connected for \ntesting\n\nTest Sheet\nSubstation:\nFeeder:\nDate :\nEquipment: Transformer \nOver Load Relay\nManufacturer: BBC\nModel : STKK\nAuxiliary voltage 110 VDC\nCT Ratio: ( \n/1 ) A\nNominal current :1 A\n1) Checks:\nVisual inspection : ( \n ) Auxiliary supply : ( ) Earthling of the rack : ( \n )\n2) Secondary injection:\nI OL = In = A Time = \n Minute\n3) Current test:\nOperating Current Setting : \n A\nPICKUP \nCurrent = \nA \n RESET \nCurrent = \nA\n4) Time delay test:\nTest current = I OL \n= A\nTime delay Setting : \n Minute Measured time delay : Minute\n5) Tripping:\nSignaling of tripping : ( \n ) Manual reset : ( )\n------------------------------------------------------------------------------------------\nSettings:\nat ELSOKHNA S/S \n( Somid), Feeder TR 1, Test Date: \n24 \nJune \n2007\nI OL = \n0.4 In CT Ratio : ( 400 / 1 ) A\nT I OL = \n80 Min Aux. Voltage : 110 Vdc\n------------------------------------------------------------------------------------------\nLocation: Last Test Date:\nRelay \nCode: Tested \nby: Signature: \nTest date:\nApproved by: Signature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedures P1, to be performed \nevery six months as indicated by M6 in the above title block.\nThis procedure, details the steps required to completely check the proper \noperation and calibration of the relay ( STKK ).\nThe first draft initiated & tested by eng. Mahmoud El-Attar, accepted \nby eng. Saad \nEl-Attar: protection \ngeneral manager, revised and certified by eng. Mohamed Omran: development & quality \nsurveillance general manager \nand MPIS Canal zone coordinator, and \napproved by eng. Al-Saied Abd El-Azez Alnagy: head sector of protection, measuring & \ntestes.\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nThis procedure should be performed for off load lines so line isolation \n and work permit are required.\nIsolate the relay DC supply before drawing out any relay card.\nIsolate the relay \n associated breaker trip Coils, breaker failure system, disturbance alarm \n and fault recorder systems\nTools and \nEquipment\nSecondary Injection \n test set ( Sverker ).\nTest leads,\nAvometer\nAC supply\nWork to be carried out\nRelays Preparation\nReview \ntechnical reference material: Manufacturer's manual.\nObtain copy of relay settings from field \n maintenance file and compare it with the relay settings .\nObtain outage for line \n protected by this relay .( work permit must be issued )\nCheck that the bus and \n line disconnect switches are opened and tagged .\nMake sure CTs Secondary \n circuits are shorted before isolating the relay current circuits for current \n injection.\nIsolate the relay DC \n supply .\nCheck that all cables \n supplying the relay and all wire connections are in good conditions.\nTesting the Relay and Protection Outputs\nRelay\nwith Make contact or \nBreak contact\nRelay\nwith Make Contact\nUnder operating \n conditions, in figure 1, the screw ( O ) is screwed into the upper hole.\nUpon removing it, the \n tripping circuit is interrupted. See corresponding diagram.\nWhen screwed into the \n lower hole, the current transformer is short circuited.\nBy opening the links ( P \n ) and connecting the test \n set terminals to the middle screws, the relay can be tested in site.\nRelay\nwith Break contact\nThis relay possess two \nscrews which in normal operation conditions are screwed into the blind holes ( \nfig. 4 ).\nScrew one from the two \n screws into the upper hole between the upper contacts to short out the \n tripping contact which is normally closed.\nThe second screw is \n screwed into the lower hole to short out the current transformer ( fig. 5 ) by \n opening the links ( P ) and \n connecting the test set terminals to the middle screws, the relay can be \n tested in site .\nTester \nPreparation\nConnect the power supply \n to the tester unit (Sverker ).\nConnect the connecting \n terminals between the relay and Sverker.\nParameters \nPreparation\nReview the test \n certificate for required settings.\nPickup value = Iop = 0.4 \n IN\nRelay Testing \nThe test is accomplished in two stages:\nFinding relay operating \n current value.\nFinding relay operating \n time.\nFinding relay operating current\nConnect the relay to \n tester phase ( S ).\nSlowly increase the \n injected current until the relay operate ( indicated by the flag ).\nRecord the operating \n current ( Iop ) in test sheet.\nCheck that the relay trip \n contact is closed. ( for Relay with Make contact ).\nCheck that the relay \n Alarm contact and breaker failure contact.\nFinding relay operating time\nThe operating time should \n be measured using the trip contact ( free contact ).\nInject testing current \n until the relay operate, then switch off the test set ( Sverker ).\nConnect the timed \n contact of the relay to the timer stop terminals of the secondary injection \n test set ( Sverker ).\nSwitch on the tester with timer ( ON ) and measure \n the operating time .\nRecord the operating \n time in test sheet .\nNOTE : How to find \" free \ncontact\" on relay ( STKK ):\nSelect any free contact \n and measure it`s DC voltage ( must have not DC voltage ).\ncheck that it is normal \n open contact using avometer buzzer.\ncheck that it is close \n with trip , using tester ( Sverker ) and avometer buzzer .\nReturn Protection \nScheme and \nAssociated \nEquipment\nto \nservice\nReturn relay ( STKK ) to \n service by removing the test leads from the relay terminals.\nMake sure CT Secondaries \n are not short circuited.\nPlace the associated \n breaker failure ( BF ) protection scheme back in service.\nRestore the previously \n blocked disturbance alarms and fault recorders associated with this \n protection.\nTurn ON the power supply \n DC to relay ( STKK ).\nTake crossed readings of \n all AC currents and voltages supplied to the relay ( STKK ) and compare them \n to those for normal load conditions.\nCheck that these readings \n agree with station meters MW, MVAR, Power Factor, Amperes, and Voltages.\nPlace a copy of the test results in the field maintenance file.\nFigure 1: Secondary \n thermal relay type ST\n casing removed | Figure 2: Secondary \n thermal relay type ST \n casing removed view from \n below\nReferences | \na | Temperature pointer\na` | Maximum temperature pointer\nb | Point for setting training \n temperature\nc | Instantaneous tripping signal\nd | Thermal release contact\ne | Internal auxiliary contact\nf | Instantaneous trip setting \n scale\ng | Test terminals\nh | Rheostat for current \n adjustment\ni | Resetting knob for max. temp. \n pointer\nk | Thermal trip signal\nl | Instantaneous release contact\nm | Front plate\nn | Space for noting current \n setting\no | Service / testing screw\np | Test terminal links\nq | Current adjustment screw\nr | Correcting screw\n | Figure 3: \n Secondary thermal relay ST internal \n connections\n (Diagram as attached to each relay)\nFigure 4: Secondary \n thermal relay type ST with breaking contact connected for service\nFigure 5 : Secondary thermal relay type ST with breaking contact connected for \ntesting\nTest Sheet\nSubstation:\nFeeder:\nDate :\nEquipment: Transformer \nOver Load Relay\nManufacturer: BBC\nModel : STKK\nAuxiliary voltage 110 VDC\nCT Ratio: ( \n/1 ) A\nNominal current :1 A\n1) Checks:\nVisual inspection : ( \n ) Auxiliary supply : ( ) Earthling of the rack : ( \n )\n2) Secondary injection:\nI OL = In = A Time = \n Minute\n3) Current test:\nOperating Current Setting : \n A\nPICKUP \nCurrent = \nA \n RESET \nCurrent = \nA\nPHASE | PICKUP VALUE | RESET VALUE\nI O.L ( A ) | T I O.L ( Min. ) | I O.L ( A )\nR |  |  | \nS | 0.41 | 80 | 0.37\nT |  |  | \n4) Time delay test:\nTest current = I OL \n= A\nTime delay Setting : \n Minute Measured time delay : Minute\n5) Tripping:\nSignaling of tripping : ( \n ) Manual reset : ( )\n------------------------------------------------------------------------------------------\nSettings:\nat ELSOKHNA S/S \n( Somid), Feeder TR 1, Test Date: \n24 \nJune \n2007\nI OL = \n0.4 In CT Ratio : ( 400 / 1 ) A\nT I OL = \n80 Min Aux. Voltage : 110 Vdc\n------------------------------------------------------------------------------------------\nLocation: Last Test Date:\nRelay \nCode: Tested \nby: Signature: \nTest date:\nApproved by: Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

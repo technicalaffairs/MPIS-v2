@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -198,6 +200,30 @@
    "text": "High \nFrequency Setting :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Injected Terminal",
+     "Injected Voltage",
+     "Measured Freq.",
+     "Measured Time"
+    ],
+    [
+     "UF. \n ( )",
+     "v",
+     "HZ",
+     "Sec"
+    ],
+    [
+     "OF. \n ( )",
+     "v",
+     "HZ",
+     "Sec"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:"
   },
@@ -218,11 +244,22 @@
    "text": "Approved by \n: Signature :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Device Function Numbers \n 52 - Circuit Breaker\n 81 - Frequency Relay Type IJF \n a - Auxilary contact Closed when Breaker is closed \n OC1 - Operation coil for under-frequency\n OC2 - Operation coil for over-frequency\n S1 - Seal-in units-under and over frequency \n TC - Trip coil",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Fig. 1 - (K-6375802) Typical external connections for \n under and over frequency protection of an A-C bus using one tupe \n IJF52A Relay."
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThese relays are of induction disk type, for protection of apparatus against \nthe effect of over frequency or under frequency. These relays are used to make \non alarm and raise a target, They have two contacts. The left contact \ncloses on under frequency and the right contact closes on over frequency.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy, \neng. Azza Salama at 29 April 2003, revised by EDEPC quality control Eng. Adel El-Nagar, accepted by General Director \neng. Mahmoud Saker and approved by eng. Moustfa \nAlam Head Sector of Talkha Power Station.\nSafety Precautions\nThe \n generator must be out of service.\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nThe \n generator must be out of service.\nTools and Equipment\nWork to be Carried Out\nPreparation\nMake Sure P.T secondary circuit are opened at the incoming terminal \n blocks before isolating\n the relay voltage circuit for test\nLook at field maintenance file and compare the position of the setting \nswitches on relay with those shown on the test sheet .\nMake Sure P.T secondary circuit are opened at the incoming terminal \n blocks before isolating\n the relay voltage circuit for test\nLook at field maintenance file and compare the position of the setting \nswitches on relay with those shown on the test sheet .\nTesting \nthe Relay\nConnect \n the test leads between the relay contact ( trip contact ) (1 - 2 ).\nConnect \n the test leads between the relay contact ( trip contact ) (1 - 2 ).\nLow ( Under ) Frequency Test\nConnect the relay studs ( 5 6 ) to voltage terminal by the test leads.\nIncrease the voltage to 115 v.\nAdjust the frequency to the normal value.\nDecrease the frequency slowly until the left target ( flag ) appears .\nRecord the frequency value and the time value at which the flag appears in the \ntest sheet .\nConnect the relay studs ( 5 6 ) to voltage terminal by the test leads.\nIncrease the voltage to 115 v.\nAdjust the frequency to the normal value.\nDecrease the frequency slowly until the left target ( flag ) appears .\nRecord the frequency value and the time value at which the flag appears in the \ntest sheet .\nHigh ( Over ) Frequency \n Test\nConnect the relay studs ( 7 , 8 ) to the voltage terminal by the test \n leads .\nRepeat the steps ( 3 \n, 4 ).\nIncrease the frequency slowly until the right target appears.\nRecord the frequency value and the time value at which the flag a pears \nin the test sheet.\nConnect the relay studs ( 7 , 8 ) to the voltage terminal by the test \n leads .\nRepeat the steps ( 3 \n, 4 ).\nIncrease the frequency slowly until the right target appears.\nRecord the frequency value and the time value at which the flag a pears \nin the test sheet.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( 7-8 )\n - Disconnect the test leads between the trip contact ( 1 - 2 )\nMake sure CT and PT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet\nUnit No. :\nRelay Type \n : \nRelay Model :\nP. \nT. Ratio :\nLow \nFrequency Setting :\nHigh \nFrequency Setting :\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by \n: \n Signature : \nLast \nTest Date: / /\nReviewed \nby : Signature \n: \nTest Date : / /\nApproved by \n: Signature :\nFig. 1 - (K-6375802) Typical external connections for \n under and over frequency protection of an A-C bus using one tupe \n IJF52A Relay.",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThese relays are of induction disk type, for protection of apparatus against \nthe effect of over frequency or under frequency. These relays are used to make \non alarm and raise a target, They have two contacts. The left contact \ncloses on under frequency and the right contact closes on over frequency.\nThe \nfirst draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin Hamdy, \neng. Azza Salama at 29 April 2003, revised by EDEPC quality control Eng. Adel El-Nagar, accepted by General Director \neng. Mahmoud Saker and approved by eng. Moustfa \nAlam Head Sector of Talkha Power Station.\nSafety Precautions\nThe \n generator must be out of service.\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nThe \n generator must be out of service.\nTools and Equipment\nWork to be Carried Out\nPreparation\nMake Sure P.T secondary circuit are opened at the incoming terminal \n blocks before isolating\n the relay voltage circuit for test\nLook at field maintenance file and compare the position of the setting \nswitches on relay with those shown on the test sheet .\nMake Sure P.T secondary circuit are opened at the incoming terminal \n blocks before isolating\n the relay voltage circuit for test\nLook at field maintenance file and compare the position of the setting \nswitches on relay with those shown on the test sheet .\nTesting \nthe Relay\nConnect \n the test leads between the relay contact ( trip contact ) (1 - 2 ).\nConnect \n the test leads between the relay contact ( trip contact ) (1 - 2 ).\nLow ( Under ) Frequency Test\nConnect the relay studs ( 5 6 ) to voltage terminal by the test leads.\nIncrease the voltage to 115 v.\nAdjust the frequency to the normal value.\nDecrease the frequency slowly until the left target ( flag ) appears .\nRecord the frequency value and the time value at which the flag appears in the \ntest sheet .\nConnect the relay studs ( 5 6 ) to voltage terminal by the test leads.\nIncrease the voltage to 115 v.\nAdjust the frequency to the normal value.\nDecrease the frequency slowly until the left target ( flag ) appears .\nRecord the frequency value and the time value at which the flag appears in the \ntest sheet .\nHigh ( Over ) Frequency \n Test\nConnect the relay studs ( 7 , 8 ) to the voltage terminal by the test \n leads .\nRepeat the steps ( 3 \n, 4 ).\nIncrease the frequency slowly until the right target appears.\nRecord the frequency value and the time value at which the flag a pears \nin the test sheet.\nConnect the relay studs ( 7 , 8 ) to the voltage terminal by the test \n leads .\nRepeat the steps ( 3 \n, 4 ).\nIncrease the frequency slowly until the right target appears.\nRecord the frequency value and the time value at which the flag a pears \nin the test sheet.\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( 7-8 )\n - Disconnect the test leads between the trip contact ( 1 - 2 )\nMake sure CT and PT secondary circuits \n are in normal condition.\nIf any equipment associated with the \n relay has been isolated, it should be returned to service by the following \n restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nTest Sheet\nUnit No. :\nRelay Type \n : \nRelay Model :\nP. \nT. Ratio :\nLow \nFrequency Setting :\nHigh \nFrequency Setting :\nInjected Terminal | Injected Voltage | Measured Freq. | Measured Time\nUF. \n ( ) | v | HZ | Sec\nOF. \n ( ) | v | HZ | Sec\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by \n: \n Signature : \nLast \nTest Date: / /\nReviewed \nby : Signature \n: \nTest Date : / /\nApproved by \n: Signature :\n | Device Function Numbers \n 52 - Circuit Breaker\n 81 - Frequency Relay Type IJF \n a - Auxilary contact Closed when Breaker is closed \n OC1 - Operation coil for under-frequency\n OC2 - Operation coil for over-frequency\n S1 - Seal-in units-under and over frequency \n TC - Trip coil | \nFig. 1 - (K-6375802) Typical external connections for \n under and over frequency protection of an A-C bus using one tupe \n IJF52A Relay.",
  "text_truncated": false,
  "links": [],
  "images": [

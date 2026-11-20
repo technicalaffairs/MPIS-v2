@@ -74,6 +74,28 @@
    "text": "Analysis of \nthe gas should be made with a chromatograph. The gases apt to be present in \ninsulating oil and the corresponding condition of the transformer are given in \nTable 1 below."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Gases",
+     "Condition"
+    ],
+    [
+     "O2, \n N2, H2, CO,CO2, and some CH4",
+     "Gases normally \n present"
+    ],
+    [
+     "H2, \n CH4, C2H2, C2H4, \n and C2H6",
+     "Gases \n indicating an abnormal condition in the transformer."
+    ],
+    [
+     "CO,CO2, \n and CH4",
+     "Gases \n indicating deterioration of insulating oil and materials."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Table 1: \nGases and Transformer Condition"
   },
@@ -94,24 +116,45 @@
    "type": "table",
    "rows": [
     [
+     "Transformer \n Rating",
+     "Gas Concentration (ppm)"
+    ],
+    [
+     "TCG",
+     "H2",
+     "CH4",
+     "C2H6",
+     "C2H4",
+     "CO"
+    ],
+    [
      "275 kv",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     ""
+     "Less than 10 \n MVA",
+     "2.000",
+     "800",
+     "400",
+     "300",
+     "600",
+     "600"
+    ],
+    [
+     "10 MVA or more",
+     "1.400",
+     "800",
+     "300",
+     "300",
+     "400",
+     "600"
     ],
     [
      "500 kv",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     ""
+     "-----",
+     "800",
+     "600",
+     "200",
+     "100",
+     "200",
+     "400"
     ]
    ],
    "truncated_rows": 0
@@ -121,19 +164,71 @@
    "text": "Table 2: Abnormal gas concentrations"
   },
   {
-   "type": "paragraph",
-   "text": "TCG \n (ppm/month)"
+   "type": "table",
+   "rows": [
+    [
+     "#",
+     "transformer rating",
+     "TCG \n (ppm/month)"
+    ],
+    [
+     "275 kv",
+     "Less than 10MVA",
+     "100"
+    ],
+    [
+     "",
+     "10MVA or more",
+     "70"
+    ],
+    [
+     "500 kv",
+     "---",
+     "40"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Table 3: Abnormal rates of increase in gas concentrations"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Fault",
+     "Gases Present"
+    ],
+    [
+     "Overheating of \n oil",
+     "CH4, \n C2H4, and more rarely C2H6 and \n C2H2"
+    ],
+    [
+     "Arcing in oil",
+     "H2, \n C2H2, and more rarely CH4 and C2H4"
+    ],
+    [
+     "Overheating of \n solid insulation materials",
+     "CO, CO2, \n and more rarely H2, and C2H4"
+    ],
+    [
+     "Overheating of \n oil and paper combination.",
+     "CH4, \n C2H4, CO, CO2 and C2H2"
+    ],
+    [
+     "Arcing in oil \n and paper combination.",
+     "H2, \n C2H2, CO, CO2 and more rarely C2H4"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Table 4: Gases and transformer faults"
   }
  ],
- "text": "\nIntroduction\nIncipient faults in oil-immersed transformers are \nusually the result of electrical or thermal stress in either the insulating oil \nor the insulating materials. The development of a fault is known to create a \nmixture of gases characteristic of that fault. For example, the presence of C2H4 \nindicates a problem that causes the insulating oil to overheat.\nHitachi recommend that gaseous mixtures in \ninsulating oil be analyzed by gas chromatograph or other means, both when the \ntransformer is initially operated and at regular 12-months interval thereafter.\nInformation\nSampling transformer insulating oil\nWhen sampling oil from a transformer, be \n especially careful to ensure that the oil flowing into the sampling \n container is clean and free of contamination.\nThe container should also be clean, and no air, \n foreign matter, or dirty oil should be allowed to contaminate the sample. To \n make sure that a sample is as representative as possible of the oil in the \n tank, first remove 0.5 to 1.0 liter and dispose of it, then take the actual \n sample.\nAn oil sampling container such as the one \n illustrated in MPIS Document Nos. T-001-r0 & TD-SS-003-r0 can be used to \n maintain sample quality or as the one illustrated in Figure 1 below. \n Remember, oil sample should not be exposed to air before analysis.\nFigure1: An oil-sampling container connected to the oil-drain valve of the transformer tank\nDirectives\nGas \nAnalysis\nAnalysis of \nthe gas should be made with a chromatograph. The gases apt to be present in \ninsulating oil and the corresponding condition of the transformer are given in \nTable 1 below.\nTable 1: \nGases and Transformer Condition\nAssessing test results\nIncluding carbon monoxide, the total \n volume of combustible gases (TCG) that in Japan is considered indicated of a \n transformer fault 800 ppm to 2,000 ppm of oil, depending on the transformer \n rating. Further, even a small amount of C2H2 (acetylene) is also considered \n to indicate a faulty condition. Besides absolute values, any rapid increase \n of gas concentration since the previous test should also be considered \n suspicious.\nThe gases analyzed by a gas-in-oil analyzer and \n the levels at which they become abnormal (by Japanese standard) are shown in \n Table 2, 3 below, and relation between the gases and possible problems are \n shown in Table 4 below.\n\nTable 2: Abnormal gas concentrations\nTCG \n (ppm/month)\nTable 3: Abnormal rates of increase in gas concentrations\nTable 4: Gases and transformer faults",
+ "text": "Power\n Stations | Technical Directive\nIntroduction\nIncipient faults in oil-immersed transformers are \nusually the result of electrical or thermal stress in either the insulating oil \nor the insulating materials. The development of a fault is known to create a \nmixture of gases characteristic of that fault. For example, the presence of C2H4 \nindicates a problem that causes the insulating oil to overheat.\nHitachi recommend that gaseous mixtures in \ninsulating oil be analyzed by gas chromatograph or other means, both when the \ntransformer is initially operated and at regular 12-months interval thereafter.\nInformation\nSampling transformer insulating oil\nWhen sampling oil from a transformer, be \n especially careful to ensure that the oil flowing into the sampling \n container is clean and free of contamination.\nThe container should also be clean, and no air, \n foreign matter, or dirty oil should be allowed to contaminate the sample. To \n make sure that a sample is as representative as possible of the oil in the \n tank, first remove 0.5 to 1.0 liter and dispose of it, then take the actual \n sample.\nAn oil sampling container such as the one \n illustrated in MPIS Document Nos. T-001-r0 & TD-SS-003-r0 can be used to \n maintain sample quality or as the one illustrated in Figure 1 below. \n Remember, oil sample should not be exposed to air before analysis.\nFigure1: An oil-sampling container connected to the oil-drain valve of the transformer tank\nDirectives\nGas \nAnalysis\nAnalysis of \nthe gas should be made with a chromatograph. The gases apt to be present in \ninsulating oil and the corresponding condition of the transformer are given in \nTable 1 below.\nGases | Condition\nO2, \n N2, H2, CO,CO2, and some CH4 | Gases normally \n present\nH2, \n CH4, C2H2, C2H4, \n and C2H6 | Gases \n indicating an abnormal condition in the transformer.\nCO,CO2, \n and CH4 | Gases \n indicating deterioration of insulating oil and materials.\nTable 1: \nGases and Transformer Condition\nAssessing test results\nIncluding carbon monoxide, the total \n volume of combustible gases (TCG) that in Japan is considered indicated of a \n transformer fault 800 ppm to 2,000 ppm of oil, depending on the transformer \n rating. Further, even a small amount of C2H2 (acetylene) is also considered \n to indicate a faulty condition. Besides absolute values, any rapid increase \n of gas concentration since the previous test should also be considered \n suspicious.\nThe gases analyzed by a gas-in-oil analyzer and \n the levels at which they become abnormal (by Japanese standard) are shown in \n Table 2, 3 below, and relation between the gases and possible problems are \n shown in Table 4 below.\nTransformer \n Rating | Gas Concentration (ppm)\nTCG | H2 | CH4 | C2H6 | C2H4 | CO\n275 kv | Less than 10 \n MVA | 2.000 | 800 | 400 | 300 | 600 | 600\n10 MVA or more | 1.400 | 800 | 300 | 300 | 400 | 600\n500 kv | ----- | 800 | 600 | 200 | 100 | 200 | 400\nTable 2: Abnormal gas concentrations\n# | transformer rating | TCG \n (ppm/month)\n275 kv | Less than 10MVA | 100\n | 10MVA or more | 70\n500 kv | --- | 40\nTable 3: Abnormal rates of increase in gas concentrations\nFault | Gases Present\nOverheating of \n oil | CH4, \n C2H4, and more rarely C2H6 and \n C2H2\nArcing in oil | H2, \n C2H2, and more rarely CH4 and C2H4\nOverheating of \n solid insulation materials | CO, CO2, \n and more rarely H2, and C2H4\nOverheating of \n oil and paper combination. | CH4, \n C2H4, CO, CO2 and C2H2\nArcing in oil \n and paper combination. | H2, \n C2H2, CO, CO2 and more rarely C2H4\nTable 4: Gases and transformer faults",
  "text_truncated": false,
  "links": [],
  "images": [
