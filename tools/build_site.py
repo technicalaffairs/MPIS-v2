@@ -1749,7 +1749,6 @@ def build(content_dir, dist_dir, v1_root):
 <div class="stat"><b>{total}</b><span data-i18n="stats_docs">documents</span></div>
 <div class="stat"><b>{len(cats)}</b><span data-i18n="stats_categories">categories</span></div>
 <div class="stat"><b>{both}</b><span data-i18n="stats_translated">documents with both languages</span></div>
-<div class="stat"><b>{missing}</b><span data-i18n="stats_missing">documents without a translation yet</span></div>
 </div>
 <div class="searchbox"><input id="q" type="search" data-i18n-ph="search_placeholder" placeholder="ابحث في المستندات…">
 <button type="button" onclick="doSearch(document.getElementById('q').value)" data-i18n="search_button">بحث</button></div>
