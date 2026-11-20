@@ -14,44 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n محطات"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nLE 108 - Logic Input Module"
-  },
-  {
-   "type": "paragraph",
-   "text": "الستوم -\n فرنسا"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-034-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: Nubaria \n PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:Equipment Inspection \n (I1-W1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة \n تاريخ\n: 08 March 2009"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: \n مارس 2014"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n محطات",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -306,7 +276,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "القوة \n محطات\nالإجراء الفني\nمعدات\nLE 108 - Logic Input Module\nالستوم -\n فرنسا\nرقم الوثيقة: DCS-034-r0\nصدرت إلى: Nubaria \n PS\nحالة: \n موافقة\nإجراء:Equipment Inspection \n (I1-W1)\nموافقة \n تاريخ\n: 08 March 2009\nتاريخ المراد مراجعتها: \n مارس 2014\nمقدمة\nThis document outlines the equipment inspection I1, which must be performed on \n weekly bases as indicated by W1 in the title block.\nLE108 عبارة عن وحدة اكتساب منطقية تحتوي على 16 مدخلاً منطقيًا مقدمة من \n جهد العملية، مع نقطة داخلية مشتركة متصلة بالقطب +.\nDimension:\n\nعملية\nA \n circuit for distribution and monitoring of the process voltage\n16 \n testable logic inputs based on opto-isolators\nA \n circuit for distribution and monitoring of the process voltage\n16 \n testable logic inputs based on opto-isolators\nA \n circuit for plugging in with power on\nAn \n 2000 I/O bus slave interface\nInput-output registers.\nA \n circuit for plugging in with power on\nAn \n 2000 I/O bus slave interface\nInput-output registers.\nControls and Indications on The Front Panel\nضوء LED أخضر في الأمام \nتشير اللوحة إلى ما إذا كانت الوحدة تعمل أم لا.\nIt remains on if the \nmodule is operating correctly and goes out in case of faulty operation (fault \ndetected in the hardware or configuration, use of the module).\nInput Elements\nThe module has 16 logic input elements for acquisition of 16 free \ncontacts. Each element is based on an opto-isolator which provides galvanic \nisolation between the process and the internal voltages.\nThe module monitors the possibility of the inputs to be switched to \n1 or 0.\nProcess Voltage\nThe process voltage is supplied by the \nbackplane connector (distributed voltage), or by the process connector (external \nvoltage).\nA logic input based on an opto-isolator \nindicates the presence of the process voltage.\nحماية\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A\nالمسودة الأولى بدأها المهندس. محمد توفيق اختبار م. بهاء عبد \n الوهاب، تمت مراجعته من قبل شركة MDEPC لضبط الجودة. عادل النجار، مقبول \n المدير العام م. محمد الشريف، معتمد من م. رأس أحمد صوان \n قطاع محطة كهرباء النوبارية.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nالسلامة \nالاحتياطات\nA work permit must be issued\nيجب استخدام معدات الحماية الشخصية (أحذية السلامة، الخوذة، التنفس \n قناع، نظارات السلامة)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nيجب استخدام معدات الحماية الشخصية (أحذية السلامة، الخوذة، التنفس \n قناع، نظارات السلامة)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل ليكون \nنفذت\nCheck the supply voltage\n-\nحافلة الإدخال/الإخراج:\nCheck the supply voltage\n-\nحافلة الإدخال/الإخراج:\nVoltage : 5 V ( 5%)\nالاستهلاك: ≥ 50 مللي أمبير\nVoltage : 5 V ( 5%)\nالاستهلاك: ≥ 50 مللي أمبير\n-\nعملية :\nLE 108 A-1 module\nVoltage 48 V (38.4 V to 57.6 V)\nConsumption ≤ 175 مللي أمبير\nRead current 10.5 to 14.5 mA\nLE 108 A-1 module\nVoltage 48 V (38.4 V to 57.6 V)\nConsumption ≤ 175 مللي أمبير\nRead current 10.5 to 14.5 mA\nCheck the interface leds\nCheck the interface leds\nThere is a led in the front of the card, if it green the card is OK\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "القوة \n محطات | الإجراء الفني\nمقدمة\nThis document outlines the equipment inspection I1, which must be performed on \n weekly bases as indicated by W1 in the title block.\nLE108 عبارة عن وحدة اكتساب منطقية تحتوي على 16 مدخلاً منطقيًا مقدمة من \n جهد العملية، مع نقطة داخلية مشتركة متصلة بالقطب +.\nDimension:\nHeight: | 233 mm | عرض: | 1 \n slot = 25.4 mm\nDepth: | 220 mm | Weight: | 0.380 kg\nعملية\nA \n circuit for distribution and monitoring of the process voltage\n16 \n testable logic inputs based on opto-isolators\nA \n circuit for distribution and monitoring of the process voltage\n16 \n testable logic inputs based on opto-isolators\nA \n circuit for plugging in with power on\nAn \n 2000 I/O bus slave interface\nInput-output registers.\nA \n circuit for plugging in with power on\nAn \n 2000 I/O bus slave interface\nInput-output registers.\nControls and Indications on The Front Panel\nضوء LED أخضر في الأمام \nتشير اللوحة إلى ما إذا كانت الوحدة تعمل أم لا.\nIt remains on if the \nmodule is operating correctly and goes out in case of faulty operation (fault \ndetected in the hardware or configuration, use of the module).\nInput Elements\nThe module has 16 logic input elements for acquisition of 16 free \ncontacts. Each element is based on an opto-isolator which provides galvanic \nisolation between the process and the internal voltages.\nThe module monitors the possibility of the inputs to be switched to \n1 or 0.\nProcess Voltage\nThe process voltage is supplied by the \nbackplane connector (distributed voltage), or by the process connector (external \nvoltage).\nA logic input based on an opto-isolator \nindicates the presence of the process voltage.\nحماية\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A\nالمسودة الأولى بدأها المهندس. محمد توفيق اختبار م. بهاء عبد \n الوهاب، تمت مراجعته من قبل شركة MDEPC لضبط الجودة. عادل النجار، مقبول \n المدير العام م. محمد الشريف، معتمد من م. رأس أحمد صوان \n قطاع محطة كهرباء النوبارية.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nالسلامة \nالاحتياطات\nA work permit must be issued\nيجب استخدام معدات الحماية الشخصية (أحذية السلامة، الخوذة، التنفس \n قناع، نظارات السلامة)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nيجب استخدام معدات الحماية الشخصية (أحذية السلامة، الخوذة، التنفس \n قناع، نظارات السلامة)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل ليكون \nنفذت\nCheck the supply voltage\n-\nحافلة الإدخال/الإخراج:\nCheck the supply voltage\n-\nحافلة الإدخال/الإخراج:\nVoltage : 5 V ( 5%)\nالاستهلاك: ≥ 50 مللي أمبير\nVoltage : 5 V ( 5%)\nالاستهلاك: ≥ 50 مللي أمبير\n-\nعملية :\nLE 108 A-1 module\nVoltage 48 V (38.4 V to 57.6 V)\nConsumption ≤ 175 مللي أمبير\nRead current 10.5 to 14.5 mA\nLE 108 A-1 module\nVoltage 48 V (38.4 V to 57.6 V)\nConsumption ≤ 175 مللي أمبير\nRead current 10.5 to 14.5 mA\nCheck the interface leds\nCheck the interface leds\nThere is a led in the front of the card, if it green the card is OK\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [

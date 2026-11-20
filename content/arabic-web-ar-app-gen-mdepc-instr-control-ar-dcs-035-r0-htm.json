@@ -14,40 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n محطات"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nIR 139 Communication Module\n الستوم -\n فرنسا"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-035-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: Nubaria \n PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:Equipment Inspection \n (I1-W1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة\n تاريخ :\n 08 March 2009"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: \n مارس 2014"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n محطات",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -264,7 +238,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "القوة \n محطات\nالإجراء الفني\nمعدات\nIR 139 Communication Module\n الستوم -\n فرنسا\nرقم الوثيقة: DCS-035-r0\nصدرت إلى: Nubaria \n PS\nحالة: \n موافقة\nإجراء:Equipment Inspection \n (I1-W1)\nموافقة\n تاريخ :\n 08 March 2009\nتاريخ المراد مراجعتها: \n مارس 2014\nمقدمة\nThis document outlines the equipment inspection I1, which must be performed on \n weekly bases as indicated by W1 in the title block.\nIR139 is \na communication module for theCE2000. This module provides exchanges by MODBUS \nprotocol. In this protocol, CE2000, Associated with C370 through IR139 board, \nCan only be master\nEach \nmodule channel can be connected to oneslave \nsubscriber (point to point) or to n Slaves (bus connection)\nFor \nIR139-1 version, the basic module has 4 RS232/RS485 channels.\nDimension:\n\nConnections :\nThe serial connections \nare located on the front panel.\nThey are not isolated, \nso IR139 module cannot be connected to devices without a floating 0V (the module \nand/or the device could be damaged).\nAn isolating module is \nrecommended for outside connections (metal casing).\nFor RS232, the line \nlength is limited to 15 m.\nFor RS485 with \nisolating module, this length is limited to 1 km.\nControls and Indications on The Front Panel\nA green \nLED remains on for normal working. It goes out in the following cases:\nThe \n module access through UT129 is not detected (UT129 missing or module hardware \n fault detected),\nThe module \n detects an internal hardware fault,\nThe module \n detects a user fault on a transmission line with one or several subscribers; \n in this case, normal working is resumed only when a correct exchange with the \n faulty subscriber(s) is detected\nThe \n module access through UT129 is not detected (UT129 missing or module hardware \n fault detected),\nThe module \n detects an internal hardware fault,\nThe module \n detects a user fault on a transmission line with one or several subscribers; \n in this case, normal working is resumed only when a correct exchange with the \n faulty subscriber(s) is detected\nحماية\nGeneral protection on the \nprocess voltage +Vp by CTP with maximum tripping current at 20C: 0.45 A.\nFor each current input \n with power supplied by the sensor, protection by CTP with maximum tripping \n current at 20C: 0.225 A.\nFor each current input \n with power supplied by the sensor, protection by CTP with maximum tripping \n current at 20C: 0.225 A.\nالمسودة الأولى بدأها المهندس. محمد توفيق اختبار م. بهاء عبد \n الوهاب، تمت مراجعته من قبل شركة MDEPC لضبط الجودة. عادل النجار، مقبول \n المدير العام م. محمد الشريف، معتمد من م. رأس أحمد صوان \n قطاع محطة كهرباء النوبارية.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nالسلامة \nالاحتياطات\nA work permit must be issued\nيجب استخدام معدات الحماية الشخصية (أحذية السلامة، الخوذة، التنفس \n قناع، نظارات السلامة)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nيجب استخدام معدات الحماية الشخصية (أحذية السلامة، الخوذة، التنفس \n قناع، نظارات السلامة)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nأدوات \nوالمعدات\nComplete tool set, voltammeter\nComplete tool set, voltammeter\nالعمل ليكون \nنفذت\nCheck the supply voltage\nElectrical characteristics\nCheck the supply voltage\nElectrical characteristics\nVoltage 5 V +/- 5%\nConsumption ≤ 200 mA\nCheck the interface leds\nCheck the interface leds\nA green LED remains on for normal working. It goes out in the following cases\nThe module detects an internal hardware fault\nThe module detects a user fault on a transmission line with one or several \n subscribers, in this case, normal working is \n resumed only when a correct exchange with the faulty subscriber (s) is \n detected\nThe module detects an internal hardware fault\nThe module detects a user fault on a transmission line with one or several \n subscribers, in this case, normal working is \n resumed only when a correct exchange with the faulty subscriber (s) is \n detected\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "القوة \n محطات | الإجراء الفني\nمقدمة\nThis document outlines the equipment inspection I1, which must be performed on \n weekly bases as indicated by W1 in the title block.\nIR139 is \na communication module for theCE2000. This module provides exchanges by MODBUS \nprotocol. In this protocol, CE2000, Associated with C370 through IR139 board, \nCan only be master\nEach \nmodule channel can be connected to oneslave \nsubscriber (point to point) or to n Slaves (bus connection)\nFor \nIR139-1 version, the basic module has 4 RS232/RS485 channels.\nDimension:\nHeight: | 233 mm | عرض: | 1 slot \n = 25.4 mm\nDepth: | 220 mm |  | \nConnections :\nThe serial connections \nare located on the front panel.\nThey are not isolated, \nso IR139 module cannot be connected to devices without a floating 0V (the module \nand/or the device could be damaged).\nAn isolating module is \nrecommended for outside connections (metal casing).\nFor RS232, the line \nlength is limited to 15 m.\nFor RS485 with \nisolating module, this length is limited to 1 km.\nControls and Indications on The Front Panel\nA green \nLED remains on for normal working. It goes out in the following cases:\nThe \n module access through UT129 is not detected (UT129 missing or module hardware \n fault detected),\nThe module \n detects an internal hardware fault,\nThe module \n detects a user fault on a transmission line with one or several subscribers; \n in this case, normal working is resumed only when a correct exchange with the \n faulty subscriber(s) is detected\nThe \n module access through UT129 is not detected (UT129 missing or module hardware \n fault detected),\nThe module \n detects an internal hardware fault,\nThe module \n detects a user fault on a transmission line with one or several subscribers; \n in this case, normal working is resumed only when a correct exchange with the \n faulty subscriber(s) is detected\nحماية\nGeneral protection on the \nprocess voltage +Vp by CTP with maximum tripping current at 20C: 0.45 A.\nFor each current input \n with power supplied by the sensor, protection by CTP with maximum tripping \n current at 20C: 0.225 A.\nFor each current input \n with power supplied by the sensor, protection by CTP with maximum tripping \n current at 20C: 0.225 A.\nالمسودة الأولى بدأها المهندس. محمد توفيق اختبار م. بهاء عبد \n الوهاب، تمت مراجعته من قبل شركة MDEPC لضبط الجودة. عادل النجار، مقبول \n المدير العام م. محمد الشريف، معتمد من م. رأس أحمد صوان \n قطاع محطة كهرباء النوبارية.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nالسلامة \nالاحتياطات\nA work permit must be issued\nيجب استخدام معدات الحماية الشخصية (أحذية السلامة، الخوذة، التنفس \n قناع، نظارات السلامة)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nيجب استخدام معدات الحماية الشخصية (أحذية السلامة، الخوذة، التنفس \n قناع، نظارات السلامة)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nأدوات \nوالمعدات\nComplete tool set, voltammeter\nComplete tool set, voltammeter\nالعمل ليكون \nنفذت\nCheck the supply voltage\nElectrical characteristics\nCheck the supply voltage\nElectrical characteristics\nVoltage 5 V +/- 5%\nConsumption ≤ 200 mA\nCheck the interface leds\nCheck the interface leds\nA green LED remains on for normal working. It goes out in the following cases\nThe module detects an internal hardware fault\nThe module detects a user fault on a transmission line with one or several \n subscribers, in this case, normal working is \n resumed only when a correct exchange with the faulty subscriber (s) is \n detected\nThe module detects an internal hardware fault\nThe module detects a user fault on a transmission line with one or several \n subscribers, in this case, normal working is \n resumed only when a correct exchange with the faulty subscriber (s) is \n detected\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,44 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n محطات"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nBus Transmitter Module"
-  },
-  {
-   "type": "paragraph",
-   "text": "IC687BEM713\n Alstom"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-028-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: النوبارية PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:فحص المعدات \n (I1 - W1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة \n تاريخ: 25 Nov 2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: \n Nov 2013"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n محطات",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -141,71 +111,19 @@
    "text": "Technical Specifications for IC687BEM713"
   },
   {
-   "type": "paragraph",
-   "text": "1.4 Amp"
-  },
-  {
-   "type": "paragraph",
-   "text": "Programmer \n Interface Specification"
-  },
-  {
-   "type": "paragraph",
-   "text": "Effective Data \n Rate"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time to store \n 16 Kbyte program"
-  },
-  {
-   "type": "paragraph",
-   "text": "Cable length"
-  },
-  {
-   "type": "paragraph",
-   "text": "500 Kbytes/sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "20 30 seconds"
-  },
-  {
-   "type": "paragraph",
-   "text": "3 feet (0.9 meters), \n use only IC693CBL803"
-  },
-  {
-   "type": "paragraph",
-   "text": "Expansion \n Interface Specification"
-  },
-  {
-   "type": "paragraph",
-   "text": "Maximum cable \n length"
-  },
-  {
-   "type": "paragraph",
-   "text": "Effective Data \n Rate"
-  },
-  {
-   "type": "paragraph",
-   "text": "Electrical \n Isolation"
-  },
-  {
-   "type": "paragraph",
-   "text": "50 ft maximum per \n system"
-  },
-  {
-   "type": "paragraph",
-   "text": "500 Kbytes/sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "nonisolated \n differential communications"
-  },
-  {
    "type": "table",
    "rows": [
     [
      "Current \n Required from 5V Bus",
-     ""
+     "1.4 Amp"
+    ],
+    [
+     "Programmer \n Interface Specification\n Effective Data \n Rate \nTime to store \n 16 Kbyte program \nCable length",
+     "500 Kbytes/sec\n20 30 seconds\n3 feet (0.9 meters), \n use only IC693CBL803"
+    ],
+    [
+     "Expansion \n Interface Specification\nMaximum cable \n length \nEffective Data \n Rate \nElectrical \n Isolation",
+     "50 ft maximum per \n system \n500 Kbytes/sec\nnonisolated \n differential communications"
     ]
    ],
    "truncated_rows": 0
@@ -288,7 +206,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "القوة \n محطات\nالإجراء الفني\nمعدات\nBus Transmitter Module\nIC687BEM713\n Alstom\nرقم الوثيقة: DCS-028-r0\nصدرت إلى: النوبارية PS\nحالة: \n موافقة\nإجراء:فحص المعدات \n (I1 - W1)\nموافقة \n تاريخ: 25 Nov 2008\nتاريخ المراد مراجعتها: \n Nov 2013\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe IC687 Bus Transmitter Module (BTM) is used in a FIP single \nrack redundancy system. It provides a path for Redundancy communications when \nconnected to the Redundancy Communications Module (RCM) in the other half of the \ntwosection redundancy rack. Each section of this rack requires a Bus \nTransmitter Module and a Redundancy Communications Module. It also provides a \nhigh performance parallel interface to the programming device.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, \naccepted by general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan \nhead sector of Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nRequired for FIP Redundant Systems.\nTwo Bus Transmitter Modules required per system (in dual \n backplane redundancy rack).\nThree LED indicators provide module, programmer port, and \n expansion port status.\nNo DIP switches to set, easy software configuration into MFC \n system.\nHigh Performance Parallel \n Programmer Interface.\nRequired for FIP Redundant Systems.\nTwo Bus Transmitter Modules required per system (in dual \n backplane redundancy rack).\nThree LED indicators provide module, programmer port, and \n expansion port status.\nNo DIP switches to set, easy software configuration into MFC \n system.\nHigh Performance Parallel \n Programmer Interface.\nStatus Indications\nThree green LEDs at top of module provide module status \ninformation as described below.\nThe top LED (MODULE OK) LED is ON when the CPU software completes \nits powerup configuration of the BTM, and has polled (or attempted to poll) \neach expansion rack in the system. It is OFF when any of these conditions are \nnot met.\nThe middle LED (Programmer Port Enabled) is the Programmer Port \nActive LED. This LED is either blinking or ON when the programmer and the MFC \nare communicating. It is OFF when they are not communicating. Note that this \nport is not used in communications between the Windows programmer and the PLC.\nThe bottom LED (Expansion Port Enabled) provides the status of \nthe redundancy communications link. This LED is either blinking or ON when the \nBTM is communicating with the Redundancy Communications Module connected to it \nthrough the IC697CBL803 cable. It is OFF when they are not communicating.\nThree green LEDs at top of module provide module status \ninformation as described below.\nThe top LED (MODULE OK) LED is ON when the CPU software completes \nits powerup configuration of the BTM, and has polled (or attempted to poll) \neach expansion rack in the system. It is OFF when any of these conditions are \nnot met.\nThe middle LED (Programmer Port Enabled) is the Programmer Port \nActive LED. This LED is either blinking or ON when the programmer and the MFC \nare communicating. It is OFF when they are not communicating. Note that this \nport is not used in communications between the Windows programmer and the PLC.\nThe bottom LED (Expansion Port Enabled) provides the status of \nthe redundancy communications link. This LED is either blinking or ON when the \nBTM is communicating with the Redundancy Communications Module connected to it \nthrough the IC697CBL803 cable. It is OFF when they are not communicating.\nTechnical Specifications for IC687BEM713\n1.4 Amp\nProgrammer \n Interface Specification\nEffective Data \n Rate\nTime to store \n 16 Kbyte program\nCable length\n500 Kbytes/sec\n20 30 seconds\n3 feet (0.9 meters), \n use only IC693CBL803\nExpansion \n Interface Specification\nMaximum cable \n length\nEffective Data \n Rate\nElectrical \n Isolation\n50 ft maximum per \n system\n500 Kbytes/sec\nnonisolated \n differential communications\n\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nFirst, make sure rack power is turned off. Then, use a medium-blade, slotted \n screwdriver to loosen the top and bottom holding screws just enough to free \n the module from the rack. Note: Screws are held captive in the module, so \n they do not have to be removed from the module.\nأمسك اللوحة بقوة في الجزء العلوي والسفلي من غطاء اللوحة باستخدام يدك \n إبهامك على الجزء الأمامي من الغطاء وأصابعك على مشابك الحامل البلاستيكية \n على الجزء الخلفي من الغطاء.\nSqueeze the rack clips on the back of the cover with your fingers to \n disengage the clips from the rack rail, and then pull the board firmly \n toward you until it clears the rack.\nFirst, make sure rack power is turned off. Then, use a medium-blade, slotted \n screwdriver to loosen the top and bottom holding screws just enough to free \n the module from the rack. Note: Screws are held captive in the module, so \n they do not have to be removed from the module.\nأمسك اللوحة بقوة في الجزء العلوي والسفلي من غطاء اللوحة باستخدام يدك \n إبهامك على الجزء الأمامي من الغطاء وأصابعك على مشابك الحامل البلاستيكية \n على الجزء الخلفي من الغطاء.\nSqueeze the rack clips on the back of the cover with your fingers to \n disengage the clips from the rack rail, and then pull the board firmly \n toward you until it clears the rack.\nSqueeze the rack clips on the back of the cover with your fingers to \n disengage the clips from the rack rail, and then pull the board firmly \n toward you until it clears the rack.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "القوة \n محطات | الإجراء الفني\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe IC687 Bus Transmitter Module (BTM) is used in a FIP single \nrack redundancy system. It provides a path for Redundancy communications when \nconnected to the Redundancy Communications Module (RCM) in the other half of the \ntwosection redundancy rack. Each section of this rack requires a Bus \nTransmitter Module and a Redundancy Communications Module. It also provides a \nhigh performance parallel interface to the programming device.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, \naccepted by general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan \nhead sector of Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nRequired for FIP Redundant Systems.\nTwo Bus Transmitter Modules required per system (in dual \n backplane redundancy rack).\nThree LED indicators provide module, programmer port, and \n expansion port status.\nNo DIP switches to set, easy software configuration into MFC \n system.\nHigh Performance Parallel \n Programmer Interface.\nRequired for FIP Redundant Systems.\nTwo Bus Transmitter Modules required per system (in dual \n backplane redundancy rack).\nThree LED indicators provide module, programmer port, and \n expansion port status.\nNo DIP switches to set, easy software configuration into MFC \n system.\nHigh Performance Parallel \n Programmer Interface.\nStatus Indications\nThree green LEDs at top of module provide module status \ninformation as described below.\nThe top LED (MODULE OK) LED is ON when the CPU software completes \nits powerup configuration of the BTM, and has polled (or attempted to poll) \neach expansion rack in the system. It is OFF when any of these conditions are \nnot met.\nThe middle LED (Programmer Port Enabled) is the Programmer Port \nActive LED. This LED is either blinking or ON when the programmer and the MFC \nare communicating. It is OFF when they are not communicating. Note that this \nport is not used in communications between the Windows programmer and the PLC.\nThe bottom LED (Expansion Port Enabled) provides the status of \nthe redundancy communications link. This LED is either blinking or ON when the \nBTM is communicating with the Redundancy Communications Module connected to it \nthrough the IC697CBL803 cable. It is OFF when they are not communicating.\nThree green LEDs at top of module provide module status \ninformation as described below.\nThe top LED (MODULE OK) LED is ON when the CPU software completes \nits powerup configuration of the BTM, and has polled (or attempted to poll) \neach expansion rack in the system. It is OFF when any of these conditions are \nnot met.\nThe middle LED (Programmer Port Enabled) is the Programmer Port \nActive LED. This LED is either blinking or ON when the programmer and the MFC \nare communicating. It is OFF when they are not communicating. Note that this \nport is not used in communications between the Windows programmer and the PLC.\nThe bottom LED (Expansion Port Enabled) provides the status of \nthe redundancy communications link. This LED is either blinking or ON when the \nBTM is communicating with the Redundancy Communications Module connected to it \nthrough the IC697CBL803 cable. It is OFF when they are not communicating.\nTechnical Specifications for IC687BEM713\nCurrent \n Required from 5V Bus | 1.4 Amp\nProgrammer \n Interface Specification\n Effective Data \n Rate \nTime to store \n 16 Kbyte program \nCable length | 500 Kbytes/sec\n20 30 seconds\n3 feet (0.9 meters), \n use only IC693CBL803\nExpansion \n Interface Specification\nMaximum cable \n length \nEffective Data \n Rate \nElectrical \n Isolation | 50 ft maximum per \n system \n500 Kbytes/sec\nnonisolated \n differential communications\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nFirst, make sure rack power is turned off. Then, use a medium-blade, slotted \n screwdriver to loosen the top and bottom holding screws just enough to free \n the module from the rack. Note: Screws are held captive in the module, so \n they do not have to be removed from the module.\nأمسك اللوحة بقوة في الجزء العلوي والسفلي من غطاء اللوحة باستخدام يدك \n إبهامك على الجزء الأمامي من الغطاء وأصابعك على مشابك الحامل البلاستيكية \n على الجزء الخلفي من الغطاء.\nSqueeze the rack clips on the back of the cover with your fingers to \n disengage the clips from the rack rail, and then pull the board firmly \n toward you until it clears the rack.\nFirst, make sure rack power is turned off. Then, use a medium-blade, slotted \n screwdriver to loosen the top and bottom holding screws just enough to free \n the module from the rack. Note: Screws are held captive in the module, so \n they do not have to be removed from the module.\nأمسك اللوحة بقوة في الجزء العلوي والسفلي من غطاء اللوحة باستخدام يدك \n إبهامك على الجزء الأمامي من الغطاء وأصابعك على مشابك الحامل البلاستيكية \n على الجزء الخلفي من الغطاء.\nSqueeze the rack clips on the back of the cover with your fingers to \n disengage the clips from the rack rail, and then pull the board firmly \n toward you until it clears the rack.\nSqueeze the rack clips on the back of the cover with your fingers to \n disengage the clips from the rack rail, and then pull the board firmly \n toward you until it clears the rack.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [

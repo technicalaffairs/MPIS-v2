@@ -14,40 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n محطات"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nDistributed control system DCS cabinet\n DSAI 130 (16) channel 4 to 20 mA\n Analogue input card\n 3 BSC 980004R799 \n ABB company"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-033-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: High \n dam P.S"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:Testing Procedures ( P1 \n Y1 )"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date Approved: \n 28 Jan \n 2009"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: \n يناير 2014"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n محطات",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -234,7 +208,7 @@
    "text": "Location: System \n Designation: \n تم اختباره \n بواسطة: \n التوقيع: تاريخ الاختبار:"
   }
  ],
- "text": "القوة \n محطات\nالإجراء الفني\nمعدات\nDistributed control system DCS cabinet\n DSAI 130 (16) channel 4 to 20 mA\n Analogue input card\n 3 BSC 980004R799 \n ABB company\nرقم الوثيقة: DCS-033-r0\nصدرت إلى: High \n dam P.S\nحالة: موافقة\nإجراء:Testing Procedures ( P1 \n Y1 )\nDate Approved: \n 28 Jan \n 2009\nتاريخ المراد مراجعتها: \n يناير 2014\nمقدمة\nDSAI 130 is an analog input card (4 to 20 mA) used to connect current and \n voltage signals\nAnalog input boards function in general as follows, the boards are provided \n with a no. of channels, interference suppression, filtration and adaptation of\n The signal with respect to zero point and gain are performed individually in a \n buffer amplifier. The A/D converts is multiplexed between the I/P channels. An \n I/P channel is selected by the controller software by writing to a parameter \n register, which also starts the A/d conversion the value converted to digital \n form is then transferred via the parallel data bus to the controller software \n for further signal processing. Zero point and gain must be adjusted manually \n or by the controller software\nThe first draft initiated by eng. Ibrahim Ebaid Awad general computer \n department & eng. Hussien Yousef instruments department High Dam power station.\nالسلامة \nالاحتياطات\nA work permit must be issued and the \n qualified maintenance stuff should be carrying the suitable safety category.\nSafety fence (rope) with caution \n marks surrounding the work area is required.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nA work permit must be issued and the \n qualified maintenance stuff should be carrying the suitable safety category.\nSafety fence (rope) with caution \n marks surrounding the work area is required.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nأدوات \nوالمعدات\nSafety helmet, shoes\nراديو لاسلكي محمول باليد \n وسائل الاتصالات\nmA source to inject mA\nمفك البراغي، مفك الجوز\nIsolating tape and test leads\nSafety helmet, shoes\nراديو لاسلكي محمول باليد \n وسائل الاتصالات\nmA source to inject mA\nمفك البراغي، مفك الجوز\nIsolating tape and test leads\nالعمل ليكون \nنفذت\nReview technical reference material and manufacture's manual.\nOpen panel no. 4\nUsing panel terminations identify the location for the desired card.\nReview technical reference material and manufacture's manual.\nOpen panel no. 4\nUsing panel terminations identify the location for the desired card.\nUsing panel termination list for each card identify the two input wires for \n the first channel\nUsing the screw driver, remove the two wires and isolate with tape\nConnect the mA source leads to the first channel\nInject 4 mA, 8 mA, 12 mA, 16 mA and 20 mA according to 0%, 25%,75% and 100%\nCompare the mV injected using radio with the mV reading in the DCS room (eng. \n station)\nإذا كانت القراءة جيدة، أو ضمن النطاق (-+ 0.01 مللي فولت)، كرر الخطوات لقناة أخرى\nIf any reading for any channel in DCS not correct replace the card\nUsing panel termination list for each card identify the two input wires for \n the first channel\nUsing the screw driver, remove the two wires and isolate with tape\nConnect the mA source leads to the first channel\nInject 4 mA, 8 mA, 12 mA, 16 mA and 20 mA according to 0%, 25%,75% and 100%\nCompare the mV injected using radio with the mV reading in the DCS room (eng. \n station)\nإذا كانت القراءة جيدة، أو ضمن النطاق (-+ 0.01 مللي فولت)، كرر الخطوات لقناة أخرى\nIf any reading for any channel in DCS not correct replace the card\nRemove the mA source\nReconnect the input wires to terminal strip\nClose the cabinet\nPlace a copy of test result in the field maintenance file\nRemove the mA source\nReconnect the input wires to terminal strip\nClose the cabinet\nPlace a copy of test result in the field maintenance file\nLocation: System \n Designation: \n تم اختباره \n بواسطة: \n التوقيع: تاريخ الاختبار:\nLocation: System \n Designation: \n تم اختباره \n بواسطة: \n التوقيع: تاريخ الاختبار:\nLocation: System \n Designation: \n تم اختباره \n بواسطة: \n التوقيع: تاريخ الاختبار:\nLocation: System \n Designation: \n تم اختباره \n بواسطة: \n التوقيع: تاريخ الاختبار:",
+ "text": "القوة \n محطات | الإجراء الفني\nمقدمة\nDSAI 130 is an analog input card (4 to 20 mA) used to connect current and \n voltage signals\nAnalog input boards function in general as follows, the boards are provided \n with a no. of channels, interference suppression, filtration and adaptation of\n The signal with respect to zero point and gain are performed individually in a \n buffer amplifier. The A/D converts is multiplexed between the I/P channels. An \n I/P channel is selected by the controller software by writing to a parameter \n register, which also starts the A/d conversion the value converted to digital \n form is then transferred via the parallel data bus to the controller software \n for further signal processing. Zero point and gain must be adjusted manually \n or by the controller software\nThe first draft initiated by eng. Ibrahim Ebaid Awad general computer \n department & eng. Hussien Yousef instruments department High Dam power station.\nالسلامة \nالاحتياطات\nA work permit must be issued and the \n qualified maintenance stuff should be carrying the suitable safety category.\nSafety fence (rope) with caution \n marks surrounding the work area is required.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nA work permit must be issued and the \n qualified maintenance stuff should be carrying the suitable safety category.\nSafety fence (rope) with caution \n marks surrounding the work area is required.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nأدوات \nوالمعدات\nSafety helmet, shoes\nراديو لاسلكي محمول باليد \n وسائل الاتصالات\nmA source to inject mA\nمفك البراغي، مفك الجوز\nIsolating tape and test leads\nSafety helmet, shoes\nراديو لاسلكي محمول باليد \n وسائل الاتصالات\nmA source to inject mA\nمفك البراغي، مفك الجوز\nIsolating tape and test leads\nالعمل ليكون \nنفذت\nReview technical reference material and manufacture's manual.\nOpen panel no. 4\nUsing panel terminations identify the location for the desired card.\nReview technical reference material and manufacture's manual.\nOpen panel no. 4\nUsing panel terminations identify the location for the desired card.\nUsing panel termination list for each card identify the two input wires for \n the first channel\nUsing the screw driver, remove the two wires and isolate with tape\nConnect the mA source leads to the first channel\nInject 4 mA, 8 mA, 12 mA, 16 mA and 20 mA according to 0%, 25%,75% and 100%\nCompare the mV injected using radio with the mV reading in the DCS room (eng. \n station)\nإذا كانت القراءة جيدة، أو ضمن النطاق (-+ 0.01 مللي فولت)، كرر الخطوات لقناة أخرى\nIf any reading for any channel in DCS not correct replace the card\nUsing panel termination list for each card identify the two input wires for \n the first channel\nUsing the screw driver, remove the two wires and isolate with tape\nConnect the mA source leads to the first channel\nInject 4 mA, 8 mA, 12 mA, 16 mA and 20 mA according to 0%, 25%,75% and 100%\nCompare the mV injected using radio with the mV reading in the DCS room (eng. \n station)\nإذا كانت القراءة جيدة، أو ضمن النطاق (-+ 0.01 مللي فولت)، كرر الخطوات لقناة أخرى\nIf any reading for any channel in DCS not correct replace the card\nRemove the mA source\nReconnect the input wires to terminal strip\nClose the cabinet\nPlace a copy of test result in the field maintenance file\nRemove the mA source\nReconnect the input wires to terminal strip\nClose the cabinet\nPlace a copy of test result in the field maintenance file\nLocation: System \n Designation: \n تم اختباره \n بواسطة: \n التوقيع: تاريخ الاختبار:\nLocation: System \n Designation: \n تم اختباره \n بواسطة: \n التوقيع: تاريخ الاختبار:\nLocation: System \n Designation: \n تم اختباره \n بواسطة: \n التوقيع: تاريخ الاختبار:\nLocation: System \n Designation: \n تم اختباره \n بواسطة: \n التوقيع: تاريخ الاختبار:",
  "text_truncated": false,
  "links": [],
  "images": [

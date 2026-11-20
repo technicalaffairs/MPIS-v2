@@ -14,48 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n محطات"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nEthernet Interface"
-  },
-  {
-   "type": "paragraph",
-   "text": "IC697CMM742"
-  },
-  {
-   "type": "paragraph",
-   "text": "Alstom"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-029-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: النوبارية PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:فحص المعدات \n (I1 - W1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة \n تاريخ: 25 Nov 2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: \n Nov 2013"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n محطات",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -228,107 +194,31 @@
    "text": "المواصفات الفنية"
   },
   {
-   "type": "paragraph",
-   "text": "Module \n Operating Voltage"
-  },
-  {
-   "type": "paragraph",
-   "text": "Module Current \n Drain"
-  },
-  {
-   "type": "paragraph",
-   "text": "Module \n Operating Temperature"
-  },
-  {
-   "type": "paragraph",
-   "text": "0 درجة مئوية إلى +55 درجة مئوية (32 فهرنهايت \n إلى 131 فهرنهايت)، محيط"
-  },
-  {
-   "type": "paragraph",
-   "text": "LAN \n ONLINE"
-  },
-  {
-   "type": "paragraph",
-   "text": "SERIAL ACTIVE"
-  },
-  {
-   "type": "paragraph",
-   "text": "STATUS"
-  },
-  {
-   "type": "paragraph",
-   "text": "-Station Manager \n (RS232) Port: 6pin female RJ11"
-  },
-  {
-   "type": "paragraph",
-   "text": "-Software Load \n (RS485) Port: 15pin female Dconnector"
-  },
-  {
-   "type": "paragraph",
-   "text": "-10BaseT Port: \n 8pin female RJ45"
-  },
-  {
-   "type": "paragraph",
-   "text": "-AUI Port: 15pin \n female Dconnector with slidelock"
-  },
-  {
-   "type": "paragraph",
-   "text": "-10Base2 port: \n female BNC connector"
-  },
-  {
-   "type": "paragraph",
-   "text": "5 x 20mm, 250V, \n 1.0A, slow acting"
-  },
-  {
-   "type": "paragraph",
-   "text": "IEEE 802.2 Logical \n Link Control Class I"
-  },
-  {
-   "type": "paragraph",
-   "text": "IEEE 802.3 CSMA/CD \n Medium Access Control 10Mbps"
-  },
-  {
-   "type": "paragraph",
-   "text": "Station Mgr Port: \n RS232 DTE 300 19200 bps"
-  },
-  {
-   "type": "paragraph",
-   "text": "Software Load Port: \n RS485 DTE 300 19200 bps"
-  },
-  {
-   "type": "paragraph",
-   "text": "10BaseT Port: \n Ethernet, IEEE 802.3 CSMA/CD"
-  },
-  {
-   "type": "paragraph",
-   "text": "10Base2 Port: \n Ethernet, IEEE 802.3 CSMA/CD"
-  },
-  {
-   "type": "paragraph",
-   "text": "منفذ واجهة المستخدم الرسومية: إيثرنت، \n IEEE 802.3 CSMA/CD"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
+     "Module \n Operating Voltage",
      "+5 VDC, +12 VDC \n (from MFC power supply)"
     ],
     [
-     "",
+     "Module Current \n Drain",
      "2.0 Amps (+5 VDC), \n typical 0.5 Amps (+12 VDC), maximum when powering an external AUI \n transceiver"
     ],
     [
+     "Module \n Operating Temperature",
+     "0 درجة مئوية إلى +55 درجة مئوية (32 فهرنهايت \n إلى 131 فهرنهايت)، محيط"
+    ],
+    [
      "LED Indicators",
-     "الوحدة موافق"
+     "الوحدة موافق\nLAN \n ONLINE \nSERIAL ACTIVE\nSTATUS"
     ],
     [
      "Connectors",
-     ""
+     "-Station Manager \n (RS232) Port: 6pin female RJ11\n-Software Load \n (RS485) Port: 15pin female Dconnector\n-10BaseT Port: \n 8pin female RJ45\n-AUI Port: 15pin \n female Dconnector with slidelock\n-10Base2 port: \n female BNC connector"
     ],
     [
      "Fuse, \n Replaceable",
-     ""
+     "5 x 20mm, 250V, \n 1.0A, slow acting"
     ],
     [
      "Interface \n Specifications:",
@@ -336,15 +226,15 @@
     ],
     [
      "LAN",
-     ""
+     "IEEE 802.2 Logical \n Link Control Class I\nIEEE 802.3 CSMA/CD \n Medium Access Control 10Mbps"
     ],
     [
      "المنافذ التسلسلية",
-     ""
+     "Station Mgr Port: \n RS232 DTE 300 19200 bps\nSoftware Load Port: \n RS485 DTE 300 19200 bps"
     ],
     [
      "Network Ports",
-     ""
+     "10BaseT Port: \n Ethernet, IEEE 802.3 CSMA/CD\n10Base2 Port: \n Ethernet, IEEE 802.3 CSMA/CD\nمنفذ واجهة المستخدم الرسومية: إيثرنت، \n IEEE 802.3 CSMA/CD"
     ]
    ],
    "truncated_rows": 0
@@ -417,7 +307,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "القوة \n محطات\nالإجراء الفني\nمعدات\nEthernet Interface\nIC697CMM742\nAlstom\nرقم الوثيقة: DCS-029-r0\nصدرت إلى: النوبارية PS\nحالة: \n موافقة\nإجراء:فحص المعدات \n (I1 - W1)\nموافقة \n تاريخ: 25 Nov 2008\nتاريخ المراد مراجعتها: \n Nov 2013\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe IC697CMM742 Ethernet Interface provides\nhigh performance TCP/IP communications for the \nC80-75 MFC.\nThe Ethernet Interface plugs into a single slot in\na C80-75 MFC rack and is configured with the MFC\nبرامج برمجة ويندوز. ما يصل إلى أربعة إيثرنت\nيمكن تركيب وحدات الواجهة في C80-75\nرف وحدة المعالجة المركزية MFC.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, \naccepted by general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan \nhead sector of Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nConnects C80-75 MFC to an IEEE 802.3 CSMA/CD \n 10Mbps Ethernet LAN via one of three network ports: 10BaseT, 10Base2, or AUI.\n10BaseT and 10Base2 network ports provide \n direct connection to 10BaseT or 10Base2 network without an external \n transceiver.\nStandard 15pin AUI network port allows choice \n of 10Base5, 10Base2, 10BaseT, 10BaseF, or 10Broad36 medium with usersupplied \n 802.3compatible transceiver.\nFirmware is preloaded for easy installation \n and is maintained indefinitely; firmware is easily upgraded insystem from PC \n attached to RS485 serial port.\nTCP/IP communication services using SRTP.\nFull MFC programming and configuration \n services.\nComprehensive station management and \n diagnostic tools.\nTCP/IP communication services using SRTP.\nFull MFC programming and configuration \n services.\nComprehensive station management and \n diagnostic tools.\nComprehensive station management and \n diagnostic tools.\nStatus Indications\nEthernet Interface LED Indicators\nModule ok\nON: This LED is on if the Ethernet Interface has passed \ndiagnostics and is operating properly.\nOFF: This LED is OFF if the module fails a diagnostic test, \nor if a fatal failure is \ndetected during operation\nON: This LED is on if the Ethernet Interface has passed \ndiagnostics and is operating properly.\nOFF: This LED is OFF if the module fails a diagnostic test, \nor if a fatal failure is \ndetected during operation\nوامض\nThis LED is BLINKING during diagnostics, or to indicate special \noperating conditions or when the Ethernet Interface is transferring data on the \nnetwork.\nLAN ONLINE ON\nThis LED is\nON when the Ethernet Interface is connected to the Ethernet \nnetwork and is ready to communicate.\nOFF This LED is OFF when:\nThe Ethernet Interface is not communicating in the network due \n to disconnection or disruption of the cable.\nThe Ethernet Interface has malfunctioned.\nThe Ethernet Interface has been commanded not to enter the \n network.\nThe Ethernet Interface is not communicating in the network due \n to disconnection or disruption of the cable.\nThe Ethernet Interface has malfunctioned.\nThe Ethernet Interface has been commanded not to enter the \n network.\nSerial active OFF: This LED is OFF during inactivity at the \nRS485 serial port.\nBLINKING This LED is BLINKING during data transfer at the RS485 \nserial port, or to indicate special operation conditions.\nStatus OK\nON: This LED is ON when the module is operating without exception \nconditions.\nOFF This LED is OFF if the Ethernet Interface detects an event \n(exception \ncondition) during operation that requires supervisory attention.\nON: This LED is ON when the module is operating without exception \nconditions.\nOFF This LED is OFF if the Ethernet Interface detects an event \n(exception \ncondition) during operation that requires supervisory attention.\nالمواصفات الفنية\nModule \n Operating Voltage\nModule Current \n Drain\nModule \n Operating Temperature\n0 درجة مئوية إلى +55 درجة مئوية (32 فهرنهايت \n إلى 131 فهرنهايت)، محيط\nLAN \n ONLINE\nSERIAL ACTIVE\nSTATUS\n-Station Manager \n (RS232) Port: 6pin female RJ11\n-Software Load \n (RS485) Port: 15pin female Dconnector\n-10BaseT Port: \n 8pin female RJ45\n-AUI Port: 15pin \n female Dconnector with slidelock\n-10Base2 port: \n female BNC connector\n5 x 20mm, 250V, \n 1.0A, slow acting\nIEEE 802.2 Logical \n Link Control Class I\nIEEE 802.3 CSMA/CD \n Medium Access Control 10Mbps\nStation Mgr Port: \n RS232 DTE 300 19200 bps\nSoftware Load Port: \n RS485 DTE 300 19200 bps\n10BaseT Port: \n Ethernet, IEEE 802.3 CSMA/CD\n10Base2 Port: \n Ethernet, IEEE 802.3 CSMA/CD\nمنفذ واجهة المستخدم الرسومية: إيثرنت، \n IEEE 802.3 CSMA/CD\n\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nMFC power must be off when connecting or disconnecting the transceiver\nMFC power must be off when connecting or disconnecting the transceiver\nMFC power must be off when connecting or disconnecting the transceiver\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "القوة \n محطات | الإجراء الفني\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe IC697CMM742 Ethernet Interface provides\nhigh performance TCP/IP communications for the \nC80-75 MFC.\nThe Ethernet Interface plugs into a single slot in\na C80-75 MFC rack and is configured with the MFC\nبرامج برمجة ويندوز. ما يصل إلى أربعة إيثرنت\nيمكن تركيب وحدات الواجهة في C80-75\nرف وحدة المعالجة المركزية MFC.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, \naccepted by general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan \nhead sector of Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nConnects C80-75 MFC to an IEEE 802.3 CSMA/CD \n 10Mbps Ethernet LAN via one of three network ports: 10BaseT, 10Base2, or AUI.\n10BaseT and 10Base2 network ports provide \n direct connection to 10BaseT or 10Base2 network without an external \n transceiver.\nStandard 15pin AUI network port allows choice \n of 10Base5, 10Base2, 10BaseT, 10BaseF, or 10Broad36 medium with usersupplied \n 802.3compatible transceiver.\nFirmware is preloaded for easy installation \n and is maintained indefinitely; firmware is easily upgraded insystem from PC \n attached to RS485 serial port.\nTCP/IP communication services using SRTP.\nFull MFC programming and configuration \n services.\nComprehensive station management and \n diagnostic tools.\nTCP/IP communication services using SRTP.\nFull MFC programming and configuration \n services.\nComprehensive station management and \n diagnostic tools.\nComprehensive station management and \n diagnostic tools.\nStatus Indications\nEthernet Interface LED Indicators\nModule ok\nON: This LED is on if the Ethernet Interface has passed \ndiagnostics and is operating properly.\nOFF: This LED is OFF if the module fails a diagnostic test, \nor if a fatal failure is \ndetected during operation\nON: This LED is on if the Ethernet Interface has passed \ndiagnostics and is operating properly.\nOFF: This LED is OFF if the module fails a diagnostic test, \nor if a fatal failure is \ndetected during operation\nوامض\nThis LED is BLINKING during diagnostics, or to indicate special \noperating conditions or when the Ethernet Interface is transferring data on the \nnetwork.\nLAN ONLINE ON\nThis LED is\nON when the Ethernet Interface is connected to the Ethernet \nnetwork and is ready to communicate.\nOFF This LED is OFF when:\nThe Ethernet Interface is not communicating in the network due \n to disconnection or disruption of the cable.\nThe Ethernet Interface has malfunctioned.\nThe Ethernet Interface has been commanded not to enter the \n network.\nThe Ethernet Interface is not communicating in the network due \n to disconnection or disruption of the cable.\nThe Ethernet Interface has malfunctioned.\nThe Ethernet Interface has been commanded not to enter the \n network.\nSerial active OFF: This LED is OFF during inactivity at the \nRS485 serial port.\nBLINKING This LED is BLINKING during data transfer at the RS485 \nserial port, or to indicate special operation conditions.\nStatus OK\nON: This LED is ON when the module is operating without exception \nconditions.\nOFF This LED is OFF if the Ethernet Interface detects an event \n(exception \ncondition) during operation that requires supervisory attention.\nON: This LED is ON when the module is operating without exception \nconditions.\nOFF This LED is OFF if the Ethernet Interface detects an event \n(exception \ncondition) during operation that requires supervisory attention.\nالمواصفات الفنية\nModule \n Operating Voltage | +5 VDC, +12 VDC \n (from MFC power supply)\nModule Current \n Drain | 2.0 Amps (+5 VDC), \n typical 0.5 Amps (+12 VDC), maximum when powering an external AUI \n transceiver\nModule \n Operating Temperature | 0 درجة مئوية إلى +55 درجة مئوية (32 فهرنهايت \n إلى 131 فهرنهايت)، محيط\nLED Indicators | الوحدة موافق\nLAN \n ONLINE \nSERIAL ACTIVE\nSTATUS\nConnectors | -Station Manager \n (RS232) Port: 6pin female RJ11\n-Software Load \n (RS485) Port: 15pin female Dconnector\n-10BaseT Port: \n 8pin female RJ45\n-AUI Port: 15pin \n female Dconnector with slidelock\n-10Base2 port: \n female BNC connector\nFuse, \n Replaceable | 5 x 20mm, 250V, \n 1.0A, slow acting\nInterface \n Specifications: | \nLAN | IEEE 802.2 Logical \n Link Control Class I\nIEEE 802.3 CSMA/CD \n Medium Access Control 10Mbps\nالمنافذ التسلسلية | Station Mgr Port: \n RS232 DTE 300 19200 bps\nSoftware Load Port: \n RS485 DTE 300 19200 bps\nNetwork Ports | 10BaseT Port: \n Ethernet, IEEE 802.3 CSMA/CD\n10Base2 Port: \n Ethernet, IEEE 802.3 CSMA/CD\nمنفذ واجهة المستخدم الرسومية: إيثرنت، \n IEEE 802.3 CSMA/CD\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nMFC power must be off when connecting or disconnecting the transceiver\nMFC power must be off when connecting or disconnecting the transceiver\nMFC power must be off when connecting or disconnecting the transceiver\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [
