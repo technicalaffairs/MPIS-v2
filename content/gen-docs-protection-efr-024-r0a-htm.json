@@ -1,7 +1,7 @@
 {
  "id": "gen-docs-protection-efr-024-r0a-htm",
  "doc_number": "EFR-024-R0A",
- "title_en": "",
+ "title_en": "EFR-024-R0A APPROVED",
  "title_ar": "EFR-024-r0a \nمعتمد",
  "category": "protection",
  "source_path": "gen_docs/Protection/EFR-024-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -438,5 +439,380 @@
    "src": "graphics/EFR-024-01.jpg",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company."
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System."
+    ],
+    [
+     "",
+     "Protection.",
+     "Maintenance Procedures."
+    ],
+    [
+     "Document No.: EFR-024-r0a.",
+     "Equipment: Testing the earth leakage protection device on the main generator, 67G, tdg20b-eg2, Toshiba."
+    ],
+    [
+     "Issued to: El-Walidia."
+    ],
+    [
+     "Status: Approved."
+    ],
+    [
+     "Approval Date: 24 May 2005.",
+     "Procedure: Using a current and voltage injection set PHU-100."
+    ],
+    [
+     "Next Review Date: May 2010."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Open the two switches of the circuit whose protection is to be tested, and open the circuit isolators.",
+    "Open a work permit.",
+    "Fence the work area.",
+    "Place the necessary warning signs.",
+    "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment Used."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "2 transformers 200/400, 1 kVA, single phase.",
+     "1."
+    ],
+    [
+     "1 three-phase switch.",
+     "2."
+    ],
+    [
+     "Avometer (Fluky 87).",
+     "3."
+    ],
+    [
+     "2 V-A AC current measuring instruments, model YOKOGAWA.",
+     "4."
+    ],
+    [
+     "Test comb model HP2-C8.",
+     "5."
+    ],
+    [
+     "Test Leads.",
+     "6."
+    ],
+    [
+     "1 Digital Phase Meter (KDK DPF-30N).",
+     "7."
+    ],
+    [
+     "Contact point cleaning tools (spray CROWN-8276).",
+     "8."
+    ],
+    [
+     "2 current and voltage injection sets model PHU-100.",
+     "9."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Set the change-over switch (43) type BH-H7 for testing protection (G 67) to Test.",
+     "1."
+    ],
+    [
+     "Remove the front cover of the relay.",
+     "2."
+    ],
+    [
+     "Clean the contact points using (spray CROWN-8276).",
+     "3."
+    ],
+    [
+     "Clean the relay from dust using the air blower.",
+     "4."
+    ],
+    [
+     "Short points (11, 13, 15, 17), (15, 16), (13, 14), (11, 12), (17, 18) on test plug type HP2-C8.",
+     "5."
+    ],
+    [
+     "Insert test plug type HP2-C8.",
+     "6."
+    ],
+    [
+     "Open the protection cell from the back.",
+     "7."
+    ],
+    [
+     "Disconnect voltage terminal No. 8 on relay (67G), keeping the terminal screw.",
+     "8."
+    ],
+    [
+     "Connect the current injection leads to points (27, 28) in the test plug as shown in the illustration.",
+     "9."
+    ],
+    [
+     "Connect the voltage injection leads to points (7, 8) on relay (67G) as shown in the figure.",
+     "10."
+    ],
+    [
+     "Inject voltage at 110 V.",
+     "11."
+    ],
+    [
+     "Raise the current gradually until you can read the phase difference between voltage and current.",
+     "12."
+    ],
+    [
+     "Set the angle to 60, voltage on Input and current on Reference.",
+     "13."
+    ],
+    [
+     "Raise the current gradually until the signal drops on relay 67G.",
+     "14."
+    ],
+    [
+     "Record the relay (67G) operating current value.",
+     "15."
+    ],
+    [
+     "Set the injection current value to 10 times the setting value on the relay.",
+     "16."
+    ],
+    [
+     "Increase the angle between voltage and current in the LAG direction using the angle control on the PHU-100 set until the relay signal drops, and record the LAG angle value using the dedicated switch.",
+     "17."
+    ],
+    [
+     "Reverse the current direction by changing the phase angle by 180 using the dedicated angle switch on the PHU-100 set.",
+     "18."
+    ],
+    [
+     "Increase the angle between voltage and current in the LEAD direction using the dedicated angle switch on the PHU-100 set until the relay signal drops, and record the angle value.",
+     "19."
+    ],
+    [
+     "Reconnect terminal No. (8) to relay 67G.",
+     "20."
+    ],
+    [
+     "Reset relay 67G.",
+     "21."
+    ],
+    [
+     "Remove test plug type HP2-C8 from the protection cell.",
+     "22."
+    ],
+    [
+     "Replace the relay glass cover and fasten it.",
+     "23."
+    ],
+    [
+     "Reset the lockout relay of relay 67G on the protection cell.",
+     "24."
+    ],
+    [
+     "Set the change-over switch (43) type BH-H7 for testing protection 67G to NORMAL on the protection cell.",
+     "25."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "General Inspection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Checking Item",
+     "Result"
+    ],
+    [
+     "Appearance casing",
+     ""
+    ],
+    [
+     "Tightness of fastening",
+     ""
+    ],
+    [
+     "Smooth rack in rack out",
+     ""
+    ],
+    [
+     "C.T. shorting provision",
+     ""
+    ],
+    [
+     "Inspection of printed card",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "I/O Operating Value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the operating value for each setting Io lap"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting : 60 , Input voltage (vo): 110v"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase angle :maximum torque angle (Io lag for vo)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the operating value for each setting Io lap",
+    "Setting : 60 , Input voltage (vo): 110v",
+    "Phase angle :maximum torque angle (Io lag for vo)"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Io tap setting",
+     "0.05",
+     "0.15",
+     "0.2",
+     "0.5",
+     "1.0",
+     "1.6",
+     "Result"
+    ],
+    [
+     "N",
+     "Operating Value",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Criteria: within the setting value (-,+) 5%"
+  },
+  {
+   "type": "paragraph",
+   "text": "VO-IO operating phase angle characteristic"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the operating value for each setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "IO setting :0.05+0.1 Input voltage : 110v"
+  },
+  {
+   "type": "paragraph",
+   "text": "Input current IO : IO setting x 10"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the operating value for each setting",
+    "IO setting :0.05+0.1 Input voltage : 110v",
+    "Input current IO : IO setting x 10"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Setting angle",
+     "0",
+     "45",
+     "60",
+     "Result"
+    ],
+    [
+     "N",
+     "Operating Value",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Criteria :0.85 ,0.274 (-,+) 5"
+  },
+  {
+   "type": "paragraph",
+   "text": "Device Name: Device Code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspected by: Signature: Execution Date:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company.\nMaintenance Procedures Information System.\nMaintenance Procedures Information System.\n | Protection. | Maintenance Procedures.\nDocument No.: EFR-024-r0a. | Equipment: Testing the earth leakage protection device on the main generator, 67G, tdg20b-eg2, Toshiba.\nIssued to: El-Walidia.\nStatus: Approved.\nApproval Date: 24 May 2005. | Procedure: Using a current and voltage injection set PHU-100.\nNext Review Date: May 2010.\nIntroduction.\nSafety Precautions.\nOpen the two switches of the circuit whose protection is to be tested, and open the circuit isolators.\nOpen a work permit.\nFence the work area.\nPlace the necessary warning signs.\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment.\nTools and Equipment Used.\n2 transformers 200/400, 1 kVA, single phase. | 1.\n1 three-phase switch. | 2.\nAvometer (Fluky 87). | 3.\n2 V-A AC current measuring instruments, model YOKOGAWA. | 4.\nTest comb model HP2-C8. | 5.\nTest Leads. | 6.\n1 Digital Phase Meter (KDK DPF-30N). | 7.\nContact point cleaning tools (spray CROWN-8276). | 8.\n2 current and voltage injection sets model PHU-100. | 9.\nProcedures to be Carried Out.\nSet the change-over switch (43) type BH-H7 for testing protection (G 67) to Test. | 1.\nRemove the front cover of the relay. | 2.\nClean the contact points using (spray CROWN-8276). | 3.\nClean the relay from dust using the air blower. | 4.\nShort points (11, 13, 15, 17), (15, 16), (13, 14), (11, 12), (17, 18) on test plug type HP2-C8. | 5.\nInsert test plug type HP2-C8. | 6.\nOpen the protection cell from the back. | 7.\nDisconnect voltage terminal No. 8 on relay (67G), keeping the terminal screw. | 8.\nConnect the current injection leads to points (27, 28) in the test plug as shown in the illustration. | 9.\nConnect the voltage injection leads to points (7, 8) on relay (67G) as shown in the figure. | 10.\nInject voltage at 110 V. | 11.\nRaise the current gradually until you can read the phase difference between voltage and current. | 12.\nSet the angle to 60, voltage on Input and current on Reference. | 13.\nRaise the current gradually until the signal drops on relay 67G. | 14.\nRecord the relay (67G) operating current value. | 15.\nSet the injection current value to 10 times the setting value on the relay. | 16.\nIncrease the angle between voltage and current in the LAG direction using the angle control on the PHU-100 set until the relay signal drops, and record the LAG angle value using the dedicated switch. | 17.\nReverse the current direction by changing the phase angle by 180 using the dedicated angle switch on the PHU-100 set. | 18.\nIncrease the angle between voltage and current in the LEAD direction using the dedicated angle switch on the PHU-100 set until the relay signal drops, and record the angle value. | 19.\nReconnect terminal No. (8) to relay 67G. | 20.\nReset relay 67G. | 21.\nRemove test plug type HP2-C8 from the protection cell. | 22.\nReplace the relay glass cover and fasten it. | 23.\nReset the lockout relay of relay 67G on the protection cell. | 24.\nSet the change-over switch (43) type BH-H7 for testing protection 67G to NORMAL on the protection cell. | 25.\nTest Sheet\nRelay Test\nGeneral Inspection\nChecking Item | Result\nAppearance casing | \nTightness of fastening | \nSmooth rack in rack out | \nC.T. shorting provision | \nInspection of printed card | \nI/O Operating Value\nMeasure the operating value for each setting Io lap\nSetting : 60 , Input voltage (vo): 110v\nPhase angle :maximum torque angle (Io lag for vo)\nMeasure the operating value for each setting Io lap\nSetting : 60 , Input voltage (vo): 110v\nPhase angle :maximum torque angle (Io lag for vo)\nPhase | Io tap setting | 0.05 | 0.15 | 0.2 | 0.5 | 1.0 | 1.6 | Result\nN | Operating Value |  |  |  |  |  |  | \nCriteria: within the setting value (-,+) 5%\nVO-IO operating phase angle characteristic\nMeasure the operating value for each setting\nIO setting :0.05+0.1 Input voltage : 110v\nInput current IO : IO setting x 10\nMeasure the operating value for each setting\nIO setting :0.05+0.1 Input voltage : 110v\nInput current IO : IO setting x 10\nPhase | Setting angle | 0 | 45 | 60 | Result\nN | Operating Value |  |  |  | \nCriteria :0.85 ,0.274 (-,+) 5\nDevice Name: Device Code:\nInspected by: Signature: Execution Date:",
+ "translation_review": "draft — needs human review before operational use"
 }
