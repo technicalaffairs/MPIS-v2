@@ -1,0 +1,1282 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-aps-002-r0-htm",
+ "doc_number": "APS-002-R0",
+ "title_en": "APS-002-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/APS-002-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the testing procedure P1, which must be performed every \n six months as indicated by M6 in the title block"
+  },
+  {
+   "type": "paragraph",
+   "text": "This patent concerns the test of protection relays for the indoor 6.3 kv \n circuit breakers manufactured by ABB ARAB. The CB`s are of types HB 07, 12.40 \n V, HC 07, 25.40 V, HD4 12.16.40 and HD4 12.15.40 rating currents 1250A, \n 2500A, 1600A, 2500A respectively and short circuit capacity 40 KA , 3 sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated and tested by manger eng. Mahmoud Ibrahim Mahmoud, \n tested by eng Khalid Abou Alftoohg Hasan accepted by general director eng. \n Metwaly Elhendawy, and approvd by eng. Farouk Awad Aly pre-sector head Talkha \n PS. The following protection devices are used to protect the motors and \n transformers of 6.3 kv"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document reviewed by MDEPC quality control eng. Adel Abd El Kader El \n Nagar accepted by eng Samir Abd El Gilil MDEPC inspection & quality control \n general director MPIS coordinator and certified by accountant Mohamed Nageeb \n MDEPC inspection & quality control head sector"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the qualified test staff should carry the \n suitable safely category",
+    "Safety fence with caution marks and no smoking signs surrounding the work area \n must be used",
+    "Wearing safety helmet, shoes, cloths, and masks are necessary",
+    "Be aware of parts under voltage",
+    "Disconnect the cell of work",
+    "Draw the CB of the concerned cell in the 6.3 kv hall",
+    "Put the CB at test position",
+    "Check the indicating lamps of the cell",
+    "Check the existence of DC of the cell"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A bag of screws and nail",
+    "Two testers units of type Z11",
+    "Some wires",
+    "A timer TM - 2 (program)",
+    "A voltmeter and an ammeter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The Protection Devices for Motors"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Under voltage device.",
+    "Multi function motor protection device ( S.C. O.C. \n current negative phase sequence earth fault )."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The Protection Devices for Transformer"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Under voltage.",
+    "Earth fault.",
+    "Short circuit + Over current.",
+    "Differential.",
+    "Zero sequence relays."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Three Phase \nOver Voltage and Under Voltage Device (SPAU 130 C)Figure(1)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type",
+     "SPAU 130 C",
+     "Insulation test voltage for 1 min : Vp",
+     "2b KV EFF"
+    ],
+    [
+     "Function",
+     "Multifunction",
+     "Frequency fn=",
+     "50/60 HZ"
+    ],
+    [
+     "Manufacturer",
+     "ABB (finland)",
+     "Un rated voltage",
+     "100V"
+    ],
+    [
+     "Setting",
+     "0.7 Un, T motor =5 sec",
+     "Auxiliary voltage",
+     "220 V dc"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Included functions \nF 27 under voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unbalance protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 V DC control voltage on the \n terminals (61,62)",
+    "Disconnect the D.C.",
+    "Loosen phase R(13, 14 ) phase S(16,17) and phase T \n (19,20) of the device and pit Z11 leads, see figure 1",
+    "Put timer leads on ( 65, 66 ) .",
+    "Reconnect the D.C.",
+    "Inject a voltage through Z11 till the reset value to \n remove the fault sign of the device ( yellow one )",
+    "Decrease the voltage again to record the pick up (operating) value",
+    "The timer starts counting at this moment and closes \n after the rated time. The trip sign (red one) shows up.",
+    "Record the results for three phases and compare them \n with the previous ones at table 1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Motor Protection (REM 610) \n(Figure 2)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi Function Motor Protection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type",
+     "REM 610",
+     "Insulation test voltage for 1 min: Vp",
+     "2 KVEFF"
+    ],
+    [
+     "Function",
+     "multifunction",
+     "Frequency fn =",
+     "50/60 HZ"
+    ],
+    [
+     "Manufacturer",
+     "ABB",
+     "(In) rated current",
+     "5 A"
+    ],
+    [
+     "Setting",
+     "Start -up",
+     "",
+     "Auxiliary voltage :",
+     "220 V dc"
+    ],
+    [
+     "Short circuit",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Earth fault",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Unbalance",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Included Function : \n Start - up supervision"
+  },
+  {
+   "type": "paragraph",
+   "text": "Short circuit \n protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth fault protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unbalance protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Short Circuit Current"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 Vdc. control \n voltage.",
+    "Disconnect D.C. switch. see figure 2",
+    "Put the leads of Z11 on (X2.1) Phase \n R(1,2) and phase T (5,6) of the device",
+    "Disconnect the trip leads either on \n (X4,1) or (16,17) or (18,19), and connect the timer leads on them.",
+    "Connect the D.C. again.",
+    "Inject the current by Z11.",
+    "Observe the device screen till it \n flashes indicating a certain mode.",
+    "At a certain time the timer stops \n and the screen displays the operating mode (I>>) \n .",
+    "Connect phase S(3,4) instead of \n phase R (1,2) see figure 1",
+    "Connect phase T (5.6) instead of phase S (3.4)",
+    "Record the results for phase R and \n phase S and phase T at table 3"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault"
+  },
+  {
+   "type": "paragraph",
+   "text": "The same procedures mentioned before. but\n put the leads of Z11 on (X2.1) phase N (7,8)Mode( I0>) \n will appear after its rated time on the device screen"
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the results for phase R, Phase S, and phase T at table 5"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unbalance Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "The same procedures mentioned before. do the \n same procedures of testing short circuit current Mode (I2>) \n will appear after its rated time on the device screen"
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the results for phase R, Phase S, and phase T at table 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Motor Protection (SPAM 150 C) \n(Figure 3)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi Function Motor Protection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type",
+     "SPAM 150 C",
+     "Insulation test voltage for 1 min: Vp",
+     "2 KVEFF"
+    ],
+    [
+     "Function",
+     "multifunction",
+     "Frequency fn =",
+     "50/60 HZ"
+    ],
+    [
+     "Manufacturer",
+     "ABB (finland)",
+     "(In) rated current",
+     "5 A"
+    ],
+    [
+     "Setting",
+     "Start -up",
+     "",
+     "Auxiliary voltage :",
+     "220 V dc"
+    ],
+    [
+     "Short circuit",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Earth fault",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Unbalance",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Included Function : \n Start - up supervision"
+  },
+  {
+   "type": "paragraph",
+   "text": "Short circuit \n protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth fault protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unbalance protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Short Circuit Current Protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 Vdc control voltage",
+    "Disconnect D.C. switch",
+    "Put the leads of Z11 on phase R (1,2) of the device see figure 3",
+    "Disconnect the trip leads either on (85,86) or (80,81) and connect the timer \n leads on them",
+    "Connect the D.C again",
+    "Inject the current by Z11",
+    "Observe the device screen till it flashes indicating a certain mode",
+    "At a certain time the timer stops and the screen displays the operating mode \n (I>>)",
+    "Connect phase S (4,5) instead of phase R (1,2)",
+    "Connect phase T (7,8) instead of phase S (4,5)",
+    "Record the results for phase R phase S and phase \n T at table 3"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth \nFault"
+  },
+  {
+   "type": "paragraph",
+   "text": "The \n same procedures mentioned before but put the leads of Z11 on phase N phase N \n (25,26) mode (10>) \n will appear after its rated time on the device screen"
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the results for \n phase R phase S and phase T at table 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unbalance Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "The same procedures \n mentioned before Do the same procedures of testing short circuit current mode \n (I2>) \n will appear after its rated time on the device screen"
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the results for \n phase R phase S and phase T at table 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi Function \nTransformer Protection (SPAJ 140 C) \nFigure 4"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over current protection & earth fault \n protection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type",
+     "SPAJ 140 C",
+     "Insulation test voltage for 1 min : \n VP",
+     "2 KV EFF"
+    ],
+    [
+     "Function F50/51N",
+     "Multifunction",
+     "Frequency fn :",
+     "50/60 HZ"
+    ],
+    [
+     "Manufacturer",
+     "ABB (finland)",
+     "(In) rated current",
+     "5 A"
+    ],
+    [
+     "Setting",
+     "Over current",
+     "",
+     "Auxiliary voltage:",
+     "220 V dc"
+    ],
+    [
+     "Earth fault",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Included functions \nOver current protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth fault protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current \nprotection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 Vdc, control \n voltage.",
+    "Disconnect the D.C. switch.",
+    "Put the leads of Z11 on phase R \n (1,2) of the device. see figure 4",
+    "Disconnect the trip leads either on \n (85,86) or (80,81), and connect the timer leads on them",
+    "Connect the D.C. again.",
+    "Inject the current by Z11.",
+    "Observe the device screen till it flashes indicating a certain mode",
+    "At a certain time the timer stops \n and the screen displays the operating mode (I>> \n )",
+    "Connect phase S (4,5) instead of phase R (1,2)",
+    "Connect phase T (7,8) instead of phase S (4,5)",
+    "Record the results for phase R, \n phase S and phase T at table 4"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential Protection \n(SPAD 346 C) (Figure \n5)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type",
+     "SPAD 346 C",
+     "Insulation test voltage for 1 min : \n VP",
+     "2 KV EFF"
+    ],
+    [
+     "Function : F 87",
+     "Differential",
+     "Frequency fn :",
+     "50/60 HZ"
+    ],
+    [
+     "Manufacturer :",
+     "ABB (finland)",
+     "(In) rated current",
+     "1 A"
+    ],
+    [
+     "Setting",
+     "0.2 In",
+     "Auxiliary voltage:",
+     "220 V dc"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 \n Vdc, control voltage.",
+    "Inject current by \n Z11 in(13,14)&(16,17) & (19, 20) on the rosette for the incoming cubicles [low \n tension side ].see figure 5",
+    "Inject current by Z11 in \n (13,14) & (16,17) & (19, 20) on the rosette for the transformers [low \n tension side ].",
+    "Increase the \n injected current till the red lamp of the device switches on. The relay trips \n instantaneously in each case.",
+    "Inject current by \n Z11 in(1,2)& (4,5) & (7,8) on the rosette for the incoming \n cubicles [high tension side].",
+    "Inject current by Z11 in \n (1,2) & (4,5) & (7,8) on the rosette for the transformers [high \n tension side ].",
+    "Record the \n results for both sides at table 6"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finally Maintenance Procedures"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect all the testing leads and estrange the \n testing tools.",
+    "Put the C.B. in its original state to be on service \n any time.",
+    "Press the RESET \n button for the devices and check the relay setting .",
+    "Connect the D.C. after the limit switch connection.",
+    "Make the place clean of work signs."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet For Motors 6kv \nProtection Relays \nTabe 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power station : \nManufacturer: ABB \n Bay :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Three - phase over voltage (zero sequence relay (E.F.R.)"
+  },
+  {
+   "type": "paragraph",
+   "text": "and under voltage device (SPAU 130 C) figure 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : SPAU 130 C \nFunctions : F 27/ F27 G \nVp = 2 KV EFF"
+  },
+  {
+   "type": "paragraph",
+   "text": "P.T : \nP.T.R. : \nFn =50/60 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting : 0.7 Un = 100 V, T motor = 5 sec Auxiliary \nvoltage : 220 V dc Un rated voltage = 100V"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relays",
+     "Setting",
+     "Set value",
+     "Reset value",
+     "Reset factor"
+    ],
+    [
+     "Under voltage F 27",
+     "0.7 Un, 5 sec",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Unbalance voltage F 27G",
+     "0.2Un, 1.5 sec",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Last test date : \nTest data:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by : \nSignature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reviewed by : \nSignature :\nApproved by : \nSignature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Motor \nProtection Relay \n(Table 2)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : REM 610",
+     "Vp=2KVEFF",
+     "ABB Switzerland"
+    ],
+    [
+     "Function: F49/50",
+     "Fn = 50/60 HZ",
+     "In Rated \n current =:5A"
+    ],
+    [
+     "C.T.",
+     "C.T.R.",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "t1>>"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "I>"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "I2"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "I0"
+  },
+  {
+   "type": "paragraph",
+   "text": "t10"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "T"
+  },
+  {
+   "type": "paragraph",
+   "text": "E"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Signature:"
+    ],
+    [
+     "",
+     "Signature:"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Motor protection / over current / over load table 3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay type REM 610"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit no : \nFeed water pump no: \nRelay no :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay rating :"
+  },
+  {
+   "type": "paragraph",
+   "text": "INR = 5 A \nFN = 50 Hz"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rated data of the protection unit :"
+  },
+  {
+   "type": "paragraph",
+   "text": "SN = 3700 A, UN = 6000 V, \nIN = 418 A \nIS = 5.5IN"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ts = 5 sec, C.T. ratio = \n500 / 5 A"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Mode - symbol",
+     "Setting value",
+     "Actual value",
+     "State"
+    ],
+    [
+     "Scaling factor PU = 500 A/ 418 A",
+     "1.2",
+     "",
+     ""
+    ],
+    [
+     "Start - up current Is\n >",
+     "5.6 IN",
+     "",
+     ""
+    ],
+    [
+     "Start - up time Ts\n >",
+     "6 sec",
+     "",
+     ""
+    ],
+    [
+     "Short circuit current I\n >>",
+     "7 IN",
+     "29.4 A",
+     ""
+    ],
+    [
+     "Short circuit time t\n >>",
+     "0.15 sec",
+     "0.16 sec",
+     ""
+    ],
+    [
+     "Earth fault current Io\n >",
+     "16 % IN",
+     "0.67 A",
+     ""
+    ],
+    [
+     "Earth fault time to\n >",
+     "0.15 sec",
+     "0.175 sec",
+     ""
+    ],
+    [
+     "Negative phase sequence current I2\n >",
+     "0.1 IN",
+     "0.42 A",
+     ""
+    ],
+    [
+     "Time constant at IDMT charct. K2",
+     "5",
+     "",
+     ""
+    ],
+    [
+     "Prior alarm level\n θa >",
+     "95%",
+     "",
+     ""
+    ],
+    [
+     "Restart inhibit level\n θi >",
+     "50%",
+     "",
+     ""
+    ],
+    [
+     "Save still time t6x",
+     "20 sec",
+     "",
+     ""
+    ],
+    [
+     "Weighting factor P",
+     "50%",
+     "",
+     ""
+    ],
+    [
+     "Time constant multiplier Kc",
+     "4",
+     "",
+     ""
+    ],
+    [
+     "Ambient temperature",
+     "40Cº",
+     "",
+     ""
+    ],
+    [
+     "Restart inhibit time value\n ∑tsi",
+     "25 sec",
+     "",
+     ""
+    ],
+    [
+     "Countdown rate of start up time \n counter ∆∑",
+     "15 sec/h",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "SGF1",
+     "0",
+     "SGF2",
+     "0",
+     "SGF3",
+     "2",
+     "SGF4",
+     "0",
+     "SGF5",
+     "0"
+    ],
+    [
+     "SGR1",
+     "6698",
+     "SGR2",
+     "6698",
+     "SGR3",
+     "0",
+     "SGR4",
+     "9557",
+     "SGR5",
+     "9557"
+    ],
+    [
+     "SGB1",
+     "0",
+     "SGB2",
+     "0",
+     "SGB3",
+     "0",
+     "SGB4",
+     "0",
+     "SGB5",
+     "0"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "SGL1 θa \n >",
+     "SGL2 I>>",
+     "SGL3 Io>",
+     "SGL4 motor\n start",
+     "SGL5 I2>",
+     "SGL6 Is>",
+     "SGL7 Restart inhabit",
+     "SGL8 θa>"
+    ],
+    [
+     "21---2",
+     "61---32",
+     "81---128",
+     "41---8",
+     "91---256",
+     "51---16",
+     "31---4",
+     "11---1"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Last test data : \nTest data :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by : \nSignature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reviewed by : \nSignature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by : \n.Signature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current & Short Circuit Relay \n(Figure 3)Table 4"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power station : \nManufacturer: \n Bay :"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : SPAM 150 C \n Fn=50/60HZ",
+     "Function: F 50/51",
+     "In Rated \n current =:5A"
+    ],
+    [
+     "C.T. :",
+     "C.T.R :",
+     "Auxiliary voltage: 220 Vdc"
+    ],
+    [
+     "Over current setting : Ir = In, T = 6 sec",
+     "Vp = 2KVEFF",
+     "Short Circuit setting : 15 In"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Set value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset factor"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "O.C"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Ir \n = In, 6 sec"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S.C"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "15 In"
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Last test data : \nTest data :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by : \nSignature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reviewed by : \nSignature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by : \n.Signature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault Relay \n(Figure 4) Table 5"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : SPAJ 140 C",
+     "Function: F51N",
+     "ABB (Switzerland)"
+    ],
+    [
+     "C.T. :",
+     "C.T.R :",
+     "Auxiliary voltage: 220 Vdc"
+    ],
+    [
+     "Setting: 0.2In, T = 0.1 sec",
+     "Fn=50/60HZ",
+     "In (Rated \n Current) = 1A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Set value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "0.2 In , 0.1 sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Last test data : \nTest data :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by : \nSignature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reviewed by : \nSignature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by : \n.Signature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential Relay\n(Figure 5) Table 6"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "C.T. ( H.T.S. ) :",
+     "C.T.R. ( H.T.S. ) :",
+     "In (Rated Current = 5 A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "L.T.S."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Set value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset factor"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Signature:"
+    ],
+    [
+     "",
+     "Signature:"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "MOTOR PROTECTION RELAY MCX 912"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "FIGURE 4: INCOMING 1 BA ONLY"
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed every \n six months as indicated by M6 in the title block\nThis patent concerns the test of protection relays for the indoor 6.3 kv \n circuit breakers manufactured by ABB ARAB. The CB`s are of types HB 07, 12.40 \n V, HC 07, 25.40 V, HD4 12.16.40 and HD4 12.15.40 rating currents 1250A, \n 2500A, 1600A, 2500A respectively and short circuit capacity 40 KA , 3 sec\nThe first draft initiated and tested by manger eng. Mahmoud Ibrahim Mahmoud, \n tested by eng Khalid Abou Alftoohg Hasan accepted by general director eng. \n Metwaly Elhendawy, and approvd by eng. Farouk Awad Aly pre-sector head Talkha \n PS. The following protection devices are used to protect the motors and \n transformers of 6.3 kv\nThis document reviewed by MDEPC quality control eng. Adel Abd El Kader El \n Nagar accepted by eng Samir Abd El Gilil MDEPC inspection & quality control \n general director MPIS coordinator and certified by accountant Mohamed Nageeb \n MDEPC inspection & quality control head sector\nSafety Precautions\nA work permit must be issued and the qualified test staff should carry the \n suitable safely category\nSafety fence with caution marks and no smoking signs surrounding the work area \n must be used\nWearing safety helmet, shoes, cloths, and masks are necessary\nBe aware of parts under voltage\nDisconnect the cell of work\nDraw the CB of the concerned cell in the 6.3 kv hall\nPut the CB at test position\nCheck the indicating lamps of the cell\nCheck the existence of DC of the cell\nTools and Equipment\nA bag of screws and nail\nTwo testers units of type Z11\nSome wires\nA timer TM - 2 (program)\nA voltmeter and an ammeter\nThe Protection Devices for Motors\nUnder voltage device.\nMulti function motor protection device ( S.C. O.C. \n current negative phase sequence earth fault ).\nThe Protection Devices for Transformer\nUnder voltage.\nEarth fault.\nShort circuit + Over current.\nDifferential.\nZero sequence relays.\nWork to be Carried Out\nThree Phase \nOver Voltage and Under Voltage Device (SPAU 130 C)Figure(1)\n\nIncluded functions \nF 27 under voltage\nUnbalance protection\nMeasure the 220 V DC control voltage on the \n terminals (61,62)\nDisconnect the D.C.\nLoosen phase R(13, 14 ) phase S(16,17) and phase T \n (19,20) of the device and pit Z11 leads, see figure 1\nPut timer leads on ( 65, 66 ) .\nReconnect the D.C.\nInject a voltage through Z11 till the reset value to \n remove the fault sign of the device ( yellow one )\nDecrease the voltage again to record the pick up (operating) value\nThe timer starts counting at this moment and closes \n after the rated time. The trip sign (red one) shows up.\nRecord the results for three phases and compare them \n with the previous ones at table 1\nMotor Protection (REM 610) \n(Figure 2)\nMulti Function Motor Protection\n\nIncluded Function : \n Start - up supervision\nShort circuit \n protection\nEarth fault protection\nUnbalance protection\nShort Circuit Current\nMeasure the 220 Vdc. control \n voltage.\nDisconnect D.C. switch. see figure 2\nPut the leads of Z11 on (X2.1) Phase \n R(1,2) and phase T (5,6) of the device\nDisconnect the trip leads either on \n (X4,1) or (16,17) or (18,19), and connect the timer leads on them.\nConnect the D.C. again.\nInject the current by Z11.\nObserve the device screen till it \n flashes indicating a certain mode.\nAt a certain time the timer stops \n and the screen displays the operating mode (I>>) \n .\nConnect phase S(3,4) instead of \n phase R (1,2) see figure 1\nConnect phase T (5.6) instead of phase S (3.4)\nRecord the results for phase R and \n phase S and phase T at table 3\nEarth Fault\nThe same procedures mentioned before. but\n put the leads of Z11 on (X2.1) phase N (7,8)Mode( I0>) \n will appear after its rated time on the device screen\nRecord the results for phase R, Phase S, and phase T at table 5\nUnbalance Protection\nThe same procedures mentioned before. do the \n same procedures of testing short circuit current Mode (I2>) \n will appear after its rated time on the device screen\nRecord the results for phase R, Phase S, and phase T at table 2\nMotor Protection (SPAM 150 C) \n(Figure 3)\nMulti Function Motor Protection\n\nIncluded Function : \n Start - up supervision\nShort circuit \n protection\nEarth fault protection\nUnbalance protection\nShort Circuit Current Protection\nMeasure the 220 Vdc control voltage\nDisconnect D.C. switch\nPut the leads of Z11 on phase R (1,2) of the device see figure 3\nDisconnect the trip leads either on (85,86) or (80,81) and connect the timer \n leads on them\nConnect the D.C again\nInject the current by Z11\nObserve the device screen till it flashes indicating a certain mode\nAt a certain time the timer stops and the screen displays the operating mode \n (I>>)\nConnect phase S (4,5) instead of phase R (1,2)\nConnect phase T (7,8) instead of phase S (4,5)\nRecord the results for phase R phase S and phase \n T at table 3\nEarth \nFault\nThe \n same procedures mentioned before but put the leads of Z11 on phase N phase N \n (25,26) mode (10>) \n will appear after its rated time on the device screen\nRecord the results for \n phase R phase S and phase T at table 2\nUnbalance Protection\nThe same procedures \n mentioned before Do the same procedures of testing short circuit current mode \n (I2>) \n will appear after its rated time on the device screen\nRecord the results for \n phase R phase S and phase T at table 2\nMulti Function \nTransformer Protection (SPAJ 140 C) \nFigure 4\nOver current protection & earth fault \n protection\n\nIncluded functions \nOver current protection\nEarth fault protection\nOver Current \nprotection\nMeasure the 220 Vdc, control \n voltage.\nDisconnect the D.C. switch.\nPut the leads of Z11 on phase R \n (1,2) of the device. see figure 4\nDisconnect the trip leads either on \n (85,86) or (80,81), and connect the timer leads on them\nConnect the D.C. again.\nInject the current by Z11.\nObserve the device screen till it flashes indicating a certain mode\nAt a certain time the timer stops \n and the screen displays the operating mode (I>> \n )\nConnect phase S (4,5) instead of phase R (1,2)\nConnect phase T (7,8) instead of phase S (4,5)\nRecord the results for phase R, \n phase S and phase T at table 4\nDifferential Protection \n(SPAD 346 C) (Figure \n5)\n\nMeasure the 220 \n Vdc, control voltage.\nInject current by \n Z11 in(13,14)&(16,17) & (19, 20) on the rosette for the incoming cubicles [low \n tension side ].see figure 5\nInject current by Z11 in \n (13,14) & (16,17) & (19, 20) on the rosette for the transformers [low \n tension side ].\nIncrease the \n injected current till the red lamp of the device switches on. The relay trips \n instantaneously in each case.\nInject current by \n Z11 in(1,2)& (4,5) & (7,8) on the rosette for the incoming \n cubicles [high tension side].\nInject current by Z11 in \n (1,2) & (4,5) & (7,8) on the rosette for the transformers [high \n tension side ].\nRecord the \n results for both sides at table 6\nFinally Maintenance Procedures\nDisconnect all the testing leads and estrange the \n testing tools.\nPut the C.B. in its original state to be on service \n any time.\nPress the RESET \n button for the devices and check the relay setting .\nConnect the D.C. after the limit switch connection.\nMake the place clean of work signs.\nTest Sheet For Motors 6kv \nProtection Relays \nTabe 1\nPower station : \nManufacturer: ABB \n Bay :\nThree - phase over voltage (zero sequence relay (E.F.R.)\nand under voltage device (SPAU 130 C) figure 1\nType : SPAU 130 C \nFunctions : F 27/ F27 G \nVp = 2 KV EFF\nP.T : \nP.T.R. : \nFn =50/60 HZ\nSetting : 0.7 Un = 100 V, T motor = 5 sec Auxiliary \nvoltage : 220 V dc Un rated voltage = 100V\n\nComment\nLast test date : \nTest data:\nTested by : \nSignature :\nReviewed by : \nSignature :\nApproved by : \nSignature :\nMotor \nProtection Relay \n(Table 2)\n\nt1>>\nI>\nI2\nI0\nt10\nSetting\nT\nE\nS\nComment:\n\nMotor protection / over current / over load table 3\nRelay type REM 610\nUnit no : \nFeed water pump no: \nRelay no :\nRelay rating :\nINR = 5 A \nFN = 50 Hz\nRated data of the protection unit :\nSN = 3700 A, UN = 6000 V, \nIN = 418 A \nIS = 5.5IN\nTs = 5 sec, C.T. ratio = \n500 / 5 A\n\n\n\nComment\nLast test data : \nTest data :\nTested by : \nSignature :\nReviewed by : \nSignature :\nApproved by : \n.Signature :\nOver Current & Short Circuit Relay \n(Figure 3)Table 4\nPower station : \nManufacturer: \n Bay :\n\nSetting\nSet value\nReset value\nReset factor\nO.C\nIr \n = In, 6 sec\nR\nS\nT\nR\nS\nT\nR\nS\nT\nS.C\n15 In\nComment\nLast test data : \nTest data :\nTested by : \nSignature :\nReviewed by : \nSignature :\nApproved by : \n.Signature :\nEarth Fault Relay \n(Figure 4) Table 5\n\nSetting\nSet value\nReset value\n0.2 In , 0.1 sec\nComment\nLast test data : \nTest data :\nTested by : \nSignature :\nReviewed by : \nSignature :\nApproved by : \n.Signature :\nDifferential Relay\n(Figure 5) Table 6\n\nL.T.S.\nSet value\nReset value\nReset factor\nSetting\nR\nS\nT\nR\nS\nT\nR\nS\nT\nR\nS\nT\nComment\n\n\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-002-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-002-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-002-03.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-002-04.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-002-05.jpg",
+   "alt": ""
+  }
+ ]
+}

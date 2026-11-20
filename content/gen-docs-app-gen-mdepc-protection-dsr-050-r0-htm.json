@@ -1,0 +1,317 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-dsr-050-r0-htm",
+ "doc_number": "DSR-050-R0",
+ "title_en": "DsR-050-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/DsR-050-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n Distance Relay \n MICOM P437\n AREVA T&D"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The distance protection device P437 is used for selective short circuit \nprotection, ground fault protection, and overload protection in \nextra-high-voltage systems. The system can be operated as impedance-grounded or \nisolated-neutral systems."
+  },
+  {
+   "type": "paragraph",
+   "text": "All kinds of faults are detected including close-in three-phase; cross-country \nfaults, evolving faults and high-resistance earth faults"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check the proper \noperation and calibration of the relay. It is recommended this procedure to be \ncarried out on an annually bases. The document is formatted the way to minimize \nthe possibility of error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first is initiated by eng. Abd \nEl-Sattar Khalifa, tested by eng. Sidhom Nassef & eng. El-Sayed Edris, \nrevised by eng.Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \n general manager & eng. Samir Abdel-Gilil: quality control general \n director, approved by eng. Ahmad Sawan: head sector of Nubaria PS, and certified by eng. Mohamed Naguib: \nMDEPC\nquality control head sector"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear \n your safety and healthy equipment as safety helmet, safety shoes ... etc."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The maintenance staff should be trained, qualified, and carry the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Line isolation is required.",
+    "Make sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection.",
+    "Transmission Line must be grounded."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and \nEquipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "ISA DRTS tester."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads."
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA DRTS tester.",
+    "Test leads.",
+    "PC laptop with necessary software {ISAWIZARD and \nMicom S1-13- P437}",
+    "Tools bag."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.",
+    "Be sure that the DC power of the relay is correct by applying DC voltmeter \n across points (25,26 see fig.1) on the rear of the relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the Setting from the \nRelay using PC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the relay",
+    "Run the Micom S1 program, Read the setting and save it as URGENT FILE FOR P437 \n [name the feeder]"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Distance \nProtection Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Go to RESULTS from main menu choose HEADER and apply all information about \n this FEEDER and OK"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the ISA tester.",
+    "Be sure that ISA tester is connected to EARTH.",
+    "Switch ON ISA tester.",
+    "After ISA tester completely in service connect Currents, Voltages and binary \n input leads between ISA tester and test plug (X21-1 & X21-2) see figure 2) for\n Micom P437.",
+    "Make short between points (X21-1 13 &14) and points (X21-1 15 & 6 ) see figure 3",
+    "Run ISA Wizard software and design RIO file for P437 characteristic.",
+    "NOW you can choose two ways to test this relay.",
+    "Note: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, V=57V].",
+    "From TEST SELECTION chose automatic time zone (Z/T) and dont forget to \n adjust the test sequence as follow [fault = all faults, Z min = zero, Z max \n = as the setting, STEP =0.5 OHM, Angle [degree] = 0, after that click OK the \n tester will operate and test the R axis.",
+    "Repeat step 9, BUT choose angle = 90 the tester will test the X axis.",
+    "Choose STORE ALL TESTS >>>>.",
+    "Go to RESULTS from main menu choose HEADER and apply all information about \n this FEEDER and OK",
+    "Now print the results and you have complete test results for this relay.",
+    "From TEST SELECTION, choose Click and test and by curser click on the point \n which you need to test [generally choose all points on X and Y Axis].",
+    "Repeat steps from 11 to 13.",
+    "Now you have complete test results for this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Other Function \nTest"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Swing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "From main menu select TEST SELECTION select\n POWER SWING test and plot the setting.",
+    "Click Start",
+    "Chose STORE ALL TESTS",
+    "Go to RESULTS from main menu choose HEADER and apply all information about this \n FEEDER and OK.",
+    "Now print the results and you have complete test results for this function."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch on to \nFault ( SOTF )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "From main menu select TEST SELECTION select SOTF test and plot the \n setting from Rio file.",
+    "Make prefault at zero current and voltage",
+    "Click ok.",
+    "Inject current and voltage as fault case in any zone Z2 or Z3",
+    "Click Start.",
+    "Choose STORE ALL TESTS, from results will see that the time at all \n faults is equal to Z1 time.",
+    "From results will see that the time at all faults is equal Z1 time."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current \n(O/C)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "RUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> X-PRO \n >>>>MANUAL MODE>>>>",
+    "GENERATE PREFAULT CONDITION [I=0.001A, V=57V].",
+    "Disable distance functions.",
+    "SELECT FAULT AND INJECT CURRENT VALUE EQUAL TO (I Setting*1.01) to determine \n the operating time",
+    "Click Start.",
+    "Repeat steps from 1 to 5 for all phases R, S, and T."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note that: You can inject on three phase one time."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Choose STORE ALL TESTS."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault \n(E/F)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat steps from 1 to 5 for all phases R, S, and T."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Run ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>>X-PRO \n >>>>MANUAL MODE>>>>",
+    "GENERATE PREFAULT CONDITION [I=0.001A]",
+    "Disable \n distance functions.",
+    "SELECT FAULT and INJECT CURRENT VALUE EQUAL to (I Setting*1.01) to determine \n the operating time",
+    "Click Start.",
+    "Note that: the injection should be on one single phase by phase not on three \n phases or on two phases.",
+    "Choose store all testes"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return \nRelay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enable any function which was disabled.",
+    "Return relay to service by removing the test leads from the relay terminals \n and the test set.",
+    "Make sure CT and VT secondary circuits are in normal condition.",
+    "Remove the disturbance alarm LED's on the relay which is caused by the test.",
+    "Request feeder to be returned in service",
+    "Take pharos readings of all AC currents and voltages and compare them to those \n for normal load condition.",
+    "Check that these reading agree with station meters (MW, \n Mvar, Amperes and \n power factor).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Fault Type L1 XR"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "",
+     "R",
+     "",
+     "",
+     "Zone",
+     "",
+     "Ph (V1)",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location / \nFeeder: Relay Code: \nTested by: Test \nDate: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1 : Protection Panel"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2 : Protection Measuring Circuits"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 3 : Inputs & Outputs Circuits"
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\n Distance Relay \n MICOM P437\n AREVA T&D\nIntroduction\nThe distance protection device P437 is used for selective short circuit \nprotection, ground fault protection, and overload protection in \nextra-high-voltage systems. The system can be operated as impedance-grounded or \nisolated-neutral systems.\nAll kinds of faults are detected including close-in three-phase; cross-country \nfaults, evolving faults and high-resistance earth faults\nThis procedure details the steps required to completely check the proper \noperation and calibration of the relay. It is recommended this procedure to be \ncarried out on an annually bases. The document is formatted the way to minimize \nthe possibility of error causing personal injury or damage to equipment.\nThe first is initiated by eng. Abd \nEl-Sattar Khalifa, tested by eng. Sidhom Nassef & eng. El-Sayed Edris, \nrevised by eng.Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \n general manager & eng. Samir Abdel-Gilil: quality control general \n director, approved by eng. Ahmad Sawan: head sector of Nubaria PS, and certified by eng. Mohamed Naguib: \nMDEPC\nquality control head sector\nSafety \nPrecautions\nWear \n your safety and healthy equipment as safety helmet, safety shoes ... etc.\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection.\nTransmission Line must be grounded.\nTools and \nEquipment\nISA DRTS tester.\nTest leads.\nISA DRTS tester.\nTest leads.\nPC laptop with necessary software {ISAWIZARD and \nMicom S1-13- P437}\nTools bag.\nWork to be carried out\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying DC voltmeter \n across points (25,26 see fig.1) on the rear of the relay\nReading the Setting from the \nRelay using PC\nConnect the personal computer to the relay\nRun the Micom S1 program, Read the setting and save it as URGENT FILE FOR P437 \n [name the feeder]\nDistance \nProtection Test\nGo to RESULTS from main menu choose HEADER and apply all information about \n this FEEDER and OK\nConnect the personal computer to the ISA tester.\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nAfter ISA tester completely in service connect Currents, Voltages and binary \n input leads between ISA tester and test plug (X21-1 & X21-2) see figure 2) for\n Micom P437.\nMake short between points (X21-1 13 &14) and points (X21-1 15 & 6 ) see figure 3\nRun ISA Wizard software and design RIO file for P437 characteristic.\nNOW you can choose two ways to test this relay.\nNote: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, V=57V].\nFrom TEST SELECTION chose automatic time zone (Z/T) and dont forget to \n adjust the test sequence as follow [fault = all faults, Z min = zero, Z max \n = as the setting, STEP =0.5 OHM, Angle [degree] = 0, after that click OK the \n tester will operate and test the R axis.\nRepeat step 9, BUT choose angle = 90 the tester will test the X axis.\nChoose STORE ALL TESTS >>>>.\nGo to RESULTS from main menu choose HEADER and apply all information about \n this FEEDER and OK\nNow print the results and you have complete test results for this relay.\nFrom TEST SELECTION, choose Click and test and by curser click on the point \n which you need to test [generally choose all points on X and Y Axis].\nRepeat steps from 11 to 13.\nNow you have complete test results for this relay.\nOther Function \nTest\nPower Swing\nFrom main menu select TEST SELECTION select\n POWER SWING test and plot the setting.\nClick Start\nChose STORE ALL TESTS\nGo to RESULTS from main menu choose HEADER and apply all information about this \n FEEDER and OK.\nNow print the results and you have complete test results for this function.\nSwitch on to \nFault ( SOTF )\nFrom main menu select TEST SELECTION select SOTF test and plot the \n setting from Rio file.\nMake prefault at zero current and voltage\nClick ok.\nInject current and voltage as fault case in any zone Z2 or Z3\nClick Start.\nChoose STORE ALL TESTS, from results will see that the time at all \n faults is equal to Z1 time.\nFrom results will see that the time at all faults is equal Z1 time.\nOver Current \n(O/C)\nRUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> X-PRO \n >>>>MANUAL MODE>>>>\nGENERATE PREFAULT CONDITION [I=0.001A, V=57V].\nDisable distance functions.\nSELECT FAULT AND INJECT CURRENT VALUE EQUAL TO (I Setting*1.01) to determine \n the operating time\nClick Start.\nRepeat steps from 1 to 5 for all phases R, S, and T.\nNote that: You can inject on three phase one time.\nChoose STORE ALL TESTS.\nEarth Fault \n(E/F)\nRepeat steps from 1 to 5 for all phases R, S, and T.\nRun ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>>X-PRO \n >>>>MANUAL MODE>>>>\nGENERATE PREFAULT CONDITION [I=0.001A]\nDisable \n distance functions.\nSELECT FAULT and INJECT CURRENT VALUE EQUAL to (I Setting*1.01) to determine \n the operating time\nClick Start.\nNote that: the injection should be on one single phase by phase not on three \n phases or on two phases.\nChoose store all testes\nReturn \nRelay and Associated Equipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service\nTake pharos readings of all AC currents and voltages and compare them to those \n for normal load condition.\nCheck that these reading agree with station meters (MW, \n Mvar, Amperes and \n power factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\n\n\nLocation / \nFeeder: Relay Code: \nTested by: Test \nDate: Signature:\nFigure 1 : Protection Panel\nFigure 2 : Protection Measuring Circuits\nFigure 3 : Inputs & Outputs Circuits",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-051-01.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-050-04.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-050-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-050-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-050-03.jpg",
+   "alt": ""
+  }
+ ]
+}

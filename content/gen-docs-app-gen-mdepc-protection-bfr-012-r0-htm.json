@@ -1,0 +1,219 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-bfr-012-r0-htm",
+ "doc_number": "BFR-012-R0",
+ "title_en": "BFR-012-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/BFR-012-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check the proper \noperation and calibration of the relay. It is recommended this procedure be \ncarried out on an annually bases."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the possibility of error causing \npersonal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "P143 is designed around a common hardware and software platform in order to \nachieve a high degree of conformity between products, using a wide variety of \nprotection and automatic control function, the MICOM over current relays can \nprovide protection for many applications including over head line. P143 is \nprovided by Synchro check and circuit breaker fail protection with tow stage \nbreaker fail protection."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first is initiated by eng. Mohamed Mansour Eid, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil; MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear \n your safety and healthy equipment as safety helmet, safety shoes ... etc."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure that CT secondary circuits are shorted before isolating the relay \ncurrent circuits for test distance protection."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The maintenance staff should be trained, qualified, and carry the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Make sure that CT secondary circuits are shorted before isolating the relay \ncurrent circuits for test distance protection.",
+    "Line isolation is required.",
+    "Transmission Line must be grounded."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "ISA DRTS tester"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA DRTS tester",
+    "Test leads.",
+    "PC laptop with necessary software {ISAWIZARD \n and ENER VISTA}",
+    "Tools bag."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.",
+    "Be sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (J1-),(J2+) on the rear of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the Setting from the \nRelay using the PC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the relay.",
+    "Run MICOM S1 program.",
+    "Switch ON ISA tester",
+    "After ISA tester completely in service connect currents, voltages and binary \n input leads between ISA tester and test bluge (X50-1) for MCOM P143.",
+    "Make short between points (X50-1 13&14) and points (X50-1 15&16)",
+    "Read the setting and safe it as urgent file for P143 [name the feeder]."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Breaker Failure Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Circuit Breaker Failure"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disable the other protection functions.",
+    "Connect DC voltage to initiate breaker fail input from source voltage of the \n relay.",
+    "GENERATE PRE-FAULT CONDITION [I=0.001A].",
+    "Choose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay",
+    "Select fault and short current value equal to (I Setting*1.05) to determine \n the operating time."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check Synchronizing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disable the other protection functions.",
+    "Disconnect voltage terminals from terminal block XV01[1,4,7,10,14 AND 15]",
+    "Use phase R-N [phase R tester] as Bus Bar voltage on (XV01 point 14, 15) and phase S-N \n [phase S tester] as feeder voltage on [XV01N POINT 4,10]",
+    "GENERATE PREFAULT CONDITION [VR=57 v, VS=45 v, VT=57 v].",
+    "Choose Delta ramp with step ∆V= 5 V on Phase S with phase angle = 0ْ ( i.e. \n VR and VS in phase ) to get pickup voltage (∆V) of the relay.",
+    "Choose Delta ramp with step ∆ = 2ْ on phase S (VR and VS= 57 V) to get \n pickup phase angle (∆) of the relay.",
+    "Choose Delta ramp with step ∆ F = 1 Hz on phase S (VR and VS= 57 V, VR and VS \n in phase) to get pickup phase angle (∆F) of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and associated \nEquipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enable any function which was disabled.",
+    "Return relay to service by removing the test leads from the relay terminals \n and the test set.",
+    "Make sure CT and VT secondary circuits are in normal condition.",
+    "Remove the disturbance alarm LED`s on the relay which is caused by the test.",
+    "Request feeder to be returned in service.",
+    "Take pharos readings of all AC currents and voltages and compare them to those \n for normal load condition.",
+    "Check that these reading agree with station meters (MW,\n Mvar, Amperes and power \n factor).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Feeder: Relay\nCode: \nTested by: \nTest Date: \nSignature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure ( 1 ): Micom P143 connection diagram (Protection Panel)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2 : Protection Measuring Circuits"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 3 : Inputs & Outputs Circuits"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 4 : Synchronizing Circuits"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 5 : Voltage Circuits"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThis procedure details the steps required to completely check the proper \noperation and calibration of the relay. It is recommended this procedure be \ncarried out on an annually bases.\nThe document is formatted the way to minimize the possibility of error causing \npersonal injury or damage to equipment.\nP143 is designed around a common hardware and software platform in order to \nachieve a high degree of conformity between products, using a wide variety of \nprotection and automatic control function, the MICOM over current relays can \nprovide protection for many applications including over head line. P143 is \nprovided by Synchro check and circuit breaker fail protection with tow stage \nbreaker fail protection.\nThe first is initiated by eng. Mohamed Mansour Eid, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil; MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nWear \n your safety and healthy equipment as safety helmet, safety shoes ... etc.\nMake sure that CT secondary circuits are shorted before isolating the relay \ncurrent circuits for test distance protection.\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nMake sure that CT secondary circuits are shorted before isolating the relay \ncurrent circuits for test distance protection.\nLine isolation is required.\nTransmission Line must be grounded.\nTools and Equipment\nISA DRTS tester\nISA DRTS tester\nTest leads.\nPC laptop with necessary software {ISAWIZARD \n and ENER VISTA}\nTools bag.\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (J1-),(J2+) on the rear of the relay.\nReading the Setting from the \nRelay using the PC\nConnect the personal computer to the relay.\nRun MICOM S1 program.\nSwitch ON ISA tester\nAfter ISA tester completely in service connect currents, voltages and binary \n input leads between ISA tester and test bluge (X50-1) for MCOM P143.\nMake short between points (X50-1 13&14) and points (X50-1 15&16)\nRead the setting and safe it as urgent file for P143 [name the feeder].\nBreaker Failure Protection\nCircuit Breaker Failure\nDisable the other protection functions.\nConnect DC voltage to initiate breaker fail input from source voltage of the \n relay.\nGENERATE PRE-FAULT CONDITION [I=0.001A].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay\nSelect fault and short current value equal to (I Setting*1.05) to determine \n the operating time.\nCheck Synchronizing\nDisable the other protection functions.\nDisconnect voltage terminals from terminal block XV01[1,4,7,10,14 AND 15]\nUse phase R-N [phase R tester] as Bus Bar voltage on (XV01 point 14, 15) and phase S-N \n [phase S tester] as feeder voltage on [XV01N POINT 4,10]\nGENERATE PREFAULT CONDITION [VR=57 v, VS=45 v, VT=57 v].\nChoose Delta ramp with step ∆V= 5 V on Phase S with phase angle = 0ْ ( i.e. \n VR and VS in phase ) to get pickup voltage (∆V) of the relay.\nChoose Delta ramp with step ∆ = 2ْ on phase S (VR and VS= 57 V) to get \n pickup phase angle (∆) of the relay.\nChoose Delta ramp with step ∆ F = 1 Hz on phase S (VR and VS= 57 V, VR and VS \n in phase) to get pickup phase angle (∆F) of the relay.\nReturn Relay and associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED`s on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to those \n for normal load condition.\nCheck that these reading agree with station meters (MW,\n Mvar, Amperes and power \n factor).\nPlace a copy of the test result in the field maintenance file.\nLocation: Feeder: Relay\nCode: \nTested by: \nTest Date: \nSignature:\nFigure ( 1 ): Micom P143 connection diagram (Protection Panel)\nFigure 2 : Protection Measuring Circuits\nFigure 3 : Inputs & Outputs Circuits\nFigure 4 : Synchronizing Circuits\nFigure 5 : Voltage Circuits",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/BFR-012-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/BFR-012-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/BFR-012-03.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/BFR-012-04.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/BFR-012-05.jpg",
+   "alt": ""
+  }
+ ]
+}

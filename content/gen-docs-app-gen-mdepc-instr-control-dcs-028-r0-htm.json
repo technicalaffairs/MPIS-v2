@@ -1,0 +1,212 @@
+{
+ "id": "gen-docs-app-gen-mdepc-instr-control-dcs-028-r0-htm",
+ "doc_number": "DCS-028-R0",
+ "title_en": "DCS-028-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/MDEPC/Instr+control/dcs-028-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n Bus Transmitter Module"
+  },
+  {
+   "type": "paragraph",
+   "text": "IC687BEM713\n Alstom"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: \n APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved \n Date: 25 Nov 2008"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: \n Nov 2013"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The IC687 Bus Transmitter Module (BTM) is used in a FIP single \nrack redundancy system. It provides a path for Redundancy communications when \nconnected to the Redundancy Communications Module (RCM) in the other half of the \ntwosection redundancy rack. Each section of this rack requires a Bus \nTransmitter Module and a Redundancy Communications Module. It also provides a \nhigh performance parallel interface to the programming device."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, \naccepted by general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan \nhead sector of Nubaria power station ."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Features"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Required for FIP Redundant Systems.",
+    "Two Bus Transmitter Modules required per system (in dual \n backplane redundancy rack).",
+    "Three LED indicators provide module, programmer port, and \n expansion port status.",
+    "No DIP switches to set, easy software configuration into MFC \n system.",
+    "High Performance Parallel \n Programmer Interface."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Status Indications"
+  },
+  {
+   "type": "paragraph",
+   "text": "Three green LEDs at top of module provide module status \ninformation as described below."
+  },
+  {
+   "type": "paragraph",
+   "text": "The top LED (MODULE OK) LED is ON when the CPU software completes \nits powerup configuration of the BTM, and has polled (or attempted to poll) \neach expansion rack in the system. It is OFF when any of these conditions are \nnot met."
+  },
+  {
+   "type": "paragraph",
+   "text": "The middle LED (Programmer Port Enabled) is the Programmer Port \nActive LED. This LED is either blinking or ON when the programmer and the MFC \nare communicating. It is OFF when they are not communicating. Note that this \nport is not used in communications between the Windows programmer and the PLC."
+  },
+  {
+   "type": "paragraph",
+   "text": "The bottom LED (Expansion Port Enabled) provides the status of \nthe redundancy communications link. This LED is either blinking or ON when the \nBTM is communicating with the Redundancy Communications Module connected to it \nthrough the IC697CBL803 cable. It is OFF when they are not communicating."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Three green LEDs at top of module provide module status \ninformation as described below.",
+    "The top LED (MODULE OK) LED is ON when the CPU software completes \nits powerup configuration of the BTM, and has polled (or attempted to poll) \neach expansion rack in the system. It is OFF when any of these conditions are \nnot met.",
+    "The middle LED (Programmer Port Enabled) is the Programmer Port \nActive LED. This LED is either blinking or ON when the programmer and the MFC \nare communicating. It is OFF when they are not communicating. Note that this \nport is not used in communications between the Windows programmer and the PLC.",
+    "The bottom LED (Expansion Port Enabled) provides the status of \nthe redundancy communications link. This LED is either blinking or ON when the \nBTM is communicating with the Redundancy Communications Module connected to it \nthrough the IC697CBL803 cable. It is OFF when they are not communicating."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Specifications for IC687BEM713"
+  },
+  {
+   "type": "paragraph",
+   "text": "Programmer \n Interface Specification"
+  },
+  {
+   "type": "paragraph",
+   "text": "Effective Data \n Rate"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time to store \n 16 Kbyte program"
+  },
+  {
+   "type": "paragraph",
+   "text": "500 Kbytes/sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "20 30 seconds"
+  },
+  {
+   "type": "paragraph",
+   "text": "Expansion \n Interface Specification"
+  },
+  {
+   "type": "paragraph",
+   "text": "Maximum cable \n length"
+  },
+  {
+   "type": "paragraph",
+   "text": "Effective Data \n Rate"
+  },
+  {
+   "type": "paragraph",
+   "text": "50 ft maximum per \n system"
+  },
+  {
+   "type": "paragraph",
+   "text": "500 Kbytes/sec"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Current \n Required from 5V Bus",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued"
+  },
+  {
+   "type": "list",
+   "items": [
+    "First, make sure rack power is turned off. Then, use a medium-blade, slotted \n screwdriver to loosen the top and bottom holding screws just enough to free \n the module from the rack. Note: Screws are held captive in the module, so \n they do not have to be removed from the module.",
+    "Grasp the board firmly at the top and bottom of the board cover with your \n thumbs on the front of the cover and your fingers on the plastic rack clips \n on the back of the cover.",
+    "Squeeze the rack clips on the back of the cover with your fingers to \n disengage the clips from the rack rail, and then pull the board firmly \n toward you until it clears the rack."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Complete tool set."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the supply voltage",
+    "Check the interface leds"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
+  }
+ ],
+ "text": "Power \n Stations\nTechnical Procedure\nEquipment\n Bus Transmitter Module\nIC687BEM713\n Alstom\nStatus: \n APPROVED\nApproved \n Date: 25 Nov 2008\nDate to be Reviewed: \n Nov 2013\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThe IC687 Bus Transmitter Module (BTM) is used in a FIP single \nrack redundancy system. It provides a path for Redundancy communications when \nconnected to the Redundancy Communications Module (RCM) in the other half of the \ntwosection redundancy rack. Each section of this rack requires a Bus \nTransmitter Module and a Redundancy Communications Module. It also provides a \nhigh performance parallel interface to the programming device.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, \naccepted by general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan \nhead sector of Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nRequired for FIP Redundant Systems.\nTwo Bus Transmitter Modules required per system (in dual \n backplane redundancy rack).\nThree LED indicators provide module, programmer port, and \n expansion port status.\nNo DIP switches to set, easy software configuration into MFC \n system.\nHigh Performance Parallel \n Programmer Interface.\nStatus Indications\nThree green LEDs at top of module provide module status \ninformation as described below.\nThe top LED (MODULE OK) LED is ON when the CPU software completes \nits powerup configuration of the BTM, and has polled (or attempted to poll) \neach expansion rack in the system. It is OFF when any of these conditions are \nnot met.\nThe middle LED (Programmer Port Enabled) is the Programmer Port \nActive LED. This LED is either blinking or ON when the programmer and the MFC \nare communicating. It is OFF when they are not communicating. Note that this \nport is not used in communications between the Windows programmer and the PLC.\nThe bottom LED (Expansion Port Enabled) provides the status of \nthe redundancy communications link. This LED is either blinking or ON when the \nBTM is communicating with the Redundancy Communications Module connected to it \nthrough the IC697CBL803 cable. It is OFF when they are not communicating.\nThree green LEDs at top of module provide module status \ninformation as described below.\nThe top LED (MODULE OK) LED is ON when the CPU software completes \nits powerup configuration of the BTM, and has polled (or attempted to poll) \neach expansion rack in the system. It is OFF when any of these conditions are \nnot met.\nThe middle LED (Programmer Port Enabled) is the Programmer Port \nActive LED. This LED is either blinking or ON when the programmer and the MFC \nare communicating. It is OFF when they are not communicating. Note that this \nport is not used in communications between the Windows programmer and the PLC.\nThe bottom LED (Expansion Port Enabled) provides the status of \nthe redundancy communications link. This LED is either blinking or ON when the \nBTM is communicating with the Redundancy Communications Module connected to it \nthrough the IC697CBL803 cable. It is OFF when they are not communicating.\nTechnical Specifications for IC687BEM713\nProgrammer \n Interface Specification\nEffective Data \n Rate\nTime to store \n 16 Kbyte program\n500 Kbytes/sec\n20 30 seconds\nExpansion \n Interface Specification\nMaximum cable \n length\nEffective Data \n Rate\n50 ft maximum per \n system\n500 Kbytes/sec\n\nSafety \nPrecautions\nA work permit must be issued\nFirst, make sure rack power is turned off. Then, use a medium-blade, slotted \n screwdriver to loosen the top and bottom holding screws just enough to free \n the module from the rack. Note: Screws are held captive in the module, so \n they do not have to be removed from the module.\nGrasp the board firmly at the top and bottom of the board cover with your \n thumbs on the front of the cover and your fingers on the plastic rack clips \n on the back of the cover.\nSqueeze the rack clips on the back of the cover with your fingers to \n disengage the clips from the rack rail, and then pull the board firmly \n toward you until it clears the rack.\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,658 @@
+{
+ "id": "gen-docs-app-gen-hyd-ep-protection-gps-004-r0-htm",
+ "doc_number": "GPS-004-R0",
+ "title_en": "GPS-004-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/Hyd EP/Protection/GPS-004-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n Main Generator Protection Scheme\n GPU-2000R\n ABB"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: \n APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date Approved: \n 19 January 2009"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: \n January 2014"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The protection relay for main generator GPU-2000R is a multifunction relay \n manufactured by ABB and this relay is a digital type. differential & phase \n time over current & phase instantaneous"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage controlled time & Loss of excitation & over voltage & volts / Hertz & \n distance / impedance & stator ground fault inadvertent energize & phase \n unbalance / negative sequence & over frequency fault function are utilized"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng.Tarik Abd Elmegeed, tested by eng. Abd \n Elhafez Farghaly, at 5 July 2008, \n and accepted by General Manager Eng. Saliem Ahmed Ali and approved by Eng. \n Abd Elnabi Abd Elghani Head \n Sector of High \n Dam PS station HPGC."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued",
+    "The maintenance staff should be \n trained, qualified, and carry the suitable safety ID category",
+    "Safety fence with caution marks \n surrounding the work area is required",
+    "Block out of service is required",
+    "Make sure all block test switches \n are out",
+    "Ensure all CT path elements are \n secure after any test disturbance"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Double F6150 test set",
+    "Laptop with ECP relay software \n downloaded",
+    "Voltmeter, test plug and test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be \ncarried out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual and drawings",
+    "Prepare the previous or commissioning results of the relay testing",
+    "Check the wires of the relay by hand",
+    "Check the AC source is available to the tester",
+    "Check the existence of the DC sources in panels",
+    "Insert the test plug into current & voltage test switches and connect it to \n the tester according to the drawing and scheme",
+    "Check all the leads used in tests"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure1, for the neutral phase a current \n transformer",
+    "Set the timer to start upon application of current and to stop when the \n contact monitor senses a closed contact",
+    "Apply the minimum current (0.2)A",
+    "The \"pickup\" LED on the relay should light and the contact should indicate a \n closed contact",
+    "The \"Differential\" LED should also light",
+    "The time for a differential trip should be approximately two (2) cycles",
+    "Repeat the above testes for the neutral phase B and the neutral phase C \n current transformers",
+    "Test the load side of the differential circuit",
+    "Repeat the above tests for the load phase A current transformer using the \n connections as shown in figure 1",
+    "Repeat the tests using the load phase B and the load phase C current \n transformer"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 51 P Phase Time Over Current Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connection as shown in figure 1, for phase to be tested",
+    "Apply a balance voltage of 57 volts RMS phase to neutral",
+    "Set a single phase of current to 6 amperes RMS",
+    "Set the timer to start upon application of current and to stop when the \n contact monitor senses a closed contact",
+    "Apply the current to the relay. The \"pickup\" Led should be lit and the unit \n should trip in 4.00 seconds 7% the \"over current / impedance\" LED should be \n lit",
+    "Repeat the test for the remaining phases listed as shown in figure 1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The (50P Phase Instantaneous & 51 VC Voltage \nControlled Time) Over Current Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 1, for the phase to be tested",
+    "Apply a balance 3-phase voltage of 40 phase voltage of volts RMS phase to \n neutral",
+    "Set a single phase of current to 6 amperes RMS",
+    "Slowly increase the current and to stop when the contact monitor senses a \n closed contact",
+    "The \"pickup\" LED should be lit and the \"over current\" LED should be flashing"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 40 Loss of Excitation Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 1, for the phase to be tested",
+    "Apply a balance 3-phase voltage of 57 phase to neutral volts RMS and set a \n 3-phase of current to 3 ampere RMS with a phase angle of 90\" leading",
+    "Slowly increase the current and to stop when the contact monitor senses a \n closed contact",
+    "The \"pickup\" LED should be lit and the \"loss of excitation\" LED should be \n flashing"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 59 Over Voltage Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 2, for the phase to be tested",
+    "Apply a single-phase voltage of 57 volts RMS to the relay",
+    "Slowly increase only the tested phase's voltage from 76 voltage RMS",
+    "The \"pickup\" LED is lit. This should occur when the voltage reaches 753% \n volts RMS. The relay should trip in 1 second later",
+    "The contact monitor should indicate a closed contact and the \"voltage - \n volts/Hertz\" Led should be lit",
+    "Repeat the above test with a balanced 3-phase voltage",
+    "Examine the operation records. All of the tests are indicated by a \"59 trip\" \n event"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 24 Volts/Hertz Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 2, for the phase to be tested",
+    "Apply a balance voltage of 57 volts RMS phase to neutral",
+    "Slowly increase the voltage and to stop when the contact monitor senses a \n closed contact",
+    "The \"pickup\" LED should be lit and the \"voltage-volts/hertz\" LED should be \n flashing"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 21-1a Distance / Impedance Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 1, for the phase to be tested",
+    "Apply a balance voltage of 10 volts RMS phase to neutral",
+    "Slowly increase the current and to stop when the contact monitor senses a \n closed contact",
+    "The \"pickup\" LED should be lit and the \"over current / impedance\" LED should \n be flashing"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 59G Stator Ground Fault Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 5, for the phase to be tested",
+    "Apply a balance voltage of 57 volts RMS phase to neutral",
+    "Apply a volts RMS at 50 hertz representing the V",
+    "Slowly increase the voltage V and to stop when the contact monitor \n senses a closed contact",
+    "The \"pickup\" LED should be lit and the \"stator ground\" LED should be flashing"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 27G Stator Ground 3rd Harm Under \nVoltage Fault Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 5, for the phase to be tested",
+    "Apply a balance voltage of 57 volts RMS phase to neutral",
+    "Apply a volts RMS at 150 hertz representing the V",
+    "Set a volts Vo.to 4 volt",
+    "Slowly decrease the voltage Vo and to stop when the contact monitor senses a \n closed contact",
+    "The \"pickup\" LED should be lit"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 50IE Inadvertent Energization Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 1, for the phase to be tested",
+    "Apply a balance three- phase voltage of 57 volts RMS phase to neutral",
+    "Apply a balance three-phase current of 3 amperes RMs at 50 HZ",
+    "Change the frequency setting to 46 Hz to the voltage and to stop when the \n contact monitor senses a closed contact",
+    "The \"pickup\" LED should be lit and the \"reverse power\" and the \"over current / \n impedance\" LED should be flashing"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 46 Phase Unbalance / Negative Sequence \nFunction"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 2, for the phase to be tested",
+    "Apply a balance three - phase voltage of 57 volts RMS phase to neutral",
+    "Set a single - phase current to 0.4 amperes RMS",
+    "Slowly increase the current and to stop when the contact monitor senses a \n closed contact",
+    "The \"pickup\" LED should be lit and the \"phase unbalance\" LED should be \n flashing"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The 81 Over Frequency Function"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make the connections as shown in figure 2, for the phase to be tested",
+    "Apply a balance three - phase voltage of 57 volts RMS phase to neutral at \n frequency of 50.0Hz",
+    "Slowly increase the frequency and to stop when the contact monitor senses a \n closed contact",
+    "The \"pickup\" LED should be lit and the \"frequency\" LED should be flashing"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Restoring the Relay into Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test plugs, and switch on test \n switches",
+    "Checks relay configuration and logic"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Phase A",
+     "",
+     "Phase B",
+     "",
+     "PhaseC"
+    ],
+    [
+     "50 PU",
+     "50 PU",
+     "",
+     "50 PU",
+     "",
+     "-------------"
+    ],
+    [
+     "Time delay",
+     "Time delay",
+     "",
+     "Time delay",
+     "",
+     "-------------"
+    ],
+    [
+     "Time delay",
+     "Time delay",
+     "",
+     "Time delay",
+     "",
+     "-------------"
+    ],
+    [
+     "",
+     "-------------",
+     "",
+     "-------------",
+     "",
+     "-------------"
+    ],
+    [
+     "",
+     "-------------",
+     "",
+     "-------------",
+     "",
+     "-------------"
+    ],
+    [
+     "",
+     "-------------",
+     "",
+     "-------------",
+     "",
+     "-------------"
+    ],
+    [
+     "51 PU",
+     "51PU",
+     "",
+     "51 PU",
+     "",
+     "-------------"
+    ],
+    [
+     "Time delay",
+     "Time delay",
+     "",
+     "Time delay",
+     "",
+     "-------------"
+    ],
+    [
+     "Time delay",
+     "Time delay",
+     "",
+     "Time delay",
+     "",
+     "-------------"
+    ],
+    [
+     "",
+     "-------------",
+     "",
+     "-------------",
+     "",
+     "-------------"
+    ],
+    [
+     "",
+     "-------------",
+     "",
+     "-------------",
+     "",
+     "-------------"
+    ],
+    [
+     "",
+     "-------------",
+     "",
+     "-------------",
+     "",
+     "-------------"
+    ],
+    [
+     "51 V Operate",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Voltage",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time delay",
+     "",
+     "",
+     "------------",
+     "",
+     ""
+    ],
+    [
+     "Time delay",
+     "-------------",
+     "",
+     "------------",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "(46) Negative sequence O/C"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Pu trip",
+     "----------",
+     "Time delay",
+     "--------------",
+     "",
+     ""
+    ],
+    [
+     "",
+     "-----------",
+     "",
+     "--------------",
+     "",
+     ""
+    ],
+    [
+     "81 Over frequency",
+     "",
+     ""
+    ],
+    [
+     "Time delay",
+     "",
+     ""
+    ],
+    [
+     "Pickup",
+     "-----------",
+     "",
+     "-------------",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "-------------",
+     "",
+     ""
+    ],
+    [
+     "",
+     "-----------",
+     "",
+     "-------------",
+     "",
+     ""
+    ],
+    [
+     "87 Machine differential"
+    ],
+    [
+     "",
+     "WDG2 PH A MIN UP ------",
+     "Time delay WDG1---------"
+    ],
+    [
+     "",
+     "WDG2 PH B MIN UP ------",
+     "Time delay WDG1---------"
+    ],
+    [
+     "",
+     "WDG2 PH C MIN UP ------",
+     ""
+    ],
+    [
+     "21-1A PU ohms",
+     "-------------",
+     "--------------",
+     "-----------"
+    ],
+    [
+     "Angle",
+     "--------------",
+     "---------------",
+     "-----------"
+    ],
+    [
+     "Time delay",
+     "--------------",
+     "---------------",
+     "------------"
+    ],
+    [
+     "40A / Loss of excitation protection"
+    ],
+    [
+     "40T offset",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Ohms",
+     "--------",
+     "",
+     "---------------",
+     "",
+     ""
+    ],
+    [
+     "40 T Dia/offset",
+     "---------",
+     "",
+     "---------------",
+     "",
+     ""
+    ],
+    [
+     "40 T time delay",
+     "--------",
+     "",
+     "---------------",
+     "",
+     ""
+    ],
+    [
+     "",
+     "--------",
+     "",
+     "--------------",
+     "",
+     ""
+    ],
+    [
+     "",
+     "--------",
+     "",
+     "--------------",
+     "",
+     ""
+    ],
+    [
+     "",
+     "--------",
+     "",
+     "--------------",
+     "",
+     ""
+    ],
+    [
+     "50IE inadvertent machine nen rgization"
+    ],
+    [
+     "O/C pickup",
+     "",
+     "Arming",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "----------",
+     "Frequency",
+     "----------------",
+     "",
+     ""
+    ],
+    [
+     "27 Ground under voltage"
+    ],
+    [
+     "Pickup",
+     "----------",
+     "Time delay",
+     "--------------",
+     "",
+     ""
+    ],
+    [
+     "59 ground over voltage"
+    ],
+    [
+     "Pickup",
+     "----------",
+     "Time delay",
+     "--------------",
+     "",
+     ""
+    ],
+    [
+     "59 Over voltage"
+    ],
+    [
+     "Pickup",
+     "----------",
+     "Time delay",
+     "--------------",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nEquipment\n Main Generator Protection Scheme\n GPU-2000R\n ABB\nStatus: \n APPROVED\nDate Approved: \n 19 January 2009\nDate to be Reviewed: \n January 2014\nIntroduction\nThe protection relay for main generator GPU-2000R is a multifunction relay \n manufactured by ABB and this relay is a digital type. differential & phase \n time over current & phase instantaneous\nVoltage controlled time & Loss of excitation & over voltage & volts / Hertz & \n distance / impedance & stator ground fault inadvertent energize & phase \n unbalance / negative sequence & over frequency fault function are utilized\nThe first draft initiated by eng.Tarik Abd Elmegeed, tested by eng. Abd \n Elhafez Farghaly, at 5 July 2008, \n and accepted by General Manager Eng. Saliem Ahmed Ali and approved by Eng. \n Abd Elnabi Abd Elghani Head \n Sector of High \n Dam PS station HPGC.\nSafety \nPrecautions\nA work permit must be issued\nThe maintenance staff should be \n trained, qualified, and carry the suitable safety ID category\nSafety fence with caution marks \n surrounding the work area is required\nBlock out of service is required\nMake sure all block test switches \n are out\nEnsure all CT path elements are \n secure after any test disturbance\nTools \nand Equipment\nDouble F6150 test set\nLaptop with ECP relay software \n downloaded\nVoltmeter, test plug and test leads\nWork to be \ncarried out\nReview the manual and drawings\nPrepare the previous or commissioning results of the relay testing\nCheck the wires of the relay by hand\nCheck the AC source is available to the tester\nCheck the existence of the DC sources in panels\nInsert the test plug into current & voltage test switches and connect it to \n the tester according to the drawing and scheme\nCheck all the leads used in tests\nMake the connections as shown in figure1, for the neutral phase a current \n transformer\nSet the timer to start upon application of current and to stop when the \n contact monitor senses a closed contact\nApply the minimum current (0.2)A\nThe \"pickup\" LED on the relay should light and the contact should indicate a \n closed contact\nThe \"Differential\" LED should also light\nThe time for a differential trip should be approximately two (2) cycles\nRepeat the above testes for the neutral phase B and the neutral phase C \n current transformers\nTest the load side of the differential circuit\nRepeat the above tests for the load phase A current transformer using the \n connections as shown in figure 1\nRepeat the tests using the load phase B and the load phase C current \n transformer\nThe 51 P Phase Time Over Current Function\nMake the connection as shown in figure 1, for phase to be tested\nApply a balance voltage of 57 volts RMS phase to neutral\nSet a single phase of current to 6 amperes RMS\nSet the timer to start upon application of current and to stop when the \n contact monitor senses a closed contact\nApply the current to the relay. The \"pickup\" Led should be lit and the unit \n should trip in 4.00 seconds 7% the \"over current / impedance\" LED should be \n lit\nRepeat the test for the remaining phases listed as shown in figure 1\nThe (50P Phase Instantaneous & 51 VC Voltage \nControlled Time) Over Current Function\nMake the connections as shown in figure 1, for the phase to be tested\nApply a balance 3-phase voltage of 40 phase voltage of volts RMS phase to \n neutral\nSet a single phase of current to 6 amperes RMS\nSlowly increase the current and to stop when the contact monitor senses a \n closed contact\nThe \"pickup\" LED should be lit and the \"over current\" LED should be flashing\nThe 40 Loss of Excitation Function\nMake the connections as shown in figure 1, for the phase to be tested\nApply a balance 3-phase voltage of 57 phase to neutral volts RMS and set a \n 3-phase of current to 3 ampere RMS with a phase angle of 90\" leading\nSlowly increase the current and to stop when the contact monitor senses a \n closed contact\nThe \"pickup\" LED should be lit and the \"loss of excitation\" LED should be \n flashing\nThe 59 Over Voltage Function\nMake the connections as shown in figure 2, for the phase to be tested\nApply a single-phase voltage of 57 volts RMS to the relay\nSlowly increase only the tested phase's voltage from 76 voltage RMS\nThe \"pickup\" LED is lit. This should occur when the voltage reaches 753% \n volts RMS. The relay should trip in 1 second later\nThe contact monitor should indicate a closed contact and the \"voltage - \n volts/Hertz\" Led should be lit\nRepeat the above test with a balanced 3-phase voltage\nExamine the operation records. All of the tests are indicated by a \"59 trip\" \n event\nThe 24 Volts/Hertz Function\nMake the connections as shown in figure 2, for the phase to be tested\nApply a balance voltage of 57 volts RMS phase to neutral\nSlowly increase the voltage and to stop when the contact monitor senses a \n closed contact\nThe \"pickup\" LED should be lit and the \"voltage-volts/hertz\" LED should be \n flashing\nThe 21-1a Distance / Impedance Function\nMake the connections as shown in figure 1, for the phase to be tested\nApply a balance voltage of 10 volts RMS phase to neutral\nSlowly increase the current and to stop when the contact monitor senses a \n closed contact\nThe \"pickup\" LED should be lit and the \"over current / impedance\" LED should \n be flashing\nThe 59G Stator Ground Fault Function\nMake the connections as shown in figure 5, for the phase to be tested\nApply a balance voltage of 57 volts RMS phase to neutral\nApply a volts RMS at 50 hertz representing the V\nSlowly increase the voltage V and to stop when the contact monitor \n senses a closed contact\nThe \"pickup\" LED should be lit and the \"stator ground\" LED should be flashing\nThe 27G Stator Ground 3rd Harm Under \nVoltage Fault Function\nMake the connections as shown in figure 5, for the phase to be tested\nApply a balance voltage of 57 volts RMS phase to neutral\nApply a volts RMS at 150 hertz representing the V\nSet a volts Vo.to 4 volt\nSlowly decrease the voltage Vo and to stop when the contact monitor senses a \n closed contact\nThe \"pickup\" LED should be lit\nThe 50IE Inadvertent Energization Function\nMake the connections as shown in figure 1, for the phase to be tested\nApply a balance three- phase voltage of 57 volts RMS phase to neutral\nApply a balance three-phase current of 3 amperes RMs at 50 HZ\nChange the frequency setting to 46 Hz to the voltage and to stop when the \n contact monitor senses a closed contact\nThe \"pickup\" LED should be lit and the \"reverse power\" and the \"over current / \n impedance\" LED should be flashing\nThe 46 Phase Unbalance / Negative Sequence \nFunction\nMake the connections as shown in figure 2, for the phase to be tested\nApply a balance three - phase voltage of 57 volts RMS phase to neutral\nSet a single - phase current to 0.4 amperes RMS\nSlowly increase the current and to stop when the contact monitor senses a \n closed contact\nThe \"pickup\" LED should be lit and the \"phase unbalance\" LED should be \n flashing\nThe 81 Over Frequency Function\nMake the connections as shown in figure 2, for the phase to be tested\nApply a balance three - phase voltage of 57 volts RMS phase to neutral at \n frequency of 50.0Hz\nSlowly increase the frequency and to stop when the contact monitor senses a \n closed contact\nThe \"pickup\" LED should be lit and the \"frequency\" LED should be flashing\nRestoring the Relay into Service\nReturn relay to service by removing the test plugs, and switch on test \n switches\nChecks relay configuration and logic\nTest sheet\n\n(46) Negative sequence O/C\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/GPS-004-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/GPS-004-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/GPS-004-03.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/GPS-004-04.jpg",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-dfr-056-r0-htm",
+ "doc_number": "DFR-056-R0",
+ "title_en": "DFR-056-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/DfR-056-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The DTP is a digital relay that provides differential (87) and backup \n instantaneous (87B) three phase protection functions for power transformers. \n Different models of the DTP are available for protecting and monitoring \n transformers with two, three, or four windings"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal \n injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first is initiated by eng. Ibrahem El-Araby, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \nPS, and certified by eng. Mohamed Naguib: quality \ncontrol head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear \n your safety and healthy equipment as safety helmet, safety shoes ... etc."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The maintenance staff should be trained, qualified, and carry the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Line isolation is required.",
+    "Make sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.",
+    "The unit must be out of service."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA DRTS tester.",
+    "Test leads.",
+    "PC laptop with necessary software {ISAWIZARD and ENER VISTA}",
+    "Tools bag"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.",
+    "Be sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (P11(-), Q11(+)) see figure (1) on the rear of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the Setting from the \nRelay using the PC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connecting the personal computer to the relay.",
+    "Run the enervista program.",
+    "Read the setting and safe it as URGENT FILE FOR DTP [name the feeder]."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "For STG Unit Overall Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential protection test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the ISA tester.",
+    "Be sure that ISA tester is connected to EARTH.",
+    "Switch ON ISA tester.",
+    "After ISA tester completely in service connect leads between ISA tester and \n and current leads (BP1 1,2,3,4 see figure 1) of test plug for DTP.",
+    "RUN ISAWIZARD software>>>>>GENERATION & DISTRIBUTION RELAYS>>>> Xpro \n advanced>>>>MANUAL MODE",
+    "NOW you can test the relay.",
+    "NOTE: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, V=0V].",
+    "Choose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay",
+    "Choose Shoot with current value equal to 1.05 of pick up current to get pickup \n time of the relay.",
+    "To test 2nd stage of differential, disable 1st stage of differential then \n shoot by setting current"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "2nd and \n5th Harmonic Restraining Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat steps from 8 with frequency 100Hz for 2nd harmonic test",
+    "Repeat steps from 8 with frequency 250Hz for 5th harmonic \n test.",
+    "Choose STORE ALL TESTS >>>>",
+    "Go to RESULTS from main menu chose HEADER and apply all information about \n these FEEDER and OK",
+    "Repeat all steps for current leads (BP2 & BP3 1,2,3,4 see figure 1) of test \n plug for DTP.",
+    "Now print the results and you have complete test results for these \n relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated \nEquipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enable any function which was disabled.",
+    "Return relay to service by removing the test leads from the relay terminals \n and the test set.",
+    "Make sure CT and VT secondary circuits are in normal condition.",
+    "Remove the disturbance alarm LED's on the relay which is caused by the test.",
+    "Request feeder to be returned in service.",
+    "Take pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.",
+    "Check that these reading agree with station meters (MW,\n Mvar, Amperes and power \n factor).",
+    "Place a copy of \n the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure ( 1 ): External Connection DTP \nDigital Transformer Protection"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe DTP is a digital relay that provides differential (87) and backup \n instantaneous (87B) three phase protection functions for power transformers. \n Different models of the DTP are available for protecting and monitoring \n transformers with two, three, or four windings\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal \n injury or damage to equipment.\nThe first is initiated by eng. Ibrahem El-Araby, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \nPS, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nWear \n your safety and healthy equipment as safety helmet, safety shoes ... etc.\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nThe unit must be out of service.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with necessary software {ISAWIZARD and ENER VISTA}\nTools bag\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (P11(-), Q11(+)) see figure (1) on the rear of the relay.\nReading the Setting from the \nRelay using the PC\nConnecting the personal computer to the relay.\nRun the enervista program.\nRead the setting and safe it as URGENT FILE FOR DTP [name the feeder].\nFor STG Unit Overall Protection\nDifferential protection test\nConnect the personal computer to the ISA tester.\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nAfter ISA tester completely in service connect leads between ISA tester and \n and current leads (BP1 1,2,3,4 see figure 1) of test plug for DTP.\nRUN ISAWIZARD software>>>>>GENERATION & DISTRIBUTION RELAYS>>>> Xpro \n advanced>>>>MANUAL MODE\nNOW you can test the relay.\nNOTE: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, V=0V].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay\nChoose Shoot with current value equal to 1.05 of pick up current to get pickup \n time of the relay.\nTo test 2nd stage of differential, disable 1st stage of differential then \n shoot by setting current\n2nd and \n5th Harmonic Restraining Test\nRepeat steps from 8 with frequency 100Hz for 2nd harmonic test\nRepeat steps from 8 with frequency 250Hz for 5th harmonic \n test.\nChoose STORE ALL TESTS >>>>\nGo to RESULTS from main menu chose HEADER and apply all information about \n these FEEDER and OK\nRepeat all steps for current leads (BP2 & BP3 1,2,3,4 see figure 1) of test \n plug for DTP.\nNow print the results and you have complete test results for these \n relay.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these reading agree with station meters (MW,\n Mvar, Amperes and power \n factor).\nPlace a copy of \n the test result in the field maintenance file.\nTest Sheet\nLocation / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................\nFigure ( 1 ): External Connection DTP \nDigital Transformer Protection",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "graphics/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-051-01.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-056-01.jpg",
+   "alt": ""
+  }
+ ]
+}

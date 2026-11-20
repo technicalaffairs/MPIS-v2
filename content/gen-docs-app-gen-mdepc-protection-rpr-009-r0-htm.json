@@ -1,0 +1,193 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-rpr-009-r0-htm",
+ "doc_number": "RPR-009-R0",
+ "title_en": "RPR-009-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/RPR-009-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n Reverse Power Relay \n (32)\n WTGA 7131\n CEE France"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: \n APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date Approved: \n 17 \n Dec.2008"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: December 2013"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block."
+  },
+  {
+   "type": "paragraph",
+   "text": "This relay ( WTGA 7131) in practice monitors the effect \n of the prime mover\n ( Steam Turbine Generator) failure that causes the generator to motor by \n drawing active power from the system."
+  },
+  {
+   "type": "paragraph",
+   "text": "The anti motoring reverse power is connected to sense active power flowing \n from the system into the generator that operates like a synchronous motor."
+  },
+  {
+   "type": "paragraph",
+   "text": "The setting must be selected to avoid spurious trip under transient conditions \n like during parallel operation."
+  },
+  {
+   "type": "paragraph",
+   "text": "The WTGA 7131 is also provided one \n instantaneous unit used for alarm operation."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is initiated by Eng. Ehab El Khoudary, tested by Eng. Khalied \n Diab & Eng. Ehab Abuo Elwafa at 17 November 2008, and accepted by General \n Manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby Head \n Sector of Mahmoudia Power Station."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc).",
+    "Issue work permit including the \n team work name.",
+    "Safety fence with \n caution marks surrounding the work area is required.",
+    "The unit (Generator & \n Transformer) must be out of service."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Three Phase Secondary injection Voltage test set.",
+    "Single Phase Secondary injection Current test set.",
+    "Test leads.",
+    "AVO meter.",
+    "Complete tool set.",
+    "Air blower.",
+    "Contact cleaner (CRC)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be \ncarried out"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Look at Over Voltage Maintenance file (32) and compare the \n relay setting with those shown on the test sheet.",
+    "Supply the relay with its nominal auxiliary supply: the green \n LED will light."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing \nthe Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the terminals (15,14,23) from the relay.",
+    "Connect the voltage terminals from the injection set to the \n relay points (15,14,23)",
+    "Connect the current terminals from the injection set to the \n relay points (2,3) for testing phase A.",
+    "Increase the injected voltage slowly to the nominal value 120 \n V.",
+    "Increase the injected current slowly till the pickup.",
+    "If there is no pick up reverse the current terminals on the \n relay.",
+    "Record the P.U value in your test sheet.",
+    "Decrease the injection current till the relay reset ( Drop out \n Value ).",
+    "Record the D.O value in your test sheet.",
+    "Make reset to the reverse power relay.",
+    "Connect the current terminals from the injection set to points \n (10,11) on the relay.",
+    "Repeat the previous steps {from step 4 to step 10} for testing \n phase C.",
+    "Increase the current again to (P.U) value.",
+    "Stop the test set.",
+    "Restart the test set (with Nominal Voltage V=120 V & Current = \n P.U value).",
+    "The relay will operate, the timer will account and stop when \n the trip contact close.",
+    "Make sure that lock out relays (86GT & 86T) operate with \n reverse power relay operates after its trip time.",
+    "Record the time value in your test sheet.",
+    "Make reset to the reverse power relay and lock out relays \n (86GT & 86T).",
+    "Put C.B of the unit at local position.",
+    "Close C.B of the unit.",
+    "Return C.B of the unit to remote position.",
+    "Trip C.B of the unit by Reverse Power Relay by increasing the \n injection current to the pickup value.",
+    "Stop the tester."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated \nEquipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make reset to Over Voltage Relay, \n alarm indication and lockout relays (86GT&86T).",
+    "Disconnect the test leads from the Relay.",
+    "Reconnect voltage terminals (15,14,23) to the relay.",
+    "Make sure PT secondary circuits are in normal condition."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure \n1 - Internal connections for the type WTGA 7131 Relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit No. \n : V.T.R: \n12000/120 V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Type \n : Static C.T.R: \n8000/5 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Model : WTGA \n7131 Relay Range"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nEquipment\n Reverse Power Relay \n (32)\n WTGA 7131\n CEE France\nStatus: \n APPROVED\nDate Approved: \n 17 \n Dec.2008\nDate to be Reviewed: December 2013\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block.\nThis relay ( WTGA 7131) in practice monitors the effect \n of the prime mover\n ( Steam Turbine Generator) failure that causes the generator to motor by \n drawing active power from the system.\nThe anti motoring reverse power is connected to sense active power flowing \n from the system into the generator that operates like a synchronous motor.\nThe setting must be selected to avoid spurious trip under transient conditions \n like during parallel operation.\nThe WTGA 7131 is also provided one \n instantaneous unit used for alarm operation.\nThe first draft is initiated by Eng. Ehab El Khoudary, tested by Eng. Khalied \n Diab & Eng. Ehab Abuo Elwafa at 17 November 2008, and accepted by General \n Manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby Head \n Sector of Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc).\nIssue work permit including the \n team work name.\nSafety fence with \n caution marks surrounding the work area is required.\nThe unit (Generator & \n Transformer) must be out of service.\nTools \nand Equipment\nThree Phase Secondary injection Voltage test set.\nSingle Phase Secondary injection Current test set.\nTest leads.\nAVO meter.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at Over Voltage Maintenance file (32) and compare the \n relay setting with those shown on the test sheet.\nSupply the relay with its nominal auxiliary supply: the green \n LED will light.\nTesting \nthe Relay\nRemove the terminals (15,14,23) from the relay.\nConnect the voltage terminals from the injection set to the \n relay points (15,14,23)\nConnect the current terminals from the injection set to the \n relay points (2,3) for testing phase A.\nIncrease the injected voltage slowly to the nominal value 120 \n V.\nIncrease the injected current slowly till the pickup.\nIf there is no pick up reverse the current terminals on the \n relay.\nRecord the P.U value in your test sheet.\nDecrease the injection current till the relay reset ( Drop out \n Value ).\nRecord the D.O value in your test sheet.\nMake reset to the reverse power relay.\nConnect the current terminals from the injection set to points \n (10,11) on the relay.\nRepeat the previous steps {from step 4 to step 10} for testing \n phase C.\nIncrease the current again to (P.U) value.\nStop the test set.\nRestart the test set (with Nominal Voltage V=120 V & Current = \n P.U value).\nThe relay will operate, the timer will account and stop when \n the trip contact close.\nMake sure that lock out relays (86GT & 86T) operate with \n reverse power relay operates after its trip time.\nRecord the time value in your test sheet.\nMake reset to the reverse power relay and lock out relays \n (86GT & 86T).\nPut C.B of the unit at local position.\nClose C.B of the unit.\nReturn C.B of the unit to remote position.\nTrip C.B of the unit by Reverse Power Relay by increasing the \n injection current to the pickup value.\nStop the tester.\nReturn Relay and Associated \nEquipment to Service\nMake reset to Over Voltage Relay, \n alarm indication and lockout relays (86GT&86T).\nDisconnect the test leads from the Relay.\nReconnect voltage terminals (15,14,23) to the relay.\nMake sure PT secondary circuits are in normal condition.\nFigure \n1 - Internal connections for the type WTGA 7131 Relay\nTest Sheet\nUnit No. \n : V.T.R: \n12000/120 V\nRelay Type \n : Static C.T.R: \n8000/5 A\nRelay Model : WTGA \n7131 Relay Range",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/RPR-009-01.jpg",
+   "alt": ""
+  }
+ ]
+}

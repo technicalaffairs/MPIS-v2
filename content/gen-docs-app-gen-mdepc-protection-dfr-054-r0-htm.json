@@ -1,0 +1,265 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-dfr-054-r0-htm",
+ "doc_number": "DFR-054-R0",
+ "title_en": "DfR-054-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/DfR-054-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal \n injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The P632 differential protection devices are designed for the fast and \n selective short circuit protection of transformers, motors and generators and \n of other two, three or four phase winding arrangement."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first is initiated by eng. Mohamed Mansour, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \n general manager & eng. Samir Abdel-Gil;il MDEPC quality control general \n director, approved by eng. Ahmad Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued",
+    "The qualified maintenance staff should carry \n the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area",
+    "Wear appropriate personal protective \n equipment must be used, safety \n shoes, helmet breathing mask, safety glasses",
+    "Feeder isolation is required.",
+    "Make sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.",
+    "Feeder must be grounded."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA DRTS tester.",
+    "Test leads.",
+    "PC laptop with necessary software {ISAWIZARD and \n Micom S1}",
+    "Tools bag."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: CT cores for BF and Protection Relay are \n different i.e. BF will not work during test."
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.",
+    "Be sure that the DC power of the relay is correct by applying a DC voltmeter \n across points T20(25,26) on the rear of the relay ."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the relay.",
+    "Run the MIcom S1 program.",
+    "Read the setting and safe it as URGENT FILE FOR P632 [name the feeder].",
+    "Connect the personal computer to the ISA tester.",
+    "Be sure that ISA tester is connected to EARTH.",
+    "Run ISA program.",
+    "After ISA tester completely in service, connect currents leads between ISA tester and test plug \n (X87-1 points 22,24,26 and 28) for Micom P632.",
+    "Disconnect voltage terminal from terminal block XV01 points (9,10,11,12)",
+    "Connect voltages leads between ISA tester and terminal block XV01 points \n (9,10)",
+    "Make short between X87(points 13 &14) and between X87 (points 15 & 16) to get \n DC on terminal relay.",
+    "RUN ISAWIZARD software>>>>>GENERATION & DISTRIBUTION RELAYS>>>> Xpro \n advanced>>>>MANUAL MODE",
+    "NOW you can test the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential Protection Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "NOTE: Don't forget to Generate Prefault Condition [I=0.001A, V=0V]."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disable other function.",
+    "Choose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay",
+    "Choose Shoot with current value equal to 1.05 of pick up current to get \n pickup time of the relay.",
+    "To test 2nd stage of differential, disable 1st stage of differential then \n shoot by setting current",
+    "Stop ISA wizard program.",
+    "Stop all test and go to results from main menu choose header and apply all \n information about these feeder and OK",
+    "Repeat the test, connect current leads between ISA tester and test plug \n (X87-1 points 2,4,6 and 8)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "2nd and 5th Harmonic Restraining Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat steps from 1 to 7 with frequency 100Hz for 2nd harmonic test the relay \n will not operate.",
+    "Repeat steps from 1 to 7 with frequency 250Hz for 5th harmonic test the relay \n will not operate",
+    "Now print the results and you have complete test results for these relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Thermal Overload Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disable differential protection function",
+    "Inject current from side b (220 kv side) test block (X87-1 points 2,4,6 and 8)",
+    "Decrease the cooling and heating time constants to minimum value (1min).",
+    "According to overload setting curve, determine the value of the current \n which should be injected to obtain corresponding pickup time",
+    "Repeat step 4 for some points to verify the characteristic of thermal overload \n curve.",
+    "Choose STORE ALL TESTS >>>>",
+    "Go to RESULTS from main menu choose HEADER and apply all information about \n these FEEDER and OK"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "GENERATE PREFAULT CONDITION [I=0 A, V=57V F =50 Hz]."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disable differential and thermal overload protection functions",
+    "GENERATE PREFAULT CONDITION [I=0 A, V=57V F =50 Hz].",
+    "According to V/F setting curve, determine the value of the voltage which should be \n injected to obtain corresponding pickup time.",
+    "Repeat step 3 for some points to verify the characteristic of V/F curve.",
+    "Choose STORE ALL TESTS >>>>",
+    "Go to RESULTS from main menu chose HEADER and apply all information about \n these FEEDER and OK"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enable any function which was disabled.",
+    "Return relay to service by removing the test leads from the relay terminals \n and the test set.",
+    "Make sure CT and V T secondary circuits are in normal condition.",
+    "Remove the disturbance alarm LED's on the relay which is caused by the test.",
+    "Request feeder to be returned in service.",
+    "Take pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.",
+    "Check that these reading agree with station meters (MW, \n Mvar, Amperes and \n power factor).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location \n/ Feeder: Relay Code: \nTested by: \nTest Date: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "I3",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "I3",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure ( 1 ): MICOM P632 Connection diagram \n(Protection Panel)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2 : Protection Measuring Circuits (Differential \nProtection)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 3 : Voltage Circuits"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 4: Input & Output Circuits"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal \n injury or damage to equipment.\nThe P632 differential protection devices are designed for the fast and \n selective short circuit protection of transformers, motors and generators and \n of other two, three or four phase winding arrangement.\nThe first is initiated by eng. Mohamed Mansour, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \n general manager & eng. Samir Abdel-Gil;il MDEPC quality control general \n director, approved by eng. Ahmad Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area\nWear appropriate personal protective \n equipment must be used, safety \n shoes, helmet breathing mask, safety glasses\nFeeder isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nFeeder must be grounded.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with necessary software {ISAWIZARD and \n Micom S1}\nTools bag.\nWork to be Carried Out\nNote: CT cores for BF and Protection Relay are \n different i.e. BF will not work during test.\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points T20(25,26) on the rear of the relay .\nConnect the personal computer to the relay.\nRun the MIcom S1 program.\nRead the setting and safe it as URGENT FILE FOR P632 [name the feeder].\nConnect the personal computer to the ISA tester.\nBe sure that ISA tester is connected to EARTH.\nRun ISA program.\nAfter ISA tester completely in service, connect currents leads between ISA tester and test plug \n (X87-1 points 22,24,26 and 28) for Micom P632.\nDisconnect voltage terminal from terminal block XV01 points (9,10,11,12)\nConnect voltages leads between ISA tester and terminal block XV01 points \n (9,10)\nMake short between X87(points 13 &14) and between X87 (points 15 & 16) to get \n DC on terminal relay.\nRUN ISAWIZARD software>>>>>GENERATION & DISTRIBUTION RELAYS>>>> Xpro \n advanced>>>>MANUAL MODE\nNOW you can test the relay.\nDifferential Protection Test\nNOTE: Don't forget to Generate Prefault Condition [I=0.001A, V=0V].\nDisable other function.\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay\nChoose Shoot with current value equal to 1.05 of pick up current to get \n pickup time of the relay.\nTo test 2nd stage of differential, disable 1st stage of differential then \n shoot by setting current\nStop ISA wizard program.\nStop all test and go to results from main menu choose header and apply all \n information about these feeder and OK\nRepeat the test, connect current leads between ISA tester and test plug \n (X87-1 points 2,4,6 and 8)\n2nd and 5th Harmonic Restraining Test\nRepeat steps from 1 to 7 with frequency 100Hz for 2nd harmonic test the relay \n will not operate.\nRepeat steps from 1 to 7 with frequency 250Hz for 5th harmonic test the relay \n will not operate\nNow print the results and you have complete test results for these relay.\nThermal Overload Test\nDisable differential protection function\nInject current from side b (220 kv side) test block (X87-1 points 2,4,6 and 8)\nDecrease the cooling and heating time constants to minimum value (1min).\nAccording to overload setting curve, determine the value of the current \n which should be injected to obtain corresponding pickup time\nRepeat step 4 for some points to verify the characteristic of thermal overload \n curve.\nChoose STORE ALL TESTS >>>>\nGo to RESULTS from main menu choose HEADER and apply all information about \n these FEEDER and OK\nGENERATE PREFAULT CONDITION [I=0 A, V=57V F =50 Hz].\nDisable differential and thermal overload protection functions\nGENERATE PREFAULT CONDITION [I=0 A, V=57V F =50 Hz].\nAccording to V/F setting curve, determine the value of the voltage which should be \n injected to obtain corresponding pickup time.\nRepeat step 3 for some points to verify the characteristic of V/F curve.\nChoose STORE ALL TESTS >>>>\nGo to RESULTS from main menu chose HEADER and apply all information about \n these FEEDER and OK\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and V T secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these reading agree with station meters (MW, \n Mvar, Amperes and \n power factor).\nPlace a copy of the test result in the field maintenance file.\nLocation \n/ Feeder: Relay Code: \nTested by: \nTest Date: Signature:\nTest Sheet\n\nLocation / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................\nFigure ( 1 ): MICOM P632 Connection diagram \n(Protection Panel)\nFigure 2 : Protection Measuring Circuits (Differential \nProtection)\nFigure 3 : Voltage Circuits\nFigure 4: Input & Output Circuits",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-051-01.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-054-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-054-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-054-03.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-054-04.jpg",
+   "alt": ""
+  }
+ ]
+}

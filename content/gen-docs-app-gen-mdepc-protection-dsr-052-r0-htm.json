@@ -1,0 +1,531 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-dsr-052-r0-htm",
+ "doc_number": "DSR-052-R0",
+ "title_en": "DsR-052-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/DsR-052-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The REL 531 digital line protection scheme is designed for the high - speed \ndiscriminative protection of lines and cables in distribution and transmission \nsystems. The rated voltage of the line being protected is not a restriction and \nthe protection is applicable to solidly or low-resistance grounded systems, \nsystems with Petersen coils or to ungrounded systems."
+  },
+  {
+   "type": "paragraph",
+   "text": "All kinds of faults are detected including close-in three-phase, cross-country \nfaults, evolving faults and high-resistance earth faults"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check the proper \noperation and calibration of the relay. It is recommended this procedure be \ncarried out on an annually bases. The document is formatted the way to minimize \nthe possibility of error causing personal injury \nor damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Ehab Zakaria, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Nagar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil: MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \nPS, and certified by eng. Mohamed Naguib:\nMDEPC\nquality \ncontrol head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued."
+  },
+  {
+   "type": "paragraph",
+   "text": "The maintenance staff should be trained, qualified, and carry the suitable ID safety category."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work area is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear the appropriate \n safety and healthy equipment as safety \n shoes, safety helmet ... etc"
+  },
+  {
+   "type": "paragraph",
+   "text": "Line isolation is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection."
+  },
+  {
+   "type": "paragraph",
+   "text": "Transmission Line must be grounded."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The maintenance staff should be trained, qualified, and carry the suitable ID safety category.",
+    "The maintenance staff should be trained, qualified, and carry the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Wear the appropriate \n safety and healthy equipment as safety \n shoes, safety helmet ... etc",
+    "Line isolation is required.",
+    "Make sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection.",
+    "Transmission Line must be grounded."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and \nEquipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "ISA DRTS tester"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads."
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA DRTS tester",
+    "Test leads.",
+    "PC laptop with necessary software {ISA WIZARD and REL 531}",
+    "Tools bag"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to \nPrepare for Relay Testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test."
+  },
+  {
+   "type": "paragraph",
+   "text": "Be sure that the DC power of the relay is correct by applying a DC voltmeter \n across points X18 (17,18 see fig.1) on the rear of the relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.",
+    "Be sure that the DC power of the relay is correct by applying a DC voltmeter \n across points X18 (17,18 see fig.1) on the rear of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the \nsetting from the Relay using the PC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the personal computer to the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Run the REL 531 CAP 540 software program."
+  },
+  {
+   "type": "paragraph",
+   "text": "Read the setting and safe it as URGENT FILE FOR 531 [name the feeder]."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the relay.",
+    "Run the REL 531 CAP 540 software program.",
+    "Read the setting and safe it as URGENT FILE FOR 531 [name the feeder]."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Distance \nProtection Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the personal computer to the ISA tester."
+  },
+  {
+   "type": "paragraph",
+   "text": "Be sure that ISA tester is connected to EARTH."
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch ON ISA tester."
+  },
+  {
+   "type": "paragraph",
+   "text": "After ISA tester completely in service Currents and Voltages leads between ISA tester \n terminals and rell 531 current (X20 9,11,13,N15 see fig. 2) and voltages (X25 \n 25.27.29.N31 see fig. 2)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect current and voltages leads between ISA tester and test plug ((X20 \n 9.11.13.N) 15-see fig. 1) for REL 531"
+  },
+  {
+   "type": "paragraph",
+   "text": "RUN ISA WIZARD software and choose SPECIAL DISTANCE>>>> SPECIAL licensed >>>>ABB \n >>>>REL 316 [>>>> means ENTER ORDER]."
+  },
+  {
+   "type": "paragraph",
+   "text": "From setting file Plot the setting file in RIO file in ISA TESTER"
+  },
+  {
+   "type": "paragraph",
+   "text": "After that choose \n ZPRO\n>>>> the characteristic for REL 531 will appear."
+  },
+  {
+   "type": "paragraph",
+   "text": "Now you can choose two ways to test these relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the ISA tester.",
+    "Be sure that ISA tester is connected to EARTH.",
+    "Switch ON ISA tester.",
+    "After ISA tester completely in service Currents and Voltages leads between ISA tester \n terminals and rell 531 current (X20 9,11,13,N15 see fig. 2) and voltages (X25 \n 25.27.29.N31 see fig. 2)",
+    "Connect current and voltages leads between ISA tester and test plug ((X20 \n 9.11.13.N) 15-see fig. 1) for REL 531",
+    "RUN ISA WIZARD software and choose SPECIAL DISTANCE>>>> SPECIAL licensed >>>>ABB \n >>>>REL 316 [>>>> means ENTER ORDER].",
+    "From setting file Plot the setting file in RIO file in ISA TESTER",
+    "After that choose \n ZPRO\n>>>> the characteristic for REL 531 will appear.",
+    "Now you can choose two ways to test these relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, \nV=57V]."
+  },
+  {
+   "type": "paragraph",
+   "text": "From TEST SELECTION choose automatic time zone (Z/T) and dont forget to \nadjust the test sequence as follow [fault =all faults, Z min=zero, Z max =as the \nsetting, STEP =0.5 OHM, Angle [degree]=0, after that click OK the tester will \noperate and test the R axis."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat 1- BUT chose angle=90 the tester will test the X axis."
+  },
+  {
+   "type": "paragraph",
+   "text": "Choose STORE ALL TESTS >>>>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Go to RESULTS from main menu chose HEADER and apply all information about these \nfeeder and ok"
+  },
+  {
+   "type": "paragraph",
+   "text": "Now print the results and you have complete test results for these relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "From TEST SELECTION choose Click and test and by curser click on the point which \nyou need to test [generally choose all points on X and Y Axis]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat steps from 3 to 5."
+  },
+  {
+   "type": "paragraph",
+   "text": "Now you have complete test results for these relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "From TEST SELECTION choose automatic time zone (Z/T) and dont forget to \nadjust the test sequence as follow [fault =all faults, Z min=zero, Z max =as the \nsetting, STEP =0.5 OHM, Angle [degree]=0, after that click OK the tester will \noperate and test the R axis.",
+    "Repeat 1- BUT chose angle=90 the tester will test the X axis.",
+    "Choose STORE ALL TESTS >>>>",
+    "Go to RESULTS from main menu chose HEADER and apply all information about these \nfeeder and ok",
+    "Now print the results and you have complete test results for these relay.",
+    "From TEST SELECTION choose Click and test and by curser click on the point which \nyou need to test [generally choose all points on X and Y Axis].",
+    "Repeat steps from 3 to 5.",
+    "Now you have complete test results for these relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Other Function Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Swing"
+  },
+  {
+   "type": "paragraph",
+   "text": "From main menu select TEST SELECTION select POWER SWING test and plot the \nsetting."
+  },
+  {
+   "type": "paragraph",
+   "text": "Click Start."
+  },
+  {
+   "type": "paragraph",
+   "text": "Choose store all tests"
+  },
+  {
+   "type": "paragraph",
+   "text": "Go to results from main menu choose header and apply all information about \nthese feeder and ok."
+  },
+  {
+   "type": "paragraph",
+   "text": "Now print the results and you have complete test results for these function."
+  },
+  {
+   "type": "list",
+   "items": [
+    "From main menu select TEST SELECTION select POWER SWING test and plot the \nsetting.",
+    "Click Start.",
+    "Choose store all tests",
+    "Go to results from main menu choose header and apply all information about \nthese feeder and ok.",
+    "Now print the results and you have complete test results for these function."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch on to Fault ( \nSOTF )"
+  },
+  {
+   "type": "paragraph",
+   "text": "From main menu select test selection select SOTF test and plot the \nsetting from Rio file."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make prefault at zero current and voltage."
+  },
+  {
+   "type": "paragraph",
+   "text": "Click ok."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject current and voltage as fault case in any zone Z2 or Z3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Click Start."
+  },
+  {
+   "type": "paragraph",
+   "text": "Choose STORE ALL TESTS."
+  },
+  {
+   "type": "paragraph",
+   "text": "From results will see that the time at all faults is equal to Z1 time."
+  },
+  {
+   "type": "list",
+   "items": [
+    "From main menu select test selection select SOTF test and plot the \nsetting from Rio file.",
+    "Make prefault at zero current and voltage.",
+    "Click ok.",
+    "Inject current and voltage as fault case in any zone Z2 or Z3",
+    "Click Start.",
+    "Choose STORE ALL TESTS.",
+    "From results will see that the time at all faults is equal to Z1 time."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Auto Recloser \nTest"
+  },
+  {
+   "type": "paragraph",
+   "text": "From main menu select TEST SELECTION select AUTO RECLOSER test and plot the \nsetting from Rio file."
+  },
+  {
+   "type": "paragraph",
+   "text": "CB should be closed and disconnecting switches are opened."
+  },
+  {
+   "type": "paragraph",
+   "text": "Set the auto recloser parameter, and then press OK."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make trip at any zone by inject fault current and voltage ( CB will be tripped \n and then A/R reclose it )."
+  },
+  {
+   "type": "paragraph",
+   "text": "Choose store all tests."
+  },
+  {
+   "type": "list",
+   "items": [
+    "From main menu select TEST SELECTION select AUTO RECLOSER test and plot the \nsetting from Rio file.",
+    "CB should be closed and disconnecting switches are opened.",
+    "Set the auto recloser parameter, and then press OK.",
+    "Make trip at any zone by inject fault current and voltage ( CB will be tripped \n and then A/R reclose it ).",
+    "Choose store all tests."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault (E/F)"
+  },
+  {
+   "type": "paragraph",
+   "text": "RUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> X-PRO \n>>>>MANUAL MODE>>>>"
+  },
+  {
+   "type": "paragraph",
+   "text": "GENERATE PREFAULT CONDITION [I=0.001A]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disable distance function."
+  },
+  {
+   "type": "paragraph",
+   "text": "SELECT FAULT AND INJECT CURRENT VALUE EQUAL TO (I Setting*1.01) to determine the \noperating time."
+  },
+  {
+   "type": "paragraph",
+   "text": "Click Start."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat steps from 1 to 5 for all phases R, S, and T."
+  },
+  {
+   "type": "paragraph",
+   "text": "note that: the injection should be on phase by phase not on three phases \nor on two phases."
+  },
+  {
+   "type": "paragraph",
+   "text": "Chose store all tests."
+  },
+  {
+   "type": "list",
+   "items": [
+    "RUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> X-PRO \n>>>>MANUAL MODE>>>>",
+    "GENERATE PREFAULT CONDITION [I=0.001A].",
+    "Disable distance function.",
+    "SELECT FAULT AND INJECT CURRENT VALUE EQUAL TO (I Setting*1.01) to determine the \noperating time.",
+    "Click Start.",
+    "Repeat steps from 1 to 5 for all phases R, S, and T.",
+    "note that: the injection should be on phase by phase not on three phases \nor on two phases.",
+    "Chose store all tests."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated \nEquipment to Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Enable any function which was disabled"
+  },
+  {
+   "type": "paragraph",
+   "text": "Return relay to service by removing the test leads from the relay terminals and \nthe test set."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT and VT secondary circuits are in normal condition."
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the disturbance alarm LED's on the relay which is caused by the test."
+  },
+  {
+   "type": "paragraph",
+   "text": "Request feeder to be returned in service."
+  },
+  {
+   "type": "paragraph",
+   "text": "Take pharos readings of all AC currents and voltages and compare them to those \nfor normal load condition."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that these reading agree with station meters (MW, \nMvar, Amperes and power \nfactor)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Place a copy of the test result in the field maintenance file."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enable any function which was disabled",
+    "Return relay to service by removing the test leads from the relay terminals and \nthe test set.",
+    "Make sure CT and VT secondary circuits are in normal condition.",
+    "Remove the disturbance alarm LED's on the relay which is caused by the test.",
+    "Request feeder to be returned in service.",
+    "Take pharos readings of all AC currents and voltages and compare them to those \nfor normal load condition.",
+    "Check that these reading agree with station meters (MW, \nMvar, Amperes and power \nfactor).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "",
+     "R",
+     "",
+     "",
+     "Zone",
+     "",
+     "Ph (V1)",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location / \nFeeder: Relay Code: \nTested by: Test \nDate: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1: Protection Supply"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2 : AC Circuit"
+  }
+ ],
+ "text": "Introduction\nThe REL 531 digital line protection scheme is designed for the high - speed \ndiscriminative protection of lines and cables in distribution and transmission \nsystems. The rated voltage of the line being protected is not a restriction and \nthe protection is applicable to solidly or low-resistance grounded systems, \nsystems with Petersen coils or to ungrounded systems.\nAll kinds of faults are detected including close-in three-phase, cross-country \nfaults, evolving faults and high-resistance earth faults\nThis procedure details the steps required to completely check the proper \noperation and calibration of the relay. It is recommended this procedure be \ncarried out on an annually bases. The document is formatted the way to minimize \nthe possibility of error causing personal injury \nor damage to equipment.\nThe first draft initiated by eng. Ehab Zakaria, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Nagar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil: MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \nPS, and certified by eng. Mohamed Naguib:\nMDEPC\nquality \ncontrol head sector.\nSafety \nPrecautions\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear the appropriate \n safety and healthy equipment as safety \n shoes, safety helmet ... etc\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection.\nTransmission Line must be grounded.\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear the appropriate \n safety and healthy equipment as safety \n shoes, safety helmet ... etc\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection.\nTransmission Line must be grounded.\nTools and \nEquipment\nISA DRTS tester\nTest leads.\nISA DRTS tester\nTest leads.\nPC laptop with necessary software {ISA WIZARD and REL 531}\nTools bag\nWork to be carried out\nSteps to \nPrepare for Relay Testing\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points X18 (17,18 see fig.1) on the rear of the relay.\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points X18 (17,18 see fig.1) on the rear of the relay.\nReading the \nsetting from the Relay using the PC\nConnect the personal computer to the relay.\nRun the REL 531 CAP 540 software program.\nRead the setting and safe it as URGENT FILE FOR 531 [name the feeder].\nConnect the personal computer to the relay.\nRun the REL 531 CAP 540 software program.\nRead the setting and safe it as URGENT FILE FOR 531 [name the feeder].\nDistance \nProtection Test\nConnect the personal computer to the ISA tester.\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nAfter ISA tester completely in service Currents and Voltages leads between ISA tester \n terminals and rell 531 current (X20 9,11,13,N15 see fig. 2) and voltages (X25 \n 25.27.29.N31 see fig. 2)\nConnect current and voltages leads between ISA tester and test plug ((X20 \n 9.11.13.N) 15-see fig. 1) for REL 531\nRUN ISA WIZARD software and choose SPECIAL DISTANCE>>>> SPECIAL licensed >>>>ABB \n >>>>REL 316 [>>>> means ENTER ORDER].\nFrom setting file Plot the setting file in RIO file in ISA TESTER\nAfter that choose \n ZPRO\n>>>> the characteristic for REL 531 will appear.\nNow you can choose two ways to test these relay.\nConnect the personal computer to the ISA tester.\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nAfter ISA tester completely in service Currents and Voltages leads between ISA tester \n terminals and rell 531 current (X20 9,11,13,N15 see fig. 2) and voltages (X25 \n 25.27.29.N31 see fig. 2)\nConnect current and voltages leads between ISA tester and test plug ((X20 \n 9.11.13.N) 15-see fig. 1) for REL 531\nRUN ISA WIZARD software and choose SPECIAL DISTANCE>>>> SPECIAL licensed >>>>ABB \n >>>>REL 316 [>>>> means ENTER ORDER].\nFrom setting file Plot the setting file in RIO file in ISA TESTER\nAfter that choose \n ZPRO\n>>>> the characteristic for REL 531 will appear.\nNow you can choose two ways to test these relay.\nNote: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, \nV=57V].\nFrom TEST SELECTION choose automatic time zone (Z/T) and dont forget to \nadjust the test sequence as follow [fault =all faults, Z min=zero, Z max =as the \nsetting, STEP =0.5 OHM, Angle [degree]=0, after that click OK the tester will \noperate and test the R axis.\nRepeat 1- BUT chose angle=90 the tester will test the X axis.\nChoose STORE ALL TESTS >>>>\nGo to RESULTS from main menu chose HEADER and apply all information about these \nfeeder and ok\nNow print the results and you have complete test results for these relay.\nFrom TEST SELECTION choose Click and test and by curser click on the point which \nyou need to test [generally choose all points on X and Y Axis].\nRepeat steps from 3 to 5.\nNow you have complete test results for these relay.\nFrom TEST SELECTION choose automatic time zone (Z/T) and dont forget to \nadjust the test sequence as follow [fault =all faults, Z min=zero, Z max =as the \nsetting, STEP =0.5 OHM, Angle [degree]=0, after that click OK the tester will \noperate and test the R axis.\nRepeat 1- BUT chose angle=90 the tester will test the X axis.\nChoose STORE ALL TESTS >>>>\nGo to RESULTS from main menu chose HEADER and apply all information about these \nfeeder and ok\nNow print the results and you have complete test results for these relay.\nFrom TEST SELECTION choose Click and test and by curser click on the point which \nyou need to test [generally choose all points on X and Y Axis].\nRepeat steps from 3 to 5.\nNow you have complete test results for these relay.\nOther Function Test\nPower Swing\nFrom main menu select TEST SELECTION select POWER SWING test and plot the \nsetting.\nClick Start.\nChoose store all tests\nGo to results from main menu choose header and apply all information about \nthese feeder and ok.\nNow print the results and you have complete test results for these function.\nFrom main menu select TEST SELECTION select POWER SWING test and plot the \nsetting.\nClick Start.\nChoose store all tests\nGo to results from main menu choose header and apply all information about \nthese feeder and ok.\nNow print the results and you have complete test results for these function.\nSwitch on to Fault ( \nSOTF )\nFrom main menu select test selection select SOTF test and plot the \nsetting from Rio file.\nMake prefault at zero current and voltage.\nClick ok.\nInject current and voltage as fault case in any zone Z2 or Z3\nClick Start.\nChoose STORE ALL TESTS.\nFrom results will see that the time at all faults is equal to Z1 time.\nFrom main menu select test selection select SOTF test and plot the \nsetting from Rio file.\nMake prefault at zero current and voltage.\nClick ok.\nInject current and voltage as fault case in any zone Z2 or Z3\nClick Start.\nChoose STORE ALL TESTS.\nFrom results will see that the time at all faults is equal to Z1 time.\nAuto Recloser \nTest\nFrom main menu select TEST SELECTION select AUTO RECLOSER test and plot the \nsetting from Rio file.\nCB should be closed and disconnecting switches are opened.\nSet the auto recloser parameter, and then press OK.\nMake trip at any zone by inject fault current and voltage ( CB will be tripped \n and then A/R reclose it ).\nChoose store all tests.\nFrom main menu select TEST SELECTION select AUTO RECLOSER test and plot the \nsetting from Rio file.\nCB should be closed and disconnecting switches are opened.\nSet the auto recloser parameter, and then press OK.\nMake trip at any zone by inject fault current and voltage ( CB will be tripped \n and then A/R reclose it ).\nChoose store all tests.\nEarth Fault (E/F)\nRUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> X-PRO \n>>>>MANUAL MODE>>>>\nGENERATE PREFAULT CONDITION [I=0.001A].\nDisable distance function.\nSELECT FAULT AND INJECT CURRENT VALUE EQUAL TO (I Setting*1.01) to determine the \noperating time.\nClick Start.\nRepeat steps from 1 to 5 for all phases R, S, and T.\nnote that: the injection should be on phase by phase not on three phases \nor on two phases.\nChose store all tests.\nRUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> X-PRO \n>>>>MANUAL MODE>>>>\nGENERATE PREFAULT CONDITION [I=0.001A].\nDisable distance function.\nSELECT FAULT AND INJECT CURRENT VALUE EQUAL TO (I Setting*1.01) to determine the \noperating time.\nClick Start.\nRepeat steps from 1 to 5 for all phases R, S, and T.\nnote that: the injection should be on phase by phase not on three phases \nor on two phases.\nChose store all tests.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled\nReturn relay to service by removing the test leads from the relay terminals and \nthe test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to those \nfor normal load condition.\nCheck that these reading agree with station meters (MW, \nMvar, Amperes and power \nfactor).\nPlace a copy of the test result in the field maintenance file.\nEnable any function which was disabled\nReturn relay to service by removing the test leads from the relay terminals and \nthe test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to those \nfor normal load condition.\nCheck that these reading agree with station meters (MW, \nMvar, Amperes and power \nfactor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\n\nLocation / \nFeeder: Relay Code: \nTested by: Test \nDate: Signature:\nFigure 1: Protection Supply\nFigure 2 : AC Circuit",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-051-01.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-052-03.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-052-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-052-02.jpg",
+   "alt": ""
+  }
+ ]
+}

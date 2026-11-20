@@ -1,0 +1,252 @@
+{
+ "id": "gen-docs-app-gen-mdepc-instr-control-dcs-036-r0-htm",
+ "doc_number": "DCS-036-R0",
+ "title_en": "DCS-036-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/MDEPC/Instr+control/dcs-036-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n LC 105 A Energized Contact Logic Output Module \n Alstom -\n France"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: \n APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved \n Date \n : 08 March 2009"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: \n March 2014"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on \n weekly bases as indicated by W1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The LC105A is a \nlogic output module providing 16 make contacts supplied by the positive polarity \nof the process voltage. The outputs are \ncurrent-sourcing outputs."
+  },
+  {
+   "type": "paragraph",
+   "text": "Dimension:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Height:",
+     "233 mm",
+     "Width:",
+     "1 slot \n = 25.4 mm"
+    ],
+    [
+     "Depth:",
+     "220 mm",
+     "Weight",
+     "0.420 kg"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation :"
+  },
+  {
+   "type": "paragraph",
+   "text": "The LC105A module includes:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A process interface consisting of:",
+    "16 logic outputs based on monostable relays with make contacts, \n individually protected against short-circuits.",
+    "A process voltage distribution and monitoring circuit,",
+    "A short-circuit detection circuit",
+    "An interface with the 2000 I/O backplane consisting of:",
+    "A circuit for plugging in with power on,",
+    "A 2000 I/O bus slave interface,",
+    "Input-output registers,"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Controls and Indications on The Front Panel"
+  },
+  {
+   "type": "paragraph",
+   "text": "A green LED on \nthe front panel indicates that the module is working."
+  },
+  {
+   "type": "paragraph",
+   "text": "It remains on if \nthe module is operating correctly and goes off in case of faulty operation \n(fault detected in the configuration, hardware or use of the module)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Output Elements"
+  },
+  {
+   "type": "paragraph",
+   "text": "The module includes 16 \nlogic outputs built from monostable relays with make contacts. Each relay \nwinding is energized by two transistors, one providing the +12V voltage and the \nother the 0V. The controls of these transistors are separated and complemented."
+  },
+  {
+   "type": "paragraph",
+   "text": "The risk of an untimely \noutput is thus very low."
+  },
+  {
+   "type": "paragraph",
+   "text": "A protection against overloads is connected in series with each contact."
+  },
+  {
+   "type": "paragraph",
+   "text": "Process Voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "The process \nvoltage is supplied by the backplane connector (distributed voltage), or by the \nprocess connector (external voltage)."
+  },
+  {
+   "type": "paragraph",
+   "text": "A logic \ninput based on an opto-isolator indicates the presence of the process voltage."
+  },
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "General protection on the \nprocess voltage +Vp by CTP with maximum tripping current at 20C: 0.45 A."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is initiated by eng. Mohamed Tawfeeq, tested by eng. Bahaa Abd \n Elwhab, revised by MDEPC Quality control eng. Adel El Naggar, accepted by \n general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head \n sector of Nubaria power station."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Personal protective equipment must be used (safety shoes, helmet, breathing \n mask, safety glasses)",
+    "Maintenance staff should be \n well trained and qualified.",
+    "Caution marks must be \n hanged on the work place, safety fence around the work place."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Complete tool set, voltammeter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be \ncarried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the supply voltage\nPower supply :"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the supply voltage\nPower supply :"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "-\nI/O bus"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage : 5 V : 12 V ( 5%)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Consumption < 50 mA (5V) < 330 mA (12V)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Voltage : 5 V : 12 V ( 5%)",
+    "Consumption < 50 mA (5V) < 330 mA (12V)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "-\nProcess"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage 48 V (38.4 V to 57.6 V)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Voltage 48 V (38.4 V to 57.6 V)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the interface leds"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the interface leds"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "There is a led in the front of the card, if it green the card is Ok"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
+  }
+ ],
+ "text": "Power \n Stations\nTechnical Procedure\nEquipment\n LC 105 A Energized Contact Logic Output Module \n Alstom -\n France\nStatus: \n APPROVED\nApproved \n Date \n : 08 March 2009\nDate to be Reviewed: \n March 2014\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \n weekly bases as indicated by W1 in the title block.\nThe LC105A is a \nlogic output module providing 16 make contacts supplied by the positive polarity \nof the process voltage. The outputs are \ncurrent-sourcing outputs.\nDimension:\n\nOperation :\nThe LC105A module includes:\nA process interface consisting of:\n16 logic outputs based on monostable relays with make contacts, \n individually protected against short-circuits.\nA process voltage distribution and monitoring circuit,\nA short-circuit detection circuit\nAn interface with the 2000 I/O backplane consisting of:\nA circuit for plugging in with power on,\nA 2000 I/O bus slave interface,\nInput-output registers,\nControls and Indications on The Front Panel\nA green LED on \nthe front panel indicates that the module is working.\nIt remains on if \nthe module is operating correctly and goes off in case of faulty operation \n(fault detected in the configuration, hardware or use of the module).\nOutput Elements\nThe module includes 16 \nlogic outputs built from monostable relays with make contacts. Each relay \nwinding is energized by two transistors, one providing the +12V voltage and the \nother the 0V. The controls of these transistors are separated and complemented.\nThe risk of an untimely \noutput is thus very low.\nA protection against overloads is connected in series with each contact.\nProcess Voltage\nThe process \nvoltage is supplied by the backplane connector (distributed voltage), or by the \nprocess connector (external voltage).\nA logic \ninput based on an opto-isolator indicates the presence of the process voltage.\nProtection\nGeneral protection on the \nprocess voltage +Vp by CTP with maximum tripping current at 20C: 0.45 A.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by eng. Bahaa Abd \n Elwhab, revised by MDEPC Quality control eng. Adel El Naggar, accepted by \n general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head \n sector of Nubaria power station.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nSafety \nPrecautions\nA work permit must be issued\nPersonal protective equipment must be used (safety shoes, helmet, breathing \n mask, safety glasses)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nTools \nand Equipment\nComplete tool set, voltammeter\nWork to be \ncarried out\nCheck the supply voltage\nPower supply :\nCheck the supply voltage\nPower supply :\n-\nI/O bus\nVoltage : 5 V : 12 V ( 5%)\nConsumption < 50 mA (5V) < 330 mA (12V)\nVoltage : 5 V : 12 V ( 5%)\nConsumption < 50 mA (5V) < 330 mA (12V)\n-\nProcess\nVoltage 48 V (38.4 V to 57.6 V)\nVoltage 48 V (38.4 V to 57.6 V)\nCheck the interface leds\nCheck the interface leds\nThere is a led in the front of the card, if it green the card is Ok\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

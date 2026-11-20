@@ -1,0 +1,234 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-ocr-073-r0-htm",
+ "doc_number": "OCR-073-R0",
+ "title_en": "OCR-073-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/OCR-073-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The MIF II Feeder Protection relay is a microprocessor-based relay designed \n for the following applications:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Main Protection for Medium and Low voltage feeders."
+  },
+  {
+   "type": "paragraph",
+   "text": "Main Protection for Medium size Motors."
+  },
+  {
+   "type": "paragraph",
+   "text": "Main Protection for Medium and Low power Transformers (less than 10MVA)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential Protection for Motors, if a CT differential connection is \n available."
+  },
+  {
+   "type": "paragraph",
+   "text": "Backup Protection for power Transformers (for any power level)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Backup Protection for Generators."
+  },
+  {
+   "type": "paragraph",
+   "text": "Backup Protection for Transmission lines."
+  },
+  {
+   "type": "paragraph",
+   "text": "Backup Protection for substation busbars."
+  },
+  {
+   "type": "paragraph",
+   "text": "Thermal Image Protection/Supervision for Cables, Power Transformers, Grounding \n Resistors and Generation Elements"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Main Protection for Medium and Low voltage feeders.",
+    "Main Protection for Medium size Motors.",
+    "Main Protection for Medium and Low power Transformers (less than 10MVA).",
+    "Differential Protection for Motors, if a CT differential connection is \n available.",
+    "Backup Protection for power Transformers (for any power level).",
+    "Backup Protection for Generators.",
+    "Backup Protection for Transmission lines.",
+    "Backup Protection for substation busbars.",
+    "Thermal Image Protection/Supervision for Cables, Power Transformers, Grounding \n Resistors and Generation Elements"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal \n injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Mohamed Hamed, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Nagar: MDEPC quality control, accepted by general \nmanager eng. Aly Zahran, approved by eng. Ahmad Sawan head sector of Nubaria PS, and certified by eng. Mohamed Naguib: \nMDEPC quality \ncontrol head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The qualified maintenance staff should carry \n the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area",
+    "Wear appropriate personal protective \n equipment as safety \n shoes, safety helmet breathing mask, safety glasses",
+    "Line isolation is required.",
+    "Make sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.",
+    "The auxiliary transformer must be out of service."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA DRTS tester.",
+    "Test leads.",
+    "PC laptop with necessary software {ISAWIZARD and enervista}",
+    "Tools bag."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuits for test.",
+    "Be sure that the DC power of the relay is correct by applying DC voltmeter \n across points (A1(+),A2(-)) see figure (1) on the rear of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the Setting from the \nRelay by using the PC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the Personal Computer to the relay.",
+    "Run the enervista program.",
+    "Read the setting and save it as URGENT FILE for MIF II N [name the feeder]."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "For Auxiliary Transformer \nCTG"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current (O/C)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "RUN ISA WIZARD software and choose Generation and Distribution Relays >>>> \n X-PRO >>>> MANUAL MODE>>>>",
+    "Insert the test plug in the terminal block BP11 see figure (1)",
+    "Generate Prefault Condition [I=0.001A].",
+    "Disable other functions",
+    "Choose Delta Ramp with step ∆I 0.05 Amp to get pickup current of the relay",
+    "Select fault and shoot current value equal to (I Setting*1.05) to determine \n the operating time.",
+    "Note that: the injection should be on phase R only.",
+    "STORE ALL TESTS",
+    "Now you have complete test results for this relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated \nEquipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enable any function which was disabled.",
+    "Return relay to service by removing the test leads from the relay terminals \n and the test set.",
+    "Make sure CT and VT secondary circuits are in normal condition.",
+    "Remove the disturbance alarm LED's on the relay which is caused by the test.",
+    "Request feeder to be returned in service.",
+    "Take pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.",
+    "Check that these reading agree with station meters (MW, MVAR, Amperes and \n power factor).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "I3",
+     "",
+     "I4",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location / \nFeeder: \n Relay Code: \nTested by: Test \nDate: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure (1): MIF II P connection diagram"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe MIF II Feeder Protection relay is a microprocessor-based relay designed \n for the following applications:\nMain Protection for Medium and Low voltage feeders.\nMain Protection for Medium size Motors.\nMain Protection for Medium and Low power Transformers (less than 10MVA).\nDifferential Protection for Motors, if a CT differential connection is \n available.\nBackup Protection for power Transformers (for any power level).\nBackup Protection for Generators.\nBackup Protection for Transmission lines.\nBackup Protection for substation busbars.\nThermal Image Protection/Supervision for Cables, Power Transformers, Grounding \n Resistors and Generation Elements\nMain Protection for Medium and Low voltage feeders.\nMain Protection for Medium size Motors.\nMain Protection for Medium and Low power Transformers (less than 10MVA).\nDifferential Protection for Motors, if a CT differential connection is \n available.\nBackup Protection for power Transformers (for any power level).\nBackup Protection for Generators.\nBackup Protection for Transmission lines.\nBackup Protection for substation busbars.\nThermal Image Protection/Supervision for Cables, Power Transformers, Grounding \n Resistors and Generation Elements\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal \n injury or damage to equipment.\nThe first draft initiated by eng. Mohamed Hamed, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Nagar: MDEPC quality control, accepted by general \nmanager eng. Aly Zahran, approved by eng. Ahmad Sawan head sector of Nubaria PS, and certified by eng. Mohamed Naguib: \nMDEPC quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area\nWear appropriate personal protective \n equipment as safety \n shoes, safety helmet breathing mask, safety glasses\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nThe auxiliary transformer must be out of service.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with necessary software {ISAWIZARD and enervista}\nTools bag.\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying DC voltmeter \n across points (A1(+),A2(-)) see figure (1) on the rear of the relay.\nReading the Setting from the \nRelay by using the PC\nConnect the Personal Computer to the relay.\nRun the enervista program.\nRead the setting and save it as URGENT FILE for MIF II N [name the feeder].\nFor Auxiliary Transformer \nCTG\nOver Current (O/C)\nRUN ISA WIZARD software and choose Generation and Distribution Relays >>>> \n X-PRO >>>> MANUAL MODE>>>>\nInsert the test plug in the terminal block BP11 see figure (1)\nGenerate Prefault Condition [I=0.001A].\nDisable other functions\nChoose Delta Ramp with step ∆I 0.05 Amp to get pickup current of the relay\nSelect fault and shoot current value equal to (I Setting*1.05) to determine \n the operating time.\nNote that: the injection should be on phase R only.\nSTORE ALL TESTS\nNow you have complete test results for this relay\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these reading agree with station meters (MW, MVAR, Amperes and \n power factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\n\nLocation / \nFeeder: \n Relay Code: \nTested by: Test \nDate: Signature:\nFigure (1): MIF II P connection diagram",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-051-01.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/OCR-073-02.jpg",
+   "alt": ""
+  }
+ ]
+}

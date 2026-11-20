@@ -1,0 +1,313 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-ocr-072-r0-htm",
+ "doc_number": "OCR-072-R0",
+ "title_en": "OCR-072-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/OCR-072-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal injury or damage to \n equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "P126 is designed around a common hardware and software platform in order to \n achieve a high degree of conformity between products. One such product in the \n range is the directional over current and directional earth fault relay. Using a wide variety of protection and automatic control function, the MICOM \n directional over current relays can provide protection for many applications \n including over head line and under ground cables at transmission and \n distribution voltage levels."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first is initiated by eng. Eyhab Zakaria, tested by eng. Sidhom Nassef & El-Sayed \nEdres, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil: MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \nPS, and certified by eng. Mohamed Naguib: MDEPC quality \ncontrol head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued",
+    "The qualified maintenance staff should carry \n the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area",
+    "Line isolation is required.",
+    "Make sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.",
+    "Transmission Line must be grounded."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA DRTS tester.",
+    "Test leads.",
+    "PC laptop with necessary software {ISAWIZARD and ENER VISTA}",
+    "Tools bag."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test."
+  },
+  {
+   "type": "paragraph",
+   "text": "Be sure that the DC power of the relay is correct by applying DC voltmeter \n across points (33,34) on the rear of the relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.",
+    "Be sure that the DC power of the relay is correct by applying DC voltmeter \n across points (33,34) on the rear of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the Setting from \nthe Relay using the PC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the personal computer to the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Run the MICOM S1 program."
+  },
+  {
+   "type": "paragraph",
+   "text": "Read the setting and save it as URGENT FILE FOR P126 [name the feeder]."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the relay.",
+    "Run the MICOM S1 program.",
+    "Read the setting and save it as URGENT FILE FOR P126 [name the feeder]."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Back up for OHTL 500kv"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current 51P"
+  },
+  {
+   "type": "paragraph",
+   "text": "RUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS >>>> \nX-PRO >>>>MANUAL MODE>>>>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Insert the test plug in the terminal block ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect 3 phase currents to test plug X51 to terminals 22,24,26 and 28."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disable other functions."
+  },
+  {
+   "type": "paragraph",
+   "text": "GENERATE PREFAULT CONDITION [I=0.001A]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Choose Delta ramp with step ∆I 0.05 Amp to get pickup current of the \nrelay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Select fault and short current value equal to (1.2*I Setting) to determine \nthe operating time."
+  },
+  {
+   "type": "list",
+   "items": [
+    "RUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS >>>> \nX-PRO >>>>MANUAL MODE>>>>",
+    "Insert the test plug in the terminal block .",
+    "Connect 3 phase currents to test plug X51 to terminals 22,24,26 and 28.",
+    "Disable other functions.",
+    "GENERATE PREFAULT CONDITION [I=0.001A].",
+    "Choose Delta ramp with step ∆I 0.05 Amp to get pickup current of the \nrelay",
+    "Select fault and short current value equal to (1.2*I Setting) to determine \nthe operating time."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Directional Earth Fault"
+  },
+  {
+   "type": "paragraph",
+   "text": "RUN ISA WIZARD software and choose GENERATION \nand DISTRIBUTION \nRELAYS>>>>X-PRO >>>>MANUAL MODE>>>>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect 1 phase voltage to test plug X51 to terminals 2,4."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disable other functions."
+  },
+  {
+   "type": "paragraph",
+   "text": "GENERATE PREFAULT CONDITION \n[I=0.1A, V=57 v, between I and V=. degree]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Choose Delta ramp with step \n∆= -10ْ to get positive pickup angle of \nthe relay with starting by 120ْ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat step 5 with step ∆= 10ْ \nto get negative pickup angle of the relay with starting by 250ْ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Choose Delta ramp with step \n∆I= 0.01 Amp, =0ْ , and V=50 v to get pickup current of the relay. [note prefault \ncurrent = 0.05A]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Select fault and short current value equal to (1.05*I Setting) and =0ْ \n, and V=50 v to determine the operating time."
+  },
+  {
+   "type": "paragraph",
+   "text": "STORE ALL TESTS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Now you have complete test \nresults for this relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "RUN ISA WIZARD software and choose GENERATION \nand DISTRIBUTION \nRELAYS>>>>X-PRO >>>>MANUAL MODE>>>>",
+    "Connect 1 phase voltage to test plug X51 to terminals 2,4.",
+    "Disable other functions.",
+    "GENERATE PREFAULT CONDITION \n[I=0.1A, V=57 v, between I and V=. degree].",
+    "Choose Delta ramp with step \n∆= -10ْ to get positive pickup angle of \nthe relay with starting by 120ْ.",
+    "Repeat step 5 with step ∆= 10ْ \nto get negative pickup angle of the relay with starting by 250ْ.",
+    "Choose Delta ramp with step \n∆I= 0.01 Amp, =0ْ , and V=50 v to get pickup current of the relay. [note prefault \ncurrent = 0.05A]",
+    "Select fault and short current value equal to (1.05*I Setting) and =0ْ \n, and V=50 v to determine the operating time.",
+    "STORE ALL TESTS",
+    "Now you have complete test \nresults for this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated \nEquipment to Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Enable any function which was disabled."
+  },
+  {
+   "type": "paragraph",
+   "text": "Return relay to service by removing the test leads from the relay \nterminals and the test set."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT and VT secondary circuits are in normal condition."
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the disturbance alarm LED's on the relay which is caused by the \ntest."
+  },
+  {
+   "type": "paragraph",
+   "text": "Request feeder to be returned in service."
+  },
+  {
+   "type": "paragraph",
+   "text": "Take pharos readings of all AC currents and voltages and compare them to \nthose for normal load condition."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that these reading agree with station meters (MW, MVAR, Amperes and \npower factor)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Place a copy of the test result in the field maintenance file."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enable any function which was disabled.",
+    "Return relay to service by removing the test leads from the relay \nterminals and the test set.",
+    "Make sure CT and VT secondary circuits are in normal condition.",
+    "Remove the disturbance alarm LED's on the relay which is caused by the \ntest.",
+    "Request feeder to be returned in service.",
+    "Take pharos readings of all AC currents and voltages and compare them to \nthose for normal load condition.",
+    "Check that these reading agree with station meters (MW, MVAR, Amperes and \npower factor).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location / Feeder: Relay \nCode:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: \n Test \nDate: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure ( 1 ): Protection Panel"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2 : Protection Measuring Circuits (Backup Protection)"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal injury or damage to \n equipment.\nP126 is designed around a common hardware and software platform in order to \n achieve a high degree of conformity between products. One such product in the \n range is the directional over current and directional earth fault relay. Using a wide variety of protection and automatic control function, the MICOM \n directional over current relays can provide protection for many applications \n including over head line and under ground cables at transmission and \n distribution voltage levels.\nThe first is initiated by eng. Eyhab Zakaria, tested by eng. Sidhom Nassef & El-Sayed \nEdres, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil: MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \nPS, and certified by eng. Mohamed Naguib: MDEPC quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nTransmission Line must be grounded.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with necessary software {ISAWIZARD and ENER VISTA}\nTools bag.\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying DC voltmeter \n across points (33,34) on the rear of the relay.\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying DC voltmeter \n across points (33,34) on the rear of the relay.\nReading the Setting from \nthe Relay using the PC\nConnect the personal computer to the relay.\nRun the MICOM S1 program.\nRead the setting and save it as URGENT FILE FOR P126 [name the feeder].\nConnect the personal computer to the relay.\nRun the MICOM S1 program.\nRead the setting and save it as URGENT FILE FOR P126 [name the feeder].\nBack up for OHTL 500kv\nOver Current 51P\nRUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS >>>> \nX-PRO >>>>MANUAL MODE>>>>\nInsert the test plug in the terminal block .\nConnect 3 phase currents to test plug X51 to terminals 22,24,26 and 28.\nDisable other functions.\nGENERATE PREFAULT CONDITION [I=0.001A].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the \nrelay\nSelect fault and short current value equal to (1.2*I Setting) to determine \nthe operating time.\nRUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS >>>> \nX-PRO >>>>MANUAL MODE>>>>\nInsert the test plug in the terminal block .\nConnect 3 phase currents to test plug X51 to terminals 22,24,26 and 28.\nDisable other functions.\nGENERATE PREFAULT CONDITION [I=0.001A].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the \nrelay\nSelect fault and short current value equal to (1.2*I Setting) to determine \nthe operating time.\nDirectional Earth Fault\nRUN ISA WIZARD software and choose GENERATION \nand DISTRIBUTION \nRELAYS>>>>X-PRO >>>>MANUAL MODE>>>>\nConnect 1 phase voltage to test plug X51 to terminals 2,4.\nDisable other functions.\nGENERATE PREFAULT CONDITION \n[I=0.1A, V=57 v, between I and V=. degree].\nChoose Delta ramp with step \n∆= -10ْ to get positive pickup angle of \nthe relay with starting by 120ْ.\nRepeat step 5 with step ∆= 10ْ \nto get negative pickup angle of the relay with starting by 250ْ.\nChoose Delta ramp with step \n∆I= 0.01 Amp, =0ْ , and V=50 v to get pickup current of the relay. [note prefault \ncurrent = 0.05A]\nSelect fault and short current value equal to (1.05*I Setting) and =0ْ \n, and V=50 v to determine the operating time.\nSTORE ALL TESTS\nNow you have complete test \nresults for this relay.\nRUN ISA WIZARD software and choose GENERATION \nand DISTRIBUTION \nRELAYS>>>>X-PRO >>>>MANUAL MODE>>>>\nConnect 1 phase voltage to test plug X51 to terminals 2,4.\nDisable other functions.\nGENERATE PREFAULT CONDITION \n[I=0.1A, V=57 v, between I and V=. degree].\nChoose Delta ramp with step \n∆= -10ْ to get positive pickup angle of \nthe relay with starting by 120ْ.\nRepeat step 5 with step ∆= 10ْ \nto get negative pickup angle of the relay with starting by 250ْ.\nChoose Delta ramp with step \n∆I= 0.01 Amp, =0ْ , and V=50 v to get pickup current of the relay. [note prefault \ncurrent = 0.05A]\nSelect fault and short current value equal to (1.05*I Setting) and =0ْ \n, and V=50 v to determine the operating time.\nSTORE ALL TESTS\nNow you have complete test \nresults for this relay.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay \nterminals and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the \ntest.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \nthose for normal load condition.\nCheck that these reading agree with station meters (MW, MVAR, Amperes and \npower factor).\nPlace a copy of the test result in the field maintenance file.\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay \nterminals and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the \ntest.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \nthose for normal load condition.\nCheck that these reading agree with station meters (MW, MVAR, Amperes and \npower factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\nLocation / Feeder: Relay \nCode:\nTested by: \n Test \nDate: Signature:\nFigure ( 1 ): Protection Panel\nFigure 2 : Protection Measuring Circuits (Backup Protection)",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-051-01.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/OCR-072-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/OCR-072-03.jpg",
+   "alt": ""
+  }
+ ]
+}

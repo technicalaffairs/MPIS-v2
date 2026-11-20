@@ -1,0 +1,219 @@
+{
+ "id": "gen-docs-app-gen-mdepc-instr-control-dcs-025-r0-htm",
+ "doc_number": "DCS-025-R0",
+ "title_en": "DCS-025-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/MDEPC/Instr+control/dcs-025-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n AS 111 - 1 Analog Output \n Module\n Alstom"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: \n APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved\n Date: \n 25 Nov 2008"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: \n Nov 2013"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The AS111 module is \nan analog output module providing 8 outputs (4-20 mA current) referenced with \nrespect to the process voltage 0 V\ncommon."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is initiated by eng. Amal El-Shamy, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Features"
+  },
+  {
+   "type": "paragraph",
+   "text": "Dimension"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Height: 233 mm",
+    "Depth: 220 mm",
+    "Width: 1 slot = 25.4 mm",
+    "Weight: \n 0.380 kg"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A process interface consisting of:",
+    "A circuit for distribution and monitoring of the process \n voltage",
+    "16 testable logic inputs based on opto-isolators",
+    "An interface with the 2000 I/O backplane bus consisting of:",
+    ". A circuit for plugging in with power on",
+    ".An 2000 I/O bus slave interface",
+    "Input-output registers."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Controls and indications on the front panel"
+  },
+  {
+   "type": "paragraph",
+   "text": "A green LED on the front panel indicates if the \nmodule is working."
+  },
+  {
+   "type": "paragraph",
+   "text": "It remains on if the module is operating correctly \nand goes out in case of faulty operation ( fault detected in the hardware or \nconfiguration use of the module)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A green LED on the front panel indicates if the \nmodule is working.",
+    "It remains on if the module is operating correctly \nand goes out in case of faulty operation ( fault detected in the hardware or \nconfiguration use of the module)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Input elements"
+  },
+  {
+   "type": "paragraph",
+   "text": "The module has 16 logic input elements \nfor acquisition of 16 free contacts."
+  },
+  {
+   "type": "paragraph",
+   "text": "Each element is based on an opto-isolator \nwhich provides galvanic isolation between the process and the internal voltages."
+  },
+  {
+   "type": "paragraph",
+   "text": "The module monitors the possibility of \nthe inputs to be switched to 1 or 0."
+  },
+  {
+   "type": "list",
+   "items": [
+    "The module has 16 logic input elements \nfor acquisition of 16 free contacts.",
+    "Each element is based on an opto-isolator \nwhich provides galvanic isolation between the process and the internal voltages.",
+    "The module monitors the possibility of \nthe inputs to be switched to 1 or 0."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Process voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "The process voltage is \nsupplied by the backplane connector (distributed voltage), or by the process \nconnector (external voltage)."
+  },
+  {
+   "type": "paragraph",
+   "text": "A logic input based on an \nopto-isolator indicates the presence of the process voltage."
+  },
+  {
+   "type": "list",
+   "items": [
+    "The process voltage is \nsupplied by the backplane connector (distributed voltage), or by the process \nconnector (external voltage).",
+    "A logic input based on an \nopto-isolator indicates the presence of the process voltage."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "General protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A."
+  },
+  {
+   "type": "list",
+   "items": [
+    "General protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Maintenance staff should be \n well trained and qualified.",
+    "Caution marks must be \n hanged on the work place, safety rope around the work place."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Complete tool set."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the supply voltage",
+    "Check the interface leds"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
+  }
+ ],
+ "text": "Power \n Stations\nTechnical Procedure\nEquipment\n AS 111 - 1 Analog Output \n Module\n Alstom\nStatus: \n APPROVED\nApproved\n Date: \n 25 Nov 2008\nDate to be Reviewed: \n Nov 2013\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThe AS111 module is \nan analog output module providing 8 outputs (4-20 mA current) referenced with \nrespect to the process voltage 0 V\ncommon.\nThe first draft is initiated by eng. Amal El-Shamy, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station.\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nDimension\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.380 kg\nOperation\nA process interface consisting of:\nA circuit for distribution and monitoring of the process \n voltage\n16 testable logic inputs based on opto-isolators\nAn interface with the 2000 I/O backplane bus consisting of:\n. A circuit for plugging in with power on\n.An 2000 I/O bus slave interface\nInput-output registers.\nControls and indications on the front panel\nA green LED on the front panel indicates if the \nmodule is working.\nIt remains on if the module is operating correctly \nand goes out in case of faulty operation ( fault detected in the hardware or \nconfiguration use of the module)\nA green LED on the front panel indicates if the \nmodule is working.\nIt remains on if the module is operating correctly \nand goes out in case of faulty operation ( fault detected in the hardware or \nconfiguration use of the module)\nInput elements\nThe module has 16 logic input elements \nfor acquisition of 16 free contacts.\nEach element is based on an opto-isolator \nwhich provides galvanic isolation between the process and the internal voltages.\nThe module monitors the possibility of \nthe inputs to be switched to 1 or 0.\nThe module has 16 logic input elements \nfor acquisition of 16 free contacts.\nEach element is based on an opto-isolator \nwhich provides galvanic isolation between the process and the internal voltages.\nThe module monitors the possibility of \nthe inputs to be switched to 1 or 0.\nProcess voltage\nThe process voltage is \nsupplied by the backplane connector (distributed voltage), or by the process \nconnector (external voltage).\nA logic input based on an \nopto-isolator indicates the presence of the process voltage.\nThe process voltage is \nsupplied by the backplane connector (distributed voltage), or by the process \nconnector (external voltage).\nA logic input based on an \nopto-isolator indicates the presence of the process voltage.\nProtection\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A.\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A.\nSafety \nPrecautions\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,209 @@
+{
+ "id": "gen-docs-app-gen-mdepc-instr-control-dcs-021-r0-htm",
+ "doc_number": "DCS-021-R0",
+ "title_en": "DCS-021-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/MDEPC/Instr+control/dcs-021-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n AB120 Low Level and \n Thermocouple Sensor Input Module\n Alstom"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: \n APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved \n Date: \n 24 Nov 2008"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: \n Nov 2013"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The AB120 is an analogue acquisition module to acquire 8 low \nlevel measurements from"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Thermo-electric couples",
+    "Sensors delivering signals of about 1 mV"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "It isolates and pre-processes the signals for CE2000."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station ."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Features"
+  },
+  {
+   "type": "paragraph",
+   "text": "Dimension:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Height: 233 mm",
+    "Depth: 220 mm",
+    "Width: 1 slot = 25.4 mm",
+    "Weight: \n 0.400 kg"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation"
+  },
+  {
+   "type": "paragraph",
+   "text": "The AB120 module includes:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "An analogue interface consisting of:",
+    "A switching converter",
+    "Eight low-level inputs (TC0 to TC7), each of which is fitted \n with a filter network,",
+    "An RTD input to measure the temperature of cold junction,",
+    "A 0 V test channel and a full-scale test channel",
+    "An open line test channel,",
+    "A measuring chain (amplifier and voltage/frequency converter,",
+    "An opto-electronic interface,",
+    "An intelligent unit consisting of a micro-controller with the \n following:",
+    "EPROM/RAM/EEPROM,",
+    "A clock with a maximum frequency of 16 MHZ",
+    "Three independent 16-bit counters,",
+    "An analogue interface control circuit,",
+    "An interface with the 2000 I/O backplane bus, consisting of:",
+    "A circuit for plugging in with power on,",
+    "A 2000 I/O bus slave interface,"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The AB120 performs the measurement acquisition, in the course of \nwhich it:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Scans \n the inputs cyclically",
+    "Detects \n open lines (sensor disconnection)",
+    "Corrects \n the offset or gain drift errors,",
+    "Linearizes \n the measurements (thermocouples)",
+    "Compensates \n for cold junction",
+    "Converts \n the measurements into physical quantities (in C or mV) The AB120 module:",
+    "Tests \n its own circuits",
+    "Converses with the higher level via the 2000 I/O bus",
+    "Handles \n the conversation necessary for calibration and customization of the PCB"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Controls and indications on the front panel"
+  },
+  {
+   "type": "paragraph",
+   "text": "A green LED on the front panel indicates that the module is \nworking. It goes out in the following cases:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The CE2000 rack PU does not have \n access to the module",
+    "The module has detected a hardware \n fault",
+    "The module has detected a user fault: loss of the process \n voltage, disconnection of a channel."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "PROTECTION"
+  },
+  {
+   "type": "paragraph",
+   "text": "General protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.45 A."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Maintenance staff should be \n well trained and qualified.",
+    "Caution marks must be \n hanged on the work place, safety rope around the work place."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Complete tool set."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the supply voltage",
+    "Check the interface leds"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
+  }
+ ],
+ "text": "Power \n Stations\nTechnical Procedure\nEquipment\n AB120 Low Level and \n Thermocouple Sensor Input Module\n Alstom\nStatus: \n APPROVED\nApproved \n Date: \n 24 Nov 2008\nDate to be Reviewed: \n Nov 2013\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThe AB120 is an analogue acquisition module to acquire 8 low \nlevel measurements from\nThermo-electric couples\nSensors delivering signals of about 1 mV\nIt isolates and pre-processes the signals for CE2000.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nDimension:\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nOperation\nThe AB120 module includes:\nAn analogue interface consisting of:\nA switching converter\nEight low-level inputs (TC0 to TC7), each of which is fitted \n with a filter network,\nAn RTD input to measure the temperature of cold junction,\nA 0 V test channel and a full-scale test channel\nAn open line test channel,\nA measuring chain (amplifier and voltage/frequency converter,\nAn opto-electronic interface,\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM,\nA clock with a maximum frequency of 16 MHZ\nThree independent 16-bit counters,\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nA 2000 I/O bus slave interface,\nThe AB120 performs the measurement acquisition, in the course of \nwhich it:\nScans \n the inputs cyclically\nDetects \n open lines (sensor disconnection)\nCorrects \n the offset or gain drift errors,\nLinearizes \n the measurements (thermocouples)\nCompensates \n for cold junction\nConverts \n the measurements into physical quantities (in C or mV) The AB120 module:\nTests \n its own circuits\nConverses with the higher level via the 2000 I/O bus\nHandles \n the conversation necessary for calibration and customization of the PCB\nControls and indications on the front panel\nA green LED on the front panel indicates that the module is \nworking. It goes out in the following cases:\nThe CE2000 rack PU does not have \n access to the module\nThe module has detected a hardware \n fault\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nPROTECTION\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.45 A.\nSafety \nPrecautions\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

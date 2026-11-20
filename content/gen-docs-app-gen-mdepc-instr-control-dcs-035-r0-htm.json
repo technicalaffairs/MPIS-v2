@@ -1,0 +1,223 @@
+{
+ "id": "gen-docs-app-gen-mdepc-instr-control-dcs-035-r0-htm",
+ "doc_number": "DCS-035-R0",
+ "title_en": "DCS-035-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/MDEPC/Instr+control/dcs-035-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n IR 139 Communication Module\n Alstom -\n France"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: \n APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved\n Date : \n 08 March 2009"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: \n March 2014"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on \n weekly bases as indicated by W1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "IR139 is \na communication module for theCE2000. This module provides exchanges by MODBUS \nprotocol. In this protocol, CE2000, Associated with C370 through IR139 board, \nCan only be master"
+  },
+  {
+   "type": "paragraph",
+   "text": "Each \nmodule channel can be connected to oneslave \nsubscriber (point to point) or to n Slaves (bus connection)"
+  },
+  {
+   "type": "paragraph",
+   "text": "For \nIR139-1 version, the basic module has 4 RS232/RS485 channels."
+  },
+  {
+   "type": "paragraph",
+   "text": "Dimension:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Height:",
+     "233 mm",
+     "Width:",
+     "1 slot \n = 25.4 mm"
+    ],
+    [
+     "Depth:",
+     "220 mm",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Connections :"
+  },
+  {
+   "type": "paragraph",
+   "text": "The serial connections \nare located on the front panel."
+  },
+  {
+   "type": "paragraph",
+   "text": "They are not isolated, \nso IR139 module cannot be connected to devices without a floating 0V (the module \nand/or the device could be damaged)."
+  },
+  {
+   "type": "paragraph",
+   "text": "An isolating module is \nrecommended for outside connections (metal casing)."
+  },
+  {
+   "type": "paragraph",
+   "text": "For RS232, the line \nlength is limited to 15 m."
+  },
+  {
+   "type": "paragraph",
+   "text": "For RS485 with \nisolating module, this length is limited to 1 km."
+  },
+  {
+   "type": "paragraph",
+   "text": "Controls and Indications on The Front Panel"
+  },
+  {
+   "type": "paragraph",
+   "text": "A green \nLED remains on for normal working. It goes out in the following cases:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The \n module access through UT129 is not detected (UT129 missing or module hardware \n fault detected),",
+    "The module \n detects an internal hardware fault,",
+    "The module \n detects a user fault on a transmission line with one or several subscribers; \n in this case, normal working is resumed only when a correct exchange with the \n faulty subscriber(s) is detected"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "General protection on the \nprocess voltage +Vp by CTP with maximum tripping current at 20C: 0.45 A."
+  },
+  {
+   "type": "list",
+   "items": [
+    "For each current input \n with power supplied by the sensor, protection by CTP with maximum tripping \n current at 20C: 0.225 A."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is initiated by eng. Mohamed Tawfeeq, tested by eng. Bahaa Abd \n Elwhab, revised by MDEPC Quality control eng. Adel El Naggar, accepted by \n general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head \n sector of Nubaria power station."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Personal protective equipment must be used (safety shoes, helmet, breathing \n mask, safety glasses)",
+    "Maintenance staff should be \n well trained and qualified.",
+    "Caution marks must be \n hanged on the work place, safety fence around the work place."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Complete tool set, voltammeter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be \ncarried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the supply voltage\nElectrical characteristics"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the supply voltage\nElectrical characteristics"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage 5 V +/- 5%\nConsumption ≤ 200 mA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the interface leds"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the interface leds"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "A green LED remains on for normal working. It goes out in the following cases"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The module detects an internal hardware fault",
+    "The module detects a user fault on a transmission line with one or several \n subscribers, in this case, normal working is \n resumed only when a correct exchange with the faulty subscriber (s) is \n detected"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
+  }
+ ],
+ "text": "Power \n Stations\nTechnical Procedure\nEquipment\n IR 139 Communication Module\n Alstom -\n France\nStatus: \n APPROVED\nApproved\n Date : \n 08 March 2009\nDate to be Reviewed: \n March 2014\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \n weekly bases as indicated by W1 in the title block.\nIR139 is \na communication module for theCE2000. This module provides exchanges by MODBUS \nprotocol. In this protocol, CE2000, Associated with C370 through IR139 board, \nCan only be master\nEach \nmodule channel can be connected to oneslave \nsubscriber (point to point) or to n Slaves (bus connection)\nFor \nIR139-1 version, the basic module has 4 RS232/RS485 channels.\nDimension:\n\nConnections :\nThe serial connections \nare located on the front panel.\nThey are not isolated, \nso IR139 module cannot be connected to devices without a floating 0V (the module \nand/or the device could be damaged).\nAn isolating module is \nrecommended for outside connections (metal casing).\nFor RS232, the line \nlength is limited to 15 m.\nFor RS485 with \nisolating module, this length is limited to 1 km.\nControls and Indications on The Front Panel\nA green \nLED remains on for normal working. It goes out in the following cases:\nThe \n module access through UT129 is not detected (UT129 missing or module hardware \n fault detected),\nThe module \n detects an internal hardware fault,\nThe module \n detects a user fault on a transmission line with one or several subscribers; \n in this case, normal working is resumed only when a correct exchange with the \n faulty subscriber(s) is detected\nProtection\nGeneral protection on the \nprocess voltage +Vp by CTP with maximum tripping current at 20C: 0.45 A.\nFor each current input \n with power supplied by the sensor, protection by CTP with maximum tripping \n current at 20C: 0.225 A.\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by eng. Bahaa Abd \n Elwhab, revised by MDEPC Quality control eng. Adel El Naggar, accepted by \n general manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head \n sector of Nubaria power station.\nThis document certified by eng. Samir Abd El Gillil MDEPC quality \ncontrol general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nSafety \nPrecautions\nA work permit must be issued\nPersonal protective equipment must be used (safety shoes, helmet, breathing \n mask, safety glasses)\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety fence around the work place.\nTools \nand Equipment\nComplete tool set, voltammeter\nWork to be \ncarried out\nCheck the supply voltage\nElectrical characteristics\nCheck the supply voltage\nElectrical characteristics\nVoltage 5 V +/- 5%\nConsumption ≤ 200 mA\nCheck the interface leds\nCheck the interface leds\nA green LED remains on for normal working. It goes out in the following cases\nThe module detects an internal hardware fault\nThe module detects a user fault on a transmission line with one or several \n subscribers, in this case, normal working is \n resumed only when a correct exchange with the faulty subscriber (s) is \n detected\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,292 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-mfp-007-r0-htm",
+ "doc_number": "MFP-007-R0",
+ "title_en": "MFP-007-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/MFP-007-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n Multi-Function \n Protection Relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "SEPAM1000 Series 40"
+  },
+  {
+   "type": "paragraph",
+   "text": "SCHNEIDER ELECTRIC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "Sepam series 40, with its current and voltage metering capabilities, \noffers high performing solutions for more demanding applications. Sepam series \n40 units perform the following functions in addition to those performed by Sepam \nseries 20:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Protection of closed ring networks or networks with parallel incomers, by \ndirectional protection directional earth fault protection suitable for all \nearthing systems: impudent, isolated or compensated neutral protection of \nnetworks with variable configurations requiring the switching of groups of \nsettings and logic discrimination"
+  },
+  {
+   "type": "paragraph",
+   "text": "All the necessary electrical measurements: phase and residual currents, phase-to \nneutral, phase-to-phase and residual voltage, frequency, power and energy,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Comprehensive network diagnosis assistance: 20 seconds of disturbance recording, \ndetailed history of the last 200 alarms, storage of the last 5 tripping contexts"
+  },
+  {
+   "type": "paragraph",
+   "text": "Adaptation of control functions by a logical equation editor"
+  },
+  {
+   "type": "paragraph",
+   "text": "Customization of alarm messages to fit each application, and/or in the users \nlanguage"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first is initiated by eng. Mohamed Hamed Mesbah, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil: MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear \n your safety and healthy equipment as safety helmet, safety shoes ... etc."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The maintenance staff should be trained, qualified, and carry the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Line isolation is required.",
+    "Make sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection.",
+    "Feeder must be grounded."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Safety helmet, safety shoes ... etc",
+    "ISA DRTS tester, Test leads.",
+    "PC laptop with necessary software {ISAWIZARD and ENER VISTA}",
+    "Tools bag."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to \nprepare for \nrelay testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.",
+    "Be sure that the DC power of the relay is correct by applying a DC voltmeter \n across (FA1-A points (1,2) on the rear of the relay see figure no. 1."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the Setting from the \nRelay using the PC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the relay.",
+    "Run the Sepam program.",
+    "Read the setting and safe it as URGENT FILE FOR SIPROTEC SEPAM M41 [name the \n feeder]."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "For 6.3KV Motor"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Over Current (O/C)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Be sure that ISA tester is connected to EARTH.",
+    "Switch ON ISA tester.",
+    "Connect the Personal Computer to the ISA tester.",
+    "Insert test plug to XT3 see figure 1",
+    "After ISA tester completely in service Connect Currents, Voltages and binary \n input leads between ISA tester and SEPAM M41.",
+    "Insert the current terminals to XT13 points (1,2,3,4) see figure no.1",
+    "Disable other functions.",
+    "RUN ISAWIZARD software>>>>>GENERATION & DISTRIBUTION RELAYS>>>> Xpro \n advanced>>>>MANUAL MODE",
+    "NOW you can test the relay.\n NOTE: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, V=0V].",
+    "SET time over current = 0 [Ie instantaneous over current]",
+    "Choose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.",
+    "Set time over current to set value.",
+    "Choose Shoot with current values [2*I,3*1,4*I and 5*I] to get these points on \n curve.",
+    "STORE ALL TESTS"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Now print the results and you have complete test results for this function."
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault (E/F)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "RUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> \n X-PRO >>>>MANUAL MODE>>>>",
+    "Insert the current terminals to 18, 19. See figure no.1",
+    "Generate prefault condition [I=0.001A].",
+    "Disable other functions.",
+    "SET time earth fault =0 [i.e instantaneous] earth fault.",
+    "Choose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.",
+    "SET time earth fault to set value.",
+    "Select fault and shoot current value equal to values [2*I,3*1,4*I and 5*I] to \n get these points on curve.",
+    "Note that the injection should be on phase R only.",
+    "STORE ALL TESTS.",
+    "Stop ISAWIZARD program."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Negative Sequence \n46"
+  },
+  {
+   "type": "paragraph",
+   "text": "Choose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\n Note \n Ia=3 \n x Io \n =3x I2 WHERE"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ia: Phase current, Io: \n Zero sequence current and I2: Negative sequence component"
+  },
+  {
+   "type": "list",
+   "items": [
+    "RUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> \n X-PRO >>>>MANUAL MODE>>>>",
+    "Insert test plug to XT3 ... see figure 1",
+    "After ISA tester completely in service connect current, and binary inputs \n leads between ISA tester and SEPAM M41",
+    "Insert the current terminals to XT3 points (1,2,3) ... see figure 1",
+    "Generate prefault condition [I=0.001A].",
+    "Disable other functions.",
+    "Select fault and shoot current value equal to (I Setting*1.05) to determine \n the operating time.\n Note that the injection should be on phase R only.",
+    "STORE ALL TESTS."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated \nEquipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enable any function which was disabled.",
+    "Return relay to service by removing the test leads from the relay terminals \n and the test set.",
+    "Make sure CT and VT secondary circuits are in normal condition.",
+    "Remove the disturbance alarm LED`s on the relay which is caused by the test.",
+    "Request feeder to be returned in service.",
+    "Take pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.",
+    "Check that these reading agree with station meters (MW, MVAR, Amperes and \n power factor).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location / \nFeeder: \n Relay Code: \nTested by: Test \nDate: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Base unit, with \n different User-Machine Interface (UMI) levels:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Basic UMI",
+    "Advanced UMI with fixed or remote graphic LCD display."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Logic Inputs / output \n module."
+  },
+  {
+   "type": "paragraph",
+   "text": "Modbus communication \n network connection module."
+  },
+  {
+   "type": "paragraph",
+   "text": "Temperature sensor \n acquisition module for transformer, motor or generator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Software Tools:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Sepam \n parameter and protection setting and program logic customization",
+    "Display of disturbance recording files."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1 Protection Circuit"
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\n Multi-Function \n Protection Relay\nSEPAM1000 Series 40\nSCHNEIDER ELECTRIC\nIntroduction\nSepam series 40, with its current and voltage metering capabilities, \noffers high performing solutions for more demanding applications. Sepam series \n40 units perform the following functions in addition to those performed by Sepam \nseries 20:\nProtection of closed ring networks or networks with parallel incomers, by \ndirectional protection directional earth fault protection suitable for all \nearthing systems: impudent, isolated or compensated neutral protection of \nnetworks with variable configurations requiring the switching of groups of \nsettings and logic discrimination\nAll the necessary electrical measurements: phase and residual currents, phase-to \nneutral, phase-to-phase and residual voltage, frequency, power and energy,\nComprehensive network diagnosis assistance: 20 seconds of disturbance recording, \ndetailed history of the last 200 alarms, storage of the last 5 tripping contexts\nAdaptation of control functions by a logical equation editor\nCustomization of alarm messages to fit each application, and/or in the users \nlanguage\nThe first is initiated by eng. Mohamed Hamed Mesbah, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil: MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nWear \n your safety and healthy equipment as safety helmet, safety shoes ... etc.\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection.\nFeeder must be grounded.\nTools and Equipment\nSafety helmet, safety shoes ... etc\nISA DRTS tester, Test leads.\nPC laptop with necessary software {ISAWIZARD and ENER VISTA}\nTools bag.\nWork to be Carried Out\nSteps to \nprepare for \nrelay testing\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across (FA1-A points (1,2) on the rear of the relay see figure no. 1.\nReading the Setting from the \nRelay using the PC\nConnect the personal computer to the relay.\nRun the Sepam program.\nRead the setting and safe it as URGENT FILE FOR SIPROTEC SEPAM M41 [name the \n feeder].\nFor 6.3KV Motor\nTime Over Current (O/C)\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nConnect the Personal Computer to the ISA tester.\nInsert test plug to XT3 see figure 1\nAfter ISA tester completely in service Connect Currents, Voltages and binary \n input leads between ISA tester and SEPAM M41.\nInsert the current terminals to XT13 points (1,2,3,4) see figure no.1\nDisable other functions.\nRUN ISAWIZARD software>>>>>GENERATION & DISTRIBUTION RELAYS>>>> Xpro \n advanced>>>>MANUAL MODE\nNOW you can test the relay.\n NOTE: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, V=0V].\nSET time over current = 0 [Ie instantaneous over current]\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nSet time over current to set value.\nChoose Shoot with current values [2*I,3*1,4*I and 5*I] to get these points on \n curve.\nSTORE ALL TESTS\nNow print the results and you have complete test results for this function.\nEarth Fault (E/F)\nRUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> \n X-PRO >>>>MANUAL MODE>>>>\nInsert the current terminals to 18, 19. See figure no.1\nGenerate prefault condition [I=0.001A].\nDisable other functions.\nSET time earth fault =0 [i.e instantaneous] earth fault.\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nSET time earth fault to set value.\nSelect fault and shoot current value equal to values [2*I,3*1,4*I and 5*I] to \n get these points on curve.\nNote that the injection should be on phase R only.\nSTORE ALL TESTS.\nStop ISAWIZARD program.\nNegative Sequence \n46\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\n Note \n Ia=3 \n x Io \n =3x I2 WHERE\nIa: Phase current, Io: \n Zero sequence current and I2: Negative sequence component\nRUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> \n X-PRO >>>>MANUAL MODE>>>>\nInsert test plug to XT3 ... see figure 1\nAfter ISA tester completely in service connect current, and binary inputs \n leads between ISA tester and SEPAM M41\nInsert the current terminals to XT3 points (1,2,3) ... see figure 1\nGenerate prefault condition [I=0.001A].\nDisable other functions.\nSelect fault and shoot current value equal to (I Setting*1.05) to determine \n the operating time.\n Note that the injection should be on phase R only.\nSTORE ALL TESTS.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED`s on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these reading agree with station meters (MW, MVAR, Amperes and \n power factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\nLocation / \nFeeder: \n Relay Code: \nTested by: Test \nDate: Signature:\nBase unit, with \n different User-Machine Interface (UMI) levels:\nBasic UMI\nAdvanced UMI with fixed or remote graphic LCD display.\nLogic Inputs / output \n module.\nModbus communication \n network connection module.\nTemperature sensor \n acquisition module for transformer, motor or generator.\nSoftware Tools:\nSepam \n parameter and protection setting and program logic customization\nDisplay of disturbance recording files.\nFigure 1 Protection Circuit",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-051-01.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/MFP-007-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/MFP-007-01.jpg",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "id": "gen-docs-app-gen-mdepc-instr-control-dcs-023-r0-htm",
+ "doc_number": "DCS-023-R0",
+ "title_en": "DCS-023-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/MDEPC/Instr+control/dcs-023-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n AB 121 RTD Inpurt Module\n Alstom"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: \n APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved \n Date: 24 Nov 2008"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: \n Nov 2013"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The AB121 is an analogue acquisition module used to acquire 8 low \nlevel measurements from 100 W/0C˚\n(3wire) platinum resistance temperature detectors (RTDs) It isolates and \npre-processes the signals for the CE 2000"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station ."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Features"
+  },
+  {
+   "type": "paragraph",
+   "text": "Dimension:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Height: 233 mm",
+    "Depth: 220 mm",
+    "Width: 1 slot = 25.4 mm",
+    "Weight: \n 0.400 kg"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation"
+  },
+  {
+   "type": "paragraph",
+   "text": "The AB121 module includes:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "An analogue interface consisting of:",
+    "A switching converter",
+    "Eight low-level inputs (RTC0 to RTD7), each fitted with a \n filtering and portecting network and eight RTD power supplies",
+    "A 0 V test channel and a full-scale test channel",
+    "A channel reserved for calibration",
+    "A static multiplexing circuit",
+    "A measuring chain (voltage/frequency converter, and amplifier)",
+    "An intelligent unit consisting of a micro-controller with the \n following:",
+    "EPROM/RAM/EEPROM",
+    "A clock with a maximum frequency of 16 MHZ",
+    "Three independent 16-bit counters,",
+    "An analogue interface control circuit,",
+    "An interface with the 2000 I/O backplane bus, consisting of:",
+    "A circuit for plugging in with power on,",
+    "A 2000 I/O bus slave interface,"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Scans \n the inputs cyclically,",
+    "Detects \n open lines (sensor disconnection),",
+    "Corrects \n the offset or gain drift errors,",
+    "Linearizes \n the measurements",
+    "Converts \n the measurements into physical quantities (C)"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Tests \n its own circuits,",
+    "Converses with the higher level via the 2000 I/O bus,"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Controls and indications on the front panel"
+  },
+  {
+   "type": "paragraph",
+   "text": "A green LED on the front panel indicates that the module is \nworking. It goes out in the following cases:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The CE2000 rack PU does not have access to the module,",
+    "The module has detected a hardware \n fault,",
+    "The module has detected a user fault: loss of the process \n voltage, disconnection of a channel."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "General protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.45 A."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Maintenance staff should be \n well trained and qualified.",
+    "Caution marks must be \n hanged on the work place, safety rope around the work place."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Complete tool set."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the supply voltage",
+    "Check the interface leds"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
+  }
+ ],
+ "text": "Power \n Stations\nTechnical Procedure\nEquipment\n AB 121 RTD Inpurt Module\n Alstom\nStatus: \n APPROVED\nApproved \n Date: 24 Nov 2008\nDate to be Reviewed: \n Nov 2013\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on \nweekly bases as indicated by W1 in the title block.\nThe AB121 is an analogue acquisition module used to acquire 8 low \nlevel measurements from 100 W/0C˚\n(3wire) platinum resistance temperature detectors (RTDs) It isolates and \npre-processes the signals for the CE 2000\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nDimension:\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nOperation\nThe AB121 module includes:\nAn analogue interface consisting of:\nA switching converter\nEight low-level inputs (RTC0 to RTD7), each fitted with a \n filtering and portecting network and eight RTD power supplies\nA 0 V test channel and a full-scale test channel\nA channel reserved for calibration\nA static multiplexing circuit\nA measuring chain (voltage/frequency converter, and amplifier)\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM\nA clock with a maximum frequency of 16 MHZ\nThree independent 16-bit counters,\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nA 2000 I/O bus slave interface,\nScans \n the inputs cyclically,\nDetects \n open lines (sensor disconnection),\nCorrects \n the offset or gain drift errors,\nLinearizes \n the measurements\nConverts \n the measurements into physical quantities (C)\nTests \n its own circuits,\nConverses with the higher level via the 2000 I/O bus,\nControls and indications on the front panel\nA green LED on the front panel indicates that the module is \nworking. It goes out in the following cases:\nThe CE2000 rack PU does not have access to the module,\nThe module has detected a hardware \n fault,\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nProtection\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.45 A.\nSafety \nPrecautions\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nTools \nand Equipment\nComplete tool set.\nWork to be carried out\nCheck the supply voltage\nCheck the interface leds\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

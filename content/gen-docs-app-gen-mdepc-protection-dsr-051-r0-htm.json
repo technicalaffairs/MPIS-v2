@@ -1,0 +1,268 @@
+{
+ "id": "gen-docs-app-gen-mdepc-protection-dsr-051-r0-htm",
+ "doc_number": "DSR-051-R0",
+ "title_en": "DsR-051-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/MDEPC/Protection/DsR-051-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The distance relays offer a comprehensive range of protection functions for \napplication to many overhead line and underground cable circuits. the P442 model \ncan provide single and three phase tripping."
+  },
+  {
+   "type": "paragraph",
+   "text": "All kinds of faults are detected including close-in three-phase, cross-country \nfaults, evolving faults and high-resistance earth faults"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check the proper \noperation and calibration of the relay. It is recommended this procedure to be \ncarried out on an annually bases. The document is formatted the way to minimize \nthe possibility of error causing personal injury \nor damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first is initiated by eng.\nIbrahim El-Araby, tested by eng. Sidhom Nassef and eng. El-Sayed Edris, \nrevised by eng. Adel El-Nagar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil: MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \nPS, and certified by eng. Mohamed Naguib:\nMDEPC quality control head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The qualified maintenance staff should carry the suitable ID safety category,",
+    "Maintenance \n staff should be well trained, qualified or directly supervised by some one \n who is.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Safety and healthy \n equipment must be used (safety helmet, safety shoes ... etc).",
+    "Line isolation is required.",
+    "Make sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection.",
+    "Transmission Line must be grounded."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and \nEquipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "ISA DRTS tester"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads."
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA DRTS tester",
+    "Test leads.",
+    "PC laptop with necessary software {ISA WIZARD and Micom P442}",
+    "Tools bag."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to Prepare for Relay \nTesting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test",
+    "Be sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (J1-) and (J2+) - see fig. 1 on the rear of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the \nsetting from the Relay using the PC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the relay.",
+    "Run the Micom S1 program.",
+    "Read the setting and safe it as URGENT FILE FOR P442 [name the feeder]."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Distance \nProtection Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the personal computer to the ISA tester",
+    "Be sure that ISA tester is connected to EARTH.",
+    "Switch ON ISA tester.",
+    "After ISA tester completely in service connect currents, Voltages and binary \n input leads between ISA tester and test plug(X21-1 & X21-2) see fig. 2 for Micom P442.",
+    "Make short between points (X21-1 13 & 14) and points \n (X21-1 15 & 16) see fig. 3",
+    "RUN ISA WIZARD software and choose SPECIAL DISTANCE>>>> SPECIAL licensed >>>>ALSTOM \n >>>>P442 [>>>> means ENTER ORDER].",
+    "From setting file. Plot the setting file in RIO file in ISA TESTER",
+    "After that choose \n ZPRO\n >>>> the characteristic for\n Micom P442 will appear.",
+    "Now you can choose two ways to test these relay.\nNote: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, V=57V]."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "From TEST SELECTION chose automatic time zone (Z/T) and dont forget to \nadjust the test sequence as follow [fault = all faults, Z min = zero, Z max = as the \nsetting, STEP =0.5 OHM, Angle [degree] = 0, after that click OK the tester will \noperate and test the R axis.",
+    "Repeat step 1- BUT choose angle=90 the tester will test the X axis.",
+    "Choose STORE ALL TESTS >>>>",
+    "Go to RESULTS from main menu chose HEADER and apply all information about these \nfeeder and ok",
+    "Now print the results and you have complete test results for these relay.",
+    "From TEST SELECTION choose Click and test and by curser click on the \npoint which you need to test [generally choose all points on X and Y Axis].",
+    "Repeat steps from 3 to 5.",
+    "Now you have complete test results for these relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Other Function Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Swing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "From main menu select TEST SELECTION select POWER SWING test and plot the \n setting.",
+    "Click Start.",
+    "Chose STORE ALL TESTS.",
+    "Go to results from main menu choose header and apply all information about \nthese feeder and ok.",
+    "Now print the results and you have complete test results for these function."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch on to Fault ( SOTF )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "From main menu select test selection select \nsotf test and plot the \nsetting from Rio file.",
+    "Make prefault at zero current and voltage.",
+    "Click ok.",
+    "Inject current and voltage as fault case in any zone Z2 or Z3",
+    "Click Start.",
+    "Choose STORE ALL TESTS.",
+    "From results will see that the time at all faults is equal to Z1 time."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current \n(O/C)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "RUN ISA WIZARD software and choose GENERATION and DISTRIBUTION RELAYS>>>> \nX-PRO >>>>MANUAL MODE>>>>",
+    "GENERATE PREFAULT CONDITION [I=0.001A, V=57V].",
+    "Disable distance function.",
+    "SELECT FAULT and INJECT CURRENT VALUE EQUAL to (I Setting*1.01) to determine the \noperating time.",
+    "Click Start",
+    "Repeat steps from 1 to 5 for all phases R, S, and T\n Note that you can inject on three phase one time.",
+    "Choose store all tests."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault (E/F)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "RUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> \nX-PRO >>>>MANUAL MODE>>>>.",
+    "GENERATE PREFAULT CONDITION [I=0.001A].",
+    "Disable distance function.",
+    "SELECT FAULT and INJECT CURRENT VALUE EQUAL to (I Setting*1.01) to determine \nthe operating time.",
+    "Click Start.",
+    "Repeat steps from 1 to 5 for all phases R, S, and T.\n Note that: The injection should be on phase by phase not on three phases \nor on two phases.",
+    "Choose store all tests"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated \nEquipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enable any function which was disabled.",
+    "Return relay to service by removing the test leads from the relay terminals and \nthe test set.",
+    "Make sure CT and VT secondary circuits are in normal condition.",
+    "Remove the disturbance alarm LED's on the relay which is caused by the test.",
+    "Request feeder to be returned in service.",
+    "Take pharos readings of all AC currents and voltages and compare them to those \nfor normal load condition.",
+    "Check that these readings agree with station meters (MW, \nMvar, Amperes and power \nfactor).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location / \nFeeder: Relay Code: \nTested by: Test \nDate: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1 : Protection Panel"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2 : Protection Measuring Circuits"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 3 : Inputs & Outputs Circuits"
+  }
+ ],
+ "text": "Introduction\nThe distance relays offer a comprehensive range of protection functions for \napplication to many overhead line and underground cable circuits. the P442 model \ncan provide single and three phase tripping.\nAll kinds of faults are detected including close-in three-phase, cross-country \nfaults, evolving faults and high-resistance earth faults\nThis procedure details the steps required to completely check the proper \noperation and calibration of the relay. It is recommended this procedure to be \ncarried out on an annually bases. The document is formatted the way to minimize \nthe possibility of error causing personal injury \nor damage to equipment.\nThe first is initiated by eng.\nIbrahim El-Araby, tested by eng. Sidhom Nassef and eng. El-Sayed Edris, \nrevised by eng. Adel El-Nagar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gilil: MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \nPS, and certified by eng. Mohamed Naguib:\nMDEPC quality control head sector.\nSafety \nPrecautions\nThe qualified maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nSafety and healthy \n equipment must be used (safety helmet, safety shoes ... etc).\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the \n current circuits for test distance protection.\nTransmission Line must be grounded.\nTools and \nEquipment\nISA DRTS tester\nTest leads.\nISA DRTS tester\nTest leads.\nPC laptop with necessary software {ISA WIZARD and Micom P442}\nTools bag.\nWork to be carried out\nSteps to Prepare for Relay \nTesting\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (J1-) and (J2+) - see fig. 1 on the rear of the relay.\nReading the \nsetting from the Relay using the PC\nConnect the personal computer to the relay.\nRun the Micom S1 program.\nRead the setting and safe it as URGENT FILE FOR P442 [name the feeder].\nDistance \nProtection Test\nConnect the personal computer to the ISA tester\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nAfter ISA tester completely in service connect currents, Voltages and binary \n input leads between ISA tester and test plug(X21-1 & X21-2) see fig. 2 for Micom P442.\nMake short between points (X21-1 13 & 14) and points \n (X21-1 15 & 16) see fig. 3\nRUN ISA WIZARD software and choose SPECIAL DISTANCE>>>> SPECIAL licensed >>>>ALSTOM \n >>>>P442 [>>>> means ENTER ORDER].\nFrom setting file. Plot the setting file in RIO file in ISA TESTER\nAfter that choose \n ZPRO\n >>>> the characteristic for\n Micom P442 will appear.\nNow you can choose two ways to test these relay.\nNote: Don't forget to GENERATE PREFAULT CONDITION [I=0.001A, V=57V].\nFrom TEST SELECTION chose automatic time zone (Z/T) and dont forget to \nadjust the test sequence as follow [fault = all faults, Z min = zero, Z max = as the \nsetting, STEP =0.5 OHM, Angle [degree] = 0, after that click OK the tester will \noperate and test the R axis.\nRepeat step 1- BUT choose angle=90 the tester will test the X axis.\nChoose STORE ALL TESTS >>>>\nGo to RESULTS from main menu chose HEADER and apply all information about these \nfeeder and ok\nNow print the results and you have complete test results for these relay.\nFrom TEST SELECTION choose Click and test and by curser click on the \npoint which you need to test [generally choose all points on X and Y Axis].\nRepeat steps from 3 to 5.\nNow you have complete test results for these relay.\nOther Function Test\nPower Swing\nFrom main menu select TEST SELECTION select POWER SWING test and plot the \n setting.\nClick Start.\nChose STORE ALL TESTS.\nGo to results from main menu choose header and apply all information about \nthese feeder and ok.\nNow print the results and you have complete test results for these function.\nSwitch on to Fault ( SOTF )\nFrom main menu select test selection select \nsotf test and plot the \nsetting from Rio file.\nMake prefault at zero current and voltage.\nClick ok.\nInject current and voltage as fault case in any zone Z2 or Z3\nClick Start.\nChoose STORE ALL TESTS.\nFrom results will see that the time at all faults is equal to Z1 time.\nOver Current \n(O/C)\nRUN ISA WIZARD software and choose GENERATION and DISTRIBUTION RELAYS>>>> \nX-PRO >>>>MANUAL MODE>>>>\nGENERATE PREFAULT CONDITION [I=0.001A, V=57V].\nDisable distance function.\nSELECT FAULT and INJECT CURRENT VALUE EQUAL to (I Setting*1.01) to determine the \noperating time.\nClick Start\nRepeat steps from 1 to 5 for all phases R, S, and T\n Note that you can inject on three phase one time.\nChoose store all tests.\nEarth Fault (E/F)\nRUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>> \nX-PRO >>>>MANUAL MODE>>>>.\nGENERATE PREFAULT CONDITION [I=0.001A].\nDisable distance function.\nSELECT FAULT and INJECT CURRENT VALUE EQUAL to (I Setting*1.01) to determine \nthe operating time.\nClick Start.\nRepeat steps from 1 to 5 for all phases R, S, and T.\n Note that: The injection should be on phase by phase not on three phases \nor on two phases.\nChoose store all tests\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals and \nthe test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to those \nfor normal load condition.\nCheck that these readings agree with station meters (MW, \nMvar, Amperes and power \nfactor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\nLocation / \nFeeder: Relay Code: \nTested by: Test \nDate: Signature:\nFigure 1 : Protection Panel\nFigure 2 : Protection Measuring Circuits\nFigure 3 : Inputs & Outputs Circuits",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-051-01.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-051-04.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-051-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-051-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-051-03.jpg",
+   "alt": ""
+  }
+ ]
+}
