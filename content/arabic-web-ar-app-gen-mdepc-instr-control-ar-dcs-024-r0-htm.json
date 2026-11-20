@@ -14,40 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n محطات"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nAH 115 A High Level \n Analogue Input Module\n Alstom"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-024-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: النوبارية PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:فحص المعدات \n (I1-W1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة \n تاريخ: 24 Nov 2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: \n Nov 2013"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n محطات",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -303,7 +277,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "القوة \n محطات\nالإجراء الفني\nمعدات\nAH 115 A High Level \n Analogue Input Module\n Alstom\nرقم الوثيقة: DCS-024-r0\nصدرت إلى: النوبارية PS\nحالة: \n موافقة\nإجراء:فحص المعدات \n (I1-W1)\nموافقة \n تاريخ: 24 Nov 2008\nتاريخ المراد مراجعتها: \n Nov 2013\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe AH115 is an analogue acquisition module used to acquire 8 low \nlevel measurements from sensors delivering signals of about 4-20 mA transmitters \nalso powers these transmitters It isolates and pre-processes the signals for the \nCE 2000\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nDimension:\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nعملية\nThe AH 115A module includes:\nAn analogue interface consisting of:\nA switching converter\nثمانية مدخلات منخفضة المستوى (RTC0 إلى RTD7)، كل منها مزود بـ \n شبكة ترشيح وتنقل وثمانية مصادر طاقة RTD\nA 0 V test channel and a full-scale test channel\nA full - scale test channel\nA static multiplexing circuit\nA measuring chain (amplifier and voltage/frequency converter)\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM\nA clock with 16 MHz maximum frequency\nثلاثة عدادات مستقلة 16 بت،\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nA I/O bus slave interface,\nThe AH 115 A module\nTتقديرات \n دوائرها الخاصة،\nConverses with the higher level via the I/O bus,\nAn analogue interface consisting of:\nA switching converter\nثمانية مدخلات منخفضة المستوى (RTC0 إلى RTD7)، كل منها مزود بـ \n شبكة ترشيح وتنقل وثمانية مصادر طاقة RTD\nA 0 V test channel and a full-scale test channel\nA full - scale test channel\nA static multiplexing circuit\nA measuring chain (amplifier and voltage/frequency converter)\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM\nA clock with 16 MHz maximum frequency\nثلاثة عدادات مستقلة 16 بت،\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nA I/O bus slave interface,\nThe AH 115 A module\nTتقديرات \n دوائرها الخاصة،\nConverses with the higher level via the I/O bus,\nControls and indications on the front panel\nA green LED on the front panel indicates that the module is \nworking. It goes out in the following cases:\nThe CE2000 rack PU does not have \n access to the module\nThe module has detected a hardware \n fault\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nThe CE2000 rack PU does not have \n access to the module\nThe module has detected a hardware \n fault\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nحماية\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.225 A.\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "القوة \n محطات | الإجراء الفني\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe AH115 is an analogue acquisition module used to acquire 8 low \nlevel measurements from sensors delivering signals of about 4-20 mA transmitters \nalso powers these transmitters It isolates and pre-processes the signals for the \nCE 2000\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nDimension:\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nعملية\nThe AH 115A module includes:\nAn analogue interface consisting of:\nA switching converter\nثمانية مدخلات منخفضة المستوى (RTC0 إلى RTD7)، كل منها مزود بـ \n شبكة ترشيح وتنقل وثمانية مصادر طاقة RTD\nA 0 V test channel and a full-scale test channel\nA full - scale test channel\nA static multiplexing circuit\nA measuring chain (amplifier and voltage/frequency converter)\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM\nA clock with 16 MHz maximum frequency\nثلاثة عدادات مستقلة 16 بت،\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nA I/O bus slave interface,\nThe AH 115 A module\nTتقديرات \n دوائرها الخاصة،\nConverses with the higher level via the I/O bus,\nAn analogue interface consisting of:\nA switching converter\nثمانية مدخلات منخفضة المستوى (RTC0 إلى RTD7)، كل منها مزود بـ \n شبكة ترشيح وتنقل وثمانية مصادر طاقة RTD\nA 0 V test channel and a full-scale test channel\nA full - scale test channel\nA static multiplexing circuit\nA measuring chain (amplifier and voltage/frequency converter)\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM\nA clock with 16 MHz maximum frequency\nثلاثة عدادات مستقلة 16 بت،\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nA I/O bus slave interface,\nThe AH 115 A module\nTتقديرات \n دوائرها الخاصة،\nConverses with the higher level via the I/O bus,\nControls and indications on the front panel\nA green LED on the front panel indicates that the module is \nworking. It goes out in the following cases:\nThe CE2000 rack PU does not have \n access to the module\nThe module has detected a hardware \n fault\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nThe CE2000 rack PU does not have \n access to the module\nThe module has detected a hardware \n fault\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nحماية\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.225 A.\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [

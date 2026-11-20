@@ -14,40 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n محطات"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nAB 121 RTD Inpurt Module\n Alstom"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-023-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: النوبارية PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:فحص المعدات \n (I1-W1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة \n Date: 24 Nov 2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: \n Nov 2013"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n محطات",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -341,7 +315,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "القوة \n محطات\nالإجراء الفني\nمعدات\nAB 121 RTD Inpurt Module\n Alstom\nرقم الوثيقة: DCS-023-r0\nصدرت إلى: النوبارية PS\nحالة: \n موافقة\nإجراء:فحص المعدات \n (I1-W1)\nموافقة \n Date: 24 Nov 2008\nتاريخ المراد مراجعتها: \n Nov 2013\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe AB121 is an analogue acquisition module used to acquire 8 low \nlevel measurements from 100 W/0C˚\n(3wire) platinum resistance temperature detectors (RTDs) It isolates and \npre-processes the signals for the CE 2000\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nDimension:\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nعملية\nThe AB121 module includes:\nAn analogue interface consisting of:\nA switching converter\nثمانية مدخلات منخفضة المستوى (RTC0 إلى RTD7)، كل منها مزود بـ \n شبكة ترشيح وتنقل وثمانية مصادر طاقة RTD\nA 0 V test channel and a full-scale test channel\nA channel reserved for calibration\nA static multiplexing circuit\nA measuring chain (voltage/frequency converter, and amplifier)\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM\nA clock with a maximum frequency of 16 MHZ\nثلاثة عدادات مستقلة 16 بت،\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nواجهة تابعة لحافلة الإدخال/الإخراج لعام 2000،\nAn analogue interface consisting of:\nA switching converter\nثمانية مدخلات منخفضة المستوى (RTC0 إلى RTD7)، كل منها مزود بـ \n شبكة ترشيح وتنقل وثمانية مصادر طاقة RTD\nA 0 V test channel and a full-scale test channel\nA channel reserved for calibration\nA static multiplexing circuit\nA measuring chain (voltage/frequency converter, and amplifier)\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM\nA clock with a maximum frequency of 16 MHZ\nثلاثة عدادات مستقلة 16 بت،\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nواجهة تابعة لحافلة الإدخال/الإخراج لعام 2000،\nScans \n the inputs cyclically,\nDإلخ \n الخطوط المفتوحة (فصل أجهزة الاستشعار)،\nCorrects \n the offset or gain drift errors,\nLinearizes \n the measurements\nConverts \n the measurements into physical quantities (C)\nScans \n the inputs cyclically,\nDإلخ \n الخطوط المفتوحة (فصل أجهزة الاستشعار)،\nCorrects \n the offset or gain drift errors,\nLinearizes \n the measurements\nConverts \n the measurements into physical quantities (C)\nTتقديرات \n دوائرها الخاصة،\nConverses with the higher level via the 2000 I/O bus,\nTتقديرات \n دوائرها الخاصة،\nConverses with the higher level via the 2000 I/O bus,\nControls and indications on the front panel\nA green LED on the front panel indicates that the module is \nworking. It goes out in the following cases:\nلا يمكن لوحدة PU الخاصة بالحامل CE2000 الوصول إلى الوحدة،\nThe module has detected a hardware \n fault,\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nلا يمكن لوحدة PU الخاصة بالحامل CE2000 الوصول إلى الوحدة،\nThe module has detected a hardware \n fault,\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nحماية\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.45 A.\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "القوة \n محطات | الإجراء الفني\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe AB121 is an analogue acquisition module used to acquire 8 low \nlevel measurements from 100 W/0C˚\n(3wire) platinum resistance temperature detectors (RTDs) It isolates and \npre-processes the signals for the CE 2000\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nDimension:\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.400 kg\nعملية\nThe AB121 module includes:\nAn analogue interface consisting of:\nA switching converter\nثمانية مدخلات منخفضة المستوى (RTC0 إلى RTD7)، كل منها مزود بـ \n شبكة ترشيح وتنقل وثمانية مصادر طاقة RTD\nA 0 V test channel and a full-scale test channel\nA channel reserved for calibration\nA static multiplexing circuit\nA measuring chain (voltage/frequency converter, and amplifier)\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM\nA clock with a maximum frequency of 16 MHZ\nثلاثة عدادات مستقلة 16 بت،\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nواجهة تابعة لحافلة الإدخال/الإخراج لعام 2000،\nAn analogue interface consisting of:\nA switching converter\nثمانية مدخلات منخفضة المستوى (RTC0 إلى RTD7)، كل منها مزود بـ \n شبكة ترشيح وتنقل وثمانية مصادر طاقة RTD\nA 0 V test channel and a full-scale test channel\nA channel reserved for calibration\nA static multiplexing circuit\nA measuring chain (voltage/frequency converter, and amplifier)\nAn intelligent unit consisting of a micro-controller with the \n following:\nEPROM/RAM/EEPROM\nA clock with a maximum frequency of 16 MHZ\nثلاثة عدادات مستقلة 16 بت،\nAn analogue interface control circuit,\nAn interface with the 2000 I/O backplane bus, consisting of:\nA circuit for plugging in with power on,\nواجهة تابعة لحافلة الإدخال/الإخراج لعام 2000،\nScans \n the inputs cyclically,\nDإلخ \n الخطوط المفتوحة (فصل أجهزة الاستشعار)،\nCorrects \n the offset or gain drift errors,\nLinearizes \n the measurements\nConverts \n the measurements into physical quantities (C)\nScans \n the inputs cyclically,\nDإلخ \n الخطوط المفتوحة (فصل أجهزة الاستشعار)،\nCorrects \n the offset or gain drift errors,\nLinearizes \n the measurements\nConverts \n the measurements into physical quantities (C)\nTتقديرات \n دوائرها الخاصة،\nConverses with the higher level via the 2000 I/O bus,\nTتقديرات \n دوائرها الخاصة،\nConverses with the higher level via the 2000 I/O bus,\nControls and indications on the front panel\nA green LED on the front panel indicates that the module is \nworking. It goes out in the following cases:\nلا يمكن لوحدة PU الخاصة بالحامل CE2000 الوصول إلى الوحدة،\nThe module has detected a hardware \n fault,\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nلا يمكن لوحدة PU الخاصة بالحامل CE2000 الوصول إلى الوحدة،\nThe module has detected a hardware \n fault,\nThe module has detected a user fault: loss of the process \n voltage, disconnection of a channel.\nحماية\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.45 A.\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [

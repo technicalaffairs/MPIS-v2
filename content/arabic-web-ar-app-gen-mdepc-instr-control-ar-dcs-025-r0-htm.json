@@ -14,40 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "القوة \n محطات"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nAS 111 - 1 Analog Output \n Module\n Alstom"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: DCS-025-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: النوبارية PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: \n موافقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "إجراء:فحص المعدات \n (I1-W1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "موافقة\n تاريخ: \n 25 Nov 2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراد مراجعتها: \n Nov 2013"
+   "type": "table",
+   "rows": [
+    [
+     "القوة \n محطات",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -284,7 +258,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "القوة \n محطات\nالإجراء الفني\nمعدات\nAS 111 - 1 Analog Output \n Module\n Alstom\nرقم الوثيقة: DCS-025-r0\nصدرت إلى: النوبارية PS\nحالة: \n موافقة\nإجراء:فحص المعدات \n (I1-W1)\nموافقة\n تاريخ: \n 25 Nov 2008\nتاريخ المراد مراجعتها: \n Nov 2013\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe AS111 module is \nan analog output module providing 8 outputs (4-20 mA current) referenced with \nrespect to the process voltage 0 V\nشائع.\nThe first draft is initiated by eng. Amal El-Shamy, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station.\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nالبعد\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.380 kg\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.380 kg\nعملية\nA process interface consisting of:\nA circuit for distribution and monitoring of the process \n voltage\n16 testable logic inputs based on opto-isolators\nAn interface with the 2000 I/O backplane bus consisting of:\n. A circuit for plugging in with power on\n.An 2000 I/O bus slave interface\nInput-output registers.\nA process interface consisting of:\nA circuit for distribution and monitoring of the process \n voltage\n16 testable logic inputs based on opto-isolators\nAn interface with the 2000 I/O backplane bus consisting of:\n. A circuit for plugging in with power on\n.An 2000 I/O bus slave interface\nInput-output registers.\nControls and indications on the front panel\nA green LED on the front panel indicates if the \nmodule is working.\nIt remains on if the module is operating correctly \nand goes out in case of faulty operation ( fault detected in the hardware or \nconfiguration use of the module)\nA green LED on the front panel indicates if the \nmodule is working.\nIt remains on if the module is operating correctly \nand goes out in case of faulty operation ( fault detected in the hardware or \nconfiguration use of the module)\nInput elements\nThe module has 16 logic input elements \nfor acquisition of 16 free contacts.\nEach element is based on an opto-isolator \nwhich provides galvanic isolation between the process and the internal voltages.\nThe module monitors the possibility of \nthe inputs to be switched to 1 or 0.\nThe module has 16 logic input elements \nfor acquisition of 16 free contacts.\nEach element is based on an opto-isolator \nwhich provides galvanic isolation between the process and the internal voltages.\nThe module monitors the possibility of \nthe inputs to be switched to 1 or 0.\nProcess voltage\nThe process voltage is \nsupplied by the backplane connector (distributed voltage), or by the process \nconnector (external voltage).\nA logic input based on an \nopto-isolator indicates the presence of the process voltage.\nThe process voltage is \nsupplied by the backplane connector (distributed voltage), or by the process \nconnector (external voltage).\nA logic input based on an \nopto-isolator indicates the presence of the process voltage.\nحماية\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A.\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A.\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "القوة \n محطات | الإجراء الفني\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThe AS111 module is \nan analog output module providing 8 outputs (4-20 mA current) referenced with \nrespect to the process voltage 0 V\nشائع.\nThe first draft is initiated by eng. Amal El-Shamy, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Naggar, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station.\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nالبعد\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.380 kg\nHeight: 233 mm\nDepth: 220 mm\nWidth: 1 slot = 25.4 mm\nWeight: \n 0.380 kg\nعملية\nA process interface consisting of:\nA circuit for distribution and monitoring of the process \n voltage\n16 testable logic inputs based on opto-isolators\nAn interface with the 2000 I/O backplane bus consisting of:\n. A circuit for plugging in with power on\n.An 2000 I/O bus slave interface\nInput-output registers.\nA process interface consisting of:\nA circuit for distribution and monitoring of the process \n voltage\n16 testable logic inputs based on opto-isolators\nAn interface with the 2000 I/O backplane bus consisting of:\n. A circuit for plugging in with power on\n.An 2000 I/O bus slave interface\nInput-output registers.\nControls and indications on the front panel\nA green LED on the front panel indicates if the \nmodule is working.\nIt remains on if the module is operating correctly \nand goes out in case of faulty operation ( fault detected in the hardware or \nconfiguration use of the module)\nA green LED on the front panel indicates if the \nmodule is working.\nIt remains on if the module is operating correctly \nand goes out in case of faulty operation ( fault detected in the hardware or \nconfiguration use of the module)\nInput elements\nThe module has 16 logic input elements \nfor acquisition of 16 free contacts.\nEach element is based on an opto-isolator \nwhich provides galvanic isolation between the process and the internal voltages.\nThe module monitors the possibility of \nthe inputs to be switched to 1 or 0.\nThe module has 16 logic input elements \nfor acquisition of 16 free contacts.\nEach element is based on an opto-isolator \nwhich provides galvanic isolation between the process and the internal voltages.\nThe module monitors the possibility of \nthe inputs to be switched to 1 or 0.\nProcess voltage\nThe process voltage is \nsupplied by the backplane connector (distributed voltage), or by the process \nconnector (external voltage).\nA logic input based on an \nopto-isolator indicates the presence of the process voltage.\nThe process voltage is \nsupplied by the backplane connector (distributed voltage), or by the process \nconnector (external voltage).\nA logic input based on an \nopto-isolator indicates the presence of the process voltage.\nحماية\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A.\nGeneral protection on the process voltage +Vp by CTP with maximum \ntripping current at 20C: 0.75 A.\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [
