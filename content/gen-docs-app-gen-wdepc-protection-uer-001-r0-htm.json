@@ -1,0 +1,321 @@
+{
+ "id": "gen-docs-app-gen-wdepc-protection-uer-001-r0-htm",
+ "doc_number": "UER-001-R0",
+ "title_en": "UER-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/WDEPC/Protection/UER-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n Under Excitation Relay 40G"
+  },
+  {
+   "type": "paragraph",
+   "text": "RAGPC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The relay comprises a directional current relay RXPE40 which measures the \nvoltage over on resistor unit, which means that the relay has its max \nsensitivity when the current Irn the the protection leads the voltage reference \nvector Urn 75%, this means that the directional relay is most sensitive for \nreactive power feed to the generator."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nfarahat WDEPC inspection head sector and MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued."
+  },
+  {
+   "type": "paragraph",
+   "text": "The qualified maintenance staff should carry \n the suitable ID safety category."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The qualified maintenance staff should carry \n the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area is required",
+    "Wear safety and healthy equipments as safety helmet, safety shoes, ... etc",
+    "The transformer must be was isolated.",
+    "Make sure CT Secondary circuits are shorted.",
+    "Ensure all CT path elements are secure after any test disturbance."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA test set type ART/3 or Omicron.",
+    "Voltmeter, Ammeter, test plug, and test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual and drawings.",
+    "Prepare the previous or commissioning results of the relay testing.",
+    "Check the wires of the relay by hand.",
+    "Check the AC source is available to the tester.",
+    "Check the existence of the DC sources in panels.",
+    "Disconnect the trip leads of the relay and connect one of them to the timer \n of the tester.",
+    "Check all the leads used in tests."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the current leads of a tester unit to the relay points according to \n the drawings and scheme.",
+    "Insert the test handle in test switch.",
+    "The 1st in testing. On element O/C.",
+    "Inject current to each couple of points (3A-4A) in test plug on the element \n o/c till the red flag of the device displays.",
+    "Record the results pick up value at 5.5A.",
+    "Decrease the current until the relay is reset and measure the current at \n reset 5.3A.",
+    "Record the results reset value at 5.3A.",
+    "The 2sd in testing. On element DIR.",
+    "Inject current to each couple of points (3A- 4A) in test plug on the \n element direction till the red flag of the device displays. And inject \n voltage on point (9A_10A) 100v.",
+    "Increase current until to pick up value at 2.9A",
+    "Record the results pick up value at 3.9A.",
+    "Decrease the current until the relay is reset and measure the current at \n reset 2.2A.",
+    "Record the results reset value at 2.2A.",
+    "The 3rd in testing. On element U/V.",
+    "Inject voltage to each couple of points (9A-10A) in test plug on the \n element u/v till the red flag of the device displays.",
+    "Increase voltage 100v.",
+    "Decrease voltage until to pick up value at 90v.",
+    "Increase voltage until to reset value at 93v.",
+    "Record the results reset value at 93v.",
+    "Switch off secondary injection t test set.",
+    "Return the relay to the panel.",
+    "Return all connections to the normal position as before the test.",
+    "Close the work permit."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Technical Data"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Under Excitation Relay (40G)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "RAGPC",
+     "Setting \nCurrent",
+     "(1-4 ) A 1.95 A (RXPE40)"
+    ],
+    [
+     "Rated Current (In)",
+     "(1-2-5 ) A",
+     "Setting \nVoltage",
+     "(40-120 ) V 95 V (RXIG21)"
+    ],
+    [
+     "Rated Voltage(Vn)",
+     "(100-120 ) V",
+     "Setting Time",
+     "0.2-3 sec 0. 2 (RXKF1)"
+    ],
+    [
+     "Frequency",
+     "(50 60 ) Hz",
+     "Burden",
+     "0.7 V.A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Current / \nPotential \nTransformers"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "300 MW Generator (G4)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Power MW",
+     "300",
+     "Voltage KV",
+     "22 KV Star"
+    ],
+    [
+     "Current A",
+     "11074 A",
+     "Power factor",
+     "0.8"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under Excitation \nRelay (40G)"
+  },
+  {
+   "type": "paragraph",
+   "text": "300 MW Generator (G4)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date"
+  },
+  {
+   "type": "paragraph",
+   "text": "Dir \n element"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/C"
+  },
+  {
+   "type": "paragraph",
+   "text": "Element"
+  },
+  {
+   "type": "paragraph",
+   "text": "U/V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Element"
+  },
+  {
+   "type": "paragraph",
+   "text": "Dir"
+  },
+  {
+   "type": "paragraph",
+   "text": "Element"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/C"
+  },
+  {
+   "type": "paragraph",
+   "text": "Element"
+  },
+  {
+   "type": "paragraph",
+   "text": "U/V \n Element"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time At"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick"
+  },
+  {
+   "type": "paragraph",
+   "text": "I = 1.95 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "T= inverse"
+  },
+  {
+   "type": "paragraph",
+   "text": "+"
+  },
+  {
+   "type": "paragraph",
+   "text": "I =5.3A"
+  },
+  {
+   "type": "paragraph",
+   "text": "115% IG"
+  },
+  {
+   "type": "paragraph",
+   "text": "V=95V"
+  },
+  {
+   "type": "paragraph",
+   "text": "95% IG"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Relay \nDesignation: Tested by: Signature: Test Date:"
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\n Under Excitation Relay 40G\nRAGPC\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe relay comprises a directional current relay RXPE40 which measures the \nvoltage over on resistor unit, which means that the relay has its max \nsensitivity when the current Irn the the protection leads the voltage reference \nvector Urn 75%, this means that the directional relay is most sensitive for \nreactive power feed to the generator.\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nfarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nThe transformer must be was isolated.\nMake sure CT Secondary circuits are shorted.\nEnsure all CT path elements are secure after any test disturbance.\nTools and Equipment\nISA test set type ART/3 or Omicron.\nVoltmeter, Ammeter, test plug, and test leads.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the relay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of them to the timer \n of the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the current leads of a tester unit to the relay points according to \n the drawings and scheme.\nInsert the test handle in test switch.\nThe 1st in testing. On element O/C.\nInject current to each couple of points (3A-4A) in test plug on the element \n o/c till the red flag of the device displays.\nRecord the results pick up value at 5.5A.\nDecrease the current until the relay is reset and measure the current at \n reset 5.3A.\nRecord the results reset value at 5.3A.\nThe 2sd in testing. On element DIR.\nInject current to each couple of points (3A- 4A) in test plug on the \n element direction till the red flag of the device displays. And inject \n voltage on point (9A_10A) 100v.\nIncrease current until to pick up value at 2.9A\nRecord the results pick up value at 3.9A.\nDecrease the current until the relay is reset and measure the current at \n reset 2.2A.\nRecord the results reset value at 2.2A.\nThe 3rd in testing. On element U/V.\nInject voltage to each couple of points (9A-10A) in test plug on the \n element u/v till the red flag of the device displays.\nIncrease voltage 100v.\nDecrease voltage until to pick up value at 90v.\nIncrease voltage until to reset value at 93v.\nRecord the results reset value at 93v.\nSwitch off secondary injection t test set.\nReturn the relay to the panel.\nReturn all connections to the normal position as before the test.\nClose the work permit.\nTechnical Data\nUnder Excitation Relay (40G)\n\nCurrent / \nPotential \nTransformers\n300 MW Generator (G4)\n\nTest Sheet\nUnder Excitation \nRelay (40G)\n300 MW Generator (G4)\nDate\nDir \n element\nO/C\nElement\nU/V\nElement\nDir\nElement\nO/C\nElement\nU/V \n Element\nPick\nTime At\nPick\nPick\nI = 1.95 A\nT= inverse\n+\nI =5.3A\n115% IG\nV=95V\n95% IG\nLocation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/UER-001-01.jpg",
+   "alt": ""
+  }
+ ]
+}

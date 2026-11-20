@@ -1,0 +1,729 @@
+{
+ "id": "gen-docs-app-gen-wdepc-protection-bbp-015-r0-htm",
+ "doc_number": "BBP-015-R0",
+ "title_en": "BBP-015-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/WDEPC/Protection/BBP-015-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n Bus bar Protection \n MBCZ10"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The MBCZ10 bus bar protection is \n Modular, solid state, low impedance biased differential based on the \n circulating current principle and dual cratered of operation, provides \n continuous supervision of CT secondary circuits and constant monitoring of \n vital circuits extremely stable up to the Max switch gear."
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps \n required to completely check the proper operation and calibration of the \n MBCZ10 relay. It is recommended this procedure be carried out on a yearly \n bases. This work be carried out section of this document is divided into 3 \n sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to \n prepare for relay testing describes the activities required prior to testing. \n Some of these steps could be performed days before the actual test. The second \n section Preparation for testing describes the steps to set up the equipment \n for performing the actual tests. The third section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The \n document is formatted the way to minimize the possibility of error causing \n personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft \n initiated by eng. Heba Abd Elmonem, revised by eng. Abd Elnasser Moustafa, \n accepted by general manager eng. Shawky Attalla, approved by eng. Abdel \n Elmegeed Emara: head sector of SIDI KRIR Power Station, and \ncertified by eng. Mona \n Ahmed Al Sharqawy: WDEPC consultant engineer A and MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued",
+    "The maintenance staff should carry the suitable ID safety category,",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Personal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc",
+    "Before removing a module, \n ensure that you are at the same electro static potential as the equipment by \n touching the case.",
+    "Handle the \n module by its front-plate, frame or edges of the printed circuit board",
+    "Switch off the DC power supply before inserting or withdrawing the relay",
+    "Outage arrangement must be done."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test set \n MTM2",
+    "Test plug,\n Test Leads.",
+    "Multi-meter , Screwdriver"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical \n reference material, manufacturer manual.",
+    "Obtain copy of \n relay setting from field maintenance file and compare it with the setting on \n the relay.",
+    "Inspect the CT \n secondary circuits and all cabling supplying the relay.",
+    "Use the station \n drawing to isolate the disturbance alarm and fault, recorder associated with \n this relay. Breaker trip coils and also breaker failure scheme."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing \nProcedure (s)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay \nand Protection O/P"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow \n this test procedure .",
+    "Verify the test \n results match the relay setting, if not consult technical services.",
+    "Test trip all \n breakers associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check of the MBCZ \n10 Operating Values Differential Supervision Relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Injection Tests \nvia the test unit"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Turn the key \n switch on the alarm unit to the protection out position.",
+    "Remove the covers \n from the test unit and the zone unit to be checked.",
+    "Plug test lead \n into the test unit using the end of the lead with the 3-5 m jack plug, the 2 m \n plug on the other end of the test lead is then plugged into the test I/P on \n the phase of the zone to be tested (1).",
+    "Block the trip \n O/P relay for a short period during the test.",
+    "Set the selection \n switch on the front of the test unit to inject X I and set the digital Current \n switch to 00."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Biased \nDifferential Measuring Units"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the MAN/AUTO \n switch to MAN.",
+    "Set the current \n to 80% of the marked value of the selected setting and the relay should not \n indicate a trip.",
+    "Increase the \n current to the marked setting value and the protection should operate.",
+    "There should be a \n trip indication on the element begin tested and 2 protection operated.",
+    "Indication on the \n alarm unit, the latter has a /5 seconds delay.",
+    "Release the \n injection bottom and rest the indication.",
+    "Check that when \n the inject button is now depressed the trip is instantaneously, and that when \n the current is injected for five seconds no pratic fail indication comes up.",
+    "Repeat steps from \n 1 to 6 on the other two phases and then on each other zone in turn."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test CT \nSupervision Circuit"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Increase the \n current until the meter reads current just below the setting of the \n Supervision relay.",
+    "Then increase \n slowly until the supervision operates to indicate a CT fault.",
+    "Repeat steps from \n (1 to 2 ) on the other phases and then on each other zone in Turn."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Alarm Circuit \nCheck"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch off each \n of the protection power supplies in turn.",
+    "Check that alarm \n in given each time, also the protection should continue to function on the \n supply from the remaining power supply unites.",
+    "When the power \n supply for the isolation relay is turned off check that all isolation",
+    "Supervision \n alarms operate."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Supervision \nfor Isolator Repeat Relays"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switches off the \n power supply to the isolator repeat relay circuit.",
+    "The indicators \n for the isolator repeat relay supervision should light up, will be followed \n after a delay by an alarm indication on the modules containing the repeat \n relays.",
+    "The power fail \n alarm should also be initiated by the action of switching off the power \n Supply."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "BZT and Breaker \nFail Circuit"
+  },
+  {
+   "type": "paragraph",
+   "text": "Units for External Breaker Fail BZT Check"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To test BZT relay \n first ensure that the key switch is a protection out, then bridge the BZT \n Contacts.",
+    "Check that the \n feeder under test and all the circuit breaker modules connected to the same \n Main zone and the alarm unite show a trip indication.",
+    "If the feeder is \n not connected to main zone (because all its isolators are open) check that \n Protection operated appears on the alarm unit followed by common alarm."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return \nRelay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the plug \n test lead from the test module also from the measuring zone to be tested.",
+    "If any equipment \n with the relay has been isolate without the test plug, it should be returned \n to service."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request to Return every thing to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed \n reading of all AC currents supplied to the relay and compare them to those for \n normal load condition.",
+    "Check that \n reading agree with station meters (MW/MVAR/ power factor amperes/ Voltages)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test \nSheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test \n: Date :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting \n:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Alarm module key switch",
+     "In Position"
+    ],
+    [
+     "Zone measuring module control \n switches",
+     "In Service"
+    ],
+    [
+     "Manual"
+    ],
+    [
+     "Master"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Breaker Modules"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Function",
+     "All bays",
+     "Bay D08"
+    ],
+    [
+     "",
+     "2500",
+     "3000"
+    ],
+    [
+     "",
+     "1",
+     "1"
+    ],
+    [
+     "",
+     "0.2",
+     "0.2"
+    ],
+    [
+     "",
+     "0.3",
+     "0.3"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check of the MBCZ 10 \noperating values differential and \nsupervision relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Injection test via\ntest unit"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Turn the key switch on \n the alarm unit to the protection out position",
+    "Remove the covers from \n the test unit and the zone unit to be checked",
+    "Plug test lead into \n the test unit using the end of the lead with the 3-5m jack plug, the 2 m plug \n on the other end of the test lead is then plugged into the test I/P on the \n phase of the zone to be tested",
+    "Block the trip O/P \n relay for a short period during the test",
+    "Set the selection \n switch on the front of the test unit to inject X1 and set the digital current \n switch to 00."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test biased differential measuring units"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the MAN/AUTO \n switch to MAN",
+    "Set the current to 80% \n of the marked value of the selected setting and the relay should not indicate \n trip",
+    "Increase the current \n to the marked setting value the protection should operate and trip indication \n on the element begin tested and 2 protection operated. The indication on the \n alarm unit has a 5 seconds delay",
+    "Release the injection \n button and rest the indication",
+    "Check that when the \n inject button is now depressed the trip is instantaneously, and that when the \n current is injected for five seconds no patrick fail - indication comes up"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "BZT\nand breaker fail circuit"
+  },
+  {
+   "type": "paragraph",
+   "text": "Units \nfor \nexternal breaker fail BZT check"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Ensure that the key \n switch is a protection out, and then bridge the BZT (Breaker zone trip) \n contacts respectively",
+    "Check that the feeder \n under test and all circuit breaker modules connected to the same bus and alarm \n unit show trip indication",
+    "If the feeder is not \n connected to main zone (because all its isolators are open) check that \n protection operated appears on the alarm unit followed by common alarm"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "For bus bar # 1"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Bay feeder",
+     "Breaker fall contact",
+     "Terminal No."
+    ],
+    [
+     "Do 1 dekhela ohl 1",
+     "AB25-K53(10,12)",
+     "AB25-X01(130,131)"
+    ],
+    [
+     "Do 2 step-up transformer 1",
+     "AB25-K59(5,7)",
+     "AB25-X01(28,29)"
+    ],
+    [
+     "Do 3 karmouz ohl 1",
+     "AB25-K65(10,12)",
+     "AB25-X01(72,73)"
+    ],
+    [
+     "Do 4 amria ohl 1",
+     "AB26-K71(10,12)",
+     "AB26-X01(28,29)"
+    ],
+    [
+     "Do 5 start-up transformer 2",
+     "AB26-K77(10,12)",
+     "AB26-X01(60,61)"
+    ],
+    [
+     "Do 6 step-up transformer 3",
+     "AB27-K83(5,7)",
+     "AB27-X01(28,29)"
+    ],
+    [
+     "Do 7 borg el arab ohl 1",
+     "AB27-K89(10,12)",
+     "AB27-X01(78,79)"
+    ],
+    [
+     "Do 8 tie transformer",
+     "AB27-K95(5,7)",
+     "AB27-X01(122,123)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "For bus bar # 2"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Bay feeder",
+     "Breaker fall contact",
+     "Terminal No."
+    ],
+    [
+     "Do 1 start-up transformer1",
+     "AB25-K55(9,11)",
+     "AB25-X01(128,129)"
+    ],
+    [
+     "Do 2 dekhela ohl 2",
+     "AB25-K61(10,12)",
+     "AB25-X01(30,31)"
+    ],
+    [
+     "Do 3 step-up transformer 2",
+     "AB25-K67(9,11)",
+     "AB25-X01(70,71)"
+    ],
+    [
+     "Do 4 karmouz ohl 2",
+     "AB26-K73(10,12)",
+     "AB26-X01(30,31)"
+    ],
+    [
+     "Do 5 amria ohl 2",
+     "AB26-K79(10,12)",
+     "AB26-X01(62,63)"
+    ],
+    [
+     "Do 6 step-up transformer 3",
+     "AB27-K85(9,11)",
+     "AB27-X01(26,27)"
+    ],
+    [
+     "Do 7 step-up transformer 4",
+     "AB27-K91(9,11)",
+     "AB27-X01(76,77)"
+    ],
+    [
+     "Do 8 borg el arab ohl 2",
+     "AB27-K97(10,12)",
+     "AB27-X01(124,125)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Results"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "BF lckout to \n BB \n ( )",
+     "Indication signals on BB \n protection"
+    ],
+    [
+     "Bay #1",
+     "Bay#2",
+     "Bay#3",
+     "Bay#4",
+     "Bay#5",
+     "Bay#6",
+     "Bay#7",
+     "Bay#8",
+     "A.Module"
+    ],
+    [
+     "Bay # 1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay # 2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay # 3",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay # 4",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay # 5",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay # 6",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay # 7",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay # 8",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "T. Trip & BT : back trip"
+  },
+  {
+   "type": "paragraph",
+   "text": "Secondary injection tests"
+  },
+  {
+   "type": "paragraph",
+   "text": "Set \nthe scheme modules as \nfollows"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Alarm module key \n switch in the \"protection out\" position",
+    "Zone measuring modules \n control switches to the \"in service / manual / master \" positions",
+    "Close all the bus \n switching isolators to connect the feeder modules current transformers to the \n bus",
+    "Test each phase of \n each feeder module in turn by injecting current into main zone and check zone \n CTs gradually increase the current until the appropriate zone supervision and \n zone measuring elements operate",
+    "Check that the all the \n circuit breaker modules associtated with the operated zone measuring modules \n have tripped and the correct indications are displayed"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Notes :\n Tolerance on setting for differential current and supervision elements \nis 3%"
+  },
+  {
+   "type": "paragraph",
+   "text": "Results\n Pick-up trip current values"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Feeders",
+     "Main zone",
+     "Check zone"
+    ],
+    [
+     "R",
+     "S",
+     "T",
+     "R",
+     "S",
+     "T"
+    ],
+    [
+     "Bay 1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay 2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay 3",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay 4",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay 5",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay 6",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay 7",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bay 8",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Remarks:"
+  },
+  {
+   "type": "paragraph",
+   "text": "..........................................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "..........................................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "..........................................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "..........................................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Relay \nDesignation: \nTested by: \nSignature: Test Date:"
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\n Bus bar Protection \n MBCZ10\nIntroduction\nThe MBCZ10 bus bar protection is \n Modular, solid state, low impedance biased differential based on the \n circulating current principle and dual cratered of operation, provides \n continuous supervision of CT secondary circuits and constant monitoring of \n vital circuits extremely stable up to the Max switch gear.\nThis procedure details the steps \n required to completely check the proper operation and calibration of the \n MBCZ10 relay. It is recommended this procedure be carried out on a yearly \n bases. This work be carried out section of this document is divided into 3 \n sections.\nThe first preliminary steps to \n prepare for relay testing describes the activities required prior to testing. \n Some of these steps could be performed days before the actual test. The second \n section Preparation for testing describes the steps to set up the equipment \n for performing the actual tests. The third section is the actual test.\nThe \n document is formatted the way to minimize the possibility of error causing \n personal injury or damage to equipment.\nThe first draft \n initiated by eng. Heba Abd Elmonem, revised by eng. Abd Elnasser Moustafa, \n accepted by general manager eng. Shawky Attalla, approved by eng. Abdel \n Elmegeed Emara: head sector of SIDI KRIR Power Station, and \ncertified by eng. Mona \n Ahmed Al Sharqawy: WDEPC consultant engineer A and MPIS coordinator.\nSafety Precautions\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nBefore removing a module, \n ensure that you are at the same electro static potential as the equipment by \n touching the case.\nHandle the \n module by its front-plate, frame or edges of the printed circuit board\nSwitch off the DC power supply before inserting or withdrawing the relay\nOutage arrangement must be done.\nTools and Equipment\nTest set \n MTM2\nTest plug,\n Test Leads.\nMulti-meter , Screwdriver\nWork to be Carried Out\nRelays Preparation\nReview technical \n reference material, manufacturer manual.\nObtain copy of \n relay setting from field maintenance file and compare it with the setting on \n the relay.\nInspect the CT \n secondary circuits and all cabling supplying the relay.\nUse the station \n drawing to isolate the disturbance alarm and fault, recorder associated with \n this relay. Breaker trip coils and also breaker failure scheme.\nTesting \nProcedure (s)\nTesting the Relay \nand Protection O/P\nCarefully follow \n this test procedure .\nVerify the test \n results match the relay setting, if not consult technical services.\nTest trip all \n breakers associated with the relay.\nCheck of the MBCZ \n10 Operating Values Differential Supervision Relays\nInjection Tests \nvia the test unit\nTurn the key \n switch on the alarm unit to the protection out position.\nRemove the covers \n from the test unit and the zone unit to be checked.\nPlug test lead \n into the test unit using the end of the lead with the 3-5 m jack plug, the 2 m \n plug on the other end of the test lead is then plugged into the test I/P on \n the phase of the zone to be tested (1).\nBlock the trip \n O/P relay for a short period during the test.\nSet the selection \n switch on the front of the test unit to inject X I and set the digital Current \n switch to 00.\nTest Biased \nDifferential Measuring Units\nSet the MAN/AUTO \n switch to MAN.\nSet the current \n to 80% of the marked value of the selected setting and the relay should not \n indicate a trip.\nIncrease the \n current to the marked setting value and the protection should operate.\nThere should be a \n trip indication on the element begin tested and 2 protection operated.\nIndication on the \n alarm unit, the latter has a /5 seconds delay.\nRelease the \n injection bottom and rest the indication.\nCheck that when \n the inject button is now depressed the trip is instantaneously, and that when \n the current is injected for five seconds no pratic fail indication comes up.\nRepeat steps from \n 1 to 6 on the other two phases and then on each other zone in turn.\nTest CT \nSupervision Circuit\nIncrease the \n current until the meter reads current just below the setting of the \n Supervision relay.\nThen increase \n slowly until the supervision operates to indicate a CT fault.\nRepeat steps from \n (1 to 2 ) on the other phases and then on each other zone in Turn.\nAlarm Circuit \nCheck\nSwitch off each \n of the protection power supplies in turn.\nCheck that alarm \n in given each time, also the protection should continue to function on the \n supply from the remaining power supply unites.\nWhen the power \n supply for the isolation relay is turned off check that all isolation\nSupervision \n alarms operate.\nTest Supervision \nfor Isolator Repeat Relays\nSwitches off the \n power supply to the isolator repeat relay circuit.\nThe indicators \n for the isolator repeat relay supervision should light up, will be followed \n after a delay by an alarm indication on the modules containing the repeat \n relays.\nThe power fail \n alarm should also be initiated by the action of switching off the power \n Supply.\nBZT and Breaker \nFail Circuit\nUnits for External Breaker Fail BZT Check\nTo test BZT relay \n first ensure that the key switch is a protection out, then bridge the BZT \n Contacts.\nCheck that the \n feeder under test and all the circuit breaker modules connected to the same \n Main zone and the alarm unite show a trip indication.\nIf the feeder is \n not connected to main zone (because all its isolators are open) check that \n Protection operated appears on the alarm unit followed by common alarm.\nReturn \nRelay and Associated Equipment to Service\nRemove the plug \n test lead from the test module also from the measuring zone to be tested.\nIf any equipment \n with the relay has been isolate without the test plug, it should be returned \n to service.\nRequest to Return every thing to Service\nTake crossed \n reading of all AC currents supplied to the relay and compare them to those for \n normal load condition.\nCheck that \n reading agree with station meters (MW/MVAR/ power factor amperes/ Voltages).\nTest \nSheet\nTest \n: Date :\nSetting \n:\n\nBreaker Modules\n\nTesting the relay\nCheck of the MBCZ 10 \noperating values differential and \nsupervision relays\nInjection test via\ntest unit\nTurn the key switch on \n the alarm unit to the protection out position\nRemove the covers from \n the test unit and the zone unit to be checked\nPlug test lead into \n the test unit using the end of the lead with the 3-5m jack plug, the 2 m plug \n on the other end of the test lead is then plugged into the test I/P on the \n phase of the zone to be tested\nBlock the trip O/P \n relay for a short period during the test\nSet the selection \n switch on the front of the test unit to inject X1 and set the digital current \n switch to 00.\nTest biased differential measuring units\nSet the MAN/AUTO \n switch to MAN\nSet the current to 80% \n of the marked value of the selected setting and the relay should not indicate \n trip\nIncrease the current \n to the marked setting value the protection should operate and trip indication \n on the element begin tested and 2 protection operated. The indication on the \n alarm unit has a 5 seconds delay\nRelease the injection \n button and rest the indication\nCheck that when the \n inject button is now depressed the trip is instantaneously, and that when the \n current is injected for five seconds no patrick fail - indication comes up\nBZT\nand breaker fail circuit\nUnits \nfor \nexternal breaker fail BZT check\nEnsure that the key \n switch is a protection out, and then bridge the BZT (Breaker zone trip) \n contacts respectively\nCheck that the feeder \n under test and all circuit breaker modules connected to the same bus and alarm \n unit show trip indication\nIf the feeder is not \n connected to main zone (because all its isolators are open) check that \n protection operated appears on the alarm unit followed by common alarm\nFor bus bar # 1\n\nFor bus bar # 2\n\nResults\n\nT. Trip & BT : back trip\nSecondary injection tests\nSet \nthe scheme modules as \nfollows\nAlarm module key \n switch in the \"protection out\" position\nZone measuring modules \n control switches to the \"in service / manual / master \" positions\nClose all the bus \n switching isolators to connect the feeder modules current transformers to the \n bus\nTest each phase of \n each feeder module in turn by injecting current into main zone and check zone \n CTs gradually increase the current until the appropriate zone supervision and \n zone measuring elements operate\nCheck that the all the \n circuit breaker modules associtated with the operated zone measuring modules \n have tripped and the correct indications are displayed\nNotes :\n Tolerance on setting for differential current and supervision elements \nis 3%\nResults\n Pick-up trip current values\n\nRemarks:\n...........................................................................................................................................................................................................\n...........................................................................................................................................................................................................\n...........................................................................................................................................................................................................\n...........................................................................................................................................................................................................\nLocation: Relay \nDesignation: \nTested by: \nSignature: Test Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

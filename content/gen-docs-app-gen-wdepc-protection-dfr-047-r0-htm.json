@@ -1,0 +1,192 @@
+{
+ "id": "gen-docs-app-gen-wdepc-protection-dfr-047-r0-htm",
+ "doc_number": "DFR-047-R0",
+ "title_en": "DfR-047-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/WDEPC/Protection/DfR-047-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n High \n Impedance Differential Relay\n MFAC 14\n GEC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type MFAC relays provide high \n speed differential protection for various items of power system plant \n including generators, reactors, busbars, motors and the individual windings of \n power transformers the single element version type MFAC14 is applied when \n protection is required for earth faults only. The relay measuring element is \n basically an attracted armature unit of simple and robust construction, \n supplied from a bridge rectifier. setting are determined by a series of \n resistors, selected on a seven way plug bridge. type MFAC relays are suitable \n for use with 0.5A,1A and 5A current transformers at 50Hz or 60Hz ."
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the \n steps required to completely check the proper operation and calibration of the \n MFAC14 relay. It is recommended this procedure be carried out on a yearly \n bases."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the \n way to minimize the possibility of error causing personal injury or damage to \n equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated & tested by eng. \nMedhat Magdy Gerges, revised by eng. \nAbdel-Naser Moustafa Ahmed, accepted by eng. Shawky Attalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation is required.",
+    "A work permit must be issued",
+    "The maintenance staff should carry the suitable ID safety category,",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Personal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc",
+    "Make sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.",
+    "Switch off the DC power supply before inserting or withdrawing the relay",
+    "Outage arrangement must be done."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Auto transformer",
+    "Test plugTest Leads.",
+    "Multi-meter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual and drawings.",
+    "Carefully follow these test procedure steps",
+    "Check the wires of \n the relay by hand.",
+    "Check all the leads used in tests.",
+    "Verify the test results match the relay setting - If not consult technical \n services.",
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuits for test.",
+    "Look at field maintenance file and compare the position of the setting \n switches on relay with those shown in the setting sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing \nProcedure (s)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage PICK-UP and DROUP OUT CHECK Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the external power supply (220 V, 50 HZ) to the voltage injection \n tester at terminals # 1,3 or 1,4 and the tester output terminals #1,2 will be \n connected to the relay.",
+    "Slowly increase the voltage until the internal contacts of the relay are \n closed. The relay must operate with a voltage between +/- 10% of the setting \n value.",
+    "Record this value on the test sheet.",
+    "Slowly decrease the voltage until the internal contacts of the relay are \n opened",
+    "Record this value on the test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Request the operator to switch \n on the main circuit breaker.",
+    "Operate the output auxiliary \n contact by injection to trip the circuit breaker.",
+    "Check that the circuit breaker \n tripped."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return the \nRelay and Power Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify the test result match the relay setting. If not consult technical \n services.",
+    "Test \n trip the circuit breaker associated with the relay.",
+    "Make \n a final check that all switches on the relay are set according to the setting \n sheet.",
+    "Make \n sure the CT secondary circuit is in normal condition",
+    "Remove the CT shorts which were installed in the Power Supply",
+    "Return the relay and power equipment to service."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the external power supply (220 KV, 50 HZ) to the voltage \ninjection tester at terminals#1,3 or 1,4 and the tester output terminals #1,2 \nwill be connected to the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Precaution"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect terminals # X005 (59) to prevent tripping of \n Generator lock out (for main tran. Only)",
+    "Connect the 220V, 50HZ power supply to the terminals # 1,4 or \n 1,3 on the volt"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test results"
+  },
+  {
+   "type": "heading",
+   "level": 6,
+   "text": "Secondary dary injection voltage tooperate relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip circuit\nContact operation (1,3 & 2,4)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Equipment \nDesignation: \nTested by: \nSignature: Test Date:"
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\n High \n Impedance Differential Relay\n MFAC 14\n GEC\nIntroduction\nType MFAC relays provide high \n speed differential protection for various items of power system plant \n including generators, reactors, busbars, motors and the individual windings of \n power transformers the single element version type MFAC14 is applied when \n protection is required for earth faults only. The relay measuring element is \n basically an attracted armature unit of simple and robust construction, \n supplied from a bridge rectifier. setting are determined by a series of \n resistors, selected on a seven way plug bridge. type MFAC relays are suitable \n for use with 0.5A,1A and 5A current transformers at 50Hz or 60Hz .\nThis procedure details the \n steps required to completely check the proper operation and calibration of the \n MFAC14 relay. It is recommended this procedure be carried out on a yearly \n bases.\nThe document is formatted the \n way to minimize the possibility of error causing personal injury or damage to \n equipment.\nThe first draft initiated & tested by eng. \nMedhat Magdy Gerges, revised by eng. \nAbdel-Naser Moustafa Ahmed, accepted by eng. Shawky Attalla: general manager, approved by eng. Abdel Elmegeed Emara: head sector of SIDI KRIR \nPower Station, \nand certified by eng. Mona \nAhmed Al Sharqawy: WDEPC consultant engineer 'A' and MPIS coordinator.\nSafety Precautions\nLine isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.\nSwitch off the DC power supply before inserting or withdrawing the relay\nOutage arrangement must be done.\nTools and Equipment\nAuto transformer\nTest plugTest Leads.\nMulti-meter.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nCarefully follow these test procedure steps\nCheck the wires of \n the relay by hand.\nCheck all the leads used in tests.\nVerify the test results match the relay setting - If not consult technical \n services.\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuits for test.\nLook at field maintenance file and compare the position of the setting \n switches on relay with those shown in the setting sheet.\nTesting \nProcedure (s)\nVoltage PICK-UP and DROUP OUT CHECK Test\nConnect the external power supply (220 V, 50 HZ) to the voltage injection \n tester at terminals # 1,3 or 1,4 and the tester output terminals #1,2 will be \n connected to the relay.\nSlowly increase the voltage until the internal contacts of the relay are \n closed. The relay must operate with a voltage between +/- 10% of the setting \n value.\nRecord this value on the test sheet.\nSlowly decrease the voltage until the internal contacts of the relay are \n opened\nRecord this value on the test sheet.\nTrip Test\nRequest the operator to switch \n on the main circuit breaker.\nOperate the output auxiliary \n contact by injection to trip the circuit breaker.\nCheck that the circuit breaker \n tripped.\nReturn the \nRelay and Power Equipment to Service\nVerify the test result match the relay setting. If not consult technical \n services.\nTest \n trip the circuit breaker associated with the relay.\nMake \n a final check that all switches on the relay are set according to the setting \n sheet.\nMake \n sure the CT secondary circuit is in normal condition\nRemove the CT shorts which were installed in the Power Supply\nReturn the relay and power equipment to service.\nTest sheet\nNote:\nConnect the external power supply (220 KV, 50 HZ) to the voltage \ninjection tester at terminals#1,3 or 1,4 and the tester output terminals #1,2 \nwill be connected to the relay.\nPrecaution\nDisconnect terminals # X005 (59) to prevent tripping of \n Generator lock out (for main tran. Only)\nConnect the 220V, 50HZ power supply to the terminals # 1,4 or \n 1,3 on the volt\nTest results\nSecondary dary injection voltage tooperate relay\nTrip circuit\nContact operation (1,3 & 2,4)\nLocation: Equipment \nDesignation: \nTested by: \nSignature: Test Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

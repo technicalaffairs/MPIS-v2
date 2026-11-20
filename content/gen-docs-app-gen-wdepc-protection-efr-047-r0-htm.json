@@ -1,0 +1,276 @@
+{
+ "id": "gen-docs-app-gen-wdepc-protection-efr-047-r0-htm",
+ "doc_number": "EFR-047-R0",
+ "title_en": "EFR-047-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/WDEPC/Protection/EFR-047-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n Restricted Earth Fault Relay 87 NGT\n RADHD\n ABB"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The relay is basically a standard attracted armature \nunit of simple and robust construction. The operating coil of this unit is \nconnected in series with a small choke and capacitor, forming a series resonant \ncircuit. These components are energized from an auto-transformer which is tapped \nto provide seven current settings."
+  },
+  {
+   "type": "paragraph",
+   "text": "The relay circuit, tuned to the supply frequency, \nrejects the harmonics produced by current transformer saturation. A slight time \ndelay on operation helps to provide stability on heavy external faults and is \nobtained by allowing the auto-transformer to saturate above the relay setting. \nThis limits the current supplied, and the attracted armature unit operates only \non the slower part of its time-current."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Ahmed Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam and\ncertified by eng. Gaber \nFarahat WDEPC \ninspection head sector and MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued."
+  },
+  {
+   "type": "paragraph",
+   "text": "The qualified maintenance staff should carry \n the suitable ID safety category."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The qualified maintenance staff should carry \n the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Wear safety and healthy equipments as safety helmet, safety shoes, ... etc",
+    "The transformer must be was isolated.",
+    "Make sure CT Secondary circuits are shorted.",
+    "Ensure all CT path elements are secure after any test disturbance."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA test set type ART/3 or Omicron.",
+    "Voltmeter, Ammeter, test plug, and test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual and drawings.",
+    "Prepare the previous or commissioning results of the relay testing.",
+    "Check the wires of the relay by hand.",
+    "Check the AC source is available to the tester.",
+    "Check the existence of the DC sources in panels.",
+    "Disconnect the trip leads of the relay and connect one of them to the timer of \n the tester.",
+    "Check all the leads used in tests."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the voltage leads of a tester unit to the relay points according to \n the drawings and scheme.",
+    "Inject voltage to each couple of points (15-16) till the red flag of the \n device displays.",
+    "Record the results pick up value at 97v.",
+    "Decrease the voltage until the relay is reset and measure the voltage at reset \n 65v.",
+    "Record the results reset value at 70v.",
+    "Switch off secondary injection t test set.",
+    "Return the relay to the panel.",
+    "Return all connections to the normal position as before the test.",
+    "Close the work permit"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Technical Data for"
+  },
+  {
+   "type": "paragraph",
+   "text": "High Impedance \nSingle Phase Restricted Earth Fault Relay \n(87NGT)"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Restricted Earth Fault Relay \n(87NGT)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "RADHD",
+     "Aux.supply",
+     "220 D.C"
+    ],
+    [
+     "Rated Voltage",
+     "100V",
+     "Contact rating",
+     "5 A"
+    ],
+    [
+     "Time",
+     "(10-20) msec",
+     "Max.Contact rating",
+     "25 A"
+    ],
+    [
+     "Burden",
+     "0.1 V.A",
+     "D.C consmption",
+     "1.6 watt"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Current \nTransformers"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "CT Location",
+     "CT"
+    ],
+    [
+     "Neutral 220\n kv Side 1",
+     "30 VA 5P10 - (1200/1) A T2"
+    ],
+    [
+     "Neutral 220\n kv Side 2",
+     "5 P 20 - 140 VA (600-1200/1) A CT L1"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Main \nTransformer"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Cooling",
+     "ONAN",
+     "ONAF",
+     "OFAF",
+     "Tap changer",
+     ""
+    ],
+    [
+     "Power MVA",
+     "253.2",
+     "337.6",
+     "422",
+     "Operating point",
+     "1-B ~ 216.9 KV"
+    ],
+    [
+     "HV Current A",
+     "607",
+     "809",
+     "1011",
+     "Vector group",
+     "Ynd11"
+    ],
+    [
+     "",
+     "6645",
+     "8860",
+     "11075",
+     "Impedance Voltage \nVcc",
+     "13.5%"
+    ],
+    [
+     "Voltage KV",
+     "2414x2.5% / 22 KV",
+     "Manufacture/Year",
+     "Ansaldo/1988"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet for Main \nTransformer"
+  },
+  {
+   "type": "paragraph",
+   "text": "High \nimpedance single phase Restricted Earth Fault Relay (87NGT)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "V =100V",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Transformer \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:"
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\n Restricted Earth Fault Relay 87 NGT\n RADHD\n ABB\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThe relay is basically a standard attracted armature \nunit of simple and robust construction. The operating coil of this unit is \nconnected in series with a small choke and capacitor, forming a series resonant \ncircuit. These components are energized from an auto-transformer which is tapped \nto provide seven current settings.\nThe relay circuit, tuned to the supply frequency, \nrejects the harmonics produced by current transformer saturation. A slight time \ndelay on operation helps to provide stability on heavy external faults and is \nobtained by allowing the auto-transformer to saturate above the relay setting. \nThis limits the current supplied, and the attracted armature unit operates only \non the slower part of its time-current.\nThe first draft initiated by eng. Ahmed Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam and\ncertified by eng. Gaber \nFarahat WDEPC \ninspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nThe transformer must be was isolated.\nMake sure CT Secondary circuits are shorted.\nEnsure all CT path elements are secure after any test disturbance.\nTools and Equipment\nISA test set type ART/3 or Omicron.\nVoltmeter, Ammeter, test plug, and test leads.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the relay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of them to the timer of \n the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the voltage leads of a tester unit to the relay points according to \n the drawings and scheme.\nInject voltage to each couple of points (15-16) till the red flag of the \n device displays.\nRecord the results pick up value at 97v.\nDecrease the voltage until the relay is reset and measure the voltage at reset \n 65v.\nRecord the results reset value at 70v.\nSwitch off secondary injection t test set.\nReturn the relay to the panel.\nReturn all connections to the normal position as before the test.\nClose the work permit\nTechnical Data for\nHigh Impedance \nSingle Phase Restricted Earth Fault Relay \n(87NGT)\nRestricted Earth Fault Relay \n(87NGT)\n\nCurrent \nTransformers\n\nMain \nTransformer\n\nTest Sheet for Main \nTransformer\nHigh \nimpedance single phase Restricted Earth Fault Relay (87NGT)\n\nLocation: Transformer \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/EFR-047-01.jpg",
+   "alt": ""
+  }
+ ]
+}

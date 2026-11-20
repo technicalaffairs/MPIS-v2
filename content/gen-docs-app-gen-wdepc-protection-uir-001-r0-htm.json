@@ -1,0 +1,303 @@
+{
+ "id": "gen-docs-app-gen-wdepc-protection-uir-001-r0-htm",
+ "doc_number": "UIR-001-R0",
+ "title_en": "UIR-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/WDEPC/Protection/UIR-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n Under \n Impedance Relay (21G)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "This relay is used as a backup short circuit protection at reduced voltage, the \ncurrent required for operation will be corresponding reduced. At zero voltage \noperation is obtained with a current of less than 20% of rated relay current."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nfarahat WDEPC inspection head sector and MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued."
+  },
+  {
+   "type": "paragraph",
+   "text": "The qualified maintenance staff should carry \n the suitable ID safety category."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The qualified maintenance staff should carry \n the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area is required",
+    "Wear safety and healthy equipments as safety helmet, safety shoes, ... etc",
+    "The transformer must be was isolated.",
+    "Make sure CT Secondary circuits are shorted.",
+    "Ensure all CT path elements are secure after any test disturbance."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA test set type ART/3 or Omicron",
+    "Voltmeter, Ammeter, test plug, and test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual and drawings.",
+    "Prepare the previous or commissioning results of the relay testing.",
+    "Check the wires of the relay by hand.",
+    "Check the AC source is available to the tester.",
+    "Check the existence of the DC sources in panels.",
+    "Disconnect the trip leads of the relay and connect one of them to the timer of \n the tester.",
+    "Check all the leads used in tests."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the voltage leads of a tester unit to the relay points according to \n the drawings and scheme.",
+    "insert the test handle in test switch.",
+    "Connect the voltage leads of a tester unit to (9A_12A) in test hand and \n current leads of tester unit to (3A_4A) the relay points according to the \n drawings and scheme. to PH (R)..",
+    "Inject current to each couple of points (3A-4A) AT 5A.",
+    "Inject voltage to each couple of point (9A_12A) at 60v.",
+    "Decrease the voltage until the relay is pick up and measure the voltage at \n pick up 14v .",
+    "Record the results pick up value in 1st alarm at 14v.",
+    "Increase the voltage until the relay is reset and measures the voltage at \n reset 15v.",
+    "Record the results reset value at 15v.",
+    "Record the results pick up value in 2sd alarm at 18v.",
+    "Increase the voltage until the relay is reset and measures the voltage at \n reset 19v.",
+    "Record the results reset value at 19v.",
+    "Connect the voltage leads of a tester unit to (10A_12A) in test hand and \n current leads of tester unit to (5A_6A) the relay points according to the \n drawings and scheme. to PH (S)..",
+    "Inject current to each couple of points (5A-6A) AT 5A.",
+    "Inject voltage to each couple of point (10A_12A) at 60v.",
+    "Decrease the voltage until the relay is pic up and measure the voltage at \n pick up 14v .",
+    "Record the results pick up value in 1st alarm at 14v.",
+    "Increase the voltage until the relay is reset and measures the voltage at \n reset 15v.",
+    "Record the results reset value at 15v.",
+    "Record the results pick up value in 2sd alarm at 18v.",
+    "Increase the voltage until the relay is reset and measures the voltage at \n reset 19.7v.",
+    "Record the results reset value at 19.7v.",
+    "Connect the voltage leads of a tester unit to (11A_12A) in test hand and \n current leads of tester unit to (7A_8A) the relay points according to the \n drawings and scheme. to PH (T)..",
+    "Inject current to each couple of points (7A-8A) AT 5A.",
+    "Inject voltage to each couple of point (11A_12A) at 60v.",
+    "Decrease the voltage until the relay is pick up and measure the voltage at \n pic up 14v .",
+    "Record the results pick up value in 1st alarm at 14v.",
+    "Increase the voltage until the relay is reset and measures the voltage at \n reset 15v.",
+    "Record the results reset value at 15v.",
+    "Record the results pick up value in 2sd alarm at 18v.",
+    "Increase the voltage until the relay is reset and measures the voltage at \n reset 19v.",
+    "Record the results reset value at 19v.",
+    "Time test in the relay is connect terminal timer to{ B50_X5 (5_6)}in relay as \n connect terminal unit voltage to{B50_X2 (1_4)}in relay as connect terminal \n unit current to{B50_X1 (9_17)} inject the voltage to pick up relay and Record \n the results time . IN the results pick up value in 2sd alarm at 18v.",
+    "Time test in the relay is connect terminal timer to{ B50_X5 (7_8)}in relay as \n connect terminal unit voltage to{B50_X2 (1_4)}in relay as connect terminal \n unit current to{B50_X1 (9_17)} inject the voltage to pick up relay and Record \n the results time . IN the results pick up value in 1st alarm at 14v.",
+    "Switch off secondary injection t test set.",
+    "Return the relay to the panel.",
+    "Return all connections to the normal position as before the test.",
+    "Close the work permit"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Technical Data"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "for \nunder \nImpedance Relay \n(21G)"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Under Impedance Relay (21G)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "RAKZB",
+     "DC consumption",
+     "12 watt"
+    ],
+    [
+     "Rated \n current Ia",
+     "(0.5-1-2.5 -5) A",
+     "Burden",
+     "0.5 V.A /ph"
+    ],
+    [
+     "Rated voltage",
+     "110 V",
+     "Aux voltage",
+     "220 vd.c"
+    ],
+    [
+     "Setting impedance",
+     "0.54 -20.4\nΩ/ph",
+     "Time for tripping",
+     "40 - 65 msec"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Current \nTransformers"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "CT \n /PT \n Location",
+     "CT--PT"
+    ],
+    [
+     "220\n kv Side",
+     "70 V.A 5P20 - (12000/5) \n A CT-G3"
+    ],
+    [
+     "22\n kv Side",
+     "100 VA CL 0.5 \n 70VA 3P ( 22000/√3 - 100 /√3 - 100/3) V PT2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "300 MW Generator (G4)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Power M.W",
+     "300",
+     "Voltage KV",
+     "22 KV star"
+    ],
+    [
+     "current \n A",
+     "11074 A",
+     "Power factor",
+     "0.8"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "for \nUnder Impedance Relay (21G)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ia=5 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "A=10"
+  },
+  {
+   "type": "paragraph",
+   "text": "B=7.6"
+  },
+  {
+   "type": "paragraph",
+   "text": "D=1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zf1=1.52\n Ω"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ia=5 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "A=10"
+  },
+  {
+   "type": "paragraph",
+   "text": "B=5.86"
+  },
+  {
+   "type": "paragraph",
+   "text": "D=1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zf2=1.97 \n Ω"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Transformer \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:"
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\n Under \n Impedance Relay (21G)\nIntroduction\nThis document outlines the maintenance procedures P1, which must be performed on \nyearly bases as indicated by Y1 in the title block.\nThis relay is used as a backup short circuit protection at reduced voltage, the \ncurrent required for operation will be corresponding reduced. At zero voltage \noperation is obtained with a current of less than 20% of rated relay current.\nThe first draft initiated by eng. Ahmad Galal, tested by eng. Mohamed \nRabee, accepted by general manager eng. Hamdy Dorgam of Damanhour power station and\ncertified by eng. Gaber \nfarahat WDEPC inspection head sector and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required\nWear safety and healthy equipments as safety helmet, safety shoes, ... etc\nThe transformer must be was isolated.\nMake sure CT Secondary circuits are shorted.\nEnsure all CT path elements are secure after any test disturbance.\nTools and Equipment\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter, test plug, and test leads.\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the relay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of them to the timer of \n the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the voltage leads of a tester unit to the relay points according to \n the drawings and scheme.\ninsert the test handle in test switch.\nConnect the voltage leads of a tester unit to (9A_12A) in test hand and \n current leads of tester unit to (3A_4A) the relay points according to the \n drawings and scheme. to PH (R)..\nInject current to each couple of points (3A-4A) AT 5A.\nInject voltage to each couple of point (9A_12A) at 60v.\nDecrease the voltage until the relay is pick up and measure the voltage at \n pick up 14v .\nRecord the results pick up value in 1st alarm at 14v.\nIncrease the voltage until the relay is reset and measures the voltage at \n reset 15v.\nRecord the results reset value at 15v.\nRecord the results pick up value in 2sd alarm at 18v.\nIncrease the voltage until the relay is reset and measures the voltage at \n reset 19v.\nRecord the results reset value at 19v.\nConnect the voltage leads of a tester unit to (10A_12A) in test hand and \n current leads of tester unit to (5A_6A) the relay points according to the \n drawings and scheme. to PH (S)..\nInject current to each couple of points (5A-6A) AT 5A.\nInject voltage to each couple of point (10A_12A) at 60v.\nDecrease the voltage until the relay is pic up and measure the voltage at \n pick up 14v .\nRecord the results pick up value in 1st alarm at 14v.\nIncrease the voltage until the relay is reset and measures the voltage at \n reset 15v.\nRecord the results reset value at 15v.\nRecord the results pick up value in 2sd alarm at 18v.\nIncrease the voltage until the relay is reset and measures the voltage at \n reset 19.7v.\nRecord the results reset value at 19.7v.\nConnect the voltage leads of a tester unit to (11A_12A) in test hand and \n current leads of tester unit to (7A_8A) the relay points according to the \n drawings and scheme. to PH (T)..\nInject current to each couple of points (7A-8A) AT 5A.\nInject voltage to each couple of point (11A_12A) at 60v.\nDecrease the voltage until the relay is pick up and measure the voltage at \n pic up 14v .\nRecord the results pick up value in 1st alarm at 14v.\nIncrease the voltage until the relay is reset and measures the voltage at \n reset 15v.\nRecord the results reset value at 15v.\nRecord the results pick up value in 2sd alarm at 18v.\nIncrease the voltage until the relay is reset and measures the voltage at \n reset 19v.\nRecord the results reset value at 19v.\nTime test in the relay is connect terminal timer to{ B50_X5 (5_6)}in relay as \n connect terminal unit voltage to{B50_X2 (1_4)}in relay as connect terminal \n unit current to{B50_X1 (9_17)} inject the voltage to pick up relay and Record \n the results time . IN the results pick up value in 2sd alarm at 18v.\nTime test in the relay is connect terminal timer to{ B50_X5 (7_8)}in relay as \n connect terminal unit voltage to{B50_X2 (1_4)}in relay as connect terminal \n unit current to{B50_X1 (9_17)} inject the voltage to pick up relay and Record \n the results time . IN the results pick up value in 1st alarm at 14v.\nSwitch off secondary injection t test set.\nReturn the relay to the panel.\nReturn all connections to the normal position as before the test.\nClose the work permit\nTechnical Data\nfor \nunder \nImpedance Relay \n(21G)\nUnder Impedance Relay (21G)\n\nCurrent \nTransformers\n\n300 MW Generator (G4)\n\nTest Sheet\nfor \nUnder Impedance Relay (21G)\nIa=5 A\nA=10\nB=7.6\nD=1\nZf1=1.52\n Ω\nIa=5 A\nA=10\nB=5.86\nD=1\nZf2=1.97 \n Ω\nLocation: Transformer \nDesignation: Relay \nDesignation: Tested by: Signature: Test Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/UIR-001-01.jpg",
+   "alt": ""
+  }
+ ]
+}
