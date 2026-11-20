@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Fire Fighting Pump"
-  },
-  {
-   "type": "paragraph",
-   "text": "Horizontal-Multi Stage,\n HO 150A"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -58,21 +48,24 @@
    "text": "Pump Technical Specification:"
   },
   {
-   "type": "heading",
-   "level": 4,
-   "text": "Pump Type"
-  },
-  {
-   "type": "paragraph",
-   "text": "Capacity"
-  },
-  {
-   "type": "paragraph",
-   "text": "72.2 kg/s"
-  },
-  {
    "type": "table",
    "rows": [
+    [
+     "Pump Type",
+     "Horizontal - Multi stage pump - HO 150A"
+    ],
+    [
+     "Manufacture",
+     "HALBERGEK. HD FRANK FORT"
+    ],
+    [
+     "Pump Fluid",
+     "Water"
+    ],
+    [
+     "Capacity",
+     "72.2 kg/s"
+    ],
     [
      "PN",
      "15 bar"
@@ -159,6 +152,60 @@
    "text": "MRDS \n Maintenance Record Data Sheet MRDS"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Item",
+     "Setting Value",
+     "Unit",
+     "Before \n Inspection",
+     "After\n Inspection",
+     "Remarks"
+    ],
+    [
+     "Vibration",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Clearance",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Alignment",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Pressure",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Discharge",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: Pump \nDesignation: Tested by: Signature: \nTest Date:"
   },
@@ -168,24 +215,115 @@
    "text": "Trouble Shooting"
   },
   {
-   "type": "paragraph",
-   "text": "Check suction valve it must be opened."
-  },
-  {
-   "type": "paragraph",
-   "text": "Check suction valve and it must be opened"
-  },
-  {
-   "type": "paragraph",
-   "text": "Excessive noise in pump"
-  },
-  {
-   "type": "heading",
-   "level": 2,
-   "text": "Cold liquid or \n high viscosity"
+   "type": "table",
+   "rows": [
+    [
+     "Trouble",
+     "Possible",
+     "Remedy"
+    ],
+    [
+     "Pump does not apply amount",
+     "Suction line trouble",
+     "Check suction valve it must be opened.\n Check air tightness of suction piping."
+    ],
+    [
+     "Pump not primed",
+     "Prime the pump"
+    ],
+    [
+     "Opposite sense of rotation",
+     "Check the rotation direction"
+    ],
+    [
+     "Leakage in relief valve",
+     "Check the relief valve seat and also its spring"
+    ],
+    [
+     "Excessive suction lift",
+     "Check the recommended specification"
+    ],
+    [
+     "Excessive worn in rotating pistons and pump casing",
+     "Change the rotation piston and repair pump casing or changed it"
+    ],
+    [
+     "Delivered amount is low",
+     "Suction line trouble",
+     "Check suction valve and it must be opened\n Check air tightness of suction piping"
+    ],
+    [
+     "Pump speed are too low",
+     "Check the recommended specification"
+    ],
+    [
+     "Clearance between rotating pistons bore or covers is too great",
+     "Change the worn parts"
+    ],
+    [
+     "Mechanical impurities in the liquid",
+     "Check the filter before pump"
+    ],
+    [
+     "Pump does not catch the prescribed pressure",
+     "Pressure gauge gives low pressure",
+     "Recalibrate the pressure gauge or renewed it"
+    ],
+    [
+     "Clearance between the rotating pistons, body and covers is too great",
+     "Check or change worn parts of pump"
+    ],
+    [
+     "Direct connection of suction with delivery happened in the pump",
+     "Dismantle the pump and check it"
+    ],
+    [
+     "Excessive noise in pump",
+     "Air in pump casing",
+     "Check air-tightness of pump casing"
+    ],
+    [
+     "Misalignment",
+     "Realignment the pump with motor and retighten all bolts of pump and motor \n with foundation"
+    ],
+    [
+     "Discharge pressure too high",
+     "Check the recommended discharge pressure"
+    ],
+    [
+     "Bearing damage",
+     "Change the bearing"
+    ],
+    [
+     "Excessive power consumption",
+     "Excessive dishrag pressure",
+     "Check the pressure gauge"
+    ],
+    [
+     "Uncorrected assembly of pump",
+     "Mount the pump correctly"
+    ],
+    [
+     "Cold liquid or \n high viscosity",
+     "Measure the viscosity and temperature"
+    ],
+    [
+     "Gland is tightening too much and heated",
+     "Check the mechanical seal and it must be leakage some drops of liquid to \n cooling gland"
+    ],
+    [
+     "Bearing damage",
+     "Check the bearing and exchanged it if needed"
+    ],
+    [
+     "Pump speed higher than rated",
+     "Measure the pump speed"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\nFire Fighting Pump\nHorizontal-Multi Stage,\n HO 150A\nIntroduction\nThis document outlines the \nequipment inspection list I1, which must be carried out every two months as \nindicated by M2 in the above title block.\nThis pump is used to transfer sea water for fire fighting system\nThe first draft initiated by eng. Abd El Naeem Attalla, reviewed by eng. Moneer \nElbadry, revised by General Dercter eng. Gomah Lofty, revised by EDEPC \nInspection and Quality Control eng. Medht Khater, eng. Abouda El Bana, and \napproved by eng. Mokhter Abd Elatif Head Sector of Ataka Power Station ( 2x300 + \n2x150 ) MW.\nThis document accepted by eng.\n Samir Abdel Gilel: EDEPC \n inspection and \n quality control general director & MPIS coordinator, and \n certified by accountant: Mahmoud Mohamed Soliman EDEPC admin. & financial \n inspection, quality control general director and supervisor of inspection & \n quality control's head sector.\nPump Technical Specification:\nPump Type\nCapacity\n72.2 kg/s\n\nSafety Precautions\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding the work area \n is required.\nWear safety and healthy equipments as safety healthy, \n safety shoes, ...etc.\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding the work area \n is required.\nWear safety and healthy equipments as safety healthy, \n safety shoes, ...etc.\nIsolate the \n circuit breaker of the pump motor.\nDisconnect \n electric terminals of the pump motor.\nThe pump must \n be isolated mechanically by closing delivery and suction valves.\nBe sure pump must \n be completely drainage.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid, rags, suitable lifting device\nManual Puller, Feeler Gauges\nWork to be Carried Out\nCheck any noise for vibration.\nCheck any leakage from the piping connection to pump.\nCheck the leakage from stuffing box and prevented it by re tighten the gland \n bolts.\nCheck leakage of lubricating oil from bearing house.\nCheck the oil level.\nCheck the pressure in pump delivery.\nCheck the temperature of bearing house.\nAfter Isolating the Pump (Mechanically & Elect.)\nCheck the coupling pins.\nChange the packing if there is more leakage.\nPrevent the leakage of lubricating oil.\nAdd lubricating oil to pump of the level less than 2/3 side glass.\nRetighten the bolts connected pump and motor with \n foundation.\nMRDS \n Maintenance Record Data Sheet MRDS\nLocation: Pump \nDesignation: Tested by: Signature: \nTest Date:\nTrouble Shooting\nCheck suction valve it must be opened.\nCheck suction valve and it must be opened\nExcessive noise in pump\nCold liquid or \n high viscosity",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines the \nequipment inspection list I1, which must be carried out every two months as \nindicated by M2 in the above title block.\nThis pump is used to transfer sea water for fire fighting system\nThe first draft initiated by eng. Abd El Naeem Attalla, reviewed by eng. Moneer \nElbadry, revised by General Dercter eng. Gomah Lofty, revised by EDEPC \nInspection and Quality Control eng. Medht Khater, eng. Abouda El Bana, and \napproved by eng. Mokhter Abd Elatif Head Sector of Ataka Power Station ( 2x300 + \n2x150 ) MW.\nThis document accepted by eng.\n Samir Abdel Gilel: EDEPC \n inspection and \n quality control general director & MPIS coordinator, and \n certified by accountant: Mahmoud Mohamed Soliman EDEPC admin. & financial \n inspection, quality control general director and supervisor of inspection & \n quality control's head sector.\nPump Technical Specification:\nPump Type | Horizontal - Multi stage pump - HO 150A\nManufacture | HALBERGEK. HD FRANK FORT\nPump Fluid | Water\nCapacity | 72.2 kg/s\nPN | 15 bar\nTemp. Fluid | 35 oC\nSafety Precautions\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding the work area \n is required.\nWear safety and healthy equipments as safety healthy, \n safety shoes, ...etc.\nA work permit must be issued and the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding the work area \n is required.\nWear safety and healthy equipments as safety healthy, \n safety shoes, ...etc.\nIsolate the \n circuit breaker of the pump motor.\nDisconnect \n electric terminals of the pump motor.\nThe pump must \n be isolated mechanically by closing delivery and suction valves.\nBe sure pump must \n be completely drainage.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid, rags, suitable lifting device\nManual Puller, Feeler Gauges\nWork to be Carried Out\nCheck any noise for vibration.\nCheck any leakage from the piping connection to pump.\nCheck the leakage from stuffing box and prevented it by re tighten the gland \n bolts.\nCheck leakage of lubricating oil from bearing house.\nCheck the oil level.\nCheck the pressure in pump delivery.\nCheck the temperature of bearing house.\nAfter Isolating the Pump (Mechanically & Elect.)\nCheck the coupling pins.\nChange the packing if there is more leakage.\nPrevent the leakage of lubricating oil.\nAdd lubricating oil to pump of the level less than 2/3 side glass.\nRetighten the bolts connected pump and motor with \n foundation.\nMRDS \n Maintenance Record Data Sheet MRDS\nItem | Setting Value | Unit | Before \n Inspection | After\n Inspection | Remarks\nVibration |  |  |  |  | \nClearance |  |  |  |  | \nAlignment |  |  |  |  | \nPressure |  |  |  |  | \nDischarge |  |  |  |  | \nLocation: Pump \nDesignation: Tested by: Signature: \nTest Date:\nTrouble Shooting\nTrouble | Possible | Remedy\nPump does not apply amount | Suction line trouble | Check suction valve it must be opened.\n Check air tightness of suction piping.\nPump not primed | Prime the pump\nOpposite sense of rotation | Check the rotation direction\nLeakage in relief valve | Check the relief valve seat and also its spring\nExcessive suction lift | Check the recommended specification\nExcessive worn in rotating pistons and pump casing | Change the rotation piston and repair pump casing or changed it\nDelivered amount is low | Suction line trouble | Check suction valve and it must be opened\n Check air tightness of suction piping\nPump speed are too low | Check the recommended specification\nClearance between rotating pistons bore or covers is too great | Change the worn parts\nMechanical impurities in the liquid | Check the filter before pump\nPump does not catch the prescribed pressure | Pressure gauge gives low pressure | Recalibrate the pressure gauge or renewed it\nClearance between the rotating pistons, body and covers is too great | Check or change worn parts of pump\nDirect connection of suction with delivery happened in the pump | Dismantle the pump and check it\nExcessive noise in pump | Air in pump casing | Check air-tightness of pump casing\nMisalignment | Realignment the pump with motor and retighten all bolts of pump and motor \n with foundation\nDischarge pressure too high | Check the recommended discharge pressure\nBearing damage | Change the bearing\nExcessive power consumption | Excessive dishrag pressure | Check the pressure gauge\nUncorrected assembly of pump | Mount the pump correctly\nCold liquid or \n high viscosity | Measure the viscosity and temperature\nGland is tightening too much and heated | Check the mechanical seal and it must be leakage some drops of liquid to \n cooling gland\nBearing damage | Check the bearing and exchanged it if needed\nPump speed higher than rated | Measure the pump speed",
  "text_truncated": false,
  "links": [],
  "images": [

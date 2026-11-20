@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Main Lube Pump"
-  },
-  {
-   "type": "paragraph",
-   "text": "INP 100 / 250\n Bombas ITUR-SPAIN"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -232,40 +226,40 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
+     "Item",
+     "Setting Values",
      "Units",
-     "",
-     "",
-     ""
+     "Before Inspection",
+     "After Inspection",
+     "Remarks"
     ],
     [
-     "",
-     "",
+     "Flow",
+     "207",
      "m3 \n / \n H",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
+     "Pressure",
+     "5",
      "Bar appr.",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
+     "Current",
+     "173 / 103",
      "Amp",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
+     "Voltage",
+     "220 / 380",
      "Volt",
      "",
      "",
@@ -286,7 +280,185 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Item \n No",
+     "Designation",
+     "Item \n No",
+     "Designation"
+    ],
+    [
+     "1",
+     "Nut",
+     "28",
+     "Cover stud"
+    ],
+    [
+     "2",
+     "Gasket",
+     "29",
+     "Cover support"
+    ],
+    [
+     "3",
+     "Gasket",
+     "30",
+     "Nut"
+    ],
+    [
+     "4",
+     "Nut",
+     "31",
+     "Nut"
+    ],
+    [
+     "5",
+     "Pump casing",
+     "32",
+     "Washer"
+    ],
+    [
+     "6",
+     "Gasket",
+     "33",
+     "Gland"
+    ],
+    [
+     "7",
+     "Washer",
+     "34",
+     "Gasket"
+    ],
+    [
+     "8",
+     "Nut",
+     "35",
+     "Ring"
+    ],
+    [
+     "9",
+     "Mechanical seal",
+     "36",
+     "Bearing support"
+    ],
+    [
+     "10",
+     "Shaft chemise",
+     "37",
+     "Bearing"
+    ],
+    [
+     "11",
+     "Deflector",
+     "38",
+     "Lubrication pin"
+    ],
+    [
+     "12",
+     "Wear ring",
+     "39",
+     "Nut"
+    ],
+    [
+     "13",
+     "Support",
+     "40",
+     "Gasket"
+    ],
+    [
+     "14",
+     "stud",
+     "41",
+     "Pump shaft"
+    ],
+    [
+     "15",
+     "Pump cover",
+     "42",
+     "Circular ring"
+    ],
+    [
+     "16",
+     "Impeller",
+     "43",
+     "Ball bearing"
+    ],
+    [
+     "17",
+     "Cover gasket",
+     "44",
+     "Plate"
+    ],
+    [
+     "18",
+     "---------",
+     "45",
+     "Nut"
+    ],
+    [
+     "19",
+     "Impeller nut",
+     "46",
+     "Gasket for bearing cover"
+    ],
+    [
+     "20",
+     "Gasket",
+     "47",
+     "Bearing cover"
+    ],
+    [
+     "21",
+     "Nut",
+     "48",
+     "Allen"
+    ],
+    [
+     "22",
+     "Gasket",
+     "49",
+     "Gland"
+    ],
+    [
+     "23",
+     "Wear ring",
+     "50",
+     "Key"
+    ],
+    [
+     "24",
+     "Nut",
+     "51",
+     "Fixation nut"
+    ],
+    [
+     "25",
+     "Gasket",
+     "52",
+     "Lock washer"
+    ],
+    [
+     "26",
+     "Key",
+     "53",
+     "Washer"
+    ],
+    [
+     "27",
+     "Casing stud",
+     "54",
+     "Hex screw"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "REASONS",
+     ""
+    ],
+    [
+     "Closed discharge valve",
      "x",
      "",
      "x",
@@ -295,7 +467,7 @@
      ""
     ],
     [
-     "",
+     "Structed suction strainer",
      "x",
      "x",
      "",
@@ -304,7 +476,7 @@
      "x"
     ],
     [
-     "",
+     "Incorrect turn way",
      "x",
      "",
      "",
@@ -313,7 +485,7 @@
      ""
     ],
     [
-     "",
+     "Incorrect turn speed",
      "x",
      "x",
      "x",
@@ -322,7 +494,7 @@
      ""
     ],
     [
-     "",
+     "Incorrectly submerged pump",
      "x",
      "x",
      "",
@@ -331,7 +503,7 @@
      ""
     ],
     [
-     "",
+     "Pipes and \n impellers obstruction",
      "x",
      "x",
      "x",
@@ -340,7 +512,7 @@
      ""
     ],
     [
-     "",
+     "Total head higher of \n rated pump",
      "x",
      "",
      "x",
@@ -349,16 +521,7 @@
      ""
     ],
     [
-     "",
-     "",
-     "x",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "",
+     "Discharge valve settled badly",
      "",
      "x",
      "",
@@ -367,7 +530,16 @@
      ""
     ],
     [
+     "Disturbances of \n other pumps in the \n same well",
      "",
+     "x",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Worn out friction rings",
      "",
      "x",
      "",
@@ -376,7 +548,7 @@
      ""
     ],
     [
-     "",
+     "excessive wear friction bearings",
      "",
      "x",
      "x",
@@ -385,7 +557,7 @@
      "x"
     ],
     [
-     "",
+     "The pipes impose effort to\n the pump",
      "",
      "x",
      "",
@@ -394,7 +566,7 @@
      "x"
     ],
     [
-     "",
+     "Specific weight to \n viscosity higher than normal",
      "",
      "x",
      "x",
@@ -403,16 +575,7 @@
      ""
     ],
     [
-     "",
-     "",
-     "",
-     "x",
-     "x",
-     "x",
-     "x"
-    ],
-    [
-     "",
+     "Alignmentless of coupling",
      "",
      "",
      "x",
@@ -421,7 +584,7 @@
      "x"
     ],
     [
-     "",
+     "Wear bearing or \n lubricated or mounted \n wrongly",
      "",
      "",
      "x",
@@ -430,7 +593,16 @@
      "x"
     ],
     [
+     "Deformated shaft",
      "",
+     "",
+     "x",
+     "x",
+     "x",
+     "x"
+    ],
+    [
+     "Excessive internal wearings",
      "",
      "",
      "x",
@@ -439,25 +611,25 @@
      ""
     ],
     [
-     "",
+     "Rigiditless foundation",
      "",
      "",
      "",
      "x",
-     "x",
-     "x"
-    ],
-    [
-     "",
-     "",
-     "",
-     "",
-     "",
      "x",
      "x"
     ],
     [
+     "Unbalanced impeller",
      "",
+     "",
+     "",
+     "",
+     "x",
+     "x"
+    ],
+    [
+     "Leakages between body and \n pipe",
      "",
      "x",
      "",
@@ -469,7 +641,7 @@
    "truncated_rows": 0
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Main Lube Pump\nINP 100 / 250\n Bombas ITUR-SPAIN\nIntroduction\nThis document outlines \nthe major maintenance procedures P1, to be performed every five years as \nindicated by Y5 in the title block.\nThe main lube oil pump is used for pumping the oil \nneeded for lubricating the all turbine parts, providing the bearings with oil \nand raising the rotor. Each unit has one AC main lube oil pump, two AC auxiliary \npumps and one DC auxiliary pump.\nTechnical Specifications: Speed \n= 2955 RPM Total head \n= 29m Flow = 207 m3\n /H\nThe first draft is initiated by eng. Mohamed Abdel Azeem, \nreviewed by eng. Ahmed Fathy Yousef, tested by eng. \nEsam Hassan Darwesh, revised by eng. \nSamir Abdel Gelil: EDEPC inspection and quality control general director, \naccepted by eng. Mohamed Farag Anan: general manager, and approved by eng. \nMohamed El-Sarrag: head sector of Damietta (3x135MW) PS.\nThis document accepted by eng.\n Samir Abdel Gilel: EDEPC \n inspection and \n quality control general director & MPIS coordinator, and \n certified by accountant: Mahmoud Mohamed Soliman EDEPC planning & financial \n predicting head sector and supervisor of inspection & \n quality control's head sector.\nSafety Precautions\nA work permit must be issued.\nThe maintenance staff should carry the \n suitable ID safety category.\nSafety fence with caution marks surrounding the work area \n is required.\nWear safety and healthy equipments as safety healthy, \n safety shoes ...etc.\nA work permit must be issued.\nThe maintenance staff should carry the \n suitable ID safety category.\nSafety fence with caution marks surrounding the work area \n is required.\nWear safety and healthy equipments as safety healthy, \n safety shoes ...etc.\nIsolate the CB of the pump motor.\nDisconnect electric terminals of the pump \n motor.\nIsolate the pump mechanically by closing \n suction and delivery valves.\nBe sure that the pump is completely drained.\nBe sure that the ST \n is out of service.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid, Grease, rags\nFiller.\nVibrometer, Dial indicator.\nWork to be Carried Out\nBefore Disassembly\nPump in Operation\nCheck the vibration \n level of the pump and record it.\nCheck discharge, \n pressure and record them.\nDisassembly\nPump is out of \n operation.\nCheck the alignment \n and record it.\nUnbolt the coupling \n between the pump shaft and the intermediate shaft.\nRemove the unit \n containing the intermediate shaft with the gear and begin disassembly of the \n pump.\nUnscrew the hex screw \n ( 54 ), raise the washer ( 53 ) and raise the plate ( 44 ).\nUnscrew the Allen ( \n 48 ) to raise the bearing cover ( 47 ) and then remove the gland ( 49 ).\nRemove the fixation \n nut ( 51 ).\nRemove the bearing ( \n 43 ).\nUnbolt the bolts ( 39 \n & 45 ).\nRaise the lubricating \n pin ( 38 ).\nUnbolt the nuts ( 31 ) \n and the studs ( 14 ).\nRaise the bearing \n support ( 36 ).\nRemove the bearing ( \n 37 ).\nRemove the ring ( 35 \n ).\nRemove the gland ( 33 \n ).\nUnbolt the nuts ( 8 ) \n and the casing studs ( 27 ) and then remove the support ( 13 ).\nRemove the wear ring ( \n 12 ) with the deflector ( 11 ).\nUnbolt the nuts ( 30 ) \n and the cover studs ( 28 ), then remove the cover support ( 29 ).\nRemove the cover \n gasket ( 17 ) and the mechanical seal ( 9 ).\nRemove the shaft \n chemise ( 10 ).\nRaise the pump cover ( \n 15 ).\nUnscrew the nut ( 21 ) \n and gasket ( 20 ).\nRaise the pump shaft \n with the impeller, remove the key ( 26 ) and unscrew the impeller nut ( 19 ) \n to remove the impeller.\nRemove the wear ring ( \n 23 ).\nInspection\nClean all parts of the \n pump.\nChange the bearings of \n the pump.\nCheck all parts for \n any worn-out , replace the damaged.\nCheck all parts for \n cracks , treat the cracks by grinding or remachining.\nInspect the run-out of \n the shafts.\nChange the wearing \n rings.\nMeasure the radial \n clearances for the pump and adjust them.\nGrease the bearings of \n the pump.\nAssembly\nClean all contact \n surfaces.\nAssemble the impeller \n with the shaft by mounting the key ( 26 ) and screw the impeller nut ( 19 ) to \n fix the impeller with the shaft\nPut the wear ring ( 23 \n ).\nScrew the nut ( 21 ) \n and gasket ( 20 ).\nAssemble the pump \n cover ( 15 ).\nAssemble the shaft \n chemise ( 10 ).\nPut the cover gasket ( \n 17 ) and the mechanical seal ( 9 ).\nPut the cover support \n ( 29 ) and bolt the cover studs ( 28 ) and the nuts ( 30 ).\nAssemble the wear ring \n ( 12 ) with the deflector ( 11 ).\nAssemble the support ( \n 13 ) by bolting the casing studs ( 27 ) and the nuts ( 8 ).\nAssemble the gland ( \n 33 ).\nAssemble the ring ( 35 \n ).\nAssemble the bearing ( \n 37 ).\nAssemble the bearing \n support ( 36 ).\nBolt the studs ( 14 ) \n and the nuts ( 31 ) to fix the bearing support.\nBolt the bolts ( 39 & \n 45 ).\nAssemble the bearing ( \n 43 ).\nAssemble the fixation \n nut ( 51 ).\nAssemble the gland ( \n 49 ), put the gasket ( 46 ), put the bearing cover ( 47 ) and screw the Allen \n ( 48 ) for fixation.\nAssemble the plate ( \n 44 ), put the washer ( 53 ) and screw the hex screw ( 54 ).\nMount the \n coupling between the pump shaft and the intermediate shaft, adjust the \n alignment and then fix the coupling.\nStarting the\npump\nCheck the oil level in \n the oil tank.\nOpen the delivery \n valve of the pump.\nAttendance and \nchecking during \noperation\nCheck for any oil leaks.\nCheck the discharge and \n pressure of the pump.\nCheck the vibration level.\nMRDS Maintenance Record \nData Sheet MRDS\n\nLocation: Pump \nDesignation: Tested by: Signature: \nTest Date:\nMain lube oil pump part \nlist\n",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines \nthe major maintenance procedures P1, to be performed every five years as \nindicated by Y5 in the title block.\nThe main lube oil pump is used for pumping the oil \nneeded for lubricating the all turbine parts, providing the bearings with oil \nand raising the rotor. Each unit has one AC main lube oil pump, two AC auxiliary \npumps and one DC auxiliary pump.\nTechnical Specifications: Speed \n= 2955 RPM Total head \n= 29m Flow = 207 m3\n /H\nThe first draft is initiated by eng. Mohamed Abdel Azeem, \nreviewed by eng. Ahmed Fathy Yousef, tested by eng. \nEsam Hassan Darwesh, revised by eng. \nSamir Abdel Gelil: EDEPC inspection and quality control general director, \naccepted by eng. Mohamed Farag Anan: general manager, and approved by eng. \nMohamed El-Sarrag: head sector of Damietta (3x135MW) PS.\nThis document accepted by eng.\n Samir Abdel Gilel: EDEPC \n inspection and \n quality control general director & MPIS coordinator, and \n certified by accountant: Mahmoud Mohamed Soliman EDEPC planning & financial \n predicting head sector and supervisor of inspection & \n quality control's head sector.\nSafety Precautions\nA work permit must be issued.\nThe maintenance staff should carry the \n suitable ID safety category.\nSafety fence with caution marks surrounding the work area \n is required.\nWear safety and healthy equipments as safety healthy, \n safety shoes ...etc.\nA work permit must be issued.\nThe maintenance staff should carry the \n suitable ID safety category.\nSafety fence with caution marks surrounding the work area \n is required.\nWear safety and healthy equipments as safety healthy, \n safety shoes ...etc.\nIsolate the CB of the pump motor.\nDisconnect electric terminals of the pump \n motor.\nIsolate the pump mechanically by closing \n suction and delivery valves.\nBe sure that the pump is completely drained.\nBe sure that the ST \n is out of service.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid, Grease, rags\nFiller.\nVibrometer, Dial indicator.\nWork to be Carried Out\nBefore Disassembly\nPump in Operation\nCheck the vibration \n level of the pump and record it.\nCheck discharge, \n pressure and record them.\nDisassembly\nPump is out of \n operation.\nCheck the alignment \n and record it.\nUnbolt the coupling \n between the pump shaft and the intermediate shaft.\nRemove the unit \n containing the intermediate shaft with the gear and begin disassembly of the \n pump.\nUnscrew the hex screw \n ( 54 ), raise the washer ( 53 ) and raise the plate ( 44 ).\nUnscrew the Allen ( \n 48 ) to raise the bearing cover ( 47 ) and then remove the gland ( 49 ).\nRemove the fixation \n nut ( 51 ).\nRemove the bearing ( \n 43 ).\nUnbolt the bolts ( 39 \n & 45 ).\nRaise the lubricating \n pin ( 38 ).\nUnbolt the nuts ( 31 ) \n and the studs ( 14 ).\nRaise the bearing \n support ( 36 ).\nRemove the bearing ( \n 37 ).\nRemove the ring ( 35 \n ).\nRemove the gland ( 33 \n ).\nUnbolt the nuts ( 8 ) \n and the casing studs ( 27 ) and then remove the support ( 13 ).\nRemove the wear ring ( \n 12 ) with the deflector ( 11 ).\nUnbolt the nuts ( 30 ) \n and the cover studs ( 28 ), then remove the cover support ( 29 ).\nRemove the cover \n gasket ( 17 ) and the mechanical seal ( 9 ).\nRemove the shaft \n chemise ( 10 ).\nRaise the pump cover ( \n 15 ).\nUnscrew the nut ( 21 ) \n and gasket ( 20 ).\nRaise the pump shaft \n with the impeller, remove the key ( 26 ) and unscrew the impeller nut ( 19 ) \n to remove the impeller.\nRemove the wear ring ( \n 23 ).\nInspection\nClean all parts of the \n pump.\nChange the bearings of \n the pump.\nCheck all parts for \n any worn-out , replace the damaged.\nCheck all parts for \n cracks , treat the cracks by grinding or remachining.\nInspect the run-out of \n the shafts.\nChange the wearing \n rings.\nMeasure the radial \n clearances for the pump and adjust them.\nGrease the bearings of \n the pump.\nAssembly\nClean all contact \n surfaces.\nAssemble the impeller \n with the shaft by mounting the key ( 26 ) and screw the impeller nut ( 19 ) to \n fix the impeller with the shaft\nPut the wear ring ( 23 \n ).\nScrew the nut ( 21 ) \n and gasket ( 20 ).\nAssemble the pump \n cover ( 15 ).\nAssemble the shaft \n chemise ( 10 ).\nPut the cover gasket ( \n 17 ) and the mechanical seal ( 9 ).\nPut the cover support \n ( 29 ) and bolt the cover studs ( 28 ) and the nuts ( 30 ).\nAssemble the wear ring \n ( 12 ) with the deflector ( 11 ).\nAssemble the support ( \n 13 ) by bolting the casing studs ( 27 ) and the nuts ( 8 ).\nAssemble the gland ( \n 33 ).\nAssemble the ring ( 35 \n ).\nAssemble the bearing ( \n 37 ).\nAssemble the bearing \n support ( 36 ).\nBolt the studs ( 14 ) \n and the nuts ( 31 ) to fix the bearing support.\nBolt the bolts ( 39 & \n 45 ).\nAssemble the bearing ( \n 43 ).\nAssemble the fixation \n nut ( 51 ).\nAssemble the gland ( \n 49 ), put the gasket ( 46 ), put the bearing cover ( 47 ) and screw the Allen \n ( 48 ) for fixation.\nAssemble the plate ( \n 44 ), put the washer ( 53 ) and screw the hex screw ( 54 ).\nMount the \n coupling between the pump shaft and the intermediate shaft, adjust the \n alignment and then fix the coupling.\nStarting the\npump\nCheck the oil level in \n the oil tank.\nOpen the delivery \n valve of the pump.\nAttendance and \nchecking during \noperation\nCheck for any oil leaks.\nCheck the discharge and \n pressure of the pump.\nCheck the vibration level.\nMRDS Maintenance Record \nData Sheet MRDS\nItem | Setting Values | Units | Before Inspection | After Inspection | Remarks\nFlow | 207 | m3 \n / \n H |  |  | \nPressure | 5 | Bar appr. |  |  | \nCurrent | 173 / 103 | Amp |  |  | \nVoltage | 220 / 380 | Volt |  |  | \nLocation: Pump \nDesignation: Tested by: Signature: \nTest Date:\nMain lube oil pump part \nlist\nItem \n No | Designation | Item \n No | Designation\n1 | Nut | 28 | Cover stud\n2 | Gasket | 29 | Cover support\n3 | Gasket | 30 | Nut\n4 | Nut | 31 | Nut\n5 | Pump casing | 32 | Washer\n6 | Gasket | 33 | Gland\n7 | Washer | 34 | Gasket\n8 | Nut | 35 | Ring\n9 | Mechanical seal | 36 | Bearing support\n10 | Shaft chemise | 37 | Bearing\n11 | Deflector | 38 | Lubrication pin\n12 | Wear ring | 39 | Nut\n13 | Support | 40 | Gasket\n14 | stud | 41 | Pump shaft\n15 | Pump cover | 42 | Circular ring\n16 | Impeller | 43 | Ball bearing\n17 | Cover gasket | 44 | Plate\n18 | --------- | 45 | Nut\n19 | Impeller nut | 46 | Gasket for bearing cover\n20 | Gasket | 47 | Bearing cover\n21 | Nut | 48 | Allen\n22 | Gasket | 49 | Gland\n23 | Wear ring | 50 | Key\n24 | Nut | 51 | Fixation nut\n25 | Gasket | 52 | Lock washer\n26 | Key | 53 | Washer\n27 | Casing stud | 54 | Hex screw\nREASONS | \nClosed discharge valve | x |  | x |  |  | \nStructed suction strainer | x | x |  |  |  | x\nIncorrect turn way | x |  |  | x |  | \nIncorrect turn speed | x | x | x |  |  | \nIncorrectly submerged pump | x | x |  | x |  | \nPipes and \n impellers obstruction | x | x | x |  |  | \nTotal head higher of \n rated pump | x |  | x |  |  | \nDischarge valve settled badly |  | x |  |  |  | \nDisturbances of \n other pumps in the \n same well |  | x |  |  |  | \nWorn out friction rings |  | x |  | x |  | \nexcessive wear friction bearings |  | x | x |  |  | x\nThe pipes impose effort to\n the pump |  | x |  | x | x | x\nSpecific weight to \n viscosity higher than normal |  | x | x |  |  | \nAlignmentless of coupling |  |  | x | x | x | x\nWear bearing or \n lubricated or mounted \n wrongly |  |  | x | x | x | x\nDeformated shaft |  |  | x | x | x | x\nExcessive internal wearings |  |  | x | x |  | \nRigiditless foundation |  |  |  | x | x | x\nUnbalanced impeller |  |  |  |  | x | x\nLeakages between body and \n pipe |  | x |  |  |  | ",
  "text_truncated": false,
  "links": [],
  "images": [
