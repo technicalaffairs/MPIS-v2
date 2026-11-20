@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "TechnicalProcedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Distance relay\n Micromho (SHNB 102)\n GEC"
+   "type": "table",
+   "rows": [
+    [
+     "Procedure",
+     "TechnicalProcedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -250,10 +248,22 @@
    "rows": [
     [
      "Manufacturer",
+     "GEC alsthom",
+     "Serial No.",
      "",
+     "Date",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Panel",
      "",
-     "",
-     "",
+     "Feeder",
      ""
     ]
    ],
@@ -262,6 +272,34 @@
   {
    "type": "paragraph",
    "text": "Characteristics"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "vx",
+     "220 VDC",
+     "C.T ratio",
+     "2500 /1",
+     "VT ratio",
+     "220 / 0.1"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Vn",
+     "100 VAC",
+     "In",
+     "1AMP",
+     "Test equipment used",
+     "IZ/2"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -284,12 +322,12 @@
    "type": "table",
    "rows": [
     [
+     "Indication",
      "",
      "",
-     "",
-     "",
+     "tz 2 (ph) = 10",
      "45 ms",
-     "",
+     "TZ3 (ph) = 20",
      "45 ms"
     ]
    ],
@@ -299,9 +337,9 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "tz 3 (G) = 10",
      "45 ms",
-     "",
+     "TZ3 (G) = 20",
      "45 ms"
     ]
    ],
@@ -331,7 +369,7 @@
      "K1",
      "",
      "",
-     "",
+     "K11",
      ""
     ],
     [
@@ -342,7 +380,7 @@
      "K2",
      "",
      "",
-     "",
+     "K12",
      ""
     ],
     [
@@ -353,7 +391,7 @@
      "K3",
      "",
      "",
-     "",
+     "K13",
      ""
     ],
     [
@@ -364,7 +402,7 @@
      "K4",
      "",
      "",
-     "",
+     "K14",
      ""
     ],
     [
@@ -394,9 +432,9 @@
      "←",
      "Current reversal guard",
      "",
+     "(M.22) z2 settings",
      "",
-     "",
-     ""
+     "(M.24) z3 settings"
     ],
     [
      "LK0",
@@ -469,7 +507,7 @@
      "K6",
      "",
      "",
-     "",
+     "printed circuit",
      ""
     ],
     [
@@ -500,6 +538,14 @@
   {
    "type": "table",
    "rows": [
+    [
+     "(M26) PSB",
+     "",
+     "",
+     "(M 31) Angles",
+     "",
+     "(M.19) Mutual"
+    ],
     [
      "K51",
      "",
@@ -623,7 +669,7 @@
     [
      "zn=(k3+k4+k5)/in",
      "",
-     "",
+     "zph=(k1+k2)/in",
      ""
     ],
     [
@@ -676,15 +722,15 @@
     ],
     [
      "Theta ph \n (Distance protection angle setting)",
-     "",
+     "90",
      "Theta N",
-     ""
+     "90"
     ],
     [
      "Theta ph/ set\n Test set angle setting (Nearest value)",
-     "",
+     "90",
      "Theta N/set",
-     ""
+     "90"
     ]
    ],
    "truncated_rows": 0
@@ -697,8 +743,31 @@
    "type": "table",
    "rows": [
     [
+     "Ph to gnd faults Z fault =",
+     "V fault \n I fault (1+kn)",
+     "Ph to Ph faults Z fault =",
+     "V fault\n 2*1fault"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "Constant fault current (I fault( applied in all zone reach delemination",
      "in = .",
+     "1 Amp"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "kn = zn / zph",
+     "0.6",
      ""
     ]
    ],
@@ -709,9 +778,19 @@
    "rows": [
     [
      "Ph to gnd fault : z fault",
-     "",
-     "",
-     ""
+     "V fault\n 1.6",
+     "Ph to gnd fault : z fault = >",
+     "V fault \n 2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Fault impedance using mutual compensation for ph to gnd \n fault",
+     "V fault\n Z fault = -------------------\n I fault (1+ kn+km)"
     ]
    ],
    "truncated_rows": 0
@@ -773,7 +852,7 @@
      "A-N",
      "1",
      "",
-     "",
+     "1",
      "",
      "",
      ""
@@ -841,7 +920,7 @@
      "A-N",
      "1",
      "",
-     "",
+     "1",
      "",
      "",
      ""
@@ -909,7 +988,7 @@
      "A-N",
      "1",
      "",
-     "",
+     "1",
      "",
      "",
      ""
@@ -977,7 +1056,7 @@
      "A-N",
      "1",
      "",
-     "",
+     "1",
      "",
      "",
      ""
@@ -1038,7 +1117,7 @@
    "rows": [
     [
      "Test \n on distance protection accordingly",
-     "",
+     "Check ed",
      "Fault in zone 2"
     ],
     [
@@ -1068,7 +1147,7 @@
    "rows": [
     [
      "Test \n on distance protection accordingly",
-     "",
+     "Check ed",
      "Fault in zone 2"
     ],
     [
@@ -1099,7 +1178,7 @@
    "text": "Location: Equipment \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Procedure\nTechnicalProcedure\nEquipment:Distance relay\n Micromho (SHNB 102)\n GEC\nIntroduction\nThis \nprocedure details the steps required to completely checl the proper operation of \nthe micromho distance relay. It is recommended this procedure be carried out on \na yearly bases\nThe \ndocument is formatted the way to minimize the possibility of error causing \npersonal injury or damage to equipment\nThe first draft initiated by Mostafa Ibraheem and tested by \n eng Abd Elnaseer Mostafa \n , \n accepted by general manager eng Shoaqi Mahmod, approved by eng Mohamed Mahdy \n Rezk.\nSafety Precautions\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nA work permit must be issued and the qualified\nmaintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nSafety \n and Healthy equipment must be used \n (safety Helmet, safety shoes, ...etc).\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nTools and Equipment\nTZ 2 test set this test set consists of 2 units supply, timer \n and volt injection unit and current injection unit\nMultimeters\nTest plug (MMLG 01)\nTest leads\nScrewdriver\nWork to be Carried Out\nPreliminary steps to \nprepare for relay testing\nThis procedure is used to perform off load relay test\nObtain copy of relay setting from field maintenance file\nObtain outage for line protected by this relay\nCheck that the bus and line disconnect switches are opened and tagged\nInspect the CT secondary circuits, the VT miniature circuit breakers (MCB`s) \n and all cabling supplying the relay\nUse station drawing to isolate\nDisturbance alarms and fault recorder associated with this relay\nAuto - re-close associated with this relay\nTesting the relay, relay \nscheme, and protection outputs\nCarefully follow these test procedure steps\nVerify the test results match the relay setting, if not consult technical \n services\nTest trip all breakers associated with the relay\nPrior to starting testing \nprocedure (s) ensure the following steps\nLook at the EEA panel nameplate and check that this EEA system designation \n nameplate agrees with the line that has been taken out of service for \n maintenance\nCheck there is no AC current from CT`s by using A clip on ammeter\nCheck there is no AC voltage from VT`s by using A voltmeter\nPreparation\nEnsure that the CT secondary are correctly short circuited on the case \n side of test plug\nThese connections must be made before the test plug is inserted\nConnect the current terminals IA, IB, IC and IN and the voltage terminals \n VA, VB, VC, and VN on the test plug to the corresponding current and voltage \n terminals on the supply unit test set\nInsert the test plug\nAdjust the test unit switches as\nPut the angle switch at -90\nAmpere switch on 3A\nThe injection direction switch on normal position in case of forward zones \n Z1, Z2, Z4 and on reverse position in case of reverse zone Z3\nPut the injection type switch on I + Vp\nTesting the phase to ground and phase to phase measuring elements\nSelect phase to ground fault A-N by using relay selector switch on supply \n unit test set\nConnect the outgoing voltage from the supply unit\nSwitch on the injection switch\nStart the test by pressing the switch on the control unit momentarily\nObserve that the red indications A,N and Z1 on the relay will light up\nChange the value of the potential tap up or down until the relay operates\n In second step (the red indication Z2 on the relay will light up with the last \n indication)\nRecord this pickup points on test sheet\nRepeat the above test for \nphases B-N, C-N, A-B, B-C and C-A\nRepeat the above test but this time calculate potential corresponding to \n the relay setting of the second zone for phase to ground and phase to phase \n fault set this value on the test set and then change it up or down until the \n relay operates in third step\nSwitch off switch\nMeasuring the operating \ntimes\nSet potential switch to 50 % of the zone 1 reach\nSelect phase to phase fault A-B by using relay selector switch on supply \n unit test set\nConnect test leads between timer contact on the relay to the stop terminal \n of the timer\nReset the interval timer\nSwitch on\nStart the test by pressing switch on\nThe timer will stop once the relay has picked up\nRecord the zone 1 tripping time on test sheet\nRepeat tests for zone 2 and zone 3 operating times\nRepeat tests for phase to ground operating times\nSwitch on to fault (sotf)\nInject current only and disconnect the voltage terminal\nThe indication led for (sotf) light up\nVoltage transformer \nsupervision\nInject current and volt\nDisconnect voltage terminal\nThe indication led for (V - fail) light up\nTesting the relay, relay \nscheme, and protection outputs\nVerify the test results match the relay setting if not consult technical \n services\nPerform check of the acceleration of the relay, breaker failure and \n reclosure schemes, separate technical procedures should be used to test each \n of these systems\nTest trip all breakers associated with the relay\nReturn relay and \nassociated equipment to service\nReturn relay to service by withdrawing the test plug handle from the relay\nIf any equipment associated with the relay has been isolated without the \n test plug it should be returned to service by the following restoration steps\nDisturbance alarms and fault recorder associated with this relay\nAuto - reclosure associated with this relay\nRequest power line be \nreturned to service\nTake crossed readings of all AC currents and voltages supplied to the \n relay and compare then to those for normal load conditions\nCheck that readings agree with station meters\n (MW / MVAR / power factor / amperes / voltages)\nPlace a copy of the test result in the field maintenance files\nTest sheet\n\nCharacteristics\nSettings\n\n\n\n\n\nNote: link position\n\n\nCalculations\n\nNote : angle difference induce additive error when calculating \nzone reach accuracy\nFault impedance applied from test set\n\n\nThe timer contacts from ZH3 from SHNB 102\nImportant notes:\nDisconnect terminal ZB 7 eliminate SOTF signal test\nTimer measuring to be measured from VF3, VF4\nDisconnect aux. relays k12, k14 to stop recorder working\nFault recorder cartage\nDisconnect terminal ZB 7 eliminate SOTF signal test\nTimer measuring to be measured from VF3, VF4\nDisconnect aux. relays k12, k14 to stop recorder working\nFault recorder cartage\nTest results\nZone 1\nZone 1 limit reach & Timing\n\nZone 2\nZone 2 limit reach & Timing\n\nZone 3\nZone 3 FORWARD limit reach & Timing\n\nZone 3 reverse limit reach & Timing\n\nTeleprotection test\nCheck \"PUTT\" logic : \npermissive under reach scheme\nZone 1 fault\n\nZone 2 fault + \"PT\" receive\n\nLocation: Equipment \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Procedure | TechnicalProcedure\nIntroduction\nThis \nprocedure details the steps required to completely checl the proper operation of \nthe micromho distance relay. It is recommended this procedure be carried out on \na yearly bases\nThe \ndocument is formatted the way to minimize the possibility of error causing \npersonal injury or damage to equipment\nThe first draft initiated by Mostafa Ibraheem and tested by \n eng Abd Elnaseer Mostafa \n , \n accepted by general manager eng Shoaqi Mahmod, approved by eng Mohamed Mahdy \n Rezk.\nSafety Precautions\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nA work permit must be issued and the qualified\nmaintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nSafety \n and Healthy equipment must be used \n (safety Helmet, safety shoes, ...etc).\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nTools and Equipment\nTZ 2 test set this test set consists of 2 units supply, timer \n and volt injection unit and current injection unit\nMultimeters\nTest plug (MMLG 01)\nTest leads\nScrewdriver\nWork to be Carried Out\nPreliminary steps to \nprepare for relay testing\nThis procedure is used to perform off load relay test\nObtain copy of relay setting from field maintenance file\nObtain outage for line protected by this relay\nCheck that the bus and line disconnect switches are opened and tagged\nInspect the CT secondary circuits, the VT miniature circuit breakers (MCB`s) \n and all cabling supplying the relay\nUse station drawing to isolate\nDisturbance alarms and fault recorder associated with this relay\nAuto - re-close associated with this relay\nTesting the relay, relay \nscheme, and protection outputs\nCarefully follow these test procedure steps\nVerify the test results match the relay setting, if not consult technical \n services\nTest trip all breakers associated with the relay\nPrior to starting testing \nprocedure (s) ensure the following steps\nLook at the EEA panel nameplate and check that this EEA system designation \n nameplate agrees with the line that has been taken out of service for \n maintenance\nCheck there is no AC current from CT`s by using A clip on ammeter\nCheck there is no AC voltage from VT`s by using A voltmeter\nPreparation\nEnsure that the CT secondary are correctly short circuited on the case \n side of test plug\nThese connections must be made before the test plug is inserted\nConnect the current terminals IA, IB, IC and IN and the voltage terminals \n VA, VB, VC, and VN on the test plug to the corresponding current and voltage \n terminals on the supply unit test set\nInsert the test plug\nAdjust the test unit switches as\nPut the angle switch at -90\nAmpere switch on 3A\nThe injection direction switch on normal position in case of forward zones \n Z1, Z2, Z4 and on reverse position in case of reverse zone Z3\nPut the injection type switch on I + Vp\nTesting the phase to ground and phase to phase measuring elements\nSelect phase to ground fault A-N by using relay selector switch on supply \n unit test set\nConnect the outgoing voltage from the supply unit\nSwitch on the injection switch\nStart the test by pressing the switch on the control unit momentarily\nObserve that the red indications A,N and Z1 on the relay will light up\nChange the value of the potential tap up or down until the relay operates\n In second step (the red indication Z2 on the relay will light up with the last \n indication)\nRecord this pickup points on test sheet\nRepeat the above test for \nphases B-N, C-N, A-B, B-C and C-A\nRepeat the above test but this time calculate potential corresponding to \n the relay setting of the second zone for phase to ground and phase to phase \n fault set this value on the test set and then change it up or down until the \n relay operates in third step\nSwitch off switch\nMeasuring the operating \ntimes\nSet potential switch to 50 % of the zone 1 reach\nSelect phase to phase fault A-B by using relay selector switch on supply \n unit test set\nConnect test leads between timer contact on the relay to the stop terminal \n of the timer\nReset the interval timer\nSwitch on\nStart the test by pressing switch on\nThe timer will stop once the relay has picked up\nRecord the zone 1 tripping time on test sheet\nRepeat tests for zone 2 and zone 3 operating times\nRepeat tests for phase to ground operating times\nSwitch on to fault (sotf)\nInject current only and disconnect the voltage terminal\nThe indication led for (sotf) light up\nVoltage transformer \nsupervision\nInject current and volt\nDisconnect voltage terminal\nThe indication led for (V - fail) light up\nTesting the relay, relay \nscheme, and protection outputs\nVerify the test results match the relay setting if not consult technical \n services\nPerform check of the acceleration of the relay, breaker failure and \n reclosure schemes, separate technical procedures should be used to test each \n of these systems\nTest trip all breakers associated with the relay\nReturn relay and \nassociated equipment to service\nReturn relay to service by withdrawing the test plug handle from the relay\nIf any equipment associated with the relay has been isolated without the \n test plug it should be returned to service by the following restoration steps\nDisturbance alarms and fault recorder associated with this relay\nAuto - reclosure associated with this relay\nRequest power line be \nreturned to service\nTake crossed readings of all AC currents and voltages supplied to the \n relay and compare then to those for normal load conditions\nCheck that readings agree with station meters\n (MW / MVAR / power factor / amperes / voltages)\nPlace a copy of the test result in the field maintenance files\nTest sheet\nManufacturer | GEC alsthom | Serial No. |  | Date | \nPanel |  | Feeder | \nCharacteristics\nvx | 220 VDC | C.T ratio | 2500 /1 | VT ratio | 220 / 0.1\nVn | 100 VAC | In | 1AMP | Test equipment used | IZ/2\nSettings\n(M.13) |  | (M.15) Z2 timing |  | (M.16) Z3 Timing\nIndication |  |  | tz 2 (ph) = 10 | 45 ms | TZ3 (ph) = 20 | 45 ms\ntz 3 (G) = 10 | 45 ms | TZ3 (G) = 20 | 45 ms\n(M.14) scheme |  | (M.18) Ph&N set |  | (M20) z1 setting\nProgram |  |  |  | K1 |  |  | K11 | \nLK7 | ← | zone 1 trip |  | K2 |  |  | K12 | \nLK6LK5 | ← | zone 3 timing |  | K3 |  |  | K13 | \nLK4 | ← | weak infeed |  | K4 |  |  | K14 | \nLK3 | → | Reset indications |  | K5 |  |  |  | \nLK2 | ← | Block auto-reclose |  |  |  |  |  | \nLK1 | ← | Current reversal guard |  | (M.22) z2 settings |  | (M.24) z3 settings\nLK0 | ← | sotf (timing) |  |  |  | \ntp=4* | ← | sotf (current) |  | K21 |  |  | K31 | \ntp=4* |  |  |  | K22 |  |  | K32 | \n |  |  |  | K24 |  |  | K33 | \n |  |  |  |  |  |  | K34 | \nNote: link position\nLK.. | → | 1 |  | K6 |  |  | printed circuit | \nLK.. | ← | 0 |  | K7 |  |  |  | \n |  |  |  | K8 |  |  |  | \n(M26) PSB |  |  | (M 31) Angles |  | (M.19) Mutual\nK51 |  |  |  | Theat ph |  |  | LKZ 1 | →\nK52 |  |  |  | Theta N |  |  | LKZ 2 | →\nK53 |  |  |  | Theta M |  |  | LKZ1X | ←\nK54 |  |  |  |  |  |  |  | \nLKZ1 | → | Block zone 1 |  |  |  |  |  | \nLKZ2 | → | Block zone 2 |  |  |  |  |  | \nLKZ3 | → | Block zone 3 |  |  |  |  |  | \nT | → |  |  |  |  |  |  | \nTZ6 |  |  |  |  |  |  |  | \nA/B |  |  |  |  |  |  |  | \nCalculations\nzn=(k3+k4+k5)/in |  | zph=(k1+k2)/in | \nkn=zn/zph |  |  | \nz1=zph*k14*(k11+k12+k13) |  | z2=zph*k24*(k21+k22) | \nz3rev=zph*k33*(k31+k32) |  | z3 fwd=zph*k33*k34 | \nkg50=zph*k53*(k51+k52) |  |  | \nz5fwd=2*k50*(1-k54) |  | check:z5fwd/z2=1.2 | \nz5rev=2*k50*k54 |  | check:z5rev/z2=1.2 | \nz6fwd=k50*(0.3+2(1-k54) |  | z6rev=k50*(0.3+2k54) | \n |  | check:(z6fwd + z6rev)/(z5 fwd + z5 rec)=1.3 | \nTheta ph \n (Distance protection angle setting) | 90 | Theta N | 90\nTheta ph/ set\n Test set angle setting (Nearest value) | 90 | Theta N/set | 90\nNote : angle difference induce additive error when calculating \nzone reach accuracy\nFault impedance applied from test set\nPh to gnd faults Z fault = | V fault \n I fault (1+kn) | Ph to Ph faults Z fault = | V fault\n 2*1fault\nConstant fault current (I fault( applied in all zone reach delemination | in = . | 1 Amp\nkn = zn / zph | 0.6 | \nPh to gnd fault : z fault | V fault\n 1.6 | Ph to gnd fault : z fault = > | V fault \n 2\nFault impedance using mutual compensation for ph to gnd \n fault | V fault\n Z fault = -------------------\n I fault (1+ kn+km)\nThe timer contacts from ZH3 from SHNB 102\nImportant notes:\nDisconnect terminal ZB 7 eliminate SOTF signal test\nTimer measuring to be measured from VF3, VF4\nDisconnect aux. relays k12, k14 to stop recorder working\nFault recorder cartage\nDisconnect terminal ZB 7 eliminate SOTF signal test\nTimer measuring to be measured from VF3, VF4\nDisconnect aux. relays k12, k14 to stop recorder working\nFault recorder cartage\nTest results\nZone 1\nZone 1 limit reach & Timing\nFaults applied | Test set | Distance protection\nI fault\n (amps) | V fault\n (volts) | Set option \n (M14) | Z1 reach\n (Ohms) | Indications | Timing\n (ms)\nA-N | 1 |  | 1 |  |  | \nB-N |  |  |  | \nC-N |  |  |  | \nA-B | 1 |  |  |  | \nB-C |  |  |  | \nC-A |  |  |  | \nZone 2\nZone 2 limit reach & Timing\nFaults applied | Test set | Distance protection\nI fault\n (amps) | V fault\n (volts) | Set option \n (M14) | Z2 reach\n (Ohms) | Indications | Timing\n (ms)\nA-N | 1 |  | 1 |  |  | \nB-N |  |  |  | \nC-N |  |  |  | \nA-B | 1 |  |  |  | \nB-C |  |  |  | \nC-A |  |  |  | \nZone 3\nZone 3 FORWARD limit reach & Timing\nFaults applied | Test set | Distance protection\nI fault\n (amps) | V fault\n (volts) | Set option \n (M14) | Z3F reach\n (Ohms) | Indications | Timing\n (ms)\nA-N | 1 |  | 1 |  |  | \nB-N |  |  |  | \nC-N |  |  |  | \nA-B | 1 |  |  |  | \nB-C |  |  |  | \nC-A |  |  |  | \nZone 3 reverse limit reach & Timing\nFaults applied | Test set | Distance protection\nI fault\n (amps) | V fault\n (volts) | Set option \n (M14) | Z4R reach\n (Ohms) | Indications | Timing\n (ms)\nA-N | 1 |  | 1 |  |  | \nB-N |  |  |  | \nC-N |  |  |  | \nA-B | 1 |  |  |  | \nB-C |  |  |  | \nC-A |  |  |  | \nTeleprotection test\nCheck \"PUTT\" logic : \npermissive under reach scheme\nZone 1 fault\nTest \n on distance protection accordingly | Check ed | Fault in zone 2\nApply zone 1 fault = \n ohms |  | \"PT\" signal received from\n*Permissive trip signal (PT) is SENT |  | SIDI KRIR substation\n* Led indication |  | \nZone 2 fault + \"PT\" receive\nTest \n on distance protection accordingly | Check ed | Fault in zone 2\nApply zone 2 fault = \n ohms |  | \"PT\" signal signal send to\n*Permissive trip signal (PT) is received |  | SIDI KRIR substation\n* Distance protection operates instantaneously measring \n operating time |  | \n* Led indication |  | \nLocation: Equipment \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

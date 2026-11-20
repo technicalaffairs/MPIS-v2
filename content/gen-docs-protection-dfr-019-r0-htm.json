@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -209,60 +219,234 @@
    "text": "Component"
   },
   {
-   "type": "paragraph",
-   "text": "Technical data"
-  },
-  {
-   "type": "paragraph",
-   "text": "Protection device \n ----------------------------"
-  },
-  {
-   "type": "paragraph",
-   "text": "(Relay type)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Rated current ------------------ \n A"
-  },
-  {
-   "type": "paragraph",
-   "text": "Rated voltage \n -------------------V"
-  },
-  {
-   "type": "paragraph",
-   "text": "Rated frequency --------------Hz"
-  },
-  {
-   "type": "paragraph",
-   "text": "Auxiliary voltage \n ---------------V"
-  },
-  {
-   "type": "paragraph",
-   "text": "Corresponding CTs \n ------------------------- \n A"
+   "type": "table",
+   "rows": [
+    [
+     "Confirmed",
+     "Remarks",
+     "Activity",
+     "No."
+    ],
+    [
+     "",
+     "",
+     "Technical data",
+     "1."
+    ],
+    [
+     "Protection device \n ----------------------------\n (Relay type)\n Identification (MLF) No. \n -------------------------",
+     ""
+    ],
+    [
+     "Rated current ------------------ \n A\n Rated voltage \n -------------------V\n Rated frequency --------------Hz\n Auxiliary voltage \n ---------------V\n Corresponding CTs \n ------------------------- \n A",
+     ""
+    ],
+    [
+     "Tests \n with secondary injection",
+     "2."
+    ],
+    [
+     "Separate alarms",
+     "2.1"
+    ],
+    [
+     "",
+     "",
+     "Actual",
+     "Setting",
+     "Actual",
+     "Setting",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Time",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Function",
+     "2.2"
+    ],
+    [
+     "",
+     "",
+     "Independent: \n □",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Dependent \n □ \n -------- Inverse",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Thermal overload \n □",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Memory on \n □",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Memory \n off \n □",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Actual",
+     "Setting",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "L1",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "L2",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "L3",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Time (s)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "TEST SHEET"
   },
   {
-   "type": "paragraph",
-   "text": "2.3"
-  },
-  {
-   "type": "paragraph",
-   "text": "2.4"
-  },
-  {
-   "type": "paragraph",
-   "text": "2.5"
-  },
-  {
-   "type": "paragraph",
-   "text": "Primary \n tests"
-  },
-  {
-   "type": "paragraph",
-   "text": "- Normal load \n operation \n □"
+   "type": "table",
+   "rows": [
+    [
+     "Confirmed",
+     "Remarks",
+     "Activity",
+     "No."
+    ],
+    [
+     "",
+     "",
+     "Voltage",
+     "2.3\n 2.4\n 2.5\n 3."
+    ],
+    [
+     "Drop-out",
+     "Pick-up",
+     "Setting",
+     "U < (V)"
+    ],
+    [
+     "",
+     "",
+     "",
+     "Time (S)"
+    ],
+    [
+     "Current"
+    ],
+    [
+     "Actual",
+     "Setting",
+     ""
+    ],
+    [
+     "",
+     "",
+     "current (A)"
+    ],
+    [
+     "",
+     "",
+     "",
+     "time (s)"
+    ],
+    [
+     "Start up lockout on thermal \n overload \n □"
+    ],
+    [
+     "Under \n voltage seal in \n □"
+    ],
+    [
+     "Output \n Signals"
+    ],
+    [
+     "Alarms"
+    ],
+    [
+     "Warning \n □"
+    ],
+    [
+     "Fault \n □"
+    ],
+    [
+     "Trip \n □"
+    ],
+    [
+     "Trip"
+    ],
+    [
+     "to CB \n or \n □"
+    ],
+    [
+     "to \n matrix \n □"
+    ],
+    [
+     "Primary \n tests\n Check \n operation current either on - Short circuit testes \n □"
+    ],
+    [
+     "- Starting \n operation □"
+    ],
+    [
+     "- Normal load \n operation \n □"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -281,7 +465,7 @@
    "text": "Approved by: Signature:"
   }
  ],
- "text": "Introduction\nThe numerical current differential protection 7UT51 is a fast and \nselective short-circuits protection for transformers of all voltage levels, for \nrotating machines, or for branch points with max. Three feeder the individual \napplication can be configured, which ensures optimum matching to the protected \nobject the larger model 7UT513 (1/2 housing) is used for three-winding \ntransformers and branch points with three feeders.\nThis unit contains five \nre-assignable trip relays, 10 re-assignable alarm relays, five re-assignable \nbinary inputs, and 14 re-assignable LED indicators. It can also be used for \ngenerators and motors if the larger number of input and/or out-put \nfunctions is desired. In this case, the remaining measured current inputs can be \nused to protect any desired further protected object, the so-called\n-virtual \"object\"\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by EDEPC quality control eng. Adel Abdel Qader El Nagar, accepted \n by general manager eng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nThe unit out of service and work permit required.\nMake \n sure CT Secondary circuits are shorted.\nEnsure \n all CT path elements are secure after any test disturbance.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nThe unit out of service and work permit required.\nMake \n sure CT Secondary circuits are shorted.\nEnsure \n all CT path elements are secure after any test disturbance.\nTools and \nEquipment\nISA \ntest set type ART/3 or Omicron\nVoltmeter, \n Ammeter\nTest plug test leads\nISA \ntest set type ART/3 or Omicron\nVoltmeter, \n Ammeter\nTest plug test leads\nWork to be carried out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of \nthem to the timer of the tester.\nCheck all the leads used in tests.\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of \nthem to the timer of the tester.\nCheck all the leads used in tests.\nTest steps\nConnect the current leads of a tester unit to the relay \npoints according to the drawings and scheme.\nInject current to each couple of points till the red flag \nof the device displays.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nConnect the current leads of a tester unit to the relay \npoints according to the drawings and scheme.\nInject current to each couple of points till the red flag \nof the device displays.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nTest trip the circuit breaker associated with the relay.\nTrip Test\nRequest the operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to trip the \n circuit breaker.\nCheck that the circuit breaker tripped.\nTEST SHEET\nSystem\nComponent\nTechnical data\nProtection device \n ----------------------------\n(Relay type)\nRated current ------------------ \n A\nRated voltage \n -------------------V\nRated frequency --------------Hz\nAuxiliary voltage \n ---------------V\nCorresponding CTs \n ------------------------- \n A\nTEST SHEET\n2.3\n2.4\n2.5\nPrimary \n tests\n- Normal load \n operation \n □\nLocation: \n Equipment code:\nTested by: \nSignature: \n Last test date:\nRevised by: \nSignature: \nTest date:\nApproved by: Signature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe numerical current differential protection 7UT51 is a fast and \nselective short-circuits protection for transformers of all voltage levels, for \nrotating machines, or for branch points with max. Three feeder the individual \napplication can be configured, which ensures optimum matching to the protected \nobject the larger model 7UT513 (1/2 housing) is used for three-winding \ntransformers and branch points with three feeders.\nThis unit contains five \nre-assignable trip relays, 10 re-assignable alarm relays, five re-assignable \nbinary inputs, and 14 re-assignable LED indicators. It can also be used for \ngenerators and motors if the larger number of input and/or out-put \nfunctions is desired. In this case, the remaining measured current inputs can be \nused to protect any desired further protected object, the so-called\n-virtual \"object\"\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by EDEPC quality control eng. Adel Abdel Qader El Nagar, accepted \n by general manager eng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nThe unit out of service and work permit required.\nMake \n sure CT Secondary circuits are shorted.\nEnsure \n all CT path elements are secure after any test disturbance.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nThe unit out of service and work permit required.\nMake \n sure CT Secondary circuits are shorted.\nEnsure \n all CT path elements are secure after any test disturbance.\nTools and \nEquipment\nISA \ntest set type ART/3 or Omicron\nVoltmeter, \n Ammeter\nTest plug test leads\nISA \ntest set type ART/3 or Omicron\nVoltmeter, \n Ammeter\nTest plug test leads\nWork to be carried out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of \nthem to the timer of the tester.\nCheck all the leads used in tests.\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of \nthem to the timer of the tester.\nCheck all the leads used in tests.\nTest steps\nConnect the current leads of a tester unit to the relay \npoints according to the drawings and scheme.\nInject current to each couple of points till the red flag \nof the device displays.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nConnect the current leads of a tester unit to the relay \npoints according to the drawings and scheme.\nInject current to each couple of points till the red flag \nof the device displays.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nTest trip the circuit breaker associated with the relay.\nTrip Test\nRequest the operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to trip the \n circuit breaker.\nCheck that the circuit breaker tripped.\nTEST SHEET\nSystem\nComponent\nConfirmed | Remarks | Activity | No.\n |  | Technical data | 1.\nProtection device \n ----------------------------\n (Relay type)\n Identification (MLF) No. \n ------------------------- | \nRated current ------------------ \n A\n Rated voltage \n -------------------V\n Rated frequency --------------Hz\n Auxiliary voltage \n ---------------V\n Corresponding CTs \n ------------------------- \n A | \nTests \n with secondary injection | 2.\nSeparate alarms | 2.1\n |  | Actual | Setting | Actual | Setting |  | \n |  |  |  |  |  | Time | \n |  | Function | 2.2\n |  | Independent: \n □ | \n |  | Dependent \n □ \n -------- Inverse | \n |  | Thermal overload \n □ | \n |  | Memory on \n □ | \n |  | Memory \n off \n □ | \n |  | Actual | Setting |  | \n |  |  |  |  |  | L1 | \n |  |  |  |  |  | L2 | \n |  |  |  |  |  | L3 | \n |  |  |  |  |  | Time (s) | \nTEST SHEET\nConfirmed | Remarks | Activity | No.\n |  | Voltage | 2.3\n 2.4\n 2.5\n 3.\nDrop-out | Pick-up | Setting | U < (V)\n |  |  | Time (S)\nCurrent\nActual | Setting | \n |  | current (A)\n |  |  | time (s)\nStart up lockout on thermal \n overload \n □\nUnder \n voltage seal in \n □\nOutput \n Signals\nAlarms\nWarning \n □\nFault \n □\nTrip \n □\nTrip\nto CB \n or \n □\nto \n matrix \n □\nPrimary \n tests\n Check \n operation current either on - Short circuit testes \n □\n- Starting \n operation □\n- Normal load \n operation \n □\nLocation: \n Equipment code:\nTested by: \nSignature: \n Last test date:\nRevised by: \nSignature: \nTest date:\nApproved by: Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

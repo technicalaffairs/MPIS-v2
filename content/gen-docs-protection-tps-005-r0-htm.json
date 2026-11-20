@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -311,8 +313,54 @@
    "text": "Diff. function"
   },
   {
-   "type": "paragraph",
-   "text": "Value"
+   "type": "table",
+   "rows": [
+    [
+     "Value\n Phase",
+     "H.V Side",
+     "L.V. SIDE"
+    ],
+    [
+     "Ipu",
+     "Ido",
+     "TIpu",
+     "T2Ipu",
+     "Ipu",
+     "Ido",
+     "TIpu"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -365,6 +413,48 @@
   {
    "type": "paragraph",
    "text": "Over \nCurrent Relay 220kv side"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Jpu sec",
+     "Jdo",
+     "R.F.",
+     "T sec",
+     "J>>",
+     "T(J>>)"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Je",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -523,7 +613,7 @@
    "text": "T1=T2 =T3=1.5 \nSec K =1.0"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThe protection relay for transformer is \n manufactured by ABB and this relay is digital type.\nThe first draft \n initiated by eng. \n Abdel Raheem \n Salem Mohamed Ezz, tested by \n eng. \n Khaled El Etriby at 3 April 2004, reversed by \n EDEPC \n quality control eng. Adel \n Abdel Kader El-Naggar, accepted by general director eng. \n Atef \n Farh, and certified by eng. Aly \n Mostafa Al-Lethy EDEPC inspection & quality control head sector.\nSafety Precautions\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category,\nSafety fence \n (rope) with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nTransformer \n must be out of service.\nMake sure CT secondary \n circuits are shorted.\nVoltage transformer \n miniature circuit breakers (m.c.b) is opened\nTools and Equipment\nSiemens test set two units:\nCurrent unit type 7VP48, voltage unit type \n 7VP49.\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nReview technical \n reference material manufactures or manual.\nObtain copy of relay \n setting from field maintenance file.\nObtain outage for unit \n protected by this relay\nCheck that the bus and \n unit disconnect switches are opened and tagged.\nInspect the secondary \n circuits of CT, PT miniature circuit breakers.\nMCB and all cabling \n supplying the relay.\nBlock any disturbance \n alarms or fault recorders associated with this protection.\nPreparation of Test\nPlace the two cases \n one on the top of other (the voltage unit on the top of current unit)\nConnect the two units \n together by the cable connector 7 XV6201 between test plug \"X2\" in current \n unit and test plug \"X1\" in voltage unit.\nConnect the power \n supply cable 7XV6200 (3*380 V) between the plug \"X1\" in the current unit and \n the source (careful the positive sequence).\nConnect an ammeter \n with the socket \"17 ,18\" in current unit and voltmeter with the socket \"5,6\" \n in voltage unit.\nTest Procedure for transformer Protection Relay RET \n521\nTo inter test mode\nSelect the (test test mode operation on), then the relay is in test mode \n and the yellow lamp is flashing .\nDifferential Protection\nBlock the other function earth fault and restricted \nearth fault which feed from the same current transformer as differential \nprotection ,select the (test-test mode-block function E/F is on &RE/F \nis on).\nHV SIDE\nConnect the current leads from (L1&N) on the \n tester to (L1&N) on the relay.\nIncrease the current to the relay until the \n protection function operate ,record this value (pick up value ) and make sure \n the trip is O.K.\nDecrease the current to the relay until the \n protection function released ,record this value (drop out value )\nRepeat the previous steps (1,2&3)for phases L2 & \n L3 .\nConnect the current leads ( L1,L2 , L3 & N ) on \n the tester to the relay .\ninject the three phases current and Increase it \n until the protection function operate ,record this value (pick up value ) and \n make sure the trip is O.K.\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CBs where the isolators are opened and \n inject the current to the relay to trip the CBs.\nLV SIDE\nRepeat the previous steps from 1-8 for LV side .\nRemove the block function earth fault and \n restricted earth fault which feed from the same current transformer as \n differential protection ,select the (test-test mode-block \n function E/F is off &RE/F is off). Then the relay is ready.\nRestricted \nEarth Fault Protection (High Voltage Side)\nBlock the other function earth fault and diff. \n protection, which feed from the same current transformer as restricted earth \n fault protection, select the (test-test mode-block function E/F is \n on & diff. is on).\nConnect the current leads from (L1&N) on the \n tester to the relay terminals which is connected to the C.T. on H.V. neutral \n side .\nIncrease the current to the relay until the \n protection function operate ,record this value (pick up value ) and make sure \n the trip is O.K.\nDecrease the current to the relay until the \n protection function released ,record this value (drop out value )\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time .\nClose the CB's where the isolators is opened and \n inject the current to the relay to trip the C.Bs.\nRemove block of other functions earth fault and \n diff. prot. which feed from the summate , record this value (pick up value ) \n and make sure the trip is OK\nDecrease the current to the relay until the \n protection function released ,record this value (drop out value )\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time .\nClose the CB's where the isolators is opened and \n inject the current to the relay to trip the CB's.\nRemove block of other functions restricted earth \n fault and diff. prot. which feed from the same current transformer as earth \n fault protection ,select the (test-test mode-block function RE/F is \n off & diff. is off). then the relay is ready.\nOver current \nTime Protection\nBlock the other function restricted earth fault \n and diff. prot. which feed from the same current transformer as over current \n protection ,select the (test-test mode-block function R E/F is on & \n diff. is on).\nConnect the current leads from (L1, L2, L3, N) on \n the tester to (L1, L2, L3, N) on the relay.\nSelect (L1&N) on the tester to inject the current \n for phase L1, increase the current phase L1 to the relay until the protection \n function operate ,record this value (pick up value ) and make sure the trip is \n O.K.\nDecrease the current to the relay until the \n protection function released; record this value (drop out value).\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CBs where the isolators is opened and \n inject the current to the relay to trip the CBs.\nRepeat the previous steps (2&3) for phases L2 & \n L3.\nRemove the block function differential protection \n and restricted earth fault which feed from the same current transformer as \n over current time protection ,select the (test-test mode-block \n function Diff. is off &RE/F is off). Then the relay is ready.\nRestricted \nEarth Fault Protection ( Low Voltage Side)\nBlock the other function earth fault and diff. \n prot. which feed from the same current transformer as restricted earth fault \n protection ,select the (test-test mode-block function E/F is on & \n diff. is on).\nConnect the current leads from (L1&N) on the \n tester to the relay terminals which is connected to the C.T. on L.V. neutral \n side .\nIncrease the current to the relay until the \n protection function operate, record this value (pick up value) and make sure \n the trip is O.K.\nDecrease the current to the relay until the \n protection function released; record this value (drop out value).\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CB's where the isolators is opened and \n inject the current to the relay to trip the CBs.\nRemove block of other functions earth fault and \n diff. protection, which feed from the same current transformer as restricted \n earth fault protection, select the (test-test mode-block function \n E/F is off & diff. is off). then the relay is ready\nEarth Fault \nProtection (Low Voltage Side)\nBlock the other function restricted earth fault \n and diff. prot. which feed from the same current transformer as earth fault \n protection ,select the (test-test mode-block function R E/F is on & \n diff. is on).\nConnect the current leads from (L1&N) on the \n tester to the relay terminals which is connected to the CT on LV neutral \n side.\nIncrease the current to the relay until the \n protection function operate, record this value (pick up value ) and make sure \n the trip is OK.\nDecrease the current to the relay until the \n protection function released, record this value (drop out value )\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CB's where the isolators are opened and \n inject the current to the relay to trip the CB's.\nremove block of other functions restricted earth \n fault and diff. protection, which feed from the same current transformer as \n earth fault protection, select the (test-test mode-block function \n RE/F is off & diff. is off).\nTo exit from test mode select (test test mode \n operation off ) the yellow lamp disappeared, then the relay is ready for \n operation .\nDirectional \n over current prot. 66 kv side\nBlock the differential protection ,select the (test- \n test mode-block function diff. is on).\nHV SIDE\nDisconnect the m.c.b for PT secondary \n circuits.\nConnect the voltage leads from (L1,L2,L3&N) on \n the tester to (L1,L2,L3&N) on the relay.\nConnect the current leads from (L1&N) on the \n tester to (L1&N) on the relay.\nInject 3-ph voltages 100 v.\nIncrease the current to the relay to about 0.5A.\nMake the current lag the voltage by 90˚.\nIncrease the current to the relay until the \n protection function operate, record this value (pick up value) and make sure \n the trip is OK.\nDecrease the current to the relay until the \n protection function released, record this value (drop out value).\nFor p.u. value move the angle until the relay is \n released and move to back again untie the relay p.u. record this interring \n value of c/c and move in this direction until the relay is released and move \n back until the relay is p.u. record this value the other side of c/c .\nRepeat the previous steps (3,4,5,6,7&8) for phases \n L2 & L3 .\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CBs where the isolators is opened and \n inject the current to the relay to trip the CBs.\nTest Sheet\nLocation :\nEquipment \n: \nTransformer 220/66kv No : DATE:\nRelay Name : \nTransformer protection\nRelay Type : \nRET521 Company : ABB\nCTR.(220KV Side) = 1000/1 A P.T.R \n= 66/0.1 KV\nCTR.(66KV Side) = 12000/1 \nA\nRelay Setting\nDiff. function : Id =0.4 Ir (131 \nA) Id (unrest.) =13.0Ir (4270)\nOver current : I> = 1.5 Ir (492A) T (I>) = 2.0 \nsec\nI>> = 8.5Ir(2800A) t (I>>) = 40 msec.\nEarth fault : Ie > = \n0.4 I r(131 A) T (Ie>) = 2.0 sec\nRestricted Earth fault : Ian \n=0.2 Ir (65A)\nTest Result\nDiff. function\nValue\nThree Phase \ninjection 220kv\nIpu = mA \nIdo = mA\nT \n= m sec\nThree Phase \ninjection 66kv\nIpu = mA \n Ido = mA\nT \n= m sec\nEarth Fault 220kv \nSide\nIpu (prim.) = A \n T (Ipu) \n= sec.\nIpu (sec.) = A \n T (2Ipu) \n= sec.\nRestricted Earth fault 220kv side\nIan (prim.) = A \n T (Ipu) \n= sec.\nIan (sec.) = A \n T (2Ipu) \n= sec.\nOver \nCurrent Relay 220kv side\nRelay Name \n:\nRelay Type : \nSM103 \nCompany: AEG\nRelay Setting :\nC.T.R.=1000/1 \nIn =1.0 A\nI > = \n0.21 A T =1.75 Sec\nTest Result\nIpu = mA \nIdo = mA\nT \n= Sec\nRelay Name : \n220KV Side Restricted E/F \nRelay Type : SQE21B\nCompany : AEG\nRelay \nSetting :\nC.T.R. \n=1000/1 In =1.0 A\nIan > \n= 0.15 A\nTest Result\nIpu = mA \nIdo = mA\nT = Sec\nRelay Name : \n66KV SIDE E/F\nRelay \nType : SM103 Company : AEG\nRelay Setting :\nC.T.R. = \n1200/1 In \n1.0 = A\nI > \n= A T = 1.75 Sec\nTest Result\nIpu = mA \nIdo = mA\nT = Sec\nRelay Name : 66KV \nSide Restricted E/F\nRelay Type : SQE21B \nCompany : AEG\nRelay Setting\nC.T.R. = \n1200/1 \nIn =1.0 A\nIan > \n= 0.15 A\nTest Result\nIpu = mA \nIdo = mA\nT = Sec\nRelay Name \n: 66 KV Directional Over Current Relay\nRelay Type : \nSD35A-12 Company : AEG\nRelay Setting :\nC.T.R = 1200/1 P.T.R = \n66000/100 I = 1.20 A\nZu/Z1 \n=1.2 Z1=Z2=Z3=10 C =1.0\nT1=T2 =T3=1.5 \nSec K =1.0",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe protection relay for transformer is \n manufactured by ABB and this relay is digital type.\nThe first draft \n initiated by eng. \n Abdel Raheem \n Salem Mohamed Ezz, tested by \n eng. \n Khaled El Etriby at 3 April 2004, reversed by \n EDEPC \n quality control eng. Adel \n Abdel Kader El-Naggar, accepted by general director eng. \n Atef \n Farh, and certified by eng. Aly \n Mostafa Al-Lethy EDEPC inspection & quality control head sector.\nSafety Precautions\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category,\nSafety fence \n (rope) with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nTransformer \n must be out of service.\nMake sure CT secondary \n circuits are shorted.\nVoltage transformer \n miniature circuit breakers (m.c.b) is opened\nTools and Equipment\nSiemens test set two units:\nCurrent unit type 7VP48, voltage unit type \n 7VP49.\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nReview technical \n reference material manufactures or manual.\nObtain copy of relay \n setting from field maintenance file.\nObtain outage for unit \n protected by this relay\nCheck that the bus and \n unit disconnect switches are opened and tagged.\nInspect the secondary \n circuits of CT, PT miniature circuit breakers.\nMCB and all cabling \n supplying the relay.\nBlock any disturbance \n alarms or fault recorders associated with this protection.\nPreparation of Test\nPlace the two cases \n one on the top of other (the voltage unit on the top of current unit)\nConnect the two units \n together by the cable connector 7 XV6201 between test plug \"X2\" in current \n unit and test plug \"X1\" in voltage unit.\nConnect the power \n supply cable 7XV6200 (3*380 V) between the plug \"X1\" in the current unit and \n the source (careful the positive sequence).\nConnect an ammeter \n with the socket \"17 ,18\" in current unit and voltmeter with the socket \"5,6\" \n in voltage unit.\nTest Procedure for transformer Protection Relay RET \n521\nTo inter test mode\nSelect the (test test mode operation on), then the relay is in test mode \n and the yellow lamp is flashing .\nDifferential Protection\nBlock the other function earth fault and restricted \nearth fault which feed from the same current transformer as differential \nprotection ,select the (test-test mode-block function E/F is on &RE/F \nis on).\nHV SIDE\nConnect the current leads from (L1&N) on the \n tester to (L1&N) on the relay.\nIncrease the current to the relay until the \n protection function operate ,record this value (pick up value ) and make sure \n the trip is O.K.\nDecrease the current to the relay until the \n protection function released ,record this value (drop out value )\nRepeat the previous steps (1,2&3)for phases L2 & \n L3 .\nConnect the current leads ( L1,L2 , L3 & N ) on \n the tester to the relay .\ninject the three phases current and Increase it \n until the protection function operate ,record this value (pick up value ) and \n make sure the trip is O.K.\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CBs where the isolators are opened and \n inject the current to the relay to trip the CBs.\nLV SIDE\nRepeat the previous steps from 1-8 for LV side .\nRemove the block function earth fault and \n restricted earth fault which feed from the same current transformer as \n differential protection ,select the (test-test mode-block \n function E/F is off &RE/F is off). Then the relay is ready.\nRestricted \nEarth Fault Protection (High Voltage Side)\nBlock the other function earth fault and diff. \n protection, which feed from the same current transformer as restricted earth \n fault protection, select the (test-test mode-block function E/F is \n on & diff. is on).\nConnect the current leads from (L1&N) on the \n tester to the relay terminals which is connected to the C.T. on H.V. neutral \n side .\nIncrease the current to the relay until the \n protection function operate ,record this value (pick up value ) and make sure \n the trip is O.K.\nDecrease the current to the relay until the \n protection function released ,record this value (drop out value )\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time .\nClose the CB's where the isolators is opened and \n inject the current to the relay to trip the C.Bs.\nRemove block of other functions earth fault and \n diff. prot. which feed from the summate , record this value (pick up value ) \n and make sure the trip is OK\nDecrease the current to the relay until the \n protection function released ,record this value (drop out value )\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time .\nClose the CB's where the isolators is opened and \n inject the current to the relay to trip the CB's.\nRemove block of other functions restricted earth \n fault and diff. prot. which feed from the same current transformer as earth \n fault protection ,select the (test-test mode-block function RE/F is \n off & diff. is off). then the relay is ready.\nOver current \nTime Protection\nBlock the other function restricted earth fault \n and diff. prot. which feed from the same current transformer as over current \n protection ,select the (test-test mode-block function R E/F is on & \n diff. is on).\nConnect the current leads from (L1, L2, L3, N) on \n the tester to (L1, L2, L3, N) on the relay.\nSelect (L1&N) on the tester to inject the current \n for phase L1, increase the current phase L1 to the relay until the protection \n function operate ,record this value (pick up value ) and make sure the trip is \n O.K.\nDecrease the current to the relay until the \n protection function released; record this value (drop out value).\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CBs where the isolators is opened and \n inject the current to the relay to trip the CBs.\nRepeat the previous steps (2&3) for phases L2 & \n L3.\nRemove the block function differential protection \n and restricted earth fault which feed from the same current transformer as \n over current time protection ,select the (test-test mode-block \n function Diff. is off &RE/F is off). Then the relay is ready.\nRestricted \nEarth Fault Protection ( Low Voltage Side)\nBlock the other function earth fault and diff. \n prot. which feed from the same current transformer as restricted earth fault \n protection ,select the (test-test mode-block function E/F is on & \n diff. is on).\nConnect the current leads from (L1&N) on the \n tester to the relay terminals which is connected to the C.T. on L.V. neutral \n side .\nIncrease the current to the relay until the \n protection function operate, record this value (pick up value) and make sure \n the trip is O.K.\nDecrease the current to the relay until the \n protection function released; record this value (drop out value).\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CB's where the isolators is opened and \n inject the current to the relay to trip the CBs.\nRemove block of other functions earth fault and \n diff. protection, which feed from the same current transformer as restricted \n earth fault protection, select the (test-test mode-block function \n E/F is off & diff. is off). then the relay is ready\nEarth Fault \nProtection (Low Voltage Side)\nBlock the other function restricted earth fault \n and diff. prot. which feed from the same current transformer as earth fault \n protection ,select the (test-test mode-block function R E/F is on & \n diff. is on).\nConnect the current leads from (L1&N) on the \n tester to the relay terminals which is connected to the CT on LV neutral \n side.\nIncrease the current to the relay until the \n protection function operate, record this value (pick up value ) and make sure \n the trip is OK.\nDecrease the current to the relay until the \n protection function released, record this value (drop out value )\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CB's where the isolators are opened and \n inject the current to the relay to trip the CB's.\nremove block of other functions restricted earth \n fault and diff. protection, which feed from the same current transformer as \n earth fault protection, select the (test-test mode-block function \n RE/F is off & diff. is off).\nTo exit from test mode select (test test mode \n operation off ) the yellow lamp disappeared, then the relay is ready for \n operation .\nDirectional \n over current prot. 66 kv side\nBlock the differential protection ,select the (test- \n test mode-block function diff. is on).\nHV SIDE\nDisconnect the m.c.b for PT secondary \n circuits.\nConnect the voltage leads from (L1,L2,L3&N) on \n the tester to (L1,L2,L3&N) on the relay.\nConnect the current leads from (L1&N) on the \n tester to (L1&N) on the relay.\nInject 3-ph voltages 100 v.\nIncrease the current to the relay to about 0.5A.\nMake the current lag the voltage by 90˚.\nIncrease the current to the relay until the \n protection function operate, record this value (pick up value) and make sure \n the trip is OK.\nDecrease the current to the relay until the \n protection function released, record this value (drop out value).\nFor p.u. value move the angle until the relay is \n released and move to back again untie the relay p.u. record this interring \n value of c/c and move in this direction until the relay is released and move \n back until the relay is p.u. record this value the other side of c/c .\nRepeat the previous steps (3,4,5,6,7&8) for phases \n L2 & L3 .\nConnect the timer leads from the tester to free \n contact on the relay.\nInject current twice the pick up value and \n determine the operate time.\nClose the CBs where the isolators is opened and \n inject the current to the relay to trip the CBs.\nTest Sheet\nLocation :\nEquipment \n: \nTransformer 220/66kv No : DATE:\nRelay Name : \nTransformer protection\nRelay Type : \nRET521 Company : ABB\nCTR.(220KV Side) = 1000/1 A P.T.R \n= 66/0.1 KV\nCTR.(66KV Side) = 12000/1 \nA\nRelay Setting\nDiff. function : Id =0.4 Ir (131 \nA) Id (unrest.) =13.0Ir (4270)\nOver current : I> = 1.5 Ir (492A) T (I>) = 2.0 \nsec\nI>> = 8.5Ir(2800A) t (I>>) = 40 msec.\nEarth fault : Ie > = \n0.4 I r(131 A) T (Ie>) = 2.0 sec\nRestricted Earth fault : Ian \n=0.2 Ir (65A)\nTest Result\nDiff. function\nValue\n Phase | H.V Side | L.V. SIDE\nIpu | Ido | TIpu | T2Ipu | Ipu | Ido | TIpu\nR |  |  |  |  |  |  | \nS |  |  |  |  |  |  | \nT |  |  |  |  |  |  | \nThree Phase \ninjection 220kv\nIpu = mA \nIdo = mA\nT \n= m sec\nThree Phase \ninjection 66kv\nIpu = mA \n Ido = mA\nT \n= m sec\nEarth Fault 220kv \nSide\nIpu (prim.) = A \n T (Ipu) \n= sec.\nIpu (sec.) = A \n T (2Ipu) \n= sec.\nRestricted Earth fault 220kv side\nIan (prim.) = A \n T (Ipu) \n= sec.\nIan (sec.) = A \n T (2Ipu) \n= sec.\nOver \nCurrent Relay 220kv side\n | Jpu sec | Jdo | R.F. | T sec | J>> | T(J>>)\nR |  |  |  |  |  | \nJe |  |  |  |  |  | \nT |  |  |  |  |  | \nRelay Name \n:\nRelay Type : \nSM103 \nCompany: AEG\nRelay Setting :\nC.T.R.=1000/1 \nIn =1.0 A\nI > = \n0.21 A T =1.75 Sec\nTest Result\nIpu = mA \nIdo = mA\nT \n= Sec\nRelay Name : \n220KV Side Restricted E/F \nRelay Type : SQE21B\nCompany : AEG\nRelay \nSetting :\nC.T.R. \n=1000/1 In =1.0 A\nIan > \n= 0.15 A\nTest Result\nIpu = mA \nIdo = mA\nT = Sec\nRelay Name : \n66KV SIDE E/F\nRelay \nType : SM103 Company : AEG\nRelay Setting :\nC.T.R. = \n1200/1 In \n1.0 = A\nI > \n= A T = 1.75 Sec\nTest Result\nIpu = mA \nIdo = mA\nT = Sec\nRelay Name : 66KV \nSide Restricted E/F\nRelay Type : SQE21B \nCompany : AEG\nRelay Setting\nC.T.R. = \n1200/1 \nIn =1.0 A\nIan > \n= 0.15 A\nTest Result\nIpu = mA \nIdo = mA\nT = Sec\nRelay Name \n: 66 KV Directional Over Current Relay\nRelay Type : \nSD35A-12 Company : AEG\nRelay Setting :\nC.T.R = 1200/1 P.T.R = \n66000/100 I = 1.20 A\nZu/Z1 \n=1.2 Z1=Z2=Z3=10 C =1.0\nT1=T2 =T3=1.5 \nSec K =1.0",
  "text_truncated": false,
  "links": [],
  "images": [

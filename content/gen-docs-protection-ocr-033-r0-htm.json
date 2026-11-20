@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Over Current Relay 11kv for \n Feeders\n ISM21 \n BBC"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -154,6 +152,56 @@
    "text": "Test Sheet"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay Name",
+     "11k.v Definite Over current Relay"
+    ],
+    [
+     "Model",
+     "ISM21"
+    ],
+    [
+     "Manufacture",
+     "BBC (Brow Boveri )"
+    ],
+    [
+     "CT Ratio",
+     "2000/5"
+    ],
+    [
+     "Location",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Value Phase",
+     "R",
+     "S",
+     "T"
+    ],
+    [
+     "I > pick-up values (amp)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time (sec)",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Tested by: \n Signature: \nDate:"
   },
@@ -166,7 +214,7 @@
    "text": "Figure 1"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Over Current Relay 11kv for \n Feeders\n ISM21 \n BBC\nIntroduction\nThis document outlines \n the testing procedure P1, which must be performed every six months as \n indicated by M6 in the title block\nThis procedure details the steps required to \n completely check the proper operation and calibration of the relay. The document \n is formatted the way to minimize the possibility of error causing personal \n injury or damage to equipment.\nThe first draft \n initiated by eng Sawsan El-Lethy, tested by eng. Wael Taha, reversed by EDEPC quality control eng. Adel \n Abdel Kader El-Naggar, accepted by \n general director eng. Mohamed Goda El Said, certified by eng. Aly Mostafa Al-Lethy \n EDEPC inspection & quality control head sector.\nSafety Precautions\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nLine isolation is required.\nA work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category.\nSafety fence with caution marks surrounding the work area is required.\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nLine isolation is required.\nThe voltage \n transformer must be out of service.\nTools and Equipment\nSecondary injection test set.\nVoltmeter, clamp ammeter.\nTest leads, complete \n tool set.\nSecondary injection test set.\nVoltmeter, clamp ammeter.\nTest leads, complete \n tool set.\nWork to be Carried Out\nOver current test\nDisconnect the circuit \n breaker for feeder,\nRemoved the OC relay set \n for phase ( R ),\nConnect test leads \n between the current terminal ( 1&2 ) on the OC relay set,\nIncrease the injected \n current slowly until the red indication on over-current set appears,\nRecord this value on the \n test sheet ( adjust it if needed ),\nSwitch off the test set,\nRepeat the above test \n from step ( 2 ) to ( 6 ) for phase ( S ) and phase ( T ).\nTime test\nConnect the \n instantaneous trip contact numbers ( 7&8 ) on the relay to timer terminal on \n the test set, \n figure 1\nInject the pick-up \n current value into the relay for phase ( R ),\nRecord the time (adjust \n it if needed),\nConnect the time delayed \n contact numbers ( 2&3 ) on the relay to timer terminals on the test set,\nInjecting the pick-up \n current value into the relay for phase ( R ),\nRecord the value of time \n on the test sheet ( adjust it if needed ),\nThe timer will stop once \n the relay has picked-up,\nRepeat the above test from step ( \n 1&4 ) for phases ( S ) & ( T ).\nTrip test\nPut the circuit breaker \n on the test position,\nRequest the operator to \n switch on the circuit breaker,\nInjecting the pick-up \n current into the relay,\nCheck that the circuit \n breaker tripped.\nReturn relay \nto service\nDisconnect the test \n leads from the terminal on the OC relay\nPut the OC relay set on \n this place.\nIf any equipment \n associated with the relay has been isolated, it should be returned to service \n by the following restoration: steps:\n - Breaker trip coil.\n - Breaker failure \n scheme associated with this relay.\n - Disturbance alarm \n and fault recorder associated with this relay.\nTest Sheet\nTested by: \n Signature: \nDate:\nApproved by: \n Signature: \nDate:\nFigure 1",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines \n the testing procedure P1, which must be performed every six months as \n indicated by M6 in the title block\nThis procedure details the steps required to \n completely check the proper operation and calibration of the relay. The document \n is formatted the way to minimize the possibility of error causing personal \n injury or damage to equipment.\nThe first draft \n initiated by eng Sawsan El-Lethy, tested by eng. Wael Taha, reversed by EDEPC quality control eng. Adel \n Abdel Kader El-Naggar, accepted by \n general director eng. Mohamed Goda El Said, certified by eng. Aly Mostafa Al-Lethy \n EDEPC inspection & quality control head sector.\nSafety Precautions\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nLine isolation is required.\nA work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category.\nSafety fence with caution marks surrounding the work area is required.\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nLine isolation is required.\nThe voltage \n transformer must be out of service.\nTools and Equipment\nSecondary injection test set.\nVoltmeter, clamp ammeter.\nTest leads, complete \n tool set.\nSecondary injection test set.\nVoltmeter, clamp ammeter.\nTest leads, complete \n tool set.\nWork to be Carried Out\nOver current test\nDisconnect the circuit \n breaker for feeder,\nRemoved the OC relay set \n for phase ( R ),\nConnect test leads \n between the current terminal ( 1&2 ) on the OC relay set,\nIncrease the injected \n current slowly until the red indication on over-current set appears,\nRecord this value on the \n test sheet ( adjust it if needed ),\nSwitch off the test set,\nRepeat the above test \n from step ( 2 ) to ( 6 ) for phase ( S ) and phase ( T ).\nTime test\nConnect the \n instantaneous trip contact numbers ( 7&8 ) on the relay to timer terminal on \n the test set, \n figure 1\nInject the pick-up \n current value into the relay for phase ( R ),\nRecord the time (adjust \n it if needed),\nConnect the time delayed \n contact numbers ( 2&3 ) on the relay to timer terminals on the test set,\nInjecting the pick-up \n current value into the relay for phase ( R ),\nRecord the value of time \n on the test sheet ( adjust it if needed ),\nThe timer will stop once \n the relay has picked-up,\nRepeat the above test from step ( \n 1&4 ) for phases ( S ) & ( T ).\nTrip test\nPut the circuit breaker \n on the test position,\nRequest the operator to \n switch on the circuit breaker,\nInjecting the pick-up \n current into the relay,\nCheck that the circuit \n breaker tripped.\nReturn relay \nto service\nDisconnect the test \n leads from the terminal on the OC relay\nPut the OC relay set on \n this place.\nIf any equipment \n associated with the relay has been isolated, it should be returned to service \n by the following restoration: steps:\n - Breaker trip coil.\n - Breaker failure \n scheme associated with this relay.\n - Disturbance alarm \n and fault recorder associated with this relay.\nTest Sheet\nRelay Name | 11k.v Definite Over current Relay\nModel | ISM21\nManufacture | BBC (Brow Boveri )\nCT Ratio | 2000/5\nLocation | \nValue Phase | R | S | T\nI > pick-up values (amp) |  |  | \nTime (sec) |  |  | \nTested by: \n Signature: \nDate:\nApproved by: \n Signature: \nDate:\nFigure 1",
  "text_truncated": false,
  "links": [],
  "images": [

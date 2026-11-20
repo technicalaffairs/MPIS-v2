@@ -24,14 +24,6 @@
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Transformer \n Protection Scheme\n For 3,4 AT01 of unit 3,4 310 MW"
-  },
-  {
-   "type": "paragraph",
-   "text": "AEG"
-  },
-  {
    "type": "heading",
    "level": 3,
    "text": "Introduction"
@@ -135,6 +127,34 @@
    "text": "Manufacturer of all Devices: AEG"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Distance protection SD135A",
+     "over current smk351"
+    ],
+    [
+     "Restricted Earth Fault SQE21A",
+     "Differential SQT33A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "C.T.R.",
+     "1200/1A"
+    ],
+    [
+     "V.T.R",
+     "220000/100V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Test \nSteps"
   },
@@ -162,64 +182,80 @@
    "text": "Unit Main Transformer AT01"
   },
   {
-   "type": "paragraph",
-   "text": "T1=T2=T3=0.6sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "L1= s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L2 = \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "1200/1 1000/1&"
-  },
-  {
-   "type": "paragraph",
-   "text": "L1= s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L2 = \n s"
+   "type": "table",
+   "rows": [
+    [
+     "Protection NAME",
+     "DEVICE TYPE",
+     "OPERATING SETTING",
+     "TIME SETTING",
+     "V.t \n RATIO",
+     "C.T \n RATIO",
+     "TEST RESULTS",
+     "NOTES"
+    ],
+    [
+     "Distance",
+     "SD135A",
+     "z1=z2=z3=95ohm",
+     "T1=T2=T3=0.6sec\n T4=T5=3sec",
+     "220/0.1",
+     "1200/1",
+     "L1= s \n L2 = \n s\n L3 = \n s",
+     ""
+    ],
+    [
+     "Restricted Earth \n Fault",
+     "SQE21A",
+     "0.2 \n A",
+     "Instant",
+     "",
+     "1200/1",
+     "L1= s",
+     ""
+    ],
+    [
+     "Over All \n differential",
+     "SQT33A",
+     "ia/in = 0.3 \n Fs=25%",
+     "Instant",
+     "",
+     "1200/1 1000/1&\n 11000/1",
+     "L1= s \n L2 = \n s\n L3 = \n s",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Unit Aux. \nTransformer"
   },
   {
-   "type": "paragraph",
-   "text": "I >= 2 A"
-  },
-  {
-   "type": "paragraph",
-   "text": "T> = 3 sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "L1= s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L2 = \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "Ian/In= 0.4 A"
-  },
-  {
-   "type": "paragraph",
-   "text": "1500/1"
-  },
-  {
-   "type": "paragraph",
-   "text": "L1= s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L2 = \n s"
+   "type": "table",
+   "rows": [
+    [
+     "Over \n Current Protection",
+     "SMK351",
+     "I >= 2 A\n I>>=5A",
+     "T> = 3 sec\n T>>=0.6sec",
+     "",
+     "1000/1",
+     "L1= s \n L2 = \n s\n L3 = \n s",
+     ""
+    ],
+    [
+     "Differential Protection",
+     "SQT33A",
+     "Ian/In= 0.4 A\n Fs=35%",
+     "Instant",
+     "",
+     "1500/1\n 1000/1",
+     "L1= s \n L2 = \n s\n L3 = \n s",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -238,7 +274,7 @@
    "text": "Approved by: \nSignature:"
   }
  ],
- "text": "\nTransformer \n Protection Scheme\n For 3,4 AT01 of unit 3,4 310 MW\nAEG\nIntroduction\nThis \n document outlines the testing procedures P1, which must performed on an \n annually bases as indicated by Y1 in the titled block\nThis patent \nconcerns the test of protection relays of the transformer manufactured by AEG. The Transformer, rated active power 310 MW, rated apparent power 420 MVA, power \nfactor 0.8, and voltages 21/220 KV\nThe first draft is initiated by eng. Fathy Abd El \nSalam Hassan tested by eng. Mahamed Tohamy, accepted by electrical general \nmanger eng. Said Farag, revised by EDEPC inspection and quality control eng. \nAdel Abd ELQader El-nagar, and approved by eng. Moukhtar Abd Ellateef Mady; head \nsectorof Ataka PS.\nThis document accepted by eng. \nSamir Abdel Gilil: EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety \n helmet, safety shoes ...etc.\nEnsure the disconnection of the \n exciter, generator, main transformer and home transformer.\nBe aware of parts in service.\nTools and Equipment\nCheck device\nDigital Timer\nWorks to be Carried Out\nPreparation\nReview the manual.\nPrepare the previous results of the relay testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and the DC source \n is available.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck all the leads used in tests.\nPreparation of testing tools\nThe test of almost all generator protection devices is achieved by isolating \neither CT circuits or PT circuits or both. This is done by using a special \nselector switch.\nConnect the test plug.\nConnect the timer to a power source and its terminals to the trip terminals of \n the relay under test.\nThe test of almost all generator protection devices is achieved by isolating \neither CT circuits or PT circuits or both. This is done by using a special \nselector switch.\nProtection Devices\nManufacturer of all Devices: AEG\nTest \nSteps\nPlace selector switch on the test mode.\ninsert the test plug in special boord\nInsert timer the plug in special socket\nRepeat the steps for the other three of phases.\nRecord the results.\nthe steps from 1 to5 are apply for all protection relays\nTest Sheet\nFOR TRANSFORMER \nPROTECTION DEVICES FOR UNIT 3&4\nUnit Main Transformer AT01\nT1=T2=T3=0.6sec\nL1= s\nL2 = \n s\n1200/1 1000/1&\nL1= s\nL2 = \n s\nUnit Aux. \nTransformer\nI >= 2 A\nT> = 3 sec\nL1= s\nL2 = \n s\nIan/In= 0.4 A\n1500/1\nL1= s\nL2 = \n s\nLocation: Signature:\nTested \nby: \nSignature:\nTested Date: Signature:\nApproved by: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis \n document outlines the testing procedures P1, which must performed on an \n annually bases as indicated by Y1 in the titled block\nThis patent \nconcerns the test of protection relays of the transformer manufactured by AEG. The Transformer, rated active power 310 MW, rated apparent power 420 MVA, power \nfactor 0.8, and voltages 21/220 KV\nThe first draft is initiated by eng. Fathy Abd El \nSalam Hassan tested by eng. Mahamed Tohamy, accepted by electrical general \nmanger eng. Said Farag, revised by EDEPC inspection and quality control eng. \nAdel Abd ELQader El-nagar, and approved by eng. Moukhtar Abd Ellateef Mady; head \nsectorof Ataka PS.\nThis document accepted by eng. \nSamir Abdel Gilil: EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety \n helmet, safety shoes ...etc.\nEnsure the disconnection of the \n exciter, generator, main transformer and home transformer.\nBe aware of parts in service.\nTools and Equipment\nCheck device\nDigital Timer\nWorks to be Carried Out\nPreparation\nReview the manual.\nPrepare the previous results of the relay testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and the DC source \n is available.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck all the leads used in tests.\nPreparation of testing tools\nThe test of almost all generator protection devices is achieved by isolating \neither CT circuits or PT circuits or both. This is done by using a special \nselector switch.\nConnect the test plug.\nConnect the timer to a power source and its terminals to the trip terminals of \n the relay under test.\nThe test of almost all generator protection devices is achieved by isolating \neither CT circuits or PT circuits or both. This is done by using a special \nselector switch.\nProtection Devices\nManufacturer of all Devices: AEG\nDistance protection SD135A | over current smk351\nRestricted Earth Fault SQE21A | Differential SQT33A\nC.T.R. | 1200/1A\nV.T.R | 220000/100V\nTest \nSteps\nPlace selector switch on the test mode.\ninsert the test plug in special boord\nInsert timer the plug in special socket\nRepeat the steps for the other three of phases.\nRecord the results.\nthe steps from 1 to5 are apply for all protection relays\nTest Sheet\nFOR TRANSFORMER \nPROTECTION DEVICES FOR UNIT 3&4\nUnit Main Transformer AT01\nProtection NAME | DEVICE TYPE | OPERATING SETTING | TIME SETTING | V.t \n RATIO | C.T \n RATIO | TEST RESULTS | NOTES\nDistance | SD135A | z1=z2=z3=95ohm | T1=T2=T3=0.6sec\n T4=T5=3sec | 220/0.1 | 1200/1 | L1= s \n L2 = \n s\n L3 = \n s | \nRestricted Earth \n Fault | SQE21A | 0.2 \n A | Instant |  | 1200/1 | L1= s | \nOver All \n differential | SQT33A | ia/in = 0.3 \n Fs=25% | Instant |  | 1200/1 1000/1&\n 11000/1 | L1= s \n L2 = \n s\n L3 = \n s | \nUnit Aux. \nTransformer\nOver \n Current Protection | SMK351 | I >= 2 A\n I>>=5A | T> = 3 sec\n T>>=0.6sec |  | 1000/1 | L1= s \n L2 = \n s\n L3 = \n s | \nDifferential Protection | SQT33A | Ian/In= 0.4 A\n Fs=35% | Instant |  | 1500/1\n 1000/1 | L1= s \n L2 = \n s\n L3 = \n s | \nLocation: Signature:\nTested \nby: \nSignature:\nTested Date: Signature:\nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

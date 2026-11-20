@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Breaker Failure \n Relay (50 BF)\n RAICC\n ABB Sweden"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -215,14 +213,6 @@
    "text": "Relay symbol : 50 BFL C.T.R : 500 / 1A"
   },
   {
-   "type": "paragraph",
-   "text": "Time"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.2A"
-  },
-  {
    "type": "table",
    "rows": [
     [
@@ -230,7 +220,7 @@
      "Phase R",
      "Phase S",
      "Phase T",
-     "",
+     "Time\n Sec",
      "Reset Factor"
     ],
     [
@@ -245,6 +235,20 @@
      "R",
      "S",
      "T"
+    ],
+    [
+     "0.2A",
+     "0.150s",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -258,7 +262,7 @@
    "text": "Location: Relay \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Breaker Failure \n Relay (50 BF)\n RAICC\n ABB Sweden\nIntroduction\nBreaker failure relay provides local backup protection in the case of a circuit \nbreaker fails to clear the fault.\nThe \nRAICC relay is composed by:\nCurrent \nmeasuring unit to determine the position of the primary circuit breaker\nTime \nmeasuring unit to allow time for the primary circuit breaker to operate\nOutput \nto energize trip circuit breakers\nCurrent \nmeasuring unit to determine the position of the primary circuit breaker\nTime \nmeasuring unit to allow time for the primary circuit breaker to operate\nOutput \nto energize trip circuit breakers\nThe DC \npower to the (current & time) measuring unit is only sufficient during a fault \nfor which the relay is initiated\nCurrent \ndetectors have a pickup time of (1) m sec\nAfter \nits starting the relay performs two sequential attemps:\nTrip \norder to all the breakers involved in the fault according a bus replica\nSet the \ntime measuring unit at the delay equal to breaker time plus a safety margin\nTrip \norder to all the breakers involved in the fault according a bus replica\nSet the \ntime measuring unit at the delay equal to breaker time plus a safety margin\nThe \nfirst draft initiated and tested by eng. Mohyee ElDeen Ghamees at 27 July 2004, accepted by General Director \neng.TThanaa Saad Zghalola , and approved by eng.Ahmed Mohamed Yones,\nSafety Precautions\nA work permit must be issued and the qualified stuff should be carry the \n suitable safety category .\nSafety fence with caution marks \n surrounding the work area is required.\nWear your safety and healthy equipment as safety helmet, safety shoes, ... etc.\nThe substation is out of service\nIsolate the relay from CT\nWear your safety and healthy equipment as safety helmet, safety shoes, ... etc.\nThe substation is out of service\nIsolate the relay from CT\nTools and Equipment\nSecond 1ph injection test set (Sverker 650 - Sweden)\nMultimeter\nTest-plug handle (RTXH 18),\n Test wires\nVariable resistance (0-450) ohm\nSecond 1ph injection test set (Sverker 650 - Sweden)\nMultimeter\nTest-plug handle (RTXH 18),\n Test wires\nVariable resistance (0-450) ohm\nWork to be Carried Out\nThe Line is out of Service\nConnect the circuit as \nshown in fig.\nIncrease the current \ngradually until reach the operating value.\nClose the contact between \nd & c (start from equipment protection).\nEnsure that the relay \noperates at the setting current value (0.2) A.\nEnsure that the relay \noperates at the setting time value (0.150) sec.\nRepeat for phases S & T\nRecord this values on the \ntest sheet\nTake off the equipments \nand the wires, then return the relay to its normal position\nConnect the circuit as \nshown in fig.\nIncrease the current \ngradually until reach the operating value.\nClose the contact between \nd & c (start from equipment protection).\nEnsure that the relay \noperates at the setting current value (0.2) A.\nEnsure that the relay \noperates at the setting time value (0.150) sec.\nRepeat for phases S & T\nRecord this values on the \ntest sheet\nTake off the equipments \nand the wires, then return the relay to its normal position\nTest Sheet\nRelay type: RAICC\nRelay symbol : 50 BFL C.T.R : 500 / 1A\nTime\n0.2A\n\nFigure 1: Testing of Breaker Failure Relay RAICC \nusing SVERKER\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nBreaker failure relay provides local backup protection in the case of a circuit \nbreaker fails to clear the fault.\nThe \nRAICC relay is composed by:\nCurrent \nmeasuring unit to determine the position of the primary circuit breaker\nTime \nmeasuring unit to allow time for the primary circuit breaker to operate\nOutput \nto energize trip circuit breakers\nCurrent \nmeasuring unit to determine the position of the primary circuit breaker\nTime \nmeasuring unit to allow time for the primary circuit breaker to operate\nOutput \nto energize trip circuit breakers\nThe DC \npower to the (current & time) measuring unit is only sufficient during a fault \nfor which the relay is initiated\nCurrent \ndetectors have a pickup time of (1) m sec\nAfter \nits starting the relay performs two sequential attemps:\nTrip \norder to all the breakers involved in the fault according a bus replica\nSet the \ntime measuring unit at the delay equal to breaker time plus a safety margin\nTrip \norder to all the breakers involved in the fault according a bus replica\nSet the \ntime measuring unit at the delay equal to breaker time plus a safety margin\nThe \nfirst draft initiated and tested by eng. Mohyee ElDeen Ghamees at 27 July 2004, accepted by General Director \neng.TThanaa Saad Zghalola , and approved by eng.Ahmed Mohamed Yones,\nSafety Precautions\nA work permit must be issued and the qualified stuff should be carry the \n suitable safety category .\nSafety fence with caution marks \n surrounding the work area is required.\nWear your safety and healthy equipment as safety helmet, safety shoes, ... etc.\nThe substation is out of service\nIsolate the relay from CT\nWear your safety and healthy equipment as safety helmet, safety shoes, ... etc.\nThe substation is out of service\nIsolate the relay from CT\nTools and Equipment\nSecond 1ph injection test set (Sverker 650 - Sweden)\nMultimeter\nTest-plug handle (RTXH 18),\n Test wires\nVariable resistance (0-450) ohm\nSecond 1ph injection test set (Sverker 650 - Sweden)\nMultimeter\nTest-plug handle (RTXH 18),\n Test wires\nVariable resistance (0-450) ohm\nWork to be Carried Out\nThe Line is out of Service\nConnect the circuit as \nshown in fig.\nIncrease the current \ngradually until reach the operating value.\nClose the contact between \nd & c (start from equipment protection).\nEnsure that the relay \noperates at the setting current value (0.2) A.\nEnsure that the relay \noperates at the setting time value (0.150) sec.\nRepeat for phases S & T\nRecord this values on the \ntest sheet\nTake off the equipments \nand the wires, then return the relay to its normal position\nConnect the circuit as \nshown in fig.\nIncrease the current \ngradually until reach the operating value.\nClose the contact between \nd & c (start from equipment protection).\nEnsure that the relay \noperates at the setting current value (0.2) A.\nEnsure that the relay \noperates at the setting time value (0.150) sec.\nRepeat for phases S & T\nRecord this values on the \ntest sheet\nTake off the equipments \nand the wires, then return the relay to its normal position\nTest Sheet\nRelay type: RAICC\nRelay symbol : 50 BFL C.T.R : 500 / 1A\nRelay Setting | Phase R | Phase S | Phase T | Time\n Sec | Reset Factor\nCurrent | Time | Operate | Reset | Operate | Reset | Operate | Reset | R | S | T\n0.2A | 0.150s |  |  |  |  |  |  |  |  |  | \nFigure 1: Testing of Breaker Failure Relay RAICC \nusing SVERKER\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

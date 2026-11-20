@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -114,6 +116,36 @@
     [
      "Setting Id in %",
      "Reference value",
+     "Reading value",
+     "Time\n < 60 ms"
+    ],
+    [
+     "Ph1 (A)",
+     "0.25",
+     "",
+     ""
+    ],
+    [
+     "Ph2 (A)",
+     "0.25",
+     "",
+     ""
+    ],
+    [
+     "Ph3 (A)",
+     "0.25",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Setting Id in %",
+     "Reference value",
      "Reading value"
     ],
     [
@@ -139,7 +171,7 @@
    "text": "Checked by: \nSignature: \nDate:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \n annually bases as indicated by Y1 in the title block.\nThe DTM 7031 relay are designed to bring generator out of service when an \n internal fault happens on the stator windings and the differential current \n exceeds apre-determined setting\nThe first draft initiated, \n tested\n by eng. Mohamed Abdel Moreed, and approved by eng Mohamed Abdel \n Baset head sector of Aswandam hydlolic Power Station \nand certified by eng. \n Kamel Raghib Hakem HEPC MPIS Coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the \n suitable safety category\nMaintenance staff should be well trained \n qualified or directly supervised by some one who is\nSafety fence with caution marks \n surrounding the work area is required\nPersonal protective equipment must be \n used as safety shoes, helmet ... etc\nThe generator must be isolated\nSwitch off the DC power supply before \n inserting or withdrawing the relay\nTools and Equipment\nSecondary injection test set T/D and T/I\nTest \nleads, \nMulti-meter\nWork to be Carried Out\nCheck the minimum operating \ndifferential current\nCheck the time delay\nCheck the trip signal to generator \ncircuit breaker\nCheck the signal alarm\nCheck the indication flag\nConnect the secondary injection test \nset to AC supply\nWithdraw the relay from its case\nThe relay connections must be in \naccordance with the connection diagram supplied with the relay as in attached \nfigure\nReview the test certificate for \nrequired setting\nChecked the differential operating level of this relay on each h phase by \ninjecting successively into terminals 2 and 15.6 and 19.10 and 23 using the \ncurrent source.\nPick up the output unit for a value of current equal to that set on \nthe ID % potentiometers\nInject the current source on one of the phases simultaneously\nstarting the timer and the timer must be stopped by the change of state of the \ncontacts on the output unit\nAdjust currents I1 and I2 (D case) at \ntwice the relay normal current.\nVary the differential current Id \nusing the (T/I case) until operation of the output unit is attained on each \nphase and the tripping level is obtained\nEquation to \nbe used in derive the tripping level is\n\nChecked by: \nSignature: \nDate:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \n annually bases as indicated by Y1 in the title block.\nThe DTM 7031 relay are designed to bring generator out of service when an \n internal fault happens on the stator windings and the differential current \n exceeds apre-determined setting\nThe first draft initiated, \n tested\n by eng. Mohamed Abdel Moreed, and approved by eng Mohamed Abdel \n Baset head sector of Aswandam hydlolic Power Station \nand certified by eng. \n Kamel Raghib Hakem HEPC MPIS Coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the \n suitable safety category\nMaintenance staff should be well trained \n qualified or directly supervised by some one who is\nSafety fence with caution marks \n surrounding the work area is required\nPersonal protective equipment must be \n used as safety shoes, helmet ... etc\nThe generator must be isolated\nSwitch off the DC power supply before \n inserting or withdrawing the relay\nTools and Equipment\nSecondary injection test set T/D and T/I\nTest \nleads, \nMulti-meter\nWork to be Carried Out\nCheck the minimum operating \ndifferential current\nCheck the time delay\nCheck the trip signal to generator \ncircuit breaker\nCheck the signal alarm\nCheck the indication flag\nConnect the secondary injection test \nset to AC supply\nWithdraw the relay from its case\nThe relay connections must be in \naccordance with the connection diagram supplied with the relay as in attached \nfigure\nReview the test certificate for \nrequired setting\nChecked the differential operating level of this relay on each h phase by \ninjecting successively into terminals 2 and 15.6 and 19.10 and 23 using the \ncurrent source.\nPick up the output unit for a value of current equal to that set on \nthe ID % potentiometers\nInject the current source on one of the phases simultaneously\nstarting the timer and the timer must be stopped by the change of state of the \ncontacts on the output unit\nAdjust currents I1 and I2 (D case) at \ntwice the relay normal current.\nVary the differential current Id \nusing the (T/I case) until operation of the output unit is attained on each \nphase and the tripping level is obtained\nEquation to \nbe used in derive the tripping level is\nSetting Id in % | Reference value | Reading value | Time\n < 60 ms\nPh1 (A) | 0.25 |  | \nPh2 (A) | 0.25 |  | \nPh3 (A) | 0.25 |  | \nSetting Id in % | Reference value | Reading value\nPh1 (A) | 1.375 | \nPh2 (A) | 1.375 | \nPh3 (A) | 1.375 | \nChecked by: \nSignature: \nDate:",
  "text_truncated": false,
  "links": [],
  "images": [

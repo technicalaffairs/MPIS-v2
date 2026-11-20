@@ -2,7 +2,7 @@
  "id": "gen-docs-gen-motors-m-tmp13-r0-htm",
  "doc_number": "M-13-R0",
  "title_en": "M-13-r0",
- "title_ar": "M-13-r0",
+ "title_ar": "M-13-R0",
  "category": "motors",
  "source_path": "gen_docs/gen+motors/M-tmp13-r0.htm",
  "source_type": "html",
@@ -15,20 +15,14 @@
  "translation_status": "available",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Fan Motor, 6.3kv"
-  },
-  {
-   "type": "paragraph",
-   "text": "N3 NXC 630 \n J6C"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -183,32 +177,26 @@
    "text": "Maintenance Interval"
   },
   {
-   "type": "paragraph",
-   "text": "Bearing in reversing operation every 5000 operating \n hours."
-  },
-  {
-   "type": "paragraph",
-   "text": "Bearing in continuous every 8000 operating \n hours."
-  },
-  {
-   "type": "heading",
-   "level": 6,
-   "text": "During \n prevention maintenance work for the installation immediately \n if:"
-  },
-  {
-   "type": "heading",
-   "level": 6,
-   "text": "The \n bearing temperature exceeds 15K over the indicated value."
-  },
-  {
-   "type": "heading",
-   "level": 6,
-   "text": "Unusual \n changes of the lubrication oil become visible."
-  },
-  {
-   "type": "heading",
-   "level": 6,
-   "text": "Increased \n oil level in the case of bearing type EFW."
+   "type": "table",
+   "rows": [
+    [
+     "Deadline",
+     "Maintenance"
+    ],
+    [
+     "Every 100-1000 \n hours",
+     "Exterior \n cleaning of the bearing"
+    ],
+    [
+     "Bearing in reversing operation every 5000 operating \n hours.\n Bearing in continuous every 8000 operating \n hours.",
+     "Oil change"
+    ],
+    [
+     "During \n prevention maintenance work for the installation immediately \n if:\n The \n bearing temperature exceeds 15K over the indicated value.\n Unusual \n changes of the lubrication oil become visible.\n Increased \n oil level in the case of bearing type EFW.",
+     "Bearing \n inspection"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -297,6 +285,135 @@
    "text": "MRDS Maintenance Record Data Sheet \n MRDS"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "PROCEDURE",
+     "CHECK"
+    ],
+    [
+     "YES",
+     "NO",
+     "N/A"
+    ],
+    [
+     "1",
+     "Check that there is no abnormal noise or \n vibration",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Check the \n insulation of the stator winding to earth",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Check the Air filter is cleaned for FD fan \n only",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "Regressing bearings for GR fan only",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "Change bearing oil for FD fan only",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Motor Windings"
+    ],
+    [
+     "6",
+     "Measure the insulation resistance\n using a megohmmeter with a 2500 V magneto",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "Check no grease and dust are accumulated on \n coils",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "Check no moisture is accumulated",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9",
+     "Check no discoloring caused by over heat",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "Ensure there is no untoward change of wedges \n from original position",
+     "",
+     "",
+     ""
+    ],
+    [
+     "11",
+     "Ensure that the binding at the coil end is in \n its normal position",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Interior \n of the Motor"
+    ],
+    [
+     "12",
+     "Check no accumulation of dust, carbon powder \n and grease",
+     "",
+     "",
+     ""
+    ],
+    [
+     "13",
+     "Keep core ducts completely clean",
+     "",
+     "",
+     ""
+    ],
+    [
+     "The Exterior of the Motor"
+    ],
+    [
+     "14",
+     "Check all of the tubes of the air to air heat \n exchanger are cleaned using a suitable tube brush having synthetic fiber \n bristles",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "Check air filters, for FD fan only, they \n should be replaced or cleaned and reconditioned at a frequency that is \n dictated by conditions",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Remarks:"
   },
@@ -317,7 +434,7 @@
    "text": "Location: Motor \nCode: Tested by: \nTest Date: \nSignature:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\n Fan Motor, 6.3kv\nN3 NXC 630 \n J6C\nIntroduction\nThis document outlines the maintenance procedures P1, which must performed \nevery six months as indicated by M6 in the title block.\nThis document for \nForced Draft Fan Motor, and Gas \nRecirculation Fan Motor\nThe first draft initiated by eng. Haytham \nAbdel-Mohsen Mahmoud Hemdan, \nreviewed by eng. Mohamed Abbass Ahmed, tested by eng. Mohamed Al-Saied Al-Biaa, revised by \nEDEPC quality control \neng. Adel Abdel Kader El Naggar, approved by eng. Tarek Youssef Ali, Head Sector of \nAyoun Moussa Power Station.\nThis \ndocument accepted by eng. Samir Abd El Gilil EDEPC inspection & quality control \ngeneral director, MPIS coordinator and certified by accountant Mahmoud Soliman \nEDEPC admin & financial inspection & quality control's general director and \nsupervisor of inspection & quality control head sector.\nBearing Characteristics for Forced Draft Motor\nDE Bearing\nSleeve bearing\nSleeve: Efnlb 14140\nSleeve diameter: 180 mm\nNDE Bearing\nSleeve bearing\nSleeve: Efnlq 14140\nSleeve diameter: 140 mm\nLubrication\nLubrication by oil bath\nBearing Characteristics of Gas Recirculation Fan Motor\nDE Bearing\n1 bar- bearing 6220 C3\nNDE Bearing (insulated)\n1 roller bearing NU218 E C3\nSafety Precautions\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety and healthy equipment as safety helmet, shoes, breathing mask, safety glass \n ... etc.\nMotor is out of service, and switch off the AC power \n supply for the motor.\nHigh temperature may arise under operating \nconditions on the motor surfaces so that touching should be prevented or \navoided.\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety and healthy equipment as safety helmet, shoes, breathing mask, safety glass \n ... etc.\nMotor is out of service, and switch off the AC power \n supply for the motor.\nHigh temperature may arise under operating \nconditions on the motor surfaces so that touching should be prevented or \navoided.\nTools and Equipment\nRecommended grease quality according to NLGI N3 \nspecification:\nSHELL ALVANIA G3 or equivalent.\nOil bath\nComplete tool set\nCleaning materials (cloth - benzene), grease for bearing\nRecommended grease quality according to NLGI N3 \nspecification:\nSHELL ALVANIA G3 or equivalent.\nOil bath\nWork to be Carried Out\nMaintenance Interval\nBearing in reversing operation every 5000 operating \n hours.\nBearing in continuous every 8000 operating \n hours.\nDuring \n prevention maintenance work for the installation immediately \n if:\nThe \n bearing temperature exceeds 15K over the indicated value.\nUnusual \n changes of the lubrication oil become visible.\nIncreased \n oil level in the case of bearing type EFW.\nPermanent Checks\nCheck that there is no abnormal operation (heating, \nabnormal noise and abnormal current).\nThe cleaning of the inside of the machine of the rotor and \nstator ventilation ducts and, of the winding must be carried out with dry, oil \nfree compressed air with maximum pressure 3 bars.\nIf the machine is too dirty, it can be cleaned with a cloth \nimpregnated with turpentine and check the insulation after cleaning.\nCheck that there is no abnormal operation (heating, \nabnormal noise and abnormal current).\nThe cleaning of the inside of the machine of the rotor and \nstator ventilation ducts and, of the winding must be carried out with dry, oil \nfree compressed air with maximum pressure 3 bars.\nIf the machine is too dirty, it can be cleaned with a cloth \nimpregnated with turpentine and check the insulation after cleaning.\nStator Insulation Check\nBefore the first stator-up or after along stop or a \ndismantling, check the insulation of the stator winding to earth.\nTo carry out the measurements with a minimum margin of \nerror, all the pipes, tubes, cables must be disconnected and the out side \nsurfaces of the machine should be carefully cleaned.\nTo measure the insulation resistances of the stator \nwinding, use a megohmmeter with a 2500 V magneto.\nBefore the first stator-up or after along stop or a \ndismantling, check the insulation of the stator winding to earth.\nTo carry out the measurements with a minimum margin of \nerror, all the pipes, tubes, cables must be disconnected and the out side \nsurfaces of the machine should be carefully cleaned.\nTo measure the insulation resistances of the stator \nwinding, use a megohmmeter with a 2500 V magneto.\nVariation in the Insulation \nResistance\nMeasure the insulation resistance every 3 : 4 hours during drying \nof the motor,\nBe careful and notes that at the beginning of the operating the \ninsulation resistance drops and then slowly increases and the drying can be \nstopped 2-3 hours after the insulation resistance has reached the required \nvalue. Also remember that the drying can take quite along time up to 48 hours.\nWhen the drying is finishing, stop the current supply and leave the machine to \ncool.\nWhen room temperature is reached, recheck the insulation \nresistance and if the measured value is correct, remake the normal connections \nand restart.\nMeasure the insulation resistance after cooling and notice the \nvalue will be higher than the value measured when the machine is hot at the \nmoment it has been stopped.\nMeasure the insulation resistance every 3 : 4 hours during drying \nof the motor,\nBe careful and notes that at the beginning of the operating the \ninsulation resistance drops and then slowly increases and the drying can be \nstopped 2-3 hours after the insulation resistance has reached the required \nvalue. Also remember that the drying can take quite along time up to 48 hours.\nWhen the drying is finishing, stop the current supply and leave the machine to \ncool.\nWhen room temperature is reached, recheck the insulation \nresistance and if the measured value is correct, remake the normal connections \nand restart.\nMeasure the insulation resistance after cooling and notice the \nvalue will be higher than the value measured when the machine is hot at the \nmoment it has been stopped.\nMRDS Maintenance Record Data Sheet \n MRDS\nRemarks:\n......................................................................................................................................................\n......................................................................................................................................................\n......................................................................................................................................................\nLocation: Motor \nCode: Tested by: \nTest Date: \nSignature:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, which must performed \nevery six months as indicated by M6 in the title block.\nThis document for \nForced Draft Fan Motor, and Gas \nRecirculation Fan Motor\nThe first draft initiated by eng. Haytham \nAbdel-Mohsen Mahmoud Hemdan, \nreviewed by eng. Mohamed Abbass Ahmed, tested by eng. Mohamed Al-Saied Al-Biaa, revised by \nEDEPC quality control \neng. Adel Abdel Kader El Naggar, approved by eng. Tarek Youssef Ali, Head Sector of \nAyoun Moussa Power Station.\nThis \ndocument accepted by eng. Samir Abd El Gilil EDEPC inspection & quality control \ngeneral director, MPIS coordinator and certified by accountant Mahmoud Soliman \nEDEPC admin & financial inspection & quality control's general director and \nsupervisor of inspection & quality control head sector.\nBearing Characteristics for Forced Draft Motor\nDE Bearing\nSleeve bearing\nSleeve: Efnlb 14140\nSleeve diameter: 180 mm\nNDE Bearing\nSleeve bearing\nSleeve: Efnlq 14140\nSleeve diameter: 140 mm\nLubrication\nLubrication by oil bath\nBearing Characteristics of Gas Recirculation Fan Motor\nDE Bearing\n1 bar- bearing 6220 C3\nNDE Bearing (insulated)\n1 roller bearing NU218 E C3\nSafety Precautions\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety and healthy equipment as safety helmet, shoes, breathing mask, safety glass \n ... etc.\nMotor is out of service, and switch off the AC power \n supply for the motor.\nHigh temperature may arise under operating \nconditions on the motor surfaces so that touching should be prevented or \navoided.\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety and healthy equipment as safety helmet, shoes, breathing mask, safety glass \n ... etc.\nMotor is out of service, and switch off the AC power \n supply for the motor.\nHigh temperature may arise under operating \nconditions on the motor surfaces so that touching should be prevented or \navoided.\nTools and Equipment\nRecommended grease quality according to NLGI N3 \nspecification:\nSHELL ALVANIA G3 or equivalent.\nOil bath\nComplete tool set\nCleaning materials (cloth - benzene), grease for bearing\nRecommended grease quality according to NLGI N3 \nspecification:\nSHELL ALVANIA G3 or equivalent.\nOil bath\nWork to be Carried Out\nMaintenance Interval\nDeadline | Maintenance\nEvery 100-1000 \n hours | Exterior \n cleaning of the bearing\nBearing in reversing operation every 5000 operating \n hours.\n Bearing in continuous every 8000 operating \n hours. | Oil change\nDuring \n prevention maintenance work for the installation immediately \n if:\n The \n bearing temperature exceeds 15K over the indicated value.\n Unusual \n changes of the lubrication oil become visible.\n Increased \n oil level in the case of bearing type EFW. | Bearing \n inspection\nPermanent Checks\nCheck that there is no abnormal operation (heating, \nabnormal noise and abnormal current).\nThe cleaning of the inside of the machine of the rotor and \nstator ventilation ducts and, of the winding must be carried out with dry, oil \nfree compressed air with maximum pressure 3 bars.\nIf the machine is too dirty, it can be cleaned with a cloth \nimpregnated with turpentine and check the insulation after cleaning.\nCheck that there is no abnormal operation (heating, \nabnormal noise and abnormal current).\nThe cleaning of the inside of the machine of the rotor and \nstator ventilation ducts and, of the winding must be carried out with dry, oil \nfree compressed air with maximum pressure 3 bars.\nIf the machine is too dirty, it can be cleaned with a cloth \nimpregnated with turpentine and check the insulation after cleaning.\nStator Insulation Check\nBefore the first stator-up or after along stop or a \ndismantling, check the insulation of the stator winding to earth.\nTo carry out the measurements with a minimum margin of \nerror, all the pipes, tubes, cables must be disconnected and the out side \nsurfaces of the machine should be carefully cleaned.\nTo measure the insulation resistances of the stator \nwinding, use a megohmmeter with a 2500 V magneto.\nBefore the first stator-up or after along stop or a \ndismantling, check the insulation of the stator winding to earth.\nTo carry out the measurements with a minimum margin of \nerror, all the pipes, tubes, cables must be disconnected and the out side \nsurfaces of the machine should be carefully cleaned.\nTo measure the insulation resistances of the stator \nwinding, use a megohmmeter with a 2500 V magneto.\nVariation in the Insulation \nResistance\nMeasure the insulation resistance every 3 : 4 hours during drying \nof the motor,\nBe careful and notes that at the beginning of the operating the \ninsulation resistance drops and then slowly increases and the drying can be \nstopped 2-3 hours after the insulation resistance has reached the required \nvalue. Also remember that the drying can take quite along time up to 48 hours.\nWhen the drying is finishing, stop the current supply and leave the machine to \ncool.\nWhen room temperature is reached, recheck the insulation \nresistance and if the measured value is correct, remake the normal connections \nand restart.\nMeasure the insulation resistance after cooling and notice the \nvalue will be higher than the value measured when the machine is hot at the \nmoment it has been stopped.\nMeasure the insulation resistance every 3 : 4 hours during drying \nof the motor,\nBe careful and notes that at the beginning of the operating the \ninsulation resistance drops and then slowly increases and the drying can be \nstopped 2-3 hours after the insulation resistance has reached the required \nvalue. Also remember that the drying can take quite along time up to 48 hours.\nWhen the drying is finishing, stop the current supply and leave the machine to \ncool.\nWhen room temperature is reached, recheck the insulation \nresistance and if the measured value is correct, remake the normal connections \nand restart.\nMeasure the insulation resistance after cooling and notice the \nvalue will be higher than the value measured when the machine is hot at the \nmoment it has been stopped.\nMRDS Maintenance Record Data Sheet \n MRDS\nPROCEDURE | CHECK\nYES | NO | N/A\n1 | Check that there is no abnormal noise or \n vibration |  |  | \n2 | Check the \n insulation of the stator winding to earth |  |  | \n3 | Check the Air filter is cleaned for FD fan \n only |  |  | \n4 | Regressing bearings for GR fan only |  |  | \n5 | Change bearing oil for FD fan only |  |  | \nMotor Windings\n6 | Measure the insulation resistance\n using a megohmmeter with a 2500 V magneto |  |  | \n7 | Check no grease and dust are accumulated on \n coils |  |  | \n8 | Check no moisture is accumulated |  |  | \n9 | Check no discoloring caused by over heat |  |  | \n10 | Ensure there is no untoward change of wedges \n from original position |  |  | \n11 | Ensure that the binding at the coil end is in \n its normal position |  |  | \nInterior \n of the Motor\n12 | Check no accumulation of dust, carbon powder \n and grease |  |  | \n13 | Keep core ducts completely clean |  |  | \nThe Exterior of the Motor\n14 | Check all of the tubes of the air to air heat \n exchanger are cleaned using a suitable tube brush having synthetic fiber \n bristles |  |  | \n15 | Check air filters, for FD fan only, they \n should be replaced or cleaned and reconditioned at a frequency that is \n dictated by conditions |  |  | \nRemarks:\n......................................................................................................................................................\n......................................................................................................................................................\n......................................................................................................................................................\nLocation: Motor \nCode: Tested by: \nTest Date: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [
@@ -328,308 +445,425 @@
  ],
  "sections_ar": [
   {
-   "type": "paragraph",
-   "text": "محطات الطاقة"
+   "rows": [
+    [
+     "محطات\nالقوى",
+     "الإجراء\nالفني"
+    ]
+   ],
+   "truncated_rows": 0,
+   "type": "table"
   },
   {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
+   "text": "مقدمة",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "المعدة: محرك مروحة، 6.3kv"
+   "text": "توضح هذه الوثيقة إجراءات الصيانة P1، التي يجب تنفيذها كل ستة أشهر كما هو موضح بـ M6 في خانة العنوان.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "N3 NXC 630 J6C"
+   "text": "هذه الوثيقة لمحرك مروحة السحب القسري، ومحرك مروحة إعادة تدوير الغاز",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "مقدمة"
+   "text": "بدأ المسودة الأولى م. Haytham Abdel-Mohsen Mahmoud Hemdan، وراجعها م. Mohamed Abbass Ahmed، واختبرها م. Mohamed Al-Saied Al-Biaa، ونقحها م. Adel Abdel Kader El Naggar مهندس مراقبة الجودة في EDEPC، واعتمدها م. Tarek Youssef Ali، رئيس قطاع محطة Ayoun Moussa Power Station.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "يوضح هذا المستند إجراءات الصيانة P1، التي يجب تنفيذها كل ستة أشهر كما هو موضح بـ M6 في خانة العنوان."
+   "text": "قبل هذه الوثيقة م. Samir Abd El Gilil المدير العام للتفتيش ومراقبة الجودة في EDEPC ومنسق MPIS، وصدّق عليها المحاسب Mahmoud Soliman المدير العام للتفتيش الإداري والمالي ومراقبة الجودة في EDEPC والمشرف على قطاع التفتيش ومراقبة الجودة.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "هذا المستند لمحرك مروحة السحب القسري، ومحرك مروحة إعادة تدوير الغاز"
+   "text": "خصائص محامل محرك مروحة السحب القسري",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "أعد المسودة الأولى المهندس Haytham Abdel-Mohsen Mahmoud Hemdan، وراجعها المهندس Mohamed Abbass Ahmed، واختبرها المهندس Mohamed Al-Saied Al-Biaa، وراجعها مهندس مراقبة الجودة بشركة EDEPC Adel Abdel Kader El Naggar، واعتمدها المهندس Tarek Youssef Ali رئيس قطاع محطة Ayoun Moussa Power Station."
+   "text": "محمل جهة القيادة (DE)",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "وافق على هذا المستند المهندس Samir Abd El Gilil المدير العام للتفتيش ومراقبة الجودة بشركة EDEPC ومنسق MPIS، ووثقه المحاسب Mahmoud Soliman المدير العام للتفتيش الإداري والمالي ومراقبة الجودة بشركة EDEPC والمشرف على قطاع التفتيش ومراقبة الجودة."
+   "text": "محمل انزلاقي",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "خصائص محمل محرك مروحة السحب القسري"
+   "text": "الجلبة: Efnlb 14140",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "محمل جهة القيادة"
+   "text": "قطر الجلبة: 180 mm",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "محمل انزلاقي"
+   "text": "محمل جهة عدم القيادة (NDE)",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "Sleeve: Efnlb 14140"
+   "text": "محمل انزلاقي",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "قطر الجلبة: 180 مم"
+   "text": "الجلبة: Efnlq 14140",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "محمل جهة عدم القيادة"
+   "text": "قطر الجلبة: 140 mm",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "محمل انزلاقي"
+   "text": "التشحيم",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "Sleeve: Efnlq 14140"
+   "text": "التشحيم بحمام زيت",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "قطر الجلبة: 140 مم"
+   "text": "خصائص محامل محرك مروحة إعادة تدوير الغاز",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "التشحيم"
+   "text": "محمل جهة القيادة (DE)",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "التشحيم بحمام الزيت"
+   "text": "1 bar- bearing 6220 C3",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "خصائص محمل محرك مروحة إعادة تدوير الغاز"
+   "text": "محمل جهة عدم القيادة (NDE) (معزول)",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "محمل جهة القيادة"
+   "text": "1 محمل بكرات NU218 E C3",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "1 bar- bearing 6220 C3"
+   "text": "احتياطات السلامة",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "محمل جهة عدم القيادة (معزول)"
+   "text": "يجب إصدار تصريح عمل، ويجب أن يحمل طاقم الصيانة المؤهل فئة السلامة المناسبة.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "1 محمل أسطواني NU218 E C3"
+   "text": "يلزم وجود سياج أمان مع علامات تحذير تحيط بمنطقة العمل.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "احتياطات السلامة"
+   "text": "ارتدِ مهمات الوقاية الشخصية مثل خوذة السلامة والأحذية وقناع التنفس ونظارة السلامة ... إلخ.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "يجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل فئة السلامة المناسبة."
+   "text": "المحرك خارج الخدمة، وافصل مصدر تغذية التيار المتردد للمحرك.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "يلزم وجود سياج أمان مع علامات تحذيرية يحيط بمنطقة العمل."
+   "text": "قد تنشأ درجة حرارة عالية في ظروف التشغيل على أسطح المحرك، لذا يجب منع اللمس أو تجنبه.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "ارتدِ مهمات السلامة والصحة الخاصة بك مثل خوذة الأمان والحذاء وقناع التنفس ونظارة الأمان... إلخ"
-  },
-  {
-   "type": "paragraph",
-   "text": "المحرك خارج الخدمة، وافصل مصدر تغذية التيار المتردد عن المحرك."
-  },
-  {
-   "type": "paragraph",
-   "text": "قد ترتفع درجة الحرارة في ظروف التشغيل على أسطح المحرك، لذا يجب منع اللمس أو تجنبه."
-  },
-  {
-   "type": "list",
    "items": [
-    "يجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل فئة السلامة المناسبة.",
-    "يلزم وجود سياج أمان مع علامات تحذيرية يحيط بمنطقة العمل.",
-    "ارتدِ مهمات السلامة والصحة الخاصة بك مثل خوذة الأمان والحذاء وقناع التنفس ونظارة الأمان... إلخ",
-    "المحرك خارج الخدمة، وافصل مصدر تغذية التيار المتردد عن المحرك.",
-    "قد ترتفع درجة الحرارة في ظروف التشغيل على أسطح المحرك، لذا يجب منع اللمس أو تجنبه."
-   ]
+    "يجب إصدار تصريح عمل، ويجب أن يحمل طاقم الصيانة المؤهل فئة السلامة المناسبة.",
+    "يلزم وجود سياج أمان مع علامات تحذير تحيط بمنطقة العمل.",
+    "ارتدِ مهمات الوقاية الشخصية مثل خوذة السلامة والأحذية وقناع التنفس ونظارة السلامة ... إلخ.",
+    "المحرك خارج الخدمة، وافصل مصدر تغذية التيار المتردد للمحرك.",
+    "قد تنشأ درجة حرارة عالية في ظروف التشغيل على أسطح المحرك، لذا يجب منع اللمس أو تجنبه."
+   ],
+   "type": "list"
   },
   {
-   "type": "paragraph",
-   "text": "العدد والأدوات والأجهزة المستخدمة"
+   "text": "أدوات ومعدات",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "جودة الشحم الموصى بها وفقا لمواصفة NLGI N3:"
+   "text": "جودة الشحم الموصى بها وفقًا لمواصفة NLGI N3:",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "SHELL ALVANIA G3 أو ما يعادلها."
+   "text": "SHELL ALVANIA G3 أو ما يعادلها.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "حمام الزيت"
+   "text": "حمام زيت",
+   "type": "paragraph"
   },
   {
-   "type": "list",
    "items": [
-    "طقم عدد كامل",
-    "مواد التنظيف (قماش - بنزين)، شحم للمحمل",
-    "جودة الشحم الموصى بها وفقا لمواصفة NLGI N3:",
+    "طقم أدوات كامل",
+    "مواد تنظيف (قماش - بنزين)، شحم للمحمل",
+    "جودة الشحم الموصى بها وفقًا لمواصفة NLGI N3:",
     "SHELL ALVANIA G3 أو ما يعادلها.",
-    "حمام الزيت"
-   ]
+    "حمام زيت"
+   ],
+   "type": "list"
   },
   {
-   "type": "paragraph",
-   "text": "الإجراءات المطلوب تنفيذها"
+   "text": "العمل الواجب تنفيذه",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "فترة الصيانة"
+   "text": "فترات الصيانة",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "المحمل في التشغيل العكسي كل 5000 ساعة تشغيل."
+   "rows": [
+    [
+     "الموعد النهائي",
+     "الصيانة"
+    ],
+    [
+     "كل 100-1000\nساعة",
+     "تنظيف خارجي للمحمل"
+    ],
+    [
+     "المحمل في التشغيل العكسي كل 5000 ساعة تشغيل.\nالمحمل في التشغيل المستمر كل 8000 ساعة تشغيل.",
+     "تغيير الزيت"
+    ],
+    [
+     "أثناء أعمال الصيانة الوقائية للتركيب فورًا\nإذا:\nتجاوزت درجة حرارة المحمل القيمة المبينة بمقدار 15K.\nظهرت تغيرات غير عادية في زيت التشحيم.\nارتفع مستوى الزيت في حالة المحمل من نوع EFW.",
+     "فحص\nالمحمل"
+    ]
+   ],
+   "truncated_rows": 0,
+   "type": "table"
   },
   {
-   "type": "paragraph",
-   "text": "المحمل في التشغيل المستمر كل 8000 ساعة تشغيل."
+   "text": "الفحوصات المستمرة",
+   "type": "paragraph"
   },
   {
-   "type": "heading",
-   "level": 6,
-   "text": "أثناء أعمال الصيانة الوقائية للتركيب فورا إذا:"
+   "text": "تأكد من عدم وجود تشغيل غير طبيعي (سخونة، وضوضاء غير طبيعية، وتيار غير طبيعي).",
+   "type": "paragraph"
   },
   {
-   "type": "heading",
-   "level": 6,
-   "text": "درجة حرارة المحمل تتجاوز القيمة الموضحة بمقدار 15 كلفن."
+   "text": "يجب تنظيف داخل الماكينة من مجاري تهوية العضو الدوار والعضو الثابت ومن الملفات باستخدام هواء مضغوط جاف وخالٍ من الزيت بضغط أقصى 3 bar.",
+   "type": "paragraph"
   },
   {
-   "type": "heading",
-   "level": 6,
-   "text": "تظهر تغيرات غير عادية في زيت التشحيم."
+   "text": "إذا كانت الماكينة متسخة جدًا، يمكن تنظيفها بقطعة قماش مشبعة بالتربنتين وفحص العزل بعد التنظيف.",
+   "type": "paragraph"
   },
   {
-   "type": "heading",
-   "level": 6,
-   "text": "ارتفاع مستوى الزيت في حالة المحمل من نوع EFW."
-  },
-  {
-   "type": "paragraph",
-   "text": "الفحوصات الدائمة"
-  },
-  {
-   "type": "paragraph",
-   "text": "التأكد من عدم وجود تشغيل غير طبيعي (سخونة، ضوضاء غير طبيعية، تيار غير طبيعي)."
-  },
-  {
-   "type": "paragraph",
-   "text": "يجب تنظيف داخل الماكينة وقنوات تهوية العضو الدوار والعضو الثابت واللفات بهواء مضغوط جاف خال من الزيت بضغط أقصى 3 بار."
-  },
-  {
-   "type": "paragraph",
-   "text": "إذا كانت الماكينة متسخة جدا، يمكن تنظيفها بقطعة قماش مشبعة بالتربنتين وفحص العزل بعد التنظيف."
-  },
-  {
-   "type": "list",
    "items": [
-    "التأكد من عدم وجود تشغيل غير طبيعي (سخونة، ضوضاء غير طبيعية، تيار غير طبيعي).",
-    "يجب تنظيف داخل الماكينة وقنوات تهوية العضو الدوار والعضو الثابت واللفات بهواء مضغوط جاف خال من الزيت بضغط أقصى 3 بار.",
-    "إذا كانت الماكينة متسخة جدا، يمكن تنظيفها بقطعة قماش مشبعة بالتربنتين وفحص العزل بعد التنظيف."
-   ]
+    "تأكد من عدم وجود تشغيل غير طبيعي (سخونة، وضوضاء غير طبيعية، وتيار غير طبيعي).",
+    "يجب تنظيف داخل الماكينة من مجاري تهوية العضو الدوار والعضو الثابت ومن الملفات باستخدام هواء مضغوط جاف وخالٍ من الزيت بضغط أقصى 3 bar.",
+    "إذا كانت الماكينة متسخة جدًا، يمكن تنظيفها بقطعة قماش مشبعة بالتربنتين وفحص العزل بعد التنظيف."
+   ],
+   "type": "list"
   },
   {
-   "type": "paragraph",
-   "text": "فحص عزل العضو الثابت"
+   "text": "فحص عزل العضو الثابت",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "قبل أول تشغيل للعضو الثابت أو بعد توقف طويل أو فك، افحص عزل ملفات العضو الثابت تجاه الأرض."
+   "text": "قبل أول تشغيل أو بعد توقف طويل أو فك، افحص عزل ملفات العضو الثابت مع الأرض.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "لإجراء القياسات بأقل هامش خطأ، يجب فصل جميع المواسير والأنابيب والكابلات وتنظيف الأسطح الخارجية للماكينة بعناية."
+   "text": "لإجراء القياسات بأقل هامش خطأ، يجب فصل جميع الأنابيب والمواسير والكابلات وتنظيف الأسطح الخارجية للماكينة بعناية.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "لقياس مقاومات عزل ملفات العضو الثابت، استخدم ميجوميتر 2500 فولت."
+   "text": "لقياس مقاومات عزل ملفات العضو الثابت، استخدم ميجوميتر 2500 V.",
+   "type": "paragraph"
   },
   {
-   "type": "list",
    "items": [
-    "قبل أول تشغيل للعضو الثابت أو بعد توقف طويل أو فك، افحص عزل ملفات العضو الثابت تجاه الأرض.",
-    "لإجراء القياسات بأقل هامش خطأ، يجب فصل جميع المواسير والأنابيب والكابلات وتنظيف الأسطح الخارجية للماكينة بعناية.",
-    "لقياس مقاومات عزل ملفات العضو الثابت، استخدم ميجوميتر 2500 فولت."
-   ]
+    "قبل أول تشغيل أو بعد توقف طويل أو فك، افحص عزل ملفات العضو الثابت مع الأرض.",
+    "لإجراء القياسات بأقل هامش خطأ، يجب فصل جميع الأنابيب والمواسير والكابلات وتنظيف الأسطح الخارجية للماكينة بعناية.",
+    "لقياس مقاومات عزل ملفات العضو الثابت، استخدم ميجوميتر 2500 V."
+   ],
+   "type": "list"
   },
   {
-   "type": "paragraph",
-   "text": "التغير في مقاومة العزل"
+   "text": "التغير في مقاومة\nالعزل",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "قياس مقاومة العزل كل 3 : 4 ساعات أثناء تجفيف المحرك،"
+   "text": "قِس مقاومة العزل كل 3 : 4 ساعات أثناء تجفيف المحرك،",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "انتبه ولاحظ أنه في بداية التشغيل تنخفض مقاومة العزل ثم تزداد ببطء، ويمكن إيقاف التجفيف بعد 2-3 ساعات من وصول مقاومة العزل إلى القيمة المطلوبة. وتذكر أيضا أن التجفيف قد يستغرق وقتا طويلا يصل إلى 48 ساعة."
+   "text": "كن حذرًا ولاحظ أنه في بداية التشغيل تنخفض مقاومة العزل ثم ترتفع ببطء، ويمكن إيقاف التجفيف بعد 2-3 ساعات من وصول مقاومة العزل إلى القيمة المطلوبة. وتذكر أيضًا أن التجفيف قد يستغرق وقتًا طويلًا يصل إلى 48 ساعة.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "عند الانتهاء من التجفيف، أوقف مصدر التيار واترك الماكينة لتبرد."
+   "text": "عند انتهاء التجفيف، أوقف مصدر التيار واترك الماكينة لتبرد.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "عند الوصول إلى درجة حرارة الغرفة، أعد فحص مقاومة العزل، وإذا كانت القيمة المقاسة صحيحة، أعد التوصيلات العادية وأعد التشغيل."
+   "text": "عند الوصول إلى درجة حرارة الغرفة، أعد فحص مقاومة العزل، وإذا كانت القيمة المقاسة صحيحة، أعد التوصيلات الطبيعية وأعد التشغيل.",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "قِس مقاومة العزل بعد التبريد ولاحظ أن القيمة ستكون أعلى من القيمة المقاسة عندما تكون الماكينة ساخنة لحظة إيقافها."
+   "text": "قِس مقاومة العزل بعد التبريد ولاحظ أن القيمة ستكون أعلى من القيمة المقاسة عندما تكون الماكينة ساخنة في لحظة إيقافها.",
+   "type": "paragraph"
   },
   {
-   "type": "list",
    "items": [
-    "قياس مقاومة العزل كل 3 : 4 ساعات أثناء تجفيف المحرك،",
-    "انتبه ولاحظ أنه في بداية التشغيل تنخفض مقاومة العزل ثم تزداد ببطء، ويمكن إيقاف التجفيف بعد 2-3 ساعات من وصول مقاومة العزل إلى القيمة المطلوبة. وتذكر أيضا أن التجفيف قد يستغرق وقتا طويلا يصل إلى 48 ساعة.",
-    "عند الانتهاء من التجفيف، أوقف مصدر التيار واترك الماكينة لتبرد.",
-    "عند الوصول إلى درجة حرارة الغرفة، أعد فحص مقاومة العزل، وإذا كانت القيمة المقاسة صحيحة، أعد التوصيلات العادية وأعد التشغيل.",
-    "قِس مقاومة العزل بعد التبريد ولاحظ أن القيمة ستكون أعلى من القيمة المقاسة عندما تكون الماكينة ساخنة لحظة إيقافها."
-   ]
+    "قِس مقاومة العزل كل 3 : 4 ساعات أثناء تجفيف المحرك،",
+    "كن حذرًا ولاحظ أنه في بداية التشغيل تنخفض مقاومة العزل ثم ترتفع ببطء، ويمكن إيقاف التجفيف بعد 2-3 ساعات من وصول مقاومة العزل إلى القيمة المطلوبة. وتذكر أيضًا أن التجفيف قد يستغرق وقتًا طويلًا يصل إلى 48 ساعة.",
+    "عند انتهاء التجفيف، أوقف مصدر التيار واترك الماكينة لتبرد.",
+    "عند الوصول إلى درجة حرارة الغرفة، أعد فحص مقاومة العزل، وإذا كانت القيمة المقاسة صحيحة، أعد التوصيلات الطبيعية وأعد التشغيل.",
+    "قِس مقاومة العزل بعد التبريد ولاحظ أن القيمة ستكون أعلى من القيمة المقاسة عندما تكون الماكينة ساخنة في لحظة إيقافها."
+   ],
+   "type": "list"
   },
   {
-   "type": "paragraph",
-   "text": "MRDS ورقة بيانات سجل الصيانة MRDS"
+   "text": "MRDS ورقة بيانات سجل الصيانة\nMRDS",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "ملاحظات:"
+   "rows": [
+    [
+     "الإجراء",
+     "الفحص"
+    ],
+    [
+     "نعم",
+     "لا",
+     "غير منطبق"
+    ],
+    [
+     "1",
+     "تأكد من عدم وجود ضوضاء أو\nاهتزاز غير طبيعي",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "فحص\nعزل ملفات العضو الثابت مع الأرض",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "فحص نظافة فلتر الهواء لمروحة FD فقط",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "إعادة تشحيم المحامل لمروحة GR فقط",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "تغيير زيت المحمل لمروحة FD فقط",
+     "",
+     "",
+     ""
+    ],
+    [
+     "ملفات المحرك"
+    ],
+    [
+     "6",
+     "قياس مقاومة العزل\nباستخدام ميجوميتر 2500 V",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "تأكد من عدم تراكم الشحم والغبار على\nالملفات",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "تأكد من عدم تراكم الرطوبة",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9",
+     "تأكد من عدم وجود تغير في اللون ناتج عن السخونة الزائدة",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "تأكد من عدم وجود تغير غير مرغوب في الأسافين عن\nموضعها الأصلي",
+     "",
+     "",
+     ""
+    ],
+    [
+     "11",
+     "تأكد من أن الربط عند نهاية الملف في\nموضعه الطبيعي",
+     "",
+     "",
+     ""
+    ],
+    [
+     "داخل\nالمحرك"
+    ],
+    [
+     "12",
+     "تأكد من عدم تراكم الغبار ومسحوق الكربون\nوالشحم",
+     "",
+     "",
+     ""
+    ],
+    [
+     "13",
+     "حافظ على مجاري القلب نظيفة تمامًا",
+     "",
+     "",
+     ""
+    ],
+    [
+     "خارج المحرك"
+    ],
+    [
+     "14",
+     "تأكد من تنظيف جميع أنابيب المبادل الحراري هواء-هواء باستخدام فرشاة أنابيب مناسبة ذات شعيرات من الألياف الاصطناعية",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "فحص فلاتر الهواء، لمروحة FD فقط، ويجب استبدالها أو تنظيفها وإعادة تأهيلها بتكرار تحدده الظروف",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0,
+   "type": "table"
   },
   {
-   "type": "paragraph",
-   "text": "......................................................................................................................................................"
+   "text": "ملاحظات:",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "......................................................................................................................................................"
+   "text": "......................................................................................................................................................",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "......................................................................................................................................................"
+   "text": "......................................................................................................................................................",
+   "type": "paragraph"
   },
   {
-   "type": "paragraph",
-   "text": "الموقع: المحرك الكود: اختبر بواسطة: تاريخ الاختبار: التوقيع:"
+   "text": "......................................................................................................................................................",
+   "type": "paragraph"
+  },
+  {
+   "text": "الموقع: المحرك\nالكود: فُحص بواسطة: \nتاريخ الاختبار: \nالتوقيع:",
+   "type": "paragraph"
   }
  ],
- "text_ar": "محطات الطاقة\nالإجراء الفني\nالمعدة: محرك مروحة، 6.3kv\nN3 NXC 630 J6C\nمقدمة\nيوضح هذا المستند إجراءات الصيانة P1، التي يجب تنفيذها كل ستة أشهر كما هو موضح بـ M6 في خانة العنوان.\nهذا المستند لمحرك مروحة السحب القسري، ومحرك مروحة إعادة تدوير الغاز\nأعد المسودة الأولى المهندس Haytham Abdel-Mohsen Mahmoud Hemdan، وراجعها المهندس Mohamed Abbass Ahmed، واختبرها المهندس Mohamed Al-Saied Al-Biaa، وراجعها مهندس مراقبة الجودة بشركة EDEPC Adel Abdel Kader El Naggar، واعتمدها المهندس Tarek Youssef Ali رئيس قطاع محطة Ayoun Moussa Power Station.\nوافق على هذا المستند المهندس Samir Abd El Gilil المدير العام للتفتيش ومراقبة الجودة بشركة EDEPC ومنسق MPIS، ووثقه المحاسب Mahmoud Soliman المدير العام للتفتيش الإداري والمالي ومراقبة الجودة بشركة EDEPC والمشرف على قطاع التفتيش ومراقبة الجودة.\nخصائص محمل محرك مروحة السحب القسري\nمحمل جهة القيادة\nمحمل انزلاقي\nSleeve: Efnlb 14140\nقطر الجلبة: 180 مم\nمحمل جهة عدم القيادة\nمحمل انزلاقي\nSleeve: Efnlq 14140\nقطر الجلبة: 140 مم\nالتشحيم\nالتشحيم بحمام الزيت\nخصائص محمل محرك مروحة إعادة تدوير الغاز\nمحمل جهة القيادة\n1 bar- bearing 6220 C3\nمحمل جهة عدم القيادة (معزول)\n1 محمل أسطواني NU218 E C3\nاحتياطات السلامة\nيجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل فئة السلامة المناسبة.\nيلزم وجود سياج أمان مع علامات تحذيرية يحيط بمنطقة العمل.\nارتدِ مهمات السلامة والصحة الخاصة بك مثل خوذة الأمان والحذاء وقناع التنفس ونظارة الأمان... إلخ\nالمحرك خارج الخدمة، وافصل مصدر تغذية التيار المتردد عن المحرك.\nقد ترتفع درجة الحرارة في ظروف التشغيل على أسطح المحرك، لذا يجب منع اللمس أو تجنبه.\nيجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل فئة السلامة المناسبة.\nيلزم وجود سياج أمان مع علامات تحذيرية يحيط بمنطقة العمل.\nارتدِ مهمات السلامة والصحة الخاصة بك مثل خوذة الأمان والحذاء وقناع التنفس ونظارة الأمان... إلخ\nالمحرك خارج الخدمة، وافصل مصدر تغذية التيار المتردد عن المحرك.\nقد ترتفع درجة الحرارة في ظروف التشغيل على أسطح المحرك، لذا يجب منع اللمس أو تجنبه.\nالعدد والأدوات والأجهزة المستخدمة\nجودة الشحم الموصى بها وفقا لمواصفة NLGI N3:\nSHELL ALVANIA G3 أو ما يعادلها.\nحمام الزيت\nطقم عدد كامل\nمواد التنظيف (قماش - بنزين)، شحم للمحمل\nجودة الشحم الموصى بها وفقا لمواصفة NLGI N3:\nSHELL ALVANIA G3 أو ما يعادلها.\nحمام الزيت\nالإجراءات المطلوب تنفيذها\nفترة الصيانة\nالمحمل في التشغيل العكسي كل 5000 ساعة تشغيل.\nالمحمل في التشغيل المستمر كل 8000 ساعة تشغيل.\nأثناء أعمال الصيانة الوقائية للتركيب فورا إذا:\nدرجة حرارة المحمل تتجاوز القيمة الموضحة بمقدار 15 كلفن.\nتظهر تغيرات غير عادية في زيت التشحيم.\nارتفاع مستوى الزيت في حالة المحمل من نوع EFW.\nالفحوصات الدائمة\nالتأكد من عدم وجود تشغيل غير طبيعي (سخونة، ضوضاء غير طبيعية، تيار غير طبيعي).\nيجب تنظيف داخل الماكينة وقنوات تهوية العضو الدوار والعضو الثابت واللفات بهواء مضغوط جاف خال من الزيت بضغط أقصى 3 بار.\nإذا كانت الماكينة متسخة جدا، يمكن تنظيفها بقطعة قماش مشبعة بالتربنتين وفحص العزل بعد التنظيف.\nالتأكد من عدم وجود تشغيل غير طبيعي (سخونة، ضوضاء غير طبيعية، تيار غير طبيعي).\nيجب تنظيف داخل الماكينة وقنوات تهوية العضو الدوار والعضو الثابت واللفات بهواء مضغوط جاف خال من الزيت بضغط أقصى 3 بار.\nإذا كانت الماكينة متسخة جدا، يمكن تنظيفها بقطعة قماش مشبعة بالتربنتين وفحص العزل بعد التنظيف.\nفحص عزل العضو الثابت\nقبل أول تشغيل للعضو الثابت أو بعد توقف طويل أو فك، افحص عزل ملفات العضو الثابت تجاه الأرض.\nلإجراء القياسات بأقل هامش خطأ، يجب فصل جميع المواسير والأنابيب والكابلات وتنظيف الأسطح الخارجية للماكينة بعناية.\nلقياس مقاومات عزل ملفات العضو الثابت، استخدم ميجوميتر 2500 فولت.\nقبل أول تشغيل للعضو الثابت أو بعد توقف طويل أو فك، افحص عزل ملفات العضو الثابت تجاه الأرض.\nلإجراء القياسات بأقل هامش خطأ، يجب فصل جميع المواسير والأنابيب والكابلات وتنظيف الأسطح الخارجية للماكينة بعناية.\nلقياس مقاومات عزل ملفات العضو الثابت، استخدم ميجوميتر 2500 فولت.\nالتغير في مقاومة العزل\nقياس مقاومة العزل كل 3 : 4 ساعات أثناء تجفيف المحرك،\nانتبه ولاحظ أنه في بداية التشغيل تنخفض مقاومة العزل ثم تزداد ببطء، ويمكن إيقاف التجفيف بعد 2-3 ساعات من وصول مقاومة العزل إلى القيمة المطلوبة. وتذكر أيضا أن التجفيف قد يستغرق وقتا طويلا يصل إلى 48 ساعة.\nعند الانتهاء من التجفيف، أوقف مصدر التيار واترك الماكينة لتبرد.\nعند الوصول إلى درجة حرارة الغرفة، أعد فحص مقاومة العزل، وإذا كانت القيمة المقاسة صحيحة، أعد التوصيلات العادية وأعد التشغيل.\nقِس مقاومة العزل بعد التبريد ولاحظ أن القيمة ستكون أعلى من القيمة المقاسة عندما تكون الماكينة ساخنة لحظة إيقافها.\nقياس مقاومة العزل كل 3 : 4 ساعات أثناء تجفيف المحرك،\nانتبه ولاحظ أنه في بداية التشغيل تنخفض مقاومة العزل ثم تزداد ببطء، ويمكن إيقاف التجفيف بعد 2-3 ساعات من وصول مقاومة العزل إلى القيمة المطلوبة. وتذكر أيضا أن التجفيف قد يستغرق وقتا طويلا يصل إلى 48 ساعة.\nعند الانتهاء من التجفيف، أوقف مصدر التيار واترك الماكينة لتبرد.\nعند الوصول إلى درجة حرارة الغرفة، أعد فحص مقاومة العزل، وإذا كانت القيمة المقاسة صحيحة، أعد التوصيلات العادية وأعد التشغيل.\nقِس مقاومة العزل بعد التبريد ولاحظ أن القيمة ستكون أعلى من القيمة المقاسة عندما تكون الماكينة ساخنة لحظة إيقافها.\nMRDS ورقة بيانات سجل الصيانة MRDS\nملاحظات:\n......................................................................................................................................................\n......................................................................................................................................................\n......................................................................................................................................................\nالموقع: المحرك الكود: اختبر بواسطة: تاريخ الاختبار: التوقيع:",
+ "text_ar": "محطات\nالقوى | الإجراء\nالفني\nمقدمة\nتوضح هذه الوثيقة إجراءات الصيانة P1، التي يجب تنفيذها كل ستة أشهر كما هو موضح بـ M6 في خانة العنوان.\nهذه الوثيقة لمحرك مروحة السحب القسري، ومحرك مروحة إعادة تدوير الغاز\nبدأ المسودة الأولى م. Haytham Abdel-Mohsen Mahmoud Hemdan، وراجعها م. Mohamed Abbass Ahmed، واختبرها م. Mohamed Al-Saied Al-Biaa، ونقحها م. Adel Abdel Kader El Naggar مهندس مراقبة الجودة في EDEPC، واعتمدها م. Tarek Youssef Ali، رئيس قطاع محطة Ayoun Moussa Power Station.\nقبل هذه الوثيقة م. Samir Abd El Gilil المدير العام للتفتيش ومراقبة الجودة في EDEPC ومنسق MPIS، وصدّق عليها المحاسب Mahmoud Soliman المدير العام للتفتيش الإداري والمالي ومراقبة الجودة في EDEPC والمشرف على قطاع التفتيش ومراقبة الجودة.\nخصائص محامل محرك مروحة السحب القسري\nمحمل جهة القيادة (DE)\nمحمل انزلاقي\nالجلبة: Efnlb 14140\nقطر الجلبة: 180 mm\nمحمل جهة عدم القيادة (NDE)\nمحمل انزلاقي\nالجلبة: Efnlq 14140\nقطر الجلبة: 140 mm\nالتشحيم\nالتشحيم بحمام زيت\nخصائص محامل محرك مروحة إعادة تدوير الغاز\nمحمل جهة القيادة (DE)\n1 bar- bearing 6220 C3\nمحمل جهة عدم القيادة (NDE) (معزول)\n1 محمل بكرات NU218 E C3\nاحتياطات السلامة\nيجب إصدار تصريح عمل، ويجب أن يحمل طاقم الصيانة المؤهل فئة السلامة المناسبة.\nيلزم وجود سياج أمان مع علامات تحذير تحيط بمنطقة العمل.\nارتدِ مهمات الوقاية الشخصية مثل خوذة السلامة والأحذية وقناع التنفس ونظارة السلامة ... إلخ.\nالمحرك خارج الخدمة، وافصل مصدر تغذية التيار المتردد للمحرك.\nقد تنشأ درجة حرارة عالية في ظروف التشغيل على أسطح المحرك، لذا يجب منع اللمس أو تجنبه.\nيجب إصدار تصريح عمل، ويجب أن يحمل طاقم الصيانة المؤهل فئة السلامة المناسبة.\nيلزم وجود سياج أمان مع علامات تحذير تحيط بمنطقة العمل.\nارتدِ مهمات الوقاية الشخصية مثل خوذة السلامة والأحذية وقناع التنفس ونظارة السلامة ... إلخ.\nالمحرك خارج الخدمة، وافصل مصدر تغذية التيار المتردد للمحرك.\nقد تنشأ درجة حرارة عالية في ظروف التشغيل على أسطح المحرك، لذا يجب منع اللمس أو تجنبه.\nأدوات ومعدات\nجودة الشحم الموصى بها وفقًا لمواصفة NLGI N3:\nSHELL ALVANIA G3 أو ما يعادلها.\nحمام زيت\nطقم أدوات كامل\nمواد تنظيف (قماش - بنزين)، شحم للمحمل\nجودة الشحم الموصى بها وفقًا لمواصفة NLGI N3:\nSHELL ALVANIA G3 أو ما يعادلها.\nحمام زيت\nالعمل الواجب تنفيذه\nفترات الصيانة\nالموعد النهائي | الصيانة\nكل 100-1000\nساعة | تنظيف خارجي للمحمل\nالمحمل في التشغيل العكسي كل 5000 ساعة تشغيل.\nالمحمل في التشغيل المستمر كل 8000 ساعة تشغيل. | تغيير الزيت\nأثناء أعمال الصيانة الوقائية للتركيب فورًا\nإذا:\nتجاوزت درجة حرارة المحمل القيمة المبينة بمقدار 15K.\nظهرت تغيرات غير عادية في زيت التشحيم.\nارتفع مستوى الزيت في حالة المحمل من نوع EFW. | فحص\nالمحمل\nالفحوصات المستمرة\nتأكد من عدم وجود تشغيل غير طبيعي (سخونة، وضوضاء غير طبيعية، وتيار غير طبيعي).\nيجب تنظيف داخل الماكينة من مجاري تهوية العضو الدوار والعضو الثابت ومن الملفات باستخدام هواء مضغوط جاف وخالٍ من الزيت بضغط أقصى 3 bar.\nإذا كانت الماكينة متسخة جدًا، يمكن تنظيفها بقطعة قماش مشبعة بالتربنتين وفحص العزل بعد التنظيف.\nتأكد من عدم وجود تشغيل غير طبيعي (سخونة، وضوضاء غير طبيعية، وتيار غير طبيعي).\nيجب تنظيف داخل الماكينة من مجاري تهوية العضو الدوار والعضو الثابت ومن الملفات باستخدام هواء مضغوط جاف وخالٍ من الزيت بضغط أقصى 3 bar.\nإذا كانت الماكينة متسخة جدًا، يمكن تنظيفها بقطعة قماش مشبعة بالتربنتين وفحص العزل بعد التنظيف.\nفحص عزل العضو الثابت\nقبل أول تشغيل أو بعد توقف طويل أو فك، افحص عزل ملفات العضو الثابت مع الأرض.\nلإجراء القياسات بأقل هامش خطأ، يجب فصل جميع الأنابيب والمواسير والكابلات وتنظيف الأسطح الخارجية للماكينة بعناية.\nلقياس مقاومات عزل ملفات العضو الثابت، استخدم ميجوميتر 2500 V.\nقبل أول تشغيل أو بعد توقف طويل أو فك، افحص عزل ملفات العضو الثابت مع الأرض.\nلإجراء القياسات بأقل هامش خطأ، يجب فصل جميع الأنابيب والمواسير والكابلات وتنظيف الأسطح الخارجية للماكينة بعناية.\nلقياس مقاومات عزل ملفات العضو الثابت، استخدم ميجوميتر 2500 V.\nالتغير في مقاومة\nالعزل\nقِس مقاومة العزل كل 3 : 4 ساعات أثناء تجفيف المحرك،\nكن حذرًا ولاحظ أنه في بداية التشغيل تنخفض مقاومة العزل ثم ترتفع ببطء، ويمكن إيقاف التجفيف بعد 2-3 ساعات من وصول مقاومة العزل إلى القيمة المطلوبة. وتذكر أيضًا أن التجفيف قد يستغرق وقتًا طويلًا يصل إلى 48 ساعة.\nعند انتهاء التجفيف، أوقف مصدر التيار واترك الماكينة لتبرد.\nعند الوصول إلى درجة حرارة الغرفة، أعد فحص مقاومة العزل، وإذا كانت القيمة المقاسة صحيحة، أعد التوصيلات الطبيعية وأعد التشغيل.\nقِس مقاومة العزل بعد التبريد ولاحظ أن القيمة ستكون أعلى من القيمة المقاسة عندما تكون الماكينة ساخنة في لحظة إيقافها.\nقِس مقاومة العزل كل 3 : 4 ساعات أثناء تجفيف المحرك،\nكن حذرًا ولاحظ أنه في بداية التشغيل تنخفض مقاومة العزل ثم ترتفع ببطء، ويمكن إيقاف التجفيف بعد 2-3 ساعات من وصول مقاومة العزل إلى القيمة المطلوبة. وتذكر أيضًا أن التجفيف قد يستغرق وقتًا طويلًا يصل إلى 48 ساعة.\nعند انتهاء التجفيف، أوقف مصدر التيار واترك الماكينة لتبرد.\nعند الوصول إلى درجة حرارة الغرفة، أعد فحص مقاومة العزل، وإذا كانت القيمة المقاسة صحيحة، أعد التوصيلات الطبيعية وأعد التشغيل.\nقِس مقاومة العزل بعد التبريد ولاحظ أن القيمة ستكون أعلى من القيمة المقاسة عندما تكون الماكينة ساخنة في لحظة إيقافها.\nMRDS ورقة بيانات سجل الصيانة\nMRDS\nالإجراء | الفحص\nنعم | لا | غير منطبق\n1 | تأكد من عدم وجود ضوضاء أو\nاهتزاز غير طبيعي |  |  | \n2 | فحص\nعزل ملفات العضو الثابت مع الأرض |  |  | \n3 | فحص نظافة فلتر الهواء لمروحة FD فقط |  |  | \n4 | إعادة تشحيم المحامل لمروحة GR فقط |  |  | \n5 | تغيير زيت المحمل لمروحة FD فقط |  |  | \nملفات المحرك\n6 | قياس مقاومة العزل\nباستخدام ميجوميتر 2500 V |  |  | \n7 | تأكد من عدم تراكم الشحم والغبار على\nالملفات |  |  | \n8 | تأكد من عدم تراكم الرطوبة |  |  | \n9 | تأكد من عدم وجود تغير في اللون ناتج عن السخونة الزائدة |  |  | \n10 | تأكد من عدم وجود تغير غير مرغوب في الأسافين عن\nموضعها الأصلي |  |  | \n11 | تأكد من أن الربط عند نهاية الملف في\nموضعه الطبيعي |  |  | \nداخل\nالمحرك\n12 | تأكد من عدم تراكم الغبار ومسحوق الكربون\nوالشحم |  |  | \n13 | حافظ على مجاري القلب نظيفة تمامًا |  |  | \nخارج المحرك\n14 | تأكد من تنظيف جميع أنابيب المبادل الحراري هواء-هواء باستخدام فرشاة أنابيب مناسبة ذات شعيرات من الألياف الاصطناعية |  |  | \n15 | فحص فلاتر الهواء، لمروحة FD فقط، ويجب استبدالها أو تنظيفها وإعادة تأهيلها بتكرار تحدده الظروف |  |  | \nملاحظات:\n......................................................................................................................................................\n......................................................................................................................................................\n......................................................................................................................................................\nالموقع: المحرك\nالكود: فُحص بواسطة: \nتاريخ الاختبار: \nالتوقيع:",
  "translation_review": "draft — needs human review before operational use"
 }

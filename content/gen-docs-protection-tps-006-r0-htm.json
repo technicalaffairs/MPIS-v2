@@ -24,14 +24,6 @@
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Transformer Protection \n Scheme\n For 1,2 AT01,\n BT01 of unit 1,2 150 MW"
-  },
-  {
-   "type": "paragraph",
-   "text": "AEG"
-  },
-  {
    "type": "heading",
    "level": 3,
    "text": "Introduction"
@@ -136,7 +128,7 @@
    "rows": [
     [
      "Over Current RSZ3Y",
-     ""
+     "Earth Fault RSZY"
     ],
     [
      "Differential RQ4a",
@@ -173,40 +165,90 @@
    "text": "Unit Main \nTransformer AT01"
   },
   {
-   "type": "paragraph",
-   "text": "R ="
-  },
-  {
-   "type": "paragraph",
-   "text": "S ="
-  },
-  {
-   "type": "paragraph",
-   "text": "R ="
-  },
-  {
-   "type": "paragraph",
-   "text": "S ="
+   "type": "table",
+   "rows": [
+    [
+     "Protection NAME",
+     "DEVICE TYPE",
+     "OPERATING SETTING",
+     "TIME SETTING",
+     "V.t RATIO",
+     "C.T RATIO",
+     "TEST RESULTS",
+     "NOTES"
+    ],
+    [
+     "Over Current Protection",
+     "RSZ3Y",
+     "I = 0.9 A",
+     "T = 3 sec",
+     "",
+     "600/1",
+     "R = \n S =\n T =",
+     ""
+    ],
+    [
+     "Earth Fault Protection",
+     "RSZY",
+     "I = 1 A",
+     "T = 3 sec",
+     "",
+     "600/1",
+     "",
+     ""
+    ],
+    [
+     "Differential Protection",
+     "RQ4a",
+     "I = 0.2 A",
+     "Instant",
+     "",
+     "600/1",
+     "R =\n S =\n T =",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Unit Aux. \ntransformer"
   },
   {
-   "type": "paragraph",
-   "text": "R ="
-  },
-  {
-   "type": "paragraph",
-   "text": "S ="
-  },
-  {
-   "type": "paragraph",
-   "text": "R ="
-  },
-  {
-   "type": "paragraph",
-   "text": "S ="
+   "type": "table",
+   "rows": [
+    [
+     "Over \n Current Protection",
+     "RSZ3Y",
+     "I = 1.2 A",
+     "T = 2 sec",
+     "",
+     "1500/1",
+     "R = \n S =\n T =",
+     ""
+    ],
+    [
+     "Earth Fault Protection",
+     "RSZY",
+     "I = 1 A",
+     "T = 3 sec",
+     "",
+     "200/1",
+     "",
+     ""
+    ],
+    [
+     "Differential Protection",
+     "RQ4a",
+     "I = 0.2 A",
+     "Instant",
+     "",
+     "1500/1",
+     "R = \n S =\n T =",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -225,7 +267,7 @@
    "text": "Approved by: \nSignature:"
   }
  ],
- "text": "\nTransformer Protection \n Scheme\n For 1,2 AT01,\n BT01 of unit 1,2 150 MW\nAEG\nIntroduction\nThis \n document outlines the testing procedures P1, which must performed \n every six months as \n indicated by M6 in the titled block\nThis patent \nconcerns the test of protection relays of the transformer manufactured by AEG. \nThe Transformer rated active power 150 MW, rated apparent power 187 MVA, power \nfactor 0.8, and voltages 10.5 KV\nThe first draft is initiated by eng. Fathy Abd El \nSalam Hassan tested by eng. Mahamed Tohamy, accepted by electrical general \nmanger eng. Said Farag, revised by EDEPC inspection and quality control eng. \nAdel Abd ELQader El-nagar, and approved by eng. Moukhtar Abd Ellateef Mady; head \nsectorof Ataka PS.\nThis document accepted by eng. \nSamir Abdel Gilil: EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety \n helmet, safety shoes ...etc.\nEnsure the disconnection of the \n exciter, generator, main transformer and home transformer .\nSet up a work permission including \n maintenance members, safety class, etc.\nBe aware of parts in service.\nTools and Equipment\nCheck device\nDigital Timer\nWorks to be Carried Out\nPreparation\nReview the manual.\nPrepare the previous results of the relay testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and the d.c. source \n is available.\nCheck the existence of the d.c. sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck all the leads used in tests.\nPreparation of Testing Tools\nConnect the test plug\nConnect the timer to a power source \n and its terminals to the trip terminals of the relay under test.\nThe test of almost all generator \n protection devices is achieved by isolating either CT circuits or PT circuits \n or both. This is done by using a special selector switch.\nProtection Devices\nManufacturer of all devices: AEG\n\nTest \nSteps\nPlace selector switch on the test mode.\ninsert the test plug in special board.\nInsert timer the plug in special socket.\nRepeat the steps for the other three of phases.\nRecord the results.\nThe steps from 1 to5 are apply for all protection relays.\nTest Sheet\nFOR TRANSFORMER \nPROTECTION DEVICES FOR UNIT 1&2\nUnit Main \nTransformer AT01\nR =\nS =\nR =\nS =\nUnit Aux. \ntransformer\nR =\nS =\nR =\nS =\nLocation: Signature:\nTested \nby: \nSignature:\nTested Date: \n Signature:\nApproved by: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis \n document outlines the testing procedures P1, which must performed \n every six months as \n indicated by M6 in the titled block\nThis patent \nconcerns the test of protection relays of the transformer manufactured by AEG. \nThe Transformer rated active power 150 MW, rated apparent power 187 MVA, power \nfactor 0.8, and voltages 10.5 KV\nThe first draft is initiated by eng. Fathy Abd El \nSalam Hassan tested by eng. Mahamed Tohamy, accepted by electrical general \nmanger eng. Said Farag, revised by EDEPC inspection and quality control eng. \nAdel Abd ELQader El-nagar, and approved by eng. Moukhtar Abd Ellateef Mady; head \nsectorof Ataka PS.\nThis document accepted by eng. \nSamir Abdel Gilil: EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety \n helmet, safety shoes ...etc.\nEnsure the disconnection of the \n exciter, generator, main transformer and home transformer .\nSet up a work permission including \n maintenance members, safety class, etc.\nBe aware of parts in service.\nTools and Equipment\nCheck device\nDigital Timer\nWorks to be Carried Out\nPreparation\nReview the manual.\nPrepare the previous results of the relay testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and the d.c. source \n is available.\nCheck the existence of the d.c. sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck all the leads used in tests.\nPreparation of Testing Tools\nConnect the test plug\nConnect the timer to a power source \n and its terminals to the trip terminals of the relay under test.\nThe test of almost all generator \n protection devices is achieved by isolating either CT circuits or PT circuits \n or both. This is done by using a special selector switch.\nProtection Devices\nManufacturer of all devices: AEG\nOver Current RSZ3Y | Earth Fault RSZY\nDifferential RQ4a | \nTest \nSteps\nPlace selector switch on the test mode.\ninsert the test plug in special board.\nInsert timer the plug in special socket.\nRepeat the steps for the other three of phases.\nRecord the results.\nThe steps from 1 to5 are apply for all protection relays.\nTest Sheet\nFOR TRANSFORMER \nPROTECTION DEVICES FOR UNIT 1&2\nUnit Main \nTransformer AT01\nProtection NAME | DEVICE TYPE | OPERATING SETTING | TIME SETTING | V.t RATIO | C.T RATIO | TEST RESULTS | NOTES\nOver Current Protection | RSZ3Y | I = 0.9 A | T = 3 sec |  | 600/1 | R = \n S =\n T = | \nEarth Fault Protection | RSZY | I = 1 A | T = 3 sec |  | 600/1 |  | \nDifferential Protection | RQ4a | I = 0.2 A | Instant |  | 600/1 | R =\n S =\n T = | \nUnit Aux. \ntransformer\nOver \n Current Protection | RSZ3Y | I = 1.2 A | T = 2 sec |  | 1500/1 | R = \n S =\n T = | \nEarth Fault Protection | RSZY | I = 1 A | T = 3 sec |  | 200/1 |  | \nDifferential Protection | RQ4a | I = 0.2 A | Instant |  | 1500/1 | R = \n S =\n T = | \nLocation: Signature:\nTested \nby: \nSignature:\nTested Date: \n Signature:\nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

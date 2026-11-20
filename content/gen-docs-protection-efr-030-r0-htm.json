@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -142,6 +144,52 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "MOD",
+     "UI"
+    ],
+    [
+     "U",
+     "10"
+    ],
+    [
+     "I",
+     "Just below Isetting"
+    ],
+    [
+     "PHI",
+     "Φsetting"
+    ],
+    [
+     "FC",
+     "1"
+    ],
+    [
+     "SQ",
+     "2"
+    ],
+    [
+     "A",
+     "2"
+    ],
+    [
+     "TF",
+     "Just above Tsetting"
+    ],
+    [
+     "DI",
+     "0.1"
+    ],
+    [
+     "Start(+)",
+     "injection of testing signals"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "list",
    "items": [
     "When the injection starts notice that there is no \n indication on 67G and 50/51.",
@@ -159,6 +207,52 @@
    "text": "Prepare the \ntest set XS92a as following:"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "MOD",
+     "UI"
+    ],
+    [
+     "U",
+     "10"
+    ],
+    [
+     "I",
+     "Just above \n Isetting"
+    ],
+    [
+     "PHI",
+     "Just above \n ( Φsetting+90 )"
+    ],
+    [
+     "FC",
+     "Fault Code \n forward 1"
+    ],
+    [
+     "SQ",
+     "2"
+    ],
+    [
+     "A",
+     "2"
+    ],
+    [
+     "TF",
+     "Just above \n Tsetting"
+    ],
+    [
+     "DPHI",
+     "1"
+    ],
+    [
+     "Start(-)",
+     "injection \n of testing signals"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "list",
    "items": [
     "We entered above parameters according to the flow \n charts of test set XS92a",
@@ -170,6 +264,52 @@
     "Press the reset button on the relay front panel and \n check that the led indicator resets.",
     "Prepare the test set XS92a as following:"
    ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "MOD",
+     "UI"
+    ],
+    [
+     "U",
+     "10"
+    ],
+    [
+     "I",
+     "Just above Isetting"
+    ],
+    [
+     "PHI",
+     "Just below ( \n Φsetting+270 )"
+    ],
+    [
+     "FC",
+     "Fault Code forward 1"
+    ],
+    [
+     "SQ",
+     "2"
+    ],
+    [
+     "A",
+     "2"
+    ],
+    [
+     "TF",
+     "Just above Tsetting"
+    ],
+    [
+     "DPHI",
+     "1"
+    ],
+    [
+     "Start(+)",
+     "injection of testing signals"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "list",
@@ -193,6 +333,52 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "MOD",
+     "UI"
+    ],
+    [
+     "U",
+     "10"
+    ],
+    [
+     "I",
+     "Just above Isetting"
+    ],
+    [
+     "PHI",
+     "( \n Φsetting+180 \n )"
+    ],
+    [
+     "FC",
+     "Fault Code forward 1"
+    ],
+    [
+     "SQ",
+     "2"
+    ],
+    [
+     "A",
+     "2"
+    ],
+    [
+     "TF",
+     "Just above Tsetting"
+    ],
+    [
+     "DU",
+     "0.1"
+    ],
+    [
+     "Start(-)",
+     "injection of testing signals"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "list",
    "items": [
     "When the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51 .",
@@ -212,6 +398,48 @@
     "Connect The free contact of MCGG22 to (+) and ( \n __\\__ ) in the front panel of test set XS 92a .",
     "Prepare the test set XS92a as following:"
    ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "MOD",
+     "UI"
+    ],
+    [
+     "U",
+     "10"
+    ],
+    [
+     "I",
+     "Isetting"
+    ],
+    [
+     "PHI",
+     "Φsetting"
+    ],
+    [
+     "FC",
+     "1"
+    ],
+    [
+     "SQ",
+     "2"
+    ],
+    [
+     "A",
+     "0"
+    ],
+    [
+     "TF",
+     "0"
+    ],
+    [
+     "Start",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "list",
@@ -360,7 +588,7 @@
    "text": "Revised \nby: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThe METI directional relay detects \nthe phase angle of the current in a power system and when used in conjunction \nwith over current relay type MCGG provides directional control of the time \ndelayed element.\nThe MCGG is a microprocessor based \nover-current relay available in single, two, three or four pole versions \nmanufactured by GEC ALSTHOM. Each pole is provided with a choice of four inverse \ntime characteristics and three definite time characteristics as well as a trip \ntest position. An instantaneous element is also available on each phase. The \nMCGG 22 is the single phase version.\nThe first draft initiated, tested by eng. Hany \nBassuony Abdel Razek, accepted by UEEPC general manager eng. Gamal Abdel Wahab \ninspection & quality control \nhead sector, \nand approved by Dr. Tharwat sabry.\nSafety \nPrecautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nMake sure CT secondary circuits are shorted before isolating the relay \n current circuits for test current injection.\nLine isolation is required.\nSwitch off DC power supply \nbefore changing setting of the relay.\nTools and \nEquipment\nXS92a test set\nTest leads, Screwdriver\nAmmeter, \n Avometer\nWork to be carried out\nPreliminary Steps to Prepare for Relay Testing\nThis procedure is used to perform off load relay \n test.\nThe test is done for ( 50/51 & 67G ) as a one relay.\nReview technical reference material: Manufacturer's \n manual.\nObtain copy of relay setting from field maintenance \n file.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches are \n opened and tagged.\nInspect the CT secondary circuits, the VT Miniature \n Circuit Breakers MCB'S, and all cabling supplying the relay.\nUse station drawing to isolate:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated \n with this relay.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps.\nVerify the test results match the relay setting, if \n not consult technical services.\nTest trip all breakers associated with the relay.\nPrior to Starting Testing Procedure(s) Ensure the \nFollowing Steps\nLook at the EEHC panel nameplate and check that this \n EEHC system designation nameplate agrees with the line that has been taken out \n of service for maintenance.\nCheck there is no AC current from CT's by using a \n clip on ammeter.\nCheck there is no AC voltage from VT's by using a \n voltmeter.\nPreparation\nConnect the xs92a test set with the relay as shown \n in Fig.( 1 ) .\nEnsure that the CT secondary is correctly short \n circuited and voltage teminals supplying the relay is opened.\nThese connections must be made before starting test.\nTesting Procedure\nMeasuring the Pick up and Reset current\nPrepare the \ntest set XS92a as following:\nPrepare the \ntest set XS92a as following:\nWhen the injection starts notice that there is no \n indication on 67G and 50/51.\nThe current still increasing until the green led of \n 67G lights and that I>of the 50/51 relay starts this is the pick up current , \n then press _ now the current will decrease until the led I>of the 50/51 \n relay resets this is the reset current.\nRepeat that again without pressing _ and let the \n relay trips.\nRecord the pick up and the reset currents in the \n test sheet.\nTesting the Boundary Operation Angle\nPrepare the \ntest set XS92a as following:\nWe entered above parameters according to the flow \n charts of test set XS92a\nWhen the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51.\nThe angle still decreasing until the green led of \n 67G lights, now 50/51 relay will trip after the setting time.\nWhen the relay gives tripping signal press ◙ to stop \n injection\nRead the values in hand terminal of test set XS92a, \n and compare this value Φ1 with the value of ( Φsetting+90 ).\nObserve that the red indication on the 50/51 relay \n will light up.\nPress the reset button on the relay front panel and \n check that the led indicator resets.\nPrepare the test set XS92a as following:\nWhen the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51.\nThe \n angle still increasing until the green led of 67G lights, now 50/51 relay will \n trip after the setting time.\nWhen \n the relay gives tripping signal press ◙ to stop injection\nRead the values in hand terminal of set test XS92a, \n and compare this value Φ2 \n with the value of ( Φsetting+270 \n ).\nObserve that the red indication on the 50/51 relay \n will light up.\nPress the reset button on the relay front panel and \n check that the led indicator resets.\nMeasuring the Minimum Operating Voltage\nPrepare the test set XS92a as following:\nWhen the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51 .\nThe voltage still decreasing until the green led of \n 67G lights, now 50/51 relay will trip after the setting time.\nWhen the relay gives tripping signal press ◙ to stop \n injection\nRead the values in hand terminal of test set XS92a, \n this is minimum operating voltage.\nMeasuring the Operating Times\nThe operating Time of 50/51 relay should be measured \n using the tripping contact (free contact).\nConnect The free contact of MCGG22 to (+) and ( \n __\\__ ) in the front panel of test set XS 92a .\nPrepare the test set XS92a as following:\nWhen the trip occurs the value is automatically \n stopped by free contact then read the value of the time in the hand terminal.\nRepeat this test for other values of current if the \n setting time is not definite.\nTest Trip all Breakers associated with the Relay\nReconnect Breaker trip coils.\nClose only the circuit breakers associated with the \n relay.\nAdjust the injection parameters to make trip.\nStart injection and make sure all breakers are \n tripped.\nRestore the Relay to Service\nUnplug the test set XS92a from the power source.\nRemove the test leads from the relay and the test \n equipment.\nReturn the relay to the permanent settings as \n indicated in the maintenance file.\nThis Completes the Test Procedure.\nReturn Relay and Associated Equipment to Service\nReturn relay to service by withdrawing the test plug \n handle from the relay.\nReconnect any equipment associated with the relay \n has been isolated:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated \n with this relay.\nTest Sheet\nStation:\nFeeder:\nEquipment : Directional Earth Fault Relay\nType : METI & MCGG22\nSetting\nI > = K3 % * In \n= A\nAngle =\nTime =\nTest Results\nOperating Range\nBoundary operating angle: Φ1 \n= Φ2 =\nIntermediate operating angle\nPick up current = A\nReset current = A\nMinimum operating voltage = V\nOperating time\nTest voltage = 10 V\nTest current = A\nΦ =\nMeasured time =\nLocation: \n Relay Code: \n Last \nTest date:\nTested by: Signature: Test date:\nRevised \nby: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe METI directional relay detects \nthe phase angle of the current in a power system and when used in conjunction \nwith over current relay type MCGG provides directional control of the time \ndelayed element.\nThe MCGG is a microprocessor based \nover-current relay available in single, two, three or four pole versions \nmanufactured by GEC ALSTHOM. Each pole is provided with a choice of four inverse \ntime characteristics and three definite time characteristics as well as a trip \ntest position. An instantaneous element is also available on each phase. The \nMCGG 22 is the single phase version.\nThe first draft initiated, tested by eng. Hany \nBassuony Abdel Razek, accepted by UEEPC general manager eng. Gamal Abdel Wahab \ninspection & quality control \nhead sector, \nand approved by Dr. Tharwat sabry.\nSafety \nPrecautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nMake sure CT secondary circuits are shorted before isolating the relay \n current circuits for test current injection.\nLine isolation is required.\nSwitch off DC power supply \nbefore changing setting of the relay.\nTools and \nEquipment\nXS92a test set\nTest leads, Screwdriver\nAmmeter, \n Avometer\nWork to be carried out\nPreliminary Steps to Prepare for Relay Testing\nThis procedure is used to perform off load relay \n test.\nThe test is done for ( 50/51 & 67G ) as a one relay.\nReview technical reference material: Manufacturer's \n manual.\nObtain copy of relay setting from field maintenance \n file.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches are \n opened and tagged.\nInspect the CT secondary circuits, the VT Miniature \n Circuit Breakers MCB'S, and all cabling supplying the relay.\nUse station drawing to isolate:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated \n with this relay.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps.\nVerify the test results match the relay setting, if \n not consult technical services.\nTest trip all breakers associated with the relay.\nPrior to Starting Testing Procedure(s) Ensure the \nFollowing Steps\nLook at the EEHC panel nameplate and check that this \n EEHC system designation nameplate agrees with the line that has been taken out \n of service for maintenance.\nCheck there is no AC current from CT's by using a \n clip on ammeter.\nCheck there is no AC voltage from VT's by using a \n voltmeter.\nPreparation\nConnect the xs92a test set with the relay as shown \n in Fig.( 1 ) .\nEnsure that the CT secondary is correctly short \n circuited and voltage teminals supplying the relay is opened.\nThese connections must be made before starting test.\nTesting Procedure\nMeasuring the Pick up and Reset current\nPrepare the \ntest set XS92a as following:\nPrepare the \ntest set XS92a as following:\nMOD | UI\nU | 10\nI | Just below Isetting\nPHI | Φsetting\nFC | 1\nSQ | 2\nA | 2\nTF | Just above Tsetting\nDI | 0.1\nStart(+) | injection of testing signals\nWhen the injection starts notice that there is no \n indication on 67G and 50/51.\nThe current still increasing until the green led of \n 67G lights and that I>of the 50/51 relay starts this is the pick up current , \n then press _ now the current will decrease until the led I>of the 50/51 \n relay resets this is the reset current.\nRepeat that again without pressing _ and let the \n relay trips.\nRecord the pick up and the reset currents in the \n test sheet.\nTesting the Boundary Operation Angle\nPrepare the \ntest set XS92a as following:\nMOD | UI\nU | 10\nI | Just above \n Isetting\nPHI | Just above \n ( Φsetting+90 )\nFC | Fault Code \n forward 1\nSQ | 2\nA | 2\nTF | Just above \n Tsetting\nDPHI | 1\nStart(-) | injection \n of testing signals\nWe entered above parameters according to the flow \n charts of test set XS92a\nWhen the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51.\nThe angle still decreasing until the green led of \n 67G lights, now 50/51 relay will trip after the setting time.\nWhen the relay gives tripping signal press ◙ to stop \n injection\nRead the values in hand terminal of test set XS92a, \n and compare this value Φ1 with the value of ( Φsetting+90 ).\nObserve that the red indication on the 50/51 relay \n will light up.\nPress the reset button on the relay front panel and \n check that the led indicator resets.\nPrepare the test set XS92a as following:\nMOD | UI\nU | 10\nI | Just above Isetting\nPHI | Just below ( \n Φsetting+270 )\nFC | Fault Code forward 1\nSQ | 2\nA | 2\nTF | Just above Tsetting\nDPHI | 1\nStart(+) | injection of testing signals\nWhen the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51.\nThe \n angle still increasing until the green led of 67G lights, now 50/51 relay will \n trip after the setting time.\nWhen \n the relay gives tripping signal press ◙ to stop injection\nRead the values in hand terminal of set test XS92a, \n and compare this value Φ2 \n with the value of ( Φsetting+270 \n ).\nObserve that the red indication on the 50/51 relay \n will light up.\nPress the reset button on the relay front panel and \n check that the led indicator resets.\nMeasuring the Minimum Operating Voltage\nPrepare the test set XS92a as following:\nMOD | UI\nU | 10\nI | Just above Isetting\nPHI | ( \n Φsetting+180 \n )\nFC | Fault Code forward 1\nSQ | 2\nA | 2\nTF | Just above Tsetting\nDU | 0.1\nStart(-) | injection of testing signals\nWhen the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51 .\nThe voltage still decreasing until the green led of \n 67G lights, now 50/51 relay will trip after the setting time.\nWhen the relay gives tripping signal press ◙ to stop \n injection\nRead the values in hand terminal of test set XS92a, \n this is minimum operating voltage.\nMeasuring the Operating Times\nThe operating Time of 50/51 relay should be measured \n using the tripping contact (free contact).\nConnect The free contact of MCGG22 to (+) and ( \n __\\__ ) in the front panel of test set XS 92a .\nPrepare the test set XS92a as following:\nMOD | UI\nU | 10\nI | Isetting\nPHI | Φsetting\nFC | 1\nSQ | 2\nA | 0\nTF | 0\nStart | \nWhen the trip occurs the value is automatically \n stopped by free contact then read the value of the time in the hand terminal.\nRepeat this test for other values of current if the \n setting time is not definite.\nTest Trip all Breakers associated with the Relay\nReconnect Breaker trip coils.\nClose only the circuit breakers associated with the \n relay.\nAdjust the injection parameters to make trip.\nStart injection and make sure all breakers are \n tripped.\nRestore the Relay to Service\nUnplug the test set XS92a from the power source.\nRemove the test leads from the relay and the test \n equipment.\nReturn the relay to the permanent settings as \n indicated in the maintenance file.\nThis Completes the Test Procedure.\nReturn Relay and Associated Equipment to Service\nReturn relay to service by withdrawing the test plug \n handle from the relay.\nReconnect any equipment associated with the relay \n has been isolated:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated \n with this relay.\nTest Sheet\nStation:\nFeeder:\nEquipment : Directional Earth Fault Relay\nType : METI & MCGG22\nSetting\nI > = K3 % * In \n= A\nAngle =\nTime =\nTest Results\nOperating Range\nBoundary operating angle: Φ1 \n= Φ2 =\nIntermediate operating angle\nPick up current = A\nReset current = A\nMinimum operating voltage = V\nOperating time\nTest voltage = 10 V\nTest current = A\nΦ =\nMeasured time =\nLocation: \n Relay Code: \n Last \nTest date:\nTested by: Signature: Test date:\nRevised \nby: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

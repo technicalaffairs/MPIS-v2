@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -108,6 +118,19 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Function",
+     "Terminal",
+     "Function"
+    ],
+    [
+     "Not Used",
+     "--",
+     "2",
+     "1",
+     "--",
+     "Earth Terminal"
+    ],
     [
      "Watchdog Relay (Break contact)",
      "m",
@@ -300,28 +323,81 @@
    "text": "Technical Data"
   },
   {
-   "type": "paragraph",
-   "text": "The KAVS is in tended to provide the \n check synchronizing or dead line"
+   "type": "table",
+   "rows": [
+    [
+     "The KAVS is in tended to provide the \n check synchronizing or dead line\n charge or dead bus charge interlocks \n required for some auto-reclose applications. If also provides split system \n detection and system synchronizing interlocks for reconnection following a \n system split\n The slip frequency settings for check synchronizing and system synchronizing \n are independent of the phase angle and line settings, which are separately \n adjustable for each function.\n Under voltage block and /or differential voltage block can be applied \n independently to boh check synchronizing and system synchronizing",
+     "",
+     "Ratings"
+    ],
+    [
+     "",
+     "Inputs:"
+    ],
+    [
+     "24/125v or 48/250v 0= or dc",
+     "Auxiliary voltage (Vx)"
+    ],
+    [
+     "50/60 Hz\n 48v dc current limit: 60 am",
+     "frequency \n Output:\n Field voltage"
+    ],
+    [
+     "6 VA\n 4W",
+     "Burdens:\n AC auxiliary voltage\n DC auxiliary voltage"
+    ],
+    [
+     "5 to 90\n 5 to 90\n 90 to 175",
+     "Phase angle settings:\n Check synchronism\n System synchronism \n Split detector"
+    ],
+    [
+     "0.005 Hz to 2.0Hz\n 0.005 Hz to 2.0Hz",
+     "Slip frequency settings \n Check synchronism\n System synchronism"
+    ],
+    [
+     "0.1 s to 99s\n 0.1 s to 99s\n 0.1 s to 99s",
+     "Time settings\n Check synchronism\n System synchronism\n Split detector"
+    ],
+    [
+     "0.2 Vn to 1.2 Vn\n 0.5 Vn to 0.2 Vn\n 0.05 Vn to line/bus live voltage\n Line/bus dead voltage to 1.2 Vn",
+     "Voltage settings\n Under vdtage\n Differenlial voltage\n Line /bus deod voltage\n Line/bus live voltage"
+    ],
+    [
+     "1:1 to 9999:1",
+     "Transformer raffos\n Voltage transformers"
+    ],
+    [
+     "Eight - energized from 48 V \n field voltage",
+     "Opto-Isolated inputs"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "5 to 90"
-  },
-  {
-   "type": "paragraph",
-   "text": "5 to 90"
-  },
-  {
-   "type": "paragraph",
-   "text": "Phase angle settings:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Check synchronism"
-  },
-  {
-   "type": "paragraph",
-   "text": "System synchronism"
+   "type": "table",
+   "rows": [
+    [
+     "Eight single make\n Make: 30A and carry for 0.2s\n Carry: 5A continuous\n Break: 50W resistive\n 25 W \n inductive\n (I/R-0.04s at \n 300 V max)",
+     "Contacts \n Output relays\n Contact rollings\n Output relays"
+    ],
+    [
+     "Synchronous (RS 485 \n voltage levels) HDLC\n 64 kbit/s\n 1000m screened, twisted pair 32 units (multidrop system)",
+     "Communication port (K-Bus)\n Transmission \n Format\n Bound rate\n Coble details\n Coble loading"
+    ],
+    [
+     "2k V r m s for one minute between all terminals and \n arose earth\n 2kv for one minute between terminals of independent circuits inducing \n contact circuits\n 1.5 kv across open contacts of output relays\n 1kv for one minute across open contacts of the working relay\n 5kv peck, 1.2/50 s, 0.5 between all terminals \n and all terminals to case earth\n 2.5kv peak between independent circuits and case",
+     "Voltage withstand\n Insulation\n IEC 255.5\n High voltage impulse\n IEC 255.5\n High frequency disturbance\n IEC 255-22-1/2"
+    ],
+    [
+     "Storage and transit:- \n -25 to + 70C\n Operating -25 to + 55C\n 56 days of 93 % rh and 40C\n IP 50 (dust protected)\n 0.5g between 60 Hz and 600Hz\n 0.07 mm peak to peak between \n 10Hz and 60Hz\n 10.000 operations minimum",
+     "Environmental withstand \n Temperature\n IEC 68-2-1\n IEC 68-2-2\n Humidity IEC 68-2-3\n Enclosure protection EC 529\n Vibration EC 255-21-1\n Mechanical durability"
+    ],
+    [
+     "Midos Size 4",
+     "Cases\n KAVS relays"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -330,6 +406,40 @@
   {
    "type": "table",
    "rows": [
+    [
+     "--------------------",
+     "K",
+     "---------------------",
+     "Relay type"
+    ],
+    [
+     "---------------------",
+     "Date",
+     "---------------------",
+     "Relay model number"
+    ],
+    [
+     "---------------------",
+     "Serial Number",
+     "----------------------",
+     "Relay firm ware number"
+    ],
+    [
+     "---------------------",
+     "Circuit",
+     "----------------------",
+     "Station"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Rated Voltage Vn \n 0"
+    ],
     [
      "",
      "57/120v"
@@ -366,6 +476,10 @@
     ],
     [
      "",
+     "for continuity with \n module removed from case"
+    ],
+    [
+     "",
      "External wining checked to diagrarn (if available)"
     ],
     [
@@ -385,8 +499,19 @@
      "Auxiliary supply checked"
     ],
     [
+     "Auxiliary voltage at relay \n terminals ------------------- V ac/dc"
+    ],
+    [
      "",
      "Watching contacts checked"
+    ],
+    [
+     "",
+     "Supply off Terminals 3 and 5"
+    ],
+    [
+     "",
+     "Terminals 4 and 6"
     ],
     [
      "",
@@ -395,12 +520,50 @@
     [
      "",
      "Terminals 4 and 6"
+    ],
+    [
+     "",
+     "Field \n voltage \n ---------------------------- V d"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Last test date:",
+     "",
+     "Relay Designation:",
+     "",
+     "Location:"
+    ],
+    [
+     "Test date:",
+     "",
+     "Signature:",
+     "",
+     "Tested by:"
+    ],
+    [
+     "",
+     "",
+     "Signature:",
+     "",
+     "Revised by:"
+    ],
+    [
+     "",
+     "",
+     "Signature:",
+     "",
+     "Approved by:"
     ]
    ],
    "truncated_rows": 0
   }
  ],
- "text": "Introduction\nThere are eight up to isolated inputs to the relay that can be \narranged to operate up to alternative ladder inputs, which perform functions \nassigned to them in the ladder diagram, as determined by the setting of the \nINPUT MASKS and so making maximum use of the available control inputs. Software \nfiltering is applied to eliminate the adverse effects of induced ac signals in \nthe external wiring eight programmable output relays are provided on all models.\nThese relays can be arranged to operate in response to any, or all, of up to 16 \nalternative ladder outputs, whose function is assigned in the ladder diagram, by \nsuitably setting the OUTPUT MASKS. In addition there is a watchdog relay for \nexternal indication of equipment failure/healthy status. Measurements are only \navailable in relays including check synchronism features (KAVS and KAVR). These \nrelays have two voltage transformers for measuring line and bus bar voltages.\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by quality control eng. Adel Abdel Qader El Nagar at EDEPCo., accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance staff carry the suitable \n safety ID category,\nSafety fence (rope) with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nLine isolation must be done.\nTools and Equipment\nISA test set type ART/3 or Omicron\nVoltmeter, and Ammeter\nTest plug test leads\nWork to be carried out\nRelays Preparation\nReview the manual and drawings\nPrepare the previous or commissioning results of the relay testing\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the outputs of the relay and connect one of them to the \n timer of the tester.\nCheck all the leads used in tests.\nTest \nSteps\nConnect the voltage leads of a tester unit to the relay points according \n to the drawings and scheme\nInject \n voltage to each couple of points.\nRepeat the steps for each pair of points according to the test sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nStandard connection table\n\nKey to connection tables\n(+) and (-) indicate the polarity of \nthe dc output from these terminals\n(+) and (-) indicate the polarity of \nthe applied dc supply\nIn / Out \nthe signal direction for the in phase condition \nShaded is not available on KVTR relays\nNote : All relays have standard Midos terminal blocks to which \nconnection can be made with either \n 4mm screws or 4.8 mm \npre-insulated snap-on connectors.\n Two connections can be \nmade to each terminal.\nTechnical Data\nThe KAVS is in tended to provide the \n check synchronizing or dead line\n5 to 90\n5 to 90\nPhase angle settings:\nCheck synchronism\nSystem synchronism\nTEST SHEET\n\n",
+ "text": "Protection | Technical Procedure\nIntroduction\nThere are eight up to isolated inputs to the relay that can be \narranged to operate up to alternative ladder inputs, which perform functions \nassigned to them in the ladder diagram, as determined by the setting of the \nINPUT MASKS and so making maximum use of the available control inputs. Software \nfiltering is applied to eliminate the adverse effects of induced ac signals in \nthe external wiring eight programmable output relays are provided on all models.\nThese relays can be arranged to operate in response to any, or all, of up to 16 \nalternative ladder outputs, whose function is assigned in the ladder diagram, by \nsuitably setting the OUTPUT MASKS. In addition there is a watchdog relay for \nexternal indication of equipment failure/healthy status. Measurements are only \navailable in relays including check synchronism features (KAVS and KAVR). These \nrelays have two voltage transformers for measuring line and bus bar voltages.\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by quality control eng. Adel Abdel Qader El Nagar at EDEPCo., accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance staff carry the suitable \n safety ID category,\nSafety fence (rope) with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nLine isolation must be done.\nTools and Equipment\nISA test set type ART/3 or Omicron\nVoltmeter, and Ammeter\nTest plug test leads\nWork to be carried out\nRelays Preparation\nReview the manual and drawings\nPrepare the previous or commissioning results of the relay testing\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the outputs of the relay and connect one of them to the \n timer of the tester.\nCheck all the leads used in tests.\nTest \nSteps\nConnect the voltage leads of a tester unit to the relay points according \n to the drawings and scheme\nInject \n voltage to each couple of points.\nRepeat the steps for each pair of points according to the test sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nStandard connection table\nFunction | Terminal | Function\nNot Used | -- | 2 | 1 | -- | Earth Terminal\nWatchdog Relay (Break contact) | m | 4\n 6 | 3\n 5 | b\n -- | Watchdog Relay (Break contact)\n48V Field Voltage | (-) | 8 | 7 | (+) | 48V Field Voltage\nNot Used |  | 10 | 9 |  | Not Used\nNot Used |  | 12 | 11 |  | Not Used\nAuxiliary Voltage Input | (-) | 14 | 13 | (+) | Auxiliary Voltage Input\nNot Used |  | 16 | 15 |  | Not Used\nLine Voltage | In | 18 | 17 | In | Line Voltage\nBushar Voltage | Out | 20 | 19 | In | Bushar Voltage\nNot Used |  | 22 | 21 |  | Not Used\nNot Used |  | 24 | 23 |  | Not Used\nNot Used |  | 26 | 25 |  | Not Used\nNot Used |  | 28 | 27 |  | Not Used\nOutput Relay 0 | -- | 30\n 32 | 29\n 31 | -- | Output Relay 4\nOutput Relay 1 | -- | 34\n 36 | 33\n 35 | -- | Output Relay 5\nOutput Relay 2 | -- | 38\n 40 | 37\n 39 | -- | Output Relay 6\nOutput Relay 3 | -- | 42\n 44 | 41\n 43 | -- | Output Relay 7\nOpto Control Input L0 | (+) | 46 | 45 | (+) | Opto Control Input L3\nOpto Control Input L1 | (+) | 48 | 47 | (+) | Opto Control Input L4\nOpto Control Input L2 | (+) | 50 | 49 | (+) | Opto Control Input L5\nCommon L0/L1/L2 | (-) | 52 | 51 | (+) | Opto Control Input L6\nK-Bus Serial Port | -- | 54 | 53 | (+) | Opto Control Input L7\nK-Bus Serial Port | -- | 56 | 55 | (-) | Common L3/L4/L5/L6/L7\nKey to connection tables\n(+) and (-) indicate the polarity of \nthe dc output from these terminals\n(+) and (-) indicate the polarity of \nthe applied dc supply\nIn / Out \nthe signal direction for the in phase condition \nShaded is not available on KVTR relays\nNote : All relays have standard Midos terminal blocks to which \nconnection can be made with either \n 4mm screws or 4.8 mm \npre-insulated snap-on connectors.\n Two connections can be \nmade to each terminal.\nTechnical Data\nThe KAVS is in tended to provide the \n check synchronizing or dead line\n charge or dead bus charge interlocks \n required for some auto-reclose applications. If also provides split system \n detection and system synchronizing interlocks for reconnection following a \n system split\n The slip frequency settings for check synchronizing and system synchronizing \n are independent of the phase angle and line settings, which are separately \n adjustable for each function.\n Under voltage block and /or differential voltage block can be applied \n independently to boh check synchronizing and system synchronizing |  | Ratings\n | Inputs:\n24/125v or 48/250v 0= or dc | Auxiliary voltage (Vx)\n50/60 Hz\n 48v dc current limit: 60 am | frequency \n Output:\n Field voltage\n6 VA\n 4W | Burdens:\n AC auxiliary voltage\n DC auxiliary voltage\n5 to 90\n 5 to 90\n 90 to 175 | Phase angle settings:\n Check synchronism\n System synchronism \n Split detector\n0.005 Hz to 2.0Hz\n 0.005 Hz to 2.0Hz | Slip frequency settings \n Check synchronism\n System synchronism\n0.1 s to 99s\n 0.1 s to 99s\n 0.1 s to 99s | Time settings\n Check synchronism\n System synchronism\n Split detector\n0.2 Vn to 1.2 Vn\n 0.5 Vn to 0.2 Vn\n 0.05 Vn to line/bus live voltage\n Line/bus dead voltage to 1.2 Vn | Voltage settings\n Under vdtage\n Differenlial voltage\n Line /bus deod voltage\n Line/bus live voltage\n1:1 to 9999:1 | Transformer raffos\n Voltage transformers\nEight - energized from 48 V \n field voltage | Opto-Isolated inputs\nEight single make\n Make: 30A and carry for 0.2s\n Carry: 5A continuous\n Break: 50W resistive\n 25 W \n inductive\n (I/R-0.04s at \n 300 V max) | Contacts \n Output relays\n Contact rollings\n Output relays\nSynchronous (RS 485 \n voltage levels) HDLC\n 64 kbit/s\n 1000m screened, twisted pair 32 units (multidrop system) | Communication port (K-Bus)\n Transmission \n Format\n Bound rate\n Coble details\n Coble loading\n2k V r m s for one minute between all terminals and \n arose earth\n 2kv for one minute between terminals of independent circuits inducing \n contact circuits\n 1.5 kv across open contacts of output relays\n 1kv for one minute across open contacts of the working relay\n 5kv peck, 1.2/50 s, 0.5 between all terminals \n and all terminals to case earth\n 2.5kv peak between independent circuits and case | Voltage withstand\n Insulation\n IEC 255.5\n High voltage impulse\n IEC 255.5\n High frequency disturbance\n IEC 255-22-1/2\nStorage and transit:- \n -25 to + 70C\n Operating -25 to + 55C\n 56 days of 93 % rh and 40C\n IP 50 (dust protected)\n 0.5g between 60 Hz and 600Hz\n 0.07 mm peak to peak between \n 10Hz and 60Hz\n 10.000 operations minimum | Environmental withstand \n Temperature\n IEC 68-2-1\n IEC 68-2-2\n Humidity IEC 68-2-3\n Enclosure protection EC 529\n Vibration EC 255-21-1\n Mechanical durability\nMidos Size 4 | Cases\n KAVS relays\nTEST SHEET\n-------------------- | K | --------------------- | Relay type\n--------------------- | Date | --------------------- | Relay model number\n--------------------- | Serial Number | ---------------------- | Relay firm ware number\n--------------------- | Circuit | ---------------------- | Station\n | Rated Voltage Vn \n 0\n | 57/120v\n | Auxiliary Voltage 24/125v\n | 48/250v\n | Commissioning preliminaries\n | Serial number on case, module and cover chocked\n | CT shorting switches in case checked\n | Terminal x 21 and 22,23and 24,25 and 26,27 and 28 checked\n | for continuity with \n module removed from case\n | External wining checked to diagrarn (if available)\n | Earth connection to case checked\n | Test block connections checked\n | Insulation checked\n | Auxiliary supply checked\nAuxiliary voltage at relay \n terminals ------------------- V ac/dc\n | Watching contacts checked\n | Supply off Terminals 3 and 5\n | Terminals 4 and 6\n | Supply on \n Terminals 3 and 5\n | Terminals 4 and 6\n | Field \n voltage \n ---------------------------- V d\nLast test date: |  | Relay Designation: |  | Location:\nTest date: |  | Signature: |  | Tested by:\n |  | Signature: |  | Revised by:\n |  | Signature: |  | Approved by:",
  "text_truncated": false,
  "links": [],
  "images": [

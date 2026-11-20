@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -140,6 +142,36 @@
    "text": "Test Results"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Tested Phase",
+     "R",
+     "S",
+     "T"
+    ],
+    [
+     "Pick up voltage \n (v)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Reset voltage \n (v)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time (sec)",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: \n Relay Code: \nTest date:"
   },
@@ -152,7 +184,7 @@
    "text": "Approved by: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThe relays of the UM3 series are instantaneous over \nand under voltage relays designed for general protection and signaling \napplications. Space is provided for fitting an ancillary timer.\nThe first draft initiated, tested by eng. Hany \nBassuony Abdel Razek, accepted by Dr. Tharwat Sabry, and approved by UEEPC \ninspection & quality control\ngeneral manager eng. Gamal Abdel Wahab.\nSafety \nPrecautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nTools and \nEquipment\nSverker 650 test set\nAvometer, \n test leads\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nThis procedure is used to perform off load relay \n test.\nThe test is divided into two tests\nThe AC test to determine pick up and reset voltage.\nThe DC test to determine the operating time.\nAC Test\nConnect the circuit as shown in fig. 1.\nIsolate the wire connected to pin 1at the relay.\nSwitch on the Sverker and adjust the voltage to100V.\nTurn off the Sverker.\nConnect the wire to pin 1 at the relay.\nSwitch on the Sverker to apply the 100 v to the relay then check that the \n relay reset.\nSlowly decrease the voltage until the relay picks up and closes its contact.\nThis is the pick up voltage.\nSlowly raise the voltage until the relay resets and open its contact.\nThis is the reset voltage.\nSwitch off the Sverker.\nDC Test\nConnect the circuit as shown in fig. 2.\nIsolate the wire connected to pin 5 at the relay.\nSwitch on the Sverker and adjust the DC voltage to 110 v.\nTurn off the Sverker.\nConnect the wire to pin 5 at the relay.\nReset the timer of the Sverker.\nSwitch on the Sverker to apply the 110 v DC to the timer ssx110.\nCheck that the timer picks up and closes its contact after the shown time on \n the LCD of the Sverker.\nThis is pick up time compare it with the setting time.\nTest Sheet\nFeeder: \n..............................................................................\nEquipment : Under Voltage relay\nType : \nUM3Y-SSX110\nVT Ratio: \n.............................................\nSetting: \nVoltage = \nV \nTime = \nsec\nTest Results\nLocation: \n Relay Code: \nTest date:\nTested by: \nSignature: \n Last test date:\nApproved by: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe relays of the UM3 series are instantaneous over \nand under voltage relays designed for general protection and signaling \napplications. Space is provided for fitting an ancillary timer.\nThe first draft initiated, tested by eng. Hany \nBassuony Abdel Razek, accepted by Dr. Tharwat Sabry, and approved by UEEPC \ninspection & quality control\ngeneral manager eng. Gamal Abdel Wahab.\nSafety \nPrecautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nTools and \nEquipment\nSverker 650 test set\nAvometer, \n test leads\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nThis procedure is used to perform off load relay \n test.\nThe test is divided into two tests\nThe AC test to determine pick up and reset voltage.\nThe DC test to determine the operating time.\nAC Test\nConnect the circuit as shown in fig. 1.\nIsolate the wire connected to pin 1at the relay.\nSwitch on the Sverker and adjust the voltage to100V.\nTurn off the Sverker.\nConnect the wire to pin 1 at the relay.\nSwitch on the Sverker to apply the 100 v to the relay then check that the \n relay reset.\nSlowly decrease the voltage until the relay picks up and closes its contact.\nThis is the pick up voltage.\nSlowly raise the voltage until the relay resets and open its contact.\nThis is the reset voltage.\nSwitch off the Sverker.\nDC Test\nConnect the circuit as shown in fig. 2.\nIsolate the wire connected to pin 5 at the relay.\nSwitch on the Sverker and adjust the DC voltage to 110 v.\nTurn off the Sverker.\nConnect the wire to pin 5 at the relay.\nReset the timer of the Sverker.\nSwitch on the Sverker to apply the 110 v DC to the timer ssx110.\nCheck that the timer picks up and closes its contact after the shown time on \n the LCD of the Sverker.\nThis is pick up time compare it with the setting time.\nTest Sheet\nFeeder: \n..............................................................................\nEquipment : Under Voltage relay\nType : \nUM3Y-SSX110\nVT Ratio: \n.............................................\nSetting: \nVoltage = \nV \nTime = \nsec\nTest Results\nTested Phase | R | S | T\nPick up voltage \n (v) |  |  | \nReset voltage \n (v) |  |  | \nTime (sec) |  |  | \nLocation: \n Relay Code: \nTest date:\nTested by: \nSignature: \n Last test date:\nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

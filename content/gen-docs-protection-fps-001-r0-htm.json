@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Feeders Protection Scheme 11.5kv\n Gas turbine type 9 ABB baden \n Switzerland"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -193,6 +191,61 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Static Over Current Relay - IKS 703 (F1)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Setting",
+     "Terminal",
+     "Be. test",
+     "Aft. test",
+     "Remark"
+    ],
+    [
+     "R",
+     "2.5 A",
+     "(1,2)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "2.5 A",
+     "(3,4)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "2.5 A",
+     "(5,6)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TIME delay",
+     "0.38",
+     "---",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Short circuit (S/C)"
   },
@@ -239,15 +292,83 @@
    "text": "Directional Earth Fault Relay - PM 2g no/90 (F3)"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Man. ref.",
+     "Setting",
+     "Terminal",
+     "Be. test",
+     "Aft. test",
+     "Remark"
+    ],
+    [
+     "Current",
+     "2.5",
+     "(1,2)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Voltage",
+     "5",
+     "(3,4)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time delay",
+     "0 S",
+     "---",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Zero Sequence \nCurrent Relay - IM3X - SSX 110 (F6)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Man. ref",
+     "Setting",
+     "Terminal",
+     "Be. test",
+     "Aft. test",
+     "Remark"
+    ],
+    [
+     "Current",
+     "0.5A",
+     "(1,2)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "time delay",
+     "0.53",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: Relay \nDesignation: Test \nDate: \nTested \nby: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Feeders Protection Scheme 11.5kv\n Gas turbine type 9 ABB baden \n Switzerland\nIntroduction\nThis document outlines the \nfeeders protection testing procedure P1 witch must be performed on an annually \nbasses as \nindicated by Y1 in the above title block\nThe first draft initiated by eng. Mohamed Aly \nAly Hassan. tested by eng. Al-Shahat \nAhmed Mousa. At 7 sep. 2003, revised by EDEPC quality control engineer. Adel \nEl-Nagar, accepted by general director eng. Hamdy Abd el-Moola Melegy, approved \nby Yousry Mohamed Aly Salama: Power Station head sector, and \ncertified by EDEPCo. Quality \nControl Head Sector eng. Aly Al Lethy.\nThe Protection Scheme consists of:\nStatic over current relay - \nIKS 703 (F1) No (1,2)(3,4)(5,6)\nDirectional earth fault relay - PM 2g no/90 (F3) No (1,2) C.T and (3,4) \nV.T\nZero sequence current relay - IM 3X - SSX 110 (F6) No (1,2) C.T\nStatic over current relay \n IKS 703 (F1)\nDirectional earth fault relay \n PM2g no/90(F3)\nZero sequence current relay \n IM3X - SSX 110 (F6)\nStatic over current relay - \nIKS 703 (F1) No (1,2)(3,4)(5,6)\nDirectional earth fault relay - PM 2g no/90 (F3) No (1,2) C.T and (3,4) \nV.T\nZero sequence current relay - IM 3X - SSX 110 (F6) No (1,2) C.T\nSafety Precautions\nStatic Over Current Relay - IKS 703 (F1) No. \n(1,2) (3,4) (5,6)\nDirectional Earth Fault Relay - PM 2g no/90 (F3) \nNo. (1,2) CT (3,4) VT\nZero Sequence Current Relay IM3X - SSX 110 (F6) \nNo. (1,2) CT\nStatic Over Current Relay - IKS 703 (F1) No. \n(1,2) (3,4) (5,6)\nDirectional Earth Fault Relay - PM 2g no/90 (F3) \nNo. (1,2) CT (3,4) VT\nZero Sequence Current Relay IM3X - SSX 110 (F6) \nNo. (1,2) CT\nTools and Equipment\nSverker test set\nAir blower\nComplete maintenance set\nCleaning power (90) (video cleaner dry 90)\nWork to be Carried Out\nConnect the relay testing units (Sverker) to a power source\nConnect the timer to power source and its terminals to the \n trip terminals the relay test\nPut an ammeter on current leads of testing unit to measure the \n current and connect the voltmeter in parallel with the voltage leads testing \n unit to measure the voltage\nReview the manual\nPrepare the previous results of the relay testing\nBe sure that the CB disconnected and DC source is available\nStatic Over Current Relay - IKS 703 (F1)\nOpen circuit (O/C)\nInject 2.5 amp. to \noperating coil to terminal (1,2)(3,4)(5,6) the operating coil working after 0.54 \nsec\nOpen circuit (O/C)\nInject 2.5 amp. to \noperating coil to terminal (1,2)(3,4)(5,6) the operating coil working after 0.54 \nsec\nShort Circuit (S/C)\nInject 10 amp. to \noperating coil to terminal (1,2)(3,4)(5,6) the operating coil working after 0.06 \nsec\nRecord results\nInject 10 amp. to \noperating coil to terminal (1,2)(3,4)(5,6) the operating coil working after 0.06 \nsec\nRecord results\nDirectional Earth Fault Relay - PM 2g no/90 (F3)\nInject 2.5 amp. on \npoints (1,2) and inject 5 voltage on points (3,4) the operating coil working\nRecord results\nInject 2.5 amp. on \npoints (1,2) and inject 5 voltage on points (3,4) the operating coil working\nRecord results\nZero Sequence Current Relay IM3X - SSX 110 (F6)\nInject 0.5 amp to \noperating coil to terminal (1,2) the operating coil working after 0.53 sec\nRecord results\nInject 0.5 amp to \noperating coil to terminal (1,2) the operating coil working after 0.53 sec\nRecord results\nShort circuit (S/C)\n\nDirectional Earth Fault Relay - PM 2g no/90 (F3)\nZero Sequence \nCurrent Relay - IM3X - SSX 110 (F6)\nLocation: Relay \nDesignation: Test \nDate: \nTested \nby: \nSignature:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines the \nfeeders protection testing procedure P1 witch must be performed on an annually \nbasses as \nindicated by Y1 in the above title block\nThe first draft initiated by eng. Mohamed Aly \nAly Hassan. tested by eng. Al-Shahat \nAhmed Mousa. At 7 sep. 2003, revised by EDEPC quality control engineer. Adel \nEl-Nagar, accepted by general director eng. Hamdy Abd el-Moola Melegy, approved \nby Yousry Mohamed Aly Salama: Power Station head sector, and \ncertified by EDEPCo. Quality \nControl Head Sector eng. Aly Al Lethy.\nThe Protection Scheme consists of:\nStatic over current relay - \nIKS 703 (F1) No (1,2)(3,4)(5,6)\nDirectional earth fault relay - PM 2g no/90 (F3) No (1,2) C.T and (3,4) \nV.T\nZero sequence current relay - IM 3X - SSX 110 (F6) No (1,2) C.T\nStatic over current relay \n IKS 703 (F1)\nDirectional earth fault relay \n PM2g no/90(F3)\nZero sequence current relay \n IM3X - SSX 110 (F6)\nStatic over current relay - \nIKS 703 (F1) No (1,2)(3,4)(5,6)\nDirectional earth fault relay - PM 2g no/90 (F3) No (1,2) C.T and (3,4) \nV.T\nZero sequence current relay - IM 3X - SSX 110 (F6) No (1,2) C.T\nSafety Precautions\nStatic Over Current Relay - IKS 703 (F1) No. \n(1,2) (3,4) (5,6)\nDirectional Earth Fault Relay - PM 2g no/90 (F3) \nNo. (1,2) CT (3,4) VT\nZero Sequence Current Relay IM3X - SSX 110 (F6) \nNo. (1,2) CT\nStatic Over Current Relay - IKS 703 (F1) No. \n(1,2) (3,4) (5,6)\nDirectional Earth Fault Relay - PM 2g no/90 (F3) \nNo. (1,2) CT (3,4) VT\nZero Sequence Current Relay IM3X - SSX 110 (F6) \nNo. (1,2) CT\nTools and Equipment\nSverker test set\nAir blower\nComplete maintenance set\nCleaning power (90) (video cleaner dry 90)\nWork to be Carried Out\nConnect the relay testing units (Sverker) to a power source\nConnect the timer to power source and its terminals to the \n trip terminals the relay test\nPut an ammeter on current leads of testing unit to measure the \n current and connect the voltmeter in parallel with the voltage leads testing \n unit to measure the voltage\nReview the manual\nPrepare the previous results of the relay testing\nBe sure that the CB disconnected and DC source is available\nStatic Over Current Relay - IKS 703 (F1)\nOpen circuit (O/C)\nInject 2.5 amp. to \noperating coil to terminal (1,2)(3,4)(5,6) the operating coil working after 0.54 \nsec\nOpen circuit (O/C)\nInject 2.5 amp. to \noperating coil to terminal (1,2)(3,4)(5,6) the operating coil working after 0.54 \nsec\nShort Circuit (S/C)\nInject 10 amp. to \noperating coil to terminal (1,2)(3,4)(5,6) the operating coil working after 0.06 \nsec\nRecord results\nInject 10 amp. to \noperating coil to terminal (1,2)(3,4)(5,6) the operating coil working after 0.06 \nsec\nRecord results\nDirectional Earth Fault Relay - PM 2g no/90 (F3)\nInject 2.5 amp. on \npoints (1,2) and inject 5 voltage on points (3,4) the operating coil working\nRecord results\nInject 2.5 amp. on \npoints (1,2) and inject 5 voltage on points (3,4) the operating coil working\nRecord results\nZero Sequence Current Relay IM3X - SSX 110 (F6)\nInject 0.5 amp to \noperating coil to terminal (1,2) the operating coil working after 0.53 sec\nRecord results\nInject 0.5 amp to \noperating coil to terminal (1,2) the operating coil working after 0.53 sec\nRecord results\nStatic Over Current Relay - IKS 703 (F1)\nPhase | Setting | Terminal | Be. test | Aft. test | Remark\nR | 2.5 A | (1,2) |  |  | \nS | 2.5 A | (3,4) |  |  | \nT | 2.5 A | (5,6) |  |  | \nTIME delay | 0.38 | --- |  |  | \nShort circuit (S/C)\nPhase | Setting | Terminal | Be. test | Aft. test | Remark\nR | 10A | (1,2) |  |  | \nS | 10A | (3,4) |  |  | \nT | 10A | (5,6) |  |  | \nDirectional Earth Fault Relay - PM 2g no/90 (F3)\nMan. ref. | Setting | Terminal | Be. test | Aft. test | Remark\nCurrent | 2.5 | (1,2) |  |  | \nVoltage | 5 | (3,4) |  |  | \nTime delay | 0 S | --- |  |  | \nZero Sequence \nCurrent Relay - IM3X - SSX 110 (F6)\nMan. ref | Setting | Terminal | Be. test | Aft. test | Remark\nCurrent | 0.5A | (1,2) |  |  | \ntime delay | 0.53 |  |  |  | \nLocation: Relay \nDesignation: Test \nDate: \nTested \nby: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

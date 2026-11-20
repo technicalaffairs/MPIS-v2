@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Distance Protection \n MICROMHO\n GEC"
-  },
-  {
-   "type": "paragraph",
-   "text": "Issued to: Al Kurimat PS"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -145,8 +139,40 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Start (-)"
+   "type": "table",
+   "rows": [
+    [
+     "MOD",
+     "ZZ \n (Distance)",
+     "SQ",
+     "1F1"
+    ],
+    [
+     "ZL",
+     "up to \n setting Z1",
+     "A",
+     "2"
+    ],
+    [
+     "PZL",
+     "Angle \n of setting line (0.360˚)",
+     "TF",
+     "Time \n fault zone (250) ms"
+    ],
+    [
+     "K0",
+     "(0..1)",
+     "DZL",
+     "(0.1)"
+    ],
+    [
+     "FC",
+     "Fault \n Code forward 111 (phase to earth)",
+     "Start (-)",
+     "injection of testing signals"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "list",
@@ -232,20 +258,50 @@
    "text": "Prepare the set test XS92a as \nfollowing:"
   },
   {
-   "type": "paragraph",
-   "text": "ZS"
-  },
-  {
-   "type": "paragraph",
-   "text": "PZS"
-  },
-  {
-   "type": "paragraph",
-   "text": "6 ohm"
-  },
-  {
-   "type": "paragraph",
-   "text": "90"
+   "type": "table",
+   "rows": [
+    [
+     "MOD",
+     "ZZ (Distance)"
+    ],
+    [
+     "ZL",
+     "Just above ZR"
+    ],
+    [
+     "PZL",
+     "Angle of setting \n line (0.360˚)"
+    ],
+    [
+     "ZS \n PZS\n K0",
+     "6 ohm\n 90\n (0..1)"
+    ],
+    [
+     "FC",
+     "Fault Code forward \n 011 (phase to earth)"
+    ],
+    [
+     "SQ",
+     "1F1"
+    ],
+    [
+     "A",
+     "2"
+    ],
+    [
+     "TF",
+     "Time fault zone (T3) \n ms"
+    ],
+    [
+     "DZL",
+     "Step parameters and \n range limits (0.1)"
+    ],
+    [
+     "Start(-)",
+     "injection of testing \n signals"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -454,11 +510,108 @@
    "text": "Z3 = Ω, ZR = Ω"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Z1",
+     "Z2",
+     "Z3",
+     "ZR"
+    ],
+    [
+     "RN",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TIME",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "SN",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TIME",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TN",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TIME",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "RS",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TIME",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "ST",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TIME",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TR",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TIME",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: Relay \nDesignation: Tested by: Test Date: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Distance Protection \n MICROMHO\n GEC\nIssued to: Al Kurimat PS\nIntroduction\nThis document outlines the testing procedures P1, to be performed on an annually bases as indicated by Y1 in the title \n block.\nThe Micromho static distance protection scheme is designed \nfor high speed\nphase and earth fault protection for high voltage and EHV over head transmission \nlines. Three zones of protection are provided, each of individual\nSettings, zones 1 and 2 having polarized mho characteristics and zone \n3 having offset mho characteristic.\nThe first draft \ninitiated by eng. Hany Bassuony Abd El \n Razek, tested at Kurimat-Demo1 220kv circuit #1,\n accepted by eng. Mohamed Badawy; general director of \nKurimat PS, \nrevised by \n eng. Gamal Abdel Wahab, \napproved by Dr. Sarwat Sabry, \n and \ncertified by eng. \n Mohamed Gamal Eldeen Mohamed Diab \nUEEPC \ninspection and quality \n control \n head \nsector.\nSafety Precautions\nSwitch off DC \n power supply before inserting or withdrawing any card from the relay.\nWork permit must be issued the \n maintenance staff should be qualified and carry the suitable safety category\nSafety fence with caution marks \n surrounding the work area is required.\nWear \n the personal\n protective equipment as (safety shoes, Helmet).\nLine isolation is \n required.\nMake sure CT secondary circuits are shorted before isolating the relay \n current circuits for test current injection.\nSwitch off DC \n power supply before inserting or withdrawing any card from the relay.\nTools and Equipment\nXS92a test set ( 2 units )\nTest Plugs 1V and 2V,\n Test leads,\n Screwdriver\nWork to be Carried Out\nPreliminary Steps to \nPrepare for Relay Testing\nBreaker trip coils and transfer trip scheme.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nAuto-reclose associated with this relay.\nTesting the Relay and \nProtection Outputs\nCarefully follow these test procedure steps.\nVerify the test results match the relay setting, if not consult technical \n services.\nTest trip all breakers associated with the relay.\nPrior to Starting Testing \nProcedure Ensure the Following Steps\nLook at the \n EEHC panel nameplate and check that this EEHC system designation \n nameplate agrees with the line that has been taken out of service for \n maintenance.\nCheck there is no AC current from CT's by using a clip on ammeter.\nCheck there is no AC voltage from VT's by using a voltmeter.\nConnect the \n XS92a test set.\nConnect test plug 1V as shown in figure \n (a) and test plug 2V as shown in figure (b).\nEnsure that the CT secondary is correctly short circuited on the case side \n of test plug 1V\nThese connections must be made before the test plug is inserted.\nConnect the current terminals IA, IB, \n IC and IN on the test plug to the corresponding current terminals on the test \n set.\nConnect the voltage terminals VA, VB, VC and VN on the test plug to the \n corresponding voltage terminals on the test set.\nRemove relay isolating plugs 1V and 2V.\nInsert the test plug 1V and 2V in the relay.\nTesting the Phase to ground \nMeasuring Elements\nZone I\nA phase angle as near as possible to the relay characteristic angle.\nFault impedance just above the calculated value.\nStart (-)\nWe entered above \nparameters according to the flow charts of set Test XS92a\nWhen the relay gives tripping signal press ◙ to stop injection\nRead the values in hand terminal of set test XS92a, and compare \nthis value with the value of setting in test sheet of relay.\nObserve that the red indications A, N and Z1 on the relay will \nlight up.\nPress the reset button on the relay front panel and check that \nthe led indicator resets and the alarm contacts open.\nRepeat \nthe above test but in the reverse direction by using (FC) fault code (0ll) and \nmake sure that the relay is blocked in reverse direction.\nRepeat the above test for phases B-N and C-N.\nWhen the relay gives tripping signal press ◙ to stop injection\nRead the values in hand terminal of set test XS92a, and compare \nthis value with the value of setting in test sheet of relay.\nObserve that the red indications A, N and Z1 on the relay will \nlight up.\nPress the reset button on the relay front panel and check that \nthe led indicator resets and the alarm contacts open.\nRepeat \nthe above test but in the reverse direction by using (FC) fault code (0ll) and \nmake sure that the relay is blocked in reverse direction.\nRepeat the above test for phases B-N and C-N.\nZone II\nRepeat the above test for zone I , \nbut change the \nvalue entered ZL just above Z2 , and TF up to time of Z2 .\nMake sure the \nrelay in forward direction (trip) and reverse direction (Block)\nRepeat the above test for zone I , \nbut change the \nvalue entered ZL just above Z2 , and TF up to time of Z2 .\nMake sure the \nrelay in forward direction (trip) and reverse direction (Block)\nZone III\nForward\nRepeat the above test for zone I from step1 to 7, But change the value entered \n ZL up to Z3 , and TF up to time of Z3 .\nMake sure the relay in forward direction (trip) .\nReverse \nReach\nPrepare the set test XS92a as \nfollowing:\nZS\nPZS\n6 ohm\n90\nWhen the relay gives tripping signal press ◙ to stop \ninjection\nWhen the relay gives tripping signal press ◙ to stop \ninjection\nRead the values in hand terminal of test set XS92a, and compare \nthis value with the value of setting in test sheet of relay.\nObserve that the red indications A, N and Z3 on the relay will \nlight up.\nPress the reset button on the relay front panel and check that \nthe led indicator resets and the alarm contacts open.\nRepeat the Zone III \ntest for phases B-N and C-N.\nRead the values in hand terminal of test set XS92a, and compare \nthis value with the value of setting in test sheet of relay.\nObserve that the red indications A, N and Z3 on the relay will \nlight up.\nPress the reset button on the relay front panel and check that \nthe led indicator resets and the alarm contacts open.\nRepeat the Zone III \ntest for phases B-N and C-N.\nMeasuring the Operating Times\nThe operating Time of a distance relay should be measured using \nthe tripping contact (free contact).\nConnected The free contact to (+) and ( __\\__ ) in the front \npanel of test set XS 92a .\nEnter the all parameters of zone by ZL = 0.5 ZI\nWhen the trip occurs the value is automatically stopped by free \ncontact then read the value of the time of zone I in the terminal\nRepeat the above step to measuring the time of zone II , III \n.\nThe operating Time of a distance relay should be measured using \nthe tripping contact (free contact).\nConnected The free contact to (+) and ( __\\__ ) in the front \npanel of test set XS 92a .\nEnter the all parameters of zone by ZL = 0.5 ZI\nWhen the trip occurs the value is automatically stopped by free \ncontact then read the value of the time of zone I in the terminal\nRepeat the above step to measuring the time of zone II , III \n.\nTesting the Phase to phase \nMeasuring Elements\nRepeat all Phase to ground tests but with \ndifferent fault codes as follows:-\nFault code Phase R-S 121 Forward direction\n Phase S-T 122 \nForward direction \n Phase T-R 123 Forward direction \nIn the reverse direction (021), (022), (023) (Block)\nRepeat all Phase to ground tests but with \ndifferent fault codes as follows:-\nFault code Phase R-S 121 Forward direction\n Phase S-T 122 \nForward direction \n Phase T-R 123 Forward direction \nIn the reverse direction (021), (022), (023) (Block)\nTest Trip all Breakers \nAssociated with the Relay\nReconnect Breaker trip coils.\nClose only the circuit breakers associated with the relay.\nAdjust the injection parameters to make trip.\nStart injection and make sure all breakers are tripped.\nRestore the Relay to \nService\nUnplug the test set XS92a from the power source.\nRemove the test leads from the relay and the test equipment.\nRemove the test plugs 1V and 2V from the relay.\nReturn the relay to the permanent settings as indicated in the maintenance \n file.\nThis Completes the Test Procedure.\nReturn Relay and \nAssociated \nEquipment to Service\nReturn relay to service by inserting the relay plugs1V and 2V to the relay.\nIf any equipment associated with the relay has been isolated without the test \n plug, it should be returned to service by the following restoration steps:\nBreaker trip coils and transfer trip scheme.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nAuto-reclosure associated with this relay.\nFigure 2 : Test plug connections for secondary \ninjection\nTest Sheet\nRelay type : \nmicromho\nManufacture : GEC\nRelay Setting\nK1= \nK11= K21= K31= K51=\nK2= \n K12= K22= K32= K52=\nK3= \nK13= K24= K33= K53=\nK4= \nK14= K34= K54=\nK5= \nK15=\nK16=\na\\b \n= θ ( phase ) \n= θ ( N ) =\nTZ2 \n( PHASE ) = m sec\nTZ2 \n( EARTH ) = m sec\nTZ3 \n( PHASE ) = m sec\nTZ3 \n( EARTH ) = m sec\nSecondary Settings\nZ1 = Ω, Z2 = Ω\nZ3 = Ω, ZR = Ω\nLocation: Relay \nDesignation: Tested by: Test Date: \nSignature:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines the testing procedures P1, to be performed on an annually bases as indicated by Y1 in the title \n block.\nThe Micromho static distance protection scheme is designed \nfor high speed\nphase and earth fault protection for high voltage and EHV over head transmission \nlines. Three zones of protection are provided, each of individual\nSettings, zones 1 and 2 having polarized mho characteristics and zone \n3 having offset mho characteristic.\nThe first draft \ninitiated by eng. Hany Bassuony Abd El \n Razek, tested at Kurimat-Demo1 220kv circuit #1,\n accepted by eng. Mohamed Badawy; general director of \nKurimat PS, \nrevised by \n eng. Gamal Abdel Wahab, \napproved by Dr. Sarwat Sabry, \n and \ncertified by eng. \n Mohamed Gamal Eldeen Mohamed Diab \nUEEPC \ninspection and quality \n control \n head \nsector.\nSafety Precautions\nSwitch off DC \n power supply before inserting or withdrawing any card from the relay.\nWork permit must be issued the \n maintenance staff should be qualified and carry the suitable safety category\nSafety fence with caution marks \n surrounding the work area is required.\nWear \n the personal\n protective equipment as (safety shoes, Helmet).\nLine isolation is \n required.\nMake sure CT secondary circuits are shorted before isolating the relay \n current circuits for test current injection.\nSwitch off DC \n power supply before inserting or withdrawing any card from the relay.\nTools and Equipment\nXS92a test set ( 2 units )\nTest Plugs 1V and 2V,\n Test leads,\n Screwdriver\nWork to be Carried Out\nPreliminary Steps to \nPrepare for Relay Testing\nBreaker trip coils and transfer trip scheme.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nAuto-reclose associated with this relay.\nTesting the Relay and \nProtection Outputs\nCarefully follow these test procedure steps.\nVerify the test results match the relay setting, if not consult technical \n services.\nTest trip all breakers associated with the relay.\nPrior to Starting Testing \nProcedure Ensure the Following Steps\nLook at the \n EEHC panel nameplate and check that this EEHC system designation \n nameplate agrees with the line that has been taken out of service for \n maintenance.\nCheck there is no AC current from CT's by using a clip on ammeter.\nCheck there is no AC voltage from VT's by using a voltmeter.\nConnect the \n XS92a test set.\nConnect test plug 1V as shown in figure \n (a) and test plug 2V as shown in figure (b).\nEnsure that the CT secondary is correctly short circuited on the case side \n of test plug 1V\nThese connections must be made before the test plug is inserted.\nConnect the current terminals IA, IB, \n IC and IN on the test plug to the corresponding current terminals on the test \n set.\nConnect the voltage terminals VA, VB, VC and VN on the test plug to the \n corresponding voltage terminals on the test set.\nRemove relay isolating plugs 1V and 2V.\nInsert the test plug 1V and 2V in the relay.\nTesting the Phase to ground \nMeasuring Elements\nZone I\nA phase angle as near as possible to the relay characteristic angle.\nFault impedance just above the calculated value.\nMOD | ZZ \n (Distance) | SQ | 1F1\nZL | up to \n setting Z1 | A | 2\nPZL | Angle \n of setting line (0.360˚) | TF | Time \n fault zone (250) ms\nK0 | (0..1) | DZL | (0.1)\nFC | Fault \n Code forward 111 (phase to earth) | Start (-) | injection of testing signals\nWe entered above \nparameters according to the flow charts of set Test XS92a\nWhen the relay gives tripping signal press ◙ to stop injection\nRead the values in hand terminal of set test XS92a, and compare \nthis value with the value of setting in test sheet of relay.\nObserve that the red indications A, N and Z1 on the relay will \nlight up.\nPress the reset button on the relay front panel and check that \nthe led indicator resets and the alarm contacts open.\nRepeat \nthe above test but in the reverse direction by using (FC) fault code (0ll) and \nmake sure that the relay is blocked in reverse direction.\nRepeat the above test for phases B-N and C-N.\nWhen the relay gives tripping signal press ◙ to stop injection\nRead the values in hand terminal of set test XS92a, and compare \nthis value with the value of setting in test sheet of relay.\nObserve that the red indications A, N and Z1 on the relay will \nlight up.\nPress the reset button on the relay front panel and check that \nthe led indicator resets and the alarm contacts open.\nRepeat \nthe above test but in the reverse direction by using (FC) fault code (0ll) and \nmake sure that the relay is blocked in reverse direction.\nRepeat the above test for phases B-N and C-N.\nZone II\nRepeat the above test for zone I , \nbut change the \nvalue entered ZL just above Z2 , and TF up to time of Z2 .\nMake sure the \nrelay in forward direction (trip) and reverse direction (Block)\nRepeat the above test for zone I , \nbut change the \nvalue entered ZL just above Z2 , and TF up to time of Z2 .\nMake sure the \nrelay in forward direction (trip) and reverse direction (Block)\nZone III\nForward\nRepeat the above test for zone I from step1 to 7, But change the value entered \n ZL up to Z3 , and TF up to time of Z3 .\nMake sure the relay in forward direction (trip) .\nReverse \nReach\nPrepare the set test XS92a as \nfollowing:\nMOD | ZZ (Distance)\nZL | Just above ZR\nPZL | Angle of setting \n line (0.360˚)\nZS \n PZS\n K0 | 6 ohm\n 90\n (0..1)\nFC | Fault Code forward \n 011 (phase to earth)\nSQ | 1F1\nA | 2\nTF | Time fault zone (T3) \n ms\nDZL | Step parameters and \n range limits (0.1)\nStart(-) | injection of testing \n signals\nWhen the relay gives tripping signal press ◙ to stop \ninjection\nWhen the relay gives tripping signal press ◙ to stop \ninjection\nRead the values in hand terminal of test set XS92a, and compare \nthis value with the value of setting in test sheet of relay.\nObserve that the red indications A, N and Z3 on the relay will \nlight up.\nPress the reset button on the relay front panel and check that \nthe led indicator resets and the alarm contacts open.\nRepeat the Zone III \ntest for phases B-N and C-N.\nRead the values in hand terminal of test set XS92a, and compare \nthis value with the value of setting in test sheet of relay.\nObserve that the red indications A, N and Z3 on the relay will \nlight up.\nPress the reset button on the relay front panel and check that \nthe led indicator resets and the alarm contacts open.\nRepeat the Zone III \ntest for phases B-N and C-N.\nMeasuring the Operating Times\nThe operating Time of a distance relay should be measured using \nthe tripping contact (free contact).\nConnected The free contact to (+) and ( __\\__ ) in the front \npanel of test set XS 92a .\nEnter the all parameters of zone by ZL = 0.5 ZI\nWhen the trip occurs the value is automatically stopped by free \ncontact then read the value of the time of zone I in the terminal\nRepeat the above step to measuring the time of zone II , III \n.\nThe operating Time of a distance relay should be measured using \nthe tripping contact (free contact).\nConnected The free contact to (+) and ( __\\__ ) in the front \npanel of test set XS 92a .\nEnter the all parameters of zone by ZL = 0.5 ZI\nWhen the trip occurs the value is automatically stopped by free \ncontact then read the value of the time of zone I in the terminal\nRepeat the above step to measuring the time of zone II , III \n.\nTesting the Phase to phase \nMeasuring Elements\nRepeat all Phase to ground tests but with \ndifferent fault codes as follows:-\nFault code Phase R-S 121 Forward direction\n Phase S-T 122 \nForward direction \n Phase T-R 123 Forward direction \nIn the reverse direction (021), (022), (023) (Block)\nRepeat all Phase to ground tests but with \ndifferent fault codes as follows:-\nFault code Phase R-S 121 Forward direction\n Phase S-T 122 \nForward direction \n Phase T-R 123 Forward direction \nIn the reverse direction (021), (022), (023) (Block)\nTest Trip all Breakers \nAssociated with the Relay\nReconnect Breaker trip coils.\nClose only the circuit breakers associated with the relay.\nAdjust the injection parameters to make trip.\nStart injection and make sure all breakers are tripped.\nRestore the Relay to \nService\nUnplug the test set XS92a from the power source.\nRemove the test leads from the relay and the test equipment.\nRemove the test plugs 1V and 2V from the relay.\nReturn the relay to the permanent settings as indicated in the maintenance \n file.\nThis Completes the Test Procedure.\nReturn Relay and \nAssociated \nEquipment to Service\nReturn relay to service by inserting the relay plugs1V and 2V to the relay.\nIf any equipment associated with the relay has been isolated without the test \n plug, it should be returned to service by the following restoration steps:\nBreaker trip coils and transfer trip scheme.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nAuto-reclosure associated with this relay.\nFigure 2 : Test plug connections for secondary \ninjection\nTest Sheet\nRelay type : \nmicromho\nManufacture : GEC\nRelay Setting\nK1= \nK11= K21= K31= K51=\nK2= \n K12= K22= K32= K52=\nK3= \nK13= K24= K33= K53=\nK4= \nK14= K34= K54=\nK5= \nK15=\nK16=\na\\b \n= θ ( phase ) \n= θ ( N ) =\nTZ2 \n( PHASE ) = m sec\nTZ2 \n( EARTH ) = m sec\nTZ3 \n( PHASE ) = m sec\nTZ3 \n( EARTH ) = m sec\nSecondary Settings\nZ1 = Ω, Z2 = Ω\nZ3 = Ω, ZR = Ω\n | Z1 | Z2 | Z3 | ZR\nRN |  |  |  | \nTIME |  |  |  | \nSN |  |  |  | \nTIME |  |  |  | \nTN |  |  |  | \nTIME |  |  |  | \nRS |  |  |  | \nTIME |  |  |  | \nST |  |  |  | \nTIME |  |  |  | \nTR |  |  |  | \nTIME |  |  |  | \nLocation: Relay \nDesignation: Tested by: Test Date: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

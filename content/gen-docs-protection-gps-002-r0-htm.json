@@ -24,14 +24,6 @@
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Generator \n Protection Scheme\n For 1, 2 SP01 of unit 1, 2 150 MW"
-  },
-  {
-   "type": "paragraph",
-   "text": "AEG"
-  },
-  {
    "type": "heading",
    "level": 3,
    "text": "Introduction"
@@ -127,8 +119,24 @@
    "type": "table",
    "rows": [
     [
+     "Differential protection SQG 4a.",
+     "Over voltage Ruzd"
+    ],
+    [
+     "Distance Protection SD35a",
+     "Under frequency 7RP72"
+    ],
+    [
+     "Negative Phase Sequence SM22b",
+     "Stator Earth Fault RSZY"
+    ],
+    [
+     "Reveres power RRGZ3Y short time",
+     "Rotor Earth fault protection.REGL1"
+    ],
+    [
      "Reverse Power protection RRGZ3Y\n Long time",
-     ""
+     "Loss of Excitation RGX10"
     ]
    ],
    "truncated_rows": 0
@@ -161,81 +169,17 @@
    "text": "for units 1, 2 type SPO1 AEG"
   },
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Operating"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time"
-  },
-  {
-   "type": "paragraph",
-   "text": "VT"
-  },
-  {
-   "type": "paragraph",
-   "text": "CT"
-  },
-  {
-   "type": "paragraph",
-   "text": "R ="
-  },
-  {
-   "type": "paragraph",
-   "text": "S ="
-  },
-  {
-   "type": "paragraph",
-   "text": "T1=2.5 sec T2=3 sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "Stator"
-  },
-  {
-   "type": "paragraph",
-   "text": "Rotor"
-  },
-  {
-   "type": "paragraph",
-   "text": "Negative"
-  },
-  {
-   "type": "paragraph",
-   "text": "3 sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "Loss of"
-  },
-  {
-   "type": "paragraph",
-   "text": "A=1.85*dr"
-  },
-  {
-   "type": "paragraph",
-   "text": "W=1.85*dr"
-  },
-  {
-   "type": "paragraph",
-   "text": "Under"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "No.",
+     "Protection \n Name",
+     "Device Type",
+     "Operating\n Setting",
+     "Time\n Setting",
+     "VT \n Ratio",
+     "CT\n Ratio",
+     "Test \n Results",
      "Remarks"
     ],
     [
@@ -246,15 +190,15 @@
      "Instant",
      "",
      "10000/1",
-     "",
+     "R =\n S = \n T =",
      ""
     ],
     [
      "2",
      "Distance Protection",
      "SD340734",
-     "",
-     "",
+     "Z1=5 ohm Z2=8.5 ohm Z3=12 ohm",
+     "T1=2.5 sec T2=3 sec\n T3=3 sec",
      "1005kv/100v",
      "10000/1",
      "",
@@ -262,20 +206,20 @@
     ],
     [
      "3",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Stator \n Earth Fault",
+     "RSZY",
+     "0.4A",
+     "T=2sec",
+     "10.5kv/(500/3)v /100v",
+     "30/1",
      "",
      ""
     ],
     [
      "4",
-     "",
-     "",
-     "",
+     "Rotor \n Earth \n Fault",
+     "REGL1",
+     "Alarm",
      "",
      "",
      "",
@@ -283,56 +227,66 @@
     ],
     [
      "5",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Negative\n Phase Sequence",
+     "SM22b",
+     "Alarm:0.11A Trip:0.2",
+     "3 sec\n 10sec",
+     "10.5kv/100v",
+     "10000/1",
      "",
      ""
     ],
     [
      "6",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Loss of \n excitation",
+     "RGX10",
+     "A=1.85*dr \n W=1.85*dr\n dr=0.22",
+     "TE=0.8 s TK=2s",
+     "10.5kv/100v",
+     "10000/1",
      "",
      ""
     ],
     [
      "7",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Under \n Frequency",
+     "7RP72",
+     "48 \n HZ",
+     "T=1.5 s",
+     "10.5kv/100v",
      "",
      "",
      ""
     ],
     [
      "8",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Over \n Voltage",
+     "Ruzd",
+     "120% of vn",
+     "0.5 \n sec",
+     "10.5kv/100v",
      "",
      "",
      ""
     ],
     [
      "9",
+     "Reverse \n Power (long time)",
+     "RRGZ3Y",
+     "0.6pn long",
+     "20 \n sec",
+     "10.5kv/100v",
+     "10000/1",
      "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     ""
+    ],
+    [
+     "Reverse \n Power (short time)",
+     "WI310",
+     "0.6pn short",
+     "2 \n sec",
+     "10.5kv/100v",
+     "10000/1",
      "",
      ""
     ]
@@ -352,7 +306,7 @@
    "text": "Approved by: Signature:"
   }
  ],
- "text": "\nGenerator \n Protection Scheme\n For 1, 2 SP01 of unit 1, 2 150 MW\nAEG\nIntroduction\nThis document outlines the testing procedure \nP1, which must be performed every six \nmonths\nas indicated by \nM6 in the title block.\nThis patent \nconcerns the test of protection relays of the transformer manufactured by AEG. \nThe Transformer, rated active power 150 MW, rated apparent power 187 MVA, power \nfactor 0.8, and voltages 10.5 KV\nThe first draft is initiated by eng. Fathy Abd El \nSalam Hassan, tested by eng. mahamed Tohamy Accepted by electrical general \nmanger eng. Said Farag, revised by \nEDEPC inspection and quality control eng. Adel Abd ELQader El-nagar, accepted \nby eng. Samir Abd El-Gilil: EDEPC MPIS coordinator approved by eng. \nMoukhtar Abd Ellateef Mady: head sectorof Ataka PS.\nThis document accepted by eng. \nSamir Abdel Gilil EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector.\nSafety Precautions\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n ID category.\nSafety fence with caution \n marks surrounding the work area is required.\nWear safety and healthy \n equipment as safety helmet, safety shoes, etc.\nEnsure of the disconnection of the \n exciter, generator, main transformer and home transformer.\nTools and Equipment\nCheck device,\n Digital Timer\nWorks to be Carried Out\nPreparation\nReview the manual.\nPrepare the previous results of the relay testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and the d.c. source \n is available.\nCheck the existence of the d.c. sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck all the leads used in tests.\nPreparation of Testing Tools\nConnect the test plug\nConnect the timer to a power source and its terminals to the trip terminals of \n the relay under test.\nThe test of almost all generator protection devices is achieved by isolating \neither CT circuits or PT circuits or both. This is done by using a special \nselector switch\nProtection Devices\nManufacturer of all Devices: AEG\n\nTest \nSteps\nPlace selector switch on the test mode.\ninsert the test plug in special boord\nInsert timer the plug in special socket\nRepeat the steps for the other three of phases.\nRecord the results.\nThe steps from 1 to5 are apply for all protection relays\nTest Sheet\nFor Generators Protection Scheme\nfor units 1, 2 type SPO1 AEG\nProtection\nOperating\nTime\nVT\nCT\nR =\nS =\nT1=2.5 sec T2=3 sec\nStator\nRotor\nNegative\n3 sec\nLoss of\nA=1.85*dr\nW=1.85*dr\nUnder\n\nLocation: \nRelay Code:\nTested \nby: Signature: \nTested Date:\nApproved by: Signature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedure \nP1, which must be performed every six \nmonths\nas indicated by \nM6 in the title block.\nThis patent \nconcerns the test of protection relays of the transformer manufactured by AEG. \nThe Transformer, rated active power 150 MW, rated apparent power 187 MVA, power \nfactor 0.8, and voltages 10.5 KV\nThe first draft is initiated by eng. Fathy Abd El \nSalam Hassan, tested by eng. mahamed Tohamy Accepted by electrical general \nmanger eng. Said Farag, revised by \nEDEPC inspection and quality control eng. Adel Abd ELQader El-nagar, accepted \nby eng. Samir Abd El-Gilil: EDEPC MPIS coordinator approved by eng. \nMoukhtar Abd Ellateef Mady: head sectorof Ataka PS.\nThis document accepted by eng. \nSamir Abdel Gilil EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector.\nSafety Precautions\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n ID category.\nSafety fence with caution \n marks surrounding the work area is required.\nWear safety and healthy \n equipment as safety helmet, safety shoes, etc.\nEnsure of the disconnection of the \n exciter, generator, main transformer and home transformer.\nTools and Equipment\nCheck device,\n Digital Timer\nWorks to be Carried Out\nPreparation\nReview the manual.\nPrepare the previous results of the relay testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and the d.c. source \n is available.\nCheck the existence of the d.c. sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck all the leads used in tests.\nPreparation of Testing Tools\nConnect the test plug\nConnect the timer to a power source and its terminals to the trip terminals of \n the relay under test.\nThe test of almost all generator protection devices is achieved by isolating \neither CT circuits or PT circuits or both. This is done by using a special \nselector switch\nProtection Devices\nManufacturer of all Devices: AEG\nDifferential protection SQG 4a. | Over voltage Ruzd\nDistance Protection SD35a | Under frequency 7RP72\nNegative Phase Sequence SM22b | Stator Earth Fault RSZY\nReveres power RRGZ3Y short time | Rotor Earth fault protection.REGL1\nReverse Power protection RRGZ3Y\n Long time | Loss of Excitation RGX10\nTest \nSteps\nPlace selector switch on the test mode.\ninsert the test plug in special boord\nInsert timer the plug in special socket\nRepeat the steps for the other three of phases.\nRecord the results.\nThe steps from 1 to5 are apply for all protection relays\nTest Sheet\nFor Generators Protection Scheme\nfor units 1, 2 type SPO1 AEG\nNo. | Protection \n Name | Device Type | Operating\n Setting | Time\n Setting | VT \n Ratio | CT\n Ratio | Test \n Results | Remarks\n1 | Differential Protection | RQG4a | 0.1A | Instant |  | 10000/1 | R =\n S = \n T = | \n2 | Distance Protection | SD340734 | Z1=5 ohm Z2=8.5 ohm Z3=12 ohm | T1=2.5 sec T2=3 sec\n T3=3 sec | 1005kv/100v | 10000/1 |  | \n3 | Stator \n Earth Fault | RSZY | 0.4A | T=2sec | 10.5kv/(500/3)v /100v | 30/1 |  | \n4 | Rotor \n Earth \n Fault | REGL1 | Alarm |  |  |  | \n5 | Negative\n Phase Sequence | SM22b | Alarm:0.11A Trip:0.2 | 3 sec\n 10sec | 10.5kv/100v | 10000/1 |  | \n6 | Loss of \n excitation | RGX10 | A=1.85*dr \n W=1.85*dr\n dr=0.22 | TE=0.8 s TK=2s | 10.5kv/100v | 10000/1 |  | \n7 | Under \n Frequency | 7RP72 | 48 \n HZ | T=1.5 s | 10.5kv/100v |  |  | \n8 | Over \n Voltage | Ruzd | 120% of vn | 0.5 \n sec | 10.5kv/100v |  |  | \n9 | Reverse \n Power (long time) | RRGZ3Y | 0.6pn long | 20 \n sec | 10.5kv/100v | 10000/1 |  | \nReverse \n Power (short time) | WI310 | 0.6pn short | 2 \n sec | 10.5kv/100v | 10000/1 |  | \nLocation: \nRelay Code:\nTested \nby: Signature: \nTested Date:\nApproved by: Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

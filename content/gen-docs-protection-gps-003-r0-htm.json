@@ -24,14 +24,6 @@
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Generator \n Protection Scheme\n For 3,4 SP01 of unit 3,4 310 MW"
-  },
-  {
-   "type": "paragraph",
-   "text": "AEG"
-  },
-  {
    "type": "heading",
    "level": 3,
    "text": "Introduction"
@@ -124,12 +116,44 @@
    "text": "Manufacturer of all Devices: AEG"
   },
   {
-   "type": "paragraph",
-   "text": "C.T.R"
+   "type": "table",
+   "rows": [
+    [
+     "Differential protection SQG 23A.",
+     "Over voltage SU251"
+    ],
+    [
+     "Distance Protection SD.35A",
+     "Under frequency SFT20"
+    ],
+    [
+     "Overload WI 310",
+     "Stator Earth fault 7UE22/SU153"
+    ],
+    [
+     "Negative Phase sequence SIG",
+     "Rotor Earth fault protection. SLG"
+    ],
+    [
+     "Reverse power SPR351 short time",
+     "Under / over exciting. SXG"
+    ],
+    [
+     "Reverse Power protection SPR351 \n Long time",
+     "Over All Differential SQT33A"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "11000/1A"
+   "type": "table",
+   "rows": [
+    [
+     "C.T.R\n V.T.R",
+     "11000/1A\n 21000/100V"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -159,153 +183,17 @@
    "text": "for units 3, 4 type SPO1 AEG"
   },
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Operating"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time"
-  },
-  {
-   "type": "paragraph",
-   "text": "VT"
-  },
-  {
-   "type": "paragraph",
-   "text": "CT"
-  },
-  {
-   "type": "paragraph",
-   "text": "L1= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L2= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L3= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "Z2=17.8 ohm"
-  },
-  {
-   "type": "paragraph",
-   "text": "T1=3 sec T2=3 sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "21/0.1V"
-  },
-  {
-   "type": "paragraph",
-   "text": "T1= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "T2= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "T3= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "Stator"
-  },
-  {
-   "type": "paragraph",
-   "text": "7UE22"
-  },
-  {
-   "type": "paragraph",
-   "text": "21/0.1"
-  },
-  {
-   "type": "paragraph",
-   "text": "Rotor"
-  },
-  {
-   "type": "paragraph",
-   "text": "R1=100k ohm"
-  },
-  {
-   "type": "paragraph",
-   "text": "Negative"
-  },
-  {
-   "type": "paragraph",
-   "text": "Ii/In=0.07"
-  },
-  {
-   "type": "paragraph",
-   "text": "Ti=4sec"
-  },
-  {
-   "type": "paragraph",
-   "text": "L1= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L2= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L3= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "Loss of"
-  },
-  {
-   "type": "paragraph",
-   "text": "@1=80 \n @2=0"
-  },
-  {
-   "type": "paragraph",
-   "text": "Under"
-  },
-  {
-   "type": "paragraph",
-   "text": "L1= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L2= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L3= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L1= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L2= \n s"
-  },
-  {
-   "type": "paragraph",
-   "text": "L3= \n s"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "No.",
+     "Protection \n Name",
+     "Device Type",
+     "Operating\n Setting",
+     "Time\n Setting",
+     "VT \n Ratio",
+     "CT\n Ratio",
+     "Test \n Results",
      "Remarks"
     ],
     [
@@ -313,98 +201,108 @@
      "Differential Protection",
      "SQG23A",
      "0Ian/In=0.2A",
+     "Instant",
      "",
-     "",
-     "",
-     "",
+     "10000/1",
+     "L1= \n s\n L2= \n s\n L3= \n s",
      ""
     ],
     [
      "2",
      "Distance Protection",
      "SD35A",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Z1=5 ohm \n Z2=17.8 ohm\n Z3=Z2",
+     "T1=3 sec T2=3 sec\n T3=3 sec",
+     "21/0.1V\n 0.5/3kv",
+     "10000/1",
+     "T1= \n s\n T2= \n s\n T3= \n s",
      ""
     ],
     [
      "3",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Stator \n Earth Fault",
+     "7UE22\n SU135",
+     "I=6mA\n U=10v",
+     "T=4sec TU=4sec",
+     "21/0.1 \n 0.5/3kv",
+     "30/1",
+     "X1= \n s",
      ""
     ],
     [
      "4",
-     "",
-     "",
-     "",
+     "Rotor \n Earth \n Fault",
+     "SLG",
+     "R1=100k ohm\n R2=20k ohm",
      "T=1 sec \n Instant",
      "",
      "",
-     "",
+     "X1= s",
      ""
     ],
     [
      "5",
+     "Negative\n Phase \n Sequence",
+     "SIG",
+     "Ii/In=0.07\n Iw/Ii=0.7",
+     "Ti=4sec\n Tw=4sec",
      "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "11000/1",
+     "L1= \n s\n L2= \n s\n L3= \n s",
      ""
     ],
     [
      "6",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Loss of \n excitation",
+     "SXG",
+     "@1=80 \n @2=0\n @1=8 @2=10",
+     "T1=0.05s T2=0.4s \n T>=4 s T>>=1 s",
+     "21/0.1kv",
+     "11000/1",
+     "X1= s X2= s \n X3= s",
      ""
     ],
     [
      "7",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Under \n Frequency",
+     "SFT20",
+     "F1=48 HZ F2=47.5HZ",
+     "T1=0.2 \n s T2=1.5 s",
+     "21/0.1kv",
      "",
      "",
      ""
     ],
     [
      "8",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "Over \n Voltage",
+     "SU251",
+     "U>=115% U>>=130%",
+     "1 \n sec 0.05sec",
+     "21/0.1kv",
      "",
      "",
      ""
     ],
     [
      "9",
+     "Reverse \n Power (long time)",
+     "SPR351",
+     "0.6pn \n short 0.6pn long",
+     "2 \n sec 15 sec",
+     "21/0.1kv",
+     "11000/1",
+     "L1= \n s\n L2= \n s\n L3= \n s",
+     ""
+    ],
+    [
+     "Reverse \n Power (short time)",
+     "WI310",
+     "Ie=0.98 A",
+     "0.8sec",
      "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     "",
+     "11000/1",
+     "L1= \n s\n L2= \n s\n L3= \n s",
      ""
     ]
    ],
@@ -423,7 +321,7 @@
    "text": "Approved by: Signature:"
   }
  ],
- "text": "\nGenerator \n Protection Scheme\n For 3,4 SP01 of unit 3,4 310 MW\nAEG\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \nannually bases\nas indicated by \nY1 in the title block.\nThis patent \nconcerns the test of protection relays of the transformer manufactured by AEG. \nThe Transformer, rated active power 310 MW, rated apparent power 420 MVA, power \nfactor 0.8, and voltages 21 KV\nThe first draft is initiated by eng. Fathy Abd El \nSalam Hassan, tested by eng. mahamed Tohamy Accepted by electrical general \nmanger eng. Said Farag, revised by \nEDEPC inspection and quality control eng. Adel Abd ELQader El-Nagar, accepted \nby eng. Samir Abd El-Gilil: EDEPC MPIS coordinator approved by eng. \nMoukhtar Abd Ellateef Mady: head sector of Ataka PS.\nThis document accepted by eng. \nSamir Abdel Gilil EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector.\nSafety Precautions\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n ID category.\nSafety fence with caution \n marks surrounding the work area is required.\nWear safety and healthy \n equipment as safety helmet, safety shoes, etc.\nEnsure of the disconnection of the \n exciter, generator, main transformer and home transformer.\nTools and Equipment\nCheck device,\n Digital Timer\nWorks to be Carried Out\nPreparation\nReview the manual.\nPrepare the previous results of the relay testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and the d.c. source \n is available.\nCheck the existence of the d.c. sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck all the leads used in tests.\nPreparation of Testing Tools\nConnect the test plug\nConnect the timer to a power source and its terminals to the trip terminals of \n the relay under test.\nThe test of almost all generator protection devices is achieved by isolating \neither CT circuits or PT circuits or both. This is done by using a special \nselector switch\nProtection Devices\nManufacturer of all Devices: AEG\nC.T.R\n11000/1A\nTest \nSteps\nPlace selector switch on the test mode.\nInsert the test plug in special boord\nInsert timer the plug in special socket\nRepeat the steps for the other three of phases.\nRecord the results.\nThe steps from 1 to5 are apply for all protection relays\nTest Sheet\nFor Generators Protection Scheme\nfor units 3, 4 type SPO1 AEG\nProtection\nOperating\nTime\nVT\nCT\nL1= \n s\nL2= \n s\nL3= \n s\nZ2=17.8 ohm\nT1=3 sec T2=3 sec\n21/0.1V\nT1= \n s\nT2= \n s\nT3= \n s\nStator\n7UE22\n21/0.1\nRotor\nR1=100k ohm\nNegative\nIi/In=0.07\nTi=4sec\nL1= \n s\nL2= \n s\nL3= \n s\nLoss of\n@1=80 \n @2=0\nUnder\nL1= \n s\nL2= \n s\nL3= \n s\nL1= \n s\nL2= \n s\nL3= \n s\n\nLocation: \nRelay Code:\nTested \nby: Signature: \nTested Date:\nApproved by: Signature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed on an \nannually bases\nas indicated by \nY1 in the title block.\nThis patent \nconcerns the test of protection relays of the transformer manufactured by AEG. \nThe Transformer, rated active power 310 MW, rated apparent power 420 MVA, power \nfactor 0.8, and voltages 21 KV\nThe first draft is initiated by eng. Fathy Abd El \nSalam Hassan, tested by eng. mahamed Tohamy Accepted by electrical general \nmanger eng. Said Farag, revised by \nEDEPC inspection and quality control eng. Adel Abd ELQader El-Nagar, accepted \nby eng. Samir Abd El-Gilil: EDEPC MPIS coordinator approved by eng. \nMoukhtar Abd Ellateef Mady: head sector of Ataka PS.\nThis document accepted by eng. \nSamir Abdel Gilil EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector.\nSafety Precautions\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n ID category.\nSafety fence with caution \n marks surrounding the work area is required.\nWear safety and healthy \n equipment as safety helmet, safety shoes, etc.\nEnsure of the disconnection of the \n exciter, generator, main transformer and home transformer.\nTools and Equipment\nCheck device,\n Digital Timer\nWorks to be Carried Out\nPreparation\nReview the manual.\nPrepare the previous results of the relay testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are disconnected and the d.c. source \n is available.\nCheck the existence of the d.c. sources in panels.\nDisconnect the trip leads of the relay and connect the timer to them.\nCheck all the leads used in tests.\nPreparation of Testing Tools\nConnect the test plug\nConnect the timer to a power source and its terminals to the trip terminals of \n the relay under test.\nThe test of almost all generator protection devices is achieved by isolating \neither CT circuits or PT circuits or both. This is done by using a special \nselector switch\nProtection Devices\nManufacturer of all Devices: AEG\nDifferential protection SQG 23A. | Over voltage SU251\nDistance Protection SD.35A | Under frequency SFT20\nOverload WI 310 | Stator Earth fault 7UE22/SU153\nNegative Phase sequence SIG | Rotor Earth fault protection. SLG\nReverse power SPR351 short time | Under / over exciting. SXG\nReverse Power protection SPR351 \n Long time | Over All Differential SQT33A\nC.T.R\n V.T.R | 11000/1A\n 21000/100V\nTest \nSteps\nPlace selector switch on the test mode.\nInsert the test plug in special boord\nInsert timer the plug in special socket\nRepeat the steps for the other three of phases.\nRecord the results.\nThe steps from 1 to5 are apply for all protection relays\nTest Sheet\nFor Generators Protection Scheme\nfor units 3, 4 type SPO1 AEG\nNo. | Protection \n Name | Device Type | Operating\n Setting | Time\n Setting | VT \n Ratio | CT\n Ratio | Test \n Results | Remarks\n1 | Differential Protection | SQG23A | 0Ian/In=0.2A | Instant |  | 10000/1 | L1= \n s\n L2= \n s\n L3= \n s | \n2 | Distance Protection | SD35A | Z1=5 ohm \n Z2=17.8 ohm\n Z3=Z2 | T1=3 sec T2=3 sec\n T3=3 sec | 21/0.1V\n 0.5/3kv | 10000/1 | T1= \n s\n T2= \n s\n T3= \n s | \n3 | Stator \n Earth Fault | 7UE22\n SU135 | I=6mA\n U=10v | T=4sec TU=4sec | 21/0.1 \n 0.5/3kv | 30/1 | X1= \n s | \n4 | Rotor \n Earth \n Fault | SLG | R1=100k ohm\n R2=20k ohm | T=1 sec \n Instant |  |  | X1= s | \n5 | Negative\n Phase \n Sequence | SIG | Ii/In=0.07\n Iw/Ii=0.7 | Ti=4sec\n Tw=4sec |  | 11000/1 | L1= \n s\n L2= \n s\n L3= \n s | \n6 | Loss of \n excitation | SXG | @1=80 \n @2=0\n @1=8 @2=10 | T1=0.05s T2=0.4s \n T>=4 s T>>=1 s | 21/0.1kv | 11000/1 | X1= s X2= s \n X3= s | \n7 | Under \n Frequency | SFT20 | F1=48 HZ F2=47.5HZ | T1=0.2 \n s T2=1.5 s | 21/0.1kv |  |  | \n8 | Over \n Voltage | SU251 | U>=115% U>>=130% | 1 \n sec 0.05sec | 21/0.1kv |  |  | \n9 | Reverse \n Power (long time) | SPR351 | 0.6pn \n short 0.6pn long | 2 \n sec 15 sec | 21/0.1kv | 11000/1 | L1= \n s\n L2= \n s\n L3= \n s | \nReverse \n Power (short time) | WI310 | Ie=0.98 A | 0.8sec |  | 11000/1 | L1= \n s\n L2= \n s\n L3= \n s | \nLocation: \nRelay Code:\nTested \nby: Signature: \nTested Date:\nApproved by: Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -411,6 +411,66 @@
    "truncated_rows": 0
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Absolute \n maximum",
+     "Operative \n range",
+     "Nominal \n rating",
+     "Auxiliary \n voltage (Vx)"
+    ],
+    [
+     "ac 50/60 Hz",
+     "dc supply"
+    ],
+    [
+     "190V crest\n 380V crest",
+     "50-133V\n 87-265V",
+     "19-150V\n 33-300V",
+     "24-125V ac/dc\n 48-250V ac/dc",
+     "Auxiliary powered"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Reference range",
+     "Nominal rating",
+     "Frequency (Fn)"
+    ],
+    [
+     "45-65 Hz",
+     "50Hz or 60Hz",
+     "Frequency tracking"
+    ],
+    [
+     "47-51 Hz or 57-61 Hz",
+     "Non tracking",
+     "Non tracking"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Reference range",
+     "Nominal rating",
+     "Opto-Isolated Inputs"
+    ],
+    [
+     "25-60V dc only",
+     "50V dc only",
+     "Supply"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Outputs \nField voltage \n48V dc (current limited to 60mA)\nBurdens\nVoltage circuits\n0.012VA at 100V\n0.15VA at 327V\n0.87VA at 440V"
   },
@@ -421,6 +481,18 @@
   {
    "type": "table",
    "rows": [
+    [
+     "at Vx max. with no output relays or logic inputs \n energized",
+     "DC supply 2.75-3.0 W"
+    ],
+    [
+     "at Vx max. with 2 output relays and 2 logic inputs \n energized",
+     "4.0-45 W"
+    ],
+    [
+     "at Vx max. with all output relays and logic inputs \n energized",
+     "7.6-8.6 W"
+    ],
     [
      "at Vx max. with no output relays or logic inputs \n energized",
      "AC supply 4.5-9.0 VA"
@@ -465,12 +537,196 @@
    "text": "Phase angle measurement \nSetting range \n5 to 90\nSetting step \n1\nOperates at \nSetting +0-3\nResets at \nOperate value -0+3"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Slip frequency"
+    ],
+    [
+     "0.001 to 2.000 Hz",
+     "Setting range"
+    ],
+    [
+     "0.001 Hz",
+     "Setting step"
+    ],
+    [
+     "Setting 10mHz",
+     "Blocks at"
+    ],
+    [
+     "",
+     "Slip timer"
+    ],
+    [
+     "0.1 to 99 seconds",
+     "Setting range"
+    ],
+    [
+     "0.1 seconds",
+     "Setting step"
+    ],
+    [
+     "",
+     "System split"
+    ],
+    [
+     "90 to 175",
+     "Setting range"
+    ],
+    [
+     "1",
+     "Setting step"
+    ],
+    [
+     "setting +0-3",
+     "Operates at"
+    ],
+    [
+     "operate value -0+3",
+     "Resets at"
+    ],
+    [
+     "",
+     "Split timer"
+    ],
+    [
+     "0.1 to 99 seconds",
+     "Setting range"
+    ],
+    [
+     "0.1 seconds",
+     "Setting step"
+    ],
+    [
+     "",
+     "System angle measurement"
+    ],
+    [
+     "5 to 90",
+     "Setting range"
+    ],
+    [
+     "1",
+     "Setting step"
+    ],
+    [
+     "setting +0-3",
+     "Operates at"
+    ],
+    [
+     "operat value -0+3",
+     "Resets at"
+    ],
+    [
+     "",
+     "System slip frequency"
+    ],
+    [
+     "0.001 to 2.000Hz",
+     "Setting range"
+    ],
+    [
+     "0.001Hz",
+     "Setting step"
+    ],
+    [
+     "Setting 10mHz",
+     "Blocks at"
+    ],
+    [
+     "",
+     "System timer"
+    ],
+    [
+     "0.1 to 99 seconds",
+     "Setting range"
+    ],
+    [
+     "0.1 seconds",
+     "Setting step"
+    ],
+    [
+     "",
+     "Live voltage"
+    ],
+    [
+     "Dead voltage setting to 132V",
+     "Setting range"
+    ],
+    [
+     "0.5V",
+     "Setting step"
+    ],
+    [
+     "5% of setting",
+     "Operates at"
+    ],
+    [
+     "> 98% of operate value",
+     "Resets at"
+    ],
+    [
+     "",
+     "Dead voltage"
+    ],
+    [
+     "5V to live voltage setting",
+     "Setting range"
+    ],
+    [
+     "0.5V",
+     "Setting step"
+    ],
+    [
+     "5% of setting",
+     "Operates at"
+    ],
+    [
+     "< 104% of operate value",
+     "Resets at"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Note : The live voltage setting cannot be set to less than the dead \nvoltage setting and the dead voltage setting \ncannot be set to greater than the live voltage setting"
   },
   {
    "type": "paragraph",
    "text": "TEST SHEET"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "--------------------",
+     "K",
+     "---------------------",
+     "Relay type"
+    ],
+    [
+     "---------------------",
+     "Date",
+     "---------------------",
+     "Relay model number"
+    ],
+    [
+     "---------------------",
+     "Serial number",
+     "----------------------",
+     "Relay firm ware number"
+    ],
+    [
+     "---------------------",
+     "Circuit",
+     "----------------------",
+     "Station"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
@@ -512,6 +768,10 @@
     [
      "",
      "CT shorting switches in case checked"
+    ],
+    [
+     "",
+     "Terminal x 21 and 22,23and 24,25 and 26,27 and 28 checked \n for continuity with \n module removed from case"
     ],
     [
      "",
@@ -583,7 +843,7 @@
    "text": "Approved by: Signature:"
   }
  ],
- "text": "\nIntroduction\nThis document outlines the \ntest steps for the Synchrocheck Relay device using secondary injection devices \nISA Test Set Type ART/3 or Omicron to ensure the correct operation of it.\nThere are eight opto isolated inputs to the relay that can be \narranged to operate up to 16 alternative ladder inputs, which perform functions \nassigned to them in the ladder diagram, as determined by the setting of the \nINPUT MASKS and so making maximum use of the available control inputs.\nSoftware \nfiltering is applied to eliminate the adverse effects of induced ac signals in \nthe external wiring. Eight programmable output relays are provided on all \nmodels. These relays can be arranged to operate in response to any, or all, of \nup to 16 alternative ladder outputs, whose function is assigned in the ladder \ndiagram, by suitably setting the OUTPUT MASKS.\nIn addition there is a watchdog \nrelay for external indication of equipment failure/healthy status. Measurements \nare only available in relays including check synchronism features (KAVS and KAVR). \nThese relays have two voltage transformers for measuring line and bus bar \nvoltages.\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by quality control eng. Adel Abdel Qader El Nagar at EDEPCo., accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, maintenance \n staff must carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nSafety and healthy equipment must be used as safety shoes, and \n safety Helmet .. etc\nLine \nisolation is required\nA work permit must be issued, maintenance \n staff must carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nSafety and healthy equipment must be used as safety shoes, and \n safety Helmet .. etc\nLine \nisolation is required\nTools and \nEquipment\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter, \ntest plug, and test leads.\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter, \ntest plug, and test leads.\nWork to be carried out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the outputs of the relay and \nconnect one of them to the timer of the tester.\nCheck all the leads used in tests.\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the outputs of the relay and \nconnect one of them to the timer of the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the voltage leads of a tester unit to the \nrelay points according to the drawings and scheme.\nInject voltage to each couple of points.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nConnect the voltage leads of a tester unit to the \nrelay points according to the drawings and scheme.\nInject voltage to each couple of points.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nStandard connection table\n\nKey to connection tables\n(+) and (-) indicate the polarity of \nthe dc output from these terminals\n(+) and (-) indicate the polarity of \nthe applied dc supply\nIn / Out \nthe signal direction for the in phase condition \nShaded is not available on KVTR relays\nNote : All relays have standard Midos terminal blocks to which \nconnection can be made with either \n 4mm screws or 4.8 mm \npre-insulated snap-on connectors.\n Two connections can be \nmade to each terminal.\nTECHNICAL DATA\nRatings\nInputs\n\nOutputs \nField voltage \n48V dc (current limited to 60mA)\nBurdens\nVoltage circuits\n0.012VA at 100V\n0.15VA at 327V\n0.87VA at 440V\nAuxiliary voltage\n\nOpto-isolated inputs \nDC supply \n0.25W per input (50V 10KΩ)\nSetting Ranges\nAuto-reclose setting\nTimer setting range\nThe default setting range for all timers is 0.01 to 999 seconds \nMore restrictive limits may be applied to each timer. See the scheme \ndocumentation for details\nCounter setting range\nThe default setting range for all counter setting is 1 to 9999\nMore restrictive limits may be applied to each counter. See the scheme \ndocumentation for details\nCheck synchronism setting\nUnder voltage detector\nVoltage setting range 22 to 132V ms\nVoltage setting step 0.5V\nOperate \n 5% of the set value\nReset \n< 105% of operation\nDifferential voltage detector\nVoltage setting range 0.5 to 22V \nrms\nVoltage setting step \n0.5V\nOperate \n 5% of the set value\nReset \n>97% of setting\nPhase angle measurement \nSetting range \n5 to 90\nSetting step \n1\nOperates at \nSetting +0-3\nResets at \nOperate value -0+3\nNote : The live voltage setting cannot be set to less than the dead \nvoltage setting and the dead voltage setting \ncannot be set to greater than the live voltage setting\nTEST SHEET\n\n\n\nLocation: \nRelay Designation: \nTest date:\nTested by: Signature: \n Last test date:\nApproved by: Signature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the \ntest steps for the Synchrocheck Relay device using secondary injection devices \nISA Test Set Type ART/3 or Omicron to ensure the correct operation of it.\nThere are eight opto isolated inputs to the relay that can be \narranged to operate up to 16 alternative ladder inputs, which perform functions \nassigned to them in the ladder diagram, as determined by the setting of the \nINPUT MASKS and so making maximum use of the available control inputs.\nSoftware \nfiltering is applied to eliminate the adverse effects of induced ac signals in \nthe external wiring. Eight programmable output relays are provided on all \nmodels. These relays can be arranged to operate in response to any, or all, of \nup to 16 alternative ladder outputs, whose function is assigned in the ladder \ndiagram, by suitably setting the OUTPUT MASKS.\nIn addition there is a watchdog \nrelay for external indication of equipment failure/healthy status. Measurements \nare only available in relays including check synchronism features (KAVS and KAVR). \nThese relays have two voltage transformers for measuring line and bus bar \nvoltages.\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by quality control eng. Adel Abdel Qader El Nagar at EDEPCo., accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, maintenance \n staff must carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nSafety and healthy equipment must be used as safety shoes, and \n safety Helmet .. etc\nLine \nisolation is required\nA work permit must be issued, maintenance \n staff must carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nSafety and healthy equipment must be used as safety shoes, and \n safety Helmet .. etc\nLine \nisolation is required\nTools and \nEquipment\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter, \ntest plug, and test leads.\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter, \ntest plug, and test leads.\nWork to be carried out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the outputs of the relay and \nconnect one of them to the timer of the tester.\nCheck all the leads used in tests.\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the outputs of the relay and \nconnect one of them to the timer of the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the voltage leads of a tester unit to the \nrelay points according to the drawings and scheme.\nInject voltage to each couple of points.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nConnect the voltage leads of a tester unit to the \nrelay points according to the drawings and scheme.\nInject voltage to each couple of points.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nStandard connection table\nFunction | Terminal | Function\nNot Used | -- | 2 | 1 | -- | Earth Terminal\nWatchdog Relay (Break contact) | m | 4\n 6 | 3\n 5 | b\n -- | Watchdog Relay (Break contact)\n48V Field Voltage | (-) | 8 | 7 | (+) | 48V Field Voltage\nNot Used |  | 10 | 9 |  | Not Used\nNot Used |  | 12 | 11 |  | Not Used\nAuxiliary Voltage Input | (-) | 14 | 13 | (+) | Auxiliary Voltage Input\nNot Used |  | 16 | 15 |  | Not Used\nLine Voltage | In | 18 | 17 | In | Line Voltage\nBusbar Voltage | Out | 20 | 19 | In | Busbar Voltage\nNot Used |  | 22 | 21 |  | Not Used\nNot Used |  | 24 | 23 |  | Not Used\nNot Used |  | 26 | 25 |  | Not Used\nNot Used |  | 28 | 27 |  | Not Used\nOutput Relay 0 | -- | 30\n 32 | 29\n 31 | -- | Output Relay 4\nOutput Relay 1 | -- | 34\n 36 | 33\n 35 | -- | Output Relay 5\nOutput Relay 2 | -- | 38\n 40 | 37\n 39 | -- | Output Relay 6\nOutput Relay 3 | -- | 42\n 44 | 41\n 43 | -- | Output Relay 7\nOpto Control Input L0 | (+) | 46 | 45 | (+) | Opto Control Input L3\nOpto Control Input L1 | (+) | 48 | 47 | (+) | Opto Control Input L4\nOpto Control Input L2 | (+) | 50 | 49 | (+) | Opto Control Input L5\nCommon L0/L1/L2 | (-) | 52 | 51 | (+) | Opto Control Input L6\nK-Bus Serial Port | -- | 54 | 53 | (+) | Opto Control Input L7\nK-Bus Serial Port | -- | 56 | 55 | (-) | Common L3/L4/L5/L6/L7\nKey to connection tables\n(+) and (-) indicate the polarity of \nthe dc output from these terminals\n(+) and (-) indicate the polarity of \nthe applied dc supply\nIn / Out \nthe signal direction for the in phase condition \nShaded is not available on KVTR relays\nNote : All relays have standard Midos terminal blocks to which \nconnection can be made with either \n 4mm screws or 4.8 mm \npre-insulated snap-on connectors.\n Two connections can be \nmade to each terminal.\nTECHNICAL DATA\nRatings\nInputs\nOperative range | Nominal rating | Input voltage (Vn)\n0-440V | 63.5/110V | (KAVR and KAVS only)\nAbsolute \n maximum | Operative \n range | Nominal \n rating | Auxiliary \n voltage (Vx)\nac 50/60 Hz | dc supply\n190V crest\n 380V crest | 50-133V\n 87-265V | 19-150V\n 33-300V | 24-125V ac/dc\n 48-250V ac/dc | Auxiliary powered\nReference range | Nominal rating | Frequency (Fn)\n45-65 Hz | 50Hz or 60Hz | Frequency tracking\n47-51 Hz or 57-61 Hz | Non tracking | Non tracking\nReference range | Nominal rating | Opto-Isolated Inputs\n25-60V dc only | 50V dc only | Supply\nOutputs \nField voltage \n48V dc (current limited to 60mA)\nBurdens\nVoltage circuits\n0.012VA at 100V\n0.15VA at 327V\n0.87VA at 440V\nAuxiliary voltage\nat Vx max. with no output relays or logic inputs \n energized | DC supply 2.75-3.0 W\nat Vx max. with 2 output relays and 2 logic inputs \n energized | 4.0-45 W\nat Vx max. with all output relays and logic inputs \n energized | 7.6-8.6 W\nat Vx max. with no output relays or logic inputs \n energized | AC supply 4.5-9.0 VA\nat Vx max. with 2 output relays and 2 logic inputs \n energized | 6.0 - 12.0 VA\nat Vx max. with all output relays and logic inputs \n energized | 7.5 - 20.0 VA\nOpto-isolated inputs \nDC supply \n0.25W per input (50V 10KΩ)\nSetting Ranges\nAuto-reclose setting\nTimer setting range\nThe default setting range for all timers is 0.01 to 999 seconds \nMore restrictive limits may be applied to each timer. See the scheme \ndocumentation for details\nCounter setting range\nThe default setting range for all counter setting is 1 to 9999\nMore restrictive limits may be applied to each counter. See the scheme \ndocumentation for details\nCheck synchronism setting\nUnder voltage detector\nVoltage setting range 22 to 132V ms\nVoltage setting step 0.5V\nOperate \n 5% of the set value\nReset \n< 105% of operation\nDifferential voltage detector\nVoltage setting range 0.5 to 22V \nrms\nVoltage setting step \n0.5V\nOperate \n 5% of the set value\nReset \n>97% of setting\nPhase angle measurement \nSetting range \n5 to 90\nSetting step \n1\nOperates at \nSetting +0-3\nResets at \nOperate value -0+3\n | Slip frequency\n0.001 to 2.000 Hz | Setting range\n0.001 Hz | Setting step\nSetting 10mHz | Blocks at\n | Slip timer\n0.1 to 99 seconds | Setting range\n0.1 seconds | Setting step\n | System split\n90 to 175 | Setting range\n1 | Setting step\nsetting +0-3 | Operates at\noperate value -0+3 | Resets at\n | Split timer\n0.1 to 99 seconds | Setting range\n0.1 seconds | Setting step\n | System angle measurement\n5 to 90 | Setting range\n1 | Setting step\nsetting +0-3 | Operates at\noperat value -0+3 | Resets at\n | System slip frequency\n0.001 to 2.000Hz | Setting range\n0.001Hz | Setting step\nSetting 10mHz | Blocks at\n | System timer\n0.1 to 99 seconds | Setting range\n0.1 seconds | Setting step\n | Live voltage\nDead voltage setting to 132V | Setting range\n0.5V | Setting step\n5% of setting | Operates at\n> 98% of operate value | Resets at\n | Dead voltage\n5V to live voltage setting | Setting range\n0.5V | Setting step\n5% of setting | Operates at\n< 104% of operate value | Resets at\nNote : The live voltage setting cannot be set to less than the dead \nvoltage setting and the dead voltage setting \ncannot be set to greater than the live voltage setting\nTEST SHEET\n-------------------- | K | --------------------- | Relay type\n--------------------- | Date | --------------------- | Relay model number\n--------------------- | Serial number | ---------------------- | Relay firm ware number\n--------------------- | Circuit | ---------------------- | Station\n |  | Rated voltage Vn\n | 57/120v | \n | 24/125v | Auxiliary voltage\n | 48/250v | \n | Commissioning preliminaries\n | Serial number on case, module and cover chocked\n | CT shorting switches in case checked\n | Terminal x 21 and 22,23and 24,25 and 26,27 and 28 checked \n for continuity with \n module removed from case\n | External wining checked to diagrarn (if available)\n | Earth connection to case checked\n | Test block connections checked\n | Insulation checked\n | Auxiliary supply checked\n | Auxiliary voltage at relay \n terminals ---------------------------- V ac/dc\n | Watching contacts checked\n | Supply off Terminals 3 and 5\n | Terminals 4 and 6\n | Supply on Terminals 3 and 5\n | Terminals 4 and 6\n | Field \n voltage ---------------------------- V d\nLocation: \nRelay Designation: \nTest date:\nTested by: Signature: \n Last test date:\nApproved by: Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

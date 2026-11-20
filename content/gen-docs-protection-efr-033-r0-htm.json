@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -162,52 +164,67 @@
    "type": "table",
    "rows": [
     [
+     "Figure 1: Test kit view"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "1",
+     "ON / OFF Switch",
+     "10",
+     "4 thump-wheels to set the injected current"
+    ],
+    [
      "2",
-     "",
+     "Input \n Power socket",
      "11",
-     ""
+     "6 thump-wheels to set the \n duration of the injected"
     ],
     [
      "3",
-     "",
+     "Input fuse holder and \n voltage selector",
      "12",
-     ""
+     "\"Start\" push button"
     ],
     [
      "4",
-     "",
+     "24 v = \n Fuse Holder",
      "13",
-     ""
+     "\"Stop/Reset\" push button"
     ],
     [
      "5",
-     "",
+     "\"?\" Led injection circuit \n open or injection stopped by the test kit thermal protection",
      "14",
-     ""
+     "Selector push button between \n long time tripping + short time tripping + instantaneous tripping, earth \n fault protection and STR22ME test."
     ],
     [
      "6",
-     "",
+     "\"Ready \" Led test kit ready \n to inject",
      "15",
-     ""
+     "Current \"injection\" outlets \n to be connected to the trip unit."
     ],
     [
      "7",
-     "",
+     "\"\" \n Led long time tripping test, short time tripping, instantaneous \n tripping",
      "16",
-     ""
+     "\"24V=\" outlets used with \n test tool 689755)"
     ],
     [
      "8",
-     "",
+     "\"\" \n Led earth fault protection test",
      "17",
-     ""
+     "\"OF/SDE\" auxiliary switch \n jack and 2 terminals (jack socket used with test tool 689755)"
     ],
     [
      "9",
-     "",
+     "Display indicating the \n tripping time (in sec.)",
      "18",
-     ""
+     "SDE Fuse Holder"
     ]
    ],
    "truncated_rows": 0
@@ -217,77 +234,52 @@
    "text": "How to use Test Kit"
   },
   {
-   "type": "paragraph",
-   "text": "Connection to AC Power Supply"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Choose the right voltage",
-    "Plug on the input power cable",
-    "Switch on the ON/OFF switch"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Power UP"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Display and LEDs on for \n approximately 1 sec.",
-    "Display and LEDs off for \n approximately 1 sec.",
-    "LED remains on 0.00 on the \n display \"ready\" \n and \"\" \n LEDs on"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Connection to Device under Test"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Masterpact \n => part B",
-    "Compact \n => part C",
-    "Compact NS => part D"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "To Measure the Tripping Time"
-  },
-  {
-   "type": "paragraph",
-   "text": "Connect the following device to"
-  },
-  {
-   "type": "paragraph",
-   "text": "\"SDE \" terminal."
-  },
-  {
-   "type": "paragraph",
-   "text": "\"OF \" auxiliary contact (N/O or \n N/C) or"
-  },
-  {
-   "type": "paragraph",
-   "text": "\"SDE\" auxiliary contact (N/O or \n N/C) or"
-  },
-  {
-   "type": "paragraph",
-   "text": "The main contact (circuit \n breaker disconnected from the protected power circuit)"
-  },
-  {
-   "type": "list",
-   "items": [
-    "\"SDE \" terminal.",
-    "\"OF \" auxiliary contact (N/O or \n N/C) or",
-    "\"SDE\" auxiliary contact (N/O or \n N/C) or",
-    "The main contact (circuit \n breaker disconnected from the protected power circuit)"
-   ]
+   "type": "table",
+   "rows": [
+    [
+     "Connection to AC Power Supply\n Choose the right voltage\n Plug on the input power cable \n Switch on the ON/OFF switch\n Power UP \n Display and LEDs on for \n approximately 1 sec.\n Display and LEDs off for \n approximately 1 sec.\n LED remains on 0.00 on the \n display \"ready\" \n and \"\" \n LEDs on",
+     ""
+    ],
+    [
+     "Connection to Device under Test\n Connect trip units to the \n kit, taking care to respect the polarities.\n For Detailed Instructions on \n Connecting Circuit Breaker:\n Masterpact \n => part B\n Compact \n => part C\n Compact NS => part D\n To Measure the Tripping Time\n Connect the following device to\n \"SDE \" terminal.\n \"OF \" auxiliary contact (N/O or \n N/C) or\n \"SDE\" auxiliary contact (N/O or \n N/C) or\n The main contact (circuit \n breaker disconnected from the protected power circuit)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "TEST SHEET"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "1 mA",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time ''Sec''",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -302,7 +294,7 @@
    "text": "Revised by: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis \n document outlines the testing procedures P1, which must performed on an \n annually bases as indicated by Y1 in the titled block\nThis document is \n ( ME test KIT Merlin Gerin ) used to test Circuit Breker (400V) Masterpact \n type (N1)\nThe first draft initiated by eng. Hanan El Badrawy & eng. Ayman Ayyad, tested by eng. Fahmy Abd El Khalek, \n revised by EDEPC quality control eng. Adel Abdel Qader El Nagar, accepted \n by general manager eng El Sayed Attiah Abd El maksood, and approved by eng Fatahy M \n Ragb head sector of Talkha Power Station.\nThis document accepted by \neng. Samir Abdel Gilil; EDEPC inspection & quality control general director, \nMPIS coordinator, and certified by accountant Mahmoud Mohamed Soliman EDEPC \nadmin. & financial inspection, and quality control general director and \nsupervisor of inspection & quality control head sector.\nSafety \nPrecautions\nA work permit must be issued and the qualified\nmaintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nSafety \n and Healthy equipment must be used \n (safety Helmet, safety shoes, ...etc).\nTools and \nEquipment\nME TEST KIT with its accessories:\nTwo plugs to test connection ( + / - )\nTwo plugs to SDE auxiliary connect.\nWork to be Carried out\nReview technical reference material and manufacture's manual.\nMake sure that the breaker (400v) is in position (OFF).\nChange the switch (dc source for the charger motor of breaker) to position OFF to charge the breaker spring manually when the breaker \n discharged.\nRemove the breaker from its location to position OUT.\nRemove the cover of breaker and connect the two plugs for the \n test connection on breaker to the current injection outlets on the tester ( \n points no.15- fig. 1 )\nConnect the two plugs for tripping contacts on the tester (points17-fig.1) to breaker auxiliary points ( 42 / 41).\nSet the duration of the injection on [ 6-thump wheels (point \n no.11- fig.1) ] on the tester. Where this duration is higher than the tripping \n time of the breaker (400v).\nSet the injected current (mA) on [ 4-thump wheel (point no.10 \n -fig1) ]. We begin with 100 mA.\nPress selector push-button (point no.14-fig1) to select earth \n fault protection [ i.e LED\n( point 8 is ON ].\nPress the start button on tester then LED ready be ON and record \n the value displayed on the screen (point 9 fig1) which the time of the \n relay at the set injected current. Then record the injected current and its \n time recorded on test sheet.\nPress reset push-button.\nRepeat from point 7 to point 11 with another value of \n injected current and record the values.\nWith many values of injected current and time recorded then \n draw the curve between current and time.\nNote: Current injection stops on any of the \nfollowing events:\nPress the stop / reset button.\nChange to state of the contact connected to the SDE \n terminals of the test kit .\nEnd of set duration.\nTripping of the kits \n thermal protection system ( ? \" LED on ).\nInjection circuit open, \n for example a faulty test plug connection ( ? \" LED on ).\nAnother test may be carried out when the READY LED comes \n on (end of cooling period).\nReclose the circuit breaker after each test.\n\nHow to use Test Kit\nConnection to AC Power Supply\nChoose the right voltage\nPlug on the input power cable\nSwitch on the ON/OFF switch\nPower UP\nDisplay and LEDs on for \n approximately 1 sec.\nDisplay and LEDs off for \n approximately 1 sec.\nLED remains on 0.00 on the \n display \"ready\" \n and \"\" \n LEDs on\nConnection to Device under Test\nMasterpact \n => part B\nCompact \n => part C\nCompact NS => part D\nTo Measure the Tripping Time\nConnect the following device to\n\"SDE \" terminal.\n\"OF \" auxiliary contact (N/O or \n N/C) or\n\"SDE\" auxiliary contact (N/O or \n N/C) or\nThe main contact (circuit \n breaker disconnected from the protected power circuit)\n\"SDE \" terminal.\n\"OF \" auxiliary contact (N/O or \n N/C) or\n\"SDE\" auxiliary contact (N/O or \n N/C) or\nThe main contact (circuit \n breaker disconnected from the protected power circuit)\nTEST SHEET\nLocation: Equipment \ncode\nTested by: \nSignature: \nTest date:\nRevised by: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis \n document outlines the testing procedures P1, which must performed on an \n annually bases as indicated by Y1 in the titled block\nThis document is \n ( ME test KIT Merlin Gerin ) used to test Circuit Breker (400V) Masterpact \n type (N1)\nThe first draft initiated by eng. Hanan El Badrawy & eng. Ayman Ayyad, tested by eng. Fahmy Abd El Khalek, \n revised by EDEPC quality control eng. Adel Abdel Qader El Nagar, accepted \n by general manager eng El Sayed Attiah Abd El maksood, and approved by eng Fatahy M \n Ragb head sector of Talkha Power Station.\nThis document accepted by \neng. Samir Abdel Gilil; EDEPC inspection & quality control general director, \nMPIS coordinator, and certified by accountant Mahmoud Mohamed Soliman EDEPC \nadmin. & financial inspection, and quality control general director and \nsupervisor of inspection & quality control head sector.\nSafety \nPrecautions\nA work permit must be issued and the qualified\nmaintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nSafety \n and Healthy equipment must be used \n (safety Helmet, safety shoes, ...etc).\nTools and \nEquipment\nME TEST KIT with its accessories:\nTwo plugs to test connection ( + / - )\nTwo plugs to SDE auxiliary connect.\nWork to be Carried out\nReview technical reference material and manufacture's manual.\nMake sure that the breaker (400v) is in position (OFF).\nChange the switch (dc source for the charger motor of breaker) to position OFF to charge the breaker spring manually when the breaker \n discharged.\nRemove the breaker from its location to position OUT.\nRemove the cover of breaker and connect the two plugs for the \n test connection on breaker to the current injection outlets on the tester ( \n points no.15- fig. 1 )\nConnect the two plugs for tripping contacts on the tester (points17-fig.1) to breaker auxiliary points ( 42 / 41).\nSet the duration of the injection on [ 6-thump wheels (point \n no.11- fig.1) ] on the tester. Where this duration is higher than the tripping \n time of the breaker (400v).\nSet the injected current (mA) on [ 4-thump wheel (point no.10 \n -fig1) ]. We begin with 100 mA.\nPress selector push-button (point no.14-fig1) to select earth \n fault protection [ i.e LED\n( point 8 is ON ].\nPress the start button on tester then LED ready be ON and record \n the value displayed on the screen (point 9 fig1) which the time of the \n relay at the set injected current. Then record the injected current and its \n time recorded on test sheet.\nPress reset push-button.\nRepeat from point 7 to point 11 with another value of \n injected current and record the values.\nWith many values of injected current and time recorded then \n draw the curve between current and time.\nNote: Current injection stops on any of the \nfollowing events:\nPress the stop / reset button.\nChange to state of the contact connected to the SDE \n terminals of the test kit .\nEnd of set duration.\nTripping of the kits \n thermal protection system ( ? \" LED on ).\nInjection circuit open, \n for example a faulty test plug connection ( ? \" LED on ).\nAnother test may be carried out when the READY LED comes \n on (end of cooling period).\nReclose the circuit breaker after each test.\nFigure 1: Test kit view\n1 | ON / OFF Switch | 10 | 4 thump-wheels to set the injected current\n2 | Input \n Power socket | 11 | 6 thump-wheels to set the \n duration of the injected\n3 | Input fuse holder and \n voltage selector | 12 | \"Start\" push button\n4 | 24 v = \n Fuse Holder | 13 | \"Stop/Reset\" push button\n5 | \"?\" Led injection circuit \n open or injection stopped by the test kit thermal protection | 14 | Selector push button between \n long time tripping + short time tripping + instantaneous tripping, earth \n fault protection and STR22ME test.\n6 | \"Ready \" Led test kit ready \n to inject | 15 | Current \"injection\" outlets \n to be connected to the trip unit.\n7 | \"\" \n Led long time tripping test, short time tripping, instantaneous \n tripping | 16 | \"24V=\" outlets used with \n test tool 689755)\n8 | \"\" \n Led earth fault protection test | 17 | \"OF/SDE\" auxiliary switch \n jack and 2 terminals (jack socket used with test tool 689755)\n9 | Display indicating the \n tripping time (in sec.) | 18 | SDE Fuse Holder\nHow to use Test Kit\nConnection to AC Power Supply\n Choose the right voltage\n Plug on the input power cable \n Switch on the ON/OFF switch\n Power UP \n Display and LEDs on for \n approximately 1 sec.\n Display and LEDs off for \n approximately 1 sec.\n LED remains on 0.00 on the \n display \"ready\" \n and \"\" \n LEDs on | \nConnection to Device under Test\n Connect trip units to the \n kit, taking care to respect the polarities.\n For Detailed Instructions on \n Connecting Circuit Breaker:\n Masterpact \n => part B\n Compact \n => part C\n Compact NS => part D\n To Measure the Tripping Time\n Connect the following device to\n \"SDE \" terminal.\n \"OF \" auxiliary contact (N/O or \n N/C) or\n \"SDE\" auxiliary contact (N/O or \n N/C) or\n The main contact (circuit \n breaker disconnected from the protected power circuit) | \nTEST SHEET\n1 mA |  |  |  |  |  |  |  |  | \nTime ''Sec'' |  |  |  |  |  |  |  |  | \nLocation: Equipment \ncode\nTested by: \nSignature: \nTest date:\nRevised by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

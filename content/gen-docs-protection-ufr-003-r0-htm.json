@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Under Frequency \n Relay\n FCX103B"
-  },
-  {
-   "type": "paragraph",
-   "text": "ABB"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -127,19 +121,115 @@
    "text": "Test Sheet"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "Second Stage TRIP",
+     "First Stage ALARM",
+     "Signature"
+    ],
+    [
+     "F(HZ)",
+     "T \n (sec)",
+     "F(HZ)",
+     "T \n (sec)"
+    ],
+    [
+     "",
+     "47.5",
+     "1",
+     "48.3",
+     "1",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Test Sheet for unit ( 4 , 6 )"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "First Stage ALARM",
+     "Second Stage TRIP",
+     "Third Stage TRIP",
+     "Signature"
+    ],
+    [
+     "F(HZ)",
+     "T \n (sec)",
+     "F(HZ)",
+     "T \n (sec)",
+     "F(HZ)",
+     "T \n (sec)"
+    ],
+    [
+     "",
+     "49.1",
+     "1",
+     "48.3",
+     "1",
+     "47.5",
+     "1",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Results"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "Second Stage TRIP",
+     "First Stage ALARM",
+     "Signature"
+    ],
+    [
+     "F(HZ)",
+     "T \n (sec)",
+     "F(HZ)",
+     "T \n (sec)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "First Stage ALARM",
+     "Second Stage TRIP",
+     "Third Stage TRIP",
+     "Signature"
+    ],
+    [
+     "F(HZ)",
+     "T \n (sec)",
+     "F(HZ)",
+     "T \n (sec)",
+     "F(HZ)",
+     "T \n (sec)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: Relay \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:Under Frequency \n Relay\n FCX103B\nABB\nIntroduction\nThis procedure details the testing procedures P1, which recommended to be carried \nout on an annually bases as indicated by Y1 in the title block.\nThe first draft initiated by eng. Gaber Salah Taher, tested by eng. Osama \nAhmed Hassanain 30 January 2006, accepted by eng. Mohamed Osama \nSoliman Salim general director, approved by eng. Mohamed Abdel Baset Rekabi Head \nSector of Aswan Dam 1 Power Station, and certified by eng. Kamel Ragheb Hakem: \n HPGC MPIS coordinator & inspection and quality control general director.\nSafety Precautions\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety and healthy equipment as safety helmet, safety shoes ... etc.\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety and healthy equipment as safety helmet, safety shoes ... etc.\nUnit must be shut down.\nCircuit breaker open and local.\nTools and Equipment\nUse suitable tools\nInstrument secondary injection test (DHF)\nUse suitable tools\nInstrument secondary injection test (DHF)\nAvometer, test leads\nWork to be Carried Out\nPreparation\nMake Sure PT secondary circuit are opened before isolating the relay current circuit for test.\nLook at field maintenance file and record the setting of the relay with \n results to be at MRDS\nLabel the wires.\nTesting the Relay\nOpen the links on terminals X511 (61, 81) to isolate the PT secondary circuits\nConnect test leads between the Voltage terminals X511 (61, 81) terminal is the \n common Figure 1.\nOpen the links on terminals X02 ( 302 ,402 )\nIncrease the Voltage gradually until 110vac value\nRecord the Voltage value in the test sheet\nIncrease the Frequency gradually until the alarm value\nthe Frequency gradually until the pick-up value\nDecrease the injection Voltage and Frequency gradually to Zero\nClose the links terminals X511 (61, 81) , X02 ( 302 ,402 )\nMake sure PT secondary circuits are in normal condition.\nTest Sheet\nTest Sheet for unit ( 4 , 6 )\nResults\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis procedure details the testing procedures P1, which recommended to be carried \nout on an annually bases as indicated by Y1 in the title block.\nThe first draft initiated by eng. Gaber Salah Taher, tested by eng. Osama \nAhmed Hassanain 30 January 2006, accepted by eng. Mohamed Osama \nSoliman Salim general director, approved by eng. Mohamed Abdel Baset Rekabi Head \nSector of Aswan Dam 1 Power Station, and certified by eng. Kamel Ragheb Hakem: \n HPGC MPIS coordinator & inspection and quality control general director.\nSafety Precautions\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety and healthy equipment as safety helmet, safety shoes ... etc.\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety and healthy equipment as safety helmet, safety shoes ... etc.\nUnit must be shut down.\nCircuit breaker open and local.\nTools and Equipment\nUse suitable tools\nInstrument secondary injection test (DHF)\nUse suitable tools\nInstrument secondary injection test (DHF)\nAvometer, test leads\nWork to be Carried Out\nPreparation\nMake Sure PT secondary circuit are opened before isolating the relay current circuit for test.\nLook at field maintenance file and record the setting of the relay with \n results to be at MRDS\nLabel the wires.\nTesting the Relay\nOpen the links on terminals X511 (61, 81) to isolate the PT secondary circuits\nConnect test leads between the Voltage terminals X511 (61, 81) terminal is the \n common Figure 1.\nOpen the links on terminals X02 ( 302 ,402 )\nIncrease the Voltage gradually until 110vac value\nRecord the Voltage value in the test sheet\nIncrease the Frequency gradually until the alarm value\nthe Frequency gradually until the pick-up value\nDecrease the injection Voltage and Frequency gradually to Zero\nClose the links terminals X511 (61, 81) , X02 ( 302 ,402 )\nMake sure PT secondary circuits are in normal condition.\nTest Sheet\nDate | Second Stage TRIP | First Stage ALARM | Signature\nF(HZ) | T \n (sec) | F(HZ) | T \n (sec)\n | 47.5 | 1 | 48.3 | 1 | \nTest Sheet for unit ( 4 , 6 )\nDate | First Stage ALARM | Second Stage TRIP | Third Stage TRIP | Signature\nF(HZ) | T \n (sec) | F(HZ) | T \n (sec) | F(HZ) | T \n (sec)\n | 49.1 | 1 | 48.3 | 1 | 47.5 | 1 | \nResults\nDate | Second Stage TRIP | First Stage ALARM | Signature\nF(HZ) | T \n (sec) | F(HZ) | T \n (sec)\nDate | First Stage ALARM | Second Stage TRIP | Third Stage TRIP | Signature\nF(HZ) | T \n (sec) | F(HZ) | T \n (sec) | F(HZ) | T \n (sec)\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

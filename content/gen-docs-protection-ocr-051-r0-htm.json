@@ -291,6 +291,68 @@
    "text": "Rated current :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Injected current",
+     "Injected voltage",
+     "I\n set",
+     "I \n pickup",
+     "I\n reset",
+     "reset factor",
+     "Voltage value",
+     "Angle set \n on the \n relay",
+     "Zone\n Set",
+     "Zone \n Test",
+     "Time \n Set",
+     "Time\n Test"
+    ],
+    [
+     "Ia",
+     "Vbc",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "( - )",
+     "( - )",
+     "",
+     ""
+    ],
+    [
+     "Ib",
+     "Vca",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "( - )",
+     "( - )",
+     "",
+     ""
+    ],
+    [
+     "Ic",
+     "Vab",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "( - )",
+     "( - )",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "For Directional Earth Fault OC Relay F67N - GEC using Pulser"
   },
@@ -305,6 +367,40 @@
   {
    "type": "paragraph",
    "text": "Voltage \n :"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Injected current",
+     "Injected voltage",
+     "I\n set",
+     "I \n pickup",
+     "I\n reset",
+     "reset factor",
+     "Voltage value",
+     "Angle set \n on the \n relay",
+     "Zone\n Set",
+     "Zone \n Test",
+     "Time \n Set",
+     "Time\n Test"
+    ],
+    [
+     "In",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "( - )",
+     "( - )",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -323,86 +419,158 @@
    "text": "Reviewed by : \n Signature: \n Test Date :"
   },
   {
-   "type": "paragraph",
-   "text": "Output Stage"
-  },
-  {
-   "type": "paragraph",
-   "text": "The regulated \n voltage E, is applied to the primary winding of a transformer by a \n transistor switch which is controlled by a 20 khz signal derived from the \n 40khz oscillator."
-  },
-  {
-   "type": "paragraph",
-   "text": "The transformer secondary voltage is then rectified and smoothed to \n produce the output voltage EL. The transformer provides \n electrical isolation between the input and output."
-  },
-  {
-   "type": "paragraph",
-   "text": "Figure 3 shows the arrangement of the input and output circuits of the \n MSTZ02, six pairs of terminals are provided for output connections. As two \n connections can be made to each terminal, up to twelve individual loads can \n be independently connected thus avoiding having to loop the d.c. supply from \n load to load. this facility affords increased security over the looping \n method."
-  },
-  {
-   "type": "paragraph",
-   "text": "The outputs are protected from induced impulse voltages by the voltage \n dependent resistor RVD"
-  },
-  {
-   "type": "paragraph",
-   "text": "In very high security systems, it may be expedient to use two converters \n in parallel so that, if a failure of one occurs, the d.c. supply is \n maintained."
-  },
-  {
-   "type": "paragraph",
-   "text": "Parallel connection to maintain a secure supply is freely permitted \n because a diode D1 in each power supply will ensure that:"
-  },
-  {
-   "type": "paragraph",
-   "text": "No abnormal load is imposed on the other power supply if one fails."
-  },
-  {
-   "type": "paragraph",
-   "text": "One power supply cannot feed back into the other."
-  },
-  {
-   "type": "list",
-   "items": [
-    "No abnormal load is imposed on the other power supply if one fails.",
-    "One power supply cannot feed back into the other."
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Voltage \n rating Vx"
-  },
-  {
-   "type": "paragraph",
-   "text": "Volts"
-  },
-  {
-   "type": "paragraph",
-   "text": "24/27"
-  },
-  {
-   "type": "paragraph",
-   "text": "30/34"
-  },
-  {
-   "type": "paragraph",
-   "text": "48/54"
-  },
-  {
-   "type": "paragraph",
-   "text": "110/125"
-  },
-  {
-   "type": "paragraph",
-   "text": "Voltage rating"
-  },
-  {
-   "type": "paragraph",
-   "text": "Volts\n 19-33\n 24-41"
-  },
-  {
-   "type": "paragraph",
-   "text": "Storage temperature range"
+   "type": "table",
+   "rows": [
+    [
+     "Output Stage\n The regulated \n voltage E, is applied to the primary winding of a transformer by a \n transistor switch which is controlled by a 20 khz signal derived from the \n 40khz oscillator.\n The transformer secondary voltage is then rectified and smoothed to \n produce the output voltage EL. The transformer provides \n electrical isolation between the input and output.\n Figure 3 shows the arrangement of the input and output circuits of the \n MSTZ02, six pairs of terminals are provided for output connections. As two \n connections can be made to each terminal, up to twelve individual loads can \n be independently connected thus avoiding having to loop the d.c. supply from \n load to load. this facility affords increased security over the looping \n method.\n The outputs are protected from induced impulse voltages by the voltage \n dependent resistor RVD\n In very high security systems, it may be expedient to use two converters \n in parallel so that, if a failure of one occurs, the d.c. supply is \n maintained.\n Parallel connection to maintain a secure supply is freely permitted \n because a diode D1 in each power supply will ensure that:\n No abnormal load is imposed on the other power supply if one fails.\n One power supply cannot feed back into the other.",
+     "TECHNICAL \n DATA"
+    ],
+    [
+     "Input \n Voltage Ranges",
+     "Voltage \n rating Vx\n Volts\n 24/27\n 30/34\n 48/54\n 110/125\n 220/250",
+     "Voltage rating \n Volts\n 19-33\n 24-41\n 37.5-65\n 87.5-150\n 175-300"
+    ],
+    [
+     "Output voltage",
+     "30V"
+    ],
+    [
+     "Variation in output voltage",
+     "10% due to variation in input voltage \n and load current up to 500mA"
+    ],
+    [
+     "Ripple voltage",
+     "300mV at full load (peak to peak value)"
+    ],
+    [
+     "Maximum current",
+     "500mA at input voltages 10% higher than the upper nominal input voltage \n 400mA at maximum input voltage."
+    ],
+    [
+     "Maximum \n Permissible Overload",
+     "1A (5 mins. rating)"
+    ],
+    [
+     "Efficiency",
+     "70% to 80%"
+    ],
+    [
+     "No load losses",
+     "3W to 6W"
+    ],
+    [
+     "Contact \n Ratings"
+    ],
+    [
+     "Normally closed contact pair is rated as follows:"
+    ],
+    [
+     "",
+     "Make and carry",
+     "Make and carry",
+     ""
+    ],
+    [
+     "",
+     "Continuously",
+     "for 0.2s",
+     "Break"
+    ],
+    [
+     "a.c.",
+     "1250VA with",
+     "7500VA with",
+     "1250Va with"
+    ],
+    [
+     "maximum of 5A",
+     "maximum of 30A",
+     "maximum of 5A"
+    ],
+    [
+     "and 300V",
+     "and 300V",
+     "and 300V"
+    ],
+    [
+     "d.c.",
+     "1250W with",
+     "7500W with",
+     "50w resistive"
+    ],
+    [
+     "maximum of 5A",
+     "maximum of 30A",
+     "25w inductive"
+    ],
+    [
+     "and 300 V",
+     "and 300 V",
+     "(L/R=0.04)"
+    ],
+    [
+     "",
+     "",
+     "with maxima \n of 5A"
+    ],
+    [
+     "",
+     "",
+     "and 300 V"
+    ],
+    [
+     "Operating ambient temperature",
+     "- 25C \n to + 55C"
+    ],
+    [
+     "Insulation:",
+     "The converter will withstand IEC \n 255-5"
+    ],
+    [
+     "series C:2kv,50hz, for 1 minute"
+    ],
+    [
+     "Impulse voltage withstand:",
+     "with IEC 255-5"
+    ],
+    [
+     "Clause 8, class lll"
+    ],
+    [
+     "impulse voltage test 5kv, 1.2/50s,0.5joules"
+    ],
+    [
+     "High \n frequency interference test",
+     "The converter complies with IEC 255-6"
+    ],
+    [
+     "",
+     "appendix C to class lll"
+    ],
+    [
+     "Storage temperature range\n and \n humidity",
+     "The converter complies\n and with BS 2011"
+    ],
+    [
+     "(IEC 68) to class 25/070/56. \n That is,"
+    ],
+    [
+     "transport and \n storage temperature range"
+    ],
+    [
+     "of - 25C to + 70C, and withstand"
+    ],
+    [
+     "95% humidity at 40C for 56 days"
+    ],
+    [
+     "Figure 3: MSTZ02 input and \n output circuits"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "\nIntroduction\nThe relay type METI is designed specifically for directional control of the \n over current and earth fault relay type MCGG. Each relay is provided with \n adjustable characteristic angle settings, thus making the relay suitable for \n both phase and earth fault applications.\nThe first draft initiated \n by eng. Fahmy Abd El Khalek, tested by eng. Hanan El-Badrawy, eng. Seham El Sherbeny & eng. Ayman Ayad, \n revised by quality control: eng. Adel Abdel Qader El Nagar, accepted by eng. El Sayed Attiah Abdel Maksood: \n general director, and approved by eng. Mahmoud Sakr: head sector of Talkha PS.\nThis document accepted by eng. Samir Abdel Gelil: \nEDEPC inspection and quality control general director & MPIS coordinator, \nand certified by accountant: Mahmoud Mohamed Solman EDEPC planning, financial \npredicting, head sector and supervisor of inspection & quality control head \nsector.\nSafety Precautions\nA work permit must be issued\nThe maintenance staff should be \nqualified and carry the suitable \nsafety ID category,\nSafety fence with caution marks surrounding the work area is required.\nWear the safety and \nhealthy equipment as safety helmet and safety shoes ... etc\nLine isolation is required .\nMake sure CT secondary circuits are shorted before isolating the relay current \ncircuit for current injection\nA work permit must be issued\nThe maintenance staff should be \nqualified and carry the suitable \nsafety ID category,\nSafety fence with caution marks surrounding the work area is required.\nWear the safety and \nhealthy equipment as safety helmet and safety shoes ... etc\nLine isolation is required .\nMake sure CT secondary circuits are shorted before isolating the relay current \ncircuit for current injection\nTools and Equipment\nThree phase injection tester ( \n pulser ).\nTest leads .\nSmall slot screw drivers .\nAvometer\nGeneral Description There are two types of directional relay\nThree phase voltage polarized type \n METI31 fig (1) with connection ( 90 +Ø ) where Ø is the angle on the module \n front plate where:\nfor phase a\nPolarized voltage Vbc points ( 17-18 )\nCurrent Ia points (23-24 )\nfor phase b\nPolarized voltage Vca points ( 19-20 )\nCurrent Ib points (25-26 )\nfor phase c\nPolarized voltage Vab points ( 21-22 )\nCurrent Ic points (27-28 )\nWhen this Relay operate in its operating zone open its contacts (1 - 2 ) \n for phase a & (3 4) for phase b & (56) for phase c, to remove the short circuit on the secondary side of the aux. \n transformer at the input points of the OC relay MCGG 63 as follow: on points \n (4950) for phase a, (4748) for phase b, ( 46 45 ) for phase c as shown \n in Fig 2. \n ( DC/ DC ) Power supply ( 220 v 30 v ) MSTZ02 ( GR1 ) fig ( 5 ).\nUsed for directional earth fault\nPolarized voltage : may be phase voltage or line voltage according to the \n designer.\nCurrent: In (neutral current )\n When this Relay operate in its operating zone open its contacts ( 1 2 ) \n to remove the short circuit on the secondary side of the aux . \n transformer at the input points of the OC\n Relay MCGG 22 Fig (4) on points (24 23)\nCurrent: In (neutral current )\n When this Relay operate in its operating zone open its contacts ( 1 2 ) \n to remove the short circuit on the secondary side of the aux . \n transformer at the input points of the OC\n Relay MCGG 22 Fig (4) on points (24 23)\nWorks to be Carried Out\nFor \n the Directional Relay 3 phase voltage polarized type METI 31 + Over Current \n Relay MCGG 63\nConnect point ( 22) on \n MCGG 63 to point ( 23 ) on METI 31 to inject the same current \n ( Ia ) on the two equipments .\nConnect point ( 24) on MCGG 63 to point ( 25 ) on METI 31 to inject the same \n current ( Ib ) on the two equipments .\nConnect point ( 26) on MCGG 63 to point ( 27 ) on METI 31 to inject the same \n current ( Ic ) on the two equipments .\nConnect points ( 24, 26, 28) on METI 31 with the neutral of the current \n transformer of GIS\nConnect points ( 13, 14 ) on the ( DC/ DC ) power supply MSTZ02 \n to points ( 13, 14 ) on METI 31 to supply 30 v\nProcedures \n of Vbc and Ia\nInject the voltage Vbc and Ia and \n change the angle of Ia from 0º to 360º and record\n the limits of the \n operating zone angle.\nwith Vca & Ib \n with Vab & Ic\nConnect the points (17-18) (Vbc) on \n METI 31 to phase voltages Vb , Vc on the pulser tester.\nConnect point ( 21 ) on MCGG 63 and \n point ( 24 ) on METI 31 to phase current Ia \n on the pulser tester.\nPrepare the voltages (Va,Vb,Vc) and \n current ( Ia) on the pulser screen as \n Va \n = 30v and angle 0º \n Vb = 30v and angle 120º\n Vc = 30v and angle 240º \n Ia = Iset on MCGG63 at angle 0º .\nInject the voltage Vbc and Ia and \n change the angle of Ia from 0º to 360º and record\n the limits of the \n operating zone angle.\nwith Vca & Ib \n with Vab & Ic\nFor the Directional Relay type METI11 \n single phase voltage \n polarized\n + over current relay MCGG22\nVan = 30v and angle 0º\nVbn = 30v and angle 120º\nVcn = 30v and angle 240º\nIa = Iset on MCGG 22 at angle 0º\nConnect point ( 28) on MCGG 22 to \n point ( 27 ) on METI 11 to inject the same current ( In ) on the two \n equipments .\nConnect point ( 28) on METI 11 to the \n neutral of the current transformer of G.I.S .\nSupply METI 11 , MCGG 22 with 220 v \n on points ( 13+ , 14 - ) on the two modules .\nConnect the points ( 22 , 21) on METI11 to voltage ( designed voltage ) on \n the pulser tester and point ( 27) on MCGG 22 and point ( 28 ) on METI11 ( \n which represent the neutral current ) to phase current Ia on the pulser.\nIa = Iset on MCGG 22 at angle 0º\nInject the voltage ( designed voltage ) and Ia and change the angle of Ia from 0º to 360º and record the limits of \n the operating zone angle.\nTiming Test\nBefore progress this test make rest on the tested panel. For the two \n relays types\nSet the injected current on \n its operating current and at any angle on the operating zone and the \n voltages as before mentioned .\nIn case of directional over current \n relay :\nConnect the points (30 + , 29 - ) on \n MCGG63 to the stop timer on the pulser .\nIn case of directional earth fault relay :\nConnect the points (1 + , 2 - ) on \n MCGG22 to the stop timer on the pulser .\nThe instant of injection is the start \n of the timer .\nTo take the \n commands on the pulser.\nFor example if Vbc, Ia to \n be injected.\nPress the buttons Voltage - 2 - 3 - \n current - 1- execute - shift - A-off - on - execute \n - on - timer start - execute .\nRecord the time values.\nTest Sheet\n For Directional OC Relay F67- GEC using Pulser\nSub-station :\nCircuit :\nVoltage \n :\nRated current :\nFor Directional Earth Fault OC Relay F67N - GEC using Pulser\nSub-station :\nCircuit \n :\nVoltage \n :\nRated current :\nRemarks :\nTested by : \n Signature:\nReviewed by : \n Signature: \n Test Date :\nOutput Stage\nThe regulated \n voltage E, is applied to the primary winding of a transformer by a \n transistor switch which is controlled by a 20 khz signal derived from the \n 40khz oscillator.\nThe transformer secondary voltage is then rectified and smoothed to \n produce the output voltage EL. The transformer provides \n electrical isolation between the input and output.\nFigure 3 shows the arrangement of the input and output circuits of the \n MSTZ02, six pairs of terminals are provided for output connections. As two \n connections can be made to each terminal, up to twelve individual loads can \n be independently connected thus avoiding having to loop the d.c. supply from \n load to load. this facility affords increased security over the looping \n method.\nThe outputs are protected from induced impulse voltages by the voltage \n dependent resistor RVD\nIn very high security systems, it may be expedient to use two converters \n in parallel so that, if a failure of one occurs, the d.c. supply is \n maintained.\nParallel connection to maintain a secure supply is freely permitted \n because a diode D1 in each power supply will ensure that:\nNo abnormal load is imposed on the other power supply if one fails.\nOne power supply cannot feed back into the other.\nNo abnormal load is imposed on the other power supply if one fails.\nOne power supply cannot feed back into the other.\nVoltage \n rating Vx\nVolts\n24/27\n30/34\n48/54\n110/125\nVoltage rating\nVolts\n 19-33\n 24-41\nStorage temperature range",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe relay type METI is designed specifically for directional control of the \n over current and earth fault relay type MCGG. Each relay is provided with \n adjustable characteristic angle settings, thus making the relay suitable for \n both phase and earth fault applications.\nThe first draft initiated \n by eng. Fahmy Abd El Khalek, tested by eng. Hanan El-Badrawy, eng. Seham El Sherbeny & eng. Ayman Ayad, \n revised by quality control: eng. Adel Abdel Qader El Nagar, accepted by eng. El Sayed Attiah Abdel Maksood: \n general director, and approved by eng. Mahmoud Sakr: head sector of Talkha PS.\nThis document accepted by eng. Samir Abdel Gelil: \nEDEPC inspection and quality control general director & MPIS coordinator, \nand certified by accountant: Mahmoud Mohamed Solman EDEPC planning, financial \npredicting, head sector and supervisor of inspection & quality control head \nsector.\nSafety Precautions\nA work permit must be issued\nThe maintenance staff should be \nqualified and carry the suitable \nsafety ID category,\nSafety fence with caution marks surrounding the work area is required.\nWear the safety and \nhealthy equipment as safety helmet and safety shoes ... etc\nLine isolation is required .\nMake sure CT secondary circuits are shorted before isolating the relay current \ncircuit for current injection\nA work permit must be issued\nThe maintenance staff should be \nqualified and carry the suitable \nsafety ID category,\nSafety fence with caution marks surrounding the work area is required.\nWear the safety and \nhealthy equipment as safety helmet and safety shoes ... etc\nLine isolation is required .\nMake sure CT secondary circuits are shorted before isolating the relay current \ncircuit for current injection\nTools and Equipment\nThree phase injection tester ( \n pulser ).\nTest leads .\nSmall slot screw drivers .\nAvometer\nGeneral Description There are two types of directional relay\nThree phase voltage polarized type \n METI31 fig (1) with connection ( 90 +Ø ) where Ø is the angle on the module \n front plate where:\nfor phase a\nPolarized voltage Vbc points ( 17-18 )\nCurrent Ia points (23-24 )\nfor phase b\nPolarized voltage Vca points ( 19-20 )\nCurrent Ib points (25-26 )\nfor phase c\nPolarized voltage Vab points ( 21-22 )\nCurrent Ic points (27-28 )\nWhen this Relay operate in its operating zone open its contacts (1 - 2 ) \n for phase a & (3 4) for phase b & (56) for phase c, to remove the short circuit on the secondary side of the aux. \n transformer at the input points of the OC relay MCGG 63 as follow: on points \n (4950) for phase a, (4748) for phase b, ( 46 45 ) for phase c as shown \n in Fig 2. \n ( DC/ DC ) Power supply ( 220 v 30 v ) MSTZ02 ( GR1 ) fig ( 5 ).\nUsed for directional earth fault\nPolarized voltage : may be phase voltage or line voltage according to the \n designer.\nCurrent: In (neutral current )\n When this Relay operate in its operating zone open its contacts ( 1 2 ) \n to remove the short circuit on the secondary side of the aux . \n transformer at the input points of the OC\n Relay MCGG 22 Fig (4) on points (24 23)\nCurrent: In (neutral current )\n When this Relay operate in its operating zone open its contacts ( 1 2 ) \n to remove the short circuit on the secondary side of the aux . \n transformer at the input points of the OC\n Relay MCGG 22 Fig (4) on points (24 23)\nWorks to be Carried Out\nFor \n the Directional Relay 3 phase voltage polarized type METI 31 + Over Current \n Relay MCGG 63\nConnect point ( 22) on \n MCGG 63 to point ( 23 ) on METI 31 to inject the same current \n ( Ia ) on the two equipments .\nConnect point ( 24) on MCGG 63 to point ( 25 ) on METI 31 to inject the same \n current ( Ib ) on the two equipments .\nConnect point ( 26) on MCGG 63 to point ( 27 ) on METI 31 to inject the same \n current ( Ic ) on the two equipments .\nConnect points ( 24, 26, 28) on METI 31 with the neutral of the current \n transformer of GIS\nConnect points ( 13, 14 ) on the ( DC/ DC ) power supply MSTZ02 \n to points ( 13, 14 ) on METI 31 to supply 30 v\nProcedures \n of Vbc and Ia\nInject the voltage Vbc and Ia and \n change the angle of Ia from 0º to 360º and record\n the limits of the \n operating zone angle.\nwith Vca & Ib \n with Vab & Ic\nConnect the points (17-18) (Vbc) on \n METI 31 to phase voltages Vb , Vc on the pulser tester.\nConnect point ( 21 ) on MCGG 63 and \n point ( 24 ) on METI 31 to phase current Ia \n on the pulser tester.\nPrepare the voltages (Va,Vb,Vc) and \n current ( Ia) on the pulser screen as \n Va \n = 30v and angle 0º \n Vb = 30v and angle 120º\n Vc = 30v and angle 240º \n Ia = Iset on MCGG63 at angle 0º .\nInject the voltage Vbc and Ia and \n change the angle of Ia from 0º to 360º and record\n the limits of the \n operating zone angle.\nwith Vca & Ib \n with Vab & Ic\nFor the Directional Relay type METI11 \n single phase voltage \n polarized\n + over current relay MCGG22\nVan = 30v and angle 0º\nVbn = 30v and angle 120º\nVcn = 30v and angle 240º\nIa = Iset on MCGG 22 at angle 0º\nConnect point ( 28) on MCGG 22 to \n point ( 27 ) on METI 11 to inject the same current ( In ) on the two \n equipments .\nConnect point ( 28) on METI 11 to the \n neutral of the current transformer of G.I.S .\nSupply METI 11 , MCGG 22 with 220 v \n on points ( 13+ , 14 - ) on the two modules .\nConnect the points ( 22 , 21) on METI11 to voltage ( designed voltage ) on \n the pulser tester and point ( 27) on MCGG 22 and point ( 28 ) on METI11 ( \n which represent the neutral current ) to phase current Ia on the pulser.\nIa = Iset on MCGG 22 at angle 0º\nInject the voltage ( designed voltage ) and Ia and change the angle of Ia from 0º to 360º and record the limits of \n the operating zone angle.\nTiming Test\nBefore progress this test make rest on the tested panel. For the two \n relays types\nSet the injected current on \n its operating current and at any angle on the operating zone and the \n voltages as before mentioned .\nIn case of directional over current \n relay :\nConnect the points (30 + , 29 - ) on \n MCGG63 to the stop timer on the pulser .\nIn case of directional earth fault relay :\nConnect the points (1 + , 2 - ) on \n MCGG22 to the stop timer on the pulser .\nThe instant of injection is the start \n of the timer .\nTo take the \n commands on the pulser.\nFor example if Vbc, Ia to \n be injected.\nPress the buttons Voltage - 2 - 3 - \n current - 1- execute - shift - A-off - on - execute \n - on - timer start - execute .\nRecord the time values.\nTest Sheet\n For Directional OC Relay F67- GEC using Pulser\nSub-station :\nCircuit :\nVoltage \n :\nRated current :\nInjected current | Injected voltage | I\n set | I \n pickup | I\n reset | reset factor | Voltage value | Angle set \n on the \n relay | Zone\n Set | Zone \n Test | Time \n Set | Time\n Test\nIa | Vbc |  |  |  |  |  |  | ( - ) | ( - ) |  | \nIb | Vca |  |  |  |  |  |  | ( - ) | ( - ) |  | \nIc | Vab |  |  |  |  |  |  | ( - ) | ( - ) |  | \nFor Directional Earth Fault OC Relay F67N - GEC using Pulser\nSub-station :\nCircuit \n :\nVoltage \n :\nInjected current | Injected voltage | I\n set | I \n pickup | I\n reset | reset factor | Voltage value | Angle set \n on the \n relay | Zone\n Set | Zone \n Test | Time \n Set | Time\n Test\nIn |  |  |  |  |  |  |  | ( - ) | ( - ) |  | \nRated current :\nRemarks :\nTested by : \n Signature:\nReviewed by : \n Signature: \n Test Date :\nOutput Stage\n The regulated \n voltage E, is applied to the primary winding of a transformer by a \n transistor switch which is controlled by a 20 khz signal derived from the \n 40khz oscillator.\n The transformer secondary voltage is then rectified and smoothed to \n produce the output voltage EL. The transformer provides \n electrical isolation between the input and output.\n Figure 3 shows the arrangement of the input and output circuits of the \n MSTZ02, six pairs of terminals are provided for output connections. As two \n connections can be made to each terminal, up to twelve individual loads can \n be independently connected thus avoiding having to loop the d.c. supply from \n load to load. this facility affords increased security over the looping \n method.\n The outputs are protected from induced impulse voltages by the voltage \n dependent resistor RVD\n In very high security systems, it may be expedient to use two converters \n in parallel so that, if a failure of one occurs, the d.c. supply is \n maintained.\n Parallel connection to maintain a secure supply is freely permitted \n because a diode D1 in each power supply will ensure that:\n No abnormal load is imposed on the other power supply if one fails.\n One power supply cannot feed back into the other. | TECHNICAL \n DATA\nInput \n Voltage Ranges | Voltage \n rating Vx\n Volts\n 24/27\n 30/34\n 48/54\n 110/125\n 220/250 | Voltage rating \n Volts\n 19-33\n 24-41\n 37.5-65\n 87.5-150\n 175-300\nOutput voltage | 30V\nVariation in output voltage | 10% due to variation in input voltage \n and load current up to 500mA\nRipple voltage | 300mV at full load (peak to peak value)\nMaximum current | 500mA at input voltages 10% higher than the upper nominal input voltage \n 400mA at maximum input voltage.\nMaximum \n Permissible Overload | 1A (5 mins. rating)\nEfficiency | 70% to 80%\nNo load losses | 3W to 6W\nContact \n Ratings\nNormally closed contact pair is rated as follows:\n | Make and carry | Make and carry | \n | Continuously | for 0.2s | Break\na.c. | 1250VA with | 7500VA with | 1250Va with\nmaximum of 5A | maximum of 30A | maximum of 5A\nand 300V | and 300V | and 300V\nd.c. | 1250W with | 7500W with | 50w resistive\nmaximum of 5A | maximum of 30A | 25w inductive\nand 300 V | and 300 V | (L/R=0.04)\n |  | with maxima \n of 5A\n |  | and 300 V\nOperating ambient temperature | - 25C \n to + 55C\nInsulation: | The converter will withstand IEC \n 255-5\nseries C:2kv,50hz, for 1 minute\nImpulse voltage withstand: | with IEC 255-5\nClause 8, class lll\nimpulse voltage test 5kv, 1.2/50s,0.5joules\nHigh \n frequency interference test | The converter complies with IEC 255-6\n | appendix C to class lll\nStorage temperature range\n and \n humidity | The converter complies\n and with BS 2011\n(IEC 68) to class 25/070/56. \n That is,\ntransport and \n storage temperature range\nof - 25C to + 70C, and withstand\n95% humidity at 40C for 56 days\nFigure 3: MSTZ02 input and \n output circuits",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "TechnicalProcedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Directional Over Current\n METI 31+MCGG82\n GEC"
+   "type": "table",
+   "rows": [
+    [
+     "Procedure",
+     "TechnicalProcedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -256,8 +254,91 @@
    "text": "Test Sheet"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay type",
+     "Mcgg 82 HICB 1003D"
+    ],
+    [
+     "Serial number",
+     "698290H"
+    ],
+    [
+     "Cubical",
+     "AB 22"
+    ],
+    [
+     "Function",
+     "3 Phase directional over current relay"
+    ],
+    [
+     "Auxiliary supply",
+     "220 Vdc"
+    ],
+    [
+     "Rated current",
+     "1A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Setting"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "",
+     ""
+    ],
+    [
+     "IN",
+     "1A",
+     "",
+     "IN",
+     "1A"
+    ],
+    [
+     "IS",
+     "0.5A",
+     "",
+     "Io",
+     "0.05A"
+    ],
+    [
+     "TS",
+     "3 Sec",
+     "",
+     "To",
+     "3 Sec"
+    ],
+    [
+     "Curve",
+     "D4",
+     "",
+     "Curve",
+     "D4"
+    ],
+    [
+     "I inst",
+     "∞",
+     "",
+     "I inst",
+     "∞"
+    ],
+    [
+     "CT Ratio",
+     "2500/1",
+     "",
+     "CT Ratio",
+     "2500/1"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -340,6 +421,44 @@
    "text": "Directional Relay METI 31 \n'Test Sheet'"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay type",
+     "Met131 H1 AB0501 H"
+    ],
+    [
+     "Designation",
+     ""
+    ],
+    [
+     "Serial number",
+     "714551 H"
+    ],
+    [
+     "Feeder",
+     "Uit 1 main transformer"
+    ],
+    [
+     "Cubical",
+     "AB22"
+    ],
+    [
+     "Va",
+     "100V"
+    ],
+    [
+     "Vx",
+     "48 / 54 V"
+    ],
+    [
+     "Angle range",
+     "-60 to + 45"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Setting angle : +45"
   },
@@ -362,6 +481,11 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Phase",
+     "Operating Range",
+     "Non Operating Range"
+    ],
     [
      "Theoretical values",
      "Measured values",
@@ -401,7 +525,7 @@
    "text": "Location: Relay \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Procedure\nTechnicalProcedure\nEquipment:Directional Over Current\n METI 31+MCGG82\n GEC\nIntroduction\nThe \nMETI 31+ MCGG 82 relay is designed specially for directional control of the time \ndelayed element of the over current relay type MCGG, and manufactured by GEC.\nThis \nprocedure details the steps required to completely check the proper operation \nand calibration of the METI 31+MCGG 82 relay.\nIt is \nrecommended this procedure be carried out on a yearly bases. This work be \ncarried out section of this document is divided into 3 sections.\nThe \nfirst preliminary steps to prepare for relay testing describes the activities \nrequired prior to testing. Some of these steps could be performed days before \nthe actual test. The second section preparation for testing describes the steps \nto set up the equipment for performing the actual tests. The third section is \nthe actual test. The document is formatted the way to minimize the possibility \nof error causing personal injury or damage to equipment\nThe first draft initiated by Abdel Naser Mostafa, tested by \n eng. Mostafa Ibraheem \n Ahmed, accepted by general manager eng Shoaqi Mahmod, \n and approved by eng. Mohamed \n Mahdy Rezk.\nSafety Precautions\nThe transformer must be was isolated.\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nA work permit must be issued.\nThe qualified maintenance staff should carry the \n suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nSafety \n and healthy equipment must be used \n (safety Helmet, safety shoes, ...etc).\nThe transformer must be was isolated.\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nTools and Equipment\nTest set type MTM2\nVoltmeter, Ammeter\nTest leads, Test plug type MMLGO1\nTest set type MTM2\nVoltmeter, Ammeter\nTest leads, Test plug type MMLGO1\nWork to be Carried Out\nTesting the \nrelay\nand\nprotection outputs\nCarefully follow these test procedure steps.\nVerify the test result match the relay setting. If not consult technical \n services.\nTest trip the circuit breaker associated with the relay.\nPreparations\nMake sure CT secondary circuits are shorted at the incoming blocks before \n isolating the relay current circuits for test\nLook at field maintenance file and compare the position of the setting \n switches on relay with those shown on the setting sheet\nSet the earthing link on the relay to line side position\nOver Current Test\nConnect test leads between the current terminals \n no. (22,28) on the test \n plug. to the current terminals on the test set for phase \"R\"\nSlowly increase the injection current until reach to the operating value \n and then the yellow \"led\" for phase R light. The relay must operate with a \n current between 10% of the setting value\nRecord this value \"I pick - up\" on the test sheet\nIncrease the injected current with a value 25% larger than \"I pick - up\" \n operating value\nSlowly decrease the current until the relay resets\nRecord this value \"I reset\" on the test sheet\nSwitch off the test set\nConnect leads between time delayed trip out put contact terminal No.`s \n (29,30) on the relay to the timer (normally open) on the tester\nInject current with a value 25% larger than the operating value \"I \n operate\"\nEnsure that the relay operates\nSwitch off the tester set switch on and make reset for the timer on the \n tester\nSwitch on the tester unit. Take the time value and must agrees with the \n setting value on the relay\nRecord this value on the test sheet\nRepeat the above test from step No 1 to 13 for testing phases S,T but \n inject current between terminals as follow. For phase S terminals no. (24,28) \n for phase T terminals no. (26,28) on the test plug\nDirectional Test\nThis relay set has a selection of relay characteristic angles \n (-60,45,0,+30,+45)\nEnsure that the polarities of all connection are correct according to \n station drawing\nSet the angle on the relay as in setting\nConnect test leads on the voltage terminal no. (6) on the test plug for \n the directional element relay for phase R and tester unit phase R also\nConnect leads between the current terminal no. (22,28) on the test plug \n and tester unit phase R also\nSwitch on the test set\nInject \n 100 \n ac volt from the test set\nUse phase rotation indicator to be sure phase rotation R, S and T on the \n relay.\nInject current into the relay until it operates.\nAdjust the phase shift angle between the injected current and voltage to a \n value equal setting angle.\nObserve the output element (yellow led light) on the over current element \n relay at this moment picking up\nIncrease the angle on the test set until the relay output element of over \n current resets\nRecord this angle value on the test sheet at this moment\nContinuous to increase the angle until the relay picks up again record \n this angle value on the test sheet. At this moment\nRepeat the above test for phase S, and T with taking into consideration \n the connection must be according to drawing\nThe angles obtained during the above tests shoild be within +6 of the \n boundary angles quoted in the table 1\n\nMinimum Operating Voltage\nRepeat the above test but must start the applied voltage from zero \nand then slowly increase its value until relay picks up at this moment record \nthis value (voltage) in the test sheet for phase R\nRepeat the above step for the other phases (S&T)\nRepeat the above test but must start the applied voltage from zero \nand then slowly increase its value until relay picks up at this moment record \nthis value (voltage) in the test sheet for phase R\nRepeat the above step for the other phases (S&T)\nTrip test\nRequest the operator to switch on the main circuit breaker\nOperate the output auxiliary contact by injection to trip the \ncircuit breaker\nCheck that the circuit breaker tripped.\nRequest the operator to switch on the main circuit breaker\nOperate the output auxiliary contact by injection to trip the \ncircuit breaker\nCheck that the circuit breaker tripped.\nTest Sheet\nSetting\nPrecautions\nTimer contact to be tank from relay # K22 (8.12) at cubical AB 22 \nfor MT1\nK14 to be racked out to stop operation for each of alarm fault \nrecorder,event recorder and signals to DCS\nTimer contact to be tank from relay # K22 (8.12) at cubical AB 22 \nfor MT1\nK14 to be racked out to stop operation for each of alarm fault \nrecorder,event recorder and signals to DCS\nTest Results\n\nDirectional Relay METI 31 \n'Test Sheet'\nSetting angle : +45\nNote : in case of the single phase secondary injection the \nsequence will be as the following:\nTester points \n0ph \n0ph \n0ph\nVoltage phases VT ← \nVS \nVR ← VT \nVS ← VR\n↓↓ \n↑↑ \n↓↓ \n↑↑ \n↓↓ \n↑↑\nCurrent phases IR \nIS \n IT\nTest Results\n\nDirectional Element Characteristic\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Procedure | TechnicalProcedure\nIntroduction\nThe \nMETI 31+ MCGG 82 relay is designed specially for directional control of the time \ndelayed element of the over current relay type MCGG, and manufactured by GEC.\nThis \nprocedure details the steps required to completely check the proper operation \nand calibration of the METI 31+MCGG 82 relay.\nIt is \nrecommended this procedure be carried out on a yearly bases. This work be \ncarried out section of this document is divided into 3 sections.\nThe \nfirst preliminary steps to prepare for relay testing describes the activities \nrequired prior to testing. Some of these steps could be performed days before \nthe actual test. The second section preparation for testing describes the steps \nto set up the equipment for performing the actual tests. The third section is \nthe actual test. The document is formatted the way to minimize the possibility \nof error causing personal injury or damage to equipment\nThe first draft initiated by Abdel Naser Mostafa, tested by \n eng. Mostafa Ibraheem \n Ahmed, accepted by general manager eng Shoaqi Mahmod, \n and approved by eng. Mohamed \n Mahdy Rezk.\nSafety Precautions\nThe transformer must be was isolated.\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nA work permit must be issued.\nThe qualified maintenance staff should carry the \n suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nSafety \n and healthy equipment must be used \n (safety Helmet, safety shoes, ...etc).\nThe transformer must be was isolated.\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nTools and Equipment\nTest set type MTM2\nVoltmeter, Ammeter\nTest leads, Test plug type MMLGO1\nTest set type MTM2\nVoltmeter, Ammeter\nTest leads, Test plug type MMLGO1\nWork to be Carried Out\nTesting the \nrelay\nand\nprotection outputs\nCarefully follow these test procedure steps.\nVerify the test result match the relay setting. If not consult technical \n services.\nTest trip the circuit breaker associated with the relay.\nPreparations\nMake sure CT secondary circuits are shorted at the incoming blocks before \n isolating the relay current circuits for test\nLook at field maintenance file and compare the position of the setting \n switches on relay with those shown on the setting sheet\nSet the earthing link on the relay to line side position\nOver Current Test\nConnect test leads between the current terminals \n no. (22,28) on the test \n plug. to the current terminals on the test set for phase \"R\"\nSlowly increase the injection current until reach to the operating value \n and then the yellow \"led\" for phase R light. The relay must operate with a \n current between 10% of the setting value\nRecord this value \"I pick - up\" on the test sheet\nIncrease the injected current with a value 25% larger than \"I pick - up\" \n operating value\nSlowly decrease the current until the relay resets\nRecord this value \"I reset\" on the test sheet\nSwitch off the test set\nConnect leads between time delayed trip out put contact terminal No.`s \n (29,30) on the relay to the timer (normally open) on the tester\nInject current with a value 25% larger than the operating value \"I \n operate\"\nEnsure that the relay operates\nSwitch off the tester set switch on and make reset for the timer on the \n tester\nSwitch on the tester unit. Take the time value and must agrees with the \n setting value on the relay\nRecord this value on the test sheet\nRepeat the above test from step No 1 to 13 for testing phases S,T but \n inject current between terminals as follow. For phase S terminals no. (24,28) \n for phase T terminals no. (26,28) on the test plug\nDirectional Test\nThis relay set has a selection of relay characteristic angles \n (-60,45,0,+30,+45)\nEnsure that the polarities of all connection are correct according to \n station drawing\nSet the angle on the relay as in setting\nConnect test leads on the voltage terminal no. (6) on the test plug for \n the directional element relay for phase R and tester unit phase R also\nConnect leads between the current terminal no. (22,28) on the test plug \n and tester unit phase R also\nSwitch on the test set\nInject \n 100 \n ac volt from the test set\nUse phase rotation indicator to be sure phase rotation R, S and T on the \n relay.\nInject current into the relay until it operates.\nAdjust the phase shift angle between the injected current and voltage to a \n value equal setting angle.\nObserve the output element (yellow led light) on the over current element \n relay at this moment picking up\nIncrease the angle on the test set until the relay output element of over \n current resets\nRecord this angle value on the test sheet at this moment\nContinuous to increase the angle until the relay picks up again record \n this angle value on the test sheet. At this moment\nRepeat the above test for phase S, and T with taking into consideration \n the connection must be according to drawing\nThe angles obtained during the above tests shoild be within +6 of the \n boundary angles quoted in the table 1\nFront panel \n switch position | Relay characteristic \n angle I Op REF V pol | Output contacts \n open phase shifter indication\n- 60 | I leads V by 60 | 30 lag through 0 to 150 lead\n- 45 | I leads V by 45 | 45 lag through \n 0 to 135 lead\n0 | in phase | 90 lag through \n 0 to 90 lead\n+30 | I leads V by 30 | 120 lag through 0 to 60 lead\n+45 | I leads V by 45 | 135 lag through 0 to 45 lead\nMinimum Operating Voltage\nRepeat the above test but must start the applied voltage from zero \nand then slowly increase its value until relay picks up at this moment record \nthis value (voltage) in the test sheet for phase R\nRepeat the above step for the other phases (S&T)\nRepeat the above test but must start the applied voltage from zero \nand then slowly increase its value until relay picks up at this moment record \nthis value (voltage) in the test sheet for phase R\nRepeat the above step for the other phases (S&T)\nTrip test\nRequest the operator to switch on the main circuit breaker\nOperate the output auxiliary contact by injection to trip the \ncircuit breaker\nCheck that the circuit breaker tripped.\nRequest the operator to switch on the main circuit breaker\nOperate the output auxiliary contact by injection to trip the \ncircuit breaker\nCheck that the circuit breaker tripped.\nTest Sheet\nRelay type | Mcgg 82 HICB 1003D\nSerial number | 698290H\nCubical | AB 22\nFunction | 3 Phase directional over current relay\nAuxiliary supply | 220 Vdc\nRated current | 1A\nSetting\nPhase |  | \nIN | 1A |  | IN | 1A\nIS | 0.5A |  | Io | 0.05A\nTS | 3 Sec |  | To | 3 Sec\nCurve | D4 |  | Curve | D4\nI inst | ∞ |  | I inst | ∞\nCT Ratio | 2500/1 |  | CT Ratio | 2500/1\nPrecautions\nTimer contact to be tank from relay # K22 (8.12) at cubical AB 22 \nfor MT1\nK14 to be racked out to stop operation for each of alarm fault \nrecorder,event recorder and signals to DCS\nTimer contact to be tank from relay # K22 (8.12) at cubical AB 22 \nfor MT1\nK14 to be racked out to stop operation for each of alarm fault \nrecorder,event recorder and signals to DCS\nTest Results\n | Pick-up check (amps) | Measured time \n (SEC)\nTheoretical range | Measured value\nIS (amp) | 1.1 Is (amp) | Pick-up (amp) | Drop-out\nPhase R |  |  |  |  | \nPhase S |  |  |  |  | \nPhase T |  |  |  |  | \nEarth |  |  |  |  | \nDirectional Relay METI 31 \n'Test Sheet'\nRelay type | Met131 H1 AB0501 H\nDesignation | \nSerial number | 714551 H\nFeeder | Uit 1 main transformer\nCubical | AB22\nVa | 100V\nVx | 48 / 54 V\nAngle range | -60 to + 45\nSetting angle : +45\nNote : in case of the single phase secondary injection the \nsequence will be as the following:\nTester points \n0ph \n0ph \n0ph\nVoltage phases VT ← \nVS \nVR ← VT \nVS ← VR\n↓↓ \n↑↑ \n↓↓ \n↑↑ \n↓↓ \n↑↑\nCurrent phases IR \nIS \n IT\nTest Results\nPhase | Operating Range | Non Operating Range\nTheoretical values | Measured values | Theoretical values | Measured values\nPhase A | -133.0 +45 |  | -135,150, + 45 | \nPhase B | -133.0 +45 |  | -135,150, + 45 | \nPhase C | -133.0 +45 |  | -135,150, + 45 | \nDirectional Element Characteristic\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

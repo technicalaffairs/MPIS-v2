@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Protections",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -148,6 +158,47 @@
      "R",
      "S",
      "T"
+    ],
+    [
+     "300mA",
+     "2 Sec",
+     "305mA",
+     "524mA",
+     "305mA",
+     "524mA",
+     "305mA",
+     "8.9mA",
+     "2.23 sec",
+     "83 %",
+     "83 %",
+     "83 %"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay setting",
+     "Phase R",
+     "Phase S",
+     "Phase T",
+     "Time",
+     "Reset Factor"
+    ],
+    [
+     "Current",
+     "Time",
+     "Operate",
+     "Reset",
+     "Operate",
+     "Reset",
+     "Operate",
+     "Reset",
+     "R",
+     "S",
+     "T"
     ]
    ],
    "truncated_rows": 0
@@ -165,7 +216,7 @@
    "text": "Checked\nby :\nSignature: \nDate :"
   }
  ],
- "text": "Introduction\nThis\n document earth fault relays are back - up relay for pilot - wire diff relay A \n pilot differential relay will operate for ground as will as short - circuits. \n The capability of detecting very resistive ground faults is limited by the \n measuring principle used, by adding a \n directional ground - fault \n relay, more than 10 times as high fault resistance can be detected. The high \n sensitivity (down 10 % of rated current) is achieved by measuring the zero \n sequence current.\nWhen faster fault clearing is required, the \n directional ground - fault relay can be used in a directional comparison \n scheme with a communication channel. In such a scheme the ground fault relay \n operates instantaneously but is allowed to trip only receipt of a carrier \n signal (permissive scheme) in this way tripping will be made only for faults \n on the protected line section.\nThe directional ground-fault relays have a \n characteristic angle of (+65) RXPE 47. This means that maximum sensitivity is \n obtained when the operating current is lagging the polarizing voltage by 65\nThe first draft of this document initiated by eng \n Mohye El Deen Khames Ramadan from Esna Hyd. PS, HPSC-EP and tested at \n 24/12/2001\nSafety Precautions\nWork order must be issued\nThe line is out of service\nIsolate the relay from PT`s & CT`s\nTools and Equipment\nSecond. 1 - ph. injection test set (SVERKER 650 \n - Sweden)\nMultimeter, Test wires, Test - plug handle (RTXH 18)\nVariable resistance (0 - 450) ohm\nWork\nto be Carried Out\nThe line is out of service\nConnect the circuit as shown in fig (1)\nIncrease the current gradually until reach the operating value\nEnsure that the relay operates at the setting current value (300)mA\nEnsure that the relay operates at the setting tine value (2) sec\nRepeat for phases S & T\nRecord this values on the test sheet\nTake off the equipments and the wires, then return the relay to its normal \nposition\nConnect the circuit as shown in fig (1)\nIncrease the current gradually until reach the operating value\nEnsure that the relay operates at the setting current value (300)mA\nEnsure that the relay operates at the setting tine value (2) sec\nRepeat for phases S & T\nRecord this values on the test sheet\nTake off the equipments and the wires, then return the relay to its normal \nposition\nTest Sheet\nRelay type : RXPE 47\nRelay symbol : 67 N\nP.T.R. : 132000 / √3 :100/√3 V\nC.T.R. 500/1A\n\nFig. \n(1): Testing of ground directional relay RXPE \n47 with relay testing set \" SVERKER\"\nLocation: \nEquipment Code:\nChecked\nby :\nSignature: \nDate :",
+ "text": "Protections | Technical Procedure\nIntroduction\nThis\n document earth fault relays are back - up relay for pilot - wire diff relay A \n pilot differential relay will operate for ground as will as short - circuits. \n The capability of detecting very resistive ground faults is limited by the \n measuring principle used, by adding a \n directional ground - fault \n relay, more than 10 times as high fault resistance can be detected. The high \n sensitivity (down 10 % of rated current) is achieved by measuring the zero \n sequence current.\nWhen faster fault clearing is required, the \n directional ground - fault relay can be used in a directional comparison \n scheme with a communication channel. In such a scheme the ground fault relay \n operates instantaneously but is allowed to trip only receipt of a carrier \n signal (permissive scheme) in this way tripping will be made only for faults \n on the protected line section.\nThe directional ground-fault relays have a \n characteristic angle of (+65) RXPE 47. This means that maximum sensitivity is \n obtained when the operating current is lagging the polarizing voltage by 65\nThe first draft of this document initiated by eng \n Mohye El Deen Khames Ramadan from Esna Hyd. PS, HPSC-EP and tested at \n 24/12/2001\nSafety Precautions\nWork order must be issued\nThe line is out of service\nIsolate the relay from PT`s & CT`s\nTools and Equipment\nSecond. 1 - ph. injection test set (SVERKER 650 \n - Sweden)\nMultimeter, Test wires, Test - plug handle (RTXH 18)\nVariable resistance (0 - 450) ohm\nWork\nto be Carried Out\nThe line is out of service\nConnect the circuit as shown in fig (1)\nIncrease the current gradually until reach the operating value\nEnsure that the relay operates at the setting current value (300)mA\nEnsure that the relay operates at the setting tine value (2) sec\nRepeat for phases S & T\nRecord this values on the test sheet\nTake off the equipments and the wires, then return the relay to its normal \nposition\nConnect the circuit as shown in fig (1)\nIncrease the current gradually until reach the operating value\nEnsure that the relay operates at the setting current value (300)mA\nEnsure that the relay operates at the setting tine value (2) sec\nRepeat for phases S & T\nRecord this values on the test sheet\nTake off the equipments and the wires, then return the relay to its normal \nposition\nTest Sheet\nRelay type : RXPE 47\nRelay symbol : 67 N\nP.T.R. : 132000 / √3 :100/√3 V\nC.T.R. 500/1A\nRelay setting | Phase R | Phase S | Phase T | Time | Reset Factor\nCurrent | Time | Operate | Reset | Operate | Reset | Operate | Reset | R | S | T\n300mA | 2 Sec | 305mA | 524mA | 305mA | 524mA | 305mA | 8.9mA | 2.23 sec | 83 % | 83 % | 83 %\nRelay setting | Phase R | Phase S | Phase T | Time | Reset Factor\nCurrent | Time | Operate | Reset | Operate | Reset | Operate | Reset | R | S | T\nFig. \n(1): Testing of ground directional relay RXPE \n47 with relay testing set \" SVERKER\"\nLocation: \nEquipment Code:\nChecked\nby :\nSignature: \nDate :",
  "text_truncated": false,
  "links": [
   {

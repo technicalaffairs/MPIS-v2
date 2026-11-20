@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Speedtronic \n System, Speed Control\nIC \n 3600 SSZB (1L-1O), IC 3600 SFPB (1L-1P), Magnetic Pickup ( 77FHC1,2 )\nGeneral Electric, GT Mark II, Model 4930MS"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -102,16 +100,20 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "0"
-  },
-  {
-   "type": "paragraph",
-   "text": "0 \n 0.01"
-  },
-  {
-   "type": "paragraph",
-   "text": "---"
+   "type": "table",
+   "rows": [
+    [
+     "Speed (RPM)",
+     "Speed (V) NHP",
+     "Adjustment"
+    ],
+    [
+     "0\n 5105",
+     "0 \n 0.01\n 10 \n 0.01",
+     "---\n R112 (1)"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -139,18 +141,38 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Droop"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "FSNL, \"SFPB\" R207"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "DROOP R209"
+   "type": "table",
+   "rows": [
+    [
+     "Load",
+     "Speed RPM",
+     "Droop\n DSP Volt",
+     "VCE unit",
+     "Adjustment"
+    ],
+    [
+     "No Load",
+     "5105",
+     "0.00",
+     "7.6",
+     "FSNL, \"SFPB\" R207"
+    ],
+    [
+     "5105",
+     "5105",
+     "- 3.63",
+     "15.5",
+     "- -"
+    ],
+    [
+     "Peak",
+     "5105",
+     "- 4.0",
+     "16.3",
+     "DROOP R209"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -185,7 +207,7 @@
    "text": "Location: Equipment \nDesignation: Test \nDate: \nTested \nby: \nSignature:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Speedtronic \n System, Speed Control\nIC \n 3600 SSZB (1L-1O), IC 3600 SFPB (1L-1P), Magnetic Pickup ( 77FHC1,2 )\nGeneral Electric, GT Mark II, Model 4930MS\nIntroduction\nThis document outlines the inspection check \n list I1, to be performed on an annually bases as indicated by Y1 in the title \n block.\nThe first draft initiated by eng. Sawsan \n El_Lethy, tested by eng. \nMohamed EL_Sehrawy \n at 27 Aug. 2003, reversed by EDEPCo. \n quality control eng. Abdel Menem AL Emam, and approved by eng. Mohamed Goda EL_Said \n General \n Director of Port Said G.T. Power Station, certified by eng. Aly Mostafa Al-Lethy, EDEPCo. \n Inspection and Quality Control Head Sector.\nSafety Precautions\nWork permit must be issued the \n maintenance staff should be qualified and carry the suitable safety category\nSafety fence with caution marks \n surrounding the work area is required.\nWear \n the personal\n protective equipment as (safety shoes, Helmet).\nTurbine shout down & all MCC CB off \n (racked out).\nTools and Equipment\nDigital AVO Meter, Frequency meter, Remover card.\nSpeed tronic calibrator set \n model (151A4925)\nSpecial tool to adjust the \n potentiometer at the cards\nWork to be Carried Out\nTurbine Speed Sensor\nPR/A: Pulse Rate / Analog \nNHP: normal Speed\nMagnetic Pickup ( 77HC1 , 77HC2 )\nCheck \n DC resistance shod be (140Ω).\nCheck wires for grounding.\nCheck that the sensor \n wires are healthy.\nSpeed \nControl Card SSZB (1L 1I )\nInject frequency source from \n calibrator at pin (1C, 2B) at 100%, to reach NHP (5105) RPM.\nEnsure that voltage at 5H,G \n read 10 V dc\nIf it is not correct adjust \n from (R112).\nPull card SFPB at 1L 1P.\nMake Jumper max1, \n max2 pin (34 & 35) at card SSKC to max. (VCE).\nAdjust 100% NHP until speed \n control light just comes on. If it is not correct adjust from (R112) according \n the table blow\n0\n0 \n 0.01\n---\nFull Speed No Load (FSNL)\nRemove card SFPB.\nSet 100% NHP 5105 r.p.m.\nMeasure VCE 7H,1G at \n calibrator as given in sitting (3.4 volt) if it is not correct. Must be \n adjusted from FSNL R207 at SFPB card.\nDroop 104%\nSet 100% (NHP) by 1C , 2B at \n calibrator\nRaise D.S.P to 104 at 4 volt\nEnsure that VCE =16.3 or 8 \n volt.\nIf it is not correct. it must \n be adjusted from DROOP R209 at card SFPB.\nDroop\nFSNL, \"SFPB\" R207\nDROOP R209\n1 unit (VCE) = 0.5 volt, 7.6 \nunit = 3.8 volt\nReturn Cards into Service\nRemove all Jumpers\nRemove the calibrator set\nPut cards in normal position\nRemove all Jumpers\nRemove the calibrator set\nPut cards in normal position\nLocation: Equipment \nDesignation: Test \nDate: \nTested \nby: \nSignature:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines the inspection check \n list I1, to be performed on an annually bases as indicated by Y1 in the title \n block.\nThe first draft initiated by eng. Sawsan \n El_Lethy, tested by eng. \nMohamed EL_Sehrawy \n at 27 Aug. 2003, reversed by EDEPCo. \n quality control eng. Abdel Menem AL Emam, and approved by eng. Mohamed Goda EL_Said \n General \n Director of Port Said G.T. Power Station, certified by eng. Aly Mostafa Al-Lethy, EDEPCo. \n Inspection and Quality Control Head Sector.\nSafety Precautions\nWork permit must be issued the \n maintenance staff should be qualified and carry the suitable safety category\nSafety fence with caution marks \n surrounding the work area is required.\nWear \n the personal\n protective equipment as (safety shoes, Helmet).\nTurbine shout down & all MCC CB off \n (racked out).\nTools and Equipment\nDigital AVO Meter, Frequency meter, Remover card.\nSpeed tronic calibrator set \n model (151A4925)\nSpecial tool to adjust the \n potentiometer at the cards\nWork to be Carried Out\nTurbine Speed Sensor\nPR/A: Pulse Rate / Analog \nNHP: normal Speed\nMagnetic Pickup ( 77HC1 , 77HC2 )\nCheck \n DC resistance shod be (140Ω).\nCheck wires for grounding.\nCheck that the sensor \n wires are healthy.\nSpeed \nControl Card SSZB (1L 1I )\nInject frequency source from \n calibrator at pin (1C, 2B) at 100%, to reach NHP (5105) RPM.\nEnsure that voltage at 5H,G \n read 10 V dc\nIf it is not correct adjust \n from (R112).\nPull card SFPB at 1L 1P.\nMake Jumper max1, \n max2 pin (34 & 35) at card SSKC to max. (VCE).\nAdjust 100% NHP until speed \n control light just comes on. If it is not correct adjust from (R112) according \n the table blow\nSpeed (RPM) | Speed (V) NHP | Adjustment\n0\n 5105 | 0 \n 0.01\n 10 \n 0.01 | ---\n R112 (1)\nFull Speed No Load (FSNL)\nRemove card SFPB.\nSet 100% NHP 5105 r.p.m.\nMeasure VCE 7H,1G at \n calibrator as given in sitting (3.4 volt) if it is not correct. Must be \n adjusted from FSNL R207 at SFPB card.\nDroop 104%\nSet 100% (NHP) by 1C , 2B at \n calibrator\nRaise D.S.P to 104 at 4 volt\nEnsure that VCE =16.3 or 8 \n volt.\nIf it is not correct. it must \n be adjusted from DROOP R209 at card SFPB.\nLoad | Speed RPM | Droop\n DSP Volt | VCE unit | Adjustment\nNo Load | 5105 | 0.00 | 7.6 | FSNL, \"SFPB\" R207\n5105 | 5105 | - 3.63 | 15.5 | - -\nPeak | 5105 | - 4.0 | 16.3 | DROOP R209\n1 unit (VCE) = 0.5 volt, 7.6 \nunit = 3.8 volt\nReturn Cards into Service\nRemove all Jumpers\nRemove the calibrator set\nPut cards in normal position\nRemove all Jumpers\nRemove the calibrator set\nPut cards in normal position\nLocation: Equipment \nDesignation: Test \nDate: \nTested \nby: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

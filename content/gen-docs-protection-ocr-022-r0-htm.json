@@ -157,43 +157,71 @@
    ]
   },
   {
-   "type": "list",
-   "items": [
-    "Set the switch on the \n front of the relay so the output relays correspond to phase or ground \n (Position B)",
-    "Connect the relay as indicated in \n the figure below. In order to apply current to the relay, use a supply of 120 \n or 220 volts, 50/60HZ, with a variable resistor in series, or an electronic \n test source."
-   ]
+   "type": "table",
+   "rows": [
+    [
+     "Set the switch on the \n front of the relay so the output relays correspond to phase or ground \n (Position B)\n Connect the relay as indicated in \n the figure below. In order to apply current to the relay, use a supply of 120 \n or 220 volts, 50/60HZ, with a variable resistor in series, or an electronic \n test source."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "GE Power Management"
-  },
-  {
-   "type": "paragraph",
-   "text": "MRDS \nMaintenance Record Data \nSheet \nMRDS"
-  },
-  {
-   "type": "paragraph",
-   "text": "Relay Function:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Relay manufacture"
-  },
-  {
-   "type": "paragraph",
-   "text": "Serial Number:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Circuit / Equipment:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Tested Date:"
+   "type": "table",
+   "rows": [
+    [
+     "Station:",
+     ""
+    ],
+    [
+     "Relay Function:",
+     ""
+    ],
+    [
+     "Relay type",
+     ""
+    ],
+    [
+     "Relay manufacture",
+     ""
+    ],
+    [
+     "Serial Number:",
+     ""
+    ],
+    [
+     "Circuit / Equipment:",
+     ""
+    ],
+    [
+     "Tested Date:",
+     "Last test date:"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Setting:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase Fault",
+     "Ground \n Fault"
+    ],
+    [
+     "Time dial",
+     "",
+     ""
+    ],
+    [
+     "Pickup current",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -205,9 +233,43 @@
    "text": "Phase Fault"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase C",
+     "Phase B",
+     "Phase A"
+    ],
+    [
+     "Pick up",
+     "Pick up",
+     "Pick up"
+    ],
+    [
+     "Time (s)",
+     "Current (A)",
+     "Time (s)",
+     "Current (A)",
+     "Time (s)",
+     "Current (A)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "heading",
    "level": 5,
    "text": "Ground Fault"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Time (s)",
+     "Current (A)"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -222,7 +284,7 @@
    "text": "Approved by: \nSignature:"
   }
  ],
- "text": "\nIntroduction\nTime-over \n current relays are used for the protection of feeders, transmission lines, \n alternating-current machines and transformers, and numerous other applications \n where accurate measurement of current and timing is necessary.\nTo ensure \n proper coordination with a minimum of circuit isolation, the operating time of \n associated protective devices should be considered when selecting a \n time-current characteristic for a particular application. Four basic \n time-current characteristics are available for the MDP relay\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by EDEPC quality control eng. Adel Abdel Qader El Nagar, accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station, \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nMotor out of service and work permit required.\nMake sure CT Secondary circuits are \nshorted.\nEnsure all CT path elements are secure after any \ntest disturbance.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nMotor out of service and work permit required.\nMake sure CT Secondary circuits are \nshorted.\nEnsure all CT path elements are secure after any \ntest disturbance.\nTools and \nEquipment\nISA test set type ART/3 or Omicron\nVoltmeter, \n Ammeter, \nand Test plug test leads\nISA test set type ART/3 or Omicron\nVoltmeter, \n Ammeter, \nand Test plug test leads\nWork to be carried out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of \nthem to the timer of the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the current leads of a tester unit to the relay points \n according to the drawings and scheme.\nInject current to each couple of points till the red flag \nof the device displays.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nTest trip the circuit breaker associated with the relay.\nTrip Test\nRequest the operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to trip the \n circuit breaker.\nCheck that the circuit breaker tripped.\nSet the switch on the \n front of the relay so the output relays correspond to phase or ground \n (Position B)\nConnect the relay as indicated in \n the figure below. In order to apply current to the relay, use a supply of 120 \n or 220 volts, 50/60HZ, with a variable resistor in series, or an electronic \n test source.\nGE Power Management\nMRDS \nMaintenance Record Data \nSheet \nMRDS\nRelay Function:\nRelay manufacture\nSerial Number:\nCircuit / Equipment:\nTested Date:\nSetting:\nResults:\nPhase Fault\nGround Fault\nTested by: \nSignature:\nRevised by: \nSignature:\nApproved by: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nTime-over \n current relays are used for the protection of feeders, transmission lines, \n alternating-current machines and transformers, and numerous other applications \n where accurate measurement of current and timing is necessary.\nTo ensure \n proper coordination with a minimum of circuit isolation, the operating time of \n associated protective devices should be considered when selecting a \n time-current characteristic for a particular application. Four basic \n time-current characteristics are available for the MDP relay\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by EDEPC quality control eng. Adel Abdel Qader El Nagar, accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station, \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nMotor out of service and work permit required.\nMake sure CT Secondary circuits are \nshorted.\nEnsure all CT path elements are secure after any \ntest disturbance.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nMotor out of service and work permit required.\nMake sure CT Secondary circuits are \nshorted.\nEnsure all CT path elements are secure after any \ntest disturbance.\nTools and \nEquipment\nISA test set type ART/3 or Omicron\nVoltmeter, \n Ammeter, \nand Test plug test leads\nISA test set type ART/3 or Omicron\nVoltmeter, \n Ammeter, \nand Test plug test leads\nWork to be carried out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of \nthem to the timer of the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the current leads of a tester unit to the relay points \n according to the drawings and scheme.\nInject current to each couple of points till the red flag \nof the device displays.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nTest trip the circuit breaker associated with the relay.\nTrip Test\nRequest the operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to trip the \n circuit breaker.\nCheck that the circuit breaker tripped.\nSet the switch on the \n front of the relay so the output relays correspond to phase or ground \n (Position B)\n Connect the relay as indicated in \n the figure below. In order to apply current to the relay, use a supply of 120 \n or 220 volts, 50/60HZ, with a variable resistor in series, or an electronic \n test source.\nStation: | \nRelay Function: | \nRelay type | \nRelay manufacture | \nSerial Number: | \nCircuit / Equipment: | \nTested Date: | Last test date:\nSetting:\nPhase Fault | Ground \n Fault\nTime dial |  | \nPickup current |  | \nResults:\nPhase Fault\nPhase C | Phase B | Phase A\nPick up | Pick up | Pick up\nTime (s) | Current (A) | Time (s) | Current (A) | Time (s) | Current (A)\nGround Fault\nTime (s) | Current (A)\nTested by: \nSignature:\nRevised by: \nSignature:\nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [
