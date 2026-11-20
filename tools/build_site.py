@@ -1311,6 +1311,19 @@ CATEGORY_EN = {
     "general": "General", "index_htm": "General",
 }
 
+# Hero cover photos for category cards (files live in repo assets/covers/;
+# copied into dist at build time). Categories without a hero cover fall back
+# to the best photo found in their own documents, then to the Ministry logo.
+COVERS = {
+    "transformers": "transformers.jpg",
+    "turbines": "turbines.jpg",
+    "generators": "turbines.jpg",
+    "boilers": "boilers.jpg",
+    "substations": "substations.jpg",
+    "switchgear": "switchgear.jpg",
+    "protection": "protection.jpg",
+}
+
 
 def esc(s):
     return htmlmod.escape(str(s or ""), quote=True)
@@ -1346,6 +1359,7 @@ a{color:var(--accent)}
 .brand{display:flex;align-items:center;gap:8px}
 .brand-logo{height:34px;width:34px;border-radius:50%;object-fit:cover}
 .hero-logo{height:140px;width:140px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 12px;background:#fff}
+.hero-banner{width:100%;height:300px;object-fit:cover;display:block;border-radius:var(--radius);margin-bottom:16px}
 .controls{display:flex;gap:8px;flex-wrap:wrap}
 button,.btn{cursor:pointer;border:1px solid var(--border);background:var(--surface-2);color:var(--text);
 border-radius:999px;padding:7px 14px;font-size:.9rem;text-decoration:none;display:inline-block}
@@ -1363,6 +1377,9 @@ padding:28px;margin:22px 0;box-shadow:var(--shadow)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);text-decoration:none;color:var(--text);display:block}
 .card-img{width:100%;height:150px;object-fit:cover;display:block;border-radius:8px;margin-bottom:10px;background:var(--surface-muted)}
+.cat-head{display:flex;gap:16px;align-items:center;margin:8px 0 16px}
+.cat-head img{width:220px;height:140px;object-fit:cover;border-radius:8px;flex:none}
+.cat-head h1{margin:0}
 .card:hover{border-color:var(--accent)}
 .card h3{margin:.1em 0;font-size:1.05rem}
 .card p{margin:.2em 0;color:var(--muted);font-size:.88rem}
@@ -1475,6 +1492,13 @@ def build(content_dir, dist_dir, v1_root):
     import base64 as _b64
     with open(os.path.join(dist_dir, "assets", "logo.png"), "wb") as _f:
         _f.write(_b64.b64decode(LOGO_B64))
+    _covers_src = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "covers")
+    if os.path.isdir(_covers_src):
+        os.makedirs(os.path.join(dist_dir, "assets", "covers"), exist_ok=True)
+        for _fn in sorted(os.listdir(_covers_src)):
+            if _fn.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+                shutil.copyfile(os.path.join(_covers_src, _fn),
+                                os.path.join(dist_dir, "assets", "covers", _fn))
     i18n = load_i18n(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     with open(os.path.join(content_dir, "index.json"), encoding="utf-8") as f:
         manifest = [m for m in json.load(f)["documents"] if m["id"] not in EXCLUDED_DOC_IDS]
@@ -1652,6 +1676,15 @@ def build(content_dir, dist_dir, v1_root):
     with open(os.path.join(dist_dir, "assets", "search.json"), "w", encoding="utf-8") as f:
         json.dump(search_index, f, ensure_ascii=False)
 
+    def _cover_rel(cat, prefix):
+        hero = COVERS.get(cat)
+        if hero and os.path.isfile(os.path.join(_covers_src, hero)):
+            return prefix + "assets/covers/" + hero
+        got = cat_img.get(cat)
+        if got:
+            return prefix + "assets/img/" + got[1]
+        return prefix + "assets/logo.png"
+
     # ---- categories ----
     cats = {}
     for m in manifest:
@@ -1671,7 +1704,7 @@ def build(content_dir, dist_dir, v1_root):
 <div class="controls"><button id="langBtn" type="button">English</button>
 <button id="themeBtn" type="button">🌙</button></div></div></header>
 <main class="wrap"><p><a href="../index.html" data-i18n="home">Home</a></p>
-<h1><span data-cat data-cat-ar='{esc(CATEGORY_AR.get(cat, cat))}' data-cat-en='{esc(CATEGORY_EN.get(cat, cat))}'>{esc(label)}</span> ({len(ms)})</h1><ul class="results">{rows}</ul></main>
+<div class="cat-head"><img src="{_cover_rel(cat, '../')}" alt=""><h1><span data-cat data-cat-ar='{esc(CATEGORY_AR.get(cat, cat))}' data-cat-en='{esc(CATEGORY_EN.get(cat, cat))}'>{esc(label)}</span> ({len(ms)})</h1></div><ul class="results">{rows}</ul></main>
 <footer><div class="wrap"><span data-i18n="footer_note"></span></div></footer></body></html>""")
 
     # ---- home ----
@@ -1679,6 +1712,9 @@ def build(content_dir, dist_dir, v1_root):
     both = sum(1 for m in manifest if m.get("translation_status") == "available")
     missing = sum(1 for m in manifest if m.get("translation_status") == "missing")
     def _cat_cover(cat):
+        hero = COVERS.get(cat)
+        if hero and os.path.isfile(os.path.join(_covers_src, hero)):
+            return f"<img class='card-img' src='assets/covers/{hero}' alt='' loading='lazy'>"
         got = cat_img.get(cat)
         if got:
             return f"<img class='card-img' src='assets/img/{got[1]}' alt='' loading='lazy'>"
@@ -1692,7 +1728,7 @@ def build(content_dir, dist_dir, v1_root):
         ms = [m for m in manifest if (m.get("doc_number") or "").upper().startswith(no)]
         en = next((m for m in ms if m["language"] == "en"), None)
         if en:
-            feat += (f"<a class='card' href='docs/{en['id']}.html'><h3>{esc(no)}</h3>"
+            feat += (f"<a class='card' href='docs/{en['id']}.html'><img class='card-img' src='assets/covers/transformer-testing.jpg' alt='' loading='lazy' onerror=\"this.style.display='none'\"><h3>{esc(no)}</h3>"
                      f"<p>{esc((en.get('title_en') or '')[:120])}</p></a>")
     with open(os.path.join(dist_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(f"""<!DOCTYPE html><html lang="ar" dir="rtl" data-theme="light">
@@ -1705,7 +1741,7 @@ def build(content_dir, dist_dir, v1_root):
 <div class="controls"><button id="langBtn" type="button">English</button>
 <button id="themeBtn" type="button">🌙</button></div></div></header>
 <main class="wrap">
-<section class="hero"><img class="hero-logo" src="assets/logo.png" alt="Ministry of Electricity and Renewable Energy logo"><p><span data-i18n="org_line1">{esc(i18n['ar']['org_line1'])}</span> — <span data-i18n="org_line2">{esc(i18n['ar']['org_line2'])}</span></p>
+<section class="hero"><img class="hero-banner" src="assets/covers/transformers.jpg" alt="Power transformer in a substation"><img class="hero-logo" src="assets/logo.png" alt="Ministry of Electricity and Renewable Energy logo"><p><span data-i18n="org_line1">{esc(i18n['ar']['org_line1'])}</span> — <span data-i18n="org_line2">{esc(i18n['ar']['org_line2'])}</span></p>
 <h1 data-i18n="site_title">نظام معلومات إجراءات الصيانة</h1>
 <p>Maintenance Procedure Information System — MPIS</p>
 <p data-i18n="org_line3">{esc(i18n['ar']['org_line3'])}</p></section>
