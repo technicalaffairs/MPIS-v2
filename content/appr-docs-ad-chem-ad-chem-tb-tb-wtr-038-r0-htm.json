@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Chemical"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Bulletin"
-  },
-  {
-   "type": "paragraph",
-   "text": "Title:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time for\n Boilers Cleaning.\n Using Kurita \n Handbook of Water. Page, 9-5"
+   "type": "table",
+   "rows": [
+    [
+     "Chemical",
+     "Technical \n Bulletin"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -138,8 +132,48 @@
    "text": "Table 1 Permissible tube \n wall temperatures for various steels"
   },
   {
-   "type": "paragraph",
-   "text": "Kind \n of steel"
+   "type": "table",
+   "rows": [
+    [
+     "Kind \n of steel\n (JIS)",
+     "Permissible \n temperature (C)"
+    ],
+    [
+     "Average wall temperature",
+     "Fire \n side skin temperature"
+    ],
+    [
+     "STB 410",
+     "450",
+     "490"
+    ],
+    [
+     "STBA 12",
+     "500",
+     "540"
+    ],
+    [
+     "STBA 20",
+     "520",
+     "560"
+    ],
+    [
+     "STBA 22",
+     "550",
+     "580"
+    ],
+    [
+     "STBA 23",
+     "550",
+     "580"
+    ],
+    [
+     "STBA 24",
+     "555",
+     "590"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -158,136 +192,107 @@
    "text": "Table 2 Critical scale \n thickness or amount requiring a boiler cleaning"
   },
   {
-   "type": "paragraph",
-   "text": "Necessity of"
-  },
-  {
-   "type": "paragraph",
-   "text": "Coal"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.300.45 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.250.35mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.250.30 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.200.25mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "Mixture of"
-  },
-  {
-   "type": "paragraph",
-   "text": "Indispensable"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.300.40 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "(90120 mg/cm2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.250.35 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.200.30mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "(6090 mg/cm2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Better to clean"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.250.30 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "(7590 mg/cm2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.200.25 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "(60 75 mg/cm2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.150.20mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "(4560 mg/cm2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.250.35 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "(75105 mg/cm2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.200.30 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "(6090 mg/cm2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.150.20mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.080.12 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "(2436 mg/cm2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.200.25 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.150.20 mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.100.15mm"
-  },
-  {
-   "type": "paragraph",
-   "text": "(3045 mg/cm2)"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.060.08 mm"
+   "type": "table",
+   "rows": [
+    [
+     "Fuel",
+     "Necessity of\n cleaning",
+     "Boiler pressure (kgf/cm2)"
+    ],
+    [
+     "80",
+     "120",
+     "180",
+     "Above 246"
+    ],
+    [
+     "Coal",
+     "Indispensable",
+     "-",
+     "0.300.45 mm\n (90135 mg/cm2)",
+     "0.250.35mm\n (75105 mg/cm2)",
+     "-"
+    ],
+    [
+     "Better to clean",
+     "-",
+     "0.250.30 mm\n (7590 mg/cm2)",
+     "0.200.25mm\n (6075 mg/cm2)",
+     "-"
+    ],
+    [
+     "Mixture of\n coal \n and heavy oil",
+     "Indispensable",
+     "0.300.40 mm\n (90120 mg/cm2)",
+     "0.250.35 mm\n (75105 mg/cm2)",
+     "0.200.30mm\n (6090 mg/cm2)",
+     "-"
+    ],
+    [
+     "Better to clean",
+     "0.250.30 mm\n (7590 mg/cm2)",
+     "0.200.25 mm\n (60 75 mg/cm2)",
+     "0.150.20mm\n (4560 mg/cm2)",
+     "-"
+    ],
+    [
+     "Heavy oil",
+     "Indispensable",
+     "0.250.35 mm\n (75105 mg/cm2)",
+     "0.200.30 mm\n (6090 mg/cm2)",
+     "0.150.20mm\n (4575 mg/cm2)",
+     "0.080.12 mm\n (2436 mg/cm2)"
+    ],
+    [
+     "Better to clean",
+     "0.200.25 mm\n (6075 mg/cm2)",
+     "0.150.20 mm\n (4560 mg/cm2)",
+     "0.100.15mm\n (3045 mg/cm2)",
+     "0.060.08 mm\n (1824 mg/cm2)"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Table 3 Standard chemical \n cleaning intervals for oil-burning boilers"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type",
+     "Pressure (kgf/cm2)",
+     "Chemical cleaning intervals (year)"
+    ],
+    [
+     "Water-tube boiler",
+     "80100",
+     "57"
+    ],
+    [
+     "120",
+     "35"
+    ],
+    [
+     "180",
+     "23"
+    ],
+    [
+     "Once-through boiler",
+     "120",
+     "25"
+    ],
+    [
+     "180",
+     "13"
+    ],
+    [
+     "Above 240",
+     "13"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -370,7 +375,7 @@
    "text": "A high pressure water jet cleaning \n is generally applied to remove the scale."
   }
  ],
- "text": "Chemical\nTechnical \n Bulletin\nTitle:\nTime for\n Boilers Cleaning.\n Using Kurita \n Handbook of Water. Page, 9-5\nIntroduction\nThis document \ncovers the cleanings of various plants which are carried out not only to remove \nthe scales after the trouble occurrence but also to prevent the scale problems \nbeforehand.\nIn case that the cleaning is applied \nfor a preventive measure, a time for cleaning has to be determined by taking \nvarious factors into consideration. Since the important factors may vary \ndepending on the types of cleaning objects, the purposes of cleaning and so on.\nThis document was initiated \nby \n MDEPC inspection & \nquality control chemist: Saad Sadeek; and revised \nby EEHC, Quality Control Head Sector chemists: Mohamed Tawfik and Safaa Mamdouh.\nThis document is accepted by eng. Samir Abd El-Galil: \n MDEPC \n inspection and quality control general director & MPIS coordinator, and \n certified by engineer; Mervat Ezz Eldeen Mahmoud; MDEPC inspection and Quality Control Head Sector.\nInformation\nBoilers are generally \ndivided into high, medium\nand low pressure boilers according to their \noperational pressures. As the structures of \nboilers and the compositions of scales vary \ndepending on the pressure, the determination \nmethods of cleaning time are discussed below for each \npressure boiler.\nHigh Pressure Boilers\nIn case of high \n pressure boilers with the pressure of above 75 kgf/cm2, the \n components of the scales are mainly iron oxides and are followed by the \n copper, nickel oxides, zinc oxides, etc. The deposition amounts of magnetite \n and copper on the heating tubes of a boiler are widely influenced on the heat \n load as shown in Figure 1. The influence of the heat load is not so clear on \n the deposition of nickel and zinc oxides.\nThe relationship \n between the heat load and the deposition rate of ferric oxide (Fe2O3) \n was expressed by the equation (1).\nA = KCFeQ2 \n ............................... (1)\nwhere\nA = deposition rate \n of ferric oxide (mg Fe2O3/ cm2h)\nK = constant\nCFe = \n iron concentration in boiler water (mg Fe/l)\nQ = heat flux \n (kcal/m2h)\nThe K value was \n reported at 8.3...10-14 for the field test data or at 5.7 \n ..10-14 \n for the laboratory test data. Figure 2 shows the relationship among the deposition \n rate of iron oxide, the iron concentration in boiler water and the heat flux \n in the case of the K value\nof 5.7 \n .10-14.\nFigure 1 Influence of the \n heat load of a boiler tube on the deposition rates of various scale components\n(1) Q = 60 x 104 kcal/m2h (3) \n Q = 40 x 104 kcal/m2h\n(2) Q = 50 x 104 kcal/m2h (4) Q = 30 x 104 kcal/m2h\nFigure 2 Relationship among \n the deposition rate of iron oxide, iron concentration in boiler water and heat \n flux\nFigure 3 shows the \n increases in the skin temperature of boiler tube by the scale deposition with \n various thermal conductivities and the thicknesses. The thickness of scale \n with the amount of 1 mg/cm2 is in the range of 2.1 to 3.4 m.\nFigure 3 Increases in the skin \n temperature of boiler tube by scale depositions with\nvarious thermal \n conductivities and thicknesses\nTherefore, the \n scaling rate is estimated from the iron concentration in a boiler water and \n the heat flux of a boiler tube. Then an increase in the skin temperature is \n calculated from the scale thickness and the thermal conductivity. The \n allowable tube wall temperatures for various steels are calculated from the \n temperatures causing the changes of their metallic structures or influencing \n on their creep rupture strengths as shown in Table 1.\nTable 1 Permissible tube \n wall temperatures for various steels\nKind \n of steel\nBy using those methods, the time \n for boiler cleaning is determined from the increase in the wall temperature of \n the heating tube.\nGenerally, the allowable \n temperature increase of boiler tube is set at 50ºC. \n The above calculations give the time or the frequency of boiler cleaning, \n however, those calculations are rather complicated. Therefore, Tables 2 and 3 \n are proposed to easily determine the time or the interval of boiler cleaning.\nIn case of gas-burning boilers, the \n cleaning interval is almost same to that of oil-burning boilers shown in Table \n 3. The interval of cleaning for coal-burning boilers may be extended 1 to 2 \n years longer than that of oil-burning boilers.\nTable 2 Critical scale \n thickness or amount requiring a boiler cleaning\nNecessity of\nCoal\n0.300.45 mm\n0.250.35mm\n0.250.30 mm\n0.200.25mm\nMixture of\nIndispensable\n0.300.40 mm\n(90120 mg/cm2)\n0.250.35 mm\n0.200.30mm\n(6090 mg/cm2)\nBetter to clean\n0.250.30 mm\n(7590 mg/cm2)\n0.200.25 mm\n(60 75 mg/cm2)\n0.150.20mm\n(4560 mg/cm2)\n0.250.35 mm\n(75105 mg/cm2)\n0.200.30 mm\n(6090 mg/cm2)\n0.150.20mm\n0.080.12 mm\n(2436 mg/cm2)\n0.200.25 mm\n0.150.20 mm\n0.100.15mm\n(3045 mg/cm2)\n0.060.08 mm\nTable 3 Standard chemical \n cleaning intervals for oil-burning boilers\nGenerally, the cleaning interval of \n a boiler is determined by using those estimation methods to safely operate it \n until the next scheduled shutdown maintenance. However, an extremely long time \n operation of a boiler may bring a disadvantage to increase the ratio of \n extremely hard soluble substances, such as nickel ferrate and zinc aluminate \n with the spinal structures, in the scale. Those scales are very difficult to \n be removed by conventional chemical cleaning methods. Among spinal type metal \n oxides, zinc aluminate (ZnAl2O4) has the extremely low \n solubility.\nThe shortening of the cleaning \n interval is effective to minimize the formation of zinc aluminate.\nMedium \nPressure Boilers\nGenerally, a demineralized water is \n used as the feedwater for most medium pressure boilers with the pressure of 20 \n to 75 kgf/cm2. A softened water is fed to some boilers.\nThe main component of the scale is \n iron oxides. Calcium phosphates are sometimes included in the scale but \n silicate scales are scarcely found. Some boiler scales in waste-heat boilers \n include organic substances of above 10%, in petroleum refining, petrochemical, \n pulp and paper plants, etc.\nSince the structures of boilers, \n the compositions of scales and so on are widely different in case of medium \n pressure boilers, the estimation of the scaling rate and the determination of \n the suitable cleaning frequency are very difficult.\nConsidering the heat flux of boiler \n tubes, the cleaning of medium pressure boilers is usually carried out when the \n scale amount on the inner tube surface reaches around 60 mg/cm2 or \n more at the fire side. The average cleaning frequency is once per few years.\nLow Pressure Boilers\nThe main scale components of low \n pressure boilers with the pressure of below 20 kgf/cm2 are calcium \n carbonate, calcium phosphates, calcium silicate, silica and so on. Figure 4 \n shows the increase in the fuel consumption by the scale adhesion.\nFigure 4 Increase in the \n fuel consumption of a boiler by the increase in the scale\nthickness\nIn case of cylindrical boilers, the \n scale thickness is measured by using an electromagnetic film thickness meter, \n etc., during their operation stoppages to determine the time for the cleaning.\nIn case of water-tube boilers, the \n scale thickness measurement is impossible. Therefore, the following criteria \n are used for determining the cleaning intervals:\nBoilers operating for three years \n should be cleaned, however, the cleaning of a boiler is not required when \n the scaling, corrosion and the other problems are not observed at the \n internal inspection.\nBoilers observing the following \n problems have to be cleaned regardless of the operation periods:\nThick scale adhesion on the \n heating tube surfaces,\nReduction in the steam or the \n hot water generation accompanied by the increase in the fuel consumption,\nBoiler water contamination with \n organic substances, oils and fats and\nIncrease in the total iron of \n boiler water.\nTube Walls in Boiler Furnaces\nTube walls in boiler furnaces are \n gradually covered with scales containing vanadium, sulfur, sodium, etc., \n originated from fuels. The scaling reduces the thermal efficiencies of boilers \n and causes a high temperature corrosion, vanadium attack, of superheaters, \n reheaters and so on. The scaling rate varies depending on the kinds of fuels, \n the types of burners, the operational conditions of boilers, etc.\nA high pressure water jet cleaning \n is generally applied to remove the scale.",
+ "text": "Chemical | Technical \n Bulletin\nIntroduction\nThis document \ncovers the cleanings of various plants which are carried out not only to remove \nthe scales after the trouble occurrence but also to prevent the scale problems \nbeforehand.\nIn case that the cleaning is applied \nfor a preventive measure, a time for cleaning has to be determined by taking \nvarious factors into consideration. Since the important factors may vary \ndepending on the types of cleaning objects, the purposes of cleaning and so on.\nThis document was initiated \nby \n MDEPC inspection & \nquality control chemist: Saad Sadeek; and revised \nby EEHC, Quality Control Head Sector chemists: Mohamed Tawfik and Safaa Mamdouh.\nThis document is accepted by eng. Samir Abd El-Galil: \n MDEPC \n inspection and quality control general director & MPIS coordinator, and \n certified by engineer; Mervat Ezz Eldeen Mahmoud; MDEPC inspection and Quality Control Head Sector.\nInformation\nBoilers are generally \ndivided into high, medium\nand low pressure boilers according to their \noperational pressures. As the structures of \nboilers and the compositions of scales vary \ndepending on the pressure, the determination \nmethods of cleaning time are discussed below for each \npressure boiler.\nHigh Pressure Boilers\nIn case of high \n pressure boilers with the pressure of above 75 kgf/cm2, the \n components of the scales are mainly iron oxides and are followed by the \n copper, nickel oxides, zinc oxides, etc. The deposition amounts of magnetite \n and copper on the heating tubes of a boiler are widely influenced on the heat \n load as shown in Figure 1. The influence of the heat load is not so clear on \n the deposition of nickel and zinc oxides.\nThe relationship \n between the heat load and the deposition rate of ferric oxide (Fe2O3) \n was expressed by the equation (1).\nA = KCFeQ2 \n ............................... (1)\nwhere\nA = deposition rate \n of ferric oxide (mg Fe2O3/ cm2h)\nK = constant\nCFe = \n iron concentration in boiler water (mg Fe/l)\nQ = heat flux \n (kcal/m2h)\nThe K value was \n reported at 8.3...10-14 for the field test data or at 5.7 \n ..10-14 \n for the laboratory test data. Figure 2 shows the relationship among the deposition \n rate of iron oxide, the iron concentration in boiler water and the heat flux \n in the case of the K value\nof 5.7 \n .10-14.\nFigure 1 Influence of the \n heat load of a boiler tube on the deposition rates of various scale components\n(1) Q = 60 x 104 kcal/m2h (3) \n Q = 40 x 104 kcal/m2h\n(2) Q = 50 x 104 kcal/m2h (4) Q = 30 x 104 kcal/m2h\nFigure 2 Relationship among \n the deposition rate of iron oxide, iron concentration in boiler water and heat \n flux\nFigure 3 shows the \n increases in the skin temperature of boiler tube by the scale deposition with \n various thermal conductivities and the thicknesses. The thickness of scale \n with the amount of 1 mg/cm2 is in the range of 2.1 to 3.4 m.\nFigure 3 Increases in the skin \n temperature of boiler tube by scale depositions with\nvarious thermal \n conductivities and thicknesses\nTherefore, the \n scaling rate is estimated from the iron concentration in a boiler water and \n the heat flux of a boiler tube. Then an increase in the skin temperature is \n calculated from the scale thickness and the thermal conductivity. The \n allowable tube wall temperatures for various steels are calculated from the \n temperatures causing the changes of their metallic structures or influencing \n on their creep rupture strengths as shown in Table 1.\nTable 1 Permissible tube \n wall temperatures for various steels\nKind \n of steel\n (JIS) | Permissible \n temperature (C)\nAverage wall temperature | Fire \n side skin temperature\nSTB 410 | 450 | 490\nSTBA 12 | 500 | 540\nSTBA 20 | 520 | 560\nSTBA 22 | 550 | 580\nSTBA 23 | 550 | 580\nSTBA 24 | 555 | 590\nBy using those methods, the time \n for boiler cleaning is determined from the increase in the wall temperature of \n the heating tube.\nGenerally, the allowable \n temperature increase of boiler tube is set at 50ºC. \n The above calculations give the time or the frequency of boiler cleaning, \n however, those calculations are rather complicated. Therefore, Tables 2 and 3 \n are proposed to easily determine the time or the interval of boiler cleaning.\nIn case of gas-burning boilers, the \n cleaning interval is almost same to that of oil-burning boilers shown in Table \n 3. The interval of cleaning for coal-burning boilers may be extended 1 to 2 \n years longer than that of oil-burning boilers.\nTable 2 Critical scale \n thickness or amount requiring a boiler cleaning\nFuel | Necessity of\n cleaning | Boiler pressure (kgf/cm2)\n80 | 120 | 180 | Above 246\nCoal | Indispensable | - | 0.300.45 mm\n (90135 mg/cm2) | 0.250.35mm\n (75105 mg/cm2) | -\nBetter to clean | - | 0.250.30 mm\n (7590 mg/cm2) | 0.200.25mm\n (6075 mg/cm2) | -\nMixture of\n coal \n and heavy oil | Indispensable | 0.300.40 mm\n (90120 mg/cm2) | 0.250.35 mm\n (75105 mg/cm2) | 0.200.30mm\n (6090 mg/cm2) | -\nBetter to clean | 0.250.30 mm\n (7590 mg/cm2) | 0.200.25 mm\n (60 75 mg/cm2) | 0.150.20mm\n (4560 mg/cm2) | -\nHeavy oil | Indispensable | 0.250.35 mm\n (75105 mg/cm2) | 0.200.30 mm\n (6090 mg/cm2) | 0.150.20mm\n (4575 mg/cm2) | 0.080.12 mm\n (2436 mg/cm2)\nBetter to clean | 0.200.25 mm\n (6075 mg/cm2) | 0.150.20 mm\n (4560 mg/cm2) | 0.100.15mm\n (3045 mg/cm2) | 0.060.08 mm\n (1824 mg/cm2)\nTable 3 Standard chemical \n cleaning intervals for oil-burning boilers\nType | Pressure (kgf/cm2) | Chemical cleaning intervals (year)\nWater-tube boiler | 80100 | 57\n120 | 35\n180 | 23\nOnce-through boiler | 120 | 25\n180 | 13\nAbove 240 | 13\nGenerally, the cleaning interval of \n a boiler is determined by using those estimation methods to safely operate it \n until the next scheduled shutdown maintenance. However, an extremely long time \n operation of a boiler may bring a disadvantage to increase the ratio of \n extremely hard soluble substances, such as nickel ferrate and zinc aluminate \n with the spinal structures, in the scale. Those scales are very difficult to \n be removed by conventional chemical cleaning methods. Among spinal type metal \n oxides, zinc aluminate (ZnAl2O4) has the extremely low \n solubility.\nThe shortening of the cleaning \n interval is effective to minimize the formation of zinc aluminate.\nMedium \nPressure Boilers\nGenerally, a demineralized water is \n used as the feedwater for most medium pressure boilers with the pressure of 20 \n to 75 kgf/cm2. A softened water is fed to some boilers.\nThe main component of the scale is \n iron oxides. Calcium phosphates are sometimes included in the scale but \n silicate scales are scarcely found. Some boiler scales in waste-heat boilers \n include organic substances of above 10%, in petroleum refining, petrochemical, \n pulp and paper plants, etc.\nSince the structures of boilers, \n the compositions of scales and so on are widely different in case of medium \n pressure boilers, the estimation of the scaling rate and the determination of \n the suitable cleaning frequency are very difficult.\nConsidering the heat flux of boiler \n tubes, the cleaning of medium pressure boilers is usually carried out when the \n scale amount on the inner tube surface reaches around 60 mg/cm2 or \n more at the fire side. The average cleaning frequency is once per few years.\nLow Pressure Boilers\nThe main scale components of low \n pressure boilers with the pressure of below 20 kgf/cm2 are calcium \n carbonate, calcium phosphates, calcium silicate, silica and so on. Figure 4 \n shows the increase in the fuel consumption by the scale adhesion.\nFigure 4 Increase in the \n fuel consumption of a boiler by the increase in the scale\nthickness\nIn case of cylindrical boilers, the \n scale thickness is measured by using an electromagnetic film thickness meter, \n etc., during their operation stoppages to determine the time for the cleaning.\nIn case of water-tube boilers, the \n scale thickness measurement is impossible. Therefore, the following criteria \n are used for determining the cleaning intervals:\nBoilers operating for three years \n should be cleaned, however, the cleaning of a boiler is not required when \n the scaling, corrosion and the other problems are not observed at the \n internal inspection.\nBoilers observing the following \n problems have to be cleaned regardless of the operation periods:\nThick scale adhesion on the \n heating tube surfaces,\nReduction in the steam or the \n hot water generation accompanied by the increase in the fuel consumption,\nBoiler water contamination with \n organic substances, oils and fats and\nIncrease in the total iron of \n boiler water.\nTube Walls in Boiler Furnaces\nTube walls in boiler furnaces are \n gradually covered with scales containing vanadium, sulfur, sodium, etc., \n originated from fuels. The scaling reduces the thermal efficiencies of boilers \n and causes a high temperature corrosion, vanadium attack, of superheaters, \n reheaters and so on. The scaling rate varies depending on the kinds of fuels, \n the types of burners, the operational conditions of boilers, etc.\nA high pressure water jet cleaning \n is generally applied to remove the scale.",
  "text_truncated": false,
  "links": [],
  "images": [

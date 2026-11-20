@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Chemical"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Bulletin"
-  },
-  {
-   "type": "paragraph",
-   "text": "Title:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Preservation of Boilers during Stoppage. \n Using Kurita Handbook of Water."
-  },
-  {
-   "type": "paragraph",
-   "text": "Page, 2-45"
+   "type": "table",
+   "rows": [
+    [
+     "Chemical",
+     "Technical \n Bulletin"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -94,30 +84,52 @@
    "text": "Table 1 Preservation methods of boilers by \n using hydrazine during short period"
   },
   {
-   "type": "paragraph",
-   "text": "Cl and SO42 \n concentration"
-  },
-  {
-   "type": "paragraph",
-   "text": "Preservation"
-  },
-  {
-   "type": "paragraph",
-   "text": "Cl: 101300"
-  },
-  {
-   "type": "paragraph",
-   "text": "Cl : 301500"
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "Cl and SO42 \n concentration\n of boiler water (mg/l)",
+     "Preservation\n period (day)",
+     "Chemical concentration and pH of boiler \n water"
+    ],
+    [
+     "N2H4 \n (mg/l)",
+     "PO43 \n (mg/l)",
+     "pH"
+    ],
+    [
+     "Cl below 100, SO42 \n below 100",
+     "Within 14",
+     "More than 1.0",
      "",
-     "",
-     "",
+     ""
+    ],
+    [
+     "Cl: 101300\n SO42: 101300",
+     "Within 3",
+     "More than 100",
      "60100",
      "12.0"
+    ],
+    [
+     "47",
+     "More than 50"
+    ],
+    [
+     "814",
+     "N2H4 (mg/l)"
+    ],
+    [
+     "Cl : 301500\n SO42 : 301500",
+     "Within 3",
+     "More than 1.0"
+    ],
+    [
+     "47",
+     "More than 100"
+    ],
+    [
+     "814",
+     "More than 50"
     ]
    ],
    "truncated_rows": 0
@@ -127,22 +139,33 @@
    "text": "Table 2 \n Preservation Methods of Boilers by Using Sodium Sulfite during Short Period"
   },
   {
-   "type": "paragraph",
-   "text": "Preservation"
-  },
-  {
-   "type": "paragraph",
-   "text": "Cl: 101300"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
+     "Cl and SO42 \n concentration of boiler water (mg/l)",
+     "Preservation\n period (day)",
+     "Chemical concentration and pH of boiler \n water"
+    ],
+    [
+     "SO32 \n (mg/l)",
+     "PO43 \n (mg/l)",
+     "pH"
+    ],
+    [
+     "Cl below 100, SO42 \n below 100",
+     "Within 2",
+     "More than 10",
      "60100",
      "12.0"
+    ],
+    [
+     "Cl: 101300\n SO42: 101300",
+     "Within 2",
+     "More than 100"
+    ],
+    [
+     "35",
+     "More than 300"
     ]
    ],
    "truncated_rows": 0
@@ -155,8 +178,17 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
+     "Cl and SO42 \n concentration of boiler water (mg/l)",
+     "Chemical concentration and pH of boiler \n water"
+    ],
+    [
+     "Saccharide \n (mg/l)",
+     "PO43 (mg/l)",
+     "pH"
+    ],
+    [
+     "Below 300",
+     "500-3,000",
      "60100",
      "12.0"
     ]
@@ -184,43 +216,47 @@
    "text": "Table 4 Conditions of the Wet Preservation of \n Boilers for Long Term"
   },
   {
-   "type": "paragraph",
-   "text": "Control range of boiler water"
-  },
-  {
-   "type": "paragraph",
-   "text": "quality"
-  },
-  {
-   "type": "paragraph",
-   "text": "Chemical"
-  },
-  {
-   "type": "paragraph",
-   "text": "above 200"
-  },
-  {
-   "type": "paragraph",
-   "text": "above 200"
-  },
-  {
-   "type": "paragraph",
-   "text": "above 200"
-  },
-  {
-   "type": "paragraph",
-   "text": "above 200"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
-     "",
+     "Kind of factory",
+     "General Factories",
+     "Food Factories and Hospitals"
+    ],
+    [
+     "Chemical",
+     "Hydrazine Based",
+     "Nitrite Based",
+     "Carboxylate Based"
+    ],
+    [
+     "Kind of feedwater",
+     "Softened",
      "Demineralized",
-     ""
+     "Softened",
+     "Demineralized",
+     "Softened or Demineralized"
+    ],
+    [
+     "Control range of boiler water\n quality",
+     "pH",
+     "above 9*",
+     "above 9*",
+     "above 7",
+     "above 7",
+     "above 11.5"
+    ],
+    [
+     "Chemical\n concentration (mg/l)",
+     "above 200\n as N2H4",
+     "above 200\n as N2H4",
+     "above 200\n as NO2",
+     "above 200\n as NO2",
+     "above 5,000 as product"
+    ],
+    [
+     "Total iron",
+     "No trend of increase"
     ]
    ],
    "truncated_rows": 0
@@ -272,9 +308,39 @@
   {
    "type": "paragraph",
    "text": "Table 5 Required \n Amounts of Desiccants for the Dry Preservation of Boilers"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Kind of Desiccants",
+     "Dosage (kg/m3 Boiler Capacity)"
+    ],
+    [
+     "Quicklime",
+     "35"
+    ],
+    [
+     "Silica gel",
+     "1.5"
+    ],
+    [
+     "Activated alumina",
+     "1.3"
+    ],
+    [
+     "Calcium chloride",
+     "1.0"
+    ],
+    [
+     "Synthetic zeolite",
+     "1.5"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Chemical\nTechnical \n Bulletin\nTitle:\nPreservation of Boilers during Stoppage. \n Using Kurita Handbook of Water.\nPage, 2-45\nIntroduction\nThis document covers Preservation of Boilers during \nStoppage.\nThis document was initiated \nby \n EDEPC inspection & \nquality control chemist: Saad Sadeek; and revised \nby EEHC, Quality Control head Sector chemists: Mohamed Tawfik and Safaa Mamdouh.\nThis document is accepted by eng. Samir Abd El-Galil: EDEPC \n inspection and quality control general director & MPIS coordinator, \n and certified by accountant; Mahmoud Mohamed Soliman; EDEPC admin and \n financial inspection, quality control general director and supervisor of \n inspection and quality control head sector.\nInformation\nCorrosion of Boilers during Stoppage\nWater treatment is appropriately applied for boilers during the operation, but \n it sometimes becomes insufficient during the stoppage. Problem occurring in \n the boiler stoppage is mainly corrosion problem. After stopping a boiler \n operation, the boiler water temperature drops and the steam in the boiler is \n condensed. Thus the boiler pressure becomes lower than the atmospheric \n pressure and air comes into the boiler through the steam valves, inspection \n holes and so on. As the result, the corrosion caused by oxygen occurs at the \n vapor phase and the waterline. Then the corrosion proceeds below the \n waterline.\nProper preservation treatment should be applied to prevent the corrosion \n during the operation stoppage in consideration of the preservation period.\nPreservation Treatments for Boilers during Stoppage\nThe preservation treatments of boilers are classified into the wet \n preservation and the dry preservation. An appropriate preservation method \n should be chosen considering the term of preservation, the structure of \n boiler, air temperature and so on.\nPreservation during Short Term\nWhen a boiler is stopped and preserved in a short period, the same chemicals \n using for the boiler operation are applied for the preservation.\nWhen the boiler pressure becomes approximately 1 kgf/cm2 after the \n stoppage, water and chemicals are injected into the boiler to fill the boiler \n with water and to adjust the water quality to an appropriate one for the \n preservation.\nTables 1 to 3 show the relationship among the chloride and sulfate ion \n concentrations of boiler water at the stoppage, the duration of preservation, \n the pH of boiler water and chemical concentrations for the preservation. When \n the boiler operation is started again, the water level is reduced to the \n normal level of the operation by blowdown and the operation starts up.\nTable 1 Preservation methods of boilers by \n using hydrazine during short period\nCl and SO42 \n concentration\nPreservation\nCl: 101300\nCl : 301500\n\nTable 2 \n Preservation Methods of Boilers by Using Sodium Sulfite during Short Period\nPreservation\nCl: 101300\n\nTable 3 Preservation Methods of Boilers by \n Using a Saccharide during Short Period (within 10 days)\n\nPreservation during Long Term\nWet Preservation\nThe wet preservation of boilers to be filled with water, is widely applied. \n This method is suitable for boilers which the perfect blowdown of the holding \n water is impossible or an urgent restart-up is expected. However, in the case \n that the freezing of boiler water is anticipated, the dry preservation has to \n be applied.\nHydrazine or nitrite based chemicals are generally applied for the wet \n preservation. For boilers installed in hospitals, food factories and so on, \n nontoxic chemicals, such as organic acids, are applied for the preservation. \n Table 4 shows the preservation conditions with each chemicals. The term of \n preservation is usually up to six months, but it can be prolonged by the \n additional dosing of those chemicals to maintain the dosages shown in the \n Table 4.\nTable 4 Conditions of the Wet Preservation of \n Boilers for Long Term\nControl range of boiler water\nquality\nChemical\nabove 200\nabove 200\nabove 200\nabove 200\n\n* It is preferable to use boiler compounds or volatile amines together with \n those chemicals.\nThe chemicals for the preservation are continuously injected into the feed \n water so as to be kept the specified concentration in the boiler. After the \n chemical dosing, it is desirable to mix the chemical sufficiently by the water \n convection caused by the residual heat of boiler water or by the water \n circulation using a temporary circulation pump.\nFor the monitoring of the preservation condition, the pH, total iron and the \n chemical concentration are analyzed once or twice a month to keep the water \n quality in the control range. When the water quality is out of the range, the \n chemicals should be dosed to keep the water quality within the specified \n range.\nIn case that the mixing of chemicals with the boiler water is difficult or the \n total iron of boiler water tends to increase, all the water is discharged and \n the boiler should be filled with new feed water including the specified \n concentration of the chemical.\nBefore the start-up of the boiler operation, all the water is discharged and \n the inside of boiler should be inspected.\nDry Preservation\nDry preservation is suitable for the boilers that the freezing of boiler water \n is anticipated or have to be preserved during long term.\nTwo kinds of dry preservation using desiccants and sealing with nitrogen gas \n are usually used.\nFor the application of dry preservation, all the boiler water is blowdown when \n the water temperature drops around 90 to 95C, and the boiler inside is dried \n with the residual heat. The amounts the desiccants required for the dry \n preservation are shown in Table 5. The desiccant should be inspected \n periodically once or twice a month and the desiccant losing the moisture \n absorbing capacity should be replaced with a new one at once.\nIn the case of preservation sealing with nitrogen gas, the gas is introduced \n into the boiler to replace the water with the gas before the pressure in the \n boiler reaches the atmospheric pressure.\nThe pressure of the nitrogen gas in the boiler should be maintained at about \n 0.5 kgf/cm2 and the gas should be injected if the pressure reduces around 0.3 \n kgf/cm2.\nTable 5 Required \n Amounts of Desiccants for the Dry Preservation of Boilers",
+ "text": "Chemical | Technical \n Bulletin\nIntroduction\nThis document covers Preservation of Boilers during \nStoppage.\nThis document was initiated \nby \n EDEPC inspection & \nquality control chemist: Saad Sadeek; and revised \nby EEHC, Quality Control head Sector chemists: Mohamed Tawfik and Safaa Mamdouh.\nThis document is accepted by eng. Samir Abd El-Galil: EDEPC \n inspection and quality control general director & MPIS coordinator, \n and certified by accountant; Mahmoud Mohamed Soliman; EDEPC admin and \n financial inspection, quality control general director and supervisor of \n inspection and quality control head sector.\nInformation\nCorrosion of Boilers during Stoppage\nWater treatment is appropriately applied for boilers during the operation, but \n it sometimes becomes insufficient during the stoppage. Problem occurring in \n the boiler stoppage is mainly corrosion problem. After stopping a boiler \n operation, the boiler water temperature drops and the steam in the boiler is \n condensed. Thus the boiler pressure becomes lower than the atmospheric \n pressure and air comes into the boiler through the steam valves, inspection \n holes and so on. As the result, the corrosion caused by oxygen occurs at the \n vapor phase and the waterline. Then the corrosion proceeds below the \n waterline.\nProper preservation treatment should be applied to prevent the corrosion \n during the operation stoppage in consideration of the preservation period.\nPreservation Treatments for Boilers during Stoppage\nThe preservation treatments of boilers are classified into the wet \n preservation and the dry preservation. An appropriate preservation method \n should be chosen considering the term of preservation, the structure of \n boiler, air temperature and so on.\nPreservation during Short Term\nWhen a boiler is stopped and preserved in a short period, the same chemicals \n using for the boiler operation are applied for the preservation.\nWhen the boiler pressure becomes approximately 1 kgf/cm2 after the \n stoppage, water and chemicals are injected into the boiler to fill the boiler \n with water and to adjust the water quality to an appropriate one for the \n preservation.\nTables 1 to 3 show the relationship among the chloride and sulfate ion \n concentrations of boiler water at the stoppage, the duration of preservation, \n the pH of boiler water and chemical concentrations for the preservation. When \n the boiler operation is started again, the water level is reduced to the \n normal level of the operation by blowdown and the operation starts up.\nTable 1 Preservation methods of boilers by \n using hydrazine during short period\nCl and SO42 \n concentration\n of boiler water (mg/l) | Preservation\n period (day) | Chemical concentration and pH of boiler \n water\nN2H4 \n (mg/l) | PO43 \n (mg/l) | pH\nCl below 100, SO42 \n below 100 | Within 14 | More than 1.0 |  | \nCl: 101300\n SO42: 101300 | Within 3 | More than 100 | 60100 | 12.0\n47 | More than 50\n814 | N2H4 (mg/l)\nCl : 301500\n SO42 : 301500 | Within 3 | More than 1.0\n47 | More than 100\n814 | More than 50\nTable 2 \n Preservation Methods of Boilers by Using Sodium Sulfite during Short Period\nCl and SO42 \n concentration of boiler water (mg/l) | Preservation\n period (day) | Chemical concentration and pH of boiler \n water\nSO32 \n (mg/l) | PO43 \n (mg/l) | pH\nCl below 100, SO42 \n below 100 | Within 2 | More than 10 | 60100 | 12.0\nCl: 101300\n SO42: 101300 | Within 2 | More than 100\n35 | More than 300\nTable 3 Preservation Methods of Boilers by \n Using a Saccharide during Short Period (within 10 days)\nCl and SO42 \n concentration of boiler water (mg/l) | Chemical concentration and pH of boiler \n water\nSaccharide \n (mg/l) | PO43 (mg/l) | pH\nBelow 300 | 500-3,000 | 60100 | 12.0\nPreservation during Long Term\nWet Preservation\nThe wet preservation of boilers to be filled with water, is widely applied. \n This method is suitable for boilers which the perfect blowdown of the holding \n water is impossible or an urgent restart-up is expected. However, in the case \n that the freezing of boiler water is anticipated, the dry preservation has to \n be applied.\nHydrazine or nitrite based chemicals are generally applied for the wet \n preservation. For boilers installed in hospitals, food factories and so on, \n nontoxic chemicals, such as organic acids, are applied for the preservation. \n Table 4 shows the preservation conditions with each chemicals. The term of \n preservation is usually up to six months, but it can be prolonged by the \n additional dosing of those chemicals to maintain the dosages shown in the \n Table 4.\nTable 4 Conditions of the Wet Preservation of \n Boilers for Long Term\nKind of factory | General Factories | Food Factories and Hospitals\nChemical | Hydrazine Based | Nitrite Based | Carboxylate Based\nKind of feedwater | Softened | Demineralized | Softened | Demineralized | Softened or Demineralized\nControl range of boiler water\n quality | pH | above 9* | above 9* | above 7 | above 7 | above 11.5\nChemical\n concentration (mg/l) | above 200\n as N2H4 | above 200\n as N2H4 | above 200\n as NO2 | above 200\n as NO2 | above 5,000 as product\nTotal iron | No trend of increase\n* It is preferable to use boiler compounds or volatile amines together with \n those chemicals.\nThe chemicals for the preservation are continuously injected into the feed \n water so as to be kept the specified concentration in the boiler. After the \n chemical dosing, it is desirable to mix the chemical sufficiently by the water \n convection caused by the residual heat of boiler water or by the water \n circulation using a temporary circulation pump.\nFor the monitoring of the preservation condition, the pH, total iron and the \n chemical concentration are analyzed once or twice a month to keep the water \n quality in the control range. When the water quality is out of the range, the \n chemicals should be dosed to keep the water quality within the specified \n range.\nIn case that the mixing of chemicals with the boiler water is difficult or the \n total iron of boiler water tends to increase, all the water is discharged and \n the boiler should be filled with new feed water including the specified \n concentration of the chemical.\nBefore the start-up of the boiler operation, all the water is discharged and \n the inside of boiler should be inspected.\nDry Preservation\nDry preservation is suitable for the boilers that the freezing of boiler water \n is anticipated or have to be preserved during long term.\nTwo kinds of dry preservation using desiccants and sealing with nitrogen gas \n are usually used.\nFor the application of dry preservation, all the boiler water is blowdown when \n the water temperature drops around 90 to 95C, and the boiler inside is dried \n with the residual heat. The amounts the desiccants required for the dry \n preservation are shown in Table 5. The desiccant should be inspected \n periodically once or twice a month and the desiccant losing the moisture \n absorbing capacity should be replaced with a new one at once.\nIn the case of preservation sealing with nitrogen gas, the gas is introduced \n into the boiler to replace the water with the gas before the pressure in the \n boiler reaches the atmospheric pressure.\nThe pressure of the nitrogen gas in the boiler should be maintained at about \n 0.5 kgf/cm2 and the gas should be injected if the pressure reduces around 0.3 \n kgf/cm2.\nTable 5 Required \n Amounts of Desiccants for the Dry Preservation of Boilers\nKind of Desiccants | Dosage (kg/m3 Boiler Capacity)\nQuicklime | 35\nSilica gel | 1.5\nActivated alumina | 1.3\nCalcium chloride | 1.0\nSynthetic zeolite | 1.5",
  "text_truncated": false,
  "links": [],
  "images": [

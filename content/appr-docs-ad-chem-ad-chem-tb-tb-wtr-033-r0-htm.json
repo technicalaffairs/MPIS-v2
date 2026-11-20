@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Chemical"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Bulletin"
-  },
-  {
-   "type": "paragraph",
-   "text": "Title:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Saving \n Energy."
+   "type": "table",
+   "rows": [
+    [
+     "Chemical",
+     "Technical \n Bulletin"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -126,6 +120,44 @@
    "text": "Table 1 \n Data for fuel and water cost estimation"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Duration of boiler operation (day/month)",
+     "25"
+    ],
+    [
+     "Boiler \n efficiency (%)",
+     "85"
+    ],
+    [
+     "Kind \n of fuel",
+     "Heavy oil"
+    ],
+    [
+     "Price \n of fuel (Yen/kg)",
+     "30"
+    ],
+    [
+     "Lower \n heat value of fuel (kcal/kg)",
+     "10,000"
+    ],
+    [
+     "Cost \n of feedwater (Yen/t)",
+     "400"
+    ],
+    [
+     "Boiler \n water temperature (C)",
+     "171.3"
+    ],
+    [
+     "Enthalpy of steam (kcal/kg)",
+     "660.3 (at 171.3C)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Steam Loss by Leakage"
   },
@@ -198,7 +230,7 @@
    "text": "Figure 2 Relationship between the diameter of hole in \nsteam piping and the loss of fuel cost in B company"
   }
  ],
- "text": "Chemical\nTechnical \n Bulletin\nTitle:\nSaving \n Energy.\nIntroduction\nThis document covers saving of energy \nby applying appropriate water treatments likes\nPrevention of Steam Leakage.\nThis document was initiated \nby \n EDEPC inspection & \nquality control chemist: Saad Sadeek; and revised \nby EEHC, Quality Control Head Sector chemists: Mohamed Tawfik and Safaa Mamdouh.\nThis document is accepted by eng. Samir Abd El-Galil: EDEPC \n inspection and quality control general director & MPIS coordinator, and \n certified by engineer; Mervat Ezz Eldeen Mahmoud; EDEPC inspection and Quality Control Head Sector.\nInformation\nThe corrosion of a steam and \n condensate line sometimes causes a steam leakage at the joints of pipings, \n branch pipings and so on with the thin wall thicknesses. Sufficient \n countermeasures against the corrosion should be taken because the steam \n leakage leads to a great energy loss.\nUnit Price of Steam\nThe unit heat price of steam is \n expressed by equation (1).\n1,000 \n X (IS \n - IF)\nQS = X \n a ..................... (1)\nn/100 \n X C\nwhere\nQS = unit heat price \n of steam (yen/t)\nIS = enthalpy of steam \n (kcal/kg)\nIF = enthalpy of feedwater (kcal/kg)\nn = efficiency of boiler (%)\nC = lower heat value of fuel \n (kcal/kg)\na = unit price of fuel (yen/kg)\nThe unit heat price of steam under \n the conditions of Table 1 is calculated by using equation (1):\n1,000 \n X (660.8 - 20)\nQS = \n X 30 = 2,262 ........................ (2)\n85/100 \n X 10,000\nThe unit price of 1 ton of steam is \n 2,262 yen.\nTable 1 \n Data for fuel and water cost estimation\nSteam Loss by Leakage\nThe quantity of steam leaking from \n a small hole in a pipe line is calculated by equation (3).\nG = 0.5626 X D2 \n X\n ..................... \n (3)\nwhere\nG= leakage of dry saturated steam \n (kg/h)\nD= diameter of hole (mm)\nP = steam pressure (kgf/cm2)\nV = specific volume of dry \n saturated steam (m3/kg)\nThe relationship between steam \n pressure and steam leakage obtained from the equation (3) is shown in Figure \n 1.\nFigure1 \n Relationship between steam pressure and steam leakage from a hole in piping\nExample of Heat Loss by Steam \nLeakage\nB company operated a boiler with \n the pressure of 7 kgf/cm2 and met the steam leakage from a hole in \n the piping. The hole was formed by the corrosion and its diameter was 3 mm. \n The energy loss by steam leakage is calculated below.\nThe leakage of steam is calculated \n from the equation (3).\nG = 0.5626 X 32 X \n = 28.9 \n (kg/h)......................... (4)\nWhen the boiler is operated for 25 \n days a month, the steam loss per month becomes (17.3 t/month).\nAssuming the unit heat price of \n steam to be 2,262 yen, the loss of fuel cost is (39 thousand yen per month).\nIn the case of B company, the \n relationship between the diameter of hole in a steam piping and the loss of \n fuel cost is shown in Figure 2\nFigure 2 Relationship between the diameter of hole in \nsteam piping and the loss of fuel cost in B company",
+ "text": "Chemical | Technical \n Bulletin\nIntroduction\nThis document covers saving of energy \nby applying appropriate water treatments likes\nPrevention of Steam Leakage.\nThis document was initiated \nby \n EDEPC inspection & \nquality control chemist: Saad Sadeek; and revised \nby EEHC, Quality Control Head Sector chemists: Mohamed Tawfik and Safaa Mamdouh.\nThis document is accepted by eng. Samir Abd El-Galil: EDEPC \n inspection and quality control general director & MPIS coordinator, and \n certified by engineer; Mervat Ezz Eldeen Mahmoud; EDEPC inspection and Quality Control Head Sector.\nInformation\nThe corrosion of a steam and \n condensate line sometimes causes a steam leakage at the joints of pipings, \n branch pipings and so on with the thin wall thicknesses. Sufficient \n countermeasures against the corrosion should be taken because the steam \n leakage leads to a great energy loss.\nUnit Price of Steam\nThe unit heat price of steam is \n expressed by equation (1).\n1,000 \n X (IS \n - IF)\nQS = X \n a ..................... (1)\nn/100 \n X C\nwhere\nQS = unit heat price \n of steam (yen/t)\nIS = enthalpy of steam \n (kcal/kg)\nIF = enthalpy of feedwater (kcal/kg)\nn = efficiency of boiler (%)\nC = lower heat value of fuel \n (kcal/kg)\na = unit price of fuel (yen/kg)\nThe unit heat price of steam under \n the conditions of Table 1 is calculated by using equation (1):\n1,000 \n X (660.8 - 20)\nQS = \n X 30 = 2,262 ........................ (2)\n85/100 \n X 10,000\nThe unit price of 1 ton of steam is \n 2,262 yen.\nTable 1 \n Data for fuel and water cost estimation\nDuration of boiler operation (day/month) | 25\nBoiler \n efficiency (%) | 85\nKind \n of fuel | Heavy oil\nPrice \n of fuel (Yen/kg) | 30\nLower \n heat value of fuel (kcal/kg) | 10,000\nCost \n of feedwater (Yen/t) | 400\nBoiler \n water temperature (C) | 171.3\nEnthalpy of steam (kcal/kg) | 660.3 (at 171.3C)\nSteam Loss by Leakage\nThe quantity of steam leaking from \n a small hole in a pipe line is calculated by equation (3).\nG = 0.5626 X D2 \n X\n ..................... \n (3)\nwhere\nG= leakage of dry saturated steam \n (kg/h)\nD= diameter of hole (mm)\nP = steam pressure (kgf/cm2)\nV = specific volume of dry \n saturated steam (m3/kg)\nThe relationship between steam \n pressure and steam leakage obtained from the equation (3) is shown in Figure \n 1.\nFigure1 \n Relationship between steam pressure and steam leakage from a hole in piping\nExample of Heat Loss by Steam \nLeakage\nB company operated a boiler with \n the pressure of 7 kgf/cm2 and met the steam leakage from a hole in \n the piping. The hole was formed by the corrosion and its diameter was 3 mm. \n The energy loss by steam leakage is calculated below.\nThe leakage of steam is calculated \n from the equation (3).\nG = 0.5626 X 32 X \n = 28.9 \n (kg/h)......................... (4)\nWhen the boiler is operated for 25 \n days a month, the steam loss per month becomes (17.3 t/month).\nAssuming the unit heat price of \n steam to be 2,262 yen, the loss of fuel cost is (39 thousand yen per month).\nIn the case of B company, the \n relationship between the diameter of hole in a steam piping and the loss of \n fuel cost is shown in Figure 2\nFigure 2 Relationship between the diameter of hole in \nsteam piping and the loss of fuel cost in B company",
  "text_truncated": false,
  "links": [],
  "images": [
