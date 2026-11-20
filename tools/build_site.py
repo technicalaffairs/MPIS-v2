@@ -1351,7 +1351,7 @@ CSS = """/* MPIS v2 — professional ministry portal: navy + gold, clean rows, p
 *{box-sizing:border-box}
 body{margin:0;font-family:"Segoe UI",Tahoma,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
 a{color:var(--accent)}
-.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.wrap{max-width:1760px;margin:0 auto;padding:0 28px}
 .topbar{background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
 .topbar .wrap{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
 .brand{font-weight:700;font-size:1.2rem;text-decoration:none;color:var(--navy)}
@@ -1381,7 +1381,7 @@ button:hover,.btn:hover{border-color:var(--navy)}
 .searchbox input{flex:1;padding:12px 16px;border:1px solid var(--border);border-radius:8px;font-size:1rem;background:var(--surface);color:var(--text)}
 .searchbox button{background:var(--navy);color:#fff;border-color:var(--navy)}
 main h2{color:var(--navy);font-size:1.25rem;border-inline-start:4px solid var(--gold);padding-inline-start:12px;margin:28px 0 10px}
-.cat-list{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+.cat-list{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0 32px}
 .cat-row{display:flex;align-items:center;gap:14px;padding:12px 4px;border-bottom:1px solid var(--border);text-decoration:none;color:var(--text)}
 .cat-row:hover{background:var(--surface-2)}
 .cat-row img{width:72px;height:72px;border-radius:8px;object-fit:cover;flex:none}
@@ -1421,6 +1421,7 @@ footer{color:var(--muted);font-size:.88rem;padding:26px 0 40px;border-top:1px so
 .results li{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 14px;margin:8px 0}
 .results li a{text-decoration:none;font-weight:600}
 @media print{.topbar,.controls,.searchbox,.noprint{display:none!important}body{background:#fff;color:#000}.doc-body{box-shadow:none;border:none}}
+@media (max-width:1100px){.cat-list{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.hero{flex-direction:column;align-items:flex-start;padding:20px}.hero-photo{width:100%;height:150px}.hero-inner h1{font-size:1.3rem}.doc-body{padding:14px}.cat-list{grid-template-columns:1fr}.cat-head{flex-direction:column;align-items:flex-start}.cat-head img{width:100%;height:160px}}
 """
 
