@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Emergency Diesel \n Generator"
-  },
-  {
-   "type": "paragraph",
-   "text": "1.4MW, 400V, 1500rpm, 50HZ\n PERKINS"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -150,20 +144,38 @@
    "text": "Fault Finding"
   },
   {
-   "type": "paragraph",
-   "text": "Check link k1-k2 on auxiliary terminals. Follow \n separate excitation test procedure to check machine and AVR"
-  },
-  {
-   "type": "paragraph",
-   "text": "First stop and re-start set. If no voltage or voltage \n collapses after short time, follow separate excitation test procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Check sensing leads to AVR."
-  },
-  {
-   "type": "paragraph",
-   "text": "Check speed if correct check UFRO setting"
+   "type": "table",
+   "rows": [
+    [
+     "No voltage build up when starting set",
+     "Check link k1-k2 on auxiliary terminals. Follow \n separate excitation test procedure to check machine and AVR"
+    ],
+    [
+     "Loss of voltage when running",
+     "First stop and re-start set. If no voltage or voltage \n collapses after short time, follow separate excitation test procedure"
+    ],
+    [
+     "Generator voltage high followed by collapse",
+     "Check sensing leads to AVR.\n Refer to separate excitation test procedure"
+    ],
+    [
+     "Voltage unstable, either no load or with load",
+     "Check speed stability"
+    ],
+    [
+     "Low voltage on load",
+     "Check speed if correct check UFRO setting"
+    ],
+    [
+     "Excessive voltage/speed dip on load switching",
+     "Check \n governor response"
+    ],
+    [
+     "Sluggish recovery on load switching",
+     "Check \n governor response"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -412,28 +424,100 @@
      "Exciter Rotor"
     ],
     [
+     "4 - 4C",
+     "0.91",
+     "18",
+     "0.136"
+    ],
+    [
+     "4 - 4D",
+     "1.04",
+     "18",
+     "0.136"
+    ],
+    [
+     "4 - 4E",
+     "1.17",
+     "18",
+     "0.136"
+    ],
+    [
+     "4 - 4F",
+     "1.35",
+     "18",
+     "0.136"
+    ],
+    [
      "5 - 4C",
-     "",
-     "",
-     ""
+     "1.55",
+     "17",
+     "0.174"
     ],
     [
      "5 - 4D",
-     "",
-     "",
-     ""
+     "1.77",
+     "17",
+     "0.174"
     ],
     [
      "5 - 4E",
-     "",
-     "",
-     ""
+     "1.96",
+     "17",
+     "0.174"
     ],
     [
      "5 - 4F",
-     "",
-     "",
-     ""
+     "2.16",
+     "17",
+     "0.174"
+    ],
+    [
+     "6 - 4G",
+     "1.44",
+     "17",
+     "0.158"
+    ],
+    [
+     "6 - 4H",
+     "1.54",
+     "17",
+     "0.158"
+    ],
+    [
+     "6 - 4J",
+     "1.73",
+     "17",
+     "0.158"
+    ],
+    [
+     "6 - 4K",
+     "1.95",
+     "17",
+     "0.158"
+    ],
+    [
+     "7 - 4E",
+     "1.25",
+     "17",
+     "0.096"
+    ],
+    [
+     "7 - 4F",
+     "1.4",
+     "17",
+     "0.096"
+    ],
+    [
+     "7 - 4G",
+     "1.64",
+     "17",
+     "0.096"
+    ],
+    [
+     "7 - 4H",
+     "1.75",
+     "17",
+     "0.096"
     ]
    ],
    "truncated_rows": 0
@@ -717,75 +801,80 @@
    "rows": [
     [
      "#",
-     "",
+     "PROCEDURE",
      "CHECK"
     ],
     [
+     "YES",
+     "NO",
+     "N/A"
+    ],
+    [
      "1",
-     "",
+     "Check that there is no abnormal noise or \n vibration.",
      "",
      "",
      ""
     ],
     [
      "2",
-     "",
+     "Measurement of insulation resistance.",
      "",
      "",
      ""
     ],
     [
      "3",
-     "",
+     "Check no moisture is accumulated on windings.",
      "",
      "",
      ""
     ],
     [
      "4",
-     "",
+     "Check no discoloring caused by over heat.",
      "",
      "",
      ""
     ],
     [
      "5",
-     "",
+     "Check no grease and dust are accumulated on \n coils.",
      "",
      "",
      ""
     ],
     [
      "6",
-     "",
+     "Ensure there is no untoward change of wedges \n from original position.",
      "",
      "",
      ""
     ],
     [
      "7",
-     "",
+     "Check no accumulation of dust.",
      "",
      "",
      ""
     ],
     [
      "8",
-     "",
+     "Check air filters, they should be replaced \n or cleaned and reconditioned at a frequency that is dictated by conditions.",
      "",
      "",
      ""
     ],
     [
      "9",
-     "",
+     "Check for \n over heating or noise during the life of the bearings.",
      "",
      "",
      ""
     ],
     [
      "10",
-     "",
+     "Re-grease if dismantled for \n inspection.",
      "",
      "",
      ""
@@ -1055,7 +1144,7 @@
    "text": "Location: Generator \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Emergency Diesel \n Generator\n1.4MW, 400V, 1500rpm, 50HZ\n PERKINS\nIntroduction\nThis document outlines the \nequipment inspection I1, which must be performed every six months as indicated by \nM6 in the title block.\nThe first draft initiated by eng.Haytham Hemdan, \ntested by eng. Mohamed Abbass & eng. Tamer Awad Abdul Rahman, revised by \nEDEPC quality control \neng. Adel Abdul Kader El Naggar, approved by eng. Tarek Youssef Ali, Head Sector of \nAyoun Moussa Power Station.\nThis \ndocument accepted by eng. Samir Abd El Gilil EDEPC inspection & quality control \ngeneral director, MPIS coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC admin & financial inspection & \nquality control's general director and supervisor of inspection & quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nEnsure engine starting circuits are disabled before commencing service or \nmaintenance procedure.\nIsolate any anti-condensation heater supply.\nWear \n standard personal safety and healthy equipment as helmet, safety shoes, rubber gloves, ... etc.\nEnsure engine starting circuits are disabled before commencing service or \nmaintenance procedure.\nIsolate any anti-condensation heater supply.\nTools and Equipment\nSet of wrenches,\n cleaning material, and air blower.\nGrease Mobilux no. EP2 or Shell Alavania R3.\nSafety and healthy equipment as\n safety helmet, safety shoes ...etc\nSet of wrenches,\n cleaning material, and air blower.\nGrease Mobilux no. EP2 or Shell Alavania R3.\nWork to be Carried Out\nWindings \nCondition\nMeasure the\nwinding insulation resistance to earth, ensure that the AVR was \ndisconnected during this test and any resistance temperature detector (RTD) \nleads grounded. A 500V megger or similar instrument should be used.\nNotice that\nthe insulation resistance to earth of all windings should be in \nexcess of 1.0 Mega ohm and should the insulation resistances be less than these \nvalues, drying out of generator windings is essential.\nCarry out Drying out drying by directing warm \nair from a fan heater into the generator air inlets and / or outlets.\nMeasure the\nwinding insulation resistance to earth, ensure that the AVR was \ndisconnected during this test and any resistance temperature detector (RTD) \nleads grounded. A 500V megger or similar instrument should be used.\nNotice that\nthe insulation resistance to earth of all windings should be in \nexcess of 1.0 Mega ohm and should the insulation resistances be less than these \nvalues, drying out of generator windings is essential.\nCarry out Drying out drying by directing warm \nair from a fan heater into the generator air inlets and / or outlets.\nBearings\nCheck for\noverheating, noise, vibration\nIf excessive vibration develops after a period of time this may \nbe due to bearing wear. The bearing should then be examined for damage or loss \nof grease and replaced if necessary.\nReplace the bearing after 40 thousands hours in service.\nCheck for\noverheating, noise, vibration\nIf excessive vibration develops after a period of time this may \nbe due to bearing wear. The bearing should then be examined for damage or loss \nof grease and replaced if necessary.\nReplace the bearing after 40 thousands hours in service.\nFault Finding\nCheck link k1-k2 on auxiliary terminals. Follow \n separate excitation test procedure to check machine and AVR\nFirst stop and re-start set. If no voltage or voltage \n collapses after short time, follow separate excitation test procedure\nCheck sensing leads to AVR.\nCheck speed if correct check UFRO setting\nBefore commencing any fault finding procedure examine all wiring for loose \nconnections.\nSeparate Excitation Test \nProcedures\nCheck the generator windings, diode assembly and AVR using the \nappropriate following section:\nCheck the generator windings, diode assembly and AVR using the \nappropriate following section:\nGenerator windings, rotating diodes and permanent \nmagnet generator (PMG).\nExcitation control test\nGenerator windings, rotating diodes and permanent \nmagnet generator (PMG).\nExcitation control test\nNOTE Incorrect speed setting will give \nproportional error in voltage output.\nChecking PMG\nStart the set and run at rated speed\nMeasure the voltage at AVR terminals P2, P3 and \nP4. These should be balanced and within the following ranges: \n50HZ generators- 170-180 \nvolts. 60HZ generators- 200-216 volts.\nShould the voltage be unbalanced stop the set, \nremove the MPG sheet metal cover from the non drive end bracket and disconnect \nthe multipin plug in the PMG output leads.\nCheck leads P2, P3, and P4 for continuity.\nCheck the PMG stator resistances between output \nleads. These should be balanced and within +/-10% of 2.3 ohm. If resistances are \nunbalanced and /or incorrect the PMG stator must be replaced.\nIf the voltages are balanced but low and PMG \nstator winding resistances are correct the PMG rotor must be replaced.\nStart the set and run at rated speed\nMeasure the voltage at AVR terminals P2, P3 and \nP4. These should be balanced and within the following ranges: \n50HZ generators- 170-180 \nvolts. 60HZ generators- 200-216 volts.\nShould the voltage be unbalanced stop the set, \nremove the MPG sheet metal cover from the non drive end bracket and disconnect \nthe multipin plug in the PMG output leads.\nCheck leads P2, P3, and P4 for continuity.\nCheck the PMG stator resistances between output \nleads. These should be balanced and within +/-10% of 2.3 ohm. If resistances are \nunbalanced and /or incorrect the PMG stator must be replaced.\nIf the voltages are balanced but low and PMG \nstator winding resistances are correct the PMG rotor must be replaced.\nChecking Generator Windings \nand Rotating Diodes\nThis procedure is carried out with leads X and XX \ndisconnected at AVR or transformer control Rectifier Bridge and using 12 volt d.c supply to leads X and XX.\nStart the Set and Run at Rated Speed.\nMeasure the voltage at the main output terminals \nU, V and W.\nIf voltages are balanced and within +/-10 % of the \ngenerator nominal voltage, check voltage at AVR terminals 6, \n7 and 8 these should be balanced and between 170-250 volts.\nIf voltages at main terminals are balanced but \nvoltages at 6, 7 and 8 are unbalanced, check continuity of leads 6, 7 and 8. \nWhere an isolating transformer is fitted (MX321 AVR) Check transformer winding.\nIf faulty the transformer unit must be replaced.\nThis procedure is carried out with leads X and XX \ndisconnected at AVR or transformer control Rectifier Bridge and using 12 volt d.c supply to leads X and XX.\nStart the Set and Run at Rated Speed.\nMeasure the voltage at the main output terminals \nU, V and W.\nIf voltages are balanced and within +/-10 % of the \ngenerator nominal voltage, check voltage at AVR terminals 6, \n7 and 8 these should be balanced and between 170-250 volts.\nIf voltages at main terminals are balanced but \nvoltages at 6, 7 and 8 are unbalanced, check continuity of leads 6, 7 and 8. \nWhere an isolating transformer is fitted (MX321 AVR) Check transformer winding.\nIf faulty the transformer unit must be replaced.\nBalanced Main Terminals Voltages\nIf all voltages are balanced within 1 % \nat main terminals, it can be assumed that all exciter windings, main windings \nand main rotating diodes are in good order, and the fault is in the AVR or \ntransformer control.\nIf voltages are balanced but low, there is a fault in the main \nexcitation windings or rotating diodes assembly, proceed as follows to identify.\nIf all voltages are balanced within 1 % \nat main terminals, it can be assumed that all exciter windings, main windings \nand main rotating diodes are in good order, and the fault is in the AVR or \ntransformer control.\nIf voltages are balanced but low, there is a fault in the main \nexcitation windings or rotating diodes assembly, proceed as follows to identify.\nRectifier Diodes\nCheck \nthe diodes in rectifier assembly with a multimeter, disconnect the flexible \nleads at the terminal end for each diode\nCheck the forward and reverse resistance, a healthy diode will \nindicate a very high resistance (infinity) in the reverse direction, and low \nresistance in the forward direction, a healthy diode will give a full deflection \nreading in both directions with the test meter on the 10.000 ohms scale, or an \ninfinity readings in both directions.\nOn an electronic digital meter a healthy diode \nwill give a low reading in one direction, and high reading in the other.\nCheck \nthe diodes in rectifier assembly with a multimeter, disconnect the flexible \nleads at the terminal end for each diode\nCheck the forward and reverse resistance, a healthy diode will \nindicate a very high resistance (infinity) in the reverse direction, and low \nresistance in the forward direction, a healthy diode will give a full deflection \nreading in both directions with the test meter on the 10.000 ohms scale, or an \ninfinity readings in both directions.\nOn an electronic digital meter a healthy diode \nwill give a low reading in one direction, and high reading in the other.\nReplacement of Faulty Diodes\n\nEnsure that the\ncorrect polarity diodes are fitted to each respective plate,\nWhen fitting the diodes to the plates they must be tight enough \nto ensure a good mechanical and electrical contact, but should be over \ntightened, the recommended torque tightening is 4.06 - 4.74 NM (36 -42Ib in).\nEnsure that the\ncorrect polarity diodes are fitted to each respective plate,\nWhen fitting the diodes to the plates they must be tight enough \nto ensure a good mechanical and electrical contact, but should be over \ntightened, the recommended torque tightening is 4.06 - 4.74 NM (36 -42Ib in).\nSurge Suppressor\nThe surge suppressor is a metal-oxide varistor connected across \nthe two rectifier plates to prevent high transient reverse voltages in the field \nwindings from damaging the diodes\nThis device is not polarized and will show a virtually infinite reading in both \ndirections with an ordinary resistance meter. If defective this will be visible \nby inspection, since it will normally fail to short circuit and show signs of \ndisintegration, Replace it fully\nThe surge suppressor is a metal-oxide varistor connected across \nthe two rectifier plates to prevent high transient reverse voltages in the field \nwindings from damaging the diodes\nThis device is not polarized and will show a virtually infinite reading in both \ndirections with an ordinary resistance meter. If defective this will be visible \nby inspection, since it will normally fail to short circuit and show signs of \ndisintegration, Replace it fully\nMain\nExcitation Windings\nIf after establishing and correcting any fault on the rectifier \nassembly the output is still low when separately excited, then the main rotor, \nexciter stator and exciter rotor winding resistances should be checked (see \nresistance charts), as the fault must be in one of these windings, the exciter \nstator resistance is measured across leads X and XX, the exciter rotor is \nconnected to six studs which also carry the diodes leads terminals.\nThe main rotor winding is connected across the two rectifier \nplates, the respective leads must be disconnected before taking the readings.\nResistance values should be within +/- 10 % of the \nvalues given in the tables below:\nIf after establishing and correcting any fault on the rectifier \nassembly the output is still low when separately excited, then the main rotor, \nexciter stator and exciter rotor winding resistances should be checked (see \nresistance charts), as the fault must be in one of these windings, the exciter \nstator resistance is measured across leads X and XX, the exciter rotor is \nconnected to six studs which also carry the diodes leads terminals.\nThe main rotor winding is connected across the two rectifier \nplates, the respective leads must be disconnected before taking the readings.\nResistance values should be within +/- 10 % of the \nvalues given in the tables below:\n\nUnbalanced Main Terminal \nVoltages\nIf voltages are unbalanced, indicates a fault in the main stator windings or \nmain cables to the circuit breaker.\nNotes:\nFaults on the \nstator windings or cables may also cause noticeable load increase on the engine \nwhen excitation is applied. Disconnect the main cables and separate the winding \nleads U1 U2, (U5 U6), V1 V2, (V5 V6), W1 W2, (W5 W6) to isolate each winding \nsection.\nLeads suffixed 5 and 6 apply to \n12 wire winding only\nFaults on the \nstator windings or cables may also cause noticeable load increase on the engine \nwhen excitation is applied. Disconnect the main cables and separate the winding \nleads U1 U2, (U5 U6), V1 V2, (V5 V6), W1 W2, (W5 W6) to isolate each winding \nsection.\nLeads suffixed 5 and 6 apply to \n12 wire winding only\nPROCEDURES\nMeasure each section resistance values should be \nbalanced and within +/- 10 % of the values given below:\n\nMeasure each section resistance values should be \nbalanced and within +/- 10 % of the values given below:\nMeasure insulation resistance between sections and \neach section to earth.\nUnbalance or incorrect winding resistances and / \nor low insulation resistance to earth indicate rewinding of the stator will be \nnecessary\nMeasure insulation resistance between sections and \neach section to earth.\nUnbalance or incorrect winding resistances and / \nor low insulation resistance to earth indicate rewinding of the stator will be \nnecessary\nExcitation \nControl Test\nAVR Function Test\nAll types of AVRs can be tested \nwithin this procedure:\nRemove exciter field leads X and XX (F1 & F2) from the \nAVR terminals X & XX (F1 & F2)\nConnect a 60w 24v household lamp to AVR terminals X& XX \n(F1 & F2)\nSet the AVR volts control potentiometer fully clockwise\nConnect a 12 volts, 1.0A DC supply to the exciter field \nleads X & XX (F1& F2) with X (F1) to the positive\nStart the generating set and run at rated speed\nCheck that the generator output voltage is within +/- 10% \nof rated voltage\nRemove exciter field leads X and XX (F1 & F2) from the \nAVR terminals X & XX (F1 & F2)\nConnect a 60w 24v household lamp to AVR terminals X& XX \n(F1 & F2)\nSet the AVR volts control potentiometer fully clockwise\nConnect a 12 volts, 1.0A DC supply to the exciter field \nleads X & XX (F1& F2) with X (F1) to the positive\nStart the generating set and run at rated speed\nCheck that the generator output voltage is within +/- 10% \nof rated voltage\nNotes:\nIf the generator output voltage is correct but the \nvoltage on 7-8 (or P2 P3) is low, check auxiliary leads and connection to main \nterminals\nThe lamp connected across X-XX should glow. In the \ncase of MX321 AVRs the lamp should glow for approximately 8 sec. and then turn \noff. Failure to turn off indicates faulty protection circuit and the AVR should \nbe replaced\nTurning the volts control potentiometer fully \nanti-clockwise should turn off the lamp with all AVR types\nShould the lamp fail to light the AVR is faulty \nand should be replaced\nIf the generator output voltage is correct but the \nvoltage on 7-8 (or P2 P3) is low, check auxiliary leads and connection to main \nterminals\nThe lamp connected across X-XX should glow. In the \ncase of MX321 AVRs the lamp should glow for approximately 8 sec. and then turn \noff. Failure to turn off indicates faulty protection circuit and the AVR should \nbe replaced\nTurning the volts control potentiometer fully \nanti-clockwise should turn off the lamp with all AVR types\nShould the lamp fail to light the AVR is faulty \nand should be replaced\nImportant! After this test turn volts \ncontrol potentiometer fully anti-clockwise.\nTest Sheet\n\nRemarks\nTest Sheet for Main Excitation Windings\nResistance values should be within +/- 10 % of the \nvalues given in the tables below:\n\n\nLocation: Generator \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines the \nequipment inspection I1, which must be performed every six months as indicated by \nM6 in the title block.\nThe first draft initiated by eng.Haytham Hemdan, \ntested by eng. Mohamed Abbass & eng. Tamer Awad Abdul Rahman, revised by \nEDEPC quality control \neng. Adel Abdul Kader El Naggar, approved by eng. Tarek Youssef Ali, Head Sector of \nAyoun Moussa Power Station.\nThis \ndocument accepted by eng. Samir Abd El Gilil EDEPC inspection & quality control \ngeneral director, MPIS coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC admin & financial inspection & \nquality control's general director and supervisor of inspection & quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nEnsure engine starting circuits are disabled before commencing service or \nmaintenance procedure.\nIsolate any anti-condensation heater supply.\nWear \n standard personal safety and healthy equipment as helmet, safety shoes, rubber gloves, ... etc.\nEnsure engine starting circuits are disabled before commencing service or \nmaintenance procedure.\nIsolate any anti-condensation heater supply.\nTools and Equipment\nSet of wrenches,\n cleaning material, and air blower.\nGrease Mobilux no. EP2 or Shell Alavania R3.\nSafety and healthy equipment as\n safety helmet, safety shoes ...etc\nSet of wrenches,\n cleaning material, and air blower.\nGrease Mobilux no. EP2 or Shell Alavania R3.\nWork to be Carried Out\nWindings \nCondition\nMeasure the\nwinding insulation resistance to earth, ensure that the AVR was \ndisconnected during this test and any resistance temperature detector (RTD) \nleads grounded. A 500V megger or similar instrument should be used.\nNotice that\nthe insulation resistance to earth of all windings should be in \nexcess of 1.0 Mega ohm and should the insulation resistances be less than these \nvalues, drying out of generator windings is essential.\nCarry out Drying out drying by directing warm \nair from a fan heater into the generator air inlets and / or outlets.\nMeasure the\nwinding insulation resistance to earth, ensure that the AVR was \ndisconnected during this test and any resistance temperature detector (RTD) \nleads grounded. A 500V megger or similar instrument should be used.\nNotice that\nthe insulation resistance to earth of all windings should be in \nexcess of 1.0 Mega ohm and should the insulation resistances be less than these \nvalues, drying out of generator windings is essential.\nCarry out Drying out drying by directing warm \nair from a fan heater into the generator air inlets and / or outlets.\nBearings\nCheck for\noverheating, noise, vibration\nIf excessive vibration develops after a period of time this may \nbe due to bearing wear. The bearing should then be examined for damage or loss \nof grease and replaced if necessary.\nReplace the bearing after 40 thousands hours in service.\nCheck for\noverheating, noise, vibration\nIf excessive vibration develops after a period of time this may \nbe due to bearing wear. The bearing should then be examined for damage or loss \nof grease and replaced if necessary.\nReplace the bearing after 40 thousands hours in service.\nFault Finding\nNo voltage build up when starting set | Check link k1-k2 on auxiliary terminals. Follow \n separate excitation test procedure to check machine and AVR\nLoss of voltage when running | First stop and re-start set. If no voltage or voltage \n collapses after short time, follow separate excitation test procedure\nGenerator voltage high followed by collapse | Check sensing leads to AVR.\n Refer to separate excitation test procedure\nVoltage unstable, either no load or with load | Check speed stability\nLow voltage on load | Check speed if correct check UFRO setting\nExcessive voltage/speed dip on load switching | Check \n governor response\nSluggish recovery on load switching | Check \n governor response\nBefore commencing any fault finding procedure examine all wiring for loose \nconnections.\nSeparate Excitation Test \nProcedures\nCheck the generator windings, diode assembly and AVR using the \nappropriate following section:\nCheck the generator windings, diode assembly and AVR using the \nappropriate following section:\nGenerator windings, rotating diodes and permanent \nmagnet generator (PMG).\nExcitation control test\nGenerator windings, rotating diodes and permanent \nmagnet generator (PMG).\nExcitation control test\nNOTE Incorrect speed setting will give \nproportional error in voltage output.\nChecking PMG\nStart the set and run at rated speed\nMeasure the voltage at AVR terminals P2, P3 and \nP4. These should be balanced and within the following ranges: \n50HZ generators- 170-180 \nvolts. 60HZ generators- 200-216 volts.\nShould the voltage be unbalanced stop the set, \nremove the MPG sheet metal cover from the non drive end bracket and disconnect \nthe multipin plug in the PMG output leads.\nCheck leads P2, P3, and P4 for continuity.\nCheck the PMG stator resistances between output \nleads. These should be balanced and within +/-10% of 2.3 ohm. If resistances are \nunbalanced and /or incorrect the PMG stator must be replaced.\nIf the voltages are balanced but low and PMG \nstator winding resistances are correct the PMG rotor must be replaced.\nStart the set and run at rated speed\nMeasure the voltage at AVR terminals P2, P3 and \nP4. These should be balanced and within the following ranges: \n50HZ generators- 170-180 \nvolts. 60HZ generators- 200-216 volts.\nShould the voltage be unbalanced stop the set, \nremove the MPG sheet metal cover from the non drive end bracket and disconnect \nthe multipin plug in the PMG output leads.\nCheck leads P2, P3, and P4 for continuity.\nCheck the PMG stator resistances between output \nleads. These should be balanced and within +/-10% of 2.3 ohm. If resistances are \nunbalanced and /or incorrect the PMG stator must be replaced.\nIf the voltages are balanced but low and PMG \nstator winding resistances are correct the PMG rotor must be replaced.\nChecking Generator Windings \nand Rotating Diodes\nThis procedure is carried out with leads X and XX \ndisconnected at AVR or transformer control Rectifier Bridge and using 12 volt d.c supply to leads X and XX.\nStart the Set and Run at Rated Speed.\nMeasure the voltage at the main output terminals \nU, V and W.\nIf voltages are balanced and within +/-10 % of the \ngenerator nominal voltage, check voltage at AVR terminals 6, \n7 and 8 these should be balanced and between 170-250 volts.\nIf voltages at main terminals are balanced but \nvoltages at 6, 7 and 8 are unbalanced, check continuity of leads 6, 7 and 8. \nWhere an isolating transformer is fitted (MX321 AVR) Check transformer winding.\nIf faulty the transformer unit must be replaced.\nThis procedure is carried out with leads X and XX \ndisconnected at AVR or transformer control Rectifier Bridge and using 12 volt d.c supply to leads X and XX.\nStart the Set and Run at Rated Speed.\nMeasure the voltage at the main output terminals \nU, V and W.\nIf voltages are balanced and within +/-10 % of the \ngenerator nominal voltage, check voltage at AVR terminals 6, \n7 and 8 these should be balanced and between 170-250 volts.\nIf voltages at main terminals are balanced but \nvoltages at 6, 7 and 8 are unbalanced, check continuity of leads 6, 7 and 8. \nWhere an isolating transformer is fitted (MX321 AVR) Check transformer winding.\nIf faulty the transformer unit must be replaced.\nBalanced Main Terminals Voltages\nIf all voltages are balanced within 1 % \nat main terminals, it can be assumed that all exciter windings, main windings \nand main rotating diodes are in good order, and the fault is in the AVR or \ntransformer control.\nIf voltages are balanced but low, there is a fault in the main \nexcitation windings or rotating diodes assembly, proceed as follows to identify.\nIf all voltages are balanced within 1 % \nat main terminals, it can be assumed that all exciter windings, main windings \nand main rotating diodes are in good order, and the fault is in the AVR or \ntransformer control.\nIf voltages are balanced but low, there is a fault in the main \nexcitation windings or rotating diodes assembly, proceed as follows to identify.\nRectifier Diodes\nCheck \nthe diodes in rectifier assembly with a multimeter, disconnect the flexible \nleads at the terminal end for each diode\nCheck the forward and reverse resistance, a healthy diode will \nindicate a very high resistance (infinity) in the reverse direction, and low \nresistance in the forward direction, a healthy diode will give a full deflection \nreading in both directions with the test meter on the 10.000 ohms scale, or an \ninfinity readings in both directions.\nOn an electronic digital meter a healthy diode \nwill give a low reading in one direction, and high reading in the other.\nCheck \nthe diodes in rectifier assembly with a multimeter, disconnect the flexible \nleads at the terminal end for each diode\nCheck the forward and reverse resistance, a healthy diode will \nindicate a very high resistance (infinity) in the reverse direction, and low \nresistance in the forward direction, a healthy diode will give a full deflection \nreading in both directions with the test meter on the 10.000 ohms scale, or an \ninfinity readings in both directions.\nOn an electronic digital meter a healthy diode \nwill give a low reading in one direction, and high reading in the other.\nReplacement of Faulty Diodes\nNote: | The rectifier assembly is \nsplit into two plates, the positive and \nnegative, and the main rotor is connected across this plates.\n | Each plates \ncarries three diodes, the negative plate carrying negative biased diodes and the \n positive plates carrying positive biased diodes.\nEnsure that the\ncorrect polarity diodes are fitted to each respective plate,\nWhen fitting the diodes to the plates they must be tight enough \nto ensure a good mechanical and electrical contact, but should be over \ntightened, the recommended torque tightening is 4.06 - 4.74 NM (36 -42Ib in).\nEnsure that the\ncorrect polarity diodes are fitted to each respective plate,\nWhen fitting the diodes to the plates they must be tight enough \nto ensure a good mechanical and electrical contact, but should be over \ntightened, the recommended torque tightening is 4.06 - 4.74 NM (36 -42Ib in).\nSurge Suppressor\nThe surge suppressor is a metal-oxide varistor connected across \nthe two rectifier plates to prevent high transient reverse voltages in the field \nwindings from damaging the diodes\nThis device is not polarized and will show a virtually infinite reading in both \ndirections with an ordinary resistance meter. If defective this will be visible \nby inspection, since it will normally fail to short circuit and show signs of \ndisintegration, Replace it fully\nThe surge suppressor is a metal-oxide varistor connected across \nthe two rectifier plates to prevent high transient reverse voltages in the field \nwindings from damaging the diodes\nThis device is not polarized and will show a virtually infinite reading in both \ndirections with an ordinary resistance meter. If defective this will be visible \nby inspection, since it will normally fail to short circuit and show signs of \ndisintegration, Replace it fully\nMain\nExcitation Windings\nIf after establishing and correcting any fault on the rectifier \nassembly the output is still low when separately excited, then the main rotor, \nexciter stator and exciter rotor winding resistances should be checked (see \nresistance charts), as the fault must be in one of these windings, the exciter \nstator resistance is measured across leads X and XX, the exciter rotor is \nconnected to six studs which also carry the diodes leads terminals.\nThe main rotor winding is connected across the two rectifier \nplates, the respective leads must be disconnected before taking the readings.\nResistance values should be within +/- 10 % of the \nvalues given in the tables below:\nIf after establishing and correcting any fault on the rectifier \nassembly the output is still low when separately excited, then the main rotor, \nexciter stator and exciter rotor winding resistances should be checked (see \nresistance charts), as the fault must be in one of these windings, the exciter \nstator resistance is measured across leads X and XX, the exciter rotor is \nconnected to six studs which also carry the diodes leads terminals.\nThe main rotor winding is connected across the two rectifier \nplates, the respective leads must be disconnected before taking the readings.\nResistance values should be within +/- 10 % of the \nvalues given in the tables below:\n4 Pole Generators\nFrame Size | Main Rotor | Exciter Stator | Exciter Rotor\n4 - 4C | 0.91 | 18 | 0.136\n4 - 4D | 1.04 | 18 | 0.136\n4 - 4E | 1.17 | 18 | 0.136\n4 - 4F | 1.35 | 18 | 0.136\n5 - 4C | 1.55 | 17 | 0.174\n5 - 4D | 1.77 | 17 | 0.174\n5 - 4E | 1.96 | 17 | 0.174\n5 - 4F | 2.16 | 17 | 0.174\n6 - 4G | 1.44 | 17 | 0.158\n6 - 4H | 1.54 | 17 | 0.158\n6 - 4J | 1.73 | 17 | 0.158\n6 - 4K | 1.95 | 17 | 0.158\n7 - 4E | 1.25 | 17 | 0.096\n7 - 4F | 1.4 | 17 | 0.096\n7 - 4G | 1.64 | 17 | 0.096\n7 - 4H | 1.75 | 17 | 0.096\nUnbalanced Main Terminal \nVoltages\nIf voltages are unbalanced, indicates a fault in the main stator windings or \nmain cables to the circuit breaker.\nNotes:\nFaults on the \nstator windings or cables may also cause noticeable load increase on the engine \nwhen excitation is applied. Disconnect the main cables and separate the winding \nleads U1 U2, (U5 U6), V1 V2, (V5 V6), W1 W2, (W5 W6) to isolate each winding \nsection.\nLeads suffixed 5 and 6 apply to \n12 wire winding only\nFaults on the \nstator windings or cables may also cause noticeable load increase on the engine \nwhen excitation is applied. Disconnect the main cables and separate the winding \nleads U1 U2, (U5 U6), V1 V2, (V5 V6), W1 W2, (W5 W6) to isolate each winding \nsection.\nLeads suffixed 5 and 6 apply to \n12 wire winding only\nPROCEDURES\nMeasure each section resistance values should be \nbalanced and within +/- 10 % of the values given below:\nMain Stator Section Resistances\n4 Pole Generators\nSection Resistances\nFrame \n Size | Winding 311 | Winding 12 | Winding 17 | Winding 07\n4 - 4C | 0.0085 | N/A | 0.0115 | N/A\n4 - 4D | 0.007 | N/A | 0.01 | N/A\n4 - 4E | 0.0055 | N/A | 0.0075 | N/A\n4 - 4F | 0.005 | N/A | 0.0052 | N/A\n5 - 4C | 0.0068 | N/A | 0.0105 | N/A\n5 - 4D | 0.0057 | N/A | 0.0079 | N/A\n5 - \n 4E | 0.0043 | N/A | 0.0058 | N/A\n5 - 4F | 0.0037 | N/A | 0.0049 | N/A\n6 - 4G | 0.0037 | 0.0148 | N/A | 0.011\n6 - 4H | 0.0027 | 0.0108 | N/A | 0.0072\n6 - 4J | 0.0024 | 0.0096 | N/A | 0.006\n6 - 4K | 0.0019 | 0.0076 | N/A | 0.0052\n7 - 4E | N/A | 0.0076 | N/A | 0.0104\n7 - 4F | N/A | 0.0056 | N/A | 0.008\n7 - 4G | N/A | 0.0044 | N/A | 0.006\n7 - 4H | N/A | 0.0036 | N/A | 0.0044\nMeasure each section resistance values should be \nbalanced and within +/- 10 % of the values given below:\nMeasure insulation resistance between sections and \neach section to earth.\nUnbalance or incorrect winding resistances and / \nor low insulation resistance to earth indicate rewinding of the stator will be \nnecessary\nMeasure insulation resistance between sections and \neach section to earth.\nUnbalance or incorrect winding resistances and / \nor low insulation resistance to earth indicate rewinding of the stator will be \nnecessary\nExcitation \nControl Test\nAVR Function Test\nAll types of AVRs can be tested \nwithin this procedure:\nRemove exciter field leads X and XX (F1 & F2) from the \nAVR terminals X & XX (F1 & F2)\nConnect a 60w 24v household lamp to AVR terminals X& XX \n(F1 & F2)\nSet the AVR volts control potentiometer fully clockwise\nConnect a 12 volts, 1.0A DC supply to the exciter field \nleads X & XX (F1& F2) with X (F1) to the positive\nStart the generating set and run at rated speed\nCheck that the generator output voltage is within +/- 10% \nof rated voltage\nRemove exciter field leads X and XX (F1 & F2) from the \nAVR terminals X & XX (F1 & F2)\nConnect a 60w 24v household lamp to AVR terminals X& XX \n(F1 & F2)\nSet the AVR volts control potentiometer fully clockwise\nConnect a 12 volts, 1.0A DC supply to the exciter field \nleads X & XX (F1& F2) with X (F1) to the positive\nStart the generating set and run at rated speed\nCheck that the generator output voltage is within +/- 10% \nof rated voltage\nNotes:\nIf the generator output voltage is correct but the \nvoltage on 7-8 (or P2 P3) is low, check auxiliary leads and connection to main \nterminals\nThe lamp connected across X-XX should glow. In the \ncase of MX321 AVRs the lamp should glow for approximately 8 sec. and then turn \noff. Failure to turn off indicates faulty protection circuit and the AVR should \nbe replaced\nTurning the volts control potentiometer fully \nanti-clockwise should turn off the lamp with all AVR types\nShould the lamp fail to light the AVR is faulty \nand should be replaced\nIf the generator output voltage is correct but the \nvoltage on 7-8 (or P2 P3) is low, check auxiliary leads and connection to main \nterminals\nThe lamp connected across X-XX should glow. In the \ncase of MX321 AVRs the lamp should glow for approximately 8 sec. and then turn \noff. Failure to turn off indicates faulty protection circuit and the AVR should \nbe replaced\nTurning the volts control potentiometer fully \nanti-clockwise should turn off the lamp with all AVR types\nShould the lamp fail to light the AVR is faulty \nand should be replaced\nImportant! After this test turn volts \ncontrol potentiometer fully anti-clockwise.\nTest Sheet\n# | PROCEDURE | CHECK\nYES | NO | N/A\n1 | Check that there is no abnormal noise or \n vibration. |  |  | \n2 | Measurement of insulation resistance. |  |  | \n3 | Check no moisture is accumulated on windings. |  |  | \n4 | Check no discoloring caused by over heat. |  |  | \n5 | Check no grease and dust are accumulated on \n coils. |  |  | \n6 | Ensure there is no untoward change of wedges \n from original position. |  |  | \n7 | Check no accumulation of dust. |  |  | \n8 | Check air filters, they should be replaced \n or cleaned and reconditioned at a frequency that is dictated by conditions. |  |  | \n9 | Check for \n over heating or noise during the life of the bearings. |  |  | \n10 | Re-grease if dismantled for \n inspection. |  |  | \nRemarks\nTest Sheet for Main Excitation Windings\nResistance values should be within +/- 10 % of the \nvalues given in the tables below:\nPole Generators\nFrame Size | Main Rotor | Exciter Stator | Exciter Rotor\n4 - 4C |  |  | \n4 - 4D |  |  | \n4 - 4E |  |  | \n4 - 4F |  |  | \n5 - 4C |  |  | \n5 - 4D |  |  | \n5 - 4E |  |  | \n5 - 4F |  |  | \n6 - 4G |  |  | \n6 - 4H |  |  | \n6 - 4J |  |  | \n6 - 4K |  |  | \n7 - 4E |  |  | \n7 - 4F |  |  | \n7 - 4G |  |  | \n7 - 4H |  |  | \nTest Sheet for Main Stator Section Resistances\nPole Generators\nSection Resistances\nFrame Size | Winding 311 | Winding 12 | Winding 17 | Winding 07\n4 - 4C |  |  |  | \n4 - 4D |  |  |  | \n4 - 4E |  |  |  | \n4 - 4F |  |  |  | \n5 - 4C |  |  |  | \n5 - 4D |  |  |  | \n5 - 4F |  |  |  | \n5 - 4F |  |  |  | \n6 - 4G |  |  |  | \n6 - 4H |  |  |  | \n6 - 4J |  |  |  | \n6 - 4K |  |  |  | \n7 - 4E |  |  |  | \n7 - 4F |  |  |  | \n7 - 4G |  |  |  | \n7 - 4H |  |  |  | \nLocation: Generator \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

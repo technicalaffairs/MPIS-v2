@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Safety\n Valve for Super Heaters"
-  },
-  {
-   "type": "paragraph",
-   "text": "VSE1.4 00.125.M.200V13X.110.144.175.160"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -52,6 +46,10 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Type of valve",
+     "VSE1.4 00.125.M.200V13X.110.144.175.160"
+    ],
     [
      "Kind",
      "Pneumatic"
@@ -196,56 +194,120 @@
    "text": "Trouble Shouting"
   },
   {
-   "type": "paragraph",
-   "text": "- \n Seat grinding"
+   "type": "table",
+   "rows": [
+    [
+     "Trouble",
+     "Possible Reasons",
+     "Remedy"
+    ],
+    [
+     "1. \n Leakage",
+     "- \n Sealing surfaces \n seat damaged by foreign object or by flowing substance",
+     "- \n Seat grinding\n - \n Replacement of \n damage part."
+    ],
+    [
+     "2. \n Broken packing \n cover \n (stuffing box follower)",
+     "- \n Squeezing of soft \n seal ring due to fluctuating temperatures.",
+     "- \n Replacements of the \n packing cover."
+    ],
+    [
+     "- \n Loosened bolts of \n the cover due to piping vibration.",
+     "- \n Retighten the \n bolts."
+    ],
+    [
+     "3. \n Leakage packing",
+     "- \n Worn packing",
+     "- \n Adequate tightening \n of bolts."
+    ],
+    [
+     "- \n Packing dried up.",
+     "- \n Replacement of the \n packing."
+    ],
+    [
+     "4. \n Defect in electric \n servomotor",
+     "- \n Defect in limit \n switches",
+     "- \n Readjust limit \n switches."
+    ],
+    [
+     "- \n Defect in moment \n switches.",
+     "- \n Readjust moment \n switches."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Table No. (1): Recommended Filler Materials"
   },
   {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "KbIX"
-  },
-  {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "KbIX"
-  },
-  {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B302"
-  },
-  {
-   "type": "paragraph",
-   "text": "ER"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B312"
-  },
-  {
-   "type": "paragraph",
-   "text": "G315/GMoCr14"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B321"
-  },
-  {
-   "type": "paragraph",
-   "text": "E-B329"
+   "type": "table",
+   "rows": [
+    [
+     "Valve Material",
+     "Weld Wire",
+     "DIN",
+     "AWS",
+     "Electrode",
+     "DIN",
+     "AWS"
+    ],
+    [
+     "11416.1",
+     "UnionIMo",
+     "SGMo",
+     "ER\n 80S-G",
+     "E-B121",
+     "KbIX\n S/245/26",
+     "E7016"
+    ],
+    [
+     "12022.1",
+     "UnionIMo",
+     "SGMo",
+     "ER\n 80S-G",
+     "E-B121",
+     "KbIX\n S/245/26",
+     "E7016"
+    ],
+    [
+     "15020.1",
+     "UnionIMo",
+     "SGMo",
+     "ER\n 80S-G",
+     "E-B302\n E.MO-48",
+     "EkbMo",
+     "E7018-A1"
+    ],
+    [
+     "15121.5",
+     "UnionICrMo",
+     "SGCrMo1",
+     "ER\n 80S-G",
+     "E-B312\n E-CrMo-14B",
+     "EkbCrMo1",
+     "E8018-B2"
+    ],
+    [
+     "15128.5",
+     "G315/GMoCr14\n UnionIMoV2",
+     "SGMoV",
+     "",
+     "E-B321\n E-CrMoV-14B",
+     "EkbCrMo2/26",
+     "E9016-B3"
+    ],
+    [
+     "15313.5",
+     "UnionICrMO910",
+     "SGCrMo2",
+     "",
+     "E-B329\n E-CrMo1-35B",
+     "EkbCrMo2",
+     "E9015-B3"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -284,7 +346,7 @@
      "8",
      "Nuts",
      "13",
-     ""
+     "Tightening screw"
     ],
     [
      "5",
@@ -298,7 +360,7 @@
    "truncated_rows": 0
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nEquipment:\n Safety\n Valve for Super Heaters\nVSE1.4 00.125.M.200V13X.110.144.175.160\nIntroduction\nThis document lists the maintenance \nprocedure P1, which must be performed annually base as indicated by Y1 in \nthe title block\nSafety valve for super heated steam to \nprotect boiler from increasing pressure over 178 bar\nThe first draft \ninitiated and tested by eng. Fawzy Ahmed Bsiouny, accepted by general director \npre. eng. \nSaad Mostafa, revised by eng.\nSamir Abed El \nGelil at EDEPCo., and approved by eng. Awad Mohammed Fathy Soliman Head Sector \nof Talkha power station.\nTechnical Specification\n\nSafety Precautions\nA work permit must be issued and \n qualified maintenance staff should carry the suitable safety category.\nSafety fence (rope) with caution marks \nsurrounding the work area.\nWear your safety helmet, shoes, etc.\nThe boiler must be out of operation.\nThe boiler pressure must be zero.\nBe sure the boiler is drained.\nBe sure the boiler vents \n must be opened.\nIsolate the safety valve mechanically and \nelectrically.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid.\nSuitable lifting device.\nWork to be Carried Out\nBe sure the boiler out of operation, and the \n pressure inside the pipe lines connected to the safety valve must be zero\nBe sure the pipeline is \n drained.\nBe sure the air is isolated\nPartially Disassembly of Safety Valve\nScrew off the nuts no. 8\nScrew off the nuts no. 9\nScrew off the nuts no. 11.\nScrew off nuts no. 12\nTake up the safety valve.\nInspection and Repair of All Parts\nCheck the safety valve cone (4) and regrind \n the sealing surface of it if needed.\nCheck the safety valve seat (3) and regrind it \n if needed. When grinding the seats of the movers, attention must be paid to \n maintaining the angles of the sealing surfaces. In order to secure the mover \n function it is not allowed to reduce the seat parts by more than 0.8 mm in \n total (not more than 0.4 mm for one surface).\nRepair the safety valve cone (4) and valve \n seats (3) in a specialist workshop if grinding can not repair the wear in \n there.\nCheck the spindle (7), repair or replace if \n needed.\nCheck the spring no. 10, \n replace if needed.\nCheck the tightening \n screw 13 for super heated steam SV\nAssembly of Safety Valve\nClean every part well before any assembly.\nAssembly the safety valve parts in reverse \n sequence of disassembly.\nIf you need \nany help please go to the operating instruction for repairs and maintenance D-4.\nAfter \nsuccessfully assembly coordinate with the shift operation engineer to test the \nvalve to check that every thing is OK .\nIf you need \nany help please go to the operating instruction for repairs and maintenance D-4.\nAfter \nsuccessfully assembly coordinate with the shift operation engineer to test the \nvalve to check that every thing is OK .\nNotes:\nLocation: Equipment \ncode:\nChecked \nby: \nSignature: Date:\nTrouble Shouting\n- \n Seat grinding\nTable No. (1): Recommended Filler Materials\nER\nKbIX\nER\nKbIX\nER\nE-B302\nER\nE-B312\nG315/GMoCr14\nE-B321\nE-B329\nLENGED of FIG (1)\n",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document lists the maintenance \nprocedure P1, which must be performed annually base as indicated by Y1 in \nthe title block\nSafety valve for super heated steam to \nprotect boiler from increasing pressure over 178 bar\nThe first draft \ninitiated and tested by eng. Fawzy Ahmed Bsiouny, accepted by general director \npre. eng. \nSaad Mostafa, revised by eng.\nSamir Abed El \nGelil at EDEPCo., and approved by eng. Awad Mohammed Fathy Soliman Head Sector \nof Talkha power station.\nTechnical Specification\nType of valve | VSE1.4 00.125.M.200V13X.110.144.175.160\nKind | Pneumatic\nManufacture | Sempell\nCountry | CZECH\nSet pressure (bar) | 178\nTemperature C | 535\nMedium | Super Heated Steam\nJoint | Welding\nSafety Precautions\nA work permit must be issued and \n qualified maintenance staff should carry the suitable safety category.\nSafety fence (rope) with caution marks \nsurrounding the work area.\nWear your safety helmet, shoes, etc.\nThe boiler must be out of operation.\nThe boiler pressure must be zero.\nBe sure the boiler is drained.\nBe sure the boiler vents \n must be opened.\nIsolate the safety valve mechanically and \nelectrically.\nTools and Equipment\nComplete maintenance tool set.\nCleaning fluid.\nSuitable lifting device.\nWork to be Carried Out\nBe sure the boiler out of operation, and the \n pressure inside the pipe lines connected to the safety valve must be zero\nBe sure the pipeline is \n drained.\nBe sure the air is isolated\nPartially Disassembly of Safety Valve\nScrew off the nuts no. 8\nScrew off the nuts no. 9\nScrew off the nuts no. 11.\nScrew off nuts no. 12\nTake up the safety valve.\nInspection and Repair of All Parts\nCheck the safety valve cone (4) and regrind \n the sealing surface of it if needed.\nCheck the safety valve seat (3) and regrind it \n if needed. When grinding the seats of the movers, attention must be paid to \n maintaining the angles of the sealing surfaces. In order to secure the mover \n function it is not allowed to reduce the seat parts by more than 0.8 mm in \n total (not more than 0.4 mm for one surface).\nRepair the safety valve cone (4) and valve \n seats (3) in a specialist workshop if grinding can not repair the wear in \n there.\nCheck the spindle (7), repair or replace if \n needed.\nCheck the spring no. 10, \n replace if needed.\nCheck the tightening \n screw 13 for super heated steam SV\nAssembly of Safety Valve\nClean every part well before any assembly.\nAssembly the safety valve parts in reverse \n sequence of disassembly.\nIf you need \nany help please go to the operating instruction for repairs and maintenance D-4.\nAfter \nsuccessfully assembly coordinate with the shift operation engineer to test the \nvalve to check that every thing is OK .\nIf you need \nany help please go to the operating instruction for repairs and maintenance D-4.\nAfter \nsuccessfully assembly coordinate with the shift operation engineer to test the \nvalve to check that every thing is OK .\nNotes:\nLocation: Equipment \ncode:\nChecked \nby: \nSignature: Date:\nTrouble Shouting\nTrouble | Possible Reasons | Remedy\n1. \n Leakage | - \n Sealing surfaces \n seat damaged by foreign object or by flowing substance | - \n Seat grinding\n - \n Replacement of \n damage part.\n2. \n Broken packing \n cover \n (stuffing box follower) | - \n Squeezing of soft \n seal ring due to fluctuating temperatures. | - \n Replacements of the \n packing cover.\n- \n Loosened bolts of \n the cover due to piping vibration. | - \n Retighten the \n bolts.\n3. \n Leakage packing | - \n Worn packing | - \n Adequate tightening \n of bolts.\n- \n Packing dried up. | - \n Replacement of the \n packing.\n4. \n Defect in electric \n servomotor | - \n Defect in limit \n switches | - \n Readjust limit \n switches.\n- \n Defect in moment \n switches. | - \n Readjust moment \n switches.\nTable No. (1): Recommended Filler Materials\nValve Material | Weld Wire | DIN | AWS | Electrode | DIN | AWS\n11416.1 | UnionIMo | SGMo | ER\n 80S-G | E-B121 | KbIX\n S/245/26 | E7016\n12022.1 | UnionIMo | SGMo | ER\n 80S-G | E-B121 | KbIX\n S/245/26 | E7016\n15020.1 | UnionIMo | SGMo | ER\n 80S-G | E-B302\n E.MO-48 | EkbMo | E7018-A1\n15121.5 | UnionICrMo | SGCrMo1 | ER\n 80S-G | E-B312\n E-CrMo-14B | EkbCrMo1 | E8018-B2\n15128.5 | G315/GMoCr14\n UnionIMoV2 | SGMoV |  | E-B321\n E-CrMoV-14B | EkbCrMo2/26 | E9016-B3\n15313.5 | UnionICrMO910 | SGCrMo2 |  | E-B329\n E-CrMo1-35B | EkbCrMo2 | E9015-B3\nLENGED of FIG (1)\n1 | Inlet | 6 | Guide sleeve | 10 | Spring\n2 | Body | 6a | Cover | 11 | Nuts\n3 | Body seat | 7 | Spindle | 12 | Nuts\n4 | Cone | 8 | Nuts | 13 | Tightening screw\n5 | Guide piston | 9 | Nuts |  | ",
  "text_truncated": false,
  "links": [],
  "images": [

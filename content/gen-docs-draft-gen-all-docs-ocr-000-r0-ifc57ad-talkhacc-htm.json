@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Procedure:\n Testing Procedure(s) \n (P1-Y1)"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -143,6 +141,114 @@
    "text": "Relay \nSetting: Target:"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Injected Current",
+     "Measured time",
+     "Reset Factor"
+    ],
+    [
+     "R",
+     "Pick Up :",
+     "A",
+     "",
+     "",
+     "( )"
+    ],
+    [
+     "Reset Value:",
+     "A",
+     "",
+     ""
+    ],
+    [
+     "2 In :",
+     "A",
+     "",
+     "Sec"
+    ],
+    [
+     "5 In :",
+     "A",
+     "",
+     "Sec"
+    ],
+    [
+     "10 In:",
+     "A",
+     "",
+     "Sec"
+    ],
+    [
+     "S",
+     "Pick Up :",
+     "A",
+     "",
+     "",
+     "( )"
+    ],
+    [
+     "Reset Value:",
+     "A",
+     "",
+     ""
+    ],
+    [
+     "2 In :",
+     "A",
+     "",
+     "Sec"
+    ],
+    [
+     "5 In :",
+     "A",
+     "",
+     "Sec"
+    ],
+    [
+     "10 In:",
+     "A",
+     "",
+     "Sec"
+    ],
+    [
+     "T",
+     "Pick Up :",
+     "A",
+     "",
+     "",
+     "( )"
+    ],
+    [
+     "Reset Value:",
+     "A",
+     "",
+     ""
+    ],
+    [
+     "2 In :",
+     "A",
+     "",
+     "Sec"
+    ],
+    [
+     "5 In :",
+     "A",
+     "",
+     "Sec"
+    ],
+    [
+     "10 In:",
+     "A",
+     "",
+     "Se"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:"
   },
@@ -167,7 +273,7 @@
    "text": "Approved by \n: Signature :"
   }
  ],
- "text": "Protection\nTechnical Procedure\nProcedure:\n Testing Procedure(s) \n (P1-Y1)\nIntroduction\nThis document lists the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe type IFC 57AD over current manufactured \n by G.E this procedure details steps required to completely check the proper \n operation and calibration the IFC 57AD relay.\nThe first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama, Revised by Quality Control Eng. Adel El-Nagar at \n EDEP Co., and accepted by General Director Eng. Mahmoud Saker and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Plant.\nThe first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama, Revised by Quality Control Eng. Adel El-Nagar at \n EDEP Co., and accepted by General Director Eng. Mahmoud Saker and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Plant.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence (rope) with caution marks surrounding the work area is \n required.\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence (rope) with caution marks surrounding the work area is \n required.\nMake sure CT secondary circuits are shorted \n before isolating the relay current circuit for current injection.\nTransformer must be switched off and isolated.\nTools and Equipment\nAmmeter.\nTest Leads.\nSecondary Injection test set.\nWork to be Carried Out\nPreparation\nEnsure that the C.T. secondary circuits are \nshorted at the incoming terminal blocks before isolating the relay current \ncircuit for test.\nLook at field maintenance file and compare \nposition of the setting switches on relay.\nTest trip the breaker associated with the relay.\nVerify the results match the relay setting, if \nnot consult technical services.\nCarefully follow all test procedure steps.\nCurrent \nTest\nConnect test leads between the current \n terminals number (5 and 6) on the relay to the current terminals on the test \n set.\nSlowly increase the current until the contacts \n close the relay must operate with a current between + 10% of the \n setting value.\nRecord this value on the test sheet.\nIncrease the injected current with a value 25% \n greater than the operating value.\nSlowly decrease the current until the relay \n resets.\nRecord this value on the test sheet.\nTime Test\nConnect the time delayed contacts numbers (1 \n and 2) on the relay to timer terminals on the test set\nStart the test by injecting current into the \n relay. The timer will stop once the relay has picked up.\nRecord this value of time on the test sheet.\nRepeat the above test steps for other phases.\nTest \nSheet For Long Time O.C. Relay\nTRANSF. : Tr ( )\nRelay Type: \n C.T Ratio:\nRelay \nSetting: Target:\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nRelay \nContacts: \nTripping Contacts:\nTested By : \nTest Date :\nReviewed by : Signature :\nApproved by \n: Signature :",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document lists the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe type IFC 57AD over current manufactured \n by G.E this procedure details steps required to completely check the proper \n operation and calibration the IFC 57AD relay.\nThe first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama, Revised by Quality Control Eng. Adel El-Nagar at \n EDEP Co., and accepted by General Director Eng. Mahmoud Saker and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Plant.\nThe first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama, Revised by Quality Control Eng. Adel El-Nagar at \n EDEP Co., and accepted by General Director Eng. Mahmoud Saker and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Plant.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence (rope) with caution marks surrounding the work area is \n required.\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence (rope) with caution marks surrounding the work area is \n required.\nMake sure CT secondary circuits are shorted \n before isolating the relay current circuit for current injection.\nTransformer must be switched off and isolated.\nTools and Equipment\nAmmeter.\nTest Leads.\nSecondary Injection test set.\nWork to be Carried Out\nPreparation\nEnsure that the C.T. secondary circuits are \nshorted at the incoming terminal blocks before isolating the relay current \ncircuit for test.\nLook at field maintenance file and compare \nposition of the setting switches on relay.\nTest trip the breaker associated with the relay.\nVerify the results match the relay setting, if \nnot consult technical services.\nCarefully follow all test procedure steps.\nCurrent \nTest\nConnect test leads between the current \n terminals number (5 and 6) on the relay to the current terminals on the test \n set.\nSlowly increase the current until the contacts \n close the relay must operate with a current between + 10% of the \n setting value.\nRecord this value on the test sheet.\nIncrease the injected current with a value 25% \n greater than the operating value.\nSlowly decrease the current until the relay \n resets.\nRecord this value on the test sheet.\nTime Test\nConnect the time delayed contacts numbers (1 \n and 2) on the relay to timer terminals on the test set\nStart the test by injecting current into the \n relay. The timer will stop once the relay has picked up.\nRecord this value of time on the test sheet.\nRepeat the above test steps for other phases.\nTest \nSheet For Long Time O.C. Relay\nTRANSF. : Tr ( )\nRelay Type: \n C.T Ratio:\nRelay \nSetting: Target:\nPhase | Injected Current | Measured time | Reset Factor\nR | Pick Up : | A |  |  | ( )\nReset Value: | A |  | \n2 In : | A |  | Sec\n5 In : | A |  | Sec\n10 In: | A |  | Sec\nS | Pick Up : | A |  |  | ( )\nReset Value: | A |  | \n2 In : | A |  | Sec\n5 In : | A |  | Sec\n10 In: | A |  | Sec\nT | Pick Up : | A |  |  | ( )\nReset Value: | A |  | \n2 In : | A |  | Sec\n5 In : | A |  | Sec\n10 In: | A |  | Se\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nRelay \nContacts: \nTripping Contacts:\nTested By : \nTest Date :\nReviewed by : Signature :\nApproved by \n: Signature :",
  "text_truncated": false,
  "links": [],
  "images": [

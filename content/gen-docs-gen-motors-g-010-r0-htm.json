@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Air Cooled \n Generator for Steam \n Turbine\n 11.5 kv, 175 MVA \n ALSTOM"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -82,36 +80,6 @@
    "text": "Inspection Conditions"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Be sure that the generator electrical and \n mechanical isolated"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Open the main hole and recover places from \n generator"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Dismantle the cover for generator bearing \n from tow sides"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Be sure that earthing switch connected and \n put local earth"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Isolated the potential transformer and \n fuses"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Be sure that the protection relays in \n service"
-  },
-  {
    "type": "table",
    "rows": [
     [
@@ -119,6 +87,42 @@
      "Maintenance Procedures",
      "Position",
      "Test Result"
+    ],
+    [
+     "1",
+     "Be sure that the generator electrical and \n mechanical isolated",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "2",
+     "Open the main hole and recover places from \n generator",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "3",
+     "Dismantle the cover for generator bearing \n from tow sides",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "4",
+     "Be sure that earthing switch connected and \n put local earth",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "5",
+     "Isolated the potential transformer and \n fuses",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "6",
+     "Be sure that the protection relays in \n service",
+     "OK NOT OK",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -128,31 +132,6 @@
    "text": "Stator \nInspection"
   },
   {
-   "type": "heading",
-   "level": 3,
-   "text": "Clean the over hang for \n end winding by using suitable cleaning solvent such as revolta"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Inspect the over hang \n and be sure that no cracks in insulation"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Check the condition for \n flexible joints"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Check the outlet \n generator bushing"
-  },
-  {
-   "type": "heading",
-   "level": 3,
-   "text": "Check the local earthing \n points for generator body"
-  },
-  {
    "type": "table",
    "rows": [
     [
@@ -160,6 +139,96 @@
      "Maintenance Procedures",
      "Position",
      "Test Result"
+    ],
+    [
+     "1",
+     "Clean the over hang for \n end winding by using suitable cleaning solvent such as revolta",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "2",
+     "Inspect the over hang \n and be sure that no cracks in insulation",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "3",
+     "Check the insulation support spacer for end winding",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "4",
+     "Inspect the magnetic core fixed and support",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "5",
+     "Measure the stator winding resistance (m\n Ώ)",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "Measure the stator insulation resistance \n (M Ώ)",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "Check the connection bars for neutral \n point",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "8",
+     "Check the condition for \n flexible joints",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "9",
+     "Check the outlet \n generator bushing",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "10",
+     "Check the local earthing \n points for generator body",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "11",
+     "Check the earth transformer for the \n neutral point",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "12",
+     "Check the outlet condensate heaters",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "13",
+     "Check the water coolers for air cooling \n generator",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "14",
+     "Check the drains and flange sealing and \n gasket",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "15",
+     "Check the outer body and painting",
+     "OK NOT OK",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -180,44 +249,56 @@
     ],
     [
      "1",
-     "",
-     "",
+     "Check the contact between the bearing and shaft journal bearing",
+     "OK NOT OK",
      ""
     ],
     [
      "2",
-     "",
-     "",
+     "Check the air cooling fan",
+     "OK NOT OK",
      ""
     ],
     [
      "3",
-     "",
-     "",
+     "Check the shaft grounding brushes",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "4",
+     "Measure the rotor winding resistance (m \n Ώ)",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "5",
+     "Measure the rotor winding insulation resistance (M \n Ώ)",
+     "OK NOT OK",
      ""
     ],
     [
      "6",
-     "",
-     "",
+     "Measure the bearing insulation resistance",
+     "OK NOT OK",
      ""
     ],
     [
      "7",
-     "",
-     "",
+     "Check the CT fixation and support in bus duct",
+     "OK NOT OK",
      ""
     ],
     [
      "8",
-     "",
-     "",
+     "Check the air cooling water circuit and measure pressure \n it",
+     "OK NOT OK",
      ""
     ],
     [
      "9",
-     "",
-     "",
+     "Check the bed silica Jel for bushing",
+     "OK NOT OK",
      ""
     ]
    ],
@@ -235,6 +316,36 @@
      "Maintenance Procedures",
      "Position",
      "Test Result"
+    ],
+    [
+     "1",
+     "Check and clean for excitation transformer",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "2",
+     "Check wiring control circuit \n for \n excitation system",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "3",
+     "Inspect the excitation cards",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "4",
+     "Inspect the static and rotating bridge \n rectifier",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "5",
+     "Check the cooling system",
+     "OK NOT OK",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -251,6 +362,36 @@
      "Maintenance Procedures",
      "Position",
      "Test Result"
+    ],
+    [
+     "1",
+     "Clean terminal banal \n board",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "2",
+     "Check the connection of wiring of board",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "3",
+     "Check the temperature monitoring \n instrument for generator bearing",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "4",
+     "Check the vibration monitoring \n instrument for generator bearing",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "5",
+     "Check and testing \n the electric protection relays",
+     "OK NOT OK",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -261,82 +402,82 @@
    "text": "Technical Data of the Generator"
   },
   {
-   "type": "heading",
-   "level": 5,
-   "text": "Apparent Power MVA"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "175"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Voltage KV"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "11.5"
+   "type": "table",
+   "rows": [
+    [
+     "Apparent Power MVA",
+     "175"
+    ],
+    [
+     "Voltage KV",
+     "11.5"
+    ],
+    [
+     "Current A",
+     "8786"
+    ],
+    [
+     "Filed Voltage V",
+     "257"
+    ],
+    [
+     "Filed Current A",
+     "1761"
+    ],
+    [
+     "Frequency HZ",
+     "50"
+    ],
+    [
+     "Class of Insulation",
+     "F"
+    ],
+    [
+     "Excitation System",
+     "Brushless"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Stator Insulation Resistance"
   },
   {
-   "type": "heading",
-   "level": 5,
-   "text": "Measuring Instrument type"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Isowid b4105 (digital)"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Measuring \n Voltage"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "500v dc 1min"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Temperature"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "˚C"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Insulation \n Resistance"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "M\n Ώ"
+   "type": "table",
+   "rows": [
+    [
+     "Measuring Instrument type",
+     "Isowid b4105 (digital)"
+    ],
+    [
+     "Measuring \n Voltage",
+     "500v dc 1min"
+    ],
+    [
+     "Temperature",
+     "˚C"
+    ],
+    [
+     "Insulation \n Resistance",
+     "M\n Ώ"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Stator Winding Resistance"
   },
   {
-   "type": "heading",
-   "level": 5,
-   "text": "R"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "m \n Ώ"
+   "type": "table",
+   "rows": [
+    [
+     "R",
+     "m \n Ώ"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "heading",
@@ -344,109 +485,73 @@
    "text": "Rotor Insulation Resistance"
   },
   {
-   "type": "heading",
-   "level": 5,
-   "text": "Measuring Instrument"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Isowid b4105 (digital)"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Measuring Voltage"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "500v dc 1min"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Temperature"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "˚C"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Insulation Resistance"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "M \n Ώ"
+   "type": "table",
+   "rows": [
+    [
+     "Measuring Instrument",
+     "Isowid b4105 (digital)"
+    ],
+    [
+     "Measuring Voltage",
+     "500v dc 1min"
+    ],
+    [
+     "Temperature",
+     "˚C"
+    ],
+    [
+     "Insulation Resistance",
+     "M \n Ώ"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Rotor Winding Resistance"
   },
   {
-   "type": "heading",
-   "level": 5,
-   "text": "R"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "m \n Ώ"
+   "type": "table",
+   "rows": [
+    [
+     "R",
+     "m \n Ώ"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Bearing Insulation Resistance"
   },
   {
-   "type": "heading",
-   "level": 5,
-   "text": "Measuring Instrument"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Isowid b4105 (digital)"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Measuring Voltage"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "500 Vdc 1min"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Temperature"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "˚C"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "Insulation Resistance"
-  },
-  {
-   "type": "heading",
-   "level": 5,
-   "text": "M \n Ώ"
+   "type": "table",
+   "rows": [
+    [
+     "Measuring Instrument",
+     "Isowid b4105 (digital)"
+    ],
+    [
+     "Measuring Voltage",
+     "500 Vdc 1min"
+    ],
+    [
+     "Temperature",
+     "˚C"
+    ],
+    [
+     "Insulation Resistance",
+     "M \n Ώ"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: \nGenerator \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\n Air Cooled \n Generator for Steam \n Turbine\n 11.5 kv, 175 MVA \n ALSTOM\nIntroduction\nThis document lists the equipment inspection I1, which must be performed on an annually bases as \n indicated by Y1 in the title block.\nThe first draft initiated by eng. \n Mohamed Salah El Din Badawy, tested by eng. \n Hassan Mohamed Amer, \n accepted \n by eng. Ahmed El Hosiny general \n director, \n revised by EDEPC inspection & quality control eng. Adel Abdel Qader EL Nagar, \n and approved by eng. Mohamed El Sarag Damietta PS head sector\nThis document is \n accepted \n by eng. Samir Abd El Gilil EDEPC MPIS \n coordinator, and certified by accountant; \n Mahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control head sector.\nSafety Precautions\nA work permit must be issued and qualified maintenance \n staff carry the suitable safety ID category.\nSafety fence with caution marks surrounding the work \n area is required.\nWear \n standard personal safety and healthy equipment as safety shoes, safety helmet, breathing mask, ... etc.\nThe unit must be out service.\nTools and Equipment\nMegger (500 5000) volt.\nMultimeter, Air blower, \n Cleaning solvent\nComplete maintenance tool set\nContact resistance tester.\nWork to be Carried Out\nInspection Conditions\nBe sure that the generator electrical and \n mechanical isolated\nOpen the main hole and recover places from \n generator\nDismantle the cover for generator bearing \n from tow sides\nBe sure that earthing switch connected and \n put local earth\nIsolated the potential transformer and \n fuses\nBe sure that the protection relays in \n service\n\nStator \nInspection\nClean the over hang for \n end winding by using suitable cleaning solvent such as revolta\nInspect the over hang \n and be sure that no cracks in insulation\nCheck the condition for \n flexible joints\nCheck the outlet \n generator bushing\nCheck the local earthing \n points for generator body\n\nRotor Inspection\n\nExciter \nInspection\n\nInstruments Inspection\n\nTechnical Data of the Generator\nApparent Power MVA\n175\nVoltage KV\n11.5\nStator Insulation Resistance\nMeasuring Instrument type\nIsowid b4105 (digital)\nMeasuring \n Voltage\n500v dc 1min\nTemperature\n˚C\nInsulation \n Resistance\nM\n Ώ\nStator Winding Resistance\nR\nm \n Ώ\nRotor Insulation Resistance\nMeasuring Instrument\nIsowid b4105 (digital)\nMeasuring Voltage\n500v dc 1min\nTemperature\n˚C\nInsulation Resistance\nM \n Ώ\nRotor Winding Resistance\nR\nm \n Ώ\nBearing Insulation Resistance\nMeasuring Instrument\nIsowid b4105 (digital)\nMeasuring Voltage\n500 Vdc 1min\nTemperature\n˚C\nInsulation Resistance\nM \n Ώ\nLocation: \nGenerator \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document lists the equipment inspection I1, which must be performed on an annually bases as \n indicated by Y1 in the title block.\nThe first draft initiated by eng. \n Mohamed Salah El Din Badawy, tested by eng. \n Hassan Mohamed Amer, \n accepted \n by eng. Ahmed El Hosiny general \n director, \n revised by EDEPC inspection & quality control eng. Adel Abdel Qader EL Nagar, \n and approved by eng. Mohamed El Sarag Damietta PS head sector\nThis document is \n accepted \n by eng. Samir Abd El Gilil EDEPC MPIS \n coordinator, and certified by accountant; \n Mahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control head sector.\nSafety Precautions\nA work permit must be issued and qualified maintenance \n staff carry the suitable safety ID category.\nSafety fence with caution marks surrounding the work \n area is required.\nWear \n standard personal safety and healthy equipment as safety shoes, safety helmet, breathing mask, ... etc.\nThe unit must be out service.\nTools and Equipment\nMegger (500 5000) volt.\nMultimeter, Air blower, \n Cleaning solvent\nComplete maintenance tool set\nContact resistance tester.\nWork to be Carried Out\nInspection Conditions\nNo | Maintenance Procedures | Position | Test Result\n1 | Be sure that the generator electrical and \n mechanical isolated | OK NOT OK | \n2 | Open the main hole and recover places from \n generator | OK NOT OK | \n3 | Dismantle the cover for generator bearing \n from tow sides | OK NOT OK | \n4 | Be sure that earthing switch connected and \n put local earth | OK NOT OK | \n5 | Isolated the potential transformer and \n fuses | OK NOT OK | \n6 | Be sure that the protection relays in \n service | OK NOT OK | \nStator \nInspection\nNo | Maintenance Procedures | Position | Test Result\n1 | Clean the over hang for \n end winding by using suitable cleaning solvent such as revolta | OK NOT OK | \n2 | Inspect the over hang \n and be sure that no cracks in insulation | OK NOT OK | \n3 | Check the insulation support spacer for end winding | OK NOT OK | \n4 | Inspect the magnetic core fixed and support | OK NOT OK | \n5 | Measure the stator winding resistance (m\n Ώ) |  | \n6 | Measure the stator insulation resistance \n (M Ώ) |  | \n7 | Check the connection bars for neutral \n point | OK NOT OK | \n8 | Check the condition for \n flexible joints | OK NOT OK | \n9 | Check the outlet \n generator bushing | OK NOT OK | \n10 | Check the local earthing \n points for generator body | OK NOT OK | \n11 | Check the earth transformer for the \n neutral point | OK NOT OK | \n12 | Check the outlet condensate heaters | OK NOT OK | \n13 | Check the water coolers for air cooling \n generator | OK NOT OK | \n14 | Check the drains and flange sealing and \n gasket | OK NOT OK | \n15 | Check the outer body and painting | OK NOT OK | \nRotor Inspection\nNo | Maintenance Procedures | Position | Test Result\n1 | Check the contact between the bearing and shaft journal bearing | OK NOT OK | \n2 | Check the air cooling fan | OK NOT OK | \n3 | Check the shaft grounding brushes | OK NOT OK | \n4 | Measure the rotor winding resistance (m \n Ώ) | OK NOT OK | \n5 | Measure the rotor winding insulation resistance (M \n Ώ) | OK NOT OK | \n6 | Measure the bearing insulation resistance | OK NOT OK | \n7 | Check the CT fixation and support in bus duct | OK NOT OK | \n8 | Check the air cooling water circuit and measure pressure \n it | OK NOT OK | \n9 | Check the bed silica Jel for bushing | OK NOT OK | \nExciter \nInspection\nNo | Maintenance Procedures | Position | Test Result\n1 | Check and clean for excitation transformer | OK NOT OK | \n2 | Check wiring control circuit \n for \n excitation system | OK NOT OK | \n3 | Inspect the excitation cards | OK NOT OK | \n4 | Inspect the static and rotating bridge \n rectifier | OK NOT OK | \n5 | Check the cooling system | OK NOT OK | \nInstruments Inspection\nNo | Maintenance Procedures | Position | Test Result\n1 | Clean terminal banal \n board | OK NOT OK | \n2 | Check the connection of wiring of board | OK NOT OK | \n3 | Check the temperature monitoring \n instrument for generator bearing | OK NOT OK | \n4 | Check the vibration monitoring \n instrument for generator bearing | OK NOT OK | \n5 | Check and testing \n the electric protection relays | OK NOT OK | \nTechnical Data of the Generator\nApparent Power MVA | 175\nVoltage KV | 11.5\nCurrent A | 8786\nFiled Voltage V | 257\nFiled Current A | 1761\nFrequency HZ | 50\nClass of Insulation | F\nExcitation System | Brushless\nStator Insulation Resistance\nMeasuring Instrument type | Isowid b4105 (digital)\nMeasuring \n Voltage | 500v dc 1min\nTemperature | ˚C\nInsulation \n Resistance | M\n Ώ\nStator Winding Resistance\nR | m \n Ώ\nRotor Insulation Resistance\nMeasuring Instrument | Isowid b4105 (digital)\nMeasuring Voltage | 500v dc 1min\nTemperature | ˚C\nInsulation Resistance | M \n Ώ\nRotor Winding Resistance\nR | m \n Ώ\nBearing Insulation Resistance\nMeasuring Instrument | Isowid b4105 (digital)\nMeasuring Voltage | 500 Vdc 1min\nTemperature | ˚C\nInsulation Resistance | M \n Ώ\nLocation: \nGenerator \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

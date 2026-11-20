@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Negative Phase Sequence"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -152,8 +150,145 @@
    "text": "Phase to Phase \nTest"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Injected \n Terminal",
+     "Injected \n Voltage",
+     "Measured \n Time"
+    ],
+    [
+     "",
+     "Start : A",
+     ""
+    ],
+    [
+     "3 - 5",
+     "2 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "5 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "10 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "Start : A",
+     ""
+    ],
+    [
+     "3 - 7",
+     "2 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "5 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "10 In",
+     "A",
+     "Sec"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Phase to Earth Test"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Injected \n Terminal",
+     "Injected \n Voltage",
+     "Measured \n Time"
+    ],
+    [
+     "",
+     "Start : A",
+     ""
+    ],
+    [
+     "3 - 4",
+     "2 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "5 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "10 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "Start : A",
+     ""
+    ],
+    [
+     "5 - 7",
+     "2 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "5 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "10 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "Start \n : A",
+     ""
+    ],
+    [
+     "7 - 8",
+     "2 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "5 In",
+     "A",
+     "Sec"
+    ],
+    [
+     "",
+     "10 In",
+     "A",
+     "Sec"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -172,7 +307,7 @@
    "text": "Approved by \n: Signature :"
   }
  ],
- "text": "Protection\nTechnical Procedure\nNegative Phase Sequence\nIntroduction\nThis document lists the testing procedure P1, which must be performed every six \nmonths as indicated by M6 in the above title block\nThis relay is a negative \n phase sequence time over current relay used primarily to protect \n generators from unbalanced phase currents, it is providing essentially back \n up protection it is recommended this procedure to be carried out every six \n months.\nThe first draft initiated by \n eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama, revised by \n EDEP Co. Quality Control \n eng. Adel El-Nagar, accepted by General Director eng. Mahmoud Saker and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Station.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence (rope) with caution marks surrounding the work area is \n required.\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence (rope) with caution marks surrounding the work area is \n required.\nThe generator must be out of service.\nTools and Equipment\nTest Plug \n handle.\nClamp ammeter.\nSecondary injection \n test.\nTest Leads.\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nLook at field maintenance fill and compare the position of the setting \n switches on relay with those shown on the setting sheet.\nTesting the Relay\nPhase to Phase Test\nConnect the test leads between current \n terminals (3 5).\nConnect the test leads between the trip \n contact (1 2).\nIncrease the current slowly until the relay \n pick up (start).\nRecord this current value as the start value \n in the test sheet.\nIncrease the current to the values (2 In & 5 \n In & 10 In) from start.\nRecord the current values & the time values \n at which the relay trips at every current value at the test sheet.\nRepeat the following steps at the current \n leads (3 7).\nPhase to Earth Test\nConnect the test leads between the current \n terminals (3 4) & (5 - 6) & (7 8).\nRepeat the steps from 2 to 6 for the \n terminals (3 4) & (5 - 6) & (7 8).\nTest Sheet for Negative \nPhase Sequence\nTime Over Current Relay\nUnit No. :\nRelay Type \n : Time Dial \nSetting:\nRelay Model \n: Tap \n :\nC.T. \nRatio:\nPhase to Phase \nTest\nPhase to Earth Test\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document lists the testing procedure P1, which must be performed every six \nmonths as indicated by M6 in the above title block\nThis relay is a negative \n phase sequence time over current relay used primarily to protect \n generators from unbalanced phase currents, it is providing essentially back \n up protection it is recommended this procedure to be carried out every six \n months.\nThe first draft initiated by \n eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama, revised by \n EDEP Co. Quality Control \n eng. Adel El-Nagar, accepted by General Director eng. Mahmoud Saker and approved \n by eng. Moustfa Alam Head Sector of Talkha Power Station.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence (rope) with caution marks surrounding the work area is \n required.\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence (rope) with caution marks surrounding the work area is \n required.\nThe generator must be out of service.\nTools and Equipment\nTest Plug \n handle.\nClamp ammeter.\nSecondary injection \n test.\nTest Leads.\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test\nLook at field maintenance fill and compare the position of the setting \n switches on relay with those shown on the setting sheet.\nTesting the Relay\nPhase to Phase Test\nConnect the test leads between current \n terminals (3 5).\nConnect the test leads between the trip \n contact (1 2).\nIncrease the current slowly until the relay \n pick up (start).\nRecord this current value as the start value \n in the test sheet.\nIncrease the current to the values (2 In & 5 \n In & 10 In) from start.\nRecord the current values & the time values \n at which the relay trips at every current value at the test sheet.\nRepeat the following steps at the current \n leads (3 7).\nPhase to Earth Test\nConnect the test leads between the current \n terminals (3 4) & (5 - 6) & (7 8).\nRepeat the steps from 2 to 6 for the \n terminals (3 4) & (5 - 6) & (7 8).\nTest Sheet for Negative \nPhase Sequence\nTime Over Current Relay\nUnit No. :\nRelay Type \n : Time Dial \nSetting:\nRelay Model \n: Tap \n :\nC.T. \nRatio:\nPhase to Phase \nTest\nInjected \n Terminal | Injected \n Voltage | Measured \n Time\n | Start : A | \n3 - 5 | 2 In | A | Sec\n | 5 In | A | Sec\n | 10 In | A | Sec\n | Start : A | \n3 - 7 | 2 In | A | Sec\n | 5 In | A | Sec\n | 10 In | A | Sec\nPhase to Earth Test\nInjected \n Terminal | Injected \n Voltage | Measured \n Time\n | Start : A | \n3 - 4 | 2 In | A | Sec\n | 5 In | A | Sec\n | 10 In | A | Sec\n | Start : A | \n5 - 7 | 2 In | A | Sec\n | 5 In | A | Sec\n | 10 In | A | Sec\n | Start \n : A | \n7 - 8 | 2 In | A | Sec\n | 5 In | A | Sec\n | 10 In | A | Sec\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :",
  "text_truncated": false,
  "links": [],
  "images": [
