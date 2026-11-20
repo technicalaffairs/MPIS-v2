@@ -1363,10 +1363,11 @@ button,.btn{cursor:pointer;border:1px solid var(--border);background:var(--surfa
 border-radius:8px;padding:7px 14px;font-size:.9rem;text-decoration:none;display:inline-block}
 button:hover,.btn:hover{border-color:var(--navy)}
 .hero{display:flex;align-items:center;gap:24px;background:var(--hero-bg);border-radius:12px;margin:0 0 8px;padding:26px 28px;box-shadow:var(--shadow);color:#fff}
-.hero-photo{width:260px;height:170px;object-fit:cover;border-radius:8px;flex:none;display:block}
-.hero-inner{flex:1;text-align:start;padding:0;color:#fff}
+.hero-photo{width:400px;height:210px;object-fit:cover;border-radius:8px;flex:none;display:block}
+.hero-inner{flex:1;text-align:center;padding:0;color:#fff}
 .hero-logo{height:84px;width:84px;border-radius:50%;object-fit:cover;display:block;margin:0 0 10px;background:#fff;border:3px solid rgba(255,255,255,.85)}
 .hero-inner h1{margin:.2em 0;font-size:1.6rem;line-height:1.4;color:#fff}
+.hero-inner .hero-logo{margin:0 auto 10px}
 .hero-inner p{margin:.3em 0;opacity:.95}
 .hero-inner .org{font-size:.95rem;opacity:.9}
 .hero-inner .sub{color:#e8d9a8;font-weight:600;letter-spacing:.4px}
