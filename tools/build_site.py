@@ -1362,6 +1362,7 @@ padding:28px;margin:22px 0;box-shadow:var(--shadow)}
 .searchbox input{flex:1;padding:12px 16px;border:1px solid var(--border);border-radius:999px;font-size:1rem;background:var(--surface);color:var(--text)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);text-decoration:none;color:var(--text);display:block}
+.card-img{width:100%;height:150px;object-fit:cover;display:block;border-radius:8px;margin-bottom:10px;background:var(--surface-muted)}
 .card:hover{border-color:var(--accent)}
 .card h3{margin:.1em 0;font-size:1.05rem}
 .card p{margin:.2em 0;color:var(--muted);font-size:.88rem}
@@ -1492,6 +1493,10 @@ def build(content_dir, dist_dir, v1_root):
                 pairs[m["id"]] = other["id"]
     # image copying (dedupe by hash)
     img_map = {}
+    # best representative photo per category (largest non-generic image)
+    cat_img = {}
+    GENERIC_IMGS = ("mpis",)
+    GENERIC_NAMES = {"eetc_logo.jpg", "sand.gif", "logo.png"}
     img_missing = []
     img_copied = 0
 
@@ -1560,6 +1565,14 @@ def build(content_dir, dist_dir, v1_root):
                 shutil.copyfile(cand, os.path.join(dist_dir, "assets", "img", name))
                 img_map[name] = cand
             seen_imgs.append((name, ref.get("alt", "")))
+            # category cover: largest real photo/diagram in this category
+            _base = os.path.basename(cand).lower()
+            if (not _base.startswith(GENERIC_IMGS) and _base not in GENERIC_NAMES
+                    and os.path.splitext(cand)[1].lower() in (".jpg", ".jpeg", ".png", ".gif")):
+                _sz = os.path.getsize(cand)
+                _cur = cat_img.get(doc["category"])
+                if _cur is None or _sz > _cur[0]:
+                    cat_img[doc["category"]] = (_sz, name)
         nonlocal img_copied
         img_copied = len(img_map)
         if seen_imgs:
@@ -1665,8 +1678,13 @@ def build(content_dir, dist_dir, v1_root):
     total = len(manifest)
     both = sum(1 for m in manifest if m.get("translation_status") == "available")
     missing = sum(1 for m in manifest if m.get("translation_status") == "missing")
+    def _cat_cover(cat):
+        got = cat_img.get(cat)
+        if got:
+            return f"<img class='card-img' src='assets/img/{got[1]}' alt='' loading='lazy'>"
+        return "<img class='card-img' src='assets/logo.png' alt='' loading='lazy'>"
     cat_cards = "".join(
-        f"<a class='card' href='categories/{esc(cat)}.html'><h3 data-cat data-cat-ar='{esc(CATEGORY_AR.get(cat, cat))}' data-cat-en='{esc(CATEGORY_EN.get(cat, cat))}'>{esc(CATEGORY_AR.get(cat, cat))}</h3>"
+        f"<a class='card' href='categories/{esc(cat)}.html'>{_cat_cover(cat)}<h3 data-cat data-cat-ar='{esc(CATEGORY_AR.get(cat, cat))}' data-cat-en='{esc(CATEGORY_EN.get(cat, cat))}'>{esc(CATEGORY_AR.get(cat, cat))}</h3>"
         f"<p>{esc(cat)} — {len(ms)} <span data-i18n='documents'>documents</span></p></a>"
         for cat, ms in sorted(cats.items(), key=lambda kv: -len(kv[1])))
     feat = ""
