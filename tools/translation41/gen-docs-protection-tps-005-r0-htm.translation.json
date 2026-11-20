@@ -1,0 +1,612 @@
+{
+  "id": "gen-docs-protection-tps-005-r0-htm",
+  "doc_number": "TPS-005-R0",
+  "category": "protection",
+  "source_language": "en",
+  "target_language": "ar",
+  "title_target": "TPS-005-R0 معتمد",
+  "sections_target": [
+    {
+      "type": "table",
+      "rows": [
+        [
+          "الوقاية",
+          "الإجراء الفني"
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "مقدمة"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] The protection relay for transformer is manufactured by ABB and this relay is digital type."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] The first draft initiated by eng. Abdel Raheem Salem Mohamed Ezz, tested by eng. Khaled El Etriby at 3 April 2004, reversed by EDEPC quality control eng. Adel Abdel Kader El-Naggar, accepted by general director eng. Atef Farh, and certified by eng. Aly Mostafa Al-Lethy EDEPC inspection & quality control head sector."
+    },
+    {
+      "type": "paragraph",
+      "text": "احتياطات السلامة"
+    },
+    {
+      "type": "paragraph",
+      "text": "يجب استخدام مهمات الوقاية الشخصية مثل حذاء السلامة وخوذة السلامة."
+    },
+    {
+      "type": "list",
+      "items": [
+        "يجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل بطاقة فئة الأمن الصناعي المناسبة،",
+        "يجب تسوير منطقة العمل بالحبال ووضع لافتات التحذير اللازمة،",
+        "يجب استخدام مهمات الوقاية الشخصية مثل حذاء السلامة وخوذة السلامة.",
+        "يجب أن يكون المحول خارج الخدمة.",
+        "[[MISSING]] Make sure CT secondary circuits are shorted.",
+        "[[MISSING]] Voltage transformer miniature circuit breakers (m.c.b) is opened"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "العدد والأدوات والأجهزة المستخدمة"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Siemens test set two units:",
+        "[[MISSING]] Current unit type 7VP48, voltage unit type 7VP49."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "الأعمال الواجب تنفيذها"
+    },
+    {
+      "type": "paragraph",
+      "text": "خطوات أولية للتجهيز لاختبار الريلاي"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Review technical reference material manufactures or manual.",
+        "احصل على نسخة من ضبط الريلاي من ملف الصيانة الميداني.",
+        "[[MISSING]] Obtain outage for unit protected by this relay",
+        "[[MISSING]] Check that the bus and unit disconnect switches are opened and tagged.",
+        "[[MISSING]] Inspect the secondary circuits of CT, PT miniature circuit breakers.",
+        "[[MISSING]] MCB and all cabling supplying the relay.",
+        "[[MISSING]] Block any disturbance alarms or fault recorders associated with this protection."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Preparation of Test"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Place the two cases one on the top of other (the voltage unit on the top of current unit)",
+        "[[MISSING]] Connect the two units together by the cable connector 7 XV6201 between test plug \"X2\" in current unit and test plug \"X1\" in voltage unit.",
+        "[[MISSING]] Connect the power supply cable 7XV6200 (3*380 V) between the plug \"X1\" in the current unit and the source (careful the positive sequence).",
+        "[[MISSING]] Connect an ammeter with the socket \"17 ,18\" in current unit and voltmeter with the socket \"5,6\" in voltage unit."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Test Procedure for transformer Protection Relay RET 521"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] To inter test mode",
+        "[[MISSING]] Select the (test test mode operation on), then the relay is in test mode and the yellow lamp is flashing ."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "الوقاية التفاضلية"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Block the other function earth fault and restricted earth fault which feed from the same current transformer as differential protection ,select the (test-test mode-block function E/F is on &RE/F is on)."
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "جهة الجهد العالي."
+    },
+    {
+      "type": "list",
+      "items": [
+        "وصّل أسلاك التيار من (L1 وN) على جهاز الاختبار إلى (L1 وN) على الريلاي.",
+        "زد التيار الواصل إلى الريلاي حتى تعمل وظيفة الوقاية، وسجّل هذه القيمة (قيمة الالتقاط) وتأكد من سلامة الفصل.",
+        "قلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية، وسجّل هذه القيمة (قيمة السقوط).",
+        "[[MISSING]] Repeat the previous steps (1,2&3)for phases L2 & L3 .",
+        "[[MISSING]] Connect the current leads ( L1,L2 , L3 & N ) on the tester to the relay .",
+        "[[MISSING]] inject the three phases current and Increase it until the protection function operate ,record this value (pick up value ) and make sure the trip is O.K.",
+        "وصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.",
+        "احقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.",
+        "[[MISSING]] Close the CBs where the isolators are opened and inject the current to the relay to trip the CBs."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "[[MISSING]] LV SIDE"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Repeat the previous steps from 1-8 for LV side .",
+        "[[MISSING]] Remove the block function earth fault and restricted earth fault which feed from the same current transformer as differential protection ,select the (test-test mode-block function E/F is off &RE/F is off). Then the relay is ready."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Restricted Earth Fault Protection (High Voltage Side)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Block the other function earth fault and diff. protection, which feed from the same current transformer as restricted earth fault protection, select the (test-test mode-block function E/F is on & diff. is on).",
+        "[[MISSING]] Connect the current leads from (L1&N) on the tester to the relay terminals which is connected to the C.T. on H.V. neutral side .",
+        "زد التيار الواصل إلى الريلاي حتى تعمل وظيفة الوقاية، وسجّل هذه القيمة (قيمة الالتقاط) وتأكد من سلامة الفصل.",
+        "قلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية، وسجّل هذه القيمة (قيمة السقوط).",
+        "وصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.",
+        "احقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.",
+        "[[MISSING]] Close the CB's where the isolators is opened and inject the current to the relay to trip the C.Bs.",
+        "[[MISSING]] Remove block of other functions earth fault and diff. prot. which feed from the summate , record this value (pick up value ) and make sure the trip is OK",
+        "قلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية، وسجّل هذه القيمة (قيمة السقوط).",
+        "وصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.",
+        "احقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.",
+        "[[MISSING]] Close the CB's where the isolators is opened and inject the current to the relay to trip the CB's.",
+        "[[MISSING]] Remove block of other functions restricted earth fault and diff. prot. which feed from the same current transformer as earth fault protection ,select the (test-test mode-block function RE/F is off & diff. is off). then the relay is ready."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Over current Time Protection"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Block the other function restricted earth fault and diff. prot. which feed from the same current transformer as over current protection ,select the (test-test mode-block function R E/F is on & diff. is on).",
+        "[[MISSING]] Connect the current leads from (L1, L2, L3, N) on the tester to (L1, L2, L3, N) on the relay.",
+        "[[MISSING]] Select (L1&N) on the tester to inject the current for phase L1, increase the current phase L1 to the relay until the protection function operate ,record this value (pick up value ) and make sure the trip is O.K.",
+        "قلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية؛ وسجّل هذه القيمة (قيمة السقوط).",
+        "وصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.",
+        "احقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.",
+        "وصّل قواطع الدائرة حيث تكون العازلات مفتوحة واحقن التيار في الريلاي لفصل قواطع الدائرة.",
+        "[[MISSING]] Repeat the previous steps (2&3) for phases L2 & L3.",
+        "[[MISSING]] Remove the block function differential protection and restricted earth fault which feed from the same current transformer as over current time protection ,select the (test-test mode-block function Diff. is off &RE/F is off). Then the relay is ready."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Restricted Earth Fault Protection ( Low Voltage Side)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Block the other function earth fault and diff. prot. which feed from the same current transformer as restricted earth fault protection ,select the (test-test mode-block function E/F is on & diff. is on).",
+        "[[MISSING]] Connect the current leads from (L1&N) on the tester to the relay terminals which is connected to the C.T. on L.V. neutral side .",
+        "[[MISSING]] Increase the current to the relay until the protection function operate, record this value (pick up value) and make sure the trip is O.K.",
+        "قلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية؛ وسجّل هذه القيمة (قيمة السقوط).",
+        "وصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.",
+        "احقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.",
+        "[[MISSING]] Close the CB's where the isolators is opened and inject the current to the relay to trip the CBs.",
+        "[[MISSING]] Remove block of other functions earth fault and diff. protection, which feed from the same current transformer as restricted earth fault protection, select the (test-test mode-block function E/F is off & diff. is off). then the relay is ready"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Earth Fault Protection (Low Voltage Side)"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Block the other function restricted earth fault and diff. prot. which feed from the same current transformer as earth fault protection ,select the (test-test mode-block function R E/F is on & diff. is on).",
+        "[[MISSING]] Connect the current leads from (L1&N) on the tester to the relay terminals which is connected to the CT on LV neutral side.",
+        "[[MISSING]] Increase the current to the relay until the protection function operate, record this value (pick up value ) and make sure the trip is OK.",
+        "[[MISSING]] Decrease the current to the relay until the protection function released, record this value (drop out value )",
+        "وصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.",
+        "احقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.",
+        "[[MISSING]] Close the CB's where the isolators are opened and inject the current to the relay to trip the CB's.",
+        "[[MISSING]] remove block of other functions restricted earth fault and diff. protection, which feed from the same current transformer as earth fault protection, select the (test-test mode-block function RE/F is off & diff. is off).",
+        "[[MISSING]] To exit from test mode select (test test mode operation off ) the yellow lamp disappeared, then the relay is ready for operation .",
+        "[[MISSING]] Directional over current prot. 66 kv side",
+        "[[MISSING]] Block the differential protection ,select the (test- test mode-block function diff. is on)."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "جهة الجهد العالي."
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Disconnect the m.c.b for PT secondary circuits.",
+        "[[MISSING]] Connect the voltage leads from (L1,L2,L3&N) on the tester to (L1,L2,L3&N) on the relay.",
+        "وصّل أسلاك التيار من (L1 وN) على جهاز الاختبار إلى (L1 وN) على الريلاي.",
+        "[[MISSING]] Inject 3-ph voltages 100 v.",
+        "[[MISSING]] Increase the current to the relay to about 0.5A.",
+        "[[MISSING]] Make the current lag the voltage by 90˚.",
+        "[[MISSING]] Increase the current to the relay until the protection function operate, record this value (pick up value) and make sure the trip is OK.",
+        "[[MISSING]] Decrease the current to the relay until the protection function released, record this value (drop out value).",
+        "[[MISSING]] For p.u. value move the angle until the relay is released and move to back again untie the relay p.u. record this interring value of c/c and move in this direction until the relay is released and move back until the relay is p.u. record this value the other side of c/c .",
+        "[[MISSING]] Repeat the previous steps (3,4,5,6,7&8) for phases L2 & L3 .",
+        "وصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.",
+        "احقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.",
+        "وصّل قواطع الدائرة حيث تكون العازلات مفتوحة واحقن التيار في الريلاي لفصل قواطع الدائرة."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "نموذج الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Location :"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Equipment : Transformer 220/66kv No : DATE:"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Name : Transformer protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Type : RET521 Company : ABB"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] CTR.(220KV Side) = 1000/1 A P.T.R = 66/0.1 KV"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] CTR.(66KV Side) = 12000/1 A"
+    },
+    {
+      "type": "paragraph",
+      "text": "ضبط الريلاي."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "[[MISSING]] Diff. function : Id =0.4 Ir (131 A) Id (unrest.) =13.0Ir (4270)"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "[[MISSING]] Over current : I> = 1.5 Ir (492A) T (I>) = 2.0 sec"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] I>> = 8.5Ir(2800A) t (I>>) = 40 msec."
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "[[MISSING]] Earth fault : Ie > = 0.4 I r(131 A) T (Ie>) = 2.0 sec"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Restricted Earth fault : Ian =0.2 Ir (65A)"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "نتيجة الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Diff. function"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "القيمة الوجه.",
+          "[[MISSING]] H.V Side",
+          "[[MISSING]] L.V. SIDE"
+        ],
+        [
+          "Ipu",
+          "Ido",
+          "TIpu",
+          "[[MISSING]] T2Ipu",
+          "Ipu",
+          "Ido",
+          "TIpu"
+        ],
+        [
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Three Phase injection 220kv"
+    },
+    {
+      "type": "paragraph",
+      "text": "تيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير"
+    },
+    {
+      "type": "paragraph",
+      "text": "الزمن = مللي ثانية."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Three Phase injection 66kv"
+    },
+    {
+      "type": "paragraph",
+      "text": "تيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير"
+    },
+    {
+      "type": "paragraph",
+      "text": "الزمن = مللي ثانية."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Earth Fault 220kv Side"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Ipu (prim.) = A T (Ipu) = sec."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Ipu (sec.) = A T (2Ipu) = sec."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Restricted Earth fault 220kv side"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Ian (prim.) = A T (Ipu) = sec."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Ian (sec.) = A T (2Ipu) = sec."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Over Current Relay 220kv side"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "",
+          "[[MISSING]] Jpu sec",
+          "[[MISSING]] Jdo",
+          "[[MISSING]] R.F.",
+          "[[MISSING]] T sec",
+          "[[MISSING]] J>>",
+          "[[MISSING]] T(J>>)"
+        ],
+        [
+          "R",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "[[MISSING]] Je",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Name :"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Type : SM103 Company: AEG"
+    },
+    {
+      "type": "paragraph",
+      "text": "ضبط الريلاي:"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] C.T.R.=1000/1 In =1.0 A"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] I > = 0.21 A T =1.75 Sec"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "نتيجة الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "تيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير"
+    },
+    {
+      "type": "paragraph",
+      "text": "الزمن = ثانية."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Name : 220KV Side Restricted E/F Relay Type : SQE21B"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Company : AEG"
+    },
+    {
+      "type": "paragraph",
+      "text": "ضبط الريلاي:"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] C.T.R. =1000/1 In =1.0 A"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ian > = 0.15 A"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "نتيجة الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "تيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير"
+    },
+    {
+      "type": "paragraph",
+      "text": "الزمن = ثانية."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Name : 66KV SIDE E/F"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Type : SM103 Company : AEG"
+    },
+    {
+      "type": "paragraph",
+      "text": "ضبط الريلاي:"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] C.T.R. = 1200/1 In 1.0 = A"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] I > = A T = 1.75 Sec"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "نتيجة الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "تيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير"
+    },
+    {
+      "type": "paragraph",
+      "text": "الزمن = ثانية."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Name : 66KV Side Restricted E/F"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Type : SQE21B Company : AEG"
+    },
+    {
+      "type": "paragraph",
+      "text": "ضبط الريلاي."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] C.T.R. = 1200/1 In =1.0 A"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ian > = 0.15 A"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "نتيجة الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "تيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير"
+    },
+    {
+      "type": "paragraph",
+      "text": "الزمن = ثانية."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Name : 66 KV Directional Over Current Relay"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Relay Type : SD35A-12 Company : AEG"
+    },
+    {
+      "type": "paragraph",
+      "text": "ضبط الريلاي:"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] C.T.R = 1200/1 P.T.R = 66000/100 I = 1.20 A"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Zu/Z1 =1.2 Z1=Z2=Z3=10 C =1.0"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] T1=T2 =T3=1.5 Sec K =1.0"
+    }
+  ],
+  "text_target": "الوقاية | الإجراء الفني\nمقدمة\n[[MISSING]] The protection relay for transformer is manufactured by ABB and this relay is digital type.\n[[MISSING]] The first draft initiated by eng. Abdel Raheem Salem Mohamed Ezz, tested by eng. Khaled El Etriby at 3 April 2004, reversed by EDEPC quality control eng. Adel Abdel Kader El-Naggar, accepted by general director eng. Atef Farh, and certified by eng. Aly Mostafa Al-Lethy EDEPC inspection & quality control head sector.\nاحتياطات السلامة\nيجب استخدام مهمات الوقاية الشخصية مثل حذاء السلامة وخوذة السلامة.\nيجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل بطاقة فئة الأمن الصناعي المناسبة،\nيجب تسوير منطقة العمل بالحبال ووضع لافتات التحذير اللازمة،\nيجب استخدام مهمات الوقاية الشخصية مثل حذاء السلامة وخوذة السلامة.\nيجب أن يكون المحول خارج الخدمة.\n[[MISSING]] Make sure CT secondary circuits are shorted.\n[[MISSING]] Voltage transformer miniature circuit breakers (m.c.b) is opened\nالعدد والأدوات والأجهزة المستخدمة\n[[MISSING]] Siemens test set two units:\n[[MISSING]] Current unit type 7VP48, voltage unit type 7VP49.\nالأعمال الواجب تنفيذها\nخطوات أولية للتجهيز لاختبار الريلاي\n[[MISSING]] Review technical reference material manufactures or manual.\nاحصل على نسخة من ضبط الريلاي من ملف الصيانة الميداني.\n[[MISSING]] Obtain outage for unit protected by this relay\n[[MISSING]] Check that the bus and unit disconnect switches are opened and tagged.\n[[MISSING]] Inspect the secondary circuits of CT, PT miniature circuit breakers.\n[[MISSING]] MCB and all cabling supplying the relay.\n[[MISSING]] Block any disturbance alarms or fault recorders associated with this protection.\n[[MISSING]] Preparation of Test\n[[MISSING]] Place the two cases one on the top of other (the voltage unit on the top of current unit)\n[[MISSING]] Connect the two units together by the cable connector 7 XV6201 between test plug \"X2\" in current unit and test plug \"X1\" in voltage unit.\n[[MISSING]] Connect the power supply cable 7XV6200 (3*380 V) between the plug \"X1\" in the current unit and the source (careful the positive sequence).\n[[MISSING]] Connect an ammeter with the socket \"17 ,18\" in current unit and voltmeter with the socket \"5,6\" in voltage unit.\n[[MISSING]] Test Procedure for transformer Protection Relay RET 521\n[[MISSING]] To inter test mode\n[[MISSING]] Select the (test test mode operation on), then the relay is in test mode and the yellow lamp is flashing .\nالوقاية التفاضلية\n[[MISSING]] Block the other function earth fault and restricted earth fault which feed from the same current transformer as differential protection ,select the (test-test mode-block function E/F is on &RE/F is on).\nجهة الجهد العالي.\nوصّل أسلاك التيار من (L1 وN) على جهاز الاختبار إلى (L1 وN) على الريلاي.\nزد التيار الواصل إلى الريلاي حتى تعمل وظيفة الوقاية، وسجّل هذه القيمة (قيمة الالتقاط) وتأكد من سلامة الفصل.\nقلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية، وسجّل هذه القيمة (قيمة السقوط).\n[[MISSING]] Repeat the previous steps (1,2&3)for phases L2 & L3 .\n[[MISSING]] Connect the current leads ( L1,L2 , L3 & N ) on the tester to the relay .\n[[MISSING]] inject the three phases current and Increase it until the protection function operate ,record this value (pick up value ) and make sure the trip is O.K.\nوصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.\nاحقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.\n[[MISSING]] Close the CBs where the isolators are opened and inject the current to the relay to trip the CBs.\n[[MISSING]] LV SIDE\n[[MISSING]] Repeat the previous steps from 1-8 for LV side .\n[[MISSING]] Remove the block function earth fault and restricted earth fault which feed from the same current transformer as differential protection ,select the (test-test mode-block function E/F is off &RE/F is off). Then the relay is ready.\n[[MISSING]] Restricted Earth Fault Protection (High Voltage Side)\n[[MISSING]] Block the other function earth fault and diff. protection, which feed from the same current transformer as restricted earth fault protection, select the (test-test mode-block function E/F is on & diff. is on).\n[[MISSING]] Connect the current leads from (L1&N) on the tester to the relay terminals which is connected to the C.T. on H.V. neutral side .\nزد التيار الواصل إلى الريلاي حتى تعمل وظيفة الوقاية، وسجّل هذه القيمة (قيمة الالتقاط) وتأكد من سلامة الفصل.\nقلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية، وسجّل هذه القيمة (قيمة السقوط).\nوصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.\nاحقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.\n[[MISSING]] Close the CB's where the isolators is opened and inject the current to the relay to trip the C.Bs.\n[[MISSING]] Remove block of other functions earth fault and diff. prot. which feed from the summate , record this value (pick up value ) and make sure the trip is OK\nقلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية، وسجّل هذه القيمة (قيمة السقوط).\nوصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.\nاحقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.\n[[MISSING]] Close the CB's where the isolators is opened and inject the current to the relay to trip the CB's.\n[[MISSING]] Remove block of other functions restricted earth fault and diff. prot. which feed from the same current transformer as earth fault protection ,select the (test-test mode-block function RE/F is off & diff. is off). then the relay is ready.\n[[MISSING]] Over current Time Protection\n[[MISSING]] Block the other function restricted earth fault and diff. prot. which feed from the same current transformer as over current protection ,select the (test-test mode-block function R E/F is on & diff. is on).\n[[MISSING]] Connect the current leads from (L1, L2, L3, N) on the tester to (L1, L2, L3, N) on the relay.\n[[MISSING]] Select (L1&N) on the tester to inject the current for phase L1, increase the current phase L1 to the relay until the protection function operate ,record this value (pick up value ) and make sure the trip is O.K.\nقلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية؛ وسجّل هذه القيمة (قيمة السقوط).\nوصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.\nاحقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.\nوصّل قواطع الدائرة حيث تكون العازلات مفتوحة واحقن التيار في الريلاي لفصل قواطع الدائرة.\n[[MISSING]] Repeat the previous steps (2&3) for phases L2 & L3.\n[[MISSING]] Remove the block function differential protection and restricted earth fault which feed from the same current transformer as over current time protection ,select the (test-test mode-block function Diff. is off &RE/F is off). Then the relay is ready.\n[[MISSING]] Restricted Earth Fault Protection ( Low Voltage Side)\n[[MISSING]] Block the other function earth fault and diff. prot. which feed from the same current transformer as restricted earth fault protection ,select the (test-test mode-block function E/F is on & diff. is on).\n[[MISSING]] Connect the current leads from (L1&N) on the tester to the relay terminals which is connected to the C.T. on L.V. neutral side .\n[[MISSING]] Increase the current to the relay until the protection function operate, record this value (pick up value) and make sure the trip is O.K.\nقلّل التيار الواصل إلى الريلاي حتى تتحرر وظيفة الوقاية؛ وسجّل هذه القيمة (قيمة السقوط).\nوصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.\nاحقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.\n[[MISSING]] Close the CB's where the isolators is opened and inject the current to the relay to trip the CBs.\n[[MISSING]] Remove block of other functions earth fault and diff. protection, which feed from the same current transformer as restricted earth fault protection, select the (test-test mode-block function E/F is off & diff. is off). then the relay is ready\n[[MISSING]] Earth Fault Protection (Low Voltage Side)\n[[MISSING]] Block the other function restricted earth fault and diff. prot. which feed from the same current transformer as earth fault protection ,select the (test-test mode-block function R E/F is on & diff. is on).\n[[MISSING]] Connect the current leads from (L1&N) on the tester to the relay terminals which is connected to the CT on LV neutral side.\n[[MISSING]] Increase the current to the relay until the protection function operate, record this value (pick up value ) and make sure the trip is OK.\n[[MISSING]] Decrease the current to the relay until the protection function released, record this value (drop out value )\nوصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.\nاحقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.\n[[MISSING]] Close the CB's where the isolators are opened and inject the current to the relay to trip the CB's.\n[[MISSING]] remove block of other functions restricted earth fault and diff. protection, which feed from the same current transformer as earth fault protection, select the (test-test mode-block function RE/F is off & diff. is off).\n[[MISSING]] To exit from test mode select (test test mode operation off ) the yellow lamp disappeared, then the relay is ready for operation .\n[[MISSING]] Directional over current prot. 66 kv side\n[[MISSING]] Block the differential protection ,select the (test- test mode-block function diff. is on).\nجهة الجهد العالي.\n[[MISSING]] Disconnect the m.c.b for PT secondary circuits.\n[[MISSING]] Connect the voltage leads from (L1,L2,L3&N) on the tester to (L1,L2,L3&N) on the relay.\nوصّل أسلاك التيار من (L1 وN) على جهاز الاختبار إلى (L1 وN) على الريلاي.\n[[MISSING]] Inject 3-ph voltages 100 v.\n[[MISSING]] Increase the current to the relay to about 0.5A.\n[[MISSING]] Make the current lag the voltage by 90˚.\n[[MISSING]] Increase the current to the relay until the protection function operate, record this value (pick up value) and make sure the trip is OK.\n[[MISSING]] Decrease the current to the relay until the protection function released, record this value (drop out value).\n[[MISSING]] For p.u. value move the angle until the relay is released and move to back again untie the relay p.u. record this interring value of c/c and move in this direction until the relay is released and move back until the relay is p.u. record this value the other side of c/c .\n[[MISSING]] Repeat the previous steps (3,4,5,6,7&8) for phases L2 & L3 .\nوصّل أسلاك المؤقت من جهاز الاختبار بنقطة تلامس حرة على الريلاي.\nاحقن تيارًا بقيمة ضعف قيمة الالتقاط وحدد زمن التشغيل.\nوصّل قواطع الدائرة حيث تكون العازلات مفتوحة واحقن التيار في الريلاي لفصل قواطع الدائرة.\nنموذج الاختبار\n[[MISSING]] Location :\n[[MISSING]] Equipment : Transformer 220/66kv No : DATE:\n[[MISSING]] Relay Name : Transformer protection\n[[MISSING]] Relay Type : RET521 Company : ABB\n[[MISSING]] CTR.(220KV Side) = 1000/1 A P.T.R = 66/0.1 KV\n[[MISSING]] CTR.(66KV Side) = 12000/1 A\nضبط الريلاي.\n[[MISSING]] Diff. function : Id =0.4 Ir (131 A) Id (unrest.) =13.0Ir (4270)\n[[MISSING]] Over current : I> = 1.5 Ir (492A) T (I>) = 2.0 sec\n[[MISSING]] I>> = 8.5Ir(2800A) t (I>>) = 40 msec.\n[[MISSING]] Earth fault : Ie > = 0.4 I r(131 A) T (Ie>) = 2.0 sec\n[[MISSING]] Restricted Earth fault : Ian =0.2 Ir (65A)\nنتيجة الاختبار\n[[MISSING]] Diff. function\nالقيمة الوجه. | [[MISSING]] H.V Side | [[MISSING]] L.V. SIDE\nIpu | Ido | TIpu | [[MISSING]] T2Ipu | Ipu | Ido | TIpu\nR |  |  |  |  |  |  | \nS |  |  |  |  |  |  | \nT |  |  |  |  |  |  | \n[[MISSING]] Three Phase injection 220kv\nتيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير\nالزمن = مللي ثانية.\n[[MISSING]] Three Phase injection 66kv\nتيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير\nالزمن = مللي ثانية.\n[[MISSING]] Earth Fault 220kv Side\n[[MISSING]] Ipu (prim.) = A T (Ipu) = sec.\n[[MISSING]] Ipu (sec.) = A T (2Ipu) = sec.\n[[MISSING]] Restricted Earth fault 220kv side\n[[MISSING]] Ian (prim.) = A T (Ipu) = sec.\n[[MISSING]] Ian (sec.) = A T (2Ipu) = sec.\n[[MISSING]] Over Current Relay 220kv side\n | [[MISSING]] Jpu sec | [[MISSING]] Jdo | [[MISSING]] R.F. | [[MISSING]] T sec | [[MISSING]] J>> | [[MISSING]] T(J>>)\nR |  |  |  |  |  | \n[[MISSING]] Je |  |  |  |  |  | \nT |  |  |  |  |  | \n[[MISSING]] Relay Name :\n[[MISSING]] Relay Type : SM103 Company: AEG\nضبط الريلاي:\n[[MISSING]] C.T.R.=1000/1 In =1.0 A\n[[MISSING]] I > = 0.21 A T =1.75 Sec\nنتيجة الاختبار\nتيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير\nالزمن = ثانية.\n[[MISSING]] Relay Name : 220KV Side Restricted E/F Relay Type : SQE21B\n[[MISSING]] Company : AEG\nضبط الريلاي:\n[[MISSING]] C.T.R. =1000/1 In =1.0 A\nIan > = 0.15 A\nنتيجة الاختبار\nتيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير\nالزمن = ثانية.\n[[MISSING]] Relay Name : 66KV SIDE E/F\n[[MISSING]] Relay Type : SM103 Company : AEG\nضبط الريلاي:\n[[MISSING]] C.T.R. = 1200/1 In 1.0 = A\n[[MISSING]] I > = A T = 1.75 Sec\nنتيجة الاختبار\nتيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير\nالزمن = ثانية.\n[[MISSING]] Relay Name : 66KV Side Restricted E/F\n[[MISSING]] Relay Type : SQE21B Company : AEG\nضبط الريلاي.\n[[MISSING]] C.T.R. = 1200/1 In =1.0 A\nIan > = 0.15 A\nنتيجة الاختبار\nتيار الالتقاط = مللي أمبير، تيار السقوط = مللي أمبير\nالزمن = ثانية.\n[[MISSING]] Relay Name : 66 KV Directional Over Current Relay\n[[MISSING]] Relay Type : SD35A-12 Company : AEG\nضبط الريلاي:\n[[MISSING]] C.T.R = 1200/1 P.T.R = 66000/100 I = 1.20 A\n[[MISSING]] Zu/Z1 =1.2 Z1=Z2=Z3=10 C =1.0\n[[MISSING]] T1=T2 =T3=1.5 Sec K =1.0",
+  "word_count_source": 2162,
+  "uncertain_terms": []
+}

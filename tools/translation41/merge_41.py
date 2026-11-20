@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
-"""Merge the 41 draft translations (tools/translation41/*.translation.json)
+"""Merge the 34 draft re-translations (tools/translation41/*.translation.json)
 into content/<id>.json and content/index.json.
+
+Second pass: after the table-extraction fix in tools/migrate.py (<p> inside
+<td> no longer leaks cell text), content/ was re-migrated and the 34
+translations were rebuilt against the NEW section structure. The other 7
+docs of the original 41 batch — the Boilers/Fans/Filters/Generators/Motors/
+Pumps/Valves index pages — are now genuinely paired with Arabic originals
+and needed no draft translation.
 
 For each doc:
   - en source: title_ar / sections_ar / text_ar = translation
@@ -27,7 +34,7 @@ def main():
     manifest = {m["id"]: m for m in index["documents"]}
     want = [m["id"] for m in index["documents"]
             if m["category"] in CATS and m["translation_status"] == "missing"]
-    assert len(want) == 41, f"expected 41 missing docs, found {len(want)}"
+    assert len(want) == 34, f"expected 34 missing docs, found {len(want)}"
 
     rows = []
     total_words = 0
@@ -68,7 +75,7 @@ def main():
 
     # ---- TRANSLATION_41.md ----
     lines = []
-    lines.append("# The 41 translations — pumps, generators, fans, filters, valves, motors, boilers")
+    lines.append("# The 34 re-translations — pumps, generators, fans, filters, valves, motors, boilers")
     lines.append("")
     lines.append("**Status: DRAFT — every translation below needs human review before operational use.**")
     lines.append("Each translated document carries `translation_review: \"draft — needs human review before operational use\"`")
@@ -76,9 +83,15 @@ def main():
     lines.append("Original-language text was not changed. No content was added, deleted or softened;")
     lines.append("empty record-sheet fields were left empty.")
     lines.append("")
-    lines.append(f"Total: **41 documents, {total_words:,} source words** — 33 English → Arabic, 8 Arabic → English.")
-    lines.append("These 41 complete the bilingual coverage of 7 categories: pumps (3), generators (1), fans (1),")
-    lines.append("filters (1), valves (5), motors (13), boilers (17).")
+    lines.append("Second pass, after the table-extraction fix in `tools/migrate.py` (`<p>` inside `<td>` no")
+    lines.append("longer leaks cell text): `content/` was re-migrated and these 34 translations were rebuilt")
+    lines.append("against the new section structure. The other 7 documents of the original 41 — the")
+    lines.append("Boilers / Fans / Filters / Generators / Motors / Pumps / Valves index pages — turned out to")
+    lines.append("be genuinely paired with Arabic originals after the re-migration and needed no draft translation.")
+    lines.append("")
+    lines.append(f"Total: **34 documents, {total_words:,} source words** — 26 English → Arabic, 8 Arabic → English.")
+    lines.append("These 34 complete the bilingual coverage of 7 categories: boilers (16), motors (12), valves (4),")
+    lines.append("pumps (2); generators, fans and filters are fully bilingual from genuine originals.")
     lines.append("")
     lines.append("| # | Document | Category | Source | Words | Terms / passages flagged as uncertain |")
     lines.append("|---|----------|----------|--------|------:|--------------------------------------|")
@@ -100,14 +113,14 @@ def main():
     lines.append("  source PDFs label Tests 6–7 differently from the English text; English was used as the source of")
     lines.append("  truth when the PDFs were migrated. Confirm before operational use.")
     lines.append("- **\"Ad docs\"** in the index-page navigation bars was read as \"approved documents\" (المستندات المعتمدة);")
-    lines.append("  it could also mean \"admin documents\".")
+    lines.append("  it could also mean \"admin documents\". (Index pages needed no draft translation in this pass.)")
     lines.append("- Station names, manufacturer names, model codes, interval codes (M1/Y1/H1500…) and units were kept")
     lines.append("  in Latin script exactly as in the source, including source typos in names (e.g. `Fulid`, `Bofflo`,")
     lines.append("  `Backle`/`Balckle`, `Ugoslaf`, `Demiatta`).")
     lines.append("")
     with open(os.path.join(ROOT, "TRANSLATION_41.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
-    print(f"merged 41 docs, {total_words:,} source words")
+    print(f"merged 34 docs, {total_words:,} source words")
     print("wrote TRANSLATION_41.md")
 
 

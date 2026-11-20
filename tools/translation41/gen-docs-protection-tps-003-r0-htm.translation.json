@@ -1,0 +1,609 @@
+{
+  "id": "gen-docs-protection-tps-003-r0-htm",
+  "doc_number": "TPS-003-R0",
+  "category": "protection",
+  "source_language": "en",
+  "target_language": "ar",
+  "title_target": "TPS-003-R0 معتمد",
+  "sections_target": [
+    {
+      "type": "table",
+      "rows": [
+        [
+          "الوقايات",
+          "الإجراء الفني"
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "مقدمة"
+    },
+    {
+      "type": "paragraph",
+      "text": "توضح هذه الوثيقة إجراءات الاختبار P1، التي يجب تنفيذها سنويًا كما هو موضح بالرمز Y1 في خانة العنوان أعلاه."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] The first draft is initiated by eng. Mohamed Aly Aly Hassan tested by eng. Al shahat Ahmed Mousa at 03 Sep. 2003, revised by EDEPC quality control engineer Adel Al-nagar, accepted by general director eng. Hamdy Abdel Mawla Meligy, and approved by eng. Yousry Mohamed Aly Salama Head Sector of Elshabab GT Power Station"
+    },
+    {
+      "type": "paragraph",
+      "text": "يتكون مخطط الوقاية من:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Differential protection Relay { F 305 }",
+        "[[MISSING]] Over current protection Relay { F 307 }",
+        "[[MISSING]] Single phase over current Relay { F4 }",
+        "[[MISSING]] High Impedance Relay { F5 }",
+        "[[MISSING]] Over current protection Relay { F1 }"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "احتياطات السلامة"
+    },
+    {
+      "type": "list",
+      "items": [
+        "يجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل بطاقة فئة الأمن الصناعي المناسبة.",
+        "يجب تسوير منطقة العمل ووضع لافتات التحذير اللازمة.",
+        "ارتدِ خوذة السلامة وحذاء السلامة ... إلخ.",
+        "[[MISSING]] Step down transformer off ( low and high side ).",
+        "[[MISSING]] All mcc (Motor Control Center) CB out service.",
+        "[[MISSING]] Isolate side protection must be done as follows:"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] (A) Differential protection relay { F305 Type ( D 202 ) } ."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] No. 3 , 7 , 11 High side"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] No. 2 , 6 , 10 Low side"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] (B) Over current protection relay { F307 Type ( ITX 192 232 ) }."
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] No. 1 , 3 , 5 Low side transformer"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] (C) Single phase over current relay { F4 Type ( ISM2) }"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] No. 70 , 71"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] (D) High Impedance protection relay { F5 Type IM 21 qv+ YB1 L 21 }"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] No. 76 , 75"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] (E) Over current protection relay { F1 Type ( RSZ 3f1 ) }"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] No. 7 , 8 , 9"
+    },
+    {
+      "type": "paragraph",
+      "text": "العدد والأدوات والأجهزة المستخدمة"
+    },
+    {
+      "type": "list",
+      "items": [
+        "جهاز الاختبار Sverker.",
+        "منفاخ الهواء.",
+        "طقم الصيانة الكامل.",
+        "مسحوق التنظيف (90) (منظف جاف Video 90)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "الأعمال الواجب تنفيذها"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Connect the relay testing units ( Sverker ) to a power source .",
+        "وصّل المؤقت بمصدر طاقة ووصّل أطرافه بأطراف الفصل الخاصة بالريلاي الخاضع للاختبار.",
+        "ضع أمبيرميتر على أسلاك التيار الخاصة بوحدة الاختبار لقياس التيار، ووصّل الفولتميتر على التوازي مع أسلاك الجهد الخاصة بوحدة الاختبار لقياس الجهد.",
+        "راجع الكتالوج.",
+        "[[MISSING]] Prepare the previous results of the relay testing .",
+        "تأكد من فصل وحدة قاطع الدائرة والمحول وتوفر مصدر التيار المستمر."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Differential Relay F 305 type D202"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Inject 0.3Amp. to operating coil to terminals ( 3 , 1 ) , ( 7 , 1) , (11,1) 66KV Side.",
+        "سجّل النتائج.",
+        "[[MISSING]] Inject 1 Amp. to operating coil to terminals ( 2 , 5 ) , (6,5) , (10,5)",
+        "سجّل النتائج."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Over Current Relay F307 type ITX 192 - 232"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Inject 1.1 Amp. To operating coil to terminal (1,2 ) , ( 3, 4) , (5, 6) the operating coil working after 1.1 sec.",
+        "[[MISSING]] Record results for s.c current.",
+        "[[MISSING]] Inject 7 Amp. to operating coil to terminals ( 1,2 ) , ( 3,4) , ( 5,6 ) the operating coil working.",
+        "سجّل النتائج."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Single Phase Over current Relay ISM2"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Inject 1.0 Amp. to operating coil to terminal ( 70, 71 ) the operating coil working after 1sec.",
+        "سجّل النتائج."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] High Impedance Relay IM 21qv + YB1 L21"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Inject 62 volt AC to operating coil to terminals ( 75 , 76 ).",
+        "سجّل النتائج."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Over Current Relay F1 type RS 3 F1"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Inject 5.0 Amp. to operating coil to terminals No ( 7,10 ), ( 8,11 ) , (9,12 ) the operating coil working after 1.1 sec.",
+        "سجّل النتائج."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] Putting the Protection Relay into Service"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[[MISSING]] Check that the CT and PT secondary connection as before the test",
+        "[[MISSING]] Close the terminal side protection:"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] F305 No. ( 2,3,6,7,10,11 )"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] F307 No. ( 1, 3, 5 )"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] F 4 No. ( 70 , 71 )"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] F 5 No. ( 75, 76 )"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] F 1 No. ( 7, 8, 9 )"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "الموقع .............................",
+          "رقم المحول .................................",
+          "نسبة محول التيار ............................."
+        ],
+        [
+          "المنظومة ..............................",
+          "وظيفة الريلاي ................................",
+          "نسبة محول الجهد ........................."
+        ],
+        [
+          "نوع الريلاي .................................",
+          "",
+          ""
+        ],
+        [
+          "الجهد المقنن ..............................",
+          "التيار المقنن ..............................",
+          "جهد التيار المستمر ............................."
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "نموذج الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] for Step Down Transformer Scheme for Gas Turbine Type 9,"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] ABB Baden Switzerland Using Sverker test set"
+    },
+    {
+      "type": "paragraph",
+      "text": "لنتائج الفحص التنبؤي."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "مرجع الشركة المصنعة.",
+          "قبل الاختبار",
+          "بعد الاختبار",
+          "ملاحظة"
+        ],
+        [
+          "التأخير الزمني (ثانية).",
+          "",
+          "",
+          ""
+        ],
+        [
+          "التيار (أمبير).",
+          "",
+          "",
+          ""
+        ],
+        [
+          "الجهد (فولت).",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "ملاحظات:"
+    },
+    {
+      "type": "paragraph",
+      "text": "______________________________________________________________"
+    },
+    {
+      "type": "paragraph",
+      "text": "______________________________________________________________"
+    },
+    {
+      "type": "paragraph",
+      "text": "______________________________________________________________"
+    },
+    {
+      "type": "paragraph",
+      "text": "______________________________________________________________"
+    },
+    {
+      "type": "paragraph",
+      "text": "______________________________________________________________"
+    },
+    {
+      "type": "paragraph",
+      "text": "______________________________________________________________"
+    },
+    {
+      "type": "paragraph",
+      "text": "اختبره: التوقيع تاريخ آخر اختبار."
+    },
+    {
+      "type": "paragraph",
+      "text": "راجعه: التوقيع تاريخ الاختبار:"
+    },
+    {
+      "type": "paragraph",
+      "text": "اعتمده: التوقيع."
+    },
+    {
+      "type": "paragraph",
+      "text": "نموذج الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] For Differential Protection Relay, F305"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "الوجه",
+          "الضبط",
+          "الطرف",
+          "قبل",
+          "بعد",
+          "ملاحظة"
+        ],
+        [
+          "R",
+          "0.3 A",
+          "3",
+          "1",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "0.3 A",
+          "7",
+          "1",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "[[MISSING]] 0.3A",
+          "14",
+          "1",
+          "",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "1.0 A",
+          "2",
+          "5",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "1.0 A",
+          "6",
+          "5",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "1.0 A",
+          "10",
+          "5",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "نموذج الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] For Over Current Protection Relay, F301 type ITY"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "الوجه",
+          "الضبط",
+          "الطرف",
+          "قبل",
+          "بعد",
+          "ملاحظة"
+        ],
+        [
+          "R",
+          "1.1A",
+          "1",
+          "2",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "1.1A",
+          "3",
+          "4",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "[[MISSING]] 1.1 A",
+          "5",
+          "6",
+          "",
+          "",
+          ""
+        ],
+        [
+          "R",
+          "7 A",
+          "1",
+          "2",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "7 A",
+          "3",
+          "4",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "7 A",
+          "5",
+          "6",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "نموذج الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] For Single Phase Over current Protection Relay, F4, ISM2"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "الوجه",
+          "الضبط",
+          "الطرف",
+          "قبل",
+          "بعد",
+          "ملاحظات."
+        ],
+        [
+          "S",
+          "[[MISSING]] 1.A",
+          "70",
+          "71",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "نموذج الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] For High Impedance Relay, F 5, IM21 qv +YB1 L21"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "[[MISSING]] T.R",
+          "الضبط",
+          "قبل",
+          "بعد",
+          "ملاحظة"
+        ],
+        [
+          "75",
+          "[[MISSING]] 62 VAC",
+          "",
+          "",
+          ""
+        ],
+        [
+          "76",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "نموذج الاختبار"
+    },
+    {
+      "type": "paragraph",
+      "text": "[[MISSING]] For Over Current Protection Relay, F1 Type RS 3 F1"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "الوجه",
+          "الضبط",
+          "الطرف",
+          "قبل",
+          "بعد",
+          "ملاحظة"
+        ],
+        [
+          "R",
+          "5. A",
+          "7",
+          "10",
+          "",
+          "",
+          ""
+        ],
+        [
+          "S",
+          "5. A",
+          "8",
+          "11",
+          "",
+          "",
+          ""
+        ],
+        [
+          "T",
+          "5. A",
+          "9",
+          "12",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    }
+  ],
+  "text_target": "الوقايات | الإجراء الفني\nمقدمة\nتوضح هذه الوثيقة إجراءات الاختبار P1، التي يجب تنفيذها سنويًا كما هو موضح بالرمز Y1 في خانة العنوان أعلاه.\n[[MISSING]] The first draft is initiated by eng. Mohamed Aly Aly Hassan tested by eng. Al shahat Ahmed Mousa at 03 Sep. 2003, revised by EDEPC quality control engineer Adel Al-nagar, accepted by general director eng. Hamdy Abdel Mawla Meligy, and approved by eng. Yousry Mohamed Aly Salama Head Sector of Elshabab GT Power Station\nيتكون مخطط الوقاية من:\n[[MISSING]] Differential protection Relay { F 305 }\n[[MISSING]] Over current protection Relay { F 307 }\n[[MISSING]] Single phase over current Relay { F4 }\n[[MISSING]] High Impedance Relay { F5 }\n[[MISSING]] Over current protection Relay { F1 }\nاحتياطات السلامة\nيجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل بطاقة فئة الأمن الصناعي المناسبة.\nيجب تسوير منطقة العمل ووضع لافتات التحذير اللازمة.\nارتدِ خوذة السلامة وحذاء السلامة ... إلخ.\n[[MISSING]] Step down transformer off ( low and high side ).\n[[MISSING]] All mcc (Motor Control Center) CB out service.\n[[MISSING]] Isolate side protection must be done as follows:\n[[MISSING]] (A) Differential protection relay { F305 Type ( D 202 ) } .\n[[MISSING]] No. 3 , 7 , 11 High side\n[[MISSING]] No. 2 , 6 , 10 Low side\n[[MISSING]] (B) Over current protection relay { F307 Type ( ITX 192 232 ) }.\n[[MISSING]] No. 1 , 3 , 5 Low side transformer\n[[MISSING]] (C) Single phase over current relay { F4 Type ( ISM2) }\n[[MISSING]] No. 70 , 71\n[[MISSING]] (D) High Impedance protection relay { F5 Type IM 21 qv+ YB1 L 21 }\n[[MISSING]] No. 76 , 75\n[[MISSING]] (E) Over current protection relay { F1 Type ( RSZ 3f1 ) }\n[[MISSING]] No. 7 , 8 , 9\nالعدد والأدوات والأجهزة المستخدمة\nجهاز الاختبار Sverker.\nمنفاخ الهواء.\nطقم الصيانة الكامل.\nمسحوق التنظيف (90) (منظف جاف Video 90).\nالأعمال الواجب تنفيذها\n[[MISSING]] Connect the relay testing units ( Sverker ) to a power source .\nوصّل المؤقت بمصدر طاقة ووصّل أطرافه بأطراف الفصل الخاصة بالريلاي الخاضع للاختبار.\nضع أمبيرميتر على أسلاك التيار الخاصة بوحدة الاختبار لقياس التيار، ووصّل الفولتميتر على التوازي مع أسلاك الجهد الخاصة بوحدة الاختبار لقياس الجهد.\nراجع الكتالوج.\n[[MISSING]] Prepare the previous results of the relay testing .\nتأكد من فصل وحدة قاطع الدائرة والمحول وتوفر مصدر التيار المستمر.\n[[MISSING]] Differential Relay F 305 type D202\n[[MISSING]] Inject 0.3Amp. to operating coil to terminals ( 3 , 1 ) , ( 7 , 1) , (11,1) 66KV Side.\nسجّل النتائج.\n[[MISSING]] Inject 1 Amp. to operating coil to terminals ( 2 , 5 ) , (6,5) , (10,5)\nسجّل النتائج.\n[[MISSING]] Over Current Relay F307 type ITX 192 - 232\n[[MISSING]] Inject 1.1 Amp. To operating coil to terminal (1,2 ) , ( 3, 4) , (5, 6) the operating coil working after 1.1 sec.\n[[MISSING]] Record results for s.c current.\n[[MISSING]] Inject 7 Amp. to operating coil to terminals ( 1,2 ) , ( 3,4) , ( 5,6 ) the operating coil working.\nسجّل النتائج.\n[[MISSING]] Single Phase Over current Relay ISM2\n[[MISSING]] Inject 1.0 Amp. to operating coil to terminal ( 70, 71 ) the operating coil working after 1sec.\nسجّل النتائج.\n[[MISSING]] High Impedance Relay IM 21qv + YB1 L21\n[[MISSING]] Inject 62 volt AC to operating coil to terminals ( 75 , 76 ).\nسجّل النتائج.\n[[MISSING]] Over Current Relay F1 type RS 3 F1\n[[MISSING]] Inject 5.0 Amp. to operating coil to terminals No ( 7,10 ), ( 8,11 ) , (9,12 ) the operating coil working after 1.1 sec.\nسجّل النتائج.\n[[MISSING]] Putting the Protection Relay into Service\n[[MISSING]] Check that the CT and PT secondary connection as before the test\n[[MISSING]] Close the terminal side protection:\n[[MISSING]] F305 No. ( 2,3,6,7,10,11 )\n[[MISSING]] F307 No. ( 1, 3, 5 )\n[[MISSING]] F 4 No. ( 70 , 71 )\n[[MISSING]] F 5 No. ( 75, 76 )\n[[MISSING]] F 1 No. ( 7, 8, 9 )\nالموقع ............................. | رقم المحول ................................. | نسبة محول التيار .............................\nالمنظومة .............................. | وظيفة الريلاي ................................ | نسبة محول الجهد .........................\nنوع الريلاي ................................. |  | \nالجهد المقنن .............................. | التيار المقنن .............................. | جهد التيار المستمر .............................\nنموذج الاختبار\n[[MISSING]] for Step Down Transformer Scheme for Gas Turbine Type 9,\n[[MISSING]] ABB Baden Switzerland Using Sverker test set\nلنتائج الفحص التنبؤي.\nمرجع الشركة المصنعة. | قبل الاختبار | بعد الاختبار | ملاحظة\nالتأخير الزمني (ثانية). |  |  | \nالتيار (أمبير). |  |  | \nالجهد (فولت). |  |  | \nملاحظات:\n______________________________________________________________\n______________________________________________________________\n______________________________________________________________\n______________________________________________________________\n______________________________________________________________\n______________________________________________________________\nاختبره: التوقيع تاريخ آخر اختبار.\nراجعه: التوقيع تاريخ الاختبار:\nاعتمده: التوقيع.\nنموذج الاختبار\n[[MISSING]] For Differential Protection Relay, F305\nالوجه | الضبط | الطرف | قبل | بعد | ملاحظة\nR | 0.3 A | 3 | 1 |  |  | \nS | 0.3 A | 7 | 1 |  |  | \nT | [[MISSING]] 0.3A | 14 | 1 |  |  | \nR | 1.0 A | 2 | 5 |  |  | \nS | 1.0 A | 6 | 5 |  |  | \nT | 1.0 A | 10 | 5 |  |  | \nنموذج الاختبار\n[[MISSING]] For Over Current Protection Relay, F301 type ITY\nالوجه | الضبط | الطرف | قبل | بعد | ملاحظة\nR | 1.1A | 1 | 2 |  |  | \nS | 1.1A | 3 | 4 |  |  | \nT | [[MISSING]] 1.1 A | 5 | 6 |  |  | \nR | 7 A | 1 | 2 |  |  | \nS | 7 A | 3 | 4 |  |  | \nT | 7 A | 5 | 6 |  |  | \nنموذج الاختبار\n[[MISSING]] For Single Phase Over current Protection Relay, F4, ISM2\nالوجه | الضبط | الطرف | قبل | بعد | ملاحظات.\nS | [[MISSING]] 1.A | 70 | 71 |  |  | \nنموذج الاختبار\n[[MISSING]] For High Impedance Relay, F 5, IM21 qv +YB1 L21\n[[MISSING]] T.R | الضبط | قبل | بعد | ملاحظة\n75 | [[MISSING]] 62 VAC |  |  | \n76 |  |  | \nنموذج الاختبار\n[[MISSING]] For Over Current Protection Relay, F1 Type RS 3 F1\nالوجه | الضبط | الطرف | قبل | بعد | ملاحظة\nR | 5. A | 7 | 10 |  |  | \nS | 5. A | 8 | 11 |  |  | \nT | 5. A | 9 | 12 |  |  | ",
+  "word_count_source": 1075,
+  "uncertain_terms": [
+    {
+      "term": "Predicate Inspection",
+      "note": "خطأ إملائي في المصدر؛ والمقصود على الأرجح Predictive Inspection أي الفحص التنبؤي."
+    }
+  ]
+}
