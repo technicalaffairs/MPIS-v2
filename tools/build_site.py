@@ -1277,6 +1277,10 @@ LOGO_B64 = (
 )
 FEATURED = ["T-022-R0", "T-024-R0", "T-024-R0-TER", "T-025-R0", "T-026-R0", "T-027-R0"]
 
+# Documents kept in content/ as archive but not published on the site
+# (e.g. the old FrontPage home page index_old.htm).
+EXCLUDED_DOC_IDS = {"index-old-htm"}
+
 CATEGORY_AR = {
     "transformers": "المحولات", "boilers": "الغلايات", "turbines": "التوربينات",
     "generators": "المولدات", "switchgear": "قواطع ومعدات التبديل",
@@ -1456,7 +1460,7 @@ def build(content_dir, dist_dir, v1_root):
         _f.write(_b64.b64decode(LOGO_B64))
     i18n = load_i18n(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     with open(os.path.join(content_dir, "index.json"), encoding="utf-8") as f:
-        manifest = json.load(f)["documents"]
+        manifest = [m for m in json.load(f)["documents"] if m["id"] not in EXCLUDED_DOC_IDS]
     # pairing by base doc number
     by_base = {}
     for m in manifest:
