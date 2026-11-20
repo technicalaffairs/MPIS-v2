@@ -1,0 +1,184 @@
+{
+ "id": "arabic-web-ar-app-gen-edepc-instr-control-ar-scs-017-r0-htm",
+ "doc_number": "STS-017-R0",
+ "title_en": "",
+ "title_ar": "STS-017-r0 \nAPPROVED",
+ "category": "instruments",
+ "source_path": "arabic_web/Ar_app_gen/EDEPC/Instr+control/Ar_SCS-017-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "القوة \n المحطة"
+  },
+  {
+   "type": "paragraph",
+   "text": "التقنية \n الإجراء"
+  },
+  {
+   "type": "paragraph",
+   "text": "معدات:Speed Tronic System MK IV\n Speed Control for Gas Turbine\n HP Over Speed trip,\n Electronic\n General Electric"
+  },
+  {
+   "type": "paragraph",
+   "text": "رقم الوثيقة: STS-017-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "صدرت إلى:\n Hurghada PS"
+  },
+  {
+   "type": "paragraph",
+   "text": "حالة: \n موافقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "إجراء:\n فحص المعدات (I1 - Y1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "موافقة تاريخ: 06 July 2005"
+  },
+  {
+   "type": "paragraph",
+   "text": "تاريخ ليكون \n تمت المراجعة: يوليو 2010"
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum \nHassan"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector"
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات السلامة"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear the appropriate safety equipment as safety shoes, safety helmet ...etc."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work \n area is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit should be at shutdown mode."
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch off all CB's on the (MCC)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category",
+    "Wear the appropriate safety equipment as safety shoes, safety helmet ...etc.",
+    "Safety fence with caution marks surrounding the work \n area is required.",
+    "Unit should be at shutdown mode.",
+    "Switch off all CB's on the (MCC)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الأدوات والمعدات"
+  },
+  {
+   "type": "paragraph",
+   "text": "Frequency source,\n Frequency meter"
+  },
+  {
+   "type": "paragraph",
+   "text": "سائق المسمار,\n صداري"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Frequency source,\n Frequency meter",
+    "سائق المسمار,\n صداري"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العمل المراد تنفيذه"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect a frequency \n source and frequency meter to the turbine magnetic speed pickup (77NH) of the \n analog I/O modules < AIO3 > and jumper the remaining pickups in parallel to \n the first simulate HP turbine speed to < R > < S > and < T > \nملحوظة :\n It may be necessary to disconnect the magnetic pickup to prevent loading down \n the test oscillator signal"
+  },
+  {
+   "type": "paragraph",
+   "text": "Display L12H and \n L4Post logic signals on the CRT (Cathode Ray Tube)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase the frequency \n until logic signal L12H goes to \"1\" the frequency should be per control syst \n settings. Check that alarm massage \"electrical over speed trip\" at \n 5697+10% RPM is displayed. Check that L12H and L4Post indicate trip state in R.S.T"
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjust overspeed trip \n constant TNKHOS if the trip setpoint is not per control syst setting, record \n new constant TNKHOS. If it is not OK replace the hardware card and repeat the \n step from 1-4"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manually reset L86MR1 \n and force test permissive logic L83HOST to logic \"1\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Raise the governor \n speed setpoint using the speed control raise switch until the governor reaches \n the max limit."
+  },
+  {
+   "type": "paragraph",
+   "text": "If the setpoint is not \n per control syst setting for max search speed TNKHOST readjust TNKHOST record \n new value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove all \n instrumentation."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect a frequency \n source and frequency meter to the turbine magnetic speed pickup (77NH) of the \n analog I/O modules < AIO3 > and jumper the remaining pickups in parallel to \n the first simulate HP turbine speed to < R > < S > and < T > \nملحوظة :\n It may be necessary to disconnect the magnetic pickup to prevent loading down \n the test oscillator signal",
+    "Display L12H and \n L4Post logic signals on the CRT (Cathode Ray Tube)",
+    "Increase the frequency \n until logic signal L12H goes to \"1\" the frequency should be per control syst \n settings. Check that alarm massage \"electrical over speed trip\" at \n 5697+10% RPM is displayed. Check that L12H and L4Post indicate trip state in R.S.T",
+    "Adjust overspeed trip \n constant TNKHOS if the trip setpoint is not per control syst setting, record \n new constant TNKHOS. If it is not OK replace the hardware card and repeat the \n step from 1-4",
+    "Manually reset L86MR1 \n and force test permissive logic L83HOST to logic \"1\"",
+    "Raise the governor \n speed setpoint using the speed control raise switch until the governor reaches \n the max limit.",
+    "If the setpoint is not \n per control syst setting for max search speed TNKHOST readjust TNKHOST record \n new value",
+    "Remove all \n instrumentation."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:"
+  }
+ ],
+ "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:Speed Tronic System MK IV\n Speed Control for Gas Turbine\n HP Over Speed trip,\n Electronic\n General Electric\nرقم الوثيقة: STS-017-r0\nصدرت إلى:\n Hurghada PS\nحالة: \n موافقة\nإجراء:\n فحص المعدات (I1 - Y1)\nموافقة تاريخ: 06 July 2005\nتاريخ ليكون \n تمت المراجعة: يوليو 2010\nمقدمة\nThis document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum \nHassan\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nاحتياطات السلامة\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet ...etc.\nSafety fence with caution marks surrounding the work \n area is required.\nUnit should be at shutdown mode.\nSwitch off all CB's on the (MCC)\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet ...etc.\nSafety fence with caution marks surrounding the work \n area is required.\nUnit should be at shutdown mode.\nSwitch off all CB's on the (MCC)\nالأدوات والمعدات\nFrequency source,\n Frequency meter\nسائق المسمار,\n صداري\nFrequency source,\n Frequency meter\nسائق المسمار,\n صداري\nالعمل المراد تنفيذه\nConnect a frequency \n source and frequency meter to the turbine magnetic speed pickup (77NH) of the \n analog I/O modules < AIO3 > and jumper the remaining pickups in parallel to \n the first simulate HP turbine speed to < R > < S > and < T > \nملحوظة :\n It may be necessary to disconnect the magnetic pickup to prevent loading down \n the test oscillator signal\nDisplay L12H and \n L4Post logic signals on the CRT (Cathode Ray Tube)\nIncrease the frequency \n until logic signal L12H goes to \"1\" the frequency should be per control syst \n settings. Check that alarm massage \"electrical over speed trip\" at \n 5697+10% RPM is displayed. Check that L12H and L4Post indicate trip state in R.S.T\nAdjust overspeed trip \n constant TNKHOS if the trip setpoint is not per control syst setting, record \n new constant TNKHOS. If it is not OK replace the hardware card and repeat the \n step from 1-4\nManually reset L86MR1 \n and force test permissive logic L83HOST to logic \"1\"\nRaise the governor \n speed setpoint using the speed control raise switch until the governor reaches \n the max limit.\nIf the setpoint is not \n per control syst setting for max search speed TNKHOST readjust TNKHOST record \n new value\nRemove all \n instrumentation.\nConnect a frequency \n source and frequency meter to the turbine magnetic speed pickup (77NH) of the \n analog I/O modules < AIO3 > and jumper the remaining pickups in parallel to \n the first simulate HP turbine speed to < R > < S > and < T > \nملحوظة :\n It may be necessary to disconnect the magnetic pickup to prevent loading down \n the test oscillator signal\nDisplay L12H and \n L4Post logic signals on the CRT (Cathode Ray Tube)\nIncrease the frequency \n until logic signal L12H goes to \"1\" the frequency should be per control syst \n settings. Check that alarm massage \"electrical over speed trip\" at \n 5697+10% RPM is displayed. Check that L12H and L4Post indicate trip state in R.S.T\nAdjust overspeed trip \n constant TNKHOS if the trip setpoint is not per control syst setting, record \n new constant TNKHOS. If it is not OK replace the hardware card and repeat the \n step from 1-4\nManually reset L86MR1 \n and force test permissive logic L83HOST to logic \"1\"\nRaise the governor \n speed setpoint using the speed control raise switch until the governor reaches \n the max limit.\nIf the setpoint is not \n per control syst setting for max search speed TNKHOST readjust TNKHOST record \n new value\nRemove all \n instrumentation.\nالموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

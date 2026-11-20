@@ -1,0 +1,345 @@
+{
+ "id": "arabic-web-ar-app-gen-edepc-instr-control-ar-scs-019-r0-htm",
+ "doc_number": "STS-019-R0",
+ "title_en": "",
+ "title_ar": "STS-019-r0 \nAPPROVED",
+ "category": "instruments",
+ "source_path": "arabic_web/Ar_app_gen/EDEPC/Instr+control/Ar_SCS-019-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "القوة \n المحطة"
+  },
+  {
+   "type": "paragraph",
+   "text": "التقنية \n الإجراء"
+  },
+  {
+   "type": "paragraph",
+   "text": "معدات:Speed Tronic \n MK IV control system\n Speed / load setpoint check - TNR\n General Electric"
+  },
+  {
+   "type": "paragraph",
+   "text": "رقم الوثيقة: STS-019-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "صدرت إلى:\n Hurghada PS"
+  },
+  {
+   "type": "paragraph",
+   "text": "حالة: \n موافقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "إجراء:\n فحص المعدات (I1 - Y1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "موافقة تاريخ: 06 July 2005"
+  },
+  {
+   "type": "paragraph",
+   "text": "تاريخ ليكون \n تمت المراجعة: يوليو 2010"
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum Hassan"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector"
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات السلامة"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear the appropriate safety equipment as safety shoes, safety helmet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work \n area is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit at shut down mode"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch off all CB's on the (MCC)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category",
+    "Wear the appropriate safety equipment as safety shoes, safety helmet",
+    "Safety fence with caution marks surrounding the work \n area is required.",
+    "Unit at shut down mode",
+    "Switch off all CB's on the (MCC)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الأدوات والمعدات"
+  },
+  {
+   "type": "paragraph",
+   "text": "سائق المسمار,\n صداري"
+  },
+  {
+   "type": "list",
+   "items": [
+    "سائق المسمار,\n صداري"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العمل المراد تنفيذه"
+  },
+  {
+   "type": "paragraph",
+   "text": "Display \"data\" list 16, \n logic forcing and enter the signals L70L, L70R, L83JD2, L83PRES1, L83PRES2, \n L83TNROP and TNR"
+  },
+  {
+   "type": "paragraph",
+   "text": "Force logic signal \n L83PRES2 to be logic \"1\" check that \"TNR\"displayed corresponds to the value of \n start up preset constant TNKR7 given in the control spec. settings, adjust PROM \n constant TNKR7 if necessary."
+  },
+  {
+   "type": "paragraph",
+   "text": "Force logic signal \n L83PRES2 back to \"0\" and L83PRES1 to be logic \"1\" check that \"TNR\" agrees with \n the value of load preset constant TNKR2 given the control spec. setting, if \n necessary adjust PROM constant TNKR2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unforce all logic \n signals"
+  },
+  {
+   "type": "paragraph",
+   "text": "Force logic signal \n L83JD2 and L83TNROP to be logic \"1\" make setpoint lower signal L70L a logic \n \"1\" and check that \"TNR\" goes to the minimum operating value TNKR4 as given in \n control spec. setting make setpoint lower signal a logic \"0\" and make \n setpoint raise signal L70R a logic \"1\" check that \"TNR\" goes to the maximum \n operating setpoint TNKR3 as given in the control as specified in the \n settings DWG, adjust PROM constants if necessary. Unforce all logic signals \n when check out is completed."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat para. 5 above \n for all rates given in spec - setting according to the attached table"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Display \"data\" list 16, \n logic forcing and enter the signals L70L, L70R, L83JD2, L83PRES1, L83PRES2, \n L83TNROP and TNR",
+    "Force logic signal \n L83PRES2 to be logic \"1\" check that \"TNR\"displayed corresponds to the value of \n start up preset constant TNKR7 given in the control spec. settings, adjust PROM \n constant TNKR7 if necessary.",
+    "Force logic signal \n L83PRES2 back to \"0\" and L83PRES1 to be logic \"1\" check that \"TNR\" agrees with \n the value of load preset constant TNKR2 given the control spec. setting, if \n necessary adjust PROM constant TNKR2",
+    "Unforce all logic \n signals",
+    "Force logic signal \n L83JD2 and L83TNROP to be logic \"1\" make setpoint lower signal L70L a logic \n \"1\" and check that \"TNR\" goes to the minimum operating value TNKR4 as given in \n control spec. setting make setpoint lower signal a logic \"0\" and make \n setpoint raise signal L70R a logic \"1\" check that \"TNR\" goes to the maximum \n operating setpoint TNKR3 as given in the control as specified in the \n settings DWG, adjust PROM constants if necessary. Unforce all logic signals \n when check out is completed.",
+    "Repeat para. 5 above \n for all rates given in spec - setting according to the attached table"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "وصف"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over speed test (LP) not used"
+  },
+  {
+   "type": "paragraph",
+   "text": "L83 JD2 manual load or fast load start (4%/30 SEC) (30 SEC to \n full load)"
+  },
+  {
+   "type": "paragraph",
+   "text": "L83 JD3 manual speed (0.5%/SEC)"
+  },
+  {
+   "type": "paragraph",
+   "text": "L83 JD4 auto load 4%/4MIN)(4 minutes to full load)"
+  },
+  {
+   "type": "paragraph",
+   "text": "L83 JD8 speed matching (0.10%/SEC)"
+  },
+  {
+   "type": "paragraph",
+   "text": "الإعداد المسبق / LD (L83 PRES1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "High speed stop (HSS) OPER"
+  },
+  {
+   "type": "paragraph",
+   "text": "Low SPD stop (LSS) (L83 \n TNROP\n =1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "SPD منخفض SU/SD (L 83 TNROP = 0)"
+  },
+  {
+   "type": "paragraph",
+   "text": "TNKR\n 7"
+  },
+  {
+   "type": "paragraph",
+   "text": "الإعداد المسبق / بدء التشغيل (L83 PRES2)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Convergene coefficient"
+  },
+  {
+   "type": "paragraph",
+   "text": "L.P speed setpoint \n TNR\n at minimum"
+  },
+  {
+   "type": "paragraph",
+   "text": "L.P speed setpoint \n TNR\n at maximum"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rated design speed"
+  },
+  {
+   "type": "paragraph",
+   "text": "مرجع التحكم في السرعة"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "اسم",
+     "K value",
+     "Untts",
+     ""
+    ],
+    [
+     "تنكلوست",
+     "K not USED",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR 1_2",
+     "K 8.000",
+     "% دقيقة",
+     ""
+    ],
+    [
+     "TNKR\n 1_3",
+     "K 30.000",
+     "% دقيقة",
+     ""
+    ],
+    [
+     "TNKR\n 1_4",
+     "K 1.000",
+     "% دقيقة",
+     ""
+    ],
+    [
+     "TNKR\n 1_8",
+     "ك 6.000",
+     "% دقيقة",
+     ""
+    ],
+    [
+     "TNKR\n 2",
+     "K 100.300",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR\n 3",
+     "K 107.000",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR\n 4",
+     "K 95.000",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR\n 5",
+     "K not used",
+     "% SPD",
+     ""
+    ],
+    [
+     "",
+     "KN 100.300",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNKR 8",
+     "K 0.30000",
+     "CNT 00",
+     ""
+    ],
+    [
+     "L33 CDMN",
+     "L1/0",
+     "LOGIC",
+     ""
+    ],
+    [
+     "L33 CDMX",
+     "L1/0",
+     "LOGIC",
+     ""
+    ],
+    [
+     "سرعة التصميم",
+     "R 100.000",
+     "% SPD",
+     ""
+    ],
+    [
+     "Full _ load _ SP",
+     "R 104.000",
+     "% SPD",
+     ""
+    ],
+    [
+     "TNR",
+     "V",
+     "% SPD",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "الموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:"
+  }
+ ],
+ "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:Speed Tronic \n MK IV control system\n Speed / load setpoint check - TNR\n General Electric\nرقم الوثيقة: STS-019-r0\nصدرت إلى:\n Hurghada PS\nحالة: \n موافقة\nإجراء:\n فحص المعدات (I1 - Y1)\nموافقة تاريخ: 06 July 2005\nتاريخ ليكون \n تمت المراجعة: يوليو 2010\nمقدمة\nThis document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum Hassan\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nاحتياطات السلامة\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nSafety fence with caution marks surrounding the work \n area is required.\nUnit at shut down mode\nSwitch off all CB's on the (MCC)\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nSafety fence with caution marks surrounding the work \n area is required.\nUnit at shut down mode\nSwitch off all CB's on the (MCC)\nالأدوات والمعدات\nسائق المسمار,\n صداري\nسائق المسمار,\n صداري\nالعمل المراد تنفيذه\nDisplay \"data\" list 16, \n logic forcing and enter the signals L70L, L70R, L83JD2, L83PRES1, L83PRES2, \n L83TNROP and TNR\nForce logic signal \n L83PRES2 to be logic \"1\" check that \"TNR\"displayed corresponds to the value of \n start up preset constant TNKR7 given in the control spec. settings, adjust PROM \n constant TNKR7 if necessary.\nForce logic signal \n L83PRES2 back to \"0\" and L83PRES1 to be logic \"1\" check that \"TNR\" agrees with \n the value of load preset constant TNKR2 given the control spec. setting, if \n necessary adjust PROM constant TNKR2\nUnforce all logic \n signals\nForce logic signal \n L83JD2 and L83TNROP to be logic \"1\" make setpoint lower signal L70L a logic \n \"1\" and check that \"TNR\" goes to the minimum operating value TNKR4 as given in \n control spec. setting make setpoint lower signal a logic \"0\" and make \n setpoint raise signal L70R a logic \"1\" check that \"TNR\" goes to the maximum \n operating setpoint TNKR3 as given in the control as specified in the \n settings DWG, adjust PROM constants if necessary. Unforce all logic signals \n when check out is completed.\nRepeat para. 5 above \n for all rates given in spec - setting according to the attached table\nDisplay \"data\" list 16, \n logic forcing and enter the signals L70L, L70R, L83JD2, L83PRES1, L83PRES2, \n L83TNROP and TNR\nForce logic signal \n L83PRES2 to be logic \"1\" check that \"TNR\"displayed corresponds to the value of \n start up preset constant TNKR7 given in the control spec. settings, adjust PROM \n constant TNKR7 if necessary.\nForce logic signal \n L83PRES2 back to \"0\" and L83PRES1 to be logic \"1\" check that \"TNR\" agrees with \n the value of load preset constant TNKR2 given the control spec. setting, if \n necessary adjust PROM constant TNKR2\nUnforce all logic \n signals\nForce logic signal \n L83JD2 and L83TNROP to be logic \"1\" make setpoint lower signal L70L a logic \n \"1\" and check that \"TNR\" goes to the minimum operating value TNKR4 as given in \n control spec. setting make setpoint lower signal a logic \"0\" and make \n setpoint raise signal L70R a logic \"1\" check that \"TNR\" goes to the maximum \n operating setpoint TNKR3 as given in the control as specified in the \n settings DWG, adjust PROM constants if necessary. Unforce all logic signals \n when check out is completed.\nRepeat para. 5 above \n for all rates given in spec - setting according to the attached table\nوصف\nOver speed test (LP) not used\nL83 JD2 manual load or fast load start (4%/30 SEC) (30 SEC to \n full load)\nL83 JD3 manual speed (0.5%/SEC)\nL83 JD4 auto load 4%/4MIN)(4 minutes to full load)\nL83 JD8 speed matching (0.10%/SEC)\nالإعداد المسبق / LD (L83 PRES1)\nHigh speed stop (HSS) OPER\nLow SPD stop (LSS) (L83 \n TNROP\n =1)\nSPD منخفض SU/SD (L 83 TNROP = 0)\nTNKR\n 7\nالإعداد المسبق / بدء التشغيل (L83 PRES2)\nConvergene coefficient\nL.P speed setpoint \n TNR\n at minimum\nL.P speed setpoint \n TNR\n at maximum\nRated design speed\nمرجع التحكم في السرعة\n\nالموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

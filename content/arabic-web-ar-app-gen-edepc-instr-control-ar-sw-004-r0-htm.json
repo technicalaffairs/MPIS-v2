@@ -1,0 +1,297 @@
+{
+ "id": "arabic-web-ar-app-gen-edepc-instr-control-ar-sw-004-r0-htm",
+ "doc_number": "SW-004-R0",
+ "title_en": "",
+ "title_ar": "SW-004-r0 \nAPPROVED",
+ "category": "instruments",
+ "source_path": "arabic_web/Ar_app_gen/EDEPC/Instr+control/Ar_SW-004-r0.HTM",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the testing procedure I1, which must be performed every 6 \nmonths as indicated by M6 in the above title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft \n initiated by eng. Hesham El Sayed Mohamed El Assy, tested by eng. Mohamed Gad \n El Rab Hawad at 29 March 2003, \n reviewed by EDEPCo. quality control eng. Abdel Momem El-Emam, accepted by general \n director eng. Farouk Awad Aly, and approved by eng. Mostafa Alam Head Sector of \n Talkha power plant."
+  },
+  {
+   "type": "paragraph",
+   "text": "Win_D \nis, like Send31, a part of program package PERTINAX and is also run directly \nfrom Windows 95 desktop, from folder Pertinax. It serves for send-in of \napplication programs through serial line, through Profibus-FMS network and also \nfor diagnosing of application programs directly in original graphic form."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make Backup for soft\nware before work."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the qualified \nmaintenance staff should be carry the suitable safety category,",
+    "Make Backup for soft\nware before work."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Original Software"
+  },
+  {
+   "type": "paragraph",
+   "text": "CD Writer to Take Backup"
+  },
+  {
+   "type": "paragraph",
+   "text": "Floppy Disks."
+  },
+  {
+   "type": "paragraph",
+   "text": "Paper And Pen."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Original Software",
+    "CD Writer to Take Backup",
+    "Floppy Disks.",
+    "Paper And Pen."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Checking of items in \n configuration file WIND.INI"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Checking of items in \n configuration file WIND.INI"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Show table 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "{ OrCAD/SDT IV Configuration File }"
+  },
+  {
+   "type": "paragraph",
+   "text": "PDRV = 'C:\\ORCADESP\\DRV\\'"
+  },
+  {
+   "type": "paragraph",
+   "text": "PSCH = 'C:\\PERTINAX\\WORK\\'"
+  },
+  {
+   "type": "paragraph",
+   "text": "PLIB = 'C:\\PERTINAX\\LIBRARY\\*.LIB'"
+  },
+  {
+   "type": "paragraph",
+   "text": "DD = 'vga640.DRV'"
+  },
+  {
+   "type": "paragraph",
+   "text": "PRD = 'hplaser7.DRV'"
+  },
+  {
+   "type": "paragraph",
+   "text": "PLD = 'dxf.drv'"
+  },
+  {
+   "type": "paragraph",
+   "text": "LIB = 'ZAT_BIN.LIB'"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Some notes in parameters of table 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "SCH subdirectory for \ndrawings files - fixed (Work)"
+  },
+  {
+   "type": "paragraph",
+   "text": "TMP subdirectory for \nnetlist files (products of compile) -fixed (Temp)"
+  },
+  {
+   "type": "paragraph",
+   "text": "PRO subdirectory for \nparameters of communication Profibus - fixed (Profi)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Here the files KBL.DAT and \nBUSPAR.DAT are placed."
+  },
+  {
+   "type": "paragraph",
+   "text": "LOG system value - \nfixed (9)"
+  },
+  {
+   "type": "paragraph",
+   "text": "COM number of \nasynchronous port at communication through serial line - optional"
+  },
+  {
+   "type": "paragraph",
+   "text": "for COM1"
+  },
+  {
+   "type": "paragraph",
+   "text": "for COM2"
+  },
+  {
+   "type": "paragraph",
+   "text": "AUT type of control \nboard (this parameter determines the communication rate) - optional"
+  },
+  {
+   "type": "paragraph",
+   "text": "D D352"
+  },
+  {
+   "type": "paragraph",
+   "text": "P VM42"
+  },
+  {
+   "type": "paragraph",
+   "text": "KOM communication type \n- optional"
+  },
+  {
+   "type": "paragraph",
+   "text": "A communication through \nserial line communication through Profibus-FMS network, when"
+  },
+  {
+   "type": "paragraph",
+   "text": "P0 board DCPAT is set to \naddress D000"
+  },
+  {
+   "type": "paragraph",
+   "text": "P1 board DCPAT is set to \naddress D100"
+  },
+  {
+   "type": "paragraph",
+   "text": "P8 board DCPAT is set to \naddress DE00"
+  },
+  {
+   "type": "paragraph",
+   "text": "BMP system value - \nfixed (2)"
+  },
+  {
+   "type": "paragraph",
+   "text": "PAN system value - \nfixed (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIM system value - \nfixed (0)"
+  },
+  {
+   "type": "paragraph",
+   "text": "SSA system value - \nfixed (0)"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZOL system value - \nfixed (61ED)"
+  },
+  {
+   "type": "paragraph",
+   "text": "W95 system value - \nfixed (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "MPO system value - \nfixed (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "BIN system value - fixed"
+  },
+  {
+   "type": "paragraph",
+   "text": "D352"
+  },
+  {
+   "type": "paragraph",
+   "text": "VM42"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Open the program from PERTINAX group as \n follows:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "From the menu click automat open task open sheet-ex. 2CBA4105 like in fig. \n 1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test all signals by selection and press start / \n stop",
+    "Check the input signals and output \n signals (i/p L & o/p L or i/pH & o/p H )",
+    "If found any errors check the program ZAT CAD \n (DOC# SW-003-r0 )"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nEquipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested Date : \nChecked by: \nSignature :"
+  }
+ ],
+ "text": "Power Stations\nTechnical Procedure\nIntroduction\nThis document outlines the testing procedure I1, which must be performed every 6 \nmonths as indicated by M6 in the above title block.\nThe first draft \n initiated by eng. Hesham El Sayed Mohamed El Assy, tested by eng. Mohamed Gad \n El Rab Hawad at 29 March 2003, \n reviewed by EDEPCo. quality control eng. Abdel Momem El-Emam, accepted by general \n director eng. Farouk Awad Aly, and approved by eng. Mostafa Alam Head Sector of \n Talkha power plant.\nWin_D \nis, like Send31, a part of program package PERTINAX and is also run directly \nfrom Windows 95 desktop, from folder Pertinax. It serves for send-in of \napplication programs through serial line, through Profibus-FMS network and also \nfor diagnosing of application programs directly in original graphic form.\nSafety Precautions\nMake Backup for soft\nware before work.\nA work permit must be issued and the qualified \nmaintenance staff should be carry the suitable safety category,\nMake Backup for soft\nware before work.\nTools and Equipment\nOriginal Software\nCD Writer to Take Backup\nFloppy Disks.\nPaper And Pen.\nOriginal Software\nCD Writer to Take Backup\nFloppy Disks.\nPaper And Pen.\nWork to be carried out\nChecking of items in \n configuration file WIND.INI\nChecking of items in \n configuration file WIND.INI\nShow table 1\n{ OrCAD/SDT IV Configuration File }\nPDRV = 'C:\\ORCADESP\\DRV\\'\nPSCH = 'C:\\PERTINAX\\WORK\\'\nPLIB = 'C:\\PERTINAX\\LIBRARY\\*.LIB'\nDD = 'vga640.DRV'\nPRD = 'hplaser7.DRV'\nPLD = 'dxf.drv'\nLIB = 'ZAT_BIN.LIB'\nTable 1\nSome notes in parameters of table 1\nSCH subdirectory for \ndrawings files - fixed (Work)\nTMP subdirectory for \nnetlist files (products of compile) -fixed (Temp)\nPRO subdirectory for \nparameters of communication Profibus - fixed (Profi)\nHere the files KBL.DAT and \nBUSPAR.DAT are placed.\nLOG system value - \nfixed (9)\nCOM number of \nasynchronous port at communication through serial line - optional\nfor COM1\nfor COM2\nAUT type of control \nboard (this parameter determines the communication rate) - optional\nD D352\nP VM42\nKOM communication type \n- optional\nA communication through \nserial line communication through Profibus-FMS network, when\nP0 board DCPAT is set to \naddress D000\nP1 board DCPAT is set to \naddress D100\nP8 board DCPAT is set to \naddress DE00\nBMP system value - \nfixed (2)\nPAN system value - \nfixed (1)\nSIM system value - \nfixed (0)\nSSA system value - \nfixed (0)\nZOL system value - \nfixed (61ED)\nW95 system value - \nfixed (1)\nMPO system value - \nfixed (1)\nBIN system value - fixed\nD352\nVM42\nOpen the program from PERTINAX group as \n follows:\nFrom the menu click automat open task open sheet-ex. 2CBA4105 like in fig. \n 1\nFigure 1\nTest all signals by selection and press start / \n stop\nCheck the input signals and output \n signals (i/p L & o/p L or i/pH & o/p H )\nIf found any errors check the program ZAT CAD \n (DOC# SW-003-r0 )\nLocation: \nEquipment code:\nTested Date : \nChecked by: \nSignature :",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "../all_docs/graphics/sw-004-1.png",
+   "alt": ""
+  },
+  {
+   "src": "../all_docs/graphics/sw-004-2.png",
+   "alt": ""
+  }
+ ]
+}

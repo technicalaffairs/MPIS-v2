@@ -1,0 +1,179 @@
+{
+ "id": "arabic-web-ar-app-gen-edepc-instr-control-ar-scs-018-r0-htm",
+ "doc_number": "STS-018-R0",
+ "title_en": "",
+ "title_ar": "STS-018-r0 \nAPPROVED",
+ "category": "instruments",
+ "source_path": "arabic_web/Ar_app_gen/EDEPC/Instr+control/Ar_SCS-018-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "القوة \n المحطة"
+  },
+  {
+   "type": "paragraph",
+   "text": "التقنية \n الإجراء"
+  },
+  {
+   "type": "paragraph",
+   "text": "معدات:Speed Tronic \n MK IV Control System\n HP turbine speed check - TNH\n General Electric"
+  },
+  {
+   "type": "paragraph",
+   "text": "رقم الوثيقة: STS-018-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "صدرت إلى:\n Hurghada PS"
+  },
+  {
+   "type": "paragraph",
+   "text": "حالة: \n موافقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "إجراء:\n فحص المعدات (I1 - Y1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "موافقة تاريخ: 06 July 2005"
+  },
+  {
+   "type": "paragraph",
+   "text": "تاريخ ليكون \n تمت المراجعة: يوليو 2010"
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum Hassan"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector"
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات السلامة"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear the appropriate safety equipment as safety shoes, safety helmet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work \n area is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit at shut down mode"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch off all CB's on the motor control center (MCC)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category",
+    "Wear the appropriate safety equipment as safety shoes, safety helmet",
+    "Safety fence with caution marks surrounding the work \n area is required.",
+    "Unit at shut down mode",
+    "Switch off all CB's on the motor control center (MCC)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الأدوات والمعدات"
+  },
+  {
+   "type": "paragraph",
+   "text": "Frequency source,\n Frequency meter"
+  },
+  {
+   "type": "paragraph",
+   "text": "سائق المسمار,\n صداري"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Frequency source,\n Frequency meter",
+    "سائق المسمار,\n صداري"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العمل المراد تنفيذه"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect a frequency \n source and frequency meter to the turbine magnetic speed pickup (77NH) of the \n analog I/O modules < AIO3 > and jumper the remaining pickups in parallel to \n the first. Simulate HP turbine speed to < R > < S > and < T > \nملحوظة :\n It may be necessary to disconnect the magnetic pickup to prevent ioading down \n the test oscillator signal."
+  },
+  {
+   "type": "paragraph",
+   "text": "Select \"NORMAL\" \n display mode and observe the HP turbine speed TNH on the CRT"
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjust the frequency \n source to \n obtain frequency (HZ) equal to rated shaft speed (rpm) specified in the \n control spec-setting (5089HZ).Verify TNH displayed is 100%"
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjust control gain \n constant TNK H2 if necessary record the new value of the PROM constant (11590 \n CNT15)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase oscillator \n frequency to 125% of rated shaft speed and verify that TNH displayed is \n correct"
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the test \n oscillator and the test counter from the turbine magnetic speed pickups (77 \n NH) input of the analog I/O module < AIO3 > and disconnect the jumpers between \n the remaining pickups and the first."
+  },
+  {
+   "type": "paragraph",
+   "text": "Reconnect the three \n magnetic pickups (77 NH 1,2,3) inputs to the analog I/O module (AIO3)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect a frequency \n source and frequency meter to the turbine magnetic speed pickup (77NH) of the \n analog I/O modules < AIO3 > and jumper the remaining pickups in parallel to \n the first. Simulate HP turbine speed to < R > < S > and < T > \nملحوظة :\n It may be necessary to disconnect the magnetic pickup to prevent ioading down \n the test oscillator signal.",
+    "Select \"NORMAL\" \n display mode and observe the HP turbine speed TNH on the CRT",
+    "Adjust the frequency \n source to \n obtain frequency (HZ) equal to rated shaft speed (rpm) specified in the \n control spec-setting (5089HZ).Verify TNH displayed is 100%",
+    "Adjust control gain \n constant TNK H2 if necessary record the new value of the PROM constant (11590 \n CNT15).",
+    "Increase oscillator \n frequency to 125% of rated shaft speed and verify that TNH displayed is \n correct",
+    "Disconnect the test \n oscillator and the test counter from the turbine magnetic speed pickups (77 \n NH) input of the analog I/O module < AIO3 > and disconnect the jumpers between \n the remaining pickups and the first.",
+    "Reconnect the three \n magnetic pickups (77 NH 1,2,3) inputs to the analog I/O module (AIO3)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:"
+  }
+ ],
+ "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:Speed Tronic \n MK IV Control System\n HP turbine speed check - TNH\n General Electric\nرقم الوثيقة: STS-018-r0\nصدرت إلى:\n Hurghada PS\nحالة: \n موافقة\nإجراء:\n فحص المعدات (I1 - Y1)\nموافقة تاريخ: 06 July 2005\nتاريخ ليكون \n تمت المراجعة: يوليو 2010\nمقدمة\nThis document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum Hassan\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nاحتياطات السلامة\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nSafety fence with caution marks surrounding the work \n area is required.\nUnit at shut down mode\nSwitch off all CB's on the motor control center (MCC)\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nSafety fence with caution marks surrounding the work \n area is required.\nUnit at shut down mode\nSwitch off all CB's on the motor control center (MCC)\nالأدوات والمعدات\nFrequency source,\n Frequency meter\nسائق المسمار,\n صداري\nFrequency source,\n Frequency meter\nسائق المسمار,\n صداري\nالعمل المراد تنفيذه\nConnect a frequency \n source and frequency meter to the turbine magnetic speed pickup (77NH) of the \n analog I/O modules < AIO3 > and jumper the remaining pickups in parallel to \n the first. Simulate HP turbine speed to < R > < S > and < T > \nملحوظة :\n It may be necessary to disconnect the magnetic pickup to prevent ioading down \n the test oscillator signal.\nSelect \"NORMAL\" \n display mode and observe the HP turbine speed TNH on the CRT\nAdjust the frequency \n source to \n obtain frequency (HZ) equal to rated shaft speed (rpm) specified in the \n control spec-setting (5089HZ).Verify TNH displayed is 100%\nAdjust control gain \n constant TNK H2 if necessary record the new value of the PROM constant (11590 \n CNT15).\nIncrease oscillator \n frequency to 125% of rated shaft speed and verify that TNH displayed is \n correct\nDisconnect the test \n oscillator and the test counter from the turbine magnetic speed pickups (77 \n NH) input of the analog I/O module < AIO3 > and disconnect the jumpers between \n the remaining pickups and the first.\nReconnect the three \n magnetic pickups (77 NH 1,2,3) inputs to the analog I/O module (AIO3)\nConnect a frequency \n source and frequency meter to the turbine magnetic speed pickup (77NH) of the \n analog I/O modules < AIO3 > and jumper the remaining pickups in parallel to \n the first. Simulate HP turbine speed to < R > < S > and < T > \nملحوظة :\n It may be necessary to disconnect the magnetic pickup to prevent ioading down \n the test oscillator signal.\nSelect \"NORMAL\" \n display mode and observe the HP turbine speed TNH on the CRT\nAdjust the frequency \n source to \n obtain frequency (HZ) equal to rated shaft speed (rpm) specified in the \n control spec-setting (5089HZ).Verify TNH displayed is 100%\nAdjust control gain \n constant TNK H2 if necessary record the new value of the PROM constant (11590 \n CNT15).\nIncrease oscillator \n frequency to 125% of rated shaft speed and verify that TNH displayed is \n correct\nDisconnect the test \n oscillator and the test counter from the turbine magnetic speed pickups (77 \n NH) input of the analog I/O module < AIO3 > and disconnect the jumpers between \n the remaining pickups and the first.\nReconnect the three \n magnetic pickups (77 NH 1,2,3) inputs to the analog I/O module (AIO3)\nالموقع: المعدات \nالتعيين: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}
