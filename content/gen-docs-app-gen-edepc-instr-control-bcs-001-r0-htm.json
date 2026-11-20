@@ -14,49 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:"
-  },
-  {
-   "type": "heading",
-   "level": 1,
-   "text": "Burners \n Control System"
-  },
-  {
-   "type": "paragraph",
-   "text": "Document No: \n BCS-001-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "Issued to: Abu Sultan 4X150MW"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Procedure:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Testing Procedures (P1:Y1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Approved Date: 26 Feb 2005"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: Feb 2010"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -248,11 +213,465 @@
    "truncated_rows": 0
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "#",
+     "Termination No",
+     "Point Description",
+     "Contact Type",
+     "Point Type",
+     "OK"
+    ],
+    [
+     "1",
+     "1-2",
+     "Igniter Oil Valve Open",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "2",
+     "3-4",
+     "Igniter Valve Open",
+     "NC",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "3",
+     "5-6",
+     "Igniter Oil Valve Closed",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "4",
+     "7-8",
+     "Igniter Valve Closed",
+     "NC",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "5",
+     "9-10",
+     "Spare",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "11-12",
+     "Open Igniter Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "7",
+     "13-14",
+     "Closed Igniter Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "8",
+     "15-16",
+     "Open Igniter Purge Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "9",
+     "17-18",
+     "Spare",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "19-20",
+     "Burner Gas Valve Open",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "11",
+     "21-22",
+     "Gas Valve Open",
+     "NC",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "12",
+     "23-24",
+     "Burner Gas Valve Closed",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "13",
+     "25-26",
+     "Gas Valve Closed",
+     "NO",
+     "",
+     ""
+    ],
+    [
+     "14",
+     "27-28",
+     "Gas Valve Closed",
+     "NC",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "29-30",
+     "Open Burner Gas Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "16",
+     "31-32",
+     "Closed Burner Gas Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "17",
+     "33-34",
+     "Closed Burner Gas Vent Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "18",
+     "35-36",
+     "Spare",
+     "",
+     "",
+     ""
+    ],
+    [
+     "19",
+     "37-38",
+     "Air Register Closed",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "20",
+     "39-40",
+     "Air Register Closed",
+     "NC",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "21",
+     "41-42",
+     "Air Register \n Open",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "22",
+     "43-44",
+     "Air Register",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "23",
+     "45-46",
+     "Air Register",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "24",
+     "47-48",
+     "Open Air Register",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "25",
+     "49-50",
+     "Closed Air Register",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "26",
+     "51-52",
+     "Spare",
+     "",
+     "",
+     ""
+    ],
+    [
+     "27",
+     "53-54",
+     "Burner Oil Valve Open",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "28",
+     "55-56",
+     "Oil valve open",
+     "NC",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "29",
+     "57-58",
+     "Burner Oil Valve Closed",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "30",
+     "59-60",
+     "Oil Valve Closed",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "31",
+     "61-62",
+     "Oil Valve Closed",
+     "NC",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "32",
+     "63-64",
+     "Open Burner Oil Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "#",
+     "Termination No",
+     "Point Description",
+     "Contact Type",
+     "Point Type",
+     "OK"
+    ],
+    [
+     "33",
+     "65-66",
+     "Closed Burner Oil Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "34",
+     "67-68",
+     "Spare",
+     "",
+     "",
+     ""
+    ],
+    [
+     "35",
+     "69-70",
+     "Purge Steam Valve Open",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "36",
+     "71-72",
+     "Purge Steam Valve Closed",
+     "NC",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "37",
+     "73-74",
+     "Purge Steam Adq.",
+     "NO",
+     "Pressure SW.",
+     ""
+    ],
+    [
+     "38",
+     "75-76",
+     "Open Purge Steam Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "39",
+     "77-78",
+     "Closed Purge Steam Valve",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "40",
+     "79-80",
+     "Spare",
+     "",
+     "",
+     ""
+    ],
+    [
+     "41",
+     "81-82",
+     "Oil Gun Extended",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "42",
+     "83-84",
+     "Oil \n Gun Retracted",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "43",
+     "85-86",
+     "Extend Oil \n Gun",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "44",
+     "87-88",
+     "Retracted Oil \n Gun",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "45",
+     "89-90",
+     "Oil \n Gun Coupled",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "46",
+     "91-92",
+     "Igniter \n Gun Coupled",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "47",
+     "93-94",
+     "Igniter Extended",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "48",
+     "95-96",
+     "Igniter Retracted",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "49",
+     "97-98",
+     "Extended Igniter",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "50",
+     "99-100",
+     "Retracted Igniter",
+     "",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "51",
+     "101-102",
+     "H.E.S.I Extended",
+     "NO",
+     "Limit SW.",
+     ""
+    ],
+    [
+     "52",
+     "103-104",
+     "Extend H.E.S.I",
+     "NC",
+     "Solenoid Valve",
+     ""
+    ],
+    [
+     "53",
+     "105-106",
+     "H.E.S.I Transformer",
+     "",
+     "Coil",
+     ""
+    ],
+    [
+     "54",
+     "107-120",
+     "Spare",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: \nEquipment Code: \nChecked by: \nDate: \nSignature:"
   }
  ],
- "text": "Power \n Stations\nTechnical Procedure\nEquipment:\nBurners \n Control System\nDocument No: \n BCS-001-r0\nIssued to: Abu Sultan 4X150MW\nStatus: APPROVED\nProcedure:\nTesting Procedures (P1:Y1)\nApproved Date: 26 Feb 2005\nDate to be Reviewed: Feb 2010\nIntroduction\nThis document outlines the testing procedures P1, which must be performed \non an annually bases as indicated by Y1 in the title block.\nThere are eight burners \nper unit manufactured by Forney Company. The major parts of each burner are \n(solenoid valve, limit switch and spark system). They are installed on the \nmovable parts of the burner such as oil gun, igniter gun, fuel valve and air \nregister.\nThey are \nused for moving these parts from closed position to opened position and vice \nversa and for giving the indication of these parts .In addition to that, the \nSpark Rod is used for igniting the light fuel with a High Voltage Electric spark \nfor starting a Burning Operation.\nThe first draft initiated by eng. Islam Sabry on\n18 \nApril 2004, submitted by eng. Ibrahim Hefny on \n24\nApril 2004, reviewed by EDEPC\nQuality Control eng. Abdel Menem Al Emam, accepted by General Director eng. \nHamdy\nAzab and approved by eng. Mokhtar Abdel Latef Head Sector of Abu Sultan Power\nPlant.\nThis document is accepted by eng. Samir \n Abd El Gilil EDEPC MPIS coordinator, and certified by accountant; \n Mahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control head sector.\nSafety Precaution\nA work permit must be issued, the qualified maintenance staff must carry the suitable \nID safety category.\nSafety\nfence with caution marks surrounding the work area is required.\nWear safety and healthy equipment as safety helmet, \nsafety shoes ... etc.\nThe boiler must be off.\nClose manual isolating valves for all main fuel.\nDisconnect power supply.\nA work permit must be issued, the qualified maintenance staff must carry the suitable \nID safety category.\nSafety\nfence with caution marks surrounding the work area is required.\nWear safety and healthy equipment as safety helmet, \nsafety shoes ... etc.\nThe boiler must be off.\nClose manual isolating valves for all main fuel.\nDisconnect power supply.\nTools and Equipment\nSafety helmet, Shoes, and\nrags.\nScrew Driver Kit.\nDigital voltmeter.\n110 AC volt External Power Supply.\nSafety helmet, Shoes, and\nrags.\nScrew Driver Kit.\nDigital voltmeter.\n110 AC volt External Power Supply.\nWork to be \nCarried out\nPreparation\nReview Technical reference material and \n manufactures manual.\nObtain copy of (solenoid valve, limit Switch \n and Spark System) field maintenance File.\nRemove \n Solenoid and Spark Transformer Terminals by disconnecting wires (in the \n Terminal Cabinet).\nTesting Procedure (solenoid valve)\nConnect solenoid terminal to 110 AC Voltage \n external power supply.\nTurn On the Power Supply Switch.\nCheck the Air output from the Solenoid.\nIf there is Air output equal to the supplied \n Air then the Solenoid is OK.\nIf not, you have two estimated problems.\n The first \n is the damage of the solenoid coil and you can measure it's resistance with \n the Multimeter-if it is bad you must replace it with a new coil.\n The second \n is of the Solenoid parts (O rings, vent strainer & Spool).\nIf the problem still exists, you have to \n replace all the solenoid with a new one.\nTesting Procedure (Limit Switch)\nWhen the solenoid valve energized to move\nThe movable parts (GUNES_VALVES) to the \n open\nDirection\nCheck the open limit Switch point by voltmeter\nWhen the solenoid valve energized to move the \n movable parts (GUNES_VALVES) to the closed direction\nCheck the closed limit Switch point by \n voltmeter\nIf these points are ok the limit Switch is ok\nElse then you have two estimated problems.\nThe first adjust the movable parts \n guide.\nThe Second adjust the limit Switch \n lever. Or replace it with a new one.\nTesting \nProcedure (Spark System)\nRetract out the rod of the Spark\nConnect Transformer Terminals to 110 AC Voltage \n External Power supply.\nTurn On the Power Supply Switch.\nCheck the generated Spark and note its color.\nIf the \n generated Spark appeared good, then the Spark System is OK.\nIf not, you have two estimated Procedures.\nThe first is to clean the rod and its \n head.\nThe Second is to replace all Spark with \n a new one.\nReturn Solenoid Valve and Spark System to Service\nReturn solenoid valve and spark system to \n service by disconnecting it from the 110 AC voltage power supply.\nReconnect the wires to the cabinet termination.\nConnect main power.\nOpen manual isolating valves.\nPlace a copy of test result in the field \n maintenance file.\nRepeat all the previous steps for all other \n Burners.\n\nLocation: \nEquipment Code: \nChecked by: \nDate: \nSignature:",
+ "text": "Power \n Stations | Technical Procedure\nIntroduction\nThis document outlines the testing procedures P1, which must be performed \non an annually bases as indicated by Y1 in the title block.\nThere are eight burners \nper unit manufactured by Forney Company. The major parts of each burner are \n(solenoid valve, limit switch and spark system). They are installed on the \nmovable parts of the burner such as oil gun, igniter gun, fuel valve and air \nregister.\nThey are \nused for moving these parts from closed position to opened position and vice \nversa and for giving the indication of these parts .In addition to that, the \nSpark Rod is used for igniting the light fuel with a High Voltage Electric spark \nfor starting a Burning Operation.\nThe first draft initiated by eng. Islam Sabry on\n18 \nApril 2004, submitted by eng. Ibrahim Hefny on \n24\nApril 2004, reviewed by EDEPC\nQuality Control eng. Abdel Menem Al Emam, accepted by General Director eng. \nHamdy\nAzab and approved by eng. Mokhtar Abdel Latef Head Sector of Abu Sultan Power\nPlant.\nThis document is accepted by eng. Samir \n Abd El Gilil EDEPC MPIS coordinator, and certified by accountant; \n Mahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control head sector.\nSafety Precaution\nA work permit must be issued, the qualified maintenance staff must carry the suitable \nID safety category.\nSafety\nfence with caution marks surrounding the work area is required.\nWear safety and healthy equipment as safety helmet, \nsafety shoes ... etc.\nThe boiler must be off.\nClose manual isolating valves for all main fuel.\nDisconnect power supply.\nA work permit must be issued, the qualified maintenance staff must carry the suitable \nID safety category.\nSafety\nfence with caution marks surrounding the work area is required.\nWear safety and healthy equipment as safety helmet, \nsafety shoes ... etc.\nThe boiler must be off.\nClose manual isolating valves for all main fuel.\nDisconnect power supply.\nTools and Equipment\nSafety helmet, Shoes, and\nrags.\nScrew Driver Kit.\nDigital voltmeter.\n110 AC volt External Power Supply.\nSafety helmet, Shoes, and\nrags.\nScrew Driver Kit.\nDigital voltmeter.\n110 AC volt External Power Supply.\nWork to be \nCarried out\nPreparation\nReview Technical reference material and \n manufactures manual.\nObtain copy of (solenoid valve, limit Switch \n and Spark System) field maintenance File.\nRemove \n Solenoid and Spark Transformer Terminals by disconnecting wires (in the \n Terminal Cabinet).\nTesting Procedure (solenoid valve)\nConnect solenoid terminal to 110 AC Voltage \n external power supply.\nTurn On the Power Supply Switch.\nCheck the Air output from the Solenoid.\nIf there is Air output equal to the supplied \n Air then the Solenoid is OK.\nIf not, you have two estimated problems.\n The first \n is the damage of the solenoid coil and you can measure it's resistance with \n the Multimeter-if it is bad you must replace it with a new coil.\n The second \n is of the Solenoid parts (O rings, vent strainer & Spool).\nIf the problem still exists, you have to \n replace all the solenoid with a new one.\nTesting Procedure (Limit Switch)\nWhen the solenoid valve energized to move\nThe movable parts (GUNES_VALVES) to the \n open\nDirection\nCheck the open limit Switch point by voltmeter\nWhen the solenoid valve energized to move the \n movable parts (GUNES_VALVES) to the closed direction\nCheck the closed limit Switch point by \n voltmeter\nIf these points are ok the limit Switch is ok\nElse then you have two estimated problems.\nThe first adjust the movable parts \n guide.\nThe Second adjust the limit Switch \n lever. Or replace it with a new one.\nTesting \nProcedure (Spark System)\nRetract out the rod of the Spark\nConnect Transformer Terminals to 110 AC Voltage \n External Power supply.\nTurn On the Power Supply Switch.\nCheck the generated Spark and note its color.\nIf the \n generated Spark appeared good, then the Spark System is OK.\nIf not, you have two estimated Procedures.\nThe first is to clean the rod and its \n head.\nThe Second is to replace all Spark with \n a new one.\nReturn Solenoid Valve and Spark System to Service\nReturn solenoid valve and spark system to \n service by disconnecting it from the 110 AC voltage power supply.\nReconnect the wires to the cabinet termination.\nConnect main power.\nOpen manual isolating valves.\nPlace a copy of test result in the field \n maintenance file.\nRepeat all the previous steps for all other \n Burners.\nUnit Number | Burner Number\n# | Termination No | Point Description | Contact Type | Point Type | OK\n1 | 1-2 | Igniter Oil Valve Open | NO | Limit SW. | \n2 | 3-4 | Igniter Valve Open | NC | Limit SW. | \n3 | 5-6 | Igniter Oil Valve Closed | NO | Limit SW. | \n4 | 7-8 | Igniter Valve Closed | NC | Limit SW. | \n5 | 9-10 | Spare |  |  | \n6 | 11-12 | Open Igniter Valve |  | Solenoid Valve | \n7 | 13-14 | Closed Igniter Valve |  | Solenoid Valve | \n8 | 15-16 | Open Igniter Purge Valve |  | Solenoid Valve | \n9 | 17-18 | Spare |  |  | \n10 | 19-20 | Burner Gas Valve Open | NO | Limit SW. | \n11 | 21-22 | Gas Valve Open | NC | Limit SW. | \n12 | 23-24 | Burner Gas Valve Closed | NO | Limit SW. | \n13 | 25-26 | Gas Valve Closed | NO |  | \n14 | 27-28 | Gas Valve Closed | NC |  | \n15 | 29-30 | Open Burner Gas Valve |  | Solenoid Valve | \n16 | 31-32 | Closed Burner Gas Valve |  | Solenoid Valve | \n17 | 33-34 | Closed Burner Gas Vent Valve |  | Solenoid Valve | \n18 | 35-36 | Spare |  |  | \n19 | 37-38 | Air Register Closed | NO | Limit SW. | \n20 | 39-40 | Air Register Closed | NC | Limit SW. | \n21 | 41-42 | Air Register \n Open | NO | Limit SW. | \n22 | 43-44 | Air Register | NO | Limit SW. | \n23 | 45-46 | Air Register | NO | Limit SW. | \n24 | 47-48 | Open Air Register |  | Solenoid Valve | \n25 | 49-50 | Closed Air Register |  | Solenoid Valve | \n26 | 51-52 | Spare |  |  | \n27 | 53-54 | Burner Oil Valve Open | NO | Limit SW. | \n28 | 55-56 | Oil valve open | NC | Limit SW. | \n29 | 57-58 | Burner Oil Valve Closed | NO | Limit SW. | \n30 | 59-60 | Oil Valve Closed | NO | Limit SW. | \n31 | 61-62 | Oil Valve Closed | NC | Limit SW. | \n32 | 63-64 | Open Burner Oil Valve |  | Solenoid Valve | \n# | Termination No | Point Description | Contact Type | Point Type | OK\n33 | 65-66 | Closed Burner Oil Valve |  | Solenoid Valve | \n34 | 67-68 | Spare |  |  | \n35 | 69-70 | Purge Steam Valve Open | NO | Limit SW. | \n36 | 71-72 | Purge Steam Valve Closed | NC | Limit SW. | \n37 | 73-74 | Purge Steam Adq. | NO | Pressure SW. | \n38 | 75-76 | Open Purge Steam Valve |  | Solenoid Valve | \n39 | 77-78 | Closed Purge Steam Valve |  | Solenoid Valve | \n40 | 79-80 | Spare |  |  | \n41 | 81-82 | Oil Gun Extended | NO | Limit SW. | \n42 | 83-84 | Oil \n Gun Retracted | NO | Limit SW. | \n43 | 85-86 | Extend Oil \n Gun |  | Solenoid Valve | \n44 | 87-88 | Retracted Oil \n Gun |  | Solenoid Valve | \n45 | 89-90 | Oil \n Gun Coupled | NO | Limit SW. | \n46 | 91-92 | Igniter \n Gun Coupled | NO | Limit SW. | \n47 | 93-94 | Igniter Extended | NO | Limit SW. | \n48 | 95-96 | Igniter Retracted | NO | Limit SW. | \n49 | 97-98 | Extended Igniter |  | Solenoid Valve | \n50 | 99-100 | Retracted Igniter |  | Solenoid Valve | \n51 | 101-102 | H.E.S.I Extended | NO | Limit SW. | \n52 | 103-104 | Extend H.E.S.I | NC | Solenoid Valve | \n53 | 105-106 | H.E.S.I Transformer |  | Coil | \n54 | 107-120 | Spare |  |  | \nLocation: \nEquipment Code: \nChecked by: \nDate: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

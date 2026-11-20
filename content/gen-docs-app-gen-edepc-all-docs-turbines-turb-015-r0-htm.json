@@ -14,29 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:"
-  },
-  {
-   "type": "heading",
-   "level": 4,
-   "text": "Steam Turbine"
-  },
-  {
-   "type": "paragraph",
-   "text": "High \n Pressure Part"
-  },
-  {
-   "type": "paragraph",
-   "text": "Skoda, \n Czech Republic"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -166,11 +151,88 @@
    "type": "table",
    "rows": [
     [
+     "After Overhaul",
+     "Before Overhaul",
+     "Units",
+     "Setting",
+     ""
+    ],
+    [
      "",
      "",
+     "MW",
+     "210",
+     "Load"
+    ],
+    [
      "",
      "",
+     "MP",
+     "14",
      "Pressure behind \n A-wheel"
+    ],
+    [
+     "",
+     "",
+     "kp",
+     "85",
+     "Vacuum in \n Condenser"
+    ],
+    [
+     "",
+     "",
+     "oC",
+     "50",
+     "Temp. of exhaust \n steam"
+    ],
+    [
+     "",
+     "",
+     "oC",
+     "90",
+     "Bearing temp. of \n HP Front"
+    ],
+    [
+     "",
+     "",
+     "oC",
+     "90",
+     "Bearing temp. of \n HP Rear"
+    ],
+    [
+     "",
+     "",
+     "mm",
+     "-1, +3",
+     "Relative Displacement of \n HP \n Rotor"
+    ],
+    [
+     "",
+     "",
+     "mm",
+     "25",
+     "Absolute \n Displacement of HP \n Rotor"
+    ],
+    [
+     "",
+     "",
+     "um",
+     "120",
+     "Eccentricity of \n HP Rotor"
+    ],
+    [
+     "",
+     "",
+     "mm/s",
+     "3.5",
+     "Vibration of HP Front \n Bearing"
+    ],
+    [
+     "",
+     "",
+     "mm/s",
+     "3.5",
+     "Vibration of HP Rear Bearing"
     ]
    ],
    "truncated_rows": 0
@@ -423,16 +485,118 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "TR."
+   "type": "table",
+   "rows": [
+    [
+     "TR.\n 0-400 kpa",
+     "11.48",
+     "13.6",
+     "14.44",
+     "15.2",
+     "15.76",
+     "16.2",
+     "16.4",
+     "[ mA ]"
+    ],
+    [
+     "P2.",
+     "187",
+     "239.9",
+     "261.6",
+     "280.2",
+     "294.2",
+     "303",
+     "310",
+     "[ kpa ]"
+    ],
+    [
+     "DRW.",
+     "5",
+     "8.6",
+     "11.2",
+     "15",
+     "25",
+     "36",
+     "--",
+     "[ mm ]"
+    ],
+    [
+     "No. 1",
+     "4.2",
+     "7.0",
+     "12.0",
+     "17.5",
+     "28.2",
+     "34",
+     "36.5",
+     ""
+    ],
+    [
+     "No. 2",
+     "4.0",
+     "8.4",
+     "12.6",
+     "23.9",
+     "31.4",
+     "34.4",
+     "34.8",
+     ""
+    ],
+    [
+     "No. 3",
+     "4.6",
+     "8.9",
+     "12.3",
+     "23",
+     "31.3",
+     "34.3",
+     "34.5",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "HP control valves No. 4 :"
   },
   {
-   "type": "paragraph",
-   "text": "TR."
+   "type": "table",
+   "rows": [
+    [
+     "TR.\n 0-400 kpa",
+     "15.6",
+     "16.24",
+     "16.56",
+     "17.32",
+     "[ mA ]"
+    ],
+    [
+     "P2.",
+     "290",
+     "306",
+     "314",
+     "333",
+     "[ kpa ]"
+    ],
+    [
+     "DRW.",
+     "0",
+     "6",
+     "12",
+     "35",
+     "[ mm ]"
+    ],
+    [
+     "No. 4",
+     "0",
+     "5.8",
+     "15.4",
+     "34.8",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "list",
@@ -556,6 +720,32 @@
    "text": "The \n thermometer and vibration of bearing at 40 MW"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "No. 1",
+     "60 C",
+     "0.4 mm/S2"
+    ],
+    [
+     "No. 2",
+     "60 C",
+     "0.8 mm/S2"
+    ],
+    [
+     "No. 1",
+     "",
+     ""
+    ],
+    [
+     "No. 2",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "The balance of rotors: HP 40 um Gen \n 58 um\n MP 12 um\n LP 65 um"
   },
@@ -581,9 +771,17 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Item",
+     "Setting",
+     "Unit",
+     "Before \n Inspection",
+     "After \n Inspection",
+     "Remarks"
+    ],
+    [
+     "HP Bearing Vibration",
      "No. 1",
-     "",
+     "0.6",
      "mm/sec",
      "",
      "",
@@ -597,9 +795,9 @@
      ""
     ],
     [
-     "",
+     "HP Bearing \n Temp.",
      "No. 1",
-     "",
+     "75",
      "C",
      "",
      "",
@@ -613,9 +811,17 @@
      ""
     ],
     [
-     "",
-     "",
+     "HP \n Rotor\n Eccentricity",
+     "30",
      "m",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Oil Temperature",
+     "40",
+     "C",
      "",
      "",
      ""
@@ -636,6 +842,54 @@
    "text": "Figure 2"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Axial & Rad. clearance",
+     "a",
+     "b",
+     "c",
+     "d",
+     "e",
+     "f",
+     "",
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    [
+     "Before Close",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Before Close",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "HP Front Stuffing Box"
   },
@@ -647,6 +901,13 @@
    "type": "table",
    "rows": [
     [
+     "Axial Clearance"
+    ],
+    [
+     "b",
+     "c"
+    ],
+    [
      "min.",
      "max.",
      "min.",
@@ -656,8 +917,32 @@
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "After opening"
+   "type": "table",
+   "rows": [
+    [
+     "Radial Clearance"
+    ],
+    [
+     "left",
+     "right"
+    ],
+    [
+     "min.",
+     "max.",
+     "min.",
+     "max."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Datum"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -668,8 +953,51 @@
    "text": "Figure 4"
   },
   {
-   "type": "paragraph",
-   "text": "After opening"
+   "type": "table",
+   "rows": [
+    [
+     "Axial Clearance"
+    ],
+    [
+     "b",
+     "c"
+    ],
+    [
+     "min.",
+     "max.",
+     "min.",
+     "max."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Radial Clearance"
+    ],
+    [
+     "left",
+     "right"
+    ],
+    [
+     "min.",
+     "max.",
+     "min.",
+     "max."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Datum"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -680,8 +1008,51 @@
    "text": "Figure 5"
   },
   {
-   "type": "paragraph",
-   "text": "After opening"
+   "type": "table",
+   "rows": [
+    [
+     "Axial Clearance"
+    ],
+    [
+     "b",
+     "c"
+    ],
+    [
+     "min.",
+     "max.",
+     "min.",
+     "max."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Radial Clearance"
+    ],
+    [
+     "left",
+     "right"
+    ],
+    [
+     "min.",
+     "max.",
+     "min.",
+     "max."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Datum"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -815,12 +1186,214 @@
    "text": "Figure 10"
   },
   {
-   "type": "paragraph",
-   "text": "Diaphragm"
-  },
-  {
-   "type": "paragraph",
-   "text": "Diaphragm"
+   "type": "table",
+   "rows": [
+    [
+     "Measuring Point",
+     "A",
+     "B",
+     "C",
+     "",
+     ""
+    ],
+    [
+     "Front Stuffing Box Cover",
+     "Front Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Rear Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Front Stuffing Box",
+     "Front Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Rear Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bore Outer Casing",
+     "Front Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Diaphragm",
+     "Wheel 7a",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Wheel 6a",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Wheel 5a",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Wheel 4a",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Wheel 3a",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Wheel 2a",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Wheel 1a",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Middle Stuffing Box",
+     "Front Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Rear Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Nozzle Segment",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Diaphragm",
+     "Wheel 8",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Wheel 9",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Wheel 10",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Bore Outer Casing",
+     "Rear Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Rear Stuffing Box",
+     "Front Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Rear Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Rear Stuffing Box Cover",
+     "Front Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Rear Part",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Date: \n Measured by: \n Signature:"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
@@ -896,15 +1469,330 @@
    "text": "Journal Bearings"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Ø \n Diam.",
+     "A",
+     "B",
+     "C\n Interference",
+     "Date/ Signature"
+    ],
+    [
+     "1",
+     "2",
+     "Left",
+     "Right"
+    ],
+    [
+     "HP front bearing",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "HP rear bearing",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "IP front bearing",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "IP rear bearing",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "LP front bearing",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "LP rear bearing",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Figure 13"
   },
   {
    "type": "paragraph",
    "text": "Figure 14"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Outside Circumference",
+     "",
+     "Inside Circumference"
+    ],
+    [
+     "1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "11",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "12",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "13",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "14",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "16",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\nSteam Turbine\nHigh \n Pressure Part\nSkoda, \n Czech Republic\nIntroduction\nThis document outlines the \nmajor maintenance procedures \nP1, which must be performed every five years as indicated by Y5 \nin the title block.\nTechnical specification \nof Steam Turbine:\nNominal Output at Steam Quantity Rate 670 t/h\nAt Oil Combustion \n 206 MW\nAt Gas combustion \n 210 MW\nNominal Turbine Speed \n 3000 rpm\nNominal Steam Pressure \n 16.42 Mpa\nNominal Steam Temperature 530 \nC\nNominal Reheating Steam Pressure 4 Mpa\nNominal Temperature of Cooling Water 27 C\nCritical Speed of HP Rotor \n 2400 \nrpm\nThe first draft initiated \n& tested by \neng. Mohammed Abd \nEl-Qader, reviewed by \nmaintenance manager eng. Mohammed Farag, revised by EDEPC inspection and quality \ncontrol general director \neng. Samir Abd El-Gelil, and approved by eng. Fathy Ragab Head Sector of Talkha \nPower Station.\nThis document accepted by eng. Samir Abd El Gelil; \n EDEPC inspection & quality control general director, MPIS coordinator, and certified by accountant Mahmoud Soliman: \n EDEPC planning & financial \n prediction head sector, and supervisor of inspection & \n quality control's head sector.\nSafety Precaution\nWear the safety and healthy \nequipment as safety helmet, shoes, gloves\n etc.\nA work permit must be issued.\nThe qualified maintenance staff should be trained and carry the \n suitable safety ID category\nSafety fence with caution marks surrounding the work area is required\nWear the safety and healthy \nequipment as safety helmet, shoes, gloves\n etc.\nShutdown the unit.\nGenerator should be isolated.\nIsolate the circuit breaker of generator\nDisconnect the electric terminals of generator\nThe oil of turbine must be isolated mechanically by closing delivery and \n suction valves.\nBe sure turbine must be completely drainage\nTools and Equipment\nComplete maintenance tool set.\nSpecial tools for turbine.\nCleaning fluid, rags, Manual puller\nFeeler gauge, Dial indicator\nVibrometer, Straight edge\nChecking shaft.\nRings of checking shaft ( ø280 mm ø300 mm ø355 mm ø430 mm )\nLifting device of rotors,\n Lifting device of casings.\nHeating device of bolts including heating elements and templates for bolts \n tightening.\nSpecial wrench.\nAssembly guide of casings.\nTransport stands of rotors.\nHP rotor stand,\n MP rotor stand.,\n LP rotor stand\nWork to be Carried out\nPreparation\nReading during the normal operation before \n overhaul.\nTo follow continuously the technical condition \n of the turbo-generator.\nTo secure a permanent measurement of the rotor \n vibration.\nTo secure the measurement of the foundation \n distortion by civil department. The measurement interval is selected according \n to the foundation behavior.\nTo secure the check of the creeping of the \n material.\nTo secure the necessary spare parts with regard \n to the cycles between the repairs.\nThe \nReading of 2nd unit during Normal Operation\n\nPreparing for Overhaul\nChoose places for dismantled parts ahead.\nPreparing of stands for transport of rotors.\nPreparing of lifting device of turbine casings \n and rotors.\nPreparing of necessary ropes.\nPreparing of support wedges under HP turbine \n casings.\nPreparing of wooden for supporting of turbine \n parts.\nPreparing of the locating bars.\nPreparing of checking shaft with rings.\nFor every casing of turbine prepare boxes for \n putting by of parts of accessories of casings. screws , nuts, pins ... etc\nPreparing of supports for putting guide \n wheels.\nPreparing of working tables and bench vices.\nPrepare the bath for cleaning of small details.\nPreparing of gas welding sets.\nPreparing of argon welding sets.\nPreparing of pressure air circuits, or \n preparing of compressor.\nPreparing of cleaning means.\nPreparing of tools ( spanners, hammers, \n drilling machines, grinding machines ).\nPreparing of set for heating of screws.\nPreparing of spare klingerit.\nPreparing of \" hermetik \", silicon, \n Vaseline, oils with the other viscosity.\nPrepare list of faults, which were recognized \n during operation.\nPrepare necessary team of workers for \n revision.\nChecking and selection of turbine drawings.\nChecking of tools .\nDisassembly\nDismantling of HP Turbine\nDismantling of turbine housing.\nDisassembly of measurement equipment from turbine parts ( magnets, vibration \n probe ... etc ).\nRemoving of insulation from HP part.\nDisassembly of oil piping and servomotors of HP control valves.\nDisassembly of HP control valves.\nDismantling of HP control valves cones.\nDismantling of oil piping and servomotors of HP quick action closing valves.\nDisassembly of HP quick action closing valves.\nDismantling of HP quick action valve cones.\nDismantling of bolts on HP steam connecting pipes.\nDismantling of piping of gland steam.\nDismantling of drain pipe of bolts HP casings.\nDismantling of center pins of inner parts of HP casings.\nLoose of covers of bearing stands No. 2 , 3.\nRemoving of couplings covers .\nRemoving of axial rotor protections from HP rear pedestal, axial measurement \n 2.55 mm\nMeasuring the run out of HP MP coupling in tight position - Fig. 8 .\nDismantling of coupling bolts.\nMeasuring the run out of HP MP coupling in free position - Fig. 8.\nPrepare of axial position of HP rotor for run out and alignment.\nMeasuring the alignment of HP MP coupling - Fig. 9: ------ ( the device \n for alignment fixed on MP part )\nDismantling 4 pcs screws on the lugs of turbine \n casing.\nInserting of supporting wedges ( 4 ) under lugs of HP turbine casing, lifting casing by ( 0.01- 0.02) mm and lock the wedges by \n nuts.\nTake off cone pins from parting plane of HP outside casing.\nDismantling of plugs on upper screw nuts of parting plane of HP \n outside casing.\nInserting of heating particles and by means of heating desk loosen \n all nuts.\nDismantling of lower nuts of parting plane on HP outside casing.\nLoose of nuts on HP outside casing .\nAssembling of 4 lead rods in its place in parting plane of HP turbine casing.\nBy means of press off screws lift the cover of HP turbine casing.\nBy means of device for lifting of HP turbine casing remove the cover of HP part (During this operation rotor must not be lifted simultaneously \n with the cover).\nDismantling of yokes ( scarfs ) on bearings ( No. 2 ).\nDismantling of oil seal inserts ( No. 2 ).\nLoose of cover of HP front pedestal .\nDismantling of oil seal inserts ( No. 1 ).\nDismantling of front bearing pedestal parts and bearing ( No. 1 ).\nRemove cone plugs from carrier of guide wheels, glands and internal HP casing, \n loosen nuts from parting plane of carrier and outside glands.\nRemove carrier and gland Fig. 3 , 5 .\nScrew in depressing screw to the lug of internal casing and lift it by 0.01 \n 0.02 mm.\nLoosen the nuts of screws (by heating) of parting plane of internal casing.\nRemove the cover of internal casing.\nLoosen the nuts of internal gland, remove plugs and remove upper part of \n sealing Fig. 4 .\nCheck of alignment in couplings after first pick up .\nRepair of axial and radial centricity of HP rotors - Fig. 10 .\nAlignment of couplings after pick up of rotors .\nRemoving of diaph. carries from upper parts HP outer casing .\nBolts of HP parting plane prepare for check measuring\nFinal Measuring of Rotors \nAlignment\n( the device for alignment fixed on MP part )\nMeasuring of upper and side clearance of bearings - Fig. 13.\nThe clearance of AX. Bearing will be repair by scraping .\nMeasuring of axial position of HP rotors incl. axial bearing, Fig. 12.\nMeasuring of alignment of HP rotor against to oil seal inserts - Fig. 11.\nDismantling of upper and lower part of axial bearing\nDismantling of HP rotor.\nDismantling of carries HP casing down part.\nDismantling of acceleration governor pressure adjusting gear state speed \n regulation.\nDismantling of HP nozzles from upper part of chamber.\nDismantling of pneumatic servo driver of HP return flap.\nDismantling opening of HP Q.A. flap valve DN 450 PN 100 pipe line RC10 \n ( RC 20 ).\nDismantling of valve DN 80 PN 100 heating of turbine.\nProceeding of Turbine Dismantling after Opening Hp Casing\nChecking of aligning of rotors in couplings ( observe water level in condenser \n )\nMeasure and notice checking values (run out) for HP rotors in oil inserts.\nRealize read-out of rotor.\nSetting of rotor to working position work side of ax . bearing side to \n generator and measure of all radial and axial backlashes in glands and in \n labyrinths of guide wheels.\nChecking of axial setting guide wheels again the rotor.\nDismantling of upper and lower part of axial bearing.\nRemove HP rotor.\nUnder supervision of specialist from turbine factory check all parts of \n turbine and determine necessary works during overhaul.\nThe set Measurement before Inspection\nCheck by measuring the leveling of outer casings ( outer HP rear 1.00 mm : \n inner HP 1.00 mm ).\nPutting of check shaft to HP casing .\nMeasuring HP through flow open casing - Fig. 7 .\nClosing of outer casing measuring of deformation in parting plane max. \n deformation 0.30 out side & 0.55 in side - Fig. 14 .\nHP inner casing measuring of deformation in parting plane .\nMeasuring of axial bearing position R.S. 10 & L.S. + 10.\nMeasuring of axial bearing down + 15.\nMeasuring of axial position clearance on nozzle CH.\n Right side 0.85 & left side 0.50 .\nMeasuring of radial and axial clearances of HP through flow parts - Fig. 7.\nAfter dismounting the covers from bearing stands indicate the couplings are \n connected by fitted bolts, the rotors must be cold and temperature should not \n exceed 25 30 C .\nLoosen the couplings and dismount fitted bolts, check the rotor alignment in \n the couplings Fig. 9 .\n After measurement dismount the tops of turbine casings and carry out:\nIndication run out of rotors H.P. Fig. 1.\nInspection of rotor alignment in the couplings (casings are lifted) compare \n with covered casings. Now set the rotors into working position and set the \n couplings one on to the other, measure them.\nAn axial clearance between moving and guide wheels Fig. 7 .\nAn axial and radial clearance of labyrinth rings in the casings and guide \n wheels Fig. 6.\nThe upper and lateral clearance of journal bearings Figure13.\nAn axial clearance of pivoted-pad bearing Fig. 12.\nA radial clearance of packing rings of the main oil pump Fig. 2.\nBefore bulling out the rotor measure alignment with a recess in bearing stands \n and check the fitting of shaft .\nAfter removal of rotors, insert a check shaft into turbine casings, set it \n according to the values from rotor alignment with a recess of bearing stands \n and measure the alignment of seal bodies and of guide wheels in a shaft of the \n high-pressure part Fig. 11 .\nAfter the measurement dismount the seal bodies, the inner casings and carriers \n with guide wheels. Measure the evenness of parting planes by laying the tops \n of casings onto bottoms. Measure by slot plates from outside and inside. \n Admissible deflection of non-evenness of parting planes in new machines is \n 0,10 0,15 , in old machines 0,30 0,40 clearance between the bottom and top \n of the casing Fig. 14 .\nExternal Inspection of the Dismounted HP Turbine Parts\nAll control cones of HP control valves No. 1 till 4 are damaged by impurities \n contemned HP steam and we had changed complete drw. TP 216917 .\nHP nozzle segment 1 blade missing , all blades Deformed , nozzle segment is \n complete damage .\nHP rotor moving wheel 1a 4a are with out seal knifes on enter side of \n steam. Moving wheels A , 1a , 2a , 3a , - the blades are damaged by big \n foreign pieces in steam .\nAfter sand blasting of HP rotor we made curry out the capilar test on blades \n moving wheels A , 1a , 2a , 3a and some diaphragm wheels.\nInspection of steam separators on main steam lines front of turbine, other \n foreign steel pieces was take out from both separators .\nHP casing damaged all series on the fix of nozzle chamber.\nCheck of HP steam line separator P.S. OK without impurities.\nFront bearing stand inspection of primary oil transformer and lamelly filter\nRotors check whether bearing pins and plates are not damaged. Check whether \n blades of moving wheels are not bent, split or injured by foreign bodies or \n cracks.\nTurbine casings check whether parting plane is not deformed and damaged. \n Check possible cracks of turbine casings.\nGuide wheels check whether guide blades are not bent, split, or broken.\nRadial and axial bearings check whether antifriction metal is not worn out, \n released or broken.\nLabyrinth rings check whether edges are not worn out or split in the seal \n bodies and in guide wheels. The strips should not be cut off by labyrinth \n rings in a rotor.\nNext inspection e.g. of control bodies will be carried out in the course of \n dismounting and repair.\nRepairing\nThe adhesion of the lining by a capillary method ( color detection liquid ) \n between the bearing metal and the supporting material, rare indications may \n be allowed when after 5 minutes are over, the color detection liquid will \n not form a larger color point than ø 6 mm at the developer OK.\nThe connection of the lining with the steel supporting body of the bearing \n at the processed surface of the lining by a contact ultra-sound method OK.\nReassemble after Repairing the Set\nAfter repairing and a possible replacement of defective parts in the course of \n mounting measure the through-flow parts before closing the set:\nChecking the fitting-in of journal bearings in bearing stands.\nAfter seating the check shafts into turbine casings, centre the seal bodies \n and the guide wheels for the check shaft, fig. 10.\nAfter inserting the rotors into turbine casings, indicate the rotors Fig.1.\nAn axial clearance of pivoted pad bearing Fig. 12.\nUpper and lower clearance of journal bearings interference of yokes Fig.13\nAxial clearance between moving and guide wheels Fig. 7.\nThe rotors must be set to working position and the couplings must be closely \n fitted.\nAxial and radial clearance of labyrinth rings in the casings and guide wheels \n Fig. 6.\nAxial and radial clearance of the main oil pump Fig. 2.\nAfter covering the turbine casings, check the rotor alignment in couplings and \n after tightening the couplings by fitted bolts, indicate the disks of \n couplings.\nAll measured values before and after the turbine repair will be recorded into \n the respective type sketches. The found out defects of the dismounted parts \n will be protocol \" Minutes of set handling over\".\nAssembly of HP Turbine\nAssembly of steam parts of HP control valves incl. adjusting the clearance \n between the body and cover of cons .\nAssembly of HP quick action valves.\nAssembly of HP control valves servomotor on its position.\nConnection of drain piping of HP valves .\nAssembly of HP QAV servomotor on its position.\nFlushing of oil of pressure hoses to HP valves.\nConnecting of all press. hoses to HP servomotors.\nAdjusting of hydraulic system according the curves of HP control valves No. 1, 2, 3 :\nTR.\nHP control valves No. 4 :\nTR.\nBack erection of valve DN 80 PN 100 include servomotor.\nAssembly of steam part of HP QA flap valve RC 10.\nBack erection servomotor of HP QA flap valve RC 10.\nBack erection of acceleration governor and pressure adjusting gear.\nClean and back erection of load limit adjuster.\nClean and back erection of speed safety relay.\nInto prepared lower part of external HP casing insert cleaned and blow out \n internal HP casing.\nDuring inserting assembly thermocouples on lower part of internal HP casing \n level the casing on depressing screws. Parting planes of out side and inside \n casing to \"O\" to zero.\nInsert lower part of carrier with guide wheels.\nInsert lower part of inside glands with sealing circles.\nInto prepared lower part of external HP casing insert cleaned and blow out \n internal HP casing.\nInsert lower HP part of carrier with guide wheels.\nInsert lower HP part of inside glands with sealing circles.\nAssembly of diaphragm carries in to HP upper casing.\nPutting of HP rotor to casing.\nLubricate pins by oil with high density and cover bearings including axial \n bearing.\nChecking of radial and axial clearance in glands and in glands of guide \n wheels.\nChecking of axial setting of rotor.\nAssembly of inside gland (drive in pins, tighten and lock nuts).\nAssembly of nozzle chamber ( of segment ).\nLay down the cover of inside casing drive in pins, tightening of nuts by heat \n according patterns for tighten by nuts, blending of upper nut by blends.\nLay down the carrier, drive in pins, tighten nuts.\nLay down upper parts of glands with sealing circles, drive pins tighten \n and lock nuts. Turn with rotor.\nLoosen depressing screw, checking by dial indicator Removing of depressing \n screws.\nLay down upper part of outside HP casing. Lubricate with ( hermetik ) drive in \n pins.\nAssembly of centering pins and probe.\nMounting of screws by numbers.\nMounting of nuts, tightening by heat according patterns for tighten by nuts.\nAssembly of drainage piping, assembly of blends into upper nuts.\nAssembly of thermocouples into upper part of HP casing.\nLoose of supporting wedges, checking with dial indicator.\nTightening of parting plane of gland covers.\nAssembly of steam piping and gland steam piping.\nBack erection of main oil pump.\nAssembly of bearings No. 1 , 2 tight.\nClosing of front pedestal for oil flushing.\nErection of HP steam piping.\nSeal steam of gland HP rear part erection.\nFlushing of oil for bearing No. ( 1 , 2 ).\nChecking screens was clean OK → the end of oil flushing.\nConnection of lift pipes on bearings after flushing of lifting oil pumps.\nWelding of membrane seal on HP steam piping both side.\nErection of seal gland steam HP front part.\nPreparing of front bearing pedestal for adjusting of hydraulic part of turbine.\nThe check of the overreach of bearing yoke No. 1 → 0.05 mm.\nCheck alignment of HP MP couplings.\nFinal \nAlignment of HP MP Couplings\nThe result of final alignment of couplings :- \n ------------------------------------- \n HP MP coupling (axial fault side 0.02, height 0.01) ( radial side \n 0.03, height 0.03)\nTightening of all fix safety screws on the bearings No. 1, 2.\nThe centricity of oil seal inserts No. 1 , 2 uding tight.\nChecking overreach of bearings No. 1 , No. 2 tight of yokes.\nErection of thermometer to bearing No. 1 and No. 2 tight.\nErection of coupling bolts HP MP tight and measuring of radial alignment of \n coupling --- OK.\nThe secure of coupling bolt HP - MP.\nClosing of front HP pedestal .\nThe turbine turned by turning gear ( 70 rpm ) -- OK\nErection of thermometer to axial bearing.\nClosing of axial bearing.\nRear HP pedestal closed and tightened.\nErection of oil seal inserts.\nFinal Works\nCheck aligning of rotors in couplings according to assembly instruction.\nChecking, repair if it is necessary interferences on yokes of bearing, \n tightening of yokes.\nRead out of couplings in free state.\nTightening of couplings, locking of nuts.\nRead out of couplings in tightened state.\nAssembly of coupling covers.\nSetting of primary element of relative motion and setting of primary element \n of phase.\nCover of stands, assembly of primary elements of vibration of rotors and \n stators.\nAssembly of turning gear, connecting piping.\nAssembly of cover TG.\nPreparation unit before start \nup\nOperating oil circuit of turbine and check pressure of oil.\nOperating turning gear and check revolution of rotor 70 rpm.\nCheck flowing oil in the bearing.\nCheck there is no noise in the turbine.\nAttendance and checking during \nOperation\nAt 3000 RPM adjusting primary oil.\nOver speed tested → Rear 3.264 RPM\n ↓ \n Front 3.283 RPM\n OK R + F 3.256 RPM\nFirst synchronization at → 30 40 MW.\nThe \n thermometer and vibration of bearing at 40 MW\nThe balance of rotors: HP 40 um Gen \n 58 um\n MP 12 um\n LP 65 um\nAdjusting of EHS during operation the problem with oscillation of turbine \n control.\nThe change of end unit card on control circuit of load in EHS cubicle.\nThe change of hydraulic transmitter HP 12 on front pedestal of turbine.\nThe check of adjusting of state speed regulator.\nThe adjust of hydraulic controls in EHS.\nMax. load of turbine 204 MW during day pressure behind \"A\" wheel 13.7 Mpa OK temperature of bearings, vibration of bearing eccentricity of rotors - OK\nThe check of hydraulic system of turbine.\nChecking and hand over proved tools.\nThe prepare of turbine passport.\nMRDS Maintenance \nRecord Data Sheet MRDS\n\nLocation: Turbine Code: \nChecked by: \n Date: \nSignature:\nOil Pump\nFigure 2\nHP Front Stuffing Box\nFigure 3\n\nAfter opening\nHP Inner Stuffing Box\nFigure 4\nAfter opening\nHP Rear Stuffing Box\nFigure 5\nAfter opening\nStuffing Box of HP Diaphragm\nFigure 6\nHP Through Flow Part\nFigure 7\n\nFigure 8\nAlignment of Coupling\nFigure 9\nAlignment HP ON Check Shaft\nFigure 10\nDiaphragm\nDiaphragm\n\n\nFigure 11\nThrust Bearing\nFigure 12\n\nJournal Bearings\nFigure 13\nFigure 14",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines the \nmajor maintenance procedures \nP1, which must be performed every five years as indicated by Y5 \nin the title block.\nTechnical specification \nof Steam Turbine:\nNominal Output at Steam Quantity Rate 670 t/h\nAt Oil Combustion \n 206 MW\nAt Gas combustion \n 210 MW\nNominal Turbine Speed \n 3000 rpm\nNominal Steam Pressure \n 16.42 Mpa\nNominal Steam Temperature 530 \nC\nNominal Reheating Steam Pressure 4 Mpa\nNominal Temperature of Cooling Water 27 C\nCritical Speed of HP Rotor \n 2400 \nrpm\nThe first draft initiated \n& tested by \neng. Mohammed Abd \nEl-Qader, reviewed by \nmaintenance manager eng. Mohammed Farag, revised by EDEPC inspection and quality \ncontrol general director \neng. Samir Abd El-Gelil, and approved by eng. Fathy Ragab Head Sector of Talkha \nPower Station.\nThis document accepted by eng. Samir Abd El Gelil; \n EDEPC inspection & quality control general director, MPIS coordinator, and certified by accountant Mahmoud Soliman: \n EDEPC planning & financial \n prediction head sector, and supervisor of inspection & \n quality control's head sector.\nSafety Precaution\nWear the safety and healthy \nequipment as safety helmet, shoes, gloves\n etc.\nA work permit must be issued.\nThe qualified maintenance staff should be trained and carry the \n suitable safety ID category\nSafety fence with caution marks surrounding the work area is required\nWear the safety and healthy \nequipment as safety helmet, shoes, gloves\n etc.\nShutdown the unit.\nGenerator should be isolated.\nIsolate the circuit breaker of generator\nDisconnect the electric terminals of generator\nThe oil of turbine must be isolated mechanically by closing delivery and \n suction valves.\nBe sure turbine must be completely drainage\nTools and Equipment\nComplete maintenance tool set.\nSpecial tools for turbine.\nCleaning fluid, rags, Manual puller\nFeeler gauge, Dial indicator\nVibrometer, Straight edge\nChecking shaft.\nRings of checking shaft ( ø280 mm ø300 mm ø355 mm ø430 mm )\nLifting device of rotors,\n Lifting device of casings.\nHeating device of bolts including heating elements and templates for bolts \n tightening.\nSpecial wrench.\nAssembly guide of casings.\nTransport stands of rotors.\nHP rotor stand,\n MP rotor stand.,\n LP rotor stand\nWork to be Carried out\nPreparation\nReading during the normal operation before \n overhaul.\nTo follow continuously the technical condition \n of the turbo-generator.\nTo secure a permanent measurement of the rotor \n vibration.\nTo secure the measurement of the foundation \n distortion by civil department. The measurement interval is selected according \n to the foundation behavior.\nTo secure the check of the creeping of the \n material.\nTo secure the necessary spare parts with regard \n to the cycles between the repairs.\nThe \nReading of 2nd unit during Normal Operation\nAfter Overhaul | Before Overhaul | Units | Setting | \n |  | MW | 210 | Load\n |  | MP | 14 | Pressure behind \n A-wheel\n |  | kp | 85 | Vacuum in \n Condenser\n |  | oC | 50 | Temp. of exhaust \n steam\n |  | oC | 90 | Bearing temp. of \n HP Front\n |  | oC | 90 | Bearing temp. of \n HP Rear\n |  | mm | -1, +3 | Relative Displacement of \n HP \n Rotor\n |  | mm | 25 | Absolute \n Displacement of HP \n Rotor\n |  | um | 120 | Eccentricity of \n HP Rotor\n |  | mm/s | 3.5 | Vibration of HP Front \n Bearing\n |  | mm/s | 3.5 | Vibration of HP Rear Bearing\nPreparing for Overhaul\nChoose places for dismantled parts ahead.\nPreparing of stands for transport of rotors.\nPreparing of lifting device of turbine casings \n and rotors.\nPreparing of necessary ropes.\nPreparing of support wedges under HP turbine \n casings.\nPreparing of wooden for supporting of turbine \n parts.\nPreparing of the locating bars.\nPreparing of checking shaft with rings.\nFor every casing of turbine prepare boxes for \n putting by of parts of accessories of casings. screws , nuts, pins ... etc\nPreparing of supports for putting guide \n wheels.\nPreparing of working tables and bench vices.\nPrepare the bath for cleaning of small details.\nPreparing of gas welding sets.\nPreparing of argon welding sets.\nPreparing of pressure air circuits, or \n preparing of compressor.\nPreparing of cleaning means.\nPreparing of tools ( spanners, hammers, \n drilling machines, grinding machines ).\nPreparing of set for heating of screws.\nPreparing of spare klingerit.\nPreparing of \" hermetik \", silicon, \n Vaseline, oils with the other viscosity.\nPrepare list of faults, which were recognized \n during operation.\nPrepare necessary team of workers for \n revision.\nChecking and selection of turbine drawings.\nChecking of tools .\nDisassembly\nDismantling of HP Turbine\nDismantling of turbine housing.\nDisassembly of measurement equipment from turbine parts ( magnets, vibration \n probe ... etc ).\nRemoving of insulation from HP part.\nDisassembly of oil piping and servomotors of HP control valves.\nDisassembly of HP control valves.\nDismantling of HP control valves cones.\nDismantling of oil piping and servomotors of HP quick action closing valves.\nDisassembly of HP quick action closing valves.\nDismantling of HP quick action valve cones.\nDismantling of bolts on HP steam connecting pipes.\nDismantling of piping of gland steam.\nDismantling of drain pipe of bolts HP casings.\nDismantling of center pins of inner parts of HP casings.\nLoose of covers of bearing stands No. 2 , 3.\nRemoving of couplings covers .\nRemoving of axial rotor protections from HP rear pedestal, axial measurement \n 2.55 mm\nMeasuring the run out of HP MP coupling in tight position - Fig. 8 .\nDismantling of coupling bolts.\nMeasuring the run out of HP MP coupling in free position - Fig. 8.\nPrepare of axial position of HP rotor for run out and alignment.\nMeasuring the alignment of HP MP coupling - Fig. 9: ------ ( the device \n for alignment fixed on MP part )\nDismantling 4 pcs screws on the lugs of turbine \n casing.\nInserting of supporting wedges ( 4 ) under lugs of HP turbine casing, lifting casing by ( 0.01- 0.02) mm and lock the wedges by \n nuts.\nTake off cone pins from parting plane of HP outside casing.\nDismantling of plugs on upper screw nuts of parting plane of HP \n outside casing.\nInserting of heating particles and by means of heating desk loosen \n all nuts.\nDismantling of lower nuts of parting plane on HP outside casing.\nLoose of nuts on HP outside casing .\nAssembling of 4 lead rods in its place in parting plane of HP turbine casing.\nBy means of press off screws lift the cover of HP turbine casing.\nBy means of device for lifting of HP turbine casing remove the cover of HP part (During this operation rotor must not be lifted simultaneously \n with the cover).\nDismantling of yokes ( scarfs ) on bearings ( No. 2 ).\nDismantling of oil seal inserts ( No. 2 ).\nLoose of cover of HP front pedestal .\nDismantling of oil seal inserts ( No. 1 ).\nDismantling of front bearing pedestal parts and bearing ( No. 1 ).\nRemove cone plugs from carrier of guide wheels, glands and internal HP casing, \n loosen nuts from parting plane of carrier and outside glands.\nRemove carrier and gland Fig. 3 , 5 .\nScrew in depressing screw to the lug of internal casing and lift it by 0.01 \n 0.02 mm.\nLoosen the nuts of screws (by heating) of parting plane of internal casing.\nRemove the cover of internal casing.\nLoosen the nuts of internal gland, remove plugs and remove upper part of \n sealing Fig. 4 .\nCheck of alignment in couplings after first pick up .\nRepair of axial and radial centricity of HP rotors - Fig. 10 .\nAlignment of couplings after pick up of rotors .\nRemoving of diaph. carries from upper parts HP outer casing .\nBolts of HP parting plane prepare for check measuring\nFinal Measuring of Rotors \nAlignment\n( the device for alignment fixed on MP part )\nMeasuring of upper and side clearance of bearings - Fig. 13.\nThe clearance of AX. Bearing will be repair by scraping .\nMeasuring of axial position of HP rotors incl. axial bearing, Fig. 12.\nMeasuring of alignment of HP rotor against to oil seal inserts - Fig. 11.\nDismantling of upper and lower part of axial bearing\nDismantling of HP rotor.\nDismantling of carries HP casing down part.\nDismantling of acceleration governor pressure adjusting gear state speed \n regulation.\nDismantling of HP nozzles from upper part of chamber.\nDismantling of pneumatic servo driver of HP return flap.\nDismantling opening of HP Q.A. flap valve DN 450 PN 100 pipe line RC10 \n ( RC 20 ).\nDismantling of valve DN 80 PN 100 heating of turbine.\nProceeding of Turbine Dismantling after Opening Hp Casing\nChecking of aligning of rotors in couplings ( observe water level in condenser \n )\nMeasure and notice checking values (run out) for HP rotors in oil inserts.\nRealize read-out of rotor.\nSetting of rotor to working position work side of ax . bearing side to \n generator and measure of all radial and axial backlashes in glands and in \n labyrinths of guide wheels.\nChecking of axial setting guide wheels again the rotor.\nDismantling of upper and lower part of axial bearing.\nRemove HP rotor.\nUnder supervision of specialist from turbine factory check all parts of \n turbine and determine necessary works during overhaul.\nThe set Measurement before Inspection\nCheck by measuring the leveling of outer casings ( outer HP rear 1.00 mm : \n inner HP 1.00 mm ).\nPutting of check shaft to HP casing .\nMeasuring HP through flow open casing - Fig. 7 .\nClosing of outer casing measuring of deformation in parting plane max. \n deformation 0.30 out side & 0.55 in side - Fig. 14 .\nHP inner casing measuring of deformation in parting plane .\nMeasuring of axial bearing position R.S. 10 & L.S. + 10.\nMeasuring of axial bearing down + 15.\nMeasuring of axial position clearance on nozzle CH.\n Right side 0.85 & left side 0.50 .\nMeasuring of radial and axial clearances of HP through flow parts - Fig. 7.\nAfter dismounting the covers from bearing stands indicate the couplings are \n connected by fitted bolts, the rotors must be cold and temperature should not \n exceed 25 30 C .\nLoosen the couplings and dismount fitted bolts, check the rotor alignment in \n the couplings Fig. 9 .\n After measurement dismount the tops of turbine casings and carry out:\nIndication run out of rotors H.P. Fig. 1.\nInspection of rotor alignment in the couplings (casings are lifted) compare \n with covered casings. Now set the rotors into working position and set the \n couplings one on to the other, measure them.\nAn axial clearance between moving and guide wheels Fig. 7 .\nAn axial and radial clearance of labyrinth rings in the casings and guide \n wheels Fig. 6.\nThe upper and lateral clearance of journal bearings Figure13.\nAn axial clearance of pivoted-pad bearing Fig. 12.\nA radial clearance of packing rings of the main oil pump Fig. 2.\nBefore bulling out the rotor measure alignment with a recess in bearing stands \n and check the fitting of shaft .\nAfter removal of rotors, insert a check shaft into turbine casings, set it \n according to the values from rotor alignment with a recess of bearing stands \n and measure the alignment of seal bodies and of guide wheels in a shaft of the \n high-pressure part Fig. 11 .\nAfter the measurement dismount the seal bodies, the inner casings and carriers \n with guide wheels. Measure the evenness of parting planes by laying the tops \n of casings onto bottoms. Measure by slot plates from outside and inside. \n Admissible deflection of non-evenness of parting planes in new machines is \n 0,10 0,15 , in old machines 0,30 0,40 clearance between the bottom and top \n of the casing Fig. 14 .\nExternal Inspection of the Dismounted HP Turbine Parts\nAll control cones of HP control valves No. 1 till 4 are damaged by impurities \n contemned HP steam and we had changed complete drw. TP 216917 .\nHP nozzle segment 1 blade missing , all blades Deformed , nozzle segment is \n complete damage .\nHP rotor moving wheel 1a 4a are with out seal knifes on enter side of \n steam. Moving wheels A , 1a , 2a , 3a , - the blades are damaged by big \n foreign pieces in steam .\nAfter sand blasting of HP rotor we made curry out the capilar test on blades \n moving wheels A , 1a , 2a , 3a and some diaphragm wheels.\nInspection of steam separators on main steam lines front of turbine, other \n foreign steel pieces was take out from both separators .\nHP casing damaged all series on the fix of nozzle chamber.\nCheck of HP steam line separator P.S. OK without impurities.\nFront bearing stand inspection of primary oil transformer and lamelly filter\nRotors check whether bearing pins and plates are not damaged. Check whether \n blades of moving wheels are not bent, split or injured by foreign bodies or \n cracks.\nTurbine casings check whether parting plane is not deformed and damaged. \n Check possible cracks of turbine casings.\nGuide wheels check whether guide blades are not bent, split, or broken.\nRadial and axial bearings check whether antifriction metal is not worn out, \n released or broken.\nLabyrinth rings check whether edges are not worn out or split in the seal \n bodies and in guide wheels. The strips should not be cut off by labyrinth \n rings in a rotor.\nNext inspection e.g. of control bodies will be carried out in the course of \n dismounting and repair.\nRepairing\nThe adhesion of the lining by a capillary method ( color detection liquid ) \n between the bearing metal and the supporting material, rare indications may \n be allowed when after 5 minutes are over, the color detection liquid will \n not form a larger color point than ø 6 mm at the developer OK.\nThe connection of the lining with the steel supporting body of the bearing \n at the processed surface of the lining by a contact ultra-sound method OK.\nReassemble after Repairing the Set\nAfter repairing and a possible replacement of defective parts in the course of \n mounting measure the through-flow parts before closing the set:\nChecking the fitting-in of journal bearings in bearing stands.\nAfter seating the check shafts into turbine casings, centre the seal bodies \n and the guide wheels for the check shaft, fig. 10.\nAfter inserting the rotors into turbine casings, indicate the rotors Fig.1.\nAn axial clearance of pivoted pad bearing Fig. 12.\nUpper and lower clearance of journal bearings interference of yokes Fig.13\nAxial clearance between moving and guide wheels Fig. 7.\nThe rotors must be set to working position and the couplings must be closely \n fitted.\nAxial and radial clearance of labyrinth rings in the casings and guide wheels \n Fig. 6.\nAxial and radial clearance of the main oil pump Fig. 2.\nAfter covering the turbine casings, check the rotor alignment in couplings and \n after tightening the couplings by fitted bolts, indicate the disks of \n couplings.\nAll measured values before and after the turbine repair will be recorded into \n the respective type sketches. The found out defects of the dismounted parts \n will be protocol \" Minutes of set handling over\".\nAssembly of HP Turbine\nAssembly of steam parts of HP control valves incl. adjusting the clearance \n between the body and cover of cons .\nAssembly of HP quick action valves.\nAssembly of HP control valves servomotor on its position.\nConnection of drain piping of HP valves .\nAssembly of HP QAV servomotor on its position.\nFlushing of oil of pressure hoses to HP valves.\nConnecting of all press. hoses to HP servomotors.\nAdjusting of hydraulic system according the curves of HP control valves No. 1, 2, 3 :\nTR.\n 0-400 kpa | 11.48 | 13.6 | 14.44 | 15.2 | 15.76 | 16.2 | 16.4 | [ mA ]\nP2. | 187 | 239.9 | 261.6 | 280.2 | 294.2 | 303 | 310 | [ kpa ]\nDRW. | 5 | 8.6 | 11.2 | 15 | 25 | 36 | -- | [ mm ]\nNo. 1 | 4.2 | 7.0 | 12.0 | 17.5 | 28.2 | 34 | 36.5 | \nNo. 2 | 4.0 | 8.4 | 12.6 | 23.9 | 31.4 | 34.4 | 34.8 | \nNo. 3 | 4.6 | 8.9 | 12.3 | 23 | 31.3 | 34.3 | 34.5 | \nHP control valves No. 4 :\nTR.\n 0-400 kpa | 15.6 | 16.24 | 16.56 | 17.32 | [ mA ]\nP2. | 290 | 306 | 314 | 333 | [ kpa ]\nDRW. | 0 | 6 | 12 | 35 | [ mm ]\nNo. 4 | 0 | 5.8 | 15.4 | 34.8 | \nBack erection of valve DN 80 PN 100 include servomotor.\nAssembly of steam part of HP QA flap valve RC 10.\nBack erection servomotor of HP QA flap valve RC 10.\nBack erection of acceleration governor and pressure adjusting gear.\nClean and back erection of load limit adjuster.\nClean and back erection of speed safety relay.\nInto prepared lower part of external HP casing insert cleaned and blow out \n internal HP casing.\nDuring inserting assembly thermocouples on lower part of internal HP casing \n level the casing on depressing screws. Parting planes of out side and inside \n casing to \"O\" to zero.\nInsert lower part of carrier with guide wheels.\nInsert lower part of inside glands with sealing circles.\nInto prepared lower part of external HP casing insert cleaned and blow out \n internal HP casing.\nInsert lower HP part of carrier with guide wheels.\nInsert lower HP part of inside glands with sealing circles.\nAssembly of diaphragm carries in to HP upper casing.\nPutting of HP rotor to casing.\nLubricate pins by oil with high density and cover bearings including axial \n bearing.\nChecking of radial and axial clearance in glands and in glands of guide \n wheels.\nChecking of axial setting of rotor.\nAssembly of inside gland (drive in pins, tighten and lock nuts).\nAssembly of nozzle chamber ( of segment ).\nLay down the cover of inside casing drive in pins, tightening of nuts by heat \n according patterns for tighten by nuts, blending of upper nut by blends.\nLay down the carrier, drive in pins, tighten nuts.\nLay down upper parts of glands with sealing circles, drive pins tighten \n and lock nuts. Turn with rotor.\nLoosen depressing screw, checking by dial indicator Removing of depressing \n screws.\nLay down upper part of outside HP casing. Lubricate with ( hermetik ) drive in \n pins.\nAssembly of centering pins and probe.\nMounting of screws by numbers.\nMounting of nuts, tightening by heat according patterns for tighten by nuts.\nAssembly of drainage piping, assembly of blends into upper nuts.\nAssembly of thermocouples into upper part of HP casing.\nLoose of supporting wedges, checking with dial indicator.\nTightening of parting plane of gland covers.\nAssembly of steam piping and gland steam piping.\nBack erection of main oil pump.\nAssembly of bearings No. 1 , 2 tight.\nClosing of front pedestal for oil flushing.\nErection of HP steam piping.\nSeal steam of gland HP rear part erection.\nFlushing of oil for bearing No. ( 1 , 2 ).\nChecking screens was clean OK → the end of oil flushing.\nConnection of lift pipes on bearings after flushing of lifting oil pumps.\nWelding of membrane seal on HP steam piping both side.\nErection of seal gland steam HP front part.\nPreparing of front bearing pedestal for adjusting of hydraulic part of turbine.\nThe check of the overreach of bearing yoke No. 1 → 0.05 mm.\nCheck alignment of HP MP couplings.\nFinal \nAlignment of HP MP Couplings\nThe result of final alignment of couplings :- \n ------------------------------------- \n HP MP coupling (axial fault side 0.02, height 0.01) ( radial side \n 0.03, height 0.03)\nTightening of all fix safety screws on the bearings No. 1, 2.\nThe centricity of oil seal inserts No. 1 , 2 uding tight.\nChecking overreach of bearings No. 1 , No. 2 tight of yokes.\nErection of thermometer to bearing No. 1 and No. 2 tight.\nErection of coupling bolts HP MP tight and measuring of radial alignment of \n coupling --- OK.\nThe secure of coupling bolt HP - MP.\nClosing of front HP pedestal .\nThe turbine turned by turning gear ( 70 rpm ) -- OK\nErection of thermometer to axial bearing.\nClosing of axial bearing.\nRear HP pedestal closed and tightened.\nErection of oil seal inserts.\nFinal Works\nCheck aligning of rotors in couplings according to assembly instruction.\nChecking, repair if it is necessary interferences on yokes of bearing, \n tightening of yokes.\nRead out of couplings in free state.\nTightening of couplings, locking of nuts.\nRead out of couplings in tightened state.\nAssembly of coupling covers.\nSetting of primary element of relative motion and setting of primary element \n of phase.\nCover of stands, assembly of primary elements of vibration of rotors and \n stators.\nAssembly of turning gear, connecting piping.\nAssembly of cover TG.\nPreparation unit before start \nup\nOperating oil circuit of turbine and check pressure of oil.\nOperating turning gear and check revolution of rotor 70 rpm.\nCheck flowing oil in the bearing.\nCheck there is no noise in the turbine.\nAttendance and checking during \nOperation\nAt 3000 RPM adjusting primary oil.\nOver speed tested → Rear 3.264 RPM\n ↓ \n Front 3.283 RPM\n OK R + F 3.256 RPM\nFirst synchronization at → 30 40 MW.\nThe \n thermometer and vibration of bearing at 40 MW\nNo. 1 | 60 C | 0.4 mm/S2\nNo. 2 | 60 C | 0.8 mm/S2\nNo. 1 |  | \nNo. 2 |  | \nThe balance of rotors: HP 40 um Gen \n 58 um\n MP 12 um\n LP 65 um\nAdjusting of EHS during operation the problem with oscillation of turbine \n control.\nThe change of end unit card on control circuit of load in EHS cubicle.\nThe change of hydraulic transmitter HP 12 on front pedestal of turbine.\nThe check of adjusting of state speed regulator.\nThe adjust of hydraulic controls in EHS.\nMax. load of turbine 204 MW during day pressure behind \"A\" wheel 13.7 Mpa OK temperature of bearings, vibration of bearing eccentricity of rotors - OK\nThe check of hydraulic system of turbine.\nChecking and hand over proved tools.\nThe prepare of turbine passport.\nMRDS Maintenance \nRecord Data Sheet MRDS\nItem | Setting | Unit | Before \n Inspection | After \n Inspection | Remarks\nHP Bearing Vibration | No. 1 | 0.6 | mm/sec |  |  | \nNo. 2 | 0.8 |  |  | \nHP Bearing \n Temp. | No. 1 | 75 | C |  |  | \nNo. 2 | 59 |  |  | \nHP \n Rotor\n Eccentricity | 30 | m |  |  | \nOil Temperature | 40 | C |  |  | \nLocation: Turbine Code: \nChecked by: \n Date: \nSignature:\nOil Pump\nFigure 2\nAxial & Rad. clearance | a | b | c | d | e | f |  | A | B | C | D\nBefore Close |  |  |  |  |  |  |  |  |  |  | \nBefore Close |  |  |  |  |  |  |  |  |  |  | \nHP Front Stuffing Box\nFigure 3\nAxial Clearance\nb | c\nmin. | max. | min. | max.\nRadial Clearance\nleft | right\nmin. | max. | min. | max.\nDatum\nHP Inner Stuffing Box\nFigure 4\nAxial Clearance\nb | c\nmin. | max. | min. | max.\nRadial Clearance\nleft | right\nmin. | max. | min. | max.\nDatum\nHP Rear Stuffing Box\nFigure 5\nAxial Clearance\nb | c\nmin. | max. | min. | max.\nRadial Clearance\nleft | right\nmin. | max. | min. | max.\nDatum\nStuffing Box of HP Diaphragm\nFigure 6\nHP Through Flow Part\nFigure 7\n | L | P\n | A | B | A | B\nA - wheel |  |  |  | \n1a |  |  |  | \n2a |  |  |  | \n3a |  |  |  | \n4a |  |  |  | \n5a |  |  |  | \n6a |  |  |  | \n7a |  |  |  | \n8 |  |  |  | \n9 |  |  |  | \n10a |  |  |  | \nFigure 8\nAlignment of Coupling\nFigure 9\nAlignment HP ON Check Shaft\nFigure 10\nMeasuring Point | A | B | C |  | \nFront Stuffing Box Cover | Front Part |  |  |  |  | \nRear Part |  |  |  |  | \nFront Stuffing Box | Front Part |  |  |  |  | \nRear Part |  |  |  |  | \nBore Outer Casing | Front Part |  |  |  |  | \nDiaphragm | Wheel 7a |  |  |  |  | \nWheel 6a |  |  |  |  | \nWheel 5a |  |  |  |  | \nWheel 4a |  |  |  |  | \nWheel 3a |  |  |  |  | \nWheel 2a |  |  |  |  | \nWheel 1a |  |  |  |  | \nMiddle Stuffing Box | Front Part |  |  |  |  | \nRear Part |  |  |  |  | \nNozzle Segment |  |  |  |  | \nDiaphragm | Wheel 8 |  |  |  |  | \nWheel 9 |  |  |  |  | \nWheel 10 |  |  |  |  | \nBore Outer Casing | Rear Part |  |  |  |  | \nRear Stuffing Box | Front Part |  |  |  |  | \nRear Part |  |  |  |  | \nRear Stuffing Box Cover | Front Part |  |  |  |  | \nRear Part |  |  |  |  | \nDate: \n Measured by: \n Signature:\nA | B | C\nLeft | Right | Down |  |  | Left | Right | Down |  |  | Left | Right | Down |  | \nD\nLeft | Right | Down |  | \nFigure 11\nThrust Bearing\nFigure 12\nAfter Open | A | Before Close | A | Date Signature\nJournal Bearings\n | Ø \n Diam. | A | B | C\n Interference | Date/ Signature\n1 | 2 | Left | Right\nHP front bearing |  |  |  |  |  |  | \nHP rear bearing |  |  |  |  |  |  | \nIP front bearing |  |  |  |  |  |  | \nIP rear bearing |  |  |  |  |  |  | \nLP front bearing |  |  |  |  |  |  | \nLP rear bearing |  |  |  |  |  |  | \nFigure 13\nFigure 14\nOutside Circumference |  | Inside Circumference\n1 |  |  |  |  |  |  |  |  |  |  | \n2 |  |  |  |  |  |  |  |  |  |  | \n3 |  |  |  |  |  |  |  |  |  |  | \n4 |  |  |  |  |  |  |  |  |  |  | \n5 |  |  |  |  |  |  |  |  |  |  | \n6 |  |  |  |  |  |  |  |  |  |  | \n7 |  |  |  |  |  |  |  |  |  |  | \n8 |  |  |  |  |  |  |  |  |  |  | \n9 |  |  |  |  |  |  |  |  |  |  | \n10 |  |  |  |  |  |  |  |  |  |  | \n11 |  |  |  |  |  |  |  |  |  |  | \n12 |  |  |  |  |  |  |  |  |  |  | \n13 |  |  |  |  |  |  |  |  |  |  | \n14 |  |  |  |  |  |  |  |  |  |  | \n15 |  |  |  |  |  |  |  |  |  |  | \n16 |  |  |  |  |  |  |  |  |  |  | ",
  "text_truncated": false,
  "links": [],
  "images": [
