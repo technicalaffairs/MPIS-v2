@@ -14,40 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "محطات الطاقة"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء الفني"
-  },
-  {
-   "type": "paragraph",
-   "text": "معدات\nSpeedtronic System"
-  },
-  {
-   "type": "paragraph",
-   "text": "Over Temperature \n Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "IC 3600 STKD, SOTH, \n SOTG"
-  },
-  {
-   "type": "paragraph",
-   "text": "GE (USA)"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم الوثيقة: STS-024-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "صدرت إلى: \nPort Said PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "حالة: موافقة"
+   "type": "table",
+   "rows": [
+    [
+     "محطات الطاقة",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -179,64 +153,28 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "TEMP"
-  },
-  {
-   "type": "paragraph",
-   "text": "DEG oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "INPUT"
-  },
-  {
-   "type": "paragraph",
-   "text": "(MV)"
-  },
-  {
-   "type": "paragraph",
-   "text": "TEMP."
-  },
-  {
-   "type": "paragraph",
-   "text": "ANALOG VOLT"
-  },
-  {
-   "type": "paragraph",
-   "text": "ADJUST"
-  },
-  {
-   "type": "paragraph",
-   "text": "700"
-  },
-  {
-   "type": "paragraph",
-   "text": "24.69"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.00 + 0.01"
-  },
-  {
-   "type": "paragraph",
-   "text": "offset R(87) {2}"
-  },
-  {
-   "type": "paragraph",
-   "text": "1200"
-  },
-  {
-   "type": "paragraph",
-   "text": "36.49"
-  },
-  {
-   "type": "paragraph",
-   "text": "5.0 + \n 0.01"
-  },
-  {
-   "type": "paragraph",
-   "text": "Gain R(83) {1}"
+   "type": "table",
+   "rows": [
+    [
+     "TEMP\nDEG oF",
+     "INPUT\n(MV)",
+     "TEMP. \nANALOG VOLT",
+     "ADJUST"
+    ],
+    [
+     "700",
+     "24.69",
+     "0.00 + 0.01",
+     "offset R(87) {2}"
+    ],
+    [
+     "1200",
+     "36.49",
+     "5.0 + \n 0.01",
+     "Gain R(83) {1}"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -336,84 +274,40 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "TEMP DEG oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "INPUT (MV)"
-  },
-  {
-   "type": "paragraph",
-   "text": "TEMP. ANALOG VOLT"
-  },
-  {
-   "type": "paragraph",
-   "text": "ADJUST"
-  },
-  {
-   "type": "paragraph",
-   "text": "700"
-  },
-  {
-   "type": "paragraph",
-   "text": "24.69"
-  },
-  {
-   "type": "paragraph",
-   "text": "إذا !vmlcom.endif0.00\n+ 0.01"
-  },
-  {
-   "type": "paragraph",
-   "text": "R(73) {1} OTA"
-  },
-  {
-   "type": "paragraph",
-   "text": "1200"
-  },
-  {
-   "type": "paragraph",
-   "text": "36.49"
-  },
-  {
-   "type": "paragraph",
-   "text": "إذا !vmlcom.endif5.0\n+ 0.01"
-  },
-  {
-   "type": "paragraph",
-   "text": "R(70){2} OTA"
-  },
-  {
-   "type": "paragraph",
-   "text": "700"
-  },
-  {
-   "type": "paragraph",
-   "text": "24.69"
-  },
-  {
-   "type": "paragraph",
-   "text": "إذا !vmlcom.endif0.00\n+ 0.01"
-  },
-  {
-   "type": "paragraph",
-   "text": "R(73) {6} OTB"
-  },
-  {
-   "type": "paragraph",
-   "text": "1200"
-  },
-  {
-   "type": "paragraph",
-   "text": "36.49"
-  },
-  {
-   "type": "paragraph",
-   "text": "إذا !vmlcom.endif5.0\n+ 0.01"
-  },
-  {
-   "type": "paragraph",
-   "text": "R(70){5} OTB"
+   "type": "table",
+   "rows": [
+    [
+     "TEMP DEG oF",
+     "INPUT (MV)",
+     "TEMP. ANALOG VOLT",
+     "ADJUST"
+    ],
+    [
+     "700",
+     "24.69",
+     "إذا !vmlcom.endif0.00\n+ 0.01",
+     "R(73) {1} OTA"
+    ],
+    [
+     "1200",
+     "36.49",
+     "إذا !vmlcom.endif5.0\n+ 0.01",
+     "R(70){2} OTA"
+    ],
+    [
+     "700",
+     "24.69",
+     "إذا !vmlcom.endif0.00\n+ 0.01",
+     "R(73) {6} OTB"
+    ],
+    [
+     "1200",
+     "36.49",
+     "إذا !vmlcom.endif5.0\n+ 0.01",
+     "R(70){5} OTB"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -454,28 +348,20 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "TEMP DEG oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "INPUT (MV)"
-  },
-  {
-   "type": "paragraph",
-   "text": "ADJUST"
-  },
-  {
-   "type": "paragraph",
-   "text": "1000oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "31.77"
-  },
-  {
-   "type": "paragraph",
-   "text": "Nبعد ضبط"
+   "type": "table",
+   "rows": [
+    [
+     "TEMP DEG oF",
+     "INPUT (MV)",
+     "ADJUST"
+    ],
+    [
+     "1000oF",
+     "31.77",
+     "Nبعد ضبط"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -512,28 +398,20 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "درجة الحرارة درجة oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "INPUT (MV)"
-  },
-  {
-   "type": "paragraph",
-   "text": "ADJUST"
-  },
-  {
-   "type": "paragraph",
-   "text": "1000oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "31.77"
-  },
-  {
-   "type": "paragraph",
-   "text": "Nبعد ضبط"
+   "type": "table",
+   "rows": [
+    [
+     "درجة الحرارة درجة oF",
+     "INPUT (MV)",
+     "ADJUST"
+    ],
+    [
+     "1000oF",
+     "31.77",
+     "Nبعد ضبط"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -569,28 +447,20 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "درجة الحرارة درجة oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "INPUT (MV)"
-  },
-  {
-   "type": "paragraph",
-   "text": "ADJUST"
-  },
-  {
-   "type": "paragraph",
-   "text": "1028oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "32.42"
-  },
-  {
-   "type": "paragraph",
-   "text": "R(72) {3}"
+   "type": "table",
+   "rows": [
+    [
+     "درجة الحرارة درجة oF",
+     "INPUT (MV)",
+     "ADJUST"
+    ],
+    [
+     "1028oF",
+     "32.42",
+     "R(72) {3}"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -622,28 +492,20 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "TEMP DEG oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "INPUT (MV)"
-  },
-  {
-   "type": "paragraph",
-   "text": "ADJUST"
-  },
-  {
-   "type": "paragraph",
-   "text": "1028 oF"
-  },
-  {
-   "type": "paragraph",
-   "text": "32.42"
-  },
-  {
-   "type": "paragraph",
-   "text": "R(72) {4}"
+   "type": "table",
+   "rows": [
+    [
+     "TEMP DEG oF",
+     "INPUT (MV)",
+     "ADJUST"
+    ],
+    [
+     "1028 oF",
+     "32.42",
+     "R(72) {4}"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -654,7 +516,7 @@
    "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
   }
  ],
- "text": "محطات الطاقة\nالإجراء الفني\nمعدات\nSpeedtronic System\nOver Temperature \n Protection\nIC 3600 STKD, SOTH, \n SOTG\nGE (USA)\nرقم الوثيقة: STS-024-r0\nصدرت إلى: \nPort Said PS\nحالة: موافقة\nمقدمة\nThis document outlines the testing procedures \nP1, to be performed on an annually bases as indicated by Y1 in the title block.\nالمسودة الأولى بدأها المهندس. \nSawsan El_Lethy, \nتم اختباره بواسطة المهندس. \nWael Taha, \nreviewed by EDEPC quality control eng. Abd El-Menem El-Emam, and approved by \neng. Sawsan El_Lethy\nPort Said general director \nPS.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC\ninspection and quality control general director, MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nاحتياطات السلامة\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nPersonal \nprotective equipment must be used safety shoes, safety helmet, ground strap \n...etc.\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nPersonal \nprotective equipment must be used safety shoes, safety helmet, ground strap \n...etc.\nالأدوات والمعدات\nSuitable tool set\nSafety \n helmet and safety shoes, ... etc.\nمقياس AVO الرقمي\nSpeed tronic calibrator set model \n (151A4925)\nRemover card\nSpecial tool to adjust the variable \n resistance at the cards\nSuitable tool set\nSafety \n helmet and safety shoes, ... etc.\nمقياس AVO الرقمي\nSpeed tronic calibrator set model \n (151A4925)\nRemover card\nSpecial tool to adjust the variable \n resistance at the cards\nالعمل المراد تنفيذه\nTemperature Amplifier (IL - 1L ) STKD\nPlace all control thermocouple switches \n in (REJECT) position.\nMake jumper between point ( 4C , 4D ) \n and between ( 5C , 5D ) at calibrator set\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nAdjust MV to obtain 700oF at \n temperature indicator (26TR) check that millivolt value is 24.69 + \n 0.2 MV\nConnect a digital voltmeter to read \n temperature amplifier output (TX) of STKD at (8H) , Acom. on calibrator set by \n putting AVO.\nAdjust (R87){2} offset to obtain TX \n output of 0.00 + 0.01volt\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR) check that millivolt value is 36.49 + \n 0.2 MV\nAdjust GAIN (R83){1} to obtain TX \n output of 5.00 + 0.01volt\nPlace all control thermocouple switches \n in (REJECT) position.\nMake jumper between point ( 4C , 4D ) \n and between ( 5C , 5D ) at calibrator set\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nAdjust MV to obtain 700oF at \n temperature indicator (26TR) check that millivolt value is 24.69 + \n 0.2 MV\nConnect a digital voltmeter to read \n temperature amplifier output (TX) of STKD at (8H) , Acom. on calibrator set by \n putting AVO.\nAdjust (R87){2} offset to obtain TX \n output of 0.00 + 0.01volt\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR) check that millivolt value is 36.49 + \n 0.2 MV\nAdjust GAIN (R83){1} to obtain TX \n output of 5.00 + 0.01volt\nTEMP\nDEG oF\nINPUT\n(MV)\nTEMP.\nANALOG VOLT\nADJUST\n700\n24.69\n0.00 + 0.01\noffset R(87) {2}\n1200\n36.49\n5.0 + \n 0.01\nGain R(83) {1}\nTemperature Amplifier (IL - 1K ) \nSOTH\nFor Channel (A)\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nPut avometer at (12I , G) at \n calibrator set\nAdjust MV to obtain 700 oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){1}offset\nIncrease MV to obtain 1200 oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){2}spn\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nPut avometer at (12I , G) at \n calibrator set\nAdjust MV to obtain 700 oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){1}offset\nIncrease MV to obtain 1200 oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){2}spn\nFor Channel (B)\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nPut avometer at (13I , G) at \n calibrator set\nAdjust MV to obtain 700oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){6}offset\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){5}spn\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nPut avometer at (13I , G) at \n calibrator set\nAdjust MV to obtain 700oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){6}offset\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){5}spn\nTEMP DEG oF\nINPUT (MV)\nTEMP. ANALOG VOLT\nADJUST\n700\n24.69\nإذا !vmlcom.endif0.00\n+ 0.01\nR(73) {1} OTA\n1200\n36.49\nإذا !vmlcom.endif5.0\n+ 0.01\nR(70){2} OTA\n700\n24.69\nإذا !vmlcom.endif0.00\n+ 0.01\nR(73) {6} OTB\n1200\n36.49\nإذا !vmlcom.endif5.0\n+ 0.01\nR(70){5} OTB\nOver Temperature ALARM (SOTG)\nFor Channel (A)\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nTEMP DEG oF\nINPUT (MV)\nADJUST\n1000oF\n31.77\nNبعد ضبط\nFor Channel (B)\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nدرجة الحرارة درجة oF\nINPUT (MV)\nADJUST\n1000oF\n31.77\nNبعد ضبط\nOver Temperature TRIP (SOTH)\nFor Channel (A)\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nرفع MV للحصول على 1028 oF \n at temperature indicator (26TR). Until trip lamp at card SOTH just comes on\nIf it is not adjusted, adjust \n it from (R72) Resistance No.{3}OFT (on \n card SOTH)\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nرفع MV للحصول على 1028 oF \n at temperature indicator (26TR). Until trip lamp at card SOTH just comes on\nIf it is not adjusted, adjust \n it from (R72) Resistance No.{3}OFT (on \n card SOTH)\nدرجة الحرارة درجة oF\nINPUT (MV)\nADJUST\n1028oF\n32.42\nR(72) {3}\nFor Channel (B)\nConnect \n jumper between ( + ) OTB and ( + ) CK and jumper between CAL (OTB) and (-) \n CK on patch board .\nMake \n jumper between point ( 4C , 8D ) and between ( 5C , 9D ) at calibrator set\nRaise \n MV to obtain 1028oF at temperature indicator (26TR). Until trip \n lamp at card SOTH just comes on\nإذا كان \n لاt adjusted, adjust it from (R72) Resistance No.{4}OFT (on \n card SOTH)\nConnect \n jumper between ( + ) OTB and ( + ) CK and jumper between CAL (OTB) and (-) \n CK on patch board .\nMake \n jumper between point ( 4C , 8D ) and between ( 5C , 9D ) at calibrator set\nRaise \n MV to obtain 1028oF at temperature indicator (26TR). Until trip \n lamp at card SOTH just comes on\nإذا كان \n لاt adjusted, adjust it from (R72) Resistance No.{4}OFT (on \n card SOTH)\nTEMP DEG oF\nINPUT (MV)\nADJUST\n1028 oF\n32.42\nR(72) {4}\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text": "محطات الطاقة | الإجراء الفني\nمقدمة\nThis document outlines the testing procedures \nP1, to be performed on an annually bases as indicated by Y1 in the title block.\nالمسودة الأولى بدأها المهندس. \nSawsan El_Lethy, \nتم اختباره بواسطة المهندس. \nWael Taha, \nreviewed by EDEPC quality control eng. Abd El-Menem El-Emam, and approved by \neng. Sawsan El_Lethy\nPort Said general director \nPS.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC\ninspection and quality control general director, MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nاحتياطات السلامة\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nPersonal \nprotective equipment must be used safety shoes, safety helmet, ground strap \n...etc.\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nPersonal \nprotective equipment must be used safety shoes, safety helmet, ground strap \n...etc.\nالأدوات والمعدات\nSuitable tool set\nSafety \n helmet and safety shoes, ... etc.\nمقياس AVO الرقمي\nSpeed tronic calibrator set model \n (151A4925)\nRemover card\nSpecial tool to adjust the variable \n resistance at the cards\nSuitable tool set\nSafety \n helmet and safety shoes, ... etc.\nمقياس AVO الرقمي\nSpeed tronic calibrator set model \n (151A4925)\nRemover card\nSpecial tool to adjust the variable \n resistance at the cards\nالعمل المراد تنفيذه\nTemperature Amplifier (IL - 1L ) STKD\nPlace all control thermocouple switches \n in (REJECT) position.\nMake jumper between point ( 4C , 4D ) \n and between ( 5C , 5D ) at calibrator set\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nAdjust MV to obtain 700oF at \n temperature indicator (26TR) check that millivolt value is 24.69 + \n 0.2 MV\nConnect a digital voltmeter to read \n temperature amplifier output (TX) of STKD at (8H) , Acom. on calibrator set by \n putting AVO.\nAdjust (R87){2} offset to obtain TX \n output of 0.00 + 0.01volt\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR) check that millivolt value is 36.49 + \n 0.2 MV\nAdjust GAIN (R83){1} to obtain TX \n output of 5.00 + 0.01volt\nPlace all control thermocouple switches \n in (REJECT) position.\nMake jumper between point ( 4C , 4D ) \n and between ( 5C , 5D ) at calibrator set\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nAdjust MV to obtain 700oF at \n temperature indicator (26TR) check that millivolt value is 24.69 + \n 0.2 MV\nConnect a digital voltmeter to read \n temperature amplifier output (TX) of STKD at (8H) , Acom. on calibrator set by \n putting AVO.\nAdjust (R87){2} offset to obtain TX \n output of 0.00 + 0.01volt\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR) check that millivolt value is 36.49 + \n 0.2 MV\nAdjust GAIN (R83){1} to obtain TX \n output of 5.00 + 0.01volt\nTEMP\nDEG oF | INPUT\n(MV) | TEMP. \nANALOG VOLT | ADJUST\n700 | 24.69 | 0.00 + 0.01 | offset R(87) {2}\n1200 | 36.49 | 5.0 + \n 0.01 | Gain R(83) {1}\nTemperature Amplifier (IL - 1K ) \nSOTH\nFor Channel (A)\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nPut avometer at (12I , G) at \n calibrator set\nAdjust MV to obtain 700 oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){1}offset\nIncrease MV to obtain 1200 oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){2}spn\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nPut avometer at (12I , G) at \n calibrator set\nAdjust MV to obtain 700 oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){1}offset\nIncrease MV to obtain 1200 oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){2}spn\nFor Channel (B)\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nPut avometer at (13I , G) at \n calibrator set\nAdjust MV to obtain 700oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){6}offset\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){5}spn\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nPut avometer at (13I , G) at \n calibrator set\nAdjust MV to obtain 700oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){6}offset\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){5}spn\nTEMP DEG oF | INPUT (MV) | TEMP. ANALOG VOLT | ADJUST\n700 | 24.69 | إذا !vmlcom.endif0.00\n+ 0.01 | R(73) {1} OTA\n1200 | 36.49 | إذا !vmlcom.endif5.0\n+ 0.01 | R(70){2} OTA\n700 | 24.69 | إذا !vmlcom.endif0.00\n+ 0.01 | R(73) {6} OTB\n1200 | 36.49 | إذا !vmlcom.endif5.0\n+ 0.01 | R(70){5} OTB\nOver Temperature ALARM (SOTG)\nFor Channel (A)\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nTEMP DEG oF | INPUT (MV) | ADJUST\n1000oF | 31.77 | Nبعد ضبط\nFor Channel (B)\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nدرجة الحرارة درجة oF | INPUT (MV) | ADJUST\n1000oF | 31.77 | Nبعد ضبط\nOver Temperature TRIP (SOTH)\nFor Channel (A)\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nرفع MV للحصول على 1028 oF \n at temperature indicator (26TR). Until trip lamp at card SOTH just comes on\nIf it is not adjusted, adjust \n it from (R72) Resistance No.{3}OFT (on \n card SOTH)\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nرفع MV للحصول على 1028 oF \n at temperature indicator (26TR). Until trip lamp at card SOTH just comes on\nIf it is not adjusted, adjust \n it from (R72) Resistance No.{3}OFT (on \n card SOTH)\nدرجة الحرارة درجة oF | INPUT (MV) | ADJUST\n1028oF | 32.42 | R(72) {3}\nFor Channel (B)\nConnect \n jumper between ( + ) OTB and ( + ) CK and jumper between CAL (OTB) and (-) \n CK on patch board .\nMake \n jumper between point ( 4C , 8D ) and between ( 5C , 9D ) at calibrator set\nRaise \n MV to obtain 1028oF at temperature indicator (26TR). Until trip \n lamp at card SOTH just comes on\nإذا كان \n لاt adjusted, adjust it from (R72) Resistance No.{4}OFT (on \n card SOTH)\nConnect \n jumper between ( + ) OTB and ( + ) CK and jumper between CAL (OTB) and (-) \n CK on patch board .\nMake \n jumper between point ( 4C , 8D ) and between ( 5C , 9D ) at calibrator set\nRaise \n MV to obtain 1028oF at temperature indicator (26TR). Until trip \n lamp at card SOTH just comes on\nإذا كان \n لاt adjusted, adjust it from (R72) Resistance No.{4}OFT (on \n card SOTH)\nTEMP DEG oF | INPUT (MV) | ADJUST\n1028 oF | 32.42 | R(72) {4}\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
  "text_truncated": false,
  "links": [],
  "images": [

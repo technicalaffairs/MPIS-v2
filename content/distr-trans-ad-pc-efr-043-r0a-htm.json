@@ -14,20 +14,35 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "الجهاز:"
-  },
-  {
-   "type": "paragraph",
-   "text": "الوقاية ضد \n التسرب الاضى"
-  },
-  {
-   "type": "paragraph",
-   "text": "MLFB - A11"
-  },
-  {
-   "type": "paragraph",
-   "text": "المانى شرقى"
+   "type": "table",
+   "rows": [
+    [
+     "نظام معلومات إجراءات \n الصيانة"
+    ],
+    [
+     "",
+     "أجهزة الوقايـة",
+     "إجـراءات الصيانـة"
+    ],
+    [
+     "رقم المستند: \n EFR-043-r0a",
+     "الجهاز:\n الوقاية ضد \n التسرب الاضى\n MLFB - A11\n المانى شرقى"
+    ],
+    [
+     "صادرة الى: \n شركات التوزيع"
+    ],
+    [
+     "الموقف: \n مسودة \n رقم 1"
+    ],
+    [
+     "تاريخ \n الاعتماد:",
+     "الاجراء:\n الاختبار والمعايرة \n السنوية \n (\n P1- Y1 )"
+    ],
+    [
+     "تاريخ المراجعة التالية:"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -146,6 +161,40 @@
    "text": "A visual inspection of the relay cover can reveal valuable\ninformation. Any excessive dust, dirt or metallic material deposited on \nthe cover should be noted and removed thus preventing \nsuch material from entering the relay when the cover is \nremoved. A cover glass which is fogged should be cleaned \nfogging is in most cases a normal condition due to \nvolatile materials being driven out of coils and insulating materials, and\nis not an indication of a problem."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "وصل\n اطراف التيار \"خرج جهاز الحقن على روزيتة جهاز الوقاية على النقطتين 1 \n ، \n 2 وهى نقاط التيار للارضى IE",
+     "1."
+    ],
+    [
+     "ارفع قيمة التيار تدريجيا حتى نصل لقيمة الـ \n Pickup \n الموجودة بالجهاز",
+     "2."
+    ],
+    [
+     "سجل\n هذه القيمة بالـ \n Test Sheet",
+     "3."
+    ],
+    [
+     "يتم النزول بالتيار\n للوصول الى \n I Reset ومن ثم حساب \n قيمة Reset \n Factor من خلال قيمة تيار \n Reset \n / تيار Pickup",
+     "4."
+    ],
+    [
+     "وصل\n اطراف الـ \n Trip لجهاز الوقاية النقاط \n 3 ، 4 على نقط الساعة فى جهاز الحقن",
+     "5."
+    ],
+    [
+     "فى حالة اذا كان المراد عمل تدريج زمنى سليم يتم الاخذ فى الاعتبار زمن المفتاح \n ومن ثم يتم توصيل المفتاح الخاص بهذه الخليه مع توصيل طرفى الساعة على اطراف \n المفتاح وحساب زمن الفصل لكل فازة",
+     "6."
+    ],
+    [
+     "احقن جهاز الوقاية بقيمة \n Pickup وتسجيل ومن الفصل \n والذى يمثل زمن الفصل للمتمم فقط ويتم تكرارها مع المفتاح وذلك لمعرفة زمن \n الفصل الميكانيكى للمفتاح",
+     "7."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Test Sheet"
   },
@@ -158,8 +207,77 @@
    "text": "مفاتيح الدخول"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "الوقاية الاتجاهية ضد التسرب الارضى \n DEF",
+     "الوقاية الاتجاهية ضد زيادة التيار \n DOC",
+     "محولات التيار",
+     "نوع القاطع",
+     "اسم الخلية",
+     "م"
+    ],
+    [
+     "زمن الفصل",
+     "تيار الرجوع",
+     "تيار التشغيل",
+     "تيار التشغيل \n الابدائى",
+     "طراز الجهاز",
+     "زمن الفصل",
+     "تيار الرجوع",
+     "تيار التشغيل",
+     "تيار التشغيل \n الابدائى",
+     "طراز الجهاز"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "الرابط",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "مفاتيح الخروج"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "S.C",
+     "التسرب الارضى",
+     "زيادة التيار",
+     "محولات التيار",
+     "نوع القاطع",
+     "اسم الخلية",
+     "م"
+    ],
+    [
+     "زمن الفصل",
+     "تيار الرجوع",
+     "تيار التشغيل",
+     "تيار التشغيل \n الابدائى",
+     "طراز الجهاز",
+     "زمن الفصل",
+     "تيار الرجوع",
+     "تيار التشغيل",
+     "تيار التشغيل \n الابدائى",
+     "طراز الجهاز"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -178,7 +296,7 @@
    "text": "مسئول شركة التوزيع: \nالتوقيع:\nتاريخ \nالتنفيذ:"
   }
  ],
- "text": "الجهاز:\nالوقاية ضد \n التسرب الاضى\nMLFB - A11\nالمانى شرقى\nمقدمـة\nيقوم الجهاز \nبالوقاية ضد التسرب \nالارضى\nتم اعداد \nالمستند \n بواسطة \nشركة شمال الدلتا لتوزيع الكهرباء وتمت المناقشة باجتماع منسقى الـ \nMPIS \nلشركات التوزيع \nبتاريخ / / وتم \nاعتماد المستند للتنفيذ0\nاحتياطات \nالأمـان\nاصدار أمر شغل معتمد ويجب \nأن يحمل القائمون بأعمال الصيانة كارت\n فئة السلامة والصحة المهنية0\nتأكد\n من \n وضع علامات التحذير \n (تحت الاختبار)\nضرورة اتباع تعليمات السلامة والصحة المهنية فى مكان العمل\nفصل القاطع ووضعه فى وضع الاختبار خارج الخلية0\nعدم فتح محولات التيار وهى فى حالة التشغيل او عند الاختبار\nعدم عمل قصر على اطراف الملفات الثانوية لمحولات الجهد بجهاز الوقاية المركب\nتأريض جهاز الوقاية لحمايته0\nمراعاة القطبية عند التعامل مع الجهد المستمر\nDC Voltage\nفصل قواطع الجهد المستمر عند التعامل مع دوائره0\nمراعاة تعليمات السلامة والصحة المهنية عند التعامل مع البطاريات ( ارتداء \nالقفازات ، النظارات الواقية \n، \n أفو ، شوكة لقياس جهد البطارية \n، الهيدروميتر لقياس كثافة محلول \nالبطاريات )\nاصدار أمر شغل معتمد ويجب \nأن يحمل القائمون بأعمال الصيانة كارت\n فئة السلامة والصحة المهنية0\nتأكد\n من \n وضع علامات التحذير \n (تحت الاختبار)\nضرورة اتباع تعليمات السلامة والصحة المهنية فى مكان العمل\nفصل القاطع ووضعه فى وضع الاختبار خارج الخلية0\nعدم فتح محولات التيار وهى فى حالة التشغيل او عند الاختبار\nعدم عمل قصر على اطراف الملفات الثانوية لمحولات الجهد بجهاز الوقاية المركب\nتأريض جهاز الوقاية لحمايته0\nمراعاة القطبية عند التعامل مع الجهد المستمر\nDC Voltage\nفصل قواطع الجهد المستمر عند التعامل مع دوائره0\nمراعاة تعليمات السلامة والصحة المهنية عند التعامل مع البطاريات ( ارتداء \nالقفازات ، النظارات الواقية \n، \n أفو ، شوكة لقياس جهد البطارية \n، الهيدروميتر لقياس كثافة محلول \nالبطاريات )\nالعدد والأدوات والأجهزة المستخدمة\nجهاز حقن ثانوى بملحقاته\nبنسة احمال لقياس التيار فى حالة اذا ما كان جهاز الحقن ليس رقمى\nاطراف التوصيل\nجهاز Avometer\nالاجراءات المطلوب \nتنفيذها\nAll tests is done according to IEC 60255-5 ANSI / \nIEEEC 37.90.0\nFrequency of \nTesting\nIt is a visual inspection of the relay cover can \nreveal valuable information. Recommended that protective and auxiliary relays be \ngiven a complete calibration test and inspection at least once a year. This \nschedule however sometimes cannot be met due to existing workloads and available \nmanpower with the result that routine calibration tests intervals of many relays \nare longer than a year.\nTest Records\nA complete record should be kept of all test data and \nobservations made during tests and inspections including \nidentifying numbers of test equipment used. The following relay test report\nforms are available at distribution points.\nالاختبار الظاهرى للجهاز\nA visual inspection of the relay cover can reveal valuable\ninformation. Any excessive dust, dirt or metallic material deposited on \nthe cover should be noted and removed thus preventing \nsuch material from entering the relay when the cover is \nremoved. A cover glass which is fogged should be cleaned \nfogging is in most cases a normal condition due to \nvolatile materials being driven out of coils and insulating materials, and\nis not an indication of a problem.\nTest Sheet\nشهادة اختبار وقاية موزع\nمفاتيح الدخول\nمفاتيح الخروج\nمسئولى \nالاختبار\nاسم الموقع:\nكود الجهاز:\nمسئول شركة النقل: \nالتوقيع:\nتاريخ \nالتنفيذ:\nمسئول شركة التوزيع: \nالتوقيع:\nتاريخ \nالتنفيذ:",
+ "text": "نظام معلومات إجراءات \n الصيانة\n | أجهزة الوقايـة | إجـراءات الصيانـة\nرقم المستند: \n EFR-043-r0a | الجهاز:\n الوقاية ضد \n التسرب الاضى\n MLFB - A11\n المانى شرقى\nصادرة الى: \n شركات التوزيع\nالموقف: \n مسودة \n رقم 1\nتاريخ \n الاعتماد: | الاجراء:\n الاختبار والمعايرة \n السنوية \n (\n P1- Y1 )\nتاريخ المراجعة التالية:\nمقدمـة\nيقوم الجهاز \nبالوقاية ضد التسرب \nالارضى\nتم اعداد \nالمستند \n بواسطة \nشركة شمال الدلتا لتوزيع الكهرباء وتمت المناقشة باجتماع منسقى الـ \nMPIS \nلشركات التوزيع \nبتاريخ / / وتم \nاعتماد المستند للتنفيذ0\nاحتياطات \nالأمـان\nاصدار أمر شغل معتمد ويجب \nأن يحمل القائمون بأعمال الصيانة كارت\n فئة السلامة والصحة المهنية0\nتأكد\n من \n وضع علامات التحذير \n (تحت الاختبار)\nضرورة اتباع تعليمات السلامة والصحة المهنية فى مكان العمل\nفصل القاطع ووضعه فى وضع الاختبار خارج الخلية0\nعدم فتح محولات التيار وهى فى حالة التشغيل او عند الاختبار\nعدم عمل قصر على اطراف الملفات الثانوية لمحولات الجهد بجهاز الوقاية المركب\nتأريض جهاز الوقاية لحمايته0\nمراعاة القطبية عند التعامل مع الجهد المستمر\nDC Voltage\nفصل قواطع الجهد المستمر عند التعامل مع دوائره0\nمراعاة تعليمات السلامة والصحة المهنية عند التعامل مع البطاريات ( ارتداء \nالقفازات ، النظارات الواقية \n، \n أفو ، شوكة لقياس جهد البطارية \n، الهيدروميتر لقياس كثافة محلول \nالبطاريات )\nاصدار أمر شغل معتمد ويجب \nأن يحمل القائمون بأعمال الصيانة كارت\n فئة السلامة والصحة المهنية0\nتأكد\n من \n وضع علامات التحذير \n (تحت الاختبار)\nضرورة اتباع تعليمات السلامة والصحة المهنية فى مكان العمل\nفصل القاطع ووضعه فى وضع الاختبار خارج الخلية0\nعدم فتح محولات التيار وهى فى حالة التشغيل او عند الاختبار\nعدم عمل قصر على اطراف الملفات الثانوية لمحولات الجهد بجهاز الوقاية المركب\nتأريض جهاز الوقاية لحمايته0\nمراعاة القطبية عند التعامل مع الجهد المستمر\nDC Voltage\nفصل قواطع الجهد المستمر عند التعامل مع دوائره0\nمراعاة تعليمات السلامة والصحة المهنية عند التعامل مع البطاريات ( ارتداء \nالقفازات ، النظارات الواقية \n، \n أفو ، شوكة لقياس جهد البطارية \n، الهيدروميتر لقياس كثافة محلول \nالبطاريات )\nالعدد والأدوات والأجهزة المستخدمة\nجهاز حقن ثانوى بملحقاته\nبنسة احمال لقياس التيار فى حالة اذا ما كان جهاز الحقن ليس رقمى\nاطراف التوصيل\nجهاز Avometer\nالاجراءات المطلوب \nتنفيذها\nAll tests is done according to IEC 60255-5 ANSI / \nIEEEC 37.90.0\nFrequency of \nTesting\nIt is a visual inspection of the relay cover can \nreveal valuable information. Recommended that protective and auxiliary relays be \ngiven a complete calibration test and inspection at least once a year. This \nschedule however sometimes cannot be met due to existing workloads and available \nmanpower with the result that routine calibration tests intervals of many relays \nare longer than a year.\nTest Records\nA complete record should be kept of all test data and \nobservations made during tests and inspections including \nidentifying numbers of test equipment used. The following relay test report\nforms are available at distribution points.\nالاختبار الظاهرى للجهاز\nA visual inspection of the relay cover can reveal valuable\ninformation. Any excessive dust, dirt or metallic material deposited on \nthe cover should be noted and removed thus preventing \nsuch material from entering the relay when the cover is \nremoved. A cover glass which is fogged should be cleaned \nfogging is in most cases a normal condition due to \nvolatile materials being driven out of coils and insulating materials, and\nis not an indication of a problem.\nوصل\n اطراف التيار \"خرج جهاز الحقن على روزيتة جهاز الوقاية على النقطتين 1 \n ، \n 2 وهى نقاط التيار للارضى IE | 1.\nارفع قيمة التيار تدريجيا حتى نصل لقيمة الـ \n Pickup \n الموجودة بالجهاز | 2.\nسجل\n هذه القيمة بالـ \n Test Sheet | 3.\nيتم النزول بالتيار\n للوصول الى \n I Reset ومن ثم حساب \n قيمة Reset \n Factor من خلال قيمة تيار \n Reset \n / تيار Pickup | 4.\nوصل\n اطراف الـ \n Trip لجهاز الوقاية النقاط \n 3 ، 4 على نقط الساعة فى جهاز الحقن | 5.\nفى حالة اذا كان المراد عمل تدريج زمنى سليم يتم الاخذ فى الاعتبار زمن المفتاح \n ومن ثم يتم توصيل المفتاح الخاص بهذه الخليه مع توصيل طرفى الساعة على اطراف \n المفتاح وحساب زمن الفصل لكل فازة | 6.\nاحقن جهاز الوقاية بقيمة \n Pickup وتسجيل ومن الفصل \n والذى يمثل زمن الفصل للمتمم فقط ويتم تكرارها مع المفتاح وذلك لمعرفة زمن \n الفصل الميكانيكى للمفتاح | 7.\nTest Sheet\nشهادة اختبار وقاية موزع\nمفاتيح الدخول\nالوقاية الاتجاهية ضد التسرب الارضى \n DEF | الوقاية الاتجاهية ضد زيادة التيار \n DOC | محولات التيار | نوع القاطع | اسم الخلية | م\nزمن الفصل | تيار الرجوع | تيار التشغيل | تيار التشغيل \n الابدائى | طراز الجهاز | زمن الفصل | تيار الرجوع | تيار التشغيل | تيار التشغيل \n الابدائى | طراز الجهاز\n |  |  |  |  |  |  |  |  |  |  |  | الرابط | \nمفاتيح الخروج\nS.C | التسرب الارضى | زيادة التيار | محولات التيار | نوع القاطع | اسم الخلية | م\nزمن الفصل | تيار الرجوع | تيار التشغيل | تيار التشغيل \n الابدائى | طراز الجهاز | زمن الفصل | تيار الرجوع | تيار التشغيل | تيار التشغيل \n الابدائى | طراز الجهاز\nمسئولى \nالاختبار\nاسم الموقع:\nكود الجهاز:\nمسئول شركة النقل: \nالتوقيع:\nتاريخ \nالتنفيذ:\nمسئول شركة التوزيع: \nالتوقيع:\nتاريخ \nالتنفيذ:",
  "text_truncated": false,
  "links": [],
  "images": [
