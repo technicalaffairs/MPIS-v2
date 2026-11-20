@@ -1344,10 +1344,10 @@ def load_i18n(root):
 CSS = """/* MPIS v2 — professional ministry portal: navy + gold, clean rows, photo banner */
 :root{--bg:#f4f6f8;--surface:#fff;--surface-2:#eef1f4;--text:#1c2733;--muted:#5c6b7a;
 --border:#d8dee4;--navy:#0a2a4a;--navy-2:#123a5e;--gold:#b98a1d;--accent:#0a2a4a;--accent-2:#0e7a5f;--warn:#8a5a00;--warn-bg:#fff4d6;
---radius:10px;--shadow:0 1px 4px rgba(10,42,74,.08)}
+--radius:10px;--shadow:0 1px 4px rgba(10,42,74,.08);--hero-bg:#0a2a4a}
 [data-theme="dark"]{--bg:#0f161d;--surface:#18222c;--surface-2:#212e3a;--text:#e8eef3;
 --muted:#9fb0bf;--border:#2c3c4a;--navy:#d8e6f5;--navy-2:#b8cfe6;--gold:#d4af37;--accent:#6db3ff;--accent-2:#4cc2a0;--warn:#ffcf5c;--warn-bg:#3a2f10;
---shadow:0 1px 6px rgba(0,0,0,.35)}
+--shadow:0 1px 6px rgba(0,0,0,.35);--hero-bg:#12283d}
 *{box-sizing:border-box}
 body{margin:0;font-family:"Segoe UI",Tahoma,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
 a{color:var(--accent)}
@@ -1362,12 +1362,11 @@ a{color:var(--accent)}
 button,.btn{cursor:pointer;border:1px solid var(--border);background:var(--surface);color:var(--text);
 border-radius:8px;padding:7px 14px;font-size:.9rem;text-decoration:none;display:inline-block}
 button:hover,.btn:hover{border-color:var(--navy)}
-.hero{position:relative;overflow:hidden;border-radius:0 0 12px 12px;margin:0 0 8px;box-shadow:var(--shadow)}
-.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,42,74,.82),rgba(10,42,74,.68))}
-.hero-inner{position:relative;z-index:1;text-align:center;color:#fff;padding:44px 24px 40px}
-.hero-logo{height:110px;width:110px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 14px;background:#fff;border:4px solid rgba(255,255,255,.85)}
-.hero-inner h1{margin:.2em 0;font-size:1.8rem;line-height:1.4;color:#fff}
+.hero{display:flex;align-items:center;gap:24px;background:var(--hero-bg);border-radius:12px;margin:0 0 8px;padding:26px 28px;box-shadow:var(--shadow);color:#fff}
+.hero-photo{width:260px;height:170px;object-fit:cover;border-radius:8px;flex:none;display:block}
+.hero-inner{flex:1;text-align:start;padding:0;color:#fff}
+.hero-logo{height:84px;width:84px;border-radius:50%;object-fit:cover;display:block;margin:0 0 10px;background:#fff;border:3px solid rgba(255,255,255,.85)}
+.hero-inner h1{margin:.2em 0;font-size:1.6rem;line-height:1.4;color:#fff}
 .hero-inner p{margin:.3em 0;opacity:.95}
 .hero-inner .org{font-size:.95rem;opacity:.9}
 .hero-inner .sub{color:#e8d9a8;font-weight:600;letter-spacing:.4px}
@@ -1421,7 +1420,7 @@ footer{color:var(--muted);font-size:.88rem;padding:26px 0 40px;border-top:1px so
 .results li{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 14px;margin:8px 0}
 .results li a{text-decoration:none;font-weight:600}
 @media print{.topbar,.controls,.searchbox,.noprint{display:none!important}body{background:#fff;color:#000}.doc-body{box-shadow:none;border:none}}
-@media (max-width:640px){.hero-inner h1{font-size:1.3rem}.doc-body{padding:14px}.cat-list{grid-template-columns:1fr}.cat-head{flex-direction:column;align-items:flex-start}.cat-head img{width:100%;height:160px}}
+@media (max-width:640px){.hero{flex-direction:column;align-items:flex-start;padding:20px}.hero-photo{width:100%;height:150px}.hero-inner h1{font-size:1.3rem}.doc-body{padding:14px}.cat-list{grid-template-columns:1fr}.cat-head{flex-direction:column;align-items:flex-start}.cat-head img{width:100%;height:160px}}
 """
 
 JS = """// MPIS v2 — theme, language UI strings, live search
@@ -1760,10 +1759,10 @@ def build(content_dir, dist_dir, v1_root):
 <div class="controls"><button id="langBtn" type="button">English</button>
 <button id="themeBtn" type="button">🌙</button></div></div></header>
 <main class="wrap">
-<section class="hero"><img class="hero-bg" src="assets/covers/transformers.jpg" alt="Power transformer in a substation"><div class="hero-inner"><img class="hero-logo" src="assets/logo.png" alt="Ministry of Electricity and Renewable Energy logo"><p class="org"><span data-i18n="org_line1">{esc(i18n['ar']['org_line1'])}</span> — <span data-i18n="org_line2">{esc(i18n['ar']['org_line2'])}</span></p>
+<section class="hero"><div class="hero-inner"><img class="hero-logo" src="assets/logo.png" alt="Ministry of Electricity and Renewable Energy logo"><p class="org"><span data-i18n="org_line1">{esc(i18n['ar']['org_line1'])}</span> — <span data-i18n="org_line2">{esc(i18n['ar']['org_line2'])}</span></p>
 <h1 data-i18n="site_title">نظام معلومات إجراءات الصيانة</h1>
 <p class="sub">Maintenance Procedure Information System — MPIS</p>
-<p class="org" data-i18n="org_line3">{esc(i18n['ar']['org_line3'])}</p></div></section>
+<p class="org" data-i18n="org_line3">{esc(i18n['ar']['org_line3'])}</p></div><img class="hero-photo" src="assets/covers/transformers.jpg" alt="Power transformer in a substation"></section>
 <div class="stats">
 <div class="stat"><b>{total}</b><span data-i18n="stats_docs">documents</span></div>
 <div class="stat"><b>{len(cats)}</b><span data-i18n="stats_categories">categories</span></div>
