@@ -1,6 +1,6 @@
 {
  "id": "draf-docs-draf-subst-draf-subst-tb-t-001-html",
- "doc_number": "T-001",
+ "doc_number": "T-001-R0",
  "title_en": "LI-TL-029 - -r0",
  "title_ar": "",
  "category": "draft_documents",
@@ -16,6 +16,10 @@
   {
    "type": "table",
    "rows": [
+    [
+     "",
+     "Substations \n Technical Bulletin"
+    ],
     [
      "Equipment:\n Power Transformers",
      "Document Number: T-001-r0"
@@ -105,6 +109,66 @@
   {
    "type": "paragraph",
    "text": "Transformer winding Temperature\n________ C"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "#",
+     "Test Procedure",
+     "",
+     "R15",
+     "R60",
+     "R60/R15",
+     "Normal Value"
+    ],
+    [
+     "1",
+     "HV \n LV+Ter.+E",
+     "MΩ",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "LV \n HV+Ter.+ E",
+     "MΩ",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Ter. \n LV+HV +E",
+     "MΩ",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "HV \n LV",
+     "MΩ",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "HV+LV+Ter. \n E",
+     "MΩ",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -232,6 +296,13 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Test Procedure",
+     "Capacitance PF",
+     "Tan d %",
+     "Initial Value PF",
+     "Initial Value\n Tan d %"
+    ],
     [
      "1. HV LV+Ter.+E",
      "",
@@ -973,7 +1044,7 @@
    "text": "Approved By :____________________________________________"
   }
  ],
- "text": "\nIntroduction\nThis document lists the tests, which must be performed on all\n Power transformers as the manufacturers recommendations for the frequency\n of tests.\nSafety Precautions\nA work permit must be issued.\nWear your safety helmet, shoes and safety belt when cleaning suspension\n insulators.\nTools and Equipment\nTan d equipment, 5000Volt Megger,\n Turns Ratio test equipment.\nTransformer Test Certificate Form\nSubstation:\nSerial No:\nManufacturer:\nMVA:\nVoltage:\nDate:\nHigh Voltage \nWinding Low Voltage\nWinding Ter. Winding\n1-Winding Insulation Resistance \n (Megger = 5000V)\nTransformer winding Temperature\n________ C\nNotes: \n..\n.....\n.............................\n.............................\n.........................................\n2a Winding Insulation Capacitance &\n Dissipation Factor (Tan d)\n For a Two Winding Transformer\n\nHV\nLV \nEarth\n(Simplified)\nTest # 1 = c1 + c2\nTest # 2 = c2\nTest # 3 = c1 + c3\nTest # 4 = c3\nTest # 5 = c1\nTest # 6 = c2 + c3\n(Accuracy Check)\nCheck that capacitance of Tests # :\n2 + 4 = 6 LV\n4 + 5 = 3 Earth\n2 + 5 = 1\nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\n2B Winding Insulation Capacitance &\n Dissipation Factor (Tan d )\n For a Three Winding Transformer\n\nHV \nLV \nTer.\n(Simplified)\nTest # 1 = c1 + c4+c2\nTest # 2 = c1\nTest # 3 = c2 + c4+ c6\nTest # 4 = c2\nTest # 5 = c3 +c5+c6\nTest # 6 = c3\nTest # 7 = c1 + c2 +c3\nTest # 8 = c4\nTest # 9 = c5\nTest # 10 = c6\n(Accuracy Check) LV Ter.\nCheck that capacitance of Tests #:\n2 + 8+ 9 = 1\n4 + 8+10 = 3\n6 + 9+10 = 1\nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\n3A\n Turns Ratio Test\n\nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\n3B Turns Ratio Test\n\nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\n4) D.C. Resistance of Windings\n\nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\nTransformer Tested By: ___________________________________\nApproved By :____________________________________________",
+ "text": " | Substations \n Technical Bulletin\nEquipment:\n Power Transformers | Document Number: T-001-r0\nIssued To: \n EHV Networks\n General Network Inspector\nStatus: \n 1ST DRAFT\nProcedure:\n Tests Record Data Certificate | Date Approved:\nReview Date:\nIntroduction\nThis document lists the tests, which must be performed on all\n Power transformers as the manufacturers recommendations for the frequency\n of tests.\nSafety Precautions\nA work permit must be issued.\nWear your safety helmet, shoes and safety belt when cleaning suspension\n insulators.\nTools and Equipment\nTan d equipment, 5000Volt Megger,\n Turns Ratio test equipment.\nTransformer Test Certificate Form\nSubstation:\nSerial No:\nManufacturer:\nMVA:\nVoltage:\nDate:\nHigh Voltage \nWinding Low Voltage\nWinding Ter. Winding\n1-Winding Insulation Resistance \n (Megger = 5000V)\nTransformer winding Temperature\n________ C\n# | Test Procedure |  | R15 | R60 | R60/R15 | Normal Value\n1 | HV \n LV+Ter.+E | MΩ |  |  |  | \n2 | LV \n HV+Ter.+ E | MΩ |  |  |  | \n3 | Ter. \n LV+HV +E | MΩ |  |  |  | \n4 | HV \n LV | MΩ |  |  |  | \n5 | HV+LV+Ter. \n E | MΩ |  |  |  | \nNotes: \n..\n.....\n.............................\n.............................\n.........................................\n2a Winding Insulation Capacitance &\n Dissipation Factor (Tan d)\n For a Two Winding Transformer\nTest Procedure | Capacitance\n P.F. | Tan\n d % | Initial Value\n P.F. | Initial Value\n Tan d %\n1. HV\n LV + E |  |  |  | \n2. HV\n E(LV+Guard) |  |  |  | \n3. LV \n HV+ E |  |  |  | \n4. LV \n E (HV+Guard) |  |  |  | \n5. HV \n LV(E +Guard) |  |  |  | \n6. HV + LV \n E |  |  |  | \nHV\nLV \nEarth\n(Simplified)\nTest # 1 = c1 + c2\nTest # 2 = c2\nTest # 3 = c1 + c3\nTest # 4 = c3\nTest # 5 = c1\nTest # 6 = c2 + c3\n(Accuracy Check)\nCheck that capacitance of Tests # :\n2 + 4 = 6 LV\n4 + 5 = 3 Earth\n2 + 5 = 1\nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\n2B Winding Insulation Capacitance &\n Dissipation Factor (Tan d )\n For a Three Winding Transformer\nTest Procedure | Capacitance PF | Tan d % | Initial Value PF | Initial Value\n Tan d %\n1. HV LV+Ter.+E |  |  |  | \n2. HV E(LV+Ter.+Guard) |  |  |  | \n3. LV HV+Ter+ E |  |  |  | \n4. LV E\n (HV+Ter+Guard) |  |  |  | \n5. Ter. HV+LV+E |  |  |  | \n6. Ter E\n (HV+LV+Guard) |  |  |  | \n7. HV+LV+Ter. E |  |  |  | \n8. HV LV Ter. E\n Guard) |  |  |  | \n9. HV Ter.(LV+E+Guard) |  |  |  | \n10. LV Ter.\n (LV+E+Guard) |  |  |  | \nHV \nLV \nTer.\n(Simplified)\nTest # 1 = c1 + c4+c2\nTest # 2 = c1\nTest # 3 = c2 + c4+ c6\nTest # 4 = c2\nTest # 5 = c3 +c5+c6\nTest # 6 = c3\nTest # 7 = c1 + c2 +c3\nTest # 8 = c4\nTest # 9 = c5\nTest # 10 = c6\n(Accuracy Check) LV Ter.\nCheck that capacitance of Tests #:\n2 + 8+ 9 = 1\n4 + 8+10 = 3\n6 + 9+10 = 1\nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\n3A\n Turns Ratio Test\nTAP | AB an | BC bn | CA- cn\n1 |  |  | \n2 |  |  | \n3 |  |  | \n4 |  |  | \n5 |  |  | \n6 |  |  | \n7 |  |  | \n8 |  |  | \n9 |  |  | \n10 |  |  | \n11 |  |  | \n12 |  |  | \n13 |  |  | \n14 |  |  | \n15 |  |  | \n16 |  |  | \n17 |  |  | \n18 |  |  | \n19 |  |  | \n20 |  |  | \n21 |  |  | \nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\n3B Turns Ratio Test\nTAP | An an | Bn bn | Cn- cn\n1 |  |  | \n2 |  |  | \n3 |  |  | \n4 |  |  | \n5 |  |  | \n6 |  |  | \n7 |  |  | \n8 |  |  | \n9 |  |  | \n10 |  |  | \n11 |  |  | \n12 |  |  | \n13 |  |  | \n14 |  |  | \n15 |  |  | \n16 |  |  | \n17 |  |  | \n18 |  |  | \n19 |  |  | \n20 |  |  | \n21 |  |  | \nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\n4) D.C. Resistance of Windings\nAn | Bn | Cn\nTap | Volts | Amps | Resistance | Volts | Amps | Resistance | Volts | Amps | Resistance\n1 |  |  |  |  |  |  |  |  | \n2 |  |  |  |  |  |  |  |  | \n3 |  |  |  |  |  |  |  |  | \n4 |  |  |  |  |  |  |  |  | \n5 |  |  |  |  |  |  |  |  | \n6 |  |  |  |  |  |  |  |  | \n7 |  |  |  |  |  |  |  |  | \n8 |  |  |  |  |  |  |  |  | \n9 |  |  |  |  |  |  |  |  | \n10 |  |  |  |  |  |  |  |  | \n11 |  |  |  |  |  |  |  |  | \n12 |  |  |  |  |  |  |  |  | \n13 |  |  |  |  |  |  |  |  | \n14 |  |  |  |  |  |  |  |  | \n15 |  |  |  |  |  |  |  |  | \n16 |  |  |  |  |  |  |  |  | \n17 |  |  |  |  |  |  |  |  | \n18 |  |  |  |  |  |  |  |  | \n19 |  |  |  |  |  |  |  |  | \n20 |  |  |  |  |  |  |  |  | \n21 |  |  |  |  |  |  |  |  | \nLV |  |  |  |  |  |  |  |  | \nNotes: ......\n..\n.....\n.............................\n.............................\n.........................................\nTransformer Tested By: ___________________________________\nApproved By :____________________________________________",
  "text_truncated": false,
  "links": [],
  "images": [

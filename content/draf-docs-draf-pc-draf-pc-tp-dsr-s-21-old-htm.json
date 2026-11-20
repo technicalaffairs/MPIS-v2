@@ -64,11 +64,25 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Manufacturer",
      "Merlin Gerin",
-     "",
+     "Type",
      "S21",
+     "Serial No.",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Panel",
      "",
+     "Feeder",
+     "",
+     "Design",
      ""
     ]
    ],
@@ -116,11 +130,11 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Baud rate",
      "2400",
-     "",
+     "Date Bits",
      "8",
-     "",
+     "Stop Bits",
      "1"
     ]
    ],
@@ -130,19 +144,13 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Parity",
      "None",
-     "",
+     "Flow control",
      "Xon /Xoff"
     ]
    ],
    "truncated_rows": 0
-  },
-  {
-   "type": "list",
-   "items": [
-    "Flow control"
-   ]
   },
   {
    "type": "paragraph",
@@ -156,15 +164,15 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Access level 1",
      "ACC",
-     "",
+     "Password",
      "OTTER"
     ],
     [
-     "",
+     "Access level 2",
      "2ACC",
-     "",
+     "Password",
      "TAIL"
     ]
    ],
@@ -178,29 +186,29 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
+     "From level 1",
+     "enter\n Status mode",
      "STA",
-     "",
+     "Review status report",
      ""
     ],
     [
      "",
-     "",
+     "enter Date mode",
      "DAT",
-     "",
+     "Check date",
      ""
     ],
     [
      "",
-     "",
+     "enter Time mode",
      "TIM",
-     "",
+     "Set clock to local time",
      ""
     ],
     [
-     "",
-     "",
+     "From level 2",
+     "enter Set mode",
      "SET",
      "Issue setting print-out (attached page)",
      ""
@@ -214,7 +222,7 @@
     ],
     [
      "",
-     "",
+     "enter Set mode",
      "SETG",
      "Issue setting print-out (attached page)",
      ""
@@ -222,7 +230,7 @@
     [
      "",
      "enter Set mode",
-     "",
+     "SETP",
      "Issue setting print-out (attached page)",
      ""
     ]
@@ -250,20 +258,14 @@
    "text": "Check and record distance \nprotection metering indications"
   },
   {
-   "type": "paragraph",
-   "text": "Injection values"
-  },
-  {
-   "type": "paragraph",
-   "text": "Ia=Ib=Ic=1A"
-  },
-  {
-   "type": "paragraph",
-   "text": "A B \n C \n AB BC \n CA"
-  },
-  {
-   "type": "paragraph",
-   "text": "I (A)"
+   "type": "table",
+   "rows": [
+    [
+     "Injection values\n Ia=Ib=Ic=1A\n Vab=Vbc=Vca=100V",
+     "A B \n C \n AB BC \n CA\n I (A) \n V (kv)"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "list",
@@ -271,7 +273,7 @@
     "Connect 3 phases test set equipment",
     "Apply rated voltage & currents at 0o \n& 90o angles.",
     "From level 1 \nenter meter mode MET",
-    "V (kv)"
+    "Check and record distance \nprotection metering indications"
    ]
   },
   {
@@ -289,6 +291,41 @@
   {
    "type": "paragraph",
    "text": "Calculation notes for Distance Protection \ntest set equipped with adjustable currents , voltages & phase angle"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Set angle \n to nearest value",
+     "Angle",
+     "",
+     "*"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Set fault current to In",
+     "",
+     "",
+     "Amps"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Fault impedance applied from test set",
+     "1",
+     "Amps"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -345,9 +382,17 @@
     ],
     [
      "Ia",
-     "",
-     "",
-     "",
+     "50 H",
+     "6",
+     "C",
+     ""
+    ],
+    [
+     "Ib",
+     ""
+    ],
+    [
+     "Ic",
      ""
     ]
    ],
@@ -372,9 +417,9 @@
     ],
     [
      "Ia",
-     "",
-     "",
-     "",
+     "50 M",
+     "8",
+     "51",
      ""
     ],
     [
@@ -400,7 +445,7 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Test set Current injection",
      "Distance protection"
     ],
     [
@@ -409,6 +454,32 @@
      "TAR",
      "Led N",
      "Measured pick-up (Amps)"
+    ],
+    [
+     "",
+     "4",
+     "50Q4",
+     "9",
+     "EN",
+     ""
+    ],
+    [
+     "3",
+     "50Q3",
+     "A",
+     ""
+    ],
+    [
+     "2",
+     "50Q2",
+     "B",
+     ""
+    ],
+    [
+     "1",
+     "50Q1",
+     "C",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -424,6 +495,10 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Test set Current injection",
+     "Distance protection"
+    ],
     [
      "Zone",
      "Setting",
@@ -532,7 +607,7 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Test set Current injection",
      "Distance protection"
     ],
     [
@@ -543,7 +618,7 @@
      "Measured \n pick-up (Amps)"
     ],
     [
-     "",
+     "IN",
      "4",
      "50G4",
      "33",
@@ -582,6 +657,10 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Test set \nCurrent injection",
+     "Distance protection"
+    ],
     [
      "Zone",
      "Setting",
@@ -696,7 +775,7 @@
     [
      "Fault applied",
      "Test set",
-     ""
+     "Distance protection"
     ],
     [
      "Zone",
@@ -757,13 +836,13 @@
    "rows": [
     [
      "Note: Live inputs in",
+     "1-2-3",
+     "energized during test",
      "",
-     "",
-     "",
-     "",
-     "",
-     "",
-     ""
+     "TAR",
+     "44",
+     "Led`s on",
+     "50-51-Q"
     ]
    ],
    "truncated_rows": 0
@@ -778,7 +857,7 @@
     [
      "Fault \n applied",
      "Test set",
-     ""
+     "Distance protection"
     ],
     [
      "Zone",
@@ -789,7 +868,7 @@
      "Operating\nelement",
      "TAR",
      "Led N",
-     ""
+     "Measured pick-up (Amps)"
     ],
     [
      "-N",
@@ -876,20 +955,20 @@
     [
      "Fault applied",
      "Test set",
-     ""
+     "Distance Protection"
     ],
     [
      "Angle (Degrees)",
      "I fault (Amps)",
      "V fault (volts)",
      "Setting",
-     "",
-     "",
+     "Operating element",
+     "TAR",
      "Led N",
      "Measured pick-up (Amps)"
     ],
     [
-     "",
+     "-",
      "-75",
      "1",
      "",
@@ -942,6 +1021,196 @@
      "I fault (Amps)",
      "V fault (volts)",
      "Z fault (Ohms)",
+     "Operating\n time (ms)",
+     "Led`s indication \n (Service conditions)"
+    ],
+    [
+     "",
+     "A-N",
+     "",
+     "1",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "B-N",
+     "",
+     ""
+    ],
+    [
+     "Zone 1",
+     "C-N",
+     "",
+     ""
+    ],
+    [
+     "",
+     "A-B",
+     "",
+     ""
+    ],
+    [
+     "",
+     "B-C",
+     "",
+     ""
+    ],
+    [
+     "",
+     "C-A",
+     "",
+     ""
+    ],
+    [
+     "",
+     "A-N",
+     "",
+     "1",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "B-N",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Zone 2",
+     "C-N",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "A-B",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "B-C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "C-A",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "A-N",
+     "",
+     "1",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "B-N",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Zone 3",
+     "C-N",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "A-B",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "B-C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "C-A",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "A-N",
+     "",
+     "1",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "B-N",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Zone 4",
+     "C-N",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "A-B",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "B-C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "C-A",
+     "",
      "",
      ""
     ]
@@ -966,7 +1235,7 @@
     [
      "Fault \n applied",
      "Test set",
-     ""
+     "Distance protection"
     ],
     [
      "Zone",
@@ -981,7 +1250,7 @@
     ],
     [
      "A-B",
-     "",
+     "6",
      "0",
      "1",
      "",
@@ -1000,7 +1269,7 @@
     ],
     [
      "5",
-     "",
+     "180",
      "",
      "R1L6",
      "X6ABC",
@@ -1027,7 +1296,7 @@
     [
      "Fault \n applied",
      "Test set",
-     ""
+     "Distance protection"
     ],
     [
      "Zone",
@@ -1042,7 +1311,7 @@
     ],
     [
      "A-B",
-     "",
+     "6",
      "0",
      "1",
      "",
@@ -1061,7 +1330,7 @@
     ],
     [
      "5",
-     "",
+     "-90",
      "",
      "X1B6",
      "X6ABC",
@@ -1102,8 +1371,8 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
+     "(Phase \n faults) from tripping for \" \n \" time",
+     "OSBD",
      "",
      "msec",
      "",
@@ -1117,17 +1386,17 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Out-of step blocking condition \"OSB\"",
      "Zone fault",
-     ""
+     "Distance protection"
     ],
     [
      "TAR",
      "Led N",
-     "",
+     "Operating element",
      "TAR",
      "Led N",
-     ""
+     "Measured extended tripping time"
     ],
     [
      "5",
@@ -1193,10 +1462,10 @@
     ],
     [
      "Element",
-     "",
+     "TAR",
      "Led N",
      "N",
-     "",
+     "element",
      "TAR",
      "Led N",
      "\"SOTFD\" pulse \n duration (msec)"
@@ -1232,7 +1501,11 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "SOTFE + \n Zones \n = SOTF",
+     "Measured tripping time (msec)"
+    ],
+    [
+     "TAR",
      "Led N",
      "Faults",
      "Led`s indications in TAR 1"
@@ -1263,7 +1536,11 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "SOTFE + \n Close fault \n = SOTF\n Elements : TAR / Led",
+     "Measured tripping time \n (msec)"
+    ],
+    [
+     "TAR",
      "Led N",
      "50 H",
      "50 HH",
@@ -1353,7 +1630,7 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Voltages \n Va=Vb=Vc=V1\n (Volts)",
      "Distance protection"
     ],
     [
@@ -1379,7 +1656,7 @@
    "text": "Tested by: \nTested Date: \nSignature:"
   }
  ],
- "text": "\nIntroduction\nThis\n document outlines the testing procedure P1, which must be performed on an \n annually bases as\n indicated by Y1 in the title block.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one \n who is\nSafety rope with caution marks surrounding the work area,\nPersonal\n protective equipment must be used (safety shoes, Helmet).\nTools and Equipment\nSafety \n helmet and safety shoes.\nThree phase injection test set \n Reference:\nDistance protection test set \n Reference:\nWork\nto be Carried Out\n\nCommunications Set Up\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\n\nApply setting to connect port\n\n\nFlow control\nEntering Distance Protection Software\nNote: Darken areas \nshow characters to be typed\n\nPreliminary checks\n\nMetering check\nConnect 3 phases test set equipment\nApply rated voltage & currents at 0o \n& 90o angles.\nFrom level 1 \nenter meter mode MET\nCheck and record distance \nprotection metering indications\nInjection values\nIa=Ib=Ic=1A\nA B \n C \n AB BC \n CA\nI (A)\nConnect 3 phases test set equipment\nApply rated voltage & currents at 0o \n& 90o angles.\nFrom level 1 \nenter meter mode MET\nV (kv)\n\nCalculation notes for Distance Protection \ntest set equipped with adjustable currents , voltages & phase angle\nV fault (ph / Gnd) \nV fault (ph / ph)\n ph to Gnd faults : \nZ fault = ------------------- \nph to ph faults : Z fault = ----------------\nI fault (1 + KOM) \n2 * I fault\nPositive sequence calculation for 3 phases \nunbalanced voltages\nV1 = 1/3 (Va + a vb + a2 \nVC ) Va = \nreference = 0 Vb / Va:= 240 \nVc / Va: = 120\nV1 = 1/3 [(Va + Vb(-0.5 + j0.866) + \nVc (-0.5-j0.866)]\nNegative sequence calculation for 3 phases \nunbalanced voltages\nV2 = 1/3 (Va + a2 vb + a2 \nVC ) Va = \nreference = 0 Vb / Va:= 120 \nVc / Va: = 120\nV2 = 1/3 [(Va + Vb(-0.5 + j0.866) + \nVc (-0.5-j0.866)]\nSame formula apply for currents\nCheck overcurrent supervision \nsetting\nHigh set phase overcurrent supervision \n\"Switch onto fault\" logic\n\nMedium-set phase overcurrent supervision \n:\"Loss of potential\" logic\n\nNegative-sequence overcurrent supervision \n(312):\nNote : Inject current in one phase \nI injected = 312\n\nComments :\nPhase overcurrent supervision :\" \nMho & quadrilateral ground distance\" logic\n\nResidual overcurrent supervision :\"Mho & \nquadrilateral ground distance\" logic\n\nPhase-phase overcurrent supervision :\" Mho phase \ndistance\" logic\nNote : perform phase / phase injection \nTheoretical pick-up = Setting / 2\n\nCheck zone limit reach reach\nMho ground distance\n\nQuadrilateral ground distance\n\nResistive & reactive reach\n\nMho \nphase distance\n\nComments\n\nCheck \n:Out of step logic \"OOS\"\nNote \n: Use \" 3 phases test set (current & voltages)\nResistive reach\n\nResistive Reach\n\nEnable logic\nApply \na load impedance (3 phases) within zone 5 & zone 6 : \"OSB\" condition appears\nWhen \nthe impedance remains between zone 5 & zone 6longer than \"OSBD\" time, the relay \nlogic prevents zone\nEnable logic\nApply \na load impedance (3 phases) within zone 5 & zone 6 : \"OSB\" condition appears\nWhen \nthe impedance remains between zone 5 & zone 6longer than \"OSBD\" time, the relay \nlogic prevents zone\n\n\nNote \n: \"OSBD\" pulse duration can be measured by assigning spare output to \"OSB\" \nelement\nComments:\nCheck \n: Switch onto fault logic \"SOTF\"\nEnable logic \"SOTFE\" (ENCLO = Y - 52AEND = N)\nNote: \nAssing spare output to check \"SOTFD\" pulse duration\n(*) Requested condition to enable \"SOTF\"\n\nLogic \nvariable \"MTO\" \nNote : For test purpose extend SOTFD time duration\n\n\nNote \n: Put back original SOTFD setting\nCheck \n: Loss of potential logic \"LOP\"\nNegative sequence overvoltage detector\nUse 3 \nphases voltages test set \nVb = Vc= Vn \nVa : variable\nReduce Va voltage till 59QL element picks-up\nCalculate negative sequence voltage V2= Va + a2 Vb +a Vc\nReduce Va voltage till 59QL element picks-up\nCalculate negative sequence voltage V2= Va + a2 Vb +a Vc\n\nPositive sequence overvoltage detector\nUse 3 \nphases (balanced) voltages to perform test \nVa,Vb,Vc : simultaneously variable\nIncrease voltages till 59 PL element picks-up\n\nSubstation Name: \nFeeder Name:\nTested by: \nTested Date: \nSignature:",
+ "text": "Protections | Technical Procedure\nIntroduction\nThis\n document outlines the testing procedure P1, which must be performed on an \n annually bases as\n indicated by Y1 in the title block.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one \n who is\nSafety rope with caution marks surrounding the work area,\nPersonal\n protective equipment must be used (safety shoes, Helmet).\nTools and Equipment\nSafety \n helmet and safety shoes.\nThree phase injection test set \n Reference:\nDistance protection test set \n Reference:\nWork\nto be Carried Out\nManufacturer | Merlin Gerin | Type | S21 | Serial No. | \nPanel |  | Feeder |  | Design | \nCommunications Set Up\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\nAccessories | → | Terminal | → | Parameters | → | Communications\nApply setting to connect port\nBaud rate | 2400 | Date Bits | 8 | Stop Bits | 1\nParity | None | Flow control | Xon /Xoff\nEntering Distance Protection Software\nNote: Darken areas \nshow characters to be typed\nAccess level 1 | ACC | Password | OTTER\nAccess level 2 | 2ACC | Password | TAIL\nPreliminary checks\nFrom level 1 | enter\n Status mode | STA | Review status report | \n | enter Date mode | DAT | Check date | \n | enter Time mode | TIM | Set clock to local time | \nFrom level 2 | enter Set mode | SET | Issue setting print-out (attached page) | \n | enter Set mode | SETL | Issue setting print-out (attached page) | \n | enter Set mode | SETG | Issue setting print-out (attached page) | \n | enter Set mode | SETP | Issue setting print-out (attached page) | \nMetering check\nConnect 3 phases test set equipment\nApply rated voltage & currents at 0o \n& 90o angles.\nFrom level 1 \nenter meter mode MET\nCheck and record distance \nprotection metering indications\nInjection values\n Ia=Ib=Ic=1A\n Vab=Vbc=Vca=100V | A B \n C \n AB BC \n CA\n I (A) \n V (kv)\nConnect 3 phases test set equipment\nApply rated voltage & currents at 0o \n& 90o angles.\nFrom level 1 \nenter meter mode MET\nCheck and record distance \nprotection metering indications\nCos phi =1 | P \n (MW )\n Q ( MW ) | Cos PHI = 0 | P \n (MW )\n Q ( MW )\nCalculation notes for Distance Protection \ntest set equipped with adjustable currents , voltages & phase angle\nSet angle \n to nearest value | Angle |  | *\nSet fault current to In |  |  | Amps\nFault impedance applied from test set | 1 | Amps\nV fault (ph / Gnd) \nV fault (ph / ph)\n ph to Gnd faults : \nZ fault = ------------------- \nph to ph faults : Z fault = ----------------\nI fault (1 + KOM) \n2 * I fault\nPositive sequence calculation for 3 phases \nunbalanced voltages\nV1 = 1/3 (Va + a vb + a2 \nVC ) Va = \nreference = 0 Vb / Va:= 240 \nVc / Va: = 120\nV1 = 1/3 [(Va + Vb(-0.5 + j0.866) + \nVc (-0.5-j0.866)]\nNegative sequence calculation for 3 phases \nunbalanced voltages\nV2 = 1/3 (Va + a2 vb + a2 \nVC ) Va = \nreference = 0 Vb / Va:= 120 \nVc / Va: = 120\nV2 = 1/3 [(Va + Vb(-0.5 + j0.866) + \nVc (-0.5-j0.866)]\nSame formula apply for currents\nCheck overcurrent supervision \nsetting\nHigh set phase overcurrent supervision \n\"Switch onto fault\" logic\nTest set Current injection | Distance protection\nSetting \n & operating element | TAR | Led N | Measured pick-up (Amps)\nIa | 50 H | 6 | C | \nIb | \nIc | \nMedium-set phase overcurrent supervision \n:\"Loss of potential\" logic\nTest set Current injection | Distance protection\nSetting \n & operating element | TAR | Led N | Measured pick-up (Amps)\nIa | 50 M | 8 | 51 | \nIb | \nIc | \nNegative-sequence overcurrent supervision \n(312):\nNote : Inject current in one phase \nI injected = 312\nTest set Current injection | Distance protection\nZone | Setting & operating element | TAR | Led N | Measured pick-up (Amps)\n | 4 | 50Q4 | 9 | EN | \n3 | 50Q3 | A | \n2 | 50Q2 | B | \n1 | 50Q1 | C | \nComments :\nPhase overcurrent supervision :\" \nMho & quadrilateral ground distance\" logic\nTest set Current injection | Distance protection\nZone | Setting | Operating element | TAR | Led N | Measured pick-up (Amps)\nIa | 4 | 50L4 | 50AL4 | 31 | EN | \n3 | 50L3 | 50AL3 | A | \n2 | 50L2 | 50AL2 | B | \n1 | 50L1 | 50AL1 | C | \nIb | 4 | 50L2 | 50AL4 | 32 | G | \n3 | 50L1 | 50AL3 | Q | \n2 | 50L2 | 50AL2 | 51 | \n1 | 50L1 | 50AL1 | 50 | \nIc | 4 | 50L4 | 50AL4 | EN | \n3 | 50L3 | 50AL3 | A | \n2 | 50L2 | 50AL2 | B | \n1 | 50L1 | 50AL1 | C | \nResidual overcurrent supervision :\"Mho & \nquadrilateral ground distance\" logic\nTest set Current injection | Distance protection\nZone | Setting & operating element | TAR | Led N | Measured \n pick-up (Amps)\nIN | 4 | 50G4 | 33 | EN | \n3 | 50G3 | A | \n2 | 50G2 | B | \n1 | 50G1 | C | \nPhase-phase overcurrent supervision :\" Mho phase \ndistance\" logic\nNote : perform phase / phase injection \nTheoretical pick-up = Setting / 2\nTest set \nCurrent injection | Distance protection\nZone | Setting | operating element | TAR | Led N | Measured pick-up (Amps)\nIab | 4 | 50PP4 | 50AB4 | 31 | G | \n3 | 50PP3 | 50AB3 | Q | \n2 | 50PP2 | 50AB2 | 51 | \n1 | 50PP1 | 50AB1 | 50 | \nIca | 4 | 50PP4 | 50CA4 | 38 | EN | \n3 | 50PP3 | 50CA3 | A | \n2 | 50PP2 | 50CA2 | B | \n1 | 50PP1 | 50CA1 | C | \nIbc | 4 | 50PP4 | 50BC4 | G | \n3 | 50PP3 | 50BC3 | Q | \n2 | 50PP2 | 50BC2 | 51 | \n1 | 50PP1 | 50BC1 | 50 | \nCheck zone limit reach reach\nMho ground distance\nFault applied | Test set | Distance protection\nZone | Angle (Degrees) | I fault (Amps) | V fault (Volts) | Setting | operating element | TAR | Led N | Measured pick-up (Amps)\n-N | 4 | -75 | 1 |  | Z4MG | Z4G | 2 | EN | \n3 |  | Z3MG | Z3G | A | \n2 |  | Z2MG | Z2G | B | \n1 |  | Z1MG | Z1G | C | \nQuadrilateral ground distance\nNote: Live inputs in | 1-2-3 | energized during test |  | TAR | 44 | Led`s on | 50-51-Q\nResistive & reactive reach\nFault \n applied | Test set | Distance protection\nZone | Angle\n (Degrees) | I fault (Amps) | V fault (Volts) | Setting | Operating\nelement | TAR | Led N | Measured pick-up (Amps)\n-N | 4 | 0 | 1 |  | RG4 | XAG4 | 14 | EN | \n3 |  | RG3 | XAG3 | A | \n2 |  | RG2 | XAG2 | B | \n1 |  | RG1 | XAG1 | C | \n-N | 4 | -90 | 1 |  | XG4 | XAG4 | 14 | EN | \n3 |  | XG3 | XAG3 | A | \n2 |  | XG2 | XAG2 | B | \n1 |  | XG1 | XAG1 | C | \nMho \nphase distance\nFault applied | Test set | Distance Protection\nAngle (Degrees) | I fault (Amps) | V fault (volts) | Setting | Operating element | TAR | Led N | Measured pick-up (Amps)\n- | -75 | 1 |  | Z4P | M4P | 2 | G | \n | Z3P | M3P | Q | \n | Z2P | M2P | 51 | \n | Z1P | M1P | 50 | \nComments\n | Fault applied | Test set | Distance protection\n | Angle (Degrees) | I fault (Amps) | V fault (volts) | Z fault (Ohms) | Operating\n time (ms) | Led`s indication \n (Service conditions)\n | A-N |  | 1 |  |  |  | \n | B-N |  | \nZone 1 | C-N |  | \n | A-B |  | \n | B-C |  | \n | C-A |  | \n | A-N |  | 1 |  |  |  | \n | B-N |  |  | \nZone 2 | C-N |  |  | \n | A-B |  |  |  | \n | B-C |  |  | \n | C-A |  |  | \n | A-N |  | 1 |  |  |  | \n | B-N |  |  | \nZone 3 | C-N |  |  | \n | A-B |  |  |  | \n | B-C |  |  | \n | C-A |  |  | \n | A-N |  | 1 |  |  |  | \n | B-N |  |  | \nZone 4 | C-N |  |  | \n | A-B |  |  |  | \n | B-C |  |  | \n | C-A |  |  | \nCheck \n:Out of step logic \"OOS\"\nNote \n: Use \" 3 phases test set (current & voltages)\nResistive reach\nFault \n applied | Test set | Distance protection\nZone | Angle (Degrees) | I fault (Amps) | V fault (Volts) | Setting | Operating\nelement | TAR | Led N | R fault \n (Ohms)\nA-B | 6 | 0 | 1 |  | R1R6 | X6ABC | 10 | A | \n | R1R5 | X5ABC | B | \n5 | 180 |  | R1L6 | X6ABC | A | \n | R1L5 | X5ABC | B | \nResistive Reach\nFault \n applied | Test set | Distance protection\nZone | Angle (Degrees) | I fault (Amps) | V fault (Volts) | Setting | Operating \nelement | TAR | Led N | X\n fault (Ohms)\nA-B | 6 | 0 | 1 |  | X1B6 | X6ABC | 10 | A | \n | X1B5 | X5ABC | B | \n5 | -90 |  | X1B6 | X6ABC | A | \n | X1B5 | X5ABC | B | \nEnable logic\nApply \na load impedance (3 phases) within zone 5 & zone 6 : \"OSB\" condition appears\nWhen \nthe impedance remains between zone 5 & zone 6longer than \"OSBD\" time, the relay \nlogic prevents zone\nEnable logic\nApply \na load impedance (3 phases) within zone 5 & zone 6 : \"OSB\" condition appears\nWhen \nthe impedance remains between zone 5 & zone 6longer than \"OSBD\" time, the relay \nlogic prevents zone\n(Phase \n faults) from tripping for \" \n \" time | OSBD |  | msec |  |  | msec\nOut-of step blocking condition \"OSB\" | Zone fault | Distance protection\nTAR | Led N | Operating element | TAR | Led N | Measured extended tripping time\n5 | 50 | 1 | OOSB4 | 34 | EN | \n2 | OOSB3 | A | \n3 | OOSB2 | B | \n4 | OOSB1 | C | \nNote \n: \"OSBD\" pulse duration can be measured by assigning spare output to \"OSB\" \nelement\nComments:\nCheck \n: Switch onto fault logic \"SOTF\"\nEnable logic \"SOTFE\" (ENCLO = Y - 52AEND = N)\nNote: \nAssing spare output to check \"SOTFD\" pulse duration\n(*) Requested condition to enable \"SOTF\"\nNo current detection (*) | Close circuit breaker | SOTFE\nElement | TAR | Led N | N | element | TAR | Led N | \"SOTFD\" pulse \n duration (msec)\nTAR | Led N\n50 L | 8 | 50 | 1 |  |  | 7 | A | \n2 |  | \nLogic \nvariable \"MTO\" \nNote : For test purpose extend SOTFD time duration\nSOTFE + \n Zones \n = SOTF | Measured tripping time (msec)\nTAR | Led N | Faults | Led`s indications in TAR 1\n7 | A | 4 |  | \n3 | \n2 | \n1 | \nSOTFE + \n Close fault \n = SOTF\n Elements : TAR / Led | Measured tripping time \n (msec)\nTAR | Led N | 50 H | 50 HH | Led`s indications in TAR1\n7 | A | 6 / C | 19 / EN |  | \nNote \n: Put back original SOTFD setting\nCheck \n: Loss of potential logic \"LOP\"\nNegative sequence overvoltage detector\nUse 3 \nphases voltages test set \nVb = Vc= Vn \nVa : variable\nReduce Va voltage till 59QL element picks-up\nCalculate negative sequence voltage V2= Va + a2 Vb +a Vc\nReduce Va voltage till 59QL element picks-up\nCalculate negative sequence voltage V2= Va + a2 Vb +a Vc\nVoltages | Distance Protection\nVb - Vc\n (volts) | Va\n (volts) | V2\n (volts) | Operating \n element | TAR | Led\n |  |  | 59QL | 11 | Q\nPositive sequence overvoltage detector\nUse 3 \nphases (balanced) voltages to perform test \nVa,Vb,Vc : simultaneously variable\nIncrease voltages till 59 PL element picks-up\nVoltages \n Va=Vb=Vc=V1\n (Volts) | Distance protection\nOperating element | TAR | Led\n | 59 PL | 11 | 51\nSubstation Name: \nFeeder Name:\nTested by: \nTested Date: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [
