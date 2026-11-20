@@ -1,0 +1,126 @@
+{
+ "id": "gen-docs-app-gen-ueepc-instr-control-dcs-032-r0-htm",
+ "doc_number": "DCS-032-R0",
+ "title_en": "DCS-032-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/UEEPC/Instr+control/DCS-032-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n Distributed control system DCS \n DSAI 146 (32) channel \n Analogue input card\n SE50806 KL\n ABB company"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date Approved: \n 28 Jan 2009"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: Jan 2014"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "DSAI 146 is an analog input card is used to connect PT 100 - type resistance \n thermometers ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Analog input boards function in general as follows, the boards are provided \n with a no. of channels, interference suppression, filtration and adaptation of\n the signal with respect to zero point and gain are performed individually in a \n buffer amplifier. The A/D converts is multiplexed between the I/P channels. An \n I/P channel is selected by the controller software by writing to a parameter \n register, which also starts the A/d conversion the value converted to digital \n form is then transferred via the parallel data bus to the controller software \n for further signal processing."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Ibrahim Ebaid Awad general computer department \n & eng. Ahmed Add El Samee instruments department High Dam power station."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the \n qualified maintenance stuff should be carrying the suitable safety category.",
+    "Safety fence (rope) with caution \n marks surrounding the work area is required.",
+    "Wear the safety helmet and shoes.",
+    "Unit must be shutdown."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Safety helmet, shoes",
+    "Hand held radio wireless \n communications means",
+    "PT 100 - type resistance \n thermometers",
+    "Screw driver, nut driver",
+    "Isolating tape and test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be \ncarried out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material and manufacture's manual",
+    "Open panel no. 4",
+    "Using panel terminations identify the location for the desired card"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Using panel termination list for each card identify the two input wires for \n the first channel",
+    "Using the screw driver, remove the two wires and isolate with tape",
+    "Connect the variable resistance thermometers leads to the first channel",
+    "Change the value of resistance from 100 Ω = 0\n C, 111.82 Ω = 30 C, 119.7 Ω = 50 C, 127.5 Ω = 70 C, 139.1 Ω = 100 C.",
+    "Compare the resistance value by using radio with the temp value reading in the \n DCS room (eng. station).",
+    "If the reading is ok, repeat steps for another channel.",
+    "If any reading for any channel in DCS not correct replace the card"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the variable resistance",
+    "Reconnect the input wires to terminal strip",
+    "Close the cabinet",
+    "Place a copy of test result in the field maintenance file"
+   ]
+  }
+ ],
+ "text": "Power \n Stations\nTechnical Procedure\nEquipment\n Distributed control system DCS \n DSAI 146 (32) channel \n Analogue input card\n SE50806 KL\n ABB company\nStatus: APPROVED\nDate Approved: \n 28 Jan 2009\nDate to be Reviewed: Jan 2014\nIntroduction\nDSAI 146 is an analog input card is used to connect PT 100 - type resistance \n thermometers .\nAnalog input boards function in general as follows, the boards are provided \n with a no. of channels, interference suppression, filtration and adaptation of\n the signal with respect to zero point and gain are performed individually in a \n buffer amplifier. The A/D converts is multiplexed between the I/P channels. An \n I/P channel is selected by the controller software by writing to a parameter \n register, which also starts the A/d conversion the value converted to digital \n form is then transferred via the parallel data bus to the controller software \n for further signal processing.\nThe first draft initiated by eng. Ibrahim Ebaid Awad general computer department \n & eng. Ahmed Add El Samee instruments department High Dam power station.\nSafety \nPrecautions\nA work permit must be issued and the \n qualified maintenance stuff should be carrying the suitable safety category.\nSafety fence (rope) with caution \n marks surrounding the work area is required.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nTools \nand Equipment\nSafety helmet, shoes\nHand held radio wireless \n communications means\nPT 100 - type resistance \n thermometers\nScrew driver, nut driver\nIsolating tape and test leads\nWork to be \ncarried out\nReview technical reference material and manufacture's manual\nOpen panel no. 4\nUsing panel terminations identify the location for the desired card\nUsing panel termination list for each card identify the two input wires for \n the first channel\nUsing the screw driver, remove the two wires and isolate with tape\nConnect the variable resistance thermometers leads to the first channel\nChange the value of resistance from 100 Ω = 0\n C, 111.82 Ω = 30 C, 119.7 Ω = 50 C, 127.5 Ω = 70 C, 139.1 Ω = 100 C.\nCompare the resistance value by using radio with the temp value reading in the \n DCS room (eng. station).\nIf the reading is ok, repeat steps for another channel.\nIf any reading for any channel in DCS not correct replace the card\nRemove the variable resistance\nReconnect the input wires to terminal strip\nClose the cabinet\nPlace a copy of test result in the field maintenance file",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

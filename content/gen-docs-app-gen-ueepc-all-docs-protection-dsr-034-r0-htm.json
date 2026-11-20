@@ -1,0 +1,237 @@
+{
+ "id": "gen-docs-app-gen-ueepc-all-docs-protection-dsr-034-r0-htm",
+ "doc_number": "DSR-034-R0",
+ "title_en": "DsR-034-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/app_gen/UEEPC/all_docs/Protection/dsr-034-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "These procedure details the steps required to \ncompletely check the proper operation and calibration of the LH1W relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay \ntesting describes the activities required prior to testing."
+  },
+  {
+   "type": "paragraph",
+   "text": "Some of these steps could be performed a day \nbefore the actual test,"
+  },
+  {
+   "type": "paragraph",
+   "text": "The second section is the preparation for testing \ndescribes. The steps to set up the equipment to perform the actual tests, the \nthird sections is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated and tested by eng. Badry Atea,\n eng. Kamel Tawfeek, eng. Safwat \n Mahrous, accepted by general director eng. Mostafa Abdel \n Nazeer Qotb, approved by eng. Hessain Ahmed Mahdy Head Sector of \n Assiut steam power station, and certified by eng. Gamal Abdel Wahab: \n UEEPC inspection and quality control general director"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the maintenance staff should carry the suitable ID safety category,",
+    "Maintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Personal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc",
+    "Line isolation must be done.",
+    "Review the relay test sheet to know the required settings",
+    "Make sure that CT secondary circuits are \n shorted before isolating the current circuit for test current\n injection"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Safety \n and healthy equipment as safety helmet, safety shoes ... etc.",
+    "ABB test set type AK 103966",
+    "Phase rotation meter for the first time \n only.",
+    "Small slot screwdriver, test leads, Timer",
+    "5Amp Clip-on meter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work\nto be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure \nshould be used for performing off load line"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Look at the MRB \n panel nameplate and check this MRB system designation nameplate agrees with \n the line that\n Has been \n taken out of service for maintenance.",
+    "Perform one of the \n following measuring checks to verify that there is not current following \n through this relay and that the testing will occur on the correct relay.",
+    "Using clip on \n ammeter checks there is no current following in the LH1W relay circuits. wires \n going to the rear terminals 1,2,3 and 4 should have no current follows in \n them.",
+    "Carefully opens \n the LH1W relay covers and connects ammeter across one of the following test \n block terminals (across terminal 2 or across terminal 3, or across \n terminal4.using a small slot screwdriver, turn the same test block pin until \n it is in the ammeter, return the pin to the normal vertical (I position) and \n check the other terminals",
+    "Connect the CT \n shorting link in the test block terminals.",
+    "Use a small slot \n screwdriver to turn all test terminals to horizontal (-) position",
+    "Check all \n connections and wiring to the relay are in a good condition",
+    "Attach all \n connections between the relay and the test set",
+    "Supply A.C power \n the AK103966 test set.",
+    "Observe the \n correct polarity and connect the other end of these leads to a three phases \n 110 v ac supply"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing \nthe Function Operation of the Distance Relay type LH1W"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place the %Z \n switch (h) in the zero o position",
+    "Place the \n multipliers of the % Z switches I in the x1position and switch (k) in the \n zero o position.",
+    "Operate the LH1W \n relay by pressing push button n"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the pick up value for \nmeasuring element for Phase to Ground Fault"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Using the curves \n given and the calculated values on the test sheet to find the corresponding \n value of z% of the first time step.",
+    "Turn the z % \n switches to agree with the calculated value",
+    "Select the single \n phase to ground faults by turning \"g\" to position 2",
+    "Select the fault \n by turning switch \"f\" to position R, S, T respectively.",
+    "Presses push \n button (n) and observe when PA/R, PE and PD pick up.",
+    "Change z% step by \n step until PSII pick up with PA/R, PE and PD.",
+    "Repeat the above \n test for the other phases S, T.",
+    "Repeat the above \n test but increase z% setting until the relay operates on the second time step. \n Change the z% until PSIII pick up with PA/R, PE and PD",
+    "Repeat the above \n test but increase z% until the relay operate on the third time step .the \n contactor PSIII WILL pick up with the above flag. change z% switches step by \n step until the relay operate in the last step, PD will pick up."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Pick Up Value for \nMeasuring Element for Phase to Phase Fault"
+  },
+  {
+   "type": "list",
+   "items": [
+    "From the curve \n given and the values calculated determines the value of z% of the first step.",
+    "Turn the z% \n switches on the test set until agree with calculated zone 1setting.",
+    "Select phase to \n phase faults by turning switch g to position I.",
+    "Turn switch I to \n R, S, T respectively.",
+    "Presses push \n button (n1) and observe when PA/R, PA/T, and PD pick up.",
+    "Change the z% step \n by step on the test set until Psii picks up with last flag.",
+    "Repeats the above \n test but change switch F for the other phases \n (S, T).",
+    "Repeat the above \n test but increase Z% until the relay operates in the second",
+    "time step Psii \n with the above flag. Change the Z% step by step until Psiii pick up with PA/R, \n and PD.",
+    "Repeat the above \n test but increase the Z% on the tester until",
+    "the relay operates \n in the third time step the contactor Psiii will pick up.",
+    "Change the Z% step \n by step until the relay operate in the last time step, the contractor PD will \n pick up by the fourth time contact of timer."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The Steps for Checking the \nTripping Times"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Use two test \n leads to connect the digital timer inputs to the terminals 12, 13 in the top \n right of the tester",
+    "Connect an A.C \n supply to the digital timer display.",
+    "Press the reset \n button for the digital timer display."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Test for Phase to Ground Fault"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the test of \n checking the pick up value for measuring element for phase to ground fault as \n the above steps to measure the Zone I operation time for each phase to \n ground unit.",
+    "to perform the time test press switch in the \n closed position",
+    "Press down voltage control switch nI to the on \n position the time will start and then stop once the Pd trip relay has picked \n up.",
+    "Record the time, which appear on the timer \n display on the test sheet.",
+    "Repeats the above test for the other two phases",
+    "Repeat the above test but change Z% setting on \n the AK103966 tester until the relay operates on the 2nd zone time.",
+    "Repeat the above test but change the Z% setting \n on the AK103966 tester until the relay operates on the third zone time."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Tests for Phase to Phase Unit"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select phase to phase faults by turning switch \n g to position I and perform time tests for the phase to phase unit by \n repeating the above steps.",
+    "Switch off the tester.",
+    "Remove all the test lead between the relay and \n the tester."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test \n leads from the relay terminal block and the test set.",
+    "Make sure that CT and VT secondary circuit are \n in normal condition.",
+    "Make sure that any equipment associated with \n the relay which isolated during tests be returned to service."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Line to be Returned in Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed reading of all AC currents and \n voltages and compare them to those for normal load \n condition.",
+    "Place a copy of the test results in the field \n maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nFeeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: \nSignature: \nTested Date: \nApproved by: \nSignature: \nDate:"
+  }
+ ],
+ "text": "Introduction\nThese procedure details the steps required to \ncompletely check the proper operation and calibration of the LH1W relay\nThe first preliminary steps to prepare for relay \ntesting describes the activities required prior to testing.\nSome of these steps could be performed a day \nbefore the actual test,\nThe second section is the preparation for testing \ndescribes. The steps to set up the equipment to perform the actual tests, the \nthird sections is the actual test.\nThe first draft initiated and tested by eng. Badry Atea,\n eng. Kamel Tawfeek, eng. Safwat \n Mahrous, accepted by general director eng. Mostafa Abdel \n Nazeer Qotb, approved by eng. Hessain Ahmed Mahdy Head Sector of \n Assiut steam power station, and certified by eng. Gamal Abdel Wahab: \n UEEPC inspection and quality control general director\nSafety \nPrecautions\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nLine isolation must be done.\nReview the relay test sheet to know the required settings\nMake sure that CT secondary circuits are \n shorted before isolating the current circuit for test current\n injection\nTools and Equipment\nSafety \n and healthy equipment as safety helmet, safety shoes ... etc.\nABB test set type AK 103966\nPhase rotation meter for the first time \n only.\nSmall slot screwdriver, test leads, Timer\n5Amp Clip-on meter\nWork\nto be Carried Out\nPreparation\nThis procedure \nshould be used for performing off load line\nLook at the MRB \n panel nameplate and check this MRB system designation nameplate agrees with \n the line that\n Has been \n taken out of service for maintenance.\nPerform one of the \n following measuring checks to verify that there is not current following \n through this relay and that the testing will occur on the correct relay.\nUsing clip on \n ammeter checks there is no current following in the LH1W relay circuits. wires \n going to the rear terminals 1,2,3 and 4 should have no current follows in \n them.\nCarefully opens \n the LH1W relay covers and connects ammeter across one of the following test \n block terminals (across terminal 2 or across terminal 3, or across \n terminal4.using a small slot screwdriver, turn the same test block pin until \n it is in the ammeter, return the pin to the normal vertical (I position) and \n check the other terminals\nConnect the CT \n shorting link in the test block terminals.\nUse a small slot \n screwdriver to turn all test terminals to horizontal (-) position\nCheck all \n connections and wiring to the relay are in a good condition\nAttach all \n connections between the relay and the test set\nSupply A.C power \n the AK103966 test set.\nObserve the \n correct polarity and connect the other end of these leads to a three phases \n 110 v ac supply\nTesting \nthe Function Operation of the Distance Relay type LH1W\nPlace the %Z \n switch (h) in the zero o position\nPlace the \n multipliers of the % Z switches I in the x1position and switch (k) in the \n zero o position.\nOperate the LH1W \n relay by pressing push button n\nChecking the pick up value for \nmeasuring element for Phase to Ground Fault\nUsing the curves \n given and the calculated values on the test sheet to find the corresponding \n value of z% of the first time step.\nTurn the z % \n switches to agree with the calculated value\nSelect the single \n phase to ground faults by turning \"g\" to position 2\nSelect the fault \n by turning switch \"f\" to position R, S, T respectively.\nPresses push \n button (n) and observe when PA/R, PE and PD pick up.\nChange z% step by \n step until PSII pick up with PA/R, PE and PD.\nRepeat the above \n test for the other phases S, T.\nRepeat the above \n test but increase z% setting until the relay operates on the second time step. \n Change the z% until PSIII pick up with PA/R, PE and PD\nRepeat the above \n test but increase z% until the relay operate on the third time step .the \n contactor PSIII WILL pick up with the above flag. change z% switches step by \n step until the relay operate in the last step, PD will pick up.\nChecking the Pick Up Value for \nMeasuring Element for Phase to Phase Fault\nFrom the curve \n given and the values calculated determines the value of z% of the first step.\nTurn the z% \n switches on the test set until agree with calculated zone 1setting.\nSelect phase to \n phase faults by turning switch g to position I.\nTurn switch I to \n R, S, T respectively.\nPresses push \n button (n1) and observe when PA/R, PA/T, and PD pick up.\nChange the z% step \n by step on the test set until Psii picks up with last flag.\nRepeats the above \n test but change switch F for the other phases \n (S, T).\nRepeat the above \n test but increase Z% until the relay operates in the second\ntime step Psii \n with the above flag. Change the Z% step by step until Psiii pick up with PA/R, \n and PD.\nRepeat the above \n test but increase the Z% on the tester until\nthe relay operates \n in the third time step the contactor Psiii will pick up.\nChange the Z% step \n by step until the relay operate in the last time step, the contractor PD will \n pick up by the fourth time contact of timer.\nThe Steps for Checking the \nTripping Times\nUse two test \n leads to connect the digital timer inputs to the terminals 12, 13 in the top \n right of the tester\nConnect an A.C \n supply to the digital timer display.\nPress the reset \n button for the digital timer display.\nTime Test for Phase to Ground Fault\nRepeat the test of \n checking the pick up value for measuring element for phase to ground fault as \n the above steps to measure the Zone I operation time for each phase to \n ground unit.\nto perform the time test press switch in the \n closed position\nPress down voltage control switch nI to the on \n position the time will start and then stop once the Pd trip relay has picked \n up.\nRecord the time, which appear on the timer \n display on the test sheet.\nRepeats the above test for the other two phases\nRepeat the above test but change Z% setting on \n the AK103966 tester until the relay operates on the 2nd zone time.\nRepeat the above test but change the Z% setting \n on the AK103966 tester until the relay operates on the third zone time.\nTime Tests for Phase to Phase Unit\nSelect phase to phase faults by turning switch \n g to position I and perform time tests for the phase to phase unit by \n repeating the above steps.\nSwitch off the tester.\nRemove all the test lead between the relay and \n the tester.\nReturn Relay and Associated Equipment to Service\nReturn relay to service by removing the test \n leads from the relay terminal block and the test set.\nMake sure that CT and VT secondary circuit are \n in normal condition.\nMake sure that any equipment associated with \n the relay which isolated during tests be returned to service.\nPower Line to be Returned in Service\nTake crossed reading of all AC currents and \n voltages and compare them to those for normal load \n condition.\nPlace a copy of the test results in the field \n maintenance file.\nLocation: \nFeeder Name:\nTested by: \nSignature: \nTested Date: \nApproved by: \nSignature: \nDate:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../../Protection/graphics/dsr-034-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "../../../../Protection/graphics/dsr-034-02.jpg",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "id": "gen-docs-app-gen-ueepc-instr-control-dcs-033-r0-htm",
+ "doc_number": "DCS-033-R0",
+ "title_en": "DCS-033-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/app_gen/UEEPC/Instr+control/DCS-033-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power \n Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n Distributed control system DCS cabinet\n DSAI 130 (16) channel 4 to 20 mA\n Analogue input card\n 3 BSC 980004R799 \n ABB company"
+  },
+  {
+   "type": "paragraph",
+   "text": "Status: APPROVED"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date Approved: \n 28 Jan \n 2009"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date to be Reviewed: \n Jan 2014"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "DSAI 130 is an analog input card (4 to 20 mA) used to connect current and \n voltage signals"
+  },
+  {
+   "type": "paragraph",
+   "text": "Analog input boards function in general as follows, the boards are provided \n with a no. of channels, interference suppression, filtration and adaptation of\n The signal with respect to zero point and gain are performed individually in a \n buffer amplifier. The A/D converts is multiplexed between the I/P channels. An \n I/P channel is selected by the controller software by writing to a parameter \n register, which also starts the A/d conversion the value converted to digital \n form is then transferred via the parallel data bus to the controller software \n for further signal processing. Zero point and gain must be adjusted manually \n or by the controller software"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Ibrahim Ebaid Awad general computer \n department & eng. Hussien Yousef instruments department High Dam power station."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the \n qualified maintenance stuff should be carrying the suitable safety category.",
+    "Safety fence (rope) with caution \n marks surrounding the work area is required.",
+    "Wear the safety helmet and shoes.",
+    "Unit must be shutdown."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools \nand Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Safety helmet, shoes",
+    "Hand held radio wireless \n communications means",
+    "mA source to inject mA",
+    "Screw driver, nut driver",
+    "Isolating tape and test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be \ncarried out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material and manufacture's manual.",
+    "Open panel no. 4",
+    "Using panel terminations identify the location for the desired card."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Using panel termination list for each card identify the two input wires for \n the first channel",
+    "Using the screw driver, remove the two wires and isolate with tape",
+    "Connect the mA source leads to the first channel",
+    "Inject 4 mA, 8 mA, 12 mA, 16 mA and 20 mA according to 0%, 25%,75% and 100%",
+    "Compare the mV injected using radio with the mV reading in the DCS room (eng. \n station)",
+    "If the reading is ok, or within the range (-+ 0.01 mV), repeat steps for another channel",
+    "If any reading for any channel in DCS not correct replace the card"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the mA source",
+    "Reconnect the input wires to terminal strip",
+    "Close the cabinet",
+    "Place a copy of test result in the field maintenance file"
+   ]
+  }
+ ],
+ "text": "Power \n Stations\nTechnical Procedure\nEquipment\n Distributed control system DCS cabinet\n DSAI 130 (16) channel 4 to 20 mA\n Analogue input card\n 3 BSC 980004R799 \n ABB company\nStatus: APPROVED\nDate Approved: \n 28 Jan \n 2009\nDate to be Reviewed: \n Jan 2014\nIntroduction\nDSAI 130 is an analog input card (4 to 20 mA) used to connect current and \n voltage signals\nAnalog input boards function in general as follows, the boards are provided \n with a no. of channels, interference suppression, filtration and adaptation of\n The signal with respect to zero point and gain are performed individually in a \n buffer amplifier. The A/D converts is multiplexed between the I/P channels. An \n I/P channel is selected by the controller software by writing to a parameter \n register, which also starts the A/d conversion the value converted to digital \n form is then transferred via the parallel data bus to the controller software \n for further signal processing. Zero point and gain must be adjusted manually \n or by the controller software\nThe first draft initiated by eng. Ibrahim Ebaid Awad general computer \n department & eng. Hussien Yousef instruments department High Dam power station.\nSafety \nPrecautions\nA work permit must be issued and the \n qualified maintenance stuff should be carrying the suitable safety category.\nSafety fence (rope) with caution \n marks surrounding the work area is required.\nWear the safety helmet and shoes.\nUnit must be shutdown.\nTools \nand Equipment\nSafety helmet, shoes\nHand held radio wireless \n communications means\nmA source to inject mA\nScrew driver, nut driver\nIsolating tape and test leads\nWork to be \ncarried out\nReview technical reference material and manufacture's manual.\nOpen panel no. 4\nUsing panel terminations identify the location for the desired card.\nUsing panel termination list for each card identify the two input wires for \n the first channel\nUsing the screw driver, remove the two wires and isolate with tape\nConnect the mA source leads to the first channel\nInject 4 mA, 8 mA, 12 mA, 16 mA and 20 mA according to 0%, 25%,75% and 100%\nCompare the mV injected using radio with the mV reading in the DCS room (eng. \n station)\nIf the reading is ok, or within the range (-+ 0.01 mV), repeat steps for another channel\nIf any reading for any channel in DCS not correct replace the card\nRemove the mA source\nReconnect the input wires to terminal strip\nClose the cabinet\nPlace a copy of test result in the field maintenance file",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}
