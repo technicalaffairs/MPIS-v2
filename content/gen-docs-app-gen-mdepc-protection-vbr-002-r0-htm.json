@@ -14,36 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Voltage Balance \n Protection Relay (60)"
-  },
-  {
-   "type": "paragraph",
-   "text": "TTGB 7031"
-  },
-  {
-   "type": "paragraph",
-   "text": "CEE France"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: \n APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date Approved: \n 21 Dec.2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: December 2013"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -162,9 +140,39 @@
   {
    "type": "paragraph",
    "text": "Unit No. \n : V.T.R : \n12000/120 V \nRelay Type : Static Relay \nRange:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Side 1 - Voltage Terminals \n (6,7)",
+     "Remarks"
+    ],
+    [
+     "P.U",
+     "R",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Side 2 - Voltage Terminals \n (22,23)",
+     "Remarks"
+    ],
+    [
+     "P.U",
+     "R",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\n Voltage Balance \n Protection Relay (60)\nTTGB 7031\nCEE France\nStatus: \n APPROVED\nDate Approved: \n 21 Dec.2008\nDate to be Reviewed: December 2013\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block.\nThe Voltage Balance Protection\n is used to block relays or other devices that will operate \n incorrectly when voltage transformer fuse blows. The TTGB 7031 \n relay is fed with three phase voltage from two sets of voltage transformers.\nIf the three phase voltages from the two sets are balanced, the output \n contacts of the relay remain stable regardless of the magnitude of the \n voltages.\nIf a fuse blows in any phase of one set of potential transformers, this will \n cause the relay to operate and to close the contacts of one of the two output \n units.\nThis operation is used in the logic circuits to switch the voltage regulator \n from auto to manual or to inhibit the tripping of voltage sensitive relays as \n 51V and 40G.\nThe first draft initiated by Eng. Ehab El Khoudary, tested by Eng. Khalied \n Diab & Eng. Ehab Abuo Elwafa at 16 October 2008, and accepted by General \n Manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby Head \n Sector of Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc)\nIssue work permit including the \n team work name.\nSafety fence with \n caution marks surrounding the work area is required.\nThe unit (Generator & \n Transformer) must be out of service.\nTools \nand Equipment\nTwo Secondary Voltage injection test sets.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at Voltage Balance Maintenance file (60) \nand compare the relay setting with those shown on the test sheet.\nSupply the relay with its nominal auxiliary supply: the green \nLED will light.\nTesting the Relay\nRemove Voltage transformer terminals (6,7,8) from the relay\n (Side 1 Before Power Transformer}. Figure 1.\nRemove Voltage transformer terminals (22,23,24) from the relay\n {Side 2 After Power Transformer}. Figure 1.\nConnect the voltage terminals from the injection set No. 1 to \n the relay points (6,7).\nConnect the voltage terminals from the injection set No. 2 to \n the relay points (22,23).\nIncrease the injected voltage to 110 V for both sides.\nDecrease the injected voltage at side 1 slowly till the pickup \n value.\nRecord the P.U value in your test sheet.\nIncrease the injected voltage till the relay reset ( Drop out \n Value )\nRecord the D.O value in your test sheet.\nMake reset to the Voltage Balance relay.\nRepeat step 5.\nDecrease the injected voltage at side 2 slowly till the pickup \n value.\nRepeat steps 8,9 and 10.\nMake reset to the Voltage Balance relay.\nStop the tester.\nReturn Relay and \nAssociated Equipment to Service\nMake reset to Voltage \n Balance Relay, alarm indication.\nDisconnect the test leads from the Relay.\nReconnect \n the terminals points (6,7,8) and (22,23,24) to its normal position at the \n relay.\nFigure1 \n- Internal connection for the type TTGB 7031 Relay\nTest Sheet\nUnit No. \n : V.T.R : \n12000/120 V \nRelay Type : Static Relay \nRange:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block.\nThe Voltage Balance Protection\n is used to block relays or other devices that will operate \n incorrectly when voltage transformer fuse blows. The TTGB 7031 \n relay is fed with three phase voltage from two sets of voltage transformers.\nIf the three phase voltages from the two sets are balanced, the output \n contacts of the relay remain stable regardless of the magnitude of the \n voltages.\nIf a fuse blows in any phase of one set of potential transformers, this will \n cause the relay to operate and to close the contacts of one of the two output \n units.\nThis operation is used in the logic circuits to switch the voltage regulator \n from auto to manual or to inhibit the tripping of voltage sensitive relays as \n 51V and 40G.\nThe first draft initiated by Eng. Ehab El Khoudary, tested by Eng. Khalied \n Diab & Eng. Ehab Abuo Elwafa at 16 October 2008, and accepted by General \n Manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby Head \n Sector of Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc)\nIssue work permit including the \n team work name.\nSafety fence with \n caution marks surrounding the work area is required.\nThe unit (Generator & \n Transformer) must be out of service.\nTools \nand Equipment\nTwo Secondary Voltage injection test sets.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at Voltage Balance Maintenance file (60) \nand compare the relay setting with those shown on the test sheet.\nSupply the relay with its nominal auxiliary supply: the green \nLED will light.\nTesting the Relay\nRemove Voltage transformer terminals (6,7,8) from the relay\n (Side 1 Before Power Transformer}. Figure 1.\nRemove Voltage transformer terminals (22,23,24) from the relay\n {Side 2 After Power Transformer}. Figure 1.\nConnect the voltage terminals from the injection set No. 1 to \n the relay points (6,7).\nConnect the voltage terminals from the injection set No. 2 to \n the relay points (22,23).\nIncrease the injected voltage to 110 V for both sides.\nDecrease the injected voltage at side 1 slowly till the pickup \n value.\nRecord the P.U value in your test sheet.\nIncrease the injected voltage till the relay reset ( Drop out \n Value )\nRecord the D.O value in your test sheet.\nMake reset to the Voltage Balance relay.\nRepeat step 5.\nDecrease the injected voltage at side 2 slowly till the pickup \n value.\nRepeat steps 8,9 and 10.\nMake reset to the Voltage Balance relay.\nStop the tester.\nReturn Relay and \nAssociated Equipment to Service\nMake reset to Voltage \n Balance Relay, alarm indication.\nDisconnect the test leads from the Relay.\nReconnect \n the terminals points (6,7,8) and (22,23,24) to its normal position at the \n relay.\nFigure1 \n- Internal connection for the type TTGB 7031 Relay\nTest Sheet\nUnit No. \n : V.T.R : \n12000/120 V \nRelay Type : Static Relay \nRange:\nSide 1 - Voltage Terminals \n (6,7) | Remarks\nP.U | R | \nSide 2 - Voltage Terminals \n (22,23) | Remarks\nP.U | R | ",
  "text_truncated": false,
  "links": [],
  "images": [

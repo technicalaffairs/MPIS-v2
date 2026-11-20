@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -153,12 +155,93 @@
    "text": "Check Zone :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "R",
+     "S",
+     "T",
+     "Sett"
+    ],
+    [
+     "C.T super vision current (A)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Differential Current (A)",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Zone 1"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "R",
+     "S",
+     "T",
+     "Sett"
+    ],
+    [
+     "C.T super vision current (A)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Differential Current (A)",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Zone \n2"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "R",
+     "S",
+     "T",
+     "Sett"
+    ],
+    [
+     "C.T super vision current (A)",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Differential Current (A)",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -181,7 +264,7 @@
    "text": ".....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: Reviewed by : \nSignature : \nTest Date : Approved by:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document lists the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe MBCZ16 Bus bar protection is a Modular, solid state, low impedance \n blast differential based on the circulating current principle, dual \n cratered of protection, provides continuous supervision of CT secondary \n circuits and constant monitoring of vital circuits extremely stable up to \n the max switch gear.\nThe first draft initiated by eng. Fahmy Abdel Khaleq, tested by eng. Hanan \n El Badrawy at 25 February 2003, revised by EDEPCo. quality control eng.Adel \n Abdel Qader \n El Nagar, accepted by general director eng. Mahmoud Saker, \n and approved by eng. Mostafa Alam Head Sector of TAlkha PS.\nThis document was updated by eng. Hanan \n El Badrawy, tested by eng Fahmy Abdel Khaleq. at 07/03/2009 revised by \n quality control eng. Adel Abdel Kader Elnagar at MDEPCo. accepted by general \n director eng. Mohamed Saleh Elsherbeny approved by eng. Farouk Awad Ali Mostafa Head Sector of TAlkha \n GIS ,and accepted by eng. Samir Abdel Gelil MDEPC inspection and quality \n control general director & MPIS coordinator and certified by eng.Mohamed \n naguib Abd Elhay MDEPC of inspection & quality control head sector.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence with caution marks surrounding the work area is \n required.\nOutage arrangement is required.\nSwitches off DC supply before inserting or with drawing any \n card from the relay .\nBefore with drawing MBCZ 16 modules from its case fit CT \n shorting to test bluge before inserted into test block.\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nIssue work permit \n including the team work name.\nSafety \n fence with caution marks surrounding the work area is \n required.\nOutage arrangement is required.\nSwitches off DC supply before inserting or with drawing any \n card from the relay .\nBefore with drawing MBCZ 16 modules from its case fit CT \n shorting to test bluge before inserted into test block.\nTools and Equipment\nTest Module MBCZ 18 GEC .\nAlarm Module MBCZ 17 GEC.\nBus wire Access MBCZ 19 GEC.\nConnection of test unit, Sverker 650 or Pulser\nWork to be Carried Out\nTurn the key switch on the alarm unit to the PROTECTION \n OUT position.\nThe test unit can be used to check the zone measuring \n units. To do this the covers must be removed from the test unit and the \n zone unit to be checked .\nThe screened test lead should be plugged into the test \n unit using the end of the lead with the 3.5 mm jack plug. The 2mm plug \n on the other end of the test lead is then plugged into the test input on \n the phase of the zone to be tested.\nIt is assumed for these tests that the bus bar is dead \n Note : Assume a matching ratio of 1.0 when testing units by this method.\nSet the selector switch on the front of the test unit to \n INJECTXI.\nSet the digital current switch to 00.\nPress the button marked INJECT and whilst holding it down \n increase the current unit the meter reads a current just below the setting \n of the supervision relay.\nThen increase slowly until the supervision operates to \n indicate a CT fault . There is a fixed fifteen second delay built into \n this circuit .\nThe minimum operating current can then be read from the \n meter as a direct percentage of rated current .\nFor this test no bias will be produced and hence the \n setting will be somewhat less than the marked value . The effective \n setting will be in the order of 90% of the marked values.\nSet the MAN / AUTO switch to MAN.\nSet the CURRENT TO 80 % of the marked value of the \n selected setting and the relay should not indicate a trip. Increase the \n current to the marked setting value and the protection should operate .\nThere should be a TRIP indication on the element being \n tested and a PROT. OPERATED indication on the alarm unit. The latter has a \n 15 second delay.\nRelease the injection button and reset the indications. \n Check that when the inject button is now depressed the trip is \n instantaneous and that when the current I injected for five seconds no \n PROTN FAIL indication comes up .\nRepeat (14) on the other two phases and then on each \n other zone in turn .\nWrite the value of test in the test sheet.\nDecrease the value of injection current to become zero ( \n 0.0 ) .\nTurn the key switch ( MAN / AUTO ) on position ( AUTO ) as \n before .\nReset all signals which occurred during the test .\nInsert the coupling test ( test lead ) between the unit \n test and measure test .\nSet the all cover of units which inserted .\nSet the switch in alarm unit ( MBCZ 17 ) on position ( \n PROT . IN ) .\nTest \nsheet\nStation :\nBusbar Protection :\nRelay \n: MBC Z 16 - Differential\nDate :\nRated current :\nRated DC voltage:\nCheck Zone :\nZone 1\nZone \n2\nFig 1 Zone measuring unit\nFig 2 Alarm module\nFig 3 Connection of test unit to measuring unit.\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: Reviewed by : \nSignature : \nTest Date : Approved by:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document lists the testing procedure P1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe MBCZ16 Bus bar protection is a Modular, solid state, low impedance \n blast differential based on the circulating current principle, dual \n cratered of protection, provides continuous supervision of CT secondary \n circuits and constant monitoring of vital circuits extremely stable up to \n the max switch gear.\nThe first draft initiated by eng. Fahmy Abdel Khaleq, tested by eng. Hanan \n El Badrawy at 25 February 2003, revised by EDEPCo. quality control eng.Adel \n Abdel Qader \n El Nagar, accepted by general director eng. Mahmoud Saker, \n and approved by eng. Mostafa Alam Head Sector of TAlkha PS.\nThis document was updated by eng. Hanan \n El Badrawy, tested by eng Fahmy Abdel Khaleq. at 07/03/2009 revised by \n quality control eng. Adel Abdel Kader Elnagar at MDEPCo. accepted by general \n director eng. Mohamed Saleh Elsherbeny approved by eng. Farouk Awad Ali Mostafa Head Sector of TAlkha \n GIS ,and accepted by eng. Samir Abdel Gelil MDEPC inspection and quality \n control general director & MPIS coordinator and certified by eng.Mohamed \n naguib Abd Elhay MDEPC of inspection & quality control head sector.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nSafety \n fence with caution marks surrounding the work area is \n required.\nOutage arrangement is required.\nSwitches off DC supply before inserting or with drawing any \n card from the relay .\nBefore with drawing MBCZ 16 modules from its case fit CT \n shorting to test bluge before inserted into test block.\nA work permit must be issued and the qualified maintenance staff should \n carry the suitable safety category\nIssue work permit \n including the team work name.\nSafety \n fence with caution marks surrounding the work area is \n required.\nOutage arrangement is required.\nSwitches off DC supply before inserting or with drawing any \n card from the relay .\nBefore with drawing MBCZ 16 modules from its case fit CT \n shorting to test bluge before inserted into test block.\nTools and Equipment\nTest Module MBCZ 18 GEC .\nAlarm Module MBCZ 17 GEC.\nBus wire Access MBCZ 19 GEC.\nConnection of test unit, Sverker 650 or Pulser\nWork to be Carried Out\nTurn the key switch on the alarm unit to the PROTECTION \n OUT position.\nThe test unit can be used to check the zone measuring \n units. To do this the covers must be removed from the test unit and the \n zone unit to be checked .\nThe screened test lead should be plugged into the test \n unit using the end of the lead with the 3.5 mm jack plug. The 2mm plug \n on the other end of the test lead is then plugged into the test input on \n the phase of the zone to be tested.\nIt is assumed for these tests that the bus bar is dead \n Note : Assume a matching ratio of 1.0 when testing units by this method.\nSet the selector switch on the front of the test unit to \n INJECTXI.\nSet the digital current switch to 00.\nPress the button marked INJECT and whilst holding it down \n increase the current unit the meter reads a current just below the setting \n of the supervision relay.\nThen increase slowly until the supervision operates to \n indicate a CT fault . There is a fixed fifteen second delay built into \n this circuit .\nThe minimum operating current can then be read from the \n meter as a direct percentage of rated current .\nFor this test no bias will be produced and hence the \n setting will be somewhat less than the marked value . The effective \n setting will be in the order of 90% of the marked values.\nSet the MAN / AUTO switch to MAN.\nSet the CURRENT TO 80 % of the marked value of the \n selected setting and the relay should not indicate a trip. Increase the \n current to the marked setting value and the protection should operate .\nThere should be a TRIP indication on the element being \n tested and a PROT. OPERATED indication on the alarm unit. The latter has a \n 15 second delay.\nRelease the injection button and reset the indications. \n Check that when the inject button is now depressed the trip is \n instantaneous and that when the current I injected for five seconds no \n PROTN FAIL indication comes up .\nRepeat (14) on the other two phases and then on each \n other zone in turn .\nWrite the value of test in the test sheet.\nDecrease the value of injection current to become zero ( \n 0.0 ) .\nTurn the key switch ( MAN / AUTO ) on position ( AUTO ) as \n before .\nReset all signals which occurred during the test .\nInsert the coupling test ( test lead ) between the unit \n test and measure test .\nSet the all cover of units which inserted .\nSet the switch in alarm unit ( MBCZ 17 ) on position ( \n PROT . IN ) .\nTest \nsheet\nStation :\nBusbar Protection :\nRelay \n: MBC Z 16 - Differential\nDate :\nRated current :\nRated DC voltage:\nCheck Zone :\nPhase | R | S | T | Sett\nC.T super vision current (A) |  |  |  | \nDifferential Current (A) |  |  |  | \nZone 1\nPhase | R | S | T | Sett\nC.T super vision current (A) |  |  |  | \nDifferential Current (A) |  |  |  | \nZone \n2\nPhase | R | S | T | Sett\nC.T super vision current (A) |  |  |  | \nDifferential Current (A) |  |  |  | \nFig 1 Zone measuring unit\nFig 2 Alarm module\nFig 3 Connection of test unit to measuring unit.\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: Reviewed by : \nSignature : \nTest Date : Approved by:",
  "text_truncated": false,
  "links": [],
  "images": [

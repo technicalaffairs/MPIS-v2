@@ -14,44 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protections"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "GTT"
-  },
-  {
-   "type": "paragraph",
-   "text": "GEC"
-  },
-  {
-   "type": "paragraph",
-   "text": "Document No.: \n OER-001-r0"
-  },
-  {
-   "type": "paragraph",
-   "text": "Issued to: EL KUREIMAT \n PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Procedure:\n Using SVERKER 650 (P1- Y1)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Approved Date: 01 Aug \n 2004"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: Aug 2009"
+   "type": "table",
+   "rows": [
+    [
+     "Protections",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -306,7 +276,7 @@
     ],
     [
      "Relay Function:",
-     "",
+     "Over Exciting Relay",
      "Relay type: GTT"
     ],
     [
@@ -320,7 +290,16 @@
      ""
     ],
     [
-     "",
+     "Vn = 100 V",
+     "Fn = \n 50 HZ",
+     ""
+    ],
+    [
+     "Pick-up V/HZ = K * \n Vn / Fn =2.2",
+     ""
+    ],
+    [
+     "K = 1.1",
      "",
      "T= \n 5 sec"
     ]
@@ -345,25 +324,25 @@
      "Error \n %"
     ],
     [
-     "",
+     "Pick up Voltage ( V \n )",
      "110",
      "",
      ""
     ],
     [
-     "",
+     "Reset \n Voltage ( V )",
      "104.5 : 107.8",
      "",
      ""
     ],
     [
-     "",
+     "V / F",
      "2.2",
      "",
      ""
     ],
     [
-     "",
+     "Time ( sec )",
      "5",
      "",
      ""
@@ -374,6 +353,11 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Location:",
+     "",
+     "Date of Test:"
+    ],
     [
      "Tested by:",
      "",
@@ -388,7 +372,7 @@
    "truncated_rows": 0
   }
  ],
- "text": "Protections\nTechnical \n Procedure\nGTT\nGEC\nDocument No.: \n OER-001-r0\nIssued to: EL KUREIMAT \n PS\nStatus: APPROVED\nProcedure:\n Using SVERKER 650 (P1- Y1)\nApproved Date: 01 Aug \n 2004\nDate to be Reviewed: Aug 2009\nIntroduction\nThis document outlines the \n testing procedure P1, which must be performed on an annually bases as \n indicated by Y1 in the title block.\nThe \n GTT relay and an associated type VAA auxiliary follower relay are designed to \n prevent over fluxing of the 500MVA auto transformer 500/220/11kv.\nThe \n over fluxing protection operates when the ratio of terminal voltage to \n frequency exceeds a pre-determined setting, and resets when the ratio falls \n below 95 to 98% of the operating ratio.\nSafety Precautions\nA work \n permit must be issued and maintenance staff must carry the \n suitable safety category,\nSafety rope with caution \n marks surrounding the work area is required.\nSafety and healthy equipment must be used as safety shoes, safety Helmet ...etc.\nThe transformer must be isolated, earthed from the three sides.\nSwitch \n off the DC power supply before inserting or withdrawing the relay.\nSwitch \n off the DC power supply before inserting or withdrawing the relay.\nTools and Equipment\nSecondary injection test set type SVERKER 650\nTest leads, and Multi-meter (AVO)\nWork to be Carried Out\nCheck \n the minimum operating voltage.\nCheck \n the time delay.\nChecking \n the tripping of all breakers associated with the relay.\nChecking \n the tripping of all breakers associated with the relay.\nPreparation\nThe \n AC test supply should be at a known fixed frequency and adjustable voltage.\nPrepare \n the DC supply.\nWithdraw \n the relay from its case.\nPrepare \n the circuit as in Figure 1.\nUsing Sverker 650 inject in the secondary circuits & record the pick-up \n frequency, reset frequency, the pick-up voltage, and the time.\nPrepare \n the circuit as in Figure 1.\nUsing Sverker 650 inject in the secondary circuits & record the pick-up \n frequency, reset frequency, the pick-up voltage, and the time.\nChecking the Minimum Operating Voltage\nConnect the variable AC source to points 9 & 10 ... see figure 1\nAdjust \n the voltage to the normal voltage.\nSlowly \n increase the voltage until the left auxiliary relay picks up after about 0.5 \n to 1 sec.\nRecord \n this voltage value (Minimum operating voltage).\nCalculate \n the V/F ratio and compare it with the setting.\nSlowly \n lowering the applied voltage until the auxiliary relay resets.\nRecord \n this voltage value (resetting voltage).\nThe \n resetting voltage should be greater than 95% of the measured operating \n voltage.\nThe \n resetting voltage should be greater than 95% of the measured operating \n voltage.\nChecking the Time \nDelay\nConnect \n the output contact 3 & 4 ... see figure 1 to the timer contact of the test set.\nRe-apply \n the minimum operating voltage; the timer will stop once the right auxiliary \n relay has picked up.\nRecord \n this time and compare it with the time delay setting.\nRemove \n all the leads from the relay.\nInsert \n the relay in its case.\nInsert \n the relay in its case.\nChecking the Tripping of all Breakers Associated with the \nRelay\nClose \n all breakers associated with this relay.\nDisconnect \n the wires from points 9 & 10 from the relay.\nApply \n the minimum operating voltage on 9&10 until the relay operates after the \n time delay and check the breakers are tripped.\nRe-connect \n the wires to points 9 & 10 and reset the relay.\nRe-connect \n the wires to points 9 & 10 and reset the relay.\nReturn the Relay and the Associated equipment to Service\nDisconnect the Sverker 650 & all connection leads from the relay\nMake sure that every disconnected wires are connected to their positions.\nCheck that the VT connections are in normal connections.\nReconnect any alarm or disturbance signal you have disconnected.\nCheck that there are no alarms on the relay panel or control panel.\nReturn relay to its normal place.\nMRDS Maintenance Record Data \nSheet MRDS\n\nTEST RESULTS\nFor Variable Voltage with 50HZ\n\n",
+ "text": "Protections | Technical \n Procedure\nIntroduction\nThis document outlines the \n testing procedure P1, which must be performed on an annually bases as \n indicated by Y1 in the title block.\nThe \n GTT relay and an associated type VAA auxiliary follower relay are designed to \n prevent over fluxing of the 500MVA auto transformer 500/220/11kv.\nThe \n over fluxing protection operates when the ratio of terminal voltage to \n frequency exceeds a pre-determined setting, and resets when the ratio falls \n below 95 to 98% of the operating ratio.\nSafety Precautions\nA work \n permit must be issued and maintenance staff must carry the \n suitable safety category,\nSafety rope with caution \n marks surrounding the work area is required.\nSafety and healthy equipment must be used as safety shoes, safety Helmet ...etc.\nThe transformer must be isolated, earthed from the three sides.\nSwitch \n off the DC power supply before inserting or withdrawing the relay.\nSwitch \n off the DC power supply before inserting or withdrawing the relay.\nTools and Equipment\nSecondary injection test set type SVERKER 650\nTest leads, and Multi-meter (AVO)\nWork to be Carried Out\nCheck \n the minimum operating voltage.\nCheck \n the time delay.\nChecking \n the tripping of all breakers associated with the relay.\nChecking \n the tripping of all breakers associated with the relay.\nPreparation\nThe \n AC test supply should be at a known fixed frequency and adjustable voltage.\nPrepare \n the DC supply.\nWithdraw \n the relay from its case.\nPrepare \n the circuit as in Figure 1.\nUsing Sverker 650 inject in the secondary circuits & record the pick-up \n frequency, reset frequency, the pick-up voltage, and the time.\nPrepare \n the circuit as in Figure 1.\nUsing Sverker 650 inject in the secondary circuits & record the pick-up \n frequency, reset frequency, the pick-up voltage, and the time.\nChecking the Minimum Operating Voltage\nConnect the variable AC source to points 9 & 10 ... see figure 1\nAdjust \n the voltage to the normal voltage.\nSlowly \n increase the voltage until the left auxiliary relay picks up after about 0.5 \n to 1 sec.\nRecord \n this voltage value (Minimum operating voltage).\nCalculate \n the V/F ratio and compare it with the setting.\nSlowly \n lowering the applied voltage until the auxiliary relay resets.\nRecord \n this voltage value (resetting voltage).\nThe \n resetting voltage should be greater than 95% of the measured operating \n voltage.\nThe \n resetting voltage should be greater than 95% of the measured operating \n voltage.\nChecking the Time \nDelay\nConnect \n the output contact 3 & 4 ... see figure 1 to the timer contact of the test set.\nRe-apply \n the minimum operating voltage; the timer will stop once the right auxiliary \n relay has picked up.\nRecord \n this time and compare it with the time delay setting.\nRemove \n all the leads from the relay.\nInsert \n the relay in its case.\nInsert \n the relay in its case.\nChecking the Tripping of all Breakers Associated with the \nRelay\nClose \n all breakers associated with this relay.\nDisconnect \n the wires from points 9 & 10 from the relay.\nApply \n the minimum operating voltage on 9&10 until the relay operates after the \n time delay and check the breakers are tripped.\nRe-connect \n the wires to points 9 & 10 and reset the relay.\nRe-connect \n the wires to points 9 & 10 and reset the relay.\nReturn the Relay and the Associated equipment to Service\nDisconnect the Sverker 650 & all connection leads from the relay\nMake sure that every disconnected wires are connected to their positions.\nCheck that the VT connections are in normal connections.\nReconnect any alarm or disturbance signal you have disconnected.\nCheck that there are no alarms on the relay panel or control panel.\nReturn relay to its normal place.\nMRDS Maintenance Record Data \nSheet MRDS\nStation: |  | Circuit \n / equipment:\nRelay Function: | Over Exciting Relay | Relay type: GTT\nSerial No. |  | VT \n Ratio:\nRelay Setting: |  | \nVn = 100 V | Fn = \n 50 HZ | \nPick-up V/HZ = K * \n Vn / Fn =2.2 | \nK = 1.1 |  | T= \n 5 sec\nTEST RESULTS\nFor Variable Voltage with 50HZ\nItem | Reference Value | Measured Value | Error \n %\nPick up Voltage ( V \n ) | 110 |  | \nReset \n Voltage ( V ) | 104.5 : 107.8 |  | \nV / F | 2.2 |  | \nTime ( sec ) | 5 |  | \nLocation: |  | Date of Test:\nTested by: |  | Signature:\nApproved by: |  | Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

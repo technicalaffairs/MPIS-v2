@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Multi-Function \n Protection Relay\n SIPROTEC4 - 7UM622"
-  },
-  {
-   "type": "paragraph",
-   "text": "SEMIENS"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -254,8 +248,64 @@
    "text": "Test Sheet"
   },
   {
-   "type": "paragraph",
-   "text": "Test Sheet"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Plant Name",
+     ":",
+     ""
+    ],
+    [
+     "Feeder",
+     ":",
+     ""
+    ],
+    [
+     "Relay Manufacture",
+     ":",
+     ""
+    ],
+    [
+     "Relay Model",
+     ":",
+     ""
+    ],
+    [
+     "Location",
+     ":",
+     ""
+    ],
+    [
+     "Operator",
+     ":",
+     ""
+    ],
+    [
+     "Instrument",
+     ":",
+     ""
+    ],
+    [
+     "Manual Mode"
+    ],
+    [
+     "Result Table"
+    ],
+    [
+     "Nr.",
+     "Type",
+     "I1",
+     "phI1",
+     "I2",
+     "ph2",
+     "I3",
+     "ph3",
+     "Tdelay1",
+     "Freq"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -266,10 +316,122 @@
    "rows": [
     [
      "",
+     "Plant Name",
+     ":",
+     ""
+    ],
+    [
+     "Feeder",
+     ":",
+     ""
+    ],
+    [
+     "Relay Manufacture",
+     ":",
+     ""
+    ],
+    [
+     "Relay Model",
+     ":",
+     ""
+    ],
+    [
+     "Location",
+     ":",
+     ""
+    ],
+    [
+     "Operator",
+     ":",
+     ""
+    ],
+    [
+     "Instrument",
+     ":",
+     ""
+    ],
+    [
+     "Manual Mode"
+    ],
+    [
+     "Result Table"
+    ],
+    [
+     "Nr.",
+     "Type",
+     "I1",
+     "phI1",
+     "I2",
+     "ph2",
+     "I3",
+     "ph3",
+     "Tdelay1",
+     "Freq"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "",
+     "Plant Name",
+     ":",
+     ""
+    ],
+    [
+     "Feeder",
+     ":",
+     ""
+    ],
+    [
+     "Relay Manufacture",
+     ":",
+     ""
+    ],
+    [
+     "Relay Model",
+     ":",
+     ""
+    ],
+    [
+     "Location",
+     ":",
+     ""
+    ],
+    [
+     "Operator",
+     ":",
+     ""
+    ],
+    [
+     "Instrument",
+     ":",
+     ""
+    ],
+    [
+     "Manual Mode"
+    ],
+    [
+     "Result Table"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Nr.",
+     "Type",
      "V1",
      "phV1",
-     "",
+     "I1",
      "phI1",
      "phI2",
      "I2",
@@ -279,7 +441,7 @@
      "I3",
      "phI3",
      "Tdelay1",
-     ""
+     "Freq"
     ],
     [
      "7o",
@@ -459,6 +621,15 @@
    "text": "Location / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Figure 1"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Figure 2"
   },
@@ -467,7 +638,7 @@
    "text": "Figure 3"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:\n Multi-Function \n Protection Relay\n SIPROTEC4 - 7UM622\nSEMIENS\nIntroduction\nThis document lists the testing procedures P1, which must be \nperformed \non an annually bases \nas indicated by Y1 in the title block\nThe SIPROTEC 4 7UM62 is a numerical, multi-functional, protective and \n control device equipped with a powerful microprocessor. All tasks, such as \n the acquisition of the measured quantities, issuing of commands to circuit \n breakers and other primary power system equipment, are processed in a \n completely digital way.\nThe first draft initiated by eng. Mohamed Mansor, tested by eng Sidhom Nasef, \nrevised by MDEPC Quality control eng. Adel El-Naggar, accepted by eng Ali \nZahran: general manager,\napproved by eng. \nAhmed Sawan: head sector of Nubaria PS, \ncertified by eng. Samir abdel Gilil: general \ndirector, and approved by eng. Mohamed Nageb: head sector of MDEPC inspection \nand quality control.\nSafety Precautions\nA work permit must be issued.\nWear \n your safety and healthy equipment as safety helmet, safety shoes ... etc.\nSafety \n fence with caution marks surrounding the work area is required.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety \n fence with caution marks surrounding the work area is required.\nEquipment isolation and grounding \nis required.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for testing the protection relay.\nTools and Equipment\nSafety Helmet, safety shoes ... etc\nISA DRTS tester, test leads.\nPC laptop with necessary software {ISAWIZARD and ENER VISTA}\nTools bag.\nWork to be Carried Out\nSteps to \nprepare for \nrelay testing\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (f1, f2 -- see figure 1) on the rear of the relay.\nReading the \nsetting from the\nrelay by using \nthe PC\nConnecting the Personal Computer to the relay.\nRun the enervista program.\nRead the setting and save it as URGENT FILE FOR SIPROTEC 4 7UM62 [name the \n feeder].\nFOR MAIN GENERATOR UNIT OF CTG\nDifferential protection test \"stator earth fault\"\nConnecting the Personal Computer to the ISA tester.\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nAfter ISA tester completely in service Connect Currents, Voltages and binary \n input leads between ISA tester and SIPROTEC 4 7UM62.\nRUN ISAWIZARD software >>>>> GENERATION and DISTRIBUTION RELAYS >>>> X pro \n advanced >>>> MANUAL MODE\nNOW you can test the relay.\nInsert the current terminals to Q1,Q3,Q5 (see figure 2).\n Note: Do not forget to GENERATE PREFAULT\n CONDITION [I=0.001A, V=0V].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nChoose Shoot with current value equal to 1.05 of pick up current to get \n pickup time of the relay.\nNow print the results and you have complete test results for this function.\nEarth Fault\nRUN ISAWIZARD software and chose GENERATION AND DISTRIBUTION RELAYS >>>> X-PRO >>>> MANUAL MODE >>>>\nInsert the current terminals to Q1,Q3,Q5 (see figure 2).\nGENERATE PREFAULT CONDITION [I = 0.001A].\nDisable other functions.\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nSelect fault and shoot current value equal to ( I Setting*1.05 ) to determine \n the operating time.\n Note that: the injection should be on phase R only.\nSTORE ALL TESTS\nOver Current\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS >>>> \n X-PRO >>>>MANUAL MODE >>>>\nGENERATE PREFAULT CONDITION [I=0.001A, V=57V].\nDisable other functions.\nSELECT FAULT and INJECT CURRENT VALUE EQUAL TO (I Setting*1.01) to determine \n the operating time.\nClick Start.\nRepeat steps from 3-1, to 3-5 for all phases R, S, and T.\n Note that: you can inject on three phase one time.\nChoose STORE ALL TESTS.\nNegative\nSequence 46\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS >>>> X-PRO >>>> MANUAL MODE >>>>\nInsert the current terminals to Q1,Q3,Q5 (see figure 2).\nGENERATE PREFAULT CONDITION [ I = 0.001A ].\nDisable other functions.\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\n NOTE: Ia=3 x Io =3 x I2 WHERE:\n Ia: Phase current, Io: Zero sequence current and I2: Negative sequence \n component.\nSelect fault and shoot current value equal to (I Setting*1.05) to determine \n the operating time.\n Note that: The injection should be on phase R only.\nSTORE ALL TESTS\nOver / Under Voltage\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS >>>> \n X-PRO >>>>MANUAL MODE>>>>\nInsert the voltage terminals to R15,R17,R18,R16 (see figure 3).\nGENERATE PREFAULT CONDITION [I=0.001A, V=57V].\nDisable other functions.\nSELECT FAULT and inject voltage value equal to (V setting) to determine the \n operating time for each stage.\nChoose Delta ramp with step ∆V 1V to get pickup voltage for each stage of the \n relay.\n Note that: You can inject on three phase one time.\nChose STORE ALL TESTS.\nOver / Under Frequency\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS >>>> \n X-PRO >>>>MANUAL MODE>>>>\nInsert the voltage terminals to R15,R17,R18,R16 (see figure 3).\nGENERATE PREFAULT CONDITION [I=0.001A, V=57V, 50 Hz].\nDisable other functions.\nChoose Delta ramp with step ∆F 0.5 Hz to get pickup frequency for each stage \n of the relay.\n Note that : You can inject on three phase one time.\nSELECT FAULT and inject voltage value equal to (V nominal) with frequency \n setting to determine the operating time for each stage.\nChose STORE ALL TESTS.\nReverse Power\nRUN ISAWIZARD software and chose GENERATION AND DISTRIBUTION RELAYS >>>> \n X-PRO >>>>MANUAL MODE>>>>\nGENERATE PREFAULT CODITION [I=0.001A, V=57V].\nChoose Delta ramp with step ∆I 0.001 Amp to get pickup current for the relay.\nSELECT FAULT and INJECT CURRENT VALUE EQUAL to I Setting and angle 180ْ and \n voltage value equal to nominal voltage determine the operating time.\nClick Start.\nRepeat steps from 3-1, to 3-5 for all phases R, S, and T.\n Note that: You can inject on three phase one time.\nChose STORE ALL TESTS\nReturn\nrelay and\nassociated equipment to\nservice\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these reading agree with station meters (MW, \n Mvar, Amperes and \n Power Factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\nTest Sheet\nTest Sheet\n\nLocation / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................\nFigure 2\nFigure 3",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document lists the testing procedures P1, which must be \nperformed \non an annually bases \nas indicated by Y1 in the title block\nThe SIPROTEC 4 7UM62 is a numerical, multi-functional, protective and \n control device equipped with a powerful microprocessor. All tasks, such as \n the acquisition of the measured quantities, issuing of commands to circuit \n breakers and other primary power system equipment, are processed in a \n completely digital way.\nThe first draft initiated by eng. Mohamed Mansor, tested by eng Sidhom Nasef, \nrevised by MDEPC Quality control eng. Adel El-Naggar, accepted by eng Ali \nZahran: general manager,\napproved by eng. \nAhmed Sawan: head sector of Nubaria PS, \ncertified by eng. Samir abdel Gilil: general \ndirector, and approved by eng. Mohamed Nageb: head sector of MDEPC inspection \nand quality control.\nSafety Precautions\nA work permit must be issued.\nWear \n your safety and healthy equipment as safety helmet, safety shoes ... etc.\nSafety \n fence with caution marks surrounding the work area is required.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety \n fence with caution marks surrounding the work area is required.\nEquipment isolation and grounding \nis required.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for testing the protection relay.\nTools and Equipment\nSafety Helmet, safety shoes ... etc\nISA DRTS tester, test leads.\nPC laptop with necessary software {ISAWIZARD and ENER VISTA}\nTools bag.\nWork to be Carried Out\nSteps to \nprepare for \nrelay testing\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (f1, f2 -- see figure 1) on the rear of the relay.\nReading the \nsetting from the\nrelay by using \nthe PC\nConnecting the Personal Computer to the relay.\nRun the enervista program.\nRead the setting and save it as URGENT FILE FOR SIPROTEC 4 7UM62 [name the \n feeder].\nFOR MAIN GENERATOR UNIT OF CTG\nDifferential protection test \"stator earth fault\"\nConnecting the Personal Computer to the ISA tester.\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nAfter ISA tester completely in service Connect Currents, Voltages and binary \n input leads between ISA tester and SIPROTEC 4 7UM62.\nRUN ISAWIZARD software >>>>> GENERATION and DISTRIBUTION RELAYS >>>> X pro \n advanced >>>> MANUAL MODE\nNOW you can test the relay.\nInsert the current terminals to Q1,Q3,Q5 (see figure 2).\n Note: Do not forget to GENERATE PREFAULT\n CONDITION [I=0.001A, V=0V].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nChoose Shoot with current value equal to 1.05 of pick up current to get \n pickup time of the relay.\nNow print the results and you have complete test results for this function.\nEarth Fault\nRUN ISAWIZARD software and chose GENERATION AND DISTRIBUTION RELAYS >>>> X-PRO >>>> MANUAL MODE >>>>\nInsert the current terminals to Q1,Q3,Q5 (see figure 2).\nGENERATE PREFAULT CONDITION [I = 0.001A].\nDisable other functions.\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nSelect fault and shoot current value equal to ( I Setting*1.05 ) to determine \n the operating time.\n Note that: the injection should be on phase R only.\nSTORE ALL TESTS\nOver Current\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS >>>> \n X-PRO >>>>MANUAL MODE >>>>\nGENERATE PREFAULT CONDITION [I=0.001A, V=57V].\nDisable other functions.\nSELECT FAULT and INJECT CURRENT VALUE EQUAL TO (I Setting*1.01) to determine \n the operating time.\nClick Start.\nRepeat steps from 3-1, to 3-5 for all phases R, S, and T.\n Note that: you can inject on three phase one time.\nChoose STORE ALL TESTS.\nNegative\nSequence 46\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS >>>> X-PRO >>>> MANUAL MODE >>>>\nInsert the current terminals to Q1,Q3,Q5 (see figure 2).\nGENERATE PREFAULT CONDITION [ I = 0.001A ].\nDisable other functions.\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\n NOTE: Ia=3 x Io =3 x I2 WHERE:\n Ia: Phase current, Io: Zero sequence current and I2: Negative sequence \n component.\nSelect fault and shoot current value equal to (I Setting*1.05) to determine \n the operating time.\n Note that: The injection should be on phase R only.\nSTORE ALL TESTS\nOver / Under Voltage\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS >>>> \n X-PRO >>>>MANUAL MODE>>>>\nInsert the voltage terminals to R15,R17,R18,R16 (see figure 3).\nGENERATE PREFAULT CONDITION [I=0.001A, V=57V].\nDisable other functions.\nSELECT FAULT and inject voltage value equal to (V setting) to determine the \n operating time for each stage.\nChoose Delta ramp with step ∆V 1V to get pickup voltage for each stage of the \n relay.\n Note that: You can inject on three phase one time.\nChose STORE ALL TESTS.\nOver / Under Frequency\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS >>>> \n X-PRO >>>>MANUAL MODE>>>>\nInsert the voltage terminals to R15,R17,R18,R16 (see figure 3).\nGENERATE PREFAULT CONDITION [I=0.001A, V=57V, 50 Hz].\nDisable other functions.\nChoose Delta ramp with step ∆F 0.5 Hz to get pickup frequency for each stage \n of the relay.\n Note that : You can inject on three phase one time.\nSELECT FAULT and inject voltage value equal to (V nominal) with frequency \n setting to determine the operating time for each stage.\nChose STORE ALL TESTS.\nReverse Power\nRUN ISAWIZARD software and chose GENERATION AND DISTRIBUTION RELAYS >>>> \n X-PRO >>>>MANUAL MODE>>>>\nGENERATE PREFAULT CODITION [I=0.001A, V=57V].\nChoose Delta ramp with step ∆I 0.001 Amp to get pickup current for the relay.\nSELECT FAULT and INJECT CURRENT VALUE EQUAL to I Setting and angle 180ْ and \n voltage value equal to nominal voltage determine the operating time.\nClick Start.\nRepeat steps from 3-1, to 3-5 for all phases R, S, and T.\n Note that: You can inject on three phase one time.\nChose STORE ALL TESTS\nReturn\nrelay and\nassociated equipment to\nservice\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these reading agree with station meters (MW, \n Mvar, Amperes and \n Power Factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\n | Plant Name | : | \nFeeder | : | \nRelay Manufacture | : | \nRelay Model | : | \nLocation | : | \nOperator | : | \nInstrument | : | \nManual Mode\nResult Table\nNr. | Type | I1 | phI1 | I2 | ph2 | I3 | ph3 | Tdelay1 | Freq\nTest Sheet\n | Plant Name | : | \nFeeder | : | \nRelay Manufacture | : | \nRelay Model | : | \nLocation | : | \nOperator | : | \nInstrument | : | \nManual Mode\nResult Table\nNr. | Type | I1 | phI1 | I2 | ph2 | I3 | ph3 | Tdelay1 | Freq\nTest Sheet\n | Plant Name | : | \nFeeder | : | \nRelay Manufacture | : | \nRelay Model | : | \nLocation | : | \nOperator | : | \nInstrument | : | \nManual Mode\nResult Table\nNr. | Type | V1 | phV1 | I1 | phI1 | phI2 | I2 | phI2 | V3 | phV3 | I3 | phI3 | Tdelay1 | Freq\n7o |  |  |  |  |  |  |  |  |  |  |  |  |  | \n8o |  |  |  |  |  |  |  |  |  |  |  |  |  | \n9o |  |  |  |  |  |  |  |  |  |  |  |  |  | \n10o |  |  |  |  |  |  |  |  |  |  |  |  |  | \n11o |  |  |  |  |  |  |  |  |  |  |  |  |  | \n12o |  |  |  |  |  |  |  |  |  |  |  |  |  | \n13o |  |  |  |  |  |  |  |  |  |  |  |  |  | \n14o |  |  |  |  |  |  |  |  |  |  |  |  |  | \n15o |  |  |  |  |  |  |  |  |  |  |  |  |  | \n16o |  |  |  |  |  |  |  |  |  |  |  |  |  | \nLocation / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................\nFigure 1\nFigure 2\nFigure 3",
  "text_truncated": false,
  "links": [],
  "images": [

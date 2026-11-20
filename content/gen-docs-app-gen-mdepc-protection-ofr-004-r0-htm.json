@@ -14,36 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Frequency Relay \n (81)"
-  },
-  {
-   "type": "paragraph",
-   "text": "HDG 7020"
-  },
-  {
-   "type": "paragraph",
-   "text": "CEE France"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: \n APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date Approved: 17 \n Dec.2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: \n December 2013"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -255,7 +233,7 @@
    "truncated_rows": 0
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\n Frequency Relay \n (81)\nHDG 7020\nCEE France\nStatus: \n APPROVED\nDate Approved: 17 \n Dec.2008\nDate to be Reviewed: \n December 2013\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block.\nThis relay ensures function 81 of ANSI-C37-2-1970 standard.\nThe HDG 7020 is a two level frequency relay whose characteristics of high \n precision , rapid operating time , wide setting ranges and the possibility of \n using each operating level either for over frequency or under frequency , make \n it suitable for use in a wide range of application.\nThe first draft is initiated by Eng. Mohammed Fahmey Mashaal, tested by Eng. \n Khalied Diab & Eng. Ehab Abu Elwafa at 19 August 2008, and accepted by General \n Manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby Head \n Sector of Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc).\nIssue work permit including the \n team work name.\nSafety fence with \n caution marks surrounding the work area is required.\nThe generator must be out of service.\nTools \nand Equipment\nVariable frequency source.\nTest leads.\nAVO meter.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for frequency Relay.\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for frequency Relay.\nTesting \nthe Relay\nRemove voltage terminals (10,11) from the relay as shown in \n fig(1)\nConnect test leads between the voltage terminals (10 11) on \n the relay.\nIncrease the injection voltage to 110 V and frequency to 50 HZ\nIncrease the frequency slowly until the relay operates and \n record over frequency (P.U) value and then stop the test set.\nRestart the test set (with voltage=110v& frequency =over \n frequency P.U value)\nThe relay will operate, the over frequency timer will account \n and stop when the trip contact close.\nMake sure that lockout relays (86GT&86T) operate.\nRegister the time value.\nDecrease the frequency slowly until the relay return to normal \n condition and record (REST) value.\nMake reset to frequency relay & lockout relays (86GT&86T).\nDecrease the frequency slowly until the relay operates and \n record under frequency (P.U) value and then stop the test set.\nRestart the test set (with voltage=110v& frequency=under \n frequency P.U value).\nThe relay will operate, the under frequency timer will account \n and stop when the trip contact close.\nMake sure that lockout relays (86GT&86T) operate.\nMake reset to frequency relay &lockout relays (86GT&86T).\nIncrease the frequency slowly until the relay return to normal \n condition and record (REST) value.\nMake reset to frequency relay & lockout relays (86GT&86T).\nRecord \n all above (P.U. Reset Time) values in the test she\nRemove under voltage from its rack.\nPut 220 K.V C.B of the unit at local position.\nClose C.B of the unit.\nReturn C.B of the unit to remote position.\nTrip C.B of the unit by \n frequency relay (under/over)\nReinsert under voltage relay to its normal position.\nMake reset to frequency relay & lockout relays (86GT&86T)\nReturn Relay and Associated \nEquipment to Service\nDisconnect the test \n leads from the Relay.\nReconnect voltage \n terminals (10-11) to the relay.\nMake sure PT \n secondary circuits are in normal condition.\nFigure 1 - Internal connections for HDG 7020 Relay\nTest Sheet\nUnit no. : \nRelay type : Static \nRelay setting :\nRelay model : HDG 7020 \nV.T ratio : 12000/120 V\n",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block.\nThis relay ensures function 81 of ANSI-C37-2-1970 standard.\nThe HDG 7020 is a two level frequency relay whose characteristics of high \n precision , rapid operating time , wide setting ranges and the possibility of \n using each operating level either for over frequency or under frequency , make \n it suitable for use in a wide range of application.\nThe first draft is initiated by Eng. Mohammed Fahmey Mashaal, tested by Eng. \n Khalied Diab & Eng. Ehab Abu Elwafa at 19 August 2008, and accepted by General \n Manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby Head \n Sector of Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc).\nIssue work permit including the \n team work name.\nSafety fence with \n caution marks surrounding the work area is required.\nThe generator must be out of service.\nTools \nand Equipment\nVariable frequency source.\nTest leads.\nAVO meter.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for frequency Relay.\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for frequency Relay.\nTesting \nthe Relay\nRemove voltage terminals (10,11) from the relay as shown in \n fig(1)\nConnect test leads between the voltage terminals (10 11) on \n the relay.\nIncrease the injection voltage to 110 V and frequency to 50 HZ\nIncrease the frequency slowly until the relay operates and \n record over frequency (P.U) value and then stop the test set.\nRestart the test set (with voltage=110v& frequency =over \n frequency P.U value)\nThe relay will operate, the over frequency timer will account \n and stop when the trip contact close.\nMake sure that lockout relays (86GT&86T) operate.\nRegister the time value.\nDecrease the frequency slowly until the relay return to normal \n condition and record (REST) value.\nMake reset to frequency relay & lockout relays (86GT&86T).\nDecrease the frequency slowly until the relay operates and \n record under frequency (P.U) value and then stop the test set.\nRestart the test set (with voltage=110v& frequency=under \n frequency P.U value).\nThe relay will operate, the under frequency timer will account \n and stop when the trip contact close.\nMake sure that lockout relays (86GT&86T) operate.\nMake reset to frequency relay &lockout relays (86GT&86T).\nIncrease the frequency slowly until the relay return to normal \n condition and record (REST) value.\nMake reset to frequency relay & lockout relays (86GT&86T).\nRecord \n all above (P.U. Reset Time) values in the test she\nRemove under voltage from its rack.\nPut 220 K.V C.B of the unit at local position.\nClose C.B of the unit.\nReturn C.B of the unit to remote position.\nTrip C.B of the unit by \n frequency relay (under/over)\nReinsert under voltage relay to its normal position.\nMake reset to frequency relay & lockout relays (86GT&86T)\nReturn Relay and Associated \nEquipment to Service\nDisconnect the test \n leads from the Relay.\nReconnect voltage \n terminals (10-11) to the relay.\nMake sure PT \n secondary circuits are in normal condition.\nFigure 1 - Internal connections for HDG 7020 Relay\nTest Sheet\nUnit no. : \nRelay type : Static \nRelay setting :\nRelay model : HDG 7020 \nV.T ratio : 12000/120 V\nInjected terminal | Injected voltage = \n 110v\n \"over frequency\" | Injected voltage = \n 110v\n \"under frequency\" | Remarks\n(10-11) |  |  |  |  |  |  | \n(10-11) |  |  |  |  |  |  | \n(10-11) |  |  |  |  |  |  | \n(10-11) |  |  |  |  |  |  | \n(10-11) |  |  |  |  |  |  | \n(10-11) |  |  |  |  |  |  | ",
  "text_truncated": false,
  "links": [],
  "images": [

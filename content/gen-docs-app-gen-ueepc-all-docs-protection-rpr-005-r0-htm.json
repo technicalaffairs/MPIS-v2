@@ -25,14 +25,6 @@
   },
   {
    "type": "paragraph",
-   "text": "Equipment:\n Reverse Power Relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "CH90"
-  },
-  {
-   "type": "paragraph",
    "text": "Introduction"
   },
   {
@@ -132,6 +124,27 @@
    "text": "CTR. : \n2000/5"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay Setting",
+     "Operate",
+     "Reset",
+     "Time",
+     "Reset Factor"
+    ],
+    [
+     "Current",
+     "Time",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "The operating values of the relay are suitably tested when \nthe unit is on the routine maintenance (approximately every six months)."
   },
@@ -144,7 +157,7 @@
    "text": "Checked\nby :\nSignature: \nDate :"
   }
  ],
- "text": "\nEquipment:\n Reverse Power Relay\nCH90\nIntroduction\nThis procedure details \n the testing procedures \n P1, which recommended to be carried out every six months as indicated by M6 \n in the title block.\nThe purpose of the relay is \n basically to prevent damage on the turbine, if the driving torque less than \n the total losses in the generator and the prime mover, the generator start to \n work as a synchronous compensator, taking the necessary active power from the \n network\nThe reverse power relay is provided with one step, the relay shall be set at \n 10% of the generator rated power and shall give a trip after a time delay of \n 10 sec. The relay contains one directional current unit and one time delay \n unit.\nThe first draft initiated by eng. Baha Salah Farag, tested by eng. Badry Atea \n Rofaiel, \n accepted by eng. Abdel Azem Gomaa Hagrasy, certified by eng. Gamal Abdel Wahab: UEEPC quality control head sector & MPIS \n coordinator, and approved by eng. Hussein Ahmed Mahdy: head sector of Assiut \n Steam PS.\nSafety Precautions\nA work \n permit must be issued, the qualified \n maintenance staff should carry the suitable \n safety ID category,\nSafety fence with caution marks surrounding the work area is required.\nWear your Safety and healthy equipment as safety \n helmet, shoes, safety belt.... etc\nWear your Safety and healthy equipment as safety \n helmet, shoes, safety belt.... etc\nThe line is out of service\nIsolate the relay from PT`s & CT`s\nTools and Equipment\nSpecial test key.\nAvometer and connecting leads\nTest transformer to give the test voltage (7v).\nSelector switch to get the test voltage from the test transformer to the relay \n and isolate the voltage coming from the main unit transformer.\nWork\nto be Carried Out\nTurn the supply \n voltage switch from the off position to the auxiliary voltage position.\nInsert the \n special test key into the test selector switch (b5).\nChange the \n position of the test selector switch by the test key on the test panel to the \n test delay action position.\nPress on the test \n key button until the signal appears.\nRelease the \n button of the test key and return the selector back to its first position \n (action).\nReturn the supply \n voltage selector switch back to its off position.\nReset the reverse \n power relay to its normal position.\nRecord the values \n (results) on the test sheet.\nRemarks\nOur \n relay has a special working mechanism with two coils one coil for the current \n sample and the other for the voltage, during the generator working the relay \n is supplied from the voltage and current transformer of the generator along \n two auxiliary contacts of a selector switch (b5) and during the test (the unit \n is out of service) the relay is supplied from test transformer, which give \n (7v) to the terminals 1,2 of the relay along the voltage selector switch which \n disconnect the other auxiliary contacts which getting the voltage from the \n generator and connect them to the testing transformer to give (100 v) to the \n terminals 3,4 of the relay as shown in the figure and the 110 volt (d.c) is \n connected through the terminals 5,6.As the injection value from the testing \n transformer reached to the setting the relay operate with time delay (10 \n sec).\nMRDS \nMaintenance Record Data Sheet \nMRDS\nRelay type: CH90\nPTR. : \n11000/3/110/3\nCTR. : \n2000/5\nThe operating values of the relay are suitably tested when \nthe unit is on the routine maintenance (approximately every six months).\nLocation: \nRelay Code:\nChecked\nby :\nSignature: \nDate :",
+ "text": "Protections | Technical Procedure\nIntroduction\nThis procedure details \n the testing procedures \n P1, which recommended to be carried out every six months as indicated by M6 \n in the title block.\nThe purpose of the relay is \n basically to prevent damage on the turbine, if the driving torque less than \n the total losses in the generator and the prime mover, the generator start to \n work as a synchronous compensator, taking the necessary active power from the \n network\nThe reverse power relay is provided with one step, the relay shall be set at \n 10% of the generator rated power and shall give a trip after a time delay of \n 10 sec. The relay contains one directional current unit and one time delay \n unit.\nThe first draft initiated by eng. Baha Salah Farag, tested by eng. Badry Atea \n Rofaiel, \n accepted by eng. Abdel Azem Gomaa Hagrasy, certified by eng. Gamal Abdel Wahab: UEEPC quality control head sector & MPIS \n coordinator, and approved by eng. Hussein Ahmed Mahdy: head sector of Assiut \n Steam PS.\nSafety Precautions\nA work \n permit must be issued, the qualified \n maintenance staff should carry the suitable \n safety ID category,\nSafety fence with caution marks surrounding the work area is required.\nWear your Safety and healthy equipment as safety \n helmet, shoes, safety belt.... etc\nWear your Safety and healthy equipment as safety \n helmet, shoes, safety belt.... etc\nThe line is out of service\nIsolate the relay from PT`s & CT`s\nTools and Equipment\nSpecial test key.\nAvometer and connecting leads\nTest transformer to give the test voltage (7v).\nSelector switch to get the test voltage from the test transformer to the relay \n and isolate the voltage coming from the main unit transformer.\nWork\nto be Carried Out\nTurn the supply \n voltage switch from the off position to the auxiliary voltage position.\nInsert the \n special test key into the test selector switch (b5).\nChange the \n position of the test selector switch by the test key on the test panel to the \n test delay action position.\nPress on the test \n key button until the signal appears.\nRelease the \n button of the test key and return the selector back to its first position \n (action).\nReturn the supply \n voltage selector switch back to its off position.\nReset the reverse \n power relay to its normal position.\nRecord the values \n (results) on the test sheet.\nRemarks\nOur \n relay has a special working mechanism with two coils one coil for the current \n sample and the other for the voltage, during the generator working the relay \n is supplied from the voltage and current transformer of the generator along \n two auxiliary contacts of a selector switch (b5) and during the test (the unit \n is out of service) the relay is supplied from test transformer, which give \n (7v) to the terminals 1,2 of the relay along the voltage selector switch which \n disconnect the other auxiliary contacts which getting the voltage from the \n generator and connect them to the testing transformer to give (100 v) to the \n terminals 3,4 of the relay as shown in the figure and the 110 volt (d.c) is \n connected through the terminals 5,6.As the injection value from the testing \n transformer reached to the setting the relay operate with time delay (10 \n sec).\nMRDS \nMaintenance Record Data Sheet \nMRDS\nRelay type: CH90\nPTR. : \n11000/3/110/3\nCTR. : \n2000/5\nRelay Setting | Operate | Reset | Time | Reset Factor\nCurrent | Time |  |  |  | \nThe operating values of the relay are suitably tested when \nthe unit is on the routine maintenance (approximately every six months).\nLocation: \nRelay Code:\nChecked\nby :\nSignature: \nDate :",
  "text_truncated": false,
  "links": [],
  "images": [

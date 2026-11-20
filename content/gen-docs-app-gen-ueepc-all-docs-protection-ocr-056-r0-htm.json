@@ -14,28 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Over Current Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "for Unit Aux Transformer \n (50/51)"
-  },
-  {
-   "type": "paragraph",
-   "text": "MDP201A2A"
-  },
-  {
-   "type": "paragraph",
-   "text": "GE"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -201,8 +187,27 @@
    "text": "For the phase over current ( 50 )"
   },
   {
-   "type": "paragraph",
-   "text": "Time"
+   "type": "table",
+   "rows": [
+    [
+     "Injected Current",
+     "2I tap=9.75A"
+    ],
+    [
+     "Time\n ( sec )",
+     "R",
+     ""
+    ],
+    [
+     "S",
+     ""
+    ],
+    [
+     "T",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -233,7 +238,7 @@
    "text": "Location: Relay \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\n Over Current Protection\nfor Unit Aux Transformer \n (50/51)\nMDP201A2A\nGE\nIntroduction\nThe type MDP relays are digital microprocessor based, non directional over \n current relays that protect against phase to phase and phase to ground faults \n it performs the following functions:\nInverse over current, including four characteristic curves, and four values \n for definite time protection, as well as instantaneous over current protection \n with programmable delay; all in the same relay.\nPhase and ground current measurement\nPhase and ground current metering\nOperating time and fault current of the last trip.\nThe first draft is initiated and tested by eng. Saber Mohamed and eng.Ragab \n Abd Elgwad, revised by eng. Abd Elazez Shalaby accepted by eng. Mahmoud \n Badawy, Electrical Maintenance and Protection Manager, and approved by eng. \n Ahmed Moussa Executive Operation and Maintenance Manager, revised by quality \n control head sector eng. Gamal Abdel Wahab\nSafety Precautions\nA work order must be issued.\nThe maintenance staff should be qualified and carry the suitable safety ID category.\nWear safety and healthy equipment as safety helmet, safety shoes, anti static \n hand probe to avoid electrical shock etc\nSafety fence with caution marks surrounding the work area is required\nThe generator must be isolated and work permit required.\nSwitch off DC power supply before inserting or withdrawing any card from the \n relay module.\nTools and Equipment\nTest set MANTA\nMulti - meter\nTest leads\nTest set MANTA\nMulti - meter\nTest leads\nWork to be Carried Out\nPick up current\nTime test\nFunction test\nAdjust the current by short manta current terminals\nStart inject current and record the time\nRepeat the previous steps for the other phases and neutral\nRepeat for different values of ф and determine voltage as following\nTo Get pick up current\nConnect the circuit as shown in figure\nConnect the manta current terminals at phase A 1&2\nStart increasing current from zero until pick up\nRepeat the previous for the phases S & T 3&4 AND 5&6\nRepeat the previous for the neutral winding 7&8\nTo Get Time\nUse the same connection\nAdjust the current by short manta current terminals\nStart inject current and record the time\nRepeat the previous steps for the other phases and neutral\nRepeat for different values of ф and determine voltage as following\nTest \nSheet\nRelay function : over current protection for unit aux. transf. ( 50/51 )\nRelay type: mdp201a2a\nRelay setting\nFor the phase over current ( 50 )\nTime over current at tap: 5\nTime dial at 2.5\nInstantaneous at: 13x\nFor the neutral over current ( 51 )\nTime over current at tap: 2\nTime dial at: 1\nInstantaneous at: 13x\nTest Results\nFor the phase over current ( 50 )\nTime\nFor \ninstantaneous element at current of 16A the time is 25 m sec.\nFor the neutral over current ( 51 )\n\nFigure 1\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThe type MDP relays are digital microprocessor based, non directional over \n current relays that protect against phase to phase and phase to ground faults \n it performs the following functions:\nInverse over current, including four characteristic curves, and four values \n for definite time protection, as well as instantaneous over current protection \n with programmable delay; all in the same relay.\nPhase and ground current measurement\nPhase and ground current metering\nOperating time and fault current of the last trip.\nThe first draft is initiated and tested by eng. Saber Mohamed and eng.Ragab \n Abd Elgwad, revised by eng. Abd Elazez Shalaby accepted by eng. Mahmoud \n Badawy, Electrical Maintenance and Protection Manager, and approved by eng. \n Ahmed Moussa Executive Operation and Maintenance Manager, revised by quality \n control head sector eng. Gamal Abdel Wahab\nSafety Precautions\nA work order must be issued.\nThe maintenance staff should be qualified and carry the suitable safety ID category.\nWear safety and healthy equipment as safety helmet, safety shoes, anti static \n hand probe to avoid electrical shock etc\nSafety fence with caution marks surrounding the work area is required\nThe generator must be isolated and work permit required.\nSwitch off DC power supply before inserting or withdrawing any card from the \n relay module.\nTools and Equipment\nTest set MANTA\nMulti - meter\nTest leads\nTest set MANTA\nMulti - meter\nTest leads\nWork to be Carried Out\nPick up current\nTime test\nFunction test\nAdjust the current by short manta current terminals\nStart inject current and record the time\nRepeat the previous steps for the other phases and neutral\nRepeat for different values of ф and determine voltage as following\nTo Get pick up current\nConnect the circuit as shown in figure\nConnect the manta current terminals at phase A 1&2\nStart increasing current from zero until pick up\nRepeat the previous for the phases S & T 3&4 AND 5&6\nRepeat the previous for the neutral winding 7&8\nTo Get Time\nUse the same connection\nAdjust the current by short manta current terminals\nStart inject current and record the time\nRepeat the previous steps for the other phases and neutral\nRepeat for different values of ф and determine voltage as following\nTest \nSheet\nRelay function : over current protection for unit aux. transf. ( 50/51 )\nRelay type: mdp201a2a\nRelay setting\nFor the phase over current ( 50 )\nTime over current at tap: 5\nTime dial at 2.5\nInstantaneous at: 13x\nFor the neutral over current ( 51 )\nTime over current at tap: 2\nTime dial at: 1\nInstantaneous at: 13x\nTest Results\nFor the phase over current ( 50 )\nInjected Current | 2I tap=9.75A\nTime\n ( sec ) | R | \nS | \nT | \nFor \ninstantaneous element at current of 16A the time is 25 m sec.\nFor the neutral over current ( 51 )\nInjected Current | 2I tap | 31 tap\nTime (sec) |  | \nFigure 1\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

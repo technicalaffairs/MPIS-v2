@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -216,6 +218,66 @@
    "text": "Test Sheet"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Plant Name",
+     ":",
+     ""
+    ],
+    [
+     "Feeder",
+     ":",
+     ""
+    ],
+    [
+     "Relay Manufacture",
+     ":",
+     ""
+    ],
+    [
+     "Relay Model",
+     ":",
+     ""
+    ],
+    [
+     "Location",
+     ":",
+     ""
+    ],
+    [
+     "Operator",
+     ":",
+     ""
+    ],
+    [
+     "Instrument",
+     ":",
+     ""
+    ],
+    [
+     "Manual Mode"
+    ],
+    [
+     "Results Table"
+    ],
+    [
+     "Nr.",
+     "Type",
+     "I1",
+     "Ph I1",
+     "I2",
+     "Ph \n I2",
+     "I3",
+     "Ph \n I3",
+     "Tdelay1",
+     "Freq"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location / \nFeeder: Relay Code: \nTested by: Test \nDate: Signature:"
   },
@@ -224,7 +286,7 @@
    "text": "Figure ( 1 ):\nMIF II N \nconnection diagram"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, to be carried out on an \n annually base as indicated by Y1 in the title block.\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure to be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal \n injury or damage to equipment.\nThe MIF II Feeder Protection relay is a microprocessor-based relay designed \n for the following applications:\nMain Protection for Medium and Low voltage feeders.\nMain Protection for Medium size Motors.\nMain Protection for Medium and Low power Transformers (less than 10MVA).\nEarth Fault Protection for neutral earthed transformer\nDifferential Protection for Motors, if a CT differential connection is \n available.\nBackup Protection for power Transformers (for any power level).\nBackup Protection for Generators.\nBackup Protection for Transmission lines.\nBackup Protection for substation bus bars.\nThermal Image Protection/Supervision for Cables, Power Transformers, Grounding \n Resistors and Generation Elements\nMain Protection for Medium and Low voltage feeders.\nMain Protection for Medium size Motors.\nMain Protection for Medium and Low power Transformers (less than 10MVA).\nEarth Fault Protection for neutral earthed transformer\nDifferential Protection for Motors, if a CT differential connection is \n available.\nBackup Protection for power Transformers (for any power level).\nBackup Protection for Generators.\nBackup Protection for Transmission lines.\nBackup Protection for substation bus bars.\nThermal Image Protection/Supervision for Cables, Power Transformers, Grounding \n Resistors and Generation Elements\nThe first draft initiated by eng. Mohamed Mansour, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gil;il MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear the safety and healthy equipment as safety \n shoes, safety helmet ... etc.\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear the safety and healthy equipment as safety \n shoes, safety helmet ... etc.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nThe main and auxiliary transformers must be out of service.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with \n necessary software {ISA WIZARD and ENER VISTA}\nTools bag\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (A1,A2 see fig.1) on the rear of the relay.\nReading the Setting from the \nRelay using the PC\nConnect the personal computer to the relay.\nRun the enervista program.\nRead the setting and safe it as URGENT FILE FOR MIF II N [name the feeder].\nFor Main Transformer CTG\nEarth Fault (E/F)\nRUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS >>>> \n XPRO >>>> MANUAL MODE>>>>\nInsert the test plug in the terminal block BP17 see figure 1.\nGENERATE PREFAULT CONDITION [I=0.001A].\nDisable other functions\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay\nSelect fault and shoot current value equal to (I Setting*1.05) to determine \n the operating time.\nNote that: the injection should be on phase R only.\nSTORE ALL TESTS\nNow you have complete test results for these relay.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these readings agree with station meters (MW, \n Mvar, Amperes and \n power factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\nLocation / \nFeeder: Relay Code: \nTested by: Test \nDate: Signature:\nFigure ( 1 ):\nMIF II N \nconnection diagram",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the maintenance procedures P1, to be carried out on an \n annually base as indicated by Y1 in the title block.\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure to be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal \n injury or damage to equipment.\nThe MIF II Feeder Protection relay is a microprocessor-based relay designed \n for the following applications:\nMain Protection for Medium and Low voltage feeders.\nMain Protection for Medium size Motors.\nMain Protection for Medium and Low power Transformers (less than 10MVA).\nEarth Fault Protection for neutral earthed transformer\nDifferential Protection for Motors, if a CT differential connection is \n available.\nBackup Protection for power Transformers (for any power level).\nBackup Protection for Generators.\nBackup Protection for Transmission lines.\nBackup Protection for substation bus bars.\nThermal Image Protection/Supervision for Cables, Power Transformers, Grounding \n Resistors and Generation Elements\nMain Protection for Medium and Low voltage feeders.\nMain Protection for Medium size Motors.\nMain Protection for Medium and Low power Transformers (less than 10MVA).\nEarth Fault Protection for neutral earthed transformer\nDifferential Protection for Motors, if a CT differential connection is \n available.\nBackup Protection for power Transformers (for any power level).\nBackup Protection for Generators.\nBackup Protection for Transmission lines.\nBackup Protection for substation bus bars.\nThermal Image Protection/Supervision for Cables, Power Transformers, Grounding \n Resistors and Generation Elements\nThe first draft initiated by eng. Mohamed Mansour, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \ngeneral manager & eng. Samir Abdel-Gil;il MDEPC quality control general director, approved by eng. Ahmad Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear the safety and healthy equipment as safety \n shoes, safety helmet ... etc.\nA work permit must be issued.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nThe maintenance staff should be trained, qualified, and carry the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nWear the safety and healthy equipment as safety \n shoes, safety helmet ... etc.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nThe main and auxiliary transformers must be out of service.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with \n necessary software {ISA WIZARD and ENER VISTA}\nTools bag\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (A1,A2 see fig.1) on the rear of the relay.\nReading the Setting from the \nRelay using the PC\nConnect the personal computer to the relay.\nRun the enervista program.\nRead the setting and safe it as URGENT FILE FOR MIF II N [name the feeder].\nFor Main Transformer CTG\nEarth Fault (E/F)\nRUN ISA WIZARD software and choose GENERATION AND DISTRIBUTION RELAYS >>>> \n XPRO >>>> MANUAL MODE>>>>\nInsert the test plug in the terminal block BP17 see figure 1.\nGENERATE PREFAULT CONDITION [I=0.001A].\nDisable other functions\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay\nSelect fault and shoot current value equal to (I Setting*1.05) to determine \n the operating time.\nNote that: the injection should be on phase R only.\nSTORE ALL TESTS\nNow you have complete test results for these relay.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these readings agree with station meters (MW, \n Mvar, Amperes and \n power factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\n | Plant Name | : | \nFeeder | : | \nRelay Manufacture | : | \nRelay Model | : | \nLocation | : | \nOperator | : | \nInstrument | : | \nManual Mode\nResults Table\nNr. | Type | I1 | Ph I1 | I2 | Ph \n I2 | I3 | Ph \n I3 | Tdelay1 | Freq\nLocation / \nFeeder: Relay Code: \nTested by: Test \nDate: Signature:\nFigure ( 1 ):\nMIF II N \nconnection diagram",
  "text_truncated": false,
  "links": [],
  "images": [

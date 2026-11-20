@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Under Frequency Relay\n REG 316\n ABB"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -165,6 +163,31 @@
    "text": "C.T.R. \n: 2000/5"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay \n Setting",
+     "Alarm",
+     "Trip"
+    ],
+    [
+     "Delay (sec)",
+     "Delay (sec)"
+    ],
+    [
+     "Under frequency 1 (49.0 hz)",
+     "",
+     ""
+    ],
+    [
+     "Under frequency 2 (48.0 hz)",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "The operating value of the relay are suitably tested when the unit \nis on the routine maintenance (approximately every six months)"
   },
@@ -173,7 +196,7 @@
    "text": "Location: Relay \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:Under Frequency Relay\n REG 316\n ABB\nIntroduction\nThis document lists the testing procedures P1, to be performed every six months \nbases as indicated by M6 in the title block.\nThe \npurpose of the relay is basically to give an indication that under frequency \noccurs into the generator, this protection is used to protect synchronous \ngenerators and prime mover. Which give alarm signal for 49.0 hz for 1.5 second \ndelay & trip signal for 48.0 hz for 3.0 second delay, the feeding of this device \nfrom voltage transformers on its unit\nThe first fraft of this document is initiated by eng. Baha Saleh from Assiut \nsteam power station and tested by eng. Badry Atea, accepted by eng. Abdel Azem Gomaa Hagrasy, \ncertified by eng. Gamal Abdel Wahab: UEEPC quality control head sector & MPIS \ncoordinator, and approved by eng. Hussein Ahmed Mahdy: head sector of Assiut \nSteam PS.\nSafety Precautions\nA work permit \n must be issued, the qualified maintenance staff should carry the suitable \n safety ID category.\nSafety fence with caution marks surrounding the work area is required.\nWear your Safety and healthy equipment as safety \n helmet, shoes, safety belt.... etc\nThe unit is out of service\nWear your Safety and healthy equipment as safety \n helmet, shoes, safety belt.... etc\nThe unit is out of service\nTools and Equipment\nControl PC interfacing\nIMB at compatible\nMS-DOS operating system\nA vometer and connecting leads\n1 serial interface (RS-232C)\n1 parallel interface\nCapable of block graphics\n9 pin-to-25 pin adapter\nControl PC interfacing\nIMB at compatible\nMS-DOS operating system\nA vometer and connecting leads\n1 serial interface (RS-232C)\n1 parallel interface\nCapable of block graphics\n9 pin-to-25 pin adapter\nWork to be Carried Out\nThe unit is out of Service\nCheck the unit out of \nservice\nReset the under frequency relay to its normal position\nRecord the values (results) on the test sheet\nCheck the unit out of \nservice\nConnect the serial interface of the PC to the interface \n connector on the front of the REG 316\nConnect the cable between the serial interface connector on \n the frontplate of he protection equipment (25 pin sub-d socket) & on the PC \n (9pin or 25 pin sub-d plug) is an optical fibre cable type YX216-1\nOperate REG 316 program and simulate the under frequency \n protection by in binary inputs\nReset the under frequency relay to its normal position\nRecord the values (results) on the test sheet\nTest Sheet\nRelay type : \nREG 316\nP.T.R. : \n11000/√3 /100/√3\nC.T.R. \n: 2000/5\nThe operating value of the relay are suitably tested when the unit \nis on the routine maintenance (approximately every six months)\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document lists the testing procedures P1, to be performed every six months \nbases as indicated by M6 in the title block.\nThe \npurpose of the relay is basically to give an indication that under frequency \noccurs into the generator, this protection is used to protect synchronous \ngenerators and prime mover. Which give alarm signal for 49.0 hz for 1.5 second \ndelay & trip signal for 48.0 hz for 3.0 second delay, the feeding of this device \nfrom voltage transformers on its unit\nThe first fraft of this document is initiated by eng. Baha Saleh from Assiut \nsteam power station and tested by eng. Badry Atea, accepted by eng. Abdel Azem Gomaa Hagrasy, \ncertified by eng. Gamal Abdel Wahab: UEEPC quality control head sector & MPIS \ncoordinator, and approved by eng. Hussein Ahmed Mahdy: head sector of Assiut \nSteam PS.\nSafety Precautions\nA work permit \n must be issued, the qualified maintenance staff should carry the suitable \n safety ID category.\nSafety fence with caution marks surrounding the work area is required.\nWear your Safety and healthy equipment as safety \n helmet, shoes, safety belt.... etc\nThe unit is out of service\nWear your Safety and healthy equipment as safety \n helmet, shoes, safety belt.... etc\nThe unit is out of service\nTools and Equipment\nControl PC interfacing\nIMB at compatible\nMS-DOS operating system\nA vometer and connecting leads\n1 serial interface (RS-232C)\n1 parallel interface\nCapable of block graphics\n9 pin-to-25 pin adapter\nControl PC interfacing\nIMB at compatible\nMS-DOS operating system\nA vometer and connecting leads\n1 serial interface (RS-232C)\n1 parallel interface\nCapable of block graphics\n9 pin-to-25 pin adapter\nWork to be Carried Out\nThe unit is out of Service\nCheck the unit out of \nservice\nReset the under frequency relay to its normal position\nRecord the values (results) on the test sheet\nCheck the unit out of \nservice\nConnect the serial interface of the PC to the interface \n connector on the front of the REG 316\nConnect the cable between the serial interface connector on \n the frontplate of he protection equipment (25 pin sub-d socket) & on the PC \n (9pin or 25 pin sub-d plug) is an optical fibre cable type YX216-1\nOperate REG 316 program and simulate the under frequency \n protection by in binary inputs\nReset the under frequency relay to its normal position\nRecord the values (results) on the test sheet\nTest Sheet\nRelay type : \nREG 316\nP.T.R. : \n11000/√3 /100/√3\nC.T.R. \n: 2000/5\nRelay \n Setting | Alarm | Trip\nDelay (sec) | Delay (sec)\nUnder frequency 1 (49.0 hz) |  | \nUnder frequency 2 (48.0 hz) |  | \nThe operating value of the relay are suitably tested when the unit \nis on the routine maintenance (approximately every six months)\nLocation: Relay \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,6 +14,16 @@
  "translation_status": "missing",
  "sections": [
   {
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Introduction"
   },
@@ -146,6 +156,58 @@
    "text": "Relay Model \n: C.T \nRatio :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Injected \n Terminal",
+     "Injected \n Current",
+     "Time"
+    ],
+    [
+     "P.U",
+     "RESET"
+    ],
+    [
+     "R",
+     "( 3-4 )",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "S",
+     "( 5-6 )",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "T",
+     "( 7-8 )",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "A",
+     "A",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:"
   },
@@ -162,7 +224,7 @@
    "text": "............................................................................................................"
   }
  ],
- "text": "Introduction\nThis procedure details the testing procedures and calibration I1, which \nrecommended to be carried out every year as indicated by Y1 in the title block\nThis procedure details the steps required to completely \ncheck the proper operation and calibration of the relay. The relay must be \ntested every year. This relay is a negative phase sequence time over \ncurrent relay used primarily to protect generators against the effect of phase \nfault or unbalance load.\nSince the relay is protecting the generator from damage \ncaused by fault on the system rather than from internal fault ,it is providing \nessential back up protection .the heating effected on the rotor of synchrouns \nmachine caused by unbalance currents can best be expressed as function of the \nnegative phase sequence current and of time.\nThe first draft initiated by Eng. Reda El Shenawey, tested \nby Eng. Khalied Diab & Eng. Ehab Abuo Elwafa , and accepted by \ngeneral manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby \nHead Sector of Mahmoudia Power Station.\nThis \n document is revised by eng. Adel El-Naggar: MDEPC quality control engineer, \n accepted by eng. Samir Abdel-Gil;il: MDEPC quality control general director, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety \nPrecautions\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category,\nIssue work permit \n including the team work name.\nThe generator must be \n out of service.\nPut C.B of unit at \n test position.\nDisconnect excitation \n system for A.C generator (switch off \"41 AC\" breaker).\nTools and \nEquipment\nSecondary injection test set.\nClamp meter, Test leads\nAVO meter\nComplete tool set.\nAir blower.\nContact \n cleaner (CRC).\nWork to be carried out\nPreparation\nLook at field maintenance file and \n compare the setting on relay with those shown on the test sheet.\nCheck DC. Circuit for Over Current Relay.\nConnect test leads between the current \n terminals ( 3 4 ) on the relay.\nConnect test leads between the trip \n terminals ( 1 2 ) on the relay to timer terminals on the test set.\nIncrease the current slowly until the \n relay energize and regist (P.U) value .\nDecrease the current slowly until the \n relay denergize and regist (REST) value.\nIncrease the current again to (P.U) \n value\nStop the test set .\nRestart the test set (current = P.U \n value ).\nThe relay will operate , the timer will \n account and stop when the trip contact close.\nRegist the time value.\nRecord \n these values in the test sheet.\nConnect test leads between the current \n terminals ( 5 6 ) on the relay.\nRepeat steps from ( 2 to 10 ) \n for phase ( S ) .\nConnect test leads between the current \n terminals ( 7 8 ) on the relay.\nRepeat steps from ( 2 to 10 ) \n for phase ( T ) .\nTest C.B tripping circuit \nof the unit.\nRemove relay 52GTX .\nClose C.B. for the unit \n at test position.\nTrip C.B. for the unit by \n Negative phase sequence Relay.\nReturn Relay and \nAssociated Equipment to Service\nDisconnect the test leads from the Relay.\nMake sure \n CT and PT secondary circuits are in normal condition.\nMake reset to Negative \n phase sequence relay.\nReconnect excitation \n system for A.C generator (switch on \"41 AC\" breaker)..\nReconnect relay 52GTX .\nmake sure the spring of \n the C.B on discharge position .\nPut C.B in service \n position .\nFigure 1 Internal \nWiring Diagram for INC77R Relay\nTest Sheet for\nNegative Phase Sequence \nRelay ( INC77B ) GE\n Unit No. :\nRelay Type : \n Relay Setting :\nRelay Model \n: C.T \nRatio :\nNotes:\n..........................................................................................\n............................................................................................................\n............................................................................................................",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \nrecommended to be carried out every year as indicated by Y1 in the title block\nThis procedure details the steps required to completely \ncheck the proper operation and calibration of the relay. The relay must be \ntested every year. This relay is a negative phase sequence time over \ncurrent relay used primarily to protect generators against the effect of phase \nfault or unbalance load.\nSince the relay is protecting the generator from damage \ncaused by fault on the system rather than from internal fault ,it is providing \nessential back up protection .the heating effected on the rotor of synchrouns \nmachine caused by unbalance currents can best be expressed as function of the \nnegative phase sequence current and of time.\nThe first draft initiated by Eng. Reda El Shenawey, tested \nby Eng. Khalied Diab & Eng. Ehab Abuo Elwafa , and accepted by \ngeneral manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby \nHead Sector of Mahmoudia Power Station.\nThis \n document is revised by eng. Adel El-Naggar: MDEPC quality control engineer, \n accepted by eng. Samir Abdel-Gil;il: MDEPC quality control general director, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety \nPrecautions\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category,\nIssue work permit \n including the team work name.\nThe generator must be \n out of service.\nPut C.B of unit at \n test position.\nDisconnect excitation \n system for A.C generator (switch off \"41 AC\" breaker).\nTools and \nEquipment\nSecondary injection test set.\nClamp meter, Test leads\nAVO meter\nComplete tool set.\nAir blower.\nContact \n cleaner (CRC).\nWork to be carried out\nPreparation\nLook at field maintenance file and \n compare the setting on relay with those shown on the test sheet.\nCheck DC. Circuit for Over Current Relay.\nConnect test leads between the current \n terminals ( 3 4 ) on the relay.\nConnect test leads between the trip \n terminals ( 1 2 ) on the relay to timer terminals on the test set.\nIncrease the current slowly until the \n relay energize and regist (P.U) value .\nDecrease the current slowly until the \n relay denergize and regist (REST) value.\nIncrease the current again to (P.U) \n value\nStop the test set .\nRestart the test set (current = P.U \n value ).\nThe relay will operate , the timer will \n account and stop when the trip contact close.\nRegist the time value.\nRecord \n these values in the test sheet.\nConnect test leads between the current \n terminals ( 5 6 ) on the relay.\nRepeat steps from ( 2 to 10 ) \n for phase ( S ) .\nConnect test leads between the current \n terminals ( 7 8 ) on the relay.\nRepeat steps from ( 2 to 10 ) \n for phase ( T ) .\nTest C.B tripping circuit \nof the unit.\nRemove relay 52GTX .\nClose C.B. for the unit \n at test position.\nTrip C.B. for the unit by \n Negative phase sequence Relay.\nReturn Relay and \nAssociated Equipment to Service\nDisconnect the test leads from the Relay.\nMake sure \n CT and PT secondary circuits are in normal condition.\nMake reset to Negative \n phase sequence relay.\nReconnect excitation \n system for A.C generator (switch on \"41 AC\" breaker)..\nReconnect relay 52GTX .\nmake sure the spring of \n the C.B on discharge position .\nPut C.B in service \n position .\nFigure 1 Internal \nWiring Diagram for INC77R Relay\nTest Sheet for\nNegative Phase Sequence \nRelay ( INC77B ) GE\n Unit No. :\nRelay Type : \n Relay Setting :\nRelay Model \n: C.T \nRatio :\nPhase | Injected \n Terminal | Injected \n Current | Time\nP.U | RESET\nR | ( 3-4 ) | A | A | \nA | A | \nS | ( 5-6 ) | A | A | \nA | A | \nT | ( 7-8 ) | A | A | \nA | A | \nNotes:\n..........................................................................................\n............................................................................................................\n............................................................................................................",
  "text_truncated": false,
  "links": [],
  "images": [

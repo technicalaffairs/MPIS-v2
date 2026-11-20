@@ -14,36 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Over Fluxing Relay (95)"
-  },
-  {
-   "type": "paragraph",
-   "text": "FTT 7111"
-  },
-  {
-   "type": "paragraph",
-   "text": "CEE France"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: \n APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date Approved: \n 21 Dec.2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: \n December 2013"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -176,9 +154,33 @@
   {
    "type": "paragraph",
    "text": "Relay Model : FTT 7111"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Injected Terminal",
+     "Injected voltage",
+     "Remarks"
+    ],
+    [
+     "P.U",
+     "R",
+     "TIME",
+     ""
+    ],
+    [
+     "(9 10)",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\n Over Fluxing Relay (95)\nFTT 7111\nCEE France\nStatus: \n APPROVED\nDate Approved: \n 21 Dec.2008\nDate to be Reviewed: \n December 2013\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block.\nThe FTT 7111 has been designed for the protection of power transformers \n against the risk of over fluxing.\nThis can cause saturation of the magnetic circuit leading to an increase of \n the losses. The associated heating should not be maintained for prolonged \n periods in order to avoid premature ageing of the insulation, which could lead \n to internal faults to break down.\nThe flux in the magnetic circuit is proportional to the voltage applied to the \n transformer, and inversely proportional to its frequency.\n The FTT 7111 relay is supplied from a voltage transformer providing these \n data.\nAn image of the flux value is created by means of an integrating circuit \n whose output voltage, proportional to the ratio v/f, is applied to an \n adjustable level detecting unit. .\nThe first draft is initiated by Eng. Mohammed Fahmey Mashaal, tested by Eng. \n Khalied Diab & Eng. Ehab Abuo Elwafa at 3 September 2008, and accepted by \n General Manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby \n Head Sector of Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc).\nIssue work permit including the \n team work name.\nSafety fence with \n caution marks surrounding the work area is required.\nThe unit (generator & \n transformer) must be out of service.\nTools \nand Equipment\nSecondary injection test set.\nTest leads\nAVO meter.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at Over Flux maintenance file and compare the setting on \n relay with those shown on the test sheet.\nSupply the relay with its nominal auxiliary supply: the green \n LED will light.\nTesting \nthe Relay\nRemove voltage terminals (9,10) from the relay.\nConnect the voltage terminals from the injection set to the \n relay points (9,10).\nIncrease the injected voltage slowly until pick up.\nRecord the P.U value in your test sheet.\nDecrease the injected voltage until the relay reset (Drop out \n Value).\nRecord the D.O value in your test sheet.\nIncrease the voltage again to (P.U) value.\nStop the test set\nRestart the test set (with voltage = P.U value).\nThe relay will operate, the timer will account and stop when \n the trip contact close.\nMake sure that lock out relays (86GT&86T) operate with over \n fluxing relay operate.\nRecord the time value in your test sheet.\nMake reset to the over fluxing relay and lock out relays (86GT \n & 86T).\nPut C.B of the unit at local position.\nClose C.B of the unit.\nReturn C.B of the unit to remote position.\nTrip C.B of the unit by Over Fluxing Relay by increasing the \n injection current to the pickup value\nStop the tester.\nReturn Relay and Associated Equipment to Service\nMake reset to over fluxing relay, \n alarm indication and lock out relays (86GT&86T).\nDisconnect the test \n leads from the relay.\nReconnect voltage \n terminals (9-10) to the relay.\nMake sure PT \n secondary circuits are in normal condition.\nFigure 1 - \nInternal connections for the type FTT 7111 Relay\nTest \nSheet\nUnit No. \n : V.T.R \n12000/120 V\nRelay Type \n : Static Relay \nRange:\nRelay Model : FTT 7111",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block.\nThe FTT 7111 has been designed for the protection of power transformers \n against the risk of over fluxing.\nThis can cause saturation of the magnetic circuit leading to an increase of \n the losses. The associated heating should not be maintained for prolonged \n periods in order to avoid premature ageing of the insulation, which could lead \n to internal faults to break down.\nThe flux in the magnetic circuit is proportional to the voltage applied to the \n transformer, and inversely proportional to its frequency.\n The FTT 7111 relay is supplied from a voltage transformer providing these \n data.\nAn image of the flux value is created by means of an integrating circuit \n whose output voltage, proportional to the ratio v/f, is applied to an \n adjustable level detecting unit. .\nThe first draft is initiated by Eng. Mohammed Fahmey Mashaal, tested by Eng. \n Khalied Diab & Eng. Ehab Abuo Elwafa at 3 September 2008, and accepted by \n General Manager Eng. Saad Kheder and approved by Eng. Abd Elmoatey Elrakaiby \n Head Sector of Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc).\nIssue work permit including the \n team work name.\nSafety fence with \n caution marks surrounding the work area is required.\nThe unit (generator & \n transformer) must be out of service.\nTools \nand Equipment\nSecondary injection test set.\nTest leads\nAVO meter.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at Over Flux maintenance file and compare the setting on \n relay with those shown on the test sheet.\nSupply the relay with its nominal auxiliary supply: the green \n LED will light.\nTesting \nthe Relay\nRemove voltage terminals (9,10) from the relay.\nConnect the voltage terminals from the injection set to the \n relay points (9,10).\nIncrease the injected voltage slowly until pick up.\nRecord the P.U value in your test sheet.\nDecrease the injected voltage until the relay reset (Drop out \n Value).\nRecord the D.O value in your test sheet.\nIncrease the voltage again to (P.U) value.\nStop the test set\nRestart the test set (with voltage = P.U value).\nThe relay will operate, the timer will account and stop when \n the trip contact close.\nMake sure that lock out relays (86GT&86T) operate with over \n fluxing relay operate.\nRecord the time value in your test sheet.\nMake reset to the over fluxing relay and lock out relays (86GT \n & 86T).\nPut C.B of the unit at local position.\nClose C.B of the unit.\nReturn C.B of the unit to remote position.\nTrip C.B of the unit by Over Fluxing Relay by increasing the \n injection current to the pickup value\nStop the tester.\nReturn Relay and Associated Equipment to Service\nMake reset to over fluxing relay, \n alarm indication and lock out relays (86GT&86T).\nDisconnect the test \n leads from the relay.\nReconnect voltage \n terminals (9-10) to the relay.\nMake sure PT \n secondary circuits are in normal condition.\nFigure 1 - \nInternal connections for the type FTT 7111 Relay\nTest \nSheet\nUnit No. \n : V.T.R \n12000/120 V\nRelay Type \n : Static Relay \nRange:\nRelay Model : FTT 7111\nInjected Terminal | Injected voltage | Remarks\nP.U | R | TIME | \n(9 10) |  |  |  | ",
  "text_truncated": false,
  "links": [],
  "images": [

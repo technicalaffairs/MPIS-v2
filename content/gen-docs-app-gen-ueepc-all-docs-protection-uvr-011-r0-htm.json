@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment"
-  },
-  {
-   "type": "paragraph",
-   "text": "Under \n Voltage Relay\n MVTT14+MVAG31\n GEC"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -165,11 +159,41 @@
    "text": "Test Results"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Tested Phase",
+     "A",
+     "B",
+     "C"
+    ],
+    [
+     "Pick up voltage \n (v)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Reset voltage (v)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Time (sec)",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: \nRelay Code: Test date: \nTested by: \nSignature: Last test date: \nApproved by: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\nUnder \n Voltage Relay\n MVTT14+MVAG31\n GEC\nIntroduction\nThe relays of the MVAG series are instantaneous \n over and under voltage relays designed for general protection and signaling \n applications.\nThe first draft is initiated & tested by eng. Hany \n Bassuony Abdel Razek, approved by eng. Mahmoud Badawy, and accepted by general \n manager eng. Gamal Abdel Wahab head sector of inspection & quality control.\nSafety Precaution\nA \n work permit must be issued and the qualified maintenance staff should carry \n the suitable safety category,\nA \n work permit must be issued and the qualified maintenance staff should carry \n the suitable safety category,\nSafety fence \n with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nUnite or \n line should be out of service\nSverker 650 test set\nVoltmeter\nTest leads\nPreliminary \nSteps to Prepare for Relay Testing\nThis procedure is used to perform off \n load relay test.\nThe test is divided into two tests\nThe AC test to determine pick up and \n reset voltage.\nThe DC test to determine the operating \n time.\nAC Test - \nPhase A\nConnect the circuit as shown in fig. 1.\nIsolate the wire connected to pin 23at the \n relay.\nSwitch on the Sverker and adjust the voltage \n to100V.\nTurn off the Sverker.\nConnect the wire to pin 23 at the relay.\nSwitch on the Sverker to apply the 100 v to \n the relay then check that the relay reset.\nSlowly decrease the voltage until the relay \n picks up and closes its contact.\nThis is the pick up voltage.\ndisconnect the trip signals from stop points \n at the severker.\nSlowly raise the voltage until the relay \n resets and open its contact.\nThis is the reset voltage.\nSwitch off the Sverker.\nRepeat the steps above for phase B and C\nNote for phase B voltage points 25 & 26 and stop 6 & 8 \n for phase C voltage points 27 & 28 and stop 10 & 12\nDC Test\nConnect the circuit as shown in fig. 2.\nIsolate the wire connected to pin 14 at the \n timer MVTT14.\nSwitch on the Sverker and adjust the DC \n voltage to 110 v.\nTurn off the Sverker.\nConnect the wire to pin 14 at the timer \n MVTT14.\nReset the timer of the Sverker.\nSwitch on the Sverker to apply the 110 v DC \n to the timer .\nCheck that the timer picks up and closes its \n contact after the shown time on the LCD of the Sverker.\nThis is pick up time compare it with the \n setting time.\nFigure 1: Pick up and reset voltage test\nFigure 2: Operating Time Test\nTest Sheet\nFeeder:\nEquipment \n: Under Voltage relay\nType : MVAG31 + MVTT14\nVT Ratio:\nRelay Setting\nVoltage = 15 \nV Time = sec\nTest Results\nLocation: \nRelay Code: Test date: \nTested by: \nSignature: Last test date: \nApproved by: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe relays of the MVAG series are instantaneous \n over and under voltage relays designed for general protection and signaling \n applications.\nThe first draft is initiated & tested by eng. Hany \n Bassuony Abdel Razek, approved by eng. Mahmoud Badawy, and accepted by general \n manager eng. Gamal Abdel Wahab head sector of inspection & quality control.\nSafety Precaution\nA \n work permit must be issued and the qualified maintenance staff should carry \n the suitable safety category,\nA \n work permit must be issued and the qualified maintenance staff should carry \n the suitable safety category,\nSafety fence \n with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nUnite or \n line should be out of service\nSverker 650 test set\nVoltmeter\nTest leads\nPreliminary \nSteps to Prepare for Relay Testing\nThis procedure is used to perform off \n load relay test.\nThe test is divided into two tests\nThe AC test to determine pick up and \n reset voltage.\nThe DC test to determine the operating \n time.\nAC Test - \nPhase A\nConnect the circuit as shown in fig. 1.\nIsolate the wire connected to pin 23at the \n relay.\nSwitch on the Sverker and adjust the voltage \n to100V.\nTurn off the Sverker.\nConnect the wire to pin 23 at the relay.\nSwitch on the Sverker to apply the 100 v to \n the relay then check that the relay reset.\nSlowly decrease the voltage until the relay \n picks up and closes its contact.\nThis is the pick up voltage.\ndisconnect the trip signals from stop points \n at the severker.\nSlowly raise the voltage until the relay \n resets and open its contact.\nThis is the reset voltage.\nSwitch off the Sverker.\nRepeat the steps above for phase B and C\nNote for phase B voltage points 25 & 26 and stop 6 & 8 \n for phase C voltage points 27 & 28 and stop 10 & 12\nDC Test\nConnect the circuit as shown in fig. 2.\nIsolate the wire connected to pin 14 at the \n timer MVTT14.\nSwitch on the Sverker and adjust the DC \n voltage to 110 v.\nTurn off the Sverker.\nConnect the wire to pin 14 at the timer \n MVTT14.\nReset the timer of the Sverker.\nSwitch on the Sverker to apply the 110 v DC \n to the timer .\nCheck that the timer picks up and closes its \n contact after the shown time on the LCD of the Sverker.\nThis is pick up time compare it with the \n setting time.\nFigure 1: Pick up and reset voltage test\nFigure 2: Operating Time Test\nTest Sheet\nFeeder:\nEquipment \n: Under Voltage relay\nType : MVAG31 + MVTT14\nVT Ratio:\nRelay Setting\nVoltage = 15 \nV Time = sec\nTest Results\nTested Phase | A | B | C\nPick up voltage \n (v) |  |  | \nReset voltage (v) |  |  | \nTime (sec) |  |  | \nLocation: \nRelay Code: Test date: \nTested by: \nSignature: Last test date: \nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

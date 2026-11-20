@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -122,6 +124,66 @@
    "text": "Test Sheet"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Plant Name",
+     ":",
+     ""
+    ],
+    [
+     "Feeder",
+     ":",
+     ""
+    ],
+    [
+     "Relay Manufacture",
+     ":",
+     ""
+    ],
+    [
+     "Relay Model",
+     ":",
+     ""
+    ],
+    [
+     "Location",
+     ":",
+     ""
+    ],
+    [
+     "Operator",
+     ":",
+     ""
+    ],
+    [
+     "Instrument",
+     ":",
+     ""
+    ],
+    [
+     "Manual Mode"
+    ],
+    [
+     "Results Table"
+    ],
+    [
+     "Nr.",
+     "Type",
+     "I1",
+     "phI1",
+     "I2",
+     "phI2",
+     "I3",
+     "phI3",
+     "Tdelay1",
+     "Freq"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................"
   },
@@ -134,7 +196,7 @@
    "text": "Figure 2: SEPAM 100-LD Connection"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nSepam 100LD is a differential \nprotection relay for 6.3kv Motor.\nThe first is \ninitiated by eng. Reda Ahmed Issa, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly \nMabrouk Zahran: general manager & eng. Samir Abdel-Gil;il: MDEPC quality control \ngeneral director, approved by eng. Ahmad Abd El-Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area\nWear the safety and healthy \n equipment as safety \n shoes, safety helmet, breathing mask, safety glasses\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nThe motor must be out of service.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with necessary software {ISAWIZARD and ENER VISTA}\nTools bag.\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (1A points see figure1) on the rear of the relay .\nFor 6.3kv Motor\nDifferential Protection Function\nConnect the personal computer to the ISA tester.\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nAfter ISA tester completely in service connect Currents leads between ISA tester and \n (XT5 points (01,02,03,04) see figure 2) SEPAM 100LD.\nRUN ISAWIZARD software >>>>>GENERATION & DISTRIBUTION RELAYS>>>> Xpro \n advanced>>>>MANUAL MODE\nNOW you can test the relay.\nNOTE: Do not forget to GENERATE PREFAULT CONDITION [I=0.001A, V=0V].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nChoose Shoot with current value equal to 1.05 of pick up current to get pickup \n time of the relay.\nNow print the results and you have complete test results for this function.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and V T secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these reading agree with station meters (MW, MVAR, Amperes and \n Power Factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\nLocation / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................\nFigure 1 : SEPAM 100-LD Rear View\nFigure 2: SEPAM 100-LD Connection",
+ "text": "Protection | Technical Procedure\nIntroduction\nSepam 100LD is a differential \nprotection relay for 6.3kv Motor.\nThe first is \ninitiated by eng. Reda Ahmed Issa, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly \nMabrouk Zahran: general manager & eng. Samir Abdel-Gil;il: MDEPC quality control \ngeneral director, approved by eng. Ahmad Abd El-Sawan: head sector of Nubaria \npower station, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area\nWear the safety and healthy \n equipment as safety \n shoes, safety helmet, breathing mask, safety glasses\nLine isolation is required.\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nThe motor must be out of service.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with necessary software {ISAWIZARD and ENER VISTA}\nTools bag.\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points (1A points see figure1) on the rear of the relay .\nFor 6.3kv Motor\nDifferential Protection Function\nConnect the personal computer to the ISA tester.\nBe sure that ISA tester is connected to EARTH.\nSwitch ON ISA tester.\nAfter ISA tester completely in service connect Currents leads between ISA tester and \n (XT5 points (01,02,03,04) see figure 2) SEPAM 100LD.\nRUN ISAWIZARD software >>>>>GENERATION & DISTRIBUTION RELAYS>>>> Xpro \n advanced>>>>MANUAL MODE\nNOW you can test the relay.\nNOTE: Do not forget to GENERATE PREFAULT CONDITION [I=0.001A, V=0V].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nChoose Shoot with current value equal to 1.05 of pick up current to get pickup \n time of the relay.\nNow print the results and you have complete test results for this function.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and V T secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service\nTake pharos readings of all AC currents and voltages and compare them to \n those for normal load condition.\nCheck that these reading agree with station meters (MW, MVAR, Amperes and \n Power Factor).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\n | Plant Name | : | \nFeeder | : | \nRelay Manufacture | : | \nRelay Model | : | \nLocation | : | \nOperator | : | \nInstrument | : | \nManual Mode\nResults Table\nNr. | Type | I1 | phI1 | I2 | phI2 | I3 | phI3 | Tdelay1 | Freq\nLocation / Feeder: ............................................................ Relay \nDesignation\n:..........................\nChecked by: ........................................................... \nDate: ...................... \nSignature:......................................\nFigure 1 : SEPAM 100-LD Rear View\nFigure 2: SEPAM 100-LD Connection",
  "text_truncated": false,
  "links": [],
  "images": [

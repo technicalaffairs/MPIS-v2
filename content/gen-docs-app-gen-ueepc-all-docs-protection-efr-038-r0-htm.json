@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -118,6 +120,24 @@
    "text": ":"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Relay \n Function",
+     "Earth Fault \n Protection"
+    ],
+    [
+     "Relay \n Type",
+     "MCGG22"
+    ],
+    [
+     "CT \n Ratio",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "heading",
    "level": 2,
    "text": "Relay Settings"
@@ -135,11 +155,25 @@
    "text": "Test Results"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Pick up current ( A )",
+     ""
+    ],
+    [
+     "Time ( sec )",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: Relay \nDesignation: \nTested by: \nSignature: Test Date:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThe MCGG is a microprocessor based over-current relay available in single, \n two, three or four pole versions manufactured by GEC Alsthom. Each pole is \n provided with a choice of four inverse time characteristics and three \n definite time characteristics as well as a trip test position.\nAn instantaneous element is also available on each phase. The MCGG 22 is the \n single-phase version.\nThe first draft is initiated, relay tested by eng. Hany Bassuony Abdel Razek, \n aprroved by eng. Mahmoud Badawy, and accepted by general manager eng. Gamal \n Abdel Wahab head sector of inspection & quality control.\nSafety Precautions\nA work permit must be \n issued\nThe \n qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution \n marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet .. etc\nTransformer \n must be out of service.\nEnsure all CT path elements are secure after any test disturbance\nTools and Equipment\nSverker 650 test set\nVoltmeter\nTest leads\nWork to be Carried Out\nPreliminary \nSteps to Prepare for Relay Testing\nThis procedure is used to perform off \n load relay test.\nThe test is to determine the pick up \n current and time.\nTake a copy \n of the relay setting.\nTest \nProcedures\nConnect the circuit as shown in fig. 1.\nSwitch off the DC supply feeding the \n relay.\nAdjust the time setting to zero.\nSwitch on the DC supply feeding the \n relay.\nSwitch on the Sverker.\nRaise the current from zero slowly until \n the relay picks up and the red led lights.\nThis is the pick up current.\nSwitch off the Sverker.\nSwitch off the DC supply feeding the \n relay.\nAdjust the time setting to its normal \n value.\nSwitch on the DC supply feeding the \n relay.\nShort circuiting the leads of the current\nSwitch on the Sverker.\nAdjust the current to little more than \n the pick up current.\nSwitch off the \n Sverker.\nRemove the short of the current leads.\nSwitch on the \n Sverker to apply the adjusted current \n suddenly.\nThe relay trips after a time this is the \n pick up time.\nCompare the pick up current and pick up \n time with the settings.\nTest Sheet\n:\nRelay Settings\nCurrent \n= A\nTime = sec\nTest Results\nLocation: Relay \nDesignation: \nTested by: \nSignature: Test Date:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe MCGG is a microprocessor based over-current relay available in single, \n two, three or four pole versions manufactured by GEC Alsthom. Each pole is \n provided with a choice of four inverse time characteristics and three \n definite time characteristics as well as a trip test position.\nAn instantaneous element is also available on each phase. The MCGG 22 is the \n single-phase version.\nThe first draft is initiated, relay tested by eng. Hany Bassuony Abdel Razek, \n aprroved by eng. Mahmoud Badawy, and accepted by general manager eng. Gamal \n Abdel Wahab head sector of inspection & quality control.\nSafety Precautions\nA work permit must be \n issued\nThe \n qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution \n marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet .. etc\nTransformer \n must be out of service.\nEnsure all CT path elements are secure after any test disturbance\nTools and Equipment\nSverker 650 test set\nVoltmeter\nTest leads\nWork to be Carried Out\nPreliminary \nSteps to Prepare for Relay Testing\nThis procedure is used to perform off \n load relay test.\nThe test is to determine the pick up \n current and time.\nTake a copy \n of the relay setting.\nTest \nProcedures\nConnect the circuit as shown in fig. 1.\nSwitch off the DC supply feeding the \n relay.\nAdjust the time setting to zero.\nSwitch on the DC supply feeding the \n relay.\nSwitch on the Sverker.\nRaise the current from zero slowly until \n the relay picks up and the red led lights.\nThis is the pick up current.\nSwitch off the Sverker.\nSwitch off the DC supply feeding the \n relay.\nAdjust the time setting to its normal \n value.\nSwitch on the DC supply feeding the \n relay.\nShort circuiting the leads of the current\nSwitch on the Sverker.\nAdjust the current to little more than \n the pick up current.\nSwitch off the \n Sverker.\nRemove the short of the current leads.\nSwitch on the \n Sverker to apply the adjusted current \n suddenly.\nThe relay trips after a time this is the \n pick up time.\nCompare the pick up current and pick up \n time with the settings.\nTest Sheet\n:\nRelay \n Function | Earth Fault \n Protection\nRelay \n Type | MCGG22\nCT \n Ratio | \nRelay Settings\nCurrent \n= A\nTime = sec\nTest Results\nPick up current ( A ) | \nTime ( sec ) | \nLocation: Relay \nDesignation: \nTested by: \nSignature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

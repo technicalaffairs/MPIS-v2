@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Over Current \n Protection \n ST\n ABB"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -302,55 +300,57 @@
    "text": "Test Results"
   },
   {
-   "type": "paragraph",
-   "text": "Phase"
-  },
-  {
-   "type": "paragraph",
-   "text": "I Setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "I Pick up"
-  },
-  {
-   "type": "paragraph",
-   "text": "I\n Reset"
-  },
-  {
-   "type": "paragraph",
-   "text": "Reset factor"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "Time Test"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remark"
-  },
-  {
-   "type": "paragraph",
-   "text": "R"
-  },
-  {
-   "type": "paragraph",
-   "text": "S"
-  },
-  {
-   "type": "paragraph",
-   "text": "T"
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "I Setting",
+     "I Pick up",
+     "I\n Reset",
+     "Reset factor",
+     "Time setting",
+     "Time Test",
+     "Remark"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Location: \nRelay \nDesignation: Tested by: \nSignature: \nTest Date: \nApproved by: \nSignature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:Over Current \n Protection \n ST\n ABB\nIntroduction\nThis document outlines the testing procedure \n the steps required to completely checking the proper operation and calibration \n of the over current relay type ST , which must be performed on an annually \n based as indicated by Y1 in the above title block .\nThe first draft initiated and tested by eng. Badry Atea,\n eng. Kamel Tawfeek, eng. Safwat \n Mahrous, accepted by general director eng. Mostafa Abdel \n Nazeer Qotb, approved by eng. Hessain Ahmed Mahdy Head Sector of \n Assiut steam power station, and certified by eng. Gamal Abdel Wahab: \n UEEPC inspection and quality control general director\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nLine isolation must be done.\nReview the relay test sheet to know the required settings\nMake sure that CT secondary circuits are \n shorted before isolating the current circuit for test current\n injection\nTools and Equipment\nABB test set type SVERKER 650\nClip-on ammeter type KEW SNAP 2002\nTest leads.\nCurrent test plug\nClamp ampere\nABB test set type SVERKER 650\nClip-on ammeter type KEW SNAP 2002\nTest leads.\nCurrent test plug\nClamp ampere\nWork to be Carried Out\nPrepare for Relay Testing\nReview technical reference material and Manufacture`s \n manual .\nObtain copy of relay setting from field maintenance file and compare it with \n the setting on the relay .\nLook at the MRB panel nameplate and check this \n MRB system designation nameplate agrees \n with the line that has been taken out of service for maintenance\nPerform one of the following measuring checks \n to verify that there is not current following through this relay and the \n testing will occur on the correct relay.\nUsing clip-on ammeter checks that there is not \n current following in the ST relay circuit\nOpens the ST relay cover.\nCheck all connections leads and wiring to the \n relay are in a good condition\nAttach all connections between the relay and \n the test set.\nSupply A.C power to the SVERKER 650 test set.\nTesting The Function Operation Of \nThe Over Current Relay Type (ST)\nConnect the connection leads between the test \n set and the over current relay on phase (R).\nConnect the D.C (b10) of the line under test.\nMeasure the A.C injection current using clip-on \n ammeter type KEW. SNAP 2002.\nIncrease the current until the relay operates.\nDecreases the current until the relay reset.\nMake reset to the relay on phase R.\nRepeat the above steps on phases S, T.\nCheck the time element of the relay .\nTripping test of the line circuit breaker \n performed by\nConnect the C.B of the line under test\nAdjust the current tripping value on the test \n set.\nTurn on the test set switch until the relay \n operates and the C.B disconnected\nMake reset to the three phases of the relay.\nReturn the Relay and Associated Equipment to Service\nReturn relay to service by removing the test \n leads from the relay terminal and the test set.\nMake sure that the relay terminals are in \n normal condition.\nMake sure that any equipment associated with \n the relay that isolated during tests restored to service.\nMake sure that there is no signals appeared on \n the signals panel\nPower Line to be Returned in Service\nTake crossed reading of all AC currents and \n voltages and compare them to those for normal load condition.\nPlace a copy of the test results in the field \n maintenance file.\nTOP VIEW - SVERKER TYPE 650\nTerminals \n Unloaded\nU1 0-10A \n85 -90V \nAC Settable with TI\nU2 0-40\nA \n25-\n27V \nAC Settable with TI\nU3 0-100\nA \n10.0-\n11.0v \nAC Settable with T1\nU4 0-250V.3 A 250-270V \nAC Settable with TI\nU5 0-350V,2A 350-370V \nDC Settable with TI\nU6\n20-220V \nDC Settable with R5\nF1 \nAutomatic fuse for the mains voltage\nF2 \nAutomatic fuse 2.5A\nF3 \nAutomatic fuse 0.5A\nEl \nGreen indicating for the mains voltage\nE2 \nYellow signal lamp in the trip circuit\nP1 \nElectric timer independent of mains frequency.\nMeasuring range 0- 999,999 sec. Accuracy 0,002%of readout +0,-2ms\nP2 \nInput for stop of the timer\nP3 \nAmmeter class 1~.5\nC1 \nCapacitor 10,uF/450V AC for reactive power relays\nSt \nHead switch\nS2 \nOn/off switch for terminals U6 and U7\nS3 \nSelector voltage range terminal U6\nS4 \nMake/ break switch for timer\nR5 \nV01tage adjustment terminalU6\nw1 Terminal\nfor connection of a resistor on the primary side of the output transformer\nw2 \nTerminal for an external ammeter .\nw3 \nTerminal for external start and stop of timer.\nThe\nvoltage is stabilized and variable in two steps with the switch S3.\nCharacteristics at input voltage 220v AC10%.\nRipple (peak to peak) max 4 %\nLoad\nregulation 3%\nU7 \n110v, 0.3A 110-125 AC\nOver Current Protection \nRelay\nTest Sheet\nTest Results\nPhase\nI Setting\nI Pick up\nI\n Reset\nReset factor\nTime setting\nTime Test\nRemark\nR\nS\nT\nLocation: \nRelay \nDesignation: Tested by: \nSignature: \nTest Date: \nApproved by: \nSignature: \nTest Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThis document outlines the testing procedure \n the steps required to completely checking the proper operation and calibration \n of the over current relay type ST , which must be performed on an annually \n based as indicated by Y1 in the above title block .\nThe first draft initiated and tested by eng. Badry Atea,\n eng. Kamel Tawfeek, eng. Safwat \n Mahrous, accepted by general director eng. Mostafa Abdel \n Nazeer Qotb, approved by eng. Hessain Ahmed Mahdy Head Sector of \n Assiut steam power station, and certified by eng. Gamal Abdel Wahab: \n UEEPC inspection and quality control general director\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nLine isolation must be done.\nReview the relay test sheet to know the required settings\nMake sure that CT secondary circuits are \n shorted before isolating the current circuit for test current\n injection\nTools and Equipment\nABB test set type SVERKER 650\nClip-on ammeter type KEW SNAP 2002\nTest leads.\nCurrent test plug\nClamp ampere\nABB test set type SVERKER 650\nClip-on ammeter type KEW SNAP 2002\nTest leads.\nCurrent test plug\nClamp ampere\nWork to be Carried Out\nPrepare for Relay Testing\nReview technical reference material and Manufacture`s \n manual .\nObtain copy of relay setting from field maintenance file and compare it with \n the setting on the relay .\nLook at the MRB panel nameplate and check this \n MRB system designation nameplate agrees \n with the line that has been taken out of service for maintenance\nPerform one of the following measuring checks \n to verify that there is not current following through this relay and the \n testing will occur on the correct relay.\nUsing clip-on ammeter checks that there is not \n current following in the ST relay circuit\nOpens the ST relay cover.\nCheck all connections leads and wiring to the \n relay are in a good condition\nAttach all connections between the relay and \n the test set.\nSupply A.C power to the SVERKER 650 test set.\nTesting The Function Operation Of \nThe Over Current Relay Type (ST)\nConnect the connection leads between the test \n set and the over current relay on phase (R).\nConnect the D.C (b10) of the line under test.\nMeasure the A.C injection current using clip-on \n ammeter type KEW. SNAP 2002.\nIncrease the current until the relay operates.\nDecreases the current until the relay reset.\nMake reset to the relay on phase R.\nRepeat the above steps on phases S, T.\nCheck the time element of the relay .\nTripping test of the line circuit breaker \n performed by\nConnect the C.B of the line under test\nAdjust the current tripping value on the test \n set.\nTurn on the test set switch until the relay \n operates and the C.B disconnected\nMake reset to the three phases of the relay.\nReturn the Relay and Associated Equipment to Service\nReturn relay to service by removing the test \n leads from the relay terminal and the test set.\nMake sure that the relay terminals are in \n normal condition.\nMake sure that any equipment associated with \n the relay that isolated during tests restored to service.\nMake sure that there is no signals appeared on \n the signals panel\nPower Line to be Returned in Service\nTake crossed reading of all AC currents and \n voltages and compare them to those for normal load condition.\nPlace a copy of the test results in the field \n maintenance file.\nTOP VIEW - SVERKER TYPE 650\nTerminals \n Unloaded\nU1 0-10A \n85 -90V \nAC Settable with TI\nU2 0-40\nA \n25-\n27V \nAC Settable with TI\nU3 0-100\nA \n10.0-\n11.0v \nAC Settable with T1\nU4 0-250V.3 A 250-270V \nAC Settable with TI\nU5 0-350V,2A 350-370V \nDC Settable with TI\nU6\n20-220V \nDC Settable with R5\nF1 \nAutomatic fuse for the mains voltage\nF2 \nAutomatic fuse 2.5A\nF3 \nAutomatic fuse 0.5A\nEl \nGreen indicating for the mains voltage\nE2 \nYellow signal lamp in the trip circuit\nP1 \nElectric timer independent of mains frequency.\nMeasuring range 0- 999,999 sec. Accuracy 0,002%of readout +0,-2ms\nP2 \nInput for stop of the timer\nP3 \nAmmeter class 1~.5\nC1 \nCapacitor 10,uF/450V AC for reactive power relays\nSt \nHead switch\nS2 \nOn/off switch for terminals U6 and U7\nS3 \nSelector voltage range terminal U6\nS4 \nMake/ break switch for timer\nR5 \nV01tage adjustment terminalU6\nw1 Terminal\nfor connection of a resistor on the primary side of the output transformer\nw2 \nTerminal for an external ammeter .\nw3 \nTerminal for external start and stop of timer.\nThe\nvoltage is stabilized and variable in two steps with the switch S3.\nCharacteristics at input voltage 220v AC10%.\nRipple (peak to peak) max 4 %\nLoad\nregulation 3%\nU7 \n110v, 0.3A 110-125 AC\nOver Current Protection \nRelay\nTest Sheet\nTest Results\nPhase | I Setting | I Pick up | I\n Reset | Reset factor | Time setting | Time Test | Remark\nR |  |  |  |  |  |  | \nS |  |  |  |  |  |  | \nT |  |  |  |  |  |  | \nLocation: \nRelay \nDesignation: Tested by: \nSignature: \nTest Date: \nApproved by: \nSignature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

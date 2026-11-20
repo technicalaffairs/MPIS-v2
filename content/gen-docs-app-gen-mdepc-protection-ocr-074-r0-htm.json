@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -195,6 +197,105 @@
    "text": "Test Sheet"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Plant Name",
+     ":",
+     ""
+    ],
+    [
+     "Feeder",
+     ":",
+     ""
+    ],
+    [
+     "Relay Manufacture",
+     ":",
+     ""
+    ],
+    [
+     "Relay Model",
+     ":",
+     ""
+    ],
+    [
+     "Location",
+     ":",
+     ""
+    ],
+    [
+     "Operator",
+     ":",
+     ""
+    ],
+    [
+     "Instrument",
+     ":",
+     ""
+    ],
+    [
+     "Over Current:"
+    ],
+    [
+     "Manual Mode"
+    ],
+    [
+     "Results Table"
+    ],
+    [
+     "Nr.",
+     "Type",
+     "I1",
+     "I2",
+     "I3",
+     "Function",
+     "Tdelay5",
+     "Freq"
+    ],
+    [
+     "Directional Earth Fault:"
+    ],
+    [
+     "Manual Mode"
+    ],
+    [
+     "Results Table"
+    ],
+    [
+     "Nr.",
+     "Type",
+     "I1",
+     "I2",
+     "I3",
+     "Function",
+     "Tdelay5",
+     "Freq"
+    ],
+    [
+     "Restricted Earth Fault:"
+    ],
+    [
+     "Manual Mode"
+    ],
+    [
+     "Results Table"
+    ],
+    [
+     "Nr.",
+     "Type",
+     "I1",
+     "I2",
+     "I3",
+     "Function",
+     "Tdelay5",
+     "Freq"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location / Feeder: Relay \nCode:"
   },
@@ -215,7 +316,7 @@
    "text": "Figure 3 : Back Up Protection Input & Output Circuits"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nP141 is designed around a common hardware and software platform in order to \n achieve a high degree of conformity between products. Using a wide variety \n of protection and automatic control function, the MICOM over current relays can provide protection for many applications including over head line.\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal injury or damage to \n equipment.\nThe first is initiated by eng. Abd El-Satar Mohamed Khalifa, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \n general manager & eng. Samir Abdel-Gilil MDEPC quality control general \n director, approved by eng. Ahmad Sawan: head sector of Nubaria PS, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area\nWear appropriate personal protective \n equipment as safety \n shoes, safety helmet, breathing mask, safety glasses\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nThe Tie Transformer must be out of service.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with necessary software {ISAWIZARD \n and ENERVISTA}\nTools bag.\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted \nat the incoming terminal blocks before isolate the relay current circuits for \ntest.\nBe sure that the DC power of the relay is correct by applying DC voltmeter across points (F1,F2) see figure (1) on the rear of the \nrelay.\nMake sure CT secondary circuits are shorted \nat the incoming terminal blocks before isolate the relay current circuits for \ntest.\nBe sure that the DC power of the relay is correct by applying DC voltmeter across points (F1,F2) see figure (1) on the rear of the \nrelay.\nReading the Setting from the \nRelay using the PC\nConnect the personal computer to the \nrelay\nRun the \nMICOM S1 program.\nRead the setting and safe it as URGENT FILE \nFOR P141 [name the feeder].\nConnect the personal computer to the \nrelay\nRun the \nMICOM S1 program.\nRead the setting and safe it as URGENT FILE \nFOR P141 [name the feeder].\nBack up for TIE Transformer \n500/220/12 KV\nDirectional Over Current\nMake sure that ISA tester is earthed. Switch on ISA tester.\nRUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>>X-PRO >>>>MANUAL MODE>>>>\nAfter ISA tester completely in service, connect currents leads between ISA \n tester and test plug (X64 points 22,24,26 and 28 see figure 2) for MICOM P141 \n and connect voltage leads to test plug (X64 points 2,4,6 and 8 see figure 2)\nGENERATE PREFAULT CONDITION [I=0.001A,V=57 v].\nDisable other functions.\nChoose Delta ramp with step ∆= -10ْ to \n get positive pickup angle of the relay with starting by 120ْ.\nRepeat step 5 with step ∆= 10ْ to get \n negative pickup angle of the relay with starting by 250ْ.\nChoose Delta ramp with step ∆I= 0.02 Amp, =0ْ \n and V=57 v to get pickup current of the relay.\nSelect fault and shoot current value equal to (1.05*I Setting) and =0ْ \n and V=57 v to determine the operating time.\nSTORE ALL TESTS.\nDirectional Earth Fault\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS>>>>X-PRO >>>>MANUAL MODE>>>>\nAfter ISA tester completely in service, connect currents leads between ISA \n tester and test plug (X64 points 22,24,26 and 28 see figure 2) for MICOM P141 \n and connect voltage leads to test plug (X64 points 2,4,6 and 8 see figure 2)\nGENERATE PREFAULT CONDITION [I=0.001A, V=57 v].\nDisable other functions.\nChoose Delta ramp with step ∆ = -10ْ , to get positive pickup angle of the \n relay with starting angle between current and volt =120ْ.\nRepeat step 6 with step ∆= 10ْ, to get negative pickup angle of the relay \n with starting angle between current and volt = 250ْ.\nChoose Delta ramp with step ∆I= 0.02 Amp, =0ْ , and V=50 v to get pickup \n current of the relay.\nSelect fault and shoot current value equal to (1.05*I Setting) and =0ْ and \n V=50 v to determine the operating time.\nSTORE ALL TESTS\nRestricted Earth Fault (REF)\nDisable earth fault and directional earth fault protection functions.\nConnect currents leads between ISA tester and test plug (X64 points 10 and 12 \n ... see figure no.2 ) for MICOM P141 and connect voltage leads.\nMake stabilizing resistor Rstab shorted to prevent strength on ISA \n burden.\nGENERATE PREFAULT CONDITION [I=0.001A].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nSelect fault and shoot current value equal to (I Settingx1.05) to determine \n the operating time.\nNow you have complete test results for this relay.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to those \n for normal load condition.\nCheck that these reading agree with station meters (MW, MVAR, Amperes and \n power factor).\nPlace a copy of the test result in the field maintenance file.\nLocation / \nFeeder: Relay \nCode: \nTested by: \n Test \nDate: Signature:\nTest Sheet\nLocation / Feeder: Relay \nCode:\nTested by: \n Test \nDate: Signature:\nFigure 1 : Protection Panel\nFigure 2 : Protection Measuring Circuits REF, DOC and EF\nFigure 3 : Back Up Protection Input & Output Circuits",
+ "text": "Protection | Technical Procedure\nIntroduction\nP141 is designed around a common hardware and software platform in order to \n achieve a high degree of conformity between products. Using a wide variety \n of protection and automatic control function, the MICOM over current relays can provide protection for many applications including over head line.\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal injury or damage to \n equipment.\nThe first is initiated by eng. Abd El-Satar Mohamed Khalifa, tested by eng. Sidhom Nassef, \nrevised by eng. Adel El-Naggar: MDEPC quality control engineer, accepted by eng. Aly Zahran: \n general manager & eng. Samir Abdel-Gilil MDEPC quality control general \n director, approved by eng. Ahmad Sawan: head sector of Nubaria PS, and certified by eng. Mohamed Naguib: quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area\nWear appropriate personal protective \n equipment as safety \n shoes, safety helmet, breathing mask, safety glasses\nMake sure that CT secondary circuits are shorted before isolating the current \n circuits for test distance protection.\nThe Tie Transformer must be out of service.\nTools and Equipment\nISA DRTS tester.\nTest leads.\nPC laptop with necessary software {ISAWIZARD \n and ENERVISTA}\nTools bag.\nWork to be Carried Out\nPreparation\nMake sure CT secondary circuits are shorted \nat the incoming terminal blocks before isolate the relay current circuits for \ntest.\nBe sure that the DC power of the relay is correct by applying DC voltmeter across points (F1,F2) see figure (1) on the rear of the \nrelay.\nMake sure CT secondary circuits are shorted \nat the incoming terminal blocks before isolate the relay current circuits for \ntest.\nBe sure that the DC power of the relay is correct by applying DC voltmeter across points (F1,F2) see figure (1) on the rear of the \nrelay.\nReading the Setting from the \nRelay using the PC\nConnect the personal computer to the \nrelay\nRun the \nMICOM S1 program.\nRead the setting and safe it as URGENT FILE \nFOR P141 [name the feeder].\nConnect the personal computer to the \nrelay\nRun the \nMICOM S1 program.\nRead the setting and safe it as URGENT FILE \nFOR P141 [name the feeder].\nBack up for TIE Transformer \n500/220/12 KV\nDirectional Over Current\nMake sure that ISA tester is earthed. Switch on ISA tester.\nRUN ISAWIZARD software and choose GENERATION AND DISTRIBUTION RELAYS>>>>X-PRO >>>>MANUAL MODE>>>>\nAfter ISA tester completely in service, connect currents leads between ISA \n tester and test plug (X64 points 22,24,26 and 28 see figure 2) for MICOM P141 \n and connect voltage leads to test plug (X64 points 2,4,6 and 8 see figure 2)\nGENERATE PREFAULT CONDITION [I=0.001A,V=57 v].\nDisable other functions.\nChoose Delta ramp with step ∆= -10ْ to \n get positive pickup angle of the relay with starting by 120ْ.\nRepeat step 5 with step ∆= 10ْ to get \n negative pickup angle of the relay with starting by 250ْ.\nChoose Delta ramp with step ∆I= 0.02 Amp, =0ْ \n and V=57 v to get pickup current of the relay.\nSelect fault and shoot current value equal to (1.05*I Setting) and =0ْ \n and V=57 v to determine the operating time.\nSTORE ALL TESTS.\nDirectional Earth Fault\nRUN ISAWIZARD software and choose GENERATION and DISTRIBUTION RELAYS>>>>X-PRO >>>>MANUAL MODE>>>>\nAfter ISA tester completely in service, connect currents leads between ISA \n tester and test plug (X64 points 22,24,26 and 28 see figure 2) for MICOM P141 \n and connect voltage leads to test plug (X64 points 2,4,6 and 8 see figure 2)\nGENERATE PREFAULT CONDITION [I=0.001A, V=57 v].\nDisable other functions.\nChoose Delta ramp with step ∆ = -10ْ , to get positive pickup angle of the \n relay with starting angle between current and volt =120ْ.\nRepeat step 6 with step ∆= 10ْ, to get negative pickup angle of the relay \n with starting angle between current and volt = 250ْ.\nChoose Delta ramp with step ∆I= 0.02 Amp, =0ْ , and V=50 v to get pickup \n current of the relay.\nSelect fault and shoot current value equal to (1.05*I Setting) and =0ْ and \n V=50 v to determine the operating time.\nSTORE ALL TESTS\nRestricted Earth Fault (REF)\nDisable earth fault and directional earth fault protection functions.\nConnect currents leads between ISA tester and test plug (X64 points 10 and 12 \n ... see figure no.2 ) for MICOM P141 and connect voltage leads.\nMake stabilizing resistor Rstab shorted to prevent strength on ISA \n burden.\nGENERATE PREFAULT CONDITION [I=0.001A].\nChoose Delta ramp with step ∆I 0.05 Amp to get pickup current of the relay.\nSelect fault and shoot current value equal to (I Settingx1.05) to determine \n the operating time.\nNow you have complete test results for this relay.\nReturn Relay and Associated \nEquipment to Service\nEnable any function which was disabled.\nReturn relay to service by removing the test leads from the relay terminals \n and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nRemove the disturbance alarm LED's on the relay which is caused by the test.\nRequest feeder to be returned in service.\nTake pharos readings of all AC currents and voltages and compare them to those \n for normal load condition.\nCheck that these reading agree with station meters (MW, MVAR, Amperes and \n power factor).\nPlace a copy of the test result in the field maintenance file.\nLocation / \nFeeder: Relay \nCode: \nTested by: \n Test \nDate: Signature:\nTest Sheet\n | Plant Name | : | \nFeeder | : | \nRelay Manufacture | : | \nRelay Model | : | \nLocation | : | \nOperator | : | \nInstrument | : | \nOver Current:\nManual Mode\nResults Table\nNr. | Type | I1 | I2 | I3 | Function | Tdelay5 | Freq\nDirectional Earth Fault:\nManual Mode\nResults Table\nNr. | Type | I1 | I2 | I3 | Function | Tdelay5 | Freq\nRestricted Earth Fault:\nManual Mode\nResults Table\nNr. | Type | I1 | I2 | I3 | Function | Tdelay5 | Freq\nLocation / Feeder: Relay \nCode:\nTested by: \n Test \nDate: Signature:\nFigure 1 : Protection Panel\nFigure 2 : Protection Measuring Circuits REF, DOC and EF\nFigure 3 : Back Up Protection Input & Output Circuits",
  "text_truncated": false,
  "links": [],
  "images": [

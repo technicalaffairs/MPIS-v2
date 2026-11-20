@@ -14,36 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Transformer \n Differential Protection (87T)"
-  },
-  {
-   "type": "paragraph",
-   "text": "DTT 7031"
-  },
-  {
-   "type": "paragraph",
-   "text": "CEE France"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: \n APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date Approved: \n 21 Dec.2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: \n December 2013"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -172,9 +150,64 @@
   {
    "type": "paragraph",
    "text": "Unit No. :\nRelay Type \n : Relay \nRange : \nRelay Model : \nTarget : C.T. Ratio \n:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Injected Terminal",
+     "Injected Current",
+     "Remarks"
+    ],
+    [
+     "P.U",
+     "RESET"
+    ],
+    [
+     "R",
+     "(37 40)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "(33 36)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "S",
+     "(38 40)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "(34 36)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "T",
+     "(39 40)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "(35 36)",
+     "A",
+     "A",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\n Transformer \n Differential Protection (87T)\nDTT 7031\nCEE France\nStatus: \n APPROVED\nDate Approved: \n 21 Dec.2008\nDate to be Reviewed: \n December 2013\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block.\nThe DTT 7031 is a biased three phase differential relay designed to protect \n high voltage transformer against internal faults.\nIt is very rabid operation limits the damage due to short-circuit between \n phases, between turns on the same phase, or between windings and earth/ground \n if the earth/ground fault currents can attain relatively high values.\nThe first draft is initiated by Eng. Ahmed EL Sihy, tested by Eng. Khalied \n Diab & Eng. Ehab Abuo El-wafa at 18 May 2008, and accepted by General Manager \n Eng. Saad Kheder and approved by Eng. Abd El-moatey El-rakaiby Head Sector of \n Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc).\nIssue work permit including the \n team work name.\nSafety fence with \n caution marks surrounding the work area is required.\nThe generator must be out of service.\nDisconnect the 220k.v. C.B and \n the transformer isolators (main and reserve).\nTools \nand Equipment\nSecondary injection test set.\nClamp meter, Test leads.\nAVO meter.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for for high speed differential Relay.\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for for high speed differential Relay.\nTesting \nthe Relay\nConnect test leads between the current terminals (37,40). Figure \n1\nConnect test leads between the current terminals (37,40). Figure \n1\nIncrease the current slowly until the relay trip and record \n the (P.U) value in the test sheet.\nDecrease the current slowly until the relay energize and \n record the (REST) value in the test sheet.\nMake sure that lock out relay operates with diff. relay trip.\nRecord this value in the test sheet.\nConnect the test leads between the current terminals (33,36).\nRepeat steps (2,3,4,5) for terminals (33,36).\nRepeat all above steps for phases (S, T).\nPut 220 K. V C. B. for the \n transformer at local position. .\nClose C. B. for the unit at test \n position.\nTurn the switch to remote again.\nTrip C. B. for the unit by \n Differential Relay.\nReturn Relay and Associated \nEquipment to Service\nDisconnect the test \n leads from the Relay.\nMake sure CT and PT \n secondary circuits are in normal condition.\nMake reset to lock out relay and \n reset the flag of the differential relay.\nInternal connections for the type DTT7031 Relay\nFigure 1- Wiring diagram \nto the relay connection.\nTest Sheet\nUnit No. :\nRelay Type \n : Relay \nRange : \nRelay Model : \nTarget : C.T. Ratio \n:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis procedure details the testing procedures and calibration I1, which \n recommended to be carried out every year as indicated by Y1 in the title \n block.\nThe DTT 7031 is a biased three phase differential relay designed to protect \n high voltage transformer against internal faults.\nIt is very rabid operation limits the damage due to short-circuit between \n phases, between turns on the same phase, or between windings and earth/ground \n if the earth/ground fault currents can attain relatively high values.\nThe first draft is initiated by Eng. Ahmed EL Sihy, tested by Eng. Khalied \n Diab & Eng. Ehab Abuo El-wafa at 18 May 2008, and accepted by General Manager \n Eng. Saad Kheder and approved by Eng. Abd El-moatey El-rakaiby Head Sector of \n Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category, \n (safety helmet, safety shoes, ... etc).\nIssue work permit including the \n team work name.\nSafety fence with \n caution marks surrounding the work area is required.\nThe generator must be out of service.\nDisconnect the 220k.v. C.B and \n the transformer isolators (main and reserve).\nTools \nand Equipment\nSecondary injection test set.\nClamp meter, Test leads.\nAVO meter.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for for high speed differential Relay.\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for for high speed differential Relay.\nTesting \nthe Relay\nConnect test leads between the current terminals (37,40). Figure \n1\nConnect test leads between the current terminals (37,40). Figure \n1\nIncrease the current slowly until the relay trip and record \n the (P.U) value in the test sheet.\nDecrease the current slowly until the relay energize and \n record the (REST) value in the test sheet.\nMake sure that lock out relay operates with diff. relay trip.\nRecord this value in the test sheet.\nConnect the test leads between the current terminals (33,36).\nRepeat steps (2,3,4,5) for terminals (33,36).\nRepeat all above steps for phases (S, T).\nPut 220 K. V C. B. for the \n transformer at local position. .\nClose C. B. for the unit at test \n position.\nTurn the switch to remote again.\nTrip C. B. for the unit by \n Differential Relay.\nReturn Relay and Associated \nEquipment to Service\nDisconnect the test \n leads from the Relay.\nMake sure CT and PT \n secondary circuits are in normal condition.\nMake reset to lock out relay and \n reset the flag of the differential relay.\nInternal connections for the type DTT7031 Relay\nFigure 1- Wiring diagram \nto the relay connection.\nTest Sheet\nUnit No. :\nRelay Type \n : Relay \nRange : \nRelay Model : \nTarget : C.T. Ratio \n:\nPhase | Injected Terminal | Injected Current | Remarks\nP.U | RESET\nR | (37 40) | A | A | \n(33 36) | A | A | \nS | (38 40) | A | A | \n(34 36) | A | A | \nT | (39 40) | A | A | \n(35 36) | A | A | ",
  "text_truncated": false,
  "links": [],
  "images": [

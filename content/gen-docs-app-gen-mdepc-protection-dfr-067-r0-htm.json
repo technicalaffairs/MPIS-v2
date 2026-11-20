@@ -14,32 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Differential relay"
-  },
-  {
-   "type": "paragraph",
-   "text": "T 160\n General electric (GE)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: \n APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date Approved: \n 19 May 2009"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: \n May 2014"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -302,19 +284,19 @@
    "rows": [
     [
      "1L1",
-     "",
+     "10.00ma",
      "0.00",
      "50.000HZ"
     ],
     [
      "1L2",
-     "",
+     "10.00ma",
      "-120.00",
      "50.000HZ"
     ],
     [
      "1L3",
-     "",
+     "10.00ma",
      "120.00",
      "50.000HZ"
     ]
@@ -351,20 +333,17 @@
    "text": "Binary Inputs:"
   },
   {
-   "type": "paragraph",
-   "text": "1->0"
-  },
-  {
-   "type": "paragraph",
-   "text": "1->0"
-  },
-  {
    "type": "table",
    "rows": [
     [
      "Trip",
      "Start",
      "Overload"
+    ],
+    [
+     "0->1",
+     "1->0\n n/a",
+     "1->0\n n/a"
     ]
    ],
    "truncated_rows": 0
@@ -378,7 +357,7 @@
    "text": "Location: \n System Code: \n Last Test Date:\nChecked by: Signature: \n Tested Date: \nApproved by: Signature:"
   }
  ],
- "text": "Power \n Stations\nTechnical Procedure\nEquipment\n Differential relay\nT 160\n General electric (GE)\nStatus: \n APPROVED\nDate Approved: \n 19 May 2009\nDate to be Reviewed: \n May 2014\nIntroduction\nThe T60 differential protection devices are designed for the fast and \n selective short circuit protection of transformers , motors and generators \n and of other two , three or four phase winding arrangement.\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal injury or damage to \n equipment.\nThe first draft initiated by Eng. Ibrahim Elaraby, tested by Eng Ahmed Hasan \n by MDEPCo. Quality control Eng. Adel Elnaggar, accepted by Eng Ali Zahran, \n general manager, approved by Eng Ahmed Sawwan head sector of Nubaria Power \n Station, and certified by Eng Mohammed Nageb Inspection and quality head \n sector.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category\nSafety fence (rope) with caution \n marks surrounding the work area\nTransformer isolation is required\nMake sure that CT secondary \n circuits are shorted before isolating the current circuits for test \n deferential protection\nTools \nand Equipment\nOmicron CMC 356 tester.\nTest leads.\nPC laptop with necessary software {\n Omicron CMC 356 and\n ENER VISTA}.\nTools bag.\nWork to be \ncarried out\nSteps to prepare for relay testing\nPreparation\nMake sure CT secondary circuits are shorted at the incoming \n terminal blocks before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying \n a D.C voltmeter across points (B5a, B6asee page 4) on the rear of the relay.\nReading the setting from the \nrelay by using the PC\nConnecting the Personal Computer to the relay.\nRun the enervista program.\nRead the setting and safe it as URGENT FILE FOR T60 [name the feeder].\nFOR MAIN TRANSFORMER OF \nCTG\nDifferential protection test\nConnecting the Personal Computer to the Omicron CMC 356 \n tester.\nBe sure that Omicron CMC 356 \n tester is connected to EARTH.\nSwitch ON Omicron CMC 356 \n tester.\nAfter Omicron CMC 356 \n tester completely in service Connect Currents leads between \n Omicron CMC 356 \n tester and test bluge for T60.\nRUN Omicron CMC 356 \n software>>>>>Test Universe Start Page>>>> Quick CMC>>>>Hardware \n Configuration >>>>>General >>>>> Details and select not used voltage and \n 3*32A,430VA@25A,25V rms and press OK .\nPress Test View .\nNOW you can test the relay.\nInsert the test plug in the terminal block BP14 or BP16(see \n page 4).\nNote : SET (Analog Output Table ) [I=0.1A, f =50 HZ ].\nChoose Step/ ramp Auto Step with step ∆I 0.001 \n Amp and press F5 to get pickup current of the relay.\nPress F10 to save the results to the report\nSET (Analog Output Table) current value equal \n to 1.05 of pick up current and press F5 to get Pickup time of the Relay\nPress F10 to save the results to the report\n2nd and 5th harmonic restraining test\nNow print the results and you have complete \n test results for these relay.\nEARTH FAULT (E/F)\nRUN Omicron CMC \n 356 \n software>>>>>Test Universe Start Page>>>> Quick CMC>>>>Hardware \n Configuration >>>>>General >>>>> Details and select not used voltage and \n 3*32A,430VA@25A,25V rms and press OK\nInsert \n the test plug in the terminal block BP15 \n (see page 4).\nSET (Analog Output Table) current value equal to \n [I=0.001A].\nDisable Differential \n function.\nChoose Step/ ramp Auto Step with step ∆I 0.001 Amp and press \n F5 to get pickup current of the relay.\nPress F10 to save \n the results to the report.\nSET (Analog Output \n Table) current value equal to 1.05 of pick up current and press F5 to get \n Pickup time of the Relay.\nPress F10 to save \n the results to the report.\nNote that: - the \n injection should be on phase R only.\nSTORE ALL \n TESTS\nRESTRICTED EARTH FAULT (REF)\nDisable earth fault \n and differential protection functions\nInsert the test \n plug in the terminal block BP15 (see page 4)\nChoose Step/ ramp \n Auto Step with step ∆I 0.001 Amp and press F5 to get pickup current of the \n relay.\nPress F10 to save \n the results to the report.\nSET (Analog Output \n Table) current value equal to 1.05 of pick up current and press F5 to get \n Pickup time of the Relay.\nPress F10 to save \n the results to the report.\nStore all tests\nNow you have complete test results \nfor these relay\nReturn relay and associated \nequipment to service:-\nEnable any function which was \n disabled.\nReturn relay to service by removing \n the test leads from the relay terminals and the test set.\nMake sure CT and V T secondary \n circuits are in normal condition.\nRemove the disturbance alarm LED`s \n on the relay which is caused by the test.\nRequest feeder to be returned in \n service.\nTake phasors readings of all A C \n currents and voltages and compare them to those for normal load condition.\nCheck that these reading agree with \n station meters (MW, Mvar, Amperes and power factor).\nPlace a copy of the test result in \n the field maintenance file.\nQuick CMC 1 TEST SHEET\nTest Object - Device Settings\nSubstation \nBay:\nSubstation: \nNobaria Power Station \nSubstation address:\nBay: \nCTG \nBay address:\nDevice:\nName/Description \nUR FAMILY \nManufacturer: \nGE\nDevice \ntype: \nT 60 \nDevice address: \nMT\nSerial/model number:\nAdditional info 1:\nAdditional info 2:\nTest Module\nName: \nOMICRON CMC \nVersion: \n2.22\nTest Start: \nTest End:\nUser Name: \nManager:\nCompany:\nTest Results\n-------------------------------------------------------------------------------------------------------------------------------\nTitle Test 1\nFault Calculator:\n\nGenerator Settings:\n\nBinary Inputs:\n1->0\n1->0\n\nComments:\nLocation: \n System Code: \n Last Test Date:\nChecked by: Signature: \n Tested Date: \nApproved by: Signature:",
+ "text": "Power \n Stations | Technical Procedure\nIntroduction\nThe T60 differential protection devices are designed for the fast and \n selective short circuit protection of transformers , motors and generators \n and of other two , three or four phase winding arrangement.\nThis procedure details the steps required to completely check the proper \n operation and calibration of the relay. It is recommended this procedure be \n carried out on an annually bases. The document is formatted the way to \n minimize the possibility of error causing personal injury or damage to \n equipment.\nThe first draft initiated by Eng. Ibrahim Elaraby, tested by Eng Ahmed Hasan \n by MDEPCo. Quality control Eng. Adel Elnaggar, accepted by Eng Ali Zahran, \n general manager, approved by Eng Ahmed Sawwan head sector of Nubaria Power \n Station, and certified by Eng Mohammed Nageb Inspection and quality head \n sector.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category\nSafety fence (rope) with caution \n marks surrounding the work area\nTransformer isolation is required\nMake sure that CT secondary \n circuits are shorted before isolating the current circuits for test \n deferential protection\nTools \nand Equipment\nOmicron CMC 356 tester.\nTest leads.\nPC laptop with necessary software {\n Omicron CMC 356 and\n ENER VISTA}.\nTools bag.\nWork to be \ncarried out\nSteps to prepare for relay testing\nPreparation\nMake sure CT secondary circuits are shorted at the incoming \n terminal blocks before isolate the relay current circuits for test.\nBe sure that the DC power of the relay is correct by applying \n a D.C voltmeter across points (B5a, B6asee page 4) on the rear of the relay.\nReading the setting from the \nrelay by using the PC\nConnecting the Personal Computer to the relay.\nRun the enervista program.\nRead the setting and safe it as URGENT FILE FOR T60 [name the feeder].\nFOR MAIN TRANSFORMER OF \nCTG\nDifferential protection test\nConnecting the Personal Computer to the Omicron CMC 356 \n tester.\nBe sure that Omicron CMC 356 \n tester is connected to EARTH.\nSwitch ON Omicron CMC 356 \n tester.\nAfter Omicron CMC 356 \n tester completely in service Connect Currents leads between \n Omicron CMC 356 \n tester and test bluge for T60.\nRUN Omicron CMC 356 \n software>>>>>Test Universe Start Page>>>> Quick CMC>>>>Hardware \n Configuration >>>>>General >>>>> Details and select not used voltage and \n 3*32A,430VA@25A,25V rms and press OK .\nPress Test View .\nNOW you can test the relay.\nInsert the test plug in the terminal block BP14 or BP16(see \n page 4).\nNote : SET (Analog Output Table ) [I=0.1A, f =50 HZ ].\nChoose Step/ ramp Auto Step with step ∆I 0.001 \n Amp and press F5 to get pickup current of the relay.\nPress F10 to save the results to the report\nSET (Analog Output Table) current value equal \n to 1.05 of pick up current and press F5 to get Pickup time of the Relay\nPress F10 to save the results to the report\n2nd and 5th harmonic restraining test\nNow print the results and you have complete \n test results for these relay.\nEARTH FAULT (E/F)\nRUN Omicron CMC \n 356 \n software>>>>>Test Universe Start Page>>>> Quick CMC>>>>Hardware \n Configuration >>>>>General >>>>> Details and select not used voltage and \n 3*32A,430VA@25A,25V rms and press OK\nInsert \n the test plug in the terminal block BP15 \n (see page 4).\nSET (Analog Output Table) current value equal to \n [I=0.001A].\nDisable Differential \n function.\nChoose Step/ ramp Auto Step with step ∆I 0.001 Amp and press \n F5 to get pickup current of the relay.\nPress F10 to save \n the results to the report.\nSET (Analog Output \n Table) current value equal to 1.05 of pick up current and press F5 to get \n Pickup time of the Relay.\nPress F10 to save \n the results to the report.\nNote that: - the \n injection should be on phase R only.\nSTORE ALL \n TESTS\nRESTRICTED EARTH FAULT (REF)\nDisable earth fault \n and differential protection functions\nInsert the test \n plug in the terminal block BP15 (see page 4)\nChoose Step/ ramp \n Auto Step with step ∆I 0.001 Amp and press F5 to get pickup current of the \n relay.\nPress F10 to save \n the results to the report.\nSET (Analog Output \n Table) current value equal to 1.05 of pick up current and press F5 to get \n Pickup time of the Relay.\nPress F10 to save \n the results to the report.\nStore all tests\nNow you have complete test results \nfor these relay\nReturn relay and associated \nequipment to service:-\nEnable any function which was \n disabled.\nReturn relay to service by removing \n the test leads from the relay terminals and the test set.\nMake sure CT and V T secondary \n circuits are in normal condition.\nRemove the disturbance alarm LED`s \n on the relay which is caused by the test.\nRequest feeder to be returned in \n service.\nTake phasors readings of all A C \n currents and voltages and compare them to those for normal load condition.\nCheck that these reading agree with \n station meters (MW, Mvar, Amperes and power factor).\nPlace a copy of the test result in \n the field maintenance file.\nQuick CMC 1 TEST SHEET\nTest Object - Device Settings\nSubstation \nBay:\nSubstation: \nNobaria Power Station \nSubstation address:\nBay: \nCTG \nBay address:\nDevice:\nName/Description \nUR FAMILY \nManufacturer: \nGE\nDevice \ntype: \nT 60 \nDevice address: \nMT\nSerial/model number:\nAdditional info 1:\nAdditional info 2:\nTest Module\nName: \nOMICRON CMC \nVersion: \n2.22\nTest Start: \nTest End:\nUser Name: \nManager:\nCompany:\nTest Results\n-------------------------------------------------------------------------------------------------------------------------------\nTitle Test 1\nFault Calculator:\n1L1 | 10.00ma | 0.00 | 50.000HZ\n1L2 | 10.00ma | -120.00 | 50.000HZ\n1L3 | 10.00ma | 120.00 | 50.000HZ\nGenerator Settings:\n1L1 | 0.010A | 0.00\n1L2 | 0.010A | -120.00\n1L3 | 0,010A | 120.00\nBinary Inputs:\nTrip | Start | Overload\n0->1 | 1->0\n n/a | 1->0\n n/a\nComments:\nLocation: \n System Code: \n Last Test Date:\nChecked by: Signature: \n Tested Date: \nApproved by: Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

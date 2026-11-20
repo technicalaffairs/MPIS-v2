@@ -14,36 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Machine \n Differential Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "DTT 7033"
-  },
-  {
-   "type": "paragraph",
-   "text": "CEE France"
-  },
-  {
-   "type": "paragraph",
-   "text": "Status: \n APPROVED"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date Approved: \n 15 \n Dec.2008"
-  },
-  {
-   "type": "paragraph",
-   "text": "Date to be Reviewed: December 2013"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -171,11 +149,66 @@
    "text": "Unit No. :\nRelay Type \n : Relay \nRang : \nRelay Model : \nTarget : \nC.T. Ratio : T \n. D :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Injected Terminal",
+     "Injected Current",
+     "Remarks"
+    ],
+    [
+     "P.U",
+     "RESET"
+    ],
+    [
+     "R",
+     "(3 6)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "(10 7)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "S",
+     "(4 6)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "(9 7)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "T",
+     "(5 6)",
+     "A",
+     "A",
+     ""
+    ],
+    [
+     "(8 7)",
+     "A",
+     "A",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Tested by: \nSignature: \nDate:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nEquipment\n Machine \n Differential Protection\nDTT 7033\nCEE France\nStatus: \n APPROVED\nDate Approved: \n 15 \n Dec.2008\nDate to be Reviewed: December 2013\nIntroduction\nThis procedure details the testing procedures and \n calibration I1, which recommended to be carried out every year as indicated by \n Y1 in the title block.\nThe DTM 7033, three-phase percentage biased differential \n relay. Provides a particularly satisfactory solution for the protection of \n rotating machines against internal faults and used for differential protection \n of alternating current machines against phase to phase and phase to ground \n faults. For an internal fault the relay will close its contacts.\nIf on external fault therefore the relay will not operate.\nThe first draft is initiated by Eng. Sherif Ahmed El Beyaliy, \n tested by Eng. Khalied Diab & Eng. Ehab Abuo El-wafa at 12 June 2008, and \n accepted by General Manager Eng. Saad Kheder and approved by Eng. Abd El-moatey \n El-rakaiby Head Sector of Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category,\nSafety fence with \n caution marks surrounding the work area is required.\nSafety and healthy \n equipment must be used (safety helmet, safety shoes, ... etc).\nIssue work permit including the \n team work name.\nThe generator must be out of service.\nDisconnect the 220k.v. C.B and \n the transformer isolators (main and reserve).\nTools \nand Equipment\nSecondary injection test set.\nClamp meter, Test leads.\nAVO meter.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for for high speed differential Relay.\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for for high speed differential Relay.\nTesting the Relay\nConnect test leads between the current terminals (3,6). Figure \n 1\nIncrease the current slowly until the relay energize and \n reach (P.U) value.\nDecrease the current slowly until the relay not energize and \n reach (REST) value.\nMake sure that lock out relay (86 G) operates with \n Differential Relay energize.\nRecord these values in the test sheet.\nConnect the test leads between the current terminals (10,7).\nRepeat steps (2,3,4,5) for terminals (10,7).\nRepeat all above steps for phases (S& T).\nPut 220 K.V C.B for the transformer \n at local position.\nClose C.B. for the unit at test \n position.\nTurn the switch to remote again.\nTrip C.B. for the unit by \n Differential Relay.\nReturn Relay and Associated \nEquipment to Service\nDisconnect the test \n leads from the Relay.\nMake sure CT and PT \n secondary circuits are in normal condition.\nMake reset to lock out relay and \n reset the flag of the differential relay.\nInternal connections for the type DTT7033 Relay\nFigure 1 - Wiring diagram to the relay connection.\nTest Sheet\nUnit No. :\nRelay Type \n : Relay \nRang : \nRelay Model : \nTarget : \nC.T. Ratio : T \n. D :\nTested by: \nSignature: \nDate:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis procedure details the testing procedures and \n calibration I1, which recommended to be carried out every year as indicated by \n Y1 in the title block.\nThe DTM 7033, three-phase percentage biased differential \n relay. Provides a particularly satisfactory solution for the protection of \n rotating machines against internal faults and used for differential protection \n of alternating current machines against phase to phase and phase to ground \n faults. For an internal fault the relay will close its contacts.\nIf on external fault therefore the relay will not operate.\nThe first draft is initiated by Eng. Sherif Ahmed El Beyaliy, \n tested by Eng. Khalied Diab & Eng. Ehab Abuo El-wafa at 12 June 2008, and \n accepted by General Manager Eng. Saad Kheder and approved by Eng. Abd El-moatey \n El-rakaiby Head Sector of Mahmoudia Power Station.\nSafety \nPrecautions\nA work permit must be issued and \n the qualified maintenance staff should carry the suitable safety category,\nSafety fence with \n caution marks surrounding the work area is required.\nSafety and healthy \n equipment must be used (safety helmet, safety shoes, ... etc).\nIssue work permit including the \n team work name.\nThe generator must be out of service.\nDisconnect the 220k.v. C.B and \n the transformer isolators (main and reserve).\nTools \nand Equipment\nSecondary injection test set.\nClamp meter, Test leads.\nAVO meter.\nComplete tool set.\nAir blower.\nContact cleaner (CRC).\nWork to be \ncarried out\nPreparation\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for for high speed differential Relay.\nLook at field \nmaintenance file and compare the setting on relay with those shown on the test \nsheet.\nCheck \nDC. Circuit for for high speed differential Relay.\nTesting the Relay\nConnect test leads between the current terminals (3,6). Figure \n 1\nIncrease the current slowly until the relay energize and \n reach (P.U) value.\nDecrease the current slowly until the relay not energize and \n reach (REST) value.\nMake sure that lock out relay (86 G) operates with \n Differential Relay energize.\nRecord these values in the test sheet.\nConnect the test leads between the current terminals (10,7).\nRepeat steps (2,3,4,5) for terminals (10,7).\nRepeat all above steps for phases (S& T).\nPut 220 K.V C.B for the transformer \n at local position.\nClose C.B. for the unit at test \n position.\nTurn the switch to remote again.\nTrip C.B. for the unit by \n Differential Relay.\nReturn Relay and Associated \nEquipment to Service\nDisconnect the test \n leads from the Relay.\nMake sure CT and PT \n secondary circuits are in normal condition.\nMake reset to lock out relay and \n reset the flag of the differential relay.\nInternal connections for the type DTT7033 Relay\nFigure 1 - Wiring diagram to the relay connection.\nTest Sheet\nUnit No. :\nRelay Type \n : Relay \nRang : \nRelay Model : \nTarget : \nC.T. Ratio : T \n. D :\nPhase | Injected Terminal | Injected Current | Remarks\nP.U | RESET\nR | (3 6) | A | A | \n(10 7) | A | A | \nS | (4 6) | A | A | \n(9 7) | A | A | \nT | (5 6) | A | A | \n(8 7) | A | A | \nTested by: \nSignature: \nDate:",
  "text_truncated": false,
  "links": [],
  "images": [
