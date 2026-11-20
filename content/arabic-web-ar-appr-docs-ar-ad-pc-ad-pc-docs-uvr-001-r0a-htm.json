@@ -1,0 +1,307 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-uvr-001-r0a-htm",
+ "doc_number": "UVR-001-R0A",
+ "title_en": "",
+ "title_ar": "UVR-001-r0a \nمعتمد",
+ "category": "arabic_web",
+ "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/UVR-001-r0a.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "الشركة القابضة لكهرباء مصر"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "نظام معلومات إجراءات الصيانة"
+  },
+  {
+   "type": "paragraph",
+   "text": "الإجراء:\n باستخدام الحقن بالدوائر الثانوية"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "أجهزة الوقاية",
+     "إجـراءات الصيانـة"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمـة"
+  },
+  {
+   "type": "paragraph",
+   "text": "هذا \nالمستند يبين خطوات الاختبار لجهاز الوقاية الأرضية \nالمذكور أعلاه\n ، \nاعد المسودة الأولية المهندس/محمود \nاحمد محمود بمحطة كهرباء أسيوط الجديدة بشركة الوجه القبلى \nلإنتاج الكهرباء \n، تم إجراء الاختبار الميداني \nبمعرفة كل من المهندس/ على حسين فراج ، محمود فيصل محمد وذلك يوم \n18 أكتوبر 2002"
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات \n الأمـان"
+  },
+  {
+   "type": "list",
+   "items": [
+    "الوحدة خارج الخدمة",
+    "فتح أمر الشغل \n وتوفر كارت فئة السلامة والصحة المهنية",
+    "تسوير مكان \n العمل ووضع لافتات التحذيرية المناسبة0",
+    "اتباع تعليمات \n السلامة والصحة المهنية لسلامة الأفراد \n والمعدات"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العدد والأدوات والأجهزة المستخدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "جهاز حقن جهد طراز\nPHU-100"
+  },
+  {
+   "type": "paragraph",
+   "text": "جهاز \nقياس جهد \nV-A AC \nطراز YOKOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Millisecond counter \n(Timer) Type MCS -5N"
+  },
+  {
+   "type": "paragraph",
+   "text": "مشط \nاختبار طراز \nRTXH 18"
+  },
+  {
+   "type": "paragraph",
+   "text": "أسلاك \nاختبار \nTest leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "جهاز حقن جهد طراز\nPHU-100",
+    "جهاز \nقياس جهد \nV-A AC \nطراز YOKOGAWA",
+    "Millisecond counter \n(Timer) Type MCS -5N",
+    "مشط \nاختبار طراز \nRTXH 18",
+    "أسلاك \nاختبار \nTest leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الاجراءات \nالمطلوب تنفيذها"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "أنزل بالجهد حتى تنزل الإشارة",
+     "5"
+    ],
+    [
+     "سجل قراءة الجهد للعنصر \n RXEG 21 \n D29,107 وكذلك العنصر \n RXEG21 D29 , \n 307",
+     "6"
+    ],
+    [
+     "وصل طرفي\n Stop \n لجهاز قياس الزمن على النقطتين \n (\n x15 ، \n 16) \n في العنصر \n RXEG21 D29 , 119",
+     "7"
+    ],
+    [
+     "وصل طرفي \n Start لجهاز \n قياس الزمن على النقطتين \n T1,T2 \n في جهاز الحقن \n PHU-100",
+     "8"
+    ],
+    [
+     "أحقن الجهد بقيمة 100 ف على النقطتين\n (\n x9 ، \n 10) \n في \n Test Plug",
+     "9"
+    ],
+    [
+     "أفصل جهاز حقن الجهد",
+     "10"
+    ],
+    [
+     "سجل قراءة عداد الزمن \n t1 \n للعنصر \n RXEG 21 D 29 , 119",
+     "11"
+    ],
+    [
+     "وصل طرفي Stop\n لجهاز قياس الزمن على النقطتين \n ( \n x15 ، \n 16) \n في \n العنصر \n RXEG 21 D 29 , 319",
+     "12"
+    ],
+    [
+     "أحقن الجهد بقيمة 100 ف على النقطتين\n (\n x9 ، \n 10) \n في \n Test Plug",
+     "13"
+    ],
+    [
+     "أفصل جهاز حقن الجهد",
+     "14"
+    ],
+    [
+     "سجل قراءة عداد الزمن \n t2\n للعنصر \n RXEG21 D29 , 319",
+     "15"
+    ],
+    [
+     "أرفع\n Test plug type RTXH 18 \n من \n test socket, type PTXP 18 على \n الريلاي x27G",
+     "16"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Equipment:",
+     "Power \n Station Protection System 27G"
+    ],
+    [
+     "Description:",
+     "Under \n Voltage Protection \n RXEG21"
+    ],
+    [
+     "Item:",
+     "Panel \n ........... Poz \n .................."
+    ],
+    [
+     "Single line Diagram no.:",
+     "1512VA7120J001"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "---------------------------------------------------------------------------------"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay data :",
+     ""
+    ],
+    [
+     "Rated current :",
+     ""
+    ],
+    [
+     "Rated voltage :",
+     "63.5 , 110 , 220 V"
+    ],
+    [
+     "Rated frequency :",
+     "50 Hz"
+    ],
+    [
+     "Auxiliary voltage :",
+     "110/125 VAC"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay Type \n and Position",
+     "Setting",
+     "Measurement",
+     "Remarks"
+    ],
+    [
+     "U (V)",
+     "t(s)\n T1 T2"
+    ],
+    [
+     "RXEG 21 3 sec & 6 sec\n POS D29, 107",
+     "86 \n volt",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "UA1 & UB1"
+    ],
+    [
+     "RXEG 21 3 sec & 6 sec\n POS D29, 307",
+     "86 VOLT",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "UB1 \n & UC1"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "اسم \nالموقع: \nكود \nالوقاية:"
+  },
+  {
+   "type": "paragraph",
+   "text": "القائم بالاختبار: \nالتوقيع: \nتاريخ التنفيذ:"
+  }
+ ],
+ "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\nالإجراء:\n باستخدام الحقن بالدوائر الثانوية\n\nمقدمـة\nهذا \nالمستند يبين خطوات الاختبار لجهاز الوقاية الأرضية \nالمذكور أعلاه\n ، \nاعد المسودة الأولية المهندس/محمود \nاحمد محمود بمحطة كهرباء أسيوط الجديدة بشركة الوجه القبلى \nلإنتاج الكهرباء \n، تم إجراء الاختبار الميداني \nبمعرفة كل من المهندس/ على حسين فراج ، محمود فيصل محمد وذلك يوم \n18 أكتوبر 2002\nاحتياطات \n الأمـان\nالوحدة خارج الخدمة\nفتح أمر الشغل \n وتوفر كارت فئة السلامة والصحة المهنية\nتسوير مكان \n العمل ووضع لافتات التحذيرية المناسبة0\nاتباع تعليمات \n السلامة والصحة المهنية لسلامة الأفراد \n والمعدات\nالعدد والأدوات والأجهزة المستخدمة\nجهاز حقن جهد طراز\nPHU-100\nجهاز \nقياس جهد \nV-A AC \nطراز YOKOGAWA\nMillisecond counter \n(Timer) Type MCS -5N\nمشط \nاختبار طراز \nRTXH 18\nأسلاك \nاختبار \nTest leads\nجهاز حقن جهد طراز\nPHU-100\nجهاز \nقياس جهد \nV-A AC \nطراز YOKOGAWA\nMillisecond counter \n(Timer) Type MCS -5N\nمشط \nاختبار طراز \nRTXH 18\nأسلاك \nاختبار \nTest leads\nالاجراءات \nالمطلوب تنفيذها\n\nTest Sheet\n\n---------------------------------------------------------------------------------\n\n\nاسم \nالموقع: \nكود \nالوقاية:\nالقائم بالاختبار: \nالتوقيع: \nتاريخ التنفيذ:",
+ "text_truncated": false,
+ "links": [
+  {
+   "href": "../../../../index.htm",
+   "text": "English Version"
+  },
+  {
+   "href": "../../../Ar_whatsnew/Ar_whatsnew.htm",
+   "text": "ما هو الجديد"
+  },
+  {
+   "href": "../../../Ar_about/docs%20status/Ar_status.htm",
+   "text": "موقف المستندات"
+  },
+  {
+   "href": "../../../Ar_forms/A_form.htm",
+   "text": "النماذج"
+  },
+  {
+   "href": "../../../Ar_about/Ar_about.htm",
+   "text": "ما هو الـ MPIS"
+  },
+  {
+   "href": "../../../Ar_admin_inst/Ar_admin_inst.htm",
+   "text": "التعليمات الإدارية"
+  },
+  {
+   "href": "../../../Ar_draf_docs/Ar_draf_doc.htm",
+   "text": "مسودة المستندات"
+  },
+  {
+   "href": "../../../Ar_Coordinators/Ar_MPIS_Coord_main%20Page.htm",
+   "text": "المنسقون"
+  },
+  {
+   "href": "../../../Ar_tech_resource/Ar_tech_resource.htm",
+   "text": "قاعدة البيانات"
+  }
+ ],
+ "images": [
+  {
+   "src": "../../../../images/eetc_logo.jpg",
+   "alt": "EETC Logo"
+  },
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

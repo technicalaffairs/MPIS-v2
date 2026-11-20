@@ -1,0 +1,511 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-efr-012-r0a-htm",
+ "doc_number": "EFR-012-R0A",
+ "title_en": "",
+ "title_ar": "EFR-012-r0a \nمعتمــد",
+ "category": "arabic_web",
+ "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/EFR-012-r0a.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "الشركة القابضة لكهرباء مصر"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "نظام معلومات إجراءات الصيانة"
+  },
+  {
+   "type": "paragraph",
+   "text": "نظام معلومات إجراءات \n الصيانة"
+  },
+  {
+   "type": "paragraph",
+   "text": "رقم \n المستند: EFR-012-r0a"
+  },
+  {
+   "type": "paragraph",
+   "text": "المعدة: الوقاية الأرضية للعضو \n الثابت x64S \n RAGEA ABB"
+  },
+  {
+   "type": "paragraph",
+   "text": "صادرة إلى: \n محطة كهرباء أسيوط"
+  },
+  {
+   "type": "paragraph",
+   "text": "الموقف: \n معتمـد"
+  },
+  {
+   "type": "paragraph",
+   "text": "تاريخ الاعتماد: 03 يوليو \n 2003"
+  },
+  {
+   "type": "paragraph",
+   "text": "الإجراء:الاختبار \n بواسطة جهاز حقن جهد \n طراز PHU-100"
+  },
+  {
+   "type": "paragraph",
+   "text": "تاريخ المراجعة \n التالية: \n يوليو 2008"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "الوقاية - الإنتاج",
+     "إجـراءات الصيانـة"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمـة"
+  },
+  {
+   "type": "paragraph",
+   "text": "هذا المستند يبين خطوات \n الاختبار لجهاز الوقاية الأرضية المذكور \n أعلاه ، اعد المسودة الأولية لهذا \n المستند المهندس/محمود احمد محمود بمحطة كهرباء أسيوط الجديدة بشركة الوجه القبلي \n لإنتاج الكهرباء ، تم إجراء الاختبار الميداني بمعرفة كل من المهندس/ على حسين \n فراج ، محمود فيصل محمد وذلك يوم 19 أكتوبر 2002"
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات \nالأمـان"
+  },
+  {
+   "type": "paragraph",
+   "text": "الوحدة خارج الخدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "فتح أمر شغل"
+  },
+  {
+   "type": "paragraph",
+   "text": "تسوير مكان العمل ووضع اللافتات التحذيرية المناسبة0"
+  },
+  {
+   "type": "paragraph",
+   "text": "اتباع تعليمات السلامة والصحة المهنية لسلامة الأفراد والمعدات"
+  },
+  {
+   "type": "list",
+   "items": [
+    "اتباع تعليمات السلامة والصحة المهنية لسلامة الأفراد والمعدات"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العدد والأدوات والأجهزة المستخدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "جهاز حقن \n جهد طراز PHU-100"
+  },
+  {
+   "type": "paragraph",
+   "text": "جهاز قياس \n جهد V-A AC طراز YOKOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "مشط \n اختبار طراز \n RTXH 18"
+  },
+  {
+   "type": "paragraph",
+   "text": "اسلاك \n اختبار Test Leads"
+  },
+  {
+   "type": "paragraph",
+   "text": "Milisecond \n Counter (Timer) type MCS-5N"
+  },
+  {
+   "type": "paragraph",
+   "text": "Function \n generator type FG-121B"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Function \n generator type FG-121B"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "خطوات \nالعمل المطلوب تنفيذها"
+  },
+  {
+   "type": "paragraph",
+   "text": "أولاًً : اختبار \nالعنصر RXIG28 0-95%"
+  },
+  {
+   "type": "paragraph",
+   "text": "1"
+  },
+  {
+   "type": "paragraph",
+   "text": "وصل طرفي Stop لجهاز \n قياس الزمن على النقطتين ( x25 ، 26) \n فى خلف العنصر \n RXKBI 11"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "ضع \n Test plus type RTXH18 \n في \n Test socket type RTXP 18 على الريلاي x64S",
+     ""
+    ],
+    [
+     "وصل \n طرفي Start لجهاز \n قياس الزمن على النقطتين ( T1 ، T2) فى جهاز \n حقن الجهد PHU-100",
+     "2"
+    ],
+    [
+     "",
+     "3"
+    ],
+    [
+     "احقن جهد فى النقطتين ( 9 ، \n 10 ) فى \n Test Plug \n حتى تنزل الإشارة",
+     "4"
+    ],
+    [
+     "سجل قراءة الجهد",
+     "5"
+    ],
+    [
+     "افصل جهاز حقن الجهد",
+     "6"
+    ],
+    [
+     "اعمل \n Reset لجهاز قياس الزمن",
+     "7"
+    ],
+    [
+     "وصل جهاز حقن \n الجهد",
+     "8"
+    ],
+    [
+     "سجل الزمن \n للعنصر RXIG28",
+     "9"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "ثانيا : \nاختبار \nالعنصر RXIG21 95-100%"
+  },
+  {
+   "type": "paragraph",
+   "text": "1"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "اضبط قيمة التردد على a150 HZمن \n على جهاز Generator \n Function",
+     ""
+    ],
+    [
+     "احقن جهد \n من على جهاز Generator Function في النقطتين \n ( 11 , 12 ) على Test \n plug",
+     "2"
+    ],
+    [
+     "ارفع الجهد تدريجيا حتي \n تنزل الإشارة",
+     "3"
+    ],
+    [
+     "سجل قيمة الجهد",
+     "4"
+    ],
+    [
+     "افصل جهاز حقن الجهد",
+     "5"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "ثالثا : اختبار \nالعنصر RXIG21 Supervision"
+  },
+  {
+   "type": "paragraph",
+   "text": "1"
+  },
+  {
+   "type": "paragraph",
+   "text": "وصل طرفى Start لجهاز قياس الزمن على \n النقطتين t1, \n t2 الموجودتين على \n جهاز PHU-100"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "احقن جهد من جهاز PHU-100 في النقطتين \n (7 , 8) على \n Test plug",
+     ""
+    ],
+    [
+     "ارفع الجهد تدريجيا حتي تنزل الإشارة",
+     "2"
+    ],
+    [
+     "سجل قيمة الجهد",
+     "3"
+    ],
+    [
+     "افصل جهاز الحقن",
+     "4"
+    ],
+    [
+     "",
+     "5"
+    ],
+    [
+     "وصل طرفى Stop لجهاز قياس الزمن \n على \n النقطتين \n (16,15) على العنصر RXKBI 149",
+     "6"
+    ],
+    [
+     "اعمل \n Reset \n لجهاز قياس الزمن",
+     "7"
+    ],
+    [
+     "وصل جهاز حقن الجهد على \n قيمة جهد تشغيل الريلاى",
+     "8"
+    ],
+    [
+     "سجل قيمة \n الزمن للعنصر RXEG21",
+     "9"
+    ],
+    [
+     "ارفع \n Test plug type RTXH 18 من Test \n socket type RTXP 18 \n على \n الريلاي x64S",
+     "10"
+    ],
+    [
+     "اعمل Reset لجميع الإشارات على \n الريلاي (a64S)",
+     "11"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "For Stator Ground Relay (64S) type RAGEA, ABB"
+  },
+  {
+   "type": "paragraph",
+   "text": "Description"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit No."
+  },
+  {
+   "type": "paragraph",
+   "text": "Panel"
+  },
+  {
+   "type": "paragraph",
+   "text": "No. 2CAE01/2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Single Line Diagram \n no.:"
+  },
+  {
+   "type": "paragraph",
+   "text": "1512VA7120J001"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Item",
+     "100% Stator Ground Relay 64S"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "---------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay \n Data :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rated Voltage \n:"
+  },
+  {
+   "type": "paragraph",
+   "text": "63.5 , 110 , 220 \n V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rated Frequency \n :"
+  },
+  {
+   "type": "paragraph",
+   "text": "50 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Auxiliary Voltage \n :"
+  },
+  {
+   "type": "paragraph",
+   "text": "110/125 \n Vac"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Rated Current",
+     "5"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay type"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measurement"
+  },
+  {
+   "type": "paragraph",
+   "text": "U(v)"
+  },
+  {
+   "type": "paragraph",
+   "text": "T(s)"
+  },
+  {
+   "type": "paragraph",
+   "text": "RXIG 28 150 Hz"
+  },
+  {
+   "type": "paragraph",
+   "text": "U = 7 vT = 400 m \n sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "RXIG 21 150 Hz"
+  },
+  {
+   "type": "paragraph",
+   "text": "U = 0.3 v"
+  },
+  {
+   "type": "paragraph",
+   "text": "RXIG 21 \n 50HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "U = 92T = 1 sec"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "",
+     "Function Remark"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "95%59 \n N1 Protection (Over voltage)"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "100%27 \n N1 Protection(Under Voltage)"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "Over \n VoltageSupervision"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "اسم \nالموقع: \nاسم ومكان جهاز \nالوقاية:"
+  },
+  {
+   "type": "paragraph",
+   "text": "القائم \nبالاختبار: \nالتوقيع: \nتاريخ التنفيذ:"
+  }
+ ],
+ "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\nنظام معلومات إجراءات \n الصيانة\nرقم \n المستند: EFR-012-r0a\nالمعدة: الوقاية الأرضية للعضو \n الثابت x64S \n RAGEA ABB\nصادرة إلى: \n محطة كهرباء أسيوط\nالموقف: \n معتمـد\nتاريخ الاعتماد: 03 يوليو \n 2003\nالإجراء:الاختبار \n بواسطة جهاز حقن جهد \n طراز PHU-100\nتاريخ المراجعة \n التالية: \n يوليو 2008\n\nمقدمـة\nهذا المستند يبين خطوات \n الاختبار لجهاز الوقاية الأرضية المذكور \n أعلاه ، اعد المسودة الأولية لهذا \n المستند المهندس/محمود احمد محمود بمحطة كهرباء أسيوط الجديدة بشركة الوجه القبلي \n لإنتاج الكهرباء ، تم إجراء الاختبار الميداني بمعرفة كل من المهندس/ على حسين \n فراج ، محمود فيصل محمد وذلك يوم 19 أكتوبر 2002\nاحتياطات \nالأمـان\nالوحدة خارج الخدمة\nفتح أمر شغل\nتسوير مكان العمل ووضع اللافتات التحذيرية المناسبة0\nاتباع تعليمات السلامة والصحة المهنية لسلامة الأفراد والمعدات\nاتباع تعليمات السلامة والصحة المهنية لسلامة الأفراد والمعدات\nالعدد والأدوات والأجهزة المستخدمة\nجهاز حقن \n جهد طراز PHU-100\nجهاز قياس \n جهد V-A AC طراز YOKOGAWA\nمشط \n اختبار طراز \n RTXH 18\nاسلاك \n اختبار Test Leads\nMilisecond \n Counter (Timer) type MCS-5N\nFunction \n generator type FG-121B\nFunction \n generator type FG-121B\nخطوات \nالعمل المطلوب تنفيذها\nأولاًً : اختبار \nالعنصر RXIG28 0-95%\n1\nوصل طرفي Stop لجهاز \n قياس الزمن على النقطتين ( x25 ، 26) \n فى خلف العنصر \n RXKBI 11\n\nثانيا : \nاختبار \nالعنصر RXIG21 95-100%\n1\n\nثالثا : اختبار \nالعنصر RXIG21 Supervision\n1\nوصل طرفى Start لجهاز قياس الزمن على \n النقطتين t1, \n t2 الموجودتين على \n جهاز PHU-100\n\nTest Sheet\nFor Stator Ground Relay (64S) type RAGEA, ABB\nDescription\nUnit No.\nPanel\nNo. 2CAE01/2\nSingle Line Diagram \n no.:\n1512VA7120J001\n\n---------------------------------------------------------------------------------\nRelay \n Data :\nRated Voltage \n:\n63.5 , 110 , 220 \n V\nRated Frequency \n :\n50 HZ\nAuxiliary Voltage \n :\n110/125 \n Vac\n\nRelay type\nSetting\nMeasurement\nU(v)\nT(s)\nRXIG 28 150 Hz\nU = 7 vT = 400 m \n sec\nRXIG 21 150 Hz\nU = 0.3 v\nRXIG 21 \n 50HZ\nU = 92T = 1 sec\n\nاسم \nالموقع: \nاسم ومكان جهاز \nالوقاية:\nالقائم \nبالاختبار: \nالتوقيع: \nتاريخ التنفيذ:",
+ "text_truncated": false,
+ "links": [
+  {
+   "href": "../../../../index.htm",
+   "text": "English Version"
+  },
+  {
+   "href": "../../../Ar_whatsnew/Ar_whatsnew.htm",
+   "text": "ما هو الجديد"
+  },
+  {
+   "href": "../../../Ar_about/docs%20status/Ar_status.htm",
+   "text": "موقف المستندات"
+  },
+  {
+   "href": "../../../Ar_forms/A_form.htm",
+   "text": "النماذج"
+  },
+  {
+   "href": "../../../Ar_about/Ar_about.htm",
+   "text": "ما هو الـ MPIS"
+  },
+  {
+   "href": "../../../Ar_admin_inst/Ar_admin_inst.htm",
+   "text": "التعليمات الإدارية"
+  },
+  {
+   "href": "../../../Ar_draf_docs/Ar_draf_doc.htm",
+   "text": "مسودة المستندات"
+  },
+  {
+   "href": "../../../Ar_Coordinators/Ar_MPIS_Coord_main%20Page.htm",
+   "text": "المنسقون"
+  },
+  {
+   "href": "../../../Ar_tech_resource/Ar_tech_resource.htm",
+   "text": "قاعدة البيانات"
+  }
+ ],
+ "images": [
+  {
+   "src": "../../../../images/eetc_logo.jpg",
+   "alt": "EETC Logo"
+  },
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}
