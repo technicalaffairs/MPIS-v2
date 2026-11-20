@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Substations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Procedure:\n Major Maintenace Procedures (P2-Y6) OR \n 1000 \n Operations"
+   "type": "table",
+   "rows": [
+    [
+     "Substations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -38,13 +36,29 @@
    "rows": [
     [
      "Interrupting current",
-     "",
-     ""
+     "20-25kA",
+     "Once every 3 operations"
+    ],
+    [
+     "10-20kA",
+     "Once every 6 operations"
+    ],
+    [
+     "Less than 10kA",
+     "Once every 20 operations"
     ],
     [
      "Load current",
-     "",
-     ""
+     "2000-2400A",
+     "Once every 100 operations"
+    ],
+    [
+     "1200-2000A",
+     "Once every 200 operations"
+    ],
+    [
+     "600-1200A",
+     "Once every 500 operations"
     ]
    ],
    "truncated_rows": 0
@@ -106,12 +120,123 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Stationary Parts"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "2",
+     "Bushing"
+    ],
+    [
+     "20",
+     "Grounded tank"
+    ],
+    [
+     "27",
+     "Stationary contact \n for \n 600,1200 A"
+    ],
+    [
+     "28",
+     "Insulated puffer no. \n 22LE"
+    ],
+    [
+     "29",
+     "Puffer cylinder"
+    ],
+    [
+     "30",
+     "Moving contact"
+    ],
+    [
+     "31",
+     "Current collector"
+    ],
+    [
+     "39",
+     "Fixed puffer piston"
+    ],
+    [
+     "101",
+     "Handle"
+    ],
+    [
+     "102",
+     "Interrupter cover"
+    ],
+    [
+     "103",
+     "Contact"
+    ],
+    [
+     "104",
+     "Front cover"
+    ],
+    [
+     "105",
+     "Cover"
+    ],
+    [
+     "106",
+     "Stationary contact for 2000,2400A"
+    ],
+    [
+     "107",
+     "Main contact assembly"
+    ],
+    [
+     "108",
+     "Puffer cylinder cap \n for \n 600,1200A"
+    ],
+    [
+     "110",
+     "Moving contact cover cap"
+    ],
+    [
+     "111",
+     "Insulated moving contact cover"
+    ],
+    [
+     "112",
+     "Guide plate"
+    ],
+    [
+     "113",
+     "Puffer cylinder cap"
+    ],
+    [
+     "114",
+     "Connecting pin"
+    ],
+    [
+     "115",
+     "Base"
+    ],
+    [
+     "116",
+     "Absorbent cace"
+    ],
+    [
+     "117",
+     "Absorbent"
+    ],
+    [
+     "118",
+     "Gas seal packing"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "for 600A-1200A Rating"
+   "type": "table",
+   "rows": [
+    [
+     "Stationary Parts \n for 600A-1200A Rating\n Stationary Parts \n for 2000A-2400A Rating",
+     "Moving Parts \n for 600A-1200A Rating",
+     "Moving Parts \n for 600A-1200A Rating"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -303,6 +428,45 @@
    "text": "Table \n 1 : Measurement of insulation resistance"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Locations to be \n measured",
+     "Insulation \n Resistance\n or more (MΩ)",
+     "Working megger"
+    ],
+    [
+     "Dry",
+     "Wet"
+    ],
+    [
+     "Between main conducting part and ground",
+     "*1.000",
+     "10",
+     ""
+    ],
+    [
+     "Between in-phase terminals",
+     "*1.000",
+     "10",
+     "1.000 V megger"
+    ],
+    [
+     "Between phases",
+     "100",
+     "2",
+     "500 V megger"
+    ],
+    [
+     "Between control circuit and ground",
+     "100",
+     "2",
+     "500 V megger"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Note: \nThe value may reach more than 1.000MΩ \nwhile the circuit breaker is in use, however, it will drop to 100MΩ if it \nremains idle for long hours. Even this low value is permissible from the \nviewpoint of withstand voltage. When operated again, the values shown in the \ntable will be recovered."
   },
@@ -363,7 +527,7 @@
     ],
     [
      "29",
-     ""
+     "Puffer cylinder"
     ],
     [
      "30",
@@ -371,7 +535,7 @@
     ],
     [
      "31",
-     ""
+     "Current collector"
     ],
     [
      "32",
@@ -470,6 +634,72 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "18",
+     "Gas pressure gauge"
+    ],
+    [
+     "20",
+     "Grounded tank"
+    ],
+    [
+     "25",
+     "Pressure switch"
+    ],
+    [
+     "65",
+     "Gas piping"
+    ],
+    [
+     "82",
+     "Gas supplying adaptor"
+    ],
+    [
+     "83",
+     "Body of stop valve"
+    ],
+    [
+     "84",
+     "Nut"
+    ],
+    [
+     "85, 86",
+     "Stop valve"
+    ],
+    [
+     "87",
+     "Stop valve of cylinder"
+    ],
+    [
+     "88",
+     "Stop valve"
+    ],
+    [
+     "89",
+     "Vacuum pump"
+    ],
+    [
+     "90",
+     "Pressure gauge for correcting proofs"
+    ],
+    [
+     "91",
+     "Gas supplying hose"
+    ],
+    [
+     "92",
+     "Vacuum gauge"
+    ],
+    [
+     "93",
+     "SF6 gas \n cylinder"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Figure 8 : Typical Piping System for evacuation and gas \nfilling"
   },
@@ -498,8 +728,18 @@
    "text": "Location: \n Circuit Breaker \nCode: \nChecked by: \nTested Date: Signature:"
   },
   {
-   "type": "paragraph",
-   "text": "Figure 9: \n Connecting method"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Figure 9: \n Connecting method \n of gas supplying \n adaptor"
+    ],
+    [
+     "",
+     "Figure 10: SF6 gas pressure-temperature characteristic curve"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -510,12 +750,102 @@
    "text": "Table 2: Is a description for reference in case that abnormal \nphenomena should occur"
   },
   {
-   "type": "paragraph",
-   "text": "(a) If auxiliary switch lever of on/off shifting operation is found improper, adjusting shifting"
-  },
-  {
-   "type": "paragraph",
-   "text": "(b) If auxiliary switch \n contact wipe is poor, increase wipe or replace auxiliary switch"
+   "type": "table",
+   "rows": [
+    [
+     "No.",
+     "Symptoms",
+     "Cause",
+     "Remedy"
+    ],
+    [
+     "1",
+     "Overheat of contact",
+     "1 . Poor contact",
+     "Replace wiper spring"
+    ],
+    [
+     "2 . Ingress of foreign substances to contact surface or rough main contact",
+     "(a) Remove foreign substances.\n (b) Polish contact surface\n (Replace, if remarkably roughened)"
+    ],
+    [
+     "2",
+     "Failure in closing spring charging operation",
+     "1. Damage or burn out of motor",
+     "Replace the motor by new one"
+    ],
+    [
+     "2. Fault of motor switch",
+     "Replace the motor switch by new one"
+    ],
+    [
+     "3. Damage \n for the ratchet wheel or pawls",
+     "Replace the \n ratchet wheel or pawls"
+    ],
+    [
+     "3",
+     "Failure in interrupting operation",
+     "1. Broken wire or erroneous wiring of opening circuit",
+     "Recheck circuit"
+    ],
+    [
+     "2. Poor contact of auxiliary switch",
+     "(a) If auxiliary switch lever of on/off shifting operation is found improper, adjusting shifting\n (b) If auxiliary switch \n contact wipe is poor, increase wipe or replace auxiliary switch\n (c) Should incomplete contact of auxiliary switch be caused by looseness \n of mounting bolts, retighten them"
+    ],
+    [
+     "3. Broken wire of layer short of tripping coil",
+     "Replace coil"
+    ],
+    [
+     "4. Breakage of link, etc, on control system",
+     "Replace broken parts"
+    ],
+    [
+     "5. Operating voltage drop",
+     "Check the battery or AC input source"
+    ],
+    [
+     "6. Gas pressure drop",
+     "Repair leak places and supply gas"
+    ],
+    [
+     "4",
+     "Failure of closing operation",
+     "1. Broken wire of erroneous wiring \n of closing control circuit",
+     "Recheck circuit"
+    ],
+    [
+     "2. Broken wire or layer short of coil",
+     "Replace oil"
+    ],
+    [
+     "3. Malfunction of hook",
+     "Eliminate increased friction and replace defective parts"
+    ],
+    [
+     "4. Breakage of closing spring",
+     "Replace spring"
+    ],
+    [
+     "5. Gas pressure drop",
+     "Supply gas and repair leak places"
+    ],
+    [
+     "5",
+     "Gas leakage",
+     "1. \n Incomplete insertion packing into groove or hole on seal, or damaged gasket",
+     "Reweld seal part gasket"
+    ],
+    [
+     "2. Defective welding or defective material",
+     "Reweld or replace parts"
+    ],
+    [
+     "3. Loose joints",
+     "Check fastenings"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -530,172 +860,65 @@
    "text": "Before starting \nto replace, confirm open - closed indicator indicates \"open\" and charged - \ndischarged indicator indicates \"discharged\""
   },
   {
-   "type": "paragraph",
-   "text": "Remove \n covers (104), (122) and (126) (see \n figure 11)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove \n control button assembly (127) and interlock mechanism assembly (128) (see \n figure 13)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove wiring from terminals and remove coil assembly (129)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Replace the coil with a new one"
-  },
-  {
-   "type": "paragraph",
-   "text": "Notice : \n Take notice resistance of the coil which is shown in below:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Closing coil : 11.8 Ω (for 100/110Vdc)\n 52.5Ω (for 200/220Vdc)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Trip coil : 20 Ω (for 100/110Vdc)\n 81.5Ω (for 200/220Vdc)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove wiring form terminal block (132) installed rear of the breaker. see \n fig.14"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove connecting pin (133), and them remove motor (43) through the left \n side opening of the breaker (see figure 13)"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Remove cover (104), (122), \n (123) and (125), see figure11",
-    "Remove wiring form terminal block (132) installed rear of the breaker. see \n fig.14",
-    "Remove connecting pin (133), and them remove motor (43) through the left \n side opening of the breaker (see figure 13)",
-    "Replace the motor (43) with a new one"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove wiring from \n terminals"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Remove cover (126) (see fig 11)",
-    "Remove wiring from \n terminals",
-    "Replace the control relay with a new one"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove wiring \n from terminals"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Remove cover (122) and (123) (see figure \n 11)",
-    "Remove wiring \n from terminals",
-    "Replace the resister (134) with a new one (see \n figure 14)"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove open-closed indicator (8), operating counter \n (9), control button assembly (127) interlock mechanism assembly (128) and \n motor switch assembly (135) see figure 13"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove trip springs (37) by loosening nuts (136) and remove operating \n lever shaft (38) (see figure 14)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Loosening bolts (137) (see \n figure 13) and then remove closing spring stopper \n (138) and closing springs (36) by loosening nuts (139) see figure 14"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove wiring of motor (43) and closing coil (21) and trip coil"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove link (140) and then suspending pipe (141) for operating mechanism \n assembly"
-  },
-  {
-   "type": "paragraph",
-   "text": "Pull the operating mechanism assembly and then it is removed from \n operating mechanism framework"
-  },
-  {
-   "type": "paragraph",
-   "text": "Lift up the breaker and take out the operating mechanism assembly"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove the motor (43), and coils (21), (22)"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Remove all covers, (104), (122), (123), (124), (125) and (126) see fig. 11",
-    "Remove open-closed indicator (8), operating counter \n (9), control button assembly (127) interlock mechanism assembly (128) and \n motor switch assembly (135) see figure 13",
-    "Remove trip springs (37) by loosening nuts (136) and remove operating \n lever shaft (38) (see figure 14)",
-    "Loosening bolts (137) (see \n figure 13) and then remove closing spring stopper \n (138) and closing springs (36) by loosening nuts (139) see figure 14",
-    "Remove wiring of motor (43) and closing coil (21) and trip coil",
-    "Remove link (140) and then suspending pipe (141) for operating mechanism \n assembly",
-    "Pull the operating mechanism assembly and then it is removed from \n operating mechanism framework",
-    "Lift up the breaker and take out the operating mechanism assembly",
-    "Remove the motor (43), and coils (21), (22)",
-    "Replace the operating mechanism assembly with a new one see figure 15"
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Fix \n bracket (142) by vise"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove connecting pin (133) and then remove \n motor (43) and crank (49) see fig. 15"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove bracket (143)"
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove closing spring charging mechanism assembly"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Carry out as same as \n no. 5",
-    "Fix \n bracket (142) by vise",
-    "Remove connecting pin (133) and then remove \n motor (43) and crank (49) see fig. 15",
-    "Remove bracket (143)",
-    "Remove closing spring charging mechanism assembly",
-    "When composition parts of closing spring charging mechanism assembly are \n damaged, replace then with new ones."
-   ]
-  },
-  {
-   "type": "paragraph",
-   "text": "Remove closing operating mechanism \n assembly"
-  },
-  {
-   "type": "paragraph",
-   "text": "When composition parts of operating mechanism assembly are damaged, \n replace them with new ones"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Remove \n bracket (144)",
-    "Remove closing operating mechanism \n assembly",
-    "When composition parts of operating mechanism assembly are damaged, \n replace them with new ones",
-    "Fig 16 shows closing spring charging mechanism assembly, operating \n mechanism assembly and their essential composition parts"
-   ]
+   "type": "table",
+   "rows": [
+    [
+     "No",
+     "Replacement items",
+     "Replacement Procedure"
+    ],
+    [
+     "1",
+     "Closing coil or trip coil",
+     "Remove \n covers (104), (122) and (126) (see \n figure 11)\n Remove \n control button assembly (127) and interlock mechanism assembly (128) (see \n figure 13)\n Remove wiring from terminals and remove coil assembly (129)\n Replace the coil with a new one \n Notice : \n Take notice resistance of the coil which is shown in below:\n Closing coil : 11.8 Ω (for 100/110Vdc)\n 52.5Ω (for 200/220Vdc)\n Trip coil : 20 Ω (for 100/110Vdc)\n 81.5Ω (for 200/220Vdc)\n Adjust the gap G referring to figure 12"
+    ],
+    [
+     "2",
+     "Motor",
+     "Remove cover (104), (122), \n (123) and (125), see figure11\n Remove wiring form terminal block (132) installed rear of the breaker. see \n fig.14\n Remove connecting pin (133), and them remove motor (43) through the left \n side opening of the breaker (see figure 13)\n Replace the motor (43) with a new one"
+    ],
+    [
+     "3",
+     "Control relay",
+     "Remove cover (126) (see fig 11)\n Remove wiring from \n terminals\n Replace the control relay with a new one"
+    ],
+    [
+     "4",
+     "",
+     "Remove cover (122) and (123) (see figure \n 11)\n Remove wiring \n from terminals\n Replace the resister (134) with a new one (see \n figure 14)"
+    ],
+    [
+     "5",
+     "Operating mechanism assembly",
+     "Remove all covers, (104), (122), (123), (124), (125) and (126) see fig. 11\n Remove open-closed indicator (8), operating counter \n (9), control button assembly (127) interlock mechanism assembly (128) and \n motor switch assembly (135) see figure 13\n Remove trip springs (37) by loosening nuts (136) and remove operating \n lever shaft (38) (see figure 14)\n Loosening bolts (137) (see \n figure 13) and then remove closing spring stopper \n (138) and closing springs (36) by loosening nuts (139) see figure 14\n Remove wiring of motor (43) and closing coil (21) and trip coil\n Remove link (140) and then suspending pipe (141) for operating mechanism \n assembly\n Pull the operating mechanism assembly and then it is removed from \n operating mechanism framework\n Lift up the breaker and take out the operating mechanism assembly\n Remove the motor (43), and coils (21), (22) \n Replace the operating mechanism assembly with a new one see figure 15"
+    ],
+    [
+     "6",
+     "Composition parts of operating mechanism",
+     "Carry out as same as \n no. 5\n Fix \n bracket (142) by vise\n Remove connecting pin (133) and then remove \n motor (43) and crank (49) see fig. 15\n Remove bracket (143)\n Remove closing spring charging mechanism assembly\n When composition parts of closing spring charging mechanism assembly are \n damaged, replace then with new ones."
+    ],
+    [
+     "No",
+     "Replacement items",
+     "Replacement Procedure"
+    ],
+    [
+     "6",
+     "",
+     "Remove \n bracket (144)\n Remove closing operating mechanism \n assembly\n When composition parts of operating mechanism assembly are damaged, \n replace them with new ones\n Fig 16 shows closing spring charging mechanism assembly, operating \n mechanism assembly and their essential composition parts"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
    "rows": [
     [
-     "6",
-     "",
-     ""
+     "Figure 11: Protection covers for operating mechanism",
+     "Figure 12: Adjustment of gap G"
+    ],
+    [
+     "Figure 13: Front view of \n operating mechanism housing"
     ]
    ],
    "truncated_rows": 0
@@ -711,9 +934,99 @@
   {
    "type": "paragraph",
    "text": "Figure 16 : Composition parts of operating mechanism"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "35",
+     "Closing cam",
+     "150",
+     "Motor operating lever"
+    ],
+    [
+     "42",
+     "Main shaft",
+     "",
+     "With charged discharged indicator"
+    ],
+    [
+     "46",
+     "Link",
+     "151",
+     "Roller"
+    ],
+    [
+     "47",
+     "Ratchet wheel",
+     "152",
+     "Spring"
+    ],
+    [
+     "50",
+     "Roller",
+     "153",
+     "Tan - shaped lever"
+    ],
+    [
+     "51",
+     "Closing lever",
+     "154",
+     "Spring"
+    ],
+    [
+     "53",
+     "Closing prop",
+     "155",
+     "Bearing"
+    ],
+    [
+     "56",
+     "Tripping prop",
+     "156",
+     "Spring"
+    ],
+    [
+     "145",
+     "Motor charging pawl assembly",
+     "157",
+     "260 Link"
+    ],
+    [
+     "146",
+     "Manual charging pawl",
+     "158",
+     "140 Link"
+    ],
+    [
+     "",
+     "Assembly",
+     "159",
+     "110 Link"
+    ],
+    [
+     "147",
+     "Spring",
+     "160",
+     "Bearing"
+    ],
+    [
+     "148",
+     "Bearing",
+     "161",
+     "71 Lever"
+    ],
+    [
+     "149",
+     "Second tripping prop",
+     "162",
+     "Spring"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Substations\nTechnical Procedure\nProcedure:\n Major Maintenace Procedures (P2-Y6) OR \n 1000 \n Operations\nIntroduction\nThis document \noutlines the major maintenance procedure P2, which must be performed every six \nyears as indicated by Y6 in the above title block or/and as shown in the table \nbelow:\n\nThe first draft \ninitiated by eng. Gamal Sayed Soliman and \ncertified \nby \neng. Shehata Karim Habashi general director \nof development and quality control and MPIS \ncoordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nA work permit must be issued.\nThe qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nWear your safety helmet, safety shoes safety harness\nCircuit \nbreaker isolation and earthing is required.\nTools and Equipment\nComplete \n tool set\nSafety and healthy equipment as safety helmet,\n safety shoes, safety harness\nSafety and healthy equipment as safety helmet,\n safety shoes, safety harness\nGas \n detector, Air blower.\nGrease, \n paint, thinner, brush\nLifting \n adapter, closing spring charging handle, draw out handle, closing spring \n lock pin.\nWork to be Carried Out\nConfirm open-closed \n indicator indicates \"open\" and charged-discharged \n indicator indicates \"discharged\"\nRemove the front cover (104) referring to \n figure 1\nStationary Parts\nfor 600A-1200A Rating\nFigure 1 : Illustrations of interrupting parts\nExhaust SF6 gas according to \n figure 2.\n Notice: SF6 gas must be exhausted to the open air, and the room installed \n breaker must be ventilated fully\nConfirm the pressure switch operates between 3.0 \n & 3.2kg/cm2\nRemove the handle (101) interrupter cover (102) and then \n bushings (2) referring to figure 1\n Check the contacts (103) attached to the base to the base side of bushings \n (2)\n Exchange the contacts (103) if they are damaged\n Apply thin coat of grease (hitalube-280 which is one of breaker's \n accessories) to the contact\nRemove the cover (105) on which stationary contact (27) or \n (106) is installed, referring to figure 1\nOverhaul of \n the stationary\ncontact\nassembly (2000A-2400A)\nWhen the surface of main contact assembly (107) is found uneven, \n polish it with sandpaper.\nApply thin coat of grease to its \n contacts, after cleaning then by alcohol.\nAbout stationary contact (106) carry out as same as procedure for \n 600A-1200A rating contact (27).\nWhen the surface of main contact assembly (107) is found uneven, \n polish it with sandpaper.\nApply thin coat of grease to its \n contacts, after cleaning then by alcohol.\nAbout stationary contact (106) carry out as same as procedure for \n 600A-1200A rating contact (27).\nOverhaul of \n the moving\n contact\n assembly (600A-1200A)\nRemove puffer cylinder cap (108), insulated puffer nozzle \n (28), moving contact cover cap (110) and insulated moving contact cover \n (11), referring to fig.1\nClean up them using wiper and alcohol\nRemove puffer cylinder cap (108), insulated puffer nozzle \n (28), moving contact cover cap (110) and insulated moving contact cover \n (11), referring to fig.1\nClean up them using wiper and alcohol\nWhen nozzle's inner diameter\n φ1 is more than 32 mm, and cover's inner diameter φ 2 is more than 28mm, \n replace them with new ones, (see figure\n 1)\nRemove the guide plate (112) and moving \n contact assembly (30) referring to figure 1\nWhen moving contact's surface is found \n uneven, \n polish it with sandpaper, and when when dimension L2 is enlarged than 1mm \n replace the moving contact assembly (30) with a new one (see figure 5)\nFigure 5: Replacement standard of moving contact \n assembly\nOverhaul of \n the moving\n contact\n assembly (2000A-2400A)\nCarry out as same as 600A-1200A rating.\nIn addition, when \n the surface of puffer cylinder cap (113) is found uneven, polish if with \n sandpaper.\nApply thin coat of grease to the puffer cylinder cap (113)\nCarry out as same as 600A-1200A rating.\nIn addition, when \n the surface of puffer cylinder cap (113) is found uneven, polish if with \n sandpaper.\nApply thin coat of grease to the puffer cylinder cap (113)\nRemoval of \n puffer\n cylinder\nRemove connecting pin (114), and puffer cylinder (29), \n referring to figure 1.\nClean up the cylinder (29) using wiper and alcohol.\nApply thin coat of grease to its interior.\nRemove connecting pin (114), and puffer cylinder (29), \n referring to figure 1.\nClean up the cylinder (29) using wiper and alcohol.\nApply thin coat of grease to its interior.\nProcedures\nRemove the puffer piston (39) with its base \n (115) and absorbent case (116), referring to figure 1\nWhen the surface of current \n collector (31) is found uneven polish it with sandpaper, and apply thin coat \n of grease to it\nReplace absorbent (117) with a new one. \n (The absorbent is required) about 600g per phase)\n Notice: Don't expose the absorbent in the atmosphere for long time\nRemove the puffer piston (39) with its base \n (115) and absorbent case (116), referring to figure 1\nWhen the surface of current \n collector (31) is found uneven polish it with sandpaper, and apply thin coat \n of grease to it.\nReplace absorbent (117) with a new one. \n (The absorbent is required) about 600g per phase).\n Notice: Don't expose the absorbent in the atmosphere for long time\nReplace absorbent (117) with a new one. \n (The absorbent is required) about 600g per phase)\n Notice: Don't expose the absorbent in the atmosphere for long time\nRemove the puffer piston (39) with its base \n (115) and absorbent case (116), referring to figure 1\nWhen the surface of current \n collector (31) is found uneven polish it with sandpaper, and apply thin coat \n of grease to it.\nReplace absorbent (117) with a new one. \n (The absorbent is required) about 600g per phase).\n Notice: Don't expose the absorbent in the atmosphere for long time\nReassembly\nReassembly must be started immediately after replacing the \n absorbent by the inverse procedure described in above.\nNotice: Every parts \n must be cleaned up using wiper and alcohol\nAdjust the touch length changing the length of hinge piece \n assembly (see figure 6)\nWipe the insulator surface by wet cloth.\nWhen excessively dirty, apply insulator cleanser to the surface.\nConfirm that insulation resistance satisfies table 1.\nTable \n 1 : Measurement of insulation resistance\nNote: \nThe value may reach more than 1.000MΩ \nwhile the circuit breaker is in use, however, it will drop to 100MΩ if it \nremains idle for long hours. Even this low value is permissible from the \nviewpoint of withstand voltage. When operated again, the values shown in the \ntable will be recovered.\nWhen measuring insulation resistance \nof control circuit, confirm charged-discharged indicator indicates \"charged\"\n\nFigure 7: Cut-away view of internal construction\nEvacuation and\ngas filling\nFor evacuation and gas \nfilling, order to the nearest Hitachi sales office, but only user who prepares \nfor gas filling unit supplied by Hitachi ltd, may carry out according to the \nfollowing procedure under severe working management\nThe typical \npiping system for evacuation and gas filling is shown in figure 8.\nRemove the front cover and \nremove the cover of stop valve (81) (see figure 9)\nConnect the gas supplying \nadaptor (82) to body of stop valve (83) when high pressure SF6 is filled in the \ngrounded tanks (20) start following procedure after exhausting if according to \nstep 2,3 in the above procedures, and confirm the pressure switch (25) operates between 3.0 and 3.2 \nkg/cm2\nTurn the nut (84) \nclockwise to the red line of this adaptor (82)\nClose the stop valve \n(85),(86) and the stop valve of cylinder (87), and open the stop valve (88), \nthen operate vacuum pump (89)\nAfter reduced the pressure of grounded tank (20) to 1mm hg, keep operating the \nvacuum pump (89) still more 1 hour\nClose the stop valve (88) \nand release the leak valve of the vacuum pump (89), then stop the operation of \nthe vacuum pump (89)\nDecide \nreplenishing pressure referring to the SF6 gas pressure-temperature \ncharacteristic curve as shown in fig 10\nOpen the stop valve of \ncylinder (87) and stop valve (85) SF6 gas is filling to the piping of the \nbreaker\nDuring gas filling, \nconfirm switching of the pressure switch (25) between 3.84.2kg/cm2\nWhen \nreplenishing pressure is lower than switching pressure of the pressure switch \n(25), fill SF6 gas to switching \npressure, \nconfirm its switching operation, and exhaust SF6 gas to replenishing pressure.\nRemove the front cover and \nremove the cover of stop valve (81) (see figure 9)\nConnect the gas supplying \nadaptor (82) to body of stop valve (83) when high pressure SF6 is filled in the \ngrounded tanks (20) start following procedure after exhausting if according to \nstep 2,3 in the above procedures, and confirm the pressure switch (25) operates between 3.0 and 3.2 \nkg/cm2\nTurn the nut (84) \nclockwise to the red line of this adaptor (82)\nClose the stop valve \n(85),(86) and the stop valve of cylinder (87), and open the stop valve (88), \nthen operate vacuum pump (89)\nAfter reduced the pressure of grounded tank (20) to 1mm hg, keep operating the \nvacuum pump (89) still more 1 hour\nClose the stop valve (88) \nand release the leak valve of the vacuum pump (89), then stop the operation of \nthe vacuum pump (89)\nDecide \nreplenishing pressure referring to the SF6 gas pressure-temperature \ncharacteristic curve as shown in fig 10\nOpen the stop valve of \ncylinder (87) and stop valve (85) SF6 gas is filling to the piping of the \nbreaker\nDuring gas filling, \nconfirm switching of the pressure switch (25) between 3.84.2kg/cm2\nWhen \nreplenishing pressure is lower than switching pressure of the pressure switch \n(25), fill SF6 gas to switching \npressure, \nconfirm its switching operation, and exhaust SF6 gas to replenishing pressure.\nFigure 8 : Typical Piping System for evacuation and gas \nfilling\nWhen the pressure in the \ngrounded tank (20) reaches set value which is gave in fig.10, close the stop \nvalve (85) and the stop valve of cylinder (87), and open the stop valve (86), \nthen correct proofs of the gas pressure gauge (18) by pressure gauge for \ncorrecting proofs (90).\nTurn the nut (84) \ncounterclockwise to the blue line of the gas supplying adaptor (82) and remove \nthis adaptor (82).\nSet the cover of \nstop valve (81) on replenishing the gas only, perform according to procedure \nnos. 6,7,9,10,11 with taking notice of exhausting air in the hose (91).\nWhen the pressure in the \ngrounded tank (20) reaches set value which is gave in fig.10, close the stop \nvalve (85) and the stop valve of cylinder (87), and open the stop valve (86), \nthen correct proofs of the gas pressure gauge (18) by pressure gauge for \ncorrecting proofs (90).\nTurn the nut (84) \ncounterclockwise to the blue line of the gas supplying adaptor (82) and remove \nthis adaptor (82).\nSet the cover of \nstop valve (81) on replenishing the gas only, perform according to procedure \nnos. 6,7,9,10,11 with taking notice of exhausting air in the hose (91).\nLocation: \n Circuit Breaker \nCode: \nChecked by: \nTested Date: Signature:\nFigure 9: \n Connecting method\nTrouble Shooting\nTable 2: Is a description for reference in case that abnormal \nphenomena should occur\n(a) If auxiliary switch lever of on/off shifting operation is found improper, adjusting shifting\n(b) If auxiliary switch \n contact wipe is poor, increase wipe or replace auxiliary switch\nTable 3: Replacement \nProcedure\nNotice:\nBefore starting \nto replace, confirm open - closed indicator indicates \"open\" and charged - \ndischarged indicator indicates \"discharged\"\nRemove \n covers (104), (122) and (126) (see \n figure 11)\nRemove \n control button assembly (127) and interlock mechanism assembly (128) (see \n figure 13)\nRemove wiring from terminals and remove coil assembly (129)\nReplace the coil with a new one\nNotice : \n Take notice resistance of the coil which is shown in below:\nClosing coil : 11.8 Ω (for 100/110Vdc)\n 52.5Ω (for 200/220Vdc)\nTrip coil : 20 Ω (for 100/110Vdc)\n 81.5Ω (for 200/220Vdc)\nRemove wiring form terminal block (132) installed rear of the breaker. see \n fig.14\nRemove connecting pin (133), and them remove motor (43) through the left \n side opening of the breaker (see figure 13)\nRemove cover (104), (122), \n (123) and (125), see figure11\nRemove wiring form terminal block (132) installed rear of the breaker. see \n fig.14\nRemove connecting pin (133), and them remove motor (43) through the left \n side opening of the breaker (see figure 13)\nReplace the motor (43) with a new one\nRemove wiring from \n terminals\nRemove cover (126) (see fig 11)\nRemove wiring from \n terminals\nReplace the control relay with a new one\nRemove wiring \n from terminals\nRemove cover (122) and (123) (see figure \n 11)\nRemove wiring \n from terminals\nReplace the resister (134) with a new one (see \n figure 14)\nRemove open-closed indicator (8), operating counter \n (9), control button assembly (127) interlock mechanism assembly (128) and \n motor switch assembly (135) see figure 13\nRemove trip springs (37) by loosening nuts (136) and remove operating \n lever shaft (38) (see figure 14)\nLoosening bolts (137) (see \n figure 13) and then remove closing spring stopper \n (138) and closing springs (36) by loosening nuts (139) see figure 14\nRemove wiring of motor (43) and closing coil (21) and trip coil\nRemove link (140) and then suspending pipe (141) for operating mechanism \n assembly\nPull the operating mechanism assembly and then it is removed from \n operating mechanism framework\nLift up the breaker and take out the operating mechanism assembly\nRemove the motor (43), and coils (21), (22)\nRemove all covers, (104), (122), (123), (124), (125) and (126) see fig. 11\nRemove open-closed indicator (8), operating counter \n (9), control button assembly (127) interlock mechanism assembly (128) and \n motor switch assembly (135) see figure 13\nRemove trip springs (37) by loosening nuts (136) and remove operating \n lever shaft (38) (see figure 14)\nLoosening bolts (137) (see \n figure 13) and then remove closing spring stopper \n (138) and closing springs (36) by loosening nuts (139) see figure 14\nRemove wiring of motor (43) and closing coil (21) and trip coil\nRemove link (140) and then suspending pipe (141) for operating mechanism \n assembly\nPull the operating mechanism assembly and then it is removed from \n operating mechanism framework\nLift up the breaker and take out the operating mechanism assembly\nRemove the motor (43), and coils (21), (22)\nReplace the operating mechanism assembly with a new one see figure 15\nFix \n bracket (142) by vise\nRemove connecting pin (133) and then remove \n motor (43) and crank (49) see fig. 15\nRemove bracket (143)\nRemove closing spring charging mechanism assembly\nCarry out as same as \n no. 5\nFix \n bracket (142) by vise\nRemove connecting pin (133) and then remove \n motor (43) and crank (49) see fig. 15\nRemove bracket (143)\nRemove closing spring charging mechanism assembly\nWhen composition parts of closing spring charging mechanism assembly are \n damaged, replace then with new ones.\nRemove closing operating mechanism \n assembly\nWhen composition parts of operating mechanism assembly are damaged, \n replace them with new ones\nRemove \n bracket (144)\nRemove closing operating mechanism \n assembly\nWhen composition parts of operating mechanism assembly are damaged, \n replace them with new ones\nFig 16 shows closing spring charging mechanism assembly, operating \n mechanism assembly and their essential composition parts\n\nFigure 14 : Cut-away view of operating mechanism assembly\nFigure 15: Operating mechanism assembly\nFigure 16 : Composition parts of operating mechanism",
+ "text": "Substations | Technical Procedure\nIntroduction\nThis document \noutlines the major maintenance procedure P2, which must be performed every six \nyears as indicated by Y6 in the above title block or/and as shown in the table \nbelow:\nInterrupting current | 20-25kA | Once every 3 operations\n10-20kA | Once every 6 operations\nLess than 10kA | Once every 20 operations\nLoad current | 2000-2400A | Once every 100 operations\n1200-2000A | Once every 200 operations\n600-1200A | Once every 500 operations\nThe first draft \ninitiated by eng. Gamal Sayed Soliman and \ncertified \nby \neng. Shehata Karim Habashi general director \nof development and quality control and MPIS \ncoordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nA work permit must be issued.\nThe qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nWear your safety helmet, safety shoes safety harness\nCircuit \nbreaker isolation and earthing is required.\nTools and Equipment\nComplete \n tool set\nSafety and healthy equipment as safety helmet,\n safety shoes, safety harness\nSafety and healthy equipment as safety helmet,\n safety shoes, safety harness\nGas \n detector, Air blower.\nGrease, \n paint, thinner, brush\nLifting \n adapter, closing spring charging handle, draw out handle, closing spring \n lock pin.\nWork to be Carried Out\nConfirm open-closed \n indicator indicates \"open\" and charged-discharged \n indicator indicates \"discharged\"\nRemove the front cover (104) referring to \n figure 1\n |  | 2 | Bushing\n20 | Grounded tank\n27 | Stationary contact \n for \n 600,1200 A\n28 | Insulated puffer no. \n 22LE\n29 | Puffer cylinder\n30 | Moving contact\n31 | Current collector\n39 | Fixed puffer piston\n101 | Handle\n102 | Interrupter cover\n103 | Contact\n104 | Front cover\n105 | Cover\n106 | Stationary contact for 2000,2400A\n107 | Main contact assembly\n108 | Puffer cylinder cap \n for \n 600,1200A\n110 | Moving contact cover cap\n111 | Insulated moving contact cover\n112 | Guide plate\n113 | Puffer cylinder cap\n114 | Connecting pin\n115 | Base\n116 | Absorbent cace\n117 | Absorbent\n118 | Gas seal packing\nStationary Parts \n for 600A-1200A Rating\n Stationary Parts \n for 2000A-2400A Rating | Moving Parts \n for 600A-1200A Rating | Moving Parts \n for 600A-1200A Rating\nFigure 1 : Illustrations of interrupting parts\nExhaust SF6 gas according to \n figure 2.\n Notice: SF6 gas must be exhausted to the open air, and the room installed \n breaker must be ventilated fully\nConfirm the pressure switch operates between 3.0 \n & 3.2kg/cm2\nRemove the handle (101) interrupter cover (102) and then \n bushings (2) referring to figure 1\n Check the contacts (103) attached to the base to the base side of bushings \n (2)\n Exchange the contacts (103) if they are damaged\n Apply thin coat of grease (hitalube-280 which is one of breaker's \n accessories) to the contact\nRemove the cover (105) on which stationary contact (27) or \n (106) is installed, referring to figure 1\nOverhaul of \n the stationary\ncontact\nassembly (2000A-2400A)\nWhen the surface of main contact assembly (107) is found uneven, \n polish it with sandpaper.\nApply thin coat of grease to its \n contacts, after cleaning then by alcohol.\nAbout stationary contact (106) carry out as same as procedure for \n 600A-1200A rating contact (27).\nWhen the surface of main contact assembly (107) is found uneven, \n polish it with sandpaper.\nApply thin coat of grease to its \n contacts, after cleaning then by alcohol.\nAbout stationary contact (106) carry out as same as procedure for \n 600A-1200A rating contact (27).\nOverhaul of \n the moving\n contact\n assembly (600A-1200A)\nRemove puffer cylinder cap (108), insulated puffer nozzle \n (28), moving contact cover cap (110) and insulated moving contact cover \n (11), referring to fig.1\nClean up them using wiper and alcohol\nRemove puffer cylinder cap (108), insulated puffer nozzle \n (28), moving contact cover cap (110) and insulated moving contact cover \n (11), referring to fig.1\nClean up them using wiper and alcohol\nWhen nozzle's inner diameter\n φ1 is more than 32 mm, and cover's inner diameter φ 2 is more than 28mm, \n replace them with new ones, (see figure\n 1)\nRemove the guide plate (112) and moving \n contact assembly (30) referring to figure 1\nWhen moving contact's surface is found \n uneven, \n polish it with sandpaper, and when when dimension L2 is enlarged than 1mm \n replace the moving contact assembly (30) with a new one (see figure 5)\nFigure 5: Replacement standard of moving contact \n assembly\nOverhaul of \n the moving\n contact\n assembly (2000A-2400A)\nCarry out as same as 600A-1200A rating.\nIn addition, when \n the surface of puffer cylinder cap (113) is found uneven, polish if with \n sandpaper.\nApply thin coat of grease to the puffer cylinder cap (113)\nCarry out as same as 600A-1200A rating.\nIn addition, when \n the surface of puffer cylinder cap (113) is found uneven, polish if with \n sandpaper.\nApply thin coat of grease to the puffer cylinder cap (113)\nRemoval of \n puffer\n cylinder\nRemove connecting pin (114), and puffer cylinder (29), \n referring to figure 1.\nClean up the cylinder (29) using wiper and alcohol.\nApply thin coat of grease to its interior.\nRemove connecting pin (114), and puffer cylinder (29), \n referring to figure 1.\nClean up the cylinder (29) using wiper and alcohol.\nApply thin coat of grease to its interior.\nProcedures\nRemove the puffer piston (39) with its base \n (115) and absorbent case (116), referring to figure 1\nWhen the surface of current \n collector (31) is found uneven polish it with sandpaper, and apply thin coat \n of grease to it\nReplace absorbent (117) with a new one. \n (The absorbent is required) about 600g per phase)\n Notice: Don't expose the absorbent in the atmosphere for long time\nRemove the puffer piston (39) with its base \n (115) and absorbent case (116), referring to figure 1\nWhen the surface of current \n collector (31) is found uneven polish it with sandpaper, and apply thin coat \n of grease to it.\nReplace absorbent (117) with a new one. \n (The absorbent is required) about 600g per phase).\n Notice: Don't expose the absorbent in the atmosphere for long time\nReplace absorbent (117) with a new one. \n (The absorbent is required) about 600g per phase)\n Notice: Don't expose the absorbent in the atmosphere for long time\nRemove the puffer piston (39) with its base \n (115) and absorbent case (116), referring to figure 1\nWhen the surface of current \n collector (31) is found uneven polish it with sandpaper, and apply thin coat \n of grease to it.\nReplace absorbent (117) with a new one. \n (The absorbent is required) about 600g per phase).\n Notice: Don't expose the absorbent in the atmosphere for long time\nReassembly\nReassembly must be started immediately after replacing the \n absorbent by the inverse procedure described in above.\nNotice: Every parts \n must be cleaned up using wiper and alcohol\nAdjust the touch length changing the length of hinge piece \n assembly (see figure 6)\nWipe the insulator surface by wet cloth.\nWhen excessively dirty, apply insulator cleanser to the surface.\nConfirm that insulation resistance satisfies table 1.\nTable \n 1 : Measurement of insulation resistance\nLocations to be \n measured | Insulation \n Resistance\n or more (MΩ) | Working megger\nDry | Wet\nBetween main conducting part and ground | *1.000 | 10 | \nBetween in-phase terminals | *1.000 | 10 | 1.000 V megger\nBetween phases | 100 | 2 | 500 V megger\nBetween control circuit and ground | 100 | 2 | 500 V megger\nNote: \nThe value may reach more than 1.000MΩ \nwhile the circuit breaker is in use, however, it will drop to 100MΩ if it \nremains idle for long hours. Even this low value is permissible from the \nviewpoint of withstand voltage. When operated again, the values shown in the \ntable will be recovered.\nWhen measuring insulation resistance \nof control circuit, confirm charged-discharged indicator indicates \"charged\"\n1 | Isolating contact\n2 | Bushing\n16 | Trip button\n17 | Closing button\n18 | Gas pressure gauge\n20 | Grounded tank\n21 | Closing coil\n22 | Trip coil\n25 | Pressure switch\n26 | Gas filling valve\n27 | Stationary contact\n28 | Insulated puffer nozzle\n29 | Puffer cylinder\n30 | Moving contact\n31 | Current collector\n32 | Insulated operating rod\n33 | Support insulator\n34 | Operating lever\n35 | Closing cam\n36 | Closing spring\n37 | Tripping spring\n38 | Operating lever shaft\n39 | Fixed puffer piston\nFigure 7: Cut-away view of internal construction\nEvacuation and\ngas filling\nFor evacuation and gas \nfilling, order to the nearest Hitachi sales office, but only user who prepares \nfor gas filling unit supplied by Hitachi ltd, may carry out according to the \nfollowing procedure under severe working management\nThe typical \npiping system for evacuation and gas filling is shown in figure 8.\nRemove the front cover and \nremove the cover of stop valve (81) (see figure 9)\nConnect the gas supplying \nadaptor (82) to body of stop valve (83) when high pressure SF6 is filled in the \ngrounded tanks (20) start following procedure after exhausting if according to \nstep 2,3 in the above procedures, and confirm the pressure switch (25) operates between 3.0 and 3.2 \nkg/cm2\nTurn the nut (84) \nclockwise to the red line of this adaptor (82)\nClose the stop valve \n(85),(86) and the stop valve of cylinder (87), and open the stop valve (88), \nthen operate vacuum pump (89)\nAfter reduced the pressure of grounded tank (20) to 1mm hg, keep operating the \nvacuum pump (89) still more 1 hour\nClose the stop valve (88) \nand release the leak valve of the vacuum pump (89), then stop the operation of \nthe vacuum pump (89)\nDecide \nreplenishing pressure referring to the SF6 gas pressure-temperature \ncharacteristic curve as shown in fig 10\nOpen the stop valve of \ncylinder (87) and stop valve (85) SF6 gas is filling to the piping of the \nbreaker\nDuring gas filling, \nconfirm switching of the pressure switch (25) between 3.84.2kg/cm2\nWhen \nreplenishing pressure is lower than switching pressure of the pressure switch \n(25), fill SF6 gas to switching \npressure, \nconfirm its switching operation, and exhaust SF6 gas to replenishing pressure.\nRemove the front cover and \nremove the cover of stop valve (81) (see figure 9)\nConnect the gas supplying \nadaptor (82) to body of stop valve (83) when high pressure SF6 is filled in the \ngrounded tanks (20) start following procedure after exhausting if according to \nstep 2,3 in the above procedures, and confirm the pressure switch (25) operates between 3.0 and 3.2 \nkg/cm2\nTurn the nut (84) \nclockwise to the red line of this adaptor (82)\nClose the stop valve \n(85),(86) and the stop valve of cylinder (87), and open the stop valve (88), \nthen operate vacuum pump (89)\nAfter reduced the pressure of grounded tank (20) to 1mm hg, keep operating the \nvacuum pump (89) still more 1 hour\nClose the stop valve (88) \nand release the leak valve of the vacuum pump (89), then stop the operation of \nthe vacuum pump (89)\nDecide \nreplenishing pressure referring to the SF6 gas pressure-temperature \ncharacteristic curve as shown in fig 10\nOpen the stop valve of \ncylinder (87) and stop valve (85) SF6 gas is filling to the piping of the \nbreaker\nDuring gas filling, \nconfirm switching of the pressure switch (25) between 3.84.2kg/cm2\nWhen \nreplenishing pressure is lower than switching pressure of the pressure switch \n(25), fill SF6 gas to switching \npressure, \nconfirm its switching operation, and exhaust SF6 gas to replenishing pressure.\n18 | Gas pressure gauge\n20 | Grounded tank\n25 | Pressure switch\n65 | Gas piping\n82 | Gas supplying adaptor\n83 | Body of stop valve\n84 | Nut\n85, 86 | Stop valve\n87 | Stop valve of cylinder\n88 | Stop valve\n89 | Vacuum pump\n90 | Pressure gauge for correcting proofs\n91 | Gas supplying hose\n92 | Vacuum gauge\n93 | SF6 gas \n cylinder\nFigure 8 : Typical Piping System for evacuation and gas \nfilling\nWhen the pressure in the \ngrounded tank (20) reaches set value which is gave in fig.10, close the stop \nvalve (85) and the stop valve of cylinder (87), and open the stop valve (86), \nthen correct proofs of the gas pressure gauge (18) by pressure gauge for \ncorrecting proofs (90).\nTurn the nut (84) \ncounterclockwise to the blue line of the gas supplying adaptor (82) and remove \nthis adaptor (82).\nSet the cover of \nstop valve (81) on replenishing the gas only, perform according to procedure \nnos. 6,7,9,10,11 with taking notice of exhausting air in the hose (91).\nWhen the pressure in the \ngrounded tank (20) reaches set value which is gave in fig.10, close the stop \nvalve (85) and the stop valve of cylinder (87), and open the stop valve (86), \nthen correct proofs of the gas pressure gauge (18) by pressure gauge for \ncorrecting proofs (90).\nTurn the nut (84) \ncounterclockwise to the blue line of the gas supplying adaptor (82) and remove \nthis adaptor (82).\nSet the cover of \nstop valve (81) on replenishing the gas only, perform according to procedure \nnos. 6,7,9,10,11 with taking notice of exhausting air in the hose (91).\nLocation: \n Circuit Breaker \nCode: \nChecked by: \nTested Date: Signature:\n | Figure 9: \n Connecting method \n of gas supplying \n adaptor\n | Figure 10: SF6 gas pressure-temperature characteristic curve\nTrouble Shooting\nTable 2: Is a description for reference in case that abnormal \nphenomena should occur\nNo. | Symptoms | Cause | Remedy\n1 | Overheat of contact | 1 . Poor contact | Replace wiper spring\n2 . Ingress of foreign substances to contact surface or rough main contact | (a) Remove foreign substances.\n (b) Polish contact surface\n (Replace, if remarkably roughened)\n2 | Failure in closing spring charging operation | 1. Damage or burn out of motor | Replace the motor by new one\n2. Fault of motor switch | Replace the motor switch by new one\n3. Damage \n for the ratchet wheel or pawls | Replace the \n ratchet wheel or pawls\n3 | Failure in interrupting operation | 1. Broken wire or erroneous wiring of opening circuit | Recheck circuit\n2. Poor contact of auxiliary switch | (a) If auxiliary switch lever of on/off shifting operation is found improper, adjusting shifting\n (b) If auxiliary switch \n contact wipe is poor, increase wipe or replace auxiliary switch\n (c) Should incomplete contact of auxiliary switch be caused by looseness \n of mounting bolts, retighten them\n3. Broken wire of layer short of tripping coil | Replace coil\n4. Breakage of link, etc, on control system | Replace broken parts\n5. Operating voltage drop | Check the battery or AC input source\n6. Gas pressure drop | Repair leak places and supply gas\n4 | Failure of closing operation | 1. Broken wire of erroneous wiring \n of closing control circuit | Recheck circuit\n2. Broken wire or layer short of coil | Replace oil\n3. Malfunction of hook | Eliminate increased friction and replace defective parts\n4. Breakage of closing spring | Replace spring\n5. Gas pressure drop | Supply gas and repair leak places\n5 | Gas leakage | 1. \n Incomplete insertion packing into groove or hole on seal, or damaged gasket | Reweld seal part gasket\n2. Defective welding or defective material | Reweld or replace parts\n3. Loose joints | Check fastenings\nTable 3: Replacement \nProcedure\nNotice:\nBefore starting \nto replace, confirm open - closed indicator indicates \"open\" and charged - \ndischarged indicator indicates \"discharged\"\nNo | Replacement items | Replacement Procedure\n1 | Closing coil or trip coil | Remove \n covers (104), (122) and (126) (see \n figure 11)\n Remove \n control button assembly (127) and interlock mechanism assembly (128) (see \n figure 13)\n Remove wiring from terminals and remove coil assembly (129)\n Replace the coil with a new one \n Notice : \n Take notice resistance of the coil which is shown in below:\n Closing coil : 11.8 Ω (for 100/110Vdc)\n 52.5Ω (for 200/220Vdc)\n Trip coil : 20 Ω (for 100/110Vdc)\n 81.5Ω (for 200/220Vdc)\n Adjust the gap G referring to figure 12\n2 | Motor | Remove cover (104), (122), \n (123) and (125), see figure11\n Remove wiring form terminal block (132) installed rear of the breaker. see \n fig.14\n Remove connecting pin (133), and them remove motor (43) through the left \n side opening of the breaker (see figure 13)\n Replace the motor (43) with a new one\n3 | Control relay | Remove cover (126) (see fig 11)\n Remove wiring from \n terminals\n Replace the control relay with a new one\n4 |  | Remove cover (122) and (123) (see figure \n 11)\n Remove wiring \n from terminals\n Replace the resister (134) with a new one (see \n figure 14)\n5 | Operating mechanism assembly | Remove all covers, (104), (122), (123), (124), (125) and (126) see fig. 11\n Remove open-closed indicator (8), operating counter \n (9), control button assembly (127) interlock mechanism assembly (128) and \n motor switch assembly (135) see figure 13\n Remove trip springs (37) by loosening nuts (136) and remove operating \n lever shaft (38) (see figure 14)\n Loosening bolts (137) (see \n figure 13) and then remove closing spring stopper \n (138) and closing springs (36) by loosening nuts (139) see figure 14\n Remove wiring of motor (43) and closing coil (21) and trip coil\n Remove link (140) and then suspending pipe (141) for operating mechanism \n assembly\n Pull the operating mechanism assembly and then it is removed from \n operating mechanism framework\n Lift up the breaker and take out the operating mechanism assembly\n Remove the motor (43), and coils (21), (22) \n Replace the operating mechanism assembly with a new one see figure 15\n6 | Composition parts of operating mechanism | Carry out as same as \n no. 5\n Fix \n bracket (142) by vise\n Remove connecting pin (133) and then remove \n motor (43) and crank (49) see fig. 15\n Remove bracket (143)\n Remove closing spring charging mechanism assembly\n When composition parts of closing spring charging mechanism assembly are \n damaged, replace then with new ones.\nNo | Replacement items | Replacement Procedure\n6 |  | Remove \n bracket (144)\n Remove closing operating mechanism \n assembly\n When composition parts of operating mechanism assembly are damaged, \n replace them with new ones\n Fig 16 shows closing spring charging mechanism assembly, operating \n mechanism assembly and their essential composition parts\nFigure 11: Protection covers for operating mechanism | Figure 12: Adjustment of gap G\nFigure 13: Front view of \n operating mechanism housing\nFigure 14 : Cut-away view of operating mechanism assembly\nFigure 15: Operating mechanism assembly\nFigure 16 : Composition parts of operating mechanism\n35 | Closing cam | 150 | Motor operating lever\n42 | Main shaft |  | With charged discharged indicator\n46 | Link | 151 | Roller\n47 | Ratchet wheel | 152 | Spring\n50 | Roller | 153 | Tan - shaped lever\n51 | Closing lever | 154 | Spring\n53 | Closing prop | 155 | Bearing\n56 | Tripping prop | 156 | Spring\n145 | Motor charging pawl assembly | 157 | 260 Link\n146 | Manual charging pawl | 158 | 140 Link\n | Assembly | 159 | 110 Link\n147 | Spring | 160 | Bearing\n148 | Bearing | 161 | 71 Lever\n149 | Second tripping prop | 162 | Spring",
  "text_truncated": false,
  "links": [],
  "images": [

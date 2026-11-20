@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Substations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Substations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -99,14 +101,14 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Oil pressure switches",
      "340 kg/cm2\n 320 kg/cm2\n 280 kg/cm2\n 275 kg/cm2\n 260 kg/cm2",
-     ""
+     "Oil pump operation is stopped \n Oil pump operation is started \n Low pressure alarm is given.\n Closing command is blocked \n Opening command is blocked."
     ],
     [
-     "",
+     "Gas density switches",
      "5.5 kg/cm2\n 5.0 kg/cm2",
-     ""
+     "Low pressure alarm is given \n Operating command is blocked"
     ]
    ],
    "truncated_rows": 0
@@ -125,6 +127,20 @@
     "Record the time \n between o bar to 340 bar",
     "Check gas density operation"
    ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "5.5 bar",
+     "Low pressure alarm"
+    ],
+    [
+     "5.0 bar",
+     "Operating \n command is blocked"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -164,40 +180,25 @@
    "text": "Location: \n Equipment \ncode: \nChecked by: \nDate: \nSignature:"
   },
   {
-   "type": "paragraph",
-   "text": "Description"
-  },
-  {
-   "type": "list",
-   "items": [
-    "Insulation tube",
-    "Conductor",
-    "Finger support",
-    "Fixed contact part",
-    "Fixed main contact finger",
-    "Fixed ARC contact",
-    "Moving contact part",
-    "Moving main contact",
-    "Moving ARC contact",
-    "Compression chamber",
-    "Operating piston",
-    "Operating mechanism box",
-    "Puffer cylinder",
-    "Puffer piston",
-    "Nozzle",
-    "Absorbent",
-    "Pump unit",
-    "Accumulator",
-    "Enclosure",
-    "Hydraulic cylinder"
-   ]
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Description\n Insulation tube \n Conductor \n Finger support \n Fixed contact part \n Fixed main contact finger \n Fixed ARC contact \n Moving contact part \n Moving main contact\n Moving ARC contact \n Compression chamber \n Operating piston \n Operating mechanism box \n Puffer cylinder \n Puffer piston \n Nozzle \n Absorbent \n Pump unit \n Accumulator \n Enclosure \n Hydraulic cylinder"
+    ],
+    [
+     "Figure 1 (Internal )Construction",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Figure 2"
   }
  ],
- "text": "Substations\nTechnical Procedure\nIntroduction\nThis\ndocument outlines the minor maintenance procedure P1, which must be performed \nevery three years or every \n1000 \noperation as indicated \nby Y3 in the above title block.\nThe first draft initiated by eng. Fawzy Hanafy Mahmoud, \ntested at\nSolb El Makhsous 220kv substation at 19 May 2003, \nreviewed by eng. El-Sayed Mohamed Ebaid , accepted by eng. Mohamed Abdel Latief:: \nGeneral Director of Sadat & Tahrer Badr Substation and approved at 21 May \n2003, West Delta Zone.\nSafety Precautions\nA work permit must be issued, the qualified maintenance staff must carry the suitable ID safety category,\nSafety fence (rope) with caution marks surrounding the work area,\nA work permit must be issued, the qualified maintenance staff must carry the suitable ID safety category,\nSafety fence (rope) with caution marks surrounding the work area,\nWear appropriate personal protective \n equipment must be used, safety \n shoes, helmet breathing mask, safety glasses\nCircuit breaker must be fully isolated.\nEarthing switch must be closed on both sides of the breaker\nThe circuit breaker should be switched off and ground the CB an both \n sides.\nSwitch off control current for CB (d.c)\nTools and Equipment\nTester (digital Avometer).\nSet off spanners and screw drivers.\nOscillograph.\nSilicon grease, Vacuum cleaner.\nOperating oil (MIL - H - 5606)\n500/1000 V Megger.\nContact resistance meter.\nWork to be Carried Out\nCheck the tightening of bolts and nuts .\nCheck rusting or peeling of paints.\nCheck discoloration or heat hase due to over heating of \n main terminal.\nCheck cracking.\nCheck position indicator and operating counter.\nCheck auxiliary switches by tester.\nCheck pole discrepancy.\nCheck operating time by osillograph,\n - Opening time below 0.03 sec.\n - Closing time below 0.1 sec.\n Note : Operating times are to be within 10% from the data obtained last time .\n\nRecord the following oil pressure : \n - Oil pump operation, starting and stopping \n - Low pressure alarm\n - Closing interlocking\nRecord the time between 320 &340 kg/cm2 .\nCheck the accumulator gas (N2 )pressure 220 bar at 20\n Ċ\nRecord the time \n between o bar to 340 bar\nCheck gas density operation\nGas density monitor setting\nGreasing\nCoat the joints with silicone grease.\nInsulation resistance of control circuit 2MΩ \n or more , measuring by 500 v megger\nInsulation resistance of main circuit 1000 MΩ \n or more, measuring by 1000 v megger\nMoisture content \n measuring (max. 300 ppm v)\nCheck gas leakage.\nCheck contact \n resistance of main circuit.\nRecord counter reading of breaker and pump for each pole .\nCheck no oil leakage\nCheck the rated gas pressure (6 bar at 20 )\nCheck oil level in the tank \n Note : this document must be carried out to each pole of the circuit breaker.\nLocation: \n Equipment \ncode: \nChecked by: \nDate: \nSignature:\nDescription\nInsulation tube\nConductor\nFinger support\nFixed contact part\nFixed main contact finger\nFixed ARC contact\nMoving contact part\nMoving main contact\nMoving ARC contact\nCompression chamber\nOperating piston\nOperating mechanism box\nPuffer cylinder\nPuffer piston\nNozzle\nAbsorbent\nPump unit\nAccumulator\nEnclosure\nHydraulic cylinder\nFigure 2",
+ "text": "Substations | Technical Procedure\nIntroduction\nThis\ndocument outlines the minor maintenance procedure P1, which must be performed \nevery three years or every \n1000 \noperation as indicated \nby Y3 in the above title block.\nThe first draft initiated by eng. Fawzy Hanafy Mahmoud, \ntested at\nSolb El Makhsous 220kv substation at 19 May 2003, \nreviewed by eng. El-Sayed Mohamed Ebaid , accepted by eng. Mohamed Abdel Latief:: \nGeneral Director of Sadat & Tahrer Badr Substation and approved at 21 May \n2003, West Delta Zone.\nSafety Precautions\nA work permit must be issued, the qualified maintenance staff must carry the suitable ID safety category,\nSafety fence (rope) with caution marks surrounding the work area,\nA work permit must be issued, the qualified maintenance staff must carry the suitable ID safety category,\nSafety fence (rope) with caution marks surrounding the work area,\nWear appropriate personal protective \n equipment must be used, safety \n shoes, helmet breathing mask, safety glasses\nCircuit breaker must be fully isolated.\nEarthing switch must be closed on both sides of the breaker\nThe circuit breaker should be switched off and ground the CB an both \n sides.\nSwitch off control current for CB (d.c)\nTools and Equipment\nTester (digital Avometer).\nSet off spanners and screw drivers.\nOscillograph.\nSilicon grease, Vacuum cleaner.\nOperating oil (MIL - H - 5606)\n500/1000 V Megger.\nContact resistance meter.\nWork to be Carried Out\nCheck the tightening of bolts and nuts .\nCheck rusting or peeling of paints.\nCheck discoloration or heat hase due to over heating of \n main terminal.\nCheck cracking.\nCheck position indicator and operating counter.\nCheck auxiliary switches by tester.\nCheck pole discrepancy.\nCheck operating time by osillograph,\n - Opening time below 0.03 sec.\n - Closing time below 0.1 sec.\n Note : Operating times are to be within 10% from the data obtained last time .\nOil pressure switches | 340 kg/cm2\n 320 kg/cm2\n 280 kg/cm2\n 275 kg/cm2\n 260 kg/cm2 | Oil pump operation is stopped \n Oil pump operation is started \n Low pressure alarm is given.\n Closing command is blocked \n Opening command is blocked.\nGas density switches | 5.5 kg/cm2\n 5.0 kg/cm2 | Low pressure alarm is given \n Operating command is blocked\nRecord the following oil pressure : \n - Oil pump operation, starting and stopping \n - Low pressure alarm\n - Closing interlocking\nRecord the time between 320 &340 kg/cm2 .\nCheck the accumulator gas (N2 )pressure 220 bar at 20\n Ċ\nRecord the time \n between o bar to 340 bar\nCheck gas density operation\n5.5 bar | Low pressure alarm\n5.0 bar | Operating \n command is blocked\nGas density monitor setting\nGreasing\nCoat the joints with silicone grease.\nInsulation resistance of control circuit 2MΩ \n or more , measuring by 500 v megger\nInsulation resistance of main circuit 1000 MΩ \n or more, measuring by 1000 v megger\nMoisture content \n measuring (max. 300 ppm v)\nCheck gas leakage.\nCheck contact \n resistance of main circuit.\nRecord counter reading of breaker and pump for each pole .\nCheck no oil leakage\nCheck the rated gas pressure (6 bar at 20 )\nCheck oil level in the tank \n Note : this document must be carried out to each pole of the circuit breaker.\nLocation: \n Equipment \ncode: \nChecked by: \nDate: \nSignature:\n | Description\n Insulation tube \n Conductor \n Finger support \n Fixed contact part \n Fixed main contact finger \n Fixed ARC contact \n Moving contact part \n Moving main contact\n Moving ARC contact \n Compression chamber \n Operating piston \n Operating mechanism box \n Puffer cylinder \n Puffer piston \n Nozzle \n Absorbent \n Pump unit \n Accumulator \n Enclosure \n Hydraulic cylinder\nFigure 1 (Internal )Construction | \nFigure 2",
  "text_truncated": false,
  "links": [],
  "images": [

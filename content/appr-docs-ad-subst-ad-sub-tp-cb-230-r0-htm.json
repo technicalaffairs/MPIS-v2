@@ -14,28 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Switchgear"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:"
-  },
-  {
-   "type": "paragraph",
-   "text": "All Circuit Breakers"
-  },
-  {
-   "type": "paragraph",
-   "text": "All \n Types"
-  },
-  {
-   "type": "paragraph",
-   "text": "All Manufacturers"
+   "type": "table",
+   "rows": [
+    [
+     "Switchgear",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -181,12 +167,24 @@
    "text": "MRDS Maintenance \nRecord Data Sheet MRDS"
   },
   {
-   "type": "paragraph",
-   "text": "CB"
-  },
-  {
-   "type": "paragraph",
-   "text": "CB \n Type"
+   "type": "table",
+   "rows": [
+    [
+     "CB\n Designation",
+     "CB \n Type",
+     "CLOSING TIME (ms)",
+     "OPENING TIME (ms)"
+    ],
+    [
+     "R",
+     "S",
+     "T",
+     "R",
+     "S",
+     "T"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -201,7 +199,7 @@
    "text": "Location: Circuit \nBreaker \nDesignation: Tested by: Signature: Last Test Date:\nApproved by: \nSignature: Test Date:"
   }
  ],
- "text": "Switchgear\nTechnical \n Procedure\nEquipment:\nAll Circuit Breakers\nAll \n Types\nAll Manufacturers\nIntroduction\nThese procedure details the steps required \nto completely measure openning and closing times for one break per pole circuit \nbreaker using CBT 400 breaker Test Set, every 6 months as indicated by M6 in the \ntitle block.\nNote : This step by step instruction is for \nCBT 400 breaker analyzer Test Set (Hathaway-England ).\nThe first draft initiated & tested at \nElaasher 220 substation by eng. Ebraheem Hasan from Elaasher protection management, reviewed by protection manager \neng. Fawzy Barakat, accepted by general \nmanager eng. Elsaaied Nagy, revised by quality control manager eng. Mohamed \nEmran, approved by eng. Wageeh Mansy Head Sector of Protection, \nMeasurements & Testes Canal Zone, and accepted by eng. Aly Attiah el Deib \nEETC Canal Zone MPIS Coordinator.\nSafety Precautions\nA work permit must be issued and the \n qualified testing staff should carry the suitable safety categories.\nSafety fence with caution marks \n surrounding the work area is required.\nWear \n Safety and healthy equipment as safety helmet, safety shoes ... etc.\nCircuit breaker must be fully \n isolated.\nCircuit breaker must be properly \n earthed on both sides of it, using earthing switch if present and \n temporary local earthings.\nTools and Equipment\nCBT 400 test set unit (Hathaway, \n England)\nTest leads.\nVoltmeter.\nWork to be Carried Out\nCircuit Breaker\nClean the bushings of each phase of the breaker (if \n necessary).\nConnect your test cables clamps to the three poles of the \n breaker at points cleaned in step 1.\nCheck CB auxiliary operating voltage (opening & closing \n voltage).\nCBT 400 Test Set\nConnect the other terminals of the cables to points A1-Com \n ( phase R) , A2-Com\n (phase S) & A3-Com (phase T).\nConnect the two terminals cable concerned with opening and \n closing , where one terminal is connected to positive and the other is \n connected to coil.\nMeasurement of Closing Time\nCheck your connections according to the previous steps.\nConnect the two terminals of closing cable where one terminal to closing \n positive and the other is directly to closing coil as shown :\nSwitch the test unit power supply on.\nFrom the initial screen Choose 2. Test.\nFrom the breaker test options screen Choose 1. Simple test.\nChoose 3. Close , then by pressing the key Enter the device will start \n measuring.\nRecord the test results obtained in a table as shown below .\nSwitch the test unit power supply off.\nMeasurement of Opening Time\nConnect the two terminals of opening cable where one terminal to opening \n positive and the other is directly to opening coil as shown below.\nSwitch the test unit power supply on.\nFrom the initial screen Choose 2. Test.\nFrom the breaker test options screen Choose 1. Simple test.\nChoose 2. Open. , then by pressing the key Enter the device will start \n measuring.\nRecord the test results obtained in a table as shown below .\nSwitch the test unit power supply off.\nNote:\nBeside open & close test you can do also the \n following tests:\nopen / close close /open open /close /open\nopen / close close /open open /close /open\nAfter finishing the tests :\n Disconnect the earthing switches if present or remove the \n temporary local earthings .\n return the CB into \n service\nIf one Result is not available this may be due to one of the \nfollowings:\nThe test cable terminal may be disconnected.\nOne of the clamps is not good fixed.\nThe two terminals cable of opening and closing is in incorrect position.\nThere is no negative on the coil.\nNo paper roll is present on the test unit.\nThe Test Result Obtained above may be gathered in a \ntable as below\nMRDS Maintenance \nRecord Data Sheet MRDS\nCB\nCB \n Type\nComments:\nThe results obtained must be compared with commissioning test results sheet to \nverify if it within range or not.\nLocation: Circuit \nBreaker \nDesignation: Tested by: Signature: Last Test Date:\nApproved by: \nSignature: Test Date:",
+ "text": "Switchgear | Technical \n Procedure\nIntroduction\nThese procedure details the steps required \nto completely measure openning and closing times for one break per pole circuit \nbreaker using CBT 400 breaker Test Set, every 6 months as indicated by M6 in the \ntitle block.\nNote : This step by step instruction is for \nCBT 400 breaker analyzer Test Set (Hathaway-England ).\nThe first draft initiated & tested at \nElaasher 220 substation by eng. Ebraheem Hasan from Elaasher protection management, reviewed by protection manager \neng. Fawzy Barakat, accepted by general \nmanager eng. Elsaaied Nagy, revised by quality control manager eng. Mohamed \nEmran, approved by eng. Wageeh Mansy Head Sector of Protection, \nMeasurements & Testes Canal Zone, and accepted by eng. Aly Attiah el Deib \nEETC Canal Zone MPIS Coordinator.\nSafety Precautions\nA work permit must be issued and the \n qualified testing staff should carry the suitable safety categories.\nSafety fence with caution marks \n surrounding the work area is required.\nWear \n Safety and healthy equipment as safety helmet, safety shoes ... etc.\nCircuit breaker must be fully \n isolated.\nCircuit breaker must be properly \n earthed on both sides of it, using earthing switch if present and \n temporary local earthings.\nTools and Equipment\nCBT 400 test set unit (Hathaway, \n England)\nTest leads.\nVoltmeter.\nWork to be Carried Out\nCircuit Breaker\nClean the bushings of each phase of the breaker (if \n necessary).\nConnect your test cables clamps to the three poles of the \n breaker at points cleaned in step 1.\nCheck CB auxiliary operating voltage (opening & closing \n voltage).\nCBT 400 Test Set\nConnect the other terminals of the cables to points A1-Com \n ( phase R) , A2-Com\n (phase S) & A3-Com (phase T).\nConnect the two terminals cable concerned with opening and \n closing , where one terminal is connected to positive and the other is \n connected to coil.\nMeasurement of Closing Time\nCheck your connections according to the previous steps.\nConnect the two terminals of closing cable where one terminal to closing \n positive and the other is directly to closing coil as shown :\nSwitch the test unit power supply on.\nFrom the initial screen Choose 2. Test.\nFrom the breaker test options screen Choose 1. Simple test.\nChoose 3. Close , then by pressing the key Enter the device will start \n measuring.\nRecord the test results obtained in a table as shown below .\nSwitch the test unit power supply off.\nMeasurement of Opening Time\nConnect the two terminals of opening cable where one terminal to opening \n positive and the other is directly to opening coil as shown below.\nSwitch the test unit power supply on.\nFrom the initial screen Choose 2. Test.\nFrom the breaker test options screen Choose 1. Simple test.\nChoose 2. Open. , then by pressing the key Enter the device will start \n measuring.\nRecord the test results obtained in a table as shown below .\nSwitch the test unit power supply off.\nNote:\nBeside open & close test you can do also the \n following tests:\nopen / close close /open open /close /open\nopen / close close /open open /close /open\nAfter finishing the tests :\n Disconnect the earthing switches if present or remove the \n temporary local earthings .\n return the CB into \n service\nIf one Result is not available this may be due to one of the \nfollowings:\nThe test cable terminal may be disconnected.\nOne of the clamps is not good fixed.\nThe two terminals cable of opening and closing is in incorrect position.\nThere is no negative on the coil.\nNo paper roll is present on the test unit.\nThe Test Result Obtained above may be gathered in a \ntable as below\nMRDS Maintenance \nRecord Data Sheet MRDS\nCB\n Designation | CB \n Type | CLOSING TIME (ms) | OPENING TIME (ms)\nR | S | T | R | S | T\nComments:\nThe results obtained must be compared with commissioning test results sheet to \nverify if it within range or not.\nLocation: Circuit \nBreaker \nDesignation: Tested by: Signature: Last Test Date:\nApproved by: \nSignature: Test Date:",
  "text_truncated": false,
  "links": [],
  "images": [

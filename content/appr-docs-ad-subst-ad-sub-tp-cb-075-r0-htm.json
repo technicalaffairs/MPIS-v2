@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Substations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Substations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -78,6 +80,60 @@
    "text": "Dismounting\nof breaking units"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Check the following",
+     "Measured Values"
+    ],
+    [
+     "Make time coil I",
+     "ms"
+    ],
+    [
+     "Make time coil II",
+     "ms"
+    ],
+    [
+     "Opening time coil I",
+     "ms"
+    ],
+    [
+     "Opening time coil II",
+     "ms"
+    ],
+    [
+     "Close - open time II",
+     "MS"
+    ],
+    [
+     "Lowest control voltage, closing coil I",
+     "V"
+    ],
+    [
+     "Lowest control voltage, closing coil II",
+     "V"
+    ],
+    [
+     "Lowest control voltage, opening coil I",
+     "V"
+    ],
+    [
+     "Lowest control voltage, opening coil II",
+     "V"
+    ],
+    [
+     "Resistance of main circuit",
+     "ohm"
+    ],
+    [
+     "Filling pressure",
+     "Mpa (abs)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "list",
    "items": [
     "Place the\n breaking unit on the mounting device (special tool) and connect their\n mechanism together.",
@@ -96,7 +152,7 @@
     "After \n place the breaking unit in closing position by mounting device making a \n vacuum and refill with SF6 gas until 7.8bar",
     "Check for\n any leakage for SF6",
     "Making for\n all of test \"timing DC contact gas test\"",
-    "Mpa (abs)"
+    "Check the\n function values for the circuit breaker against the appropriate values in\n the document \"function values\" and annotate the measured values in\n the table below:"
    ]
   },
   {
@@ -122,6 +178,50 @@
   {
    "type": "table",
    "rows": [
+    [
+     "L-1",
+     "Actuating arm"
+    ],
+    [
+     "L-2",
+     "Pin"
+    ],
+    [
+     "L-3",
+     "Screw M12X30"
+    ],
+    [
+     "L-4",
+     "Pull rod"
+    ],
+    [
+     "L-5",
+     "Spring housing"
+    ],
+    [
+     "L-6",
+     "Tripping spring"
+    ],
+    [
+     "L-7",
+     "Nut and counternut"
+    ],
+    [
+     "L-8",
+     "Screw M8x16 washer 8.4 x 16 x 1.5"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "M-1",
+     "Mechanism",
+     "M-7",
+     "Breaking unit"
+    ],
     [
      "M-2",
      "Post insulator",
@@ -254,7 +354,7 @@
    "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
   }
  ],
- "text": "Substations\nTechnical Procedure\nIntroduction\nThis document lists\n major maintenance procedures P2, which must be performed from twelve to \n sixteen years\n as indicated by Y12:16 in the title block.\n The first draft document initiated by eng Hamza Ibrahem Aly, El-Hadaba \n substation (220kv)\nSafety Precautions\nA word permit must be issued and the qualified maintenance staff should\n carry the suitable safety category\nCB must be isolated completely and\n grounded on both sides.\nEnsure that the earthling switch\n must be connected on both sides of the CB.\nSafety fence (rope) with caution\n marks surrounding the work area,\nWear safety helmet, shoes, breathing mask,\nControl power disconnected\nHydraulic test gauge, SF6 test gauge meter\nMicro-ohmmeter, Blower\nAcidity equipment, air \n content equipment,\nHydraulic oil and SF6 gas if needed\nWork to be Carried Out\nEmpty\nthe SF6 gas of the CB to atmosphere pressure The\nline is out of service.\nDismount\nthe breaking unit and place it on appropriate transport base.\nEmpty\nthe SF6 gas of the CB to atmosphere pressure The\nline is out of service.\nDismount\nthe breaking unit and place it on appropriate transport base.\nTransport\n the breaking unit to the workshop for the overhaul\nDismounting\nof breaking units\nPlace the\n breaking unit on the mounting device (special tool) and connect their\n mechanism together.\nDismount\n the (capacitors - top covers - desiccants - upper current collector with upper\n terminal flange)\nDismount\n breaking units isolator carefully\nDismount\n the lower current collector and take out the puffer\nCheck the\n oil level in the dash - pots\nCheck the\n functional values for the CB are met\nThe main\n components of the breaker pole will now be accessible for cleaning,\n inspection and replace the burnt or damaged parts\nGrease the\n are and main contacts with (Grease K) and remount in reveres order.\nThe\n following parts for puffer should be replaced (nozzle - sleeve - contacts -\n springs - breaking contact) these parts and contact sets are delivered in\n composed parts mounted together.\nContact\n surface, puffer contact and puffer cylinder shall be treated and lubricated\n with thin layer of (grease K)\nAll o-\n rings replaced and lubricated\nConnect\n and fix all parts of CB.\nCheck\n alignment of the fixed and moving contact by operate the puffer slowly\n towards the closing position\nAfter \n place the breaking unit in closing position by mounting device making a \n vacuum and refill with SF6 gas until 7.8bar\nCheck for\n any leakage for SF6\nMaking for\n all of test \"timing DC contact gas test\"\nMpa (abs)\nThe circuit - berated open\n- close without a delay interval of 300 ms\nService\nLife of Arcing Contacts\nThe diagram below shows the\nnumber of opening operations as a function of interrupted current that the\ncontacts in an HPL circuit - breaker can cope with before the contact burnt-off\nis such that they need to be changed\nNo. of Interruption\nTIGHTENING TORQUE 79 Nm\n\nTIGHTENING TORQUE 45 Nm\n\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text": "Substations | Technical Procedure\nIntroduction\nThis document lists\n major maintenance procedures P2, which must be performed from twelve to \n sixteen years\n as indicated by Y12:16 in the title block.\n The first draft document initiated by eng Hamza Ibrahem Aly, El-Hadaba \n substation (220kv)\nSafety Precautions\nA word permit must be issued and the qualified maintenance staff should\n carry the suitable safety category\nCB must be isolated completely and\n grounded on both sides.\nEnsure that the earthling switch\n must be connected on both sides of the CB.\nSafety fence (rope) with caution\n marks surrounding the work area,\nWear safety helmet, shoes, breathing mask,\nControl power disconnected\nHydraulic test gauge, SF6 test gauge meter\nMicro-ohmmeter, Blower\nAcidity equipment, air \n content equipment,\nHydraulic oil and SF6 gas if needed\nWork to be Carried Out\nEmpty\nthe SF6 gas of the CB to atmosphere pressure The\nline is out of service.\nDismount\nthe breaking unit and place it on appropriate transport base.\nEmpty\nthe SF6 gas of the CB to atmosphere pressure The\nline is out of service.\nDismount\nthe breaking unit and place it on appropriate transport base.\nTransport\n the breaking unit to the workshop for the overhaul\nDismounting\nof breaking units\nCheck the following | Measured Values\nMake time coil I | ms\nMake time coil II | ms\nOpening time coil I | ms\nOpening time coil II | ms\nClose - open time II | MS\nLowest control voltage, closing coil I | V\nLowest control voltage, closing coil II | V\nLowest control voltage, opening coil I | V\nLowest control voltage, opening coil II | V\nResistance of main circuit | ohm\nFilling pressure | Mpa (abs)\nPlace the\n breaking unit on the mounting device (special tool) and connect their\n mechanism together.\nDismount\n the (capacitors - top covers - desiccants - upper current collector with upper\n terminal flange)\nDismount\n breaking units isolator carefully\nDismount\n the lower current collector and take out the puffer\nCheck the\n oil level in the dash - pots\nCheck the\n functional values for the CB are met\nThe main\n components of the breaker pole will now be accessible for cleaning,\n inspection and replace the burnt or damaged parts\nGrease the\n are and main contacts with (Grease K) and remount in reveres order.\nThe\n following parts for puffer should be replaced (nozzle - sleeve - contacts -\n springs - breaking contact) these parts and contact sets are delivered in\n composed parts mounted together.\nContact\n surface, puffer contact and puffer cylinder shall be treated and lubricated\n with thin layer of (grease K)\nAll o-\n rings replaced and lubricated\nConnect\n and fix all parts of CB.\nCheck\n alignment of the fixed and moving contact by operate the puffer slowly\n towards the closing position\nAfter \n place the breaking unit in closing position by mounting device making a \n vacuum and refill with SF6 gas until 7.8bar\nCheck for\n any leakage for SF6\nMaking for\n all of test \"timing DC contact gas test\"\nCheck the\n function values for the circuit breaker against the appropriate values in\n the document \"function values\" and annotate the measured values in\n the table below:\nThe circuit - berated open\n- close without a delay interval of 300 ms\nService\nLife of Arcing Contacts\nThe diagram below shows the\nnumber of opening operations as a function of interrupted current that the\ncontacts in an HPL circuit - breaker can cope with before the contact burnt-off\nis such that they need to be changed\nNo. of Interruption\nTIGHTENING TORQUE 79 Nm\nL-1 | Actuating arm\nL-2 | Pin\nL-3 | Screw M12X30\nL-4 | Pull rod\nL-5 | Spring housing\nL-6 | Tripping spring\nL-7 | Nut and counternut\nL-8 | Screw M8x16 washer 8.4 x 16 x 1.5\nM-1 | Mechanism | M-7 | Breaking unit\nM-2 | Post insulator | M-8 | Screw\n M12x30 \n 8pcs.\n Washer 13.5x24x2 8pcs\nM-3 | Operating insulator | M-9 | Cover, Art No. 5439 142 A\nM-4 | Screw M12x35 8pcs. | M-10 | Cover, Art No. 5439 143 A\nM-5 | Pin | M-11 | Screw\n M12x25 \n 8pcs.\n Washer 13.5x24x2 8pcs\nM-6 | Pullrod for puffer | M-12 | Lifting sling\nTIGHTENING TORQUE 45 Nm\nP-1 | Actuating arm | P-15 | Screw\n M10x30 \n 6 pcs.\n Washer 10.5x22x2 6pcs.\nP-2 | Mechanism | P-16 | Screw\n M12x60 \n 16 pcs.\n Washer 13.5x24x2.5 \n 16pcs.\nP-3 | Pin | P-17 | Screw\n M12x50 \n 8 pcs.\n Washer 13.5x24x2.5 \n 8pcs.\nP-4 | Post insulator | P-18 | Screw\n M12x40 \n 8 pcs.\n Washer 13.5x24x2.5 \n 8pcs.\nP-5 | Operating insulator | P-19 | O-ring 169.3x5.7\nP-6 | Flange | P-20 | O-ring 159.3x5.7\nP-7 | Pin | P-21 | O-ring 269.3x5.7\nP-8 | Lower current collector | P-22 | O-ring 279.3x5.7\nP-9 | Puffer | P-23 | O-ring 199.3x5.7\nP-10 | Breaker chamber insulator | P-24 | O-ring 189.3x5.7\nP-11 | Upper current collector | P-25 | Screw\n M12x60 \n 8pcs.\nP-12 | Drying agent container | P-26 | Washer\n 1305x24x2.5 8pcs.\n Nut\n M12 \n 8pcs.\nP-13 | Flange | P-2 | \nP-14 | Upper cover | P- | \nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

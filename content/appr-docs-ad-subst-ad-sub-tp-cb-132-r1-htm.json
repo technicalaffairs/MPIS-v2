@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Substations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Procedure:\n Minor Maintenace Procedune (P1-Y3) OR"
+   "type": "table",
+   "rows": [
+    [
+     "Substations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -94,28 +92,69 @@
    "type": "table",
    "rows": [
     [
+     "",
+     "18",
+     "Gas Pressure Gauge"
+    ],
+    [
+     "20",
+     "Grounding Tank"
+    ],
+    [
+     "25",
+     "pressure switch"
+    ],
+    [
+     "65",
+     "gas \n piping"
+    ],
+    [
+     "82",
+     "gas \n supplying adaptor"
+    ],
+    [
+     "83",
+     "body\n of stop valve"
+    ],
+    [
+     "84",
+     "Nut"
+    ],
+    [
+     "85",
+     "Stop \n valve"
+    ],
+    [
      "86",
-     ""
+     "Stop \n valve"
     ],
     [
      "87",
-     ""
+     "Stop \n valve of cylinder"
     ],
     [
      "88",
-     ""
+     "Stop \n valve"
     ],
     [
      "89",
-     ""
+     "Vacuum pump"
     ],
     [
      "90",
-     ""
+     "Pressure gauge for \n correcting proofs"
+    ],
+    [
+     "91",
+     "gas \n supplying hose"
+    ],
+    [
+     "92",
+     "vacuum gauge"
     ],
     [
      "93",
-     ""
+     "SF6 \n gas cylinder"
     ]
    ],
    "truncated_rows": 0
@@ -145,6 +184,27 @@
    "text": "Figure 5"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Figure 6: The \n upside view of the operating mechanism framework without dustproof cover"
+    ],
+    [
+     "Figure 7: The \n side view of the operating mechanism framework without dustproof cover"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Figure 8: Supplying Oil to the dashpot"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "list",
    "items": [
     "Record \n the gas pressure, temperature \n and converted gas pressure. If \n SF6 leak shall be detected, supply SF6 before pressure drops to the alarm \n pressure.",
@@ -157,18 +217,46 @@
     "Figure 3",
     "Figure 4",
     "Check gas \n leak on the grounded tanks, bushings, and gas piping using \n gas leak detector.",
-    "Figure 7: The \n side view of the operating mechanism framework without dustproof cover",
+    "Check \n positive contact of auxiliary switch \n ''Figure 6, 7'",
     "Check each part of auxiliary switch\n for normal tightening.",
+    "Check the \n oil level of dashpot. Figure 8",
     "Tighten up the \n gas sealing parts using the proper torque. Figure 9"
    ]
   },
   {
-   "type": "paragraph",
-   "text": "M12 Bolts for Insulating Bushing"
+   "type": "table",
+   "rows": [
+    [
+     "M12 Bolts for Insulating Bushing",
+     "M10 Bolts for \n Insulating Gas Piping\n M8 Bolts for \n Insulating Gas Piping"
+    ],
+    [
+     "Figure 9: Tightening up the gas sealing \n parts"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "M10 Bolts for \n Insulating Gas Piping"
+   "type": "table",
+   "rows": [
+    [
+     "Kind of \n screw thread",
+     "Proper\n torque (kg-cm) for\n tightening\n bolt and\n nut"
+    ],
+    [
+     "M8",
+     "120\n 20"
+    ],
+    [
+     "M10",
+     "200\n 40"
+    ],
+    [
+     "M12",
+     "450\n 100"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -209,6 +297,15 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Figure 12: Measurement of touch length"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Pull the closing button (17), move the closing spring button (17), move \n the closing spring charging handle (71) up and down, and then measure the \n hinge piece stroke from the point of lamping or buzzering to the end of \n stroke about three phases"
   },
@@ -217,16 +314,17 @@
    "text": "Confirm that stroke is in the range of 16 \n 1mm, and discrepancy for touching point of moving contact between three \n phases is less than 1mm (see Figure 13)"
   },
   {
-   "type": "paragraph",
-   "text": "Loosen Nuts and"
-  },
-  {
-   "type": "paragraph",
-   "text": "Rotate Connection Rod"
-  },
-  {
-   "type": "paragraph",
-   "text": "Adjust Touch Length by"
+   "type": "table",
+   "rows": [
+    [
+     "Loosen Nuts and \n Rotate Connection Rod\n Adjust Touch Length by \n Length of Connection Rod",
+     ""
+    ],
+    [
+     "Figure 13: Adjustment of touch length"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "list",
@@ -245,6 +343,45 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Locations to be \n Measured",
+     "Insulation \n Resistance or more MΩ",
+     "Working Megger"
+    ],
+    [
+     "Dry",
+     "Wet"
+    ],
+    [
+     "Between main conducting part and ground",
+     "*1.000",
+     "10",
+     ""
+    ],
+    [
+     "Between in-phase terminals",
+     "*1.000",
+     "10",
+     "1.000V megger"
+    ],
+    [
+     "Between phases",
+     "100",
+     "2",
+     "500V megger"
+    ],
+    [
+     "Between control circuit and ground",
+     "100",
+     "2",
+     "500V megger"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Note :"
   },
@@ -261,7 +398,7 @@
    "text": "Location: \n Circuit Breaker \nCode: \nChecked by: \n Tested\nDate: \n Signature:"
   }
  ],
- "text": "Substations\nTechnical Procedure\nProcedure:\n Minor Maintenace Procedune (P1-Y3) OR\nIntroduction\nThis document \noutlines the minor maintenance procedure P1, which must be performed every three \nyears or 500 operations as indicated by Y3 in the above title block.\nThe first draft \ninitiated by eng. Reda Mohamed El-Rous, \ntested by eng. Glal Kamel Salem, accepted by \neng.\nFoaad Saad Abed elkany: \ngeneral director, and \napproved by general director eng. Ahmed Saeed Abed elazez:\nAssuit 500kv substation ME \nzone.\nThis document is updated on 01 Sep 2007 by \neng. Gamal Sayed Soliman , tested by eng. Mohamed Abd El-Awal, accepted by eng. \nGamal Ahmad Mahrous general director, approved by eng. Aly Mansour head sector \nof Assuit 500 Substation, and certified by eng. Shehata Karim Habashi general \ndirector of quality control and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe\n qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nA work permit must be issued.\nThe\n qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nWear your safety helmet, safety shoes safety harness\nCircuit \nbreaker isolation and earthing is required.\nTools and Equipment\nComplete \n tool set,\n Air blower.\nSafety and healthy equipment as safety helmet, safety shoes, safety harness\nSafety and healthy equipment as safety helmet, safety shoes, safety harness\nSF6 gas leak detector.\nWork to be Carried Out\nRead\n gas pressure on pressure gauge 18 \n figure 1, and convert it at the temperature 20oC\n to the SF6 gas \n pressure-temperature characteristic curve figure 2.\n\nFigure 1: Typical \npiping system for evacuation and gas filling\nFigure 2: SF6 \ngas \npressure-temperature characteristic curve\nFigure 3\nFigure 4\nCheck the opening \n of the breaker. Figure 5\nFigure 5\nRecord \n the gas pressure, temperature \n and converted gas pressure. If \n SF6 leak shall be detected, supply SF6 before pressure drops to the alarm \n pressure.\nCheck and \n record number of operation at operating counter.\nCheck \n indicators showing breaker and closing spring \n conditions correctly, that is, on normal service condition, \n the open-closed indicator shows 'closed' and \n charged-discharged indicator shows 'charged'.\nCheck for \n signs of abnormal noises and contamination of \n insulators.\nCheck \n insertion of the breaker into isolated position in cubicle.\nCheck moving \n to the service position.\nCheck \n drawing out of breaker.\nFigure 3\nFigure 4\nCheck gas \n leak on the grounded tanks, bushings, and gas piping using \n gas leak detector.\nFigure 7: The \n side view of the operating mechanism framework without dustproof cover\nCheck each part of auxiliary switch\n for normal tightening.\nTighten up the \n gas sealing parts using the proper torque. Figure 9\nM12 Bolts for Insulating Bushing\nM10 Bolts for \n Insulating Gas Piping\nInsert the closing spring lock pin (76) to the hole of each closing \n spring guide (77) (see Figure 10,11)\nRemove the front cover, charge the closing spring manually \n and then confirm that the inter lock lever (15) is set to \"interlocked\" \n position\nInsert the closing spring lock pin (76) to the hole of each closing \n spring guide (77) (see Figure 10,11)\n\nFigure 11: \n The view of having set the closing spring lock pin correctly\nConnect the lamp or buzzer between poles (see \n Figure 12)\nConnect the lamp or buzzer between poles (see \n Figure 12)\nPull the closing button (17), move the closing spring button (17), move \n the closing spring charging handle (71) up and down, and then measure the \n hinge piece stroke from the point of lamping or buzzering to the end of \n stroke about three phases\nConfirm that stroke is in the range of 16 \n 1mm, and discrepancy for touching point of moving contact between three \n phases is less than 1mm (see Figure 13)\nLoosen Nuts and\nRotate Connection Rod\nAdjust Touch Length by\nPull the closing button (17), move the closing spring button (17), move \n the closing spring charging handle (71) up and down, and then measure the \n hinge piece stroke from the point of lamping or buzzering to the end of \n stroke about three phases\nMove the handle (71) further up to indication of charged-discharged \n indicator (6) returning to \"charged\", and remove the lock pin (76). Attach \n the front cover\nCheck the \n insulation resistance between in-phase terminals.\nWipe the insulator surface by wet cloth.\nWhen excessively dirty, apply insulator cleanser to the surface.\nConfirm that insulation resistance satisfies \n the following table.\nNote :\nThe value may reach more than 1.000MΩ \nwhile the circuit breaker is in use, however, it will drop to 100MΩ if it \nremains idle for long hours. Even this low value is permissible from the \nviewpoint of withstand voltage. When operated again, the values shown in the \ntable will be recovered\nWhen measuring insulation resistance \nof control circuit, confirm charged-discharged indicator indicates \"charged\"\nLocation: \n Circuit Breaker \nCode: \nChecked by: \n Tested\nDate: \n Signature:",
+ "text": "Substations | Technical Procedure\nIntroduction\nThis document \noutlines the minor maintenance procedure P1, which must be performed every three \nyears or 500 operations as indicated by Y3 in the above title block.\nThe first draft \ninitiated by eng. Reda Mohamed El-Rous, \ntested by eng. Glal Kamel Salem, accepted by \neng.\nFoaad Saad Abed elkany: \ngeneral director, and \napproved by general director eng. Ahmed Saeed Abed elazez:\nAssuit 500kv substation ME \nzone.\nThis document is updated on 01 Sep 2007 by \neng. Gamal Sayed Soliman , tested by eng. Mohamed Abd El-Awal, accepted by eng. \nGamal Ahmad Mahrous general director, approved by eng. Aly Mansour head sector \nof Assuit 500 Substation, and certified by eng. Shehata Karim Habashi general \ndirector of quality control and MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe\n qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nA work permit must be issued.\nThe\n qualified maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nWear your safety helmet, safety shoes safety harness\nCircuit \nbreaker isolation and earthing is required.\nTools and Equipment\nComplete \n tool set,\n Air blower.\nSafety and healthy equipment as safety helmet, safety shoes, safety harness\nSafety and healthy equipment as safety helmet, safety shoes, safety harness\nSF6 gas leak detector.\nWork to be Carried Out\nRead\n gas pressure on pressure gauge 18 \n figure 1, and convert it at the temperature 20oC\n to the SF6 gas \n pressure-temperature characteristic curve figure 2.\n | 18 | Gas Pressure Gauge\n20 | Grounding Tank\n25 | pressure switch\n65 | gas \n piping\n82 | gas \n supplying adaptor\n83 | body\n of stop valve\n84 | Nut\n85 | Stop \n valve\n86 | Stop \n valve\n87 | Stop \n valve of cylinder\n88 | Stop \n valve\n89 | Vacuum pump\n90 | Pressure gauge for \n correcting proofs\n91 | gas \n supplying hose\n92 | vacuum gauge\n93 | SF6 \n gas cylinder\nFigure 1: Typical \npiping system for evacuation and gas filling\nFigure 2: SF6 \ngas \npressure-temperature characteristic curve\nFigure 3\nFigure 4\nCheck the opening \n of the breaker. Figure 5\nFigure 5\nFigure 6: The \n upside view of the operating mechanism framework without dustproof cover\nFigure 7: The \n side view of the operating mechanism framework without dustproof cover\nFigure 8: Supplying Oil to the dashpot\nRecord \n the gas pressure, temperature \n and converted gas pressure. If \n SF6 leak shall be detected, supply SF6 before pressure drops to the alarm \n pressure.\nCheck and \n record number of operation at operating counter.\nCheck \n indicators showing breaker and closing spring \n conditions correctly, that is, on normal service condition, \n the open-closed indicator shows 'closed' and \n charged-discharged indicator shows 'charged'.\nCheck for \n signs of abnormal noises and contamination of \n insulators.\nCheck \n insertion of the breaker into isolated position in cubicle.\nCheck moving \n to the service position.\nCheck \n drawing out of breaker.\nFigure 3\nFigure 4\nCheck gas \n leak on the grounded tanks, bushings, and gas piping using \n gas leak detector.\nCheck \n positive contact of auxiliary switch \n ''Figure 6, 7'\nCheck each part of auxiliary switch\n for normal tightening.\nCheck the \n oil level of dashpot. Figure 8\nTighten up the \n gas sealing parts using the proper torque. Figure 9\nM12 Bolts for Insulating Bushing | M10 Bolts for \n Insulating Gas Piping\n M8 Bolts for \n Insulating Gas Piping\nFigure 9: Tightening up the gas sealing \n parts\nKind of \n screw thread | Proper\n torque (kg-cm) for\n tightening\n bolt and\n nut\nM8 | 120\n 20\nM10 | 200\n 40\nM12 | 450\n 100\nInsert the closing spring lock pin (76) to the hole of each closing \n spring guide (77) (see Figure 10,11)\nRemove the front cover, charge the closing spring manually \n and then confirm that the inter lock lever (15) is set to \"interlocked\" \n position\nInsert the closing spring lock pin (76) to the hole of each closing \n spring guide (77) (see Figure 10,11)\n | Note: Two closing spring sets \n should be locked \n by the closing spring lock pin\nFigure 10: Inserting closing spring lock pin to the hole of closing spring \n guide\nFigure 11: \n The view of having set the closing spring lock pin correctly\nConnect the lamp or buzzer between poles (see \n Figure 12)\nConnect the lamp or buzzer between poles (see \n Figure 12)\nFigure 12: Measurement of touch length\nPull the closing button (17), move the closing spring button (17), move \n the closing spring charging handle (71) up and down, and then measure the \n hinge piece stroke from the point of lamping or buzzering to the end of \n stroke about three phases\nConfirm that stroke is in the range of 16 \n 1mm, and discrepancy for touching point of moving contact between three \n phases is less than 1mm (see Figure 13)\nLoosen Nuts and \n Rotate Connection Rod\n Adjust Touch Length by \n Length of Connection Rod | \nFigure 13: Adjustment of touch length\nPull the closing button (17), move the closing spring button (17), move \n the closing spring charging handle (71) up and down, and then measure the \n hinge piece stroke from the point of lamping or buzzering to the end of \n stroke about three phases\nMove the handle (71) further up to indication of charged-discharged \n indicator (6) returning to \"charged\", and remove the lock pin (76). Attach \n the front cover\nCheck the \n insulation resistance between in-phase terminals.\nWipe the insulator surface by wet cloth.\nWhen excessively dirty, apply insulator cleanser to the surface.\nConfirm that insulation resistance satisfies \n the following table.\nLocations to be \n Measured | Insulation \n Resistance or more MΩ | Working Megger\nDry | Wet\nBetween main conducting part and ground | *1.000 | 10 | \nBetween in-phase terminals | *1.000 | 10 | 1.000V megger\nBetween phases | 100 | 2 | 500V megger\nBetween control circuit and ground | 100 | 2 | 500V megger\nNote :\nThe value may reach more than 1.000MΩ \nwhile the circuit breaker is in use, however, it will drop to 100MΩ if it \nremains idle for long hours. Even this low value is permissible from the \nviewpoint of withstand voltage. When operated again, the values shown in the \ntable will be recovered\nWhen measuring insulation resistance \nof control circuit, confirm charged-discharged indicator indicates \"charged\"\nLocation: \n Circuit Breaker \nCode: \nChecked by: \n Tested\nDate: \n Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

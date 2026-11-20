@@ -81,6 +81,98 @@
    "text": "Insulation Resistance \n* use Megger isol 5003"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "No*",
+     "Energize",
+     "Phase",
+     "Primary winding G.ohm",
+     "Secondary winding \n G.ohm"
+    ],
+    [
+     "R60",
+     "R15",
+     "R15",
+     "R60"
+    ],
+    [
+     "",
+     "H.W -- ( L ) earthed",
+     "A",
+     "77",
+     "17",
+     "10",
+     "14"
+    ],
+    [
+     "",
+     "H.W --- ( L ) earthed",
+     "B",
+     "51",
+     "19",
+     "12",
+     "17"
+    ],
+    [
+     "",
+     "H.W --- ( L ) earthed",
+     "C",
+     "46",
+     "18",
+     "8",
+     "11"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "No*",
+     "Energize",
+     "Phase",
+     "Primary winding G.ohm",
+     "Secondary winding \n G.ohm"
+    ],
+    [
+     "R60",
+     "R15",
+     "R15",
+     "R60"
+    ],
+    [
+     "",
+     "H.W -- ( L ) earthed",
+     "A",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "H.W --- ( L ) earthed",
+     "B",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "H.W --- ( L ) earthed",
+     "C",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "High \nVoltage Test \n use \nDoble M4000"
   },
@@ -90,6 +182,90 @@
     "Choose the mode GND.",
     "Connect the high cable to high winding and low \n cable (red or blue) to low winding."
    ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "MOD",
+     "ENERGIZE",
+     "Temp",
+     "KV",
+     "tg \n δ \n %",
+     "CAP P.F"
+    ],
+    [
+     "A",
+     "GND",
+     "H.W--( L ) earthed",
+     "35",
+     "10",
+     "0.16",
+     "1102"
+    ],
+    [
+     "B",
+     "GND",
+     "H.W---( L ) earthed",
+     "",
+     "10",
+     "0.14",
+     "1083"
+    ],
+    [
+     "C",
+     "GND",
+     "H.W---( L ) earthed",
+     "",
+     "10",
+     "0.17",
+     "1097"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "MOD",
+     "ENERGIZE",
+     "Temp",
+     "KV",
+     "tg \n δ \n %",
+     "CAP P.F"
+    ],
+    [
+     "A",
+     "GND",
+     "H.W--( L ) earthed",
+     "35",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "GND",
+     "H.W---( L ) earthed",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "C",
+     "GND",
+     "H.W---( L ) earthed",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -116,22 +292,202 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
+     "Phase",
+     "Temp.",
+     "Secondary DC \n Resistance",
      "",
      "",
      "Phase",
      "Temp.",
+     "Secondary DC \n Resistance"
+    ],
+    [
+     "Winding",
+     "ohm",
+     "",
+     "",
+     "Winding",
+     "ohm"
+    ],
+    [
+     "A",
+     "35",
+     "1X-1",
+     "4.96",
+     "",
+     "",
+     "A",
+     "",
+     "1X-1",
      ""
     ],
     [
      "",
-     "ohm",
+     "",
+     "1X-2",
+     "4.91",
      "",
      "",
      "",
-     "ohm"
+     "",
+     "1X-2",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-3",
+     "5.94",
+     "",
+     "",
+     "",
+     "",
+     "1X-3",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-4",
+     "4.93",
+     "",
+     "",
+     "",
+     "",
+     "1X-4",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-5",
+     "4.87",
+     "",
+     "",
+     "",
+     "",
+     "1X-5",
+     ""
+    ],
+    [
+     "B",
+     "35",
+     "1X-1",
+     "4.85",
+     "",
+     "",
+     "B",
+     "",
+     "1X-1",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-2",
+     "4.96",
+     "",
+     "",
+     "",
+     "",
+     "1X-2",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-3",
+     "5.65",
+     "",
+     "",
+     "",
+     "",
+     "1X-3",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-4",
+     "4.68",
+     "",
+     "",
+     "",
+     "",
+     "1X-4",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-5",
+     "4.94",
+     "",
+     "",
+     "",
+     "",
+     "1X-5",
+     ""
+    ],
+    [
+     "C",
+     "35",
+     "1X-1",
+     "4.99",
+     "",
+     "",
+     "C",
+     "",
+     "1X-1",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-2",
+     "4.92",
+     "",
+     "",
+     "",
+     "",
+     "1X-2",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-3",
+     "5.74",
+     "",
+     "",
+     "",
+     "",
+     "1X-3",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-4",
+     "4.94",
+     "",
+     "",
+     "",
+     "",
+     "1X-4",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-5",
+     "4.94",
+     "",
+     "",
+     "",
+     "",
+     "1X-5",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -149,11 +505,255 @@
    "text": "Connect the low cable (X1-X0) to the primary winding then the ratio \nread directly from device."
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "DIFF%",
+     "C. Ratio",
+     "M. Ratio",
+     "Winding",
+     "Temp.",
+     "Phase"
+    ],
+    [
+     "0.09%",
+     "2000",
+     "1998",
+     "1X-1",
+     "35",
+     "A"
+    ],
+    [
+     "0.09%",
+     "2000",
+     "1998",
+     "1X-2"
+    ],
+    [
+     "0.14%",
+     "2000",
+     "2002",
+     "1X-3"
+    ],
+    [
+     "0.14%",
+     "2000",
+     "2002",
+     "1X-4"
+    ],
+    [
+     "0.09%",
+     "2000",
+     "1998",
+     "1X-5"
+    ],
+    [
+     "0.09%",
+     "2000",
+     "1998",
+     "1X-1",
+     "35",
+     "B"
+    ],
+    [
+     "0.09%",
+     "2000",
+     "1998",
+     "1X-2"
+    ],
+    [
+     "0.14%",
+     "2000",
+     "2002",
+     "1X-3"
+    ],
+    [
+     "0.14%",
+     "2000",
+     "2002",
+     "1X-4"
+    ],
+    [
+     "0.09%",
+     "2000",
+     "1998",
+     "1X-5"
+    ],
+    [
+     "0.09%",
+     "2000",
+     "1998",
+     "1X-1",
+     "35",
+     "C"
+    ],
+    [
+     "0.35%",
+     "2000",
+     "1993",
+     "1X-2"
+    ],
+    [
+     "0.15%",
+     "2000",
+     "2007",
+     "1X-3"
+    ],
+    [
+     "0.14%",
+     "2000",
+     "2002",
+     "1X-4"
+    ],
+    [
+     "0.09%",
+     "2000",
+     "1998",
+     "1X-5"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "list",
    "items": [
     "Connect the high cable (H1-H0) to the \nsecondary winding of CT, and",
-    "1X-5"
+    "Connect the low cable (X1-X0) to the primary winding then the ratio \nread directly from device."
    ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Temp.",
+     "Winding",
+     "M. \n Ratio",
+     "C. Ratio",
+     "DIFF%"
+    ],
+    [
+     "A",
+     "",
+     "1X-1",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-2",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-3",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-4",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "",
+     "1X-1",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-2",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-3",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-4",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "C",
+     "",
+     "1X-1",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-2",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-3",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-4",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "1X-5",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -164,6 +764,76 @@
    "text": "Saturation Test"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase A",
+     "Phase B",
+     "Phase C"
+    ],
+    [
+     "Injected voltage (secondary)",
+     "Measured current (secondary)",
+     "Injected voltage (secondary)",
+     "Measured current (secondary)",
+     "Injected voltage (secondary)",
+     "Measured current (secondary)"
+    ],
+    [
+     "204",
+     "0.005",
+     "200",
+     "0.004",
+     "200",
+     "0.005"
+    ],
+    [
+     "302",
+     "0.006",
+     "302",
+     "0.006",
+     "305",
+     "0.006"
+    ],
+    [
+     "405",
+     "0.008",
+     "403",
+     "0.007",
+     "400",
+     "0.007"
+    ],
+    [
+     "501",
+     "0.009",
+     "501",
+     "0.008",
+     "500",
+     "0.008"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase A",
+     "Phase B",
+     "Phase C"
+    ],
+    [
+     "Injected voltage (secondary)",
+     "Measured current (secondary)",
+     "Injected voltage (secondary)",
+     "Measured current (secondary)",
+     "Injected voltage (secondary)",
+     "Measured current (secondary)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "The test done - After any \nfault on CT - At acceptance tests."
   },
@@ -172,7 +842,7 @@
    "text": "Location: \nEquipment code: \nChecked by: \nDate: Signature:"
   }
  ],
- "text": "\nIntroduction\nThis document outlines \nthe equipment tests I1, which must performed on an annually bases \nas indicated by Y1 in the title block. The first draft \ninitiated at High Dam HPS, by eng. Hossain Mahrous at 14 May 2002\nThe tests will be done after any fault on CT, \nat capital repair, and at acceptance tests.\nSafety Precautions\nWear \nsafety helmet, shoes, safety belt.\nA work permit must be issued and\nThe qualified maintenance staff should carry the \nsuitable safety category,\nSafety fence with caution marks surrounding the work area,\nWear \nsafety helmet, shoes, safety belt.\nSwitch off the line 500kv.\nSeparate the primary \nand the secondary terminals of \nwinding.\nSwitch on the grounds.\nPresence the industrial safety \nsupervisor.\nTools and Equipment\nSafety helmet, safety belt, \n rags, and silicagel\nMegger: isol 5003, \n Device (ATRT-03)\nDoble \n M4000, \n Microhmmeter CA10\nDC deflection \n voltmeter & d.c battery.\nWorks to be Carried Out\nInsulation Resistance \n* use Megger isol 5003\nHigh \nVoltage Test \n use \nDoble M4000\nChoose the mode GND.\nConnect the high cable to high winding and low \n cable (red or blue) to low winding.\nChecking of Winding \n use the DC deflection \nvoltmeter & DC battery equipment\nPolarity of winding are checked by induction \n method.\nConnect the battery on the high winding and \n voltmeter on low winding\nCheck the direction of voltmeter.\nIf the polarity is correct the direction of \n voltmeter in positive.\nMeasuring of DC \nResistance: used equipments: (microhmmeter: \nCA10)\n-The test done: - Periodically and at \ncapital repair. -After any fault.\n\nMeasuring the \nTurns Ratio use the equipment \n(ATRT-03)\nConnect the high cable (H1-H0) to the \nsecondary winding of CT, and\nConnect the low cable (X1-X0) to the primary winding then the ratio \nread directly from device.\nConnect the high cable (H1-H0) to the \nsecondary winding of CT, and\n1X-5\nThe \ntest done: - Periodically and at capital repair. \n -After any fault.\nSaturation Test\nThe test done - After any \nfault on CT - At acceptance tests.\nLocation: \nEquipment code: \nChecked by: \nDate: Signature:",
+ "text": "Power\n Stations | Technical Procedure\nIntroduction\nThis document outlines \nthe equipment tests I1, which must performed on an annually bases \nas indicated by Y1 in the title block. The first draft \ninitiated at High Dam HPS, by eng. Hossain Mahrous at 14 May 2002\nThe tests will be done after any fault on CT, \nat capital repair, and at acceptance tests.\nSafety Precautions\nWear \nsafety helmet, shoes, safety belt.\nA work permit must be issued and\nThe qualified maintenance staff should carry the \nsuitable safety category,\nSafety fence with caution marks surrounding the work area,\nWear \nsafety helmet, shoes, safety belt.\nSwitch off the line 500kv.\nSeparate the primary \nand the secondary terminals of \nwinding.\nSwitch on the grounds.\nPresence the industrial safety \nsupervisor.\nTools and Equipment\nSafety helmet, safety belt, \n rags, and silicagel\nMegger: isol 5003, \n Device (ATRT-03)\nDoble \n M4000, \n Microhmmeter CA10\nDC deflection \n voltmeter & d.c battery.\nWorks to be Carried Out\nInsulation Resistance \n* use Megger isol 5003\nNo* | Energize | Phase | Primary winding G.ohm | Secondary winding \n G.ohm\nR60 | R15 | R15 | R60\n | H.W -- ( L ) earthed | A | 77 | 17 | 10 | 14\n | H.W --- ( L ) earthed | B | 51 | 19 | 12 | 17\n | H.W --- ( L ) earthed | C | 46 | 18 | 8 | 11\nNo* | Energize | Phase | Primary winding G.ohm | Secondary winding \n G.ohm\nR60 | R15 | R15 | R60\n | H.W -- ( L ) earthed | A |  |  |  | \n | H.W --- ( L ) earthed | B |  |  |  | \n | H.W --- ( L ) earthed | C |  |  |  | \nHigh \nVoltage Test \n use \nDoble M4000\nChoose the mode GND.\nConnect the high cable to high winding and low \n cable (red or blue) to low winding.\nPhase | MOD | ENERGIZE | Temp | KV | tg \n δ \n % | CAP P.F\nA | GND | H.W--( L ) earthed | 35 | 10 | 0.16 | 1102\nB | GND | H.W---( L ) earthed |  | 10 | 0.14 | 1083\nC | GND | H.W---( L ) earthed |  | 10 | 0.17 | 1097\nPhase | MOD | ENERGIZE | Temp | KV | tg \n δ \n % | CAP P.F\nA | GND | H.W--( L ) earthed | 35 |  |  | \nB | GND | H.W---( L ) earthed |  |  |  | \nC | GND | H.W---( L ) earthed |  |  |  | \nChecking of Winding \n use the DC deflection \nvoltmeter & DC battery equipment\nPolarity of winding are checked by induction \n method.\nConnect the battery on the high winding and \n voltmeter on low winding\nCheck the direction of voltmeter.\nIf the polarity is correct the direction of \n voltmeter in positive.\nMeasuring of DC \nResistance: used equipments: (microhmmeter: \nCA10)\n-The test done: - Periodically and at \ncapital repair. -After any fault.\nPhase | Temp. | Secondary DC \n Resistance |  |  | Phase | Temp. | Secondary DC \n Resistance\nWinding | ohm |  |  | Winding | ohm\nA | 35 | 1X-1 | 4.96 |  |  | A |  | 1X-1 | \n |  | 1X-2 | 4.91 |  |  |  |  | 1X-2 | \n |  | 1X-3 | 5.94 |  |  |  |  | 1X-3 | \n |  | 1X-4 | 4.93 |  |  |  |  | 1X-4 | \n |  | 1X-5 | 4.87 |  |  |  |  | 1X-5 | \nB | 35 | 1X-1 | 4.85 |  |  | B |  | 1X-1 | \n |  | 1X-2 | 4.96 |  |  |  |  | 1X-2 | \n |  | 1X-3 | 5.65 |  |  |  |  | 1X-3 | \n |  | 1X-4 | 4.68 |  |  |  |  | 1X-4 | \n |  | 1X-5 | 4.94 |  |  |  |  | 1X-5 | \nC | 35 | 1X-1 | 4.99 |  |  | C |  | 1X-1 | \n |  | 1X-2 | 4.92 |  |  |  |  | 1X-2 | \n |  | 1X-3 | 5.74 |  |  |  |  | 1X-3 | \n |  | 1X-4 | 4.94 |  |  |  |  | 1X-4 | \n |  | 1X-5 | 4.94 |  |  |  |  | 1X-5 | \nMeasuring the \nTurns Ratio use the equipment \n(ATRT-03)\nConnect the high cable (H1-H0) to the \nsecondary winding of CT, and\nConnect the low cable (X1-X0) to the primary winding then the ratio \nread directly from device.\nDIFF% | C. Ratio | M. Ratio | Winding | Temp. | Phase\n0.09% | 2000 | 1998 | 1X-1 | 35 | A\n0.09% | 2000 | 1998 | 1X-2\n0.14% | 2000 | 2002 | 1X-3\n0.14% | 2000 | 2002 | 1X-4\n0.09% | 2000 | 1998 | 1X-5\n0.09% | 2000 | 1998 | 1X-1 | 35 | B\n0.09% | 2000 | 1998 | 1X-2\n0.14% | 2000 | 2002 | 1X-3\n0.14% | 2000 | 2002 | 1X-4\n0.09% | 2000 | 1998 | 1X-5\n0.09% | 2000 | 1998 | 1X-1 | 35 | C\n0.35% | 2000 | 1993 | 1X-2\n0.15% | 2000 | 2007 | 1X-3\n0.14% | 2000 | 2002 | 1X-4\n0.09% | 2000 | 1998 | 1X-5\nConnect the high cable (H1-H0) to the \nsecondary winding of CT, and\nConnect the low cable (X1-X0) to the primary winding then the ratio \nread directly from device.\nPhase | Temp. | Winding | M. \n Ratio | C. Ratio | DIFF%\nA |  | 1X-1 |  |  | \n |  | 1X-2 |  |  | \n |  | 1X-3 |  |  | \n |  | 1X-4 |  |  | \n |  | 1X-5 |  |  | \nB |  | 1X-1 |  |  | \n |  | 1X-2 |  |  | \n |  | 1X-3 |  |  | \n |  | 1X-4 |  |  | \n |  | 1X-5 |  |  | \nC |  | 1X-1 |  |  | \n |  | 1X-2 |  |  | \n |  | 1X-3 |  |  | \n |  | 1X-4 |  |  | \n |  | 1X-5 |  |  | \nThe \ntest done: - Periodically and at capital repair. \n -After any fault.\nSaturation Test\nPhase A | Phase B | Phase C\nInjected voltage (secondary) | Measured current (secondary) | Injected voltage (secondary) | Measured current (secondary) | Injected voltage (secondary) | Measured current (secondary)\n204 | 0.005 | 200 | 0.004 | 200 | 0.005\n302 | 0.006 | 302 | 0.006 | 305 | 0.006\n405 | 0.008 | 403 | 0.007 | 400 | 0.007\n501 | 0.009 | 501 | 0.008 | 500 | 0.008\nPhase A | Phase B | Phase C\nInjected voltage (secondary) | Measured current (secondary) | Injected voltage (secondary) | Measured current (secondary) | Injected voltage (secondary) | Measured current (secondary)\nThe test done - After any \nfault on CT - At acceptance tests.\nLocation: \nEquipment code: \nChecked by: \nDate: Signature:",
  "text_truncated": false,
  "links": [],
  "images": [
