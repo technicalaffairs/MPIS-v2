@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -83,8 +85,88 @@
    "text": "The engine must be operated \n and check the following steps and reads all the available record values and \n putted in maintenance record data sheet (MRDS) Table(3)."
   },
   {
-   "type": "paragraph",
-   "text": "Setting"
+   "type": "table",
+   "rows": [
+    [
+     "No.",
+     "Activities",
+     "Setting\n (reference value )",
+     "Test Results"
+    ],
+    [
+     "1.",
+     "Check the oil \n level in the tank.",
+     "Up to 1/2 oil \n level gauge",
+     ""
+    ],
+    [
+     "2.",
+     "Check the fuel \n level in the fuel tank",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "3.",
+     "Check the \n exhaust gas temperature",
+     "440 \n C \n 2.5 C",
+     ""
+    ],
+    [
+     "4.",
+     "Check the \n compression pressures in the individual cylinders",
+     "4.21:4.51 Mpa",
+     ""
+    ],
+    [
+     "5.",
+     "Check the \n exhaust gases colour",
+     "Colourless",
+     ""
+    ],
+    [
+     "6.",
+     "Check the \n uniform power distribution on cylinders",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "7.",
+     "Check any \n leakage from the piping connections to the diesel engine or its accessories \n (water, lube oil, fuel, and air).",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "8.",
+     "Check (by \n listening) the regular operation of the engine and whether there is no \n abnormal sounds or knocks",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "9.",
+     "Check whether \n there are no heavy knocks in the injection valve pipe.",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "10.",
+     "Check the \n operation of suction and exhaust valves, check the condition of the valve \n springs",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "11.",
+     "Check (by \n touch) the crankshaft and camshaft bearings temperature rise on the case \n covers of the cylinder blocks, at the points where the bearings are located",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "12.",
+     "Check the \n starting valves for tightness by touching the starting air pipes heating on \n cylinder heads",
+     "OK NOT OK",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -642,41 +724,109 @@
    "text": "Table no. (1) Clearance \nTable"
   },
   {
-   "type": "paragraph",
-   "text": "Between piston and liner"
-  },
-  {
-   "type": "paragraph",
-   "text": "A-A length 3"
-  },
-  {
-   "type": "paragraph",
-   "text": "B-B length 190"
-  },
-  {
-   "type": "paragraph",
-   "text": "1.8 1.852"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.67 0.722"
-  },
-  {
-   "type": "paragraph",
-   "text": "3.0"
-  },
-  {
-   "type": "paragraph",
-   "text": "1.0"
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "No.",
+     "Clearance in",
+     "Assembly clearance (mm)",
+     "Max. permissible clearance \n before overhaul \n (mm)"
+    ],
+    [
+     "1",
+     "Main bearing",
+     "0.17 - 0.256",
+     "0.35"
+    ],
+    [
+     "2",
+     "Big end bearing",
+     "0.13 - 0.25",
+     "0.4"
+    ],
+    [
+     "3",
+     "Piston pin bush",
+     "0.097 - 0.132",
+     "0.25"
+    ],
+    [
+     "4",
+     "Camshaft bearing",
+     "0.03 - 0.122",
+     "0.4"
+    ],
+    [
+     "5",
+     "Valve lever bush",
+     "0.025 0.075",
+     "0.35"
+    ],
+    [
+     "6",
+     "Suction and exhaust valve guide",
+     "0.2 0.257",
+     "0.45"
+    ],
+    [
+     "7",
+     "Between roller and valve (cold cond.)",
+     "0.35",
+     "-"
+    ],
+    [
+     "8",
+     "Between camshaft gear and intermediate \n gear",
+     "0.15 0.25",
+     "-"
+    ],
+    [
+     "9",
+     "Between divided gear and intermediate gear",
+     "0.2 0.3",
+     "-"
+    ],
+    [
+     "10",
+     "Between piston and liner\n A-A length 3\n B-B length 190\n C-C length 409",
+     "1.8 1.852\n 0.67 0.722\n 0.36 0.412",
+     "3.0\n 1.0\n 0.75"
+    ],
+    [
+     "11",
+     "Between head and piston edge in TDC",
+     "2.50.5",
+     "-"
+    ],
+    [
+     "12",
+     "In piston ring lock",
+     "1.4 1.8",
+     "3.00"
+    ],
+    [
+     "13",
+     "Axial clearance of crank shaft",
+     "0.1 0.169",
+     "0.30"
+    ],
+    [
+     "14",
+     "Axial clearance of connecting rod big end",
+     "0.7 1.25",
+     "1.25"
+    ],
+    [
+     "15",
+     "Ovality of crankshaft journal",
+     "0.21 length 100",
+     "0.12"
+    ],
+    [
      "16",
-     "",
-     "",
-     ""
+     "End float of freely mounted crankshaft \n (without flywheel)",
+     "Max. 0.03",
+     "0.06"
     ]
    ],
    "truncated_rows": 0
@@ -686,36 +836,120 @@
    "text": "Table no. (2) \nTest Pressure Table"
   },
   {
-   "type": "paragraph",
-   "text": "Oil cooler"
-  },
-  {
-   "type": "paragraph",
-   "text": "- \n Oil space"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.6"
-  },
-  {
-   "type": "paragraph",
-   "text": "5"
-  },
-  {
    "type": "table",
    "rows": [
     [
      "No",
-     "",
-     "",
+     "Name of part",
+     "Max. operating Pressure (Mpa)",
      "Test Condition"
     ],
     [
+     "Test p.\n (Mpa)",
+     "Time of Test\n (min)"
+    ],
+    [
+     "1",
+     "Cylinder liner in upper third",
+     "8.2",
+     "12.5",
+     "5"
+    ],
+    [
+     "2",
+     "Cylinder liner , lower part",
+     "-",
+     "2",
+     "5"
+    ],
+    [
+     "3",
+     "Piston bottom",
+     "8.2",
+     "11.5",
+     "5"
+    ],
+    [
+     "4",
+     "Air vessel with head",
+     "3.5",
+     "Min.5.25",
+     "-"
+    ],
+    [
+     "5",
+     "Cylinder head compression space",
+     "8.2",
+     "0.7",
+     "5"
+    ],
+    [
+     "6",
+     "Cylinder head water space",
+     "0.2",
+     "5.5",
+     "10"
+    ],
+    [
+     "7",
+     "Cylinder head bore for starting valve",
+     "3.5",
+     "12.5",
+     "5"
+    ],
+    [
+     "8",
+     "Fuel injection pipes",
+     "24.5",
+     "65",
+     "2"
+    ],
+    [
+     "9",
+     "Coarse oil cleaner",
+     "0.3",
+     "1",
+     "5"
+    ],
+    [
      "10",
-     "",
-     "",
-     "",
-     ""
+     "Oil cooler\n - \n Oil space \n - \n Water space",
+     "0.3\n 0.2",
+     "0.6\n 0.5",
+     "5\n 2"
+    ],
+    [
+     "11",
+     "Lube oil piping",
+     "0.3",
+     "0.6",
+     "5"
+    ],
+    [
+     "12",
+     "Air piping",
+     "3.5",
+     "7",
+     "2"
+    ],
+    [
+     "13",
+     "Water piping",
+     "0.2",
+     "0.5",
+     "2"
+    ],
+    [
+     "14",
+     "Upper crankcase water space",
+     "0.2",
+     "0.7",
+     "10"
+    ],
+    [
+     "15",
+     "Lower crankcase",
+     "Test for tightness by water Poured into"
     ]
    ],
    "truncated_rows": 0
@@ -725,12 +959,209 @@
    "text": "MRDS Maintenance Record Data Sheet MRDS\nTable No. (3)"
   },
   {
-   "type": "paragraph",
-   "text": "Setting"
-  },
-  {
    "type": "table",
    "rows": [
+    [
+     "No.",
+     "Name of Part",
+     "Setting\n Value",
+     "Unit",
+     "Record value",
+     "Remarks"
+    ],
+    [
+     "Before ins.",
+     "After Ins."
+    ],
+    [
+     "",
+     "During \n engine operates",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1",
+     "Rated power outlet (PJ) on crank shaft flange",
+     "530",
+     "Kw",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Rated speed",
+     "600",
+     "Rpm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Mean effective pressure",
+     "0.825",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "Compression pressure (at 75% pj)",
+     "4.21-4.51",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "Max. Combustion pressure",
+     "6.86",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "Max. Combustion pressure (at 10% overload)",
+     "7.16",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "Max. permissible pressure of exhaust gases in piping after \n turbine",
+     "0.3",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "Max. permissible sub-atmospheric pressure in suction side \n of turbo-supercharger",
+     "0.3",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9",
+     "Max. Exhaust gas temp. in sockets of individual cylinders",
+     "440",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "Max. Exhaust gas temp. in sockets of individual cylinders \n (at 10% over-load)",
+     "460",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "11",
+     "Max. Exhaust gas temp. before turbine",
+     "540",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "12",
+     "Max. Exhaust gas temp. before turbine at 10 % over load",
+     "580",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "13",
+     "Max. Exhaust gas temp. after turbine",
+     "460",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "14",
+     "Max. Exhaust gas temp. after turbine at 10 % over load",
+     "490",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "Max. Permissible lubricating oil temp. at outlet of engine",
+     "85",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "16",
+     "Mean recommended lubricating oil temp. at outlet of engine",
+     "70-80",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "17",
+     "Specific lubricating oil consumption of engine completely run (g/Kwh)",
+     "1.7",
+     "G/Kwh",
+     "",
+     "",
+     ""
+    ],
+    [
+     "18",
+     "Lubricating oil pressure measured at end of main \n distributed pipe at mean lube oil pressure changes according to operating \n speed of engine (Mpa)",
+     "0.1-0.3",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "19",
+     "Max. Permissible cooling water temp. at outlet of engine",
+     "80",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "20",
+     "Mean recommended cooling water temp. at outlet of engine",
+     "70-75",
+     "C",
+     "",
+     "",
+     ""
+    ],
     [
      "",
      "During \n disassembly & assembly",
@@ -742,54 +1173,54 @@
     ],
     [
      "1",
-     "",
-     "",
-     "",
+     "Clearance in Main bearing",
+     "0.17 - 0.256",
+     "mm",
      "",
      "",
      ""
     ],
     [
      "2",
-     "",
-     "",
-     "",
+     "Clearance in Big end bearing",
+     "0.13 - 0.25",
+     "mm",
      "",
      "",
      ""
     ],
     [
      "3",
-     "",
-     "",
-     "",
+     "Clearance in Piston pin bush",
+     "0.097-0.132",
+     "mm",
      "",
      "",
      ""
     ],
     [
      "4",
-     "",
-     "",
-     "",
+     "Clearance in Camshaft bearing",
+     "0.03 - 0.122",
+     "mm",
      "",
      "",
      ""
     ],
     [
      "5",
-     "",
-     "",
-     "",
+     "Clearance in Valve lever bush",
+     "0.0250.075",
+     "mm",
      "",
      "",
      ""
     ],
     [
      "6",
-     "",
-     "",
-     "",
+     "Clearance in Suction & exhaust valve guide",
+     "0.2 0.257",
+     "mm",
      "",
      "",
      ""
@@ -802,46 +1233,34 @@
    "text": "MRDS Maintenance Record Data Sheet MRDS\nTable No. (3) \nContinue"
   },
   {
-   "type": "paragraph",
-   "text": "Setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "Clearance between piston and liner"
-  },
-  {
-   "type": "paragraph",
-   "text": "A-A length 3"
-  },
-  {
-   "type": "paragraph",
-   "text": "B-B length 190"
-  },
-  {
-   "type": "paragraph",
-   "text": "1.8 1.852"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.67 0.722"
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "No.",
+     "Name of Part",
+     "Setting\n Value",
+     "Unit",
+     "Record value",
+     "Remarks"
+    ],
+    [
+     "Before ins.",
+     "After Ins."
+    ],
+    [
      "7",
-     "",
-     "",
-     "",
+     "Clearance between roller and valve (cold cond.)",
+     "0.35",
+     "mm",
      "",
      "",
      ""
     ],
     [
      "8",
-     "",
-     "",
-     "",
+     "Clearance between camshaft gear and \n intermediate gear",
+     "0.15 0.25",
+     "mm",
      "",
      "",
      ""
@@ -849,17 +1268,17 @@
     [
      "9",
      "Clearance between divided gear and \n intermediate gear",
-     "",
-     "",
+     "0.2 0.3",
+     "mm",
      "",
      "",
      ""
     ],
     [
      "10",
-     "",
-     "",
-     "",
+     "Clearance between piston and liner\n A-A length 3\n B-B length 190\n C-C length 409",
+     "1.8 1.852\n 0.67 0.722\n 0.36 0.412",
+     "mm",
      "",
      "",
      ""
@@ -867,8 +1286,8 @@
     [
      "11",
      "Clearance between head and piston edge in \n TDC",
-     "",
-     "",
+     "2.5 0.5",
+     "mm",
      "",
      "",
      ""
@@ -876,8 +1295,8 @@
     [
      "12",
      "Clearance in piston ring lock",
-     "",
-     "",
+     "1.4 1.8",
+     "mm",
      "",
      "",
      ""
@@ -885,8 +1304,8 @@
     [
      "13",
      "Axial clearance of crank shaft",
-     "",
-     "",
+     "0.1 0.169",
+     "mm",
      "",
      "",
      ""
@@ -894,8 +1313,8 @@
     [
      "14",
      "Axial clearance of connecting rod big end",
-     "",
-     "",
+     "0.7 1.25",
+     "mm",
      "",
      "",
      ""
@@ -903,8 +1322,8 @@
     [
      "15",
      "Ovality of crankshaft journal",
-     "",
-     "",
+     "0.21 length 100",
+     "mm",
      "",
      "",
      ""
@@ -912,8 +1331,8 @@
     [
      "16",
      "End float of freely mounted crankshaft \n (without flywheel)",
-     "",
-     "",
+     "Max. 0.03",
+     "mm",
      "",
      "",
      ""
@@ -969,6 +1388,162 @@
    "type": "table",
    "rows": [
     [
+     "Item\n No.",
+     "Item no.",
+     "Item\n No..",
+     "Item name"
+    ],
+    [
+     "001",
+     "Lower crankcase",
+     "034",
+     "Fuel oil pump"
+    ],
+    [
+     "002",
+     "Upper case",
+     "035",
+     "Instrument board"
+    ],
+    [
+     "003",
+     "Rear case",
+     "036",
+     "Suspension for engine lifting"
+    ],
+    [
+     "004",
+     "Cover on the engine",
+     "037",
+     "Water pump"
+    ],
+    [
+     "005",
+     "Engine case de-aerating",
+     "038",
+     "Stopping equipment"
+    ],
+    [
+     "006",
+     "Piston with connecting rod",
+     "040",
+     "Signalization"
+    ],
+    [
+     "007",
+     "Cylinder head",
+     "041",
+     "Flywheel"
+    ],
+    [
+     "008",
+     "Camshaft",
+     "047",
+     "Drive ALNICA"
+    ],
+    [
+     "009",
+     "Timing gear",
+     "049",
+     "Fuel oil tank"
+    ],
+    [
+     "010",
+     "Timing gearing",
+     "053",
+     "Water piping"
+    ],
+    [
+     "011",
+     "Front lid with drive",
+     "054",
+     "Filling socket"
+    ],
+    [
+     "012",
+     "Tachogenerator drive",
+     "055",
+     "Air tank with head 100 1, 0,5 Mpa"
+    ],
+    [
+     "014",
+     "Air distributor",
+     "057",
+     "Air tank with head"
+    ],
+    [
+     "016",
+     "Regulation",
+     "058",
+     "Oil cooler"
+    ],
+    [
+     "017",
+     "Exhaust piping",
+     "059",
+     "Balance beam lubrication"
+    ],
+    [
+     "018",
+     "Suction pipe",
+     "103",
+     "Oil separator"
+    ],
+    [
+     "019",
+     "Piping on engine",
+     "105",
+     "Reducing valve 3.5/0.5 Mpa"
+    ],
+    [
+     "021",
+     "Air piping",
+     "150",
+     "Electric speed adjustment"
+    ],
+    [
+     "022",
+     "Fuel oil piping",
+     "154",
+     "Mixing basin"
+    ],
+    [
+     "023",
+     "Oil piping",
+     "157",
+     "Pre-lubricating pump"
+    ],
+    [
+     "024",
+     "Turning mechanism",
+     "158",
+     "Pre-lubricating piping"
+    ],
+    [
+     "025",
+     "Gallery",
+     "161",
+     "Oil cooler"
+    ],
+    [
+     "027",
+     "Oil tank with heating",
+     "173",
+     "Oil cleaning set"
+    ],
+    [
+     "029",
+     "Oil pump",
+     "175",
+     "Coarse oil filter"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "Figure (3)"
     ],
     [
@@ -994,19 +1569,422 @@
    "text": "Technical Specifications"
   },
   {
-   "type": "paragraph",
-   "text": "Rating of basic operating \n parameters :-"
+   "type": "table",
+   "rows": [
+    [
+     "No. of Diesel engine \n per unit",
+     "1"
+    ],
+    [
+     "Type of diesel engine",
+     "6 S 275 III PN"
+    ],
+    [
+     "Manufacture",
+     "CKD PRAHA"
+    ],
+    [
+     "Country",
+     "HARDEC KRALOVE CZECH"
+    ],
+    [
+     "Rating of basic operating \n parameters :-\n at \n air rating limited by following values :\n Barometric pressure bj \n = 98 Kpa, \n Air \n temperature taj = \n 20 ºC \n Air \n humidity = 60 %"
+    ],
+    [
+     "- \n Rated power output (PJ) \n on crank shaft flange kw",
+     "530"
+    ],
+    [
+     "- \n Rated \n speed r.p.m",
+     "600"
+    ],
+    [
+     "-\n Power outlet with \n 10 % over load kw",
+     "583"
+    ],
+    [
+     "- \n Power output at \n defect of turbo super charge with rotor blocked up kw",
+     "210"
+    ],
+    [
+     "- \n Consumption of fuel oil at 100,75,50 \n % \n g/Kwh",
+     "(215,211,216) + 5%"
+    ],
+    [
+     "Rating of \n diesel generating set :"
+    ],
+    [
+     "- \n Rated power out put pn \n KVA",
+     "688"
+    ],
+    [
+     "- \n Rated power out put at cos \n φ \n 0.8 \n kw",
+     "485"
+    ],
+    [
+     "- \n Rated speed \n (r.p.m)",
+     "600"
+    ],
+    [
+     "- \n Power out put with 10 % over load at cos \n φ 0.8 \n kw",
+     "534"
+    ],
+    [
+     "- \n Irregularity of engine running",
+     "1 : 141"
+    ],
+    [
+     "Characteristic data of type and layout of engine:"
+    ],
+    [
+     "- \n Number of strokes of working cycle",
+     "4"
+    ],
+    [
+     "- \n Type of fuel injection",
+     "Direct"
+    ],
+    [
+     "- \n Type of supercharging",
+     "Low pressure"
+    ],
+    [
+     "- \n Direction of rotation",
+     "Clockwise"
+    ],
+    [
+     "- \n Layout",
+     "Right hand , Left hand"
+    ],
+    [
+     "- \n Type of cooling",
+     "By water"
+    ],
+    [
+     "- \n Type of starting",
+     "By pressure air"
+    ],
+    [
+     "-\n Type of lubrication",
+     "By pressure oil"
+    ],
+    [
+     "Design data:"
+    ],
+    [
+     "No. of cylinder and their arrangement",
+     "6 ( In line)"
+    ],
+    [
+     "Cylinder \n bore mm",
+     "275"
+    ],
+    [
+     "Piston stroke mm",
+     "350"
+    ],
+    [
+     "Cylinder capacity \n dm",
+     "20.8"
+    ],
+    [
+     "Engine volume dm",
+     "124.8"
+    ],
+    [
+     "Compression ratio",
+     "13"
+    ],
+    [
+     "Data referring to speed \n and its governing :"
+    ],
+    [
+     "Main piston speed \n m/s",
+     "7"
+    ],
+    [
+     "No-load speed n) o \n r.p.m",
+     "630"
+    ],
+    [
+     "Maximum momentary speed n)m \n r.p.m",
+     "660"
+    ],
+    [
+     "Irregularity of engine running",
+     "Min. 1 : 150"
+    ],
+    [
+     "Irregularity of engine speed",
+     "0.5 %"
+    ],
+    [
+     "Operating \n Pressure:"
+    ],
+    [
+     "Mean effective pressure \n Mpa",
+     "0.825"
+    ],
+    [
+     "Compression pressure (at 75% pj) Mpa",
+     "4.21 - 4.51"
+    ],
+    [
+     "Max. Combustion pressure \n Mpa",
+     "6.86"
+    ],
+    [
+     "Max. Combustion pressure (at 10 % \n overload) Mpa",
+     "7.16"
+    ],
+    [
+     "Max. Permissible pressure of exhaust gases in piping after \n turbine (Mpa)",
+     "0.3"
+    ],
+    [
+     "Max. Permissible sub-atmospheric pressure in suction side \n of turbo-supercharger (Mpa)",
+     "0.3"
+    ],
+    [
+     "Operating Temperature:"
+    ],
+    [
+     "Max. Exhaust gas temp. in sockets of \n individual cylinders C",
+     "440"
+    ],
+    [
+     "Max. Exhaust gas temp. in sockets of individual cylinders\n at 10% over-load) C",
+     "460"
+    ],
+    [
+     "Max. Exhaust gas temp. before turbine \n C",
+     "540"
+    ],
+    [
+     "Max. Exhaust gas temp. before turbine at \n 10 % over load C",
+     "580"
+    ],
+    [
+     "Max. Exhaust gas temp. after \n turbine C",
+     "460"
+    ],
+    [
+     "Max. Exhaust gas temp. after turbine at 10 % over load C",
+     "490"
+    ],
+    [
+     "Lubrication data:"
+    ],
+    [
+     "Max. Permissible lubricating oil temp. at outlet of \n engine (C)",
+     "85"
+    ],
+    [
+     "Mean recommended lubricating oil temp. at outlet of \n engine (C)",
+     "70 - 80"
+    ],
+    [
+     "Specific lubricating oil consumption of engine completely \n run (g/Kwh)",
+     "1.7 + 10 %"
+    ],
+    [
+     "Lubricating oil pressure measured at end of main \n distributing pipe at mean lube oil pressure changes according to operating \n speed of engine (Mpa)",
+     "0.1-0.3"
+    ],
+    [
+     "Recommended lubricating oil type",
+     "Delvac 1230"
+    ],
+    [
+     "Quantity \n of lubricating oil exchange every 1500 op . hr \n Kg",
+     "500"
+    ],
+    [
+     "Cooling data:"
+    ],
+    [
+     "Max. Permissible cooling water temp. at outlet of \n engine C",
+     "80"
+    ],
+    [
+     "Mean recommended cooling water temp. at \n outlet of engine C",
+     "70 - 75"
+    ],
+    [
+     "Max. starting air pressure Mpa",
+     "3.5"
+    ],
+    [
+     "Starting data:"
+    ],
+    [
+     "Min. at which a cold engine can be \n started Mpa",
+     "1.4"
+    ],
+    [
+     "Min. at which a warm engine can be started \n Mpa",
+     "1.2"
+    ],
+    [
+     "No. of consecutive starting operations from one starting \n air bottle (cap. Of 200 L) at an initial pressure of 3.5 Mpa without \n recharging of bottle , for starting a cold engine",
+     "6"
+    ],
+    [
+     "Capacity of starting air bottle \n \"litters\"",
+     "200"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "at \n air rating limited by following values :"
-  },
-  {
-   "type": "paragraph",
-   "text": "Barometric pressure bj \n = 98 Kpa, \n Air \n temperature taj = \n 20 ºC"
+   "type": "table",
+   "rows": [
+    [
+     "Data \n referring to fuel oil pump :"
+    ],
+    [
+     "-\n Amount \n delivered by fuel oil pump \nl/min",
+     "8.15"
+    ],
+    [
+     "- Delivery \n head of pump \n m",
+     "10"
+    ],
+    [
+     "- Max. suction head at flooded suction \n piping m",
+     "4"
+    ],
+    [
+     "Data \n referring to supercharging and turbo-supercharger:"
+    ],
+    [
+     "-\n Type \n of turbo-supercharger",
+     "PDH35NM-B2-A/25"
+    ],
+    [
+     "-\n Amount of charging air drawn in at air ratings in suction \n side of blower (Kg/h)",
+     "4400 220"
+    ],
+    [
+     "-\n Charging air pressure at air ratings in \nsuction side of blower \n (Mpa)",
+     "0.133"
+    ],
+    [
+     "-\n Min. \n speed ( r.p.m)",
+     "14600"
+    ],
+    [
+     "-\n Max. \n speed \n (r.p.m)",
+     "20000"
+    ],
+    [
+     "-\n Max. Cooling water temp. at outlet from blower \n(C)",
+     "80"
+    ],
+    [
+     "-\n Mass of turbo-supercharge (Kg)",
+     "340"
+    ],
+    [
+     "Mass data :-"
+    ],
+    [
+     "-\n Mass of engine alone without \n accessories (Kg)",
+     "9600 + 5%"
+    ],
+    [
+     "- Mass of water in \n engine (Kg)",
+     "400"
+    ],
+    [
+     "- Mass of oil spaces of \n engine (Kg)",
+     "100"
+    ],
+    [
+     "-\n Mass of heaviest component part of engine upper part of \n crankcase (Kg)",
+     "1800"
+    ],
+    [
+     "Type denomination of injection equipment"
+    ],
+    [
+     "- Injection pump",
+     "PC 1C 16Lg \n 146g-1834 V"
+    ],
+    [
+     "- Nozzle holder",
+     "VN 200 T 864"
+    ],
+    [
+     "- Nozzle",
+     "Do 140 T 735 - 4501"
+    ],
+    [
+     "Distribution of timing, e.g., angle of \n crankshaft turning in relation to T.D.C. at moments of beginning and \n termination of valve closing within specified clearance in the timing gear"
+    ],
+    [
+     "- Suction valve opens",
+     "89º before T.D.C."
+    ],
+    [
+     "- Suction valve closes",
+     "39º after T.D.C."
+    ],
+    [
+     "- Exhaust valve opens",
+     "57º before T.D.C."
+    ],
+    [
+     "- Exhaust valve closes",
+     "57º after T.D.C."
+    ],
+    [
+     "Setting of air starting by timing gear"
+    ],
+    [
+     "-\n Beginning of starting",
+     "2º after T.D.C."
+    ],
+    [
+     "- Termination of starting",
+     "124º after T.D.C."
+    ],
+    [
+     "Opening pressure of \n injector ( Mpa)",
+     "24.5"
+    ],
+    [
+     "Geometric beginning of \n fuel delivery by injection pump in degrees of crankshaft rotation in \n relation to T.D.C",
+     "16 - 18º before T.D.C"
+    ],
+    [
+     "Stroke of injection \n pump plunger from L.D.C. at geometric beginning of fuel delivery",
+     "4.5 0.5"
+    ],
+    [
+     "Parameters for setting \n safety and control valves:-"
+    ],
+    [
+     "-\n Safety valve located in cylinder head is \nset so that combustion pressure is not exceeded \n (Mpa)",
+     "7.5"
+    ],
+    [
+     "- Control valve on fuel oil pump is set so \n that fuel oil pressure after pump is not exceeded (Mpa)",
+     "0.2"
+    ],
+    [
+     "- Control valve on lube oil pump is set at pj and mean oil \n temperature so that manometer shows value (Mpa)",
+     "0.3"
+    ],
+    [
+     "Firing order \n clockwise turning engine",
+     "1-4-2-6-3-5"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Power \n Stations\nTechnical Procedure\nIntroduction\nThis document \nlists the major maintenance procedure P2 of emergency diesel engine, which must \nbe performed every 25000 operation hours as indicated by H 25000 in the title \nblock.\nThe technical specifications for the diesel stated at the end of the \ndocument.\nThe first draft initiated by \neng.: Hesham M. Hassan, reviewed by \nMaintenance director: eng. Saad Mostafa, revised by eng. Samir Abdel-Gelil at EDEPCo., accepted by maintenance general director: \neng. Aly Mostafa Al-lithy and approved by eng. Mostafa Alam Head Sector of Talkha steam power station 2 x \n210 MW.\nSafety Precautions\nWork permit must be issued, the qualified maintenance staff must carry the suitable ID safety \ncategory.\nSafety fence with caution marks surrounding the work area.\nWork permit must be issued, the qualified maintenance staff must carry the suitable ID safety \ncategory.\nSafety fence with caution marks surrounding the work area.\nWear appropriate personal protective \n equipment must be used: safety \n shoes, helmet, breathing mask, safety glasses\nIsolate the circuit breaker for the diesel engine.\nTools and Equipment\nComplete \n maintenance tool set.\nCleaning fluid, Feeler gauge,\nSuitable lifting device.\nWork to be carried out\nBefore isolated the diesel engine mechanically \n and electrically\nThe engine must be operated \n and check the following steps and reads all the available record values and \n putted in maintenance record data sheet (MRDS) Table(3).\nSetting\nNotes:\n...............................................................................................................................................................................\n...............................................................................................................................................................................\nLocation: Equipment \ncode:\nTested Date : \nChecked by: \nSignature :\nAfter isolated the diesel engine mechanically and \nelectrically\nFig (1) & fig (2) help you to disassemble \nwell\nClean carefully the dismantled point \n and the surfaces close to it with fuel oil, at complete dismantling of the \n engine, the whole engine is cleaned.\nCare is to be taken to preserve \n cleanliness when dismantling the engine.\nWash every part in fuel oil and wipe \n it with clean rags or with blast of compressed air\nUse only suitable tools for \n disassembly.\nTake good notes of its position on \n the engine so that reassembly may be facilitated, before dismantling any part \n from the engine.\nBe sure take note of any marks or \n items no. on them , acc. to which they should be re-assembled. Before \n disassembling the parts and assemblies,\nProtect the engine from dirt, to \n close the open points, cover the outlets with oiled paper and wrap the pipe \n ends with paper.\nCheck whether the parts are in good \n condition or whether they are to be repaired or replaced with new ones.\nUnscrew the nuts of all bolts a turn \n or more and then only remove all the nuts. When dismantling parts or \n assemblies,\nBe sure screw in all the bolts and \n nuts in their original position after the parts or assemblies so that they may \n not be lost or exchanged .Tie the shims and washers together and mark them so \n that they may not be lost or exchanged during the re-assembly.\nTake care no excessive force should \n be applied to dismantle any part. If a big force is required, it is necessary \n to ascertain the cause and to remove it.\nCheck whether the parts are suitable \n for further use, by examining and measuring the parts, determining the \n clearance (or interference) between contact surfaces, testing for tightness, \n etc \n - Replace damage or worn parts by new ones.\n - Make sure that the correct clearance or interference is \n observed when replaced the parts \n - Record the values of clearances, which measure during, \n disassemble for all parts of engine in table (3).\nClean every part and lubricated the \n moving parts with clean oil before starting to reassemble.\nComplete Engine Disassembly\nDrain \n the water, lubricated oil and fuel oil from the engine and all pipes.\nClose the air inlet.\nDisconnect the engine from the \n driven machine.\nDismantle the glass thermometer, the \n instrument board and other measuring instruments and the transmitters of \n electric instruments from the engine.\nLoosen and remove all water, oil, \n air and fuel pipes, which would hinder the dismantling of the engine.\nRemove the suction tube and exhaust \n piping from the engine cylinder heads, also the charging elbow at the \n supercharged engine.\nDismantle the double the double fuel \n cleaner.\nRemove the starting equipment with \n feed pipe.\nDismantle the front cover.\nDismantle the flywheel from the \n crankshaft.\nDismantle the lateral lids and \n covers on the engine.\nDismantle the cylinder heads.\nDismantle the valve push rods and \n the valve push rod covers.\nDismantle the turbo-supercharger \n with the bracket (at supercharged engine).\nDismantle the connecting rods with \n the pistons.\nDismantle the governor\nDismantle the rear cover.\nDismantle the upper engine case.\nDismantle the lids with shells of \n all the main bearings of the crankshaft\nDismantle the crankshaft\nDisassembly \nof Individual assemblies\nDismantling of the Front cover with Pump\nDismantle the water, oil, fuel and \n air piping.\nDismantle the fuel pump.\nDismantle the oil pump from the \n front cover of engine.\nDismantle the lid with \n tachogenerator drive.\nDismantle the front cover from the \n crankcase.\nDisassembly of Cylinder Head\nRemove the exhaust gas thermometer, \n the cooling water thermometer and the indicator cock.\nRemove the cylinder head cover.\nRemove the valve push rods by \n raising the valve rocker arms.\nRemove the bolts joining the sucking \n tube with the cylinder head.\nLoosen and remove the bolts of the \n exhaust pipe flanges at the cylinder head.\nDismantle all pipes which would \n hinder the disassembly of the corresponding cylinder head (water collecting \n pipe, air inlet pipe, fuel inlet / outlet pipes and oil inlet pipe And / or \n instrument board).\nLoosen gradually the nuts of the \n cylinder head bolts for one turn and then remove them.\nScrew \n in two suspension bolts, suspend the cylinder head, moves it above the studs \n and place it aside.\nDisassembly of the Connecting Rod with Piston\nDismantle the corresponding cylinder \n head.\nDismantle the corresponding lateral \n cover of the upper part of the crankcase.\nRemove the split pins of connecting \n rod bolts.\nLoosen and screw off the connecting \n rod bolt-nuts. At the same time hold the lower big end lid to prevent it from \n falling into the crankcase.\nMoving out the connecting rod bolts.\nRemove the Lower big end lid with \n the shell through the hole in the lower lid of case.\nScrew the suspension of piston \n firmly on the piston crown. Clean the threads of bolts before.\nRemove the pistons with the \n connecting rod shank and shell and place it aside by means of lifting device. \n When removing the piston, watches through the hole in the lower lid of casing \n that the connecting rod flange does not catch the side of cylinder bush and \n does not damage it.\nDismantle the piston after the \n circlips have been removed and gudgeon pin has been driven out by means of \n special fixture.\nDismantle all the pistons from \n engine one after another from the 1st to the 6th \n cylinder.\nTurn the crankshaft on removal of \n the flywheel, by means of a wooden beam or an iron bar placed between 3 to 4 \n bolts inserted into the holes in the crankshaft flange.\nCAUTATION:\nAfter the \ncrankshaft has been turned into the TDCs for dismantling the 2nd, 3rd, \n5th and 6th cylinders, it is necessary to secure in this \nposition against swinging which might cause injury to the operator or damage to \nthe engine. This may be done by securing the crankshaft in the crankcase by \nwooden beams or by two iron bars inserted between the flywheel bolts and \nbearings upon the floor.\nDisassembly of Crankshaft\nSeparate the upper and lower engine \ncase.\nRemove the lids with shells of all \ncrankshaft bearings.\nDismantle the counterweights.\nSeparate the upper and lower engine \ncase.\nRemove the lids with shells of all \ncrankshaft bearings.\nDismantle the counterweights.\nGeneral instruction for \nPartial or Complete Assembly\nFig. (1) & Fig. (2) help you to disassemble well\nWash the parts with fuel oil by \n means of brush, wipe them with a rag which does not leave behind any fibers or \n clean them with a blast of compressed air.\nRemove defects of all parts and \n assemblies.\nCheck the fitting areas of the \n parts\nBlow all pipes or ports through \n with compressed air to remove all impurities settled in them\nRecord the values of clearances, which measure after assemblies for all parts \n of engine in table 3\nAssembly of Engine Parts\nLubricate the friction surfaces of \n the parts.\nProtect the engine so that no dust \n and impurities may penetrate in.\nMaintain the working site clean and \n in good order.\nTake good notes of the marks and \n items Nos. on the parts or assemblies in order to fit them in the same \n position as before their disassembly.\nTighten the bolts and nuts crosswise \n and gradually .Do not tighten them firmly one after another to avoid any \n deformation of the parts.\nDo not mount any other parts, unless \n the previous part is fitted or attached correctly.\nCheck whether the assemblies are \n assembled correctly and whether they can be freely turned or moved.\nUse only new split pins and look- \n washers, undamaged and new gaskets and packing.\nUse only the necessary tools and \n fixtures.\nAssemble every part in reverse \n sequence of disassembly\nAssembly of Crankshaft \nBearings\nAssembly of the main \nBearings\nClean thoroughly the \nseating surfaces and lubricate properly the main bearing bolts threads, nuts and \nbearing shell.\nInsert the lower \nhalf of bearing shell into the clean bore in the lower part of the crankcase.\nInsert the \nCrankshaft. Fit the upper half of bearing shell with the cap ( Observe the \nnumbering of the caps and shells)\nTighten firmly the \nnuts (So that the shell seats down), loosen them and tighten again.\nTighten alternately \nand uniformly the nuts to the line of marking of nut and shell marked by marker.\nCheck the \nclearances. In vertical plan the clearance must be within 0.17 - 0.256 mm in the \nplan measured 10 mm from the dividing plan of both sides and on both bridges it \nmust be for 0.02 - 0.1 mm larger than the clearance measured in the vertical plan.\nAssemble every part \nin reverse sequence of disassembly.\nClean thoroughly the \nseating surfaces and lubricate properly the main bearing bolts threads, nuts and \nbearing shell.\nInsert the lower \nhalf of bearing shell into the clean bore in the lower part of the crankcase.\nInsert the \nCrankshaft. Fit the upper half of bearing shell with the cap ( Observe the \nnumbering of the caps and shells)\nTighten firmly the \nnuts (So that the shell seats down), loosen them and tighten again.\nTighten alternately \nand uniformly the nuts to the line of marking of nut and shell marked by marker.\nCheck the \nclearances. In vertical plan the clearance must be within 0.17 - 0.256 mm in the \nplan measured 10 mm from the dividing plan of both sides and on both bridges it \nmust be for 0.02 - 0.1 mm larger than the clearance measured in the vertical plan.\nAssemble every part \nin reverse sequence of disassembly.\nAssembly of the \nBig end Bearings\nClean thoroughly the \nseating surfaces and lubricate properly the connecting rod bolts.\nMeasure the \nconnecting rod bolt in loose condition by using the measuring yoke supplied with \nthe engine tools and indicated by the engine No. and the nominal length of bolts \nwhich inserting feelers between the recessed end of bolt and the seating surface \nof the yoke .Fig(3)\nFit the connecting \nrod lid with shell and inserted connecting rod bolts to the crankshaft pin and \nconnecting rod shackle and connecting rod bolts are lightly tightened by nuts\n(Observe the numbering on \nthe connecting rod and bolts)\nTighten the nuts \n(acc. to the tightening of main bolt joints).\nAssemble every part \nin reverse sequence of disassembly.\nClean thoroughly the \nseating surfaces and lubricate properly the connecting rod bolts.\nMeasure the \nconnecting rod bolt in loose condition by using the measuring yoke supplied with \nthe engine tools and indicated by the engine No. and the nominal length of bolts \nwhich inserting feelers between the recessed end of bolt and the seating surface \nof the yoke .Fig(3)\nFit the connecting \nrod lid with shell and inserted connecting rod bolts to the crankshaft pin and \nconnecting rod shackle and connecting rod bolts are lightly tightened by nuts\n(Observe the numbering on \nthe connecting rod and bolts)\nTighten the nuts \n(acc. to the tightening of main bolt joints).\nAssemble every part \nin reverse sequence of disassembly.\nAssembly of Cylinder \nHeads\nBe sure the gaskets \nused must be straight, not damaged and annealed.\nPlace the gasket on \nthe cylinder liner and centered accurately so that it may not protrude over the \nedge of the liner and fits properly in the recess.\nMount the cylinder \nhead on the bolts and fit it to the cylinder liner so that the gasket is not \nshifted or reformatted.\nCheck the seating of \nthe cylinder head and gasket whether the gasket is not squeezed at any point. \nReplace the gasket if damaged.\nSet the valve \nclearance see clearance table (Table No. 1).\nThe nuts of cylinder \nhead bolts should be tighten (acc. to the tightening of main bolt joints).\nAssemble every part \nin reverse sequence of disassembly.\nBe sure the gaskets \nused must be straight, not damaged and annealed.\nPlace the gasket on \nthe cylinder liner and centered accurately so that it may not protrude over the \nedge of the liner and fits properly in the recess.\nMount the cylinder \nhead on the bolts and fit it to the cylinder liner so that the gasket is not \nshifted or reformatted.\nCheck the seating of \nthe cylinder head and gasket whether the gasket is not squeezed at any point. \nReplace the gasket if damaged.\nSet the valve \nclearance see clearance table (Table No. 1).\nThe nuts of cylinder \nhead bolts should be tighten (acc. to the tightening of main bolt joints).\nAssemble every part \nin reverse sequence of disassembly.\nTightening of main \nBolt Joints\nTightening of cylinder \nHead Bolt Nuts\nBe sure the nuts of \ncylinder head tightened crosswise by means of the cylinder head spanner extended \nwith a bar.\nDo the tightening in \ntwo steps.\n- First, all cylinder head \nnuts are tightened for the bolt prolongation of approx. 0.15-mm.\n- The next, tightening is done for the prolongation of bolt of 0.25-0.3 mm. \nAfter the engine has been started a check for tightness is made\nBolts prolongation \nis measured by depth gauge with vernier accuracy of 0.02 mm.\nDuring measurement, \narms of gauge are supported on the upper surface of nut and the movable part is \nmoved out so that it touches the ground bolt surface in nut.\nThe difference \nbetween measured values before and after the tightening of the cylinder head \nbolts means the value of bolt prolongation.\nBe sure the nuts of \ncylinder head tightened crosswise by means of the cylinder head spanner extended \nwith a bar.\nDo the tightening in \ntwo steps.\n- First, all cylinder head \nnuts are tightened for the bolt prolongation of approx. 0.15-mm.\n- The next, tightening is done for the prolongation of bolt of 0.25-0.3 mm. \nAfter the engine has been started a check for tightness is made\nBolts prolongation \nis measured by depth gauge with vernier accuracy of 0.02 mm.\nDuring measurement, \narms of gauge are supported on the upper surface of nut and the movable part is \nmoved out so that it touches the ground bolt surface in nut.\nThe difference \nbetween measured values before and after the tightening of the cylinder head \nbolts means the value of bolt prolongation.\nTightening of \nconnecting Rod Bolt Nuts\nCheck the connecting \nrod surface from the mechanical break of surface or any defect. If the \nmechanical break is larger, bolts must be exchanged.\nReplace all bolts \nwith found permanent deformation larger than 0.1 mm (permanent bolt prolongation \nat free state).\nMeasure the length \nof bolt at free state by means of measuring shackle by underputting the feeler \ngauge between the recessed bolt end and shackle seating (See Fig 4). The \nclearance A can be found from the clearance table (Table 1).\nAssemble the \nconnecting rod bolts acc. to prescript numbering as shown in Fig (3).\nBe sure the nuts of \nthe connecting rod Bolts are crosswise tightened to the line of marking of nut \nand bolt which corresponds to prescript prolongation of connecting rod bolts \n(0.2 0.28 mm) up to position of a cut in a nut and a hole in a bolt for a \nsplit pin.\nMeasure the \nconnecting rod bolts prolongation by measuring shackle and feeler as shown in \nFig (4).\nAfter tightening the nuts of the \nconnecting rod bolts they are ensured by a split pin which must be not move \nafter its opening.\nCheck the connecting \nrod surface from the mechanical break of surface or any defect. If the \nmechanical break is larger, bolts must be exchanged.\nReplace all bolts \nwith found permanent deformation larger than 0.1 mm (permanent bolt prolongation \nat free state).\nMeasure the length \nof bolt at free state by means of measuring shackle by underputting the feeler \ngauge between the recessed bolt end and shackle seating (See Fig 4). The \nclearance A can be found from the clearance table (Table 1).\nAssemble the \nconnecting rod bolts acc. to prescript numbering as shown in Fig (3).\nBe sure the nuts of \nthe connecting rod Bolts are crosswise tightened to the line of marking of nut \nand bolt which corresponds to prescript prolongation of connecting rod bolts \n(0.2 0.28 mm) up to position of a cut in a nut and a hole in a bolt for a \nsplit pin.\nMeasure the \nconnecting rod bolts prolongation by measuring shackle and feeler as shown in \nFig (4).\nAfter tightening the nuts of the \nconnecting rod bolts they are ensured by a split pin which must be not move \nafter its opening.\nTightening of \nBolt Nuts of Main Bearings\nBe \nsure the upper shell and the bearing lids are assembled.\nTighten all nuts crosswise to the line \nof nuts and shell marking for the given prolongation (0.22 to 0.26 mm) marked by \nmanufacturer.\nCheck the clearance.\nLock the nuts against loosening by a \nlock.\nBe sure prolongation check is not \ncarried out, unless at bolt exchange by means of dial indicator as shown in Fig \n(5).\nMark identically the nuts and bolts \nagain by a line.\nBe sure under this tightening the \nbolts must have an extension of 0.22-0.26 mm.\nBe \nsure the upper shell and the bearing lids are assembled.\nTighten all nuts crosswise to the line \nof nuts and shell marking for the given prolongation (0.22 to 0.26 mm) marked by \nmanufacturer.\nCheck the clearance.\nLock the nuts against loosening by a \nlock.\nBe sure prolongation check is not \ncarried out, unless at bolt exchange by means of dial indicator as shown in Fig \n(5).\nMark identically the nuts and bolts \nagain by a line.\nBe sure under this tightening the \nbolts must have an extension of 0.22-0.26 mm.\nTightening of bolts of crankshaft \ncounterweights\nTighten the bolts of \ncrankshaft counterweights with a tightening torque of 245 343 Nm.\nTighten the bolts of \ncrankshaft counterweights with a tightening torque of 245 343 Nm.\nTightening of bolts of \nInjection Cams\nTighten the bolts of \ndivided injection cams for prolongation of 0.09 to 0.12 mm (It means turning the \nnut for 60).\nBe sure all nuts are \nlocked as shown in Fig (6)\nTighten the bolts of \ndivided injection cams for prolongation of 0.09 to 0.12 mm (It means turning the \nnut for 60).\nBe sure all nuts are \nlocked as shown in Fig (6)\nTightening of bolts of \nFundamental \nFrame to engine Case\n1. \nTighten the bolts of \nfundamental frame \nwith a tightening torque of 350 450 Nm.\nPressure Test\n1. \nTested every part \naccording to the pressure test table (Table No.2).\nRe-lubrication\n1. \nUse the recommended \noil type or its equivalent.\nCleaning of lubricating oil\nClean the oil either by \nmeans of two type RHO 3a centrifugal cleaners at the discharge of oil pump of a \ncapacity of 600 l/hr, at a pressure 0.2 Mpa which operate continuously or by an \nindependent electric centrifuge included in the engine room equipment, which is \nstarted at certain interval acc. to its out put , so that the cleaned quantity \ncorresponds to the quantity cleaned by two RHO 3a units with this alternative \nthe RHO 3a centrifugal cleaners are not necessary.\nImportant:\nvalues\n before and after Inspection.\nNotes:\n...............................\n...............................\n...............................\nLocation: \nDiesel \ncode:\nTested Date : \nChecked by: \nSignature :\nTable no. (1) Clearance \nTable\nBetween piston and liner\nA-A length 3\nB-B length 190\n1.8 1.852\n0.67 0.722\n3.0\n1.0\n\nTable no. (2) \nTest Pressure Table\nOil cooler\n- \n Oil space\n0.6\n5\n\nMRDS Maintenance Record Data Sheet MRDS\nTable No. (3)\nSetting\n\nMRDS Maintenance Record Data Sheet MRDS\nTable No. (3) \nContinue\nSetting\nClearance between piston and liner\nA-A length 3\nB-B length 190\n1.8 1.852\n0.67 0.722\n\nNotes:\n.................\n.................\n.................\n.................\n.................\n.................\n.................\nLocation: \nDiesel Code:\nTested Date : Checked by: \nSignature :\nLENGED FOR FIGURE \n(1) & (2)\n\nFigure (5)\nFigure (6)\nFigure (7)\nTechnical Specifications\nRating of basic operating \n parameters :-\nat \n air rating limited by following values :\nBarometric pressure bj \n = 98 Kpa, \n Air \n temperature taj = \n 20 ºC",
+ "text": "Power \n Stations | Technical Procedure\nIntroduction\nThis document \nlists the major maintenance procedure P2 of emergency diesel engine, which must \nbe performed every 25000 operation hours as indicated by H 25000 in the title \nblock.\nThe technical specifications for the diesel stated at the end of the \ndocument.\nThe first draft initiated by \neng.: Hesham M. Hassan, reviewed by \nMaintenance director: eng. Saad Mostafa, revised by eng. Samir Abdel-Gelil at EDEPCo., accepted by maintenance general director: \neng. Aly Mostafa Al-lithy and approved by eng. Mostafa Alam Head Sector of Talkha steam power station 2 x \n210 MW.\nSafety Precautions\nWork permit must be issued, the qualified maintenance staff must carry the suitable ID safety \ncategory.\nSafety fence with caution marks surrounding the work area.\nWork permit must be issued, the qualified maintenance staff must carry the suitable ID safety \ncategory.\nSafety fence with caution marks surrounding the work area.\nWear appropriate personal protective \n equipment must be used: safety \n shoes, helmet, breathing mask, safety glasses\nIsolate the circuit breaker for the diesel engine.\nTools and Equipment\nComplete \n maintenance tool set.\nCleaning fluid, Feeler gauge,\nSuitable lifting device.\nWork to be carried out\nBefore isolated the diesel engine mechanically \n and electrically\nThe engine must be operated \n and check the following steps and reads all the available record values and \n putted in maintenance record data sheet (MRDS) Table(3).\nNo. | Activities | Setting\n (reference value ) | Test Results\n1. | Check the oil \n level in the tank. | Up to 1/2 oil \n level gauge | \n2. | Check the fuel \n level in the fuel tank | OK NOT OK | \n3. | Check the \n exhaust gas temperature | 440 \n C \n 2.5 C | \n4. | Check the \n compression pressures in the individual cylinders | 4.21:4.51 Mpa | \n5. | Check the \n exhaust gases colour | Colourless | \n6. | Check the \n uniform power distribution on cylinders | OK NOT OK | \n7. | Check any \n leakage from the piping connections to the diesel engine or its accessories \n (water, lube oil, fuel, and air). | OK NOT OK | \n8. | Check (by \n listening) the regular operation of the engine and whether there is no \n abnormal sounds or knocks | OK NOT OK | \n9. | Check whether \n there are no heavy knocks in the injection valve pipe. | OK NOT OK | \n10. | Check the \n operation of suction and exhaust valves, check the condition of the valve \n springs | OK NOT OK | \n11. | Check (by \n touch) the crankshaft and camshaft bearings temperature rise on the case \n covers of the cylinder blocks, at the points where the bearings are located | OK NOT OK | \n12. | Check the \n starting valves for tightness by touching the starting air pipes heating on \n cylinder heads | OK NOT OK | \nNotes:\n...............................................................................................................................................................................\n...............................................................................................................................................................................\nLocation: Equipment \ncode:\nTested Date : \nChecked by: \nSignature :\nAfter isolated the diesel engine mechanically and \nelectrically\nFig (1) & fig (2) help you to disassemble \nwell\nClean carefully the dismantled point \n and the surfaces close to it with fuel oil, at complete dismantling of the \n engine, the whole engine is cleaned.\nCare is to be taken to preserve \n cleanliness when dismantling the engine.\nWash every part in fuel oil and wipe \n it with clean rags or with blast of compressed air\nUse only suitable tools for \n disassembly.\nTake good notes of its position on \n the engine so that reassembly may be facilitated, before dismantling any part \n from the engine.\nBe sure take note of any marks or \n items no. on them , acc. to which they should be re-assembled. Before \n disassembling the parts and assemblies,\nProtect the engine from dirt, to \n close the open points, cover the outlets with oiled paper and wrap the pipe \n ends with paper.\nCheck whether the parts are in good \n condition or whether they are to be repaired or replaced with new ones.\nUnscrew the nuts of all bolts a turn \n or more and then only remove all the nuts. When dismantling parts or \n assemblies,\nBe sure screw in all the bolts and \n nuts in their original position after the parts or assemblies so that they may \n not be lost or exchanged .Tie the shims and washers together and mark them so \n that they may not be lost or exchanged during the re-assembly.\nTake care no excessive force should \n be applied to dismantle any part. If a big force is required, it is necessary \n to ascertain the cause and to remove it.\nCheck whether the parts are suitable \n for further use, by examining and measuring the parts, determining the \n clearance (or interference) between contact surfaces, testing for tightness, \n etc \n - Replace damage or worn parts by new ones.\n - Make sure that the correct clearance or interference is \n observed when replaced the parts \n - Record the values of clearances, which measure during, \n disassemble for all parts of engine in table (3).\nClean every part and lubricated the \n moving parts with clean oil before starting to reassemble.\nComplete Engine Disassembly\nDrain \n the water, lubricated oil and fuel oil from the engine and all pipes.\nClose the air inlet.\nDisconnect the engine from the \n driven machine.\nDismantle the glass thermometer, the \n instrument board and other measuring instruments and the transmitters of \n electric instruments from the engine.\nLoosen and remove all water, oil, \n air and fuel pipes, which would hinder the dismantling of the engine.\nRemove the suction tube and exhaust \n piping from the engine cylinder heads, also the charging elbow at the \n supercharged engine.\nDismantle the double the double fuel \n cleaner.\nRemove the starting equipment with \n feed pipe.\nDismantle the front cover.\nDismantle the flywheel from the \n crankshaft.\nDismantle the lateral lids and \n covers on the engine.\nDismantle the cylinder heads.\nDismantle the valve push rods and \n the valve push rod covers.\nDismantle the turbo-supercharger \n with the bracket (at supercharged engine).\nDismantle the connecting rods with \n the pistons.\nDismantle the governor\nDismantle the rear cover.\nDismantle the upper engine case.\nDismantle the lids with shells of \n all the main bearings of the crankshaft\nDismantle the crankshaft\nDisassembly \nof Individual assemblies\nDismantling of the Front cover with Pump\nDismantle the water, oil, fuel and \n air piping.\nDismantle the fuel pump.\nDismantle the oil pump from the \n front cover of engine.\nDismantle the lid with \n tachogenerator drive.\nDismantle the front cover from the \n crankcase.\nDisassembly of Cylinder Head\nRemove the exhaust gas thermometer, \n the cooling water thermometer and the indicator cock.\nRemove the cylinder head cover.\nRemove the valve push rods by \n raising the valve rocker arms.\nRemove the bolts joining the sucking \n tube with the cylinder head.\nLoosen and remove the bolts of the \n exhaust pipe flanges at the cylinder head.\nDismantle all pipes which would \n hinder the disassembly of the corresponding cylinder head (water collecting \n pipe, air inlet pipe, fuel inlet / outlet pipes and oil inlet pipe And / or \n instrument board).\nLoosen gradually the nuts of the \n cylinder head bolts for one turn and then remove them.\nScrew \n in two suspension bolts, suspend the cylinder head, moves it above the studs \n and place it aside.\nDisassembly of the Connecting Rod with Piston\nDismantle the corresponding cylinder \n head.\nDismantle the corresponding lateral \n cover of the upper part of the crankcase.\nRemove the split pins of connecting \n rod bolts.\nLoosen and screw off the connecting \n rod bolt-nuts. At the same time hold the lower big end lid to prevent it from \n falling into the crankcase.\nMoving out the connecting rod bolts.\nRemove the Lower big end lid with \n the shell through the hole in the lower lid of case.\nScrew the suspension of piston \n firmly on the piston crown. Clean the threads of bolts before.\nRemove the pistons with the \n connecting rod shank and shell and place it aside by means of lifting device. \n When removing the piston, watches through the hole in the lower lid of casing \n that the connecting rod flange does not catch the side of cylinder bush and \n does not damage it.\nDismantle the piston after the \n circlips have been removed and gudgeon pin has been driven out by means of \n special fixture.\nDismantle all the pistons from \n engine one after another from the 1st to the 6th \n cylinder.\nTurn the crankshaft on removal of \n the flywheel, by means of a wooden beam or an iron bar placed between 3 to 4 \n bolts inserted into the holes in the crankshaft flange.\nCAUTATION:\nAfter the \ncrankshaft has been turned into the TDCs for dismantling the 2nd, 3rd, \n5th and 6th cylinders, it is necessary to secure in this \nposition against swinging which might cause injury to the operator or damage to \nthe engine. This may be done by securing the crankshaft in the crankcase by \nwooden beams or by two iron bars inserted between the flywheel bolts and \nbearings upon the floor.\nDisassembly of Crankshaft\nSeparate the upper and lower engine \ncase.\nRemove the lids with shells of all \ncrankshaft bearings.\nDismantle the counterweights.\nSeparate the upper and lower engine \ncase.\nRemove the lids with shells of all \ncrankshaft bearings.\nDismantle the counterweights.\nGeneral instruction for \nPartial or Complete Assembly\nFig. (1) & Fig. (2) help you to disassemble well\nWash the parts with fuel oil by \n means of brush, wipe them with a rag which does not leave behind any fibers or \n clean them with a blast of compressed air.\nRemove defects of all parts and \n assemblies.\nCheck the fitting areas of the \n parts\nBlow all pipes or ports through \n with compressed air to remove all impurities settled in them\nRecord the values of clearances, which measure after assemblies for all parts \n of engine in table 3\nAssembly of Engine Parts\nLubricate the friction surfaces of \n the parts.\nProtect the engine so that no dust \n and impurities may penetrate in.\nMaintain the working site clean and \n in good order.\nTake good notes of the marks and \n items Nos. on the parts or assemblies in order to fit them in the same \n position as before their disassembly.\nTighten the bolts and nuts crosswise \n and gradually .Do not tighten them firmly one after another to avoid any \n deformation of the parts.\nDo not mount any other parts, unless \n the previous part is fitted or attached correctly.\nCheck whether the assemblies are \n assembled correctly and whether they can be freely turned or moved.\nUse only new split pins and look- \n washers, undamaged and new gaskets and packing.\nUse only the necessary tools and \n fixtures.\nAssemble every part in reverse \n sequence of disassembly\nAssembly of Crankshaft \nBearings\nAssembly of the main \nBearings\nClean thoroughly the \nseating surfaces and lubricate properly the main bearing bolts threads, nuts and \nbearing shell.\nInsert the lower \nhalf of bearing shell into the clean bore in the lower part of the crankcase.\nInsert the \nCrankshaft. Fit the upper half of bearing shell with the cap ( Observe the \nnumbering of the caps and shells)\nTighten firmly the \nnuts (So that the shell seats down), loosen them and tighten again.\nTighten alternately \nand uniformly the nuts to the line of marking of nut and shell marked by marker.\nCheck the \nclearances. In vertical plan the clearance must be within 0.17 - 0.256 mm in the \nplan measured 10 mm from the dividing plan of both sides and on both bridges it \nmust be for 0.02 - 0.1 mm larger than the clearance measured in the vertical plan.\nAssemble every part \nin reverse sequence of disassembly.\nClean thoroughly the \nseating surfaces and lubricate properly the main bearing bolts threads, nuts and \nbearing shell.\nInsert the lower \nhalf of bearing shell into the clean bore in the lower part of the crankcase.\nInsert the \nCrankshaft. Fit the upper half of bearing shell with the cap ( Observe the \nnumbering of the caps and shells)\nTighten firmly the \nnuts (So that the shell seats down), loosen them and tighten again.\nTighten alternately \nand uniformly the nuts to the line of marking of nut and shell marked by marker.\nCheck the \nclearances. In vertical plan the clearance must be within 0.17 - 0.256 mm in the \nplan measured 10 mm from the dividing plan of both sides and on both bridges it \nmust be for 0.02 - 0.1 mm larger than the clearance measured in the vertical plan.\nAssemble every part \nin reverse sequence of disassembly.\nAssembly of the \nBig end Bearings\nClean thoroughly the \nseating surfaces and lubricate properly the connecting rod bolts.\nMeasure the \nconnecting rod bolt in loose condition by using the measuring yoke supplied with \nthe engine tools and indicated by the engine No. and the nominal length of bolts \nwhich inserting feelers between the recessed end of bolt and the seating surface \nof the yoke .Fig(3)\nFit the connecting \nrod lid with shell and inserted connecting rod bolts to the crankshaft pin and \nconnecting rod shackle and connecting rod bolts are lightly tightened by nuts\n(Observe the numbering on \nthe connecting rod and bolts)\nTighten the nuts \n(acc. to the tightening of main bolt joints).\nAssemble every part \nin reverse sequence of disassembly.\nClean thoroughly the \nseating surfaces and lubricate properly the connecting rod bolts.\nMeasure the \nconnecting rod bolt in loose condition by using the measuring yoke supplied with \nthe engine tools and indicated by the engine No. and the nominal length of bolts \nwhich inserting feelers between the recessed end of bolt and the seating surface \nof the yoke .Fig(3)\nFit the connecting \nrod lid with shell and inserted connecting rod bolts to the crankshaft pin and \nconnecting rod shackle and connecting rod bolts are lightly tightened by nuts\n(Observe the numbering on \nthe connecting rod and bolts)\nTighten the nuts \n(acc. to the tightening of main bolt joints).\nAssemble every part \nin reverse sequence of disassembly.\nAssembly of Cylinder \nHeads\nBe sure the gaskets \nused must be straight, not damaged and annealed.\nPlace the gasket on \nthe cylinder liner and centered accurately so that it may not protrude over the \nedge of the liner and fits properly in the recess.\nMount the cylinder \nhead on the bolts and fit it to the cylinder liner so that the gasket is not \nshifted or reformatted.\nCheck the seating of \nthe cylinder head and gasket whether the gasket is not squeezed at any point. \nReplace the gasket if damaged.\nSet the valve \nclearance see clearance table (Table No. 1).\nThe nuts of cylinder \nhead bolts should be tighten (acc. to the tightening of main bolt joints).\nAssemble every part \nin reverse sequence of disassembly.\nBe sure the gaskets \nused must be straight, not damaged and annealed.\nPlace the gasket on \nthe cylinder liner and centered accurately so that it may not protrude over the \nedge of the liner and fits properly in the recess.\nMount the cylinder \nhead on the bolts and fit it to the cylinder liner so that the gasket is not \nshifted or reformatted.\nCheck the seating of \nthe cylinder head and gasket whether the gasket is not squeezed at any point. \nReplace the gasket if damaged.\nSet the valve \nclearance see clearance table (Table No. 1).\nThe nuts of cylinder \nhead bolts should be tighten (acc. to the tightening of main bolt joints).\nAssemble every part \nin reverse sequence of disassembly.\nTightening of main \nBolt Joints\nTightening of cylinder \nHead Bolt Nuts\nBe sure the nuts of \ncylinder head tightened crosswise by means of the cylinder head spanner extended \nwith a bar.\nDo the tightening in \ntwo steps.\n- First, all cylinder head \nnuts are tightened for the bolt prolongation of approx. 0.15-mm.\n- The next, tightening is done for the prolongation of bolt of 0.25-0.3 mm. \nAfter the engine has been started a check for tightness is made\nBolts prolongation \nis measured by depth gauge with vernier accuracy of 0.02 mm.\nDuring measurement, \narms of gauge are supported on the upper surface of nut and the movable part is \nmoved out so that it touches the ground bolt surface in nut.\nThe difference \nbetween measured values before and after the tightening of the cylinder head \nbolts means the value of bolt prolongation.\nBe sure the nuts of \ncylinder head tightened crosswise by means of the cylinder head spanner extended \nwith a bar.\nDo the tightening in \ntwo steps.\n- First, all cylinder head \nnuts are tightened for the bolt prolongation of approx. 0.15-mm.\n- The next, tightening is done for the prolongation of bolt of 0.25-0.3 mm. \nAfter the engine has been started a check for tightness is made\nBolts prolongation \nis measured by depth gauge with vernier accuracy of 0.02 mm.\nDuring measurement, \narms of gauge are supported on the upper surface of nut and the movable part is \nmoved out so that it touches the ground bolt surface in nut.\nThe difference \nbetween measured values before and after the tightening of the cylinder head \nbolts means the value of bolt prolongation.\nTightening of \nconnecting Rod Bolt Nuts\nCheck the connecting \nrod surface from the mechanical break of surface or any defect. If the \nmechanical break is larger, bolts must be exchanged.\nReplace all bolts \nwith found permanent deformation larger than 0.1 mm (permanent bolt prolongation \nat free state).\nMeasure the length \nof bolt at free state by means of measuring shackle by underputting the feeler \ngauge between the recessed bolt end and shackle seating (See Fig 4). The \nclearance A can be found from the clearance table (Table 1).\nAssemble the \nconnecting rod bolts acc. to prescript numbering as shown in Fig (3).\nBe sure the nuts of \nthe connecting rod Bolts are crosswise tightened to the line of marking of nut \nand bolt which corresponds to prescript prolongation of connecting rod bolts \n(0.2 0.28 mm) up to position of a cut in a nut and a hole in a bolt for a \nsplit pin.\nMeasure the \nconnecting rod bolts prolongation by measuring shackle and feeler as shown in \nFig (4).\nAfter tightening the nuts of the \nconnecting rod bolts they are ensured by a split pin which must be not move \nafter its opening.\nCheck the connecting \nrod surface from the mechanical break of surface or any defect. If the \nmechanical break is larger, bolts must be exchanged.\nReplace all bolts \nwith found permanent deformation larger than 0.1 mm (permanent bolt prolongation \nat free state).\nMeasure the length \nof bolt at free state by means of measuring shackle by underputting the feeler \ngauge between the recessed bolt end and shackle seating (See Fig 4). The \nclearance A can be found from the clearance table (Table 1).\nAssemble the \nconnecting rod bolts acc. to prescript numbering as shown in Fig (3).\nBe sure the nuts of \nthe connecting rod Bolts are crosswise tightened to the line of marking of nut \nand bolt which corresponds to prescript prolongation of connecting rod bolts \n(0.2 0.28 mm) up to position of a cut in a nut and a hole in a bolt for a \nsplit pin.\nMeasure the \nconnecting rod bolts prolongation by measuring shackle and feeler as shown in \nFig (4).\nAfter tightening the nuts of the \nconnecting rod bolts they are ensured by a split pin which must be not move \nafter its opening.\nTightening of \nBolt Nuts of Main Bearings\nBe \nsure the upper shell and the bearing lids are assembled.\nTighten all nuts crosswise to the line \nof nuts and shell marking for the given prolongation (0.22 to 0.26 mm) marked by \nmanufacturer.\nCheck the clearance.\nLock the nuts against loosening by a \nlock.\nBe sure prolongation check is not \ncarried out, unless at bolt exchange by means of dial indicator as shown in Fig \n(5).\nMark identically the nuts and bolts \nagain by a line.\nBe sure under this tightening the \nbolts must have an extension of 0.22-0.26 mm.\nBe \nsure the upper shell and the bearing lids are assembled.\nTighten all nuts crosswise to the line \nof nuts and shell marking for the given prolongation (0.22 to 0.26 mm) marked by \nmanufacturer.\nCheck the clearance.\nLock the nuts against loosening by a \nlock.\nBe sure prolongation check is not \ncarried out, unless at bolt exchange by means of dial indicator as shown in Fig \n(5).\nMark identically the nuts and bolts \nagain by a line.\nBe sure under this tightening the \nbolts must have an extension of 0.22-0.26 mm.\nTightening of bolts of crankshaft \ncounterweights\nTighten the bolts of \ncrankshaft counterweights with a tightening torque of 245 343 Nm.\nTighten the bolts of \ncrankshaft counterweights with a tightening torque of 245 343 Nm.\nTightening of bolts of \nInjection Cams\nTighten the bolts of \ndivided injection cams for prolongation of 0.09 to 0.12 mm (It means turning the \nnut for 60).\nBe sure all nuts are \nlocked as shown in Fig (6)\nTighten the bolts of \ndivided injection cams for prolongation of 0.09 to 0.12 mm (It means turning the \nnut for 60).\nBe sure all nuts are \nlocked as shown in Fig (6)\nTightening of bolts of \nFundamental \nFrame to engine Case\n1. \nTighten the bolts of \nfundamental frame \nwith a tightening torque of 350 450 Nm.\nPressure Test\n1. \nTested every part \naccording to the pressure test table (Table No.2).\nRe-lubrication\n1. \nUse the recommended \noil type or its equivalent.\nCleaning of lubricating oil\nClean the oil either by \nmeans of two type RHO 3a centrifugal cleaners at the discharge of oil pump of a \ncapacity of 600 l/hr, at a pressure 0.2 Mpa which operate continuously or by an \nindependent electric centrifuge included in the engine room equipment, which is \nstarted at certain interval acc. to its out put , so that the cleaned quantity \ncorresponds to the quantity cleaned by two RHO 3a units with this alternative \nthe RHO 3a centrifugal cleaners are not necessary.\nImportant:\nvalues\n before and after Inspection.\nNotes:\n...............................\n...............................\n...............................\nLocation: \nDiesel \ncode:\nTested Date : \nChecked by: \nSignature :\nTable no. (1) Clearance \nTable\nNo. | Clearance in | Assembly clearance (mm) | Max. permissible clearance \n before overhaul \n (mm)\n1 | Main bearing | 0.17 - 0.256 | 0.35\n2 | Big end bearing | 0.13 - 0.25 | 0.4\n3 | Piston pin bush | 0.097 - 0.132 | 0.25\n4 | Camshaft bearing | 0.03 - 0.122 | 0.4\n5 | Valve lever bush | 0.025 0.075 | 0.35\n6 | Suction and exhaust valve guide | 0.2 0.257 | 0.45\n7 | Between roller and valve (cold cond.) | 0.35 | -\n8 | Between camshaft gear and intermediate \n gear | 0.15 0.25 | -\n9 | Between divided gear and intermediate gear | 0.2 0.3 | -\n10 | Between piston and liner\n A-A length 3\n B-B length 190\n C-C length 409 | 1.8 1.852\n 0.67 0.722\n 0.36 0.412 | 3.0\n 1.0\n 0.75\n11 | Between head and piston edge in TDC | 2.50.5 | -\n12 | In piston ring lock | 1.4 1.8 | 3.00\n13 | Axial clearance of crank shaft | 0.1 0.169 | 0.30\n14 | Axial clearance of connecting rod big end | 0.7 1.25 | 1.25\n15 | Ovality of crankshaft journal | 0.21 length 100 | 0.12\n16 | End float of freely mounted crankshaft \n (without flywheel) | Max. 0.03 | 0.06\nTable no. (2) \nTest Pressure Table\nNo | Name of part | Max. operating Pressure (Mpa) | Test Condition\nTest p.\n (Mpa) | Time of Test\n (min)\n1 | Cylinder liner in upper third | 8.2 | 12.5 | 5\n2 | Cylinder liner , lower part | - | 2 | 5\n3 | Piston bottom | 8.2 | 11.5 | 5\n4 | Air vessel with head | 3.5 | Min.5.25 | -\n5 | Cylinder head compression space | 8.2 | 0.7 | 5\n6 | Cylinder head water space | 0.2 | 5.5 | 10\n7 | Cylinder head bore for starting valve | 3.5 | 12.5 | 5\n8 | Fuel injection pipes | 24.5 | 65 | 2\n9 | Coarse oil cleaner | 0.3 | 1 | 5\n10 | Oil cooler\n - \n Oil space \n - \n Water space | 0.3\n 0.2 | 0.6\n 0.5 | 5\n 2\n11 | Lube oil piping | 0.3 | 0.6 | 5\n12 | Air piping | 3.5 | 7 | 2\n13 | Water piping | 0.2 | 0.5 | 2\n14 | Upper crankcase water space | 0.2 | 0.7 | 10\n15 | Lower crankcase | Test for tightness by water Poured into\nMRDS Maintenance Record Data Sheet MRDS\nTable No. (3)\nNo. | Name of Part | Setting\n Value | Unit | Record value | Remarks\nBefore ins. | After Ins.\n | During \n engine operates |  |  |  |  | \n1 | Rated power outlet (PJ) on crank shaft flange | 530 | Kw |  |  | \n2 | Rated speed | 600 | Rpm |  |  | \n3 | Mean effective pressure | 0.825 | Mpa |  |  | \n4 | Compression pressure (at 75% pj) | 4.21-4.51 | Mpa |  |  | \n5 | Max. Combustion pressure | 6.86 | Mpa |  |  | \n6 | Max. Combustion pressure (at 10% overload) | 7.16 | Mpa |  |  | \n7 | Max. permissible pressure of exhaust gases in piping after \n turbine | 0.3 | Mpa |  |  | \n8 | Max. permissible sub-atmospheric pressure in suction side \n of turbo-supercharger | 0.3 | Mpa |  |  | \n9 | Max. Exhaust gas temp. in sockets of individual cylinders | 440 | C |  |  | \n10 | Max. Exhaust gas temp. in sockets of individual cylinders \n (at 10% over-load) | 460 | C |  |  | \n11 | Max. Exhaust gas temp. before turbine | 540 | C |  |  | \n12 | Max. Exhaust gas temp. before turbine at 10 % over load | 580 | C |  |  | \n13 | Max. Exhaust gas temp. after turbine | 460 | C |  |  | \n14 | Max. Exhaust gas temp. after turbine at 10 % over load | 490 | C |  |  | \n15 | Max. Permissible lubricating oil temp. at outlet of engine | 85 | C |  |  | \n16 | Mean recommended lubricating oil temp. at outlet of engine | 70-80 | C |  |  | \n17 | Specific lubricating oil consumption of engine completely run (g/Kwh) | 1.7 | G/Kwh |  |  | \n18 | Lubricating oil pressure measured at end of main \n distributed pipe at mean lube oil pressure changes according to operating \n speed of engine (Mpa) | 0.1-0.3 | Mpa |  |  | \n19 | Max. Permissible cooling water temp. at outlet of engine | 80 | C |  |  | \n20 | Mean recommended cooling water temp. at outlet of engine | 70-75 | C |  |  | \n | During \n disassembly & assembly |  |  |  |  | \n1 | Clearance in Main bearing | 0.17 - 0.256 | mm |  |  | \n2 | Clearance in Big end bearing | 0.13 - 0.25 | mm |  |  | \n3 | Clearance in Piston pin bush | 0.097-0.132 | mm |  |  | \n4 | Clearance in Camshaft bearing | 0.03 - 0.122 | mm |  |  | \n5 | Clearance in Valve lever bush | 0.0250.075 | mm |  |  | \n6 | Clearance in Suction & exhaust valve guide | 0.2 0.257 | mm |  |  | \nMRDS Maintenance Record Data Sheet MRDS\nTable No. (3) \nContinue\nNo. | Name of Part | Setting\n Value | Unit | Record value | Remarks\nBefore ins. | After Ins.\n7 | Clearance between roller and valve (cold cond.) | 0.35 | mm |  |  | \n8 | Clearance between camshaft gear and \n intermediate gear | 0.15 0.25 | mm |  |  | \n9 | Clearance between divided gear and \n intermediate gear | 0.2 0.3 | mm |  |  | \n10 | Clearance between piston and liner\n A-A length 3\n B-B length 190\n C-C length 409 | 1.8 1.852\n 0.67 0.722\n 0.36 0.412 | mm |  |  | \n11 | Clearance between head and piston edge in \n TDC | 2.5 0.5 | mm |  |  | \n12 | Clearance in piston ring lock | 1.4 1.8 | mm |  |  | \n13 | Axial clearance of crank shaft | 0.1 0.169 | mm |  |  | \n14 | Axial clearance of connecting rod big end | 0.7 1.25 | mm |  |  | \n15 | Ovality of crankshaft journal | 0.21 length 100 | mm |  |  | \n16 | End float of freely mounted crankshaft \n (without flywheel) | Max. 0.03 | mm |  |  | \nNotes:\n.................\n.................\n.................\n.................\n.................\n.................\n.................\nLocation: \nDiesel Code:\nTested Date : Checked by: \nSignature :\nLENGED FOR FIGURE \n(1) & (2)\nItem\n No. | Item no. | Item\n No.. | Item name\n001 | Lower crankcase | 034 | Fuel oil pump\n002 | Upper case | 035 | Instrument board\n003 | Rear case | 036 | Suspension for engine lifting\n004 | Cover on the engine | 037 | Water pump\n005 | Engine case de-aerating | 038 | Stopping equipment\n006 | Piston with connecting rod | 040 | Signalization\n007 | Cylinder head | 041 | Flywheel\n008 | Camshaft | 047 | Drive ALNICA\n009 | Timing gear | 049 | Fuel oil tank\n010 | Timing gearing | 053 | Water piping\n011 | Front lid with drive | 054 | Filling socket\n012 | Tachogenerator drive | 055 | Air tank with head 100 1, 0,5 Mpa\n014 | Air distributor | 057 | Air tank with head\n016 | Regulation | 058 | Oil cooler\n017 | Exhaust piping | 059 | Balance beam lubrication\n018 | Suction pipe | 103 | Oil separator\n019 | Piping on engine | 105 | Reducing valve 3.5/0.5 Mpa\n021 | Air piping | 150 | Electric speed adjustment\n022 | Fuel oil piping | 154 | Mixing basin\n023 | Oil piping | 157 | Pre-lubricating pump\n024 | Turning mechanism | 158 | Pre-lubricating piping\n025 | Gallery | 161 | Oil cooler\n027 | Oil tank with heating | 173 | Oil cleaning set\n029 | Oil pump | 175 | Coarse oil filter\nFigure (3)\nFigure (4)\nFigure (5)\nFigure (6)\nFigure (7)\nTechnical Specifications\nNo. of Diesel engine \n per unit | 1\nType of diesel engine | 6 S 275 III PN\nManufacture | CKD PRAHA\nCountry | HARDEC KRALOVE CZECH\nRating of basic operating \n parameters :-\n at \n air rating limited by following values :\n Barometric pressure bj \n = 98 Kpa, \n Air \n temperature taj = \n 20 ºC \n Air \n humidity = 60 %\n- \n Rated power output (PJ) \n on crank shaft flange kw | 530\n- \n Rated \n speed r.p.m | 600\n-\n Power outlet with \n 10 % over load kw | 583\n- \n Power output at \n defect of turbo super charge with rotor blocked up kw | 210\n- \n Consumption of fuel oil at 100,75,50 \n % \n g/Kwh | (215,211,216) + 5%\nRating of \n diesel generating set :\n- \n Rated power out put pn \n KVA | 688\n- \n Rated power out put at cos \n φ \n 0.8 \n kw | 485\n- \n Rated speed \n (r.p.m) | 600\n- \n Power out put with 10 % over load at cos \n φ 0.8 \n kw | 534\n- \n Irregularity of engine running | 1 : 141\nCharacteristic data of type and layout of engine:\n- \n Number of strokes of working cycle | 4\n- \n Type of fuel injection | Direct\n- \n Type of supercharging | Low pressure\n- \n Direction of rotation | Clockwise\n- \n Layout | Right hand , Left hand\n- \n Type of cooling | By water\n- \n Type of starting | By pressure air\n-\n Type of lubrication | By pressure oil\nDesign data:\nNo. of cylinder and their arrangement | 6 ( In line)\nCylinder \n bore mm | 275\nPiston stroke mm | 350\nCylinder capacity \n dm | 20.8\nEngine volume dm | 124.8\nCompression ratio | 13\nData referring to speed \n and its governing :\nMain piston speed \n m/s | 7\nNo-load speed n) o \n r.p.m | 630\nMaximum momentary speed n)m \n r.p.m | 660\nIrregularity of engine running | Min. 1 : 150\nIrregularity of engine speed | 0.5 %\nOperating \n Pressure:\nMean effective pressure \n Mpa | 0.825\nCompression pressure (at 75% pj) Mpa | 4.21 - 4.51\nMax. Combustion pressure \n Mpa | 6.86\nMax. Combustion pressure (at 10 % \n overload) Mpa | 7.16\nMax. Permissible pressure of exhaust gases in piping after \n turbine (Mpa) | 0.3\nMax. Permissible sub-atmospheric pressure in suction side \n of turbo-supercharger (Mpa) | 0.3\nOperating Temperature:\nMax. Exhaust gas temp. in sockets of \n individual cylinders C | 440\nMax. Exhaust gas temp. in sockets of individual cylinders\n at 10% over-load) C | 460\nMax. Exhaust gas temp. before turbine \n C | 540\nMax. Exhaust gas temp. before turbine at \n 10 % over load C | 580\nMax. Exhaust gas temp. after \n turbine C | 460\nMax. Exhaust gas temp. after turbine at 10 % over load C | 490\nLubrication data:\nMax. Permissible lubricating oil temp. at outlet of \n engine (C) | 85\nMean recommended lubricating oil temp. at outlet of \n engine (C) | 70 - 80\nSpecific lubricating oil consumption of engine completely \n run (g/Kwh) | 1.7 + 10 %\nLubricating oil pressure measured at end of main \n distributing pipe at mean lube oil pressure changes according to operating \n speed of engine (Mpa) | 0.1-0.3\nRecommended lubricating oil type | Delvac 1230\nQuantity \n of lubricating oil exchange every 1500 op . hr \n Kg | 500\nCooling data:\nMax. Permissible cooling water temp. at outlet of \n engine C | 80\nMean recommended cooling water temp. at \n outlet of engine C | 70 - 75\nMax. starting air pressure Mpa | 3.5\nStarting data:\nMin. at which a cold engine can be \n started Mpa | 1.4\nMin. at which a warm engine can be started \n Mpa | 1.2\nNo. of consecutive starting operations from one starting \n air bottle (cap. Of 200 L) at an initial pressure of 3.5 Mpa without \n recharging of bottle , for starting a cold engine | 6\nCapacity of starting air bottle \n \"litters\" | 200\nData \n referring to fuel oil pump :\n-\n Amount \n delivered by fuel oil pump \nl/min | 8.15\n- Delivery \n head of pump \n m | 10\n- Max. suction head at flooded suction \n piping m | 4\nData \n referring to supercharging and turbo-supercharger:\n-\n Type \n of turbo-supercharger | PDH35NM-B2-A/25\n-\n Amount of charging air drawn in at air ratings in suction \n side of blower (Kg/h) | 4400 220\n-\n Charging air pressure at air ratings in \nsuction side of blower \n (Mpa) | 0.133\n-\n Min. \n speed ( r.p.m) | 14600\n-\n Max. \n speed \n (r.p.m) | 20000\n-\n Max. Cooling water temp. at outlet from blower \n(C) | 80\n-\n Mass of turbo-supercharge (Kg) | 340\nMass data :-\n-\n Mass of engine alone without \n accessories (Kg) | 9600 + 5%\n- Mass of water in \n engine (Kg) | 400\n- Mass of oil spaces of \n engine (Kg) | 100\n-\n Mass of heaviest component part of engine upper part of \n crankcase (Kg) | 1800\nType denomination of injection equipment\n- Injection pump | PC 1C 16Lg \n 146g-1834 V\n- Nozzle holder | VN 200 T 864\n- Nozzle | Do 140 T 735 - 4501\nDistribution of timing, e.g., angle of \n crankshaft turning in relation to T.D.C. at moments of beginning and \n termination of valve closing within specified clearance in the timing gear\n- Suction valve opens | 89º before T.D.C.\n- Suction valve closes | 39º after T.D.C.\n- Exhaust valve opens | 57º before T.D.C.\n- Exhaust valve closes | 57º after T.D.C.\nSetting of air starting by timing gear\n-\n Beginning of starting | 2º after T.D.C.\n- Termination of starting | 124º after T.D.C.\nOpening pressure of \n injector ( Mpa) | 24.5\nGeometric beginning of \n fuel delivery by injection pump in degrees of crankshaft rotation in \n relation to T.D.C | 16 - 18º before T.D.C\nStroke of injection \n pump plunger from L.D.C. at geometric beginning of fuel delivery | 4.5 0.5\nParameters for setting \n safety and control valves:-\n-\n Safety valve located in cylinder head is \nset so that combustion pressure is not exceeded \n (Mpa) | 7.5\n- Control valve on fuel oil pump is set so \n that fuel oil pressure after pump is not exceeded (Mpa) | 0.2\n- Control valve on lube oil pump is set at pj and mean oil \n temperature so that manometer shows value (Mpa) | 0.3\nFiring order \n clockwise turning engine | 1-4-2-6-3-5",
  "text_truncated": false,
  "links": [],
  "images": [

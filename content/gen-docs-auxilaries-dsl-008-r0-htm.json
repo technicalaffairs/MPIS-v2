@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -80,69 +82,83 @@
    "text": "The \n engine must be operated and check the following steps and reads all the \n available record values and putted in operation & maintenance record data \n sheet (MRDS) Table (1)."
   },
   {
-   "type": "paragraph",
-   "text": "Setting"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
-     "",
+     "No.",
+     "Activities",
+     "Setting\n (reference value )",
+     "Test \n Results"
+    ],
+    [
+     "1.",
+     "Check the oil level in the tank.",
+     "Up to oil level gauge",
+     ""
+    ],
+    [
+     "2.",
+     "Check the fuel level in the fuel tank",
+     "OK NOT OK",
+     ""
+    ],
+    [
+     "3.",
+     "Check the \n exhaust gas temperature",
      "440 º C 2.5 \n º C",
      ""
     ],
     [
-     "",
-     "",
+     "4.",
+     "Check the \n compression pressures in the individual cylinders",
      "4.21:4.51 Mpa",
      ""
     ],
     [
-     "",
-     "",
+     "5.",
+     "Check the \n exhaust gases colour",
      "Colourless",
      ""
     ],
     [
-     "",
-     "",
+     "6.",
+     "Check the \n uniform power distribution on cylinders",
      "OK NOT OK",
      ""
     ],
     [
-     "",
-     "",
+     "7.",
+     "Check any \n leakage from the piping connections to the diesel engine or its accessories \n (water, lube oil, fuel, and air).",
      "OK NOT OK",
      ""
     ],
     [
-     "",
-     "",
+     "8.",
+     "Check (by \n listening) the regular operation of the engine and whether there is no \n abnormal sounds or knocks",
      "OK NOT OK",
      ""
     ],
     [
-     "",
-     "",
+     "9.",
+     "Check whether \n there are no heavy knocks in the injection valve pipe.",
      "OK NOT OK",
      ""
     ],
     [
-     "",
-     "",
+     "10.",
+     "Check the \n operation of suction and exhaust valves, check the condition of the valve \n springs",
      "OK NOT OK",
      ""
     ],
     [
-     "",
-     "",
+     "11.",
+     "Check (by touch) \n the crankshaft and camshaft bearings temperature rise on the case covers of \n the cylinder blocks, at the points where the bearings are located",
      "OK NOT OK",
      ""
     ],
     [
-     "",
-     "",
+     "12.",
+     "Check the \n starting valves for tightness by touching the starting air pipes heating on \n cylinder heads",
      "OK NOT OK",
      ""
     ]
@@ -278,12 +294,202 @@
    "text": "Table No. (1)"
   },
   {
-   "type": "paragraph",
-   "text": "Setting"
-  },
-  {
-   "type": "paragraph",
-   "text": "During engine operates"
+   "type": "table",
+   "rows": [
+    [
+     "No.",
+     "Item",
+     "Setting\n value",
+     "Unit",
+     "Record value",
+     "Remarks"
+    ],
+    [
+     "Before ins.",
+     "After Ins."
+    ],
+    [
+     "1",
+     "During engine operates\n Rated power outlet (PJ) on crank shaft \n flange",
+     "530",
+     "Kw",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Rated speed",
+     "600",
+     "Rpm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Mean effective pressure",
+     "0.825",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "Compression pressure (at 75% pj)",
+     "4.21-4.51",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "Max. Combustion pressure",
+     "6.86",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "Max. Combustion pressure (at 10 % overload)",
+     "7.16",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "Max. permissible pressure of exhaust gases in piping after \n turbine",
+     "0.3",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "Max. permissible sub-atmospheric pressure in suction side \n of turbo-supercharger",
+     "0.3",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9",
+     "Max. Exhaust gas temp. in sockets of individual cylinders",
+     "440",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "Max. Exhaust gas temp. in sockets of individual cylinders \n (at 10% over-load)",
+     "460",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "11",
+     "Max. Exhaust gas temp. before turbine",
+     "540",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "12",
+     "Max. Exhaust gas temp. before turbine at 10 % over load",
+     "580",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "13",
+     "Max. Exhaust gas temp. after turbine",
+     "460",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "14",
+     "Max. Exhaust gas temp. after turbine at 10 % over load",
+     "490",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "Max. Permissible lubricating oil temp. at outlet of engine",
+     "85",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "16",
+     "Mean recommended lubricating oil temp. at outlet of engine",
+     "70-80",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "17",
+     "Specific lubricating oil consumption of engine completely run",
+     "1.7",
+     "g/Kwh",
+     "",
+     "",
+     ""
+    ],
+    [
+     "18",
+     "Lubricating oil pressure measured at end of main \n distributed pipe at mean lube oil pressure changes according to operating \n speed of engine",
+     "0.1-0.3",
+     "Mpa",
+     "",
+     "",
+     ""
+    ],
+    [
+     "19",
+     "Max. Permissible cooling water temp. at outlet of engine",
+     "80",
+     "C",
+     "",
+     "",
+     ""
+    ],
+    [
+     "20",
+     "Mean recommended cooling water temp. at outlet of engine",
+     "70-75",
+     "C",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -298,28 +504,166 @@
    "text": "Table No. (1)continue"
   },
   {
-   "type": "paragraph",
-   "text": "During disassembly & assembly"
-  },
-  {
-   "type": "paragraph",
-   "text": "Clearance between piston and liner"
-  },
-  {
-   "type": "paragraph",
-   "text": "A-A length 3"
-  },
-  {
-   "type": "paragraph",
-   "text": "B-B length 190"
-  },
-  {
-   "type": "paragraph",
-   "text": "1.8 1.852"
-  },
-  {
-   "type": "paragraph",
-   "text": "0.67 0.722"
+   "type": "table",
+   "rows": [
+    [
+     "No.",
+     "Item",
+     "Setting value",
+     "Unit",
+     "Record Value",
+     "Remarks"
+    ],
+    [
+     "Before ins.",
+     "After Ins."
+    ],
+    [
+     "1",
+     "During disassembly & assembly\n Clearance in Main bearing",
+     "0.17 - 0.256",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "Clearance in Big end bearing",
+     "0.13 - 0.25",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "Clearance in Piston pin bush",
+     "0.097 - 0.132",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "4",
+     "Clearance in Camshaft bearing",
+     "0.03 - 0.122",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "5",
+     "Clearance in Valve lever bush",
+     "0.025 0.075",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "6",
+     "Clearance in Suction and exhaust valve \n guide",
+     "0.2 0.257",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "7",
+     "Clearance between roller and valve \n (cold cond.)",
+     "0.35",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "8",
+     "Clearance between camshaft gear and \n intermediate gear",
+     "0.15 0.25",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "9",
+     "Clearance between divided gear and \n intermediate gear",
+     "0.2 0.3",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "10",
+     "Clearance between piston and liner\n A-A length 3\n B-B length 190\n C-C length 409",
+     "1.8 1.852\n 0.67 0.722\n 0.36 0.412",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "11",
+     "Clearance between head and piston edge \n in TDC",
+     "2.50.5",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "12",
+     "Clearance in piston ring lock",
+     "1.4 1.8",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "13",
+     "Axial clearance of crank shaft",
+     "0.1 0.169",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "14",
+     "Axial clearance of connecting rod big \n end",
+     "0.7 1.25",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "Ovality of crankshaft journal",
+     "0.21 length 100",
+     "mm",
+     "",
+     "",
+     ""
+    ],
+    [
+     "16",
+     "End float of freely mounted crankshaft \n ( without flywheel)",
+     "Max. 0.03",
+     "mm",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -330,7 +674,7 @@
    "text": "Tested Date : \nChecked by: \nSignature :"
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nIntroduction\nThis document lists the \nminor maintenance procedure P1 of emergency diesel engine, which must be, \nperformed every 5000-operation hr base as indicated by H 5000 in the title \nblock.\nThe first draft initiated by \neng. Hesham M. Hassan, reviewed by \nMaintenance director: eng. Saad Mostafa, revised by eng. Samir Abdel-Gelil at EDEPCo., accepted by maintenance general director: \neng. Ali Mostafa Al-lithy and \napproved by eng.: Mostafa Alam Head Sector of Talkha steam power station 2 x \n210 MW.\nSafety Precautions\nWork permit must be issued, the qualified maintenance staff must carry the suitable ID safety \ncategory.\nSafety fence with caution marks surrounding the work area.\nWork permit must be issued, the qualified maintenance staff must carry the suitable ID safety \ncategory.\nSafety fence with caution marks surrounding the work area.\nWear appropriate personal protective \n equipment must be used: safety \n shoes, helmet, breathing mask, safety glasses\nIsolate the circuit breaker for the diesel engine.\nTools and Equipment\nComplete \n maintenance tool set.\nCleaning fluid.\nFeeler gauge.\nSuitable lifting \n device.\nWork to be carried out\nBefore isolated the diesel engine mechanically \n and electrically.\nThe \n engine must be operated and check the following steps and reads all the \n available record values and putted in operation & maintenance record data \n sheet (MRDS) Table (1).\nSetting\n\nNotes:\n....................................................................................................................................................\n....................................................................................................................................................\nLocation: Equipment \ncode:\nTested Date : \nChecked by: \nSignature :\nAfter isolated the diesel engine \nmechanically and electrically\nDismantle the engine for inspection \nspecified below (See major maintenance procedure)\nClean and wash all the units, clean \nall pipes and oil channels.\nInspect all functional units and check \ntheir condition.\nCheck mainly the following assemblies \nand parts:\nDismantle the engine for inspection \nspecified below (See major maintenance procedure)\nClean and wash all the units, clean \nall pipes and oil channels.\nInspect all functional units and check \ntheir condition.\nCheck mainly the following assemblies \nand parts:\nCylinder head\nRemove the cylinder heads\nClean \n suction and exhaust valves chamber \n for any\n carbon deposits\nRe-machine the \n exhaust\n valve \n seats\n on the milling machine and grind them.\nCheck \n Suction and exhaust valves springs from any fatigues and renew if any.\nReadjust \n Starting, pressure relief and fuel injecting valve\nClean \n Water spaces in cylinder heads.\nCheck \n Rocker arm pins, bushes and rollers from any mechanical wear and replace if \n the clearance w.r.t clearance table no. 1 at MPIS doc no. Dsl-009-r0\nCheck the tightness of all parts \n according to MPIS # Dsl-009-r0\nCheck the \n Piston pins (must fit \n firmly in piston) from any mechanical wear and replace \n if the clearance w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the \n Piston condition (jacket and piston crown, hole for piston pin, grooves for \n rings)\nCheck the \n Piston pins \n bushes,\n Connecting rod bearings, and \n Piston rings \n from any mechanical wear and replace \n if the clearance w.r.t clearance table no. 1 at MPIS doc no. Dsl-009-r0\nCheck \n for wear and \n replace \n if needed w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the Cams (Keying on),\n Lifters, \n Rollers and lifters pin, Camshaft bearings\n from any mechanical wear and replace \n if the clearance w.r.t clearance table # 1, 2 at MPIS doc # Dsl-009-r0\nCheck the Gears,\n Lifters, \n Pin and inter mediate gear bush \n from any mechanical wear and replace \n if the clearance w.r.t clearance table # 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the \n valves \n of starting equipment from any leakage, repair or replace if \n needed.\nClean the air \n distributor filter.\nCheck the \n governor and regulation parts for any abnormal condition, \n repair or replace if needed.\nCheck the \n alignment and end floats of crankshaft and realignment \n if needed.\nCheck the \n crankshaft, crank pins, and main bearings from any mechanical wear or cracks \n and replace if the clearance \n w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the driving \n wheels,\n gear, bushes, and bearings of shaft of fuel oil pump, for \n any mechanical wear or cracks and replace \n if the clearance w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nReadjust the regulating valve.\nCheck the end floats measuring for wear limits \n w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the tightness of fuel oil piping and of injecting \n equipment (Injecting pumps, injecting valves)\nCarry out the tightness test mainly of valves and piping)\nVisually inspect for seizure, carbon deposits, corrosion, \n scales, etc\nvalues\n before and after Inspection.\nMaintenance Record Data Sheet \nMRDS\nFor \n Emergency Diesel Engine,\n 6 S 275 III PN, CDK PRAHA - CZECH\nTable No. (1)\nSetting\nDuring engine operates\nMRDS Maintenance Record Data Sheet \nMRDS\nFor \n Emergency Diesel Engine,\n 6S 275 111 PN, CDK PRAHA - CZECH\nTable No. (1)continue\nDuring disassembly & assembly\nClearance between piston and liner\nA-A length 3\nB-B length 190\n1.8 1.852\n0.67 0.722\nLocation: Equipment \ncode:\nTested Date : \nChecked by: \nSignature :",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document lists the \nminor maintenance procedure P1 of emergency diesel engine, which must be, \nperformed every 5000-operation hr base as indicated by H 5000 in the title \nblock.\nThe first draft initiated by \neng. Hesham M. Hassan, reviewed by \nMaintenance director: eng. Saad Mostafa, revised by eng. Samir Abdel-Gelil at EDEPCo., accepted by maintenance general director: \neng. Ali Mostafa Al-lithy and \napproved by eng.: Mostafa Alam Head Sector of Talkha steam power station 2 x \n210 MW.\nSafety Precautions\nWork permit must be issued, the qualified maintenance staff must carry the suitable ID safety \ncategory.\nSafety fence with caution marks surrounding the work area.\nWork permit must be issued, the qualified maintenance staff must carry the suitable ID safety \ncategory.\nSafety fence with caution marks surrounding the work area.\nWear appropriate personal protective \n equipment must be used: safety \n shoes, helmet, breathing mask, safety glasses\nIsolate the circuit breaker for the diesel engine.\nTools and Equipment\nComplete \n maintenance tool set.\nCleaning fluid.\nFeeler gauge.\nSuitable lifting \n device.\nWork to be carried out\nBefore isolated the diesel engine mechanically \n and electrically.\nThe \n engine must be operated and check the following steps and reads all the \n available record values and putted in operation & maintenance record data \n sheet (MRDS) Table (1).\nNo. | Activities | Setting\n (reference value ) | Test \n Results\n1. | Check the oil level in the tank. | Up to oil level gauge | \n2. | Check the fuel level in the fuel tank | OK NOT OK | \n3. | Check the \n exhaust gas temperature | 440 º C 2.5 \n º C | \n4. | Check the \n compression pressures in the individual cylinders | 4.21:4.51 Mpa | \n5. | Check the \n exhaust gases colour | Colourless | \n6. | Check the \n uniform power distribution on cylinders | OK NOT OK | \n7. | Check any \n leakage from the piping connections to the diesel engine or its accessories \n (water, lube oil, fuel, and air). | OK NOT OK | \n8. | Check (by \n listening) the regular operation of the engine and whether there is no \n abnormal sounds or knocks | OK NOT OK | \n9. | Check whether \n there are no heavy knocks in the injection valve pipe. | OK NOT OK | \n10. | Check the \n operation of suction and exhaust valves, check the condition of the valve \n springs | OK NOT OK | \n11. | Check (by touch) \n the crankshaft and camshaft bearings temperature rise on the case covers of \n the cylinder blocks, at the points where the bearings are located | OK NOT OK | \n12. | Check the \n starting valves for tightness by touching the starting air pipes heating on \n cylinder heads | OK NOT OK | \nNotes:\n....................................................................................................................................................\n....................................................................................................................................................\nLocation: Equipment \ncode:\nTested Date : \nChecked by: \nSignature :\nAfter isolated the diesel engine \nmechanically and electrically\nDismantle the engine for inspection \nspecified below (See major maintenance procedure)\nClean and wash all the units, clean \nall pipes and oil channels.\nInspect all functional units and check \ntheir condition.\nCheck mainly the following assemblies \nand parts:\nDismantle the engine for inspection \nspecified below (See major maintenance procedure)\nClean and wash all the units, clean \nall pipes and oil channels.\nInspect all functional units and check \ntheir condition.\nCheck mainly the following assemblies \nand parts:\nCylinder head\nRemove the cylinder heads\nClean \n suction and exhaust valves chamber \n for any\n carbon deposits\nRe-machine the \n exhaust\n valve \n seats\n on the milling machine and grind them.\nCheck \n Suction and exhaust valves springs from any fatigues and renew if any.\nReadjust \n Starting, pressure relief and fuel injecting valve\nClean \n Water spaces in cylinder heads.\nCheck \n Rocker arm pins, bushes and rollers from any mechanical wear and replace if \n the clearance w.r.t clearance table no. 1 at MPIS doc no. Dsl-009-r0\nCheck the tightness of all parts \n according to MPIS # Dsl-009-r0\nCheck the \n Piston pins (must fit \n firmly in piston) from any mechanical wear and replace \n if the clearance w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the \n Piston condition (jacket and piston crown, hole for piston pin, grooves for \n rings)\nCheck the \n Piston pins \n bushes,\n Connecting rod bearings, and \n Piston rings \n from any mechanical wear and replace \n if the clearance w.r.t clearance table no. 1 at MPIS doc no. Dsl-009-r0\nCheck \n for wear and \n replace \n if needed w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the Cams (Keying on),\n Lifters, \n Rollers and lifters pin, Camshaft bearings\n from any mechanical wear and replace \n if the clearance w.r.t clearance table # 1, 2 at MPIS doc # Dsl-009-r0\nCheck the Gears,\n Lifters, \n Pin and inter mediate gear bush \n from any mechanical wear and replace \n if the clearance w.r.t clearance table # 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the \n valves \n of starting equipment from any leakage, repair or replace if \n needed.\nClean the air \n distributor filter.\nCheck the \n governor and regulation parts for any abnormal condition, \n repair or replace if needed.\nCheck the \n alignment and end floats of crankshaft and realignment \n if needed.\nCheck the \n crankshaft, crank pins, and main bearings from any mechanical wear or cracks \n and replace if the clearance \n w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the driving \n wheels,\n gear, bushes, and bearings of shaft of fuel oil pump, for \n any mechanical wear or cracks and replace \n if the clearance w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nReadjust the regulating valve.\nCheck the end floats measuring for wear limits \n w.r.t clearance table no. 1, 2 at MPIS doc no. Dsl-009-r0\nCheck the tightness of fuel oil piping and of injecting \n equipment (Injecting pumps, injecting valves)\nCarry out the tightness test mainly of valves and piping)\nVisually inspect for seizure, carbon deposits, corrosion, \n scales, etc\nvalues\n before and after Inspection.\nMaintenance Record Data Sheet \nMRDS\nFor \n Emergency Diesel Engine,\n 6 S 275 III PN, CDK PRAHA - CZECH\nTable No. (1)\nNo. | Item | Setting\n value | Unit | Record value | Remarks\nBefore ins. | After Ins.\n1 | During engine operates\n Rated power outlet (PJ) on crank shaft \n flange | 530 | Kw |  |  | \n2 | Rated speed | 600 | Rpm |  |  | \n3 | Mean effective pressure | 0.825 | Mpa |  |  | \n4 | Compression pressure (at 75% pj) | 4.21-4.51 | Mpa |  |  | \n5 | Max. Combustion pressure | 6.86 | Mpa |  |  | \n6 | Max. Combustion pressure (at 10 % overload) | 7.16 | Mpa |  |  | \n7 | Max. permissible pressure of exhaust gases in piping after \n turbine | 0.3 | Mpa |  |  | \n8 | Max. permissible sub-atmospheric pressure in suction side \n of turbo-supercharger | 0.3 | Mpa |  |  | \n9 | Max. Exhaust gas temp. in sockets of individual cylinders | 440 | C |  |  | \n10 | Max. Exhaust gas temp. in sockets of individual cylinders \n (at 10% over-load) | 460 | C |  |  | \n11 | Max. Exhaust gas temp. before turbine | 540 | C |  |  | \n12 | Max. Exhaust gas temp. before turbine at 10 % over load | 580 | C |  |  | \n13 | Max. Exhaust gas temp. after turbine | 460 | C |  |  | \n14 | Max. Exhaust gas temp. after turbine at 10 % over load | 490 | C |  |  | \n15 | Max. Permissible lubricating oil temp. at outlet of engine | 85 | C |  |  | \n16 | Mean recommended lubricating oil temp. at outlet of engine | 70-80 | C |  |  | \n17 | Specific lubricating oil consumption of engine completely run | 1.7 | g/Kwh |  |  | \n18 | Lubricating oil pressure measured at end of main \n distributed pipe at mean lube oil pressure changes according to operating \n speed of engine | 0.1-0.3 | Mpa |  |  | \n19 | Max. Permissible cooling water temp. at outlet of engine | 80 | C |  |  | \n20 | Mean recommended cooling water temp. at outlet of engine | 70-75 | C |  |  | \nMRDS Maintenance Record Data Sheet \nMRDS\nFor \n Emergency Diesel Engine,\n 6S 275 111 PN, CDK PRAHA - CZECH\nTable No. (1)continue\nNo. | Item | Setting value | Unit | Record Value | Remarks\nBefore ins. | After Ins.\n1 | During disassembly & assembly\n Clearance in Main bearing | 0.17 - 0.256 | mm |  |  | \n2 | Clearance in Big end bearing | 0.13 - 0.25 | mm |  |  | \n3 | Clearance in Piston pin bush | 0.097 - 0.132 | mm |  |  | \n4 | Clearance in Camshaft bearing | 0.03 - 0.122 | mm |  |  | \n5 | Clearance in Valve lever bush | 0.025 0.075 | mm |  |  | \n6 | Clearance in Suction and exhaust valve \n guide | 0.2 0.257 | mm |  |  | \n7 | Clearance between roller and valve \n (cold cond.) | 0.35 | mm |  |  | \n8 | Clearance between camshaft gear and \n intermediate gear | 0.15 0.25 | mm |  |  | \n9 | Clearance between divided gear and \n intermediate gear | 0.2 0.3 | mm |  |  | \n10 | Clearance between piston and liner\n A-A length 3\n B-B length 190\n C-C length 409 | 1.8 1.852\n 0.67 0.722\n 0.36 0.412 | mm |  |  | \n11 | Clearance between head and piston edge \n in TDC | 2.50.5 | mm |  |  | \n12 | Clearance in piston ring lock | 1.4 1.8 | mm |  |  | \n13 | Axial clearance of crank shaft | 0.1 0.169 | mm |  |  | \n14 | Axial clearance of connecting rod big \n end | 0.7 1.25 | mm |  |  | \n15 | Ovality of crankshaft journal | 0.21 length 100 | mm |  |  | \n16 | End float of freely mounted crankshaft \n ( without flywheel) | Max. 0.03 | mm |  |  | \nLocation: Equipment \ncode:\nTested Date : \nChecked by: \nSignature :",
  "text_truncated": false,
  "links": [],
  "images": [
