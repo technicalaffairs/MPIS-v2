@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Diamo System Cards"
-  },
-  {
-   "type": "paragraph",
-   "text": "K110, 810, 540, 530"
-  },
-  {
-   "type": "paragraph",
-   "text": "SKODA PLZEN"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -89,6 +79,27 @@
    "text": "Fixed Trouble Shooting:"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Signal",
+     "Fault",
+     "Action"
+    ],
+    [
+     "0031A13",
+     "Fuse",
+     "Replace fuse"
+    ],
+    [
+     "0062A90",
+     "Power supply(220v) cutting",
+     "Check power supply"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: \nSystem cabinet tag no. :"
   },
@@ -129,7 +140,7 @@
    "text": "RESET \n reset push bottom for tester program"
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nEquipment:\n Diamo System Cards\nK110, 810, 540, 530\nSKODA PLZEN\nIntroduction\nThis document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the title block\nCards of Diamo (K), which is responsible for \nprotection auxiliaries of unit (air fan, gas recirculation fan, condensate pump, \nfeed water pump..etc.). All of those cards have a special programming unit, \nwhich were putting in position (A), while the tested card putting in position \n(B) see figure (1).\nThe first draft initiated by eng. Ramadan Helmy, tested at 04 \nMay 2003, revised by quality control eng. Abdl Menem Al Emam at EDEPCo., \naccepted by: eng. Aly Abd Elwhab, and approved by eng. Awad Mohamed Fathy - Head \nSector of talkha power station\nSafety Precautions\nA work permit must be issued and \n qualified maintenance staff should carry the suitable safety category.\nSafety fence with caution marks \nsurrounding the work area is required.\nWear your safety helmet, shoes, etc.\nTurbine must be out of service.\nTools and Equipment\nThe portable automatic DIAMO unit tester ATU P1 used for testing and verifying the logic units DIAMO.\nWork to be Carried Out\nPress (START) tester with press (ON) push bottom of tested card.\nPress push bottom (OFF) in tested card with press (START) of tester.\nPress both switch (ON) + (OFF) on tested card at the same time with press \n (START) in tester, wait up to the mark (END) appear in display\nFixed Trouble Shooting:\nLocation: \nSystem cabinet tag no. :\nChecked \nby: \nSignature: Date:\nFigure (1) Tester View\nSymbol according to \nassociated drawing\nK1,K2,Kn end terminal socket tested card position(B).\nend terminal socket programming \nmodule position(A)\n+I forward program step .\n-I \n reveres program step.\nSTART \nstart push bottom for tester program.\nRESET \n reset push bottom for tester program",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the title block\nCards of Diamo (K), which is responsible for \nprotection auxiliaries of unit (air fan, gas recirculation fan, condensate pump, \nfeed water pump..etc.). All of those cards have a special programming unit, \nwhich were putting in position (A), while the tested card putting in position \n(B) see figure (1).\nThe first draft initiated by eng. Ramadan Helmy, tested at 04 \nMay 2003, revised by quality control eng. Abdl Menem Al Emam at EDEPCo., \naccepted by: eng. Aly Abd Elwhab, and approved by eng. Awad Mohamed Fathy - Head \nSector of talkha power station\nSafety Precautions\nA work permit must be issued and \n qualified maintenance staff should carry the suitable safety category.\nSafety fence with caution marks \nsurrounding the work area is required.\nWear your safety helmet, shoes, etc.\nTurbine must be out of service.\nTools and Equipment\nThe portable automatic DIAMO unit tester ATU P1 used for testing and verifying the logic units DIAMO.\nWork to be Carried Out\nPress (START) tester with press (ON) push bottom of tested card.\nPress push bottom (OFF) in tested card with press (START) of tester.\nPress both switch (ON) + (OFF) on tested card at the same time with press \n (START) in tester, wait up to the mark (END) appear in display\nFixed Trouble Shooting:\nSignal | Fault | Action\n0031A13 | Fuse | Replace fuse\n0062A90 | Power supply(220v) cutting | Check power supply\nLocation: \nSystem cabinet tag no. :\nChecked \nby: \nSignature: Date:\nFigure (1) Tester View\nSymbol according to \nassociated drawing\nK1,K2,Kn end terminal socket tested card position(B).\nend terminal socket programming \nmodule position(A)\n+I forward program step .\n-I \n reveres program step.\nSTART \nstart push bottom for tester program.\nRESET \n reset push bottom for tester program",
  "text_truncated": false,
  "links": [],
  "images": [

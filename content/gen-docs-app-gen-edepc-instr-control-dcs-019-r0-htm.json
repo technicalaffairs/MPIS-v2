@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Distributed Control System"
-  },
-  {
-   "type": "paragraph",
-   "text": "Engineer \n Station"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -169,7 +163,7 @@
    "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nEquipment\n Distributed Control System\nEngineer \n Station\nIntroduction\nThis document outlines the equipment inspection \nI1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe function of this engineer station is to review and update all the software \nfiles of DCS system\nThe engineer station consists of:\nMSP card, processor for CRT, Part # ( 772B388G57) .\nMSP card, processor for printer, Part # (772B388G29)\nMSP card, processor for keyboard , Part # (772B388G56)\nMDM card, memory card, Part # (7381A81G01)\nMHC card, data highway controller card, Part # (7381A93G01)\nDisk controller card, Part # (405A689G03)\nMMI power supply, input :220VAC,output:+12VDC,+ 5VDC, part # \n(4D33613G02)\nDisk drive assembly W/floppy drive (80MB), part # (3D04153G08)\n2 Cooling fan, 230VAC, 14 Watt, part # (2450D25G03)\nThe first draft initiated by eng. Mohamed Abu Elkheir at 02 \nMarch 2005, tested by eng. Mohamed Younes at \n08 March 2005, revised by quality control eng. Abdel Menem ALEmam at \nEDEPC accepted by general director, eng. Adel ELkelany, and approved by eng. \nMohamed Hamouda EL Sarage; Damietta CCPS \nHead Sector.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nSafety Precautions\nA work permit must be \nissued and the qualified maintenance staff should carry the suitable safety \ncategory (using ground strap)\nThe online maintenance work \non the engineer station cabinet must not affect the operation status of the plant.\nMake a backup of software \nbefore work if it is required.\nA work permit must be \nissued and the qualified maintenance staff should carry the suitable safety \ncategory (using ground strap)\nThe online maintenance work \non the engineer station cabinet must not affect the operation status of the plant.\nMake a backup of software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nTools and Equipment\nSuitable tool set, screw driver, nut driver, and air blower \n (vacuum cleaner)\nSpray video cleaner.\nGround strap, Card extractor.\nDigital voltmeter (DVM): Fluke 87.\nWork to be Carried Out\nCheck the back up software for the cabinet.\nCheck the cabinet status by using (system \n status display) diagram.\nCheck the operation of network card function \n (data highway controller card (MHC) by using (system highway errors \n diagram).\nClean all cabinet cards from dust by blower.\nCheck the operation of cabinet cooling fan \n for (noise temp.).\n- If any LED of three output voltage LEDS\n OFF that is means the power supply is failure \n and must be replaced\nCheck the operation of hard disk by using key \n switch on config mode.\nCheck the performance of operator keyboard.\nCheck the performance of engineer keyboard.\nClean the printer.\nCheck the operation of printer.\nCheck the configuration program for printer.\nCheck the two cooling fans operation, and \n check the sound & temperature.\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document outlines the equipment inspection \nI1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe function of this engineer station is to review and update all the software \nfiles of DCS system\nThe engineer station consists of:\nMSP card, processor for CRT, Part # ( 772B388G57) .\nMSP card, processor for printer, Part # (772B388G29)\nMSP card, processor for keyboard , Part # (772B388G56)\nMDM card, memory card, Part # (7381A81G01)\nMHC card, data highway controller card, Part # (7381A93G01)\nDisk controller card, Part # (405A689G03)\nMMI power supply, input :220VAC,output:+12VDC,+ 5VDC, part # \n(4D33613G02)\nDisk drive assembly W/floppy drive (80MB), part # (3D04153G08)\n2 Cooling fan, 230VAC, 14 Watt, part # (2450D25G03)\nThe first draft initiated by eng. Mohamed Abu Elkheir at 02 \nMarch 2005, tested by eng. Mohamed Younes at \n08 March 2005, revised by quality control eng. Abdel Menem ALEmam at \nEDEPC accepted by general director, eng. Adel ELkelany, and approved by eng. \nMohamed Hamouda EL Sarage; Damietta CCPS \nHead Sector.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nSafety Precautions\nA work permit must be \nissued and the qualified maintenance staff should carry the suitable safety \ncategory (using ground strap)\nThe online maintenance work \non the engineer station cabinet must not affect the operation status of the plant.\nMake a backup of software \nbefore work if it is required.\nA work permit must be \nissued and the qualified maintenance staff should carry the suitable safety \ncategory (using ground strap)\nThe online maintenance work \non the engineer station cabinet must not affect the operation status of the plant.\nMake a backup of software \nbefore work if it is required.\nDisconnect the cabinet from \ndata highway if required according to station status without any effect on \noperation of plant.\nTools and Equipment\nSuitable tool set, screw driver, nut driver, and air blower \n (vacuum cleaner)\nSpray video cleaner.\nGround strap, Card extractor.\nDigital voltmeter (DVM): Fluke 87.\nWork to be Carried Out\nCheck the back up software for the cabinet.\nCheck the cabinet status by using (system \n status display) diagram.\nCheck the operation of network card function \n (data highway controller card (MHC) by using (system highway errors \n diagram).\nClean all cabinet cards from dust by blower.\nCheck the operation of cabinet cooling fan \n for (noise temp.).\n- If any LED of three output voltage LEDS\n OFF that is means the power supply is failure \n and must be replaced\nCheck the operation of hard disk by using key \n switch on config mode.\nCheck the performance of operator keyboard.\nCheck the performance of engineer keyboard.\nClean the printer.\nCheck the operation of printer.\nCheck the configuration program for printer.\nCheck the two cooling fans operation, and \n check the sound & temperature.\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

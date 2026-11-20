@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Speedtronic MKIV \n Control System\n Speed level detectors - L14HR\n L14HM, L14HA, L14HS\n General Electric"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -71,6 +69,66 @@
    "text": "Work to be Carried Out"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "NAME",
+     "K VALUE",
+     "UNITS",
+     "DESCRIPTION"
+    ],
+    [
+     "TNK 14 HA1",
+     "K 51.000",
+     "% SPD",
+     "L14HA PICKUP (ACCELLERATE)"
+    ],
+    [
+     "TNK 14 HA2",
+     "K 47.100",
+     "% SPD",
+     "L14HA DROPOUT (SHUTDOWN)"
+    ],
+    [
+     "TNK 14 HM1",
+     "K 18.000",
+     "% SPD",
+     "L14HM PICKUP (MIN. FIRE)"
+    ],
+    [
+     "TNK 14 HM2",
+     "K 17.000",
+     "% SPD",
+     "L14HM\n DROPOUT \n (FIRING SPEED)"
+    ],
+    [
+     "TNK 14 HR1",
+     "K 0.060",
+     "% SPD",
+     "L14HR PICKUP 3+2 RPM (ZERO SPD)"
+    ],
+    [
+     "TNK 14 HR2",
+     "K 0.310",
+     "% SPD",
+     "L14HR DROPOUT 16+4 RPM"
+    ],
+    [
+     "TNK 14 HS1",
+     "K 95.000",
+     "% SPD",
+     "L14HS PICKUP (OPERATING)"
+    ],
+    [
+     "TNK 14 HS2",
+     "K 87.400",
+     "% SPD",
+     "L14HS DROPOUT (UNDER FREQ.)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "list",
    "items": [
     "Select \"DATA\" list 16, \n logic forcing and enter logic signals L14HR, L14HM, L14HA and L14HS on the CRT \n display",
@@ -85,7 +143,7 @@
    "text": "Location: System \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Speedtronic MKIV \n Control System\n Speed level detectors - L14HR\n L14HM, L14HA, L14HS\n General Electric\nIntroduction\nThis document out lines the \nequipment inspection to be performed on an annually bases as indicated by Y1 in \nthe title block.\nThe first draft \ninitiated by eng. Mohamed Atya Mahmoud El Egamy, tested by eng. \nMohamed Ahmed Ezzy at 08 August 2005, revised by EDEPC quality \ncontrol eng. Abd Elmineem Atya, accepted by \neng. Mahmoud Abdel-Hade \nAhmed Hurgada \nPS general director.\nThis document accepted by \neng. Samir \nAbd El Gilil: EDEPC MPIS Coordinator, and certified by accountant Mahmoud Mohamed Soliman admin & financial inspection quality control general director \nand supervisor of EDEPC inspection and quality control head sector.\nSafety Precautions\nUnit at shut down mode.\nA work permit must be issued ,the maintenance staff should \n be qualified and carry the suitable safety category .\nSafety \n fence with caution marks surrounding the work area is required.\nWear safety and healthy equipment as safety \n helmet, safety shoes ... etc.\nSwitch off all CB's on the motor control center (MCC)\nTools and Equipment\nTest oscillator,\n test counter.\nScrew driver,\n Jumpers.\nWork to be Carried Out\nSelect \"DATA\" list 16, \n logic forcing and enter logic signals L14HR, L14HM, L14HA and L14HS on the CRT \n display\nSlowly increase the oscillator frequency from zero and verify that the zero \n speed logic L14HR resets to logic \"0\" at the dropout speed given in the \n control spec. setting adjust from constant TNK 14HR if dropout does not \n occur at the correct speed.\nSlowly decrease the oscillator frequency and verify that the zero speed logic \n L14HR goes to a logic \"1\" at the pickup speed given in the control spec. setting adjust from constant TNK 14HR if correction is required.\nContinue to increase the oscillator frequency and verify that all of the \n other speed logic signals change to a logic \"1\" at the pickup speed listed in \n the control spec. setting . adjust corresponding from constants listed if \n required as shown in table (1).\nSlowly decrease the oscillator frequency from full speed and verify that all \n of the speed logic signals resets to a logic \"0\" at the dropout speed listed \n in the control spec. setting adjust corresponding from constants listed if \n required.\nLocation: System \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document out lines the \nequipment inspection to be performed on an annually bases as indicated by Y1 in \nthe title block.\nThe first draft \ninitiated by eng. Mohamed Atya Mahmoud El Egamy, tested by eng. \nMohamed Ahmed Ezzy at 08 August 2005, revised by EDEPC quality \ncontrol eng. Abd Elmineem Atya, accepted by \neng. Mahmoud Abdel-Hade \nAhmed Hurgada \nPS general director.\nThis document accepted by \neng. Samir \nAbd El Gilil: EDEPC MPIS Coordinator, and certified by accountant Mahmoud Mohamed Soliman admin & financial inspection quality control general director \nand supervisor of EDEPC inspection and quality control head sector.\nSafety Precautions\nUnit at shut down mode.\nA work permit must be issued ,the maintenance staff should \n be qualified and carry the suitable safety category .\nSafety \n fence with caution marks surrounding the work area is required.\nWear safety and healthy equipment as safety \n helmet, safety shoes ... etc.\nSwitch off all CB's on the motor control center (MCC)\nTools and Equipment\nTest oscillator,\n test counter.\nScrew driver,\n Jumpers.\nWork to be Carried Out\nNAME | K VALUE | UNITS | DESCRIPTION\nTNK 14 HA1 | K 51.000 | % SPD | L14HA PICKUP (ACCELLERATE)\nTNK 14 HA2 | K 47.100 | % SPD | L14HA DROPOUT (SHUTDOWN)\nTNK 14 HM1 | K 18.000 | % SPD | L14HM PICKUP (MIN. FIRE)\nTNK 14 HM2 | K 17.000 | % SPD | L14HM\n DROPOUT \n (FIRING SPEED)\nTNK 14 HR1 | K 0.060 | % SPD | L14HR PICKUP 3+2 RPM (ZERO SPD)\nTNK 14 HR2 | K 0.310 | % SPD | L14HR DROPOUT 16+4 RPM\nTNK 14 HS1 | K 95.000 | % SPD | L14HS PICKUP (OPERATING)\nTNK 14 HS2 | K 87.400 | % SPD | L14HS DROPOUT (UNDER FREQ.)\nSelect \"DATA\" list 16, \n logic forcing and enter logic signals L14HR, L14HM, L14HA and L14HS on the CRT \n display\nSlowly increase the oscillator frequency from zero and verify that the zero \n speed logic L14HR resets to logic \"0\" at the dropout speed given in the \n control spec. setting adjust from constant TNK 14HR if dropout does not \n occur at the correct speed.\nSlowly decrease the oscillator frequency and verify that the zero speed logic \n L14HR goes to a logic \"1\" at the pickup speed given in the control spec. setting adjust from constant TNK 14HR if correction is required.\nContinue to increase the oscillator frequency and verify that all of the \n other speed logic signals change to a logic \"1\" at the pickup speed listed in \n the control spec. setting . adjust corresponding from constants listed if \n required as shown in table (1).\nSlowly decrease the oscillator frequency from full speed and verify that all \n of the speed logic signals resets to a logic \"0\" at the dropout speed listed \n in the control spec. setting adjust corresponding from constants listed if \n required.\nLocation: System \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

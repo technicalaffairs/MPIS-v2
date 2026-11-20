@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Generator \n SV 581/88-170"
-  },
-  {
-   "type": "paragraph",
-   "text": "Elin"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -46,39 +40,43 @@
    "rows": [
     [
      "Type of \n generator",
-     ""
+     "SV 581/88-170"
     ],
     [
      "Rated output",
-     ""
+     "16.8 MVA"
     ],
     [
      "Rated terminal voltage",
-     ""
+     "11 kv"
     ],
     [
      "Voltage range",
-     ""
+     "+ 5 %"
     ],
     [
      "Rated stator current",
-     ""
+     "882 A"
     ],
     [
      "Rated power factor",
-     ""
+     "0.85"
     ],
     [
      "Rated speed",
-     ""
+     "68318 rpm"
     ],
     [
      "Direction of rotation",
-     ""
+     "clockwise"
     ],
     [
      "Rated rotor current",
-     ""
+     "779 Adc"
+    ],
+    [
+     "Rated rotor voltage",
+     "260 Vdc"
     ]
    ],
    "truncated_rows": 0
@@ -272,6 +270,82 @@
    "text": "استمارة الصيانة والمراجعة على المولد رقم ( \n)\nنوع الصيانة \nتاريخ الصيانة \nحتى"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "نتيجة الفحص",
+     "الاعمال المنفذة",
+     "م"
+    ],
+    [
+     "",
+     "قياس مقاومة عزل الملفات قبل اجراء \n الصيانة وبعد الخروج من الشبكة",
+     "1"
+    ],
+    [
+     "",
+     "عمل نظافة جافة لملفات \n المولد الرئيسى والمساعد",
+     "2"
+    ],
+    [
+     "",
+     "اجراء النظافة بالكحول \n الابيض على ملفات المولد الرئيسى والمساعد",
+     "3"
+    ],
+    [
+     "",
+     "مراجعة عمل جهاز امتصاص \n وتجفيف الرطوبة داخل المولد",
+     "4"
+    ],
+    [
+     "",
+     "مراجعة عمل سخانات \n المولد والثرموستات الخاصة بها",
+     "5"
+    ],
+    [
+     "",
+     "مراجعة محدد مشوار دخول \n وخروج الفرامل للمولد",
+     "6"
+    ],
+    [
+     "",
+     "مراجعة وضع مفتاح ترباس \n العضو الدوار للمولد",
+     "7"
+    ],
+    [
+     "",
+     "مراجعة لجهزة الاحساس \n بالحرارة داخل المولد وقياس قيمة المقاومة الخاصة بها",
+     "8"
+    ],
+    [
+     "",
+     "عمل نظافة جافة لنقطة \n التعادل للمولد",
+     "9"
+    ],
+    [
+     "",
+     "مراجعة لقيم قياس درجات \n الحرارة للهواء الساخنة وهواء البارد للمولد",
+     "10"
+    ],
+    [
+     "",
+     "مراجعة عمل جهاز الاحساس \n بالرطوبة داخل ملفات المولد",
+     "11"
+    ],
+    [
+     "",
+     "الكشف على فرش قياس ارض \n العضو الدوار",
+     "12"
+    ],
+    [
+     "",
+     "قياس نقاط الارضى للمولد",
+     "13"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Generator measuring points"
   },
@@ -292,7 +366,7 @@
     ],
     [
      "Stator winding temp.",
-     "",
+     "1- Uqte 011",
      "30C",
      "111.7",
      "",
@@ -300,7 +374,7 @@
      ""
     ],
     [
-     "",
+     "2- Uqte 012",
      "30C",
      "111.71",
      "",
@@ -308,7 +382,7 @@
      ""
     ],
     [
-     "",
+     "3- Uqte 013",
      "30C",
      "111.72",
      "",
@@ -316,7 +390,7 @@
      ""
     ],
     [
-     "",
+     "4- Uqte 014",
      "30C",
      "111.69",
      "",
@@ -324,7 +398,7 @@
      ""
     ],
     [
-     "",
+     "5- Uqte 015",
      "30C",
      "111.7",
      "",
@@ -332,7 +406,7 @@
      ""
     ],
     [
-     "",
+     "6- Uqte 016",
      "30C",
      "111.7",
      "",
@@ -341,7 +415,7 @@
     ],
     [
      "Hot air temp",
-     "",
+     "1-Uqte012A",
      "30C",
      "111.67",
      "",
@@ -349,7 +423,7 @@
      ""
     ],
     [
-     "",
+     "2-Uqte012B",
      "30C",
      "111.68",
      "",
@@ -358,7 +432,7 @@
     ],
     [
      "Cold air temp",
-     "",
+     "1-Uqte011A",
      "30C",
      "111.69",
      "",
@@ -366,7 +440,7 @@
      ""
     ],
     [
-     "",
+     "2-Uqte011B",
      "30C",
      "111.69",
      "",
@@ -375,7 +449,7 @@
     ],
     [
      "Oil head temp",
-     "",
+     "B2259",
      "30C",
      "111.7",
      "",
@@ -390,7 +464,7 @@
    "text": "Location: Equipment \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Generator \n SV 581/88-170\nElin\nIntroduction\nThis \ndocument outlines the equipment inspection I1, which must be performed on yearly \nbases as indicated by Y1 in the title block\nTechnical Specification:\n\nThis document is initiated & tested by eng. Abdo \nHussein Ahmed, approved by eng. Mohamed Nassr El-din Ahmed general director, \naccepted by eng. Youssef Mahmoud Aly: general director of Esna Hydraulic PS, and certified \nby \neng. Kamel Ragheb:\nHPGC \nquality control \ngeneral director & MPIS Coordinator\nSafety Precautions\nA work order must be issued\nThe generator is out of service\nThe generator fire fighting out of service\nGenerator breaker is applied.\nConnect earth switch of generator CB\nDisconnect the stand still heating of generator\nPosition of rotor locking bolt on position\nA work order must be issued\nThe generator is out of service\nThe generator fire fighting out of service\nGenerator breaker is applied.\nConnect earth switch of generator CB\nDisconnect the stand still heating of generator\nPosition of rotor locking bolt on position\nTools and Equipment\nVaccum cleaner\nSmooth brushes\nVaccum cleaner\nSmooth brushes\nWork to be Carried Out\nElin generator are \ndesigned to minimize maintenance work\nElin generator are \ndesigned to minimize maintenance work\nStator\nKeep the generator \nstator clean all the time there will be no major maintenance work\nUse a vacuum \ncleaner and smooth brushes for cleaning or even better if availiable dry air, not exceeding 3 \nbars of air pressure\nIf the CO2-fire fighting \nsystem has been operated the generator shall be checked and cleaning of all \nparts must be performed\nKeep the generator \nstator clean all the time there will be no major maintenance work\nUse a vacuum \ncleaner and smooth brushes for cleaning or even better if availiable dry air, not exceeding 3 \nbars of air pressure\nIf the CO2-fire fighting \nsystem has been operated the generator shall be checked and cleaning of all \nparts must be performed\nRotor\nKeep the generator \nrotor clean all the time there will be no major maintenance work\nUse vacuum \ncleaner and smooth brushes for cleaning\nThe slip rings have to be \ninspected monthly for wear and proper operation\nWorn brushes should be \nchanged when wear is approximately fifty percent of the original length (use for \nrotor earth fault)\nMeasure the insulation \nresistance and polarization index after the unit is out of network\nCheck the operation of the \nstand still heating of generator\nCheck the operation of the \ngenerator brake limits switch's\nCheck the operation of \ndehumidifier\nCheck the RTD s of hot air \nand cold air\nClean the neutral point \nof generator\nCheck the position of the \nrotor locking bolt\nClean the over hang of \nthe stator winding by vaccum cleaner and smooth brushes\nClean the generator \nover hang by use alcohol\nKeep the generator section \nof the bulb always absolutely clean\nKeep the generator \nrotor clean all the time there will be no major maintenance work\nUse vacuum \ncleaner and smooth brushes for cleaning\nThe slip rings have to be \ninspected monthly for wear and proper operation\nWorn brushes should be \nchanged when wear is approximately fifty percent of the original length (use for \nrotor earth fault)\nMeasure the insulation \nresistance and polarization index after the unit is out of network\nCheck the operation of the \nstand still heating of generator\nCheck the operation of the \ngenerator brake limits switch's\nCheck the operation of \ndehumidifier\nCheck the RTD s of hot air \nand cold air\nClean the neutral point \nof generator\nCheck the position of the \nrotor locking bolt\nClean the over hang of \nthe stator winding by vaccum cleaner and smooth brushes\nClean the generator \nover hang by use alcohol\nKeep the generator section \nof the bulb always absolutely clean\nاستمارة الصيانة والمراجعة على المولد رقم ( \n)\nنوع الصيانة \nتاريخ الصيانة \nحتى\nGenerator measuring points\n\nLocation: Equipment \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis \ndocument outlines the equipment inspection I1, which must be performed on yearly \nbases as indicated by Y1 in the title block\nTechnical Specification:\nType of \n generator | SV 581/88-170\nRated output | 16.8 MVA\nRated terminal voltage | 11 kv\nVoltage range | + 5 %\nRated stator current | 882 A\nRated power factor | 0.85\nRated speed | 68318 rpm\nDirection of rotation | clockwise\nRated rotor current | 779 Adc\nRated rotor voltage | 260 Vdc\nThis document is initiated & tested by eng. Abdo \nHussein Ahmed, approved by eng. Mohamed Nassr El-din Ahmed general director, \naccepted by eng. Youssef Mahmoud Aly: general director of Esna Hydraulic PS, and certified \nby \neng. Kamel Ragheb:\nHPGC \nquality control \ngeneral director & MPIS Coordinator\nSafety Precautions\nA work order must be issued\nThe generator is out of service\nThe generator fire fighting out of service\nGenerator breaker is applied.\nConnect earth switch of generator CB\nDisconnect the stand still heating of generator\nPosition of rotor locking bolt on position\nA work order must be issued\nThe generator is out of service\nThe generator fire fighting out of service\nGenerator breaker is applied.\nConnect earth switch of generator CB\nDisconnect the stand still heating of generator\nPosition of rotor locking bolt on position\nTools and Equipment\nVaccum cleaner\nSmooth brushes\nVaccum cleaner\nSmooth brushes\nWork to be Carried Out\nElin generator are \ndesigned to minimize maintenance work\nElin generator are \ndesigned to minimize maintenance work\nStator\nKeep the generator \nstator clean all the time there will be no major maintenance work\nUse a vacuum \ncleaner and smooth brushes for cleaning or even better if availiable dry air, not exceeding 3 \nbars of air pressure\nIf the CO2-fire fighting \nsystem has been operated the generator shall be checked and cleaning of all \nparts must be performed\nKeep the generator \nstator clean all the time there will be no major maintenance work\nUse a vacuum \ncleaner and smooth brushes for cleaning or even better if availiable dry air, not exceeding 3 \nbars of air pressure\nIf the CO2-fire fighting \nsystem has been operated the generator shall be checked and cleaning of all \nparts must be performed\nRotor\nKeep the generator \nrotor clean all the time there will be no major maintenance work\nUse vacuum \ncleaner and smooth brushes for cleaning\nThe slip rings have to be \ninspected monthly for wear and proper operation\nWorn brushes should be \nchanged when wear is approximately fifty percent of the original length (use for \nrotor earth fault)\nMeasure the insulation \nresistance and polarization index after the unit is out of network\nCheck the operation of the \nstand still heating of generator\nCheck the operation of the \ngenerator brake limits switch's\nCheck the operation of \ndehumidifier\nCheck the RTD s of hot air \nand cold air\nClean the neutral point \nof generator\nCheck the position of the \nrotor locking bolt\nClean the over hang of \nthe stator winding by vaccum cleaner and smooth brushes\nClean the generator \nover hang by use alcohol\nKeep the generator section \nof the bulb always absolutely clean\nKeep the generator \nrotor clean all the time there will be no major maintenance work\nUse vacuum \ncleaner and smooth brushes for cleaning\nThe slip rings have to be \ninspected monthly for wear and proper operation\nWorn brushes should be \nchanged when wear is approximately fifty percent of the original length (use for \nrotor earth fault)\nMeasure the insulation \nresistance and polarization index after the unit is out of network\nCheck the operation of the \nstand still heating of generator\nCheck the operation of the \ngenerator brake limits switch's\nCheck the operation of \ndehumidifier\nCheck the RTD s of hot air \nand cold air\nClean the neutral point \nof generator\nCheck the position of the \nrotor locking bolt\nClean the over hang of \nthe stator winding by vaccum cleaner and smooth brushes\nClean the generator \nover hang by use alcohol\nKeep the generator section \nof the bulb always absolutely clean\nاستمارة الصيانة والمراجعة على المولد رقم ( \n)\nنوع الصيانة \nتاريخ الصيانة \nحتى\nنتيجة الفحص | الاعمال المنفذة | م\n | قياس مقاومة عزل الملفات قبل اجراء \n الصيانة وبعد الخروج من الشبكة | 1\n | عمل نظافة جافة لملفات \n المولد الرئيسى والمساعد | 2\n | اجراء النظافة بالكحول \n الابيض على ملفات المولد الرئيسى والمساعد | 3\n | مراجعة عمل جهاز امتصاص \n وتجفيف الرطوبة داخل المولد | 4\n | مراجعة عمل سخانات \n المولد والثرموستات الخاصة بها | 5\n | مراجعة محدد مشوار دخول \n وخروج الفرامل للمولد | 6\n | مراجعة وضع مفتاح ترباس \n العضو الدوار للمولد | 7\n | مراجعة لجهزة الاحساس \n بالحرارة داخل المولد وقياس قيمة المقاومة الخاصة بها | 8\n | عمل نظافة جافة لنقطة \n التعادل للمولد | 9\n | مراجعة لقيم قياس درجات \n الحرارة للهواء الساخنة وهواء البارد للمولد | 10\n | مراجعة عمل جهاز الاحساس \n بالرطوبة داخل ملفات المولد | 11\n | الكشف على فرش قياس ارض \n العضو الدوار | 12\n | قياس نقاط الارضى للمولد | 13\nGenerator measuring points\nRtds | Refrence | Measuring | Remark\nC | OHM | C | OHM\nStator winding temp. | 1- Uqte 011 | 30C | 111.7 |  |  | \n2- Uqte 012 | 30C | 111.71 |  |  | \n3- Uqte 013 | 30C | 111.72 |  |  | \n4- Uqte 014 | 30C | 111.69 |  |  | \n5- Uqte 015 | 30C | 111.7 |  |  | \n6- Uqte 016 | 30C | 111.7 |  |  | \nHot air temp | 1-Uqte012A | 30C | 111.67 |  |  | \n2-Uqte012B | 30C | 111.68 |  |  | \nCold air temp | 1-Uqte011A | 30C | 111.69 |  |  | \n2-Uqte011B | 30C | 111.69 |  |  | \nOil head temp | B2259 | 30C | 111.7 |  |  | \nLocation: Equipment \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

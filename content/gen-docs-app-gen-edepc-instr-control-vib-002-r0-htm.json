@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "3300"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -157,222 +155,182 @@
    "text": "MRDS \nMaintenance Record Data Sheet \nMRDS"
   },
   {
-   "type": "paragraph",
-   "text": "Bearing"
-  },
-  {
-   "type": "paragraph",
-   "text": "ACC."
-  },
-  {
-   "type": "paragraph",
-   "text": "Before"
-  },
-  {
-   "type": "paragraph",
-   "text": "After"
-  },
-  {
-   "type": "paragraph",
-   "text": "HP Bearing"
-  },
-  {
-   "type": "paragraph",
-   "text": "HP Bearing"
-  },
-  {
-   "type": "paragraph",
-   "text": "LP Bearing"
-  },
-  {
-   "type": "paragraph",
-   "text": "LP Bearing"
-  },
-  {
-   "type": "paragraph",
-   "text": "Gen. Bearing"
-  },
-  {
-   "type": "paragraph",
-   "text": "Gen. Bearing"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
+     "Bearing\n No.",
      "Channel \n No.",
-     "",
-     "",
-     ""
+     "Manufacture\n ref.",
+     "Testing",
+     "Remarks"
     ],
     [
      "Value",
      "Unit",
+     "ACC.\n VDC",
+     "Before\n Adj.",
+     "After\n Adj."
+    ],
+    [
+     "HP Bearing\n No. \n 1",
+     "YE 41 A",
+     "-7.85",
+     "Vdc",
+     "+.75",
+     "",
+     "",
+     "adjust at sensor"
+    ],
+    [
+     "YE41 B",
+     "-7.85",
+     "Vdc",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
-     "",
+     "HP Bearing\n No. 2",
+     "YE 42 A",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
+     "YE42 B",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
-     "",
+     "LP Bearing\n No. 3",
+     "YE43 A",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
+     "YE43 B",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
-     "",
+     "LP Bearing\n No. 4",
+     "YE44 A",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
+     "YE44B",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
-     "",
+     "Gen. Bearing\n No. 5",
+     "YE50A",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
+     "YE50B",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
-     "",
+     "Gen. Bearing\n No. 6",
+     "YE 51 A",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
+     "YE51B",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
-     "",
+     "Thrust Wear",
+     "ZE 47",
+     "-7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
+     "Absolute Expansion",
+     "ZE 49",
+     "-10",
      "Vdc",
-     "",
+     "+.65",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
-     "",
+     "Shaft Eccentricity",
+     "ZE 46",
+     "- 7.85",
      "Vdc",
-     "",
+     "+.75",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
-     "",
+     "Hp Stator",
+     "ZE 50",
+     "- 6.5",
      "Vdc",
-     "",
+     "+.3",
      "",
      "",
      ""
     ],
     [
-     "",
-     "",
-     "",
+     "Hp Rotor",
+     "ZE 48",
+     "- 10",
      "Vdc",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "",
-     "",
-     "",
-     "Vdc",
-     "",
-     "",
-     "",
-     ""
-    ],
-    [
-     "",
-     "",
-     "",
-     "Vdc",
-     "",
+     "+.65",
      "",
      "",
      ""
@@ -398,7 +356,7 @@
    "text": "Last Test Date: \nTest Date:"
   }
  ],
- "text": "Power Stations\nTechnical Procedure\n3300\nIntroduction\nThis document \noutlines the testing procedure P1, which must performed on an annually bases as \nindicated by Y1 in the title block.\nThe first \ndraft initiated by eng. Gabre Ali Ramadan tested by, eng. Mostafa Ibrahim,Alaa \nELshal,. revised by quality control eng. Abdel Menem ALEmam at EDEPCo., accepted \nby general director, eng. Fawzy Sobhy Esmaile, and approved by eng. Monir \nElwakel Head Sector of Damietta CCPS\nComponents\nThe Vibration System Consist of:\nTwo \n racks (16- cards)\nApproximates (17 approximates)\nTwo \n racks (16- cards)\nTwo cards power \n supply type3300/10: output \n = - 23.75 + \n .45 VDC\nTwo cards system \n monitor type3300/01\nSix cards dual \n vibration type3300/15\nThree cards \n differential expansion (3300/45) one card differential expansion ( 3300/46 \n ) one card eccentricity type3300/40 - one card dual thrust type3300/20.\nApproximates (17 approximates)\nSensors (17 sensors)\nSafety Precautions\nSafety fence (rope) with caution marks surrounding the work area is required.\nWear safety \nand healthy equipment as safety Helmet, safety shoes ...etc\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence (rope) with caution marks surrounding the work area is required.\nWear safety \nand healthy equipment as safety Helmet, safety shoes ...etc\nUnit in stand still.\nTools and Equipment\nMulti-meter, Screw driver.\nContact cleaner\nWork to be Carried Out\nCheck the power supply of the \n system -23.75 + 0.5 VDC\nIf the power OK, green lamp LED \n located in the monitor card is ON, means power supply is OK. If LED is off, \n then change the power supply card.\nConnect the DVM digital voltmeter as shown in the figure 1 and check the reading \naccording to the table of MRDS\nIf the reading of the channel is not acceptable adjust the gap of sensor to get \nthe ref value.\nRepeat the steps for each bearing\nRemove all jumpers\nCheck insulation of wire sensor.\nCleaning all cards.\nCheck Tighten all connections at \n sensors, wiring, approximators\nCheck the power supply of the \n system -23.75 + 0.5 VDC\nIf the power OK, green lamp LED \n located in the monitor card is ON, means power supply is OK. If LED is off, \n then change the power supply card.\nConnect the DVM digital voltmeter as shown in the figure 1 and check the reading \naccording to the table of MRDS\nIf the reading of the channel is not acceptable adjust the gap of sensor to get \nthe ref value.\nRepeat the steps for each bearing\nRemove all jumpers\nClose the work order.\nJunction Box\nFigure 1\nMRDS \nMaintenance Record Data Sheet \nMRDS\nBearing\nACC.\nBefore\nAfter\nHP Bearing\nHP Bearing\nLP Bearing\nLP Bearing\nGen. Bearing\nGen. Bearing\n\nNotice: If that reading is (ok) that is means the system is (ok) \nif not should be change the card and test again .\nLocation: Equipment \nDesignation:\nReviewed by:\n Signature:\n Approved by: \n Signature:\nLast Test Date: \nTest Date:",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document \noutlines the testing procedure P1, which must performed on an annually bases as \nindicated by Y1 in the title block.\nThe first \ndraft initiated by eng. Gabre Ali Ramadan tested by, eng. Mostafa Ibrahim,Alaa \nELshal,. revised by quality control eng. Abdel Menem ALEmam at EDEPCo., accepted \nby general director, eng. Fawzy Sobhy Esmaile, and approved by eng. Monir \nElwakel Head Sector of Damietta CCPS\nComponents\nThe Vibration System Consist of:\nTwo \n racks (16- cards)\nApproximates (17 approximates)\nTwo \n racks (16- cards)\nTwo cards power \n supply type3300/10: output \n = - 23.75 + \n .45 VDC\nTwo cards system \n monitor type3300/01\nSix cards dual \n vibration type3300/15\nThree cards \n differential expansion (3300/45) one card differential expansion ( 3300/46 \n ) one card eccentricity type3300/40 - one card dual thrust type3300/20.\nApproximates (17 approximates)\nSensors (17 sensors)\nSafety Precautions\nSafety fence (rope) with caution marks surrounding the work area is required.\nWear safety \nand healthy equipment as safety Helmet, safety shoes ...etc\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence (rope) with caution marks surrounding the work area is required.\nWear safety \nand healthy equipment as safety Helmet, safety shoes ...etc\nUnit in stand still.\nTools and Equipment\nMulti-meter, Screw driver.\nContact cleaner\nWork to be Carried Out\nCheck the power supply of the \n system -23.75 + 0.5 VDC\nIf the power OK, green lamp LED \n located in the monitor card is ON, means power supply is OK. If LED is off, \n then change the power supply card.\nConnect the DVM digital voltmeter as shown in the figure 1 and check the reading \naccording to the table of MRDS\nIf the reading of the channel is not acceptable adjust the gap of sensor to get \nthe ref value.\nRepeat the steps for each bearing\nRemove all jumpers\nCheck insulation of wire sensor.\nCleaning all cards.\nCheck Tighten all connections at \n sensors, wiring, approximators\nCheck the power supply of the \n system -23.75 + 0.5 VDC\nIf the power OK, green lamp LED \n located in the monitor card is ON, means power supply is OK. If LED is off, \n then change the power supply card.\nConnect the DVM digital voltmeter as shown in the figure 1 and check the reading \naccording to the table of MRDS\nIf the reading of the channel is not acceptable adjust the gap of sensor to get \nthe ref value.\nRepeat the steps for each bearing\nRemove all jumpers\nClose the work order.\nJunction Box\nFigure 1\nMRDS \nMaintenance Record Data Sheet \nMRDS\nBearing\n No. | Channel \n No. | Manufacture\n ref. | Testing | Remarks\nValue | Unit | ACC.\n VDC | Before\n Adj. | After\n Adj.\nHP Bearing\n No. \n 1 | YE 41 A | -7.85 | Vdc | +.75 |  |  | adjust at sensor\nYE41 B | -7.85 | Vdc | +.75 |  |  | \nHP Bearing\n No. 2 | YE 42 A | -7.85 | Vdc | +.75 |  |  | \nYE42 B | -7.85 | Vdc | +.75 |  |  | \nLP Bearing\n No. 3 | YE43 A | -7.85 | Vdc | +.75 |  |  | \nYE43 B | -7.85 | Vdc | +.75 |  |  | \nLP Bearing\n No. 4 | YE44 A | -7.85 | Vdc | +.75 |  |  | \nYE44B | -7.85 | Vdc | +.75 |  |  | \nGen. Bearing\n No. 5 | YE50A | -7.85 | Vdc | +.75 |  |  | \nYE50B | -7.85 | Vdc | +.75 |  |  | \nGen. Bearing\n No. 6 | YE 51 A | -7.85 | Vdc | +.75 |  |  | \nYE51B | -7.85 | Vdc | +.75 |  |  | \nThrust Wear | ZE 47 | -7.85 | Vdc | +.75 |  |  | \nAbsolute Expansion | ZE 49 | -10 | Vdc | +.65 |  |  | \nShaft Eccentricity | ZE 46 | - 7.85 | Vdc | +.75 |  |  | \nHp Stator | ZE 50 | - 6.5 | Vdc | +.3 |  |  | \nHp Rotor | ZE 48 | - 10 | Vdc | +.65 |  |  | \nNotice: If that reading is (ok) that is means the system is (ok) \nif not should be change the card and test again .\nLocation: Equipment \nDesignation:\nReviewed by:\n Signature:\n Approved by: \n Signature:\nLast Test Date: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

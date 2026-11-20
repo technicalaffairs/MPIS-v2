@@ -14,24 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment\n Speedtronic System, \n MK IV"
-  },
-  {
-   "type": "paragraph",
-   "text": "Power Supply Output \n Voltages (Card Test Ring)"
-  },
-  {
-   "type": "paragraph",
-   "text": "P.S {R/S/T/C}& P.S {Rel \n I/O}"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -95,8 +85,45 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Potentiometer"
+   "type": "table",
+   "rows": [
+    [
+     "Power Supply",
+     "Module",
+     "Test Rings",
+     "Tolerances",
+     "Potentiometer\n Adjustment"
+    ],
+    [
+     "{PS . \n R/S/T/C }",
+     "P5",
+     "TO DCOM",
+     "5.0 +0.1 VDC",
+     "R1"
+    ],
+    [
+     "{PS . R/S/T/C }",
+     "P15",
+     "TO DCOM",
+     "15.0 +0.1 VDC",
+     "R6"
+    ],
+    [
+     "{PS . R/S/T/C }",
+     "N15",
+     "TO DCOM",
+     "-15.0 +0.1 VDC",
+     "R7"
+    ],
+    [
+     "{PS . REL 1 /2 }",
+     "TP11",
+     "TO TP4",
+     "28.0 +0.2 VDC",
+     "R1"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -111,7 +138,7 @@
    "text": "Approved by : \n Signature :"
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nEquipment\n Speedtronic System, \n MK IV\nPower Supply Output \n Voltages (Card Test Ring)\nP.S {R/S/T/C}& P.S {Rel \n I/O}\nIntroduction\nThis document outlines the testing procedures \nP1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe first draft initiated by eng. \nMohamed Atya El egamy, tested by eng. \nMohamed Ahmed Ezzy, \nreviewed by EDEPC quality control eng. Abd El-Menem El-Emam, and approved by \neng. \nMahmoud Abd Elhady Ahmed; Hurghada general director \nPS.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC\ninspection and quality control general director, MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nSafety Precautions\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nPersonal \nprotective equipment must be used safety shoes, safety helmet, ground strap \n...etc.\nTools and Equipment\nSuitable tool set\nSafety \n helmet and safety shoes, ... etc.\nDigital voltmeter\nWork to be Carried Out\nSwitch off the power supply of the processor to be checked .\nRemove all the cards in the respective processor .\nSwitch on the power supply and read voltages at the test ring points \n identified in the control specification drawing at table (1) Slight \n differences from spec- should not be adjusted until the p.s is loaded.\nIf voltage values are reasonable , Switch off the power supply and reset the \n cards .\nTurn\n the power supply back on and make final adjustments .\nIf any voltage value is out of limit , adjust the value using the respective \n potentiometer indicated in table (1) {c.w to rise the voltage & c.c.w to \n lower the voltage }\nRepeat step 6 above for all other power supply's.\nPotentiometer\nTable ( 1 )\nLocation: Card \nDesignation: \nTested by: Test Date : \n Signature :\nApproved by : \n Signature :",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThis document outlines the testing procedures \nP1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe first draft initiated by eng. \nMohamed Atya El egamy, tested by eng. \nMohamed Ahmed Ezzy, \nreviewed by EDEPC quality control eng. Abd El-Menem El-Emam, and approved by \neng. \nMahmoud Abd Elhady Ahmed; Hurghada general director \nPS.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC\ninspection and quality control general director, MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nSafety Precautions\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nPersonal \nprotective equipment must be used safety shoes, safety helmet, ground strap \n...etc.\nTools and Equipment\nSuitable tool set\nSafety \n helmet and safety shoes, ... etc.\nDigital voltmeter\nWork to be Carried Out\nSwitch off the power supply of the processor to be checked .\nRemove all the cards in the respective processor .\nSwitch on the power supply and read voltages at the test ring points \n identified in the control specification drawing at table (1) Slight \n differences from spec- should not be adjusted until the p.s is loaded.\nIf voltage values are reasonable , Switch off the power supply and reset the \n cards .\nTurn\n the power supply back on and make final adjustments .\nIf any voltage value is out of limit , adjust the value using the respective \n potentiometer indicated in table (1) {c.w to rise the voltage & c.c.w to \n lower the voltage }\nRepeat step 6 above for all other power supply's.\nPower Supply | Module | Test Rings | Tolerances | Potentiometer\n Adjustment\n{PS . \n R/S/T/C } | P5 | TO DCOM | 5.0 +0.1 VDC | R1\n{PS . R/S/T/C } | P15 | TO DCOM | 15.0 +0.1 VDC | R6\n{PS . R/S/T/C } | N15 | TO DCOM | -15.0 +0.1 VDC | R7\n{PS . REL 1 /2 } | TP11 | TO TP4 | 28.0 +0.2 VDC | R1\nTable ( 1 )\nLocation: Card \nDesignation: \nTested by: Test Date : \n Signature :\nApproved by : \n Signature :",
  "text_truncated": false,
  "links": [],
  "images": [

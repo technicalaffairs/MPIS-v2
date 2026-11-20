@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Speed Tronic \n MK IV control system\n Speed / load setpoint check - TNR\n General Electric"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -106,91 +104,91 @@
      "Name",
      "K value",
      "Untts",
-     ""
+     "Description"
     ],
     [
      "TNKLOST",
      "K not USED",
      "% SPD",
-     ""
+     "Over speed test (LP) not used"
     ],
     [
      "TNKR 1_2",
      "K 8.000",
      "% MIN",
-     ""
+     "L83 JD2 manual load or fast load start (4%/30 SEC) (30 SEC to \n full load)"
     ],
     [
      "TNKR\n 1_3",
      "K 30.000",
      "% MIN",
-     ""
+     "L83 JD3 manual speed (0.5%/SEC)"
     ],
     [
      "TNKR\n 1_4",
      "K 1.000",
      "% MIN",
-     ""
+     "L83 JD4 auto load 4%/4MIN)(4 minutes to full load)"
     ],
     [
      "TNKR\n 1_8",
      "K 6.000",
      "% MIN",
-     ""
+     "L83 JD8 speed matching (0.10%/SEC)"
     ],
     [
      "TNKR\n 2",
      "K 100.300",
      "% SPD",
-     ""
+     "Preset / LD (L83 PRES1)"
     ],
     [
      "TNKR\n 3",
      "K 107.000",
      "% SPD",
-     ""
+     "High speed stop (HSS) OPER"
     ],
     [
      "TNKR\n 4",
      "K 95.000",
      "% SPD",
-     ""
+     "Low SPD stop (LSS) (L83 \n TNROP\n =1)"
     ],
     [
      "TNKR\n 5",
      "K not used",
      "% SPD",
-     ""
+     "Low SPD SU/SD (L 83 TNROP =0)"
     ],
     [
-     "",
+     "TNKR\n 7",
      "KN 100.300",
      "% SPD",
-     ""
+     "Preset / startup (L83 PRES2)"
     ],
     [
      "TNKR 8",
      "K 0.30000",
      "CNT 00",
-     ""
+     "Convergene coefficient"
     ],
     [
      "L33 CDMN",
      "L1/0",
      "LOGIC",
-     ""
+     "L.P speed setpoint \n TNR\n at minimum"
     ],
     [
      "L33 CDMX",
      "L1/0",
      "LOGIC",
-     ""
+     "L.P speed setpoint \n TNR\n at maximum"
     ],
     [
      "Desing _ speed",
      "R 100.000",
      "% SPD",
-     ""
+     "Rated design speed"
     ],
     [
      "Full _ load _ SP",
@@ -202,7 +200,7 @@
      "TNR",
      "V",
      "% SPD",
-     ""
+     "Speed control reference"
     ]
    ],
    "truncated_rows": 0
@@ -212,7 +210,7 @@
    "text": "Location: Equipment \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Speed Tronic \n MK IV control system\n Speed / load setpoint check - TNR\n General Electric\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum Hassan\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \n certified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nSafety Precautions\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nSafety fence with caution marks surrounding the work \n area is required.\nUnit at shut down mode\nSwitch off all CB's on the (MCC)\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nUnit at shut down mode\nSwitch off all CB's on the (MCC)\nTools and Equipment\nScrew driver,\n Jumpers\nWork to be Carried Out\nDisplay \"data\" list 16, \n logic forcing and enter the signals L70L, L70R, L83JD2, L83PRES1, L83PRES2, \n L83TNROP and TNR\nForce logic signal \n L83PRES2 to be logic \"1\" check that \"TNR\"displayed corresponds to the value of \n start up preset constant TNKR7 given in the control spec. settings, adjust PROM \n constant TNKR7 if necessary.\nForce logic signal \n L83PRES2 back to \"0\" and L83PRES1 to be logic \"1\" check that \"TNR\" agrees with \n the value of load preset constant TNKR2 given the control spec. setting, if \n necessary adjust PROM constant TNKR2\nUnforce all logic \n signals\nForce logic signal \n L83JD2 and L83TNROP to be logic \"1\" make setpoint lower signal L70L a logic \n \"1\" and check that \"TNR\" goes to the minimum operating value TNKR4 as given in \n control spec. setting make setpoint lower signal a logic \"0\" and make \n setpoint raise signal L70R a logic \"1\" check that \"TNR\" goes to the maximum \n operating setpoint TNKR3 as given in the control as specified in the \n settings DWG, adjust PROM constants if necessary. Unforce all logic signals \n when check out is completed.\nRepeat para. 5 above \n for all rates given in spec - setting according to the attached table\n\nLocation: Equipment \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThe first draft initiated by eng. Khaled \nMohamed, tested by eng. Mohamed Ahmed Ezzy, revised by EDEPCO. quality \ncontrol eng. Abd Elmineem Atya, accepted by general director eng. Nabil Zeinhoum Hassan\nThis document \n accepted by eng. Samir Abdel Gilil; EDEPC inspection & quality control general \n director and MPIS Coordinator, and \n certified by accountant Mahmoud Soliman EDEPC \n admin. & financial inspection & quality control's general director and \n supervisor of inspection & quality control's head sector\nSafety Precautions\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nSafety fence with caution marks surrounding the work \n area is required.\nUnit at shut down mode\nSwitch off all CB's on the (MCC)\nA work permit must be issued the maintenance staff should be qualified and \n carry the suitable safety category\nWear the appropriate safety equipment as safety shoes, safety helmet\nUnit at shut down mode\nSwitch off all CB's on the (MCC)\nTools and Equipment\nScrew driver,\n Jumpers\nWork to be Carried Out\nDisplay \"data\" list 16, \n logic forcing and enter the signals L70L, L70R, L83JD2, L83PRES1, L83PRES2, \n L83TNROP and TNR\nForce logic signal \n L83PRES2 to be logic \"1\" check that \"TNR\"displayed corresponds to the value of \n start up preset constant TNKR7 given in the control spec. settings, adjust PROM \n constant TNKR7 if necessary.\nForce logic signal \n L83PRES2 back to \"0\" and L83PRES1 to be logic \"1\" check that \"TNR\" agrees with \n the value of load preset constant TNKR2 given the control spec. setting, if \n necessary adjust PROM constant TNKR2\nUnforce all logic \n signals\nForce logic signal \n L83JD2 and L83TNROP to be logic \"1\" make setpoint lower signal L70L a logic \n \"1\" and check that \"TNR\" goes to the minimum operating value TNKR4 as given in \n control spec. setting make setpoint lower signal a logic \"0\" and make \n setpoint raise signal L70R a logic \"1\" check that \"TNR\" goes to the maximum \n operating setpoint TNKR3 as given in the control as specified in the \n settings DWG, adjust PROM constants if necessary. Unforce all logic signals \n when check out is completed.\nRepeat para. 5 above \n for all rates given in spec - setting according to the attached table\nName | K value | Untts | Description\nTNKLOST | K not USED | % SPD | Over speed test (LP) not used\nTNKR 1_2 | K 8.000 | % MIN | L83 JD2 manual load or fast load start (4%/30 SEC) (30 SEC to \n full load)\nTNKR\n 1_3 | K 30.000 | % MIN | L83 JD3 manual speed (0.5%/SEC)\nTNKR\n 1_4 | K 1.000 | % MIN | L83 JD4 auto load 4%/4MIN)(4 minutes to full load)\nTNKR\n 1_8 | K 6.000 | % MIN | L83 JD8 speed matching (0.10%/SEC)\nTNKR\n 2 | K 100.300 | % SPD | Preset / LD (L83 PRES1)\nTNKR\n 3 | K 107.000 | % SPD | High speed stop (HSS) OPER\nTNKR\n 4 | K 95.000 | % SPD | Low SPD stop (LSS) (L83 \n TNROP\n =1)\nTNKR\n 5 | K not used | % SPD | Low SPD SU/SD (L 83 TNROP =0)\nTNKR\n 7 | KN 100.300 | % SPD | Preset / startup (L83 PRES2)\nTNKR 8 | K 0.30000 | CNT 00 | Convergene coefficient\nL33 CDMN | L1/0 | LOGIC | L.P speed setpoint \n TNR\n at minimum\nL33 CDMX | L1/0 | LOGIC | L.P speed setpoint \n TNR\n at maximum\nDesing _ speed | R 100.000 | % SPD | Rated design speed\nFull _ load _ SP | R 104.000 | % SPD | \nTNR | V | % SPD | Speed control reference\nLocation: Equipment \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

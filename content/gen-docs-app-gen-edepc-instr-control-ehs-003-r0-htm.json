@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -87,10 +89,6 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Input volt"
-  },
-  {
    "type": "table",
    "rows": [
     [
@@ -98,22 +96,31 @@
      "Injected values"
     ],
     [
-     "",
+     "Input volt\n A31+ 54: 7, 8",
      "0",
      "0.2089",
      "3.5820",
      "5",
      "8.9552",
-     ""
+     "10"
     ],
     [
      "R.P.M",
      "0",
      "70",
-     "",
-     "",
-     "",
-     ""
+     "1200",
+     "1675",
+     "3000",
+     "3350"
+    ],
+    [
+     "A12+40:3",
+     "0",
+     "0.2089",
+     "3.5820",
+     "5",
+     "8.9552",
+     "10"
     ],
     [
      "A12+52:7",
@@ -148,19 +155,31 @@
    "text": "Control Panel"
   },
   {
-   "type": "paragraph",
-   "text": "Departure of Speed -2 +2 %"
-  },
-  {
-   "type": "paragraph",
-   "text": "Desired Speed 0 350 r.p.m"
-  },
-  {
-   "type": "paragraph",
-   "text": "Lime Delay of heating \n Speed 0 60 min"
+   "type": "table",
+   "rows": [
+    [
+     "Departure of Speed -2 +2 %",
+     ""
+    ],
+    [
+     "Desired Speed 0 350 r.p.m",
+     "Lime Delay of heating \n Speed 0 60 min"
+    ],
+    [
+     "-",
+     "H / A",
+     "",
+     "+",
+     "Dwell",
+     "Phase Speed",
+     "",
+     "Max Speed"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nIntroduction\nModule is intended for the control of speed of the turbo set within its \n complete working range.\nThe speed control module Sc 2.3 (A12) \nfunction to control the speed of turbo set within its complete working range:\n - Turning speed equal 70 RPM,\n - Heating speed equal 1200 RPM,\n - Phasing speed equal 3000 RPM.\nThis document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the title block.\nThe first draft \ninitiated by eng. Ashraf Farid, tested by\n eng. \nAshraf Farid at 20 May 2003, revised by quality control EDEPCo. eng. Abdl Menem Al-Emam, accepted by general director: eng. Aly Abd El-Whab, and approved by \neng. Awad Mohamed Fathy; Head Sector of Talkha Power Station\nSafety Precautions\nA work permit must be issued and the qualified \nmaintenance staff should be carry the \nsuitable safety category,\nSafety fence with caution marks \nsurrounding the work area, \nis required\nWear your safety helmet, safety shoes\n . etc\nUnit out of service.\nTools and Equipment\nDigital \n Multimeter type Fluke 85\nVoltage \n Injection set type Siemens Calibrator O5 7NH2011\nScrew driver\nWork to be Carried Out\nConnect jumper between point X20:90 and point \n X20:110 in rear control cabinet side no. JC02 (Imitation condition : \n limiter > limit)\nDisconnect point X20:108\n in rear control cabinet side NO: JC02 \n (Imitation condition: tripe oil ok)\nDisconnect socket A31+54\n type A2121B1 in front control cabinet side \n no. JC03 \n (Imitation condition: Digital speed)\nInject voltage equal desired speed according \n to the attached curve on socket A31+54 type A2121B1(Point 8 and 7) in front \n control cabinet side no. JC03 check the turbine speed ok at digital \n speed indicator in control room. (see table 1, and chart)\nMeasure voltage on points A12+40:3 type \n A2110B1, A12+52:7 type A2703b\n in front control cabinet side no. JC01 \n to see that module cards tracing this inject voltage.\nIf any measuring point not tracing (according \n the circuit diagram) then change the bad Card.\nSet push bottom (Hand / Automatic) on desired \n speed to automatic on control panel. figure 1\nContinue with increase injection volt slowly \n with observation departure and correct value must be zero when value actually \n of speed equal desired of speed the lamp of push Bottom H/A on\n desired \n speed will be light and system change to hand mode automatically.\nInput volt\n\nFigure (1)\nReturn Module in Service\nRemove Jumper between point X20:90 and point \n X20:110.\nConnect Signal (trip oil not ok) point \n X20:108.\nRemove injection Voltage set and connect \n socket A31+54 type A2121B1.\nControl Panel\nDeparture of Speed -2 +2 %\nDesired Speed 0 350 r.p.m\nLime Delay of heating \n Speed 0 60 min",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nModule is intended for the control of speed of the turbo set within its \n complete working range.\nThe speed control module Sc 2.3 (A12) \nfunction to control the speed of turbo set within its complete working range:\n - Turning speed equal 70 RPM,\n - Heating speed equal 1200 RPM,\n - Phasing speed equal 3000 RPM.\nThis document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the title block.\nThe first draft \ninitiated by eng. Ashraf Farid, tested by\n eng. \nAshraf Farid at 20 May 2003, revised by quality control EDEPCo. eng. Abdl Menem Al-Emam, accepted by general director: eng. Aly Abd El-Whab, and approved by \neng. Awad Mohamed Fathy; Head Sector of Talkha Power Station\nSafety Precautions\nA work permit must be issued and the qualified \nmaintenance staff should be carry the \nsuitable safety category,\nSafety fence with caution marks \nsurrounding the work area, \nis required\nWear your safety helmet, safety shoes\n . etc\nUnit out of service.\nTools and Equipment\nDigital \n Multimeter type Fluke 85\nVoltage \n Injection set type Siemens Calibrator O5 7NH2011\nScrew driver\nWork to be Carried Out\nConnect jumper between point X20:90 and point \n X20:110 in rear control cabinet side no. JC02 (Imitation condition : \n limiter > limit)\nDisconnect point X20:108\n in rear control cabinet side NO: JC02 \n (Imitation condition: tripe oil ok)\nDisconnect socket A31+54\n type A2121B1 in front control cabinet side \n no. JC03 \n (Imitation condition: Digital speed)\nInject voltage equal desired speed according \n to the attached curve on socket A31+54 type A2121B1(Point 8 and 7) in front \n control cabinet side no. JC03 check the turbine speed ok at digital \n speed indicator in control room. (see table 1, and chart)\nMeasure voltage on points A12+40:3 type \n A2110B1, A12+52:7 type A2703b\n in front control cabinet side no. JC01 \n to see that module cards tracing this inject voltage.\nIf any measuring point not tracing (according \n the circuit diagram) then change the bad Card.\nSet push bottom (Hand / Automatic) on desired \n speed to automatic on control panel. figure 1\nContinue with increase injection volt slowly \n with observation departure and correct value must be zero when value actually \n of speed equal desired of speed the lamp of push Bottom H/A on\n desired \n speed will be light and system change to hand mode automatically.\nInjection Points | Injected values\nInput volt\n A31+ 54: 7, 8 | 0 | 0.2089 | 3.5820 | 5 | 8.9552 | 10\nR.P.M | 0 | 70 | 1200 | 1675 | 3000 | 3350\nA12+40:3 | 0 | 0.2089 | 3.5820 | 5 | 8.9552 | 10\nA12+52:7 | 0 | 0.2089 | 3.5820 | 5 | 8.9552 | 10\nFigure (1)\nReturn Module in Service\nRemove Jumper between point X20:90 and point \n X20:110.\nConnect Signal (trip oil not ok) point \n X20:108.\nRemove injection Voltage set and connect \n socket A31+54 type A2121B1.\nControl Panel\nDeparture of Speed -2 +2 % | \nDesired Speed 0 350 r.p.m | Lime Delay of heating \n Speed 0 60 min\n- | H / A |  | + | Dwell | Phase Speed |  | Max Speed",
  "text_truncated": false,
  "links": [],
  "images": [

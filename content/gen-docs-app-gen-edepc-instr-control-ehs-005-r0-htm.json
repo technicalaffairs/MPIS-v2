@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power Stations"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Power Stations",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -90,8 +92,58 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "Input mA"
+   "type": "table",
+   "rows": [
+    [
+     "Input mA\n X20:3,4",
+     "0-4",
+     "8",
+     "12",
+     "16",
+     "20"
+    ],
+    [
+     "Cross bonding Pressure \n (Mpa)",
+     "0",
+     "5",
+     "10",
+     "15",
+     "20"
+    ],
+    [
+     "O/P signal A21+44:27",
+     "0",
+     "2.5",
+     "5",
+     "7.5",
+     "10"
+    ],
+    [
+     "A21+44:30",
+     "0",
+     "2.5",
+     "5",
+     "7.5",
+     "10"
+    ],
+    [
+     "A21+52:3",
+     "0",
+     "2.5",
+     "5",
+     "7.5",
+     "10"
+    ],
+    [
+     "A10+60:13",
+     "0",
+     "2.5",
+     "5",
+     "7.5",
+     "10"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -113,19 +165,31 @@
    "text": "Control Panel"
   },
   {
-   "type": "paragraph",
-   "text": "Departure Of Pressure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Desired Pressure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Set Trend Of Pressure"
+   "type": "table",
+   "rows": [
+    [
+     "Departure Of Pressure\n -10 +10 %",
+     ""
+    ],
+    [
+     "Desired Pressure\n 0 20 Mpa",
+     "Set Trend Of Pressure\n 0 1 Mpa / min"
+    ],
+    [
+     "-",
+     "H/A",
+     "",
+     "+",
+     "-",
+     "H/A",
+     "",
+     "+"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Power Stations\nTechnical Procedure\nIntroduction\nThe pressure control Module PC 2.5 (A21) is \nintended for the control of admission (super) steam pressure by means of turbine \ngovernor\nModule is intended for the control of admission\n Steam pressure by means of turbine Governor\nThis document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the title block.\nThe first draft initiated by eng. Ashraf Farid, \ntested by\n eng. Ashraf Farid at 17 June 2003, \nrevised by quality control EDEPC eng. Abdl Menem Al Emam, accepted by general \ndirector: eng. Aly Abd El-Whab, and approved by eng. Awad Mohamed Fathy; Head \nSector of Talkha Power Station.\nSafety Precautions\nA work permit must be issued and the qualified \n maintenance staff should be carry the\n suitable safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nWear your safety helmet, shoes\n . etc\nUnit out of service\nTools and Equipment\nDigital \n Multimeter type Fluke 85\nmA\n injection set type Siemens Calibrator O5 7NH2011\nScrew driver\nWork to be Carried Out\nConnect jumper between point x20:90 and point \n X20:97 in rear control cabinet side JC02 (Imitation condition: phased on)\nDisconnect point x20:108. in rear control \n cabinet side JC02 (Imitation: Trip oil ok)\nDisconnect socket A31+54 typeA2121B1 in front \n control cabinet JC03 (Imitation: digital speed)\nConnect jumper between point X20:90 and point \n X20:99 in rear control cabinet side \n JC02 (Imitation condition: boiler in load control )\nDisconnect vacuum signal point X10.3 and point \n X10:4 in rear control cabinet side NO: JC01.\nDisconnect socket A32 + 44 type D7210B2 to ability change push bottom H/A on desired pressure to position\n automatic (A) .\nInject mA Equal Admission steam pressure \n according to the attached curve on point X20:3,4 in rear control cabinet side JC02 and follow \n the attached curve.\nMeasure volt on point A21+44:27 \n typeH3202B1 & A10+60:13 a type A2804B1and A21+44:30typeH3202B1 & A21+52:3 type A2110B1\n to see that module cards tracing this \n inject value according to the circuit diagram.\nIf measuring not good Chang the bad card .\nChange push bottom H/A on desired pressure to \n Automatic mode and observing departure of pressure.\nWhen actual pressure equal desired pressure \n the push bottom H/A on desired pressure changed automatically to hand mode \n and the push bottom lamp light\nInput mA\nReturn Module in Service\nRemove Jumper between point X20:90 and point \n X20:97 .\nConnect Signal ( trip oil not ok ) point \n x20:108.\nConnect Socket A31+54 typeA2121B1.\nRemove Jumper between point X20:90 and point \n X20:99 .\nConnect Signal vacuum x10:3 , x10:4\nConnect Socket A32+44 type D7210B2\nControl Panel\nDeparture Of Pressure\nDesired Pressure\nSet Trend Of Pressure",
+ "text": "Power Stations | Technical Procedure\nIntroduction\nThe pressure control Module PC 2.5 (A21) is \nintended for the control of admission (super) steam pressure by means of turbine \ngovernor\nModule is intended for the control of admission\n Steam pressure by means of turbine Governor\nThis document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the title block.\nThe first draft initiated by eng. Ashraf Farid, \ntested by\n eng. Ashraf Farid at 17 June 2003, \nrevised by quality control EDEPC eng. Abdl Menem Al Emam, accepted by general \ndirector: eng. Aly Abd El-Whab, and approved by eng. Awad Mohamed Fathy; Head \nSector of Talkha Power Station.\nSafety Precautions\nA work permit must be issued and the qualified \n maintenance staff should be carry the\n suitable safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nWear your safety helmet, shoes\n . etc\nUnit out of service\nTools and Equipment\nDigital \n Multimeter type Fluke 85\nmA\n injection set type Siemens Calibrator O5 7NH2011\nScrew driver\nWork to be Carried Out\nConnect jumper between point x20:90 and point \n X20:97 in rear control cabinet side JC02 (Imitation condition: phased on)\nDisconnect point x20:108. in rear control \n cabinet side JC02 (Imitation: Trip oil ok)\nDisconnect socket A31+54 typeA2121B1 in front \n control cabinet JC03 (Imitation: digital speed)\nConnect jumper between point X20:90 and point \n X20:99 in rear control cabinet side \n JC02 (Imitation condition: boiler in load control )\nDisconnect vacuum signal point X10.3 and point \n X10:4 in rear control cabinet side NO: JC01.\nDisconnect socket A32 + 44 type D7210B2 to ability change push bottom H/A on desired pressure to position\n automatic (A) .\nInject mA Equal Admission steam pressure \n according to the attached curve on point X20:3,4 in rear control cabinet side JC02 and follow \n the attached curve.\nMeasure volt on point A21+44:27 \n typeH3202B1 & A10+60:13 a type A2804B1and A21+44:30typeH3202B1 & A21+52:3 type A2110B1\n to see that module cards tracing this \n inject value according to the circuit diagram.\nIf measuring not good Chang the bad card .\nChange push bottom H/A on desired pressure to \n Automatic mode and observing departure of pressure.\nWhen actual pressure equal desired pressure \n the push bottom H/A on desired pressure changed automatically to hand mode \n and the push bottom lamp light\nInput mA\n X20:3,4 | 0-4 | 8 | 12 | 16 | 20\nCross bonding Pressure \n (Mpa) | 0 | 5 | 10 | 15 | 20\nO/P signal A21+44:27 | 0 | 2.5 | 5 | 7.5 | 10\nA21+44:30 | 0 | 2.5 | 5 | 7.5 | 10\nA21+52:3 | 0 | 2.5 | 5 | 7.5 | 10\nA10+60:13 | 0 | 2.5 | 5 | 7.5 | 10\nReturn Module in Service\nRemove Jumper between point X20:90 and point \n X20:97 .\nConnect Signal ( trip oil not ok ) point \n x20:108.\nConnect Socket A31+54 typeA2121B1.\nRemove Jumper between point X20:90 and point \n X20:99 .\nConnect Signal vacuum x10:3 , x10:4\nConnect Socket A32+44 type D7210B2\nControl Panel\nDeparture Of Pressure\n -10 +10 % | \nDesired Pressure\n 0 20 Mpa | Set Trend Of Pressure\n 0 1 Mpa / min\n- | H/A |  | + | - | H/A |  | +",
  "text_truncated": false,
  "links": [],
  "images": [
