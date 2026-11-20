@@ -366,56 +366,127 @@
    "text": "(1st) \nTest \nby Injection Current Through Test Socket"
   },
   {
-   "type": "paragraph",
-   "text": "Value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Bu1, Bu2"
-  },
-  {
-   "type": "paragraph",
-   "text": "Bu3, Bu4"
-  },
-  {
-   "type": "paragraph",
-   "text": "Value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Bu1, Bu2"
-  },
-  {
-   "type": "paragraph",
-   "text": "Bu3, Bu4"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "BB",
+     "CHECK"
+    ],
+    [
+     "Value\n mA",
+     "Bu1, Bu2\n mV DC",
+     "Bu3, Bu4\n mV DC",
+     "Value\n mA",
+     "Bu1, Bu2\n mV DC",
+     "Bu3, Bu4\n mV DC"
+    ],
+    [
+     "I block",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "I start",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "I trip",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "(2nd)\n Test \nby Injection Current Through Current \nTerminals"
   },
   {
-   "type": "paragraph",
-   "text": "p.u value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Oper. Value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Stab. Value"
-  },
-  {
-   "type": "paragraph",
-   "text": "p.u value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Oper. Value"
-  },
-  {
-   "type": "paragraph",
-   "text": "Stab. Value"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "BB",
+     "CHECK"
+    ],
+    [
+     "p.u value\n A",
+     "Oper. Value\n mV DC",
+     "Stab. Value\n mV DC",
+     "p.u value\n A",
+     "Oper. Value\n MV DC",
+     "Stab. Value\n mV DC"
+    ],
+    [
+     "L1-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "L2-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "L3-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "L1-L2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "L2-L3",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "L3-L1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -426,7 +497,7 @@
    "text": "Checked by : \nSignature: \nDate :"
   }
  ],
- "text": "\nIntroduction\nThis procedure details the steps required to \n completely check the proper operation and calibration of the 220kv busbar \n differential relay I1, which must be performed on an annually bases as \n indicated by Y1in the title block.\nThe document is formatted the way to minimize \n the possibility of error causing personal injury or damage to equipment.\nThe first draft initiated by eng. Abdel Raheem Salem \n Mohamed Ez, \n tested by eng. Khaled El-Etreby & eng. Atef Farh \n at 10 July 2002, revised \n by quality control eng. Tawfik Elabasery at EDEPCo., and approved by eng. \n Monear Mahmoud El-Wakeel: Head Sector of \n Damietta \n Power Station.\nSafety Precautions\nA work \n permit must be issued and the maintenance staff should carry the \n suitable safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one who \n is\nSafety fence with caution marks \n surrounding the work area,\nPersonal protective equipment must be used (safety shoes, \n Helmet).\nDisconnect the DC supply (F001, F002) .\nRemove \nthe trip cards 7TR29004 .\nConnect the DC supply (F001, F002) .\nConnect \nthe terminal socket between the tester and the relay .\nNormal operation of station two busbar in service.\nPersonal protective equipment must be used (safety shoes, \n Helmet).\nDisconnect the DC supply (F001, F002) .\nRemove \nthe trip cards 7TR29004 .\nConnect the DC supply (F001, F002) .\nConnect \nthe terminal socket between the tester and the relay .\nTools and Equipment\nCurrent test unit \n 7VP48, voltage test unit 7VP49\nSafety \n Helmet and safety shoes.\nCurrent test unit \n 7VP48, voltage test unit 7VP49\nSafety \n Helmet and safety shoes.\nWork to be Carried Out\nFirst test during test socket\nAll equipment in service, two BBs energize.\nTest during \nsocket 7VX6642-4H & selection switch S11 which select the selection \n(BorA1orB1) For test and isolate its trip signal as follow:\nB normal operation\nA1 test and isolate trip of BBI + check\nB1 test and isolate trip of BBII + check\nTest BBI + CHECK\nSelect the section A1 by S11 to test the BB1 and check.\nSelect L1 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I --- trip& II ---- start & III ---- \nblock } for BBI. Record the values of I trip , I start & \nI block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at lamp light , record these values .\nSelect L2 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for check . Record the values of I trip , I start \n& I block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light , record these values.\nSelect the section A1 by S11 to test the BB1 and check.\nSelect L1 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I --- trip& II ---- start & III ---- \nblock } for BBI. Record the values of I trip , I start & \nI block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at lamp light , record these values .\nSelect L2 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for check . Record the values of I trip , I start \n& I block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light , record these values.\nTest BB II + CHECK\nSelect the section B1 by S11 to test the BBII and check.\nSelect L1 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for BBII. Record the values of I trip , I start & \nI block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light , record these values .\nSelect L2 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for check . Record the values of I trip , I start \n& I block .\nMeasure \nmv Dc for operating coil through Bu1, Bu2 and measure mv Dc for Restraining coil \nthrough Bu3, Bu4 at each lamp light , record these values\nSelect the section B1 by S11 to test the BBII and check.\nSelect L1 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for BBII. Record the values of I trip , I start & \nI block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light , record these values .\nSelect L2 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for check . Record the values of I trip , I start \n& I block .\nMeasure \nmv Dc for operating coil through Bu1, Bu2 and measure mv Dc for Restraining coil \nthrough Bu3, Bu4 at each lamp light , record these values\n2nd test during terminals :\nThrough disconnected equipment:\nDisconnect the DC supply (F001, F002) .\nRemove \nthe trip cards 7TR29004 .\nConnect the DC supply (F001, F002) .\nPut the time ( t2 ) of B.F for that equipment = ∞ and remove the plug pin from \nmatrix for this BB.\nDisconnect the DC supply (F001, F002) .\nRemove \nthe trip cards 7TR29004 .\nConnect the DC supply (F001, F002) .\nPut the time ( t2 ) of B.F for that equipment = ∞ and remove the plug pin from \nmatrix for this BB.\nPh- L1 :\nConnect the leads L1 N on tester siemens and the terminals D.X810 ( 1, 8 ) .\nInject current and increase the current until the lamp lights { I ---- trip & \nII ---- start & III ---- block } for this BB and Check.\nRecord the values \nof I trip , I start & I block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light for this BB, record these \nvalues\nConnect the leads L1 N on tester siemens and the terminals D.X810 ( 1, 8 ) .\nInject current and increase the current until the lamp lights { I ---- trip & \nII ---- start & III ---- block } for this BB and Check.\nRecord the values \nof I trip , I start & I block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light for this BB, record these \nvalues\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light for Check, record these \nvalues .\nPh- L2:\nRepeat the steps from 5 8 .\nRepeat the steps from 5 8 .\nPh L3 :\nRepeat the steps from 5 8 .\nInsert the trip card for this equipment\nAdjust the trip value and inject it the flag of this card is appear\nClose the C.B. for this equipment without isolators and inject the trip value to \ntrip the C.B\nReturn the state of relay .\nRepeat the steps from 5 8 .\nInsert the trip card for this equipment\nAdjust the trip value and inject it the flag of this card is appear\nClose the C.B. for this equipment without isolators and inject the trip value to \ntrip the C.B\nReturn the state of relay .\nTest Sheet for Bus bar Protection\nCompany: East Delta Electricity Production Company\nLocation: Damietta power \nstation Date:\nBB :\nRelay \nSetting : I J/JN> = 1\nII J/JN> = 0.05\nK = \n0.65 T = 1.8 SEC\nTest \nResult\nCase During the Test :\nBB1 :\nBB 2 :\n(1st) \nTest \nby Injection Current Through Test Socket\nValue\nBu1, Bu2\nBu3, Bu4\nValue\nBu1, Bu2\nBu3, Bu4\n(2nd)\n Test \nby Injection Current Through Current \nTerminals\np.u value\nOper. Value\nStab. Value\np.u value\nOper. Value\nStab. Value\nLocation: \nEquipment Code:\nChecked by : \nSignature: \nDate :",
+ "text": "Protections | Technical Procedure\nIntroduction\nThis procedure details the steps required to \n completely check the proper operation and calibration of the 220kv busbar \n differential relay I1, which must be performed on an annually bases as \n indicated by Y1in the title block.\nThe document is formatted the way to minimize \n the possibility of error causing personal injury or damage to equipment.\nThe first draft initiated by eng. Abdel Raheem Salem \n Mohamed Ez, \n tested by eng. Khaled El-Etreby & eng. Atef Farh \n at 10 July 2002, revised \n by quality control eng. Tawfik Elabasery at EDEPCo., and approved by eng. \n Monear Mahmoud El-Wakeel: Head Sector of \n Damietta \n Power Station.\nSafety Precautions\nA work \n permit must be issued and the maintenance staff should carry the \n suitable safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one who \n is\nSafety fence with caution marks \n surrounding the work area,\nPersonal protective equipment must be used (safety shoes, \n Helmet).\nDisconnect the DC supply (F001, F002) .\nRemove \nthe trip cards 7TR29004 .\nConnect the DC supply (F001, F002) .\nConnect \nthe terminal socket between the tester and the relay .\nNormal operation of station two busbar in service.\nPersonal protective equipment must be used (safety shoes, \n Helmet).\nDisconnect the DC supply (F001, F002) .\nRemove \nthe trip cards 7TR29004 .\nConnect the DC supply (F001, F002) .\nConnect \nthe terminal socket between the tester and the relay .\nTools and Equipment\nCurrent test unit \n 7VP48, voltage test unit 7VP49\nSafety \n Helmet and safety shoes.\nCurrent test unit \n 7VP48, voltage test unit 7VP49\nSafety \n Helmet and safety shoes.\nWork to be Carried Out\nFirst test during test socket\nAll equipment in service, two BBs energize.\nTest during \nsocket 7VX6642-4H & selection switch S11 which select the selection \n(BorA1orB1) For test and isolate its trip signal as follow:\nB normal operation\nA1 test and isolate trip of BBI + check\nB1 test and isolate trip of BBII + check\nTest BBI + CHECK\nSelect the section A1 by S11 to test the BB1 and check.\nSelect L1 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I --- trip& II ---- start & III ---- \nblock } for BBI. Record the values of I trip , I start & \nI block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at lamp light , record these values .\nSelect L2 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for check . Record the values of I trip , I start \n& I block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light , record these values.\nSelect the section A1 by S11 to test the BB1 and check.\nSelect L1 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I --- trip& II ---- start & III ---- \nblock } for BBI. Record the values of I trip , I start & \nI block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at lamp light , record these values .\nSelect L2 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for check . Record the values of I trip , I start \n& I block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light , record these values.\nTest BB II + CHECK\nSelect the section B1 by S11 to test the BBII and check.\nSelect L1 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for BBII. Record the values of I trip , I start & \nI block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light , record these values .\nSelect L2 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for check . Record the values of I trip , I start \n& I block .\nMeasure \nmv Dc for operating coil through Bu1, Bu2 and measure mv Dc for Restraining coil \nthrough Bu3, Bu4 at each lamp light , record these values\nSelect the section B1 by S11 to test the BBII and check.\nSelect L1 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for BBII. Record the values of I trip , I start & \nI block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light , record these values .\nSelect L2 & N in the tester and inject current through the test socket increase \nthe current until the lamp lights { I ---- trip & II ---- start & III ---- \nblock } for check . Record the values of I trip , I start \n& I block .\nMeasure \nmv Dc for operating coil through Bu1, Bu2 and measure mv Dc for Restraining coil \nthrough Bu3, Bu4 at each lamp light , record these values\n2nd test during terminals :\nThrough disconnected equipment:\nDisconnect the DC supply (F001, F002) .\nRemove \nthe trip cards 7TR29004 .\nConnect the DC supply (F001, F002) .\nPut the time ( t2 ) of B.F for that equipment = ∞ and remove the plug pin from \nmatrix for this BB.\nDisconnect the DC supply (F001, F002) .\nRemove \nthe trip cards 7TR29004 .\nConnect the DC supply (F001, F002) .\nPut the time ( t2 ) of B.F for that equipment = ∞ and remove the plug pin from \nmatrix for this BB.\nPh- L1 :\nConnect the leads L1 N on tester siemens and the terminals D.X810 ( 1, 8 ) .\nInject current and increase the current until the lamp lights { I ---- trip & \nII ---- start & III ---- block } for this BB and Check.\nRecord the values \nof I trip , I start & I block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light for this BB, record these \nvalues\nConnect the leads L1 N on tester siemens and the terminals D.X810 ( 1, 8 ) .\nInject current and increase the current until the lamp lights { I ---- trip & \nII ---- start & III ---- block } for this BB and Check.\nRecord the values \nof I trip , I start & I block .\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light for this BB, record these \nvalues\nMeasure mv Dc for operating coil through Bu1, Bu2 and measure mv Dc for \nRestraining coil through Bu3, Bu4 at each lamp light for Check, record these \nvalues .\nPh- L2:\nRepeat the steps from 5 8 .\nRepeat the steps from 5 8 .\nPh L3 :\nRepeat the steps from 5 8 .\nInsert the trip card for this equipment\nAdjust the trip value and inject it the flag of this card is appear\nClose the C.B. for this equipment without isolators and inject the trip value to \ntrip the C.B\nReturn the state of relay .\nRepeat the steps from 5 8 .\nInsert the trip card for this equipment\nAdjust the trip value and inject it the flag of this card is appear\nClose the C.B. for this equipment without isolators and inject the trip value to \ntrip the C.B\nReturn the state of relay .\nTest Sheet for Bus bar Protection\nCompany: East Delta Electricity Production Company\nLocation: Damietta power \nstation Date:\nBB :\nRelay \nSetting : I J/JN> = 1\nII J/JN> = 0.05\nK = \n0.65 T = 1.8 SEC\nTest \nResult\nCase During the Test :\nBB1 :\nBB 2 :\n(1st) \nTest \nby Injection Current Through Test Socket\n | BB | CHECK\nValue\n mA | Bu1, Bu2\n mV DC | Bu3, Bu4\n mV DC | Value\n mA | Bu1, Bu2\n mV DC | Bu3, Bu4\n mV DC\nI block |  |  |  |  |  | \nI start |  |  |  |  |  | \nI trip |  |  |  |  |  | \n(2nd)\n Test \nby Injection Current Through Current \nTerminals\n | BB | CHECK\np.u value\n A | Oper. Value\n mV DC | Stab. Value\n mV DC | p.u value\n A | Oper. Value\n MV DC | Stab. Value\n mV DC\nL1-N |  |  |  |  |  | \nL2-N |  |  |  |  |  | \nL3-N |  |  |  |  |  | \nL1-L2 |  |  |  |  |  | \nL2-L3 |  |  |  |  |  | \nL3-L1 |  |  |  |  |  | \nLocation: \nEquipment Code:\nChecked by : \nSignature: \nDate :",
  "text_truncated": false,
  "links": [],
  "images": [

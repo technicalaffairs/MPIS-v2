@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Differential Relay \n for Transformer\n SQT\n AEG"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -273,7 +271,21 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Test\n Date",
+     "Test \n Results",
+     "Remarks",
+     "Tested by"
+    ],
+    [
+     "R-N",
+     "S-N",
+     "T-N",
+     "R-S",
+     "S-T",
+     "T-R"
+    ],
+    [
+     "17-05-02",
      "0.42/0.39\n 0.42/0.39",
      "0.42/0.39\n 0.41/0.39",
      "0.41/0.38\n 0.41/0.37",
@@ -284,7 +296,7 @@
      ""
     ],
     [
-     "",
+     "11-06-04",
      "0.42/0.39\n 0.42/0.39",
      "0.42/0.39\n 0.41/0.39",
      "0.41/0.38\n 0.41/0.38",
@@ -295,7 +307,7 @@
      ""
     ],
     [
-     "",
+     "4-02-05",
      "0.42/0.39\n 0.42/0.39",
      "0.41/0.38\n 0.41/0.38",
      "0.41/0.38\n 0.41/0.38",
@@ -313,11 +325,31 @@
    "text": "Test Sheet"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Test\n Date",
+     "Test \n Results",
+     "Remarks",
+     "Tested by"
+    ],
+    [
+     "R-N",
+     "S-N",
+     "T-N",
+     "R-S",
+     "S-T",
+     "T-R"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: Relay \nDesignation: Approved by: Signature: \nTest Date:"
   }
  ],
- "text": "Protection\nTechnical \n Procedure\nEquipment:Differential Relay \n for Transformer\n SQT\n AEG\nIntroduction\nThe protection relay type SQT33A is a static transformer differential \nprotection. It is used for protection 4 winding 3 phase power transformers.\nThis procedure details the steps required to completely check the proper \noperation of the relay.\nThe \nfirst section is the activities required prior to testing the second section is \nto set up the equipment for performing the actual tests\nThe \nthird section is the actual test. This document is formatted the way to minimize \nthe possibility of error causing personal injury or damage equipment\nSafety Precautions\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nLine isolation is required\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nLine isolation is required\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nTools and Equipment\nSecondary injection test set\nAmmeter\nTest leads\nSecondary injection test set\nAmmeter\nTest leads\nWork to be Carried Out\nTesting the Relay and Protection output\nCarefully follow all test \nprocedure steps\nVerify the test result \nmatch the relay setting, if not consult technical servies.\nTest trip the breaker \nassociated with the relay\nCarefully follow all test \nprocedure steps\nVerify the test result \nmatch the relay setting, if not consult technical servies.\nTest trip the breaker \nassociated with the relay\nPreparation\nMake sure CT secondary \ncircuits are shorted at the terminal blocks before isolating the relay current \nfor test\nLook at field maintenance \nfile and compare the position of the setting switches on relay with those shown \non the setting sheet\nMake sure CT secondary \ncircuits are shorted at the terminal blocks before isolating the relay current \nfor test\nLook at field maintenance \nfile and compare the position of the setting switches on relay with those shown \non the setting sheet\nTesting Procedure(s)\nCurrent test\nDetermine the CT terminal \nblocks connected to the relay fro all 3 windings from transformer drawings\nOpen the internal links of \nthe above terminals so the injection will not affect the other relay connected \nto the same core\nConnect test leads between \nthe current terminals on the relay side related to R and N for first side according to drawings\nSlowly increase the \ncurrent until the red indication on differential relay appears. The relay must operate with a current between\n 10% of the setting value\nRecord this value on the test sheet\nIncrease the injected current with a value 25% \ngreater than the operating value\nSlowly decrease the current until the relay resets\nRecord this value on the test sheet\nRepeat the above test fro step 3 to 10 but for \nphases S.N then to T.N\nRepeat all above steps again for the others two \nwindings\nDetermine the CT terminal \nblocks connected to the relay fro all 3 windings from transformer drawings\nOpen the internal links of \nthe above terminals so the injection will not affect the other relay connected \nto the same core\nConnect test leads between \nthe current terminals on the relay side related to R and N for first side according to drawings\nSlowly increase the \ncurrent until the red indication on differential relay appears. The relay must operate with a current between\n 10% of the setting value\nRecord this value on the test sheet\nIncrease the injected current with a value 25% \ngreater than the operating value\nSlowly decrease the current until the relay resets\nRecord this value on the test sheet\nRepeat the above test fro step 3 to 10 but for \nphases S.N then to T.N\nRepeat all above steps again for the others two \nwindings\nTrip test\nRequest the operator to \nswitch on the main circuit breaker\nInject current to at any \nphase to a value above the set value\nCheck that the circuit \nbreaker trip\nRequest the operator to \nswitch on the main circuit breaker\nInject current to at any \nphase to a value above the set value\nCheck that the circuit \nbreaker trip\nReturn the Relay to Service\nVerify the test results \nmatch the relay setting. If not consult the technical services\nRe-close the internal \nlinks of current terminals mentioned before\nRequest the power \ntransformer to be returned to service\nVerify the test results \nmatch the relay setting. If not consult the technical services\nRe-close the internal \nlinks of current terminals mentioned before\nRequest the power \ntransformer to be returned to service\nTest Sheet\nDifferential Relay \n for Transformer\n SQT,\n AEG\n\nTest Sheet\nLocation: Relay \nDesignation: Approved by: Signature: \nTest Date:",
+ "text": "Protection | Technical \n Procedure\nIntroduction\nThe protection relay type SQT33A is a static transformer differential \nprotection. It is used for protection 4 winding 3 phase power transformers.\nThis procedure details the steps required to completely check the proper \noperation of the relay.\nThe \nfirst section is the activities required prior to testing the second section is \nto set up the equipment for performing the actual tests\nThe \nthird section is the actual test. This document is formatted the way to minimize \nthe possibility of error causing personal injury or damage equipment\nSafety Precautions\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nLine isolation is required\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nA work permit must be issued, the qualified maintenance \n staff should carry the suitable safety category.\nSafety fence with caution marks surrounding work area is required.\nWear your safety equipment as helmet, shoes, breathing mask, safety glass...etc.\nLine isolation is required\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for current injection\nTools and Equipment\nSecondary injection test set\nAmmeter\nTest leads\nSecondary injection test set\nAmmeter\nTest leads\nWork to be Carried Out\nTesting the Relay and Protection output\nCarefully follow all test \nprocedure steps\nVerify the test result \nmatch the relay setting, if not consult technical servies.\nTest trip the breaker \nassociated with the relay\nCarefully follow all test \nprocedure steps\nVerify the test result \nmatch the relay setting, if not consult technical servies.\nTest trip the breaker \nassociated with the relay\nPreparation\nMake sure CT secondary \ncircuits are shorted at the terminal blocks before isolating the relay current \nfor test\nLook at field maintenance \nfile and compare the position of the setting switches on relay with those shown \non the setting sheet\nMake sure CT secondary \ncircuits are shorted at the terminal blocks before isolating the relay current \nfor test\nLook at field maintenance \nfile and compare the position of the setting switches on relay with those shown \non the setting sheet\nTesting Procedure(s)\nCurrent test\nDetermine the CT terminal \nblocks connected to the relay fro all 3 windings from transformer drawings\nOpen the internal links of \nthe above terminals so the injection will not affect the other relay connected \nto the same core\nConnect test leads between \nthe current terminals on the relay side related to R and N for first side according to drawings\nSlowly increase the \ncurrent until the red indication on differential relay appears. The relay must operate with a current between\n 10% of the setting value\nRecord this value on the test sheet\nIncrease the injected current with a value 25% \ngreater than the operating value\nSlowly decrease the current until the relay resets\nRecord this value on the test sheet\nRepeat the above test fro step 3 to 10 but for \nphases S.N then to T.N\nRepeat all above steps again for the others two \nwindings\nDetermine the CT terminal \nblocks connected to the relay fro all 3 windings from transformer drawings\nOpen the internal links of \nthe above terminals so the injection will not affect the other relay connected \nto the same core\nConnect test leads between \nthe current terminals on the relay side related to R and N for first side according to drawings\nSlowly increase the \ncurrent until the red indication on differential relay appears. The relay must operate with a current between\n 10% of the setting value\nRecord this value on the test sheet\nIncrease the injected current with a value 25% \ngreater than the operating value\nSlowly decrease the current until the relay resets\nRecord this value on the test sheet\nRepeat the above test fro step 3 to 10 but for \nphases S.N then to T.N\nRepeat all above steps again for the others two \nwindings\nTrip test\nRequest the operator to \nswitch on the main circuit breaker\nInject current to at any \nphase to a value above the set value\nCheck that the circuit \nbreaker trip\nRequest the operator to \nswitch on the main circuit breaker\nInject current to at any \nphase to a value above the set value\nCheck that the circuit \nbreaker trip\nReturn the Relay to Service\nVerify the test results \nmatch the relay setting. If not consult the technical services\nRe-close the internal \nlinks of current terminals mentioned before\nRequest the power \ntransformer to be returned to service\nVerify the test results \nmatch the relay setting. If not consult the technical services\nRe-close the internal \nlinks of current terminals mentioned before\nRequest the power \ntransformer to be returned to service\nTest Sheet\nDifferential Relay \n for Transformer\n SQT,\n AEG\nTest\n Date | Test \n Results | Remarks | Tested by\nR-N | S-N | T-N | R-S | S-T | T-R\n17-05-02 | 0.42/0.39\n 0.42/0.39 | 0.42/0.39\n 0.41/0.39 | 0.41/0.38\n 0.41/0.37 | 0.4/0.38\n 0.4/0.37 | 0.4/0.38\n 0.4/0.37 | 0.4/0.37\n 0.4/0.38 | 220kv\n 66kv side\n alarm & trip OK | \n11-06-04 | 0.42/0.39\n 0.42/0.39 | 0.42/0.39\n 0.41/0.39 | 0.41/0.38\n 0.41/0.38 | 0.4/0.37\n 0.4/0.38 | 0.4/0.38\n 0.4/0.38 | 0.4/0.37\n 0.4/0.38 | 220kv\n 66kv side\n alarm & trip OK | \n4-02-05 | 0.42/0.39\n 0.42/0.39 | 0.41/0.38\n 0.41/0.38 | 0.41/0.38\n 0.41/0.38 | 0.4/0.37\n 0.4/0.37 | 0.4/0.37\n 0.39/0.37 | 0.4/0.38\n 0.39/0.37 | 220kv\n 66kv side\n alarm & trip OK | \nTest Sheet\nTest\n Date | Test \n Results | Remarks | Tested by\nR-N | S-N | T-N | R-S | S-T | T-R\nLocation: Relay \nDesignation: Approved by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

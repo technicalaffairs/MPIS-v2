@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -260,84 +262,58 @@
    "text": "Primary Injection Tests \n Inter Group Polarity Test"
   },
   {
-   "type": "paragraph",
-   "text": "Reference Circuit .........."
-  },
-  {
-   "type": "paragraph",
-   "text": "Matched Circuit ..........."
-  },
-  {
-   "type": "paragraph",
-   "text": "Correct Zero Spill\n phase A = ....................\n phase B = ...................."
-  },
-  {
-   "type": "paragraph",
-   "text": "Reference Circuit ............."
-  },
-  {
-   "type": "paragraph",
-   "text": "Matched Circuit ..............."
-  },
-  {
-   "type": "paragraph",
-   "text": "Reference Circuit .........."
-  },
-  {
-   "type": "paragraph",
-   "text": "Matched Circuit ..........."
-  },
-  {
-   "type": "paragraph",
-   "text": "Correct Zero Spill\n phase A = ....................\n phase B = ...................."
-  },
-  {
-   "type": "paragraph",
-   "text": "Reference Circuit ............."
-  },
-  {
-   "type": "paragraph",
-   "text": "Matched Circuit ..............."
-  },
-  {
-   "type": "paragraph",
-   "text": "Reference Circuit .........."
-  },
-  {
-   "type": "paragraph",
-   "text": "Matched Circuit ..........."
-  },
-  {
-   "type": "paragraph",
-   "text": "Correct Zero Spill\n Phase A = ....................\n Phase B = ...................."
-  },
-  {
-   "type": "paragraph",
-   "text": "Reference Circuit ............."
-  },
-  {
-   "type": "paragraph",
-   "text": "Matched Circuit ..............."
-  },
-  {
-   "type": "paragraph",
-   "text": "Reference Circuit .........."
-  },
-  {
-   "type": "paragraph",
-   "text": "Matched Circuit ..........."
-  },
-  {
-   "type": "paragraph",
-   "text": "Correct Zero Spill\n Phase A = ....................\n Phase B = ...................."
-  },
-  {
-   "type": "paragraph",
-   "text": "Reference Circuit ............."
-  },
-  {
-   "type": "paragraph",
-   "text": "Matched Circuit ..............."
+   "type": "table",
+   "rows": [
+    [
+     "Primary Current",
+     "Reference Circuit .......... \n Matched Circuit ...........",
+     "Correct Zero Spill\n phase A = ....................\n phase B = ....................\n phase C =.....................",
+     "Reversed With Spill\n ................................\n ................................\n ................................."
+    ],
+    [
+     "Primary Current",
+     "Reference Circuit ............. \n Matched Circuit ...............",
+     "Correct Zero Spill\n phase A = .....................\n phase B = .....................\n phase C =.....................",
+     "Reversed With Spill\n ................................\n ................................\n ................................."
+    ],
+    [
+     "Primary Current",
+     "Reference Circuit .......... \n Matched Circuit ...........",
+     "Correct Zero Spill\n phase A = ....................\n phase B = ....................\n phase C =.....................",
+     "Reversed With Spill\n ................................\n ................................\n ................................."
+    ],
+    [
+     "Primary Current",
+     "Reference Circuit ............. \n Matched Circuit ...............",
+     "Correct Zero Spill\n Phase A = .....................\n Phase B = .....................\n Phase C = .....................",
+     "Reversed With Spill\n ................................\n ................................\n ................................."
+    ],
+    [
+     "Primary Current",
+     "Reference Circuit .......... \n Matched Circuit ...........",
+     "Correct Zero Spill\n Phase A = ....................\n Phase B = ....................\n Phase C =.....................",
+     "Reversed With Spill\n ................................\n ................................\n ................................."
+    ],
+    [
+     "Primary Current",
+     "Reference Circuit ............. \n Matched Circuit ...............",
+     "Correct Zero Spill\n Phase A = .....................\n Phase B = .....................\n Phase C =.....................",
+     "Reversed With Spill\n ................................\n ................................\n ................................."
+    ],
+    [
+     "Primary Current",
+     "Reference Circuit .......... \n Matched Circuit ...........",
+     "Correct Zero Spill\n Phase A = ....................\n Phase B = ....................\n Phase C =.....................",
+     "Reversed With Spill\n ................................\n ................................\n ................................."
+    ],
+    [
+     "Primary Current",
+     "Reference Circuit ............. \n Matched Circuit ...............",
+     "Correct Zero Spill\n Phase A = .....................\n Phase B = .....................\n Phase C =.....................",
+     "Reversed With Spill\n ................................\n ................................\n ................................."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -474,7 +450,7 @@
    "text": "Circuit : .................................. CTs Ratio : ............................ Matching Ratio :..........................\nOperating current ( primary or secondary injection ) :\n.......................Amps"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThe MBCZ10 bus bar protection is Modular, solid state, low impedance biased differential based on the circulating current principle and dual\ncratered of operation, provides continuous supervision of CT secondary circuits and constant monitoring of vital circuits\nextremely stable up to the Max switch gear.\nThis procedure details the steps required to completely check the proper operation and calibration of the MBCZ10 relay. It is recommended this procedure be carried out on a yearly bases. This work be carried out section of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing describes the activities required prior to testing. Some of these steps could be performed days before the actual test. The second section Preparation for testing describes the steps to set up the equipment for performing the actual tests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility of error causing personal injury or damage to equipment.\nSafety Precautions\nWork permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category,\nSafety fence \nwith caution marks surrounding the work area is required,\nWear your safety and healthy equipment as safety helmet, \nsafety shoes .... etc\nOutage arrangement must be done.\nBefore removing a module, ensure that you are at the same\n electro static potential as the equipment by touching the case.\nHandle the module by its front-plate, frame or edges of the printed circuit board.\nSwitches off DC supply before inserting or with drawing any card from the relay.\nBefore withdrawing MBCZ II, MBCZ12, MBCZ13 modules from its case fit CT shorting to test bulge before inserted into test block.\nTools and Equipment\nZFB test set: This test set consists of 4 units: supply unit, control\n unit, fault impedance unit and CT unit.\nTimer, Test Plugs 1V and 2V\nMultimeter, Test leads, Screwdriver\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nReview technical reference material, manufacturer manual.\nObtain copy of relay setting from field maintenance file and compare it with the setting on the relay.\nInspect the CT secondary circuits and all cabling supplying the relay.\nUse the station drawing to isolate the disturbance alarm and fault, recorder associated with this relay. Breaker trip coils and also breaker failure scheme.\nTesting the Relay and Protection O/P\nCarefully follow this test procedure from page 2 to page 4.\nVerify the test results match the relay setting, if not consult technical services.\nTest trip all breakers associated with the relay.\nTesting the Relay\nN.B: The MBCZ10 have a test\nmodule, plug test lead connect between test module and measuring zone to be tested.\nCheck of the MBCZ 10 Operating Values Differential\nSupervision Relays\nInjection Tests via the test unit\nTurn the key switch on the alarm unit to the protection out position.\nRemove the covers from the test unit and the zone unit to be checked.\nPlug test lead into the test unit using the end of the lead with the 3-5 m jack plug, the 2 m plug on the other end of the test lead is then plugged into the test I/P on the phase of the zone to be tested (1).\nBlock the trip O/P relay for a short period during the test.\nSet the selection switch on the front of the test unit to inject X I and set the digital Current switch to 00.\nTest Biased Differential Measuring \nUnits\nSet the MAN/AUTO switch to MAN.\nSet the current to 80% of the marked value of the selected setting and the relay should not indicate a trip.\nIncrease the current to the marked setting value and the protection should operate.\nThere should be a trip indication on the element begin tested and 2 protection operated.\nIndication on the alarm unit, the latter has a /5 seconds delay.\nRelease the injection\n bottom and rest the indication.\nCheck that when the inject button is now depressed the trip is instantaneously, and that\n when the current is injected for five seconds no pratic fail indication comes up.\nRepeat steps from\n 1 to 6 on the other two phases and then on each other zone in turn.\nTest CT Supervision Circuit\nIncrease the current until the meter reads current just below the setting of the Supervision relay.\nThen increase slowly until the supervision operates to indicate a CT fault.\nRepeat steps from\n (1 to 2 ) on the other phases and then on each other zone in Turn.\nAlarm Circuit Check\nSwitch off each of the protection power supplies in turn.\nCheck that alarm in given each time, also the protection should continue to function on the supply from the remaining power supply unites.\nWhen the power supply for the isolation relay is turned off check that all isolation\nSupervision alarms operate.\nTEST Supervision for Isolator Repeat Relays\nSwitches off the power supply to the isolator repeat relay circuit.\nThe indicators for the isolator repeat relay supervision should light up, will be followed after a delay by an alarm indication on the modules containing the repeat relays.\nThe power fail alarm should also be initiated by the action of switching off the power Supply.\nBZT and Breaker Fail Circuit\nUnits for External Breaker Fail BZT Check\nTo test BZT relay first ensure that the key switch is a protection out, then bridge the BZT Contacts.\nCheck that the feeder under test and all the circuit breaker modules connected to the same Main zone and the alarm unite show a trip indication.\nIf the feeder is not connected to main zone (because all its isolators are open) check that Protection operated appears on the alarm unit followed by common alarm.\nFeeder Units for Internal Breaker Fail\n/ Feeder unit manufactured before Aug. 1989\nFor this test it is necessary for the feeder to be connected the bus bar or appear to the Scheme to be connected.\nNote to which zone the connection or simulated connection is made.\nSet the switch on phase c of the appropriate zone measuring unit to 0.5.\nInject current equal to 0.2 x-rated current / matching ratio in to terminals 21 and 22 of the feeder unit.\nThis should not cause any trip or protection operated indicators to light.\nBridge the breaker fail contact on the feeder protection.\nCheck that all the circuit breaker units on the relevant zone give a trip indication and the feeder unit under test shows a BACK trip as well.\nFeeder Units Manufactured After August 1989\nLeave the breaker fail contact open.\nConnect current injection to terminal 21 and 27 and link 22 and 28.\nSet the check zone measuring unit phase C is to\n (0.5 In E) the same as the main zone.\nPut the current setting of the breaker failure to 200mA.\nInject a current equal 0.2 rated current.\nCheck that a trip indication appears on the main and the circuit breaker units in the main\n zone followed by a back trip on the feeder unit under test.\nReturn Relay, and Associated Equipment to Service\nRemove the plug test lead from the test module also from the measuring zone to be tested.\nIf any equipment with the relay has been isolate without the test plug, it should be returned to service.\nRequest to Return every thing to Service\nCheck that reading agree with station meters (MW/MVAR/ power factor amperes/ Voltages).\nTake crossed reading of all AC currents supplied to the relay and compare them to those for normal load condition.\nBusbar Protection: MBCZ\nPrimary Injection Tests \n Inter Group Polarity Test\nReference Circuit ..........\nMatched Circuit ...........\nCorrect Zero Spill\n phase A = ....................\n phase B = ....................\nReference Circuit .............\nMatched Circuit ...............\nReference Circuit ..........\nMatched Circuit ...........\nCorrect Zero Spill\n phase A = ....................\n phase B = ....................\nReference Circuit .............\nMatched Circuit ...............\nReference Circuit ..........\nMatched Circuit ...........\nCorrect Zero Spill\n Phase A = ....................\n Phase B = ....................\nReference Circuit .............\nMatched Circuit ...............\nReference Circuit ..........\nMatched Circuit ...........\nCorrect Zero Spill\n Phase A = ....................\n Phase B = ....................\nReference Circuit .............\nMatched Circuit ...............\nCircuit : .................................. CTs Ratio : \n............................\nMatching Ratio :..........................\nOperating current ( primary or secondary injection ) :\n..................................... Amps\n\nCircuit : .................................. CTs Ratio : ............................ Matching Ratio :..........................\nOperating current ( primary or secondary injection ) :\n.......................Amps\n\nCircuit : .................................. CTs Ratio : ............................ Matching Ratio :..........................\nOperating current ( primary or secondary injection ) :\n.......................Amps\n\nCircuit : .................................. CTs Ratio : ............................ Matching Ratio :..........................\nOperating current ( primary or secondary injection ) :\n.......................Amps",
+ "text": "Protection | Technical Procedure\nIntroduction\nThe MBCZ10 bus bar protection is Modular, solid state, low impedance biased differential based on the circulating current principle and dual\ncratered of operation, provides continuous supervision of CT secondary circuits and constant monitoring of vital circuits\nextremely stable up to the Max switch gear.\nThis procedure details the steps required to completely check the proper operation and calibration of the MBCZ10 relay. It is recommended this procedure be carried out on a yearly bases. This work be carried out section of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing describes the activities required prior to testing. Some of these steps could be performed days before the actual test. The second section Preparation for testing describes the steps to set up the equipment for performing the actual tests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility of error causing personal injury or damage to equipment.\nSafety Precautions\nWork permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category,\nSafety fence \nwith caution marks surrounding the work area is required,\nWear your safety and healthy equipment as safety helmet, \nsafety shoes .... etc\nOutage arrangement must be done.\nBefore removing a module, ensure that you are at the same\n electro static potential as the equipment by touching the case.\nHandle the module by its front-plate, frame or edges of the printed circuit board.\nSwitches off DC supply before inserting or with drawing any card from the relay.\nBefore withdrawing MBCZ II, MBCZ12, MBCZ13 modules from its case fit CT shorting to test bulge before inserted into test block.\nTools and Equipment\nZFB test set: This test set consists of 4 units: supply unit, control\n unit, fault impedance unit and CT unit.\nTimer, Test Plugs 1V and 2V\nMultimeter, Test leads, Screwdriver\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nReview technical reference material, manufacturer manual.\nObtain copy of relay setting from field maintenance file and compare it with the setting on the relay.\nInspect the CT secondary circuits and all cabling supplying the relay.\nUse the station drawing to isolate the disturbance alarm and fault, recorder associated with this relay. Breaker trip coils and also breaker failure scheme.\nTesting the Relay and Protection O/P\nCarefully follow this test procedure from page 2 to page 4.\nVerify the test results match the relay setting, if not consult technical services.\nTest trip all breakers associated with the relay.\nTesting the Relay\nN.B: The MBCZ10 have a test\nmodule, plug test lead connect between test module and measuring zone to be tested.\nCheck of the MBCZ 10 Operating Values Differential\nSupervision Relays\nInjection Tests via the test unit\nTurn the key switch on the alarm unit to the protection out position.\nRemove the covers from the test unit and the zone unit to be checked.\nPlug test lead into the test unit using the end of the lead with the 3-5 m jack plug, the 2 m plug on the other end of the test lead is then plugged into the test I/P on the phase of the zone to be tested (1).\nBlock the trip O/P relay for a short period during the test.\nSet the selection switch on the front of the test unit to inject X I and set the digital Current switch to 00.\nTest Biased Differential Measuring \nUnits\nSet the MAN/AUTO switch to MAN.\nSet the current to 80% of the marked value of the selected setting and the relay should not indicate a trip.\nIncrease the current to the marked setting value and the protection should operate.\nThere should be a trip indication on the element begin tested and 2 protection operated.\nIndication on the alarm unit, the latter has a /5 seconds delay.\nRelease the injection\n bottom and rest the indication.\nCheck that when the inject button is now depressed the trip is instantaneously, and that\n when the current is injected for five seconds no pratic fail indication comes up.\nRepeat steps from\n 1 to 6 on the other two phases and then on each other zone in turn.\nTest CT Supervision Circuit\nIncrease the current until the meter reads current just below the setting of the Supervision relay.\nThen increase slowly until the supervision operates to indicate a CT fault.\nRepeat steps from\n (1 to 2 ) on the other phases and then on each other zone in Turn.\nAlarm Circuit Check\nSwitch off each of the protection power supplies in turn.\nCheck that alarm in given each time, also the protection should continue to function on the supply from the remaining power supply unites.\nWhen the power supply for the isolation relay is turned off check that all isolation\nSupervision alarms operate.\nTEST Supervision for Isolator Repeat Relays\nSwitches off the power supply to the isolator repeat relay circuit.\nThe indicators for the isolator repeat relay supervision should light up, will be followed after a delay by an alarm indication on the modules containing the repeat relays.\nThe power fail alarm should also be initiated by the action of switching off the power Supply.\nBZT and Breaker Fail Circuit\nUnits for External Breaker Fail BZT Check\nTo test BZT relay first ensure that the key switch is a protection out, then bridge the BZT Contacts.\nCheck that the feeder under test and all the circuit breaker modules connected to the same Main zone and the alarm unite show a trip indication.\nIf the feeder is not connected to main zone (because all its isolators are open) check that Protection operated appears on the alarm unit followed by common alarm.\nFeeder Units for Internal Breaker Fail\n/ Feeder unit manufactured before Aug. 1989\nFor this test it is necessary for the feeder to be connected the bus bar or appear to the Scheme to be connected.\nNote to which zone the connection or simulated connection is made.\nSet the switch on phase c of the appropriate zone measuring unit to 0.5.\nInject current equal to 0.2 x-rated current / matching ratio in to terminals 21 and 22 of the feeder unit.\nThis should not cause any trip or protection operated indicators to light.\nBridge the breaker fail contact on the feeder protection.\nCheck that all the circuit breaker units on the relevant zone give a trip indication and the feeder unit under test shows a BACK trip as well.\nFeeder Units Manufactured After August 1989\nLeave the breaker fail contact open.\nConnect current injection to terminal 21 and 27 and link 22 and 28.\nSet the check zone measuring unit phase C is to\n (0.5 In E) the same as the main zone.\nPut the current setting of the breaker failure to 200mA.\nInject a current equal 0.2 rated current.\nCheck that a trip indication appears on the main and the circuit breaker units in the main\n zone followed by a back trip on the feeder unit under test.\nReturn Relay, and Associated Equipment to Service\nRemove the plug test lead from the test module also from the measuring zone to be tested.\nIf any equipment with the relay has been isolate without the test plug, it should be returned to service.\nRequest to Return every thing to Service\nCheck that reading agree with station meters (MW/MVAR/ power factor amperes/ Voltages).\nTake crossed reading of all AC currents supplied to the relay and compare them to those for normal load condition.\nBusbar Protection: MBCZ\nPrimary Injection Tests \n Inter Group Polarity Test\nPrimary Current | Reference Circuit .......... \n Matched Circuit ........... | Correct Zero Spill\n phase A = ....................\n phase B = ....................\n phase C =..................... | Reversed With Spill\n ................................\n ................................\n .................................\nPrimary Current | Reference Circuit ............. \n Matched Circuit ............... | Correct Zero Spill\n phase A = .....................\n phase B = .....................\n phase C =..................... | Reversed With Spill\n ................................\n ................................\n .................................\nPrimary Current | Reference Circuit .......... \n Matched Circuit ........... | Correct Zero Spill\n phase A = ....................\n phase B = ....................\n phase C =..................... | Reversed With Spill\n ................................\n ................................\n .................................\nPrimary Current | Reference Circuit ............. \n Matched Circuit ............... | Correct Zero Spill\n Phase A = .....................\n Phase B = .....................\n Phase C = ..................... | Reversed With Spill\n ................................\n ................................\n .................................\nPrimary Current | Reference Circuit .......... \n Matched Circuit ........... | Correct Zero Spill\n Phase A = ....................\n Phase B = ....................\n Phase C =..................... | Reversed With Spill\n ................................\n ................................\n .................................\nPrimary Current | Reference Circuit ............. \n Matched Circuit ............... | Correct Zero Spill\n Phase A = .....................\n Phase B = .....................\n Phase C =..................... | Reversed With Spill\n ................................\n ................................\n .................................\nPrimary Current | Reference Circuit .......... \n Matched Circuit ........... | Correct Zero Spill\n Phase A = ....................\n Phase B = ....................\n Phase C =..................... | Reversed With Spill\n ................................\n ................................\n .................................\nPrimary Current | Reference Circuit ............. \n Matched Circuit ............... | Correct Zero Spill\n Phase A = .....................\n Phase B = .....................\n Phase C =..................... | Reversed With Spill\n ................................\n ................................\n .................................\nCircuit : .................................. CTs Ratio : \n............................\nMatching Ratio :..........................\nOperating current ( primary or secondary injection ) :\n..................................... Amps\nPHASE | DISCRIMINATING ZONE | CHECK ZONE\nSupervision | Differential | Supervision | Differential\nA |  |  |  | \nB |  |  |  | \nC |  |  |  | \nCircuit : .................................. CTs Ratio : ............................ Matching Ratio :..........................\nOperating current ( primary or secondary injection ) :\n.......................Amps\nPHASE | DISCRIMINATING ZONE | CHECK ZONE\nSupervision | Differential | Supervision | Differential\nA |  |  |  | \nB |  |  |  | \nC |  |  |  | \nCircuit : .................................. CTs Ratio : ............................ Matching Ratio :..........................\nOperating current ( primary or secondary injection ) :\n.......................Amps\nPHASE | DISCRIMINATING ZONE | CHECK ZONE\nSupervision | Differential | Supervision | Differential\nA |  |  |  | \nB |  |  |  | \nC |  |  |  | \nCircuit : .................................. CTs Ratio : ............................ Matching Ratio :..........................\nOperating current ( primary or secondary injection ) :\n.......................Amps",
  "text_truncated": false,
  "links": [],
  "images": [

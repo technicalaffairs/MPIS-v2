@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -112,7 +114,14 @@
      "",
      "",
      "",
-     ""
+     "(1) \n t1 .............. \n Tripped C.B.D .............."
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "(2) t2 .............. \n Tripped B.B ................."
     ],
     [
      "Ph-L2",
@@ -120,7 +129,14 @@
      "",
      "",
      "",
-     ""
+     "(3) t2 \n .............. \n Tripped C.B.D .............."
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "(4) t2 .............. \n Tripped C.B.D .............."
     ],
     [
      "Ph-L3",
@@ -128,7 +144,14 @@
      "",
      "",
      "",
-     ""
+     "(5) t 2 ..............Tripped .............."
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "(6) t 2 ..............Tripped .............."
     ]
    ],
    "truncated_rows": 0
@@ -159,7 +182,7 @@
    "text": "Location: Relay Code: \nTest Date: Tested by: \nSignature:"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis\nprocedure details the steps required to completely check the proper operation\nand calibration of the relay. It is recommended this procedure be carried out on\nan annually bases. The\ndocument is formatted the way to minimize the possibility of error causing\npersonal injury or damage to equipment.\nThe first draft initiated by eng.\nAbdel Raheem Salem Mohamed Ez,\ntested by eng. Khaled El-Etreby & eng. Atef Farh, revised by \nquality control eng. Tawfik Elabasery at EDEPCo., and approved by eng. Monear Mahmoud El-Wakeel: Head Sector of Damietta Power Station.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nSafety fence\n (rope) with caution marks surrounding the work area is required,\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nCB and the equipment off i.e. out\n of service,\nIsolated trip sequel for distribute base bar\nTools and Equipment\nTest set Siemens type 7VP48 & 7VP49\nScrew driver\nWork to be Carried Out\nEnsure that the CB and \n its equipment out of service.\nEnsure that the BF trip\n for BB was isolated.\nRemove the plugs of\n matrix for t 2 (BB equipment in service\n which locate in the same bay)\nCheck equipment of that\n breaker must be out of service.\nConnect the current\n leads to\n Breaker on BB1 X11 (12,14) & (22,24) & (32,34)\n Breaker on BBII X12 (12,14) & (22,24) & (32,34)\n Breaker coupler X13 (12,14) & (22,24) & (32,34)\nIncrease the current\n value until lamp light then record the (Ipu) and then decrease the \n current until lamp distinguished then record (Id.o)\nInject the pick up\n value of current while the trip signal points:\n X (11 or 12 or 13) (702,712) or (703,713) are bridged for breaker which be tested C.B.X BB1 X11., C.B.X BBII X12, C.B.X Bus coupler X13\nTrip signal from B.F \n t1, t2 are status. Make abridge between CB auxiliary contact closed (701,711) \n while the trip signal points (702,712) or (703,713) are bridged also.\nIn each case of steps \n 8, 9 \n we notice the lamps t1, t2 are light and record the phoenix relay which is \n energized, measure the operating time from free contact.\nPutt t2 to setting \n infinity then close the CB without isolators and repeat the pervious steps \n 7, 8\nTest\nSheet\nfor Breaker Failure Protection\nSite : \nDate :\nUnit : \nManufacturer: Siemens\nType :\nSetting : \nC.T.R. = \nI rated =\nI > \nt1\n= msec \nt2 = msec\nA) Functions Over Current and Signal Protection Trip\n\n(B) Functions CB Closed and Signal Protection \nTrip\nC.B \n D ......... closed + P.T ................> t1\nC.B \n D ......... closed + P.T ................> t2\nProt. Trip \n from ........................ to B.F D ................ ( \n )\nProt. Trip \n from B.F D .............. to ......................... ( \n )\nC.B D closed and tripped by (t1)\nD.C. power supply \n .............................\nCheck for tightening \n terminal C.T. , P.T. ......................\nLocation: Relay Code: \nTest Date: Tested by: \nSignature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis\nprocedure details the steps required to completely check the proper operation\nand calibration of the relay. It is recommended this procedure be carried out on\nan annually bases. The\ndocument is formatted the way to minimize the possibility of error causing\npersonal injury or damage to equipment.\nThe first draft initiated by eng.\nAbdel Raheem Salem Mohamed Ez,\ntested by eng. Khaled El-Etreby & eng. Atef Farh, revised by \nquality control eng. Tawfik Elabasery at EDEPCo., and approved by eng. Monear Mahmoud El-Wakeel: Head Sector of Damietta Power Station.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nSafety fence\n (rope) with caution marks surrounding the work area is required,\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nCB and the equipment off i.e. out\n of service,\nIsolated trip sequel for distribute base bar\nTools and Equipment\nTest set Siemens type 7VP48 & 7VP49\nScrew driver\nWork to be Carried Out\nEnsure that the CB and \n its equipment out of service.\nEnsure that the BF trip\n for BB was isolated.\nRemove the plugs of\n matrix for t 2 (BB equipment in service\n which locate in the same bay)\nCheck equipment of that\n breaker must be out of service.\nConnect the current\n leads to\n Breaker on BB1 X11 (12,14) & (22,24) & (32,34)\n Breaker on BBII X12 (12,14) & (22,24) & (32,34)\n Breaker coupler X13 (12,14) & (22,24) & (32,34)\nIncrease the current\n value until lamp light then record the (Ipu) and then decrease the \n current until lamp distinguished then record (Id.o)\nInject the pick up\n value of current while the trip signal points:\n X (11 or 12 or 13) (702,712) or (703,713) are bridged for breaker which be tested C.B.X BB1 X11., C.B.X BBII X12, C.B.X Bus coupler X13\nTrip signal from B.F \n t1, t2 are status. Make abridge between CB auxiliary contact closed (701,711) \n while the trip signal points (702,712) or (703,713) are bridged also.\nIn each case of steps \n 8, 9 \n we notice the lamps t1, t2 are light and record the phoenix relay which is \n energized, measure the operating time from free contact.\nPutt t2 to setting \n infinity then close the CB without isolators and repeat the pervious steps \n 7, 8\nTest\nSheet\nfor Breaker Failure Protection\nSite : \nDate :\nUnit : \nManufacturer: Siemens\nType :\nSetting : \nC.T.R. = \nI rated =\nI > \nt1\n= msec \nt2 = msec\nA) Functions Over Current and Signal Protection Trip\nPh | Ip.u A | Id.o. A | t1 ms | t2 ms | Test Result\nPh-L1 |  |  |  |  | (1) \n t1 .............. \n Tripped C.B.D ..............\n |  |  |  | (2) t2 .............. \n Tripped B.B .................\nPh-L2 |  |  |  |  | (3) t2 \n .............. \n Tripped C.B.D ..............\n |  |  |  | (4) t2 .............. \n Tripped C.B.D ..............\nPh-L3 |  |  |  |  | (5) t 2 ..............Tripped ..............\n |  |  |  | (6) t 2 ..............Tripped ..............\n(B) Functions CB Closed and Signal Protection \nTrip\nC.B \n D ......... closed + P.T ................> t1\nC.B \n D ......... closed + P.T ................> t2\nProt. Trip \n from ........................ to B.F D ................ ( \n )\nProt. Trip \n from B.F D .............. to ......................... ( \n )\nC.B D closed and tripped by (t1)\nD.C. power supply \n .............................\nCheck for tightening \n terminal C.T. , P.T. ......................\nLocation: Relay Code: \nTest Date: Tested by: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

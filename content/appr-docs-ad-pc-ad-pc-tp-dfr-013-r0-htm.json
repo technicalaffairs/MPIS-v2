@@ -14,15 +14,11 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
    "type": "table",
    "rows": [
     [
      "Protections",
-     ""
+     "Technical Procedure"
     ]
    ],
    "truncated_rows": 0
@@ -376,21 +372,17 @@
    "text": "Secondary \nInjection"
   },
   {
-   "type": "paragraph",
-   "text": "Measured value (Ω/ph)"
-  },
-  {
    "type": "table",
    "rows": [
     [
      "Impedance function",
      "",
-     ""
+     "Directional earth fault function \"Earth faultlsol\""
     ],
     [
      "",
-     "",
-     "",
+     "Nom. value (Ω/ph)",
+     "Measured value (Ω/ph)\n R S T",
      "",
      "",
      "Nom. value\n (VA)",
@@ -448,6 +440,18 @@
      "Meas. val.",
      "Nom. value",
      "Meas. val."
+    ],
+    [
+     "XB",
+     "",
+     "",
+     "---",
+     "---",
+     "",
+     "",
+     "",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -464,22 +468,28 @@
    "type": "table",
    "rows": [
     [
+     "Phase",
+     "Nominal value (A)",
+     "Measured value (A)",
+     "If the fibre optic link or the relay at the opposite"
+    ],
+    [
      "R",
      "",
      "",
-     ""
+     "station is not ready, the \"Diff-Line\" function is"
     ],
     [
      "S",
      "",
      "",
-     ""
+     "blocked and the analogue inputs can only be"
     ],
     [
      "T",
      "",
      "",
-     ""
+     "checked using the menu \"Display AD channels\""
     ]
    ],
    "truncated_rows": 0
@@ -496,7 +506,7 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Injected\n Voltage\n (V)",
      "\"uLinelnput\" parallel \n \"uBuslnput1\"",
      "\"uLinelnput\" parallel \n \"uBuslnput1\""
     ],
@@ -533,7 +543,31 @@
    "type": "table",
    "rows": [
     [
+     "",
+     "Options\n .\n ONLY/ONE PCS:314D864"
+    ],
+    [
+     "",
+     "."
+    ],
+    [
+     "Current \n and Voltage",
+     ""
+    ],
+    [
+     "input",
+     "Signaling"
+    ],
+    [
      "(Communication Port",
+     ""
+    ],
+    [
+     "Local MMC (PC).)",
+     ""
+    ],
+    [
+     "SEMEL Communication",
      ""
     ],
     [
@@ -546,7 +580,7 @@
     ],
     [
      "DFTCOUPLER\n INPUTS",
-     ""
+     "TRIP"
     ],
     [
      "DC Supply",
@@ -556,7 +590,7 @@
    "truncated_rows": 0
   }
  ],
- "text": "Technical Procedure\n\nIntroduction\nThe digital \ntransformer protection scheme RET 316*4 is one of the new generation of fully \ndigital protection systems. It's designed for fast selective protection of two \nand three winding power transformers.\nThe unit detects the following faults on power \ntransformers:\n - All phase faults.\n - Earth faults where the power transformer star-point \nis solidly or low-impedance grounded.\n - Inter - turn faults\nThis procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe\nfirst draft initiated by eng. Samah Mokhtar Mostafa, tested at 4 Dec. 2002 by eng. Yousef Melad Shahat, and approved by eng. Fawzy Moursy Mohamed: \nHead Sector of Aswan Network, Upper Egypt zone.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nTools and Equipment\nVoltmeter, Ammeter\nTest leads\nXS92a test \n set\nVoltmeter, Ammeter\nTest leads\nWork to be Carried Out\nSteps to Prepare for Relay \nTesting\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nTesting the \nrelay\nCarefully follow this test procedure\nVerify the test results match the relay setting\nTrip the circuit breaker associated with the relay\nPreparation\nThis procedure should be used for performing off load line\nLook the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test\nReading the Setting from the Relay by using \nthe PC\nConnecting the personal computer to the relay\nRun the REL 316*4 program\nRead the setting\nDifferential Protection test\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points H2 and H3 on the rear of the relay\nConnect AC power to the test set\nConnect the current by selecting the operation of current (I) on the test set\nTo test winding (1):\nConnect the current test lead on the current terminals of the relay T1 and T2 \n (phase R to Neutral)\nIncrease the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights\nConnect the current test lead on the current terminals of the relay T3 and T4 \n (phase S to Neutral)\nRepeat step 6\nConnect the current test lead on the current terminals of the relay T5 and T6 \n (phase T to Neutral)\nRepeat step 6\nTo test winding (2):\nConnect the current test lead on the current terminals of the relay T7 and T8 \n (phase R to Neutral)\nIncrease the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights\nConnect the current test lead on the current terminals of the relay T9 and T10 \n (phase S to Neutral)\nRepeat step6\nConnect the current test lead on the current terminals of the relay T11 and \n T12 (phase T to Neutral)\nRepeat step 6\nTo test winding (3)\nConnect the current test lead on the current terminals of the relay T13 and \n T14 (phase R to Neutral)\nIncrease the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights\nConnect the current test lead on the current terminals of the relay T15 and \n T16 (phase S to Neutral)\nRepeat step 6\nConnect the current test lead on the current terminals of the relay T17 and \n T18 (Phase T to Neutral\nRepeat step 6\nTest \nof external \ncircuits\nTest the external circuits using the test function provided by the MMC as \nattached\nReturn relay \nand \nassociated equipment to \nservice\nReturn relay to service by removing the test leads from the relay terminals \n and the test set\nMake sure CT and V T secondary circuits are in normal condition\nRemove the disturbance alarm LED's on the relay which is caused by the test\nRequest feeder to be returned in service\nMeasures the currents and voltages in the secondaries of the main CT's and \n VT's and compare the results with the values displayed by the MMC\nTake phasor readings of all A C currents and voltages and compare them to \n those for normal load condition\nCheck that these reading agree with station meters (MW, Mvar, Amperes and power \n factor)\nPlace a copy of the test result in the field maintenance file\n------------------------------------------------\nTest functions\nParset switching\nTo test a protection function belonging to another set of parameters, the \nrespective set of parameters has to be activated first. Menu item \"Parset \nswitching\" enables the parameter set to be selected and activated after entering \nthe valid password\n------------------------------------------------------------------------------------------------------------------------\nTest Sheet\nfor Line Protection type REL 316*4\n\nPrimary line data \nSettings\nLength \n------------ km According to separate print out\nPos. seq. impedance ------------ Ω/ ph angle ----------- Software version of the relay ------\nZero seq. impedance ------------ Ω/ ph \nangle -----------\nMain CT/PT Ratio\nAnalogue inputs 1-3 -------------/------------- Analogue inputs 4 -------------/-------------\nAnalogue inputs 7-9 -------------/------------- Analogue inputs 5 -------------/-------------\nAnalogue inputs 6 -------------/-------------\nSecondary \nInjection\nMeasured value (Ω/ph)\n\nLongitudinal differential function \"Diff-Line\"\nMeasuring of the basic setting\n\nSynchroCheck function \"SynchroCheck\"\nParallel injection (1 phase) of \"uLinelnput\" \nand \"uBuslnput1\" or \"uBuslnput2\" respectively\n\nTo be read in the \nmenu \"Display Function Measurements\" \"Synchro Check\"\nSynchro check function \nmust be released\nTo be read in the \nmenu \"Display Function Measurements\" \"Synchro Check\"\nSynchro check function \nmust be released\n",
+ "text": "Protections | Technical Procedure\nIntroduction\nThe digital \ntransformer protection scheme RET 316*4 is one of the new generation of fully \ndigital protection systems. It's designed for fast selective protection of two \nand three winding power transformers.\nThe unit detects the following faults on power \ntransformers:\n - All phase faults.\n - Earth faults where the power transformer star-point \nis solidly or low-impedance grounded.\n - Inter - turn faults\nThis procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe\nfirst draft initiated by eng. Samah Mokhtar Mostafa, tested at 4 Dec. 2002 by eng. Yousef Melad Shahat, and approved by eng. Fawzy Moursy Mohamed: \nHead Sector of Aswan Network, Upper Egypt zone.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nTools and Equipment\nVoltmeter, Ammeter\nTest leads\nXS92a test \n set\nVoltmeter, Ammeter\nTest leads\nWork to be Carried Out\nSteps to Prepare for Relay \nTesting\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nTesting the \nrelay\nCarefully follow this test procedure\nVerify the test results match the relay setting\nTrip the circuit breaker associated with the relay\nPreparation\nThis procedure should be used for performing off load line\nLook the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test\nReading the Setting from the Relay by using \nthe PC\nConnecting the personal computer to the relay\nRun the REL 316*4 program\nRead the setting\nDifferential Protection test\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points H2 and H3 on the rear of the relay\nConnect AC power to the test set\nConnect the current by selecting the operation of current (I) on the test set\nTo test winding (1):\nConnect the current test lead on the current terminals of the relay T1 and T2 \n (phase R to Neutral)\nIncrease the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights\nConnect the current test lead on the current terminals of the relay T3 and T4 \n (phase S to Neutral)\nRepeat step 6\nConnect the current test lead on the current terminals of the relay T5 and T6 \n (phase T to Neutral)\nRepeat step 6\nTo test winding (2):\nConnect the current test lead on the current terminals of the relay T7 and T8 \n (phase R to Neutral)\nIncrease the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights\nConnect the current test lead on the current terminals of the relay T9 and T10 \n (phase S to Neutral)\nRepeat step6\nConnect the current test lead on the current terminals of the relay T11 and \n T12 (phase T to Neutral)\nRepeat step 6\nTo test winding (3)\nConnect the current test lead on the current terminals of the relay T13 and \n T14 (phase R to Neutral)\nIncrease the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights\nConnect the current test lead on the current terminals of the relay T15 and \n T16 (phase S to Neutral)\nRepeat step 6\nConnect the current test lead on the current terminals of the relay T17 and \n T18 (Phase T to Neutral\nRepeat step 6\nTest \nof external \ncircuits\nTest the external circuits using the test function provided by the MMC as \nattached\nReturn relay \nand \nassociated equipment to \nservice\nReturn relay to service by removing the test leads from the relay terminals \n and the test set\nMake sure CT and V T secondary circuits are in normal condition\nRemove the disturbance alarm LED's on the relay which is caused by the test\nRequest feeder to be returned in service\nMeasures the currents and voltages in the secondaries of the main CT's and \n VT's and compare the results with the values displayed by the MMC\nTake phasor readings of all A C currents and voltages and compare them to \n those for normal load condition\nCheck that these reading agree with station meters (MW, Mvar, Amperes and power \n factor)\nPlace a copy of the test result in the field maintenance file\n------------------------------------------------\nTest functions\nParset switching\nTo test a protection function belonging to another set of parameters, the \nrespective set of parameters has to be activated first. Menu item \"Parset \nswitching\" enables the parameter set to be selected and activated after entering \nthe valid password\n------------------------------------------------------------------------------------------------------------------------\nTest Sheet\nfor Line Protection type REL 316*4\nKind of check | Remarks\nRelay \n number | ----------------------------------\nVisual \n check for transport damage | ----------------------------------\nVisual \n check of external wiring | ---------------------------------\nCheck of \n relay grounding | ----------------------------------\nCheck of \n supply voltage (DC/AC) | ----------------------------------\nCheck of \n setting | ----------------------------------\nCheck of \n CT circuits | ---------------------------------\nCheck of \n PT circuits | ----------------------------------\nSecondary \n injection with test set type | ----------------------------------\nCheck of \n input signals | ---------------------------------\nCheck of \n signalization / alarms | ---------------------------------\nCheck of \n starting breaker failure protection | ---------------------------------\nCheck of HF \n circuits | ---------------------------------\nHF - \"End \n to End\" test | ----------------------------------\nCheck of \n reclosing | ----------------------------------\nDirectional \n check | ---------------------------------\nStability \n check (longitudinal diff. function) | ----------------------------------\nFinal check | \nPrimary line data \nSettings\nLength \n------------ km According to separate print out\nPos. seq. impedance ------------ Ω/ ph angle ----------- Software version of the relay ------\nZero seq. impedance ------------ Ω/ ph \nangle -----------\nMain CT/PT Ratio\nAnalogue inputs 1-3 -------------/------------- Analogue inputs 4 -------------/-------------\nAnalogue inputs 7-9 -------------/------------- Analogue inputs 5 -------------/-------------\nAnalogue inputs 6 -------------/-------------\nSecondary \nInjection\nImpedance function |  | Directional earth fault function \"Earth faultlsol\"\n | Nom. value (Ω/ph) | Measured value (Ω/ph)\n R S T |  |  | Nom. value\n (VA) | Measured value \n [V*A=VA)]\nX(1) |  |  |  |  |  | Forward |  | \nX(2) |  |  | -- | -- |  | Backward |  | \nX(3) |  |  | --- | --- |  | Directional earth fault function \"Earth Flt Gnd2\"\nX(4/OR) |  |  | --- | --- |  | I-Setting (A) | V-Setting (V)\nXA |  |  | --- | --- |  | Nom. val. | Meas. val. | Nom. value | Meas. val.\nXB |  |  | --- | --- |  |  |  |  | \nLongitudinal differential function \"Diff-Line\"\nMeasuring of the basic setting\nPhase | Nominal value (A) | Measured value (A) | If the fibre optic link or the relay at the opposite\nR |  |  | station is not ready, the \"Diff-Line\" function is\nS |  |  | blocked and the analogue inputs can only be\nT |  |  | checked using the menu \"Display AD channels\"\nSynchroCheck function \"SynchroCheck\"\nParallel injection (1 phase) of \"uLinelnput\" \nand \"uBuslnput1\" or \"uBuslnput2\" respectively\nInjected\n Voltage\n (V) | \"uLinelnput\" parallel \n \"uBuslnput1\" | \"uLinelnput\" parallel \n \"uBuslnput1\"\nDifferential voltage | Differential angle | Differential voltage | Differential angle\n∆Unom.(UN) | ∆Umeas.*(UN) | ∆Ωnom..(deg) | ∆Ωmeas.*(deg) | ∆Unom.(UN) | ∆Umeas*.(UN) | ∆Ωnom.(deg) | ∆Ωmeas.*(deg)\nTo be read in the \nmenu \"Display Function Measurements\" \"Synchro Check\"\nSynchro check function \nmust be released\nTo be read in the \nmenu \"Display Function Measurements\" \"Synchro Check\"\nSynchro check function \nmust be released\n | Options\n .\n ONLY/ONE PCS:314D864\n | .\nCurrent \n and Voltage | \ninput | Signaling\n(Communication Port | \nLocal MMC (PC).) | \nSEMEL Communication | \nwith Substation Control | \nEarthing Screw\n On Casing | \nDFTCOUPLER\n INPUTS | TRIP\nDC Supply | ",
  "text_truncated": false,
  "links": [],
  "images": [

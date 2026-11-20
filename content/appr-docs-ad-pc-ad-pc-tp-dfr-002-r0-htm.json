@@ -25,10 +25,6 @@
   },
   {
    "type": "paragraph",
-   "text": "Issued to: \n Networks"
-  },
-  {
-   "type": "paragraph",
    "text": "Introduction"
   },
   {
@@ -172,14 +168,10 @@
    "text": "Station: Trans. no\n Relay type D202\n Serial no.\n Aux DC supply \n : \n volt\n Rated current \n : \n amp\n Time delay \n : \n sec\n I∆\n : \n I p :"
   },
   {
-   "type": "paragraph",
-   "text": "I pick up\n I drop off\n K rest\n Flag"
-  },
-  {
    "type": "table",
    "rows": [
     [
-     "",
+     "PH",
      "R",
      "S",
      "T"
@@ -191,6 +183,15 @@
      "LV",
      "HV",
      "LV"
+    ],
+    [
+     "I pick up\n I drop off\n K rest\n Flag",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -212,7 +213,7 @@
    "text": "Approved by: \n Signature:"
   }
  ],
- "text": "\nIssued to: \n Networks\nIntroduction\nThis procedure details the steps required to completely\n check the proper operation and calibration of the transformer protection,\n Differential Relay types D202 & D203 relay. It is recommended this\n procedure be carried out on a yearly bases. This work be carried out section\n of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing\n describes the activities required prior to testing. Some of these steps could\n be performed days before the actual test. The second section Preparation for\n testing describes the steps to set up the equipment for performing the actual\n tests. The third section is the actual test.\nThe document is formatted the way to minimize the\n possibility of error causing personal injury or damage to equipment.\nD202\nDesigned for two-winding transformer and unit connection\ntransformers and generators. Inter-turn faults in the transformer winding are\nalso detected to avoid unselective tripping when the transformer is switched on,\nthe relay is made inrush-proof.\nD202 + D203\nFor use with three winding power transformers, ancillary D203\ncontains the parts required for the third winding in addition to the\ndifferential relay.\nIt has three CT's the necessary rectifier and a tripping\ncontactor.\nSafety Precautions\nWear safety and healthy equipments as safety \n helmet, safety shoes ..etc\nPower transformer \n must be isolated.\nMake sure that CT Secondary circuits are shorted before isolating the\n current circuit for test current injection.\nTools and Equipment\nTwo current source, \n 2 Multi-meter\n2 Variable resistor (0-100 ohm) 200 W\n2 switch S1, S2, \n Diode (Rectifier)\nWork to be Carried Out\nPICK UP TEST\nConnect the Secondary injection test set to the relay as shown in figure\n (1)\nIncrease the injected current slowly until the relay operates.\nRecord the operating (differential) current.\nCheck the relay trips contacts are closed when the relay picks up, and\n these contacts open as the current is reduced.\nSwitch off the secondary injection test set.\nPress the reset button on the relay in front panel and check that the flag\n reset.\nInject the current until the relay operates and switch of the test set.\nConnect the timed contact of the relay to the stop time terminals of\n the secondary injection test set as shown in figure (2)\nSwitch on the current suddenly and record the operate time.\nSlop Characteristic Test\nFind the % and apply the equation:\nConnect the circuit as shown in figure (3) for measuring the basic\n setting.\nIncrease the applied voltage slowly until the relay operates.\nRecord the I∆ from the ammeter (A).\nFind the % and apply the equation:\nPick-Up Ratio (V)\nConnect the circuit as shown in fig 4 for measuring the pick-up\n ratio (v), Increase the current I ∆2then increase the current I\n ∆1 until the relay picks up.\nMeasure the operating current (I ∆2) on (A1)\n at restraining current (IH) of 2 x IN and\n 2 x IN\nMeasure the operating current (I ∆2) on (A1)\n and restraining current (I ∆2) on A2.\nCalculate the corresponding value (v%).\nHarmonic Test\nConnect the circuit as shown in figure (5) and figure (6)\nClose switch (S1) and switch) S2) and set the current to the operating\n current, check that the relay operates.\nOpen switch (S2) and close switch (S1) and check that the relay does not\n operate.\nTest Facility\nAnother form for figure 4\nAnother Form for Figure 6\nTest Sheet\nStation: Trans. no\n Relay type D202\n Serial no.\n Aux DC supply \n : \n volt\n Rated current \n : \n amp\n Time delay \n : \n sec\n I∆\n : \n I p :\nI pick up\n I drop off\n K rest\n Flag\n\nTime setting\n : \n Operating Time:\n Check Contacts\n : \n Operate \n Rest\n Operate \n Rest\n Operate \n Rest\n Operate \n Rest\n Measure AUX DC of Relay Terminal\n Check Tripping Circuit :\n Check Alarm Circuit :\n Check Signal Circuit :\nResult:\nChecked by: \n Test Date: \nSignature:\nApproved by: \n Signature:",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis procedure details the steps required to completely\n check the proper operation and calibration of the transformer protection,\n Differential Relay types D202 & D203 relay. It is recommended this\n procedure be carried out on a yearly bases. This work be carried out section\n of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing\n describes the activities required prior to testing. Some of these steps could\n be performed days before the actual test. The second section Preparation for\n testing describes the steps to set up the equipment for performing the actual\n tests. The third section is the actual test.\nThe document is formatted the way to minimize the\n possibility of error causing personal injury or damage to equipment.\nD202\nDesigned for two-winding transformer and unit connection\ntransformers and generators. Inter-turn faults in the transformer winding are\nalso detected to avoid unselective tripping when the transformer is switched on,\nthe relay is made inrush-proof.\nD202 + D203\nFor use with three winding power transformers, ancillary D203\ncontains the parts required for the third winding in addition to the\ndifferential relay.\nIt has three CT's the necessary rectifier and a tripping\ncontactor.\nSafety Precautions\nWear safety and healthy equipments as safety \n helmet, safety shoes ..etc\nPower transformer \n must be isolated.\nMake sure that CT Secondary circuits are shorted before isolating the\n current circuit for test current injection.\nTools and Equipment\nTwo current source, \n 2 Multi-meter\n2 Variable resistor (0-100 ohm) 200 W\n2 switch S1, S2, \n Diode (Rectifier)\nWork to be Carried Out\nPICK UP TEST\nConnect the Secondary injection test set to the relay as shown in figure\n (1)\nIncrease the injected current slowly until the relay operates.\nRecord the operating (differential) current.\nCheck the relay trips contacts are closed when the relay picks up, and\n these contacts open as the current is reduced.\nSwitch off the secondary injection test set.\nPress the reset button on the relay in front panel and check that the flag\n reset.\nInject the current until the relay operates and switch of the test set.\nConnect the timed contact of the relay to the stop time terminals of\n the secondary injection test set as shown in figure (2)\nSwitch on the current suddenly and record the operate time.\nSlop Characteristic Test\nFind the % and apply the equation:\nConnect the circuit as shown in figure (3) for measuring the basic\n setting.\nIncrease the applied voltage slowly until the relay operates.\nRecord the I∆ from the ammeter (A).\nFind the % and apply the equation:\nPick-Up Ratio (V)\nConnect the circuit as shown in fig 4 for measuring the pick-up\n ratio (v), Increase the current I ∆2then increase the current I\n ∆1 until the relay picks up.\nMeasure the operating current (I ∆2) on (A1)\n at restraining current (IH) of 2 x IN and\n 2 x IN\nMeasure the operating current (I ∆2) on (A1)\n and restraining current (I ∆2) on A2.\nCalculate the corresponding value (v%).\nHarmonic Test\nConnect the circuit as shown in figure (5) and figure (6)\nClose switch (S1) and switch) S2) and set the current to the operating\n current, check that the relay operates.\nOpen switch (S2) and close switch (S1) and check that the relay does not\n operate.\nTest Facility\nAnother form for figure 4\nAnother Form for Figure 6\nTest Sheet\nStation: Trans. no\n Relay type D202\n Serial no.\n Aux DC supply \n : \n volt\n Rated current \n : \n amp\n Time delay \n : \n sec\n I∆\n : \n I p :\nPH | R | S | T\nHV | LV | HV | LV | HV | LV\nI pick up\n I drop off\n K rest\n Flag |  |  |  |  |  | \nTime setting\n : \n Operating Time:\n Check Contacts\n : \n Operate \n Rest\n Operate \n Rest\n Operate \n Rest\n Operate \n Rest\n Measure AUX DC of Relay Terminal\n Check Tripping Circuit :\n Check Alarm Circuit :\n Check Signal Circuit :\nResult:\nChecked by: \n Test Date: \nSignature:\nApproved by: \n Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

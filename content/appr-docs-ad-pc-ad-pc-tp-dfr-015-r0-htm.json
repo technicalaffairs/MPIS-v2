@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -121,68 +123,40 @@
    ]
   },
   {
-   "type": "paragraph",
-   "text": "PS"
-  },
-  {
-   "type": "paragraph",
-   "text": "R. N"
-  },
-  {
-   "type": "paragraph",
-   "text": "S. N"
-  },
-  {
-   "type": "paragraph",
-   "text": "3 5\n 3 5"
-  },
-  {
-   "type": "paragraph",
-   "text": "R. N"
-  },
-  {
-   "type": "paragraph",
-   "text": "S. N"
-  },
-  {
-   "type": "paragraph",
-   "text": "4 5"
-  },
-  {
-   "type": "paragraph",
-   "text": "4 5"
-  },
-  {
-   "type": "paragraph",
-   "text": "R. N"
-  },
-  {
-   "type": "paragraph",
-   "text": "S. N"
-  },
-  {
-   "type": "paragraph",
-   "text": "6 5"
-  },
-  {
-   "type": "paragraph",
-   "text": "6 5"
-  },
-  {
-   "type": "paragraph",
-   "text": "R. N"
-  },
-  {
-   "type": "paragraph",
-   "text": "S. N"
-  },
-  {
-   "type": "paragraph",
-   "text": "7 5"
-  },
-  {
-   "type": "paragraph",
-   "text": "7 5"
+   "type": "table",
+   "rows": [
+    [
+     "Voltage Side",
+     "Phase",
+     "Injected Terminal",
+     "Injected Current"
+    ],
+    [
+     "PS\n 11.5 K.V / 400 V",
+     "R. N\n S. N\n T. N",
+     "3 5\n 3 5\n 3 5",
+     ""
+    ],
+    [
+     "11.5 K.V",
+     "R. N\n S. N\n T. N",
+     "4 5\n 4 5\n 4 5",
+     ""
+    ],
+    [
+     "11.5 K.V",
+     "R. N\n S. N\n T. N",
+     "6 5\n 6 5\n 6 5",
+     ""
+    ],
+    [
+     "220 K.V",
+     "R. N\n S. N\n T. N",
+     "7 5\n 7 5\n 7 5",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -209,7 +183,7 @@
    "text": "Figure 1: Test connection diagram for the STD17C Relay"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis procedure details the testing procedures P1, which \n recommended to be carried out every six months as indicated by M6 in the \n title block.\nThe first draft initiated by eng. \nFayza El-Sharkawy, tested by eng. Shirin Hamdy & eng. Azza Salama at 23 \nApril 2003, revised by eng. Adel El Nagar: EDEPC Quality Control, accepted by General Director eng. \nMahmoud Saker and approved by eng. Moustfa Alam Head Sector of Talkha Power Station.\nThe first update initiated by eng. Fayza El- Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama , at 23 April 2008 , revised by MDEP Co. quality \n control eng. Adel El-Nagar , accepted by General Director eng. Mohamed Anber, \n and approved by eng. Farouk Awad Ali Head Sector of Talkha Power Station, \n coordinate eng. Samir Abd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety category,\nSafety fence with caution marks surrounding the work area is required.\nOutage arrangement is required.\nCheck from the station drawing that the test \nplug will isolate breaker trip coils, breaker failure scheme, and any alarm \nassociated with the relay.\nIf the test plug does not isolate the previous \n steps you have to isolate it.\nTools and Equipment\nTest Plug handle, Test Leads\nClamp ammeter, Secondary injection test set OR Double-F2200 test set\nWork to be Carried Out\nPreparation\nMake Sure CT secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test.\nLook at field maintenance file and compare the setting \n on relay with those shown on the test sheet\nTesting the Relay\nCheck the pickup of the main unit it should pickup 30 % of tap rating +10% or the pickup should be between 0.78 and 0.96 Amp. \n the main unit \n trips at (1 1.5 A).\nConnect test leads between the current terminals (3 - 5) terminal 5 is \n the common, terminal 3 is the service transformer. Figure 1.\nIncrease the current until the relay trips \n instantaneously.\nRecord the current value in the test sheet \n .\nConnect test leads between the current \n terminals ( 4 -5 ) terminal 4 is the generator (1) 11.5 KV terminal \n 5 is the common.\nIncrease the current until the relay trips \n instantaneously the trans. Lock out the two generators lockout .\nRecord the current value in the test \n sheet .\nRepeat the steps 1 , 2 and 3 to terminals \n ( 6 - 5 ) which terminals is the generator (2) 11.5KV and to \n terminal ( 5 -7 ), which terminal 7 is the transformer 220KV.\nThe instantaneous over current unit \n located at the upper right hand side of the relay by passing a high \n current through the terminal ( 5 6 ).\nElectrical Test\nMinimum pick up of main operating unit .\nMinimum pick up of the instantaneous over \n current unit\nThe instantaneous \nover current unit located at the upper right hand side of the relay should be \nchecked by passing a high current through the (5 6) terminal.\nReturn relay to service by \n removing the test leads from the relay terminal block and the test set \n i.e.\n - Disconnect the test leads from the terminals ( 3 - 4 ), ( 4 - 5 \n ), ( 5 - 6 )\nMake sure CT and PT secondary \n circuits are in normal condition.\nIf any equipment associated with \n the relay has been isolated, it should be returned to service by the \n following restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this \n relay.\nPS\nR. N\nS. N\n3 5\n 3 5\nR. N\nS. N\n4 5\n4 5\nR. N\nS. N\n6 5\n6 5\nR. N\nS. N\n7 5\n7 5\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :\nTest Circuit for STD17C or STD18C Relays\nFigure 1: Test connection diagram for the STD17C Relay",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis procedure details the testing procedures P1, which \n recommended to be carried out every six months as indicated by M6 in the \n title block.\nThe first draft initiated by eng. \nFayza El-Sharkawy, tested by eng. Shirin Hamdy & eng. Azza Salama at 23 \nApril 2003, revised by eng. Adel El Nagar: EDEPC Quality Control, accepted by General Director eng. \nMahmoud Saker and approved by eng. Moustfa Alam Head Sector of Talkha Power Station.\nThe first update initiated by eng. Fayza El- Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama , at 23 April 2008 , revised by MDEP Co. quality \n control eng. Adel El-Nagar , accepted by General Director eng. Mohamed Anber, \n and approved by eng. Farouk Awad Ali Head Sector of Talkha Power Station, \n coordinate eng. Samir Abd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety category,\nSafety fence with caution marks surrounding the work area is required.\nOutage arrangement is required.\nCheck from the station drawing that the test \nplug will isolate breaker trip coils, breaker failure scheme, and any alarm \nassociated with the relay.\nIf the test plug does not isolate the previous \n steps you have to isolate it.\nTools and Equipment\nTest Plug handle, Test Leads\nClamp ammeter, Secondary injection test set OR Double-F2200 test set\nWork to be Carried Out\nPreparation\nMake Sure CT secondary circuit are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test.\nLook at field maintenance file and compare the setting \n on relay with those shown on the test sheet\nTesting the Relay\nCheck the pickup of the main unit it should pickup 30 % of tap rating +10% or the pickup should be between 0.78 and 0.96 Amp. \n the main unit \n trips at (1 1.5 A).\nConnect test leads between the current terminals (3 - 5) terminal 5 is \n the common, terminal 3 is the service transformer. Figure 1.\nIncrease the current until the relay trips \n instantaneously.\nRecord the current value in the test sheet \n .\nConnect test leads between the current \n terminals ( 4 -5 ) terminal 4 is the generator (1) 11.5 KV terminal \n 5 is the common.\nIncrease the current until the relay trips \n instantaneously the trans. Lock out the two generators lockout .\nRecord the current value in the test \n sheet .\nRepeat the steps 1 , 2 and 3 to terminals \n ( 6 - 5 ) which terminals is the generator (2) 11.5KV and to \n terminal ( 5 -7 ), which terminal 7 is the transformer 220KV.\nThe instantaneous over current unit \n located at the upper right hand side of the relay by passing a high \n current through the terminal ( 5 6 ).\nElectrical Test\nMinimum pick up of main operating unit .\nMinimum pick up of the instantaneous over \n current unit\nThe instantaneous \nover current unit located at the upper right hand side of the relay should be \nchecked by passing a high current through the (5 6) terminal.\nReturn relay to service by \n removing the test leads from the relay terminal block and the test set \n i.e.\n - Disconnect the test leads from the terminals ( 3 - 4 ), ( 4 - 5 \n ), ( 5 - 6 )\nMake sure CT and PT secondary \n circuits are in normal condition.\nIf any equipment associated with \n the relay has been isolated, it should be returned to service by the \n following restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this \n relay.\nVoltage Side | Phase | Injected Terminal | Injected Current\nPS\n 11.5 K.V / 400 V | R. N\n S. N\n T. N | 3 5\n 3 5\n 3 5 | \n11.5 K.V | R. N\n S. N\n T. N | 4 5\n 4 5\n 4 5 | \n11.5 K.V | R. N\n S. N\n T. N | 6 5\n 6 5\n 6 5 | \n220 K.V | R. N\n S. N\n T. N | 7 5\n 7 5\n 7 5 | \nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : \nSignature : \nTest Date : / /\nApproved by \n: Signature :\nTest Circuit for STD17C or STD18C Relays\nFigure 1: Test connection diagram for the STD17C Relay",
  "text_truncated": false,
  "links": [],
  "images": [

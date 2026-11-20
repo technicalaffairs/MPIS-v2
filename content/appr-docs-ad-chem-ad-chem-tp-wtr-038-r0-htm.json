@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Chemical"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Title"
-  },
-  {
-   "type": "paragraph",
-   "text": "Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Chemical",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -127,24 +121,22 @@
    "text": "Four keys enable the selection of the various \n parameters relevant to the measuring mode,"
   },
   {
-   "type": "paragraph",
-   "text": "- Recall \n parameters in the measuring mode"
-  },
-  {
-   "type": "paragraph",
-   "text": "- Select \n functions in the programming mode"
-  },
-  {
-   "type": "paragraph",
-   "text": "-\n Recall temperature data in the measuring mode"
-  },
-  {
-   "type": "paragraph",
-   "text": "-\n Confirm the calibration coefficients in the calibration mode"
-  },
-  {
-   "type": "paragraph",
-   "text": "- Rollkeys to \n program status parameters and key data"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "- Recall \n parameters in the measuring mode\n - Select \n functions in the programming mode\n - Confirm \n selected parameters"
+    ],
+    [
+     "",
+     "-\n Recall temperature data in the measuring mode\n -\n Confirm the calibration coefficients in the calibration mode\n - Return into the \n measuring mode and confirm the selected parameters"
+    ],
+    [
+     "",
+     "- Rollkeys to \n program status parameters and key data\n - Load the \n default values. Press both keys, then turn the power on"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -195,6 +187,18 @@
    "text": "Programming \nSequence"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "* 1 There is no calibration for redox measurement"
+    ],
+    [
+     "* 2 There is no parameter display with the controller version"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Proportional Controller, Models 8935-L2c \nand \n8935-H2C"
   },
@@ -207,8 +211,136 @@
    "text": "keys \nto \nSymbols"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "- \"Programming mode\""
+    ],
+    [
+     "",
+     "- \"ORP\": m V measurement with metal electrodes"
+    ],
+    [
+     "",
+     "- \n \" Standard\": pH measurement with glass electrodes"
+    ],
+    [
+     "",
+     "- \"Antimony\": pH measurement with antimony electrodes"
+    ],
+    [
+     "",
+     "- \"Calibration\""
+    ],
+    [
+     "",
+     "- \"Buffer 1\": pH of buffer solution 1"
+    ],
+    [
+     "",
+     "- \"Buffer 2\": pH of buffer \n solution 2"
+    ],
+    [
+     "",
+     "For Monec Models L2 and H2"
+    ],
+    [
+     "",
+     "- Parameters display\n (Asymmetry in pH \n units slope in % -)"
+    ],
+    [
+     "",
+     "- Limits"
+    ],
+    [
+     "",
+     "For Monec Models L2C and H2C"
+    ],
+    [
+     "",
+     "- Regulation by impulse length \n variations"
+    ],
+    [
+     "",
+     "- Regulation by frequency"
+    ],
+    [
+     "",
+     "- \"Switching mode\": Relay \n contact S1/S2 for \"low\" alert"
+    ],
+    [
+     "",
+     "- \"Switching mode\": Relay \n contact S1/S2 for \"high\" alert"
+    ],
+    [
+     "",
+     "- \"Measuring range\" (pH or \n mVunits)"
+    ],
+    [
+     "",
+     "- Lower end of range\" (pH or \n mVunits)"
+    ],
+    [
+     "",
+     "- \"Upper end of range\" (pH or \n mVunits)"
+    ],
+    [
+     "",
+     "- \"Automatic temperature \n compensation\" with Pt100"
+    ],
+    [
+     "",
+     "- \"Manual temperature \n compensation\":\n Enter \n the temperature in ºC"
+    ],
+    [
+     "",
+     "-\"Output current\":4...20 mA or \n 0....20 mA"
+    ],
+    [
+     "",
+     "- Controller \"setpoint\""
+    ],
+    [
+     "",
+     "- Proportional band X P1 \n \" (%)"
+    ],
+    [
+     "",
+     "- Periodicity in seconds \n if PUL selected\n - Impulse length \n FгE \n selected"
+    ],
+    [
+     "",
+     "- Proportional band X P2 \n \" (%)"
+    ],
+    [
+     "",
+     "- Periodicity in seconds \n if PUL selected \n - Impulsion length if FгE selected"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Type of \nMeasuring Electrode"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "+ LED display pH = Glass electrode"
+    ],
+    [
+     "",
+     "+ LED display pH = Antimony \n electrode"
+    ],
+    [
+     "",
+     "+ LED display mV = ORP \n electrode"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -223,19 +355,29 @@
    "text": "Select the desired relay switching \nmode with the rollkeys"
   },
   {
-   "type": "paragraph",
-   "text": "Relay energized \n if measured"
-  },
-  {
-   "type": "paragraph",
-   "text": "Relay energized \n if measured"
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "Relay energized \n if measured \n value is above \n limit setpoint",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Relay energized \n if measured \n value is below \n limit setpoint",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Confirm \nwith SELECT"
   }
  ],
- "text": "Chemical\nTechnical Procedure\nTitle\nProcedure\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed \n on an annually bases or at unit shutdown.\nThe equipment function is to \n Sampling System pH Analyzer.\nThe first draft initiated by eng. Rania Hosny, \n revised by eng. Sameh Samir, accepted by \n eng. Hassan El shemy; General Manager of \n I&C, approved by eng. Ibrahim Al_Shahat \n Ibrahim; Head Sector of Waledia Power Station, 2 x 300 MW and certified by \n eng. Gamal Abd Elwahab Inspection and Quality Control Head Sector.\nSafety Precautions\nAt the Normal Operation\nPut control station at manual position.\nConstant unit load.\nSafety helmet, \n shoes, tools box, avometer, piece of cloth, pail and transparent hose.\nSafety helmet, \n shoes, tools box, avometer, piece of cloth, pail and transparent hose.\nWork to be Carried out\nOpen \n the work permit to start the maintenance procedure and receipt the \n equipment place from the operation after work permit finished.\nCheck \n the equipment for the dust.\nCalibration \n entails comparison and adjustment of the measured pH with that of a known \n buffer solution. Either one or two buffer solution is used.\nAccess \n the programming mode by simultaneously pressing \n SELECT \n and\n ENTER.\nProceed with programming until \n CAL appears, followed by the display \n of the currently measured sample pH.\nImmerse the electrodes into the buffer solution. Wait for the pH reading \n to stabilize. Using the rollkeys, adjust the display until the indicated pH corresponds to the pH of the buffer solution.\nConfirm with \n ENTER.\nNow the symbol \n Er1 temporarily appears, followed by \n the corrected pH value.\n2 Point Calibration\nImmerse the electrodes into the second buffer solution. Wait for the pH \n reading to stabilize. Using the rollkeys, adjust the display until the \n indicated pH corresponds to the pH of the buffer solution.\nConfirm with \n ENTER.\nNow the symbol \n Er1 \n temporarily appears, followed by the corrected pH \n value.\nReturning the equipment place to the operators after maintenance schedule \n completed.\nClosing the work permit and returning the safety working at the normal \n position.\nLocation: Sampling cabient \nEquipment Designation:\nChecked by: Eng. Sameh Samir \nDate: 9-3-2005 \nSignature\nOperating the \nInstrument\nFunctional Control\nFour keys enable the selection of the various \n parameters relevant to the measuring mode,\n- Recall \n parameters in the measuring mode\n- Select \n functions in the programming mode\n-\n Recall temperature data in the measuring mode\n-\n Confirm the calibration coefficients in the calibration mode\n- Rollkeys to \n program status parameters and key data\nDisplay\nAll data (status parameters and measurement data) \nmay be recalled in the order of the main-menu sequence by pressing \nSELECT.\nThe instrument will return into the measuring mode \nby any of the following actions:\nAutomatically, at the end of the programming \n sequence\nPress ENTER \n at any time while programming\nAutomatically, if no key is pressed for 10 \n minutes (this also applies for the programming or calibration modes)\nAutomatically, at the end of the programming \n sequence\nPress ENTER \n at any time while programming\nAutomatically, if no key is pressed for 10 \n minutes (this also applies for the programming or calibration modes)\nPress ENTER \nwhile in the measuring mode displays the sample temperature. Releasing \nENTER causes the \ninstrument to return into the measuring mode a few second later.\nProgramming\nDuring programming or calibration, \nthe relay outputs are inactivated and the output signal represents the last \nmeasured value prior to the interruption.\nProgramming \nSequence\nProportional Controller, Models 8935-L2c \nand \n8935-H2C\nMEASURING \nRange, Temperature Compensation and \nOutput Signal\nkeys \nto \nSymbols\nType of \nMeasuring Electrode\nConfirm the selected electrode with\nSELECT\nSwitching Mode S1\nSelect the desired relay switching \nmode with the rollkeys\nRelay energized \n if measured\nRelay energized \n if measured\nConfirm \nwith SELECT",
+ "text": "Chemical | Technical Procedure\nIntroduction\nThis document outlines the equipment inspection I1, which must be performed \n on an annually bases or at unit shutdown.\nThe equipment function is to \n Sampling System pH Analyzer.\nThe first draft initiated by eng. Rania Hosny, \n revised by eng. Sameh Samir, accepted by \n eng. Hassan El shemy; General Manager of \n I&C, approved by eng. Ibrahim Al_Shahat \n Ibrahim; Head Sector of Waledia Power Station, 2 x 300 MW and certified by \n eng. Gamal Abd Elwahab Inspection and Quality Control Head Sector.\nSafety Precautions\nAt the Normal Operation\nPut control station at manual position.\nConstant unit load.\nSafety helmet, \n shoes, tools box, avometer, piece of cloth, pail and transparent hose.\nSafety helmet, \n shoes, tools box, avometer, piece of cloth, pail and transparent hose.\nWork to be Carried out\nOpen \n the work permit to start the maintenance procedure and receipt the \n equipment place from the operation after work permit finished.\nCheck \n the equipment for the dust.\nCalibration \n entails comparison and adjustment of the measured pH with that of a known \n buffer solution. Either one or two buffer solution is used.\nAccess \n the programming mode by simultaneously pressing \n SELECT \n and\n ENTER.\nProceed with programming until \n CAL appears, followed by the display \n of the currently measured sample pH.\nImmerse the electrodes into the buffer solution. Wait for the pH reading \n to stabilize. Using the rollkeys, adjust the display until the indicated pH corresponds to the pH of the buffer solution.\nConfirm with \n ENTER.\nNow the symbol \n Er1 temporarily appears, followed by \n the corrected pH value.\n2 Point Calibration\nImmerse the electrodes into the second buffer solution. Wait for the pH \n reading to stabilize. Using the rollkeys, adjust the display until the \n indicated pH corresponds to the pH of the buffer solution.\nConfirm with \n ENTER.\nNow the symbol \n Er1 \n temporarily appears, followed by the corrected pH \n value.\nReturning the equipment place to the operators after maintenance schedule \n completed.\nClosing the work permit and returning the safety working at the normal \n position.\nLocation: Sampling cabient \nEquipment Designation:\nChecked by: Eng. Sameh Samir \nDate: 9-3-2005 \nSignature\nOperating the \nInstrument\nFunctional Control\nFour keys enable the selection of the various \n parameters relevant to the measuring mode,\n | - Recall \n parameters in the measuring mode\n - Select \n functions in the programming mode\n - Confirm \n selected parameters\n | -\n Recall temperature data in the measuring mode\n -\n Confirm the calibration coefficients in the calibration mode\n - Return into the \n measuring mode and confirm the selected parameters\n | - Rollkeys to \n program status parameters and key data\n - Load the \n default values. Press both keys, then turn the power on\nDisplay\nAll data (status parameters and measurement data) \nmay be recalled in the order of the main-menu sequence by pressing \nSELECT.\nThe instrument will return into the measuring mode \nby any of the following actions:\nAutomatically, at the end of the programming \n sequence\nPress ENTER \n at any time while programming\nAutomatically, if no key is pressed for 10 \n minutes (this also applies for the programming or calibration modes)\nAutomatically, at the end of the programming \n sequence\nPress ENTER \n at any time while programming\nAutomatically, if no key is pressed for 10 \n minutes (this also applies for the programming or calibration modes)\nPress ENTER \nwhile in the measuring mode displays the sample temperature. Releasing \nENTER causes the \ninstrument to return into the measuring mode a few second later.\nProgramming\nDuring programming or calibration, \nthe relay outputs are inactivated and the output signal represents the last \nmeasured value prior to the interruption.\nProgramming \nSequence\n* 1 There is no calibration for redox measurement\n* 2 There is no parameter display with the controller version\nProportional Controller, Models 8935-L2c \nand \n8935-H2C\nMEASURING \nRange, Temperature Compensation and \nOutput Signal\nkeys \nto \nSymbols\n | - \"Programming mode\"\n | - \"ORP\": m V measurement with metal electrodes\n | - \n \" Standard\": pH measurement with glass electrodes\n | - \"Antimony\": pH measurement with antimony electrodes\n | - \"Calibration\"\n | - \"Buffer 1\": pH of buffer solution 1\n | - \"Buffer 2\": pH of buffer \n solution 2\n | For Monec Models L2 and H2\n | - Parameters display\n (Asymmetry in pH \n units slope in % -)\n | - Limits\n | For Monec Models L2C and H2C\n | - Regulation by impulse length \n variations\n | - Regulation by frequency\n | - \"Switching mode\": Relay \n contact S1/S2 for \"low\" alert\n | - \"Switching mode\": Relay \n contact S1/S2 for \"high\" alert\n | - \"Measuring range\" (pH or \n mVunits)\n | - Lower end of range\" (pH or \n mVunits)\n | - \"Upper end of range\" (pH or \n mVunits)\n | - \"Automatic temperature \n compensation\" with Pt100\n | - \"Manual temperature \n compensation\":\n Enter \n the temperature in ºC\n | -\"Output current\":4...20 mA or \n 0....20 mA\n | - Controller \"setpoint\"\n | - Proportional band X P1 \n \" (%)\n | - Periodicity in seconds \n if PUL selected\n - Impulse length \n FгE \n selected\n | - Proportional band X P2 \n \" (%)\n | - Periodicity in seconds \n if PUL selected \n - Impulsion length if FгE selected\nType of \nMeasuring Electrode\n | + LED display pH = Glass electrode\n | + LED display pH = Antimony \n electrode\n | + LED display mV = ORP \n electrode\nConfirm the selected electrode with\nSELECT\nSwitching Mode S1\nSelect the desired relay switching \nmode with the rollkeys\n |  | Relay energized \n if measured \n value is above \n limit setpoint | \n |  | Relay energized \n if measured \n value is below \n limit setpoint | \nConfirm \nwith SELECT",
  "text_truncated": false,
  "links": [],
  "images": [

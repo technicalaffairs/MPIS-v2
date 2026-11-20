@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Protection"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -162,6 +164,96 @@
    "text": "Relay Range : \nC.T. Ratio :"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "BUS BAR",
+     "PHASE",
+     "INJECTED TERM",
+     "CURRENT SETTING",
+     "VOLTAGE SETTING"
+    ],
+    [
+     "",
+     "",
+     "Current",
+     "Volt",
+     "START",
+     "THE",
+     "200 V",
+     "300 V",
+     "400 V"
+    ],
+    [
+     "",
+     "R",
+     "",
+     "",
+     "A",
+     "MES",
+     "V",
+     "V",
+     "V"
+    ],
+    [
+     "BUS A",
+     "S",
+     "3 - 4",
+     "5 - 6",
+     "A",
+     "MES",
+     "V",
+     "V",
+     "V"
+    ],
+    [
+     "",
+     "T",
+     "",
+     "",
+     "A",
+     "MES",
+     "V",
+     "V",
+     "V"
+    ],
+    [
+     "",
+     "R",
+     "",
+     "",
+     "A",
+     "MES",
+     "V",
+     "V",
+     "V"
+    ],
+    [
+     "BUS B",
+     "S",
+     "3 - 4",
+     "5 - 6",
+     "A",
+     "MES",
+     "V",
+     "V",
+     "V"
+    ],
+    [
+     "",
+     "T",
+     "",
+     "",
+     "A",
+     "MES",
+     "V",
+     "V",
+     "V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Notes:"
   },
@@ -202,7 +294,7 @@
    "text": "Figure 1: (0257A8374-2) \nInternal Connections for PDV21B and PVD21D Relays"
   }
  ],
- "text": "Protection\nTechnical Procedure\nIntroduction\nThis document outlines the testing procedure I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThis relay detects the fault \n on the bus bar and trips all breakers connected to the bus. Type PVD relays \n are single phase high speed high impedance voltage operated relays that are \n designed to provide protection in bus differential schemes when used in \n junction with suitable current transformers. This model includes a high \n speed over current unit ( 87H ) in addition to the voltage-operated unit ( \n 87L ). It is provided with a single seal in and separate targets for each \n unit.\nThe \n first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama , revised by Quality Control \n eng. Adel El-Nagar at EDEP Co., accepted by General Director eng. Mahmoud Saker, and approved \n by eng. Moustfa Allam Head Sector of Talkha Power Station.\nThe first update initiated by eng. Fayza El- Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama , at 29 April 2003 , revised by MDEP Co. quality \n control eng. Adel El-Nagar , accepted by General Director eng. Mohamed Anber, \n and approved by eng. Farouk Awad Ali Head Sector of Talkha Power Station, \n coordinate eng. Samir Abd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nSafety fence (rope) with caution marks surrounding the work area is \n required.\nBus bar \n isolation is required.\nSwitch off \n DC power supply before with drawing the relay.\nBus bar \n isolation is required.\nSwitch off \n DC power supply before with drawing the relay.\nTools and Equipment\nSecondary injection test set,\nTest leads, and test plug handle.\nWork to be Carried Out\nPreparation\nObtain copy of relay setting \n from field maintenance file.\nObtain outage for the bus bar \n which is protected by this relay.\nMake sure CT secondary circuits are \n shorted before isolating the relay current circuit for current injection.\nTest \nProcedure \nBUS ( 1 )\nConnect test leads between the current terminals ( 3 and 4 ) on phase R of \n the relay.\nIncrease the current until the instantaneous unit 87H picks up and the target \n operates.\nRecord the current value in the test sheet.\nConnect test leads between the voltage terminals ( 5 and 6 ). This relay \n operates at the high voltage tap which from ( 200 v 500 v ).\nChange the voltage scale at the first tap and increase the voltage until the \n relay trips .\nRecord the voltage value in the test sheet.\nRepeat the steps no. 5 , 6 at the second voltage tap.\nRepeat the above steps from 1 to 7 for the other phases S & T .\nBUS ( 2 )\nRepeat all the steps of BUS 1 to BUS 2\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( 3 - 4 ) \n - Disconnect the test leads between the trip contact ( 5 - 6 ).\nMake sure CT and PT secondary circuits \n are in normal condition.\nRemove the isolation from the bus bar.\nMRDS \n Test Sheet for BUS BAR High \nSpeed Differential Relay \n MRDS\nStation:\nRelay Type : Relay Setting \n:\nRelay Model : \nTarget :\nRelay Range : \nC.T. Ratio :\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : Signature : \nTest Date : / /\nApproved by \n: Signature :\n* Short Finger\n87L = Differential Relay Low Set Unit\n87H = Differential Relay High Set Unit\n87. S.I. = Differential Relay Seal-In Unit\nL1 = Reactor \nRH1= 87L Calibration Pot.\nFigure 1: (0257A8374-2) \nInternal Connections for PDV21B and PVD21D Relays",
+ "text": "Protection | Technical Procedure\nIntroduction\nThis document outlines the testing procedure I1, which must be performed on an \nannually bases as indicated by Y1 in the above title block\nThis relay detects the fault \n on the bus bar and trips all breakers connected to the bus. Type PVD relays \n are single phase high speed high impedance voltage operated relays that are \n designed to provide protection in bus differential schemes when used in \n junction with suitable current transformers. This model includes a high \n speed over current unit ( 87H ) in addition to the voltage-operated unit ( \n 87L ). It is provided with a single seal in and separate targets for each \n unit.\nThe \n first draft initiated by eng. Fayza El-Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama , revised by Quality Control \n eng. Adel El-Nagar at EDEP Co., accepted by General Director eng. Mahmoud Saker, and approved \n by eng. Moustfa Allam Head Sector of Talkha Power Station.\nThe first update initiated by eng. Fayza El- Sharkawy, tested by eng. Shirin \n Hamdy & eng. Azza Salama , at 29 April 2003 , revised by MDEP Co. quality \n control eng. Adel El-Nagar , accepted by General Director eng. Mohamed Anber, \n and approved by eng. Farouk Awad Ali Head Sector of Talkha Power Station, \n coordinate eng. Samir Abd El gleel. Head sector of quality control eng.\nMohamed Nageeb.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nSafety fence (rope) with caution marks surrounding the work area is \n required.\nBus bar \n isolation is required.\nSwitch off \n DC power supply before with drawing the relay.\nBus bar \n isolation is required.\nSwitch off \n DC power supply before with drawing the relay.\nTools and Equipment\nSecondary injection test set,\nTest leads, and test plug handle.\nWork to be Carried Out\nPreparation\nObtain copy of relay setting \n from field maintenance file.\nObtain outage for the bus bar \n which is protected by this relay.\nMake sure CT secondary circuits are \n shorted before isolating the relay current circuit for current injection.\nTest \nProcedure \nBUS ( 1 )\nConnect test leads between the current terminals ( 3 and 4 ) on phase R of \n the relay.\nIncrease the current until the instantaneous unit 87H picks up and the target \n operates.\nRecord the current value in the test sheet.\nConnect test leads between the voltage terminals ( 5 and 6 ). This relay \n operates at the high voltage tap which from ( 200 v 500 v ).\nChange the voltage scale at the first tap and increase the voltage until the \n relay trips .\nRecord the voltage value in the test sheet.\nRepeat the steps no. 5 , 6 at the second voltage tap.\nRepeat the above steps from 1 to 7 for the other phases S & T .\nBUS ( 2 )\nRepeat all the steps of BUS 1 to BUS 2\nReturn Relay and Associated Equipment to \nService\nReturn relay to service by removing the \n test leads from the relay terminal block and the test set i.e.\n - Disconnect the test leads from the terminals ( 3 - 4 ) \n - Disconnect the test leads between the trip contact ( 5 - 6 ).\nMake sure CT and PT secondary circuits \n are in normal condition.\nRemove the isolation from the bus bar.\nMRDS \n Test Sheet for BUS BAR High \nSpeed Differential Relay \n MRDS\nStation:\nRelay Type : Relay Setting \n:\nRelay Model : \nTarget :\nRelay Range : \nC.T. Ratio :\nBUS BAR | PHASE | INJECTED TERM | CURRENT SETTING | VOLTAGE SETTING\n |  | Current | Volt | START | THE | 200 V | 300 V | 400 V\n | R |  |  | A | MES | V | V | V\nBUS A | S | 3 - 4 | 5 - 6 | A | MES | V | V | V\n | T |  |  | A | MES | V | V | V\n | R |  |  | A | MES | V | V | V\nBUS B | S | 3 - 4 | 5 - 6 | A | MES | V | V | V\n | T |  |  | A | MES | V | V | V\nNotes:\n.....................................................................................................................................................................\n.....................................................................................................................................................................\nTested by : Signature : \nLast \nTest Date: / \n/\nReviewed by : Signature : \nTest Date : / /\nApproved by \n: Signature :\n* Short Finger\n87L = Differential Relay Low Set Unit\n87H = Differential Relay High Set Unit\n87. S.I. = Differential Relay Seal-In Unit\nL1 = Reactor \nRH1= 87L Calibration Pot.\nFigure 1: (0257A8374-2) \nInternal Connections for PDV21B and PVD21D Relays",
  "text_truncated": false,
  "links": [],
  "images": [
