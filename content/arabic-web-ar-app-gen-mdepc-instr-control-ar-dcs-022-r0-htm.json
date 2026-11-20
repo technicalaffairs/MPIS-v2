@@ -1,0 +1,224 @@
+{
+ "id": "arabic-web-ar-app-gen-mdepc-instr-control-ar-dcs-022-r0-htm",
+ "doc_number": "DCS-022-R0",
+ "title_en": "",
+ "title_ar": "DCS-022-r0 \nAPPROVED",
+ "category": "instruments",
+ "source_path": "arabic_web/Ar_app_gen/MDEPC/Instr+control/Ar_dcs-022-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "القوة \n محطات"
+  },
+  {
+   "type": "paragraph",
+   "text": "الإجراء الفني"
+  },
+  {
+   "type": "paragraph",
+   "text": "معدات\nRedundancy Communications \n Module"
+  },
+  {
+   "type": "paragraph",
+   "text": "IC 687 RCM 711"
+  },
+  {
+   "type": "paragraph",
+   "text": "Alstom"
+  },
+  {
+   "type": "paragraph",
+   "text": "رقم الوثيقة: DCS-022-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "صدرت إلى: النوبارية PS"
+  },
+  {
+   "type": "paragraph",
+   "text": "حالة: \n موافقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "إجراء:فحص المعدات \n (I1-W1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "موافقة \n تاريخ: 24 Nov 2008"
+  },
+  {
+   "type": "paragraph",
+   "text": "تاريخ المراد مراجعتها: \n Nov 2013"
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "يوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان."
+  },
+  {
+   "type": "paragraph",
+   "text": "This Redundancy Communications Module (RCM)\nprovides a path for a synchronizing message from \nthe نشط ل \nوحدة النسخ الاحتياطي المستخدمة للمزامنة\nthe two CPUs in a FIP single rack redundancy \nsystem. It \nalso provides the path for the transfer of shared I/O\ndata between the two units. The physical connection\nbetween units in a FIP single rack redundancy \nsystem can \nhave up to 3 feet (0.9 meters) total of\ninterconnecting cable. The CPUs for FIP single rack\nRedundancy systems can be either IC697CPX928"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station ."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Features"
+  },
+  {
+   "type": "paragraph",
+   "text": "Supports FIP Redundant system configurations."
+  },
+  {
+   "type": "paragraph",
+   "text": "Two Redundancy Communications Modules required\nper system (in redundancy rack)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Single slot VME width module"
+  },
+  {
+   "type": "paragraph",
+   "text": "Provides path for shared I/O and synchronizing\nmessage between Primary and Secondary MFCs."
+  },
+  {
+   "type": "paragraph",
+   "text": "High Speed Parallel Bus Expansion Interface."
+  },
+  {
+   "type": "paragraph",
+   "text": "خمسة مؤشرات LED لحالة اللوحة والنظام."
+  },
+  {
+   "type": "paragraph",
+   "text": "Pushbutton switch for manual switch from active to\nbackup unit."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Supports FIP Redundant system configurations.",
+    "Two Redundancy Communications Modules required\nper system (in redundancy rack).",
+    "Single slot VME width module",
+    "Provides path for shared I/O and synchronizing\nmessage between Primary and Secondary MFCs.",
+    "High Speed Parallel Bus Expansion Interface.",
+    "خمسة مؤشرات LED لحالة اللوحة والنظام.",
+    "Pushbutton switch for manual switch from active to\nbackup unit."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "وظائف"
+  },
+  {
+   "type": "paragraph",
+   "text": "This Redundancy \nCommunications Module (RCM) provides a path for a synchronizing message from the \nactive to the backup unit which is used to synchronize the two CPUs in a FIP \nsingle rack redundancy system. It also provides the path for the transfer of \nshared I/O data between the two units. The physical connection between units in \na FIP single rack redundancy system can have up to 3 feet (0.9 meters) total of \ninterconnecting cable. The CPUs for FIP single rack."
+  },
+  {
+   "type": "paragraph",
+   "text": "Redundancy systems can be \neither IC697CPX928 or IC697CPX935."
+  },
+  {
+   "type": "paragraph",
+   "text": "Status Indications"
+  },
+  {
+   "type": "paragraph",
+   "text": "The five green LEDs at the top of the module provide\nstatus information. The top LED (BOARD OK) is ON\nwhen power is applied, the board is configured, \nthere were no \ndiagnostic failures in the RCM, no diagnostic\nfailures when establishing communications (the \nlink) with \nthe other RCM, and no failures in communications\non the link."
+  },
+  {
+   "type": "paragraph",
+   "text": "The other LEDs (LOCAL READY, LOCAL ACTIVE,\nREMOTE READY, and REMOTE ACTIVE) indicate the\ncontrol status of the Primary and Secondary units \nin a Hot Standby CPU Redundancy system."
+  },
+  {
+   "type": "paragraph",
+   "text": "السلامة \nالاحتياطات"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued"
+  },
+  {
+   "type": "paragraph",
+   "text": "Maintenance staff should be \n well trained and qualified."
+  },
+  {
+   "type": "paragraph",
+   "text": "Caution marks must be \n hanged on the work place, safety rope around the work place."
+  },
+  {
+   "type": "paragraph",
+   "text": "Removing a module\nMFC power must be off when connecting or disconnecting the transceiver"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Maintenance staff should be \n well trained and qualified.",
+    "Caution marks must be \n hanged on the work place, safety rope around the work place.",
+    "Removing a module\nMFC power must be off when connecting or disconnecting the transceiver",
+    "Removing a module\nMFC power must be off when connecting or disconnecting the transceiver"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "أدوات \nوالمعدات"
+  },
+  {
+   "type": "paragraph",
+   "text": "Complete tool set."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Complete tool set."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العمل الذي يتعين القيام به"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the supply voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the interface leds"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the supply voltage",
+    "Check the interface leds"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "موقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:"
+  }
+ ],
+ "text": "القوة \n محطات\nالإجراء الفني\nمعدات\nRedundancy Communications \n Module\nIC 687 RCM 711\nAlstom\nرقم الوثيقة: DCS-022-r0\nصدرت إلى: النوبارية PS\nحالة: \n موافقة\nإجراء:فحص المعدات \n (I1-W1)\nموافقة \n تاريخ: 24 Nov 2008\nتاريخ المراد مراجعتها: \n Nov 2013\nمقدمة\nيوضح هذا المستند فحص المعدات I1، الذي يجب إجراؤه عليه \nالقواعد الأسبوعية كما هو موضح بواسطة W1 في كتلة العنوان.\nThis Redundancy Communications Module (RCM)\nprovides a path for a synchronizing message from \nthe نشط ل \nوحدة النسخ الاحتياطي المستخدمة للمزامنة\nthe two CPUs in a FIP single rack redundancy \nsystem. It \nalso provides the path for the transfer of shared I/O\ndata between the two units. The physical connection\nbetween units in a FIP single rack redundancy \nsystem can \nhave up to 3 feet (0.9 meters) total of\ninterconnecting cable. The CPUs for FIP single rack\nRedundancy systems can be either IC697CPX928\nThe first draft is initiated by eng. Mohamed Tawfeeq, tested by \neng. Bahaa Abd El-Wahab, revised by MDEPC quality control eng. Adel El Nagga, accepted by \ngeneral manager eng. Mohamed Elshreif, approved by eng. Ahmed Sawan head sector \nof Nubaria power station .\nThis document certified by eng. Samir Abd El Gillil \nMDEPC quality control general manager and MPIS coordinator and approved by eng. Mohammed Nageb \nquality control head sector.\nFeatures\nSupports FIP Redundant system configurations.\nTwo Redundancy Communications Modules required\nper system (in redundancy rack).\nSingle slot VME width module\nProvides path for shared I/O and synchronizing\nmessage between Primary and Secondary MFCs.\nHigh Speed Parallel Bus Expansion Interface.\nخمسة مؤشرات LED لحالة اللوحة والنظام.\nPushbutton switch for manual switch from active to\nbackup unit.\nSupports FIP Redundant system configurations.\nTwo Redundancy Communications Modules required\nper system (in redundancy rack).\nSingle slot VME width module\nProvides path for shared I/O and synchronizing\nmessage between Primary and Secondary MFCs.\nHigh Speed Parallel Bus Expansion Interface.\nخمسة مؤشرات LED لحالة اللوحة والنظام.\nPushbutton switch for manual switch from active to\nbackup unit.\nوظائف\nThis Redundancy \nCommunications Module (RCM) provides a path for a synchronizing message from the \nactive to the backup unit which is used to synchronize the two CPUs in a FIP \nsingle rack redundancy system. It also provides the path for the transfer of \nshared I/O data between the two units. The physical connection between units in \na FIP single rack redundancy system can have up to 3 feet (0.9 meters) total of \ninterconnecting cable. The CPUs for FIP single rack.\nRedundancy systems can be \neither IC697CPX928 or IC697CPX935.\nStatus Indications\nThe five green LEDs at the top of the module provide\nstatus information. The top LED (BOARD OK) is ON\nwhen power is applied, the board is configured, \nthere were no \ndiagnostic failures in the RCM, no diagnostic\nfailures when establishing communications (the \nlink) with \nthe other RCM, and no failures in communications\non the link.\nThe other LEDs (LOCAL READY, LOCAL ACTIVE,\nREMOTE READY, and REMOTE ACTIVE) indicate the\ncontrol status of the Primary and Secondary units \nin a Hot Standby CPU Redundancy system.\nالسلامة \nالاحتياطات\nA work permit must be issued\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nRemoving a module\nMFC power must be off when connecting or disconnecting the transceiver\nMaintenance staff should be \n well trained and qualified.\nCaution marks must be \n hanged on the work place, safety rope around the work place.\nRemoving a module\nMFC power must be off when connecting or disconnecting the transceiver\nRemoving a module\nMFC power must be off when connecting or disconnecting the transceiver\nأدوات \nوالمعدات\nComplete tool set.\nComplete tool set.\nالعمل الذي يتعين القيام به\nCheck the supply voltage\nCheck the interface leds\nCheck the supply voltage\nCheck the interface leds\nموقع: \nSystem \nCode: \nتاريخ الاختبار الأخير:\nتم الفحص بواسطة: \nإمضاء: \nتاريخ الاختبار: \nتمت الموافقة عليه بواسطة: \nإمضاء:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}
