@@ -1,0 +1,716 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dfr-001-r0-html",
+ "doc_number": "DFR-001-R0",
+ "title_en": "dfr-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DfR-001-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Transformer Protection\n Differential Relay\n RADSB\n ABB"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure detail the steps required to completely check the\nproper operation and calibration of the RADSB differential relay. It is\nrecommended this procedure be carried out on a yearly base. This work be carried\nout section of this document is divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test the second section preparation for testing\ndescribes the steps to set up the equipment for performing the actual tests. The\nthird section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the possibility of\nerror causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the qualified maintanance staff should carry the \n suitable safety category",
+    "Safety fence with caution marks surrounding the work area is required",
+    "Wear your safety and healthy equipment as safety helmet, safety shoes, ... etc",
+    "Outage arrangement and work permit must be issued.",
+    "Check from the station drawing that the test plug will isolate: breaker trip\n coils, breaker failure scheme, fault recorder, and event recorder and\n disturbance alarm associated with this relay.",
+    "If the test plug does not isolate one of the pervious steps you have to\n isolate it."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test plug handle type RTXH 18.",
+    "Clamp ammeter or plug RTXM and Ammeter.",
+    "Power tec DFR or MTS-1700 test set.",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material manufacture's manual.",
+    "Obtain outage for transformer protected by this relay.",
+    "Check that the disconnect switches from all transformer\n sides are opened and tagged.",
+    "Inspect the secondary circuits of CT, and all cabling\n supplying the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and the Relay Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Min Pickup test: carefully follow this test procedure",
+    "Slope test : carefully follow this test procedure steps",
+    "Instantaneous test: carefully follow this test procedure",
+    "Harmonic restraint test: carefully follow this test\n procedure",
+    "Tripping time test carefully follow this test procedure",
+    "Manual tripping test carefully follow this test procedure",
+    "Verify the test result match the relay setting if not\n consult the technical services."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparations"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off load test.",
+    "Look at the E.E.A panel nameplate and check that EEA system\n designation nameplate agrees with the transformer that has been taken out of\n service.",
+    "Using a clip-on ammeter check there is no current flowing in\n the terminal # 3, 4, 5, 6, 7 and 8 on the rear side of the test switcher",
+    "Using RTXM and ammeter check there is no current flowing in\n terminal # 3, 4, 5, 6, 7 and 8 by inserting the RTXM plug in the front side\n of the test switch.",
+    "Review the RADSB data.",
+    "Do a visual inspection to familiarize your self with the\n relay insure there is no physical damage.",
+    "Test connection should be made according to fig (1) and the\n table (1) below, which is for RADS-B relay having two through fault restrain\n input circuits."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The connection can be made also according to fig (1-b) but you\n have to change the connection according to the phase under test and the two\n currents will have zero phase angle difference. This is the only way of\n testing differential relays using the older test sets"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operate Value"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "12"
+  },
+  {
+   "type": "paragraph",
+   "text": "13"
+  },
+  {
+   "type": "paragraph",
+   "text": "3"
+  },
+  {
+   "type": "paragraph",
+   "text": "4"
+  },
+  {
+   "type": "paragraph",
+   "text": "6"
+  },
+  {
+   "type": "paragraph",
+   "text": "7"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject 11"
+  },
+  {
+   "type": "paragraph",
+   "text": "2nd Harmonic Restraint"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "12"
+  },
+  {
+   "type": "paragraph",
+   "text": "13"
+  },
+  {
+   "type": "paragraph",
+   "text": "3"
+  },
+  {
+   "type": "paragraph",
+   "text": "4"
+  },
+  {
+   "type": "paragraph",
+   "text": "6"
+  },
+  {
+   "type": "paragraph",
+   "text": "7"
+  },
+  {
+   "type": "paragraph",
+   "text": "12-"
+  },
+  {
+   "type": "paragraph",
+   "text": "Through\n Fault Restraint"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "12"
+  },
+  {
+   "type": "paragraph",
+   "text": "13"
+  },
+  {
+   "type": "paragraph",
+   "text": "3"
+  },
+  {
+   "type": "paragraph",
+   "text": "4"
+  },
+  {
+   "type": "paragraph",
+   "text": "6"
+  },
+  {
+   "type": "paragraph",
+   "text": "7"
+  },
+  {
+   "type": "paragraph",
+   "text": "180oо"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unrestraint\n Operating current Isu"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "12"
+  },
+  {
+   "type": "paragraph",
+   "text": "13"
+  },
+  {
+   "type": "paragraph",
+   "text": "3"
+  },
+  {
+   "type": "paragraph",
+   "text": "4"
+  },
+  {
+   "type": "paragraph",
+   "text": "6"
+  },
+  {
+   "type": "paragraph",
+   "text": "7"
+  },
+  {
+   "type": "paragraph",
+   "text": "11&12 or"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject 11"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: you can keep the phase angle between 11&12 to 0o\nby reverse the connection of 11 or 12 see figure (1-b) i.e.:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect terminal A&N to terminal 12 (R) or 13 (S) or 14 (T)",
+    "Connect terminal B to terminal 3 (R) or 4 (S) or 5 (T)",
+    "Connect terminal C to terminal 6 (R) or 7 (S) or 8 (T)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig (1a) Connection For 3- Terminal Current Differential Relay\nfor Testing R Phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig (1b) Connection For 3- Terminal Current Differential Relay\nfor Testing r Phase (i1 & u2 l 0)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig. (Ic) Connection for 3- terminal current differential\nrelay using older test set (i1 & u2 l 0)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Min Pickup Test (Checking the Restrained Operating Current 1SR)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the test plug RTZH 18.",
+    "Connect the RADSB relay as shown in fig (2) and table (1)\n Select 11&12 current mode and static operation mode turn (PREFAULT) off.",
+    "Check with the relay set to (0.25 or 35 or 0.50) times\n nominal current.",
+    "Press (CURRENT0 to display/ adjusts the I1 current. \"I1\n -AMPS\" should be indicated in the (MODE/ MENU DISPLAY) press and hold\n (FAULT) and SLOWLY increase the current until the relay operates (the\n injected current is into half of the restrain coil and the operate coil).",
+    "Decrease the operate current ( 11) to Zero.",
+    "Press (CURRENT) again to display adjusts the 12 current.\n \"12-AMPS\" should be indicated in the (MODEMENU DISPLAY). PRESS AND\n HOLD (fault) and SLOWLY increase the current until the relay operates. (the\n injection is to the second half of the restrain coil and the operate coil.",
+    "Relay operation can be checked by observing the indicating\n stop lamp of the tester connected between RTZP 18 test plug terminals 17 and\n 18 and the light emitting diode 1> on the RXSGAI should light.",
+    "the correct phase indication for the relay can be checked by\n Observing unit RXSGAI in SEAT 331",
+    "Record the restraint operating current Isr in the following\n table:",
+    "The relay will operate at current equal to the set current\n 10%"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "0.25"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.25"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.35"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.35"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.50"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.50"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: Inject one current through both the operating coil\n and half the restraint coil\n Test 1: I1 = 0, Inject 12, (This is to check the first half of the\n restraint coil)\n Test 2: I1 = 0, Inject I1 (This is to check the second half of the restraint\n coil)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure (2) RADSS-B Connection for Minimum Pickup Test for R\nphase"
+  },
+  {
+   "type": "paragraph",
+   "text": "Scope Test (Checking the\nThrough-Fault Restrain Characteristics)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect RADSB relay as shown in fig (2) Select I1& 12\n current mode and static operation mode. Turn (PREFAULT) off.",
+    "Press (CURRENT) to display/ adjusts I1 current.\n \"I1-AMPS\" should be indicated in the (MODE / MENU DISPLAY). Press\n and hold (FAULT) and increase current to IA The relay will trip.",
+    "Press (current) again to display / adjust 12 current.\n Increase the 12 current to 1A press (PHASE V-1) and adjust the phase between\n 11&12 to 180o the relay will block (the differential current\n =0)",
+    "Slowly increase the current I1 or 12 until the relay\n operates. Record I1 and 12 reading release the (FAULT) button.",
+    "Relay operation can be checked by observing the indicating\n stop lamp of the tester connected between RTXP 18 test plug terminals 17 and\n 18 and the light emitting diode 1> on the RXSGAI should light.",
+    "Observing unit RXSGAI in SEAT 331 can check the correct\n phase indication for the relay.",
+    "Use the following formula to calculate slope: (I1 - I2) /\n (I1 - I2)/2",
+    "This can be directly displayed by selecting the DISP RATIO(\n I1 - I2)/( I1+ I2)x2via the menu.",
+    "Change the connection according to table 1 for phase S&T\n and repeat the steps 2 to 6",
+    "Repeat steps from 2 to 7 with current I1 2 A, 3A 10 A.",
+    "Record the results in the following table.",
+    "To measure the tripping time select dynamic operation press\n (FAULT) to perform ttiming test.",
+    "When the relay operates, the (STOP / REST) button will\n illuminate. Press (TIME) to see the operation time press (TIME) again to\n toggle between display in second or cycles.",
+    "Press (STOP/RESET) to clear and prepare for next test.",
+    "Compare this time with the relay technical data at the\n Appendix II"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "1A"
+  },
+  {
+   "type": "paragraph",
+   "text": "2A"
+  },
+  {
+   "type": "paragraph",
+   "text": "3A"
+  },
+  {
+   "type": "paragraph",
+   "text": "4A"
+  },
+  {
+   "type": "paragraph",
+   "text": "1A"
+  },
+  {
+   "type": "paragraph",
+   "text": "2A"
+  },
+  {
+   "type": "paragraph",
+   "text": "3A"
+  },
+  {
+   "type": "paragraph",
+   "text": "4A"
+  },
+  {
+   "type": "paragraph",
+   "text": "1A"
+  },
+  {
+   "type": "paragraph",
+   "text": "2A"
+  },
+  {
+   "type": "paragraph",
+   "text": "3A"
+  },
+  {
+   "type": "paragraph",
+   "text": "4A"
+  },
+  {
+   "type": "paragraph",
+   "text": "(Id / I1 - I2)/2"
+  },
+  {
+   "type": "paragraph",
+   "text": "2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Restraint through current in multiples at rated current In"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure (3) Restraining Limit Values at External Faults"
+  },
+  {
+   "type": "paragraph",
+   "text": "Instantaneous test (checking the\nunrestraint operating current isu):"
+  },
+  {
+   "type": "paragraph",
+   "text": "Caution: The relay is rated for 10 Amps continuously for IA\nversion and 20 A for 5A Version.\nDO NOT apply Current greater than 10 Amps for more than one\nSecond (for IA version 100a during I s and 250 A during I s See technical\ndata)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connected RADSB relay as shown in fig (2) if 22A or less is\n required, and 11 & 12 current mode used.",
+    "If more than 22A is required, connect as shown in fig (4).",
+    "Connect terminal 3 or 6 to Terminal A of the test set and\n terminal 12 to Terminal B of the test set when testing R phase.",
+    "Connect terminal 4 or 7 to Terminal A of the test set and\n terminal 13 to Terminal B of the test set when testing S Phase.",
+    "Connect terminal 5 or 8 to Terminal A of the test set and\n terminal 14 to Terminal B of the test when testing T phase.",
+    "For this case, select I1\n HIGH CURRENT MODE Select static\n operation mode Turn (PREFAULT) off.",
+    "Press (CURRENT) to display/adjusts the I1 current.\n \"I1-AMPS\" should be indicated in the (MODE / MENU DISPLAY). Press\n and hold (CURRENT) and increase the current until the relay high setting\n values Isu=8 or 13or 20xIn that the unrestrained operation is obtained.",
+    "Press and hold (FAULT) and SLOWLY increase the current until\n the relay operates.",
+    "Relay operation can be checked by observing the indicating\n stop lamp of the tester connected between RTXP 18 test plug terminals 17 and\n 18 and the light emitting diode I> > on the RXSGAI should lights.",
+    "Record the Unrestraint operating current Isu in the\n following table:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "8"
+  },
+  {
+   "type": "paragraph",
+   "text": "8"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "13"
+  },
+  {
+   "type": "paragraph",
+   "text": "13"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "20"
+  },
+  {
+   "type": "paragraph",
+   "text": "20"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure (4) RADS-B Connection for Instantaneous Test When More\nthan 22a Is Required"
+  },
+  {
+   "type": "paragraph",
+   "text": "Harmonic Restraint Test:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connected RADB relay as shown in fig (2). Select 12-HARMONIC\n current mode and static operation mode Turn (PREFAULT) on.",
+    "Press (CURRENT) to display / adjust 12 current\n \"12-AMP\" should be indicated in the (MODE / MENU DISPLY). Increase\n the current to the desired test value until the relay operates.",
+    "Press (CURRENT) to display / adjust % harmonic %\n \"HARM\" should be indicated in the (MODE/MENU DISPLAY) Increase the\n % harmonic until the relay restrains to determine the % harmonic restraint\n to value.",
+    "The harmonic value default to second harmonic. For testing\n at higher harmonic, press (FREQ) and turn the (MODIFY) knob to select the\n desired value.",
+    "Adjust for 5 \"harmonic and perform steps 2-3.",
+    "Record the test results.",
+    "Turn (PREFAULT) off.",
+    "Compare the results with the % harmonic value from the relay\n technical data\n 2nd harmonic = 17 % of the fundamental\n 5th harmonic = 38 % of the fundamental"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Notes:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "%2ndhormonic = (0.47Idc)/(Iac +1.11Idc) x 100 (Westinghouse\n formula)",
+    "%2ndhormonic = (0212Idc)/ (0.47Idc +0.5Idc)x 100 (GE\n formula)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Where,\n Iac = 50 HZ component in Amps (RMS)\n Ids = Half-wave rectified component in Amps (average)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note that the GE formula is actually the same as the\nWestinghouse formula if 2.22 multiply both numerator and denominator."
+  },
+  {
+   "type": "paragraph",
+   "text": "When 12-HARMONTIC current mode is selected, and a harmonic has\nnot been selected, the DFR-I will automatically select 2 nd -harmonic\nwhen 12-harmonic mode is exited, the harmonic setting will return to the value\nbefore 12-HARMONIC current mode was selected."
+  },
+  {
+   "type": "paragraph",
+   "text": "In 11& 12 current mode, the vc voltage source is\nre-configured as a current source for I1 output. To ensure maximum I1 output,\nturn all Va and Vb setting to zero In I1 &12 current mode, the I1 and 12\nneutrals may be tied together, but the outputs cannot be paralleled (ie."
+  },
+  {
+   "type": "paragraph",
+   "text": "Do not tie the red terminals together) as a method to obtain\nhigher currents."
+  },
+  {
+   "type": "paragraph",
+   "text": "Tripping Time Test:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect RADSB relay as shown in fig (2) Select I1 & 12\n current mode and static operation mode. Turn (PREFAULT) off.",
+    "Press (CURRENT) to display/I1 CURRENT. \"I1-AMPS\"\n should be indicated in the (MODE/MENU DISPLAY). Press and hold (FAULT) and\n increase current to IA the relay will trip.",
+    "Press (CURRENT) again to display/adjust 12 current. Increase\n the 12 current to IA press (PHASE V-I) and adjust the phase between\n 11&12 TO 180 the relay will block (the differential current = 0). о",
+    "Slowly increase the current 11 or 12 until the relay\n operates. Record 11 and 12 reading release the (FAULT) button.",
+    "Relay operation can be checked by observing the indicating\n stop lamp of the tester connected between RTXP 18 test plug terminals 17 and\n 18 and the light emitting diode 1> on the RXSGAI should light. To\n measure the tripping time select dynamic operation. Press (FAULT) to perform\n the timing test.",
+    "When the relay operates, the (STOP/REST) button will\n illuminate. Press (TIMF) to see the operation time press (TIME) again to\n toggle between display in second or cycles",
+    "Press (STOP/RESET) to clear and prepare for next test.",
+    "Compare this time with the relay technical data."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The operate times with output tripping relays type RXMSI and\ntype RXME 18"
+  },
+  {
+   "type": "paragraph",
+   "text": "Or you can also refer to figure (5) the operate time-current\ncharacteristics"
+  },
+  {
+   "type": "paragraph",
+   "text": "(I1 -12)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Off current in multiples at set operating current\nFigure (5) The Operate Time-Current\nCharacteristics"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manual Tripping Test:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch of test\n equipment.",
+    "Withdraw the test plug\n from the relay.",
+    "With the Isolator\n Switches Open close the circuit breaker at both ends of the transformer",
+    "Open the small plastic\n hole cover of the tripping relay RXMSI",
+    "Close the tripping\n contacts manually with small screw drive",
+    "The two circuit\n breaker should trip at both ends.",
+    "Put the small plastic\n cover back on the hole"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay to Service And Associated Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure that tester is switched off and the test withdrawn\n from the relay from the previous test.",
+    "If any equipment associated with the relay has been isolated\n without the test plug it should be return to service by the following\n restoration steps. \n Fault\n recorder event recorder and disturbance alarm.\n Breaker\n failure scheme"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Transformer Be Returned to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed reading of all AC current and voltage supplied\n to the relay, and compare it with the load conditions that reading should\n agrees the station meters reading.\n (MW/MVAR/Power factor).",
+    "Place a copy of the test result in the field maintenance."
+   ]
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\nTransformer Protection\n Differential Relay\n RADSB\n ABB\nIntroduction\nThis procedure detail the steps required to completely check the\nproper operation and calibration of the RADSB differential relay. It is\nrecommended this procedure be carried out on a yearly base. This work be carried\nout section of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test the second section preparation for testing\ndescribes the steps to set up the equipment for performing the actual tests. The\nthird section is the actual test.\nThe document is formatted the way to minimize the possibility of\nerror causing personal injury or damage to equipment.\nSafety Precautions\nA work permit must be issued and the qualified maintanance staff should carry the \n suitable safety category\nSafety fence with caution marks surrounding the work area is required\nWear your safety and healthy equipment as safety helmet, safety shoes, ... etc\nOutage arrangement and work permit must be issued.\nCheck from the station drawing that the test plug will isolate: breaker trip\n coils, breaker failure scheme, fault recorder, and event recorder and\n disturbance alarm associated with this relay.\nIf the test plug does not isolate one of the pervious steps you have to\n isolate it.\nTools and Equipment\nTest plug handle type RTXH 18.\nClamp ammeter or plug RTXM and Ammeter.\nPower tec DFR or MTS-1700 test set.\nTest leads\nWork to be Carried Out\nSteps to Prepare for Relay Testing\nReview technical reference material manufacture's manual.\nObtain outage for transformer protected by this relay.\nCheck that the disconnect switches from all transformer\n sides are opened and tagged.\nInspect the secondary circuits of CT, and all cabling\n supplying the relay.\nTesting the Relay and the Relay Outputs\nMin Pickup test: carefully follow this test procedure\nSlope test : carefully follow this test procedure steps\nInstantaneous test: carefully follow this test procedure\nHarmonic restraint test: carefully follow this test\n procedure\nTripping time test carefully follow this test procedure\nManual tripping test carefully follow this test procedure\nVerify the test result match the relay setting if not\n consult the technical services.\nPreparations\nThis procedure is used to perform off load test.\nLook at the E.E.A panel nameplate and check that EEA system\n designation nameplate agrees with the transformer that has been taken out of\n service.\nUsing a clip-on ammeter check there is no current flowing in\n the terminal # 3, 4, 5, 6, 7 and 8 on the rear side of the test switcher\nUsing RTXM and ammeter check there is no current flowing in\n terminal # 3, 4, 5, 6, 7 and 8 by inserting the RTXM plug in the front side\n of the test switch.\nReview the RADSB data.\nDo a visual inspection to familiarize your self with the\n relay insure there is no physical damage.\nTest connection should be made according to fig (1) and the\n table (1) below, which is for RADS-B relay having two through fault restrain\n input circuits.\nThe connection can be made also according to fig (1-b) but you\n have to change the connection according to the phase under test and the two\n currents will have zero phase angle difference. This is the only way of\n testing differential relays using the older test sets\nOperate Value\nR\nS\n12\n13\n3\n4\n6\n7\nInject 11\n2nd Harmonic Restraint\nR\nS\n12\n13\n3\n4\n6\n7\n12-\nThrough\n Fault Restraint\nR\nS\n12\n13\n3\n4\n6\n7\n180oо\nUnrestraint\n Operating current Isu\nR\nS\n12\n13\n3\n4\n6\n7\n11&12 or\nInject 11\nTable (1)\nNote: you can keep the phase angle between 11&12 to 0o\nby reverse the connection of 11 or 12 see figure (1-b) i.e.:\nConnect terminal A&N to terminal 12 (R) or 13 (S) or 14 (T)\nConnect terminal B to terminal 3 (R) or 4 (S) or 5 (T)\nConnect terminal C to terminal 6 (R) or 7 (S) or 8 (T)\nFig (1a) Connection For 3- Terminal Current Differential Relay\nfor Testing R Phase\nFig (1b) Connection For 3- Terminal Current Differential Relay\nfor Testing r Phase (i1 & u2 l 0)\nFig. (Ic) Connection for 3- terminal current differential\nrelay using older test set (i1 & u2 l 0)\nMin Pickup Test (Checking the Restrained Operating Current 1SR)\nInsert the test plug RTZH 18.\nConnect the RADSB relay as shown in fig (2) and table (1)\n Select 11&12 current mode and static operation mode turn (PREFAULT) off.\nCheck with the relay set to (0.25 or 35 or 0.50) times\n nominal current.\nPress (CURRENT0 to display/ adjusts the I1 current. \"I1\n -AMPS\" should be indicated in the (MODE/ MENU DISPLAY) press and hold\n (FAULT) and SLOWLY increase the current until the relay operates (the\n injected current is into half of the restrain coil and the operate coil).\nDecrease the operate current ( 11) to Zero.\nPress (CURRENT) again to display adjusts the 12 current.\n \"12-AMPS\" should be indicated in the (MODEMENU DISPLAY). PRESS AND\n HOLD (fault) and SLOWLY increase the current until the relay operates. (the\n injection is to the second half of the restrain coil and the operate coil.\nRelay operation can be checked by observing the indicating\n stop lamp of the tester connected between RTZP 18 test plug terminals 17 and\n 18 and the light emitting diode 1> on the RXSGAI should light.\nthe correct phase indication for the relay can be checked by\n Observing unit RXSGAI in SEAT 331\nRecord the restraint operating current Isr in the following\n table:\nThe relay will operate at current equal to the set current\n 10%\n0.25\n0.25\nR\nS\n0.35\n0.35\nR\nS\n0.50\n0.50\nR\nS\nNote: Inject one current through both the operating coil\n and half the restraint coil\n Test 1: I1 = 0, Inject 12, (This is to check the first half of the\n restraint coil)\n Test 2: I1 = 0, Inject I1 (This is to check the second half of the restraint\n coil)\nFigure (2) RADSS-B Connection for Minimum Pickup Test for R\nphase\nScope Test (Checking the\nThrough-Fault Restrain Characteristics)\nConnect RADSB relay as shown in fig (2) Select I1& 12\n current mode and static operation mode. Turn (PREFAULT) off.\nPress (CURRENT) to display/ adjusts I1 current.\n \"I1-AMPS\" should be indicated in the (MODE / MENU DISPLAY). Press\n and hold (FAULT) and increase current to IA The relay will trip.\nPress (current) again to display / adjust 12 current.\n Increase the 12 current to 1A press (PHASE V-1) and adjust the phase between\n 11&12 to 180o the relay will block (the differential current\n =0)\nSlowly increase the current I1 or 12 until the relay\n operates. Record I1 and 12 reading release the (FAULT) button.\nRelay operation can be checked by observing the indicating\n stop lamp of the tester connected between RTXP 18 test plug terminals 17 and\n 18 and the light emitting diode 1> on the RXSGAI should light.\nObserving unit RXSGAI in SEAT 331 can check the correct\n phase indication for the relay.\nUse the following formula to calculate slope: (I1 - I2) /\n (I1 - I2)/2\nThis can be directly displayed by selecting the DISP RATIO(\n I1 - I2)/( I1+ I2)x2via the menu.\nChange the connection according to table 1 for phase S&T\n and repeat the steps 2 to 6\nRepeat steps from 2 to 7 with current I1 2 A, 3A 10 A.\nRecord the results in the following table.\nTo measure the tripping time select dynamic operation press\n (FAULT) to perform ttiming test.\nWhen the relay operates, the (STOP / REST) button will\n illuminate. Press (TIME) to see the operation time press (TIME) again to\n toggle between display in second or cycles.\nPress (STOP/RESET) to clear and prepare for next test.\nCompare this time with the relay technical data at the\n Appendix II\n1A\n2A\n3A\n4A\n1A\n2A\n3A\n4A\n1A\n2A\n3A\n4A\n(Id / I1 - I2)/2\n2\nRestraint through current in multiples at rated current In\nFigure (3) Restraining Limit Values at External Faults\nInstantaneous test (checking the\nunrestraint operating current isu):\nCaution: The relay is rated for 10 Amps continuously for IA\nversion and 20 A for 5A Version.\nDO NOT apply Current greater than 10 Amps for more than one\nSecond (for IA version 100a during I s and 250 A during I s See technical\ndata)\nConnected RADSB relay as shown in fig (2) if 22A or less is\n required, and 11 & 12 current mode used.\nIf more than 22A is required, connect as shown in fig (4).\nConnect terminal 3 or 6 to Terminal A of the test set and\n terminal 12 to Terminal B of the test set when testing R phase.\nConnect terminal 4 or 7 to Terminal A of the test set and\n terminal 13 to Terminal B of the test set when testing S Phase.\nConnect terminal 5 or 8 to Terminal A of the test set and\n terminal 14 to Terminal B of the test when testing T phase.\nFor this case, select I1\n HIGH CURRENT MODE Select static\n operation mode Turn (PREFAULT) off.\nPress (CURRENT) to display/adjusts the I1 current.\n \"I1-AMPS\" should be indicated in the (MODE / MENU DISPLAY). Press\n and hold (CURRENT) and increase the current until the relay high setting\n values Isu=8 or 13or 20xIn that the unrestrained operation is obtained.\nPress and hold (FAULT) and SLOWLY increase the current until\n the relay operates.\nRelay operation can be checked by observing the indicating\n stop lamp of the tester connected between RTXP 18 test plug terminals 17 and\n 18 and the light emitting diode I> > on the RXSGAI should lights.\nRecord the Unrestraint operating current Isu in the\n following table:\n8\n8\nR\nS\n13\n13\nR\nS\n20\n20\nR\nS\nFigure (4) RADS-B Connection for Instantaneous Test When More\nthan 22a Is Required\nHarmonic Restraint Test:\nConnected RADB relay as shown in fig (2). Select 12-HARMONIC\n current mode and static operation mode Turn (PREFAULT) on.\nPress (CURRENT) to display / adjust 12 current\n \"12-AMP\" should be indicated in the (MODE / MENU DISPLY). Increase\n the current to the desired test value until the relay operates.\nPress (CURRENT) to display / adjust % harmonic %\n \"HARM\" should be indicated in the (MODE/MENU DISPLAY) Increase the\n % harmonic until the relay restrains to determine the % harmonic restraint\n to value.\nThe harmonic value default to second harmonic. For testing\n at higher harmonic, press (FREQ) and turn the (MODIFY) knob to select the\n desired value.\nAdjust for 5 \"harmonic and perform steps 2-3.\nRecord the test results.\nTurn (PREFAULT) off.\nCompare the results with the % harmonic value from the relay\n technical data\n 2nd harmonic = 17 % of the fundamental\n 5th harmonic = 38 % of the fundamental\nNotes:\n%2ndhormonic = (0.47Idc)/(Iac +1.11Idc) x 100 (Westinghouse\n formula)\n%2ndhormonic = (0212Idc)/ (0.47Idc +0.5Idc)x 100 (GE\n formula)\nWhere,\n Iac = 50 HZ component in Amps (RMS)\n Ids = Half-wave rectified component in Amps (average)\nNote that the GE formula is actually the same as the\nWestinghouse formula if 2.22 multiply both numerator and denominator.\nWhen 12-HARMONTIC current mode is selected, and a harmonic has\nnot been selected, the DFR-I will automatically select 2 nd -harmonic\nwhen 12-harmonic mode is exited, the harmonic setting will return to the value\nbefore 12-HARMONIC current mode was selected.\nIn 11& 12 current mode, the vc voltage source is\nre-configured as a current source for I1 output. To ensure maximum I1 output,\nturn all Va and Vb setting to zero In I1 &12 current mode, the I1 and 12\nneutrals may be tied together, but the outputs cannot be paralleled (ie.\nDo not tie the red terminals together) as a method to obtain\nhigher currents.\nTripping Time Test:\nConnect RADSB relay as shown in fig (2) Select I1 & 12\n current mode and static operation mode. Turn (PREFAULT) off.\nPress (CURRENT) to display/I1 CURRENT. \"I1-AMPS\"\n should be indicated in the (MODE/MENU DISPLAY). Press and hold (FAULT) and\n increase current to IA the relay will trip.\nPress (CURRENT) again to display/adjust 12 current. Increase\n the 12 current to IA press (PHASE V-I) and adjust the phase between\n 11&12 TO 180 the relay will block (the differential current = 0). о\nSlowly increase the current 11 or 12 until the relay\n operates. Record 11 and 12 reading release the (FAULT) button.\nRelay operation can be checked by observing the indicating\n stop lamp of the tester connected between RTXP 18 test plug terminals 17 and\n 18 and the light emitting diode 1> on the RXSGAI should light. To\n measure the tripping time select dynamic operation. Press (FAULT) to perform\n the timing test.\nWhen the relay operates, the (STOP/REST) button will\n illuminate. Press (TIMF) to see the operation time press (TIME) again to\n toggle between display in second or cycles\nPress (STOP/RESET) to clear and prepare for next test.\nCompare this time with the relay technical data.\nThe operate times with output tripping relays type RXMSI and\ntype RXME 18\nOr you can also refer to figure (5) the operate time-current\ncharacteristics\n(I1 -12)\nOff current in multiples at set operating current\nFigure (5) The Operate Time-Current\nCharacteristics\nManual Tripping Test:\nSwitch of test\n equipment.\nWithdraw the test plug\n from the relay.\nWith the Isolator\n Switches Open close the circuit breaker at both ends of the transformer\nOpen the small plastic\n hole cover of the tripping relay RXMSI\nClose the tripping\n contacts manually with small screw drive\nThe two circuit\n breaker should trip at both ends.\nPut the small plastic\n cover back on the hole\nReturn Relay to Service And Associated Equipment\nMake sure that tester is switched off and the test withdrawn\n from the relay from the previous test.\nIf any equipment associated with the relay has been isolated\n without the test plug it should be return to service by the following\n restoration steps. \n Fault\n recorder event recorder and disturbance alarm.\n Breaker\n failure scheme\nRequest Power Transformer Be Returned to Service\nTake crossed reading of all AC current and voltage supplied\n to the relay, and compare it with the load conditions that reading should\n agrees the station meters reading.\n (MW/MVAR/Power factor).\nPlace a copy of the test result in the field maintenance.",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/Drf-001-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/Drf-001-2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/Drf-001-3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/Drf-001-4.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/Drf-001-5.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/Drf-001-6.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/Drf-001-7.gif",
+   "alt": ""
+  }
+ ]
+}

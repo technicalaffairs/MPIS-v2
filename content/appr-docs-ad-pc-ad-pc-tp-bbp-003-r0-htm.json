@@ -1,0 +1,263 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-bbp-003-r0-htm",
+ "doc_number": "BBP-003-R0",
+ "title_en": "bbp-003-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/BBP-003-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Equipment:\n Bus bar Protection\n Differential Relay\nR-23",
+     "Document No: BBR-003-r0"
+    ],
+    [
+     "Issued \n to: Networks"
+    ],
+    [
+     "Status: \n APPROVED"
+    ],
+    [
+     "Procedure:\n Testing Procedures",
+     "Approved Date: 06 Feb 2000"
+    ],
+    [
+     "Date to \n be Reviewed: Feb 2005"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check the proper operation and calibration of the R-23\nbus bar differential relay. It is recommended this procedure be carried out on a yearly bases. This work be carried out section of this document is divided into 3\nsections"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing describes the activities required prior to testing. Some of these steps could be performed days before the actual test. The second section Preparation for testing describes the steps to set up the equipment for performing the actual tests. The third section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the possibility of error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "Description of the Individual Relay Types of which R23 is composed"
+  },
+  {
+   "type": "paragraph",
+   "text": "Description of Relay Type R23-V"
+  },
+  {
+   "type": "paragraph",
+   "text": "The R23-V relay is used for the line feeder or for the transformer, which appears as a line feeder to the R23\nprotection"
+  },
+  {
+   "type": "paragraph",
+   "text": "The R23-V relay includes the summation transformer T1 and two tracing relays A and B of type RP 46, which are energized across the\nbus bar isolator auxiliary contacts. \nThe R23V and B of type RP 46, which are energized across the\nbus bar isolator auxiliary contacts."
+  },
+  {
+   "type": "paragraph",
+   "text": "The contacts a11/12, b11/12 open the secondary circuit of the summation transformer .The contacts a31/32 b 31/32 connect the secondary winding of the summation transformer to the respective connecting lines."
+  },
+  {
+   "type": "paragraph",
+   "text": "The tripping pulse initiated by the measuring relay R-23M1 is\nled to the relay M across the contacts a 21/22, b 23/22 connect the secondary winding of the summation transformer to the respective connecting lines."
+  },
+  {
+   "type": "paragraph",
+   "text": "The tripping pulse initiated by the measuring relay R-23 M1 is 1ed to the relay M across the contacts a 21/22, b 21/22 of the tracing the relay .In case the impulse member of the respective feeder protection has started the relay P, the line breaker is tripped via the contacts P 1/2 and m . The relays M and P are of the type RP 102."
+  },
+  {
+   "type": "paragraph",
+   "text": "Description of the Relay Type R23 M"
+  },
+  {
+   "type": "paragraph",
+   "text": "The relay R23 M is a measuring relay for two\nbus bar systems. The differential current of the system A flows through the transformers TA and TA and through the transformers TB and TB of system B .The rectifier bridges and sensitive measuring relays FA/FB of type UCR2 are connected to the secondary sides of these transformers."
+  },
+  {
+   "type": "paragraph",
+   "text": "The relays DA and DB are connected into the stabilized circuit, the stabilizing currents of the other relays flow to the potentiometers KA and KB."
+  },
+  {
+   "type": "paragraph",
+   "text": "These potentiometers serve to set the stabilizing stage .The relay DA, DB throws over their contacts da, db in case of a\nbus bar short- circuits and the flag type relay KA, KB of type RP 91 operates."
+  },
+  {
+   "type": "paragraph",
+   "text": "The tripping pulse runs to the particular relays admit that the tripping pulse passes through to the circuit breakers."
+  },
+  {
+   "type": "paragraph",
+   "text": "The relays FA, FB lie in the non-stabilized circuit. Their sensitivity is higher than that of relays DA, DB however it is above the magnitude of the equalizing currents with normal operation"
+  },
+  {
+   "type": "paragraph",
+   "text": "The protection is blocked by relay BA (blocking of system A) and BB (blocking of system B)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Description of the Relay Type R 23-S2"
+  },
+  {
+   "type": "paragraph",
+   "text": "The relay serves the combined\nbus bar coupler and is composed of two summation transformers T1, T2 and the tracing relays A, B, 1p of the type RP47. The tracing relays are energized by the\nbus bar isolator auxiliary contacts .The contacts a 11/12, b 11/12 interrupt the secondary circuit of the transformer T1, and the contacts 1b 11/12 the secondary circuit of the transformer T2. The secondary current of the transformer T1 is led to the differential circuits of the R23 protection across contacts a 31/32, d31/32 and via stabilization transformers T3, T4, contact 1b 31/32 has a similar function."
+  },
+  {
+   "type": "paragraph",
+   "text": "The tripping pulse of the measuring relay R23-MI is 1ed to relay Ma via contacts a 21/22 and MB via contacts 1b 21/22, b21/22. In case the relay phase simultaneously been started by the impulse member in combined bus coupler bay, the breaker will be tripped. Additionally the circuits breaker on the o"
+  },
+  {
+   "type": "paragraph",
+   "text": "Other transformer side (e.g. 400 KV) is tripped by means of contact p3 and relay L. The relays MA,MB and P,L are of type RP102. A terminal on the relay rear side serves the connection of the differential and stabilization circuits."
+  },
+  {
+   "type": "paragraph",
+   "text": "Description of the Auxiliary Time Relay R23-P"
+  },
+  {
+   "type": "paragraph",
+   "text": "After the time set, the auxiliary time relay R23-P is to signal the operation of the FA, FB relay and take out of operation the\nbus bar protection on the respective bus bars."
+  },
+  {
+   "type": "paragraph",
+   "text": "It includes two time relays TKA, TKB of the type TK11 and two relays PA, PB. The time relay TKA/TKB measures the time. If the measuring relays FA/FB remain in operating position for a period longer than adjusted."
+  },
+  {
+   "type": "paragraph",
+   "text": "At the same time, the relay HA/HB in the measuring cubicle starts to operate."
+  },
+  {
+   "type": "paragraph",
+   "text": "Description of the Testing Device R23-Z"
+  },
+  {
+   "type": "paragraph",
+   "text": "The testing device R23-Z suitably amends the relay R23-M. It makes measurement of the differential current in circuits A and B easy during operation and is well-proven for periodical tests of the R23 protection."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation and work permit required.",
+    "Make sure C.T secondary circuits are shorted before isolating the current circuits for test current injection.",
+    "Check there is no current from CTs by using clip on ammeter.",
+    "Isolate the breaker failure scheme associated with this protection."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set.",
+    "Clip-on ammeter.",
+    "Voltmeter.",
+    "Test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Dont open circuit the secondary circuit of CT since the high voltage produced may be dangerous to people and could damage equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Prior to Starting Testing Procedure (s) Ensure the Following Steps"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedure (s)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: manufacturers, manual.",
+    "Obtain a copy of relay setting from field maintenance file and compare it with the setting on the relay.",
+    "Inspect the CTs secondaries circuits and all cabling supplying the relay.",
+    "Isolate tripping circuit of the system by putting two switches b11, b12 off position at protection panel (102).",
+    "Change links position at relay R23Z from (p) to (z) position.",
+    "Choose bus A or B to test.",
+    "Put setting of KA,KB equal zero on main relay R23M.",
+    "Connect test set leads to terminal (E, F) at R23Z relay.",
+    "Increase the current slowly until indication HA, HB will appear at relay R23M. this indication means open CT secondary (operating current equals 0.1 rate current).",
+    "To verify the operating current for DA, DB in measurement element increase the injection current according the table below.",
+    "At the end of the test, we must put switch at unit R23Z O position and change links to P position at return previous setting and change switches b11, b12 at on\n position"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating current"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet (BUS-bar Protection R23)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation: Date of Test:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checked by:"
+  },
+  {
+   "type": "paragraph",
+   "text": "1-.."
+  },
+  {
+   "type": "paragraph",
+   "text": "2- ."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Short secondary current of the circuit connected with the bus and isolate the protection refrom C.T secondary.",
+    "Make sure that all links inside unit R23Z at p- position.",
+    "Put the switch inside unit R23Z at O position.",
+    "Put switches b11, b12 at on position.",
+    "Use secondary injection R, S, T (1, 6) (2, 6) (3, 6) on turns at R23V-R23S and not the value of operating current is and equal 3:2:1 and inverse proposition with CT ratio.",
+    "To verify the operating current to main relay which trip all bus when\n KH, KB indication appear and record this value in test sheet.",
+    "To verify the operating current with secondary CT opened which make alarm only with indication HA, HB appearance and record block current in test sheet.",
+    "To verify the operating current KA, KB must inject current\n fast before the time setting with R23P which prevent tripping\n (BioCK).",
+    "But to verify the operating current HA, HB we must inject current slowly and record this value when R23P start.",
+    "To trip bus A or B, we need two conditions which are differential current and under voltage. That verify when fault at zone protect.\n D1d1, d12, d13 are under voltage relays bus A.\n D21, d22, are under voltage relays bus B.",
+    "To verify tripping BUS A take off one terminal 1 or 2 form aux. Relay d11 or d12 and d13 leads to operate Aux. Relay p inside relay R23-V for bus A.",
+    "Increase sec. Injection current\n fast at any really R23V for BUS A leads to operate aux. Relay M inside all relay for BUS A. this verify tripping all BUS A.",
+    "Repeat the previous steps for BUS B."
+   ]
+  }
+ ],
+ "text": "\nIntroduction\nThis procedure details the steps required to completely check the proper operation and calibration of the R-23\nbus bar differential relay. It is recommended this procedure be carried out on a yearly bases. This work be carried out section of this document is divided into 3\nsections\nThe first preliminary steps to prepare for relay testing describes the activities required prior to testing. Some of these steps could be performed days before the actual test. The second section Preparation for testing describes the steps to set up the equipment for performing the actual tests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility of error causing personal injury or damage to equipment.\nDescription of the Individual Relay Types of which R23 is composed\nDescription of Relay Type R23-V\nThe R23-V relay is used for the line feeder or for the transformer, which appears as a line feeder to the R23\nprotection\nThe R23-V relay includes the summation transformer T1 and two tracing relays A and B of type RP 46, which are energized across the\nbus bar isolator auxiliary contacts. \nThe R23V and B of type RP 46, which are energized across the\nbus bar isolator auxiliary contacts.\nThe contacts a11/12, b11/12 open the secondary circuit of the summation transformer .The contacts a31/32 b 31/32 connect the secondary winding of the summation transformer to the respective connecting lines.\nThe tripping pulse initiated by the measuring relay R-23M1 is\nled to the relay M across the contacts a 21/22, b 23/22 connect the secondary winding of the summation transformer to the respective connecting lines.\nThe tripping pulse initiated by the measuring relay R-23 M1 is 1ed to the relay M across the contacts a 21/22, b 21/22 of the tracing the relay .In case the impulse member of the respective feeder protection has started the relay P, the line breaker is tripped via the contacts P 1/2 and m . The relays M and P are of the type RP 102.\nDescription of the Relay Type R23 M\nThe relay R23 M is a measuring relay for two\nbus bar systems. The differential current of the system A flows through the transformers TA and TA and through the transformers TB and TB of system B .The rectifier bridges and sensitive measuring relays FA/FB of type UCR2 are connected to the secondary sides of these transformers.\nThe relays DA and DB are connected into the stabilized circuit, the stabilizing currents of the other relays flow to the potentiometers KA and KB.\nThese potentiometers serve to set the stabilizing stage .The relay DA, DB throws over their contacts da, db in case of a\nbus bar short- circuits and the flag type relay KA, KB of type RP 91 operates.\nThe tripping pulse runs to the particular relays admit that the tripping pulse passes through to the circuit breakers.\nThe relays FA, FB lie in the non-stabilized circuit. Their sensitivity is higher than that of relays DA, DB however it is above the magnitude of the equalizing currents with normal operation\nThe protection is blocked by relay BA (blocking of system A) and BB (blocking of system B)\nDescription of the Relay Type R 23-S2\nThe relay serves the combined\nbus bar coupler and is composed of two summation transformers T1, T2 and the tracing relays A, B, 1p of the type RP47. The tracing relays are energized by the\nbus bar isolator auxiliary contacts .The contacts a 11/12, b 11/12 interrupt the secondary circuit of the transformer T1, and the contacts 1b 11/12 the secondary circuit of the transformer T2. The secondary current of the transformer T1 is led to the differential circuits of the R23 protection across contacts a 31/32, d31/32 and via stabilization transformers T3, T4, contact 1b 31/32 has a similar function.\nThe tripping pulse of the measuring relay R23-MI is 1ed to relay Ma via contacts a 21/22 and MB via contacts 1b 21/22, b21/22. In case the relay phase simultaneously been started by the impulse member in combined bus coupler bay, the breaker will be tripped. Additionally the circuits breaker on the o\nOther transformer side (e.g. 400 KV) is tripped by means of contact p3 and relay L. The relays MA,MB and P,L are of type RP102. A terminal on the relay rear side serves the connection of the differential and stabilization circuits.\nDescription of the Auxiliary Time Relay R23-P\nAfter the time set, the auxiliary time relay R23-P is to signal the operation of the FA, FB relay and take out of operation the\nbus bar protection on the respective bus bars.\nIt includes two time relays TKA, TKB of the type TK11 and two relays PA, PB. The time relay TKA/TKB measures the time. If the measuring relays FA/FB remain in operating position for a period longer than adjusted.\nAt the same time, the relay HA/HB in the measuring cubicle starts to operate.\nDescription of the Testing Device R23-Z\nThe testing device R23-Z suitably amends the relay R23-M. It makes measurement of the differential current in circuits A and B easy during operation and is well-proven for periodical tests of the R23 protection.\nSafety Precautions\nLine isolation and work permit required.\nMake sure C.T secondary circuits are shorted before isolating the current circuits for test current injection.\nCheck there is no current from CTs by using clip on ammeter.\nIsolate the breaker failure scheme associated with this protection.\nTools and Equipment\nSecondary injection test set.\nClip-on ammeter.\nVoltmeter.\nTest leads.\nWork to be Carried Out\nDont open circuit the secondary circuit of CT since the high voltage produced may be dangerous to people and could damage equipment.\nPrior to Starting Testing Procedure (s) Ensure the Following Steps\nTesting Procedure (s)\nReview technical reference material: manufacturers, manual.\nObtain a copy of relay setting from field maintenance file and compare it with the setting on the relay.\nInspect the CTs secondaries circuits and all cabling supplying the relay.\nIsolate tripping circuit of the system by putting two switches b11, b12 off position at protection panel (102).\nChange links position at relay R23Z from (p) to (z) position.\nChoose bus A or B to test.\nPut setting of KA,KB equal zero on main relay R23M.\nConnect test set leads to terminal (E, F) at R23Z relay.\nIncrease the current slowly until indication HA, HB will appear at relay R23M. this indication means open CT secondary (operating current equals 0.1 rate current).\nTo verify the operating current for DA, DB in measurement element increase the injection current according the table below.\nAt the end of the test, we must put switch at unit R23Z O position and change links to P position at return previous setting and change switches b11, b12 at on\n position\nOperating current\nTest Sheet (BUS-bar Protection R23)\nSubstation: Date of Test:\nChecked by:\n1-..\n2- .\nShort secondary current of the circuit connected with the bus and isolate the protection refrom C.T secondary.\nMake sure that all links inside unit R23Z at p- position.\nPut the switch inside unit R23Z at O position.\nPut switches b11, b12 at on position.\nUse secondary injection R, S, T (1, 6) (2, 6) (3, 6) on turns at R23V-R23S and not the value of operating current is and equal 3:2:1 and inverse proposition with CT ratio.\nTo verify the operating current to main relay which trip all bus when\n KH, KB indication appear and record this value in test sheet.\nTo verify the operating current with secondary CT opened which make alarm only with indication HA, HB appearance and record block current in test sheet.\nTo verify the operating current KA, KB must inject current\n fast before the time setting with R23P which prevent tripping\n (BioCK).\nBut to verify the operating current HA, HB we must inject current slowly and record this value when R23P start.\nTo trip bus A or B, we need two conditions which are differential current and under voltage. That verify when fault at zone protect.\n D1d1, d12, d13 are under voltage relays bus A.\n D21, d22, are under voltage relays bus B.\nTo verify tripping BUS A take off one terminal 1 or 2 form aux. Relay d11 or d12 and d13 leads to operate Aux. Relay p inside relay R23-V for bus A.\nIncrease sec. Injection current\n fast at any really R23V for BUS A leads to operate aux. Relay M inside all relay for BUS A. this verify tripping all BUS A.\nRepeat the previous steps for BUS B.",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

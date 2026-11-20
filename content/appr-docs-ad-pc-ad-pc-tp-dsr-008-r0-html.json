@@ -1,0 +1,834 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-008-r0-html",
+ "doc_number": "DSR-008-R0",
+ "title_en": "dsr-008-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-008-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The relay type quadromho-has been designed to satisfy the\ndemand for a cost off entire distance relay for medium and high voltage TL's and\ndistribution lines. Three zones of protection are incorporated each having\nseparate measuring elements for each type of phase and ground fault. For short line application involving strong sources power in feed\nquadrilateral ground fault Ch Z for all three 3 ones can be specified,\nensuring a adequate tolerance to arcing and tower forting resistance"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng\nMohamed Helmy El_Qady \nfrom west delta, tested at Nov. 2001 at\nEl Bostan 220kv substation, by eng. M. Helmy El_Qady\nand eng. Ahmed Maky."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence\n (rope) with caution marks surrounding the work area,"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch off dc power supply before inserting or with drawing any lard from\n the relay.",
+    "Make sure that ct secondary arints are shorted before isolating the relay\n arints for test current injection.",
+    "Before removing a module ensure that you are at the same electrostatic\n potential as the equip mint by taunting the case."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ZFB test set (consists of 4 units: supply unit, control unit, fault\n impedance unit, and CT unit,",
+    "Timer,",
+    "Test plug LZ & 1Y,",
+    "Multmeters,",
+    "Leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Step to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off laud relay test",
+    "Review technical reference material (manufactures manual )",
+    "Obtain a copy of relay setting from field maintenance file.",
+    "Checks that the bus and line disconnect switches are opened.",
+    "Inspect the CT secondary circuits, the VT: MCB and all cabling supplying the\n relay.",
+    "Check there is no AC current from CTS by using clip on ammeter.",
+    "Check that there is no AC voltage from VTs by using a voltmeter.",
+    "Isolate the disturbance alarms and fault recorder, auto reclose associated\n with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the ZFB test set as shown in fig 1",
+    "Connect test plug, 1Z, 1Y as shown in fig 2",
+    "Ensure that the CT secondary is correctly short-circuited on the case side\n test plug IY, their connections must be made before the test plug is\n inserted.",
+    "Connect the current terminals, voltage terminals on the test plug to the\n corresponding current, voltage terminals on the supply unit test set.",
+    "Set the main on off switch si on the supply unit to off position",
+    "Connect the source (380 VAC) to the ZFB test set."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase to Phase Measuring Elements"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Calculate the valve for phase-to phase impedance corresponding\n to zone-1 setting Zph-ph=2z",
+    "Commence with connections for A-B fault.",
+    "Select a valve of fault impedance close to Z ph-ph from the\n table, which should have:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Phase angle as measure possible to the relay chs angle.",
+    "Fault impedance just above the calculated valve.",
+    "Note the corresponding x (choke top) and R (res.-tap) from the table."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "On the fault impedance test set unit, connect the resistance and reactance\n taps, which correspond to the fault impedance.",
+    "Select the source impedance required by connecting the flexible link from\n the terminal marked common to the appropriate ohm top of the source\n impedance.",
+    "If it is required to test the relay under max voltage conditions, the\n source impedance should be short-circuited by linking the common to the o\n terminal.",
+    "Divided the fault impedance selected by the calculated valve % potential =\n fault impedance selected/calculated valve",
+    "Set the % potential switches s5 and s6\n on the control unite to 100%",
+    "Set the current reverse switch s3 on the control\n unit to the normal position",
+    "Connect the outgoing voltage lead from the supply unit to the terminal\n Ph/F",
+    "Switch on switch s1 on the supply unit.",
+    "Start the test by pressing the FAULT push-bottom on the control unit\n momentarily.",
+    "Observe that the red indications A, B on the relay will light up.",
+    "Change the valve % potential top up or down until the relay operates in\n second step (the indication z2\n on the relay will light up with A, B)",
+    "Record this pickup point on test sheet.",
+    "Repeat the above test for phases B-C and C-A",
+    "Repeat the above test from 1 to 16, but now, calculate potential\n corresponding to the relay setting of the second 3 one for Ph-Ph fault set\n this valve on the test set and then change it up or down until the relay\n operates third step then red indication z3 on the relay will light up with z2,\n A and B./and repeat this test for B-C and C-A phases.",
+    "Record this pick up point on test sheet",
+    "Switch off switch s1 on the supply unit."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Phase to Ground Measuring Elements"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calculate from line impedance Z, the checking valve for phase to\n ground impedance corresponding to Zone-1setting."
+  },
+  {
+   "type": "paragraph",
+   "text": "Zph-ground = (1+kn) = 1.7 Zr."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Calculate from line impedance Z, the checking valve for phase to\n ground impedance corresponding to Zone-1setting.",
+    "Calculate % potential-which will set on switches s5 and s6 on control unit\n test set-by the same method as from step 7-1-4 to 7-1-7 but for ph-n",
+    "Select ph-cr fault A-N by using the relay selector switch on supply unit\n test set.",
+    "Connect the outgoing voltage from the supply unit to the terminal marked\n E/F",
+    "Switch on the switch s1.",
+    "Start the test by pressing the FAULT push-bottom on the control unit\n momentarily.",
+    "Observe that the red indication A on the relay will light up.",
+    "Change the valve % potential top up on down until the relay operates in\n seconds step. (red indication z2 will light up with led A)",
+    "Record this pick up points on test sheet.",
+    "Repeat the above test for phases B-N and C-N",
+    "Repeat the above test from 1 to 9 but calculate % potential corresponding\n to the relay setting of the second 3one for Ph-N fault, set this valve on\n the test set and them change it up on down till the relay operates in third\n step.",
+    "Record this valves in the test sheet",
+    "Switch off switch s1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Directional Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the source impedance to 6r and the fault impedance to zero.",
+    "Set the % potential switches s5 and s6 to zero.",
+    "Select a fault cond n using the fault selector switch.",
+    "Switch on the switch s1.",
+    "Start the test by pressing the FAULT push-bottom on the control unit\n and hold down checking that the faulty phase operates in 3one 1, 2, 3 release\n the FAULT push-bottom.",
+    "Repeat steps 5 and 6 for all phases of the prat\n n",
+    "Set the current revaluing switch 53 on the control unit to the reverse\n position.",
+    "Repeat steps 5, 6 and 7. Keep the fault push-bottom depressed for a little\n longer than 3 one line operation should not occur in 3 one 1 and 2, but con\n occur in 3one 3 only if the relay has reverse reach.",
+    "Switch off the switch s1 and return s3\n to normal position."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Operating Times"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set % potential switches s5 and s6 to 50% of the zone 1 reach.",
+    "Select phase to phase fault (A-B) for example by using relay selector\n switch on supply unit test set.",
+    "Connect the outgoing voltage from the supply unit to the terminal ph/F.",
+    "Connect a timer having the start contact operated by the start timer\n contact on the ZFB control unit.",
+    "Connect test leads bet contact N (7,8) on the left-hand side of the 1z\n test plug.",
+    "Reset the interval timer.",
+    "Switch on the switch s1.",
+    "Start the test by pressing the FAULT the timer will step once the\n relay has picked up.",
+    "Record zone one tripping time on test sheet.",
+    "Typical times expected are: Shaped m-ho-ch ---- 25-30 ms Quadrilateral ch\n ----20-35 ms",
+    "Repeat the above test from step1to9to measure zone two tipping time set % potentially mid way bet zone1and zone 2",
+    "Repeat the above test from 1 to 9 to measure some three tripping time, but\n this time set % potential s5 and s6\n to a valve approximately midway bet zone 2 and zone3.",
+    "Repeat tests for ph-to-cr operating times.",
+    "Repeat the above test from step 1 to 9-1 to measure times of three zones\n but for ph-cr.",
+    "Switch off the switch s1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Synchronous Polarizing Check"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect test plug 1z",
+    "Set the source impedance to z4 cr.",
+    "Select the fault impedance to zone.",
+    "Connect a time interval meter, selected to the dwell made.",
+    "Having the start circuit connected to trip contact on prat.",
+    "Switch on the switch s1.",
+    "Select C-N fault with fault selector switch after removing the A and B\n voltage i/p and connecting test plug 1z terminals 1, 2 and 3 together.",
+    "Operate the FAULT push bottom, note the time on the interval mater",
+    "The time measured should be 180-220ms on 50H3.",
+    "Switch off the switch s1."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch on to Fault SOTF"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch on to Fault (SOTF) With Level Detector"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the ZFB as shown in fig1",
+    "Connect test plug 1z x 1y as shown in fig 2.",
+    "Put sw1 to the right.",
+    "Set the source impedance to 12 on 24 cr.",
+    "Set % potential s5 and s6 to 100%.",
+    "Select on a-n condition on ZFB.",
+    "Connect voltammeter o ---1s ov a.c to the voltmeter terminals on the ZFB\n control unit.",
+    "Ensure that ZFB is switched off.",
+    "Hold down the FAULT push bottom and then switch on the ZFB.",
+    "If no SOTF operation occurs, switch off\n s1, reduce the\n voltage in 1 % steps and repeat step 9 till operation occurs.",
+    "Record the voltage.",
+    "Switch off the ZFB.",
+    "Voltage for operation is 44-45v ≠10%.",
+    "Repeat steps 11-1-9 to 11-1-11 for other ph-N fault conditions."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch on to Fault (Using Zone Comparators)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the ZFB as shown in fig 2",
+    "Connect test plug IZ & 1Y as shown in fig 2a, 2b",
+    "Put switch sw1 to the left.",
+    "Set source impedance to 12 or 24 ohm",
+    "Set % potential s5 and s6 to 100%",
+    "Select an A-N condition on ZFB.",
+    "Connect a voltmeter 0150 Va.c to voltmeter terminals on the ZFB control\n unit",
+    "Ensure that ZFB is snitched off",
+    "Now, a trip is caused by the operation of any 3one 1, 2 or zone 3\n comparator, It should be noted that no phase indication is given, only the\n SOTF led will illuminate.",
+    "Hold down the FAULT push bottom and the switch on the ZFB.",
+    "Soft operation should occur and SOTF LED illuminate.",
+    "Switch off the ZFB",
+    "Repeat for other Ph-N fault conditions"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Low Set Current Level Detector"
+  },
+  {
+   "type": "paragraph",
+   "text": "Determine the pickup as indicated below the drop-off should be within 10 %\n of the actual pickup."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Keep test option 43 selected.",
+    "Inject current into each pair of phase terminals on the left hand side of\n the 1Y test black.",
+    "Determine the pickup as indicated below the drop-off should be within 10 %\n of the actual pickup."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "High Set Current Level\n Detector"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select test option 53.",
+    "Inject current as the previous test.",
+    "Determine the pick up,drop off-(10 % of the actual p.N)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Auto Ranging Low-Set and High Set"
+  },
+  {
+   "type": "paragraph",
+   "text": "Residual Current Level Detectors"
+  },
+  {
+   "type": "paragraph",
+   "text": "Low set"
+  },
+  {
+   "type": "paragraph",
+   "text": "Also used in the voltage transformer supervision feature to detect the\n presence of Zero sequence current"
+  },
+  {
+   "type": "paragraph",
+   "text": "Min operate level ="
+  },
+  {
+   "type": "list",
+   "items": [
+    "This is used to enable ground\n fault\n trips presenting operation for heavy close-up phase to phase faults",
+    "Also used in the voltage transformer supervision feature to detect the\n presence of Zero sequence current",
+    "Select option 43.",
+    "Inject current into each phase in turn.as\n in 12",
+    "Min operate level as indicated by the led marked-vn Fail, drop off should\n be within 10 % of the actual pick up."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "High Set"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that VN Fail\n operate"
+  },
+  {
+   "type": "paragraph",
+   "text": "Min operate level ="
+  },
+  {
+   "type": "list",
+   "items": [
+    "It is used to black phase fault comparators, which may.",
+    "Cause 3-ph trip during heavy close up\n single phase-ground faults, also it acts with voltage level detectors to\n permits phase-faults comparators to opercite for two phase-ground faults.",
+    "Select test option 53",
+    "Inject current as for the low set",
+    "Check that VN Fail\n operate"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage Transformer Supervision"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Operation occurs when zero sequence voltage above a set level is\n detected without any zero sequence current being detected above a set level.",
+    "If set for indication only instantaneous indication will be given if\n operation conditions are satisfied and\n a comparator is operated otherwise time delayed indication will be given.",
+    "If set for blacking this can take place instantaneously If a comparator operates."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation on Zero Sequence Voltage"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Apply balanced 3-phase-Network volts.",
+    "Reduce the voltage on one phase until VNFAIL indication is abstained.",
+    "Before doing this test the current o/p to the relay for the selected ph\n tv-N fault should be.",
+    "Shorted (on ZFB test set) to enable volts to be pad to the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The Zero Sequence Voltage Setting Is (28.6\n + 2%) V Timing\n Check"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Before start apply the step 3",
+    "Using a double pole switch to rename one healthy voltage and start a timer\n which stopped by the alarm contacts (c17- 18)",
+    "The time obtained is (5.5 +\n 0.1) sec"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Current Checks"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Do same steps as from 1 to 4 .",
+    "Now, inject a current above this low- seneutral level into one phase,\n while one phase-neutral voltage is below 30 v and cheek that the Vn fail\n indication cam be reset.",
+    "It is recommended that the variac and resistor used for supplying the\n current when a ZFB is used to supply the volts.",
+    "Check that when VN FAIL \" is\n indicated that moving sw3 to the right causes the relay railabel LED to go\n on."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Instantaneous Indication or Blocking Check"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the relay as if A phase-to-N fault were to be applied.",
+    "Instead of returning the current through the Neutral take it in the\n reverse direction through B-Phase (the current path is into 1Y1 out of 1Y2\n Link to 1Y4 out of 1Y3, all being the relay side terminals of the lower test\n black .",
+    "The result of this fault\n application will not produce any residual current.",
+    "Choose the source and fault impedance such that when the fault is applied\n the A-N volts will fall below 25V causing zero sequence voltage level\n detector to pickup."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "To ensure of getting a Zone 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Set sw3 in the required position and return k11 to the correct setting."
+  },
+  {
+   "type": "paragraph",
+   "text": "N.B When as is selected the comparator self-check may cause\n the relay available LED to go off."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Comparator operating (A-B) set k11 to oo.",
+    "Ensure that SW3 should still to the left.",
+    "Apply the fault and instantaneous indication will be obtained for An (A-B)\n fault, and Vn FAIL.",
+    "Set sw3 to the right and Apply the fault until time delayed Vn FAIL\n indication only is obtained (5.5 sec).",
+    "Set sw3 in the required position and return k11 to the correct setting."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Miniature CB Black Check"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Energize the ap to coupler connected to case terminal A, and A2,\n then me should have (1) the rts indication operates and latches (2) the 97ХX-1\n contact on case terminal e(17) c18 closes the relay available green led\n extinguishes.",
+    "The relay in operation alarm 97Y-1 on case terminals c21 and c22 opens.",
+    "With the up to coupler still energized apply a zone 1 ground fault, a zone\n 2 phase fault and a\n zone 3 reverse (if offset) earth fault. No operation should occur.",
+    "De- energise the MCB up to-coupler, and normal\n operation will occur but note the vts\n light requires resetting."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Swing Blacking Checks"
+  },
+  {
+   "type": "paragraph",
+   "text": "The feature works from comparator on A-B and utilizes a zone 6 in\n conjunction with zone 3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 6 is Automatically set with the 3 one 3 Swatches to\n give:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z6 (F)= zone (F) +0.3 x zone 3 (f)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z6 (R)= zone (R) +0.3 ozone 3 (f)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "If this feature is to be used it can now\n be enabled by moving switch sw9 to the right.",
+    "The feature works from comparator on A-B and utilizes a zone 6 in\n conjunction with zone 3",
+    "Power swing is detected by an impedance being seem bet Z3\n & Z6 for a time exceeding 50 ms and then being seen inside Zone\n 3."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check Zone 6 Boundaries"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Plug the 25 way monitor paint box into sacket on module\n 6. (see Fig 3).",
+    "Connect a high impedance Dc voltmeter from monitor paint 2 (-) to 7 (+)\n (when an impedoce is seen inside zone 6 the voltage will drop from 24v to\n zero)",
+    "The boundary may be determined either\n by momentarily applying the fault\n or by gradually decreasing the impedance until the Voltmeter reading fails.\n (For the reverse reach an additional tolerance of I 15 % is allowed)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "50 ms\nTimer Check"
+  },
+  {
+   "type": "paragraph",
+   "text": "The voltage out of the monitor point box has been chosen so\n that the GEC Measurements digital timer will treat it as a contact, the\n voltage present being treated as on open contact."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Apply a fault approximately mid-way bet- 3one 3 and zone6.",
+    "Start the timer when it is applied fault bet\n Z3QZ6 and stop it when the voltage on the monitor point box terminals\n 2-7 falls (on the GECM timer terminal must be connected to the common on the\n timer and the timer set for norm ally open to start the stop) .",
+    "Take fine timings and find the average and subtract x ms which should\n gives 50 ms (10ms) where xz 25 ms for quad /mho version zx 30 ms for mho ventricular\n version."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Withdraw the test plug handle from the relay.",
+    "If any equipment associated with the relay has been isolated without the\n test plug it should be returned to service."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Line to Be Returned to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents and voltages supplied\n to the relay and compare them to those for normal load condition.",
+    "Chick that readings agree with station meters (MW / MVAC / PF / Amperes /\n Voltages)",
+    "Place a copy of the test measurement in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Drop offPick up"
+  },
+  {
+   "type": "paragraph",
+   "text": "A phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "B phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "1Z 1-4"
+  },
+  {
+   "type": "paragraph",
+   "text": "1Z 2-4"
+  },
+  {
+   "type": "paragraph",
+   "text": "A"
+  },
+  {
+   "type": "paragraph",
+   "text": "B"
+  },
+  {
+   "type": "paragraph",
+   "text": "If actual measurements are not taken just put ticks to show\nthat pick up has occurred at 49 volts and not at 40 vols."
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase Current Level Detector Checks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Low sets (Test Option 43)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick-up - (5/100) ( 4.8/k1+k2) In Amps ( \n10%)"
+  },
+  {
+   "type": "paragraph",
+   "text": "k1 + k2 = . . . . . In = . . . . . . amp Nominal pick-up = . . .\n. . ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Drop off %"
+  },
+  {
+   "type": "paragraph",
+   "text": "A Phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "B Phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "1Y 1-2"
+  },
+  {
+   "type": "paragraph",
+   "text": "1Y 3-4"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z3"
+  },
+  {
+   "type": "paragraph",
+   "text": "AIDED TRIP"
+  },
+  {
+   "type": "paragraph",
+   "text": "High Sets (Test Option 53)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick up = (12.1/100) (4.8/k1+k2) In amps (10 %) = . . . . . \n. .Amps"
+  },
+  {
+   "type": "paragraph",
+   "text": "Level Detector"
+  },
+  {
+   "type": "paragraph",
+   "text": "A Phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "B Phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "1Y 1-2"
+  },
+  {
+   "type": "paragraph",
+   "text": "1Y 3-4"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z3"
+  },
+  {
+   "type": "paragraph",
+   "text": "AIDED TRIP"
+  },
+  {
+   "type": "paragraph",
+   "text": "Residual Current Level Detector Chector Checks"
+  },
+  {
+   "type": "paragraph",
+   "text": "(a) LOW Set (Test Option 43 LED Indication V~FAIL)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Minimum operate level = (2/100) (4.8/k1+k2) In\namps ( 20 %)\n=. . . . . . amp"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured value injecting into A phase (1Y 1-2) = . . . . . . .\nmA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured value injecting into B phase (1Y 3-4) = . . . . . . .\nmA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured value injecting into C phase (1Y 5-6) = . . . . . . .\nmA"
+  },
+  {
+   "type": "paragraph",
+   "text": "(b) High Set (Test Option 53 LED indication V~ FAIL)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Minimum operate level = (16/100) (4.8/k1+k2) In amps ( 20\n%)\n=. . . . . . amps"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured value injecting into A phase (1y 1-2) = . . . . . .\n . mA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured value injecting into B phase (1y 3-4) = . . . . . .\n . mA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured value injecting into C phase (1y 5-6) = . . . . . .\n . Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "Directional Check and Reach Measurements"
+  },
+  {
+   "type": "paragraph",
+   "text": "The table provided on a page 54 should be filled in for the\nresults. Allowed tolerance 10%."
+  },
+  {
+   "type": "paragraph",
+   "text": "Directional checks with a close up fault."
+  },
+  {
+   "type": "paragraph",
+   "text": "Directional checks with a close up fault"
+  },
+  {
+   "type": "paragraph",
+   "text": "The table on page 55 is provided for contact operation checks."
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation Times"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Swing Blocking Feature (If Used)"
+  },
+  {
+   "type": "paragraph",
+   "text": "(a) Zone 6 Boundary (Inject A-B)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Forward 1oop \nimpedance required = 1.3 x forward zone 3 1oop impedance = ohms\nMeasured 1oop impedance = ohms"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reverse loop impedance required"
+  },
+  {
+   "type": "paragraph",
+   "text": "= Zone 3 reverse loop impedance + 0.3 x forward zone 3\n loop impedance = \n ohms"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured loop impedance = ohms"
+  },
+  {
+   "type": "paragraph",
+   "text": "An additional tolerance of 15% is allowed for the\n reverse reach."
+  },
+  {
+   "type": "paragraph",
+   "text": "(b) 50ms timer check"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured time = ms (tolerance 5 ms)"
+  },
+  {
+   "type": "paragraph",
+   "text": "(c) Blocking and contact check"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe relay type quadromho-has been designed to satisfy the\ndemand for a cost off entire distance relay for medium and high voltage TL's and\ndistribution lines. Three zones of protection are incorporated each having\nseparate measuring elements for each type of phase and ground fault. For short line application involving strong sources power in feed\nquadrilateral ground fault Ch Z for all three 3 ones can be specified,\nensuring a adequate tolerance to arcing and tower forting resistance\nThe first draft initiated by eng\nMohamed Helmy El_Qady \nfrom west delta, tested at Nov. 2001 at\nEl Bostan 220kv substation, by eng. M. Helmy El_Qady\nand eng. Ahmed Maky.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nSafety fence\n (rope) with caution marks surrounding the work area,\nSwitch off dc power supply before inserting or with drawing any lard from\n the relay.\nMake sure that ct secondary arints are shorted before isolating the relay\n arints for test current injection.\nBefore removing a module ensure that you are at the same electrostatic\n potential as the equip mint by taunting the case.\nTools and Equipment\nZFB test set (consists of 4 units: supply unit, control unit, fault\n impedance unit, and CT unit,\nTimer,\nTest plug LZ & 1Y,\nMultmeters,\nLeads.\nWork to be Carried Out\nStep to Prepare for Relay Testing\nThis procedure is used to perform off laud relay test\nReview technical reference material (manufactures manual )\nObtain a copy of relay setting from field maintenance file.\nChecks that the bus and line disconnect switches are opened.\nInspect the CT secondary circuits, the VT: MCB and all cabling supplying the\n relay.\nCheck there is no AC current from CTS by using clip on ammeter.\nCheck that there is no AC voltage from VTs by using a voltmeter.\nIsolate the disturbance alarms and fault recorder, auto reclose associated\n with the relay.\nPreparation\nConnect the ZFB test set as shown in fig 1\nConnect test plug, 1Z, 1Y as shown in fig 2\nEnsure that the CT secondary is correctly short-circuited on the case side\n test plug IY, their connections must be made before the test plug is\n inserted.\nConnect the current terminals, voltage terminals on the test plug to the\n corresponding current, voltage terminals on the supply unit test set.\nSet the main on off switch si on the supply unit to off position\nConnect the source (380 VAC) to the ZFB test set.\nTesting the relay\nPhase to Phase Measuring Elements\nCalculate the valve for phase-to phase impedance corresponding\n to zone-1 setting Zph-ph=2z\nCommence with connections for A-B fault.\nSelect a valve of fault impedance close to Z ph-ph from the\n table, which should have:\nPhase angle as measure possible to the relay chs angle.\nFault impedance just above the calculated valve.\nNote the corresponding x (choke top) and R (res.-tap) from the table.\nOn the fault impedance test set unit, connect the resistance and reactance\n taps, which correspond to the fault impedance.\nSelect the source impedance required by connecting the flexible link from\n the terminal marked common to the appropriate ohm top of the source\n impedance.\nIf it is required to test the relay under max voltage conditions, the\n source impedance should be short-circuited by linking the common to the o\n terminal.\nDivided the fault impedance selected by the calculated valve % potential =\n fault impedance selected/calculated valve\nSet the % potential switches s5 and s6\n on the control unite to 100%\nSet the current reverse switch s3 on the control\n unit to the normal position\nConnect the outgoing voltage lead from the supply unit to the terminal\n Ph/F\nSwitch on switch s1 on the supply unit.\nStart the test by pressing the FAULT push-bottom on the control unit\n momentarily.\nObserve that the red indications A, B on the relay will light up.\nChange the valve % potential top up or down until the relay operates in\n second step (the indication z2\n on the relay will light up with A, B)\nRecord this pickup point on test sheet.\nRepeat the above test for phases B-C and C-A\nRepeat the above test from 1 to 16, but now, calculate potential\n corresponding to the relay setting of the second 3 one for Ph-Ph fault set\n this valve on the test set and then change it up or down until the relay\n operates third step then red indication z3 on the relay will light up with z2,\n A and B./and repeat this test for B-C and C-A phases.\nRecord this pick up point on test sheet\nSwitch off switch s1 on the supply unit.\nTesting the Phase to Ground Measuring Elements\nCalculate from line impedance Z, the checking valve for phase to\n ground impedance corresponding to Zone-1setting.\nZph-ground = (1+kn) = 1.7 Zr.\nCalculate from line impedance Z, the checking valve for phase to\n ground impedance corresponding to Zone-1setting.\nCalculate % potential-which will set on switches s5 and s6 on control unit\n test set-by the same method as from step 7-1-4 to 7-1-7 but for ph-n\nSelect ph-cr fault A-N by using the relay selector switch on supply unit\n test set.\nConnect the outgoing voltage from the supply unit to the terminal marked\n E/F\nSwitch on the switch s1.\nStart the test by pressing the FAULT push-bottom on the control unit\n momentarily.\nObserve that the red indication A on the relay will light up.\nChange the valve % potential top up on down until the relay operates in\n seconds step. (red indication z2 will light up with led A)\nRecord this pick up points on test sheet.\nRepeat the above test for phases B-N and C-N\nRepeat the above test from 1 to 9 but calculate % potential corresponding\n to the relay setting of the second 3one for Ph-N fault, set this valve on\n the test set and them change it up on down till the relay operates in third\n step.\nRecord this valves in the test sheet\nSwitch off switch s1\nDirectional Test\nSet the source impedance to 6r and the fault impedance to zero.\nSet the % potential switches s5 and s6 to zero.\nSelect a fault cond n using the fault selector switch.\nSwitch on the switch s1.\nStart the test by pressing the FAULT push-bottom on the control unit\n and hold down checking that the faulty phase operates in 3one 1, 2, 3 release\n the FAULT push-bottom.\nRepeat steps 5 and 6 for all phases of the prat\n n\nSet the current revaluing switch 53 on the control unit to the reverse\n position.\nRepeat steps 5, 6 and 7. Keep the fault push-bottom depressed for a little\n longer than 3 one line operation should not occur in 3 one 1 and 2, but con\n occur in 3one 3 only if the relay has reverse reach.\nSwitch off the switch s1 and return s3\n to normal position.\nMeasuring the Operating Times\nSet % potential switches s5 and s6 to 50% of the zone 1 reach.\nSelect phase to phase fault (A-B) for example by using relay selector\n switch on supply unit test set.\nConnect the outgoing voltage from the supply unit to the terminal ph/F.\nConnect a timer having the start contact operated by the start timer\n contact on the ZFB control unit.\nConnect test leads bet contact N (7,8) on the left-hand side of the 1z\n test plug.\nReset the interval timer.\nSwitch on the switch s1.\nStart the test by pressing the FAULT the timer will step once the\n relay has picked up.\nRecord zone one tripping time on test sheet.\nTypical times expected are: Shaped m-ho-ch ---- 25-30 ms Quadrilateral ch\n ----20-35 ms\nRepeat the above test from step1to9to measure zone two tipping time set % potentially mid way bet zone1and zone 2\nRepeat the above test from 1 to 9 to measure some three tripping time, but\n this time set % potential s5 and s6\n to a valve approximately midway bet zone 2 and zone3.\nRepeat tests for ph-to-cr operating times.\nRepeat the above test from step 1 to 9-1 to measure times of three zones\n but for ph-cr.\nSwitch off the switch s1\nSynchronous Polarizing Check\nConnect test plug 1z\nSet the source impedance to z4 cr.\nSelect the fault impedance to zone.\nConnect a time interval meter, selected to the dwell made.\nHaving the start circuit connected to trip contact on prat.\nSwitch on the switch s1.\nSelect C-N fault with fault selector switch after removing the A and B\n voltage i/p and connecting test plug 1z terminals 1, 2 and 3 together.\nOperate the FAULT push bottom, note the time on the interval mater\nThe time measured should be 180-220ms on 50H3.\nSwitch off the switch s1.\nSwitch on to Fault SOTF\nSwitch on to Fault (SOTF) With Level Detector\nConnect the ZFB as shown in fig1\nConnect test plug 1z x 1y as shown in fig 2.\nPut sw1 to the right.\nSet the source impedance to 12 on 24 cr.\nSet % potential s5 and s6 to 100%.\nSelect on a-n condition on ZFB.\nConnect voltammeter o ---1s ov a.c to the voltmeter terminals on the ZFB\n control unit.\nEnsure that ZFB is switched off.\nHold down the FAULT push bottom and then switch on the ZFB.\nIf no SOTF operation occurs, switch off\n s1, reduce the\n voltage in 1 % steps and repeat step 9 till operation occurs.\nRecord the voltage.\nSwitch off the ZFB.\nVoltage for operation is 44-45v ≠10%.\nRepeat steps 11-1-9 to 11-1-11 for other ph-N fault conditions.\nSwitch on to Fault (Using Zone Comparators)\nConnect the ZFB as shown in fig 2\nConnect test plug IZ & 1Y as shown in fig 2a, 2b\nPut switch sw1 to the left.\nSet source impedance to 12 or 24 ohm\nSet % potential s5 and s6 to 100%\nSelect an A-N condition on ZFB.\nConnect a voltmeter 0150 Va.c to voltmeter terminals on the ZFB control\n unit\nEnsure that ZFB is snitched off\nNow, a trip is caused by the operation of any 3one 1, 2 or zone 3\n comparator, It should be noted that no phase indication is given, only the\n SOTF led will illuminate.\nHold down the FAULT push bottom and the switch on the ZFB.\nSoft operation should occur and SOTF LED illuminate.\nSwitch off the ZFB\nRepeat for other Ph-N fault conditions\nLow Set Current Level Detector\nDetermine the pickup as indicated below the drop-off should be within 10 %\n of the actual pickup.\nKeep test option 43 selected.\nInject current into each pair of phase terminals on the left hand side of\n the 1Y test black.\nDetermine the pickup as indicated below the drop-off should be within 10 %\n of the actual pickup.\nHigh Set Current Level\n Detector\nSelect test option 53.\nInject current as the previous test.\nDetermine the pick up,drop off-(10 % of the actual p.N)\nAuto Ranging Low-Set and High Set\nResidual Current Level Detectors\nLow set\nAlso used in the voltage transformer supervision feature to detect the\n presence of Zero sequence current\nMin operate level =\nThis is used to enable ground\n fault\n trips presenting operation for heavy close-up phase to phase faults\nAlso used in the voltage transformer supervision feature to detect the\n presence of Zero sequence current\nSelect option 43.\nInject current into each phase in turn.as\n in 12\nMin operate level as indicated by the led marked-vn Fail, drop off should\n be within 10 % of the actual pick up.\nHigh Set\nCheck that VN Fail\n operate\nMin operate level =\nIt is used to black phase fault comparators, which may.\nCause 3-ph trip during heavy close up\n single phase-ground faults, also it acts with voltage level detectors to\n permits phase-faults comparators to opercite for two phase-ground faults.\nSelect test option 53\nInject current as for the low set\nCheck that VN Fail\n operate\nVoltage Transformer Supervision\nOperation occurs when zero sequence voltage above a set level is\n detected without any zero sequence current being detected above a set level.\nIf set for indication only instantaneous indication will be given if\n operation conditions are satisfied and\n a comparator is operated otherwise time delayed indication will be given.\nIf set for blacking this can take place instantaneously If a comparator operates.\nOperation on Zero Sequence Voltage\nApply balanced 3-phase-Network volts.\nReduce the voltage on one phase until VNFAIL indication is abstained.\nBefore doing this test the current o/p to the relay for the selected ph\n tv-N fault should be.\nShorted (on ZFB test set) to enable volts to be pad to the relay.\nThe Zero Sequence Voltage Setting Is (28.6\n + 2%) V Timing\n Check\nBefore start apply the step 3\nUsing a double pole switch to rename one healthy voltage and start a timer\n which stopped by the alarm contacts (c17- 18)\nThe time obtained is (5.5 +\n 0.1) sec\nCurrent Checks\nDo same steps as from 1 to 4 .\nNow, inject a current above this low- seneutral level into one phase,\n while one phase-neutral voltage is below 30 v and cheek that the Vn fail\n indication cam be reset.\nIt is recommended that the variac and resistor used for supplying the\n current when a ZFB is used to supply the volts.\nCheck that when VN FAIL \" is\n indicated that moving sw3 to the right causes the relay railabel LED to go\n on.\nInstantaneous Indication or Blocking Check\nConnect the relay as if A phase-to-N fault were to be applied.\nInstead of returning the current through the Neutral take it in the\n reverse direction through B-Phase (the current path is into 1Y1 out of 1Y2\n Link to 1Y4 out of 1Y3, all being the relay side terminals of the lower test\n black .\nThe result of this fault\n application will not produce any residual current.\nChoose the source and fault impedance such that when the fault is applied\n the A-N volts will fall below 25V causing zero sequence voltage level\n detector to pickup.\nTo ensure of getting a Zone 1\nSet sw3 in the required position and return k11 to the correct setting.\nN.B When as is selected the comparator self-check may cause\n the relay available LED to go off.\nComparator operating (A-B) set k11 to oo.\nEnsure that SW3 should still to the left.\nApply the fault and instantaneous indication will be obtained for An (A-B)\n fault, and Vn FAIL.\nSet sw3 to the right and Apply the fault until time delayed Vn FAIL\n indication only is obtained (5.5 sec).\nSet sw3 in the required position and return k11 to the correct setting.\nMiniature CB Black Check\nEnergize the ap to coupler connected to case terminal A, and A2,\n then me should have (1) the rts indication operates and latches (2) the 97ХX-1\n contact on case terminal e(17) c18 closes the relay available green led\n extinguishes.\nThe relay in operation alarm 97Y-1 on case terminals c21 and c22 opens.\nWith the up to coupler still energized apply a zone 1 ground fault, a zone\n 2 phase fault and a\n zone 3 reverse (if offset) earth fault. No operation should occur.\nDe- energise the MCB up to-coupler, and normal\n operation will occur but note the vts\n light requires resetting.\nPower Swing Blacking Checks\nThe feature works from comparator on A-B and utilizes a zone 6 in\n conjunction with zone 3\nZone 6 is Automatically set with the 3 one 3 Swatches to\n give:\nZ6 (F)= zone (F) +0.3 x zone 3 (f)\nZ6 (R)= zone (R) +0.3 ozone 3 (f)\nIf this feature is to be used it can now\n be enabled by moving switch sw9 to the right.\nThe feature works from comparator on A-B and utilizes a zone 6 in\n conjunction with zone 3\nPower swing is detected by an impedance being seem bet Z3\n & Z6 for a time exceeding 50 ms and then being seen inside Zone\n 3.\nCheck Zone 6 Boundaries\nPlug the 25 way monitor paint box into sacket on module\n 6. (see Fig 3).\nConnect a high impedance Dc voltmeter from monitor paint 2 (-) to 7 (+)\n (when an impedoce is seen inside zone 6 the voltage will drop from 24v to\n zero)\nThe boundary may be determined either\n by momentarily applying the fault\n or by gradually decreasing the impedance until the Voltmeter reading fails.\n (For the reverse reach an additional tolerance of I 15 % is allowed).\n50 ms\nTimer Check\nThe voltage out of the monitor point box has been chosen so\n that the GEC Measurements digital timer will treat it as a contact, the\n voltage present being treated as on open contact.\nApply a fault approximately mid-way bet- 3one 3 and zone6.\nStart the timer when it is applied fault bet\n Z3QZ6 and stop it when the voltage on the monitor point box terminals\n 2-7 falls (on the GECM timer terminal must be connected to the common on the\n timer and the timer set for norm ally open to start the stop) .\nTake fine timings and find the average and subtract x ms which should\n gives 50 ms (10ms) where xz 25 ms for quad /mho version zx 30 ms for mho ventricular\n version.\nReturn Relay to Service\nWithdraw the test plug handle from the relay.\nIf any equipment associated with the relay has been isolated without the\n test plug it should be returned to service.\nRequest Power Line to Be Returned to Service\nTake crossed readings of all AC currents and voltages supplied\n to the relay and compare them to those for normal load condition.\nChick that readings agree with station meters (MW / MVAC / PF / Amperes /\n Voltages)\nPlace a copy of the test measurement in the field maintenance file.\nDrop offPick up\nA phase\nB phase\n1Z 1-4\n1Z 2-4\nA\nB\nIf actual measurements are not taken just put ticks to show\nthat pick up has occurred at 49 volts and not at 40 vols.\nPhase Current Level Detector Checks\nLow sets (Test Option 43)\nPick-up - (5/100) ( 4.8/k1+k2) In Amps ( \n10%)\nk1 + k2 = . . . . . In = . . . . . . amp Nominal pick-up = . . .\n. . .\nDrop off %\nA Phase\nB Phase\n1Y 1-2\n1Y 3-4\nZ3\nAIDED TRIP\nHigh Sets (Test Option 53)\nPick up = (12.1/100) (4.8/k1+k2) In amps (10 %) = . . . . . \n. .Amps\nLevel Detector\nA Phase\nB Phase\n1Y 1-2\n1Y 3-4\nZ3\nAIDED TRIP\nResidual Current Level Detector Chector Checks\n(a) LOW Set (Test Option 43 LED Indication V~FAIL)\nMinimum operate level = (2/100) (4.8/k1+k2) In\namps ( 20 %)\n=. . . . . . amp\nMeasured value injecting into A phase (1Y 1-2) = . . . . . . .\nmA\nMeasured value injecting into B phase (1Y 3-4) = . . . . . . .\nmA\nMeasured value injecting into C phase (1Y 5-6) = . . . . . . .\nmA\n(b) High Set (Test Option 53 LED indication V~ FAIL)\nMinimum operate level = (16/100) (4.8/k1+k2) In amps ( 20\n%)\n=. . . . . . amps\nMeasured value injecting into A phase (1y 1-2) = . . . . . .\n . mA\nMeasured value injecting into B phase (1y 3-4) = . . . . . .\n . mA\nMeasured value injecting into C phase (1y 5-6) = . . . . . .\n . Ma\nDirectional Check and Reach Measurements\nThe table provided on a page 54 should be filled in for the\nresults. Allowed tolerance 10%.\nDirectional checks with a close up fault.\nDirectional checks with a close up fault\nThe table on page 55 is provided for contact operation checks.\nOperation Times\nPower Swing Blocking Feature (If Used)\n(a) Zone 6 Boundary (Inject A-B)\nForward 1oop \nimpedance required = 1.3 x forward zone 3 1oop impedance = ohms\nMeasured 1oop impedance = ohms\nReverse loop impedance required\n= Zone 3 reverse loop impedance + 0.3 x forward zone 3\n loop impedance = \n ohms\nMeasured loop impedance = ohms\nAn additional tolerance of 15% is allowed for the\n reverse reach.\n(b) 50ms timer check\nMeasured time = ms (tolerance 5 ms)\n(c) Blocking and contact check\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-008-eq1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-008-eq2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-008-eq3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-008-eq4.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-08-01.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-08-02.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-08-03.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-08-04.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-08-05.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-08-06.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-08-07.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-08-08.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-08-09.gif",
+   "alt": ""
+  }
+ ]
+}

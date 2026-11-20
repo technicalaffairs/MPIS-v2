@@ -1,0 +1,349 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-005-r0-htm",
+ "doc_number": "DSR-005-R0",
+ "title_en": "DsR-005-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-005-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Networks"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure, details the steps required to completely\n checking the proper operation and calibration of the LZ96 relay. It is\n recommended this procedure be carried out on yearly bases. This work be\n carried out section of this document is divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing describes the\n activities required prior to testing. Some of these steps could be performed\n days before the actual test. The second section Preparation for testing\n describes the steps to set up the equipment for performing the actual tests.\n The third section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the possibility of error causing\n personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence\nwith caution marks surrounding the work area is required,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Line isolation must be done."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,",
+    "Safety fence\nwith caution marks surrounding the work area is required,",
+    "Line isolation must be done.",
+    "Make sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "TZ/2 test set (voltage unit & current unit).",
+    "Multi-meter,",
+    "Clip-on \n ammeter, Test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Major activates in \nTesting the\nRelay and Protection Out puts"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation at the Line"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the test equipment with the relay.",
+    "Prepare the test set.",
+    "Test the starting unit.",
+    "Test Zone reaches.",
+    "Measure the operating times.",
+    "Check the tripping and signaling circuits.",
+    "Verify the test results match the relay setting. If not,\n consult technical services."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation of the line"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain outage for line protected by this relay because this\n procedure should be used for performing off-loads not in service relay\n tests.",
+    "Look at the relay panel nameplate and check that the\n designation nameplate agrees with the line that has been taken out of\n service for maintenance.",
+    "Check that the CBs and isolator switches for that line\n are opened and tagged.",
+    "Using a clip-on ammeter, check there is no current.",
+    "Using voltmeter check there is no AC voltage supply the LZ96\n circuits. Wires going to the rear terminals number 5, 6, 7 and 8 should have\n no volt (Check the station drawing)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Connection of Test Equipment with\nthe LZ96 Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Isolate the breaker failure scheme associated with this relay.",
+    "Isolate the disturbance alarms or fault recorders associated with this\n relay.",
+    "Isolate the acceleration scheme terminals from this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation of the Test set Units"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Interconnect the power supply between the two test set\n units.",
+    "Connect three- phase 220/380 volt AC supply to the connector\n end to the current test unit, then check the phase rotation. (green light\n means rotation is RST)",
+    "Turn both of the large current and voltage adjustment knobs\n to their minimum position.",
+    "On the current test set unit, turn the test selector knob to\n (v+1) position.",
+    "On the voltage test box the timer test mode switch should be\n switched to (v+1) position.",
+    "Turn the tow phase adjustment knobs on the voltage box to\n select the desired phase angle of the current w.r.t the voltage according to\n the phase angle setting on 1w91 of LZ96 relay.",
+    "Select the position of the current direction knob on the\n current test current unit depending on the position of the switch +) on the\n unit 1w91 of LZ96 relay.",
+    "Energize the voltage unit and the current unit of the test\n set by pushing the white on pushbutton for each one."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Starting unit"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Preset both the voltage and current units for the type of\n fault.",
+    "Put the test start switch, located on the voltage unit to\n start position.",
+    "Inject a fixed fault current value more than the rated\n current (1.5 In or 2 In).",
+    "Raise the fault voltage to normal level and then reduce the\n voltage until the relay operates with the maximum time step.",
+    "Record the test current value, the fault voltage and the\n phase angle.",
+    "Calculate the operating point if the starting:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Z PH.PH = v KF/2I \n6.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z PH-earth = v Kf/ I(1+KD) \n6.2"
+  },
+  {
+   "type": "paragraph",
+   "text": "where V:\nFault voltage\nI : Fault current"
+  },
+  {
+   "type": "paragraph",
+   "text": "KU : Zero sequence impedance compensation factor set on\n1w91 of the LZ96 relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "KF : Correction factor for the\n difference between the phase angle of the test set and replica angle set on\n the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "The above-calculated value should match\nwith starting unit for forward direction (ZA)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Where : ZA = 50 ZM 100/NA ohm / ph"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZM = Replica impedance according to the ratings or LZ96\n(see the table)"
+  },
+  {
+   "type": "paragraph",
+   "text": "1"
+  },
+  {
+   "type": "paragraph",
+   "text": "2"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.05"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.2"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "For reveres direction repeat the above steps 4 to 8 after\n reversing the current direction starting units ZR this test is perform only\n for phase to earth fault."
+  },
+  {
+   "type": "paragraph",
+   "text": "Kb = off-set factor set on\n unit"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Zone Reaches"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calculate the operating point of this zone and this\n calculated value should match the zone setting ZI."
+  },
+  {
+   "type": "list",
+   "items": [
+    "The switch positions are identical to those given in step\n 3 and 4 for testing the starting unit in the forward direction.",
+    "To check the operating point for the LZ96 relay, the\n fault voltage should be raised to the normal level with a fixed current flow\n and then the voltage reduced until the desired Zone of the relay operates.",
+    "Record the test current value, the fault voltage value\n and phase angle",
+    "Where : ZI ZM MI 100/NI\n I = Zone index, I = 1, 2, 3\n NI = %value of zone (I) set on the unit EM92\n Zm = As in table 4.1\n MI = the factor of zone (I) set on the unit EM92\n M = 1,10.100",
+    "Change the phase angle and repeat steps 1to 4 above\n calculate other operating points.",
+    "Repeat steps 1 to 4 for the other zones noting the fault\n voltage values at which the timing unit just does not enable the measurement\n go the next zone, i.e the timing lamp of the next zone does not light up."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Operating Times"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To start the timer the selector switch on the current box\n should be selected to indicate volt box on the voltage box the timer\n start switch can be selected for F,v, which will start the timer once the\n fault voltage is applied to the relay.",
+    "To stop the timer connect a tripping contact from the\n LZ96 relay to the (C2) stop binding posts of the current test set if the\n tripping contact is dry contact. But if the contact has a voltage once the\n relay picks up should be connected to the test set via (20 Voltage input\n plug).",
+    "It is only necessary to measure the operating times for\n one type of fault.",
+    "For each measurement the injected impedance must be\n between two neighboring reach settings.",
+    "The reset switch on the current test set will need to be\n pushed to prepare for thnext timing sequence."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Tripping and\nSignaling Circuits"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Reconnect the alarm signaling circuit",
+    "Be sure that all isolator switches are opened and then,\n close the associated CBs Z",
+    "Inject the LZ96 (first zone reach) to indicate a tripping\n signals the. CBs at the same time checking the signaling circuit is\n performed."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch off the test set then, remove the test leads\n between the relay and the test set.",
+    "Connect the VT secondary circuits to the relay.",
+    "Connect the CT secondary circuits to the relay then open\n the shorting links.",
+    "The associated equipment with the relay should be returned\n to service by the following sequence: \n - Breaker failure scheme protection.\n - Disturbance alarms and fault recorders.\n - Acceleration scheme.\n - Auto-reclosure scheme.",
+    "Request Power Line be Returned to Service",
+    "Take crossed readings on all A.C currents and voltages\n supplied to the relay and compare them to those for normal load conditions.",
+    "Check that the readings agree with the line meters: (MW/MVAR/\n power factor/Amperes/voltage)",
+    "Place a copy of test results in the field maintenance\n file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TEST Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Station: \nFeeder: Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone\n Reaches"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fault\n Applied"
+  },
+  {
+   "type": "paragraph",
+   "text": "T1 \nT2 \nT3 \nT4"
+  },
+  {
+   "type": "paragraph",
+   "text": "Circuit Diagram"
+  },
+  {
+   "type": "paragraph",
+   "text": "Internal connection of tester voltage circuit"
+  },
+  {
+   "type": "paragraph",
+   "text": "Internal connection of tester current circuit"
+  }
+ ],
+ "text": "\nIssued to: \n Networks\nThis procedure, details the steps required to completely\n checking the proper operation and calibration of the LZ96 relay. It is\n recommended this procedure be carried out on yearly bases. This work be\n carried out section of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing describes the\n activities required prior to testing. Some of these steps could be performed\n days before the actual test. The second section Preparation for testing\n describes the steps to set up the equipment for performing the actual tests.\n The third section is the actual test.\nThe document is formatted the way to minimize the possibility of error causing\n personal injury or damage to equipment.\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence\nwith caution marks surrounding the work area is required,\nLine isolation must be done.\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence\nwith caution marks surrounding the work area is required,\nLine isolation must be done.\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nTools and Equipment\nTZ/2 test set (voltage unit & current unit).\nMulti-meter,\nClip-on \n ammeter, Test leads.\nWork to be Carried Out\nMajor activates in \nTesting the\nRelay and Protection Out puts\nPreparation at the Line\nConnect the test equipment with the relay.\nPrepare the test set.\nTest the starting unit.\nTest Zone reaches.\nMeasure the operating times.\nCheck the tripping and signaling circuits.\nVerify the test results match the relay setting. If not,\n consult technical services.\nPreparation of the line\nObtain outage for line protected by this relay because this\n procedure should be used for performing off-loads not in service relay\n tests.\nLook at the relay panel nameplate and check that the\n designation nameplate agrees with the line that has been taken out of\n service for maintenance.\nCheck that the CBs and isolator switches for that line\n are opened and tagged.\nUsing a clip-on ammeter, check there is no current.\nUsing voltmeter check there is no AC voltage supply the LZ96\n circuits. Wires going to the rear terminals number 5, 6, 7 and 8 should have\n no volt (Check the station drawing).\nConnection of Test Equipment with\nthe LZ96 Relay\nIsolate the breaker failure scheme associated with this relay.\nIsolate the disturbance alarms or fault recorders associated with this\n relay.\nIsolate the acceleration scheme terminals from this relay.\nPreparation of the Test set Units\nInterconnect the power supply between the two test set\n units.\nConnect three- phase 220/380 volt AC supply to the connector\n end to the current test unit, then check the phase rotation. (green light\n means rotation is RST)\nTurn both of the large current and voltage adjustment knobs\n to their minimum position.\nOn the current test set unit, turn the test selector knob to\n (v+1) position.\nOn the voltage test box the timer test mode switch should be\n switched to (v+1) position.\nTurn the tow phase adjustment knobs on the voltage box to\n select the desired phase angle of the current w.r.t the voltage according to\n the phase angle setting on 1w91 of LZ96 relay.\nSelect the position of the current direction knob on the\n current test current unit depending on the position of the switch +) on the\n unit 1w91 of LZ96 relay.\nEnergize the voltage unit and the current unit of the test\n set by pushing the white on pushbutton for each one.\nTesting the Starting unit\nPreset both the voltage and current units for the type of\n fault.\nPut the test start switch, located on the voltage unit to\n start position.\nInject a fixed fault current value more than the rated\n current (1.5 In or 2 In).\nRaise the fault voltage to normal level and then reduce the\n voltage until the relay operates with the maximum time step.\nRecord the test current value, the fault voltage and the\n phase angle.\nCalculate the operating point if the starting:\nZ PH.PH = v KF/2I \n6.1\nZ PH-earth = v Kf/ I(1+KD) \n6.2\nwhere V:\nFault voltage\nI : Fault current\nKU : Zero sequence impedance compensation factor set on\n1w91 of the LZ96 relay.\nKF : Correction factor for the\n difference between the phase angle of the test set and replica angle set on\n the relay.\nThe above-calculated value should match\nwith starting unit for forward direction (ZA)\nWhere : ZA = 50 ZM 100/NA ohm / ph\nZM = Replica impedance according to the ratings or LZ96\n(see the table)\n1\n2\n0.1\n0.05\n0.2\n0.1\nFor reveres direction repeat the above steps 4 to 8 after\n reversing the current direction starting units ZR this test is perform only\n for phase to earth fault.\nKb = off-set factor set on\n unit\nTesting Zone Reaches\nCalculate the operating point of this zone and this\n calculated value should match the zone setting ZI.\nThe switch positions are identical to those given in step\n 3 and 4 for testing the starting unit in the forward direction.\nTo check the operating point for the LZ96 relay, the\n fault voltage should be raised to the normal level with a fixed current flow\n and then the voltage reduced until the desired Zone of the relay operates.\nRecord the test current value, the fault voltage value\n and phase angle\nWhere : ZI ZM MI 100/NI\n I = Zone index, I = 1, 2, 3\n NI = %value of zone (I) set on the unit EM92\n Zm = As in table 4.1\n MI = the factor of zone (I) set on the unit EM92\n M = 1,10.100\nChange the phase angle and repeat steps 1to 4 above\n calculate other operating points.\nRepeat steps 1 to 4 for the other zones noting the fault\n voltage values at which the timing unit just does not enable the measurement\n go the next zone, i.e the timing lamp of the next zone does not light up.\nMeasuring the Operating Times\nTo start the timer the selector switch on the current box\n should be selected to indicate volt box on the voltage box the timer\n start switch can be selected for F,v, which will start the timer once the\n fault voltage is applied to the relay.\nTo stop the timer connect a tripping contact from the\n LZ96 relay to the (C2) stop binding posts of the current test set if the\n tripping contact is dry contact. But if the contact has a voltage once the\n relay picks up should be connected to the test set via (20 Voltage input\n plug).\nIt is only necessary to measure the operating times for\n one type of fault.\nFor each measurement the injected impedance must be\n between two neighboring reach settings.\nThe reset switch on the current test set will need to be\n pushed to prepare for thnext timing sequence.\nChecking the Tripping and\nSignaling Circuits\nReconnect the alarm signaling circuit\nBe sure that all isolator switches are opened and then,\n close the associated CBs Z\nInject the LZ96 (first zone reach) to indicate a tripping\n signals the. CBs at the same time checking the signaling circuit is\n performed.\nReturn Relay to Service\nSwitch off the test set then, remove the test leads\n between the relay and the test set.\nConnect the VT secondary circuits to the relay.\nConnect the CT secondary circuits to the relay then open\n the shorting links.\nThe associated equipment with the relay should be returned\n to service by the following sequence: \n - Breaker failure scheme protection.\n - Disturbance alarms and fault recorders.\n - Acceleration scheme.\n - Auto-reclosure scheme.\nRequest Power Line be Returned to Service\nTake crossed readings on all A.C currents and voltages\n supplied to the relay and compare them to those for normal load conditions.\nCheck that the readings agree with the line meters: (MW/MVAR/\n power factor/Amperes/voltage)\nPlace a copy of test results in the field maintenance\n file.\nTEST Sheet\nStation: \nFeeder: Date:\nZone\n Reaches\nFault\n Applied\nT1 \nT2 \nT3 \nT4\nCircuit Diagram\nInternal connection of tester voltage circuit\nInternal connection of tester current circuit",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-005-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-005-2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-005-3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-005-4.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-005-5.gif",
+   "alt": ""
+  }
+ ]
+}

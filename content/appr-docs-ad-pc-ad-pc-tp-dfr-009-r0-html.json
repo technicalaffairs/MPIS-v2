@@ -1,0 +1,414 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dfr-009-r0-html",
+ "doc_number": "DFR-009-R0",
+ "title_en": "DfR-009-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DfR-009-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "The MBCH is a high speed biased differential relay suitable\nfor protecting two or three winding transformers. It is extremely stable during\nthrough external faults and will not operate during inrush currents on\nenergizing. It is manufactured by GEC Alstrom."
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check\nthe proper operation and calibration of the MBCH relay. It is recommended this\nprocedure be carried out on a yearly bases. This work be carried out section of\nthis document is divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft \ninitialed by eng. \n Ashraf Kmal Baeomy and eng. Magdi Ahmed Salem, \n tested at 29 Dec.1997 at \n New Sharkia SS by eng. \n Ashraf Kmal Baeomy and eng. Mohamed Ahmed Salem, \n approved by general director of \n New Sharkia SS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence\nwith caution marks surrounding the work area is required,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure that \nthe line isolation must be done."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,",
+    "Safety fence\nwith caution marks surrounding the work area is required,",
+    "Wear your safety and healthy equipment \nas safety helmet, safety shoes, ..etc.",
+    "Ensure that \nthe line isolation must be done.",
+    "Ensure that \nthe Power transformer was isolated.",
+    "Make sure that CT secondary circuits are shorted before isolating the\n current circuit for test current injection.",
+    "Switch off DC power supply before inserting or withdrawing any card from the\n relay module."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set, Clip on Ammeter",
+    "2 Multi-meters, Voltmeter.",
+    "2 Variable resistors 0 → 100 W",
+    "Diode rated 7 Amps for magnetizing in rush test.",
+    "Test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain outage for transformer protected by this relay.",
+    "Check that the two bus disconnect switches are opened and togged.",
+    "Inspect the CT secondary circuits and all cabling supplying the relaying\n including matching CT.",
+    "Use the station drawings to isolate the following:\n - Breaker trip coils.\n - Breaker failure scheme associated with the relay.\n - Disturbance alarms and fault recorder associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps from page 2 to page 7.",
+    "Verify the test results match the relay setting, if not consult technical\n services.",
+    "Test trip the breaker associated with the relay.",
+    "This procedure is used to perform off load relay testing.",
+    "Look at the EEA panel nameplate and check that this EEA system designation\n agrees with the power transformer that has been taken out of service for\n maintenance.",
+    "Check there is no AC current from CTs by using a clip on ammeter.",
+    "Check there is no AC voltage from VTs by using a voltmeter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Current Setting Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the secondary injection test set to the relay as\n shown in figure 1."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1 Connections for checking relay settings"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press the reset button on the relay front panel and check that the led\n indicator resets and the alarm contacts open."
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: Before removing the AC operating (injection) current.\n Check there is no DC on the relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Slowly increase the current until the relay operates, as indicated by the\n light emitting diode (LED) on the front plate.",
+    "Record the operating (differential) current and check that this is within\n 10% of the expected current as stated in the maintenance file.",
+    "Check the relay trips contacts are closed (terminals 1, 3 and 2, 4) when\n the relay picks up and that these contacts open as the current is reduced.",
+    "Repeat the same for the alarm contact (terminals 9, 11).",
+    "Switch off the secondary injection test set",
+    "Press the reset button on the relay front panel and check that the led\n indicator resets and the alarm contacts open."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating Time Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current until the relay operates and switch off the test set.",
+    "Connect the timed contact of the relay to the \"stop timer\"\n terminals of the secondary injection test set as shown in figure 2."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2 Connections for checking relay operating time"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch on the current suddenly and note the operate time.",
+    "Record the relay operate time for 50 Hz. This should be within the range\n 24 milliseconds 5 msec.",
+    "To check the operation of the instantaneous (high set) element, inject 4.2\n * ln. Record the relay operate time. Note: For 50 Hz relay this should be\n less than 20 ms."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Bias Check"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the circuit as shown in figure 3. Ensure that both\n variable resistors are non-inductive.",
+    "With the relay set to Is = 0.2 * In (20% setting), adjust resister R1 and\n R2 as follows:\n - For 1 Amp relays, R1 = 40 Ohms and R2 = 100 Ohms\n - For 5 Amp relays, R1 = 8 Ohms and R2 = 20 Ohms",
+    "Switch on the supply and slowly increase the applied voltage until ammeter\n Al indicates 0.6 * In. Slowly increase the differential current by\n decreasing resistor R2 until the relay operates as indicated by the front\n plate LED.",
+    "Record the values of current from the ammeters Al and A2.",
+    "Calculate the mean bias using the formula: Mean Bias = Al + A2 /2 Amps",
+    "Use the bias curve figure 4 for MBCH12, 13, 16 to determine the\n theoretical differential current and check that the measured current A2 is\n within 20 % of this theoretical value."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "For relay 5A, the values of the \n calculated mean bias have to be divided by 5 before applying the bias curve \n and the theoretical differential current multiplied by 5 before comparing with \n the measured current A2.",
+    "For MBCH 13 only, repeat the above test with the third bias coil (terminal\n 21).",
+    "For MBCH 16 only, repeat the above test with the third to sixth bias coils\n (terminal 21, 19,17 and 15 respectively)"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Reconnect the 2nd bias coil as shown in fig (3) and adjust the current\n shown an ammeter Al to be 1.7 * In for MBCH 12,13,16. (Note that for a 5A\n relay this current may exceed the continuous, rating of the variable\n auto-transformers and should therefore be switched on for short durations\n only).",
+    "Increase the differential current until the relay operates.",
+    "Check that this value is within 20% of the theoretical value by\n calculating the mean bias as described above."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Bias Interconnection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that terminal no. (12) on all three phase relays are interconnected\n using shielded leads, the screen connection being made to the DC negative\n supply (terminal no. 14). A suitable lead should have been provided with each\n relay. Only two will be required for the inter-connection."
+  },
+  {
+   "type": "paragraph",
+   "text": "Magnetizing Inrush"
+  },
+  {
+   "type": "paragraph",
+   "text": "Open switch S2, close SI and check that the relay does not operate."
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: If it is preferred to test the relay with magnetizing\n inrush currents of the transformer, it is suggested that the transformer is\n energized 10 times at full rated voltage with no load and check that the relay\n does not malapert."
+  },
+  {
+   "type": "list",
+   "items": [
+    "The relay may be tested with a simulated wave form representing\n magnetizing inrush by connecting a diode in series with the relay to produce\n a half wave rectified wave form. As shown in fig (5), close switch SI and S2\n and set the current to 1*In (rated current). Check that the relay operates.",
+    "Open switch S2, close SI and check that the relay does not operate.",
+    "This completes the test procedure."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Circuit Breaker Tripping"
+  },
+  {
+   "type": "paragraph",
+   "text": "By \ninter-connecting terminal number 10 of all three phase relays, up to six \nself-resetting changeover contacts can be provided for 3-phase tripping of up to \nsix circuit breakers If this is required, check that terminals no. 10 are \nconnected together."
+  },
+  {
+   "type": "paragraph",
+   "text": "Also check \nthat the relay trip c (terminals 1, 3, and 2, 4) on all three phase relays close \nas the current is injected into a single phase relay (as shown in fig. 1) \nexceeds the relay setting."
+  },
+  {
+   "type": "paragraph",
+   "text": "On Load Tests"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The object of the on-load tests is to check that the relay is connected\n correctly to the system.",
+    "If the relay is protecting a transformer with no tap changer then the\n differential current should be less than 1 % of the load current. However,\n if the transformer has a tap changer and the CT's are not matched to\n transformer, then the normal differential current with the tap changer away\n from the nominal position, could be as much as 20% of the load current.\n Since the magnetizing current may exceed 5 % of the rated current for small\n transformers, it is recommended that the standard setting of the relay\n should be Is = 0.2*ln."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify the test results match the relay setting, if not consult technical\n services.",
+    "Trip the circuit breaker associated with the relay.",
+    "Return relay to service by removing the test leads from the relay\n terminals block and the test set. Make sure CT and VT secondary circuits are\n in normal condition.",
+    "Any equipment associated with the relay which has been isolated, must be\n returned to service by the following restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Transformer to be returned In Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents and voltages from both HV and LV\n sides and compare them to those for normal load condition.",
+    "Check that these reading agree with station meters (MW, MVAR, Amperes and\n Power factor)",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 3 Connections for checking the bias curve"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 4 : MBCH 12/13/16 BIAS CURVE"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 5 Connections to the relay to simulate magnetizing\ninrush current waveform"
+  },
+  {
+   "type": "paragraph",
+   "text": "Commissioning Data"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date:.."
+  },
+  {
+   "type": "paragraph",
+   "text": "Station:..\n Transformer:."
+  },
+  {
+   "type": "paragraph",
+   "text": "Biased Differential Transformer Serial\n No.:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Protection Relay Type: MBCH"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Model no.:.."
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Serial nos. Phase A ..Phase B\n ... Phase C .."
+  },
+  {
+   "type": "paragraph",
+   "text": "DC Voltage VX ..Relay Rated Current IN"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure dc auxiliary voltage Vx .V"
+  },
+  {
+   "type": "paragraph",
+   "text": "1. Relay setting is"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "RELAY",
+     "CURRENT\n 1 Setting",
+     "PHASE A\n Pick up",
+     "PHASE B\n Pick up",
+     "PHASE C\n Pick up"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "RELAY",
+     "OPERATING\n CURRENT",
+     "MEASURED OPERATING TIME (MS EC)"
+    ],
+    [
+     "PHASE A",
+     "PHASE B",
+     "PHASE C"
+    ],
+    [
+     "Bias coil",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nRelay Code:\nTested by: \nSignature: \nDate:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by: \nSignature: \nDate:"
+  }
+ ],
+ "text": "\nThe MBCH is a high speed biased differential relay suitable\nfor protecting two or three winding transformers. It is extremely stable during\nthrough external faults and will not operate during inrush currents on\nenergizing. It is manufactured by GEC Alstrom.\nThis procedure details the steps required to completely check\nthe proper operation and calibration of the MBCH relay. It is recommended this\nprocedure be carried out on a yearly bases. This work be carried out section of\nthis document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe first draft \ninitialed by eng. \n Ashraf Kmal Baeomy and eng. Magdi Ahmed Salem, \n tested at 29 Dec.1997 at \n New Sharkia SS by eng. \n Ashraf Kmal Baeomy and eng. Mohamed Ahmed Salem, \n approved by general director of \n New Sharkia SS\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence\nwith caution marks surrounding the work area is required,\nEnsure that \nthe line isolation must be done.\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence\nwith caution marks surrounding the work area is required,\nWear your safety and healthy equipment \nas safety helmet, safety shoes, ..etc.\nEnsure that \nthe line isolation must be done.\nEnsure that \nthe Power transformer was isolated.\nMake sure that CT secondary circuits are shorted before isolating the\n current circuit for test current injection.\nSwitch off DC power supply before inserting or withdrawing any card from the\n relay module.\nTools and Equipment\nSecondary injection test set, Clip on Ammeter\n2 Multi-meters, Voltmeter.\n2 Variable resistors 0 → 100 W\nDiode rated 7 Amps for magnetizing in rush test.\nTest leads.\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nObtain outage for transformer protected by this relay.\nCheck that the two bus disconnect switches are opened and togged.\nInspect the CT secondary circuits and all cabling supplying the relaying\n including matching CT.\nUse the station drawings to isolate the following:\n - Breaker trip coils.\n - Breaker failure scheme associated with the relay.\n - Disturbance alarms and fault recorder associated with the relay.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps from page 2 to page 7.\nVerify the test results match the relay setting, if not consult technical\n services.\nTest trip the breaker associated with the relay.\nThis procedure is used to perform off load relay testing.\nLook at the EEA panel nameplate and check that this EEA system designation\n agrees with the power transformer that has been taken out of service for\n maintenance.\nCheck there is no AC current from CTs by using a clip on ammeter.\nCheck there is no AC voltage from VTs by using a voltmeter.\nRelay Current Setting Test\nConnect the secondary injection test set to the relay as\n shown in figure 1.\nFigure 1 Connections for checking relay settings\nPress the reset button on the relay front panel and check that the led\n indicator resets and the alarm contacts open.\nNote: Before removing the AC operating (injection) current.\n Check there is no DC on the relay.\nSlowly increase the current until the relay operates, as indicated by the\n light emitting diode (LED) on the front plate.\nRecord the operating (differential) current and check that this is within\n 10% of the expected current as stated in the maintenance file.\nCheck the relay trips contacts are closed (terminals 1, 3 and 2, 4) when\n the relay picks up and that these contacts open as the current is reduced.\nRepeat the same for the alarm contact (terminals 9, 11).\nSwitch off the secondary injection test set\nPress the reset button on the relay front panel and check that the led\n indicator resets and the alarm contacts open.\nOperating Time Test\nInject current until the relay operates and switch off the test set.\nConnect the timed contact of the relay to the \"stop timer\"\n terminals of the secondary injection test set as shown in figure 2.\nFigure 2 Connections for checking relay operating time\nSwitch on the current suddenly and note the operate time.\nRecord the relay operate time for 50 Hz. This should be within the range\n 24 milliseconds 5 msec.\nTo check the operation of the instantaneous (high set) element, inject 4.2\n * ln. Record the relay operate time. Note: For 50 Hz relay this should be\n less than 20 ms.\nBias Check\nConnect the circuit as shown in figure 3. Ensure that both\n variable resistors are non-inductive.\nWith the relay set to Is = 0.2 * In (20% setting), adjust resister R1 and\n R2 as follows:\n - For 1 Amp relays, R1 = 40 Ohms and R2 = 100 Ohms\n - For 5 Amp relays, R1 = 8 Ohms and R2 = 20 Ohms\nSwitch on the supply and slowly increase the applied voltage until ammeter\n Al indicates 0.6 * In. Slowly increase the differential current by\n decreasing resistor R2 until the relay operates as indicated by the front\n plate LED.\nRecord the values of current from the ammeters Al and A2.\nCalculate the mean bias using the formula: Mean Bias = Al + A2 /2 Amps\nUse the bias curve figure 4 for MBCH12, 13, 16 to determine the\n theoretical differential current and check that the measured current A2 is\n within 20 % of this theoretical value.\nNote:\nFor relay 5A, the values of the \n calculated mean bias have to be divided by 5 before applying the bias curve \n and the theoretical differential current multiplied by 5 before comparing with \n the measured current A2.\nFor MBCH 13 only, repeat the above test with the third bias coil (terminal\n 21).\nFor MBCH 16 only, repeat the above test with the third to sixth bias coils\n (terminal 21, 19,17 and 15 respectively)\nReconnect the 2nd bias coil as shown in fig (3) and adjust the current\n shown an ammeter Al to be 1.7 * In for MBCH 12,13,16. (Note that for a 5A\n relay this current may exceed the continuous, rating of the variable\n auto-transformers and should therefore be switched on for short durations\n only).\nIncrease the differential current until the relay operates.\nCheck that this value is within 20% of the theoretical value by\n calculating the mean bias as described above.\nBias Interconnection\nCheck that terminal no. (12) on all three phase relays are interconnected\n using shielded leads, the screen connection being made to the DC negative\n supply (terminal no. 14). A suitable lead should have been provided with each\n relay. Only two will be required for the inter-connection.\nMagnetizing Inrush\nOpen switch S2, close SI and check that the relay does not operate.\nNote: If it is preferred to test the relay with magnetizing\n inrush currents of the transformer, it is suggested that the transformer is\n energized 10 times at full rated voltage with no load and check that the relay\n does not malapert.\nThe relay may be tested with a simulated wave form representing\n magnetizing inrush by connecting a diode in series with the relay to produce\n a half wave rectified wave form. As shown in fig (5), close switch SI and S2\n and set the current to 1*In (rated current). Check that the relay operates.\nOpen switch S2, close SI and check that the relay does not operate.\nThis completes the test procedure.\nCircuit Breaker Tripping\nBy \ninter-connecting terminal number 10 of all three phase relays, up to six \nself-resetting changeover contacts can be provided for 3-phase tripping of up to \nsix circuit breakers If this is required, check that terminals no. 10 are \nconnected together.\nAlso check \nthat the relay trip c (terminals 1, 3, and 2, 4) on all three phase relays close \nas the current is injected into a single phase relay (as shown in fig. 1) \nexceeds the relay setting.\nOn Load Tests\nThe object of the on-load tests is to check that the relay is connected\n correctly to the system.\nIf the relay is protecting a transformer with no tap changer then the\n differential current should be less than 1 % of the load current. However,\n if the transformer has a tap changer and the CT's are not matched to\n transformer, then the normal differential current with the tap changer away\n from the nominal position, could be as much as 20% of the load current.\n Since the magnetizing current may exceed 5 % of the rated current for small\n transformers, it is recommended that the standard setting of the relay\n should be Is = 0.2*ln.\nReturn Relay and Associated Equipment to Service\nVerify the test results match the relay setting, if not consult technical\n services.\nTrip the circuit breaker associated with the relay.\nReturn relay to service by removing the test leads from the relay\n terminals block and the test set. Make sure CT and VT secondary circuits are\n in normal condition.\nAny equipment associated with the relay which has been isolated, must be\n returned to service by the following restoration steps:\n - Breaker trip coils.\n - Breaker failure scheme associated this relay.\n - Disturbance alarm and fault recorder associated with this relay.\nRequest Power Transformer to be returned In Service\nTake crossed readings of all AC currents and voltages from both HV and LV\n sides and compare them to those for normal load condition.\nCheck that these reading agree with station meters (MW, MVAR, Amperes and\n Power factor)\nPlace a copy of the test result in the field maintenance file.\nFigure 3 Connections for checking the bias curve\nFigure 4 : MBCH 12/13/16 BIAS CURVE\nFigure 5 Connections to the relay to simulate magnetizing\ninrush current waveform\nCommissioning Data\nDate:..\nStation:..\n Transformer:.\nBiased Differential Transformer Serial\n No.:\nProtection Relay Type: MBCH\nRelay Model no.:..\nRelay Serial nos. Phase A ..Phase B\n ... Phase C ..\nDC Voltage VX ..Relay Rated Current IN\nMeasure dc auxiliary voltage Vx .V\n1. Relay setting is\n\n\nLocation: \nRelay Code:\nTested by: \nSignature: \nDate:\nApproved by: \nSignature: \nDate:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-009-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-009-2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-009-3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-009-4.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DfR-009-5.gif",
+   "alt": ""
+  }
+ ]
+}

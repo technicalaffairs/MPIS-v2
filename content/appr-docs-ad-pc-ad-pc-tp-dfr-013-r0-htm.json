@@ -1,0 +1,588 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dfr-013-r0-htm",
+ "doc_number": "DFR-013-R0",
+ "title_en": "dfr-013-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DFR-013-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protections",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The digital \ntransformer protection scheme RET 316*4 is one of the new generation of fully \ndigital protection systems. It's designed for fast selective protection of two \nand three winding power transformers."
+  },
+  {
+   "type": "paragraph",
+   "text": "The unit detects the following faults on power \ntransformers:\n - All phase faults.\n - Earth faults where the power transformer star-point \nis solidly or low-impedance grounded.\n - Inter - turn faults"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The\nfirst draft initiated by eng. Samah Mokhtar Mostafa, tested at 4 Dec. 2002 by eng. Yousef Melad Shahat, and approved by eng. Fawzy Moursy Mohamed: \nHead Sector of Aswan Network, Upper Egypt zone."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work area,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Line isolation and work permit required"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,",
+    "Safety fence with caution marks surrounding the work area,",
+    "Line isolation and work permit required",
+    "Make sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltmeter, Ammeter"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "XS92a test \n set",
+    "Voltmeter, Ammeter",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to Prepare for Relay \nTesting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review technical reference material and \nmanufacturer's manual"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain outage for line protected by this \nrelay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that the circuit breaker is opened and \ntagged"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying"
+  },
+  {
+   "type": "paragraph",
+   "text": "Use the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material and \nmanufacturer's manual",
+    "Obtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay",
+    "Obtain outage for line protected by this \nrelay",
+    "Check that the circuit breaker is opened and \ntagged",
+    "Inspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying",
+    "Use the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the \nrelay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow this test procedure",
+    "Verify the test results match the relay setting",
+    "Trip the circuit breaker associated with the relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure should be used for performing off load line",
+    "Look the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance",
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the Setting from the Relay by using \nthe PC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connecting the personal computer to the relay",
+    "Run the REL 316*4 program",
+    "Read the setting"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential Protection test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Be sure that the DC power of the relay is correct by applying a DC voltmeter \n across points H2 and H3 on the rear of the relay",
+    "Connect AC power to the test set",
+    "Connect the current by selecting the operation of current (I) on the test set",
+    "To test winding (1):",
+    "Connect the current test lead on the current terminals of the relay T1 and T2 \n (phase R to Neutral)",
+    "Increase the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights",
+    "Connect the current test lead on the current terminals of the relay T3 and T4 \n (phase S to Neutral)",
+    "Repeat step 6",
+    "Connect the current test lead on the current terminals of the relay T5 and T6 \n (phase T to Neutral)",
+    "Repeat step 6",
+    "To test winding (2):",
+    "Connect the current test lead on the current terminals of the relay T7 and T8 \n (phase R to Neutral)",
+    "Increase the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights",
+    "Connect the current test lead on the current terminals of the relay T9 and T10 \n (phase S to Neutral)",
+    "Repeat step6",
+    "Connect the current test lead on the current terminals of the relay T11 and \n T12 (phase T to Neutral)",
+    "Repeat step 6",
+    "To test winding (3)",
+    "Connect the current test lead on the current terminals of the relay T13 and \n T14 (phase R to Neutral)",
+    "Increase the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights",
+    "Connect the current test lead on the current terminals of the relay T15 and \n T16 (phase S to Neutral)",
+    "Repeat step 6",
+    "Connect the current test lead on the current terminals of the relay T17 and \n T18 (Phase T to Neutral",
+    "Repeat step 6"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test \nof external \ncircuits"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test the external circuits using the test function provided by the MMC as \nattached"
+  },
+  {
+   "type": "paragraph",
+   "text": "Return relay \nand \nassociated equipment to \nservice"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test leads from the relay terminals \n and the test set",
+    "Make sure CT and V T secondary circuits are in normal condition",
+    "Remove the disturbance alarm LED's on the relay which is caused by the test",
+    "Request feeder to be returned in service",
+    "Measures the currents and voltages in the secondaries of the main CT's and \n VT's and compare the results with the values displayed by the MMC",
+    "Take phasor readings of all A C currents and voltages and compare them to \n those for normal load condition",
+    "Check that these reading agree with station meters (MW, Mvar, Amperes and power \n factor)",
+    "Place a copy of the test result in the field maintenance file"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test functions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Parset switching"
+  },
+  {
+   "type": "paragraph",
+   "text": "To test a protection function belonging to another set of parameters, the \nrespective set of parameters has to be activated first. Menu item \"Parset \nswitching\" enables the parameter set to be selected and activated after entering \nthe valid password"
+  },
+  {
+   "type": "paragraph",
+   "text": "------------------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet\nfor Line Protection type REL 316*4"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Kind of check",
+     "Remarks"
+    ],
+    [
+     "Relay \n number",
+     "----------------------------------"
+    ],
+    [
+     "Visual \n check for transport damage",
+     "----------------------------------"
+    ],
+    [
+     "Visual \n check of external wiring",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n relay grounding",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n supply voltage (DC/AC)",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n setting",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n CT circuits",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n PT circuits",
+     "----------------------------------"
+    ],
+    [
+     "Secondary \n injection with test set type",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n input signals",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n signalization / alarms",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n starting breaker failure protection",
+     "---------------------------------"
+    ],
+    [
+     "Check of HF \n circuits",
+     "---------------------------------"
+    ],
+    [
+     "HF - \"End \n to End\" test",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n reclosing",
+     "----------------------------------"
+    ],
+    [
+     "Directional \n check",
+     "---------------------------------"
+    ],
+    [
+     "Stability \n check (longitudinal diff. function)",
+     "----------------------------------"
+    ],
+    [
+     "Final check",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Primary line data \nSettings"
+  },
+  {
+   "type": "paragraph",
+   "text": "Length \n------------ km According to separate print out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pos. seq. impedance ------------ Ω/ ph angle ----------- Software version of the relay ------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zero seq. impedance ------------ Ω/ ph \nangle -----------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Main CT/PT Ratio"
+  },
+  {
+   "type": "paragraph",
+   "text": "Analogue inputs 1-3 -------------/------------- Analogue inputs 4 -------------/-------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Analogue inputs 7-9 -------------/------------- Analogue inputs 5 -------------/-------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Analogue inputs 6 -------------/-------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Secondary \nInjection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured value (Ω/ph)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Impedance function",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Nom. value\n (VA)",
+     "Measured value \n [V*A=VA)]"
+    ],
+    [
+     "X(1)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Forward",
+     "",
+     ""
+    ],
+    [
+     "X(2)",
+     "",
+     "",
+     "--",
+     "--",
+     "",
+     "Backward",
+     "",
+     ""
+    ],
+    [
+     "X(3)",
+     "",
+     "",
+     "---",
+     "---",
+     "",
+     "Directional earth fault function \"Earth Flt Gnd2\""
+    ],
+    [
+     "X(4/OR)",
+     "",
+     "",
+     "---",
+     "---",
+     "",
+     "I-Setting (A)",
+     "V-Setting (V)"
+    ],
+    [
+     "XA",
+     "",
+     "",
+     "---",
+     "---",
+     "",
+     "Nom. val.",
+     "Meas. val.",
+     "Nom. value",
+     "Meas. val."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Longitudinal differential function \"Diff-Line\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring of the basic setting"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "R",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "SynchroCheck function \"SynchroCheck\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Parallel injection (1 phase) of \"uLinelnput\" \nand \"uBuslnput1\" or \"uBuslnput2\" respectively"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "\"uLinelnput\" parallel \n \"uBuslnput1\"",
+     "\"uLinelnput\" parallel \n \"uBuslnput1\""
+    ],
+    [
+     "Differential voltage",
+     "Differential angle",
+     "Differential voltage",
+     "Differential angle"
+    ],
+    [
+     "∆Unom.(UN)",
+     "∆Umeas.*(UN)",
+     "∆Ωnom..(deg)",
+     "∆Ωmeas.*(deg)",
+     "∆Unom.(UN)",
+     "∆Umeas*.(UN)",
+     "∆Ωnom.(deg)",
+     "∆Ωmeas.*(deg)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "To be read in the \nmenu \"Display Function Measurements\" \"Synchro Check\"\nSynchro check function \nmust be released"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To be read in the \nmenu \"Display Function Measurements\" \"Synchro Check\"\nSynchro check function \nmust be released"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "(Communication Port",
+     ""
+    ],
+    [
+     "with Substation Control",
+     ""
+    ],
+    [
+     "Earthing Screw\n On Casing",
+     ""
+    ],
+    [
+     "DFTCOUPLER\n INPUTS",
+     ""
+    ],
+    [
+     "DC Supply",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "Technical Procedure\n\nIntroduction\nThe digital \ntransformer protection scheme RET 316*4 is one of the new generation of fully \ndigital protection systems. It's designed for fast selective protection of two \nand three winding power transformers.\nThe unit detects the following faults on power \ntransformers:\n - All phase faults.\n - Earth faults where the power transformer star-point \nis solidly or low-impedance grounded.\n - Inter - turn faults\nThis procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe\nfirst draft initiated by eng. Samah Mokhtar Mostafa, tested at 4 Dec. 2002 by eng. Yousef Melad Shahat, and approved by eng. Fawzy Moursy Mohamed: \nHead Sector of Aswan Network, Upper Egypt zone.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nTools and Equipment\nVoltmeter, Ammeter\nTest leads\nXS92a test \n set\nVoltmeter, Ammeter\nTest leads\nWork to be Carried Out\nSteps to Prepare for Relay \nTesting\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nTesting the \nrelay\nCarefully follow this test procedure\nVerify the test results match the relay setting\nTrip the circuit breaker associated with the relay\nPreparation\nThis procedure should be used for performing off load line\nLook the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test\nReading the Setting from the Relay by using \nthe PC\nConnecting the personal computer to the relay\nRun the REL 316*4 program\nRead the setting\nDifferential Protection test\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points H2 and H3 on the rear of the relay\nConnect AC power to the test set\nConnect the current by selecting the operation of current (I) on the test set\nTo test winding (1):\nConnect the current test lead on the current terminals of the relay T1 and T2 \n (phase R to Neutral)\nIncrease the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights\nConnect the current test lead on the current terminals of the relay T3 and T4 \n (phase S to Neutral)\nRepeat step 6\nConnect the current test lead on the current terminals of the relay T5 and T6 \n (phase T to Neutral)\nRepeat step 6\nTo test winding (2):\nConnect the current test lead on the current terminals of the relay T7 and T8 \n (phase R to Neutral)\nIncrease the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights\nConnect the current test lead on the current terminals of the relay T9 and T10 \n (phase S to Neutral)\nRepeat step6\nConnect the current test lead on the current terminals of the relay T11 and \n T12 (phase T to Neutral)\nRepeat step 6\nTo test winding (3)\nConnect the current test lead on the current terminals of the relay T13 and \n T14 (phase R to Neutral)\nIncrease the value of current slowly until the relay operates and the LED of \n (diff. protection trip) lights\nConnect the current test lead on the current terminals of the relay T15 and \n T16 (phase S to Neutral)\nRepeat step 6\nConnect the current test lead on the current terminals of the relay T17 and \n T18 (Phase T to Neutral\nRepeat step 6\nTest \nof external \ncircuits\nTest the external circuits using the test function provided by the MMC as \nattached\nReturn relay \nand \nassociated equipment to \nservice\nReturn relay to service by removing the test leads from the relay terminals \n and the test set\nMake sure CT and V T secondary circuits are in normal condition\nRemove the disturbance alarm LED's on the relay which is caused by the test\nRequest feeder to be returned in service\nMeasures the currents and voltages in the secondaries of the main CT's and \n VT's and compare the results with the values displayed by the MMC\nTake phasor readings of all A C currents and voltages and compare them to \n those for normal load condition\nCheck that these reading agree with station meters (MW, Mvar, Amperes and power \n factor)\nPlace a copy of the test result in the field maintenance file\n------------------------------------------------\nTest functions\nParset switching\nTo test a protection function belonging to another set of parameters, the \nrespective set of parameters has to be activated first. Menu item \"Parset \nswitching\" enables the parameter set to be selected and activated after entering \nthe valid password\n------------------------------------------------------------------------------------------------------------------------\nTest Sheet\nfor Line Protection type REL 316*4\n\nPrimary line data \nSettings\nLength \n------------ km According to separate print out\nPos. seq. impedance ------------ Ω/ ph angle ----------- Software version of the relay ------\nZero seq. impedance ------------ Ω/ ph \nangle -----------\nMain CT/PT Ratio\nAnalogue inputs 1-3 -------------/------------- Analogue inputs 4 -------------/-------------\nAnalogue inputs 7-9 -------------/------------- Analogue inputs 5 -------------/-------------\nAnalogue inputs 6 -------------/-------------\nSecondary \nInjection\nMeasured value (Ω/ph)\n\nLongitudinal differential function \"Diff-Line\"\nMeasuring of the basic setting\n\nSynchroCheck function \"SynchroCheck\"\nParallel injection (1 phase) of \"uLinelnput\" \nand \"uBuslnput1\" or \"uBuslnput2\" respectively\n\nTo be read in the \nmenu \"Display Function Measurements\" \"Synchro Check\"\nSynchro check function \nmust be released\nTo be read in the \nmenu \"Display Function Measurements\" \"Synchro Check\"\nSynchro check function \nmust be released\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-013-r0-1.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-013-r0-2.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-013-r0-3.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-013-r0-4.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-013-r0-5.jpg",
+   "alt": ""
+  }
+ ]
+}

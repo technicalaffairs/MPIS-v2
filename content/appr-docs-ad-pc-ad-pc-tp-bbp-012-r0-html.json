@@ -1,0 +1,478 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-bbp-012-r0-html",
+ "doc_number": "BBP-012-R0",
+ "title_en": "BBP-012-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/BBP-012-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The 7SS10 is a solid state bus bar relay manufactured by Siemens. This Bus Bar protection has the following features. High degree of stability even under influences owing to CT saturation.\nShort tripping time in the event of an internal fault."
+  },
+  {
+   "type": "paragraph",
+   "text": "Correct behavior and proper response of relocation of faults. The measuring method which 7SS10 Bus Bar protection uses to detect a short circuit within the protection zone is Kirchoffs law.\nThis procedure details the steps required to completely check the proper operation and calibration of the 7SS10 relay. It is recommended this procedure be carried out on an annually bases. This work be carried out section of this document is divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing describes the activities required prior to testing. Some of these steps could be performed days before the actual test. The second section Preparation for testing describes the steps to set up the equipment for performing the actual tests. The third section is the actual test. The document is formatted the way to minimize the possibility of error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft \n initialed by eng. Hoda Mohamed Ahmed, tested at \n El \n Dekhela approved by eng. Afaaf El Badawy General \n Protection director. \n and certified by eng Gomaa El Mahdy \n general director of Alx network and MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,",
+    "Safety \n fence with caution marks surrounding the work area is required,",
+    "Personal protective equipment must be used as safety shoes, and safety \n Helmet.",
+    "Ensure that the Line isolation is done.",
+    "Make \n sure CT secondary circuits are shorted before isolating the relay's current \n circuit and injection the test current.",
+    "Outage arrangement for all the busbar and work permit required or transfer the feeders to another bus.",
+    "The Bus Bar protection \n type 7SS10 is normally tested with both buses A and B in service, so care must be taken to prevent sending trip signals to the circuit breaker trip coils.",
+    "There is a conflict between 1st safety step, and the fourth step"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set.",
+    "Clip-on ammeter.",
+    "Voltmeter, Multi-meter, Test leads.",
+    "Screwdriver."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review technical reference material: Manufacturers manual."
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain copy of relay setting from field maintenance file and compare it with the setting on the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspect the CT secondary circuits and all cabling supplying the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Use the \nstation drawing to isolate"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: Manufacturers manual.",
+    "Obtain copy of relay setting from field maintenance file and compare it with the setting on the relay.",
+    "Inspect the CT secondary circuits and all cabling supplying the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Breaker failure scheme associated with this relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disturbance alarms and fault recorder associated with this relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "paragraph",
+   "text": "Carefully follow these test procedure steps"
+  },
+  {
+   "type": "paragraph",
+   "text": "Verify the test results match the relay setting, if not consult technical services."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test trip all breakers associated with the relay one by one."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect one or more circuit breakers to the bus and initiate a trip from the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat to include all breakers."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat to include all breakers."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify the test results match the relay setting, if not consult technical services.",
+    "Test trip all breakers associated with the relay one by one.",
+    "Connect one or more circuit breakers to the bus and initiate a trip from the relay",
+    "Repeat to include all breakers."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedure (s) Preparations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain authorization form the control center."
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch off the D.C"
+  },
+  {
+   "type": "paragraph",
+   "text": "Withdraw out from the relay Type 7SS10 the fourth output tripping cards 7TJ11."
+  },
+  {
+   "type": "paragraph",
+   "text": "Isolate the relay 7SS10 from the current circuits by making short circuit between the input current terminals with the output current terminals for the relay on the terminal block for all feeders one by one."
+  },
+  {
+   "type": "paragraph",
+   "text": "After making the short circuit in step 4 open the slot between the input and output sides of the current terminal block to isolate the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch on the DC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the operating voltage on Bu1, Bu2 and the restraining voltage on Bu3, Bu4 on the fourth cards 7TD10. The reading must be zero volt."
+  },
+  {
+   "type": "paragraph",
+   "text": "After isolating the relay, install a short on the output terminals of the current circuit relay on terminal blocks for all feeders one by one."
+  },
+  {
+   "type": "paragraph",
+   "text": "After isolating the relay, install a short on the output terminals of the current circuit relay on terminal blocks for all feeders one by one."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain authorization form the control center.",
+    "Switch off the D.C",
+    "Withdraw out from the relay Type 7SS10 the fourth output tripping cards 7TJ11.",
+    "Isolate the relay 7SS10 from the current circuits by making short circuit between the input current terminals with the output current terminals for the relay on the terminal block for all feeders one by one.",
+    "After making the short circuit in step 4 open the slot between the input and output sides of the current terminal block to isolate the relay.",
+    "Switch on the DC",
+    "Measure the operating voltage on Bu1, Bu2 and the restraining voltage on Bu3, Bu4 on the fourth cards 7TD10. The reading must be zero volt.",
+    "After isolating the relay, install a short on the output terminals of the current circuit relay on terminal blocks for all feeders one by one."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking of the Supervision, Start and Trip Valves, Feeder 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: If the sectionalizing disconnect switch is open, \nthe feeders on Bus Section 1 will bring in the LEDs on the A1 module. However, \nif the sectionalizing disconnect switch is closed the feeders on both Section 1 \nand Section 2 will bring in the LEDs on the A2 module. Similarly for Bus 2."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject current on the input terminal for the relay on phase R and N before the matching CT"
+  },
+  {
+   "type": "paragraph",
+   "text": "Slowly increase the current until the supervision led (the bottom one from the three light emitted diodes on 7TS17 card) lights up."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record this value on the test sheet as supervision current value."
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase the current slowly until the start Led (the middle one) lights up."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record this value on the test sheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase the current slowly until the trip led (the top one) lights up."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record this value on the test sheet as a tripping value."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above step from step 1 to 7 but for other phases (S-N, T-N)."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current on the input terminal for the relay on phase R and N before the matching CT",
+    "Slowly increase the current until the supervision led (the bottom one from the three light emitted diodes on 7TS17 card) lights up.",
+    "Record this value on the test sheet as supervision current value.",
+    "Increase the current slowly until the start Led (the middle one) lights up.",
+    "Record this value on the test sheet.",
+    "Increase the current slowly until the trip led (the top one) lights up.",
+    "Record this value on the test sheet as a tripping value.",
+    "Repeat the above step from step 1 to 7 but for other phases (S-N, T-N).",
+    "Repeat the above step from step 1 to 7 but for phase to phase (RS, ST and TR)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Other Feeders"
+  },
+  {
+   "type": "paragraph",
+   "text": "For all other feeders repeat the above test from step 1 to 9."
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip Testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain permission from the Dispatching Center and perform a trip test on each feeder, one at a time."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect this feeder to the bus that you want to trip test."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect all other feeders to the other bus."
+  },
+  {
+   "type": "paragraph",
+   "text": "The bus coupler should be open to separate the two busses."
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch off the DC."
+  },
+  {
+   "type": "paragraph",
+   "text": "Insert the special output tripping card 7TJ11 for this feeder."
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch on the DC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject current to value equal to the tripping value or more until the circuit breaker trip."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that the circuit breaker trip."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above step from step 1 to 9 for all feeders."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above step from step 1 to 9 for all feeders."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain permission from the Dispatching Center and perform a trip test on each feeder, one at a time.",
+    "Connect this feeder to the bus that you want to trip test.",
+    "Connect all other feeders to the other bus.",
+    "The bus coupler should be open to separate the two busses.",
+    "Switch off the DC.",
+    "Insert the special output tripping card 7TJ11 for this feeder.",
+    "Switch on the DC",
+    "Inject current to value equal to the tripping value or more until the circuit breaker trip.",
+    "Check that the circuit breaker trip.",
+    "Repeat the above step from step 1 to 9 for all feeders."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Return relay to service by removing the test leads from the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect all \nthe current circuit to the relay and remove all the short circuit (step 13)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Insert all the tripping cards."
+  },
+  {
+   "type": "paragraph",
+   "text": "Use the \nstation drawing to return to service the following equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test leads from the relay.",
+    "Connect all \nthe current circuit to the relay and remove all the short circuit (step 13)",
+    "Insert all the tripping cards."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Breaker trip coils."
+  },
+  {
+   "type": "paragraph",
+   "text": "Breaker failure scheme associated with this relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disturbance alarms and fault recorder associated with this relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Line be Returned \nto Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Take crossed readings of all AC currents supplied to the relay and compare them to those for normal load conditions."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that readings agree with station meters: (MW/MVAR/Power factor/Amperes/voltages)."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents supplied to the relay and compare them to those for normal load conditions.",
+    "Check that readings agree with station meters: (MW/MVAR/Power factor/Amperes/voltages).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Station:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Busbar No.: \nCT Ratio:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay type: \n7SS10 \nVoltage:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation Current Amp. (state primary or secondary \ninjection)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "Zone ( \n )"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Busbar No.: \nCT Ratio:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay type: \n7SS10 \nVoltage:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation Current Amp. (state primary or secondary \ninjection)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "Zone ( \n )"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
+  }
+ ],
+ "text": "\nIntroduction\nThe 7SS10 is a solid state bus bar relay manufactured by Siemens. This Bus Bar protection has the following features. High degree of stability even under influences owing to CT saturation.\nShort tripping time in the event of an internal fault.\nCorrect behavior and proper response of relocation of faults. The measuring method which 7SS10 Bus Bar protection uses to detect a short circuit within the protection zone is Kirchoffs law.\nThis procedure details the steps required to completely check the proper operation and calibration of the 7SS10 relay. It is recommended this procedure be carried out on an annually bases. This work be carried out section of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing describes the activities required prior to testing. Some of these steps could be performed days before the actual test. The second section Preparation for testing describes the steps to set up the equipment for performing the actual tests. The third section is the actual test. The document is formatted the way to minimize the possibility of error causing personal injury or damage to equipment.\nThe first draft \n initialed by eng. Hoda Mohamed Ahmed, tested at \n El \n Dekhela approved by eng. Afaaf El Badawy General \n Protection director. \n and certified by eng Gomaa El Mahdy \n general director of Alx network and MPIS coordinator.\nSafety Precautions\nA work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,\nSafety \n fence with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nEnsure that the Line isolation is done.\nMake \n sure CT secondary circuits are shorted before isolating the relay's current \n circuit and injection the test current.\nOutage arrangement for all the busbar and work permit required or transfer the feeders to another bus.\nThe Bus Bar protection \n type 7SS10 is normally tested with both buses A and B in service, so care must be taken to prevent sending trip signals to the circuit breaker trip coils.\nThere is a conflict between 1st safety step, and the fourth step\nTools and Equipment\nSecondary injection test set.\nClip-on ammeter.\nVoltmeter, Multi-meter, Test leads.\nScrewdriver.\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nReview technical reference material: Manufacturers manual.\nObtain copy of relay setting from field maintenance file and compare it with the setting on the relay.\nInspect the CT secondary circuits and all cabling supplying the relay.\nUse the \nstation drawing to isolate\nReview technical reference material: Manufacturers manual.\nObtain copy of relay setting from field maintenance file and compare it with the setting on the relay.\nInspect the CT secondary circuits and all cabling supplying the relay.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test results match the relay setting, if not consult technical services.\nTest trip all breakers associated with the relay one by one.\nConnect one or more circuit breakers to the bus and initiate a trip from the relay\nRepeat to include all breakers.\nRepeat to include all breakers.\nVerify the test results match the relay setting, if not consult technical services.\nTest trip all breakers associated with the relay one by one.\nConnect one or more circuit breakers to the bus and initiate a trip from the relay\nRepeat to include all breakers.\nTesting Procedure (s) Preparations\nObtain authorization form the control center.\nSwitch off the D.C\nWithdraw out from the relay Type 7SS10 the fourth output tripping cards 7TJ11.\nIsolate the relay 7SS10 from the current circuits by making short circuit between the input current terminals with the output current terminals for the relay on the terminal block for all feeders one by one.\nAfter making the short circuit in step 4 open the slot between the input and output sides of the current terminal block to isolate the relay.\nSwitch on the DC\nMeasure the operating voltage on Bu1, Bu2 and the restraining voltage on Bu3, Bu4 on the fourth cards 7TD10. The reading must be zero volt.\nAfter isolating the relay, install a short on the output terminals of the current circuit relay on terminal blocks for all feeders one by one.\nAfter isolating the relay, install a short on the output terminals of the current circuit relay on terminal blocks for all feeders one by one.\nObtain authorization form the control center.\nSwitch off the D.C\nWithdraw out from the relay Type 7SS10 the fourth output tripping cards 7TJ11.\nIsolate the relay 7SS10 from the current circuits by making short circuit between the input current terminals with the output current terminals for the relay on the terminal block for all feeders one by one.\nAfter making the short circuit in step 4 open the slot between the input and output sides of the current terminal block to isolate the relay.\nSwitch on the DC\nMeasure the operating voltage on Bu1, Bu2 and the restraining voltage on Bu3, Bu4 on the fourth cards 7TD10. The reading must be zero volt.\nAfter isolating the relay, install a short on the output terminals of the current circuit relay on terminal blocks for all feeders one by one.\nChecking of the Supervision, Start and Trip Valves, Feeder 1\nNote: If the sectionalizing disconnect switch is open, \nthe feeders on Bus Section 1 will bring in the LEDs on the A1 module. However, \nif the sectionalizing disconnect switch is closed the feeders on both Section 1 \nand Section 2 will bring in the LEDs on the A2 module. Similarly for Bus 2.\nInject current on the input terminal for the relay on phase R and N before the matching CT\nSlowly increase the current until the supervision led (the bottom one from the three light emitted diodes on 7TS17 card) lights up.\nRecord this value on the test sheet as supervision current value.\nIncrease the current slowly until the start Led (the middle one) lights up.\nRecord this value on the test sheet.\nIncrease the current slowly until the trip led (the top one) lights up.\nRecord this value on the test sheet as a tripping value.\nRepeat the above step from step 1 to 7 but for other phases (S-N, T-N).\nInject current on the input terminal for the relay on phase R and N before the matching CT\nSlowly increase the current until the supervision led (the bottom one from the three light emitted diodes on 7TS17 card) lights up.\nRecord this value on the test sheet as supervision current value.\nIncrease the current slowly until the start Led (the middle one) lights up.\nRecord this value on the test sheet.\nIncrease the current slowly until the trip led (the top one) lights up.\nRecord this value on the test sheet as a tripping value.\nRepeat the above step from step 1 to 7 but for other phases (S-N, T-N).\nRepeat the above step from step 1 to 7 but for phase to phase (RS, ST and TR).\nTesting Other Feeders\nFor all other feeders repeat the above test from step 1 to 9.\nTrip Testing\nObtain permission from the Dispatching Center and perform a trip test on each feeder, one at a time.\nConnect this feeder to the bus that you want to trip test.\nConnect all other feeders to the other bus.\nThe bus coupler should be open to separate the two busses.\nSwitch off the DC.\nInsert the special output tripping card 7TJ11 for this feeder.\nSwitch on the DC\nInject current to value equal to the tripping value or more until the circuit breaker trip.\nCheck that the circuit breaker trip.\nRepeat the above step from step 1 to 9 for all feeders.\nRepeat the above step from step 1 to 9 for all feeders.\nObtain permission from the Dispatching Center and perform a trip test on each feeder, one at a time.\nConnect this feeder to the bus that you want to trip test.\nConnect all other feeders to the other bus.\nThe bus coupler should be open to separate the two busses.\nSwitch off the DC.\nInsert the special output tripping card 7TJ11 for this feeder.\nSwitch on the DC\nInject current to value equal to the tripping value or more until the circuit breaker trip.\nCheck that the circuit breaker trip.\nRepeat the above step from step 1 to 9 for all feeders.\nReturn Relay and Associated Equipment to Service\nReturn relay to service by removing the test leads from the relay.\nConnect all \nthe current circuit to the relay and remove all the short circuit (step 13)\nInsert all the tripping cards.\nUse the \nstation drawing to return to service the following equipment\nReturn relay to service by removing the test leads from the relay.\nConnect all \nthe current circuit to the relay and remove all the short circuit (step 13)\nInsert all the tripping cards.\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nRequest Power Line be Returned \nto Service\nTake crossed readings of all AC currents supplied to the relay and compare them to those for normal load conditions.\nCheck that readings agree with station meters: (MW/MVAR/Power factor/Amperes/voltages).\nTake crossed readings of all AC currents supplied to the relay and compare them to those for normal load conditions.\nCheck that readings agree with station meters: (MW/MVAR/Power factor/Amperes/voltages).\nPlace a copy of the test result in the field maintenance file.\nTest Sheet\nZone:\nStation:\nBusbar No.: \nCT Ratio:\nRelay type: \n7SS10 \nVoltage:\nOperation Current Amp. (state primary or secondary \ninjection)\n\nBusbar No.: \nCT Ratio:\nRelay type: \n7SS10 \nVoltage:\nOperation Current Amp. (state primary or secondary \ninjection)\n\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

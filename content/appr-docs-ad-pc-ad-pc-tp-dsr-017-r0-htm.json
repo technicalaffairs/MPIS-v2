@@ -1,0 +1,693 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-017-r0-htm",
+ "doc_number": "DSR-017-R0",
+ "title_en": "DsR-017-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-017-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Networks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "-Step distance, \n- Zone 1 extension, - Permissive Over \nReach Transfer Trip (POTT), \n - Permissive Under, \nReach Transfer Trip( PUTT ) -\nBlocking \n-Hybrid"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test plugs isolated for all the above \n points."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Timer"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review technical reference maternal manufactures \n manual version for digital line protection (DLP)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain copy of relay setting from field \n maintenance file."
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain outage for line protected by this relay (DLP)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that the bus and line disconnected \n switches are opened and tagged."
+  },
+  {
+   "type": "paragraph",
+   "text": "Black protection signals to breaker trip coils \n and transformer trip schemes"
+  },
+  {
+   "type": "paragraph",
+   "text": "Go to the switchgear and inspect the CTs and \n V.T miniature circuit breaker (M-C-BS) and all cabling supplying the DLP \n relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the cables are in good condition and that \n all wires connections are tight and clean."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the cables are in good condition and that \n all wires connections are tight and clean."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone reaches"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone I \nphase to earth"
+  },
+  {
+   "type": "paragraph",
+   "text": "Restore\n D.C Supply \n to DLP relay scheme"
+  },
+  {
+   "type": "paragraph",
+   "text": "Prepare the set test XS92a as following:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Prepare the set test XS92a as following:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TF \nTime fault Zone (250 ms) Zone 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "DZL \nStep parameters and Range limits (0.1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Start \n(-) Injection \nof testing signals"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note"
+  },
+  {
+   "type": "paragraph",
+   "text": "When the relay DLP \n gives trip signal press ◙ to stop injection."
+  },
+  {
+   "type": "paragraph",
+   "text": "Read the values In \n hand terminal of test set XS92a and compare this value with the value of \n setting in test sheet of the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press the reset \n button on the relay front key board (= ↓ + CLR ) , check \n that the indicator order trip on screen the DLP and alarm contacts are open."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above \n test with the phase S by using FC fault code (112) & T by using FC \n (113) for Z1 at angle 85˚. Make sure the relay DLP gives trip signal ling with \n all phases R, S, T"
+  },
+  {
+   "type": "list",
+   "items": [
+    "We enter the above \nparameters according to the flow chart of test set XS92a",
+    "Repeat the above \n test with the phase S by using FC fault code (112) & T by using FC \n (113) for Z1 at angle 85˚. Make sure the relay DLP gives trip signal ling with \n all phases R, S, T"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase to Phase"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Entered the all \nabove parameters, by using FC \"fault code\""
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "FC fault code \n Phase \nR-S 121 \nforward direction ( trip )"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase \nS-T \n122 \n,,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase \nT-R \n123 \n,,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone II"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above test for Zone \n I but change the value of Z2 at PZL = 85˚ ,TF up to time of Z2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure that the relay DLP in \n forward direction (trip) and reverse direction (block)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure that the relay DLP in \n forward direction (trip) and reverse direction (block)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone III"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above for Zone II, \n but Z3 at PZL = 85˚ TF up to time of Z3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure that the relay DLP in\n forward direction (trip) and reverse direction (block)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure that the relay DLP in\n forward direction (trip) and reverse direction (block)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone IV"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure that the relay (DLP) In for ward direction (trip) and reverse \n direction (block) with all phase R,S,T."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the operating times"
+  },
+  {
+   "type": "paragraph",
+   "text": "The operating time of a distance \n relay should be measured using the tripping contact (free contact). Connected \n the free contact to \"+\" \"red\" \"and\" \"__\\__\n \"yellow\" in the front test set XS92a."
+  },
+  {
+   "type": "paragraph",
+   "text": "Entered the all parameters of \n ZL = 0.5 Z1 (setting)"
+  },
+  {
+   "type": "paragraph",
+   "text": "when the trip accrue the \n injection automatically stopped by free contact. Then read the value of Zone I \n in hand terminal .Or when injection \n Z1,Z2,Z3,Z4 we read the time of \n Zone Z1,Z2,Z3,Z4 direction by \n (information)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press \"Inf +\n ↑\" until \"fault\" on \n screen + enter + ↑distance (km) , type of \n fault (AB) , TF ( ) ms, time , date"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above step to \n measuring the time of Zone II . III , IV.\n Time of Zone I at ZL = 0.5 \n Z1 ,Time of Zone II at ZL = 0.5 \n (Z1+Z2) ,Time of Zone III at ZL = 0.5 \n (Z2+Z3)\n Time of Zone IV at ZL = \n 0.5(Z3+Z4)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the above step to \n measuring the time of Zone II . III , IV.\n Time of Zone I at ZL = 0.5 \n Z1 ,Time of Zone II at ZL = 0.5 \n (Z1+Z2) ,Time of Zone III at ZL = 0.5 \n (Z2+Z3)\n Time of Zone IV at ZL = \n 0.5(Z3+Z4)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Notes:"
+  },
+  {
+   "type": "paragraph",
+   "text": "How to find free contact for relay (DLP) ?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Then connect this free contact to test set\n XS92a in to point (red)'+\",(yellow) in the front."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "End To End Test For Relay DLP"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure that the relay DLP Trip zone II at time of Zone I (100)\n m.sec"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch - on -To Fault (SOTF ) Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure that the zone IV trip at time of zone 1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return protection scheme and associated equipment to \nservice"
+  },
+  {
+   "type": "paragraph",
+   "text": "Return the relay DLP \n to service by with drawing the test plug handle from the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT\n secondary are opened."
+  },
+  {
+   "type": "paragraph",
+   "text": "Return the relay to \n service by restoring supplies from voltage transformer (V.T) (M.C.B) is \n closed."
+  },
+  {
+   "type": "paragraph",
+   "text": "Place the associated \n breaker failure (B.f.) protection scheme back in service."
+  },
+  {
+   "type": "paragraph",
+   "text": "Restore the \n previously blocked disturbance alarms and fault recorder associated with this \n protection."
+  },
+  {
+   "type": "paragraph",
+   "text": "Return the relay \n power line carrier (PLC) links to their nominal position."
+  },
+  {
+   "type": "paragraph",
+   "text": "Turn on the \n associated recluse scheme."
+  },
+  {
+   "type": "paragraph",
+   "text": "Turn on the power \n supply D.C to the relay DLP"
+  },
+  {
+   "type": "paragraph",
+   "text": "Take crossed reading \n of all A.C current and voltage and power in the relay DLP and compare them to \n those for nominal load condition."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that these \n readings agree with station meters MW, MVAR, PF, Ampres, voltages."
+  },
+  {
+   "type": "paragraph",
+   "text": "Place a copy of the \n test results in the field maintenance file and test sheets"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place a copy of the \n test results in the field maintenance file and test sheets"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note\n We can make manual trip (without\ntest set ) for \nrelay DLP as following"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press the key\n Act +enter enter \n password + enter + act + 4 + enter + 2 + enter + 1/y + enter BRK2 tripped"
+  },
+  {
+   "type": "paragraph",
+   "text": "Or key \ndisplay"
+  },
+  {
+   "type": "paragraph",
+   "text": "act +↑ \n+↑ ------------------ manually \ntripping a breaker"
+  },
+  {
+   "type": "paragraph",
+   "text": "enter -----------------------------------trip BKR \n?"
+  },
+  {
+   "type": "paragraph",
+   "text": "2 --------------------------------------trip \nBKR1/2? 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "enter ---------------------- \n---------- trip BKR 2 ?"
+  },
+  {
+   "type": "paragraph",
+   "text": "1/Y ---------------------------------- \ntrip BKR 2 ? YES"
+  },
+  {
+   "type": "paragraph",
+   "text": "enter----------------------------------- BKR 2 \nTripped"
+  },
+  {
+   "type": "paragraph",
+   "text": "end test"
+  },
+  {
+   "type": "paragraph",
+   "text": "enter"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reset = ↓ + CLR"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Report"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting values"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Line"
+  },
+  {
+   "type": "paragraph",
+   "text": "Length \n= \n(km)"
+  },
+  {
+   "type": "paragraph",
+   "text": "CT ratio = 800 \n/1/1/1/1 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "VT ratio = 2200/1/1 \nV"
+  },
+  {
+   "type": "paragraph",
+   "text": "K0 = \n0.4 \nL"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z1 \n= \nT1= msec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z2 \n= \nT2= 450 msec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z3 \n= \nT3= 900 msec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z4 \n= \nT4= 2500 msec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase - to - Earth"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "FC"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZONE I"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZONE II"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZONE III"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZONE IV"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z4"
+  },
+  {
+   "type": "paragraph",
+   "text": "R-E"
+  },
+  {
+   "type": "paragraph",
+   "text": "S E"
+  },
+  {
+   "type": "paragraph",
+   "text": "T - E"
+  },
+  {
+   "type": "paragraph",
+   "text": "11"
+  },
+  {
+   "type": "paragraph",
+   "text": "112"
+  },
+  {
+   "type": "paragraph",
+   "text": "113"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase to Phase Fault"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "FC"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZONE I"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZONE II"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZONE III"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZONE IV"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z4"
+  },
+  {
+   "type": "paragraph",
+   "text": "R - S"
+  },
+  {
+   "type": "paragraph",
+   "text": "S T"
+  },
+  {
+   "type": "paragraph",
+   "text": "T - R"
+  },
+  {
+   "type": "paragraph",
+   "text": "121"
+  },
+  {
+   "type": "paragraph",
+   "text": "122"
+  },
+  {
+   "type": "paragraph",
+   "text": "123"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time reaches"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time of zone"
+  },
+  {
+   "type": "paragraph",
+   "text": "T 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "T2"
+  },
+  {
+   "type": "paragraph",
+   "text": "T3"
+  },
+  {
+   "type": "paragraph",
+   "text": "T4"
+  },
+  {
+   "type": "paragraph",
+   "text": "setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Directionality of relay DLP"
+  },
+  {
+   "type": "paragraph",
+   "text": "Forward \n[ ]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Or Reverse [ ]"
+  },
+  {
+   "type": "paragraph",
+   "text": "END TO END Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch into fault (SOIF) \nTest"
+  }
+ ],
+ "text": "\nIssued to: \n Networks\nIntroduction\n-Step distance, \n- Zone 1 extension, - Permissive Over \nReach Transfer Trip (POTT), \n - Permissive Under, \nReach Transfer Trip( PUTT ) -\nBlocking \n-Hybrid\nSafety Precautions\nTest plugs isolated for all the above \n points.\nTools and equipment\nTimer\nWork to be Carried Out\nReview technical reference maternal manufactures \n manual version for digital line protection (DLP)\nObtain copy of relay setting from field \n maintenance file.\nObtain outage for line protected by this relay (DLP)\nCheck that the bus and line disconnected \n switches are opened and tagged.\nBlack protection signals to breaker trip coils \n and transformer trip schemes\nGo to the switchgear and inspect the CTs and \n V.T miniature circuit breaker (M-C-BS) and all cabling supplying the DLP \n relay.\nCheck the cables are in good condition and that \n all wires connections are tight and clean.\nCheck the cables are in good condition and that \n all wires connections are tight and clean.\nTesting procedure\nZone reaches\nZone I \nphase to earth\nRestore\n D.C Supply \n to DLP relay scheme\nPrepare the set test XS92a as following:\nPrepare the set test XS92a as following:\nTF \nTime fault Zone (250 ms) Zone 1\nDZL \nStep parameters and Range limits (0.1)\nStart \n(-) Injection \nof testing signals\nNote\nWhen the relay DLP \n gives trip signal press ◙ to stop injection.\nRead the values In \n hand terminal of test set XS92a and compare this value with the value of \n setting in test sheet of the relay.\nPress the reset \n button on the relay front key board (= ↓ + CLR ) , check \n that the indicator order trip on screen the DLP and alarm contacts are open.\nRepeat the above \n test with the phase S by using FC fault code (112) & T by using FC \n (113) for Z1 at angle 85˚. Make sure the relay DLP gives trip signal ling with \n all phases R, S, T\nWe enter the above \nparameters according to the flow chart of test set XS92a\nRepeat the above \n test with the phase S by using FC fault code (112) & T by using FC \n (113) for Z1 at angle 85˚. Make sure the relay DLP gives trip signal ling with \n all phases R, S, T\nPhase to Phase\nEntered the all \nabove parameters, by using FC \"fault code\"\nFC fault code \n Phase \nR-S 121 \nforward direction ( trip )\nPhase \nS-T \n122 \n,,\nPhase \nT-R \n123 \n,,\nZone II\nRepeat the above test for Zone \n I but change the value of Z2 at PZL = 85˚ ,TF up to time of Z2\nMake sure that the relay DLP in \n forward direction (trip) and reverse direction (block)\nMake sure that the relay DLP in \n forward direction (trip) and reverse direction (block)\nZone III\nRepeat the above for Zone II, \n but Z3 at PZL = 85˚ TF up to time of Z3\nMake sure that the relay DLP in\n forward direction (trip) and reverse direction (block)\nMake sure that the relay DLP in\n forward direction (trip) and reverse direction (block)\nZone IV\nMake sure that the relay (DLP) In for ward direction (trip) and reverse \n direction (block) with all phase R,S,T.\nMeasuring the operating times\nThe operating time of a distance \n relay should be measured using the tripping contact (free contact). Connected \n the free contact to \"+\" \"red\" \"and\" \"__\\__\n \"yellow\" in the front test set XS92a.\nEntered the all parameters of \n ZL = 0.5 Z1 (setting)\nwhen the trip accrue the \n injection automatically stopped by free contact. Then read the value of Zone I \n in hand terminal .Or when injection \n Z1,Z2,Z3,Z4 we read the time of \n Zone Z1,Z2,Z3,Z4 direction by \n (information)\nPress \"Inf +\n ↑\" until \"fault\" on \n screen + enter + ↑distance (km) , type of \n fault (AB) , TF ( ) ms, time , date\nRepeat the above step to \n measuring the time of Zone II . III , IV.\n Time of Zone I at ZL = 0.5 \n Z1 ,Time of Zone II at ZL = 0.5 \n (Z1+Z2) ,Time of Zone III at ZL = 0.5 \n (Z2+Z3)\n Time of Zone IV at ZL = \n 0.5(Z3+Z4)\nRepeat the above step to \n measuring the time of Zone II . III , IV.\n Time of Zone I at ZL = 0.5 \n Z1 ,Time of Zone II at ZL = 0.5 \n (Z1+Z2) ,Time of Zone III at ZL = 0.5 \n (Z2+Z3)\n Time of Zone IV at ZL = \n 0.5(Z3+Z4)\nNotes:\nHow to find free contact for relay (DLP) ?\nThen connect this free contact to test set\n XS92a in to point (red)'+\",(yellow) in the front.\nEnd To End Test For Relay DLP\nMake sure that the relay DLP Trip zone II at time of Zone I (100)\n m.sec\nSwitch - on -To Fault (SOTF ) Test\nMake sure that the zone IV trip at time of zone 1\nReturn protection scheme and associated equipment to \nservice\nReturn the relay DLP \n to service by with drawing the test plug handle from the relay\nMake sure CT\n secondary are opened.\nReturn the relay to \n service by restoring supplies from voltage transformer (V.T) (M.C.B) is \n closed.\nPlace the associated \n breaker failure (B.f.) protection scheme back in service.\nRestore the \n previously blocked disturbance alarms and fault recorder associated with this \n protection.\nReturn the relay \n power line carrier (PLC) links to their nominal position.\nTurn on the \n associated recluse scheme.\nTurn on the power \n supply D.C to the relay DLP\nTake crossed reading \n of all A.C current and voltage and power in the relay DLP and compare them to \n those for nominal load condition.\nCheck that these \n readings agree with station meters MW, MVAR, PF, Ampres, voltages.\nPlace a copy of the \n test results in the field maintenance file and test sheets\nPlace a copy of the \n test results in the field maintenance file and test sheets\nNote\n We can make manual trip (without\ntest set ) for \nrelay DLP as following\nPress the key\n Act +enter enter \n password + enter + act + 4 + enter + 2 + enter + 1/y + enter BRK2 tripped\nOr key \ndisplay\nact +↑ \n+↑ ------------------ manually \ntripping a breaker\nenter -----------------------------------trip BKR \n?\n2 --------------------------------------trip \nBKR1/2? 2\nenter ---------------------- \n---------- trip BKR 2 ?\n1/Y ---------------------------------- \ntrip BKR 2 ? YES\nenter----------------------------------- BKR 2 \nTripped\nend test\nenter\nReset = ↓ + CLR\nTest Report\nSetting values\nDate:\nSubstation\nLine\nLength \n= \n(km)\nCT ratio = 800 \n/1/1/1/1 A\nVT ratio = 2200/1/1 \nV\nK0 = \n0.4 \nL\nZ1 \n= \nT1= msec\nZ2 \n= \nT2= 450 msec\nZ3 \n= \nT3= 900 msec\nZ4 \n= \nT4= 2500 msec\nPhase - to - Earth\nPhase\nFC\nZONE I\nZONE II\nZONE III\nZONE IV\nZ1\nZ2\nZ3\nZ4\nR-E\nS E\nT - E\n11\n112\n113\nDate:\nTested by:\nPhase to Phase Fault\nPhase\nFC\nZONE I\nZONE II\nZONE III\nZONE IV\nZ1\nZ2\nZ3\nZ4\nR - S\nS T\nT - R\n121\n122\n123\nTime reaches\nTime of zone\nT 1\nT2\nT3\nT4\nsetting\ntesting\nsetting\ntesting\nsetting\ntesting\nsetting\ntesting\nTest value\nDirectionality of relay DLP\nForward \n[ ]\nOr Reverse [ ]\nEND TO END Test\nSwitch into fault (SOIF) \nTest",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-017-r0.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-013-r0-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-013-r0-2.gif",
+   "alt": ""
+  }
+ ]
+}

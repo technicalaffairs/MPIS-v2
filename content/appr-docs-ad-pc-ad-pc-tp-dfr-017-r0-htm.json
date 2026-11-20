@@ -1,0 +1,208 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dfr-017-r0-htm",
+ "doc_number": "DFR-017-R0",
+ "title_en": "DfR-017-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DfR-017-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document out lines the testing procedure \nP1, which must performed on an annually bases as indicated by Y1 in the above \ntitle block"
+  },
+  {
+   "type": "paragraph",
+   "text": "The TMAD relay is an electronic relay for three-phase diff. Protection with \ninstantaneous operation. It is intended for the protection of rotating machines \nagainst internal faults. These faults must entail the interruption of generator \nexcitation and the opening of load circuit"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Ayman Fathy Shita, teased eng. Badawy Abd El-Alim, \neng. Hassan Ali El-Sherbeny & eng.Ayman Fathy Shita at 23 October 2003, revised \nby EDEPCo. quality control eng. Adel El-Nagare, accepted by General Director eng. Hamed \nEl-Sayed Mansour and approved by eng. Uosry Salama Head sector of Power \nStations."
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation"
+  },
+  {
+   "type": "paragraph",
+   "text": "The TMAD relay is a percentage diff. relay. Percentage \"A\" is defined for one \nphase as ratio of the difference between the source side current l1 and the \nline-side current l2 to half the sum of the two"
+  },
+  {
+   "type": "paragraph",
+   "text": "A = 100 * (l1 -l2) / (l1 + l2) / 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "The currents l1 and l2 in the secondary of the current transformers source side \nand line side"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and qualified \nmaintenance staff should carry the suitable safety category.",
+    "Safety fence (rope) with caution mark surrounding the work area.",
+    "Line isolation"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set",
+    "Ammeter, Voltmeter",
+    "Test lead"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure C.T secondary \n circuit are shorted at the incoming terminal blocks before isolating the relay \n current circuit for test",
+    "Obtain copy of relay setting from field maintenance file",
+    "Connect test leads between the current terminals (50 and 60) on the relay \n Fig(1)",
+    "Connect test leads between the time delayed contacts (11 and 12) on the relay.",
+    "Connect test leads between the voltage terminals (-1and +2) on the relay",
+    "Increase the current slowly until the contacts close",
+    "Record this value on the test sheet",
+    "Record the time response of relay where the time will stop once the relay has \n picked up",
+    "Compare the recorded values with setting values",
+    "Repeat the above test steps for other phases by putting the current terminals \n for phase S (60 and 61) and phase T (50 and 70A)"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect the test leads from the current terminals (50 and 60)",
+    "Disconnect the test leads between trip contact terminals (11 and 12)",
+    "Disconnect the test leads between trip voltage terminals (-1 and +2).",
+    "Check that the C.T and P.T secondary connections return to its normal position \n as before the test",
+    "If any equipment associated with the relay has been isolated it should be \n returned to the service"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Station :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay type : \nUnit No :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Model :"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.t Ratio : \nRelay Setting :"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Phase",
+     "Injected term.",
+     "Setting Current",
+     "Time Measured"
+    ],
+    [
+     "Source",
+     "R\n S\n T",
+     "50-60A\n 70-61A\n 50A-70A",
+     "A\n A\n A",
+     "Sec\n Sec\n Sec"
+    ],
+    [
+     "Load",
+     "R\n S\n T",
+     "40-50\n 60-70\n 40A-50A",
+     "A\n A\n A",
+     "Sec\n Sec\n Sec"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reviewed by: Signature :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by: Last test Date : \nTest Date:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "KEY",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S1,S2,S3",
+     "Summation transformers",
+     "V",
+     "Electromagnetic indicator (on \n request)"
+    ],
+    [
+     "D1,D2,D3",
+     "Difference transformers",
+     "A",
+     "Output relay"
+    ],
+    [
+     "D",
+     "Detector",
+     "A1A2",
+     "Output contacts"
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThis document out lines the testing procedure \nP1, which must performed on an annually bases as indicated by Y1 in the above \ntitle block\nThe TMAD relay is an electronic relay for three-phase diff. Protection with \ninstantaneous operation. It is intended for the protection of rotating machines \nagainst internal faults. These faults must entail the interruption of generator \nexcitation and the opening of load circuit\nThe first draft initiated by eng. Ayman Fathy Shita, teased eng. Badawy Abd El-Alim, \neng. Hassan Ali El-Sherbeny & eng.Ayman Fathy Shita at 23 October 2003, revised \nby EDEPCo. quality control eng. Adel El-Nagare, accepted by General Director eng. Hamed \nEl-Sayed Mansour and approved by eng. Uosry Salama Head sector of Power \nStations.\nOperation\nThe TMAD relay is a percentage diff. relay. Percentage \"A\" is defined for one \nphase as ratio of the difference between the source side current l1 and the \nline-side current l2 to half the sum of the two\nA = 100 * (l1 -l2) / (l1 + l2) / 2\nThe currents l1 and l2 in the secondary of the current transformers source side \nand line side\nSafety Precautions\nA work permit must be issued and qualified \nmaintenance staff should carry the suitable safety category.\nSafety fence (rope) with caution mark surrounding the work area.\nLine isolation\nTools and Equipment\nSecondary injection test set\nAmmeter, Voltmeter\nTest lead\nWork to be Carried Out\nMake sure C.T secondary \n circuit are shorted at the incoming terminal blocks before isolating the relay \n current circuit for test\nObtain copy of relay setting from field maintenance file\nConnect test leads between the current terminals (50 and 60) on the relay \n Fig(1)\nConnect test leads between the time delayed contacts (11 and 12) on the relay.\nConnect test leads between the voltage terminals (-1and +2) on the relay\nIncrease the current slowly until the contacts close\nRecord this value on the test sheet\nRecord the time response of relay where the time will stop once the relay has \n picked up\nCompare the recorded values with setting values\nRepeat the above test steps for other phases by putting the current terminals \n for phase S (60 and 61) and phase T (50 and 70A)\nDisconnect the test leads from the current terminals (50 and 60)\nDisconnect the test leads between trip contact terminals (11 and 12)\nDisconnect the test leads between trip voltage terminals (-1 and +2).\nCheck that the C.T and P.T secondary connections return to its normal position \n as before the test\nIf any equipment associated with the relay has been isolated it should be \n returned to the service\nStation :\nRelay type : \nUnit No :\nRelay Model :\nC.t Ratio : \nRelay Setting :\n\nTested by: Signature :\nReviewed by: Signature :\nApproved by: Last test Date : \nTest Date:\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-017-r0.gif",
+   "alt": ""
+  }
+ ]
+}

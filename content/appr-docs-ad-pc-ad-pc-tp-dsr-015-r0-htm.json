@@ -1,0 +1,424 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-015-r0-htm",
+ "doc_number": "DSR-015-R0",
+ "title_en": "DsR-015-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-015-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Networks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is test procedure for distance relay 7SL32 ( Sienems ) by using XS92a set\n test"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check that the\n bus and line disconnect switches are opened and tagged.",
+    "Make sure CT secondary circuits are shorted",
+    "VT\n Miniature circuit breaker (MCB`S) is isolated (opened)",
+    "Isolate DC\n supply to relay. When doing any Adjustments or Maintenance on the 7SL32\n relay",
+    "Isolate \n * Breaker\n failure (B.F) Scheme associated with relay \n *\n Disturbance alarm or fault recorder associated with relay\n * Breaker\n trip coils and transfer trip scheme\n * Auto -\n reclosing associated with the relay 7SL32\n ( Test\n plug isolate the above all points )"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test set type\n (XS92a)",
+    "Ammeter.",
+    "Test leads.",
+    "Timer"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Steps to prepare for relay testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: Manufacturer's manual",
+    "Obtain copy of relay\n 7SL32 setting form field maintenance file",
+    "Obtain outage for line protected by\n this relay 7SL32.",
+    "Check that the bus and line disconnect switches are opened\nand tagged.",
+    "Block\n protection\n signals to : breaker trip coils and transfer trip schemes.",
+    "Go to the\n switchgear and inspect the CT`s and VT miniature circuit breaker ( MCB`S), and\n all cabling supplying the relay",
+    "Check that the\n cables are in good condition and the all wire connections are Ti , ht and\n clean"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Testing Procedures"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Zone Reaches"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZONE I (phase to earth )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Restore DC\n supply to 7SL32 relay scheme",
+    "Prepare the\n set test XS92a as following\n MOD \n ZZ \n (Distance)\n ZL up to setting\n Z1\n PZL angle of setting time\n protected (0 ....... 3 0 )\n KO 0.7\n FC fault code\n forwarde or reverse & (lll) phase R to earth \n SQ 1F1\n A 2\n TF Time fault\n zone (250) m.sec\n DZL step parameters and range\n limits (0.1)\n Start (-) injection of testing signals"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note"
+  },
+  {
+   "type": "list",
+   "items": [
+    "We entered\nthe all above parameters according to the flowchart of set test XS92a",
+    "When the relay\n gives tripping signal press ◙ to stop injection",
+    "Read the\n values in hand terminals of set test XS92a and compare this values in hand terminals\n of set test with the values of setting test sheet of relay 7SL32",
+    "Press the\n reset button an the relay front panel and check that the led indicator\n resets and the alarm contacts open",
+    "Repeat the\n above test with the phases (S) by using FC ( fault code ) (112) & phase\n (T) by using FC (fault code) (113). Make sure the relay 7SL32 give trip signaling\n with all phases",
+    "Repeat the\n above test, but in the reverse direction by using (FC) fault code (012)\n & (011) & (013). Make sure that the relay 7 SL 32 is blocked in\n reverse direction"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Entered the all above parameter, but\n the difference that in (FC) \n Fault code phase R-\n S 121 \n Forward direction (trip)\n phase S- T \n 122 Forward direction (trip)\n phase T- R \n 123 Forward direction (trip)",
+    "In the reverse direction (021) & (022) & (033) (Block)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone II"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the\n above test for zone I, but change the value entered ZL up to Z2, and TF up\n to time of Z2",
+    "Make sure the\n relay 7SL32 in forward direction (trip) & in reverse direction (block)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone III"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the\n above test for zone II, but change the value of ZL up to Z3, and TF up\n to time of Z3",
+    "Make sure the\n relay 7SL32 in forward direction (trip) and reverse direction (block)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone IV"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the\n above test for zone III, but change the value of ZL up to Z4, and TF up\n to time of Z4",
+    "Make sure that\n the relay 7SL32 in forward direction (trip) and reverse direction (block)"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Measuring the operating times"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The operating\n time of a distance relay 7SL32 should be Measured using the trip contact\n (free contact). Connected the free contact to \"+\" and\n \" __\\__ \" in the front panel of set\n test XS92a",
+    "Enter the all\n parameters of zone I by ZL = 0.5 Z1",
+    "When the trip\n occur the injection automatically stopped by free contact. Then read the value\n of time zone I in the hand terminal",
+    "Repeat the\n above step to measuring the time of zone II & III & IV"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Time of Z1 \nat ZL = 0.5 Z2\nZ1 + Z2\nTime of Z2 \nat ZL = -------\n2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z2 + Z3\nTime of Z3 \nat ZL = --------\n2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z3 + Z4\nTime of Z4 \nat ZL = --------\n2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note : How\nto find \" free contact \" for relay 7SL32 ?"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select any\n contact and measured DC (Not found)",
+    "Measured\n (buzzer) by avometer (Not found)",
+    "Made trip\n (this contact measured buzzer by Avometer )",
+    "Connect this\n free contact to set test XS92a"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "End to End Test For\nRelay 7 SL 32"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Relay the test\n of zone II and make sure that the trip occur at time of Z2",
+    "Make bridge ON\n receive signal",
+    "Make sure that\n the relay 7ZL32 trip zone II at time of zone I"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Switch into fault (\nSOIF ) test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the\n test of zone IV. but ( SQ = 0 F1) in set test XS92a",
+    "Make sure that\n zone IV trip at time of zone I"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return\nProtection Scheme and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay\n to services by with drawing the test plug handle from the relay",
+    "Make sure C.T\n secondary are opened",
+    "Return relay\n to service by restoring supply from voltage transformer (V.T) miniature\n circuit breaker MCB`S is closed",
+    "Place the\n associated breaker failure (B.F) protection scheme back in service",
+    "Restore the\n previously blocked disturbance alarrns and fault recorder associated with\n this protection",
+    "Return the\n relay power line carrier (PLC) links to their normal position",
+    "Turn ON the\n associated auto - reclosure scheme",
+    "Turn ON the\n power supply DC to relay 7SL32",
+    "Take crossed\n readings of all AC currents and voltages supplied to the relay and compare\n them to those for normal load conditions.",
+    "Check that\n these readings agree with station meters:-\n MW , MVAR , power factor , Amperes , voltages",
+    "Place a copy\n of the test results in the field maintenance file, and test sheet"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Test Report"
+  },
+  {
+   "type": "paragraph",
+   "text": "R1\n= \nR1X\n= \nZE / ZL ="
+  },
+  {
+   "type": "paragraph",
+   "text": "R2\n= \nR1X\n= \nL\n= \nKm"
+  },
+  {
+   "type": "paragraph",
+   "text": "CT ratio ="
+  },
+  {
+   "type": "paragraph",
+   "text": "VT ratio\n= KO ="
+  },
+  {
+   "type": "paragraph",
+   "text": "R3\n= \nXST ="
+  },
+  {
+   "type": "paragraph",
+   "text": "T1\n= m.sec. ; \nT2\n= \nm.sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "T3\n= \nm.sec. ; T4\n= \nm.sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Distance Zones"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "ZONE",
+     "Angle",
+     "Z th",
+     "Z\n measuring",
+     "Z th.",
+     "Z\n measuring"
+    ],
+    [
+     "R - E",
+     "S - E",
+     "T - E",
+     "R - S",
+     "S - T",
+     "T - R"
+    ],
+    [
+     "Z1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Z2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Z3",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Z4",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Time of zone",
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    [
+     "Th.",
+     "Meas.",
+     "Th.",
+     "Meas.",
+     "Th.",
+     "Meas.",
+     "Th.",
+     "Meas."
+    ],
+    [
+     "Test values",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Forward { }"
+  },
+  {
+   "type": "paragraph",
+   "text": "or \nReverse { }"
+  },
+  {
+   "type": "paragraph",
+   "text": "End To End Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch into fault ( SOIF ) test"
+  }
+ ],
+ "text": "\nIssued to: \n Networks\nIntroduction\nThe document is test procedure for distance relay 7SL32 ( Sienems ) by using XS92a set\n test\nSafety Precautions\nCheck that the\n bus and line disconnect switches are opened and tagged.\nMake sure CT secondary circuits are shorted\nVT\n Miniature circuit breaker (MCB`S) is isolated (opened)\nIsolate DC\n supply to relay. When doing any Adjustments or Maintenance on the 7SL32\n relay\nIsolate \n * Breaker\n failure (B.F) Scheme associated with relay \n *\n Disturbance alarm or fault recorder associated with relay\n * Breaker\n trip coils and transfer trip scheme\n * Auto -\n reclosing associated with the relay 7SL32\n ( Test\n plug isolate the above all points )\nTools and Equipment\nTest set type\n (XS92a)\nAmmeter.\nTest leads.\nTimer\nWork to be carried out\nSteps to prepare for relay testing\nReview technical reference material: Manufacturer's manual\nObtain copy of relay\n 7SL32 setting form field maintenance file\nObtain outage for line protected by\n this relay 7SL32.\nCheck that the bus and line disconnect switches are opened\nand tagged.\nBlock\n protection\n signals to : breaker trip coils and transfer trip schemes.\nGo to the\n switchgear and inspect the CT`s and VT miniature circuit breaker ( MCB`S), and\n all cabling supplying the relay\nCheck that the\n cables are in good condition and the all wire connections are Ti , ht and\n clean\nTesting Procedures\nZone Reaches\nZONE I (phase to earth )\nRestore DC\n supply to 7SL32 relay scheme\nPrepare the\n set test XS92a as following\n MOD \n ZZ \n (Distance)\n ZL up to setting\n Z1\n PZL angle of setting time\n protected (0 ....... 3 0 )\n KO 0.7\n FC fault code\n forwarde or reverse & (lll) phase R to earth \n SQ 1F1\n A 2\n TF Time fault\n zone (250) m.sec\n DZL step parameters and range\n limits (0.1)\n Start (-) injection of testing signals\nNote\nWe entered\nthe all above parameters according to the flowchart of set test XS92a\nWhen the relay\n gives tripping signal press ◙ to stop injection\nRead the\n values in hand terminals of set test XS92a and compare this values in hand terminals\n of set test with the values of setting test sheet of relay 7SL32\nPress the\n reset button an the relay front panel and check that the led indicator\n resets and the alarm contacts open\nRepeat the\n above test with the phases (S) by using FC ( fault code ) (112) & phase\n (T) by using FC (fault code) (113). Make sure the relay 7SL32 give trip signaling\n with all phases\nRepeat the\n above test, but in the reverse direction by using (FC) fault code (012)\n & (011) & (013). Make sure that the relay 7 SL 32 is blocked in\n reverse direction\nEntered the all above parameter, but\n the difference that in (FC) \n Fault code phase R-\n S 121 \n Forward direction (trip)\n phase S- T \n 122 Forward direction (trip)\n phase T- R \n 123 Forward direction (trip)\nIn the reverse direction (021) & (022) & (033) (Block)\nZone II\nRepeat the\n above test for zone I, but change the value entered ZL up to Z2, and TF up\n to time of Z2\nMake sure the\n relay 7SL32 in forward direction (trip) & in reverse direction (block)\nZone III\nRepeat the\n above test for zone II, but change the value of ZL up to Z3, and TF up\n to time of Z3\nMake sure the\n relay 7SL32 in forward direction (trip) and reverse direction (block)\nZone IV\nRepeat the\n above test for zone III, but change the value of ZL up to Z4, and TF up\n to time of Z4\nMake sure that\n the relay 7SL32 in forward direction (trip) and reverse direction (block)\nMeasuring the operating times\nThe operating\n time of a distance relay 7SL32 should be Measured using the trip contact\n (free contact). Connected the free contact to \"+\" and\n \" __\\__ \" in the front panel of set\n test XS92a\nEnter the all\n parameters of zone I by ZL = 0.5 Z1\nWhen the trip\n occur the injection automatically stopped by free contact. Then read the value\n of time zone I in the hand terminal\nRepeat the\n above step to measuring the time of zone II & III & IV\nTime of Z1 \nat ZL = 0.5 Z2\nZ1 + Z2\nTime of Z2 \nat ZL = -------\n2\nZ2 + Z3\nTime of Z3 \nat ZL = --------\n2\nZ3 + Z4\nTime of Z4 \nat ZL = --------\n2\nNote : How\nto find \" free contact \" for relay 7SL32 ?\nSelect any\n contact and measured DC (Not found)\nMeasured\n (buzzer) by avometer (Not found)\nMade trip\n (this contact measured buzzer by Avometer )\nConnect this\n free contact to set test XS92a\nEnd to End Test For\nRelay 7 SL 32\nRelay the test\n of zone II and make sure that the trip occur at time of Z2\nMake bridge ON\n receive signal\nMake sure that\n the relay 7ZL32 trip zone II at time of zone I\nSwitch into fault (\nSOIF ) test\nRepeat the\n test of zone IV. but ( SQ = 0 F1) in set test XS92a\nMake sure that\n zone IV trip at time of zone I\nReturn\nProtection Scheme and Associated Equipment to Service\nReturn relay\n to services by with drawing the test plug handle from the relay\nMake sure C.T\n secondary are opened\nReturn relay\n to service by restoring supply from voltage transformer (V.T) miniature\n circuit breaker MCB`S is closed\nPlace the\n associated breaker failure (B.F) protection scheme back in service\nRestore the\n previously blocked disturbance alarrns and fault recorder associated with\n this protection\nReturn the\n relay power line carrier (PLC) links to their normal position\nTurn ON the\n associated auto - reclosure scheme\nTurn ON the\n power supply DC to relay 7SL32\nTake crossed\n readings of all AC currents and voltages supplied to the relay and compare\n them to those for normal load conditions.\nCheck that\n these readings agree with station meters:-\n MW , MVAR , power factor , Amperes , voltages\nPlace a copy\n of the test results in the field maintenance file, and test sheet\nTest Report\nR1\n= \nR1X\n= \nZE / ZL =\nR2\n= \nR1X\n= \nL\n= \nKm\nCT ratio =\nVT ratio\n= KO =\nR3\n= \nXST =\nT1\n= m.sec. ; \nT2\n= \nm.sec.\nT3\n= \nm.sec. ; T4\n= \nm.sec.\nDistance Zones\n\n\nForward { }\nor \nReverse { }\nEnd To End Test\nSwitch into fault ( SOIF ) test",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-013-r0-3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-013-r0-2.gif",
+   "alt": ""
+  }
+ ]
+}

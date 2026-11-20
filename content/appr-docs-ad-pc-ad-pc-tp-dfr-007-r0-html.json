@@ -1,0 +1,238 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dfr-007-r0-html",
+ "doc_number": "DFR-007-R0",
+ "title_en": "DfR-007-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DfR-007-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "Its a highly sensitive moving coil relay type\n RQS4T1 is\n used as measuring system which is applied with voltages over a\n rectifier bridge circuit which are proportional to the sum current and\n difference current - The current proportional voltages are gained on the\n burdens of the input transformer. The units are constructed according to the\n modular unit principle and accommodated in standard housings, which consist of\n alight metal base plate. The metal frame and the removable moduled cover with\n transport glass window."
+  },
+  {
+   "type": "paragraph",
+   "text": "The response current at holding current zero can be\n infinitely adjusted by means of good accessible adjusting knobs - in case of\n fault a neutral relay with drop indicator is actuated by the moving coil\n relay. This meutral relay can be reset from the outside by means of a\n pushbutton"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure, details the steps required to completely check\n the proper operation and calibration of the transformer differential relay. It\n is recommended this procedure be carried out on a yearly bases."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document is the formatted way to minimize the possibility\n of error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, qualified maintenance staff carry the suitable \n safety ID category,",
+    "Safety fence (rope) with caution marks surrounding the work area is required,",
+    "Safety and healthy \n equipment must be used as safety shoes, safety Helmet ..etc",
+    "The relay should be tested in normal connection with the system."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "DC supply 110 V",
+    "Two AC ammeters.",
+    "DC ammeter, Test leads.",
+    "Two Secondary Injection Current Test set (10A)",
+    "DC current source (10A)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Minimum Pick Up"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the test circuit as shown in figure (1)",
+    "Slowly rotate the control knob in a clockwise direction and raise the test\n current IAC until the relay operate ,and the relay trip target should operate.",
+    "Read and record the value of the pick up current (minimum pick up current).",
+    "Return the control knob to (0) position and switch the power off.",
+    "Repeat steps (2) to (4) by injecting the test current in terminals 2 and 8.\n This checks the minimum pick- up via the other half of the (R) phase restraint\n circuit. These two values should be approximately the same.",
+    "Using the schematic diagram for the relay, determine relay terminal\n connections for testing the S and T phases.",
+    "Repeat steps 2 to 5 for phases S and T observing that the target drops for\n each of the six tests.",
+    "Record this values in the test results sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check Of the Percentage Differential Characteristics Slope"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the test circuit as shown in figure (2).",
+    "Slowly rotate the control knob to increase the restraining current (IR)\n until an indication of (1) Ampere on the ammeter (A2).",
+    "Slowly rotate the control knob to increase the operating current (l op)\n on the ammeter (A) until the relay operates.",
+    "Record the operating and restraining currents (\n l op & I R )",
+    "Repeat for the restraint current IR = 2, 3, 4 amps.",
+    "Change the connection point from terminal 1to 2 and verify that similar\n values are obtained",
+    "Repeat the above tests for the (2) restraint coil associated with the S\n & T phases, and record the results.",
+    "Using all of the recorded values for each of the phases. Draw the\n characteristic slop for this relay."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Record this values in the test results sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1: Checking the minimum pick up"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2: Checking the percentage differential\n characteristic's slope"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check Of the 2nd Harmonic Restraint"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the test circuit as shown in figure 3.",
+    "Slowly rotate the control knob in the clockwise direction and raise the\n test DC current until an indication of one ampere is observed on the DC\n ammeter.",
+    "Slowly rotate the control knob in the clockwise direction and raise\n IAC until the relay operates.",
+    "Read and record IDC and IAC",
+    "Return all control I knob to 0",
+    "Repeat steps 2 and 3 with IDC\n = 2,3,4 amperes.",
+    "Repeat the above test using the (S) & (T) coil winding (other Phases).",
+    "Use the all of the recorded results to calculate the percent second\n Harmonic restraint using the formula:-",
+    "Record all this values in the test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Percent Second Harmonic = (0.424 x IDC\n)\n/ ( IDC\n+ 0.9 x IAC\n) x\n100 %)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 3: Checking of the 2nd harmonic\n restraint"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 4"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Station:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Transformer: \nVoltage Level:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Protection type: Relay type: RQS4T1"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T.R.: \nRelay notation:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay data: \nANX. Voltage:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "Setting\n in \n AMPS.",
+     "Results in Amps",
+     "Remarks",
+     "Tested by"
+    ],
+    [
+     "Phase R",
+     "Phase S",
+     "Phase T"
+    ],
+    [
+     "P.U.",
+     "P.U.",
+     "P.U."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Checked by: \nSignature: \nDate:"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nIts a highly sensitive moving coil relay type\n RQS4T1 is\n used as measuring system which is applied with voltages over a\n rectifier bridge circuit which are proportional to the sum current and\n difference current - The current proportional voltages are gained on the\n burdens of the input transformer. The units are constructed according to the\n modular unit principle and accommodated in standard housings, which consist of\n alight metal base plate. The metal frame and the removable moduled cover with\n transport glass window.\nThe response current at holding current zero can be\n infinitely adjusted by means of good accessible adjusting knobs - in case of\n fault a neutral relay with drop indicator is actuated by the moving coil\n relay. This meutral relay can be reset from the outside by means of a\n pushbutton\nThis procedure, details the steps required to completely check\n the proper operation and calibration of the transformer differential relay. It\n is recommended this procedure be carried out on a yearly bases.\nThis document is the formatted way to minimize the possibility\n of error causing personal injury or damage to equipment.\nSafety Precautions\nA work permit must be issued, qualified maintenance staff carry the suitable \n safety ID category,\nSafety fence (rope) with caution marks surrounding the work area is required,\nSafety and healthy \n equipment must be used as safety shoes, safety Helmet ..etc\nThe relay should be tested in normal connection with the system.\nTools and Equipment\nDC supply 110 V\nTwo AC ammeters.\nDC ammeter, Test leads.\nTwo Secondary Injection Current Test set (10A)\nDC current source (10A)\nWork to be Carried Out\nChecking the Minimum Pick Up\nConnect the test circuit as shown in figure (1)\nSlowly rotate the control knob in a clockwise direction and raise the test\n current IAC until the relay operate ,and the relay trip target should operate.\nRead and record the value of the pick up current (minimum pick up current).\nReturn the control knob to (0) position and switch the power off.\nRepeat steps (2) to (4) by injecting the test current in terminals 2 and 8.\n This checks the minimum pick- up via the other half of the (R) phase restraint\n circuit. These two values should be approximately the same.\nUsing the schematic diagram for the relay, determine relay terminal\n connections for testing the S and T phases.\nRepeat steps 2 to 5 for phases S and T observing that the target drops for\n each of the six tests.\nRecord this values in the test results sheet.\nCheck Of the Percentage Differential Characteristics Slope\nConnect the test circuit as shown in figure (2).\nSlowly rotate the control knob to increase the restraining current (IR)\n until an indication of (1) Ampere on the ammeter (A2).\nSlowly rotate the control knob to increase the operating current (l op)\n on the ammeter (A) until the relay operates.\nRecord the operating and restraining currents (\n l op & I R )\nRepeat for the restraint current IR = 2, 3, 4 amps.\nChange the connection point from terminal 1to 2 and verify that similar\n values are obtained\nRepeat the above tests for the (2) restraint coil associated with the S\n & T phases, and record the results.\nUsing all of the recorded values for each of the phases. Draw the\n characteristic slop for this relay.\nRecord this values in the test results sheet.\nFigure 1: Checking the minimum pick up\nFigure 2: Checking the percentage differential\n characteristic's slope\nCheck Of the 2nd Harmonic Restraint\nConnect the test circuit as shown in figure 3.\nSlowly rotate the control knob in the clockwise direction and raise the\n test DC current until an indication of one ampere is observed on the DC\n ammeter.\nSlowly rotate the control knob in the clockwise direction and raise\n IAC until the relay operates.\nRead and record IDC and IAC\nReturn all control I knob to 0\nRepeat steps 2 and 3 with IDC\n = 2,3,4 amperes.\nRepeat the above test using the (S) & (T) coil winding (other Phases).\nUse the all of the recorded results to calculate the percent second\n Harmonic restraint using the formula:-\nRecord all this values in the test sheet.\nPercent Second Harmonic = (0.424 x IDC\n)\n/ ( IDC\n+ 0.9 x IAC\n) x\n100 %)\nFigure 3: Checking of the 2nd harmonic\n restraint\nFigure 4\nTest Sheet\nZone:\nStation:\nTransformer: \nVoltage Level:\nProtection type: Relay type: RQS4T1\nC.T.R.: \nRelay notation:\nRelay data: \nANX. Voltage:\n\nChecked by: \nSignature: \nDate:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-007-eq1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-007-1.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-007-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-007-03.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-007-4.gif",
+   "alt": ""
+  }
+ ]
+}

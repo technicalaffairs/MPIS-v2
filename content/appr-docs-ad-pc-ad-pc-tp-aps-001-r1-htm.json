@@ -1,0 +1,1111 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-aps-001-r1-htm",
+ "doc_number": "APS-001-R1",
+ "title_en": "APS-001-r1 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/APS-001-r1.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the testing procedure P1, which must be performed every \nsix months as indicated by M6 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "This patent concerns the test of protection \nrelays for the indoor 6.3KV circuit breakers, manufactured by ABB ARAB. The CB's are of \ntype either HB 07. 12.40V or HC 07. 25.40V, rating currents 1250 A, 2500A \nrespectively, and short circuit capacity 43.5KA, 3 sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by \neng. Maysa Ahmady, tested at 27 Jan 2003 by eng. Iman Rizk El Ashry, reviewed by \nEDEPC quality control eng. Adel Abd EL Kader EL Nagar, accepted by general director \neng. Mahmoud Sakr, and approved by eng .Mohamed Reda Abd Al Aziz Soliman Pre-Sector Head Talkha PS."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first update initiated \nby eng. Mahmoud Ibrahim Mahmoud, tested at 23 march 2009 by eng. Emad \nHamdy ,accepted by general director eng. Metwaly Elhendawy, and approved by eng \n.Farouk Awad Aly Pre-Sector Head Talkha PS. The following protection devices are \nused to protect the motors and transformers of 6.3kv."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document reviewed by \nMDEPC quality control eng. Adel Abd EL Kader EL Nagar, accepted by eng. Samir \nAbd El Gilil; MDEPC inspection & quality control general director, MPIS \ncoordinator, and certified by accountant Mohamed Nageeb MDEPC inspection & \nquality control head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit \nmust be issued and the qualified test staff should carry the suitable \nsafely category",
+    "A work permit \nmust be issued and the qualified test staff should carry the suitable \nsafely category",
+    "Safety fence \nwith caution marks and no smoking signs surrounding the work area must be used.",
+    "Safety fence \nwith caution marks and no smoking signs surrounding the work area must be used.",
+    "Wearing safety \nhelmet, shoes, cloths, and masks are necessary",
+    "Wearing safety \nhelmet, shoes, cloths, and masks are necessary",
+    "Be aware of \n parts under voltage",
+    "Disconnect the \n cell of work",
+    "Draw the CB of \n the concerned cell in the 6.3kv hall",
+    "Put the CB at \n test position",
+    "Check the \n indicating lamps of the cell",
+    "Check the \n existence of DC of the cell"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "A bag of screws and nails.",
+    "Two testers units of type Z11.",
+    "Some wires.",
+    "A timer TM 2 ( Program ).",
+    "A voltmeter and an ammeter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The Protection Devices for Motors"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Under voltage device.",
+    "Multi function motor protection device ( S.C. \n O.C. current negative phase sequence earth fault )."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The Protection Devices for Transformer"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Under voltage.",
+    "Earth fault.",
+    "Short circuit + Over current.",
+    "Differential.",
+    "Zero sequence relays."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under Voltage \nDevice ( UKT 911 ) \n(Figure 1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type: \nUKT 911 Vp = 2KVEFF"
+  },
+  {
+   "type": "paragraph",
+   "text": "Function: F27 \nfn = 50/60 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer: ABB (Switzerland) \n(Un) Rated voltage = 100V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting: 0.7 Un ( Un =100V ), T motor = 5 sec \nAuxiliary voltage: 220V dc"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 V DC control voltage .",
+    "Disconnect the D.C..\n see \n figure (1)",
+    "Loosen ( A5, A8 ) of the device and put Z11 leads .",
+    "Put timer leads on ( A1, A2 ) .",
+    "Reconnect the D.C.",
+    "Inject a voltage through Z11 till the reset value to \n remove the fault sign of the device ( yellow one )",
+    "Decrease the voltage again to record the pick up ( \n operating ) value .",
+    "The timer starts counting at this moment and closes \n after the rated time. The trip sign (red one) shows up.",
+    "Record the results and compare them with the \n previous ones\n at table 1."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Motor Protection (MCX912) (Figure 2)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi Function Motor Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type: MCX \n912 Vp = 2KVEFF"
+  },
+  {
+   "type": "paragraph",
+   "text": "Auxiliary voltage: 220V dc fn \n= 50/60 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer: ABB (Switzerland) Rated current = 5A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Included Function : \n Over current protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Short \ncircuit protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth fault \nprotection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Negative Phase Sequence"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 Vdc. control \n voltage.",
+    "Disconnect D.C. switch. \n see figure (2)",
+    "Put the leads of Z11 on (A2, A3) of \n the device.",
+    "Disconnect the trip leads either on \n (A8,A9) or (A4,A5), and connect the timer leads on them.",
+    "Connect the D.C. again.",
+    "Inject the current by Z11.",
+    "Observe the device screen till it \n flashes indicating a certain mode.",
+    "At a certain time the timer stops \n and the screen displays the operating mode (03) .",
+    "Connect (A10, A11) instead of (A2, \n A3).",
+    "Record the results for phase R and \n phase T at \n table 2."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Short Circuit"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Do the same procedures of testing \n over current element.",
+    "Mode (01) will appear on the device \n screen.",
+    "Record the results for phase R and \n phase T at table 2."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault"
+  },
+  {
+   "type": "paragraph",
+   "text": "The test is\nonly performed at (A6, A7) on the device. These two terminals are \nthe only connected terminals to a ring core."
+  },
+  {
+   "type": "paragraph",
+   "text": "The same procedures mentioned \nbefore. Mode (07) will appear after its rated time."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the results for phase R and \nphase T at table 2."
+  },
+  {
+   "type": "paragraph",
+   "text": "Negative Phase Sequence"
+  },
+  {
+   "type": "paragraph",
+   "text": "The test is only performed\nat (A6, A7) on the device. These two terminals are the only connected \nterminals to a ring core."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Do the same procedures of testing \n over current element.",
+    "Mode (05) will appear on the device \n screen."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the results for phase R and phase T at table 2."
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault Protection of Transformers (IKT \n941) \n (Figure \n7)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type: \nIKT941 Auxiliary voltage : 220V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Function: F51N Setting \nEarth Fault : 0.2In, T=0.1 sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "(In) \nrated current : 1A \n Manufacturer : ABB ( Switzerland \n)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Insulation test voltage for 1 min: Vp:2KVEFF"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 \n Vdc. control voltage.",
+    "Disconnect the \n D.C. switch .(Figure \n7)",
+    "Put the leads of \n Z11 on (A2, A3) of the device. (F51N Figure 7)",
+    "Disconnect the \n trip leads either on (A8, A9) or (A4, A5), and connect the timer leads on \n them.",
+    "Connect the D.C. \n again.",
+    "Inject the \n current by Z11.",
+    "Increase the \n injected current till the yellow lamp of the device switches on (signal).",
+    "At a certain time \n the timer stops counting, and the red lamp switches on (trip).",
+    "Record the \n results and compare them with the previous ones \n at table 4."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Short Circuit & Over Current Protection \nof Transformers (IKT \n943) \n(Figure 7)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer : ABB ( Switzerland ) Vp : \n2KVEFF"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type: IKT943 \nfn : 50/60 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Function : F50/51 \n Auxiliary \nvoltage : 220V d.c"
+  },
+  {
+   "type": "paragraph",
+   "text": "(In) rated current : 5A \n Short circuit setting : 15 In"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over \ncurrent setting : Ir = In ,T= 6 sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 Vdc; control \n voltage.",
+    "Disconnect the D.C. switch. (Figure \n 7)",
+    "Put the leads of Z11 on (A2, A3) of \n the device. \n (F50/51 \n Figure 7)",
+    "Disconnect the trip leads of (A4, \n A5), and connect the timer leads on them.",
+    "Connect the D.C. again.",
+    "Inject the current by Z11.",
+    "Increase the injected current till \n the yellow lamp of the device switches on (signal).",
+    "At a certain time the timer stops \n counting, and the red lamp switches on (trip).",
+    "Record the results and compare them \n with the previous ones & settings.",
+    "Repeat the same sequence for leads \n (A6, A7) then (A10, A11) instead of (A2, A3)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Short Circuit"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 Vdc. control \n voltage.",
+    "Disconnect the D.C. switch .(Figure \n 7)",
+    "Put \n the leads of Z11 on (A2, A3) of the device. \n (F50/51 Figure 7)",
+    "Disconnect the trip leads either \n of (A8, A9), and connect the timer leads on them.",
+    "Connect the D.C. again.",
+    "Inject the current by Z11.",
+    "Increase the injected current till \n the red lamp of the device switches on (trip). At this moment the timer \n closes instantaneously.",
+    "Record the results and compare \n them with the previous ones & settings.",
+    "Repeat the same sequence for leads \n (A6, A7) then (A10, A11) instead of (A2, A3)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zero Sequence Relay (E.F.R) \n (UKT 911) \n(Figure 3)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type: \nUKT 911 Vp \n: 2KVEFF"
+  },
+  {
+   "type": "paragraph",
+   "text": "Function: F27G fn : 50/60 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer: ABB (Switzerland) (Un) \nRated voltage = 100V T =1. 5 sec \nSetting: 0.2 Un ( Un =100V ) Auxiliary voltage:220V dc"
+  },
+  {
+   "type": "paragraph",
+   "text": "It is available only in the \n measuring cubicles."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 \n Vdc. control voltage.",
+    "Disconnect D.C. \n switch. (Figure 3)",
+    "Loosen (A5, A8) \n of the device. (F27G Figure 3)",
+    "Put the leads of Z11 on \n (A5, A8).",
+    "Connect the \n timer leads on (A1, A2) of the device.",
+    "Connect the \n D.C. again.",
+    "Inject the \n voltage by Z11.",
+    "Increase the \n injected voltage till the yellow lamp of the device switches off (reset \n value).",
+    "Decrease the \n injected voltage till the yellow lamp of the device reappears (set value).",
+    "After a certain \n time the timer stops counting, and the red lamp switches on (trip).",
+    "Record the \n results. at table 8"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential Protection (DTN \n920) \n(Figure 4)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer : ABB (Switzerland)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : DTN 920 \nFunction:F87"
+  },
+  {
+   "type": "paragraph",
+   "text": "(In) rated current : \n5A fn : \n50/60 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting: 0.2 Un \nInsulation test voltage for 1 min: Vp:2KVEFF"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 \n Vdc. control voltage. see figure 4",
+    "Inject current \n by Z11 in(268,265)&(268,266) & (268, 267) on the rosette for the \n incoming cubicles [high tension side ].",
+    "Inject \n current by Z11 in (264,261) & (264,262) & (264, 263) on the rosette for the \n transformers [low tension side ].",
+    "Increase the \n injected current till the red lamp of the device switches on. The relay \n trips instantaneously in each case.",
+    "Record the \n results for both sides at table 6."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "For \nTransformer Outgoing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject current \n by Z11 in(261,262)& (261,263) & (261, 264) on the rosette for the \n incoming cubicles [high tension side]."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the 220 Vdc. \n control voltage. see figure 6 page no. 18.",
+    "Inject current by Z11 in \n (250,231) & (250,235) & (250, 239) on the rosette for the transformers [high \n tension side ].",
+    "Inject current \n by Z11 in(261,262)& (261,263) & (261, 264) on the rosette for the \n incoming cubicles [high tension side].",
+    "Inject current by Z11 in \n (250,231) & (250,235) & (250, 239) on the rosette for the transformers [high \n tension side ].",
+    "Record the results for both sides ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finally \n maintenance procedures"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect all the testing leads and estrange the \n testing tools.",
+    "Put the C.B. in its original state to be on service \n any time.",
+    "Press the RESET button for the devices and check the relay setting .",
+    "Connect the D.C. after the limit switch connection.",
+    "Make the place clean of work signs."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet For Motors 6kv \nProtection Relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power station \n: \nManufacturer: \n Bay :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under Voltage Relay \n(Figure 1)-Table 1"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : \n UKT 911",
+     "Function: F27",
+     "Vp=2KVEFF"
+    ],
+    [
+     "P.T. :",
+     "P.T.R. :",
+     "Fn = 50/60 HZ"
+    ],
+    [
+     "Setting: 0.7 Un=100V, T motor = 5 sec",
+     "Auxiliary voltage: 220 Vdc",
+     "Un Rated \n Voltage = \n 100V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Signature:"
+    ],
+    [
+     "",
+     "Signature:"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Motor \nProtection Relay \n(Figure 2)-Table\n2"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : MCX \n 912",
+     "Vp=2KVEFF",
+     "ABB Switzerland"
+    ],
+    [
+     "Function: F49/50",
+     "Fn = 50/60 HZ",
+     "In Rated current =:5A"
+    ],
+    [
+     "C.T.",
+     "C.T.R.",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "MODE"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "t1>>"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "I>"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "I2"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "I0"
+  },
+  {
+   "type": "paragraph",
+   "text": "t10"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "T"
+  },
+  {
+   "type": "paragraph",
+   "text": "E"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Signature:"
+    ],
+    [
+     "",
+     "Signature:"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet For \nTransformer \nProtection Relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power station : \nManufacturer: \n Bay :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current & Short Circuit Relay \n(Figure 7)- Table 3"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : IKT 943 \n Fn=50/60HZ",
+     "Function: F 50/51",
+     "In Rated current =:5A"
+    ],
+    [
+     "C.T. \n :",
+     "C.T.R \n :",
+     "Auxiliary voltage: 220 Vdc"
+    ],
+    [
+     "Over current setting : Ir = In, T 6 sec",
+     "Vp = 2KVEFF",
+     "Short Circuit setting : 15 In"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Set value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset factor"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "O.C"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Ir = In, \n 6 sec"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S.C"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "15 In"
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault Relay \n(Figure 7)-Table 4"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : UKT 941",
+     "Function: F51N",
+     "ABB (Switzerland)"
+    ],
+    [
+     "C.T. \n :",
+     "C.T.R \n :",
+     "Auxiliary voltage: 220 Vdc"
+    ],
+    [
+     "Setting: 0.2In, T = 0.1 sec",
+     "Fn=50/60HZ",
+     "In (Rated \n Current) = 1A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Set value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "0.2 In , 0.1 sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under Voltage Relay\n(Figure 5)-Table 5"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : UKT 911",
+     "Function: F27G",
+     "ABB \n (Switzerland)"
+    ],
+    [
+     "Fn=50/60HZ",
+     "Vp = 2KVEFF",
+     ""
+    ],
+    [
+     "Setting: 0.2 In (Un =100 V),",
+     "T = 1.5 sec",
+     "Auxiliary voltage: 220 Vdc"
+    ],
+    [
+     "P.T. :",
+     "P.T.R :",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Set value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset factor"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "0.7 Un , 8 sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential Relay\n(Figure 4, 6)-Table 6"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "C.T. ( H.T.S. ) :",
+     "C.T.R. ( H.T.S. ) :",
+     "In \n (Rated Current = 5 A"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "L.T.S."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Set value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset factor"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "S"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "T"
+  },
+  {
+   "type": "paragraph",
+   "text": "COMMENT:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Signature:"
+    ],
+    [
+     "",
+     "Signature:"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet For \nMeasuring Instrument Cell 6 kv"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power station \n: Manufacturer: \n Bay :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under Voltage Relay\n(Figure 3)-Table 7"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : UKT 911",
+     "Function: F27",
+     ""
+    ],
+    [
+     "P.T. :",
+     "P.T.R :",
+     "Un \n : 100 V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Set value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset factor"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "0.7 Un , 5sec"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zero \nSequence Relay \n(Figure 3)-Table 8"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Type : UKT 911",
+     "Function: F27G",
+     ""
+    ],
+    [
+     "P.T. :",
+     "P.T.R :",
+     "Un : 100 V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Set value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset value"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Reset factor"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "0.2 Un , 1.5sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "COMMENT:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Signature:"
+    ],
+    [
+     "",
+     "Signature:"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "MOTOR PROTECTION RELAY MCX 912"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "FIGURE 4: INCOMING 1 BA ONLY"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "FIGURE 6: TRANSFORMER OUTGOING"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "FIGURE 7: TRANSFORMER OUTGOING"
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThis document outlines the testing procedure P1, which must be performed every \nsix months as indicated by M6 in the title block.\nThis patent concerns the test of protection \nrelays for the indoor 6.3KV circuit breakers, manufactured by ABB ARAB. The CB's are of \ntype either HB 07. 12.40V or HC 07. 25.40V, rating currents 1250 A, 2500A \nrespectively, and short circuit capacity 43.5KA, 3 sec.\nThe first draft initiated by \neng. Maysa Ahmady, tested at 27 Jan 2003 by eng. Iman Rizk El Ashry, reviewed by \nEDEPC quality control eng. Adel Abd EL Kader EL Nagar, accepted by general director \neng. Mahmoud Sakr, and approved by eng .Mohamed Reda Abd Al Aziz Soliman Pre-Sector Head Talkha PS.\nThe first update initiated \nby eng. Mahmoud Ibrahim Mahmoud, tested at 23 march 2009 by eng. Emad \nHamdy ,accepted by general director eng. Metwaly Elhendawy, and approved by eng \n.Farouk Awad Aly Pre-Sector Head Talkha PS. The following protection devices are \nused to protect the motors and transformers of 6.3kv.\nThis document reviewed by \nMDEPC quality control eng. Adel Abd EL Kader EL Nagar, accepted by eng. Samir \nAbd El Gilil; MDEPC inspection & quality control general director, MPIS \ncoordinator, and certified by accountant Mohamed Nageeb MDEPC inspection & \nquality control head sector.\nSafety Precautions\nA work permit \nmust be issued and the qualified test staff should carry the suitable \nsafely category\nA work permit \nmust be issued and the qualified test staff should carry the suitable \nsafely category\nSafety fence \nwith caution marks and no smoking signs surrounding the work area must be used.\nSafety fence \nwith caution marks and no smoking signs surrounding the work area must be used.\nWearing safety \nhelmet, shoes, cloths, and masks are necessary\nWearing safety \nhelmet, shoes, cloths, and masks are necessary\nBe aware of \n parts under voltage\nDisconnect the \n cell of work\nDraw the CB of \n the concerned cell in the 6.3kv hall\nPut the CB at \n test position\nCheck the \n indicating lamps of the cell\nCheck the \n existence of DC of the cell\nA bag of screws and nails.\nTwo testers units of type Z11.\nSome wires.\nA timer TM 2 ( Program ).\nA voltmeter and an ammeter.\nThe Protection Devices for Motors\nUnder voltage device.\nMulti function motor protection device ( S.C. \n O.C. current negative phase sequence earth fault ).\nThe Protection Devices for Transformer\nUnder voltage.\nEarth fault.\nShort circuit + Over current.\nDifferential.\nZero sequence relays.\nWork to be Carried Out\nUnder Voltage \nDevice ( UKT 911 ) \n(Figure 1)\nType: \nUKT 911 Vp = 2KVEFF\nFunction: F27 \nfn = 50/60 HZ\nManufacturer: ABB (Switzerland) \n(Un) Rated voltage = 100V\nSetting: 0.7 Un ( Un =100V ), T motor = 5 sec \nAuxiliary voltage: 220V dc\nMeasure the 220 V DC control voltage .\nDisconnect the D.C..\n see \n figure (1)\nLoosen ( A5, A8 ) of the device and put Z11 leads .\nPut timer leads on ( A1, A2 ) .\nReconnect the D.C.\nInject a voltage through Z11 till the reset value to \n remove the fault sign of the device ( yellow one )\nDecrease the voltage again to record the pick up ( \n operating ) value .\nThe timer starts counting at this moment and closes \n after the rated time. The trip sign (red one) shows up.\nRecord the results and compare them with the \n previous ones\n at table 1.\nMotor Protection (MCX912) (Figure 2)\nMulti Function Motor Protection\nType: MCX \n912 Vp = 2KVEFF\nAuxiliary voltage: 220V dc fn \n= 50/60 HZ\nManufacturer: ABB (Switzerland) Rated current = 5A\nIncluded Function : \n Over current protection\nShort \ncircuit protection\nEarth fault \nprotection\nNegative Phase Sequence\nOver Current\nMeasure the 220 Vdc. control \n voltage.\nDisconnect D.C. switch. \n see figure (2)\nPut the leads of Z11 on (A2, A3) of \n the device.\nDisconnect the trip leads either on \n (A8,A9) or (A4,A5), and connect the timer leads on them.\nConnect the D.C. again.\nInject the current by Z11.\nObserve the device screen till it \n flashes indicating a certain mode.\nAt a certain time the timer stops \n and the screen displays the operating mode (03) .\nConnect (A10, A11) instead of (A2, \n A3).\nRecord the results for phase R and \n phase T at \n table 2.\nShort Circuit\nDo the same procedures of testing \n over current element.\nMode (01) will appear on the device \n screen.\nRecord the results for phase R and \n phase T at table 2.\nEarth Fault\nThe test is\nonly performed at (A6, A7) on the device. These two terminals are \nthe only connected terminals to a ring core.\nThe same procedures mentioned \nbefore. Mode (07) will appear after its rated time.\nRecord the results for phase R and \nphase T at table 2.\nNegative Phase Sequence\nThe test is only performed\nat (A6, A7) on the device. These two terminals are the only connected \nterminals to a ring core.\nDo the same procedures of testing \n over current element.\nMode (05) will appear on the device \n screen.\nRecord the results for phase R and phase T at table 2.\nEarth Fault Protection of Transformers (IKT \n941) \n (Figure \n7)\nEarth Fault Protection\nType: \nIKT941 Auxiliary voltage : 220V\nFunction: F51N Setting \nEarth Fault : 0.2In, T=0.1 sec\n(In) \nrated current : 1A \n Manufacturer : ABB ( Switzerland \n)\nInsulation test voltage for 1 min: Vp:2KVEFF\nMeasure the 220 \n Vdc. control voltage.\nDisconnect the \n D.C. switch .(Figure \n7)\nPut the leads of \n Z11 on (A2, A3) of the device. (F51N Figure 7)\nDisconnect the \n trip leads either on (A8, A9) or (A4, A5), and connect the timer leads on \n them.\nConnect the D.C. \n again.\nInject the \n current by Z11.\nIncrease the \n injected current till the yellow lamp of the device switches on (signal).\nAt a certain time \n the timer stops counting, and the red lamp switches on (trip).\nRecord the \n results and compare them with the previous ones \n at table 4.\nShort Circuit & Over Current Protection \nof Transformers (IKT \n943) \n(Figure 7)\nManufacturer : ABB ( Switzerland ) Vp : \n2KVEFF\nType: IKT943 \nfn : 50/60 HZ\nFunction : F50/51 \n Auxiliary \nvoltage : 220V d.c\n(In) rated current : 5A \n Short circuit setting : 15 In\nOver \ncurrent setting : Ir = In ,T= 6 sec\nOver Current\nMeasure the 220 Vdc; control \n voltage.\nDisconnect the D.C. switch. (Figure \n 7)\nPut the leads of Z11 on (A2, A3) of \n the device. \n (F50/51 \n Figure 7)\nDisconnect the trip leads of (A4, \n A5), and connect the timer leads on them.\nConnect the D.C. again.\nInject the current by Z11.\nIncrease the injected current till \n the yellow lamp of the device switches on (signal).\nAt a certain time the timer stops \n counting, and the red lamp switches on (trip).\nRecord the results and compare them \n with the previous ones & settings.\nRepeat the same sequence for leads \n (A6, A7) then (A10, A11) instead of (A2, A3).\nShort Circuit\nMeasure the 220 Vdc. control \n voltage.\nDisconnect the D.C. switch .(Figure \n 7)\nPut \n the leads of Z11 on (A2, A3) of the device. \n (F50/51 Figure 7)\nDisconnect the trip leads either \n of (A8, A9), and connect the timer leads on them.\nConnect the D.C. again.\nInject the current by Z11.\nIncrease the injected current till \n the red lamp of the device switches on (trip). At this moment the timer \n closes instantaneously.\nRecord the results and compare \n them with the previous ones & settings.\nRepeat the same sequence for leads \n (A6, A7) then (A10, A11) instead of (A2, A3).\nZero Sequence Relay (E.F.R) \n (UKT 911) \n(Figure 3)\nType: \nUKT 911 Vp \n: 2KVEFF\nFunction: F27G fn : 50/60 HZ\nManufacturer: ABB (Switzerland) (Un) \nRated voltage = 100V T =1. 5 sec \nSetting: 0.2 Un ( Un =100V ) Auxiliary voltage:220V dc\nIt is available only in the \n measuring cubicles.\nMeasure the 220 \n Vdc. control voltage.\nDisconnect D.C. \n switch. (Figure 3)\nLoosen (A5, A8) \n of the device. (F27G Figure 3)\nPut the leads of Z11 on \n (A5, A8).\nConnect the \n timer leads on (A1, A2) of the device.\nConnect the \n D.C. again.\nInject the \n voltage by Z11.\nIncrease the \n injected voltage till the yellow lamp of the device switches off (reset \n value).\nDecrease the \n injected voltage till the yellow lamp of the device reappears (set value).\nAfter a certain \n time the timer stops counting, and the red lamp switches on (trip).\nRecord the \n results. at table 8\nDifferential Protection (DTN \n920) \n(Figure 4)\nManufacturer : ABB (Switzerland)\nType : DTN 920 \nFunction:F87\n(In) rated current : \n5A fn : \n50/60 HZ\nSetting: 0.2 Un \nInsulation test voltage for 1 min: Vp:2KVEFF\nMeasure the 220 \n Vdc. control voltage. see figure 4\nInject current \n by Z11 in(268,265)&(268,266) & (268, 267) on the rosette for the \n incoming cubicles [high tension side ].\nInject \n current by Z11 in (264,261) & (264,262) & (264, 263) on the rosette for the \n transformers [low tension side ].\nIncrease the \n injected current till the red lamp of the device switches on. The relay \n trips instantaneously in each case.\nRecord the \n results for both sides at table 6.\nFor \nTransformer Outgoing\nInject current \n by Z11 in(261,262)& (261,263) & (261, 264) on the rosette for the \n incoming cubicles [high tension side].\nMeasure the 220 Vdc. \n control voltage. see figure 6 page no. 18.\nInject current by Z11 in \n (250,231) & (250,235) & (250, 239) on the rosette for the transformers [high \n tension side ].\nInject current \n by Z11 in(261,262)& (261,263) & (261, 264) on the rosette for the \n incoming cubicles [high tension side].\nInject current by Z11 in \n (250,231) & (250,235) & (250, 239) on the rosette for the transformers [high \n tension side ].\nRecord the results for both sides .\nFinally \n maintenance procedures\nDisconnect all the testing leads and estrange the \n testing tools.\nPut the C.B. in its original state to be on service \n any time.\nPress the RESET button for the devices and check the relay setting .\nConnect the D.C. after the limit switch connection.\nMake the place clean of work signs.\nTest Sheet For Motors 6kv \nProtection Relays\nPower station \n: \nManufacturer: \n Bay :\nUnder Voltage Relay \n(Figure 1)-Table 1\n\nComment:\n\nMotor \nProtection Relay \n(Figure 2)-Table\n2\n\nMODE\nt1>>\nI>\nI2\nI0\nt10\nSetting\nT\nE\nS\nComment:\n\nTest Sheet For \nTransformer \nProtection Relays\nPower station : \nManufacturer: \n Bay :\nOver Current & Short Circuit Relay \n(Figure 7)- Table 3\n\nSetting\nSet value\nReset value\nReset factor\nO.C\nIr = In, \n 6 sec\nR\nS\nT\nR\nS\nT\nR\nS\nT\nS.C\n15 In\nEarth Fault Relay \n(Figure 7)-Table 4\n\nSetting\nSet value\nReset value\n0.2 In , 0.1 sec\nUnder Voltage Relay\n(Figure 5)-Table 5\n\nSetting\nSet value\nReset value\nReset factor\n0.7 Un , 8 sec\nDifferential Relay\n(Figure 4, 6)-Table 6\n\nL.T.S.\nSet value\nReset value\nReset factor\nSetting\nR\nS\nT\nR\nS\nT\nR\nS\nT\nR\nS\nT\nCOMMENT:\n\nTest Sheet For \nMeasuring Instrument Cell 6 kv\nPower station \n: Manufacturer: \n Bay :\nUnder Voltage Relay\n(Figure 3)-Table 7\n\nSetting\nSet value\nReset value\nReset factor\n0.7 Un , 5sec\nR\nZero \nSequence Relay \n(Figure 3)-Table 8\n\nSetting\nSet value\nReset value\nReset factor\n0.2 Un , 1.5sec\nCOMMENT:\n\n\n\n\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-001-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-001-2.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-001-3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-001-4.GIF",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-001-5.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-001-6.GIF",
+   "alt": ""
+  },
+  {
+   "src": "graphics/APS-001-7.gif",
+   "alt": ""
+  }
+ ]
+}

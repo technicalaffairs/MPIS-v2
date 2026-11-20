@@ -1,0 +1,490 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-018-r0-htm",
+ "doc_number": "DSR-018-R0",
+ "title_en": "DsR-018-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-018-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Networks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "Characteristic of the impedance measuring function in the line protection REL100"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure \ndetails the steps required to completely check the proper operation and \ncalibration of the REL 100 relay. It is recommended this procedures be carried out \non an annually bases."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first \npreliminary steps to prepare for relay testing describes the activities required \nprior to testing. Some of these steps could be performed days before the actual \ntest. The second section Preparation for testing describes the steps to set up \nthe equipment for performing the actual tests. The third section is the actual \ntest."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety\nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work \n area is required"
+  },
+  {
+   "type": "paragraph",
+   "text": "Personal protective equipment must be \n used as safety Helmet, and safety shoes... etc."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,",
+    "Safety fence with caution marks surrounding the work \n area is required",
+    "Personal protective equipment must be \n used as safety Helmet, and safety shoes... etc.",
+    "Check that the Bus and line disconnected switches are opened and Tagged.",
+    "Make sure\n CT secondary are shorted.",
+    "VT miniature circuit Breaker (MCB's) is isolated (opened) .",
+    "Isolate\n DC supplies to Relay. When doing any adjustments or Maintenance on The REL100 relay.",
+    "Isolate breaker failure (B.F) scheme associated with relay",
+    "Disturbance alarm or fault recorder associated with relay",
+    "Breaker trip coil and transfer trip scheme",
+    "Auto- recluse associated with the relay REL 100 (test\n plug isolate the above all points)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools And Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test set type XS92a.",
+    "Ammeter, Test leads",
+    "Timer"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Step to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material manufacture's manual",
+    "Obtain copy of relay REL 100 setting from field maintenance file",
+    "Obtain outage for line protected by this relay \n REL100.",
+    "Check that the bus and line disconnect switches are opened and tagged.",
+    "Block protection signal to: breaker trip coil and transfer trip schemes.",
+    "Go to the switchgear and inspect the CT's and VT miniature circuit breaker (MCB's) and all cabling supplying the relay.",
+    "Check that the cables are in good condition and the all wire connections are tight and clean."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedures"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone Reaches"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone I \nPhase To Earth"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Restore DC supply to REL100 relay\n scheme.",
+    "Prepare the set test XS92a as following:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "MOD \nZZ ( distance)"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZL \nup to setting X1 PZL=90 OR up to setting R1 at PZL =0"
+  },
+  {
+   "type": "paragraph",
+   "text": "PZL \nangle of setting line protected (0..360˚)"
+  },
+  {
+   "type": "paragraph",
+   "text": "K0 \n0.7"
+  },
+  {
+   "type": "paragraph",
+   "text": "FC \nfault code forward or reverse (111) phase to earth"
+  },
+  {
+   "type": "paragraph",
+   "text": "SQ \n1F1"
+  },
+  {
+   "type": "paragraph",
+   "text": "A \n2"
+  },
+  {
+   "type": "paragraph",
+   "text": "TF \ntime fault zone (250) m.sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "DZL \nstep parameters and range limits (0.1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Start(-) \ninjection of testing signals."
+  },
+  {
+   "type": "paragraph",
+   "text": "NOTE"
+  },
+  {
+   "type": "list",
+   "items": [
+    "We Entered The all above Parameters according to the flow chart of set Test XS92a",
+    "When the relay REL 100 gives tripping signal press\n ◙ to stop injection.",
+    "Read The values in hand terminal of test set X292a and compare this value with \n the value of setting in test sheet of relay.",
+    "Press the reset button on the relay front panel and check that the LED indicator resets and the alarm contacts open.",
+    "Repeat the above test with the phase S by using FC \"fault code\" (112) &T by using FC 113 for X1 at\n angle----& R1 at angle PZL 0˚ , Make sure Relay REL100 gives Trip signaling with all phases\n R, S, T.",
+    "Repeat the above test , but in the reverse direction by using FC \" fault code\" 011,012, 013, and make sure that the relay REL100 is blocked in reverse direction."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase to Phase"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Enter the all above parameters, using FC \" fault code\""
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Fault Code (FC) \nPhase R-S \n121 \n forward direction (Trip)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase S-T \n122 \nforward direction (Trip)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase T-R \n123 \n forward direction (Trip)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone II"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the above test for zone I, but change the value of X2 at PZL =90˚ , R2 at PZL = 0,Tf up to time of Z2 .",
+    "Make sure that the Relay \" REL100\" in forward direction (Trip) and reverse direction (Block)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone III"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the above test for zone II , but: X3 at PZL =90˚ and R3 at PZL =0˚, TF up to Time of Z3.",
+    "Make sure that the Relay REL100 in forward direction (Trip) and reverse direction ( Block)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone IV"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the above test for zone III, but X4 PZL =90˚ and R4 at PZL =0˚,TF up to Time of Z4.",
+    "Make sure that the relay REL100 in forward direction ( Trip ) and reverse\n direction ( Block ) with all phases R, S, T."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Operating Times"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The operating time of a distance Relay should measured using the tripping contact ( free contact) connected the free contact to (+) Red \"__\\__ \" \"yellow \" in the front panel of set test XS92a.",
+    "Entered the all parameters of Z1 by ZL = 0.5 ZL (setting)",
+    "When the trip occurs the injection automatically stopped by free contact. Then read the value of time zone I in hand terminal.",
+    "Repeat the above step to measuring the time of Zone II, III, IV"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Time of Z1 at ZL = 0.5 Z1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time of Z2 at ZL = 0.5 ( Z1+ Z2 )"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time of Z3 at ZL = 0.5 ( Z2+ Z3 )"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time of Z4 at ZL = 0.5 ( Z3+ Z4)"
+  },
+  {
+   "type": "paragraph",
+   "text": "NOTE"
+  },
+  {
+   "type": "paragraph",
+   "text": "How to Find \"Free Contact\" For Relay REL 100"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select any contact (free contact ) and measured DC (Not Found)",
+    "Measure ( Buzzer ) by using Avometer in this contact (Not Found).",
+    "Make \n trip by using set tester XS92a for Relay REL 100,then this free contact measured Buzzer by\n Avometer.",
+    "Then connect this free contact to set test XS92a in to point Red (+) and yellow \" __\\__\n \" in the front."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Communication Scheme"
+  },
+  {
+   "type": "paragraph",
+   "text": "According to setting adjust the scheme on No \"2\""
+  },
+  {
+   "type": "list",
+   "items": [
+    "According to setting adjust the scheme on No \"2\""
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Send Signal"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the test of zone I and make sure that the trip occur\n at time of zone I (t1) = 200 m.s"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure by using Avometer on d.c voltage on send contact on\n the relay (REL 100)\n * Avometer reading (0 V) contact close at trip (Z1)\n * Avometer reading (220 V) contact open at trip (Z1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the d.c voltage by using Avometer on send\n contact on the communication panel on the other side or exist counter on\n communication panel to send signal other side"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the d.c voltage by using Avometer on send\n contact on the communication panel on the other side or exist counter on\n communication panel to send signal other side"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "End to End Test \" Receive Signal \"For Relay REL100"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure that the relay REL100 trip Zone II at Time of Zone I (100 m.sec)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch ON to Fault (SOTF) Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the test of Zone (4) but ( SQ = 0F1 ) in set test XS92a",
+    "Make sure that Zone IV trip at time of Zone 1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Protection Scheme and Associated Equipment \nto Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return the rely REL100 to service by with drawing the test plug handle from the relay.",
+    "Make sure C.T secondary are opened.",
+    "Return the relay to service by restoring supply from voltage transformer (V.T) (M.C.B) is closed.",
+    "Place the associated Barker Failure ( B.F) protection scheme back in service.",
+    "Restore the previously blocked disturbance alarms and fault recorder associated with this protection.",
+    "Return the relay Power Line Carries (PLC) links to their normal position.",
+    "Turn ON the associated auto - reclos scheme.",
+    "Turn ON the power supply DC to relay REL100.",
+    "Take crossed reading of all AC currents and voltages supplied to the relay REL100 and compare them to those for normal load conditions.",
+    "Check that these readings agree with station Meters , MVAR , Power Factor ,Amperes , voltages.",
+    "Place a copy of the test results in the field maintenance file and Test sheet"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Report"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting Values"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Line:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Length: \nkm"
+  },
+  {
+   "type": "paragraph",
+   "text": "CT ratio"
+  },
+  {
+   "type": "paragraph",
+   "text": "VT ratio \nK0 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "X1 = \nR1 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "X2 = \nR2 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "X3 = \nR3 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "X4 = \nR4 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "T1 = \nm.sec. & \nT2 = \nm.sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "T3 = \nm.sec. & \nT4 = \nm.sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing\nResults"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase / Earth"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase / Phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Reaches"
+  },
+  {
+   "type": "paragraph",
+   "text": "Directionality of Relay REL100"
+  },
+  {
+   "type": "paragraph",
+   "text": "Forward [ ]"
+  },
+  {
+   "type": "paragraph",
+   "text": "OR \nReverse [ ]"
+  },
+  {
+   "type": "paragraph",
+   "text": "End to End Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch Into fault ( SOIF ) Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by"
+  },
+  {
+   "type": "paragraph",
+   "text": "Characteristic of the Impedance\nMeasuring Function in the line protection terminal REL 100"
+  },
+  {
+   "type": "paragraph",
+   "text": "Diagram of Control and Injection Parameters"
+  }
+ ],
+ "text": "Issued to: \n Networks\nIntroduction\nCharacteristic of the impedance measuring function in the line protection REL100\nThis procedure \ndetails the steps required to completely check the proper operation and \ncalibration of the REL 100 relay. It is recommended this procedures be carried out \non an annually bases.\nThe first \npreliminary steps to prepare for relay testing describes the activities required \nprior to testing. Some of these steps could be performed days before the actual \ntest. The second section Preparation for testing describes the steps to set up \nthe equipment for performing the actual tests. The third section is the actual \ntest.\nSafety\nPrecautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the work \n area is required\nPersonal protective equipment must be \n used as safety Helmet, and safety shoes... etc.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the work \n area is required\nPersonal protective equipment must be \n used as safety Helmet, and safety shoes... etc.\nCheck that the Bus and line disconnected switches are opened and Tagged.\nMake sure\n CT secondary are shorted.\nVT miniature circuit Breaker (MCB's) is isolated (opened) .\nIsolate\n DC supplies to Relay. When doing any adjustments or Maintenance on The REL100 relay.\nIsolate breaker failure (B.F) scheme associated with relay\nDisturbance alarm or fault recorder associated with relay\nBreaker trip coil and transfer trip scheme\nAuto- recluse associated with the relay REL 100 (test\n plug isolate the above all points)\nTools And Equipment\nTest set type XS92a.\nAmmeter, Test leads\nTimer\nWork to be Carried Out\nStep to Prepare for Relay Testing\nReview technical reference material manufacture's manual\nObtain copy of relay REL 100 setting from field maintenance file\nObtain outage for line protected by this relay \n REL100.\nCheck that the bus and line disconnect switches are opened and tagged.\nBlock protection signal to: breaker trip coil and transfer trip schemes.\nGo to the switchgear and inspect the CT's and VT miniature circuit breaker (MCB's) and all cabling supplying the relay.\nCheck that the cables are in good condition and the all wire connections are tight and clean.\nTesting Procedures\nZone Reaches\nZone I \nPhase To Earth\nRestore DC supply to REL100 relay\n scheme.\nPrepare the set test XS92a as following:\nMOD \nZZ ( distance)\nZL \nup to setting X1 PZL=90 OR up to setting R1 at PZL =0\nPZL \nangle of setting line protected (0..360˚)\nK0 \n0.7\nFC \nfault code forward or reverse (111) phase to earth\nSQ \n1F1\nA \n2\nTF \ntime fault zone (250) m.sec\nDZL \nstep parameters and range limits (0.1)\nStart(-) \ninjection of testing signals.\nNOTE\nWe Entered The all above Parameters according to the flow chart of set Test XS92a\nWhen the relay REL 100 gives tripping signal press\n ◙ to stop injection.\nRead The values in hand terminal of test set X292a and compare this value with \n the value of setting in test sheet of relay.\nPress the reset button on the relay front panel and check that the LED indicator resets and the alarm contacts open.\nRepeat the above test with the phase S by using FC \"fault code\" (112) &T by using FC 113 for X1 at\n angle----& R1 at angle PZL 0˚ , Make sure Relay REL100 gives Trip signaling with all phases\n R, S, T.\nRepeat the above test , but in the reverse direction by using FC \" fault code\" 011,012, 013, and make sure that the relay REL100 is blocked in reverse direction.\nPhase to Phase\nEnter the all above parameters, using FC \" fault code\"\nFault Code (FC) \nPhase R-S \n121 \n forward direction (Trip)\nPhase S-T \n122 \nforward direction (Trip)\nPhase T-R \n123 \n forward direction (Trip)\nZone II\nRepeat the above test for zone I, but change the value of X2 at PZL =90˚ , R2 at PZL = 0,Tf up to time of Z2 .\nMake sure that the Relay \" REL100\" in forward direction (Trip) and reverse direction (Block).\nZone III\nRepeat the above test for zone II , but: X3 at PZL =90˚ and R3 at PZL =0˚, TF up to Time of Z3.\nMake sure that the Relay REL100 in forward direction (Trip) and reverse direction ( Block)\nZone IV\nRepeat the above test for zone III, but X4 PZL =90˚ and R4 at PZL =0˚,TF up to Time of Z4.\nMake sure that the relay REL100 in forward direction ( Trip ) and reverse\n direction ( Block ) with all phases R, S, T.\nMeasuring the Operating Times\nThe operating time of a distance Relay should measured using the tripping contact ( free contact) connected the free contact to (+) Red \"__\\__ \" \"yellow \" in the front panel of set test XS92a.\nEntered the all parameters of Z1 by ZL = 0.5 ZL (setting)\nWhen the trip occurs the injection automatically stopped by free contact. Then read the value of time zone I in hand terminal.\nRepeat the above step to measuring the time of Zone II, III, IV\nTime of Z1 at ZL = 0.5 Z1\nTime of Z2 at ZL = 0.5 ( Z1+ Z2 )\nTime of Z3 at ZL = 0.5 ( Z2+ Z3 )\nTime of Z4 at ZL = 0.5 ( Z3+ Z4)\nNOTE\nHow to Find \"Free Contact\" For Relay REL 100\nSelect any contact (free contact ) and measured DC (Not Found)\nMeasure ( Buzzer ) by using Avometer in this contact (Not Found).\nMake \n trip by using set tester XS92a for Relay REL 100,then this free contact measured Buzzer by\n Avometer.\nThen connect this free contact to set test XS92a in to point Red (+) and yellow \" __\\__\n \" in the front.\nCommunication Scheme\nAccording to setting adjust the scheme on No \"2\"\nAccording to setting adjust the scheme on No \"2\"\nSend Signal\nRepeat the test of zone I and make sure that the trip occur\n at time of zone I (t1) = 200 m.s\nMeasure by using Avometer on d.c voltage on send contact on\n the relay (REL 100)\n * Avometer reading (0 V) contact close at trip (Z1)\n * Avometer reading (220 V) contact open at trip (Z1)\nMeasure the d.c voltage by using Avometer on send\n contact on the communication panel on the other side or exist counter on\n communication panel to send signal other side\nMeasure the d.c voltage by using Avometer on send\n contact on the communication panel on the other side or exist counter on\n communication panel to send signal other side\nEnd to End Test \" Receive Signal \"For Relay REL100\nMake sure that the relay REL100 trip Zone II at Time of Zone I (100 m.sec)\nSwitch ON to Fault (SOTF) Test\nRepeat the test of Zone (4) but ( SQ = 0F1 ) in set test XS92a\nMake sure that Zone IV trip at time of Zone 1\nReturn Protection Scheme and Associated Equipment \nto Service\nReturn the rely REL100 to service by with drawing the test plug handle from the relay.\nMake sure C.T secondary are opened.\nReturn the relay to service by restoring supply from voltage transformer (V.T) (M.C.B) is closed.\nPlace the associated Barker Failure ( B.F) protection scheme back in service.\nRestore the previously blocked disturbance alarms and fault recorder associated with this protection.\nReturn the relay Power Line Carries (PLC) links to their normal position.\nTurn ON the associated auto - reclos scheme.\nTurn ON the power supply DC to relay REL100.\nTake crossed reading of all AC currents and voltages supplied to the relay REL100 and compare them to those for normal load conditions.\nCheck that these readings agree with station Meters , MVAR , Power Factor ,Amperes , voltages.\nPlace a copy of the test results in the field maintenance file and Test sheet\nTest Report\nSetting Values\nDate:\nSubstation:\nLine:\nLength: \nkm\nCT ratio\nVT ratio \nK0 =\nX1 = \nR1 =\nX2 = \nR2 =\nX3 = \nR3 =\nX4 = \nR4 =\nT1 = \nm.sec. & \nT2 = \nm.sec.\nT3 = \nm.sec. & \nT4 = \nm.sec.\nTesting\nResults\nPhase / Earth\nDate:\nTested by\nPhase / Phase\nTime Reaches\nDirectionality of Relay REL100\nForward [ ]\nOR \nReverse [ ]\nEnd to End Test\nSwitch Into fault ( SOIF ) Test\nDate:\nTested by\nCharacteristic of the Impedance\nMeasuring Function in the line protection terminal REL 100\nDiagram of Control and Injection Parameters",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-018-r0-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-013-r0-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-013-r0-2.gif",
+   "alt": ""
+  }
+ ]
+}

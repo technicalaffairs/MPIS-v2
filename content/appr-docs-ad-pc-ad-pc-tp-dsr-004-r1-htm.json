@@ -1,0 +1,360 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-004-r1-htm",
+ "doc_number": "DSR-004-R1",
+ "title_en": "dsr-004-r1 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-004-r1.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Networks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure detail the steps required to completely check\nthe proper operation and calibration of the SD34a relay. It is recommended this\nprocedure be carried out on a yearly bases. This work be carried out section of\nthis document is divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The high-speed distance relay SD34a is electromechanical\nthree-phase distance relay, which is intended primarily for protection of medium\nand high voltage networks."
+  },
+  {
+   "type": "paragraph",
+   "text": "Over current starting relays are built into the SD34a relay,\nit also possible to connect additional under -impedance starting relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "The high speed distance relay SD34a operates with a pure\nstepped resistance time characteristic, consisting of 4 steps, indeed the relay\nhas 3 impedance steps and a part from the non-adjustable high-speed, step, three\nadjustable time steps, the last of which can function either directionally or\nindependently of direction. See figure 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation and work permit required.",
+    "Make sure CT secondary circuits are shorted.",
+    "Make sure CT secondary circuits are shorted."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test set type (R-ED-14-AEG) or equivalent",
+    "A single-phase secondary injection",
+    "Voltmeter, Clip-on ammeter",
+    "Phase rotation meter",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to Prepare fpr Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: manufacture's manual.",
+    "Obtain copy of relay setting from field maintenance file and compare it with\n the setting on the relay.",
+    "Use the station drawing to isolate the following:\n- Breaker trip coil \n- Breaker failure scheme associated with this relay.\n- Disturbance alarms and fault recorder associated with this of relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow all test procedure steps.",
+    "Verify the test results match the relay setting, if not consult technical\n services.",
+    "Test trip the breaker associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off load relay testing",
+    "Check that the panel nameplate agrees with the EEA designation of the line\n that has been taken out of service for maintenance.",
+    "Check there is no AC voltage from VT by using voltmeter.",
+    "Check there is no currents from CT by using clip-on ammeter.",
+    "Check all external connections to the relay are in good condition,",
+    "Check that the terminal block wires are tight."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedure (s)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure secondary circuits are shorted before isolating the\n current circuit of the relay",
+    "Using voltmeter check that there is DC voltage on the relay (+ ve on\n terminal 14 and -ve on terminal 15)",
+    "Switch off the MCB for AC voltage from voltage transformer.",
+    "Label the wires before moving from terminals of the relay.",
+    "Remove the wires from the current terminals (1, 2, 3, 4) and the voltage\n terminals (9, 10, 11, 12) from the relay.",
+    "Connect between the current terminals (1, 2, 3, 4) on distance relay current\n terminals (R, S, T, M) on AEG test set respectively.",
+    "Connect between the voltage terminals (9, 10, 11, 12) on distance relay to\n voltage terminals (U, V, W, NW) on the AEG test set respectively.",
+    "Connect the trip terminals (19, 20) on the distance relay to terminal (AUS\n KONTAKIL) on AEG test set.",
+    "Put a voltmeter in parallel with the voltage terminal on test set.",
+    "Put a clip-on meter with the current terminals on the test set.",
+    "Set the current selector switch(b4)as in fig on the test set to value\n according to rated current relay (which is set on the relay I to 10 A",
+    "Set the timer switch (gl) as in fig on the test set in scale (ms).",
+    "Set the (0) switches on the test set to zero position.",
+    "Set the main switch (b9-b7-bS) as in fig to (off) position.",
+    "The test set (AEG) can now be energized by plugging the main (input) card\n into a 220Va.c supply.",
+    "Set the main switch el to (ON) position."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Pick up Value of the Phase to Phase Measuring\nElements"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 1 Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select phase to phase fault by turning the test set phase selector\n switch (b3) to (RS) position.",
+    "Turn the (Q) switches (b9-b8-b7) to agree with the zone one setting.",
+    "Start the test by pushing down the push button (bl) ON.",
+    "The timer will stop once the relay has picked up which indicates that",
+    "The relay has operated (Br and Bs I) and tripped in first zone time\n instantaneously.",
+    "Switch off the test set by pushing down the switch b I.",
+    "Change the value of zone one impedance which is set on the test set by\n moving the (Q) switches (b9- b8-b7) up or down until the relay operates in the\n second step.",
+    "Record this value on the test sheet results."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 2 Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the (Q switches to agree with the zone two setting).",
+    "Start the test by pushing down the push button (on) the timer will stop once\n the relay has picked up which indicates that the relay has \npicked up which indicates that relay has operated and tripped in second zone \ntime.",
+    "Change the value of zone two impedance which is set on the test by turning\n the (Q) switches (b9 - b8 - b7) up or down until the relay operates in the\n third step.",
+    "Calculate the impedance reach of the measured value ZM=\n (b9+b8+b7) * Kf , which should agree the relay setting Kf :\n Correction factor \ndepend on the injection current and voltage and the max torque angle of the \nrelay.",
+    "Record this value on the test sheet results."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 3 Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the ( 0 ) switches to agree with the zone three setting .",
+    "Start the test by pushing down the button ( on ) the timer will stop once\n the relay has picked up which indicates that the relay has operated and\n tripped in third zone time.",
+    "Change the value of zone three impedance which is set on the test set by\n turning the ( Q ) switches up or down until the relay operates in the\n fourth step.",
+    "Record this value on test sheet results."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase to Phase Test for Other Phases (ST- TR)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the about tests from\nZone 1 test to Zone 3 test\nby changing the phase\n selector switch to (ST) and (TR) respectively."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Pick up Value of the Phase to Ground"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measurement Element"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the above tests from \nZone\n 1 test to Zone 3 test\nby changing phase selector switch to RM SM and TM respectively."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reverse Directional Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "This indicating that the fault is in the back ward direction."
+  },
+  {
+   "type": "paragraph",
+   "text": "NOTE: To be sure that the relay operate in back word\ndirection or not."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the (Q) switches ( b9 - b8 - b7 ) to agree with the zone one or second\n or third.",
+    "Start the test by pushing down the push button ( bl EIN if the timer will\n stop once the relay has pick up which indicates that the relay has operated\n and tripped in fourth zone time.",
+    "This indicating that the fault is in the back ward direction.",
+    "The last time contact of the fourth zone can be done made two function\n either directionally or non-directionally as desired according to whether\n terminals 30 - 31 (for directionally) or 30 - 35 (for non- directionally) are\n bridged.",
+    "The time contact t4 t3 (in fourth zone time) be mad to function",
+    "Directionally with test set (Ω)\n switch up to the setting of third zone impedance or made to function non-\n directionally with test set (Ω) switch set on the first, second or third\n impedance setting."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Operating Time"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the impedance on the test set to value which equals half the\n normal pick up value in the first time step for phase to phase fault this will\n allow good operation of zone one of the relay.",
+    "Select phase to phase fault position by turning the switch ( b3 I to (RM)\n position.",
+    "Rest the timer on the test set.",
+    "Start test by pushing down the push button b-oi (EIN the timer will stop\n once the relay has picked up.",
+    "Record the zone one tripping time from the timer on the test sheet.",
+    "Repeat the above test from step 1 to 5 to measure the zone two tripping time\n once again but this time set the impedance on the test set to value equal to\n (Zl+Z2)/2, (Z1+ Z2/2) which equal\n to the normal pickup value in the second time zone.",
+    "Repeat the above test from step 1 to 5 to measure the zone impedance on the\n test set to value equal to (Z2+Z3)/2). (Z1+Z2+Z3/2)",
+    "Repeat the above test from step 1 to 5 for phase to earth fault."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Over Current Starting Unit"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current for Phase (R)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect between two tow current terminals ( IR, IS,\n IT, or IM ) with the same position of the set current\n selector switch (b3) on the test set (AEG) to the current terminals (1 4 )\n on the distance relay",
+    "Slowly increase the current until the relay picks up.",
+    "Record this value on the test sheet. As a pick up current",
+    "Increase the injected current to value 25% greater than the operating\n value.",
+    "Slowly decrease the current until the relay resets.",
+    "Record this value on the test sheet. As reset current",
+    "Inject current higher than the setting point so that the relay picks up\n firmly.",
+    "Keep this value and switch off the test.",
+    "Connect the tripping terminals (19 - 20) on the distance relay to the\n timer terminals on the test set.",
+    "Switch on the test set.",
+    "Start the test by injecting current into the relay the will stop once the\n relay has picked up.",
+    "Record this value of time on the test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current Starting for Phases AND (T)"
+  },
+  {
+   "type": "paragraph",
+   "text": "This Complete the Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the switch (EIN - AUS) to (AUS) position and set the main switch of the\n test set to the (off) position.",
+    "Disconnect the (AEG) test set from the power supply.",
+    "Remove the test leads between the relay and test set.",
+    "Return the wires which were removed in step no 5 from Testing Procedures\n page no. 3"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip CB Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch (ON) the (M.C.B), which has switched off in step no 5\n from Testing Procedures page no. 3.",
+    "Request the operator to switch on the main C.B of the line.",
+    "Operate the output tripping contact by hand (or short between terminal 19\n - 20) to trip the circuit breaker."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test leads connection\n from the relay",
+    "Any equipment associated with the relay has been isolated should be\n returned to service by the following steps:\n - Breaker failure scheme associated with this relay.\n - Disturbance alarms and fault recorder associated with this of relay.",
+    "Check that \n CT and VT secondary circuits are in normal condition."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Returned Power Line to Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Line to be Returned to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents and voltages supplied to the relay\n and compare them to those for normal load condition.",
+    "Check that reading agree with station meters: \n (MW-MVAR-Power factor-Amperes-Voltages)",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  }
+ ],
+ "text": "\nIssued to: \n Networks\nIntroduction\nThis procedure detail the steps required to completely check\nthe proper operation and calibration of the SD34a relay. It is recommended this\nprocedure be carried out on a yearly bases. This work be carried out section of\nthis document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe high-speed distance relay SD34a is electromechanical\nthree-phase distance relay, which is intended primarily for protection of medium\nand high voltage networks.\nOver current starting relays are built into the SD34a relay,\nit also possible to connect additional under -impedance starting relay.\nThe high speed distance relay SD34a operates with a pure\nstepped resistance time characteristic, consisting of 4 steps, indeed the relay\nhas 3 impedance steps and a part from the non-adjustable high-speed, step, three\nadjustable time steps, the last of which can function either directionally or\nindependently of direction. See figure 1\nSafety Precautions\nLine isolation and work permit required.\nMake sure CT secondary circuits are shorted.\nMake sure CT secondary circuits are shorted.\nTools and Equipment\nTest set type (R-ED-14-AEG) or equivalent\nA single-phase secondary injection\nVoltmeter, Clip-on ammeter\nPhase rotation meter\nTest leads\nWork to be Carried Out\nSteps to Prepare fpr Relay Testing\nReview technical reference material: manufacture's manual.\nObtain copy of relay setting from field maintenance file and compare it with\n the setting on the relay.\nUse the station drawing to isolate the following:\n- Breaker trip coil \n- Breaker failure scheme associated with this relay.\n- Disturbance alarms and fault recorder associated with this of relay.\nTesting the Relay and Protection Outputs\nCarefully follow all test procedure steps.\nVerify the test results match the relay setting, if not consult technical\n services.\nTest trip the breaker associated with the relay.\nPreparation\nThis procedure is used to perform off load relay testing\nCheck that the panel nameplate agrees with the EEA designation of the line\n that has been taken out of service for maintenance.\nCheck there is no AC voltage from VT by using voltmeter.\nCheck there is no currents from CT by using clip-on ammeter.\nCheck all external connections to the relay are in good condition,\nCheck that the terminal block wires are tight.\nTesting Procedure (s)\nMake sure secondary circuits are shorted before isolating the\n current circuit of the relay\nUsing voltmeter check that there is DC voltage on the relay (+ ve on\n terminal 14 and -ve on terminal 15)\nSwitch off the MCB for AC voltage from voltage transformer.\nLabel the wires before moving from terminals of the relay.\nRemove the wires from the current terminals (1, 2, 3, 4) and the voltage\n terminals (9, 10, 11, 12) from the relay.\nConnect between the current terminals (1, 2, 3, 4) on distance relay current\n terminals (R, S, T, M) on AEG test set respectively.\nConnect between the voltage terminals (9, 10, 11, 12) on distance relay to\n voltage terminals (U, V, W, NW) on the AEG test set respectively.\nConnect the trip terminals (19, 20) on the distance relay to terminal (AUS\n KONTAKIL) on AEG test set.\nPut a voltmeter in parallel with the voltage terminal on test set.\nPut a clip-on meter with the current terminals on the test set.\nSet the current selector switch(b4)as in fig on the test set to value\n according to rated current relay (which is set on the relay I to 10 A\nSet the timer switch (gl) as in fig on the test set in scale (ms).\nSet the (0) switches on the test set to zero position.\nSet the main switch (b9-b7-bS) as in fig to (off) position.\nThe test set (AEG) can now be energized by plugging the main (input) card\n into a 220Va.c supply.\nSet the main switch el to (ON) position.\nChecking the Pick up Value of the Phase to Phase Measuring\nElements\nZone 1 Test\nSelect phase to phase fault by turning the test set phase selector\n switch (b3) to (RS) position.\nTurn the (Q) switches (b9-b8-b7) to agree with the zone one setting.\nStart the test by pushing down the push button (bl) ON.\nThe timer will stop once the relay has picked up which indicates that\nThe relay has operated (Br and Bs I) and tripped in first zone time\n instantaneously.\nSwitch off the test set by pushing down the switch b I.\nChange the value of zone one impedance which is set on the test set by\n moving the (Q) switches (b9- b8-b7) up or down until the relay operates in the\n second step.\nRecord this value on the test sheet results.\nZone 2 Test\nSet the (Q switches to agree with the zone two setting).\nStart the test by pushing down the push button (on) the timer will stop once\n the relay has picked up which indicates that the relay has \npicked up which indicates that relay has operated and tripped in second zone \ntime.\nChange the value of zone two impedance which is set on the test by turning\n the (Q) switches (b9 - b8 - b7) up or down until the relay operates in the\n third step.\nCalculate the impedance reach of the measured value ZM=\n (b9+b8+b7) * Kf , which should agree the relay setting Kf :\n Correction factor \ndepend on the injection current and voltage and the max torque angle of the \nrelay.\nRecord this value on the test sheet results.\nZone 3 Test\nSet the ( 0 ) switches to agree with the zone three setting .\nStart the test by pushing down the button ( on ) the timer will stop once\n the relay has picked up which indicates that the relay has operated and\n tripped in third zone time.\nChange the value of zone three impedance which is set on the test set by\n turning the ( Q ) switches up or down until the relay operates in the\n fourth step.\nRecord this value on test sheet results.\nPhase to Phase Test for Other Phases (ST- TR)\nRepeat the about tests from\nZone 1 test to Zone 3 test\nby changing the phase\n selector switch to (ST) and (TR) respectively.\nChecking the Pick up Value of the Phase to Ground\nMeasurement Element\nRepeat the above tests from \nZone\n 1 test to Zone 3 test\nby changing phase selector switch to RM SM and TM respectively.\nReverse Directional Test\nThis indicating that the fault is in the back ward direction.\nNOTE: To be sure that the relay operate in back word\ndirection or not.\nSet the (Q) switches ( b9 - b8 - b7 ) to agree with the zone one or second\n or third.\nStart the test by pushing down the push button ( bl EIN if the timer will\n stop once the relay has pick up which indicates that the relay has operated\n and tripped in fourth zone time.\nThis indicating that the fault is in the back ward direction.\nThe last time contact of the fourth zone can be done made two function\n either directionally or non-directionally as desired according to whether\n terminals 30 - 31 (for directionally) or 30 - 35 (for non- directionally) are\n bridged.\nThe time contact t4 t3 (in fourth zone time) be mad to function\nDirectionally with test set (Ω)\n switch up to the setting of third zone impedance or made to function non-\n directionally with test set (Ω) switch set on the first, second or third\n impedance setting.\nMeasuring the Operating Time\nSet the impedance on the test set to value which equals half the\n normal pick up value in the first time step for phase to phase fault this will\n allow good operation of zone one of the relay.\nSelect phase to phase fault position by turning the switch ( b3 I to (RM)\n position.\nRest the timer on the test set.\nStart test by pushing down the push button b-oi (EIN the timer will stop\n once the relay has picked up.\nRecord the zone one tripping time from the timer on the test sheet.\nRepeat the above test from step 1 to 5 to measure the zone two tripping time\n once again but this time set the impedance on the test set to value equal to\n (Zl+Z2)/2, (Z1+ Z2/2) which equal\n to the normal pickup value in the second time zone.\nRepeat the above test from step 1 to 5 to measure the zone impedance on the\n test set to value equal to (Z2+Z3)/2). (Z1+Z2+Z3/2)\nRepeat the above test from step 1 to 5 for phase to earth fault.\nChecking the Over Current Starting Unit\nOver Current for Phase (R)\nConnect between two tow current terminals ( IR, IS,\n IT, or IM ) with the same position of the set current\n selector switch (b3) on the test set (AEG) to the current terminals (1 4 )\n on the distance relay\nSlowly increase the current until the relay picks up.\nRecord this value on the test sheet. As a pick up current\nIncrease the injected current to value 25% greater than the operating\n value.\nSlowly decrease the current until the relay resets.\nRecord this value on the test sheet. As reset current\nInject current higher than the setting point so that the relay picks up\n firmly.\nKeep this value and switch off the test.\nConnect the tripping terminals (19 - 20) on the distance relay to the\n timer terminals on the test set.\nSwitch on the test set.\nStart the test by injecting current into the relay the will stop once the\n relay has picked up.\nRecord this value of time on the test sheet.\nOver Current Starting for Phases AND (T)\nThis Complete the Test\nSet the switch (EIN - AUS) to (AUS) position and set the main switch of the\n test set to the (off) position.\nDisconnect the (AEG) test set from the power supply.\nRemove the test leads between the relay and test set.\nReturn the wires which were removed in step no 5 from Testing Procedures\n page no. 3\nTrip CB Test\nSwitch (ON) the (M.C.B), which has switched off in step no 5\n from Testing Procedures page no. 3.\nRequest the operator to switch on the main C.B of the line.\nOperate the output tripping contact by hand (or short between terminal 19\n - 20) to trip the circuit breaker.\nReturn Relay and Associated Equipment to Service\nReturn relay to service by removing the test leads connection\n from the relay\nAny equipment associated with the relay has been isolated should be\n returned to service by the following steps:\n - Breaker failure scheme associated with this relay.\n - Disturbance alarms and fault recorder associated with this of relay.\nCheck that \n CT and VT secondary circuits are in normal condition.\nReturned Power Line to Service\nRequest Power Line to be Returned to Service\nTake crossed readings of all AC currents and voltages supplied to the relay\n and compare them to those for normal load condition.\nCheck that reading agree with station meters: \n (MW-MVAR-Power factor-Amperes-Voltages)\nPlace a copy of the test result in the field maintenance file.",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-004-r0-1.gif",
+   "alt": ""
+  }
+ ]
+}

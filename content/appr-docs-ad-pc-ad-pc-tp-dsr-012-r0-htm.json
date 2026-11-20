@@ -1,0 +1,346 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-012-r0-htm",
+ "doc_number": "DSR-012-R0",
+ "title_en": "DsR-012-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-012-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protections",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This\n document outlines the testing procedure P1, which must be performed on an \n annually bases as\n indicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document initiated by eng. Hoda Mohamed \n Ahmed at Alx zone, tested by eng. Heba Abdel Meniem at Dekhaila II - Sedi \n Kirir PS, accepted by eng. Madiha Al Nagar general director, and certified by \n eng Esam Sadeq general director of Alx network and MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the maintenance staff should carry the suitable safety category,",
+    "Maintenance \n staff should be well trained, qualified or directly supervised by some one \n who is.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Safety and healthy \n equipment must be used (safety helmet , safety shoes ... etc).",
+    "Disconnect the DC supply and\n Insert the test socket",
+    "Connect the current terminal of the relay on the \n test socket to the testing equipment and be sure that the remaining current circuit is closed.",
+    "Connect the voltage terminal of the relay on the \n test socket to the testing equipment.",
+    "Connect the tripping output of the relay on the \n test socket to the stop contact of the testing equipment.",
+    "Remove the output from the relay, which initiate \n breaker failure.",
+    "Remove the output from the relay, which initiate \n event recorder and fault recorder."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Safety \n helmet and safety shoes.",
+    "Three Phase injection test set \n Reference:",
+    "Distance Protection test set \n Reference:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work\nto be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Merlin Gerin",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Panel",
+     "",
+     "Feeder",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Vx",
+     "220 V DC",
+     "CT Ratio",
+     "2500/1",
+     "VT Ratio",
+     "220/0.1"
+    ],
+    [
+     "Vn",
+     "100 V AC",
+     "In",
+     "1A",
+     "Test Set Used",
+     "TZ/2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Communications Set Up"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Enter \" communication \" menu of window in the following sequence"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.",
+    "Enter \" communication \" menu of window in the following sequence"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Accessories",
+     "→",
+     "Terminal",
+     "→",
+     "Parameters",
+     "→",
+     "Communications"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Apply setting to connect port"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "2400",
+     "",
+     "8",
+     "",
+     "1"
+    ],
+    [
+     "",
+     "None",
+     "Flow control",
+     "X on / X off",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "list",
+   "items": [
+    "Parity"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Entering Distance Protection Software"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: Darken areas \nshow characters to be typed"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "2ACC",
+     "",
+     "TAIL"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Checks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zones Timing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the timer to output 32"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pull the fault recorder cartage out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the wire # 335 from the relay to prevent the event recorder \noperation."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the timer to output 32",
+    "Pull the fault recorder cartage out",
+    "Disconnect the wire # 335 from the relay to prevent the event recorder \noperation."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tele Protection Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check \n\"EDCB\" logic Blocking V Scheme"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check \n\"EDCB\" logic Blocking V Scheme"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 2 Fault"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 2 Fault + \"BT\" Receive"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "OK",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 3 Fault + \"BT\" Sent"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "OK"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Requirements for Relay to be back to Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Close the CB for testing the circuit"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test the relay with any zone to check the trip \ncircuit"
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the test terminal (voltage and current )"
+  },
+  {
+   "type": "paragraph",
+   "text": "Call the dispatching center to put back the feeder \ninto service and after that check the following"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Close the CB for testing the circuit",
+    "Test the relay with any zone to check the trip \ncircuit",
+    "Remove the test terminal (voltage and current )",
+    "Call the dispatching center to put back the feeder \ninto service and after that check the following"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The current circuit with the clamp meter for all \nphases"
+  },
+  {
+   "type": "paragraph",
+   "text": "The voltage circuit for all phases"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The current circuit with the clamp meter for all \nphases",
+    "The voltage circuit for all phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation Name: \nFeeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: \nSignature: \nTested Date:"
+  }
+ ],
+ "text": "\nIntroduction\nThis\n document outlines the testing procedure P1, which must be performed on an \n annually bases as\n indicated by Y1 in the title block.\nThis document initiated by eng. Hoda Mohamed \n Ahmed at Alx zone, tested by eng. Heba Abdel Meniem at Dekhaila II - Sedi \n Kirir PS, accepted by eng. Madiha Al Nagar general director, and certified by \n eng Esam Sadeq general director of Alx network and MPIS coordinator.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category,\nMaintenance \n staff should be well trained, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nSafety and healthy \n equipment must be used (safety helmet , safety shoes ... etc).\nDisconnect the DC supply and\n Insert the test socket\nConnect the current terminal of the relay on the \n test socket to the testing equipment and be sure that the remaining current circuit is closed.\nConnect the voltage terminal of the relay on the \n test socket to the testing equipment.\nConnect the tripping output of the relay on the \n test socket to the stop contact of the testing equipment.\nRemove the output from the relay, which initiate \n breaker failure.\nRemove the output from the relay, which initiate \n event recorder and fault recorder.\nTools and Equipment\nSafety \n helmet and safety shoes.\nThree Phase injection test set \n Reference:\nDistance Protection test set \n Reference:\nWork\nto be Carried Out\n\nCommunications Set Up\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\nConnect serial output (Com 1 or Com 2) of portable computer to serial port 3 of \ndistance protection relay.\nEnter \" communication \" menu of window in the following sequence\n\nApply setting to connect port\n\nParity\nEntering Distance Protection Software\nNote: Darken areas \nshow characters to be typed\n\nPreliminary Checks\nZones Timing\nConnect the timer to output 32\nPull the fault recorder cartage out\nDisconnect the wire # 335 from the relay to prevent the event recorder \noperation.\nConnect the timer to output 32\nPull the fault recorder cartage out\nDisconnect the wire # 335 from the relay to prevent the event recorder \noperation.\nTele Protection Test\nCheck \n\"EDCB\" logic Blocking V Scheme\nCheck \n\"EDCB\" logic Blocking V Scheme\nZone 2 Fault\nZone 2 Fault + \"BT\" Receive\n\nZone 3 Fault + \"BT\" Sent\n\nRequirements for Relay to be back to Service\nClose the CB for testing the circuit\nTest the relay with any zone to check the trip \ncircuit\nRemove the test terminal (voltage and current )\nCall the dispatching center to put back the feeder \ninto service and after that check the following\nClose the CB for testing the circuit\nTest the relay with any zone to check the trip \ncircuit\nRemove the test terminal (voltage and current )\nCall the dispatching center to put back the feeder \ninto service and after that check the following\nThe current circuit with the clamp meter for all \nphases\nThe voltage circuit for all phases\nThe current circuit with the clamp meter for all \nphases\nThe voltage circuit for all phases\nSubstation Name: \nFeeder Name:\nTested by: \nSignature: \nTested Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-012-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-012-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-012-03.jpg",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,536 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dfr-010-r0-htm",
+ "doc_number": "DFR-010-R0",
+ "title_en": "DFR-010-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DfR-010-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Introduction"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, qualified maintenance \nstaff carry the suitable safety ID category,",
+    "Safety fence with caution marks surrounding the work area is \nrequired,",
+    "Safety and healthy \nequipment must be used as safety shoes, safety Helmet ..etc"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection type Sverker or any set injection",
+    "Multimeter (0 -----> 250 rac & 0 -----> 10 Aac)",
+    "Communication local loop-back- link, (direct link to connect t x by R x locally )",
+    "MMLBO 1 test plug for use with MMLG test black",
+    "Optical power meter to measure the optical signal level IF\n required (sensitivity - 10 ----> - 50 dBm)"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Works to be Carried Out"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Steps \nto Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material manufacturer's manual",
+    "Obtain outage for line protected by the relay",
+    "Inspect the secondary circuits of C.T and all cabling\n supplying the relay"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Before inserting the test plug into the relay check from the\n station drawing that the test plug will isolate :-\n - Breaker trip coils\n - Breaker failure scheme associated with this relay\n - Fault recorder, event recorder and disturbance alarm associated with this\n relay\n - If the test plug not isolate one of the previous steps you have to isolate\n it",
+    "Link the local Tx output with the local Rx input with a\n suitable communication loop-back link"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Testing the Relay \nand the Relay Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the relay setting accuracy. (diff prot u)",
+    "Check the diff prot u operating time",
+    "Current i/p accuracy and polarity checks",
+    "Lamp test",
+    "Communication supervision alarm",
+    "Bias ch s",
+    "Test trip C.B (both sides) associated with the relay"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Relay Setting Accuracy"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject a current into the A-phase at using sverker test set. (How to use\n sverker test set phase see document No. pc-ss-003-r0 which approved in\n 23/12/1996",
+    "Slowly increase the current till the relay operates rd the current\n magnitude and check that it is equal to \n [0.5xIS1/(1-0.5K1)]\n P.U",
+    "Check that the trip lamp turns steadily and the alarm lamp flashes.",
+    "Slowly decrease the current until the relay contacts reset",
+    "Check that the reset / operate current ratio is approx (0.75/1)",
+    "Push accept / read and check display \" diff prot trip phase A\n \"",
+    "Push accept / read and check display \" diff inter trip phase A\n \"",
+    "Push accept / read & reset to clear alarms",
+    "Press \n to display \" protu alarm records \"",
+    "Press \n and check and alarm record # 1 is \" diff prot trip Phase A\"",
+    "Press \n to display \"prot fault\n records\"",
+    "Press \n and check fault record # 1 is \"diff phase A\"",
+    "To display (( current differential ))",
+    "Repeat steps 1-14 for phase B.&C."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Diff Prot Operating time"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject a current equal 1A (see fig)",
+    "Close sw1 and check that the average operating time is less than 30 ms."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Current i/p accuracy and \nPolarity\nchecks"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject 0.5 a current (0.5 A for a 1A relay or 2.5 A for a 5 A relay) into\n the relay as show in fig (2) the relay will trip and give steady trip. And a\n flashing ALARM indication, ALL trip and protection operated output contacts\n will close",
+    "Accept the alarm by pressing ACCEPT / READ twice to display \" ***\n ALARM *** \"",
+    "Them check the following current \n measurements:\n *\n Press to display \" MEASUREMENTS\n \"\n *\n Press \n and check that I1 is\n 0.00-0.02 pu\n *\n Press and check that I2 is\n 0.00-0.02 pu \n *\n Press and check that I0 is\n 0.48-0.52 pu\n *\n Press \n and check that A-phase LOCAL is\n 0.48-0.52 pu\n *\n Press \n and check that A-phase REMOTE is\n 0.48-0.52 pu\n *\n Press and check that A-phase DIFF is\n 0.96-1.04 pu\n *\n Press and check that A-phase bias \n is 0.48-0.52 pu\n *\n Press \n and check B-phase as step N 3 \n *\n Press \n and check C-phase as step N 3 \n *\n Press \n to return to the default\n display",
+    "The previous test cane be carried out by injecting 0.5 A into one phase\n only (for ex into terminal A21 / A22 ) then the\n readings should be as follows:\n I1 \n 0.15 - D - 18 pu\n I2 \n 0.15 - D - 18 pu\n I0 \n 0.15 - D - 18 pu"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "* Injected phase \n* Other phases"
+  },
+  {
+   "type": "paragraph",
+   "text": "LOCAL \n0.48-0.52\npu \n0.0-0.02 pu"
+  },
+  {
+   "type": "paragraph",
+   "text": "REMOTE \n0.48-0.52 pu \n0.0-0.02 pu"
+  },
+  {
+   "type": "paragraph",
+   "text": "DIFF \n0.96-0.52 pu \n0.0-0.02 pu"
+  },
+  {
+   "type": "paragraph",
+   "text": "BIAS \n0.48-0.52\npu \n0.0-0.02 pu"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Lamp Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Push \n to\n display \" PUSH FOR LAMP TEST \"",
+    "Push \n constantly and check all 4 led turn ON after one second the green RELAY HEALTHY lamp\n goes off",
+    "Release the \n key and check that the RELAY healthy lamp\n turns ON and the other 3 lamps go off after a short while"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Communication Supervision Alarm"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect the communication loop-back link and check that the alarm lamp\n flashes after the expiry of the communication alarm time9.9 see (typical\n setting)",
+    "Check also that the alarm contact (G7 -G8) closes",
+    "Reconnect the communication loop-back link and check that the alarm\n contact resets",
+    "Push ACCEPT / READ and check display \" prot SCHEME FAIL \"",
+    "Push ACCEPT / READ and check display \"communication CHAN FAILED -\n CHAN 1 FAIL \"",
+    "Clear these alarm to display \" current differential \"",
+    "Press \n to display \" prot ALARM RECORDS \"",
+    "Press \n and check alarm record # 1 display \"COMM. CHAN FAILED. CHAN 1 RX FAIL\"",
+    "Press \n to return to \" CURRENT DIFFERENTIAL \""
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Bias c/cs"
+  },
+  {
+   "type": "paragraph",
+   "text": "A current is injected into A-phase which is used as the bias current and\n an other current in injected into B-phase. which is used as diff current\n (fig 3)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Lower Slope"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject a current of 1 pu in the A-phase. the relay will trip and the\n contacts associated with A-phase will operate",
+    "Push ACCEPT / READ twice to accept the alarms which indicate diff prot and\n inter trip phase A have operated",
+    "Push ACCEPT / READ twice more and check that the display show \" ***\n ALARMS *** \"message and the ALARM lamp is steadily ON",
+    "Slowly increase the current in the B-phase until the phase B contacts\n operate and the ALARM lamp flashes again",
+    "Accept the alarms and check that the display shows phase A and B have\n operated",
+    "Record the phase B current magnitude and check that it is 0.25 pu +\n 10 %\n Assuming IS1 = 0.2\n pu \n K1 =30 %\n IS2 = 0.2\n pu \n K2 =150 % \n Generally the\n operate current is 0.5 x (IS1 + K1) pu",
+    "Switch off the ac supply and reset the alarms"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Upper Slope"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat test 6-1 steps 1-- 3 and inject current- 3 pu",
+    "Slowly increase the current in B-phase until the relay operates for both A\n and B phases",
+    "Record the current magnitude and check that it is 1-15 + 20 % At\n the same values step 6-1-6 generally the operate current is : 0.5 x [(3 x K2)\n + IS1 - (K2 - K1) IS2]",
+    "Switch off the ac supply and reset the alarms"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "for Pilot Differential Relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date:\nFeeder name:\nRelay type:\nManufacturer:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay setting a currency setting\n IS1 ="
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Drop off",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "2. Current (I / P ) A currency and Polarity"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "IRemot",
+     "",
+     "",
+     ""
+    ],
+    [
+     "IDIFF",
+     "",
+     "",
+     ""
+    ],
+    [
+     "IBIAS",
+     "",
+     "",
+     ""
+    ],
+    [
+     "I1",
+     "",
+     "",
+     ""
+    ],
+    [
+     "I2",
+     "",
+     "",
+     ""
+    ],
+    [
+     "I0",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \n........................................... \n Relay Designation:\n........................................... \nChecked by: ........................................... \nDate: ....................... Signature: \n....................."
+  }
+ ],
+ "text": "\nIntroduction\nSafety Precautions\nA work permit must be issued, qualified maintenance \nstaff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the work area is \nrequired,\nSafety and healthy \nequipment must be used as safety shoes, safety Helmet ..etc\nTools and Equipment\nSecondary injection type Sverker or any set injection\nMultimeter (0 -----> 250 rac & 0 -----> 10 Aac)\nCommunication local loop-back- link, (direct link to connect t x by R x locally )\nMMLBO 1 test plug for use with MMLG test black\nOptical power meter to measure the optical signal level IF\n required (sensitivity - 10 ----> - 50 dBm)\nWorks to be Carried Out\nSteps \nto Prepare for Relay Testing\nReview technical reference material manufacturer's manual\nObtain outage for line protected by the relay\nInspect the secondary circuits of C.T and all cabling\n supplying the relay\nBefore inserting the test plug into the relay check from the\n station drawing that the test plug will isolate :-\n - Breaker trip coils\n - Breaker failure scheme associated with this relay\n - Fault recorder, event recorder and disturbance alarm associated with this\n relay\n - If the test plug not isolate one of the previous steps you have to isolate\n it\nLink the local Tx output with the local Rx input with a\n suitable communication loop-back link\nTesting the Relay \nand the Relay Outputs\nCheck the relay setting accuracy. (diff prot u)\nCheck the diff prot u operating time\nCurrent i/p accuracy and polarity checks\nLamp test\nCommunication supervision alarm\nBias ch s\nTest trip C.B (both sides) associated with the relay\nRelay Setting Accuracy\nInject a current into the A-phase at using sverker test set. (How to use\n sverker test set phase see document No. pc-ss-003-r0 which approved in\n 23/12/1996\nSlowly increase the current till the relay operates rd the current\n magnitude and check that it is equal to \n [0.5xIS1/(1-0.5K1)]\n P.U\nCheck that the trip lamp turns steadily and the alarm lamp flashes.\nSlowly decrease the current until the relay contacts reset\nCheck that the reset / operate current ratio is approx (0.75/1)\nPush accept / read and check display \" diff prot trip phase A\n \"\nPush accept / read and check display \" diff inter trip phase A\n \"\nPush accept / read & reset to clear alarms\nPress \n to display \" protu alarm records \"\nPress \n and check and alarm record # 1 is \" diff prot trip Phase A\"\nPress \n to display \"prot fault\n records\"\nPress \n and check fault record # 1 is \"diff phase A\"\nTo display (( current differential ))\nRepeat steps 1-14 for phase B.&C.\nDiff Prot Operating time\nInject a current equal 1A (see fig)\nClose sw1 and check that the average operating time is less than 30 ms.\nCurrent i/p accuracy and \nPolarity\nchecks\nInject 0.5 a current (0.5 A for a 1A relay or 2.5 A for a 5 A relay) into\n the relay as show in fig (2) the relay will trip and give steady trip. And a\n flashing ALARM indication, ALL trip and protection operated output contacts\n will close\nAccept the alarm by pressing ACCEPT / READ twice to display \" ***\n ALARM *** \"\nThem check the following current \n measurements:\n *\n Press to display \" MEASUREMENTS\n \"\n *\n Press \n and check that I1 is\n 0.00-0.02 pu\n *\n Press and check that I2 is\n 0.00-0.02 pu \n *\n Press and check that I0 is\n 0.48-0.52 pu\n *\n Press \n and check that A-phase LOCAL is\n 0.48-0.52 pu\n *\n Press \n and check that A-phase REMOTE is\n 0.48-0.52 pu\n *\n Press and check that A-phase DIFF is\n 0.96-1.04 pu\n *\n Press and check that A-phase bias \n is 0.48-0.52 pu\n *\n Press \n and check B-phase as step N 3 \n *\n Press \n and check C-phase as step N 3 \n *\n Press \n to return to the default\n display\nThe previous test cane be carried out by injecting 0.5 A into one phase\n only (for ex into terminal A21 / A22 ) then the\n readings should be as follows:\n I1 \n 0.15 - D - 18 pu\n I2 \n 0.15 - D - 18 pu\n I0 \n 0.15 - D - 18 pu\n* Injected phase \n* Other phases\nLOCAL \n0.48-0.52\npu \n0.0-0.02 pu\nREMOTE \n0.48-0.52 pu \n0.0-0.02 pu\nDIFF \n0.96-0.52 pu \n0.0-0.02 pu\nBIAS \n0.48-0.52\npu \n0.0-0.02 pu\nLamp Test\nPush \n to\n display \" PUSH FOR LAMP TEST \"\nPush \n constantly and check all 4 led turn ON after one second the green RELAY HEALTHY lamp\n goes off\nRelease the \n key and check that the RELAY healthy lamp\n turns ON and the other 3 lamps go off after a short while\nCommunication Supervision Alarm\nDisconnect the communication loop-back link and check that the alarm lamp\n flashes after the expiry of the communication alarm time9.9 see (typical\n setting)\nCheck also that the alarm contact (G7 -G8) closes\nReconnect the communication loop-back link and check that the alarm\n contact resets\nPush ACCEPT / READ and check display \" prot SCHEME FAIL \"\nPush ACCEPT / READ and check display \"communication CHAN FAILED -\n CHAN 1 FAIL \"\nClear these alarm to display \" current differential \"\nPress \n to display \" prot ALARM RECORDS \"\nPress \n and check alarm record # 1 display \"COMM. CHAN FAILED. CHAN 1 RX FAIL\"\nPress \n to return to \" CURRENT DIFFERENTIAL \"\nBias c/cs\nA current is injected into A-phase which is used as the bias current and\n an other current in injected into B-phase. which is used as diff current\n (fig 3)\nLower Slope\nInject a current of 1 pu in the A-phase. the relay will trip and the\n contacts associated with A-phase will operate\nPush ACCEPT / READ twice to accept the alarms which indicate diff prot and\n inter trip phase A have operated\nPush ACCEPT / READ twice more and check that the display show \" ***\n ALARMS *** \"message and the ALARM lamp is steadily ON\nSlowly increase the current in the B-phase until the phase B contacts\n operate and the ALARM lamp flashes again\nAccept the alarms and check that the display shows phase A and B have\n operated\nRecord the phase B current magnitude and check that it is 0.25 pu +\n 10 %\n Assuming IS1 = 0.2\n pu \n K1 =30 %\n IS2 = 0.2\n pu \n K2 =150 % \n Generally the\n operate current is 0.5 x (IS1 + K1) pu\nSwitch off the ac supply and reset the alarms\nUpper Slope\nRepeat test 6-1 steps 1-- 3 and inject current- 3 pu\nSlowly increase the current in B-phase until the relay operates for both A\n and B phases\nRecord the current magnitude and check that it is 1-15 + 20 % At\n the same values step 6-1-6 generally the operate current is : 0.5 x [(3 x K2)\n + IS1 - (K2 - K1) IS2]\nSwitch off the ac supply and reset the alarms\nTest Sheet\nfor Pilot Differential Relay\nDate:\nFeeder name:\nRelay type:\nManufacturer:\nRelay setting a currency setting\n IS1 =\n\n2. Current (I / P ) A currency and Polarity\n\nLocation: \n........................................... \n Relay Designation:\n........................................... \nChecked by: ........................................... \nDate: ....................... Signature: \n.....................",
+ "text_truncated": false,
+ "links": [
+  {
+   "href": "graphics/dfr-010-r0.gif",
+   "text": ""
+  }
+ ],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-4.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-5.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-6.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-9.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-10.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-11.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-r01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-12.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-13.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-14.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-16.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-18.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-18.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-17.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-18.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-18.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-18.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-16.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-04.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-16.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-16.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-16.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-15.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-18.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-18.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-18.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-010-19.gif",
+   "alt": ""
+  }
+ ]
+}

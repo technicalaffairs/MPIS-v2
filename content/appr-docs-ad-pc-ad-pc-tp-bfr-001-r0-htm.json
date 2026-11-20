@@ -1,0 +1,246 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-bfr-001-r0-htm",
+ "doc_number": "BFR-001-R0",
+ "title_en": "BFR-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/BFR-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Introduction"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks \n surrounding the work area is required."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the qualified maintenance staff should carry the suitable safety category,",
+    "Safety fence with caution marks \n surrounding the work area is required."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Variac",
+    "DC voltmeter to check auxiliary voltage",
+    "Double pole switch",
+    "Secondary injection test set"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Works to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "The operating current, as a proportion of relay rated current, is set by a\n plug bridge and 1x to 2x multiplier. Thus the current setting is continuously\n variable between 1x the lowest tap setting and 2x the highest tap setting,\n eg to achieve of 0.72 x rated current on a relay with plug bridge taps of 0.2\n x, 0.4 x,0.8 x and 1.6 x rated current, select the 0.4 tap and set the\n multiplier potentiometer to 1.8 x\n 0.4 x 1.8 = 0.72 rated current"
+  },
+  {
+   "type": "paragraph",
+   "text": "DC auxiliary supply check (Vx)"
+  },
+  {
+   "type": "paragraph",
+   "text": "In practice on breaker fail schemes the d.c supply is not applied to the\nrelay until the main protection has operated.\nIt is there for necessary to link across the protective relay contacts or across\nthe appropriate contacts of the trip relay to apply the auxiliary d.c supply to\nthe relay terminals"
+  },
+  {
+   "type": "paragraph",
+   "text": "Terminals allocation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Terminals of the relay are normally as below"
+  },
+  {
+   "type": "paragraph",
+   "text": "B"
+  },
+  {
+   "type": "paragraph",
+   "text": "25-26"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phases",
+     "Relay terminals"
+    ],
+    [
+     "A.C current",
+     "Contacts"
+    ],
+    [
+     "A",
+     "23-24",
+     "1-3,7-9"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Current setting test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect test leads between the current terminals on the relay (23-24) and\n the current terminals on the test set this for phase A",
+    "Select plug tap to 0.2 and multiplier to 1.0",
+    "Inject current and slowly increase the current until the relay operates.\n Note the value of the current and recorded",
+    "Decrease the current slowly, note the value of current when the relay\n drops off and record the value of current",
+    "Select the plug tap to 1.6 and multiplier to 2.0, repeat the tests and\n noting current values",
+    "Repeat tests injecting in B and C Phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Operate / Reset timing and \nContact Operation\nOperate Time"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current at 2 X setting into \"A\" phase via a double pole\n switch, one pole to initiate a timer on closing",
+    "Connect relay output contact to stop timer on closing",
+    "Record operating time, operating time to be less than 12 m. sec",
+    "Repeat test on B and C phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reset time"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current at 2x setting into \"A\" phase via a double pole\n switch one pole to initiate a timer. on opening",
+    "Connect relay output contact to stop timer on opening",
+    "Record reset time, this should be less than 12 m. sec",
+    "Repeat test on B and C phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return the \nRelay to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make a final check that all switches on the relay are set according to the\n setting",
+    "Make sure the CT secondary circuits is in normal condition",
+    "Return the relay to service"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Instantaneous Over-current Relay\nMCTI 39 - ( Three phase tripping )"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date :......................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Station:....................................................... \nCircuit :..................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay model no :......................................... \nSerial No. :............................."
+  },
+  {
+   "type": "paragraph",
+   "text": "MCTI 39 [ \n] Serial No : ............................"
+  },
+  {
+   "type": "paragraph",
+   "text": "Serial No : ..........................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Rated current In \n1 A [ \n] \n5 A [ ]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Auxiliary dc voltage 30 V \n[ \n] \n110 V [ ] \n220 V\n[ \n]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Final\nsettings \nPlug tap [ \n] \nMultiplier\n[ \n]"
+  },
+  {
+   "type": "paragraph",
+   "text": "AC current\ninput \nA\nphase \nB\nphase \nC phase\nTerminals MCTI\n39 \n[23-24] \n[25-26] \n[27-28]"
+  },
+  {
+   "type": "paragraph",
+   "text": "DC voltage input"
+  },
+  {
+   "type": "paragraph",
+   "text": "Terminals"
+  },
+  {
+   "type": "paragraph",
+   "text": "MCTI 39 [13-14]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Auxiliary dc\nvoltage \nVX [ ]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay CT shorting\nswitches \n[ ]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Current\nsensitivity \nA\nphase \nB\nphase \nC phase\nPick up [ \n] \n[ \n] \n[ \n] \nDrop off \n[ \n] \n[ ] \n[ ] \nTiming (ms)\noperate [ \n] \n[ \n] \n[ \n] \nReset \n[ \n] \n[ \n] \n[ \n]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Contacts checked\n2-4 [ \n] \n6-8 \n[ \n] \n10-12 [ \n] \n MCTI 39 3\n[ \n] \n7-9 \n[ \n] \n2-4 [ \n] 8-10 [ \n]"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nSafety Precautions\nSafety fence with caution marks \n surrounding the work area is required.\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety category,\nSafety fence with caution marks \n surrounding the work area is required.\nTools and Equipment\nVariac\nDC voltmeter to check auxiliary voltage\nDouble pole switch\nSecondary injection test set\nWorks to be Carried Out\nThe operating current, as a proportion of relay rated current, is set by a\n plug bridge and 1x to 2x multiplier. Thus the current setting is continuously\n variable between 1x the lowest tap setting and 2x the highest tap setting,\n eg to achieve of 0.72 x rated current on a relay with plug bridge taps of 0.2\n x, 0.4 x,0.8 x and 1.6 x rated current, select the 0.4 tap and set the\n multiplier potentiometer to 1.8 x\n 0.4 x 1.8 = 0.72 rated current\nDC auxiliary supply check (Vx)\nIn practice on breaker fail schemes the d.c supply is not applied to the\nrelay until the main protection has operated.\nIt is there for necessary to link across the protective relay contacts or across\nthe appropriate contacts of the trip relay to apply the auxiliary d.c supply to\nthe relay terminals\nTerminals allocation\nTerminals of the relay are normally as below\nB\n25-26\n\nCurrent setting test\nConnect test leads between the current terminals on the relay (23-24) and\n the current terminals on the test set this for phase A\nSelect plug tap to 0.2 and multiplier to 1.0\nInject current and slowly increase the current until the relay operates.\n Note the value of the current and recorded\nDecrease the current slowly, note the value of current when the relay\n drops off and record the value of current\nSelect the plug tap to 1.6 and multiplier to 2.0, repeat the tests and\n noting current values\nRepeat tests injecting in B and C Phases\nOperate / Reset timing and \nContact Operation\nOperate Time\nInject current at 2 X setting into \"A\" phase via a double pole\n switch, one pole to initiate a timer on closing\nConnect relay output contact to stop timer on closing\nRecord operating time, operating time to be less than 12 m. sec\nRepeat test on B and C phases\nReset time\nInject current at 2x setting into \"A\" phase via a double pole\n switch one pole to initiate a timer. on opening\nConnect relay output contact to stop timer on opening\nRecord reset time, this should be less than 12 m. sec\nRepeat test on B and C phases\nReturn the \nRelay to Service\nMake a final check that all switches on the relay are set according to the\n setting\nMake sure the CT secondary circuits is in normal condition\nReturn the relay to service\nTest Sheet\nInstantaneous Over-current Relay\nMCTI 39 - ( Three phase tripping )\nDate :.......................................\nStation:....................................................... \nCircuit :...................................\nRelay model no :......................................... \nSerial No. :.............................\nMCTI 39 [ \n] Serial No : ............................\nSerial No : ...........................\nRated current In \n1 A [ \n] \n5 A [ ]\nAuxiliary dc voltage 30 V \n[ \n] \n110 V [ ] \n220 V\n[ \n]\nFinal\nsettings \nPlug tap [ \n] \nMultiplier\n[ \n]\nAC current\ninput \nA\nphase \nB\nphase \nC phase\nTerminals MCTI\n39 \n[23-24] \n[25-26] \n[27-28]\nDC voltage input\nTerminals\nMCTI 39 [13-14]\nAuxiliary dc\nvoltage \nVX [ ]\nRelay CT shorting\nswitches \n[ ]\nCurrent\nsensitivity \nA\nphase \nB\nphase \nC phase\nPick up [ \n] \n[ \n] \n[ \n] \nDrop off \n[ \n] \n[ ] \n[ ] \nTiming (ms)\noperate [ \n] \n[ \n] \n[ \n] \nReset \n[ \n] \n[ \n] \n[ \n]\nContacts checked\n2-4 [ \n] \n6-8 \n[ \n] \n10-12 [ \n] \n MCTI 39 3\n[ \n] \n7-9 \n[ \n] \n2-4 [ \n] 8-10 [ \n]",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

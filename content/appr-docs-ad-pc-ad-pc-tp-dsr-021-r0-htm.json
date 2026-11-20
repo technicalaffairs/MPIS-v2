@@ -1,0 +1,1042 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-021-r0-htm",
+ "doc_number": "DSR-021-R0",
+ "title_en": "dsr-021-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-021-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "LZ 96 is a non-switched high speed static distance \n relay capable of protecting three forward distance zones."
+  },
+  {
+   "type": "paragraph",
+   "text": "ABB utilizes a modular configuration where \n individual plug-in modules are combined to from complete distance relay. For a \n complete description of all LZ96 modules and their functions"
+  },
+  {
+   "type": "paragraph",
+   "text": "The LZ96 relay includes a starting modules and 3 \n measurement modules for three zone measurements. The distance measuring unit \n M1 for the first zone is set at 85 percent of the line, while unit M2 for the \n second zone and M3 for the third zone are set at 120 percent and 200 percent \n of the line respectively."
+  },
+  {
+   "type": "paragraph",
+   "text": "The M2 unit is used as a: carrier initiating \n directional unit in DCU scheme. The LZ96 relay also functions as a backup \n distance relay employing all three forward zone. The first zone is not time \n delayed. Zone 2 and Zone 3 are time delayed (Device no. 21P/21GP)"
+  },
+  {
+   "type": "paragraph",
+   "text": "The\nfirst draft initialed by Eng. M. Mostafa from ME, The document tested at 21 Jan\n2001 at\nHigh Dam PP. by Eng. Abd EL. Hafiz Farghaly and approved at 4 Dec 2001 \n also tested at Samalout500, 27/4/02 and aproved 27/7/02"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Line isolation and work permit \n required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT secondary circuits \n are shorted before isolating the relay current circuits for test current \n injection."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits \n are shorted before isolating the relay current circuits for test current \n injection."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipments"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test unit XS920 [secondary \n injection]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltammeter."
+  },
+  {
+   "type": "paragraph",
+   "text": "Clip on ammeter."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads."
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase rotation meter."
+  },
+  {
+   "type": "paragraph",
+   "text": "Work To be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary steps to prepare for relay\n testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review technical reference \n material: Manufacturer's manual."
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain copy of relay setting \n from field maintenance file and compare it with the setting on the \n relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain outage for line \n protected by this relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that the bus and line \n disconnect switches are opened and tagged."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspect the CT secondary \n circuits, the VT miniature circuit breakers (MCB's) and all cabling supplying \n the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Use the station drawing to isolate the \n following:\n -\n Breaker trip coils\n - Breaker failure scheme \n associated with this relay. \n -\n Disturbance alarms and fault \n recorder associated with this relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the relay and protection output"
+  },
+  {
+   "type": "paragraph",
+   "text": "Carefully follow these test \n procedure steps ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Verify the test results match \n the relays if not consuls technical services."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test trip the breaker \n associated with there."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test trip the breaker \n associated with there."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Prior to starting testing procedures \nensure the following steps"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure is used to \n perform off load relay testing."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that the panel name plate \n agrees with the EEC designation of the line that has been taken out of service \n for maintenance."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check there is no AC current \n from CT by using clip-on ammeter/"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check there is no AC voltage \n from VT by using voltmeter."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check all external connections \n to the relay are in good condition and check that the terminal block wires are \n tight."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check all external connections \n to the relay are in good condition and check that the terminal block wires are \n tight."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "It should be earthing the \n tester unit (9XS92a)."
+  },
+  {
+   "type": "paragraph",
+   "text": "D.C of the relay is off [NF93 \n is off] DC-DC converter."
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the UL 91 card and diagnostic card XV 92"
+  },
+  {
+   "type": "paragraph",
+   "text": "Put the test connector YX91 in \n the test unit in XX91 for the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Put the jumper between the two \n units [3 Jumpers]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Put the jumper between + I \n & + I in the lower unit."
+  },
+  {
+   "type": "paragraph",
+   "text": "Put the unit (YB92) in the hand \n terminal in the control unit (XC92) in the upper unit."
+  },
+  {
+   "type": "paragraph",
+   "text": "Put the jumper between the red \n point and No.(11)& yellow point and No (12)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Put the key in the connector \n unit (YX91) on (ON position)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the DC-DC converter \n (NF93) on the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the supply of the test \n unit (XS92a)[220VA]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the switch on the lower \n unit and on the upper unit for test unit XS92a."
+  },
+  {
+   "type": "paragraph",
+   "text": "Use the (YB92) hand terminal \n according to the test step."
+  },
+  {
+   "type": "list",
+   "items": [
+    "It should be earthing the \n tester unit (9XS92a).",
+    "D.C of the relay is off [NF93 \n is off] DC-DC converter.",
+    "Remove the UL 91 card and diagnostic card XV 92",
+    "Put the test connector YX91 in \n the test unit in XX91 for the relay.",
+    "Put the jumper between the two \n units [3 Jumpers].",
+    "Put the jumper between + I \n & + I in the lower unit.",
+    "Put the unit (YB92) in the hand \n terminal in the control unit (XC92) in the upper unit.",
+    "Put the jumper between the red \n point and No.(11)& yellow point and No (12).",
+    "Put the key in the connector \n unit (YX91) on (ON position).",
+    "Connect the DC-DC converter \n (NF93) on the relay.",
+    "Connect the supply of the test \n unit (XS92a)[220VA].",
+    "Connect the switch on the lower \n unit and on the upper unit for test unit XS92a.",
+    "Use the (YB92) hand terminal \n according to the test step."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "XS92 a is ON (Ready)."
+  },
+  {
+   "type": "paragraph",
+   "text": "AS example (ph . R \n )Test."
+  },
+  {
+   "type": "list",
+   "items": [
+    "AS example (ph . R \n )Test."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Write mode FF \n &enterFR = \n 50 \n DFR = 0SQ = \n 1F1 \n A = \n 2 \n FC = 11 [ph .R - 0]TL = 100 \n m.s \n To = 100 m.sTF = 100 m.s \n [t 1 + 100]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Mode Z Z & enter\n Z \n L = value of Z Ω + 10 % Ω (15 Ω)PZL = as test sheet \n [ex .85ْ )DZL = 0.1ZS = \n 0 \n PZS = 0Ko = \n Ko \n of relay (0.8)PKo = 0KS = \n 0 \n PKS =0"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press on start and minus \n (-)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Wait until auto \n stop, trigger \n point of start impedance is shown display"
+  },
+  {
+   "type": "paragraph",
+   "text": "Record value of ZL in (R-0) in \n test sheet and light led lamps on the relay (D) ,(R,N) Led."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press (0) and enter."
+  },
+  {
+   "type": "paragraph",
+   "text": "With the same steps we test ph \n (S-0), ph (T-0) , change (FC) only a follows:ph (S-0) ====> FC = \n 12 [Led light D, S, N].ph (T-0) ====> FC = 13 [Led light D, T, \n N]. at all angle a test sheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "In case (ph- ph) test \n :change FC a following :ph (R S) ====> FC = 21 [Led light R, \n S, D].ph (S T) ====> FC = 22 [Led light S, T, D].ph (T \n R) ====> FC = 23 [Led light T, R ,D]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Write Z L as test sheet , \n start , (-)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the value from display \n in test sheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the steps at all \n angles."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the steps at all \n angles."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Write mode \n [FF & enter]FR = \n 50 \n D F R = \n 0 ph(R-0) \n FC = \n 11 \n A = 2S Q = 1F1 T L = \n 100 \n T I = 100T F = t2 + 100 ~ 600 \n m.s"
+  },
+  {
+   "type": "paragraph",
+   "text": "Write \n mode Z Z + enter.Z L = Z2 \n (Ω) + 10 % Ω \n (20)P Z L = (85ْ ) e \n x. D Z L = 0.1Ko = \n Ko of relay (0.8)Z S \n = \n 0 \n K S = 0P Ko = \n 0 \n P K S = 0"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press start and (-)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wait until auto. stop, trigger \n point of start impedance is shown on display."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record value of (Z L) for ph \n (R-0) in test sheet and light led lamps on the relay [D , t2 \n ,R , N]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press (0) , enter."
+  },
+  {
+   "type": "paragraph",
+   "text": "With the same steps we test ph \n (S,T) we change FC only a follows:ph (S - 0) ====> FC = \n 12 led [D , T2 , S , N]ph (T - 0) \n ====> FC = 13 led [D , T2 , T , N] at all angle a \n test sheet."
+  },
+  {
+   "type": "list",
+   "items": [
+    "With the same steps we test ph \n (S,T) we change FC only a follows:ph (S - 0) ====> FC = \n 12 led [D , T2 , S , N]ph (T - 0) \n ====> FC = 13 led [D , T2 , T , N] at all angle a \n test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Change FC only as \n following: \n ph (R S) ====> FC = 21 led [D, T2 , R , \nS] ph (S \nT) ====> FC = 22 led [D, T2 , S , \nT]ph (T \nR) ====> FC = 23 led [D, T2 , T , R] and Record \nthe value of Z L from display to test \nsheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the steps at all angles."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Change FC only as \n following: \n ph (R S) ====> FC = 21 led [D, T2 , R , \nS] ph (S \nT) ====> FC = 22 led [D, T2 , S , \nT]ph (T \nR) ====> FC = 23 led [D, T2 , T , R] and Record \nthe value of Z L from display to test \nsheet.",
+    "Repeat the steps at all angles."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Z 3 (Zone 3) ====> \n3rd . stage:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Write mode FF , \n enter F R = 50 , D F R = 0F C = 11 (ph R - 0) ex.S Q = 1 F1 , \n A = 2T L = T I = 100 m.sT F = T3 + 100 = 1100 \n m.s"
+  },
+  {
+   "type": "paragraph",
+   "text": "Write mode Z Z & \n enter Z L = Z3 + 10 % Ω from test \n sheet P Z L = 85ْ ex.D \n Z L =1Z S = 0 , P Z S = 0Ko = Ko of \n relay 0.8P Ko = 0K S = \n 0 P K S = 0"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press on [start , (-)]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Wait until auto stop, trigger \n point of start impedance is shown on display."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record value of Z L \n in ph (R-0) in test sheet and remark light led lamps on the relay [D \n (T1) , T2 , T3 , R , N]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press (0) and enter."
+  },
+  {
+   "type": "paragraph",
+   "text": "With the same steps we \n test ph (S-0) , ph (T-0) and ph (RS, ST, TR)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record in test sheet."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Write mode Z Z & \n enter Z L = Z3 + 10 % Ω from test \n sheet P Z L = 85ْ ex.D \n Z L =1Z S = 0 , P Z S = 0Ko = Ko of \n relay 0.8P Ko = 0K S = \n 0 P K S = 0",
+    "Press on [start , (-)].",
+    "Record in test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 4 (4th stage) - starting zone"
+  },
+  {
+   "type": "paragraph",
+   "text": "Write mode FF , enterF R = \n 50 , D F R = 0 F C = 11 (ph R- 0) as ex.S a = \n 1F1 A = 2T I = T L = 100 m.sT F \n = t 4 + 100 = 2100 m.s"
+  },
+  {
+   "type": "paragraph",
+   "text": "Write mode Z Z , \n enter Z L = Z 4 + 10 % Ω (from test \n sheet)P Z L = 85ْ as ex , (from test sheet)D Z L = \n 1Ko = Ko \n relay \n P Ko = 0"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press [start + , (-)]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wait until auto. stop, trigger \n point of start impedance is shown and display."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record value of ZL for ph (R - \n 0 ) hn test sheet and remark light led lamps on the relay [D, \n T2 ,T3 ,T4 , R , \n N]."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press (0) , enter."
+  },
+  {
+   "type": "paragraph",
+   "text": "With same steps we test ph (S \n , and ph [R s , S T , T R] and \n Record in test sheet."
+  },
+  {
+   "type": "list",
+   "items": [
+    "With same steps we test ph (S \n , and ph [R s , S T , T R] and \n Record in test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Zone Time : [operating time - \noperating time of zone (1)]:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Write mode F F and \n enter F R = 50 , D F R = 0\n S Q = 1 F1\n F C = \n 11\n A = 0\n T F = 100 m.s"
+  },
+  {
+   "type": "paragraph",
+   "text": "Write mode Z Z and enter.\n Z \n L = Z1 / 2 Ω \n P Z L = 85ْ \n ex\n D Z L = (0,)\n K o = 0, t = K o of relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press [start]"
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip time is shown on \n display."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record value of trip time on \n test sheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press (0) and enter."
+  },
+  {
+   "type": "paragraph",
+   "text": "With the same steps we \n measure T2 , T3 , T4 , we change Z L \n only as following :T2 write Z L = \n Z1 + Z2 / \n 2 \n T F = 600\n T3 \nwrite Z L = Z2 + Z3 / 2 \n T F =1100\n T4 write Z L = Z3 + Z4 / \n2 \nT F = 2100\n and record the trip time in test sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: In case of testing in backward \ndirection we set FC as following :"
+  },
+  {
+   "type": "paragraph",
+   "text": "ph (R - 0) ====> F C = 111ph \n(S - 0) ====> F C = 112ph (T - 0) ====> F C = 113ph (R \n- S) ====> F C = 121ph (S - T) ====> F C = 122ph (T - \nR) ====> F C = 123"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing of line trip and auto enclosing \n:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the under voltage \n protection [ M1 , M2 ] . (K40) \n and connect the (C.B) only."
+  },
+  {
+   "type": "paragraph",
+   "text": "Making jumpers in X S92 a \n between (1,2) , (3,4) , (5,6) , (7,8)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Writ the program:F \n F SQ \n = 1 F1 , FC = \n 11 \n A = 0 \n , TF = 100Z \n Z ZL = \n Z1 / 2 , K o of \n relay \n PZL = 85ْ , DZL = \n 0"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press (start)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip the C. B of this line and \n auto reclusion."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press (0) and enter and \n disconnect the XS92 a."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the D C - D C \n converts NF93."
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the test plug \n (YX91)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Fixed the under voltage \n protection (K 40)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Review the setting on the \n relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "connect the DC - DC .converter \n (NF 93)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Finish the permit \n operation."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the line."
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the current and \n voltage and record in test sheet [by clip on ammeter."
+  },
+  {
+   "type": "paragraph",
+   "text": "Place a copy of the test result \n in the field maintenance file."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place a copy of the test result \n in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig . 2 .1 - Test \nset xs92a with hand terminal, \ninterconnecting \ncable at the side and test connector YX92"
+  },
+  {
+   "type": "paragraph",
+   "text": "NF92 \nDC/DC converter for the solid-state \ncircuitsAU91/92 \nthree-phase voltage \namplifier XC92 \ncontrol \nunit YS92 \noptional memory \nunitEX92 \nmains input \nunit NX91 \nDC/DC converter for current \namplifierAI92 \nsingle-phase current \namplifierAX91/92 \noutput unit and switching \nlogicYX91 \ntest \nconnector YB92 \nhand terminal"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig . 2 .2 - Arrangement of \nthe plug-in units in the racks."
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig . 2 . 3 - Block diagram"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig . 2 .7 - Key-pad and \ndisplay of the hand terminal YB92"
+  },
+  {
+   "type": "paragraph",
+   "text": "' SHIFT ' Key"
+  },
+  {
+   "type": "paragraph",
+   "text": "The ' SHIFT ' key must be pressed \nbefore any of the upper characters of the double keys can be selected. The upper \ncharacters of double keys will continue to be transmitted and displayed until \nthe ' SHIFT ' keys is pressed a second time in order to switch back to the lower \ncharacters."
+  },
+  {
+   "type": "paragraph",
+   "text": "' DEL ' Key"
+  },
+  {
+   "type": "paragraph",
+   "text": "The last character entered, i.e. \nthe one just to the left of the cursor (see section 2.2.7), can be cancelled by \npressing ' DEL ' (delete) key."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test : Measuring Pickup Values\nRelay type : LZ96 Var.\nRelay \nSettings"
+  },
+  {
+   "type": "paragraph",
+   "text": "UN = 100 \nV \nIN = 1 \nA \nFN = 50 \nHZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZM = 0.1 \nohms/ph \nPhIM = \n85ْ \ndirection = ..........."
+  },
+  {
+   "type": "paragraph",
+   "text": "ko = \n0.7 \nPhIko = \n30ْ \nIE = ...........x IN"
+  },
+  {
+   "type": "paragraph",
+   "text": "without starting \nancillary \nwith starting ancillary type: \n............"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Conditions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test set : XS \n92a \nTesting mode : ZZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "if ZL > 4 ohms/ph , \nset ZS = 0 ohms/ph ; if ZL < 4 ohms/ph , set \nZS = 4 ohms/ph and P Z S = P Z L"
+  },
+  {
+   "type": "paragraph",
+   "text": "Set ko - factor on \ntest set to - ko - factor on relay ------"
+  },
+  {
+   "type": "paragraph",
+   "text": "MEASURED VALUES \n[ohms/ph]"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-0",
+     "S-0",
+     "T-0",
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-S",
+     "S-T",
+     "T-R"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "REVERSE \n STARTING (KA91 Position....) NA- \n % KB - \n circle \n lens"
+    ],
+    [
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-0",
+     "S-0",
+     "T-0",
+     "FC",
+     "P Z \n L",
+     "nom.val.",
+     "R-S",
+     "S-T",
+     "T-R"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Remarks: 1) Current \ndirection \nreversed \n2) Lagging ph - N element may operate before ph - ph \nelement 3) With starting ancillary ZA91 - 1 only"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date \n: \nTest : Measuring \nPickup Values\nRelay Type: LZ96 Var.\nMeasuring System (EM92 \nPosition .......) Filter \n: \n T \n RC"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "ZONE \n : m1= \n 100 N1= \n 41 % KR = \n ........ m =........"
+    ],
+    [
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-0",
+     "S-0",
+     "T-0",
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-S",
+     "S-T",
+     "T-R"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-0",
+     "S-0",
+     "T-0",
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-S",
+     "S-T",
+     "T-R"
+    ],
+    [
+     "1.",
+     "85ْ",
+     "",
+     "",
+     "",
+     "",
+     "2.",
+     "85ْ",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "ZONE \n 3 : m3= \n 100 N3= \n 17 %"
+    ],
+    [
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-0",
+     "S-0",
+     "T-0",
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-S",
+     "S-T",
+     "T-R"
+    ],
+    [
+     "1.",
+     "85ْ",
+     "",
+     "",
+     "",
+     "",
+     "2.",
+     "85ْ",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "TRIPPING \n TIMES (S)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "t1 \n set",
+     "t1 \n meas",
+     "t2 \n set",
+     "t2 \n meas",
+     "t3 \n set",
+     "t3 \n meas",
+     "t4 \n set",
+     "t4 \n meas"
+    ],
+    [
+     "0.0",
+     "m.s",
+     "m.s",
+     "m.s",
+     "m.s",
+     "m.s",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring System (EM92 \nPosition ......\n ) Filter: \nT \n RC"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "m = \n ........ N =........ \n %"
+    ],
+    [
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-0",
+     "S-0",
+     "T-0",
+     "FC",
+     "PZL",
+     "nom.val.",
+     "R-S",
+     "S-T",
+     "T-R"
+    ],
+    [
+     "1.",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "2.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.",
+     "65ْ",
+     "",
+     "",
+     "",
+     "",
+     "2.",
+     "65ْ",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.",
+     "50ْ",
+     "",
+     "",
+     "",
+     "",
+     "2.",
+     "50ْ",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "1.",
+     "30ْ",
+     "",
+     "",
+     "",
+     "",
+     "2.",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "TRIPPING \n TIME (S)"
+    ],
+    [
+     "t1 \n set",
+     "t1 \n meas"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Remarks: 1) With polygon KE91 only. Z nom = 5 * ZM * m * KR * 1 / 1+ \nk0"
+  },
+  {
+   "type": "paragraph",
+   "text": "2) Lagging Ph- N element may operate before Ph-Ph element"
+  },
+  {
+   "type": "paragraph",
+   "text": "DATE \n:"
+  },
+  {
+   "type": "paragraph",
+   "text": "TEST \n: FUNCTIONAL \nTEST \nPOS .IN CUBICLE"
+  },
+  {
+   "type": "paragraph",
+   "text": "RELAY TYPE : POWER SWING \nBLOCKING RELAY UP 91/92"
+  },
+  {
+   "type": "paragraph",
+   "text": "TIMER SETTING tW \n:"
+  },
+  {
+   "type": "paragraph",
+   "text": "MICRO SWITCH S187 \n: \n 1 : POWER SWING BLOCKING IN ALL \nZONES"
+  },
+  {
+   "type": "paragraph",
+   "text": "(OPERATION \nMODE) \n 2 : POWER SWING BLOCKING IN \nZONES \n2,3 AND 4 ONLY"
+  },
+  {
+   "type": "paragraph",
+   "text": "MICRO SWITCH S182 \n: \n 1 : kW = \n1"
+  },
+  {
+   "type": "paragraph",
+   "text": "2 : kW = 10"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIMULATION (L > 0.3 \n lN)"
+  },
+  {
+   "type": "paragraph",
+   "text": "RESULT"
+  },
+  {
+   "type": "paragraph",
+   "text": "REMARKS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nLZ 96 is a non-switched high speed static distance \n relay capable of protecting three forward distance zones.\nABB utilizes a modular configuration where \n individual plug-in modules are combined to from complete distance relay. For a \n complete description of all LZ96 modules and their functions\nThe LZ96 relay includes a starting modules and 3 \n measurement modules for three zone measurements. The distance measuring unit \n M1 for the first zone is set at 85 percent of the line, while unit M2 for the \n second zone and M3 for the third zone are set at 120 percent and 200 percent \n of the line respectively.\nThe M2 unit is used as a: carrier initiating \n directional unit in DCU scheme. The LZ96 relay also functions as a backup \n distance relay employing all three forward zone. The first zone is not time \n delayed. Zone 2 and Zone 3 are time delayed (Device no. 21P/21GP)\nThe\nfirst draft initialed by Eng. M. Mostafa from ME, The document tested at 21 Jan\n2001 at\nHigh Dam PP. by Eng. Abd EL. Hafiz Farghaly and approved at 4 Dec 2001 \n also tested at Samalout500, 27/4/02 and aproved 27/7/02\nSafety Precautions\nLine isolation and work permit \n required.\nMake sure CT secondary circuits \n are shorted before isolating the relay current circuits for test current \n injection.\nMake sure CT secondary circuits \n are shorted before isolating the relay current circuits for test current \n injection.\nTools and Equipments\nTest unit XS920 [secondary \n injection].\nVoltammeter.\nClip on ammeter.\nTest leads.\nPhase rotation meter.\nWork To be Carried Out\nPreliminary steps to prepare for relay\n testing\nReview technical reference \n material: Manufacturer's manual.\nObtain copy of relay setting \n from field maintenance file and compare it with the setting on the \n relay.\nObtain outage for line \n protected by this relay.\nCheck that the bus and line \n disconnect switches are opened and tagged.\nInspect the CT secondary \n circuits, the VT miniature circuit breakers (MCB's) and all cabling supplying \n the relay.\nUse the station drawing to isolate the \n following:\n -\n Breaker trip coils\n - Breaker failure scheme \n associated with this relay. \n -\n Disturbance alarms and fault \n recorder associated with this relay.\nTesting the relay and protection output\nCarefully follow these test \n procedure steps .\nVerify the test results match \n the relays if not consuls technical services.\nTest trip the breaker \n associated with there.\nTest trip the breaker \n associated with there.\nPrior to starting testing procedures \nensure the following steps\nThis procedure is used to \n perform off load relay testing.\nCheck that the panel name plate \n agrees with the EEC designation of the line that has been taken out of service \n for maintenance.\nCheck there is no AC current \n from CT by using clip-on ammeter/\nCheck there is no AC voltage \n from VT by using voltmeter.\nCheck all external connections \n to the relay are in good condition and check that the terminal block wires are \n tight.\nCheck all external connections \n to the relay are in good condition and check that the terminal block wires are \n tight.\nIt should be earthing the \n tester unit (9XS92a).\nD.C of the relay is off [NF93 \n is off] DC-DC converter.\nRemove the UL 91 card and diagnostic card XV 92\nPut the test connector YX91 in \n the test unit in XX91 for the relay.\nPut the jumper between the two \n units [3 Jumpers].\nPut the jumper between + I \n & + I in the lower unit.\nPut the unit (YB92) in the hand \n terminal in the control unit (XC92) in the upper unit.\nPut the jumper between the red \n point and No.(11)& yellow point and No (12).\nPut the key in the connector \n unit (YX91) on (ON position).\nConnect the DC-DC converter \n (NF93) on the relay.\nConnect the supply of the test \n unit (XS92a)[220VA].\nConnect the switch on the lower \n unit and on the upper unit for test unit XS92a.\nUse the (YB92) hand terminal \n according to the test step.\nIt should be earthing the \n tester unit (9XS92a).\nD.C of the relay is off [NF93 \n is off] DC-DC converter.\nRemove the UL 91 card and diagnostic card XV 92\nPut the test connector YX91 in \n the test unit in XX91 for the relay.\nPut the jumper between the two \n units [3 Jumpers].\nPut the jumper between + I \n & + I in the lower unit.\nPut the unit (YB92) in the hand \n terminal in the control unit (XC92) in the upper unit.\nPut the jumper between the red \n point and No.(11)& yellow point and No (12).\nPut the key in the connector \n unit (YX91) on (ON position).\nConnect the DC-DC converter \n (NF93) on the relay.\nConnect the supply of the test \n unit (XS92a)[220VA].\nConnect the switch on the lower \n unit and on the upper unit for test unit XS92a.\nUse the (YB92) hand terminal \n according to the test step.\nXS92 a is ON (Ready).\nAS example (ph . R \n )Test.\nAS example (ph . R \n )Test.\nWrite mode FF \n &enterFR = \n 50 \n DFR = 0SQ = \n 1F1 \n A = \n 2 \n FC = 11 [ph .R - 0]TL = 100 \n m.s \n To = 100 m.sTF = 100 m.s \n [t 1 + 100]\nMode Z Z & enter\n Z \n L = value of Z Ω + 10 % Ω (15 Ω)PZL = as test sheet \n [ex .85ْ )DZL = 0.1ZS = \n 0 \n PZS = 0Ko = \n Ko \n of relay (0.8)PKo = 0KS = \n 0 \n PKS =0\nPress on start and minus \n (-).\nWait until auto \n stop, trigger \n point of start impedance is shown display\nRecord value of ZL in (R-0) in \n test sheet and light led lamps on the relay (D) ,(R,N) Led.\nPress (0) and enter.\nWith the same steps we test ph \n (S-0), ph (T-0) , change (FC) only a follows:ph (S-0) ====> FC = \n 12 [Led light D, S, N].ph (T-0) ====> FC = 13 [Led light D, T, \n N]. at all angle a test sheet.\nIn case (ph- ph) test \n :change FC a following :ph (R S) ====> FC = 21 [Led light R, \n S, D].ph (S T) ====> FC = 22 [Led light S, T, D].ph (T \n R) ====> FC = 23 [Led light T, R ,D].\nWrite Z L as test sheet , \n start , (-).\nRecord the value from display \n in test sheet.\nRepeat the steps at all \n angles.\nRepeat the steps at all \n angles.\nWrite mode \n [FF & enter]FR = \n 50 \n D F R = \n 0 ph(R-0) \n FC = \n 11 \n A = 2S Q = 1F1 T L = \n 100 \n T I = 100T F = t2 + 100 ~ 600 \n m.s\nWrite \n mode Z Z + enter.Z L = Z2 \n (Ω) + 10 % Ω \n (20)P Z L = (85ْ ) e \n x. D Z L = 0.1Ko = \n Ko of relay (0.8)Z S \n = \n 0 \n K S = 0P Ko = \n 0 \n P K S = 0\nPress start and (-)\nWait until auto. stop, trigger \n point of start impedance is shown on display.\nRecord value of (Z L) for ph \n (R-0) in test sheet and light led lamps on the relay [D , t2 \n ,R , N].\nPress (0) , enter.\nWith the same steps we test ph \n (S,T) we change FC only a follows:ph (S - 0) ====> FC = \n 12 led [D , T2 , S , N]ph (T - 0) \n ====> FC = 13 led [D , T2 , T , N] at all angle a \n test sheet.\nWith the same steps we test ph \n (S,T) we change FC only a follows:ph (S - 0) ====> FC = \n 12 led [D , T2 , S , N]ph (T - 0) \n ====> FC = 13 led [D , T2 , T , N] at all angle a \n test sheet.\nChange FC only as \n following: \n ph (R S) ====> FC = 21 led [D, T2 , R , \nS] ph (S \nT) ====> FC = 22 led [D, T2 , S , \nT]ph (T \nR) ====> FC = 23 led [D, T2 , T , R] and Record \nthe value of Z L from display to test \nsheet.\nRepeat the steps at all angles.\nChange FC only as \n following: \n ph (R S) ====> FC = 21 led [D, T2 , R , \nS] ph (S \nT) ====> FC = 22 led [D, T2 , S , \nT]ph (T \nR) ====> FC = 23 led [D, T2 , T , R] and Record \nthe value of Z L from display to test \nsheet.\nRepeat the steps at all angles.\nZ 3 (Zone 3) ====> \n3rd . stage:\nWrite mode FF , \n enter F R = 50 , D F R = 0F C = 11 (ph R - 0) ex.S Q = 1 F1 , \n A = 2T L = T I = 100 m.sT F = T3 + 100 = 1100 \n m.s\nWrite mode Z Z & \n enter Z L = Z3 + 10 % Ω from test \n sheet P Z L = 85ْ ex.D \n Z L =1Z S = 0 , P Z S = 0Ko = Ko of \n relay 0.8P Ko = 0K S = \n 0 P K S = 0\nPress on [start , (-)].\nWait until auto stop, trigger \n point of start impedance is shown on display.\nRecord value of Z L \n in ph (R-0) in test sheet and remark light led lamps on the relay [D \n (T1) , T2 , T3 , R , N].\nPress (0) and enter.\nWith the same steps we \n test ph (S-0) , ph (T-0) and ph (RS, ST, TR).\nRecord in test sheet.\nWrite mode Z Z & \n enter Z L = Z3 + 10 % Ω from test \n sheet P Z L = 85ْ ex.D \n Z L =1Z S = 0 , P Z S = 0Ko = Ko of \n relay 0.8P Ko = 0K S = \n 0 P K S = 0\nPress on [start , (-)].\nRecord in test sheet.\nZone 4 (4th stage) - starting zone\nWrite mode FF , enterF R = \n 50 , D F R = 0 F C = 11 (ph R- 0) as ex.S a = \n 1F1 A = 2T I = T L = 100 m.sT F \n = t 4 + 100 = 2100 m.s\nWrite mode Z Z , \n enter Z L = Z 4 + 10 % Ω (from test \n sheet)P Z L = 85ْ as ex , (from test sheet)D Z L = \n 1Ko = Ko \n relay \n P Ko = 0\nPress [start + , (-)]\nWait until auto. stop, trigger \n point of start impedance is shown and display.\nRecord value of ZL for ph (R - \n 0 ) hn test sheet and remark light led lamps on the relay [D, \n T2 ,T3 ,T4 , R , \n N].\nPress (0) , enter.\nWith same steps we test ph (S \n , and ph [R s , S T , T R] and \n Record in test sheet.\nWith same steps we test ph (S \n , and ph [R s , S T , T R] and \n Record in test sheet.\nTesting Zone Time : [operating time - \noperating time of zone (1)]:\nWrite mode F F and \n enter F R = 50 , D F R = 0\n S Q = 1 F1\n F C = \n 11\n A = 0\n T F = 100 m.s\nWrite mode Z Z and enter.\n Z \n L = Z1 / 2 Ω \n P Z L = 85ْ \n ex\n D Z L = (0,)\n K o = 0, t = K o of relay\nPress [start]\nTrip time is shown on \n display.\nRecord value of trip time on \n test sheet.\nPress (0) and enter.\nWith the same steps we \n measure T2 , T3 , T4 , we change Z L \n only as following :T2 write Z L = \n Z1 + Z2 / \n 2 \n T F = 600\n T3 \nwrite Z L = Z2 + Z3 / 2 \n T F =1100\n T4 write Z L = Z3 + Z4 / \n2 \nT F = 2100\n and record the trip time in test sheet\nNote: In case of testing in backward \ndirection we set FC as following :\nph (R - 0) ====> F C = 111ph \n(S - 0) ====> F C = 112ph (T - 0) ====> F C = 113ph (R \n- S) ====> F C = 121ph (S - T) ====> F C = 122ph (T - \nR) ====> F C = 123\nTesting of line trip and auto enclosing \n:\nDisconnect the under voltage \n protection [ M1 , M2 ] . (K40) \n and connect the (C.B) only.\nMaking jumpers in X S92 a \n between (1,2) , (3,4) , (5,6) , (7,8).\nWrit the program:F \n F SQ \n = 1 F1 , FC = \n 11 \n A = 0 \n , TF = 100Z \n Z ZL = \n Z1 / 2 , K o of \n relay \n PZL = 85ْ , DZL = \n 0\nPress (start).\nTrip the C. B of this line and \n auto reclusion.\nPress (0) and enter and \n disconnect the XS92 a.\nDisconnect the D C - D C \n converts NF93.\nRemove the test plug \n (YX91).\nFixed the under voltage \n protection (K 40).\nReview the setting on the \n relay.\nconnect the DC - DC .converter \n (NF 93).\nFinish the permit \n operation.\nConnect the line.\nMeasuring the current and \n voltage and record in test sheet [by clip on ammeter.\nPlace a copy of the test result \n in the field maintenance file.\nPlace a copy of the test result \n in the field maintenance file.\nFig . 2 .1 - Test \nset xs92a with hand terminal, \ninterconnecting \ncable at the side and test connector YX92\nNF92 \nDC/DC converter for the solid-state \ncircuitsAU91/92 \nthree-phase voltage \namplifier XC92 \ncontrol \nunit YS92 \noptional memory \nunitEX92 \nmains input \nunit NX91 \nDC/DC converter for current \namplifierAI92 \nsingle-phase current \namplifierAX91/92 \noutput unit and switching \nlogicYX91 \ntest \nconnector YB92 \nhand terminal\nFig . 2 .2 - Arrangement of \nthe plug-in units in the racks.\nFig . 2 . 3 - Block diagram\nFig . 2 .7 - Key-pad and \ndisplay of the hand terminal YB92\n' SHIFT ' Key\nThe ' SHIFT ' key must be pressed \nbefore any of the upper characters of the double keys can be selected. The upper \ncharacters of double keys will continue to be transmitted and displayed until \nthe ' SHIFT ' keys is pressed a second time in order to switch back to the lower \ncharacters.\n' DEL ' Key\nThe last character entered, i.e. \nthe one just to the left of the cursor (see section 2.2.7), can be cancelled by \npressing ' DEL ' (delete) key.\nTest Sheet\nTest : Measuring Pickup Values\nRelay type : LZ96 Var.\nRelay \nSettings\nUN = 100 \nV \nIN = 1 \nA \nFN = 50 \nHZ\nZM = 0.1 \nohms/ph \nPhIM = \n85ْ \ndirection = ...........\nko = \n0.7 \nPhIko = \n30ْ \nIE = ...........x IN\nwithout starting \nancillary \nwith starting ancillary type: \n............\nTest Conditions\nTest set : XS \n92a \nTesting mode : ZZ\nif ZL > 4 ohms/ph , \nset ZS = 0 ohms/ph ; if ZL < 4 ohms/ph , set \nZS = 4 ohms/ph and P Z S = P Z L\nSet ko - factor on \ntest set to - ko - factor on relay ------\nMEASURED VALUES \n[ohms/ph]\n\n\nRemarks: 1) Current \ndirection \nreversed \n2) Lagging ph - N element may operate before ph - ph \nelement 3) With starting ancillary ZA91 - 1 only\nDate \n: \nTest : Measuring \nPickup Values\nRelay Type: LZ96 Var.\nMeasuring System (EM92 \nPosition .......) Filter \n: \n T \n RC\n\n\n\nTRIPPING \n TIMES (S)\n\nMeasuring System (EM92 \nPosition ......\n ) Filter: \nT \n RC\n\n\nRemarks: 1) With polygon KE91 only. Z nom = 5 * ZM * m * KR * 1 / 1+ \nk0\n2) Lagging Ph- N element may operate before Ph-Ph element\nDATE \n:\nTEST \n: FUNCTIONAL \nTEST \nPOS .IN CUBICLE\nRELAY TYPE : POWER SWING \nBLOCKING RELAY UP 91/92\nTIMER SETTING tW \n:\nMICRO SWITCH S187 \n: \n 1 : POWER SWING BLOCKING IN ALL \nZONES\n(OPERATION \nMODE) \n 2 : POWER SWING BLOCKING IN \nZONES \n2,3 AND 4 ONLY\nMICRO SWITCH S182 \n: \n 1 : kW = \n1\n2 : kW = 10\nSIMULATION (L > 0.3 \n lN)\nRESULT\nREMARKS\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-022.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-022.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-026.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-022.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-022.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-026.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-026.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-022.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-022.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-026.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-026.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-027.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-028.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-029.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-0210.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-0211.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-0212.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../../draf_docs/draf_pc/draf_pc_tp/graphics/dsr-0213.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-021-r0-5.gif",
+   "alt": ""
+  }
+ ]
+}

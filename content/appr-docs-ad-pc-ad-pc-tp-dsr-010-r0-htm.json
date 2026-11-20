@@ -1,0 +1,859 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-010-r0-htm",
+ "doc_number": "DSR-010-R0",
+ "title_en": "DsR-010-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-010-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Issued to:\n Metro SS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely\n check the proper operation and calibration of the RAZFE distance relay. It is\n recommended this procedure be carried out on a yearly bases. This work be\n carried out section of this document is divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing\n describes the activities required prior to testing. Some of these steps could\n be performed days before the actual test. The second section Preparation for\n testing describes the steps to set up the equipment for performing the actual\n tests. The third section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the\n possibility of error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft \ninitialed by eng.\n Saher Farok Mohamed, tested at 22 Aug.1996 at \n Metro by eng. Saher Farok Mohamed, \n approved by general director of Protection rng. Maher Gerges."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence\nwith caution marks surrounding the work area is required,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure that \nthe line isolation must be done."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,",
+    "Line isolation is required.",
+    "Make sure CT secondary are \n shorted before isolating the relay current circuits for test current \n injection.",
+    "Wear your safety and healthy equipment \nas safety helmet, safety shoes, etc.",
+    "Ensure that \nthe line isolation must be done."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Voltmeter",
+    "Clip-on ammeter",
+    "Test leads Timer",
+    "test plug type RTXH 18",
+    "440/ 220/110V Auxiliary transformer (if local supply is only 220 v or380v)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material manufacturer's\n manual.",
+    "Obtain copy of relay setting from field maintenance file\n and compare it with the setting on the relay..",
+    "Obtain outage for line protected by this relay.",
+    "Check that the bus and line disconnect switches are\n opened and tagged.",
+    "Inspect the Secondary circuits Of CT, VT Miniature\n Circuit breakers ( MCB, S ) and all cabling supplying the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Before inserting the test plug handle into the relay, check\nfrom the station drawing that the test plug will isolate:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils and transfer trip scheme.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms or fault recorder associated with this relay.",
+    "Auto-reclosure associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "If the test plug does not isolate one of the last four steps\nyou have to isolate it ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing \nThe relay, relay scheme, and protection outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow this test procedure steps.",
+    "Verify the test results match the relay setting - If not\n consult Technical services.",
+    "Perform checks of the acceleration of the relay, breaker\n failure and reclosure, Separate technical procedures should be used to test\n each of these systems",
+    "Test trip all breakers associated with the relay.",
+    "Return relay and associated equipment to service",
+    "Return relay to service by withdrawing the test plug\n handle from the relay",
+    "If any equipment (associated) with the relay has been\n isolated without the test plug it should be returned to service by the\n following restoration steps:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "breaker failure scheme protection",
+    "disturbance alarms and fault recorders",
+    "acceleration scheme."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "This Procedure is used to Perform off Load Relay\nTests"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Look at the EEHC panel nameplate and check that this\n EECH\nsystem designation name plate agrees with the line - that has been taken out of\nservice for maintenance.",
+    "Using a clip-on ammeter, check there is no current flowing in\nthe RAZFE relay circuits wires going to the rear of the test switch RTXP 18 in\nthe distance relay terminal numbers 3141516nl 8/9/10 should have no current.",
+    "Using AC voltmeter, check there is no voltage on the\nterminal numbers 11/12/13/14 on the rear of the test switch RTXP 18 which came\nfrom voltage transformer."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparations"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Prepare the relay test set for testing. Place the two cases\none on top of the other with the main case at the bottom Connect the two cases\ntogether by using the RTXG connector on the top case. Lock the connector.",
+    "Connect terminals RSTN of the test set to 110 v three-phase\nwith neutral, 50/60 HZ, with known phase sequence, but allow the main switch H\nto remain open, position 0, until further notice.",
+    "If only 220 V or 380 V three-phase Local supply is available\na separate auxiliary transformer can be used to obtain 110V to the test set.\nFig.1 shows the reconnection possibilities of this transformer."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect terminal RI, SI, TI, NI, and RU, SU, TU, NU of the\ntest set to the corresponding test terminals as shown in Fig. 2. short- circuit\nterminals 4-6-8-10 of the test plug handle RTXH 18."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig. 2: test setup with TURH."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the test- plug handle in the test switch of the\n distance relay and check that all tripping circuits are open. Keep the dc\n supply to the terminals of the relay. ( see the connection diagrams for the\n supplied distance relay",
+    "Set the switches:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Q in position 1, i.e. first\n quadrant in the impedance\n diagram.",
+    "M in position I, until further notice.",
+    "P in position I, i.e. voltage transformer ratio equal to 1."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the product of the setting of the current selector\n switches S1 and S2, approximately equal to the rated current of the\n distance relay, i.e.\n SI x S2 = 1 x 1 = 1 for rated current\n 1 A\n SI x S2 = 1 x 2 = 2 for rated current 2 A\n SI x S2 = 1 x 5 = 5 for rated current 5 A",
+    "Turn the main switch H to position 1.",
+    "With the switch AF in\n position l, the light -emitting diode,\n located above AF, is lit if all terminals R, S, T and N are supplied with\n voltage. the light-emitting diode remains dark if one or several phases are\n missing supply voltage.",
+    "The phase sequence in the a.c. supply is checked with the\n switch AF in position 2, the light-emitting diode is lit if the phase\n sequence is R, S, T, the diode is dark if the phase sequence is reversed.",
+    "Set the switch H to position 0."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring Elements\n for Earth Faults"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check\n the measuring elements for earth faults in phase R in the following manner:",
+    "Set\n switch F in position RN."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The reach of zone (1) is\nchecked as\nfollows"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove\n the time-lag relays for time-steps 2 and 3 mounted at positions 925 and 931\n respectively.",
+    "Set\n the switch Gx, and potentiometer FX at their highest value and switch GR\n and potentiometer FR in position 0, i.e. the voltage supplied to the relay\n will lead the current with = 90o",
+    "Turn\n switch H to position I and reduce the setting of Gx until the relay\n operates, which can be checked by observing the operation of the \"\n starting \" and \" tripping \" indications of the relay.",
+    "Increase\n Gx one step and reset relay and indicators.",
+    "Reduce\n the setting of Fx until the relay operates.",
+    "Check\n also that the \" starting \" and the \"tripping\" signals\n from the flag indicator 937 and start signal from interface relay 919 are\n obtained in the corresponding phase.",
+    "If\n the relay will give output signal even when FX and Gx are at\n their highest setting, the current setting S I x S2 has to be reduced one\n step.",
+    "If\n during any test both (Gx+Fx/1000) and (GR+FR/1000)\n have to be reduced to setting values below 2 before the relay operates, the\n p-setting of the test set should be changed one step lower in order to\n obtain a better resolution.",
+    "Read off the\n values of GX and FX, and turn the switch H to position\n 0.",
+    "Calculate\n the operating impedance for single-phase ground-faults according to the\n formulas given in point 11 below",
+    "At\n power frequency of 50 HZ the formulas listed below should be used."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "The above calculated values, XM and FM, can be\nconverted and plotted in an impedance plane on loop impedance basis, X and R:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "X = 2 * XM \n ohms / loop"
+  },
+  {
+   "type": "paragraph",
+   "text": "R= 2 * RM \n ohms / loop"
+  },
+  {
+   "type": "list",
+   "items": [
+    "If the settings τK\nand τN\nof the relay are equal the obtained loop impedance value can be converted to a\nreaching the protected line, ZL in ohms / phase by simply dividing the measured\nloop impedance values by a factor ( I+KN) where\n KN is the setting of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Where Xo is the zero sequence reactance and X 1 is the\npositive sequence reactance of the line section."
+  },
+  {
+   "type": "paragraph",
+   "text": "However, the above shall only be done for impedances measured according to\nthe upper limits LI, L2, L3, of the relay characteristic, see figs. 3 and 4. The\nlimit in the resistive direction according to characteristic BI in Figs. 4 and 5\nshall not be converted according to the above since the BI limit is not\ncompensated by the KN factor in the distance relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Z loop = Z il + [ (ZOL- ZIL)\n/ 3 ] ohms/ loop\nwhere ZIL = Square root ( X2 IL + R2 IL ) is the positive sequence impedance\nand ZOL = Square\nroot ( X2 OL + R2 OL ) is the zero sequence impedance of the protected line section."
+  },
+  {
+   "type": "list",
+   "items": [
+    "However, the above shall only be done for impedances measured according to\nthe upper limits LI, L2, L3, of the relay characteristic, see figs. 3 and 4. The\nlimit in the resistive direction according to characteristic BI in Figs. 4 and 5\nshall not be converted according to the above since the BI limit is not\ncompensated by the KN factor in the distance relay.",
+    "If setting τk is set different from setting τN\nof the relay, which means that the angles of the zero sequence impedance and\npositive sequence are different, the simplest and best way is to calculate only\nwith loop impedances, ohms / loop. That means the loop impedance value which has\nbeen measured and converted in ( 12 ) should be compared with the loop\nimpedance of the protected line, Z loop Fig. 5",
+    "Z loop = Z il + [ (ZOL- ZIL)\n/ 3 ] ohms/ loop\nwhere ZIL = Square root ( X2 IL + R2 IL ) is the positive sequence impedance\nand ZOL = Square\nroot ( X2 OL + R2 OL ) is the zero sequence impedance of the protected line section.",
+    "The test described above has in principle been performed with\none phase angle. this test can, in general, be repeated in other phase angles,\ni.e. with other values of GX, FX GR, and\n FR as well as of the switch Q. The\nassociated operating values can be plotted in an impedance plane. The loci of\nthe impedance phases forms a quadrangle.",
+    "If the distance relay is provided with auxiliary relays for\ncooperation with communication link according to the permissive tripping scheme\nprinciple the relay should give signal for communication send\" during the\ntests above. \n The following test should also be made: reduce the measuring\nquantities close to operation of the relay, i.e. the relay is fed with an\nimpedance higher than that set for the reach of zone I but lower that that set\nfor the reach of zone 2. Connect the positive pole of the station battery to the\n interfacing relay coil for \"communication receive\" in module 1119. the distance relay should now operate and give tripping\n indication.",
+    "Remove the connection made above.",
+    "Reduce the measuring quantities until there lay operates\n and gives tripping indication. 0pen the main switch H. Reset the indication\n through a temporary connection between the positive pole of the station\n battery to the interfacing relay coil for \"Reset\" in\n module 1119",
+    "Connect the positive pole of the station battery to the\n inter-facing relay co il for \"Block\" in module 1119. Close the main switch H.",
+    "The relay should remain in-operative. Open the main switch H and remove the connection made\n above.",
+    "Interrupt the positive supply to the relay and check that\n the indication and signal for dc failure are obtained. Do the same check by\n interruption of the negative supply to the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the reach\n at Zone (2) as follows"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the time-lag relay for time-step 2 (Zone 2) in\n position 925",
+    "Repeat the tests in the above sections. form No. 1\n to 16. Check also\n that indication as well as signal for Zone 2 are obtained. No communication\n send signal should be obtained.",
+    "Remove the time-lag relay again for Time - Zone 2.",
+    "Check the reach at zone 3 as follows:",
+    "Insert the time-lag relay for time-step 3 (zone 3) in\n position 93 1.",
+    "Repeat the tests in the above sections. form No. 1\n to 16. Check also\n that indication as well as signal for zone 3 are obtained. No communication\n send signal should be obtained.",
+    "Replace the time-lag relays removed in No. 1.",
+    "Connect a voltmeter to the negative pole at terminal 18\n and to the tripping output in phase S or phase T at terminal 16 or 17\n respectively of the test-plug handle. Reduce the measuring quantities until\n the relay operates and gives tripping indication. No tripping impulse should\n be obtained in phase S or T. open the main switch H, reset the indication\n and close it again within 3 sec. Tripping impulse should be obtained in all\n three phases.",
+    "Do the same test as in the above step but reclose the main\n switch H after a longer time than 3 sec.",
+    "Tripping impulse should be obtained in phase R only.",
+    "Check the measuring elements for earth faults in phase S\n in the following manner:",
+    "Set switch F in position SN.",
+    "The reaches at zone 1, zone 2 and zone 3 as well as\n indications and signals are checked as described in the above Measuring Elements For Earth Faults.",
+    "Check the measuring elements for earth faults in phase T\n in the following manner:",
+    "Set switch F in position TN.",
+    "The reaches at zone 1, zone 2 and zone 3 as well as\nindications and signals are checked as described in the above Measuring Elements For Earth Faults."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring Elements for Phase to Phase Faults"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the measuring\n elements for two-phase faults in the following matter:",
+    "Set switch F in\n position RS, ST or TR."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the time-lag\n relays for time steps 2 and 3 mounted at position 925 and 931 of the\n distance relay respectively.",
+    "Set the switch Cx\n and potentiometer Fx,,at their highest value and\n switch GR,, and potentiometer FR in position\n O, i.e.\n the voltage supplied to the relay will lead the current with 90.",
+    "Turn switch H to\n position I and reduce the setting of Gx until the distance relay operates,\n which can be checked by observing the operation of the \"starting\"\n and \"tripping\" indications of the relay.",
+    "Increase Gx gne step\n and reset the relay and indicators.",
+    "Reduce the setting\n of Fx, until the relay operates. check also that the \"starting\" and\n the \"tripping\" signals from the flag indicator 937 and start\n signals from interface relay 919 are obtained in the corresponding phases.",
+    "If the relay will\n give output signal even when Fx and Gx are at their highest setting, the\n current settings S1 x S2\n have to be reduced one step.",
+    "If during any test\n both (GX + FX /1000) and\n (GR + FR / 1000) have to be reduced to setting values below 2 before the relay\n operates, the P-setLing of the test set should be changed one step lower in\n order to obtain a better resolution.",
+    "Read off the values\n of G x ind F, and turn the switch H to position 0. Calculate the operating impedance for phase\n to phase faults according to the formulas given in the above.",
+    "The obtained\n calculated values, XM and RM can directly be plotted in an impedance plane\n in ohms/phase, i.e.: \n X = XM\n ohms/phase\n R = RM\n ohms/phase",
+    "The test described\n above has been performed with one phase angle. this test can, in general, be\n repeated in other angles, i.e. with other values of Gx , Fx,\n GR and FR as\n well as for the switch.",
+    "The associated\n operating values can be plotted in an impedance plane as indicated in Fig. 6.",
+    "If the distance\n relay is provided with auxiliary relay for cooperation with communication\n links according to the permissive tripping scheme principle, the relay\n should give signal for \"communication send\" during the tests\n above."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Reduce the measuring\nquantities close to operation of the relay e.g. the relay is fed with an\nimpedance higher than that set for the reach of zone 1 but lower than that set\nfor the reach of zone 2.",
+    "Connect the positive pole of the station battery to the\ninterfacing relay coil for \"communication receive\" in module 1119.",
+    "The distance relay should now operate and give tripping\n indication.",
+    "Remove the connection made above."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the time-lag relay for time-step 2 in position 925.",
+    "Repeat the tests in sections Zone 1.",
+    "Check also that\n indication as well as signal for zone 2 are obtained. No communication\n signal should be obtained.",
+    "Remove the time-lag relay again."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the time-lag relay for time-step (Zone)3 in position 93 1.",
+    "Repeat the tests in section Zone 1.",
+    "Check also that\n indication as well as signal for zone 3 are obtained. No communication signal\n should be obtained.",
+    "The above tests for Zones 1, 2, 3 could be repeated for any\n combination RS, ST or TR faults.",
+    "Reset the setting of the b-value and replace\n the time-lag relay which was removed before."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 6: \nOperating Characteristic for phase to phase faults."
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring \nElements for Three-Phase Faults"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the measuring elements for three-phase faults in\n the following matter:",
+    "Set switch F in position RST."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The Reach of\n Zone (1) is Checked as Follows"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the time-lag\n relays for time-steps (Zone) 2 and 3 mounted at position 925 and 931 of the\n distance relay respectively.",
+    "Set the switch GX\n and potentiometer FX at their highest value and switch\n GR and potentiometer FR in position O, i.e. voltage supplied to the relay\n will lead the current with 90.",
+    "Turn switch H to\n position 1 and reduce the setting of GX until the distance\n relay operates which can be checked by observing the operation of\n the \"starting\" and \"tripping\" indications of the relay.",
+    "Increase GX\n one step and reset the relay and indicators.",
+    "Reduce the setting\n of FX until the relays operate. Check also that the \"starting\" and\n the \"tripping\" signals from the flag indicator 937 and start\n signals from interface relay 919 are obtained in all phases.",
+    "If the relay will\n give output signal even when FX ,and GX\n .are at their highest settings ,the current settings S I X S2 have to be\n reduced one step.",
+    "If during any test\n both (GX+ FX /1000) and\n (GR+ FR/1000) have to be reduced to\n setting values below 1 before the relay operates, the current settings S 1 x\n S2 can be raised but not above the continuous current capability of the\n relay (3 x rated current In ).",
+    "If (Gx+ Fx /\n 1 000)\n and (GR+ FR /\n 1 000) still have\n to be reduced below I before the relay operates, the measurement has to be carried\n out dynamically with the aid of the M-switch, otherwise the memory\n circuit cannot function and the relay may then be blocked. For the dynamic\n measurement set switch M in position 0 and choose a value for FX.\n Turn M rapidly to position I and observe the relay. If trip signal is\n obtained increase the FX-value and repeat the\n measurement. If trip signal is not obtained decrease the FX-value\n and repeat the measurement.",
+    "Read off the values\n of GX and FX and turn the switch\n H to position 0. Calculate the operating impedance for three-phase faults\n according to the formulas given above for XM & RM\n .",
+    "The obtained\n calculated values XM and RM, can be plotted in an impedance plane in\n ohms/phase, i.e.:\n X=XM ohms/phase\n R=RM ohms/phase"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "The test described above has been performed with one phase\nangle. This test can, in general, be repeated in other phase angles, i.e. with\nother values of GX, FX , GR and FRas well as of the switch Q. The associated\noperating values can be plotted in an impedance plane as indicated in Fig. 7.",
+    "If the distance relay is provided with auxiliary relays for\n cooperation with communication links according to the permissive tripping\n scheme principle, the relay should give signal for Communication\n send\" during the tests above."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The following test should also \n be made"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Reduce the measuring\n quantities close to operation of the relay e.g. the relay is fed with an\n impedance higher than that set for the reach of zone 1 but lower than that\n set for the reach of zone 2.",
+    "Connect the positive pole of the station\n battery to the interfacing relay coil for 6 4 communication receive\" in\n module 1119.",
+    "The distance relay\n should now operate and give tripping indication.",
+    "Remove the\n connection made above."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the time-lag\n relay for time-step 2 in position 925.",
+    "Repeat the tests\n as in Zone 1.",
+    "Check also that indication as well as signal for zone\n 2 are obtained. No communication send signal should be obtained.",
+    "Remove the\n time-lag relay again."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the time-lag\n relay for time-step 3 in position 93 1.",
+    "Repeat the tests\n as\n in Zone 1",
+    "Check also that indication as well as signal for zone\n 3 are obtained. No communication send signal should be obtained.",
+    "Replace the time-lag\n relay removed above."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 7: Operating \nCharacteristic for three phase faults."
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Swing Blocking Relay Measuring Element"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The characteristic of the power swing relay measuring element is\nshown in Fig. 8",
+    "Check on printed\n board assembly B11 that the power swing relay programming switch K4 has a\n plug in position 1 or 2. If the plug is in position 3 the power swing relay\n is decommissioned and only p-flag will arrive when testing according to\n below.",
+    "Set switch F in\n position RST.",
+    "If the distance\n relay is provided with auxiliary relays for cooperation with communication\n links according to the permissive tripping scheme principle, the relay\n should give signal for Communication send\" during the tests above.",
+    "Set switch GR and\n potentiometer FR at their highest values and switch Gx and potentiometer\n Fx\n at position 0, i.e. the voltage and the current will be in phase 0.",
+    "Turn switch H to\n position I and reduce the setting of GR until the distance relay operates,\n which can be checked by observing the operation of the tripping or\n \"power swing\" indications of the relay.",
+    "Increase GR one step\n and reset the relay and the indicators.",
+    "Reduce slowly the\n setting of FR until the \"power swing\" operates and wait about 2\n seconds. (The tripping indication shall now operate.)",
+    "Turn switch H to\n position 0. Read off the values of GR and FR and calculate the operating\n impedance which should be equal to the 100%-line limit in Fig. 8 according\n to the formulas XM & RM are \n given in the above.",
+    "Increase the set\n value of the resistance in the test set to approximately 110 %.",
+    "Reduce the setting\n of GR or FR below the operating value obtained in step\n No. (4) of the relay and observe\n the tripping indication of the distance relay. This indication should appear\n approximately 2 sec. after the reduction of the setting. Check that the\n signal for power swing blocking is obtained during the above interval of 2\n sec. as well as \"power swing\" c blocking indication (P).",
+    "Keep GR and\n FR at\n a value below the operating value of the relay and set switch M to position 0\n (full voltage)'. Reset the relay and the indicators.",
+    "Turn switch M to\n position 1 (set values of GR and FR) and observe the tripping indication.\n This indication should appear instantaneously but no signial or indication\n for power swing should be obtained."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure \n8: Power Swing Relay Characteristic"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Measurement"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure that the\n relays which may have been removed from the distance relay in conjunction\n with previous measurement are put back to their respective positions.",
+    "The steady-state\n fault conditions for different types of faults can be simulated with the aid\n of relay test set and the total operating time of the relay for different\n steps can then be checked with a separate timer.",
+    "Please note that the\n test set does not reproduce the dynamic phenomena."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the test-plug\n handle RTXH 18 in the distance relay. Connect the contact H 2 of the test set\n to obtain simultaneous start of the timer and of the distance relay when\n turning the main switch H to position 1. the tripping pulse from the relay\n is connected to stop the timer",
+    "The connection is\n made according to Fig. 2 which applies to a synchronous timer type 51 of\n AEG' s make. When the timer is of the design that can be stopped by D.C supply the stop circuit for the timer is connected directly to the test\n terminal in the trip circuit of the distance relay.",
+    "On the other\n hand, the stop circuit of the timer must be insulated, an extra auxiliary\n relay with known operating time should be provided. the trip circuit of the\n distance relay should operate this extra relay.",
+    "Set the switch F of\n the test set in position e.g. TR and switch Q in position 1",
+    "Set the switches S1,\n S2, GX , GR and potentiometer FX and FR so that\n the \"desired impedance\" is applied to the relay.",
+    "Reset indicators and\n timer.",
+    "When the switch H is\n turned in position 1, the desired impedance is applied to the distance relay\n and the starting elements initiate the time-lag relay to operate. When the\n set time of each time-lag relays is up they extend the reach of the distance\n relay. The distance relay gives a tripping impulse when its reach is larger\n than the \"impedance\" applied by the test set.",
+    "In this way the\n operating time of the distance relay can easily be checked for desired type\n of fault and fault position.\n If the time\n measurement is to be utilized for the matching of the settings of the\n time-lag relays to the selectivity plan, it is suggested that the\n measurement should be carried out as follows:",
+    "Select the applied\n \" impedance\" so that it is approximately equal to, but larger\n than, the reach set for the first or\n second step and with phase angle equal to 90 . this is obtained with switch\n GR and potentiometer FR in 0 position.",
+    "Perform the time\n measurement test as stated above."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return relay and\nassociated\nequipment to\nservice"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by withdrawing the test plug\n handle from the relay If any equipment (associated) with the relay has been\n isolated without the test plug it should be returned to service by the\n following restoration steps"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request power line be\nreturned to\nservice"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents and voltages\n supplied to the relay",
+    "Compare them to those for normal load conditions.",
+    "Check that readings agree with station meters MW/MVAR/Power Factor/Amperes\n /Voltages",
+    "Place a copy of the test results in the field maintenance file"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "DATE\n.."
+  },
+  {
+   "type": "paragraph",
+   "text": "SUBSTATION\n.."
+  },
+  {
+   "type": "paragraph",
+   "text": "CIRCUIT DESIGNATION\n.."
+  },
+  {
+   "type": "paragraph",
+   "text": "RELAY MANUFACTURER\n.."
+  },
+  {
+   "type": "paragraph",
+   "text": "RELAY TYPE\n.."
+  },
+  {
+   "type": "paragraph",
+   "text": "SERIAL NUMBER\n.."
+  },
+  {
+   "type": "paragraph",
+   "text": "CIRCUIT DIAGRAM REF .."
+  },
+  {
+   "type": "paragraph",
+   "text": "INS SETTINGS REF.\n.."
+  },
+  {
+   "type": "paragraph",
+   "text": "CT RATIO \n.."
+  },
+  {
+   "type": "paragraph",
+   "text": "VT RATIO \n.."
+  },
+  {
+   "type": "paragraph",
+   "text": "INDUCTIVE REACH \na \nb \nc \nP1 P2\n. \nP3 ."
+  },
+  {
+   "type": "paragraph",
+   "text": "RESISTIVE REACH \nτK"
+  },
+  {
+   "type": "paragraph",
+   "text": "TIME CONSTANTS \nτK"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZERO SEQUENCE COMP K \nτN"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZERO SEQUENCE CURRENT \nSET N ........................"
+  },
+  {
+   "type": "paragraph",
+   "text": "TIME, LAG ZONE 2 ZONE 3"
+  },
+  {
+   "type": "paragraph",
+   "text": "84 AUTOMATIC/CONTINUOUS OPERATION\nOF CCVT FILTER"
+  },
+  {
+   "type": "paragraph",
+   "text": "B9 COMMUNICATION SCHEME"
+  },
+  {
+   "type": "paragraph",
+   "text": "JUMPER - KI - POSTION"
+  },
+  {
+   "type": "paragraph",
+   "text": "ASEA SCHEME REF"
+  },
+  {
+   "type": "paragraph",
+   "text": "B11BLOCKING SCHEME ONLY"
+  },
+  {
+   "type": "paragraph",
+   "text": "JUMPER-KI-POSITION"
+  },
+  {
+   "type": "paragraph",
+   "text": "JUMPER-K2-POSITION"
+  },
+  {
+   "type": "paragraph",
+   "text": "POWER SWING BLOCKING"
+  },
+  {
+   "type": "paragraph",
+   "text": "JUMPER-K3-POSITION"
+  },
+  {
+   "type": "paragraph",
+   "text": "JUMPER-K1-POSITION"
+  },
+  {
+   "type": "paragraph",
+   "text": "JUMPER-K4-POSITION"
+  },
+  {
+   "type": "paragraph",
+   "text": "Sheet 2/6"
+  },
+  {
+   "type": "paragraph",
+   "text": "MEASURING ELEMENTS GROUND FAULTS"
+  },
+  {
+   "type": "paragraph",
+   "text": "DATE : ........."
+  },
+  {
+   "type": "paragraph",
+   "text": "CALCULATED\n ZM"
+  },
+  {
+   "type": "paragraph",
+   "text": "FAULT APPLICATION S.E."
+  },
+  {
+   "type": "paragraph",
+   "text": "CALCULATED\n ZM"
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation: \nFeeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checked by: \nSignature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Sheet \n3/6"
+  },
+  {
+   "type": "paragraph",
+   "text": "FAULT APPLICATION T.E \nDATE : ........."
+  },
+  {
+   "type": "paragraph",
+   "text": "CALCULATED\n ZM"
+  },
+  {
+   "type": "paragraph",
+   "text": "MEASURING ELEMENTS FOR TWO PHASE FAULTS"
+  },
+  {
+   "type": "paragraph",
+   "text": "FAULT APPLICATION R.S"
+  },
+  {
+   "type": "paragraph",
+   "text": "CALCULATED\n ZM"
+  },
+  {
+   "type": "paragraph",
+   "text": "Sheet 4/6"
+  },
+  {
+   "type": "paragraph",
+   "text": "FAULT APPLICATION S.T"
+  },
+  {
+   "type": "paragraph",
+   "text": "DATE : ........."
+  },
+  {
+   "type": "paragraph",
+   "text": "CALCULATED\n ZM"
+  },
+  {
+   "type": "paragraph",
+   "text": "FAULT APPLICATION T.R."
+  },
+  {
+   "type": "paragraph",
+   "text": "CALCULATED\n ZM"
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation: \nFeeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checked by: \nSignature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Sheet 5/6"
+  },
+  {
+   "type": "paragraph",
+   "text": "MEASURING ELEMENTS GROUND\nFAULTS \nDATE : ......... \nFAULT APPLICATION R.S.T."
+  },
+  {
+   "type": "paragraph",
+   "text": "CALCULATED\n ZM"
+  },
+  {
+   "type": "paragraph",
+   "text": "POWER SWING BLOCKING\nAPPLIED FAULT R. S .T.\nS1 = S2= \nKF =\nGR + FR = GX + FX = \nXM = RM = \nZM =\nSET IMP. ZM ="
+  },
+  {
+   "type": "paragraph",
+   "text": "OPERATION\nBLOCK .............\nTRIP \n.............\nBLOCKING ............."
+  },
+  {
+   "type": "paragraph",
+   "text": "TIME MEASUREMENT\nMEASURED ZONE 1 =\nMEASURED ZONE 2 =\nMEASURED ZONE 3 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation: \nFeeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checked by: \nSignature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Sheet \n6/6"
+  },
+  {
+   "type": "paragraph",
+   "text": "FAULT APPLICATION REVERSE REACH APPLICATION \nDATE: ..."
+  },
+  {
+   "type": "paragraph",
+   "text": "FAULT APPLIED"
+  },
+  {
+   "type": "paragraph",
+   "text": "CALCULATEDZM"
+  },
+  {
+   "type": "paragraph",
+   "text": "TURH SETTINGS"
+  },
+  {
+   "type": "paragraph",
+   "text": "S1"
+  },
+  {
+   "type": "paragraph",
+   "text": "S2"
+  },
+  {
+   "type": "paragraph",
+   "text": "P"
+  },
+  {
+   "type": "paragraph",
+   "text": "Q"
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation: \nFeeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checked by: \nSignature:"
+  }
+ ],
+ "text": "Issued to:\n Metro SS\nIntroduction\nThis procedure details the steps required to completely\n check the proper operation and calibration of the RAZFE distance relay. It is\n recommended this procedure be carried out on a yearly bases. This work be\n carried out section of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing\n describes the activities required prior to testing. Some of these steps could\n be performed days before the actual test. The second section Preparation for\n testing describes the steps to set up the equipment for performing the actual\n tests. The third section is the actual test.\nThe document is formatted the way to minimize the\n possibility of error causing personal injury or damage to equipment.\nThe first draft \ninitialed by eng.\n Saher Farok Mohamed, tested at 22 Aug.1996 at \n Metro by eng. Saher Farok Mohamed, \n approved by general director of Protection rng. Maher Gerges.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence\nwith caution marks surrounding the work area is required,\nEnsure that \nthe line isolation must be done.\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nLine isolation is required.\nMake sure CT secondary are \n shorted before isolating the relay current circuits for test current \n injection.\nWear your safety and healthy equipment \nas safety helmet, safety shoes, etc.\nEnsure that \nthe line isolation must be done.\nTools and Equipment\nVoltmeter\nClip-on ammeter\nTest leads Timer\ntest plug type RTXH 18\n440/ 220/110V Auxiliary transformer (if local supply is only 220 v or380v)\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nReview technical reference material manufacturer's\n manual.\nObtain copy of relay setting from field maintenance file\n and compare it with the setting on the relay..\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches are\n opened and tagged.\nInspect the Secondary circuits Of CT, VT Miniature\n Circuit breakers ( MCB, S ) and all cabling supplying the relay.\nBefore inserting the test plug handle into the relay, check\nfrom the station drawing that the test plug will isolate:\nBreaker trip coils and transfer trip scheme.\nBreaker failure scheme associated with this relay.\nDisturbance alarms or fault recorder associated with this relay.\nAuto-reclosure associated with this relay.\nIf the test plug does not isolate one of the last four steps\nyou have to isolate it .\nTesting \nThe relay, relay scheme, and protection outputs\nCarefully follow this test procedure steps.\nVerify the test results match the relay setting - If not\n consult Technical services.\nPerform checks of the acceleration of the relay, breaker\n failure and reclosure, Separate technical procedures should be used to test\n each of these systems\nTest trip all breakers associated with the relay.\nReturn relay and associated equipment to service\nReturn relay to service by withdrawing the test plug\n handle from the relay\nIf any equipment (associated) with the relay has been\n isolated without the test plug it should be returned to service by the\n following restoration steps:\nbreaker failure scheme protection\ndisturbance alarms and fault recorders\nacceleration scheme.\nThis Procedure is used to Perform off Load Relay\nTests\nLook at the EEHC panel nameplate and check that this\n EECH\nsystem designation name plate agrees with the line - that has been taken out of\nservice for maintenance.\nUsing a clip-on ammeter, check there is no current flowing in\nthe RAZFE relay circuits wires going to the rear of the test switch RTXP 18 in\nthe distance relay terminal numbers 3141516nl 8/9/10 should have no current.\nUsing AC voltmeter, check there is no voltage on the\nterminal numbers 11/12/13/14 on the rear of the test switch RTXP 18 which came\nfrom voltage transformer.\nPreparations\nPrepare the relay test set for testing. Place the two cases\none on top of the other with the main case at the bottom Connect the two cases\ntogether by using the RTXG connector on the top case. Lock the connector.\nConnect terminals RSTN of the test set to 110 v three-phase\nwith neutral, 50/60 HZ, with known phase sequence, but allow the main switch H\nto remain open, position 0, until further notice.\nIf only 220 V or 380 V three-phase Local supply is available\na separate auxiliary transformer can be used to obtain 110V to the test set.\nFig.1 shows the reconnection possibilities of this transformer.\nConnect terminal RI, SI, TI, NI, and RU, SU, TU, NU of the\ntest set to the corresponding test terminals as shown in Fig. 2. short- circuit\nterminals 4-6-8-10 of the test plug handle RTXH 18.\nFig. 2: test setup with TURH.\nInsert the test- plug handle in the test switch of the\n distance relay and check that all tripping circuits are open. Keep the dc\n supply to the terminals of the relay. ( see the connection diagrams for the\n supplied distance relay\nSet the switches:\nQ in position 1, i.e. first\n quadrant in the impedance\n diagram.\nM in position I, until further notice.\nP in position I, i.e. voltage transformer ratio equal to 1.\nSet the product of the setting of the current selector\n switches S1 and S2, approximately equal to the rated current of the\n distance relay, i.e.\n SI x S2 = 1 x 1 = 1 for rated current\n 1 A\n SI x S2 = 1 x 2 = 2 for rated current 2 A\n SI x S2 = 1 x 5 = 5 for rated current 5 A\nTurn the main switch H to position 1.\nWith the switch AF in\n position l, the light -emitting diode,\n located above AF, is lit if all terminals R, S, T and N are supplied with\n voltage. the light-emitting diode remains dark if one or several phases are\n missing supply voltage.\nThe phase sequence in the a.c. supply is checked with the\n switch AF in position 2, the light-emitting diode is lit if the phase\n sequence is R, S, T, the diode is dark if the phase sequence is reversed.\nSet the switch H to position 0.\nMeasuring Elements\n for Earth Faults\nCheck\n the measuring elements for earth faults in phase R in the following manner:\nSet\n switch F in position RN.\nThe reach of zone (1) is\nchecked as\nfollows\nRemove\n the time-lag relays for time-steps 2 and 3 mounted at positions 925 and 931\n respectively.\nSet\n the switch Gx, and potentiometer FX at their highest value and switch GR\n and potentiometer FR in position 0, i.e. the voltage supplied to the relay\n will lead the current with = 90o\nTurn\n switch H to position I and reduce the setting of Gx until the relay\n operates, which can be checked by observing the operation of the \"\n starting \" and \" tripping \" indications of the relay.\nIncrease\n Gx one step and reset relay and indicators.\nReduce\n the setting of Fx until the relay operates.\nCheck\n also that the \" starting \" and the \"tripping\" signals\n from the flag indicator 937 and start signal from interface relay 919 are\n obtained in the corresponding phase.\nIf\n the relay will give output signal even when FX and Gx are at\n their highest setting, the current setting S I x S2 has to be reduced one\n step.\nIf\n during any test both (Gx+Fx/1000) and (GR+FR/1000)\n have to be reduced to setting values below 2 before the relay operates, the\n p-setting of the test set should be changed one step lower in order to\n obtain a better resolution.\nRead off the\n values of GX and FX, and turn the switch H to position\n 0.\nCalculate\n the operating impedance for single-phase ground-faults according to the\n formulas given in point 11 below\nAt\n power frequency of 50 HZ the formulas listed below should be used.\nThe above calculated values, XM and FM, can be\nconverted and plotted in an impedance plane on loop impedance basis, X and R:\nX = 2 * XM \n ohms / loop\nR= 2 * RM \n ohms / loop\nIf the settings τK\nand τN\nof the relay are equal the obtained loop impedance value can be converted to a\nreaching the protected line, ZL in ohms / phase by simply dividing the measured\nloop impedance values by a factor ( I+KN) where\n KN is the setting of the relay.\nWhere Xo is the zero sequence reactance and X 1 is the\npositive sequence reactance of the line section.\nHowever, the above shall only be done for impedances measured according to\nthe upper limits LI, L2, L3, of the relay characteristic, see figs. 3 and 4. The\nlimit in the resistive direction according to characteristic BI in Figs. 4 and 5\nshall not be converted according to the above since the BI limit is not\ncompensated by the KN factor in the distance relay.\nZ loop = Z il + [ (ZOL- ZIL)\n/ 3 ] ohms/ loop\nwhere ZIL = Square root ( X2 IL + R2 IL ) is the positive sequence impedance\nand ZOL = Square\nroot ( X2 OL + R2 OL ) is the zero sequence impedance of the protected line section.\nHowever, the above shall only be done for impedances measured according to\nthe upper limits LI, L2, L3, of the relay characteristic, see figs. 3 and 4. The\nlimit in the resistive direction according to characteristic BI in Figs. 4 and 5\nshall not be converted according to the above since the BI limit is not\ncompensated by the KN factor in the distance relay.\nIf setting τk is set different from setting τN\nof the relay, which means that the angles of the zero sequence impedance and\npositive sequence are different, the simplest and best way is to calculate only\nwith loop impedances, ohms / loop. That means the loop impedance value which has\nbeen measured and converted in ( 12 ) should be compared with the loop\nimpedance of the protected line, Z loop Fig. 5\nZ loop = Z il + [ (ZOL- ZIL)\n/ 3 ] ohms/ loop\nwhere ZIL = Square root ( X2 IL + R2 IL ) is the positive sequence impedance\nand ZOL = Square\nroot ( X2 OL + R2 OL ) is the zero sequence impedance of the protected line section.\nThe test described above has in principle been performed with\none phase angle. this test can, in general, be repeated in other phase angles,\ni.e. with other values of GX, FX GR, and\n FR as well as of the switch Q. The\nassociated operating values can be plotted in an impedance plane. The loci of\nthe impedance phases forms a quadrangle.\nIf the distance relay is provided with auxiliary relays for\ncooperation with communication link according to the permissive tripping scheme\nprinciple the relay should give signal for communication send\" during the\ntests above. \n The following test should also be made: reduce the measuring\nquantities close to operation of the relay, i.e. the relay is fed with an\nimpedance higher than that set for the reach of zone I but lower that that set\nfor the reach of zone 2. Connect the positive pole of the station battery to the\n interfacing relay coil for \"communication receive\" in module 1119. the distance relay should now operate and give tripping\n indication.\nRemove the connection made above.\nReduce the measuring quantities until there lay operates\n and gives tripping indication. 0pen the main switch H. Reset the indication\n through a temporary connection between the positive pole of the station\n battery to the interfacing relay coil for \"Reset\" in\n module 1119\nConnect the positive pole of the station battery to the\n inter-facing relay co il for \"Block\" in module 1119. Close the main switch H.\nThe relay should remain in-operative. Open the main switch H and remove the connection made\n above.\nInterrupt the positive supply to the relay and check that\n the indication and signal for dc failure are obtained. Do the same check by\n interruption of the negative supply to the relay.\nCheck the reach\n at Zone (2) as follows\nInsert the time-lag relay for time-step 2 (Zone 2) in\n position 925\nRepeat the tests in the above sections. form No. 1\n to 16. Check also\n that indication as well as signal for Zone 2 are obtained. No communication\n send signal should be obtained.\nRemove the time-lag relay again for Time - Zone 2.\nCheck the reach at zone 3 as follows:\nInsert the time-lag relay for time-step 3 (zone 3) in\n position 93 1.\nRepeat the tests in the above sections. form No. 1\n to 16. Check also\n that indication as well as signal for zone 3 are obtained. No communication\n send signal should be obtained.\nReplace the time-lag relays removed in No. 1.\nConnect a voltmeter to the negative pole at terminal 18\n and to the tripping output in phase S or phase T at terminal 16 or 17\n respectively of the test-plug handle. Reduce the measuring quantities until\n the relay operates and gives tripping indication. No tripping impulse should\n be obtained in phase S or T. open the main switch H, reset the indication\n and close it again within 3 sec. Tripping impulse should be obtained in all\n three phases.\nDo the same test as in the above step but reclose the main\n switch H after a longer time than 3 sec.\nTripping impulse should be obtained in phase R only.\nCheck the measuring elements for earth faults in phase S\n in the following manner:\nSet switch F in position SN.\nThe reaches at zone 1, zone 2 and zone 3 as well as\n indications and signals are checked as described in the above Measuring Elements For Earth Faults.\nCheck the measuring elements for earth faults in phase T\n in the following manner:\nSet switch F in position TN.\nThe reaches at zone 1, zone 2 and zone 3 as well as\nindications and signals are checked as described in the above Measuring Elements For Earth Faults.\nMeasuring Elements for Phase to Phase Faults\nCheck the measuring\n elements for two-phase faults in the following matter:\nSet switch F in\n position RS, ST or TR.\nRemove the time-lag\n relays for time steps 2 and 3 mounted at position 925 and 931 of the\n distance relay respectively.\nSet the switch Cx\n and potentiometer Fx,,at their highest value and\n switch GR,, and potentiometer FR in position\n O, i.e.\n the voltage supplied to the relay will lead the current with 90.\nTurn switch H to\n position I and reduce the setting of Gx until the distance relay operates,\n which can be checked by observing the operation of the \"starting\"\n and \"tripping\" indications of the relay.\nIncrease Gx gne step\n and reset the relay and indicators.\nReduce the setting\n of Fx, until the relay operates. check also that the \"starting\" and\n the \"tripping\" signals from the flag indicator 937 and start\n signals from interface relay 919 are obtained in the corresponding phases.\nIf the relay will\n give output signal even when Fx and Gx are at their highest setting, the\n current settings S1 x S2\n have to be reduced one step.\nIf during any test\n both (GX + FX /1000) and\n (GR + FR / 1000) have to be reduced to setting values below 2 before the relay\n operates, the P-setLing of the test set should be changed one step lower in\n order to obtain a better resolution.\nRead off the values\n of G x ind F, and turn the switch H to position 0. Calculate the operating impedance for phase\n to phase faults according to the formulas given in the above.\nThe obtained\n calculated values, XM and RM can directly be plotted in an impedance plane\n in ohms/phase, i.e.: \n X = XM\n ohms/phase\n R = RM\n ohms/phase\nThe test described\n above has been performed with one phase angle. this test can, in general, be\n repeated in other angles, i.e. with other values of Gx , Fx,\n GR and FR as\n well as for the switch.\nThe associated\n operating values can be plotted in an impedance plane as indicated in Fig. 6.\nIf the distance\n relay is provided with auxiliary relay for cooperation with communication\n links according to the permissive tripping scheme principle, the relay\n should give signal for \"communication send\" during the tests\n above.\nReduce the measuring\nquantities close to operation of the relay e.g. the relay is fed with an\nimpedance higher than that set for the reach of zone 1 but lower than that set\nfor the reach of zone 2.\nConnect the positive pole of the station battery to the\ninterfacing relay coil for \"communication receive\" in module 1119.\nThe distance relay should now operate and give tripping\n indication.\nRemove the connection made above.\nInsert the time-lag relay for time-step 2 in position 925.\nRepeat the tests in sections Zone 1.\nCheck also that\n indication as well as signal for zone 2 are obtained. No communication\n signal should be obtained.\nRemove the time-lag relay again.\nInsert the time-lag relay for time-step (Zone)3 in position 93 1.\nRepeat the tests in section Zone 1.\nCheck also that\n indication as well as signal for zone 3 are obtained. No communication signal\n should be obtained.\nThe above tests for Zones 1, 2, 3 could be repeated for any\n combination RS, ST or TR faults.\nReset the setting of the b-value and replace\n the time-lag relay which was removed before.\nFigure 6: \nOperating Characteristic for phase to phase faults.\nMeasuring \nElements for Three-Phase Faults\nCheck the measuring elements for three-phase faults in\n the following matter:\nSet switch F in position RST.\nThe Reach of\n Zone (1) is Checked as Follows\nRemove the time-lag\n relays for time-steps (Zone) 2 and 3 mounted at position 925 and 931 of the\n distance relay respectively.\nSet the switch GX\n and potentiometer FX at their highest value and switch\n GR and potentiometer FR in position O, i.e. voltage supplied to the relay\n will lead the current with 90.\nTurn switch H to\n position 1 and reduce the setting of GX until the distance\n relay operates which can be checked by observing the operation of\n the \"starting\" and \"tripping\" indications of the relay.\nIncrease GX\n one step and reset the relay and indicators.\nReduce the setting\n of FX until the relays operate. Check also that the \"starting\" and\n the \"tripping\" signals from the flag indicator 937 and start\n signals from interface relay 919 are obtained in all phases.\nIf the relay will\n give output signal even when FX ,and GX\n .are at their highest settings ,the current settings S I X S2 have to be\n reduced one step.\nIf during any test\n both (GX+ FX /1000) and\n (GR+ FR/1000) have to be reduced to\n setting values below 1 before the relay operates, the current settings S 1 x\n S2 can be raised but not above the continuous current capability of the\n relay (3 x rated current In ).\nIf (Gx+ Fx /\n 1 000)\n and (GR+ FR /\n 1 000) still have\n to be reduced below I before the relay operates, the measurement has to be carried\n out dynamically with the aid of the M-switch, otherwise the memory\n circuit cannot function and the relay may then be blocked. For the dynamic\n measurement set switch M in position 0 and choose a value for FX.\n Turn M rapidly to position I and observe the relay. If trip signal is\n obtained increase the FX-value and repeat the\n measurement. If trip signal is not obtained decrease the FX-value\n and repeat the measurement.\nRead off the values\n of GX and FX and turn the switch\n H to position 0. Calculate the operating impedance for three-phase faults\n according to the formulas given above for XM & RM\n .\nThe obtained\n calculated values XM and RM, can be plotted in an impedance plane in\n ohms/phase, i.e.:\n X=XM ohms/phase\n R=RM ohms/phase\nThe test described above has been performed with one phase\nangle. This test can, in general, be repeated in other phase angles, i.e. with\nother values of GX, FX , GR and FRas well as of the switch Q. The associated\noperating values can be plotted in an impedance plane as indicated in Fig. 7.\nIf the distance relay is provided with auxiliary relays for\n cooperation with communication links according to the permissive tripping\n scheme principle, the relay should give signal for Communication\n send\" during the tests above.\nThe following test should also \n be made\nReduce the measuring\n quantities close to operation of the relay e.g. the relay is fed with an\n impedance higher than that set for the reach of zone 1 but lower than that\n set for the reach of zone 2.\nConnect the positive pole of the station\n battery to the interfacing relay coil for 6 4 communication receive\" in\n module 1119.\nThe distance relay\n should now operate and give tripping indication.\nRemove the\n connection made above.\nInsert the time-lag\n relay for time-step 2 in position 925.\nRepeat the tests\n as in Zone 1.\nCheck also that indication as well as signal for zone\n 2 are obtained. No communication send signal should be obtained.\nRemove the\n time-lag relay again.\nInsert the time-lag\n relay for time-step 3 in position 93 1.\nRepeat the tests\n as\n in Zone 1\nCheck also that indication as well as signal for zone\n 3 are obtained. No communication send signal should be obtained.\nReplace the time-lag\n relay removed above.\nFigure 7: Operating \nCharacteristic for three phase faults.\nPower Swing Blocking Relay Measuring Element\nThe characteristic of the power swing relay measuring element is\nshown in Fig. 8\nCheck on printed\n board assembly B11 that the power swing relay programming switch K4 has a\n plug in position 1 or 2. If the plug is in position 3 the power swing relay\n is decommissioned and only p-flag will arrive when testing according to\n below.\nSet switch F in\n position RST.\nIf the distance\n relay is provided with auxiliary relays for cooperation with communication\n links according to the permissive tripping scheme principle, the relay\n should give signal for Communication send\" during the tests above.\nSet switch GR and\n potentiometer FR at their highest values and switch Gx and potentiometer\n Fx\n at position 0, i.e. the voltage and the current will be in phase 0.\nTurn switch H to\n position I and reduce the setting of GR until the distance relay operates,\n which can be checked by observing the operation of the tripping or\n \"power swing\" indications of the relay.\nIncrease GR one step\n and reset the relay and the indicators.\nReduce slowly the\n setting of FR until the \"power swing\" operates and wait about 2\n seconds. (The tripping indication shall now operate.)\nTurn switch H to\n position 0. Read off the values of GR and FR and calculate the operating\n impedance which should be equal to the 100%-line limit in Fig. 8 according\n to the formulas XM & RM are \n given in the above.\nIncrease the set\n value of the resistance in the test set to approximately 110 %.\nReduce the setting\n of GR or FR below the operating value obtained in step\n No. (4) of the relay and observe\n the tripping indication of the distance relay. This indication should appear\n approximately 2 sec. after the reduction of the setting. Check that the\n signal for power swing blocking is obtained during the above interval of 2\n sec. as well as \"power swing\" c blocking indication (P).\nKeep GR and\n FR at\n a value below the operating value of the relay and set switch M to position 0\n (full voltage)'. Reset the relay and the indicators.\nTurn switch M to\n position 1 (set values of GR and FR) and observe the tripping indication.\n This indication should appear instantaneously but no signial or indication\n for power swing should be obtained.\nFigure \n8: Power Swing Relay Characteristic\nTime Measurement\nMake sure that the\n relays which may have been removed from the distance relay in conjunction\n with previous measurement are put back to their respective positions.\nThe steady-state\n fault conditions for different types of faults can be simulated with the aid\n of relay test set and the total operating time of the relay for different\n steps can then be checked with a separate timer.\nPlease note that the\n test set does not reproduce the dynamic phenomena.\nInsert the test-plug\n handle RTXH 18 in the distance relay. Connect the contact H 2 of the test set\n to obtain simultaneous start of the timer and of the distance relay when\n turning the main switch H to position 1. the tripping pulse from the relay\n is connected to stop the timer\nThe connection is\n made according to Fig. 2 which applies to a synchronous timer type 51 of\n AEG' s make. When the timer is of the design that can be stopped by D.C supply the stop circuit for the timer is connected directly to the test\n terminal in the trip circuit of the distance relay.\nOn the other\n hand, the stop circuit of the timer must be insulated, an extra auxiliary\n relay with known operating time should be provided. the trip circuit of the\n distance relay should operate this extra relay.\nSet the switch F of\n the test set in position e.g. TR and switch Q in position 1\nSet the switches S1,\n S2, GX , GR and potentiometer FX and FR so that\n the \"desired impedance\" is applied to the relay.\nReset indicators and\n timer.\nWhen the switch H is\n turned in position 1, the desired impedance is applied to the distance relay\n and the starting elements initiate the time-lag relay to operate. When the\n set time of each time-lag relays is up they extend the reach of the distance\n relay. The distance relay gives a tripping impulse when its reach is larger\n than the \"impedance\" applied by the test set.\nIn this way the\n operating time of the distance relay can easily be checked for desired type\n of fault and fault position.\n If the time\n measurement is to be utilized for the matching of the settings of the\n time-lag relays to the selectivity plan, it is suggested that the\n measurement should be carried out as follows:\nSelect the applied\n \" impedance\" so that it is approximately equal to, but larger\n than, the reach set for the first or\n second step and with phase angle equal to 90 . this is obtained with switch\n GR and potentiometer FR in 0 position.\nPerform the time\n measurement test as stated above.\nReturn relay and\nassociated\nequipment to\nservice\nReturn relay to service by withdrawing the test plug\n handle from the relay If any equipment (associated) with the relay has been\n isolated without the test plug it should be returned to service by the\n following restoration steps\nRequest power line be\nreturned to\nservice\nTake crossed readings of all AC currents and voltages\n supplied to the relay\nCompare them to those for normal load conditions.\nCheck that readings agree with station meters MW/MVAR/Power Factor/Amperes\n /Voltages\nPlace a copy of the test results in the field maintenance file\nTest Sheet\nDATE\n..\nSUBSTATION\n..\nCIRCUIT DESIGNATION\n..\nRELAY MANUFACTURER\n..\nRELAY TYPE\n..\nSERIAL NUMBER\n..\nCIRCUIT DIAGRAM REF ..\nINS SETTINGS REF.\n..\nCT RATIO \n..\nVT RATIO \n..\nINDUCTIVE REACH \na \nb \nc \nP1 P2\n. \nP3 .\nRESISTIVE REACH \nτK\nTIME CONSTANTS \nτK\nZERO SEQUENCE COMP K \nτN\nZERO SEQUENCE CURRENT \nSET N ........................\nTIME, LAG ZONE 2 ZONE 3\n84 AUTOMATIC/CONTINUOUS OPERATION\nOF CCVT FILTER\nB9 COMMUNICATION SCHEME\nJUMPER - KI - POSTION\nASEA SCHEME REF\nB11BLOCKING SCHEME ONLY\nJUMPER-KI-POSITION\nJUMPER-K2-POSITION\nPOWER SWING BLOCKING\nJUMPER-K3-POSITION\nJUMPER-K1-POSITION\nJUMPER-K4-POSITION\nSheet 2/6\nMEASURING ELEMENTS GROUND FAULTS\nDATE : .........\nCALCULATED\n ZM\nFAULT APPLICATION S.E.\nCALCULATED\n ZM\nSubstation: \nFeeder Name:\nChecked by: \nSignature:\nSheet \n3/6\nFAULT APPLICATION T.E \nDATE : .........\nCALCULATED\n ZM\nMEASURING ELEMENTS FOR TWO PHASE FAULTS\nFAULT APPLICATION R.S\nCALCULATED\n ZM\nSheet 4/6\nFAULT APPLICATION S.T\nDATE : .........\nCALCULATED\n ZM\nFAULT APPLICATION T.R.\nCALCULATED\n ZM\nSubstation: \nFeeder Name:\nChecked by: \nSignature:\nSheet 5/6\nMEASURING ELEMENTS GROUND\nFAULTS \nDATE : ......... \nFAULT APPLICATION R.S.T.\nCALCULATED\n ZM\nPOWER SWING BLOCKING\nAPPLIED FAULT R. S .T.\nS1 = S2= \nKF =\nGR + FR = GX + FX = \nXM = RM = \nZM =\nSET IMP. ZM =\nOPERATION\nBLOCK .............\nTRIP \n.............\nBLOCKING .............\nTIME MEASUREMENT\nMEASURED ZONE 1 =\nMEASURED ZONE 2 =\nMEASURED ZONE 3 =\nSubstation: \nFeeder Name:\nChecked by: \nSignature:\nSheet \n6/6\nFAULT APPLICATION REVERSE REACH APPLICATION \nDATE: ...\nFAULT APPLIED\nCALCULATEDZM\nTURH SETTINGS\nS1\nS2\nP\nQ\nSubstation: \nFeeder Name:\nChecked by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-01.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-02.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-r0-eq1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-r0-eq2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-r0-eq3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-r0-eq4.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-r0-eq5.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-r0-eq6.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010eq%209.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-r0-eq8.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-r0-fig%203-4-5.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-06.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-07.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-08.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-09.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-010-10.gif",
+   "alt": ""
+  }
+ ]
+}

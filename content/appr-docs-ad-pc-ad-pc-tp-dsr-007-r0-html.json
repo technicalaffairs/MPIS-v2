@@ -1,0 +1,394 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-007-r0-html",
+ "doc_number": "DSR-007-R0",
+ "title_en": "DsR-007-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-007-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Networks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps \n required to completely check the proper operation and calibration of the LZ3 \n relay using QZW415 test set. It is recommended this procedure be carried out \n on a yearly bases."
+  },
+  {
+   "type": "paragraph",
+   "text": "This work be carried out section of this document is divided into 3 sections. \n The first preliminary steps to prepare for relay testing describes the \n activities required prior to testing. Some of these steps could be performed \n days before the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The second section Preparation for testing describes the steps to set up the \n equipment for performing the actual tests. The third section is the actual \n test. The document is formatted the way to minimize the possibility of error \n causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety\nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation and work permit required.",
+    "Make sure that CT secondary secondary Circuits are shorted before\n isolating the relay current for test current injection."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Multimeter for measuring phase rotation meter",
+    "Screwdriver",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure should be used for performing off load line",
+    "Review technical reference material: Manufacturer's manual.",
+    "Obtain copy of relay setting from field maintenance file and compare it\n with the setting on relay.",
+    "Option outage for line protected by this relay.",
+    "Check that the bus and line disconnect switches are opened and tagged.",
+    "Inject the CT secondary circuits, the VT (MCBS) and all\n coupling supplying\n the relay."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Use the station drawing to isolate the following:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Beaker trip coils.",
+    "Breaker fouler scheme associated with this relay.",
+    "Disturbance alarms and faults recorder associated."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Procedure (s)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch \n Position \n Switch \n Position"
+  },
+  {
+   "type": "paragraph",
+   "text": "C \n 1amp \n X \n + I"
+  },
+  {
+   "type": "paragraph",
+   "text": "U \n II \n O \n I , L"
+  },
+  {
+   "type": "paragraph",
+   "text": "B \n L380 \n P \n I , L"
+  },
+  {
+   "type": "paragraph",
+   "text": "Y \n I \n Link q\n +K \n Closed"
+  },
+  {
+   "type": "paragraph",
+   "text": "D \n X"
+  },
+  {
+   "type": "paragraph",
+   "text": "W \n 1"
+  },
+  {
+   "type": "list",
+   "items": [
+    "By using an ammeter checks to verify that these is no current passing\n through LZ3 relay circuit wires going to the rear terminals numbers 1, 2, 3\n and 4 should have no current flowing in them.",
+    "Car pulley open LZ3 relay cover and put pins (1, 2, 3, 4) in the\n horizontal position (test position) this means these should be no current\n flow and return to normal vertical (I) position.",
+    "Remove the relay DC plug and connect the CT Shorting lines in the test\n block terminals.",
+    "Use small seven drive to horizontal (-) position",
+    "Using the rely setting supplied by EEA",
+    "Connect the multi connect plug between the tester QZW 4 LS and relay LZ3\n from (1-15 pins)",
+    "Arrange the switches and line has on the QZWIS test set as the table below",
+    "Make sure that supplied DC voltage is available for relay LZ3 by measuring\n the terminal (13) +ve on the rear slide of relay",
+    "Press in and turn tester QZW 4 IS voltage switch r",
+    "Couple AC pans to tester QZW4IS by using one of the following methods:-",
+    "If the PT's supplying the relay are still in sesutce voltage will be on\n the bottom part test terminals 5,6,7 and 8 hence: use a screwdriver to turn\n these four test terminals to vertical position I (In this case , the switch\n U must be turned to position I to select this internal voltage schemes)",
+    "Connect this fund test leads to the group a set of the test terminals( R,\n ST ) in the upper lift corner of tester QZW41S and observe the connect\n polarity and connect the other and to these leads to these phase 110 VAC\n supply (put switch In position II) to select the external voltage source",
+    "Use a phase rotation meter to check the connect these sequence of the 3\n voltage"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Function Test Operation of LZ3"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place % Z switch H and K in zero O position",
+    "Insert the DC isolating plug into the relay LZ3 to energize the DC\n circuits and then press down and turn the voltage control switch N to the ON\n position I and then operate the LZ3 relay by pressing bush button NI",
+    "Test the operation of the verities relay components by champing the phase\n selection switch F and the turn of fault switch G according to the title\n page 36",
+    "Remove the DC isolating play from the relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the Picking up Value of the Phase to Earth"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Turn the % Z switches on the QZW415 to agree with the calculated\n zero 1",
+    "Select phase to ground faults by turning G switch to position 2 on R, S, T\n receptivity",
+    "Insert DC isolating plug into LZ3, push dawn and turn voltage Ontario\n switch N to ON position I and press button N I and observe contact CAR, LE,\n tipping contact DC ill are pick up and red trip indicator lamp on QZW 415\n will light",
+    "Check for the receipt high Y, Z at which CAR,CE, ESII and CD all will pieced\n up as 2 no zone (Repeat the lave test a lot s times to determine the average\n pick up point and record it",
+    "Increase % Z setting gradually on tester until the rely is operated in the\n 3 r d zero the contact CAR, CE, CS III, CSIII and tripping contractor (1)\n will pick up (Repeat these them 5tims and find the average pick up point and\n read it repeat the items four 16 20 again to plus 5 and them for these T",
+    "Remove the DC isolating plug from the rely LZ3 to de-energize the DC\n circuits"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Pick Up Value of the Phase to Phase Unit"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select phase to phase faults by turning switching to position I\n turn switch F to R, S, T to select different comlinatleins of phase to phase\n faults",
+    "Determine % value corresponding to the relay setting of 1st gone",
+    "Perform tests similar to these for phase to each as given in the steps\n alarm better all test results on the relay tests sheet"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking zone 1 and zone 2 sipping times"
+  },
+  {
+   "type": "paragraph",
+   "text": "T1 = % Z1 and put it on\n QZW415 \n 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "T2 = % Z1 + % Z2\n 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "T3 = % Z1 + % Z2\n + % Z\n 3"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Turn switch D on the QZW415 to the sec position to select time\n measurement",
+    "Use two test leads to be connected to the digital timer stop inputs to\n terminals (12&13 71) to Acted in the top right corner of QZW415 tester",
+    "Use two test leads to be connected the digital times start inputs to the\n bottom right corner QZW415 tester.",
+    "Connect on AC supply to the digital times circuit",
+    "Press the reset bottom for the digital timer display",
+    "Time test for phase to earth faults",
+    "Decrease % for 1st zone and Divided T1 by 2",
+    "To perform the time test, press and hold switch H\n I in the closed\n position",
+    "Press dawn and turn voltage control switch N to the ON position I the\n times will start and them stop once the CD trip relay has picked up , them\n record this time",
+    "Repeat the test for the other tow phases",
+    "Increase the % Z setting on QZW415 tester until the rely LZ3 is operating\n in the 2nd zone since",
+    "Increase the % Z setting on the QZW415 tester until the rely LZ3 is\n operating in the 3rd time",
+    "Remove the DC isolating plug from the relay to de-energize the DC circuits\n time tests for ph-ph unit",
+    "Select ph-ph faults by turning switch G to position I",
+    "Perform timing test for the ph-ph unit by repeating procedure similar to\n those given to ph-earth"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay IB \n A ptoe : \n sec. \n PTrW: sec. \n PTrh: sec. \n X : Ohm/ph X0: \n Ohm/ph 3-"
+  },
+  {
+   "type": "paragraph",
+   "text": "of the components"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured\n % Z"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch 9 on 1\n Switch 9 on 2\n Switch 9 on 3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured\n %Z"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Station\n : \n Feeder : \n Type \n Nr. B \n Grading plan of"
+    ],
+    [
+     "Setting\n on panel",
+     "Relay \n IE A \n Impedance M: cos \n transf. shi : wl = \n ohm/ph \n ko Transf HGB : c ="
+    ],
+    [
+     "Combined\n operation",
+     "Test\n according to table ( Appendix 8 for appropriate type"
+    ],
+    [
+     "Testing\n relays\n Z\n Switch 9 on 1\n Switch 9 on 2",
+     "ZA",
+     "ZAR",
+     "ZAS",
+     "ZAT",
+     ""
+    ],
+    [
+     "Setting\n Ohm/ph",
+     "Des.\n value\n % Z",
+     "Measured\n % Z",
+     "Measured\n % Z",
+     "Measured\n % Z",
+     "Setting\n Ohm/ph",
+     "Des.\n value\n % Z",
+     ""
+    ],
+    [
+     "Testing\n relays\n PU",
+     "Step \n l-ll",
+     "Step \n ll-lll",
+     "Step \n lll - v",
+     "A"
+    ],
+    [
+     "Set.\n l%v",
+     "Des.\n %Z",
+     "Measured %Z",
+     "Set.\n ll%v",
+     "Des.\n ll%v",
+     "",
+     "Set.\n ll%v",
+     "Des.\n %Z",
+     "Measured\n %Z",
+     "Set.\n A%V",
+     "Des.\n %Z",
+     "Measured\n %Z"
+    ],
+    [
+     "R",
+     "S",
+     "T",
+     "R",
+     "S",
+     "T",
+     "R",
+     "S",
+     "T",
+     "R",
+     "S",
+     "T"
+    ],
+    [
+     "Timer\n T\n SSX\n Switch 9on1 (vp)*\n Switch 9on4 (pp)",
+     "Step\n l",
+     "Step\n ll",
+     "Step\n lll",
+     "Step\n lV",
+     "Step\n V"
+    ],
+    [
+     "Set.\n % Z",
+     "Sec\n Des. value",
+     "Sec\n Meas.",
+     "Set.\n % Z",
+     "Sec.\n Des. value",
+     "Sec\n Meas.",
+     "Set.\n % Z",
+     "Sec\n Des. value",
+     "Sec.\n Meas.",
+     "Sec.\n Des. value",
+     "Step.\n % Z",
+     "Sec.\n Des. value",
+     "Sec.\n Meas."
+    ],
+    [
+     "Indicator\n lamp :",
+     "When\n the tripping contactor picks up, the lamp must light"
+    ],
+    [
+     "Test\n performed : \n * VP = full test \n PP= Periodical test"
+    ],
+    [
+     "Date",
+     "By",
+     "Test set",
+     "VP / PP*",
+     "Remarks",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "Circuit breaker",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "Voltage transf",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "Current\n transf",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "\nIssued to: \n Networks\nIntroduction\nThis procedure details the steps \n required to completely check the proper operation and calibration of the LZ3 \n relay using QZW415 test set. It is recommended this procedure be carried out \n on a yearly bases.\nThis work be carried out section of this document is divided into 3 sections. \n The first preliminary steps to prepare for relay testing describes the \n activities required prior to testing. Some of these steps could be performed \n days before the actual test.\nThe second section Preparation for testing describes the steps to set up the \n equipment for performing the actual tests. The third section is the actual \n test. The document is formatted the way to minimize the possibility of error \n causing personal injury or damage to equipment.\nSafety\nPrecautions\nLine isolation and work permit required.\nMake sure that CT secondary secondary Circuits are shorted before\n isolating the relay current for test current injection.\nTools and Equipment\nMultimeter for measuring phase rotation meter\nScrewdriver\nTest leads\nWork to be Carried Out\nSteps to Prepare for Relay Testing\nThis procedure should be used for performing off load line\nReview technical reference material: Manufacturer's manual.\nObtain copy of relay setting from field maintenance file and compare it\n with the setting on relay.\nOption outage for line protected by this relay.\nCheck that the bus and line disconnect switches are opened and tagged.\nInject the CT secondary circuits, the VT (MCBS) and all\n coupling supplying\n the relay.\nUse the station drawing to isolate the following:\nBeaker trip coils.\nBreaker fouler scheme associated with this relay.\nDisturbance alarms and faults recorder associated.\nTest Procedure (s)\nSwitch \n Position \n Switch \n Position\nC \n 1amp \n X \n + I\nU \n II \n O \n I , L\nB \n L380 \n P \n I , L\nY \n I \n Link q\n +K \n Closed\nD \n X\nW \n 1\nBy using an ammeter checks to verify that these is no current passing\n through LZ3 relay circuit wires going to the rear terminals numbers 1, 2, 3\n and 4 should have no current flowing in them.\nCar pulley open LZ3 relay cover and put pins (1, 2, 3, 4) in the\n horizontal position (test position) this means these should be no current\n flow and return to normal vertical (I) position.\nRemove the relay DC plug and connect the CT Shorting lines in the test\n block terminals.\nUse small seven drive to horizontal (-) position\nUsing the rely setting supplied by EEA\nConnect the multi connect plug between the tester QZW 4 LS and relay LZ3\n from (1-15 pins)\nArrange the switches and line has on the QZWIS test set as the table below\nMake sure that supplied DC voltage is available for relay LZ3 by measuring\n the terminal (13) +ve on the rear slide of relay\nPress in and turn tester QZW 4 IS voltage switch r\nCouple AC pans to tester QZW4IS by using one of the following methods:-\nIf the PT's supplying the relay are still in sesutce voltage will be on\n the bottom part test terminals 5,6,7 and 8 hence: use a screwdriver to turn\n these four test terminals to vertical position I (In this case , the switch\n U must be turned to position I to select this internal voltage schemes)\nConnect this fund test leads to the group a set of the test terminals( R,\n ST ) in the upper lift corner of tester QZW41S and observe the connect\n polarity and connect the other and to these leads to these phase 110 VAC\n supply (put switch In position II) to select the external voltage source\nUse a phase rotation meter to check the connect these sequence of the 3\n voltage\nTesting the Function Test Operation of LZ3\nPlace % Z switch H and K in zero O position\nInsert the DC isolating plug into the relay LZ3 to energize the DC\n circuits and then press down and turn the voltage control switch N to the ON\n position I and then operate the LZ3 relay by pressing bush button NI\nTest the operation of the verities relay components by champing the phase\n selection switch F and the turn of fault switch G according to the title\n page 36\nRemove the DC isolating play from the relay\nCheck the Picking up Value of the Phase to Earth\nTurn the % Z switches on the QZW415 to agree with the calculated\n zero 1\nSelect phase to ground faults by turning G switch to position 2 on R, S, T\n receptivity\nInsert DC isolating plug into LZ3, push dawn and turn voltage Ontario\n switch N to ON position I and press button N I and observe contact CAR, LE,\n tipping contact DC ill are pick up and red trip indicator lamp on QZW 415\n will light\nCheck for the receipt high Y, Z at which CAR,CE, ESII and CD all will pieced\n up as 2 no zone (Repeat the lave test a lot s times to determine the average\n pick up point and record it\nIncrease % Z setting gradually on tester until the rely is operated in the\n 3 r d zero the contact CAR, CE, CS III, CSIII and tripping contractor (1)\n will pick up (Repeat these them 5tims and find the average pick up point and\n read it repeat the items four 16 20 again to plus 5 and them for these T\nRemove the DC isolating plug from the rely LZ3 to de-energize the DC\n circuits\nChecking the Pick Up Value of the Phase to Phase Unit\nSelect phase to phase faults by turning switching to position I\n turn switch F to R, S, T to select different comlinatleins of phase to phase\n faults\nDetermine % value corresponding to the relay setting of 1st gone\nPerform tests similar to these for phase to each as given in the steps\n alarm better all test results on the relay tests sheet\nChecking zone 1 and zone 2 sipping times\nT1 = % Z1 and put it on\n QZW415 \n 2\nT2 = % Z1 + % Z2\n 2\nT3 = % Z1 + % Z2\n + % Z\n 3\nTurn switch D on the QZW415 to the sec position to select time\n measurement\nUse two test leads to be connected to the digital timer stop inputs to\n terminals (12&13 71) to Acted in the top right corner of QZW415 tester\nUse two test leads to be connected the digital times start inputs to the\n bottom right corner QZW415 tester.\nConnect on AC supply to the digital times circuit\nPress the reset bottom for the digital timer display\nTime test for phase to earth faults\nDecrease % for 1st zone and Divided T1 by 2\nTo perform the time test, press and hold switch H\n I in the closed\n position\nPress dawn and turn voltage control switch N to the ON position I the\n times will start and them stop once the CD trip relay has picked up , them\n record this time\nRepeat the test for the other tow phases\nIncrease the % Z setting on QZW415 tester until the rely LZ3 is operating\n in the 2nd zone since\nIncrease the % Z setting on the QZW415 tester until the rely LZ3 is\n operating in the 3rd time\nRemove the DC isolating plug from the relay to de-energize the DC circuits\n time tests for ph-ph unit\nSelect ph-ph faults by turning switch G to position I\nPerform timing test for the ph-ph unit by repeating procedure similar to\n those given to ph-earth\nTest Sheet\nRelay IB \n A ptoe : \n sec. \n PTrW: sec. \n PTrh: sec. \n X : Ohm/ph X0: \n Ohm/ph 3-\nof the components\nMeasured\n % Z\nSwitch 9 on 1\n Switch 9 on 2\n Switch 9 on 3\nMeasured\n %Z\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

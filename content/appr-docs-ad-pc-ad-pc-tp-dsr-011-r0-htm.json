@@ -1,0 +1,248 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-011-r0-htm",
+ "doc_number": "DSR-011-R0",
+ "title_en": "DsR-011-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-011-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Networks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "7S130 is a six system solid state distance protection has three of them use star measuring quantities and the other use delta measuring quantities.\nThe six assuring systems could set for distance independent of each other. The operating time is half cycle."
+  },
+  {
+   "type": "paragraph",
+   "text": "Independent is setting of reach along the resistance and reactance.\nHas quadrilateral characteristic for tripping."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precaution"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation and work permit required",
+    "Isolate dc supply to relay before any adjustment or maintenance on the relay",
+    "Switching off the auto recloser unit."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Tester (7vp 48, 7vp49)",
+    "Ammeter",
+    "Voltmeter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material manufactures",
+    "Obtain outage for line protected by this relay",
+    "Obtain copy of the relay setting",
+    "Check that isolating switch and C.B are opened and tagged",
+    "Inspect the secondary circuit of CT , VT",
+    "Isolate the breaker failure scheme associated with this protn",
+    "Block any disturbance alarm"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation of tester"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place the two cases the voltage unit on the top and current unit in the bottom.",
+    "Connect the two units together by the cable connector by the cable connector 7xv6201 between test plug x2 in current unit and test plug x1current in the voltage unit",
+    "Connect the power supply cable 7xv6200 (AC supply) between the plug x1 in the Current unit and the source.",
+    "Connect the cable 7xv6200-1 between the plug x3 in the current unit and the test plug 7xv61 on the relay.",
+    "Connect the ammeter with the terminal 17, 18 in current unit and voltmeter on Terminal 5,6 in voltage unit.",
+    "The selector switch si7 must be in position 2 for built in timer",
+    "The selector switch s10 for current must be adjusted\n decoding to the rated of the Secondary current transformer.",
+    "Turn the test switch (test /service) on the relay to position (test)",
+    "Insert the plug in test socket module relay",
+    "Switch on the main switch s1 on the current unit and also switch s13 for the voltage unit.",
+    "Check the phase sequence, it must be positive sequence, and that happened when H13 signaling lamp 13 green and if the signaling lamp H14 is red then the sequence is negative",
+    "Adjust the selector switch s5\n to (zero) angle",
+    "Adjust the switch (S15 1x) of the current phase\n selection at L on current unit and adjust the selector switch ( s6- ux5-6 ) of voltage phase selection at\n (L1-N) on the voltage unit",
+    "Select the fault type (IL1, IN) (UL 1, un) by pressing the push button switch s2 ,s5 on the current unit and\n s1,s4 on the voltage unit",
+    "Increase the voltage from the variable transformer knob (course and fine) to be more than the calculation value of voltage.",
+    "Press on the push button s8 to start the injection and adjust the current at IA from the single phase variable transformer T1 for current IL 1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Direction check"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Simulate a fault type fault",
+    "Adjust the voltage at the\n normal value for the three phases",
+    "Adjust the current at approximately 0.5\n In",
+    "The green LEDs on the six measuring module 7TL 52 must be light if the direction is correct",
+    "Change the direction from the voltage test set or from the plug on the module 7TL 51. The\n EDS' must be off."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Starting test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Under impedance start j> /Jn u\n < /v",
+    "S.C current starting with change in angle J>> /Jn = J ( Ф)",
+    "S.C current starting J>> /Jn"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Under impedance start"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Put T2, T3, T4 ON",
+    "Prepare the tester for R-E fault",
+    "Decrease the voltage value to\n be lower than 48v of this phase and increase the current until to reach the pick up value J>/Jn,\n & check the LEDs",
+    "Increase\n the value of current but at the same time it must be less than the value of (S.C current) to obtain the exact value of the\n voltage",
+    "Increase\n the voltage value to be higher than 48 V",
+    "After that decrease the voltage\n to obtain the starting again this values are exact values of current and voltage",
+    "Repeat the previous steps for the other\n phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Short circuit current starting J (Ф)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Prepare the tester for R-E fault",
+    "Increase the voltage value more than 48v",
+    "Put\n the angle Φ to be in the\n range ( Φ )\n 55º > Ф> 112º",
+    "Increase the current until to reach the starting\n to be sure that before and after that rang of angle Фno starting occur with this value of current",
+    "Repeat the same test for the others phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Short circuit starting J<</Jn"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Prepare the tester for R-E fault",
+    "Put the voltage value more than 42v",
+    "Check that the angle Φ\n is out side the range of J (Ф)\n (55º-112º) \n increase the current until to obtain the starting",
+    "Repeat for the other phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Distance Zones"
+  },
+  {
+   "type": "paragraph",
+   "text": "This test are made for angle 0,90 only for voltage values corresponding to each zone"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calculation the setting values for distance zones"
+  },
+  {
+   "type": "paragraph",
+   "text": "Where ri : is the reach resistance\nsetting & i = 1,2"
+  },
+  {
+   "type": "paragraph",
+   "text": "First distance zone"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set timer plug t2, t3, t4 to ∞",
+    "Prepare the tester for R-E fault as\n mentioned",
+    "Adjust the angle to 90,increase the current more than starting current and the voltage to 48v ,decrease the voltage until to reach the tripping, compare this value by the value you calculated from the table",
+    "Adjust the angle to zero and repeat step ( 3 )",
+    "Repeat the steps ( 3 & 4 ) to the other phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Second distance zone"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the timer plug t2",
+    "Repeat the above steps ( In first zone ) ( 3 & 4 ) for all phases",
+    "Repute the following in to service",
+    "Disturbance alarm and fault recorder",
+    "The associated\n auto- relosure scheme",
+    "The associated breaker failure scheme",
+    "Return the test switch (TEST/SERVICE) on the relay to position SERVICE"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Line to be Returned\nto Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents and voltages supplied to the relay and compare them to those for normal load conditions",
+    "Check that these reading agree with station meters:\n (MW, MVAR, power factor, Amperes, voltages)",
+    "Place a copy of the test results in the field maintenance\n fill."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
+  }
+ ],
+ "text": "\nIssued to: \n Networks\nIntroduction\n7S130 is a six system solid state distance protection has three of them use star measuring quantities and the other use delta measuring quantities.\nThe six assuring systems could set for distance independent of each other. The operating time is half cycle.\nIndependent is setting of reach along the resistance and reactance.\nHas quadrilateral characteristic for tripping.\nSafety Precaution\nLine isolation and work permit required\nIsolate dc supply to relay before any adjustment or maintenance on the relay\nSwitching off the auto recloser unit.\nTools and equipment\nTester (7vp 48, 7vp49)\nAmmeter\nVoltmeter\nWork to be Carried Out\nReview technical reference material manufactures\nObtain outage for line protected by this relay\nObtain copy of the relay setting\nCheck that isolating switch and C.B are opened and tagged\nInspect the secondary circuit of CT , VT\nIsolate the breaker failure scheme associated with this protn\nBlock any disturbance alarm\nPreparation of tester\nPlace the two cases the voltage unit on the top and current unit in the bottom.\nConnect the two units together by the cable connector by the cable connector 7xv6201 between test plug x2 in current unit and test plug x1current in the voltage unit\nConnect the power supply cable 7xv6200 (AC supply) between the plug x1 in the Current unit and the source.\nConnect the cable 7xv6200-1 between the plug x3 in the current unit and the test plug 7xv61 on the relay.\nConnect the ammeter with the terminal 17, 18 in current unit and voltmeter on Terminal 5,6 in voltage unit.\nThe selector switch si7 must be in position 2 for built in timer\nThe selector switch s10 for current must be adjusted\n decoding to the rated of the Secondary current transformer.\nTurn the test switch (test /service) on the relay to position (test)\nInsert the plug in test socket module relay\nSwitch on the main switch s1 on the current unit and also switch s13 for the voltage unit.\nCheck the phase sequence, it must be positive sequence, and that happened when H13 signaling lamp 13 green and if the signaling lamp H14 is red then the sequence is negative\nAdjust the selector switch s5\n to (zero) angle\nAdjust the switch (S15 1x) of the current phase\n selection at L on current unit and adjust the selector switch ( s6- ux5-6 ) of voltage phase selection at\n (L1-N) on the voltage unit\nSelect the fault type (IL1, IN) (UL 1, un) by pressing the push button switch s2 ,s5 on the current unit and\n s1,s4 on the voltage unit\nIncrease the voltage from the variable transformer knob (course and fine) to be more than the calculation value of voltage.\nPress on the push button s8 to start the injection and adjust the current at IA from the single phase variable transformer T1 for current IL 1\nDirection check\nSimulate a fault type fault\nAdjust the voltage at the\n normal value for the three phases\nAdjust the current at approximately 0.5\n In\nThe green LEDs on the six measuring module 7TL 52 must be light if the direction is correct\nChange the direction from the voltage test set or from the plug on the module 7TL 51. The\n EDS' must be off.\nStarting test\nUnder impedance start j> /Jn u\n < /v\nS.C current starting with change in angle J>> /Jn = J ( Ф)\nS.C current starting J>> /Jn\nUnder impedance start\nPut T2, T3, T4 ON\nPrepare the tester for R-E fault\nDecrease the voltage value to\n be lower than 48v of this phase and increase the current until to reach the pick up value J>/Jn,\n & check the LEDs\nIncrease\n the value of current but at the same time it must be less than the value of (S.C current) to obtain the exact value of the\n voltage\nIncrease\n the voltage value to be higher than 48 V\nAfter that decrease the voltage\n to obtain the starting again this values are exact values of current and voltage\nRepeat the previous steps for the other\n phases\nShort circuit current starting J (Ф)\nPrepare the tester for R-E fault\nIncrease the voltage value more than 48v\nPut\n the angle Φ to be in the\n range ( Φ )\n 55º > Ф> 112º\nIncrease the current until to reach the starting\n to be sure that before and after that rang of angle Фno starting occur with this value of current\nRepeat the same test for the others phases\nShort circuit starting J<</Jn\nPrepare the tester for R-E fault\nPut the voltage value more than 42v\nCheck that the angle Φ\n is out side the range of J (Ф)\n (55º-112º) \n increase the current until to obtain the starting\nRepeat for the other phases\nDistance Zones\nThis test are made for angle 0,90 only for voltage values corresponding to each zone\nCalculation the setting values for distance zones\nWhere ri : is the reach resistance\nsetting & i = 1,2\nFirst distance zone\nSet timer plug t2, t3, t4 to ∞\nPrepare the tester for R-E fault as\n mentioned\nAdjust the angle to 90,increase the current more than starting current and the voltage to 48v ,decrease the voltage until to reach the tripping, compare this value by the value you calculated from the table\nAdjust the angle to zero and repeat step ( 3 )\nRepeat the steps ( 3 & 4 ) to the other phases\nSecond distance zone\nInsert the timer plug t2\nRepeat the above steps ( In first zone ) ( 3 & 4 ) for all phases\nRepute the following in to service\nDisturbance alarm and fault recorder\nThe associated\n auto- relosure scheme\nThe associated breaker failure scheme\nReturn the test switch (TEST/SERVICE) on the relay to position SERVICE\nRequest Power Line to be Returned\nto Service\nTake crossed readings of all AC currents and voltages supplied to the relay and compare them to those for normal load conditions\nCheck that these reading agree with station meters:\n (MW, MVAR, power factor, Amperes, voltages)\nPlace a copy of the test results in the field maintenance\n fill.\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

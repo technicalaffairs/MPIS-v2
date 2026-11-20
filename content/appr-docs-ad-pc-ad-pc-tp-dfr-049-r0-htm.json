@@ -1,0 +1,180 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dfr-049-r0-htm",
+ "doc_number": "DFR-049-R0",
+ "title_en": "DfR-049-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DfR-049-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The KBCH \n120 is a fully numerical design relays offer biased differential current, \ncurrent, restricted earth fault and over fluxing protections primarily \nfor the protection of tow or three winding transformer units-power transformers, \nauto transformers or generator."
+  },
+  {
+   "type": "paragraph",
+   "text": "All models are three phase units with \ninternal vector group compensation and line current transformer ratio \ncorrections, thus eliminating the need for interposing transformer in most cases"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated and tested by eng. Khaled \nSaad Ahmed, accepted by eng. Fatma Elzhraa Mohamed: general manager, approved by \neng. Abdel Maneam Rabeay: head sector of El Nakra Power Station, and \ncertified by eng. Mohamed Kamel \nAhmed: UE zone quality control general director and MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation is required.",
+    "A work permit must be issued",
+    "The maintenance staff should carry the suitable ID safety category,",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Personal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc",
+    "Make sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.",
+    "Outage arrangement must be done."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set type CTR 233",
+    "Test leads",
+    "Multi meter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Current setting test (Id>)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Current level"
+    ],
+    [
+     "Pick - up",
+     "0.9 x Is to 1.1 x Is"
+    ],
+    [
+     "Drop - off",
+     "0.9xpick-up to 1.0xpick-up"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Table 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Id> \n is low set setting which will be found in the cell (Id>)under the setting \n menu heading.\n CT ratio cor is the CT ratio correction which is used to compensate for a \n mismatch in currents due to the line side current transformer ratios, there \n is one ratio correction factor for the HV side, which is found in the cell (HV \n ratio cor) and one for the LVI side found in the cell (LVI ratio cor) both \n if these are found under the setting menu headings. The appropriate CT ratio \n factor should be used to calculate the current to inject depending upon."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Table 2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect test leads between the current terminals on the relay (21,22) phase \n a(primary side) and the current terminals on the test set type CTR 233 \n (phase a)",
+    "Slowly increase the \n current from 0 amp and note the pick-up value at \n which the relay operates as indicates by the red light emitting diode (TRIP \n LED) on the front plate",
+    "Record \n the operating (differential) current on the test sheet.",
+    "Id> \n is low set setting which will be found in the cell (Id>)under the setting \n menu heading.\n CT ratio cor is the CT ratio correction which is used to compensate for a \n mismatch in currents due to the line side current transformer ratios, there \n is one ratio correction factor for the HV side, which is found in the cell (HV \n ratio cor) and one for the LVI side found in the cell (LVI ratio cor) both \n if these are found under the setting menu headings. The appropriate CT ratio \n factor should be used to calculate the current to inject depending upon.",
+    "81,82"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the operating time"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat step no. 1 in current setting test",
+    "Connect the relay time delayed out put contacts number (30-32) to the timer \n contacts of the test set type CTR 233",
+    "Prepare test set type CTR 233 for measuring time delay & inject \n (I normal = 0.5 I setting, I fault = 2 I setting) into the A phase and note \n the time displayed when the timer stop",
+    "Check the operating time for relay recorded by the timer is within the range \n 30ms to 40 ms",
+    "Repeat the same steps no 1,2,3,4 for \n remaining phases b,c on the HV side & phases on the LV side as listed \n in table 2 above"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Circuit breaker trip test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set up the circuit breaker for trip test",
+    "Repeat step No 1 in current setting test",
+    "Inject current into the relay until the circuit breaker trips at the time \n belayed setting",
+    "Close the circuit breaker again",
+    "Repeat the same steps 1,2,3 for remaining phase B&C on the HV side & phases on \n the LV side as listed in table 2 above"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return the \nrelay and\npower equipment to\nservice"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify the test result match the relay setting if not consult technical \n service",
+    "Make a final check \n that all switches on the relay are set according to the setting sheet make \n sure the CT secondary circuit is in normal condition",
+    "Remove the CT shorts \n which were installed in the power supply",
+    "Return the relay and \n power equipment to service by removing test leads from the relay terminals \n block and test set"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nRelay Designation: Tested by: \nSignature: \nTest Date:"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nEquipment:\nIntroduction\nThe KBCH \n120 is a fully numerical design relays offer biased differential current, \ncurrent, restricted earth fault and over fluxing protections primarily \nfor the protection of tow or three winding transformer units-power transformers, \nauto transformers or generator.\nAll models are three phase units with \ninternal vector group compensation and line current transformer ratio \ncorrections, thus eliminating the need for interposing transformer in most cases\nThe first draft initiated and tested by eng. Khaled \nSaad Ahmed, accepted by eng. Fatma Elzhraa Mohamed: general manager, approved by \neng. Abdel Maneam Rabeay: head sector of El Nakra Power Station, and \ncertified by eng. Mohamed Kamel \nAhmed: UE zone quality control general director and MPIS coordinator.\nSafety Precautions\nLine isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.\nOutage arrangement must be done.\nTools and Equipment\nSecondary injection test set type CTR 233\nTest leads\nMulti meter\nWork to be Carried Out\nCurrent setting test (Id>)\n\nTable 1\nId> \n is low set setting which will be found in the cell (Id>)under the setting \n menu heading.\n CT ratio cor is the CT ratio correction which is used to compensate for a \n mismatch in currents due to the line side current transformer ratios, there \n is one ratio correction factor for the HV side, which is found in the cell (HV \n ratio cor) and one for the LVI side found in the cell (LVI ratio cor) both \n if these are found under the setting menu headings. The appropriate CT ratio \n factor should be used to calculate the current to inject depending upon.\n\nConnect test leads between the current terminals on the relay (21,22) phase \n a(primary side) and the current terminals on the test set type CTR 233 \n (phase a)\nSlowly increase the \n current from 0 amp and note the pick-up value at \n which the relay operates as indicates by the red light emitting diode (TRIP \n LED) on the front plate\nRecord \n the operating (differential) current on the test sheet.\nId> \n is low set setting which will be found in the cell (Id>)under the setting \n menu heading.\n CT ratio cor is the CT ratio correction which is used to compensate for a \n mismatch in currents due to the line side current transformer ratios, there \n is one ratio correction factor for the HV side, which is found in the cell (HV \n ratio cor) and one for the LVI side found in the cell (LVI ratio cor) both \n if these are found under the setting menu headings. The appropriate CT ratio \n factor should be used to calculate the current to inject depending upon.\n81,82\nCheck the operating time\nRepeat step no. 1 in current setting test\nConnect the relay time delayed out put contacts number (30-32) to the timer \n contacts of the test set type CTR 233\nPrepare test set type CTR 233 for measuring time delay & inject \n (I normal = 0.5 I setting, I fault = 2 I setting) into the A phase and note \n the time displayed when the timer stop\nCheck the operating time for relay recorded by the timer is within the range \n 30ms to 40 ms\nRepeat the same steps no 1,2,3,4 for \n remaining phases b,c on the HV side & phases on the LV side as listed \n in table 2 above\nCircuit breaker trip test\nSet up the circuit breaker for trip test\nRepeat step No 1 in current setting test\nInject current into the relay until the circuit breaker trips at the time \n belayed setting\nClose the circuit breaker again\nRepeat the same steps 1,2,3 for remaining phase B&C on the HV side & phases on \n the LV side as listed in table 2 above\nReturn the \nrelay and\npower equipment to\nservice\nVerify the test result match the relay setting if not consult technical \n service\nMake a final check \n that all switches on the relay are set according to the setting sheet make \n sure the CT secondary circuit is in normal condition\nRemove the CT shorts \n which were installed in the power supply\nReturn the relay and \n power equipment to service by removing test leads from the relay terminals \n block and test set\nLocation: \nRelay Designation: Tested by: \nSignature: \nTest Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

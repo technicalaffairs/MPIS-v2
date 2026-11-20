@@ -1,0 +1,375 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-003-r1-htm",
+ "doc_number": "DSR-003-R1",
+ "title_en": "dsr-003-r1 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-003-r1.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The 7SL97 relay is an electromechanical relay multi purpose distance protection with measuring elements for each phase is a time graded protective system, depending on impedance measuring, which clears all short circuit\nfaults,\nIt is so designed for general use on high voltage and extra high voltage systems\nThe measuring principle employed is described in the publication (the technical basis of impedance measuring).\nThis relay is used to protect 220 K V lines, the change over facilities allow the characteristics to be altered and zone to be set in the reverse direction. It is manufactured by\nsiemens."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Work permit required.",
+    "Make sure line is isolated",
+    "Make sure CT secondary\n circuits are scored before isolating the current circuits for test current injection"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Siemens test set type 6VP800 and 7VP4900",
+    "Clip-on ammeter",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out\n Steps To Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: manufacturers manual.",
+    "Option\n copy of relay setting from field maintenance filed and compare it with setting on the relay.",
+    "Option\n outage for line protected by this relay.",
+    "Check that the bus and line protected by this relay.",
+    "Inspect the CT secondary circuit the VT miniature circuit breakers\n (MCBS) and all cabling supplying the relay.",
+    "Use the station drawing to isolate the following:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coil",
+    "Breaker failure scheme associated with relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off load relay testing.",
+    "Look at the EEA panned nameplate and check that this EEA system designation agrees with the line that has been taken out service maintenance.",
+    "Check there is no AC current from CTs using a clip on ammeter.",
+    "Check there is no AC voltage from VTs by using a voltammeter."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disturbance alarmed and fault recorder associated with this\n relay."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow this test procedure"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test The Relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "R= (1/5C)* (/100-110V) *K *Z)."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the two units of the tester together.",
+    "Connect the tester to three phase 380 V power source.",
+    "Check the phase sequence by pressing push-buttons (I) ON for current tester unit, if the green lamp lights up the phase sequence is correct; if the red one light the phase sequence not correct and must be change the power supply.",
+    "Connect the current circuits between the relay and the tester 7VP4800",
+    "Connect the tripping contact to the stop terminals put it should be free contact",
+    "Connect the voltage circuit between the relay and the tester 7VP4900",
+    "Calculate the operating voltage corresponding to each angle."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Phase CAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "V=2A*2Z*R VOL"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Earth CAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "V=2A*(1.6Z)*R VOL"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 1 Test\nPhase To Earth CAL"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Put The Test Switch at the test position",
+    "Insert the plug into the test jack.",
+    "Press the push button ILI and in on current unit 7VP4800 to test phase R-N fault.",
+    "Adjust the voltage knob to maximum level.",
+    "Set current selecting switch (S1o) to the rated current.",
+    "Inject current by pressing the first push button and rotating the knob il until\n the ammetr reads two times rated current\n (2*IN).",
+    "Adjust the test angle zero degrees.",
+    "Decrease the voltage by rotating the voltage knob counter clockwise until the relay operates by first zone\n time.",
+    "Record this value on the test sheet no1.",
+    "Compare this value (practical value) with the calculated value (the critical\n value)",
+    "If the result within the 10% it is acceptable otherwise consult technical\n services.",
+    "Repeat the above test from step 4 to11 but change the angle to (30, 45, 60, 80, 90) angles.",
+    "Repeat the above test from step 4 to11 to step for phases S-N and T-N."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Phase Piles Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Press the buttons IL1 and IL2 on the current unit 7VP4800 to test RS-s\n fault.",
+    "Adjust the voltage-rotating knob to maximum level.",
+    "Put switch (S15) on L1 unit 7VP4800.",
+    "Put switch (S6) on (L1-L2) on unit 7 VP4900.",
+    "Inject current by pressing push-buttons IL1 and Il2 on unit 7VP4800 and rotate knobs IL1&IL2 until double rated current is reached I-e\n 2In.",
+    "Adjust the test angle to zero degrees.",
+    "Decrease the voltage by rotating the voltage knob counter clockwise until the relay operates by the first zone\n time.",
+    "Record this value of voltage on test 1.",
+    "Compare this value (practical e value) with (the critical value) which was calculated before through the\n law.",
+    "If the result is within 10% it is acceptable other wise, consult technical\n services.",
+    "Repeat the above test from step 5 to 10 for phase to phase but change the test angle (30º,45º,80º,90º)",
+    "Repeat the above test from step 5 to 11 for phases S-T and T-R.",
+    "Check the operating direction by rotating the phase shifter\n handle until obtaining forward direction limits."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone I"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Results"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Now with this results we can plot the modified impedance characteristic."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone II Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Calculate the operating voltage for zone II by the equation in step 3-9."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Earth Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the above test from step 1 to 13 4.1 to step 4.13. until the relay operate by second zone time",
+    "Record this results is test sheet 2."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Phase Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the above test from step 5 to 14 5.1 to step 5.14. until the relay operate by second zone time",
+    "Record this results is test sheet 2."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone II Test results"
+  },
+  {
+   "type": "paragraph",
+   "text": "Meas"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone III Test\nWhy there is no test procedure steps for the third\nZone Reach"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Test for all Zones"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To measure the time for zone 1, set the tester to an volt value equal to half the zone 1 voltage value and a phase angle of 90º\n degress.",
+    "To measure the time for zone II ,set the tester to an volt equal the half of zone II at angle 90º\n degress.",
+    "Tomeasure the time for zone III set the tester to an volt value equal the half of zone III at angle 90º na for every kinds of tests.",
+    "Record this results on test sheet 4."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Test For All Zones"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reverse Direction Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Turn the direction\n selector switch to the right position ( this means 180 displacement with any\n operating angle)",
+    "Start the test by\n pushing (ON) switch.",
+    "Decrease the voltage\n until reach to zero observe that the trip flag will not appear.",
+    "This indicates thus the\n fault is in the back word direction."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current Starting For Phase R"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Use secondary injection test set to inject current (7VP400) siemens\n tester.",
+    "Slowly increase the current until the relay picks up.",
+    "Record this value on the test sheet .",
+    "Increase the injected current to a vegetate by 25% than the operating\n valve.",
+    "Slowly decrease the current until the relay resets.",
+    "Record this value on the test sheet.",
+    "Inject current higher than the setting value so the relay picks up.",
+    "Switch off the test set and switch on at the above value and record the time at the test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Current (amps)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Test (sec)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under Impedance starting test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Adjust the volt at o v.",
+    "Slowly increase the current until the relay pick up to the starting current value.",
+    "Inject the rated voltage to the relay then decrease the voltage until relay operates",
+    "Repeat this steps at 20 V and gradually\n increase the testing volt to the phase volt I-e in steps.",
+    "Record the results the test sheet no(6).",
+    "Repeat the above steps for Zs and ZT \n <"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "ZR starting impedance on forward"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet (6)"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZS starting impedance on reverse"
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Put the test switch at service position.",
+    "Isolate the voltage circuit and current circuit because the test position, connect the voltage circuit and current circuit.",
+    "Request the operator to switch on the main CB e.b of the line\n kina.",
+    "Inject with voltage value and current thats\n fumbled any zone, which will operate the relay c and trip CB.",
+    "Ensure that the CB tripped.",
+    "Remove the test socket from the test jack and remove all\n flags at the relay and put the test switch at the service position.",
+    "Reconnect the voltage circuit and current circuit."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and associated equipment to service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify the test result match the relay seeing if not consult technical services.",
+    "Test trip the CB associated with the relay.",
+    "Return relay to service by removing the test leads connections from the relay.",
+    "All equipment associated with relay has been isolated should be return to service by the following steps:\n -Breaker trip coils\n -Breaker failure scheme associated with the relay\n -Disturbance alarms and fault recorder associated with\n relay",
+    "Check that CT and VT secondary circuits are in normal condition."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Line to be\nReturned to service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents and voltages supplied to the relay and compare them to those normal load\n conditions",
+    "Check that reading agree with station meter\n (MW/MVR/PE/AMP/VOLT)",
+    "Place a copy of the test result in the filed maintenance file."
+   ]
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe 7SL97 relay is an electromechanical relay multi purpose distance protection with measuring elements for each phase is a time graded protective system, depending on impedance measuring, which clears all short circuit\nfaults,\nIt is so designed for general use on high voltage and extra high voltage systems\nThe measuring principle employed is described in the publication (the technical basis of impedance measuring).\nThis relay is used to protect 220 K V lines, the change over facilities allow the characteristics to be altered and zone to be set in the reverse direction. It is manufactured by\nsiemens.\nSafety Precautions\nWork permit required.\nMake sure line is isolated\nMake sure CT secondary\n circuits are scored before isolating the current circuits for test current injection\nSiemens test set type 6VP800 and 7VP4900\nClip-on ammeter\nTest leads\nWork to be Carried Out\n Steps To Prepare for Relay Testing\nReview technical reference material: manufacturers manual.\nOption\n copy of relay setting from field maintenance filed and compare it with setting on the relay.\nOption\n outage for line protected by this relay.\nCheck that the bus and line protected by this relay.\nInspect the CT secondary circuit the VT miniature circuit breakers\n (MCBS) and all cabling supplying the relay.\nUse the station drawing to isolate the following:\nBreaker trip coil\nBreaker failure scheme associated with relay\nPreparation\nThis procedure is used to perform off load relay testing.\nLook at the EEA panned nameplate and check that this EEA system designation agrees with the line that has been taken out service maintenance.\nCheck there is no AC current from CTs using a clip on ammeter.\nCheck there is no AC voltage from VTs by using a voltammeter.\nDisturbance alarmed and fault recorder associated with this\n relay.\nCarefully follow this test procedure\nTest The Relay\nR= (1/5C)* (/100-110V) *K *Z).\nConnect the two units of the tester together.\nConnect the tester to three phase 380 V power source.\nCheck the phase sequence by pressing push-buttons (I) ON for current tester unit, if the green lamp lights up the phase sequence is correct; if the red one light the phase sequence not correct and must be change the power supply.\nConnect the current circuits between the relay and the tester 7VP4800\nConnect the tripping contact to the stop terminals put it should be free contact\nConnect the voltage circuit between the relay and the tester 7VP4900\nCalculate the operating voltage corresponding to each angle.\nPhase To Phase CAL\nV=2A*2Z*R VOL\nPhase To Earth CAL\nV=2A*(1.6Z)*R VOL\nZone 1 Test\nPhase To Earth CAL\nPut The Test Switch at the test position\nInsert the plug into the test jack.\nPress the push button ILI and in on current unit 7VP4800 to test phase R-N fault.\nAdjust the voltage knob to maximum level.\nSet current selecting switch (S1o) to the rated current.\nInject current by pressing the first push button and rotating the knob il until\n the ammetr reads two times rated current\n (2*IN).\nAdjust the test angle zero degrees.\nDecrease the voltage by rotating the voltage knob counter clockwise until the relay operates by first zone\n time.\nRecord this value on the test sheet no1.\nCompare this value (practical value) with the calculated value (the critical\n value)\nIf the result within the 10% it is acceptable otherwise consult technical\n services.\nRepeat the above test from step 4 to11 but change the angle to (30, 45, 60, 80, 90) angles.\nRepeat the above test from step 4 to11 to step for phases S-N and T-N.\nPhase To Phase Piles Test\nPress the buttons IL1 and IL2 on the current unit 7VP4800 to test RS-s\n fault.\nAdjust the voltage-rotating knob to maximum level.\nPut switch (S15) on L1 unit 7VP4800.\nPut switch (S6) on (L1-L2) on unit 7 VP4900.\nInject current by pressing push-buttons IL1 and Il2 on unit 7VP4800 and rotate knobs IL1&IL2 until double rated current is reached I-e\n 2In.\nAdjust the test angle to zero degrees.\nDecrease the voltage by rotating the voltage knob counter clockwise until the relay operates by the first zone\n time.\nRecord this value of voltage on test 1.\nCompare this value (practical e value) with (the critical value) which was calculated before through the\n law.\nIf the result is within 10% it is acceptable other wise, consult technical\n services.\nRepeat the above test from step 5 to 10 for phase to phase but change the test angle (30º,45º,80º,90º)\nRepeat the above test from step 5 to 11 for phases S-T and T-R.\nCheck the operating direction by rotating the phase shifter\n handle until obtaining forward direction limits.\nTest Sheet\nZone I\nTest Results\nNow with this results we can plot the modified impedance characteristic.\nZone II Test\nCalculate the operating voltage for zone II by the equation in step 3-9.\nPhase To Earth Test\nRepeat the above test from step 1 to 13 4.1 to step 4.13. until the relay operate by second zone time\nRecord this results is test sheet 2.\nPhase To Phase Test\nRepeat the above test from step 5 to 14 5.1 to step 5.14. until the relay operate by second zone time\nRecord this results is test sheet 2.\nZone II Test results\nMeas\nZone III Test\nWhy there is no test procedure steps for the third\nZone Reach\nTime Test for all Zones\nTo measure the time for zone 1, set the tester to an volt value equal to half the zone 1 voltage value and a phase angle of 90º\n degress.\nTo measure the time for zone II ,set the tester to an volt equal the half of zone II at angle 90º\n degress.\nTomeasure the time for zone III set the tester to an volt value equal the half of zone III at angle 90º na for every kinds of tests.\nRecord this results on test sheet 4.\nTime Test For All Zones\nReverse Direction Test\nTurn the direction\n selector switch to the right position ( this means 180 displacement with any\n operating angle)\nStart the test by\n pushing (ON) switch.\nDecrease the voltage\n until reach to zero observe that the trip flag will not appear.\nThis indicates thus the\n fault is in the back word direction.\nOver Current Starting For Phase R\nUse secondary injection test set to inject current (7VP400) siemens\n tester.\nSlowly increase the current until the relay picks up.\nRecord this value on the test sheet .\nIncrease the injected current to a vegetate by 25% than the operating\n valve.\nSlowly decrease the current until the relay resets.\nRecord this value on the test sheet.\nInject current higher than the setting value so the relay picks up.\nSwitch off the test set and switch on at the above value and record the time at the test sheet.\nCurrent (amps)\nTime Test (sec)\nUnder Impedance starting test\nAdjust the volt at o v.\nSlowly increase the current until the relay pick up to the starting current value.\nInject the rated voltage to the relay then decrease the voltage until relay operates\nRepeat this steps at 20 V and gradually\n increase the testing volt to the phase volt I-e in steps.\nRecord the results the test sheet no(6).\nRepeat the above steps for Zs and ZT \n <\nZR starting impedance on forward\nTest Sheet (6)\nZS starting impedance on reverse\nTrip Test\nPut the test switch at service position.\nIsolate the voltage circuit and current circuit because the test position, connect the voltage circuit and current circuit.\nRequest the operator to switch on the main CB e.b of the line\n kina.\nInject with voltage value and current thats\n fumbled any zone, which will operate the relay c and trip CB.\nEnsure that the CB tripped.\nRemove the test socket from the test jack and remove all\n flags at the relay and put the test switch at the service position.\nReconnect the voltage circuit and current circuit.\nReturn Relay and associated equipment to service\nVerify the test result match the relay seeing if not consult technical services.\nTest trip the CB associated with the relay.\nReturn relay to service by removing the test leads connections from the relay.\nAll equipment associated with relay has been isolated should be return to service by the following steps:\n -Breaker trip coils\n -Breaker failure scheme associated with the relay\n -Disturbance alarms and fault recorder associated with\n relay\nCheck that CT and VT secondary circuits are in normal condition.\nRequest Power Line to be\nReturned to service\nTake crossed readings of all AC currents and voltages supplied to the relay and compare them to those normal load\n conditions\nCheck that reading agree with station meter\n (MW/MVR/PE/AMP/VOLT)\nPlace a copy of the test result in the filed maintenance file.",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

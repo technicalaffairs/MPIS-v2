@@ -1,0 +1,450 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-002-r0-htm",
+ "doc_number": "DSR-002-R1",
+ "title_en": "dsr-002-r1 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-002-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "Main Features"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Short-circuit protection for all types of faults in effectively earthed\n power transmission systems.",
+    "Completely static design of all measuring and logic circuits with contact\n outputs for tripping and remote signaling.",
+    "Duplicate-channel construction of measuring and logic circuits and\n duplicate-channel control of the trip relays.",
+    "On-line measuring systems arranged to continuously monitor the power\n system quantities.",
+    "Of them have an offset quadrilateral impedance characteristic; the\n remaining 6 have a quadrilateral impedance characteristic and use\n cross-polarization techniques for directional measurement.",
+    "Optimum matching to the fault parameters; the polygon-shaped tripping\n areas provide high fault sensitivity combined with exceptional stability\n against load encroachment and power swings.",
+    "Shortest tripping time typically 12 ms.",
+    "The measurement is based upon a duplex block-block coincidence measuring\n principle. This technique enables half-cycle minimum operating time combined\n with accuracy and inherent stability against interference and adverse\n transients.",
+    "Separate and independent setting of reach along the R-and X-axis for each\n measuring element allows:",
+    "Compensation of unequal phase-impedances on non-transposed lines.",
+    "Setting of high R-to X ratios on phase-to-ground units where high fault\n resistance compensation may be necessary.",
+    "Setting of small R-to-X ratios on phase-to-phase units where load\n encroachment may be a problem but high fault resistances are not to be\n expected.",
+    "Healthy phase or memory voltage polarized directional measurement provides\n unlimited directional sensitivity for terminal faults.",
+    "Impedance measuring characteristics and tripping logic are designed to\n provide phase-selective starting and tripping commands for single-pole auto\n reclosing schemes.",
+    "Single-pole or three-pole tripping of single-phase-to-ground faults can be\n plug-selected.",
+    "Time-delayed back-up distance zones three of which are directional forward\n zones;",
+    "The remaining one being a zone with an offset characteristic and with\n separate settings for forward and reverse reach.",
+    "The hardware is of plug-in modular construction. It forms part of a series\n of highly compatible, standardized distance protection schemes (7SL13,\n 7SL24, 7SL40).",
+    "Relay inputs are provided for blocking or zone-extension from external\n sources",
+    "A built-in directional test feature allows a directional check of the\n measuring systems this feature is particularly helpful to verify the correct\n polarity of C.T. and VT connections.",
+    "Dead fault protection is incorporated and enables instantaneous tripping\n of the offset distance zone when switching onto a dead fault.",
+    "DC/DC converter for supply of static circuits, the operating principle of\n which of which permits a wide station battery voltage variation.",
+    "The distance protection is rewired for a range of frequently\n ruined supplementary functions:",
+    "Measured voltage monitor 7TU32; (Fuse failure detector) monitors\n continuously the V.T secondary voltages for short-circuits and\n open-circuits.",
+    "Instantaneous short-circuit trip 7TJ15; practically independent of d.c.\n component (transient free) it enables a current grading in the case of long\n lines both with and without series capacitors.",
+    "Power swing auxiliary 7TL16 + 7TW42; prevents distance protection tripping\n due to power swing and can also be used for intentional selective\n de-coupling of network sections undergoing power swings.",
+    "Phase memory 7TF2; enables a correct directional measurement even for\n faults behind series capacitors.",
+    "A comprehensive range of supplementary functions is available.",
+    "Tele-protection interfaces 7SW11.",
+    "For all transferred tripping, and unblocking schemes",
+    "Auto re-closing schemes 7vk3.",
+    "Single-pole or three-pole, one-shot or multi-shot.",
+    "Parallel line auxiliary 7SM11.",
+    "Compensates the influence of inductive coupling of the zero-sequence\n systems in the case of parallel lines.",
+    "Distance-to-fault locator 7SE10,",
+    "Operating with a digital calculator",
+    "Test-combination 7XV66,",
+    "Which isolates the VT and CT inputs in the test position and enables\n secondary injection testing via a standard test plug."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "To avoid any feedback from associated equipment (Auto re-closing unit or signal \ntransmission option) the following precautions must be observed:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation and work permit required.",
+    "The mode of operation of the input relay K2 on 7TS48 (DE149 b8-d8) must be\n set so that the relay is not blocked when the voltage transformer protection\n device is off.",
+    "The power supply to the AR unit must be switched off. (Alternatively the\n AR Power supply should be withdrawn from the rack in the volt-free\n condition). Switching off the AR unit alone is not sufficient, because when\n the AR unit is switched off the distance relay is coupled in the three phase\n mode (phase selective trip is not then possible).",
+    "The carrier interface option must be taken out of operation. (put the\n miniature slide-switch on module 7TW65/66 in the BLOCK position). In the SV\n position (signal comparison) the trip command will be blocked if the receive\n signal is missing.",
+    "Isolate DC supply to relay before any adjustments or maintenance on the\n relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Siemens test set which consists of two units:",
+    "Current unit type 7VP48, Voltage unit type 7VP49.",
+    "Voltmeter, Ammeter, Test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Steps to Prepare for\nRelay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material manufactures / manual.",
+    "Obtain copy of relay setting from field maintenance file.",
+    "Obtain outage for line protected by this relay.",
+    "Check that the bus and line disconnect switches are opened and tagged.",
+    "Inspect the secondary circuits of CT, VT miniature circuit breakers.",
+    "(MCB) and all cabling supplying the relay.",
+    "Isolate the breaker failure scheme associated with this protection.",
+    "Block any disturbance alarms or fault recorders associated with this\n protection.",
+    "Turn off the associated auto re-closure scheme."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation of Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect an ammeter with the socket 17,18 in current unit and\n voltmeter with the socket 5,6 in voltage unit."
+  },
+  {
+   "type": "paragraph",
+   "text": "Position of Switches on Test\n Set 7VP48&7VP49"
+  },
+  {
+   "type": "paragraph",
+   "text": "Selector switch for current range\n 5A, 1A, 0. 5A, 0. 2A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Must be shorted or connect to\n External ammeter (17, 18)."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place the two cases one on the top of other (the voltage unit on the top\n of current unit).",
+    "Connect the two units together by the cable connector 7XV6201 between test\n pulg X2 in current unit and test plug X1 in voltage unit.",
+    "Connect the power supply cable 7XV6200 (3*380 V) between the plug X1\n in the current unit and the source (careful the positive sequence).",
+    "Connect the cable 7XV6200-1 between the plug X3 in current unit and\n the test plug 7XV61 on the relay.",
+    "Connect an ammeter with the socket 17,18 in current unit and\n voltmeter with the socket 5,6 in voltage unit."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Directional Check"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Simulate a 3-pole fault L1-L2-L3 (without E).",
+    "Adjust the voltages at the rated voltage.",
+    "Adjust the currents at approximately 0.5 *rated current (symmetrical for\n 3-phases)",
+    "In the forward direction, the green LEDS on the six modules 7TL52 come\n on.",
+    "By changing over the directional plugs on module 7TL51 or reversal of the\n voltages from the test set, the opposite check can be made."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Current Detectors"
+  },
+  {
+   "type": "paragraph",
+   "text": "(A) Minimum Earth Current Pick up\n7TJ5250"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Simulate a fault L-E.",
+    "Set voltage at rated value, current at zero.",
+    "Slowly raise the current.",
+    "When the set value is exceeded, the indication pick-up E comes on."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "(B) Minimum Phase Current Pick up 7TJ1500"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Simulate a fault L-E.",
+    "Set a voltage and current at zero.",
+    "Slowly raise the current.",
+    "When the set value is exceeded, a phase selective trip results.",
+    "Repeat the test for the other phases."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Start Operation Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Off \nSet Quadrilateral Polyon Characteristics"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Preparation of test sheet with the critical values.",
+    "Turn D.C switch to position O on DC/DC converter module 7TN36 on the\n relay.",
+    "Remove under voltage module u9 7TV32 on the\n relay.",
+    "Set timer plug T3, T4 at ∞ on module 7TT19.",
+    "Turn the test switch (Test/service) on the relay to position TEST.",
+    "Insert the test plug in the test socket module on the relay.",
+    "Return the DC switch to position 1 on DC/DC converter module 7TN36 on\n the relay.",
+    "Switch on the main switch (-S1) on the current unit for a.c supply of the\n current and voltage units, and also switch (-S13) for voltage unit.",
+    "Check phase sequence, It must be positive sequence:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "If signaling lamps (-H13) is green then the phase sequence is\npositive."
+  },
+  {
+   "type": "paragraph",
+   "text": "If signaling lamps (-H14) is red then the phase sequence is\nnegative."
+  },
+  {
+   "type": "paragraph",
+   "text": "Decrease the voltage slowly until reach to the starting value and then the\n signaling lamps marked on these modules:\n - Indicator JE >> on module 7TJ5210"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Adjust the selector switch (-S5) at 0º angle.",
+    "Adjust the switch (-S15, -1X) of current phase selection at L, on current\n unit and adjust the selector switch (-S6,Ux5-6) of voltage phase selection at\n (L1-N) on voltage unit.",
+    "Select The fault type (IL1, IN),\n (UL1, UN) by pressing the\n pushbutton switches (-S2), (-S5) on the current unit and (-S1), (-S4) on the voltage\nunit.",
+    "Increase the voltage from the variable transformer knob (Curse and Fine) to\n be more than the calculation value of voltage.",
+    "Press on the pushbutton (-S8) to START the injection, and adjust the\n current at 1A from the single phase variable transformer (-T1) for current I\n L1.",
+    "Adjust the knobN1 at angle 0º",
+    "- Indicator ( I ) on module 7TS40 Forward direction at 0º,\n90º only"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "After the trip command come on, press on the pushbutton STOP -S9\n to stop the injection current to the relay.",
+    "Read and record the noted pickup value in test sheet No. (1) and compare the\n measuring value with the calculation value.",
+    "Repeat the above steps from steps (12) to steps (17) for the other angles 90º,\n 180º, 270º",
+    "Repeat the above steps from step (10) to step (18) to measure the tripping\n values for other phases L2-N, L3-N, L1-12, L2-L3, L3-L1."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Distance Zones"
+  },
+  {
+   "type": "paragraph",
+   "text": "This test are made for angles 0º , 90º only and for\nvoltage values corresponding to each Zone."
+  },
+  {
+   "type": "paragraph",
+   "text": "First Distance Zone"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set timer plug t2, t3, t4 to be ineffective (at ∞).",
+    "Repeat the above step (1) to step (20)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Second Distance Zone"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the timer plug t2.",
+    "Repeat the above step (1) to step k (20)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Third Distance Zone"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the timer plug t3.",
+    "Repeat the above step (1) to step (20)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Calculation the Shifting Values For Offset Quadrilateral Polygon"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calculation the Setting Values for Distance zones"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone: General Protection Management:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Network Directorate: Substation Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "TL name and Circuit number: Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet for Distance Relay 7SL 32"
+  },
+  {
+   "type": "paragraph",
+   "text": "Primary setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "X1 = \nX2 = \nX3 = Ω/ph"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting values"
+  },
+  {
+   "type": "paragraph",
+   "text": "R1 \nR/X f -f = \nZE/ZL= \nc.t.r ="
+  },
+  {
+   "type": "paragraph",
+   "text": "R2 \nR/X f -E = \nJP = \nv.t.r ="
+  },
+  {
+   "type": "paragraph",
+   "text": "R3 \nXST = X/X = L = km"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test results"
+  },
+  {
+   "type": "paragraph",
+   "text": "A Off set Quadrilateral Potygon"
+  },
+  {
+   "type": "paragraph",
+   "text": "Cal"
+  },
+  {
+   "type": "paragraph",
+   "text": "CAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "B- Distance zones"
+  },
+  {
+   "type": "paragraph",
+   "text": "Cal."
+  },
+  {
+   "type": "paragraph",
+   "text": "Cal."
+  },
+  {
+   "type": "paragraph",
+   "text": "Rules"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone Reach"
+  },
+  {
+   "type": "paragraph",
+   "text": "1) U test = JP (1+ZE/ZL)\nR/x *r \n2) U test = JP *R/X *2 rþ\n3) U test = JP (1+ZE/ZL)\n*r \n4) U test = JP *2 r\n5) U test = JP (1+ X/X) *r\n*(1+ZE/ZL) for starting \n6) U test = JP * X/X*2 r"
+  },
+  {
+   "type": "paragraph",
+   "text": "CB Tripping Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select a type of fault say LI-E on the test set.",
+    "Adjust the test to make a trip at certain zone say (zone 1) and certain\n angle say (90º)",
+    "Switch off the pushbutton (-S1) on the current unit",
+    "Connect CB for the line (without disconnected\n switches)",
+    "Put the test switch (TEST/SERVICE) on the relay to position SERVICE",
+    "Switch on the main switch (-S1) on the current unit to\n a trip CB for the line."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Turn DC switch to position O on DC/DC converter module 7TN36\n on the relay.",
+    "Remove the test socket from the relay.",
+    "Return back the under voltage module UO 7TS48",
+    "Return back the timer plugs t2, t3, t4, to their normal positions.",
+    "Return back the following equipment to service:",
+    "Disturbance alarm and fault recorder.",
+    "The associated auto-reclosure scheme.",
+    "The associated breaker failure scheme.",
+    "Return the test switch (TEST/SERVICE) on the relay to position\n SERVICE",
+    "Return the DC switch to position 1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power LINE be Returned to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents and voltages supplied\n to the relay and compare them to those for normal load conditions.",
+    "Check that these reading agree with station meters: (MW, MVAR, Power\n factor, Amperes, Voltages)",
+    "Place a copy of the test results in the field maintenance file."
+   ]
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nMain Features\nShort-circuit protection for all types of faults in effectively earthed\n power transmission systems.\nCompletely static design of all measuring and logic circuits with contact\n outputs for tripping and remote signaling.\nDuplicate-channel construction of measuring and logic circuits and\n duplicate-channel control of the trip relays.\nOn-line measuring systems arranged to continuously monitor the power\n system quantities.\nOf them have an offset quadrilateral impedance characteristic; the\n remaining 6 have a quadrilateral impedance characteristic and use\n cross-polarization techniques for directional measurement.\nOptimum matching to the fault parameters; the polygon-shaped tripping\n areas provide high fault sensitivity combined with exceptional stability\n against load encroachment and power swings.\nShortest tripping time typically 12 ms.\nThe measurement is based upon a duplex block-block coincidence measuring\n principle. This technique enables half-cycle minimum operating time combined\n with accuracy and inherent stability against interference and adverse\n transients.\nSeparate and independent setting of reach along the R-and X-axis for each\n measuring element allows:\nCompensation of unequal phase-impedances on non-transposed lines.\nSetting of high R-to X ratios on phase-to-ground units where high fault\n resistance compensation may be necessary.\nSetting of small R-to-X ratios on phase-to-phase units where load\n encroachment may be a problem but high fault resistances are not to be\n expected.\nHealthy phase or memory voltage polarized directional measurement provides\n unlimited directional sensitivity for terminal faults.\nImpedance measuring characteristics and tripping logic are designed to\n provide phase-selective starting and tripping commands for single-pole auto\n reclosing schemes.\nSingle-pole or three-pole tripping of single-phase-to-ground faults can be\n plug-selected.\nTime-delayed back-up distance zones three of which are directional forward\n zones;\nThe remaining one being a zone with an offset characteristic and with\n separate settings for forward and reverse reach.\nThe hardware is of plug-in modular construction. It forms part of a series\n of highly compatible, standardized distance protection schemes (7SL13,\n 7SL24, 7SL40).\nRelay inputs are provided for blocking or zone-extension from external\n sources\nA built-in directional test feature allows a directional check of the\n measuring systems this feature is particularly helpful to verify the correct\n polarity of C.T. and VT connections.\nDead fault protection is incorporated and enables instantaneous tripping\n of the offset distance zone when switching onto a dead fault.\nDC/DC converter for supply of static circuits, the operating principle of\n which of which permits a wide station battery voltage variation.\nThe distance protection is rewired for a range of frequently\n ruined supplementary functions:\nMeasured voltage monitor 7TU32; (Fuse failure detector) monitors\n continuously the V.T secondary voltages for short-circuits and\n open-circuits.\nInstantaneous short-circuit trip 7TJ15; practically independent of d.c.\n component (transient free) it enables a current grading in the case of long\n lines both with and without series capacitors.\nPower swing auxiliary 7TL16 + 7TW42; prevents distance protection tripping\n due to power swing and can also be used for intentional selective\n de-coupling of network sections undergoing power swings.\nPhase memory 7TF2; enables a correct directional measurement even for\n faults behind series capacitors.\nA comprehensive range of supplementary functions is available.\nTele-protection interfaces 7SW11.\nFor all transferred tripping, and unblocking schemes\nAuto re-closing schemes 7vk3.\nSingle-pole or three-pole, one-shot or multi-shot.\nParallel line auxiliary 7SM11.\nCompensates the influence of inductive coupling of the zero-sequence\n systems in the case of parallel lines.\nDistance-to-fault locator 7SE10,\nOperating with a digital calculator\nTest-combination 7XV66,\nWhich isolates the VT and CT inputs in the test position and enables\n secondary injection testing via a standard test plug.\nSafety Precautions\nTo avoid any feedback from associated equipment (Auto re-closing unit or signal \ntransmission option) the following precautions must be observed:\nLine isolation and work permit required.\nThe mode of operation of the input relay K2 on 7TS48 (DE149 b8-d8) must be\n set so that the relay is not blocked when the voltage transformer protection\n device is off.\nThe power supply to the AR unit must be switched off. (Alternatively the\n AR Power supply should be withdrawn from the rack in the volt-free\n condition). Switching off the AR unit alone is not sufficient, because when\n the AR unit is switched off the distance relay is coupled in the three phase\n mode (phase selective trip is not then possible).\nThe carrier interface option must be taken out of operation. (put the\n miniature slide-switch on module 7TW65/66 in the BLOCK position). In the SV\n position (signal comparison) the trip command will be blocked if the receive\n signal is missing.\nIsolate DC supply to relay before any adjustments or maintenance on the\n relay.\nTools and Equipment\nSiemens test set which consists of two units:\nCurrent unit type 7VP48, Voltage unit type 7VP49.\nVoltmeter, Ammeter, Test leads.\nWork to be Carried Out\nPreliminary Steps to Prepare for\nRelay Testing\nReview technical reference material manufactures / manual.\nObtain copy of relay setting from field maintenance file.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches are opened and tagged.\nInspect the secondary circuits of CT, VT miniature circuit breakers.\n(MCB) and all cabling supplying the relay.\nIsolate the breaker failure scheme associated with this protection.\nBlock any disturbance alarms or fault recorders associated with this\n protection.\nTurn off the associated auto re-closure scheme.\nPreparation of Test\nConnect an ammeter with the socket 17,18 in current unit and\n voltmeter with the socket 5,6 in voltage unit.\nPosition of Switches on Test\n Set 7VP48&7VP49\nSelector switch for current range\n 5A, 1A, 0. 5A, 0. 2A\nMust be shorted or connect to\n External ammeter (17, 18).\nPlace the two cases one on the top of other (the voltage unit on the top\n of current unit).\nConnect the two units together by the cable connector 7XV6201 between test\n pulg X2 in current unit and test plug X1 in voltage unit.\nConnect the power supply cable 7XV6200 (3*380 V) between the plug X1\n in the current unit and the source (careful the positive sequence).\nConnect the cable 7XV6200-1 between the plug X3 in current unit and\n the test plug 7XV61 on the relay.\nConnect an ammeter with the socket 17,18 in current unit and\n voltmeter with the socket 5,6 in voltage unit.\nDirectional Check\nSimulate a 3-pole fault L1-L2-L3 (without E).\nAdjust the voltages at the rated voltage.\nAdjust the currents at approximately 0.5 *rated current (symmetrical for\n 3-phases)\nIn the forward direction, the green LEDS on the six modules 7TL52 come\n on.\nBy changing over the directional plugs on module 7TL51 or reversal of the\n voltages from the test set, the opposite check can be made.\nChecking the Current Detectors\n(A) Minimum Earth Current Pick up\n7TJ5250\nSimulate a fault L-E.\nSet voltage at rated value, current at zero.\nSlowly raise the current.\nWhen the set value is exceeded, the indication pick-up E comes on.\n(B) Minimum Phase Current Pick up 7TJ1500\nSimulate a fault L-E.\nSet a voltage and current at zero.\nSlowly raise the current.\nWhen the set value is exceeded, a phase selective trip results.\nRepeat the test for the other phases.\nStart Operation Test\nOff \nSet Quadrilateral Polyon Characteristics\nPreparation of test sheet with the critical values.\nTurn D.C switch to position O on DC/DC converter module 7TN36 on the\n relay.\nRemove under voltage module u9 7TV32 on the\n relay.\nSet timer plug T3, T4 at ∞ on module 7TT19.\nTurn the test switch (Test/service) on the relay to position TEST.\nInsert the test plug in the test socket module on the relay.\nReturn the DC switch to position 1 on DC/DC converter module 7TN36 on\n the relay.\nSwitch on the main switch (-S1) on the current unit for a.c supply of the\n current and voltage units, and also switch (-S13) for voltage unit.\nCheck phase sequence, It must be positive sequence:\nIf signaling lamps (-H13) is green then the phase sequence is\npositive.\nIf signaling lamps (-H14) is red then the phase sequence is\nnegative.\nDecrease the voltage slowly until reach to the starting value and then the\n signaling lamps marked on these modules:\n - Indicator JE >> on module 7TJ5210\nAdjust the selector switch (-S5) at 0º angle.\nAdjust the switch (-S15, -1X) of current phase selection at L, on current\n unit and adjust the selector switch (-S6,Ux5-6) of voltage phase selection at\n (L1-N) on voltage unit.\nSelect The fault type (IL1, IN),\n (UL1, UN) by pressing the\n pushbutton switches (-S2), (-S5) on the current unit and (-S1), (-S4) on the voltage\nunit.\nIncrease the voltage from the variable transformer knob (Curse and Fine) to\n be more than the calculation value of voltage.\nPress on the pushbutton (-S8) to START the injection, and adjust the\n current at 1A from the single phase variable transformer (-T1) for current I\n L1.\nAdjust the knobN1 at angle 0º\n- Indicator ( I ) on module 7TS40 Forward direction at 0º,\n90º only\nAfter the trip command come on, press on the pushbutton STOP -S9\n to stop the injection current to the relay.\nRead and record the noted pickup value in test sheet No. (1) and compare the\n measuring value with the calculation value.\nRepeat the above steps from steps (12) to steps (17) for the other angles 90º,\n 180º, 270º\nRepeat the above steps from step (10) to step (18) to measure the tripping\n values for other phases L2-N, L3-N, L1-12, L2-L3, L3-L1.\nChecking the Distance Zones\nThis test are made for angles 0º , 90º only and for\nvoltage values corresponding to each Zone.\nFirst Distance Zone\nSet timer plug t2, t3, t4 to be ineffective (at ∞).\nRepeat the above step (1) to step (20)\nSecond Distance Zone\nInsert the timer plug t2.\nRepeat the above step (1) to step k (20)\nThird Distance Zone\nInsert the timer plug t3.\nRepeat the above step (1) to step (20)\nCalculation the Shifting Values For Offset Quadrilateral Polygon\nCalculation the Setting Values for Distance zones\nZone: General Protection Management:\nNetwork Directorate: Substation Name:\nTL name and Circuit number: Date:\nTest Sheet for Distance Relay 7SL 32\nPrimary setting\nX1 = \nX2 = \nX3 = Ω/ph\nSetting values\nR1 \nR/X f -f = \nZE/ZL= \nc.t.r =\nR2 \nR/X f -E = \nJP = \nv.t.r =\nR3 \nXST = X/X = L = km\nTest results\nA Off set Quadrilateral Potygon\nCal\nCAL\nB- Distance zones\nCal.\nCal.\nRules\nZone Reach\n1) U test = JP (1+ZE/ZL)\nR/x *r \n2) U test = JP *R/X *2 rþ\n3) U test = JP (1+ZE/ZL)\n*r \n4) U test = JP *2 r\n5) U test = JP (1+ X/X) *r\n*(1+ZE/ZL) for starting \n6) U test = JP * X/X*2 r\nCB Tripping Test\nSelect a type of fault say LI-E on the test set.\nAdjust the test to make a trip at certain zone say (zone 1) and certain\n angle say (90º)\nSwitch off the pushbutton (-S1) on the current unit\nConnect CB for the line (without disconnected\n switches)\nPut the test switch (TEST/SERVICE) on the relay to position SERVICE\nSwitch on the main switch (-S1) on the current unit to\n a trip CB for the line.\nReturn Relay to Service\nTurn DC switch to position O on DC/DC converter module 7TN36\n on the relay.\nRemove the test socket from the relay.\nReturn back the under voltage module UO 7TS48\nReturn back the timer plugs t2, t3, t4, to their normal positions.\nReturn back the following equipment to service:\nDisturbance alarm and fault recorder.\nThe associated auto-reclosure scheme.\nThe associated breaker failure scheme.\nReturn the test switch (TEST/SERVICE) on the relay to position\n SERVICE\nReturn the DC switch to position 1\nRequest Power LINE be Returned to Service\nTake crossed readings of all AC currents and voltages supplied\n to the relay and compare them to those for normal load conditions.\nCheck that these reading agree with station meters: (MW, MVAR, Power\n factor, Amperes, Voltages)\nPlace a copy of the test results in the field maintenance file.",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-002-r0%20table%201.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-002-r0-_table_2.gif",
+   "alt": ""
+  }
+ ]
+}

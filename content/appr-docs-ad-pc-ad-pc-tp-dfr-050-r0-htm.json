@@ -1,0 +1,362 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dfr-050-r0-htm",
+ "doc_number": "DFR-050-R0",
+ "title_en": "DfR-050-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DfR-050-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the \ntesting procedures P1, which must be performed every six months as indicated by \nM6 in the above title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure, details the \nsteps required to completely check the proper operation and calibration of the \nrelay ( D21Se3 )."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated & tested by eng. Mahmoud El-Attar, accepted \nby eng. Saad \nEl-Attar: protection \ngeneral manager, revised and certified by eng. Mohamed Omran: development & quality \nsurveillance general manager \nand MPIS Canal zone coordinator, and \napproved by eng. Al-Saied Abd El-Azez Alnagy: head sector of protection, measuring & \ntestes."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the \n work area is required,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Personal protective equipment must be used as safety shoes, and safety Helmet."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,",
+    "Safety fence with caution marks surrounding the \n work area is required,",
+    "Personal protective equipment must be used as safety shoes, and safety Helmet.",
+    "Personal protective equipment must be used as safety shoes, and safety Helmet.",
+    "This procedure should be performed for off load lines, so line isolation \n is required.",
+    "Isolate the relay DC \n supply before drawing out any relay card.",
+    "Isolate the relay \n associated breaker trip coils, breaker failure system, disturbance alarm and \n fault recorder systems"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and \nEquipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary Injection \n test set ( Sverker ).",
+    "Test leads, Avometer",
+    "AC supply"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay \nPreparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: \n Manufacturer's manual.",
+    "Obtain copy of relay settings from field \n maintenance file and compare it with the relay settings .",
+    "Obtain outage for line protected by this relay \n .( work permit must be issued )",
+    "Check that the bus and line disconnect switches \n are opened and tagged .",
+    "Make sure CT's \n Secondary circuits are shorted before isolating the relay current circuits for\n current injection.",
+    "Isolate the relay DC \n supply .",
+    "Check that all cables supplying the relay and \n all wire connections are in good conditions."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tester \nPreparation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparing the tester unit (Sverker ) as followings:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the power supply to the tester unit (Sverker).",
+    "Connect the connecting terminals between the \n relay and Sverker."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Parameters \nPreparation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review \nthe test certificate for required settings."
+  },
+  {
+   "type": "paragraph",
+   "text": "relay Testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "The test is \naccomplished in \nfive stages"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Finding relay \n operating current value for phase to earth faults on 220 kv side.",
+    "Finding relay \n operating current value for phase to phase faults on 220 kv side.",
+    "Finding relay \n operating current value for phase to earth faults on 11 kv side.",
+    "Finding relay \n operating current value for phase to phase faults on 11 kv side.",
+    "Finding relay \n operating time ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finding\nrelay operating current on 220kv \nside: ( PH - E )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the relay phase ( \n R ) to tester.",
+    "Slowly increase the \n injected current until the relay operate ( indicated by the flag ).",
+    "Record the operating \n current ( Iop ) in test sheet.",
+    "Check that the relay trip \n contact is closed.",
+    "Check the relay Alarm \n contact and breaker failure contact.",
+    "Repeat the steps ( 2 : 5 \n ) with phase ( S ) And with phase ( T )."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finding relay operating current \non 220kv side: ( PH - PH )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the relay phases \n ( R , S ) to tester.",
+    "Slowly increase the \n injected current until the relay operate ( indicated by the flag ).",
+    "Record the operating \n current ( Iop ) in test sheet.",
+    "Check that the relay trip \n contact is closed .",
+    "Check the relay Alarm \n contact and breaker failure contact.",
+    "Repeat the steps ( 2 : 5 \n ) with phases ( S , T ) And with phases ( T , R )."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finding Relay\noperating current on 11kv side: \n( PH - E )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the relay \n phase ( R ) to tester.",
+    "Slowly increase the \n injected current until the relay operate ( indicated by the flag ).",
+    "Record the operating \n current ( Iop ) in test sheet.",
+    "Check that the relay \n trip contact is closed.",
+    "Check the relay Alarm \n contact and breaker failure contact.",
+    "Repeat the steps ( 2 : \n 5 ) with phase ( S ) And with phase ( T )."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finding Relay\noperating current on \n11kv side: \n( PH - PH )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the relay \n phases ( R , S ) to tester.",
+    "Slowly increase the \n injected current until the relay operate ( indicated by the flag ).",
+    "Record the operating \n current ( Iop ) in test sheet.",
+    "Check that the relay \n trip contact is closed.",
+    "Check the relay Alarm \n contact and breaker failure contact .",
+    "Repeat the steps ( 2 : \n 5 ) with phases ( S , T ) and with phases ( T , R )."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finding Relay\noperating Time"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The operating time should \n be measured using the trip contact ( free contact ).",
+    "Inject testing current \n until the phase ( R ) relay operate, then switch off the test set.",
+    "Connect the timed \n contact of the phase ( R ) relay to the timer stop terminals of the test set.",
+    "Switch on the tester \n with timer ( ON ) and measure the phase ( R ) relay operating time.",
+    "Record the operating \n time in test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: \nHow to find \" free contact\" on relay (\nD21Se3 ):"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select any free contact \n and measure it's DC voltage ( must have not DC voltage ).",
+    "check that it is \n normal open contact using avometer buzzer.",
+    "check that it is close \n with trip, using tester Sverker and avometer buzzer."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Protection \nScheme and \nassociated \nEquipment\nto \nservice"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay ( D21Se3 )\n to service by removing the test leads from the relay \n terminals .",
+    "Make sure CT secondary \n are not short circuited .",
+    "Place the associated \n barker failure ( B.F ) protection scheme back in service.",
+    "Restore the previously \n blocked disturbance alarms and fault recorders associated with this \n protection.",
+    "Turn ON the power supply \n DC to relay ( D21Se3 ).",
+    "Take crossed readings of \n all AC currents and voltages supplied to the relay ( D21Se3 ) and compare them \n to those for normal load conditions.",
+    "Check that these readings \n agree with station meters MW, MVAR, Power Factor, Amperes, and Voltages.",
+    "Place a copy of the test results in the field maintenance \n file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1: Differential Relay ( \nD21Se3 )"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation: \n...................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Feeder: \n............................................................................................................"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date: \n........................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment: Transformer \nDifferential Relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer: BBC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Model : D21Se3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Auxiliary Voltage: 110 \nVdc ......................... Nominal \nCurrent :1 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Visual Inspection : ( \n ) Auxiliary Supply : ( \n ) Earthling of the \nRack : ( )"
+  },
+  {
+   "type": "paragraph",
+   "text": "Secondary \nInjection\nId> = \n........................ In = .............. A Time = \n............... m \nsec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Id>> = \n......................"
+  },
+  {
+   "type": "paragraph",
+   "text": "Current Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating Current Setting : Id> = .............. \nA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Delay \nTest"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test current = Id> \n= A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured time delay : \n m sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Tripping"
+  },
+  {
+   "type": "paragraph",
+   "text": "Signaling of tripping : \n( ) Manual \nReset: ( )"
+  },
+  {
+   "type": "paragraph",
+   "text": "------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Settings"
+  },
+  {
+   "type": "paragraph",
+   "text": "at El-Ain El-SOKHNA S/S \n( Somid), Feeder TR 1, Test Date: \n24 \nJune \n2007"
+  },
+  {
+   "type": "paragraph",
+   "text": "Id> = 0.35 In \n Aux. Voltage : 110 Vdc"
+  },
+  {
+   "type": "paragraph",
+   "text": "------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Last Test Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay \nCode: Tested \nby: Signature: \nTest date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by: Signature:"
+  }
+ ],
+ "text": "Introduction\nThis document outlines the \ntesting procedures P1, which must be performed every six months as indicated by \nM6 in the above title block.\nThis procedure, details the \nsteps required to completely check the proper operation and calibration of the \nrelay ( D21Se3 ).\nThe first draft initiated & tested by eng. Mahmoud El-Attar, accepted \nby eng. Saad \nEl-Attar: protection \ngeneral manager, revised and certified by eng. Mohamed Omran: development & quality \nsurveillance general manager \nand MPIS Canal zone coordinator, and \napproved by eng. Al-Saied Abd El-Azez Alnagy: head sector of protection, measuring & \ntestes.\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nThis procedure should be performed for off load lines, so line isolation \n is required.\nIsolate the relay DC \n supply before drawing out any relay card.\nIsolate the relay \n associated breaker trip coils, breaker failure system, disturbance alarm and \n fault recorder systems\nTools and \nEquipment\nSecondary Injection \n test set ( Sverker ).\nTest leads, Avometer\nAC supply\nWork to be carried out\nRelay \nPreparation\nReview technical reference material: \n Manufacturer's manual.\nObtain copy of relay settings from field \n maintenance file and compare it with the relay settings .\nObtain outage for line protected by this relay \n .( work permit must be issued )\nCheck that the bus and line disconnect switches \n are opened and tagged .\nMake sure CT's \n Secondary circuits are shorted before isolating the relay current circuits for\n current injection.\nIsolate the relay DC \n supply .\nCheck that all cables supplying the relay and \n all wire connections are in good conditions.\nTester \nPreparation\nPreparing the tester unit (Sverker ) as followings:\nConnect the power supply to the tester unit (Sverker).\nConnect the connecting terminals between the \n relay and Sverker.\nParameters \nPreparation\nReview \nthe test certificate for required settings.\nrelay Testing\nThe test is \naccomplished in \nfive stages\nFinding relay \n operating current value for phase to earth faults on 220 kv side.\nFinding relay \n operating current value for phase to phase faults on 220 kv side.\nFinding relay \n operating current value for phase to earth faults on 11 kv side.\nFinding relay \n operating current value for phase to phase faults on 11 kv side.\nFinding relay \n operating time .\nFinding\nrelay operating current on 220kv \nside: ( PH - E )\nConnect the relay phase ( \n R ) to tester.\nSlowly increase the \n injected current until the relay operate ( indicated by the flag ).\nRecord the operating \n current ( Iop ) in test sheet.\nCheck that the relay trip \n contact is closed.\nCheck the relay Alarm \n contact and breaker failure contact.\nRepeat the steps ( 2 : 5 \n ) with phase ( S ) And with phase ( T ).\nFinding relay operating current \non 220kv side: ( PH - PH )\nConnect the relay phases \n ( R , S ) to tester.\nSlowly increase the \n injected current until the relay operate ( indicated by the flag ).\nRecord the operating \n current ( Iop ) in test sheet.\nCheck that the relay trip \n contact is closed .\nCheck the relay Alarm \n contact and breaker failure contact.\nRepeat the steps ( 2 : 5 \n ) with phases ( S , T ) And with phases ( T , R ).\nFinding Relay\noperating current on 11kv side: \n( PH - E )\nConnect the relay \n phase ( R ) to tester.\nSlowly increase the \n injected current until the relay operate ( indicated by the flag ).\nRecord the operating \n current ( Iop ) in test sheet.\nCheck that the relay \n trip contact is closed.\nCheck the relay Alarm \n contact and breaker failure contact.\nRepeat the steps ( 2 : \n 5 ) with phase ( S ) And with phase ( T ).\nFinding Relay\noperating current on \n11kv side: \n( PH - PH )\nConnect the relay \n phases ( R , S ) to tester.\nSlowly increase the \n injected current until the relay operate ( indicated by the flag ).\nRecord the operating \n current ( Iop ) in test sheet.\nCheck that the relay \n trip contact is closed.\nCheck the relay Alarm \n contact and breaker failure contact .\nRepeat the steps ( 2 : \n 5 ) with phases ( S , T ) and with phases ( T , R ).\nFinding Relay\noperating Time\nThe operating time should \n be measured using the trip contact ( free contact ).\nInject testing current \n until the phase ( R ) relay operate, then switch off the test set.\nConnect the timed \n contact of the phase ( R ) relay to the timer stop terminals of the test set.\nSwitch on the tester \n with timer ( ON ) and measure the phase ( R ) relay operating time.\nRecord the operating \n time in test sheet.\nNote: \nHow to find \" free contact\" on relay (\nD21Se3 ):\nSelect any free contact \n and measure it's DC voltage ( must have not DC voltage ).\ncheck that it is \n normal open contact using avometer buzzer.\ncheck that it is close \n with trip, using tester Sverker and avometer buzzer.\nReturn Protection \nScheme and \nassociated \nEquipment\nto \nservice\nReturn relay ( D21Se3 )\n to service by removing the test leads from the relay \n terminals .\nMake sure CT secondary \n are not short circuited .\nPlace the associated \n barker failure ( B.F ) protection scheme back in service.\nRestore the previously \n blocked disturbance alarms and fault recorders associated with this \n protection.\nTurn ON the power supply \n DC to relay ( D21Se3 ).\nTake crossed readings of \n all AC currents and voltages supplied to the relay ( D21Se3 ) and compare them \n to those for normal load conditions.\nCheck that these readings \n agree with station meters MW, MVAR, Power Factor, Amperes, and Voltages.\nPlace a copy of the test results in the field maintenance \n file.\nFigure 1: Differential Relay ( \nD21Se3 )\nTest Sheet\nSubstation: \n....................................................................................................\nFeeder: \n............................................................................................................\nDate: \n.........................................\nEquipment: Transformer \nDifferential Relay\nManufacturer: BBC\nModel : D21Se3\nAuxiliary Voltage: 110 \nVdc ......................... Nominal \nCurrent :1 A\nChecks\nVisual Inspection : ( \n ) Auxiliary Supply : ( \n ) Earthling of the \nRack : ( )\nSecondary \nInjection\nId> = \n........................ In = .............. A Time = \n............... m \nsec.\nId>> = \n......................\nCurrent Test\nOperating Current Setting : Id> = .............. \nA\nTime Delay \nTest\nTest current = Id> \n= A\nMeasured time delay : \n m sec.\nTripping\nSignaling of tripping : \n( ) Manual \nReset: ( )\n------------------------------------------------------------------------------------------\nSettings\nat El-Ain El-SOKHNA S/S \n( Somid), Feeder TR 1, Test Date: \n24 \nJune \n2007\nId> = 0.35 In \n Aux. Voltage : 110 Vdc\n------------------------------------------------------------------------------------------\nLocation: Last Test Date:\nRelay \nCode: Tested \nby: Signature: \nTest date:\nApproved by: Signature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DFR-050-01.JPG",
+   "alt": ""
+  }
+ ]
+}

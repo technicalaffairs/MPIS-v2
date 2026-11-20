@@ -1,0 +1,1060 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-bbp-005-r0-html",
+ "doc_number": "BBP-005-R0",
+ "title_en": "BBP-005-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/BBP-005-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Networks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The bus bar protection system INX2 based on the directional\ncomparison principle is used as selective protection in installations with\nsingle and multiple bus bar system. It gives functional reliability owing to the\nuse of independent criteria. The magnitude, and direction of the current in the\nfeeder. The magnitude and direction of the differential current"
+  },
+  {
+   "type": "paragraph",
+   "text": "Main Features:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insensitivity to CT saturation.",
+    "No need for the secondary circuit of the main CT to be switched short\n tripping times (6-13 or 10-18 ms & Full selectivity assured with\n unrestricted freedom of operation by using an image of The isolators in the\n installation that are of importance for its protection.",
+    "Separate detection of the positive and negative half waves.",
+    "Permanent monitoring of all input circuits.",
+    "Built-in automatic test facility type YP 031",
+    "Easily extendable."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the maintenance staff should carry the suitable ID safety category,",
+    "Maintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Personal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc",
+    "Outage arrangement is required.",
+    "Manual block to interrupt all tripping circuits."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set,",
+    "Test leads,",
+    "Clip-on ammeter,",
+    "Screw drivers"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical \n reference material and manufactures manual.",
+    "Obtain copy of relay setting from field maintenance file and\n compare it with the setting on the relay.",
+    "Inspect the CT secondary circuits and all cabling supplying\n the relay.",
+    "Use the station drawing to isolate breaker failure scheme\n associated with this relay disturbance alarms and fault recorder associated\n with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedures"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain authorization from the control center Press the push\n button L2 (protection blocked) on QVR 411 ( test and signal module ). its\n lamp will lights up indicates that the protection is blocked and the trip\n circuits are interrupted",
+    "Isolate the relay INX2 from the current circuits by making\n short circuit between the input current terminals with the output current\n terminals for the relay on the terminal block for all feeders one by one",
+    "Open the links between the input and output sides of the\n current terminals block to isolate the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking Of Supervision Current Values"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current on the\n input terminals for the relay on phase R for first feeder.",
+    "Slowly increase the\n current until the supervision led R lights up on the module EWW 486-a and\n after 5 seconds the lamps L3 and L4 on module QVR 411- 1 lights up",
+    "Repeat the above step\n for the other phase s ( S , T)",
+    "Repeat the above steps\n for all other feeders.",
+    "Record these values on the test sheet.",
+    "Reset all the\n indication lamps by pressing button LI on module QVR 411-1."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking Of Operating Current Values (A I):"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current on the input terminal for the relay on\n phase (R) for first feeder",
+    "Quickly increase the current to get the operating current\n value before making blocking of the relay by the supervision current (Five\n seconds)",
+    "The following lamps lights up:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "On module TIDL 410- a\n - Phase R.\n - Number of busbar 1 or 2 according to feeding of the feeder under testing.\n - Number of section A or B."
+  },
+  {
+   "type": "paragraph",
+   "text": "On module QVR 411-1 \n ; Lamp Ll lights up (for tripping)"
+  },
+  {
+   "type": "paragraph",
+   "text": "On module TIDL 408 a - I; give tripping indicator for all feeders connected \n with the feeder under testing. Repeat the above step for all other phases and \n feeder"
+  },
+  {
+   "type": "list",
+   "items": [
+    "On module TIDL 410- a\n - Phase R.\n - Number of busbar 1 or 2 according to feeding of the feeder under testing.\n - Number of section A or B.",
+    "On module QVR 411-1 \n ; Lamp Ll lights up (for tripping)",
+    "On module TIDL 408 a - I; give tripping indicator for all feeders connected \n with the feeder under testing. Repeat the above step for all other phases and \n feeder"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the test leads",
+    "Close the links between the input and output sides of the\n current terminals block to connect the relay",
+    "Disconnect the short circuit between the input current\n terminals with the output current terminals for all feeders one by one",
+    "Press the button LI on module QVR411 for resting the\n indication lamps. Connect the breaker failure scheme associated with the\n relay",
+    "Connect disturbance alarms and fault recorder associate with\n the relay",
+    "Return the relay to service by pressing button L2 on module\n QVR 411."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Power Line to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the reading agree with station meters (MW, MVA / Power\n factor /Amp/ V)",
+    "Place a copy of the test results in the field maintenance\n file"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test \nSheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "For Bus\nbar Protection\nINX 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Bus\n bar Number:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Feeder"
+  },
+  {
+   "type": "paragraph",
+   "text": "CT"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested By: \nSignature: \nDate:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Automatic Testing Type YP 031"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The Brown Boveri electronic\nbus bar protection system has a\nbuilt-in automatic testing unit. To ensure the constant readiness of the\nprotection system, the auxiliary supplies, the image of the isolators, the trip\nisolating relays, the directional comparison, the tripping thyristor and the\nmain current transformers are continuously monitored."
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing of the protection circuits is controlled by a test\nprogram, which is applied by a built-in program switch. The test sequence is\nstopped when the operation of the protection system no longer takes place in\naccordance with the test program command given, On the basis of the signals\nindicated, the fault can be traced and then removed by replacement of the\nappropriate p.c.b."
+  },
+  {
+   "type": "paragraph",
+   "text": "General"
+  },
+  {
+   "type": "paragraph",
+   "text": "Description"
+  },
+  {
+   "type": "paragraph",
+   "text": "The automatic testing device consists of testing unit YP031,\n AC supply tier YP029 and signal module AAX 106. The trip indicating lamps on\n the trip indication lamp part VDL 408 are also of importance for fault\n location."
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Unit YP031"
+  },
+  {
+   "type": "paragraph",
+   "text": "This shelf is equipped with all the modules, in the form of\nplug-in units, necessary for the automatic testing of the busbar protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "RUT 416: 12 V= Stabilizer"
+  },
+  {
+   "type": "paragraph",
+   "text": "In the stabilizing unit RUT 416, the service voltage of18 to 30\nV= is reduced to a voltage of 12 V= and at the same time stabilized- This\nstabilized voltage is used mainly for the supply to the measuring elements of\nthe measurement prints MCT 4 18, MCT 426 and VOT 409."
+  },
+  {
+   "type": "paragraph",
+   "text": "The built-in test jacks serve for measuring the stabilized 12 V=\nvoltage, in addition a maximum and minimum voltage supervision with testing\nfacility is provided."
+  },
+  {
+   "type": "paragraph",
+   "text": "URT 409: Continuous Supervision Unit"
+  },
+  {
+   "type": "paragraph",
+   "text": "All continuous supervisions are centralized on this module and\ncan be tested by the button \"Test\" (on OVA 411) The built-in test\njacks serve for measuring the 24 V= service voltage and the test buttons for\ntesting the maximum and minimum voltage supervision of the same. Through\ninsertion of the appropriate solder link or diode in this part, the protection\ncan be automatically blocked by several supervision signals."
+  },
+  {
+   "type": "paragraph",
+   "text": "BFR 484: Test Impulse Generator and Cycle Supervision"
+  },
+  {
+   "type": "paragraph",
+   "text": "This module supplies the test impulses for the measurement\nprints MCT 418 and MCT 425 during the test cycle."
+  },
+  {
+   "type": "paragraph",
+   "text": "Further it combines all reaction signals to stop the test\nsequence in case of a fault in the protection system."
+  },
+  {
+   "type": "paragraph",
+   "text": "VDT 409: Differential current supervision, Trip- and\nintercropping monitoring."
+  },
+  {
+   "type": "paragraph",
+   "text": "a) Differential current supervision:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Each differential current circuit is provided with a supervision\ncurrent transformer (located in EWW 468). Their secondary are connected into a\ncommon summation circuit which feeds the measuring trigger."
+  },
+  {
+   "type": "paragraph",
+   "text": "If as a result of a faulty current transformer circuit or\nwrongly connected ratio, the current in the summation circuit exceeds the preset\nvalue of approx. 5% of the differential current setting in MCT 425, this trigger\npicks up and ceports the fault after a Delay of approx. 5 sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip Monitoring"
+  },
+  {
+   "type": "paragraph",
+   "text": "As the bus bar protection trips, the tripping relays seal in and\nthe coil current of all tripping relays flows through the two power diodes,\nthere by producing a voltage of approx. 2 x 0.7 V across the diodes. This voltage\nis used for trip monitoring during the test cycle. Together with the signals from\nthe test program switch (contacts S4 and S5) a check is made for correct or\nspurious tripping."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inter tripping Monitoring"
+  },
+  {
+   "type": "paragraph",
+   "text": "Two conditions are supervised during the test of the\nintercropping circuitry. Firstly that all tripping relays are actuated and\nsecondly the spurious intercropping of the bars that are not under test."
+  },
+  {
+   "type": "paragraph",
+   "text": "B I D 483 Tripping Release"
+  },
+  {
+   "type": "paragraph",
+   "text": "The tripping thyristor is an important link for the\nsecurity of the protection and is therefore continuously supervised\nagainst short circuit. A failure is reported after a delay of 5 sec. In addition\nthe release signal for the SCR is time delayed for approx. 2 - 4 ms, to avoid an\nunwanted triggering clue to interference or switching of the supply voltage that\nmay be critical. The tripping thyristor is connected in series with the tripping\nelements of all feeders. It becomes conductive when a release signal is given by\nthe differential current measurement (MCT 425). Tripping however, can only occur\nif the directional criterion is fulfilled as well."
+  },
+  {
+   "type": "paragraph",
+   "text": "QVR 411: Test and Signal Module"
+  },
+  {
+   "type": "paragraph",
+   "text": "This module contains all indicating and control elements. Faults\nthat are shown up by the continuous supervision or in the course of a test run\nare indicated by signal lamps,"
+  },
+  {
+   "type": "paragraph",
+   "text": "The signal lamps (24 V=) can be changed from tile front."
+  },
+  {
+   "type": "paragraph",
+   "text": "Arrangement and function of the signal lamps and push buttons"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1 : \"Tripping \nand reset\""
+  },
+  {
+   "type": "paragraph",
+   "text": "(Indicator with impulse switch)"
+  },
+  {
+   "type": "paragraph",
+   "text": "The lamp alights at tripping. Actuation of the push button\nbreaks the seal-in circuit of the tripping relays and resets all signals"
+  },
+  {
+   "type": "paragraph",
+   "text": "L2: \"Protection \nBlocked\""
+  },
+  {
+   "type": "paragraph",
+   "text": "(Indicator with step switch)"
+  },
+  {
+   "type": "paragraph",
+   "text": "This lamp indicates that tile protection is blocked, i.e. that\nthe trip circuits are interrupted."
+  },
+  {
+   "type": "paragraph",
+   "text": "Blocking of the protection can be initiated by this push button,\nby a supervision circuit or during tile automatic test\ncycle by tile program switch."
+  },
+  {
+   "type": "paragraph",
+   "text": "Pressing the button once blocks the protection independently of\nall other signals. This \"blocking by hand\" is cancelled by pressing\nthe button a second time,"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This lamp indicates that tile protection is blocked, i.e. that\nthe trip circuits are interrupted.",
+    "Blocking of the protection can be initiated by this push button,\nby a supervision circuit or during tile automatic test\ncycle by tile program switch.",
+    "Pressing the button once blocks the protection independently of\nall other signals. This \"blocking by hand\" is cancelled by pressing\nthe button a second time,"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "L3: \"Protection Defect\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up when a fault is present in the protection system or in\nthe actual testing unit."
+  },
+  {
+   "type": "paragraph",
+   "text": "L4: \"Differential \nCurrent\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up when a fault occurs in the main current transformer\ncircuits or internally in the differential circuits."
+  },
+  {
+   "type": "paragraph",
+   "text": "L5: \"R\" L6: \"S\" L7: \"T\""
+  },
+  {
+   "type": "paragraph",
+   "text": "During testing for correct tripping, the phase lamp, which does\nnot light up, indicates the measuring system, which has not tripped."
+  },
+  {
+   "type": "paragraph",
+   "text": "L8: \"Trip-block Contractors\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up when there is a fault in one of tile trip isolating\nrelays-"
+  },
+  {
+   "type": "paragraph",
+   "text": "L9: \"Bus Image Contactors"
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up when there is a fault in the isolator position replica\ncircuitry."
+  },
+  {
+   "type": "paragraph",
+   "text": "L10: \"Inter tripping\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up when a fault is found in the inter-tripping circuit\n(during testing only), if this system trips unselective."
+  },
+  {
+   "type": "paragraph",
+   "text": "L11: \"Test HDT 434\""
+  },
+  {
+   "type": "paragraph",
+   "text": "(Indicator with impulse switch)"
+  },
+  {
+   "type": "paragraph",
+   "text": "a) \nDuring the test run :"
+  },
+  {
+   "type": "paragraph",
+   "text": "The lamp indicates a defective measurement print MGT 425 or\n MCT 4 18- by pressing this button and simultaneously turning the rotary test\n switch on the directional comparison print HDT 434 The defective print can be\n located."
+  },
+  {
+   "type": "paragraph",
+   "text": "b) Continuous motoring :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up\nwhen there is a fault in one of the directional comparison prints HDT 434 or differential\ncurrent measurement prints MCT 425"
+  },
+  {
+   "type": "paragraph",
+   "text": "L12:\"HDT 434 not set to zero\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up when one of the rotary test switches on the\ndirectional comparison prints HDT 434 is not in its zero position,"
+  },
+  {
+   "type": "paragraph",
+   "text": "L13: \"BID 483\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up when the tripping thyristor (SCR) is conducting, i.e.\na fault is present in a differential current measurement P print MCT 425,\nauxiliary print BDD 462 or in module BID 483 itself, as well as with some stops\nof the program switch and after tripping."
+  },
+  {
+   "type": "paragraph",
+   "text": "L14 \"AC supply failure\""
+  },
+  {
+   "type": "paragraph",
+   "text": "(Indicator with step switch)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up when the a.c, input voltage fails."
+  },
+  {
+   "type": "paragraph",
+   "text": "By pressing this button, the start of the test run can be\nprevented."
+  },
+  {
+   "type": "paragraph",
+   "text": "L15 \"Supply ON"
+  },
+  {
+   "type": "paragraph",
+   "text": "Lights up when all DC Voltages\nare present"
+  },
+  {
+   "type": "paragraph",
+   "text": "L16:\"Alarm Reset\""
+  },
+  {
+   "type": "paragraph",
+   "text": "This push button actuates an aux. relay on the signal module AAX\n106. The relay's clean contacts can be used at discretion, e.g. for interrupting\nor switching on an external alarm circuit."
+  },
+  {
+   "type": "paragraph",
+   "text": "L17:\"Start"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test run can be instigated by this button at all times, except\nwhen a continuous supervision has picked up or the switch of a static bus image\ncontactor is in position \"0\" (Revision)"
+  },
+  {
+   "type": "paragraph",
+   "text": "L18Reset"
+  },
+  {
+   "type": "paragraph",
+   "text": "When the test sequence has been stopped, the\nprogram switch can\nbe brought to its O position by pressing this button, provided that the\nprotection has been blocked by hand (illuminated button Protection blocked\npress once)"
+  },
+  {
+   "type": "paragraph",
+   "text": "L19: \"Test\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Blocking by hand releases the function of this button.\nAfterwards all continuous supervision circuits can be checked by means of this\nbutton."
+  },
+  {
+   "type": "paragraph",
+   "text": "L20: \"Lamp Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "When this button is pressed, all lamps within the protection\ncabinet must light up,"
+  },
+  {
+   "type": "paragraph",
+   "text": "SWT 418: \nAutomatic reset"
+  },
+  {
+   "type": "paragraph",
+   "text": "Provision is made in the testing unit to insert this module\nwhich has no influence upon the automatic testing."
+  },
+  {
+   "type": "paragraph",
+   "text": "When tripping has been effected, the time delayed operation of the automatic\nreset SW'T 418 independently interrupts the seal-in circuit of the tripping\nrelays. The tripping lamps on part YDL 408(a) extinguish automatically at the\nmean time."
+  },
+  {
+   "type": "paragraph",
+   "text": "The tripping lamps on part VDL 408a-l and the signal lamps on part VDL 410 must\nbe reset by hand."
+  },
+  {
+   "type": "paragraph",
+   "text": "AC Supply \ntier YP029"
+  },
+  {
+   "type": "paragraph",
+   "text": "The following elements are built into this shelf:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Miniature fuse 100 mA for timer and transformer"
+  },
+  {
+   "type": "paragraph",
+   "text": "Synchronous timer for the (twice) weekly start of The automatic test cycle."
+  },
+  {
+   "type": "paragraph",
+   "text": "Time element connected in series with the timer Contact, to bridge the \n switching time."
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage transformer with 24 V secondary voltage for the supply of the test \n motor (BXM 482) and The supervision relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Plug socket, to Swiss standard with miniature fuse 4A connected in front."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Miniature fuse 100 mA for timer and transformer",
+    "Synchronous timer for the (twice) weekly start of The automatic test cycle.",
+    "Time element connected in series with the timer Contact, to bridge the \n switching time.",
+    "Voltage transformer with 24 V secondary voltage for the supply of the test \n motor (BXM 482) and The supervision relay.",
+    "Plug socket, to Swiss standard with miniature fuse 4A connected in front."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Signal Module AAX 106"
+  },
+  {
+   "type": "paragraph",
+   "text": "The signal module is mounted within the protection cabinet in\nuppermost position. It contains the connection terminals and auxiliary relays\nfor signalization with the following functions -"
+  },
+  {
+   "type": "paragraph",
+   "text": "K 1 /K2: \"Protection blocked\" by a continuous\nsupervision."
+  },
+  {
+   "type": "paragraph",
+   "text": "K3 \"Protection defect\""
+  },
+  {
+   "type": "paragraph",
+   "text": "At stop of the test cycle by signal bus image contactors by\nsignal trip-block contactors by signal HDT 434 not set to zero by KI (blocked)"
+  },
+  {
+   "type": "paragraph",
+   "text": "K4: \"Protection tripped\""
+  },
+  {
+   "type": "paragraph",
+   "text": "K5: AC supply failure\""
+  },
+  {
+   "type": "paragraph",
+   "text": "K6: \"Protection blocked\" by hand"
+  },
+  {
+   "type": "paragraph",
+   "text": "by test program switch"
+  },
+  {
+   "type": "paragraph",
+   "text": "K7: \"Differential Current\""
+  },
+  {
+   "type": "paragraph",
+   "text": "K8: \"Protection defect\" loss of external d,c, supply\nvoltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "K9: \"Revision\" Bus image supervision switched off\nStart of test run prevented"
+  },
+  {
+   "type": "paragraph",
+   "text": "K10: \"Alarm reset\""
+  },
+  {
+   "type": "paragraph",
+   "text": "K21 \"External reset\" of tripping relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "K31-K34 are used as auxiliary relays for couplers with one set\nof CTs or for special use"
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip indication VDL 408"
+  },
+  {
+   "type": "paragraph",
+   "text": "The lamps on this module are each associated with one feeder.\nThey light up when the respective feeder is tripped by the bus bar protection."
+  },
+  {
+   "type": "paragraph",
+   "text": "In service, the lamps indicate the circuit breakers that have\nbeen tripped by the bus bar protection."
+  },
+  {
+   "type": "paragraph",
+   "text": "During testing, they indicate the feeder in which a fault is\npresent."
+  },
+  {
+   "type": "paragraph",
+   "text": "Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Static bus image contactors (type BDW 475) For revision of the isolator \nauxiliary contacts the built-in switch should be placed in position \"0\"- The \na.c. voltage produced in the bus image contactor is then disconnected The bus \nimage supervision is switched off."
+  },
+  {
+   "type": "paragraph",
+   "text": "The external signal \"Revision\" is given and start of\nthe test run is prevented. (During automatic testing, the bus image contactors\nare operated and will not return to their original position if the auxiliary\nsupply is interrupted)."
+  },
+  {
+   "type": "paragraph",
+   "text": "The busbar protection can remain in service as long as the\nisolators are not operated. (The state of connection is stored in the bus Image\ncontactor, but the contactor can no longer follow a switching operation)."
+  },
+  {
+   "type": "paragraph",
+   "text": "After termination of the revision, the bus image contactor is to\nbe switched on again, whereby the external signal disappears."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Before carrying out any work within the cabinet, the button \"Protection\n blocked\" must be actuated.",
+    "If the program switch remains stationary at any position, the number of this\n position and all indicated signals are to be noted. Before resetting to zero\n by pressing the-reset\" button, the already illuminated button\n \"protection blocked\" is to be pressed once, to interrupt the\n tripping circuits independently of the program switch (Thus releasing\n \"reset\").",
+    "Prints and modules are only to be changed when the supply voltage is\n switched off (by means of circuit breaker on module EBP in the DC supply\n tier).",
+    "When changing prints or modules, avoid touching the print contacts.\n (Contacts can be cleaned with tetrachloride or other cleansers e,g. Contact\n 60).",
+    "Static bus image contactors (type BDW 475) For revision of the isolator \nauxiliary contacts the built-in switch should be placed in position \"0\"- The \na.c. voltage produced in the bus image contactor is then disconnected The bus \nimage supervision is switched off.",
+    "Test of the continuous supervisions:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip block contactors immediately"
+  },
+  {
+   "type": "paragraph",
+   "text": "Protection detect immediately"
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Differential current\" after 5 sec,"
+  },
+  {
+   "type": "paragraph",
+   "text": "\"BID 483\" after 5 sec. (5\")"
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Bus image contactors\" after 10 sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Lamp on tile coupler"
+  },
+  {
+   "type": "paragraph",
+   "text": "Print SDT419 immediately"
+  },
+  {
+   "type": "paragraph",
+   "text": "Lamps (R, S, T) on"
+  },
+  {
+   "type": "paragraph",
+   "text": "differential current"
+  },
+  {
+   "type": "paragraph",
+   "text": "transformer Module immediately"
+  },
+  {
+   "type": "paragraph",
+   "text": "EWW 468a"
+  },
+  {
+   "type": "paragraph",
+   "text": "To test the 24 V voltage supervision on module URT 4.09, the\n buttons on this module have to be pressed successively."
+  },
+  {
+   "type": "paragraph",
+   "text": "Lamp \"Supply ON\" goes out."
+  },
+  {
+   "type": "paragraph",
+   "text": "To test the 12 V voltage supervision on module RUT 416, the\n but-tons on this module have to be pressed successively."
+  },
+  {
+   "type": "paragraph",
+   "text": "Lamp \"Supply ON\" goes out."
+  },
+  {
+   "type": "paragraph",
+   "text": "To test the logic circuitry on the coupler print S DT 419, the\n button on this print has to be pressed, whereby the lamp on the print goes\n out."
+  },
+  {
+   "type": "paragraph",
+   "text": "To test the coupler blocking logic on print BDT 473, the\n buttons on this print have to be pressed successively, whereby tile lamp on\n this print lights up each time-"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test jacks on EVM 468"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test jacks on the differential current transformer module EWW\n468 serve for the measurement of the differential current at the input to the\nmeasurement prints IVICT 425. The module EWW 468a has additional LED's\nindicating in which phase a Differential current run."
+  },
+  {
+   "type": "paragraph",
+   "text": "External signals"
+  },
+  {
+   "type": "paragraph",
+   "text": "(One clean n/o contact for each)"
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Protection tripped\" Indicates that the\n bus bar\n protection has operated."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Protection blocked\" Indicates that the protection\n is blocked by Hand, by a supervision circuit or by the Testing unit."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Protection defect\" Indicates a fault in the\n protection itself."
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Protection blocked\" and \"Protection\n defect\" Both signals together indicate a fault found during the course of\n a test run or pick-up of a supervision circuit."
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential current\" Indicates a fault in the current\n transformer circuits\n \"AC supply failure\" Indicates loss of the AC input voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Revision\" Indicates that the switch on one of the\n bus image contactors is not in its service position \"'I \""
+  },
+  {
+   "type": "paragraph",
+   "text": "Continuous supervision - test position \"0\""
+  },
+  {
+   "type": "paragraph",
+   "text": "Continuously supervised are:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Electronic service voltage 24 V"
+  },
+  {
+   "type": "paragraph",
+   "text": "12 V stabilized voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "DC input voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "AC input voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "Image of isolator wiring and bus image contactors"
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip isolating relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tripping relays (refer 4.1) HDT 434 zero position"
+  },
+  {
+   "type": "paragraph",
+   "text": "HDT 434 output (tripping release)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tripping thyristor"
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential current"
+  },
+  {
+   "type": "paragraph",
+   "text": "Each continuous supervision circuit can be tested by means of\n test buttons."
+  },
+  {
+   "type": "paragraph",
+   "text": "The pick-up of any continuous supervision circuit is\n signalized internally and externally."
+  },
+  {
+   "type": "paragraph",
+   "text": "The following supervisions can be used to block the protection\n automatically :"
+  },
+  {
+   "type": "paragraph",
+   "text": "12 V stabilized voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "Image of isolators and bus image contactors"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tripping thyristor"
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential current"
+  },
+  {
+   "type": "paragraph",
+   "text": "The protection will be blocked if the respective link or diode\n is soldered in place within the module URT 409. In this case when one of the\n above supervisions picks up, additional signals will be given, which are\n marked by *** in the following list. Normally the protection is equipped\n with the 4 links before delivery"
+  },
+  {
+   "type": "paragraph",
+   "text": "Service Position"
+  },
+  {
+   "type": "paragraph",
+   "text": "If the lamp \"Supply ON\" lights up alone, this\nindicates the operational readiness of the protection system, The following\npages list each possible fault which could be indicated, and detail first the\n\"external signals\", the \"internal signals\", and then the\ncause of defect and remedies"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sequence"
+  },
+  {
+   "type": "paragraph",
+   "text": "During the test sequence, the functions of the\nbus bar protection\nare tested in 13 on the number of bus bars."
+  },
+  {
+   "type": "paragraph",
+   "text": "This test run takes about 4 seconds (50 Hz)."
+  },
+  {
+   "type": "paragraph",
+   "text": "During this time, the bus\nbar protection is blocked, i.e. The\nexternal signal \"Protection blocked\" is given. The tripping circuits\nare interrupted by means of the trip isolating relays. After a successful\ntest, the protection automatically returns into service."
+  },
+  {
+   "type": "paragraph",
+   "text": "If a fault is found in the protection during the test cycle, the\nprogram switch stops at a certain test position and the external signals"
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Protection blocked\" and \"Protection defect\"\nare given."
+  },
+  {
+   "type": "paragraph",
+   "text": "In stations with sectionalizes, the additional signal"
+  },
+  {
+   "type": "paragraph",
+   "text": "\"Differential current\" can appear."
+  },
+  {
+   "type": "paragraph",
+   "text": "These external signals are not mentioned in the following list\nof possible fault positions."
+  },
+  {
+   "type": "paragraph",
+   "text": "The internal signals and the position of the program switch\n(test position) give information about the possible defect. The remedies listed on the following pages are to be\ncarried out\nwith the program switch in position \"0\" and with the supply voltage\nfor the electronic system switched off, except where noted otherwise"
+  },
+  {
+   "type": "paragraph",
+   "text": "Before resetting to zero by the button \"Reset\", the\nprotection must be blocked by hand, i-e, the already illuminated button\n\"Protection blocked\" must be pressed once."
+  },
+  {
+   "type": "paragraph",
+   "text": "A new test run must be made to ensure that the defect has\nactually been removed. If prints have to be changed one by one (in exchange\nagainst spares), several test runs may be necessary."
+  },
+  {
+   "type": "paragraph",
+   "text": "Having eliminated the defect, the blockage ran be r-canceled by\npressing the button \"Protection blocked a second time, thereby putting the\nprotection into service."
+  },
+  {
+   "type": "paragraph",
+   "text": "Remarks"
+  },
+  {
+   "type": "paragraph",
+   "text": "If no defect, mentioned under test positions, can be determined,\nit is possible that the test program switch BXM482 (a) is defect. In this case\nthe contacts must be checked and cleaned. If necessary, the program switch must\nbe replaced,"
+  },
+  {
+   "type": "paragraph",
+   "text": "15o Control whether all tripping\ncircuits are interrupted."
+  },
+  {
+   "type": "paragraph",
+   "text": "21o Control whether the feeder current measurement prints will prevent\n tripping when no current is flowing, but both tripping release signals are\n present from differential and directional criterions,"
+  },
+  {
+   "type": "paragraph",
+   "text": "27o Control whether all differential\ncurrent measurement prints have picked up."
+  },
+  {
+   "type": "paragraph",
+   "text": "39o Control whether all inputs to the\ndirectional comparison prints have an active signal."
+  },
+  {
+   "type": "paragraph",
+   "text": "15o Control whether all differential\ncurrent measurement prints block tripping."
+  },
+  {
+   "type": "paragraph",
+   "text": "58o Control whether the switching\nand / or\ncoupler logic prints can block the tripping release from directional comparison,\nwhen the bus Image\nis switched off."
+  },
+  {
+   "type": "paragraph",
+   "text": "72o Control whether all feeders trip in all\nphase\n(This test is suppressed for single bus bar systems)"
+  },
+  {
+   "type": "paragraph",
+   "text": "93o Control whether the directional Comparison\nsystem can block for bus bar I in the positive system"
+  },
+  {
+   "type": "paragraph",
+   "text": "95o idem in the negative system"
+  },
+  {
+   "type": "paragraph",
+   "text": "107o: idem for\nbus bar\nI1 in the negative system"
+  },
+  {
+   "type": "paragraph",
+   "text": "110o idem for\nbus bar\nI1 in the positive system"
+  },
+  {
+   "type": "paragraph",
+   "text": "127o\nidlers for bus bar III in the positive system"
+  },
+  {
+   "type": "paragraph",
+   "text": "132o idem for\nbus bar III in the negative system"
+  },
+  {
+   "type": "paragraph",
+   "text": "147o idem for\nbus bar IV in the negative system"
+  },
+  {
+   "type": "paragraph",
+   "text": "152o idem for\nbus bar IV in the positive system"
+  },
+  {
+   "type": "paragraph",
+   "text": "170o Control whether the\nintercropping circuitry operates\nselectively for bus bar I."
+  },
+  {
+   "type": "paragraph",
+   "text": "173o Control whether all tripping relays have operated"
+  },
+  {
+   "type": "paragraph",
+   "text": "196o same as pos. 170o for\nbus bar II"
+  },
+  {
+   "type": "paragraph",
+   "text": "199o same as pos. 173o"
+  },
+  {
+   "type": "paragraph",
+   "text": "222o same as pos. 170o for\nbus bar III"
+  },
+  {
+   "type": "paragraph",
+   "text": "225o same as pos. 173o"
+  },
+  {
+   "type": "paragraph",
+   "text": "248o same as pos. 170o for\nbus bar IV"
+  },
+  {
+   "type": "paragraph",
+   "text": "251o same as pos. 173o"
+  },
+  {
+   "type": "paragraph",
+   "text": "280o Control whether the negative system alone can trip all\nfeeders."
+  },
+  {
+   "type": "paragraph",
+   "text": "309o Control whether the positive system alone can trip ail\nfeeders."
+  },
+  {
+   "type": "paragraph",
+   "text": "347o Control whether all tripping relays have dropped off. If\nthis should not be the case, the program switch nevertheless returns to its zero\nposition"
+  }
+ ],
+ "text": "Issued to: \n Networks\nIntroduction\nThe bus bar protection system INX2 based on the directional\ncomparison principle is used as selective protection in installations with\nsingle and multiple bus bar system. It gives functional reliability owing to the\nuse of independent criteria. The magnitude, and direction of the current in the\nfeeder. The magnitude and direction of the differential current\nMain Features:\nInsensitivity to CT saturation.\nNo need for the secondary circuit of the main CT to be switched short\n tripping times (6-13 or 10-18 ms & Full selectivity assured with\n unrestricted freedom of operation by using an image of The isolators in the\n installation that are of importance for its protection.\nSeparate detection of the positive and negative half waves.\nPermanent monitoring of all input circuits.\nBuilt-in automatic test facility type YP 031\nEasily extendable.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nOutage arrangement is required.\nManual block to interrupt all tripping circuits.\nTools and Equipment\nSecondary injection test set,\nTest leads,\nClip-on ammeter,\nScrew drivers\nWork to be Carried Out\nPreparation\nReview technical \n reference material and manufactures manual.\nObtain copy of relay setting from field maintenance file and\n compare it with the setting on the relay.\nInspect the CT secondary circuits and all cabling supplying\n the relay.\nUse the station drawing to isolate breaker failure scheme\n associated with this relay disturbance alarms and fault recorder associated\n with this relay.\nTesting Procedures\nObtain authorization from the control center Press the push\n button L2 (protection blocked) on QVR 411 ( test and signal module ). its\n lamp will lights up indicates that the protection is blocked and the trip\n circuits are interrupted\nIsolate the relay INX2 from the current circuits by making\n short circuit between the input current terminals with the output current\n terminals for the relay on the terminal block for all feeders one by one\nOpen the links between the input and output sides of the\n current terminals block to isolate the relay.\nChecking Of Supervision Current Values\nInject current on the\n input terminals for the relay on phase R for first feeder.\nSlowly increase the\n current until the supervision led R lights up on the module EWW 486-a and\n after 5 seconds the lamps L3 and L4 on module QVR 411- 1 lights up\nRepeat the above step\n for the other phase s ( S , T)\nRepeat the above steps\n for all other feeders.\nRecord these values on the test sheet.\nReset all the\n indication lamps by pressing button LI on module QVR 411-1.\nChecking Of Operating Current Values (A I):\nInject current on the input terminal for the relay on\n phase (R) for first feeder\nQuickly increase the current to get the operating current\n value before making blocking of the relay by the supervision current (Five\n seconds)\nThe following lamps lights up:\nOn module TIDL 410- a\n - Phase R.\n - Number of busbar 1 or 2 according to feeding of the feeder under testing.\n - Number of section A or B.\nOn module QVR 411-1 \n ; Lamp Ll lights up (for tripping)\nOn module TIDL 408 a - I; give tripping indicator for all feeders connected \n with the feeder under testing. Repeat the above step for all other phases and \n feeder\nOn module TIDL 410- a\n - Phase R.\n - Number of busbar 1 or 2 according to feeding of the feeder under testing.\n - Number of section A or B.\nOn module QVR 411-1 \n ; Lamp Ll lights up (for tripping)\nOn module TIDL 408 a - I; give tripping indicator for all feeders connected \n with the feeder under testing. Repeat the above step for all other phases and \n feeder\nReturn Relay and Associated Equipment\nRemove the test leads\nClose the links between the input and output sides of the\n current terminals block to connect the relay\nDisconnect the short circuit between the input current\n terminals with the output current terminals for all feeders one by one\nPress the button LI on module QVR411 for resting the\n indication lamps. Connect the breaker failure scheme associated with the\n relay\nConnect disturbance alarms and fault recorder associate with\n the relay\nReturn the relay to service by pressing button L2 on module\n QVR 411.\nReturn Power Line to Service\nCheck the reading agree with station meters (MW, MVA / Power\n factor /Amp/ V)\nPlace a copy of the test results in the field maintenance\n file\nTest \nSheet\nFor Bus\nbar Protection\nINX 2\nSubstation:\nBus\n bar Number:\nFeeder\nCT\nTested By: \nSignature: \nDate:\nAutomatic Testing Type YP 031\nIntroduction\nThe Brown Boveri electronic\nbus bar protection system has a\nbuilt-in automatic testing unit. To ensure the constant readiness of the\nprotection system, the auxiliary supplies, the image of the isolators, the trip\nisolating relays, the directional comparison, the tripping thyristor and the\nmain current transformers are continuously monitored.\nTesting of the protection circuits is controlled by a test\nprogram, which is applied by a built-in program switch. The test sequence is\nstopped when the operation of the protection system no longer takes place in\naccordance with the test program command given, On the basis of the signals\nindicated, the fault can be traced and then removed by replacement of the\nappropriate p.c.b.\nGeneral\nDescription\nThe automatic testing device consists of testing unit YP031,\n AC supply tier YP029 and signal module AAX 106. The trip indicating lamps on\n the trip indication lamp part VDL 408 are also of importance for fault\n location.\nTesting Unit YP031\nThis shelf is equipped with all the modules, in the form of\nplug-in units, necessary for the automatic testing of the busbar protection\nRUT 416: 12 V= Stabilizer\nIn the stabilizing unit RUT 416, the service voltage of18 to 30\nV= is reduced to a voltage of 12 V= and at the same time stabilized- This\nstabilized voltage is used mainly for the supply to the measuring elements of\nthe measurement prints MCT 4 18, MCT 426 and VOT 409.\nThe built-in test jacks serve for measuring the stabilized 12 V=\nvoltage, in addition a maximum and minimum voltage supervision with testing\nfacility is provided.\nURT 409: Continuous Supervision Unit\nAll continuous supervisions are centralized on this module and\ncan be tested by the button \"Test\" (on OVA 411) The built-in test\njacks serve for measuring the 24 V= service voltage and the test buttons for\ntesting the maximum and minimum voltage supervision of the same. Through\ninsertion of the appropriate solder link or diode in this part, the protection\ncan be automatically blocked by several supervision signals.\nBFR 484: Test Impulse Generator and Cycle Supervision\nThis module supplies the test impulses for the measurement\nprints MCT 418 and MCT 425 during the test cycle.\nFurther it combines all reaction signals to stop the test\nsequence in case of a fault in the protection system.\nVDT 409: Differential current supervision, Trip- and\nintercropping monitoring.\na) Differential current supervision:\nEach differential current circuit is provided with a supervision\ncurrent transformer (located in EWW 468). Their secondary are connected into a\ncommon summation circuit which feeds the measuring trigger.\nIf as a result of a faulty current transformer circuit or\nwrongly connected ratio, the current in the summation circuit exceeds the preset\nvalue of approx. 5% of the differential current setting in MCT 425, this trigger\npicks up and ceports the fault after a Delay of approx. 5 sec.\nTrip Monitoring\nAs the bus bar protection trips, the tripping relays seal in and\nthe coil current of all tripping relays flows through the two power diodes,\nthere by producing a voltage of approx. 2 x 0.7 V across the diodes. This voltage\nis used for trip monitoring during the test cycle. Together with the signals from\nthe test program switch (contacts S4 and S5) a check is made for correct or\nspurious tripping.\nInter tripping Monitoring\nTwo conditions are supervised during the test of the\nintercropping circuitry. Firstly that all tripping relays are actuated and\nsecondly the spurious intercropping of the bars that are not under test.\nB I D 483 Tripping Release\nThe tripping thyristor is an important link for the\nsecurity of the protection and is therefore continuously supervised\nagainst short circuit. A failure is reported after a delay of 5 sec. In addition\nthe release signal for the SCR is time delayed for approx. 2 - 4 ms, to avoid an\nunwanted triggering clue to interference or switching of the supply voltage that\nmay be critical. The tripping thyristor is connected in series with the tripping\nelements of all feeders. It becomes conductive when a release signal is given by\nthe differential current measurement (MCT 425). Tripping however, can only occur\nif the directional criterion is fulfilled as well.\nQVR 411: Test and Signal Module\nThis module contains all indicating and control elements. Faults\nthat are shown up by the continuous supervision or in the course of a test run\nare indicated by signal lamps,\nThe signal lamps (24 V=) can be changed from tile front.\nArrangement and function of the signal lamps and push buttons\nL1 : \"Tripping \nand reset\"\n(Indicator with impulse switch)\nThe lamp alights at tripping. Actuation of the push button\nbreaks the seal-in circuit of the tripping relays and resets all signals\nL2: \"Protection \nBlocked\"\n(Indicator with step switch)\nThis lamp indicates that tile protection is blocked, i.e. that\nthe trip circuits are interrupted.\nBlocking of the protection can be initiated by this push button,\nby a supervision circuit or during tile automatic test\ncycle by tile program switch.\nPressing the button once blocks the protection independently of\nall other signals. This \"blocking by hand\" is cancelled by pressing\nthe button a second time,\nThis lamp indicates that tile protection is blocked, i.e. that\nthe trip circuits are interrupted.\nBlocking of the protection can be initiated by this push button,\nby a supervision circuit or during tile automatic test\ncycle by tile program switch.\nPressing the button once blocks the protection independently of\nall other signals. This \"blocking by hand\" is cancelled by pressing\nthe button a second time,\nL3: \"Protection Defect\"\nLights up when a fault is present in the protection system or in\nthe actual testing unit.\nL4: \"Differential \nCurrent\"\nLights up when a fault occurs in the main current transformer\ncircuits or internally in the differential circuits.\nL5: \"R\" L6: \"S\" L7: \"T\"\nDuring testing for correct tripping, the phase lamp, which does\nnot light up, indicates the measuring system, which has not tripped.\nL8: \"Trip-block Contractors\"\nLights up when there is a fault in one of tile trip isolating\nrelays-\nL9: \"Bus Image Contactors\nLights up when there is a fault in the isolator position replica\ncircuitry.\nL10: \"Inter tripping\"\nLights up when a fault is found in the inter-tripping circuit\n(during testing only), if this system trips unselective.\nL11: \"Test HDT 434\"\n(Indicator with impulse switch)\na) \nDuring the test run :\nThe lamp indicates a defective measurement print MGT 425 or\n MCT 4 18- by pressing this button and simultaneously turning the rotary test\n switch on the directional comparison print HDT 434 The defective print can be\n located.\nb) Continuous motoring :\nLights up\nwhen there is a fault in one of the directional comparison prints HDT 434 or differential\ncurrent measurement prints MCT 425\nL12:\"HDT 434 not set to zero\"\nLights up when one of the rotary test switches on the\ndirectional comparison prints HDT 434 is not in its zero position,\nL13: \"BID 483\"\nLights up when the tripping thyristor (SCR) is conducting, i.e.\na fault is present in a differential current measurement P print MCT 425,\nauxiliary print BDD 462 or in module BID 483 itself, as well as with some stops\nof the program switch and after tripping.\nL14 \"AC supply failure\"\n(Indicator with step switch)\nLights up when the a.c, input voltage fails.\nBy pressing this button, the start of the test run can be\nprevented.\nL15 \"Supply ON\nLights up when all DC Voltages\nare present\nL16:\"Alarm Reset\"\nThis push button actuates an aux. relay on the signal module AAX\n106. The relay's clean contacts can be used at discretion, e.g. for interrupting\nor switching on an external alarm circuit.\nL17:\"Start\nTest run can be instigated by this button at all times, except\nwhen a continuous supervision has picked up or the switch of a static bus image\ncontactor is in position \"0\" (Revision)\nL18Reset\nWhen the test sequence has been stopped, the\nprogram switch can\nbe brought to its O position by pressing this button, provided that the\nprotection has been blocked by hand (illuminated button Protection blocked\npress once)\nL19: \"Test\"\nBlocking by hand releases the function of this button.\nAfterwards all continuous supervision circuits can be checked by means of this\nbutton.\nL20: \"Lamp Test\nWhen this button is pressed, all lamps within the protection\ncabinet must light up,\nSWT 418: \nAutomatic reset\nProvision is made in the testing unit to insert this module\nwhich has no influence upon the automatic testing.\nWhen tripping has been effected, the time delayed operation of the automatic\nreset SW'T 418 independently interrupts the seal-in circuit of the tripping\nrelays. The tripping lamps on part YDL 408(a) extinguish automatically at the\nmean time.\nThe tripping lamps on part VDL 408a-l and the signal lamps on part VDL 410 must\nbe reset by hand.\nAC Supply \ntier YP029\nThe following elements are built into this shelf:\nMiniature fuse 100 mA for timer and transformer\nSynchronous timer for the (twice) weekly start of The automatic test cycle.\nTime element connected in series with the timer Contact, to bridge the \n switching time.\nVoltage transformer with 24 V secondary voltage for the supply of the test \n motor (BXM 482) and The supervision relay.\nPlug socket, to Swiss standard with miniature fuse 4A connected in front.\nMiniature fuse 100 mA for timer and transformer\nSynchronous timer for the (twice) weekly start of The automatic test cycle.\nTime element connected in series with the timer Contact, to bridge the \n switching time.\nVoltage transformer with 24 V secondary voltage for the supply of the test \n motor (BXM 482) and The supervision relay.\nPlug socket, to Swiss standard with miniature fuse 4A connected in front.\nSignal Module AAX 106\nThe signal module is mounted within the protection cabinet in\nuppermost position. It contains the connection terminals and auxiliary relays\nfor signalization with the following functions -\nK 1 /K2: \"Protection blocked\" by a continuous\nsupervision.\nK3 \"Protection defect\"\nAt stop of the test cycle by signal bus image contactors by\nsignal trip-block contactors by signal HDT 434 not set to zero by KI (blocked)\nK4: \"Protection tripped\"\nK5: AC supply failure\"\nK6: \"Protection blocked\" by hand\nby test program switch\nK7: \"Differential Current\"\nK8: \"Protection defect\" loss of external d,c, supply\nvoltage\nK9: \"Revision\" Bus image supervision switched off\nStart of test run prevented\nK10: \"Alarm reset\"\nK21 \"External reset\" of tripping relays\nK31-K34 are used as auxiliary relays for couplers with one set\nof CTs or for special use\nTrip indication VDL 408\nThe lamps on this module are each associated with one feeder.\nThey light up when the respective feeder is tripped by the bus bar protection.\nIn service, the lamps indicate the circuit breakers that have\nbeen tripped by the bus bar protection.\nDuring testing, they indicate the feeder in which a fault is\npresent.\nService\nStatic bus image contactors (type BDW 475) For revision of the isolator \nauxiliary contacts the built-in switch should be placed in position \"0\"- The \na.c. voltage produced in the bus image contactor is then disconnected The bus \nimage supervision is switched off.\nThe external signal \"Revision\" is given and start of\nthe test run is prevented. (During automatic testing, the bus image contactors\nare operated and will not return to their original position if the auxiliary\nsupply is interrupted).\nThe busbar protection can remain in service as long as the\nisolators are not operated. (The state of connection is stored in the bus Image\ncontactor, but the contactor can no longer follow a switching operation).\nAfter termination of the revision, the bus image contactor is to\nbe switched on again, whereby the external signal disappears.\nBefore carrying out any work within the cabinet, the button \"Protection\n blocked\" must be actuated.\nIf the program switch remains stationary at any position, the number of this\n position and all indicated signals are to be noted. Before resetting to zero\n by pressing the-reset\" button, the already illuminated button\n \"protection blocked\" is to be pressed once, to interrupt the\n tripping circuits independently of the program switch (Thus releasing\n \"reset\").\nPrints and modules are only to be changed when the supply voltage is\n switched off (by means of circuit breaker on module EBP in the DC supply\n tier).\nWhen changing prints or modules, avoid touching the print contacts.\n (Contacts can be cleaned with tetrachloride or other cleansers e,g. Contact\n 60).\nStatic bus image contactors (type BDW 475) For revision of the isolator \nauxiliary contacts the built-in switch should be placed in position \"0\"- The \na.c. voltage produced in the bus image contactor is then disconnected The bus \nimage supervision is switched off.\nTest of the continuous supervisions:\nTrip block contactors immediately\nProtection detect immediately\n\"Differential current\" after 5 sec,\n\"BID 483\" after 5 sec. (5\")\n\"Bus image contactors\" after 10 sec.\nLamp on tile coupler\nPrint SDT419 immediately\nLamps (R, S, T) on\ndifferential current\ntransformer Module immediately\nEWW 468a\nTo test the 24 V voltage supervision on module URT 4.09, the\n buttons on this module have to be pressed successively.\nLamp \"Supply ON\" goes out.\nTo test the 12 V voltage supervision on module RUT 416, the\n but-tons on this module have to be pressed successively.\nLamp \"Supply ON\" goes out.\nTo test the logic circuitry on the coupler print S DT 419, the\n button on this print has to be pressed, whereby the lamp on the print goes\n out.\nTo test the coupler blocking logic on print BDT 473, the\n buttons on this print have to be pressed successively, whereby tile lamp on\n this print lights up each time-\nTest jacks on EVM 468\nTest jacks on the differential current transformer module EWW\n468 serve for the measurement of the differential current at the input to the\nmeasurement prints IVICT 425. The module EWW 468a has additional LED's\nindicating in which phase a Differential current run.\nExternal signals\n(One clean n/o contact for each)\n\"Protection tripped\" Indicates that the\n bus bar\n protection has operated.\n\"Protection blocked\" Indicates that the protection\n is blocked by Hand, by a supervision circuit or by the Testing unit.\n\"Protection defect\" Indicates a fault in the\n protection itself.\n\"Protection blocked\" and \"Protection\n defect\" Both signals together indicate a fault found during the course of\n a test run or pick-up of a supervision circuit.\nDifferential current\" Indicates a fault in the current\n transformer circuits\n \"AC supply failure\" Indicates loss of the AC input voltage\n\"Revision\" Indicates that the switch on one of the\n bus image contactors is not in its service position \"'I \"\nContinuous supervision - test position \"0\"\nContinuously supervised are:\nElectronic service voltage 24 V\n12 V stabilized voltage\nDC input voltage\nAC input voltage\nImage of isolator wiring and bus image contactors\nTrip isolating relays\nTripping relays (refer 4.1) HDT 434 zero position\nHDT 434 output (tripping release)\nTripping thyristor\nDifferential current\nEach continuous supervision circuit can be tested by means of\n test buttons.\nThe pick-up of any continuous supervision circuit is\n signalized internally and externally.\nThe following supervisions can be used to block the protection\n automatically :\n12 V stabilized voltage\nImage of isolators and bus image contactors\nTripping thyristor\nDifferential current\nThe protection will be blocked if the respective link or diode\n is soldered in place within the module URT 409. In this case when one of the\n above supervisions picks up, additional signals will be given, which are\n marked by *** in the following list. Normally the protection is equipped\n with the 4 links before delivery\nService Position\nIf the lamp \"Supply ON\" lights up alone, this\nindicates the operational readiness of the protection system, The following\npages list each possible fault which could be indicated, and detail first the\n\"external signals\", the \"internal signals\", and then the\ncause of defect and remedies\nTest Sequence\nDuring the test sequence, the functions of the\nbus bar protection\nare tested in 13 on the number of bus bars.\nThis test run takes about 4 seconds (50 Hz).\nDuring this time, the bus\nbar protection is blocked, i.e. The\nexternal signal \"Protection blocked\" is given. The tripping circuits\nare interrupted by means of the trip isolating relays. After a successful\ntest, the protection automatically returns into service.\nIf a fault is found in the protection during the test cycle, the\nprogram switch stops at a certain test position and the external signals\n\"Protection blocked\" and \"Protection defect\"\nare given.\nIn stations with sectionalizes, the additional signal\n\"Differential current\" can appear.\nThese external signals are not mentioned in the following list\nof possible fault positions.\nThe internal signals and the position of the program switch\n(test position) give information about the possible defect. The remedies listed on the following pages are to be\ncarried out\nwith the program switch in position \"0\" and with the supply voltage\nfor the electronic system switched off, except where noted otherwise\nBefore resetting to zero by the button \"Reset\", the\nprotection must be blocked by hand, i-e, the already illuminated button\n\"Protection blocked\" must be pressed once.\nA new test run must be made to ensure that the defect has\nactually been removed. If prints have to be changed one by one (in exchange\nagainst spares), several test runs may be necessary.\nHaving eliminated the defect, the blockage ran be r-canceled by\npressing the button \"Protection blocked a second time, thereby putting the\nprotection into service.\nRemarks\nIf no defect, mentioned under test positions, can be determined,\nit is possible that the test program switch BXM482 (a) is defect. In this case\nthe contacts must be checked and cleaned. If necessary, the program switch must\nbe replaced,\n15o Control whether all tripping\ncircuits are interrupted.\n21o Control whether the feeder current measurement prints will prevent\n tripping when no current is flowing, but both tripping release signals are\n present from differential and directional criterions,\n27o Control whether all differential\ncurrent measurement prints have picked up.\n39o Control whether all inputs to the\ndirectional comparison prints have an active signal.\n15o Control whether all differential\ncurrent measurement prints block tripping.\n58o Control whether the switching\nand / or\ncoupler logic prints can block the tripping release from directional comparison,\nwhen the bus Image\nis switched off.\n72o Control whether all feeders trip in all\nphase\n(This test is suppressed for single bus bar systems)\n93o Control whether the directional Comparison\nsystem can block for bus bar I in the positive system\n95o idem in the negative system\n107o: idem for\nbus bar\nI1 in the negative system\n110o idem for\nbus bar\nI1 in the positive system\n127o\nidlers for bus bar III in the positive system\n132o idem for\nbus bar III in the negative system\n147o idem for\nbus bar IV in the negative system\n152o idem for\nbus bar IV in the positive system\n170o Control whether the\nintercropping circuitry operates\nselectively for bus bar I.\n173o Control whether all tripping relays have operated\n196o same as pos. 170o for\nbus bar II\n199o same as pos. 173o\n222o same as pos. 170o for\nbus bar III\n225o same as pos. 173o\n248o same as pos. 170o for\nbus bar IV\n251o same as pos. 173o\n280o Control whether the negative system alone can trip all\nfeeders.\n309o Control whether the positive system alone can trip ail\nfeeders.\n347o Control whether all tripping relays have dropped off. If\nthis should not be the case, the program switch nevertheless returns to its zero\nposition",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-005-r0-1.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-005-r0-2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-005-r0-3.gif",
+   "alt": ""
+  }
+ ]
+}
