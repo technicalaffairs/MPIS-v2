@@ -1279,7 +1279,7 @@ FEATURED = ["T-022-R0", "T-024-R0", "T-024-R0-TER", "T-025-R0", "T-026-R0", "T-0
 
 # Documents kept in content/ as archive but not published on the site
 # (e.g. the old FrontPage home page index_old.htm).
-EXCLUDED_DOC_IDS = {"index-old-htm"}
+EXCLUDED_DOC_IDS = {"index-old-htm", "index-htm"}
 
 CATEGORY_AR = {
     "transformers": "المحولات", "boilers": "الغلايات", "turbines": "التوربينات",
@@ -1292,7 +1292,7 @@ CATEGORY_AR = {
     "tech_resource": "الموارد الفنية", "admin_inst": "التعليمات الإدارية",
     "draft_documents": "مسودة المستندات", "quality_control": "مراقبة الجودة",
     "about": "عن النظام", "gen_docs": "مستندات عامة", "arabic_web": "صفحات عربية",
-    "appr_docs": "مستندات معتمدة", "distr_trans": "التوزيع والنقل",
+    "appr_docs": "مستندات معتمدة",
     "general": "عام", "index_htm": "عام",
 }
 
@@ -1307,7 +1307,7 @@ CATEGORY_EN = {
     "tech_resource": "Technical Resources", "admin_inst": "Administrative Instructions",
     "draft_documents": "Draft Documents", "quality_control": "Quality Control",
     "about": "About", "gen_docs": "General Documents", "arabic_web": "Arabic Pages",
-    "appr_docs": "Approved Documents", "distr_trans": "Distribution & Transmission",
+    "appr_docs": "Approved Documents",
     "general": "General", "index_htm": "General",
 }
 
