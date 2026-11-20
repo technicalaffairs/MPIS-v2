@@ -1,0 +1,667 @@
+{
+ "id": "gen-docs-switchgear-ils-001-r0-htm",
+ "doc_number": "ILS-001-R0",
+ "category": "switchgear",
+ "source_language": "en",
+ "target_language": "ar",
+ "title_target": "ILS-001-R0 معتمد",
+ "sections_target": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "محطات القوى",
+     "الإجراء الفني"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "توضح هذه الوثيقة فحص المعدة I1، الذي يجب تنفيذه سنويًا كما هو موضح بـ Y1 في خانة العنوان"
+  },
+  {
+   "type": "paragraph",
+   "text": "أعد المسودة الأولى م. Abd Allah Elsayed Mohamed، واختبرها م. Abdel Latif Ahmed، وراجعها م. Adel Abdel Qader El Nagar مهندس مراقبة الجودة في EDEPC، وقبلها م. El Sayed Attiah Abd El Maksood المدير العام، واعتمدها م. Fathy Mahmoud Ragb: رئيس قطاع محطة Talkha PS."
+  },
+  {
+   "type": "paragraph",
+   "text": "قبل هذه الوثيقة م. Samir Abd El Gilil؛ المدير العام للتفتيش ومراقبة الجودة في EDEPC ومنسق MPIS، وصدّق عليها المحاسب Mahmoud Soliman، المدير العام للتفتيش الإداري والمالي ومراقبة الجودة في EDEPC والمشرف على قطاع التفتيش ومراقبة الجودة."
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات السلامة"
+  },
+  {
+   "type": "paragraph",
+   "text": "يجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل فئة الأمن الصناعي المناسبة"
+  },
+  {
+   "type": "paragraph",
+   "text": "يلزم وجود سياج أمان مع علامات تحذير تحيط بمنطقة العمل"
+  },
+  {
+   "type": "paragraph",
+   "text": "ارتدِ مهمات الوقاية مثل خوذة السلامة وحذاء السلامة وحزام الأمان ... إلخ."
+  },
+  {
+   "type": "paragraph",
+   "text": "أوقف المعدة تحت الاختبار."
+  },
+  {
+   "type": "list",
+   "items": [
+    "يجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل فئة الأمن الصناعي المناسبة",
+    "يلزم وجود سياج أمان مع علامات تحذير تحيط بمنطقة العمل",
+    "ارتدِ مهمات الوقاية مثل خوذة السلامة وحذاء السلامة وحزام الأمان ... إلخ.",
+    "ارتدِ مهمات الوقاية مثل خوذة السلامة وحذاء السلامة وحزام الأمان ... إلخ.",
+    "أوقف المعدة تحت الاختبار."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العدد والأدوات"
+  },
+  {
+   "type": "list",
+   "items": [
+    "طقم عدد كامل من المفكات والمفاتيح العادية.",
+    "ملتيميتر رقمي."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العمل الواجب تنفيذه"
+  },
+  {
+   "type": "list",
+   "items": [
+    "اختبر نظام التعشيق وفقًا لمخطط المنطق المرفق."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "( K01 → K10 ) منطق التعشيق"
+  },
+  {
+   "type": "paragraph",
+   "text": "( K )"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "المعدة",
+     "الوضع",
+     "",
+     "الشروط",
+     "نتيجة الاختبار"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 ) x ( QL3 + QL3 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA1QE1 QE2 [ (QF x QL3 xQL2) + (K14QL1 x K14QF x K14QL2 x K14QLB x QL2 x QF x QL3) ] x (K14QLA + K14QLA)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB1QE1QE2 [ (QF QL3QL1) + ( K14QLB x K14QL1 x K14QF x K14QL2 x QL1 x QF x QL3 )] x (K14QLA + K14QLA)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 QL2 QL3",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2 QL3",
+     ""
+    ],
+    [
+     "QL3",
+     "O/C",
+     "IF",
+     "QF QE1 x QE2 QE3 ( QL1 + QL2)",
+     ""
+    ],
+    [
+     "QE3",
+     "O/C",
+     "IF",
+     "QL3 NO VOLTAGE",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "K 11"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "المعدة",
+     "الوضع",
+     "",
+     "الشروط",
+     "نتيجة الاختبار"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA1QE1 QE2 [ (QF x QL2) + (K14QL1 x K14QF x K14QL2 x K14QLB x QL2 x QF ) ] x ( K14QLA + K14QLA) +F04QE6 (220KV)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB1QE1 QE2 [ (QF x QL1) + (K14QLB x K14QL1 x K14QLF x K14QL2 x QL1 x QF ) ] x ( K14QLA + K14QLA) +F04QE6 (220KV)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 QL2 F04QL6 (220KV)",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2 F04QL6 (220KV)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "K 12"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "المعدة",
+     "الوضع",
+     "",
+     "الشروط",
+     "نتيجة الاختبار"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA1QE1 QE2 [ (QF x QL2) + (K14QL1 x K14QF x K14QL2 x K14QLB x QL2 x QF ) ] x ( K14QLA + K14QLA) +F04QE6 (220KV)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB1QE1 QE2 [ (QF x QL1) + (K14QLB x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLA + K14QLA) +F04QE6 (220KV)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 QL2 F05QL6 (220KV)",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2 F05QL6 (220KV)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "الموقع: تصريح العمل «رقم أمر الشغل»: بيان المعدة: القائم بالاختبار: تاريخ الاختبار: التوقيع:",
+     "مفتاح المنطق AND، QF: القاطع الكهربي + OR، QL: سكينة الفصل، QE: سكينة التأريض، O: ملف الفتح، C: ملف التوصيل، QL: الجهاز مفتوح، QL: الجهاز مغلق، O/C: ملف الفتح للتوصيل أو ملف التوصيل للفتح"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "K 13 (منطق التعشيق)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "المعدة",
+     "الوضع",
+     "",
+     "الشروط",
+     "نتيجة الاختبار"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA1QE1 QE2 [ (QF x QL2) + (K14QL1 x K14QF x K14QL2 x K14QLB x QL2 x QF ) ] x ( K14QLA + K14QLA) (تعشيقة جهة الجهد المنخفض)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB1QE1 QE2 [ (QF x QL1) + (K14QLB x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLA + K14QLA) (تعشيقة جهة الجهد المنخفض)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 QL2 (تعشيقة جهة الجهد المنخفض)",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2 (تعشيقة جهة الجهد المنخفض)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "K 14"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "المعدة",
+     "الوضع",
+     "",
+     "الشروط",
+     "نتيجة الاختبار"
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QF QE1x QE2 x QEA1 x QEA2"
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QF QE1x QE2 x QEB1 x QEB2",
+     ""
+    ],
+    [
+     "QLA",
+     "O/C",
+     "IF",
+     "QEA1 X QEA2 X (K01QL1 X K02QL1 X K03QL1 X K04QL1 X K05QL1X K06QL1 X K07QL1 X K08QL1 X K09QL1 X K10QL1 X K11QL1 X K12QL1X K13QL1) + (K15QL1 X K16QL1 X K17QL1 X K18QL1 X K19QL1 X K20QL1 X K21QL1 X K22QL1 X K23QL1 X K24QL1XK25QL1XK26QL1XK27QL1)"
+    ],
+    [
+     "QLB",
+     "O/C",
+     "IF",
+     "QEB1 X QEB2 X (K01QL2 X K02QL2X K03QL2 X K04QL2 X K05QL2X K06QL2X K07QL2 X K08QL2 X K09QL2XK10QL2XK11QL2XK12QL2X K13QL2) + (K15QL2 X K16QL2 X K17QL2 X K18QL2 X K19QL2X K20QL2 X K21QL2X K22QL2 X K23QL2X K24QL2XK25QL2XK26QL2XK27QL2)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 QL2",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2",
+     ""
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QF",
+     "فصل",
+     "IF",
+     "(K01QL1+ K01QL2) (K02QL1+K02QL2) (K03QL1+K03QL2) (K04QL1+ K04QL2) (K05QL1+K05QL2) (K06QL1+K06QL2) (K07QL1+K07QL2) (K08QL1+K08QL2) (K09QL1+K09QL2) (K10QL1+K10QL2) (K11QL1+K11QL2) (K12QL1+K12QL2) (K13QL1+K13QL2) (K14QL1+K14QL2) (K15QL1+K15QL2) (K16QL1+K16QL2) (K17QL1+K17QL2) (K18QL1+K18QL2) (K19QL1+K19QL2) (K20QL1+K20QL2) (K21QL1+K21QL2) (K22QL1+K22QL2) (K23QL1+K23QL2) (K24QL1+K24QL2) (K25QL1+K25QL2) (K26QL1+K26QL2) (K27QL1+K27QL2)",
+     ""
+    ],
+    [
+     "QEA1",
+     "C",
+     "IF",
+     "QLA QL1 K01QLA K02QL1 K03QL1 K04QL1 K05QL1 K06QL1 K07QL1 K08QL1 K09QL1 K10QL1 K11QL1 K12QL1 K13QL1",
+     ""
+    ],
+    [
+     "QEB1",
+     "O/C",
+     "IF",
+     "QLB K01QL2 K02QL2 K03QL2 K04QL2 K05QL2 K06QL2 K07QL2 K08QL2 K09QL2 K10QL2 K11QL2 K12QL2 K13QL2",
+     ""
+    ],
+    [
+     "QEA2",
+     "O/C",
+     "IF",
+     "QLA K15QL1 K16QL1 K17QL1 K18QL1 K19QL1 K20QL1 K21QL1 K22QL1 K23QL1 K24QL1 K25QL1 K26QL1 K27QL1",
+     ""
+    ],
+    [
+     "QEB2",
+     "O/C",
+     "IF",
+     "QLB QL2K15QL2 K16QL2 K17QL2 K18QL2 K19QL2 K20QL2 K21QL2 K22QL2 K23QL2 K24QL2 K25QL2 K26QL2 K27QL2",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "K 15"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "المعدة",
+     "الوضع",
+     "",
+     "الشروط",
+     "نتيجة الاختبار"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA2QE1X QE2 [ (QF x QL2) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL2 x QF ) ] x ( K14QLB+K14QLB) X (تعشيقة جهة الجهد المنخفض)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB2QE1 QE2 [ (QF x QL1) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLB + K14QLB) X (تعشيقة جهة الجهد المنخفض)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 QL2 (تعشيقة جهة الجهد المنخفض)",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2 (تعشيقة جهة الجهد المنخفض)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "K 16 (منطق التعشيق)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "المعدة",
+     "الوضع",
+     "",
+     "الشروط",
+     "نتيجة الاختبار"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA2QE1X QE2 [ (QF x QL2) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL2 x QF ) ] x ( K14QLB+K14QLB) X F07QE6 (220KV)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB2QE1 QE2 [ (QF x QL1) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLB + K14QLB) X F07QE6 (220KV)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 QL2 F07QL6 ( 220 KV )",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2 F07QL6 ( 220 KV )",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "K 17"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "المعدة",
+     "الوضع",
+     "",
+     "الشروط",
+     "نتيجة الاختبار"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA2QE1X QE2 [ (QF x QL2) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL2 x QF ) ] x ( K14QLB+K14QLB) X F08QE6 (220KV)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB2QE1 QE2 [ (QF x QL1) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLB + K14QLB) X F08QE6 (220KV)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 x QL2 F08QE6 ( 220 KV )",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2 F08QE6 ( 220 KV )",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "( K18 → K27 )"
+  },
+  {
+   "type": "paragraph",
+   "text": "( K )"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "المعدة",
+     "الوضع",
+     "",
+     "الشروط",
+     "نتيجة الاختبار"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 ) x ( QL3 + QL3 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA2QE1X QE2 [ (QF x QL3 x QL2) + (K14QLA x K14QL1 x _____ ______ ___- __ ___ ______ K14QF x K14QL2 x QL2 X QF x QL3) ] x ( K14QLB+K14QLB)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB2QE1X QE2 [ (QF x QL3 x QL1) + (K14QLA x K14QL1 x _____ ______ ___- __ ___ ______ K14QF x K14QL2 x QL1 X QF x QL3) ] x ( K14QLB+K14QLB)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 x QL2 QL3",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 x QL2 QL3",
+     ""
+    ],
+    [
+     "QL3",
+     "O/C",
+     "IF",
+     "QF QE1 QE2 QE3 x ( QL1 + QL2 )",
+     ""
+    ],
+    [
+     "QE3",
+     "O/C",
+     "IF",
+     "QL3 NO VOLTAGE",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text_target": "محطات القوى | الإجراء الفني\nمقدمة\nتوضح هذه الوثيقة فحص المعدة I1، الذي يجب تنفيذه سنويًا كما هو موضح بـ Y1 في خانة العنوان\nأعد المسودة الأولى م. Abd Allah Elsayed Mohamed، واختبرها م. Abdel Latif Ahmed، وراجعها م. Adel Abdel Qader El Nagar مهندس مراقبة الجودة في EDEPC، وقبلها م. El Sayed Attiah Abd El Maksood المدير العام، واعتمدها م. Fathy Mahmoud Ragb: رئيس قطاع محطة Talkha PS.\nقبل هذه الوثيقة م. Samir Abd El Gilil؛ المدير العام للتفتيش ومراقبة الجودة في EDEPC ومنسق MPIS، وصدّق عليها المحاسب Mahmoud Soliman، المدير العام للتفتيش الإداري والمالي ومراقبة الجودة في EDEPC والمشرف على قطاع التفتيش ومراقبة الجودة.\nاحتياطات السلامة\nيجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل فئة الأمن الصناعي المناسبة\nيلزم وجود سياج أمان مع علامات تحذير تحيط بمنطقة العمل\nارتدِ مهمات الوقاية مثل خوذة السلامة وحذاء السلامة وحزام الأمان ... إلخ.\nأوقف المعدة تحت الاختبار.\nيجب إصدار أمر شغل، ويجب أن يحمل طاقم الصيانة المؤهل فئة الأمن الصناعي المناسبة\nيلزم وجود سياج أمان مع علامات تحذير تحيط بمنطقة العمل\nارتدِ مهمات الوقاية مثل خوذة السلامة وحذاء السلامة وحزام الأمان ... إلخ.\nارتدِ مهمات الوقاية مثل خوذة السلامة وحذاء السلامة وحزام الأمان ... إلخ.\nأوقف المعدة تحت الاختبار.\nالعدد والأدوات\nطقم عدد كامل من المفكات والمفاتيح العادية.\nملتيميتر رقمي.\nالعمل الواجب تنفيذه\nاختبر نظام التعشيق وفقًا لمخطط المنطق المرفق.\n( K01 → K10 ) منطق التعشيق\n( K )\nالمعدة | الوضع |  | الشروط | نتيجة الاختبار\nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 ) x ( QL3 + QL3 ) | \nQL1 | O/C | IF | QEA1QE1 QE2 [ (QF x QL3 xQL2) + (K14QL1 x K14QF x K14QL2 x K14QLB x QL2 x QF x QL3) ] x (K14QLA + K14QLA) | \nQL2 | O/C | IF | QEB1QE1QE2 [ (QF QL3QL1) + ( K14QLB x K14QL1 x K14QF x K14QL2 x QL1 x QF x QL3 )] x (K14QLA + K14QLA) | \nQE1 | O/C | IF | QL1 QL2 QL3 | \nQE2 | O/C | IF | QL1 QL2 QL3 | \nQL3 | O/C | IF | QF QE1 x QE2 QE3 ( QL1 + QL2) | \nQE3 | O/C | IF | QL3 NO VOLTAGE | \nK 11\nالمعدة | الوضع |  | الشروط | نتيجة الاختبار\nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 ) | \nQL1 | O/C | IF | QEA1QE1 QE2 [ (QF x QL2) + (K14QL1 x K14QF x K14QL2 x K14QLB x QL2 x QF ) ] x ( K14QLA + K14QLA) +F04QE6 (220KV) | \nQL2 | O/C | IF | QEB1QE1 QE2 [ (QF x QL1) + (K14QLB x K14QL1 x K14QLF x K14QL2 x QL1 x QF ) ] x ( K14QLA + K14QLA) +F04QE6 (220KV) | \nQE1 | O/C | IF | QL1 QL2 F04QL6 (220KV) | \nQE2 | O/C | IF | QL1 QL2 F04QL6 (220KV) | \nK 12\nالمعدة | الوضع |  | الشروط | نتيجة الاختبار\nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 ) | \nQL1 | O/C | IF | QEA1QE1 QE2 [ (QF x QL2) + (K14QL1 x K14QF x K14QL2 x K14QLB x QL2 x QF ) ] x ( K14QLA + K14QLA) +F04QE6 (220KV) | \nQL2 | O/C | IF | QEB1QE1 QE2 [ (QF x QL1) + (K14QLB x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLA + K14QLA) +F04QE6 (220KV) | \nQE1 | O/C | IF | QL1 QL2 F05QL6 (220KV) | \nQE2 | O/C | IF | QL1 QL2 F05QL6 (220KV) | \nالموقع: تصريح العمل «رقم أمر الشغل»: بيان المعدة: القائم بالاختبار: تاريخ الاختبار: التوقيع: | مفتاح المنطق AND، QF: القاطع الكهربي + OR، QL: سكينة الفصل، QE: سكينة التأريض، O: ملف الفتح، C: ملف التوصيل، QL: الجهاز مفتوح، QL: الجهاز مغلق، O/C: ملف الفتح للتوصيل أو ملف التوصيل للفتح\nK 13 (منطق التعشيق)\nالمعدة | الوضع |  | الشروط | نتيجة الاختبار\nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 ) | \nQL1 | O/C | IF | QEA1QE1 QE2 [ (QF x QL2) + (K14QL1 x K14QF x K14QL2 x K14QLB x QL2 x QF ) ] x ( K14QLA + K14QLA) (تعشيقة جهة الجهد المنخفض) | \nQL2 | O/C | IF | QEB1QE1 QE2 [ (QF x QL1) + (K14QLB x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLA + K14QLA) (تعشيقة جهة الجهد المنخفض) | \nQE1 | O/C | IF | QL1 QL2 (تعشيقة جهة الجهد المنخفض) | \nQE2 | O/C | IF | QL1 QL2 (تعشيقة جهة الجهد المنخفض) | \nK 14\nالمعدة | الوضع |  | الشروط | نتيجة الاختبار\nQL1 | O/C | IF | QF QE1x QE2 x QEA1 x QEA2\nQL2 | O/C | IF | QF QE1x QE2 x QEB1 x QEB2 | \nQLA | O/C | IF | QEA1 X QEA2 X (K01QL1 X K02QL1 X K03QL1 X K04QL1 X K05QL1X K06QL1 X K07QL1 X K08QL1 X K09QL1 X K10QL1 X K11QL1 X K12QL1X K13QL1) + (K15QL1 X K16QL1 X K17QL1 X K18QL1 X K19QL1 X K20QL1 X K21QL1 X K22QL1 X K23QL1 X K24QL1XK25QL1XK26QL1XK27QL1)\nQLB | O/C | IF | QEB1 X QEB2 X (K01QL2 X K02QL2X K03QL2 X K04QL2 X K05QL2X K06QL2X K07QL2 X K08QL2 X K09QL2XK10QL2XK11QL2XK12QL2X K13QL2) + (K15QL2 X K16QL2 X K17QL2 X K18QL2 X K19QL2X K20QL2 X K21QL2X K22QL2 X K23QL2X K24QL2XK25QL2XK26QL2XK27QL2) | \nQE1 | O/C | IF | QL1 QL2 | \nQE2 | O/C | IF | QL1 QL2 | \nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 ) | \nQF | فصل | IF | (K01QL1+ K01QL2) (K02QL1+K02QL2) (K03QL1+K03QL2) (K04QL1+ K04QL2) (K05QL1+K05QL2) (K06QL1+K06QL2) (K07QL1+K07QL2) (K08QL1+K08QL2) (K09QL1+K09QL2) (K10QL1+K10QL2) (K11QL1+K11QL2) (K12QL1+K12QL2) (K13QL1+K13QL2) (K14QL1+K14QL2) (K15QL1+K15QL2) (K16QL1+K16QL2) (K17QL1+K17QL2) (K18QL1+K18QL2) (K19QL1+K19QL2) (K20QL1+K20QL2) (K21QL1+K21QL2) (K22QL1+K22QL2) (K23QL1+K23QL2) (K24QL1+K24QL2) (K25QL1+K25QL2) (K26QL1+K26QL2) (K27QL1+K27QL2) | \nQEA1 | C | IF | QLA QL1 K01QLA K02QL1 K03QL1 K04QL1 K05QL1 K06QL1 K07QL1 K08QL1 K09QL1 K10QL1 K11QL1 K12QL1 K13QL1 | \nQEB1 | O/C | IF | QLB K01QL2 K02QL2 K03QL2 K04QL2 K05QL2 K06QL2 K07QL2 K08QL2 K09QL2 K10QL2 K11QL2 K12QL2 K13QL2 | \nQEA2 | O/C | IF | QLA K15QL1 K16QL1 K17QL1 K18QL1 K19QL1 K20QL1 K21QL1 K22QL1 K23QL1 K24QL1 K25QL1 K26QL1 K27QL1 | \nQEB2 | O/C | IF | QLB QL2K15QL2 K16QL2 K17QL2 K18QL2 K19QL2 K20QL2 K21QL2 K22QL2 K23QL2 K24QL2 K25QL2 K26QL2 K27QL2 | \nK 15\nالمعدة | الوضع |  | الشروط | نتيجة الاختبار\nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 ) | \nQL1 | O/C | IF | QEA2QE1X QE2 [ (QF x QL2) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL2 x QF ) ] x ( K14QLB+K14QLB) X (تعشيقة جهة الجهد المنخفض) | \nQL2 | O/C | IF | QEB2QE1 QE2 [ (QF x QL1) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLB + K14QLB) X (تعشيقة جهة الجهد المنخفض) | \nQE1 | O/C | IF | QL1 QL2 (تعشيقة جهة الجهد المنخفض) | \nQE2 | O/C | IF | QL1 QL2 (تعشيقة جهة الجهد المنخفض) | \nK 16 (منطق التعشيق)\nالمعدة | الوضع |  | الشروط | نتيجة الاختبار\nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 ) | \nQL1 | O/C | IF | QEA2QE1X QE2 [ (QF x QL2) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL2 x QF ) ] x ( K14QLB+K14QLB) X F07QE6 (220KV) | \nQL2 | O/C | IF | QEB2QE1 QE2 [ (QF x QL1) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLB + K14QLB) X F07QE6 (220KV) | \nQE1 | O/C | IF | QL1 QL2 F07QL6 ( 220 KV ) | \nQE2 | O/C | IF | QL1 QL2 F07QL6 ( 220 KV ) | \nK 17\nالمعدة | الوضع |  | الشروط | نتيجة الاختبار\nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 ) | \nQL1 | O/C | IF | QEA2QE1X QE2 [ (QF x QL2) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL2 x QF ) ] x ( K14QLB+K14QLB) X F08QE6 (220KV) | \nQL2 | O/C | IF | QEB2QE1 QE2 [ (QF x QL1) + (K14QLA x K14QL1 x K14QF x K14QL2 x QL1 x QF ) ] x ( K14QLB + K14QLB) X F08QE6 (220KV) | \nQE1 | O/C | IF | QL1 x QL2 F08QE6 ( 220 KV ) | \nQE2 | O/C | IF | QL1 QL2 F08QE6 ( 220 KV ) | \n( K18 → K27 )\n( K )\nالمعدة | الوضع |  | الشروط | نتيجة الاختبار\nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 ) x ( QL3 + QL3 ) | \nQL1 | O/C | IF | QEA2QE1X QE2 [ (QF x QL3 x QL2) + (K14QLA x K14QL1 x _____ ______ ___- __ ___ ______ K14QF x K14QL2 x QL2 X QF x QL3) ] x ( K14QLB+K14QLB) | \nQL2 | O/C | IF | QEB2QE1X QE2 [ (QF x QL3 x QL1) + (K14QLA x K14QL1 x _____ ______ ___- __ ___ ______ K14QF x K14QL2 x QL1 X QF x QL3) ] x ( K14QLB+K14QLB) | \nQE1 | O/C | IF | QL1 x QL2 QL3 | \nQE2 | O/C | IF | QL1 x QL2 QL3 | \nQL3 | O/C | IF | QF QE1 QE2 QE3 x ( QL1 + QL2 ) | \nQE3 | O/C | IF | QL3 NO VOLTAGE | ",
+ "word_count_source": 1669,
+ "uncertain_terms": [
+  {
+   "term": "QL Apparatus Open / QL Apparatus Close",
+   "note": "تسميات مفاتيح منطقية في المصدر؛ تُرجمت حرفيًا.",
+   "context": "Power Station | Technical Procedure Introduction This document outlines the equipment inspection I1, which must be perfo"
+  },
+  {
+   "term": "maintanance",
+   "note": "خطأ مطبعي في المصدر؛ المقصود maintenance (صيانة).",
+   "context": "Power Station | Technical Procedure Introduction This document outlines the equipment inspection I1, which must be perfo"
+  },
+  {
+   "term": "Safty",
+   "note": "خطأ مطبعي في المصدر؛ المقصود Safety.",
+   "context": "Power Station | Technical Procedure Introduction This document outlines the equipment inspection I1, which must be perfo"
+  }
+ ]
+}
