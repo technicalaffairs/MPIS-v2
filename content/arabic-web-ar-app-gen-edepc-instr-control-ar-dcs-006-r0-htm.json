@@ -1,0 +1,211 @@
+{
+ "id": "arabic-web-ar-app-gen-edepc-instr-control-ar-dcs-006-r0-htm",
+ "doc_number": "DCS-006-R0",
+ "title_en": "",
+ "title_ar": "dcs-006-r0 \nAPPROVED",
+ "category": "instruments",
+ "source_path": "arabic_web/Ar_app_gen/EDEPC/Instr+control/Ar_dcs-006-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "القوة \n المحطة"
+  },
+  {
+   "type": "paragraph",
+   "text": "التقنية \n الإجراء"
+  },
+  {
+   "type": "paragraph",
+   "text": "معدات:Distributing \n Cabinets System Cabinets:"
+  },
+  {
+   "type": "paragraph",
+   "text": "1cjj01, 1cjj03, 1cjj21,\n 1cjj31, 1cjj41, 1cjj81, \n 1 cjj82 for Turbine Control\n TXP\n Siemens, Germany"
+  },
+  {
+   "type": "paragraph",
+   "text": "رقم الوثيقة: DCS-006-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "صدرت إلى: \n أيون موسى PS"
+  },
+  {
+   "type": "paragraph",
+   "text": "حالة: \n موافقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "إجراء:Card Testing \n Procedures (P1 - D1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "موافقة Date: 20 June 2004"
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \noutlines the routine testing procedures I1 , which must performed on a daily bases as \nindicated by D1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "These cabinets contains the following type of cards: FUM (Function \nModule)"
+  },
+  {
+   "type": "paragraph",
+   "text": "فوم 210"
+  },
+  {
+   "type": "paragraph",
+   "text": "FUM 230"
+  },
+  {
+   "type": "paragraph",
+   "text": "فوم 232"
+  },
+  {
+   "type": "paragraph",
+   "text": "FUM 280"
+  },
+  {
+   "type": "paragraph",
+   "text": "FUM 511"
+  },
+  {
+   "type": "paragraph",
+   "text": "FUM 531"
+  },
+  {
+   "type": "list",
+   "items": [
+    "فوم 210",
+    "FUM 230",
+    "فوم 232",
+    "FUM 280",
+    "FUM 511",
+    "FUM 531"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng: Gad El Mawla \nM. Abdel Rahman, \nreviewed by eng Mahmoud Ahmed Mahmoud, field tested by Hany Sobhie at 10 \nOctober 2003, revised by EDEPC quality control \neng: Abd El Monaem Al \nEmam, accepted by general director eng: Tarek Youssf, \napproved by eng: Mekhaael Gorge Habashi Sector inspector of Ayoun Moussa Power \nStation, and certified by eng. Aly Mostafa Allethy: EDEPCo. Head Sector of \nInspection and quality control"
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات السلامة"
+  },
+  {
+   "type": "paragraph",
+   "text": "يجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence \nwith caution marks surrounding the work area is required is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear Anti static hand probe to avoid electrical \n choke"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit must be shutdown."
+  },
+  {
+   "type": "list",
+   "items": [
+    "يجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,",
+    "Safety fence \nwith caution marks surrounding the work area is required is required.",
+    "Wear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc",
+    "Wear Anti static hand probe to avoid electrical \n choke",
+    "Unit must be shutdown."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الأدوات والمعدات"
+  },
+  {
+   "type": "paragraph",
+   "text": "Digital multi-meter"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Digital multi-meter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Hand held radio wave for communication"
+  },
+  {
+   "type": "paragraph",
+   "text": "Screw driver kit"
+  },
+  {
+   "type": "paragraph",
+   "text": "مكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار"
+  },
+  {
+   "type": "paragraph",
+   "text": "العمل المراد تنفيذه"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the fixed alarm at control \n room by I&C engineer or by maintenance request from operation department."
+  },
+  {
+   "type": "paragraph",
+   "text": "By DCS system information I&C engineer can define the king of problem and \n which cabinet and which FUM card has the problem"
+  },
+  {
+   "type": "paragraph",
+   "text": "Each FUM card \nhas an indication lamp OFF at normal operation."
+  },
+  {
+   "type": "paragraph",
+   "text": "If the indication lamp of FUM card flash light this means the problem in the \n field then check the field devices (switches, transmitters, RTD, thermometers \n ... etc)"
+  },
+  {
+   "type": "paragraph",
+   "text": "If the indication lamp of FUM card fixed light this means the problem in FUM \n module itself then change the FUM card"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the fixed alarm at control \n room by I&C engineer or by maintenance request from operation department.",
+    "By DCS system information I&C engineer can define the king of problem and \n which cabinet and which FUM card has the problem",
+    "Each FUM card \nhas an indication lamp OFF at normal operation.",
+    "If the indication lamp of FUM card flash light this means the problem in the \n field then check the field devices (switches, transmitters, RTD, thermometers \n ... etc)",
+    "If the indication lamp of FUM card fixed light this means the problem in FUM \n module itself then change the FUM card"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Card \nDesignation: اختبار \nالتاريخ: \nتم اختباره \nبواسطة: \nالتوقيع:"
+  }
+ ],
+ "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:Distributing \n Cabinets System Cabinets:\n1cjj01, 1cjj03, 1cjj21,\n 1cjj31, 1cjj41, 1cjj81, \n 1 cjj82 for Turbine Control\n TXP\n Siemens, Germany\nرقم الوثيقة: DCS-006-r0\nصدرت إلى: \n أيون موسى PS\nحالة: \n موافقة\nإجراء:Card Testing \n Procedures (P1 - D1)\nموافقة Date: 20 June 2004\nمقدمة\nThis document \noutlines the routine testing procedures I1 , which must performed on a daily bases as \nindicated by D1 in the title block.\nThese cabinets contains the following type of cards: FUM (Function \nModule)\nفوم 210\nFUM 230\nفوم 232\nFUM 280\nFUM 511\nFUM 531\nفوم 210\nFUM 230\nفوم 232\nFUM 280\nFUM 511\nFUM 531\nThe first draft initiated by eng: Gad El Mawla \nM. Abdel Rahman, \nreviewed by eng Mahmoud Ahmed Mahmoud, field tested by Hany Sobhie at 10 \nOctober 2003, revised by EDEPC quality control \neng: Abd El Monaem Al \nEmam, accepted by general director eng: Tarek Youssf, \napproved by eng: Mekhaael Gorge Habashi Sector inspector of Ayoun Moussa Power \nStation, and certified by eng. Aly Mostafa Allethy: EDEPCo. Head Sector of \nInspection and quality control\nاحتياطات السلامة\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \nwith caution marks surrounding the work area is required is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nWear Anti static hand probe to avoid electrical \n choke\nUnit must be shutdown.\nيجب إصدار تصريح العمل، \nthe qualified maintenance staff should\n carry the suitable safety category,\nSafety fence \nwith caution marks surrounding the work area is required is required.\nWear your safety helmet, \n safety shoes, eye glass, nose mouth \"dust cover\" .... etc\nWear Anti static hand probe to avoid electrical \n choke\nUnit must be shutdown.\nالأدوات والمعدات\nDigital multi-meter\nDigital multi-meter\nHand held radio wave for communication\nScrew driver kit\nمكنسة كهربائية مضادة للكهرباء الساكنة لتنظيف الغبار\nالعمل المراد تنفيذه\nCheck the fixed alarm at control \n room by I&C engineer or by maintenance request from operation department.\nBy DCS system information I&C engineer can define the king of problem and \n which cabinet and which FUM card has the problem\nEach FUM card \nhas an indication lamp OFF at normal operation.\nIf the indication lamp of FUM card flash light this means the problem in the \n field then check the field devices (switches, transmitters, RTD, thermometers \n ... etc)\nIf the indication lamp of FUM card fixed light this means the problem in FUM \n module itself then change the FUM card\nCheck the fixed alarm at control \n room by I&C engineer or by maintenance request from operation department.\nBy DCS system information I&C engineer can define the king of problem and \n which cabinet and which FUM card has the problem\nEach FUM card \nhas an indication lamp OFF at normal operation.\nIf the indication lamp of FUM card flash light this means the problem in the \n field then check the field devices (switches, transmitters, RTD, thermometers \n ... etc)\nIf the indication lamp of FUM card fixed light this means the problem in FUM \n module itself then change the FUM card\nLocation: Card \nDesignation: اختبار \nالتاريخ: \nتم اختباره \nبواسطة: \nالتوقيع:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

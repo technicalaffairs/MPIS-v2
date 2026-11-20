@@ -1,0 +1,283 @@
+{
+ "id": "arabic-web-ar-app-gen-edepc-instr-control-ar-dcs-015-r0-htm",
+ "doc_number": "DCS-015-R0",
+ "title_en": "",
+ "title_ar": "dcs-015-r0 \nAPPROVED",
+ "category": "instruments",
+ "source_path": "arabic_web/Ar_app_gen/EDEPC/Instr+control/Ar_dcs-015-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "القوة \n المحطة"
+  },
+  {
+   "type": "paragraph",
+   "text": "التقنية \n الإجراء"
+  },
+  {
+   "type": "paragraph",
+   "text": "معدات:\nDistributed Control System (DPU)\n MSQ, MSE, MME, MHC, QAW, QAV, QRT, \n QAO, QCI, QRO, QBE Cards, \nWestinghouse"
+  },
+  {
+   "type": "paragraph",
+   "text": "رقم الوثيقة: DCS-015-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "صدرت إلى:\n دمياط CCPS"
+  },
+  {
+   "type": "paragraph",
+   "text": "حالة: \n موافقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "إجراء:Testing \n Procedures (P1-Y1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "موافقة تاريخ: \n 16 Feb 2005"
+  },
+  {
+   "type": "paragraph",
+   "text": "تاريخ المراد مراجعتها: \n Feb 2010"
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the \ntesting procedure P1, which must performed on an annually bases as indicted by \nY1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated \nby eng. Mohamed Abu Elkheir, reviewed by eng. Aly Abd Elglil Abd Elqader, tested by eng.\nMohamed Younes at 10 Jan 2005, revised by EDEPC quality control eng. Abd \nElmenem Alemam, accepted by general director eng. Adel Alkelany, and approved by \neng. Mohamed Hamouda Elsarage Head Sector of Damietta CCPS."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document is certified by eng. Samir \n Abd El Gilil EDEPC MPIS coordinator, and certified by accountant; \nMahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control قطاع الرأس."
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "The Distributed Processing \nUnit (DPU) \nconsist of:"
+  },
+  {
+   "type": "paragraph",
+   "text": "MSQ \ncard, controller card, Part # (7381A29G05)"
+  },
+  {
+   "type": "paragraph",
+   "text": "MSE card,\nmemory \nالبطاقة، الجزء رقم (7381A83G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "MME card, memory \ncard, Part # (7381A34G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "MHC \ncard, data high way controller card, Part # (7381A93G01)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QAW \ncard, analog input card, (4-20mA), Part # (7379A31G04)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QAV \ncard, analog input card, (-50,+50mV), Part # (7379A21G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QRT \ncard, analog input card, (0-33mV), Part # (7379A62G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QAO \ncard, analog output card, (4-20mA), Part # (2840A21G01)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QCI \ncard, digital input card, Part # (7379A08G02)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QRO \ncard, digital output card, Part # (2840A18G01)"
+  },
+  {
+   "type": "paragraph",
+   "text": "QBE \ncard, bus extender card, Part # (7379A84G01)"
+  },
+  {
+   "type": "paragraph",
+   "text": "مصدر طاقة متعدد الحافلات، دخل 220 فولت تيار متردد، خرج: + 12VDC, + 5VDC, PART # (1D5482G06)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Q-Line\nمصدر الطاقة، الإدخال 220 فولت تيار متردد، الإخراج: + 13VDC, PART # (405A662G02)."
+  },
+  {
+   "type": "paragraph",
+   "text": "8 cooling fan, 230 VAC, 14 watt, Part # \n(2450D25G03)."
+  },
+  {
+   "type": "paragraph",
+   "text": "24 VDC transmitter\npower supply."
+  },
+  {
+   "type": "paragraph",
+   "text": "The cabinets receive the signals from sensors at the field (unit) then change it \nto ma and mv signals proportion with the actual values at field, then transmit \nit to displayed at monitors to process it according to the operation \ncircumstances."
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات السلامة"
+  },
+  {
+   "type": "paragraph",
+   "text": "com.endifيجب إصدار تصريح العمل و qualified maintenance staff should carry the suitable safety category"
+  },
+  {
+   "type": "paragraph",
+   "text": "مطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل."
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear appropriate \n personal protective safety equipment as safety shoes\n and helmet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant."
+  },
+  {
+   "type": "list",
+   "items": [
+    "com.endifيجب إصدار تصريح العمل و qualified maintenance staff should carry the suitable safety category",
+    "مطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل.",
+    "Wear appropriate \n personal protective safety equipment as safety shoes\n and helmet",
+    "Disconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant.",
+    "Disconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant.",
+    "Disconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الأدوات والمعدات"
+  },
+  {
+   "type": "paragraph",
+   "text": "Screw \n driver, nut driver, air blower."
+  },
+  {
+   "type": "paragraph",
+   "text": "Spray video \n cleaner."
+  },
+  {
+   "type": "paragraph",
+   "text": "Ground \n strap."
+  },
+  {
+   "type": "paragraph",
+   "text": "Card \n extractor."
+  },
+  {
+   "type": "paragraph",
+   "text": "Digital \n voltmeter (DVM)."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Screw \n driver, nut driver, air blower.",
+    "Spray video \n cleaner.",
+    "Ground \n strap.",
+    "Card \n extractor.",
+    "Digital \n voltmeter (DVM)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العمل المراد تنفيذه"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the back up software for the cabinet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the operation of net work card function \n (data highway controller card (MHC card) by using (system highway errors) \n diagram."
+  },
+  {
+   "type": "paragraph",
+   "text": "Clean all cabinet cards from dust by blower."
+  },
+  {
+   "type": "paragraph",
+   "text": "التحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the multibus power supply of primary \n controller (+ 12V DC , 5V DC) ."
+  },
+  {
+   "type": "paragraph",
+   "text": "تحقق من مصدر طاقة جهاز الإرسال (24 فولت تيار مستمر) \n الحالة بواسطة مصابيح LED الموجودة في مقدمة P.S."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check Q-line power supply (13V DC) status by \n using system status display diagram."
+  },
+  {
+   "type": "paragraph",
+   "text": "تحقق من تشغيل مروحة تبريد الخزانة."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the multibus power supply of Secondary \n controller (+12V DC , 5V DC) ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check both of primary and backup Controller \n data base by using configuration diagram on the operator station."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the back up software for the cabinet.",
+    "Check the operation of net work card function \n (data highway controller card (MHC card) by using (system highway errors) \n diagram.",
+    "Clean all cabinet cards from dust by blower.",
+    "التحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.",
+    "Check the multibus power supply of primary \n controller (+ 12V DC , 5V DC) .",
+    "تحقق من مصدر طاقة جهاز الإرسال (24 فولت تيار مستمر) \n الحالة بواسطة مصابيح LED الموجودة في مقدمة P.S.",
+    "Check Q-line power supply (13V DC) status by \n using system status display diagram.",
+    "تحقق من تشغيل مروحة تبريد الخزانة.",
+    "Check the multibus power supply of Secondary \n controller (+12V DC , 5V DC) .",
+    "Check both of primary and backup Controller \n data base by using configuration diagram on the operator station."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nDCS \nDesignation: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:"
+  }
+ ],
+ "text": "القوة \n المحطة\nالتقنية \n الإجراء\nمعدات:\nDistributed Control System (DPU)\n MSQ, MSE, MME, MHC, QAW, QAV, QRT, \n QAO, QCI, QRO, QBE Cards, \nWestinghouse\nرقم الوثيقة: DCS-015-r0\nصدرت إلى:\n دمياط CCPS\nحالة: \n موافقة\nإجراء:Testing \n Procedures (P1-Y1)\nموافقة تاريخ: \n 16 Feb 2005\nتاريخ المراد مراجعتها: \n Feb 2010\nمقدمة\nThis document outlines the \ntesting procedure P1, which must performed on an annually bases as indicted by \nY1 in the title block.\nThe first draft initiated \nby eng. Mohamed Abu Elkheir, reviewed by eng. Aly Abd Elglil Abd Elqader, tested by eng.\nMohamed Younes at 10 Jan 2005, revised by EDEPC quality control eng. Abd \nElmenem Alemam, accepted by general director eng. Adel Alkelany, and approved by \neng. Mohamed Hamouda Elsarage Head Sector of Damietta CCPS.\nThis document is certified by eng. Samir \n Abd El Gilil EDEPC MPIS coordinator, and certified by accountant; \nMahmoud \n Mohamed Soliman;\n EDEPC admin and financial inspection, quality control General Director and supervisor of inspection and quality control قطاع الرأس.\nThe Distributed Processing \nUnit (DPU) \nconsist of:\nMSQ \ncard, controller card, Part # (7381A29G05)\nMSE card,\nmemory \nالبطاقة، الجزء رقم (7381A83G02)\nMME card, memory \ncard, Part # (7381A34G02)\nMHC \ncard, data high way controller card, Part # (7381A93G01)\nQAW \ncard, analog input card, (4-20mA), Part # (7379A31G04)\nQAV \ncard, analog input card, (-50,+50mV), Part # (7379A21G02)\nQRT \ncard, analog input card, (0-33mV), Part # (7379A62G02)\nQAO \ncard, analog output card, (4-20mA), Part # (2840A21G01)\nQCI \ncard, digital input card, Part # (7379A08G02)\nQRO \ncard, digital output card, Part # (2840A18G01)\nQBE \ncard, bus extender card, Part # (7379A84G01)\nمصدر طاقة متعدد الحافلات، دخل 220 فولت تيار متردد، خرج: + 12VDC, + 5VDC, PART # (1D5482G06).\nQ-Line\nمصدر الطاقة، الإدخال 220 فولت تيار متردد، الإخراج: + 13VDC, PART # (405A662G02).\n8 cooling fan, 230 VAC, 14 watt, Part # \n(2450D25G03).\n24 VDC transmitter\npower supply.\nThe cabinets receive the signals from sensors at the field (unit) then change it \nto ma and mv signals proportion with the actual values at field, then transmit \nit to displayed at monitors to process it according to the operation \ncircumstances.\nاحتياطات السلامة\ncom.endifيجب إصدار تصريح العمل و qualified maintenance staff should carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل.\nWear appropriate \n personal protective safety equipment as safety shoes\n and helmet\nDisconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant.\nDisconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant.\nDisconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant.\ncom.endifيجب إصدار تصريح العمل و qualified maintenance staff should carry the suitable safety category\nمطلوب سياج أمان مع علامات تحذيرية تحيط بمنطقة العمل.\nWear appropriate \n personal protective safety equipment as safety shoes\n and helmet\nDisconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant.\nDisconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant.\nDisconnect the cabinet from data highway if required according to station \n status without any effect on operation of plant.\nالأدوات والمعدات\nScrew \n driver, nut driver, air blower.\nSpray video \n cleaner.\nGround \n strap.\nCard \n extractor.\nDigital \n voltmeter (DVM).\nScrew \n driver, nut driver, air blower.\nSpray video \n cleaner.\nGround \n strap.\nCard \n extractor.\nDigital \n voltmeter (DVM).\nالعمل المراد تنفيذه\nCheck the back up software for the cabinet.\nCheck the operation of net work card function \n (data highway controller card (MHC card) by using (system highway errors) \n diagram.\nClean all cabinet cards from dust by blower.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nCheck the multibus power supply of primary \n controller (+ 12V DC , 5V DC) .\nتحقق من مصدر طاقة جهاز الإرسال (24 فولت تيار مستمر) \n الحالة بواسطة مصابيح LED الموجودة في مقدمة P.S.\nCheck Q-line power supply (13V DC) status by \n using system status display diagram.\nتحقق من تشغيل مروحة تبريد الخزانة.\nCheck the multibus power supply of Secondary \n controller (+12V DC , 5V DC) .\nCheck both of primary and backup Controller \n data base by using configuration diagram on the operator station.\nCheck the back up software for the cabinet.\nCheck the operation of net work card function \n (data highway controller card (MHC card) by using (system highway errors) \n diagram.\nClean all cabinet cards from dust by blower.\nالتحقق من حالة الخزانة باستخدام (system \n عرض الحالة) الرسم البياني.\nCheck the multibus power supply of primary \n controller (+ 12V DC , 5V DC) .\nتحقق من مصدر طاقة جهاز الإرسال (24 فولت تيار مستمر) \n الحالة بواسطة مصابيح LED الموجودة في مقدمة P.S.\nCheck Q-line power supply (13V DC) status by \n using system status display diagram.\nتحقق من تشغيل مروحة تبريد الخزانة.\nCheck the multibus power supply of Secondary \n controller (+12V DC , 5V DC) .\nCheck both of primary and backup Controller \n data base by using configuration diagram on the operator station.\nLocation: \nDCS \nDesignation: تم الاختبار بواسطة: التوقيع: \nتاريخ الاختبار:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

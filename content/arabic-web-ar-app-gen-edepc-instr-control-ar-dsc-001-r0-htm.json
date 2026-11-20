@@ -1,0 +1,2456 @@
+{
+ "id": "arabic-web-ar-app-gen-edepc-instr-control-ar-dsc-001-r0-htm",
+ "doc_number": "DSC-001-R0",
+ "title_en": "",
+ "title_ar": "DSC-001-r0 \nAPPROVED",
+ "category": "instruments",
+ "source_path": "arabic_web/Ar_app_gen/EDEPC/Instr+control/Ar_DSC-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "محطات الطاقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "الإجراء الفني"
+  },
+  {
+   "type": "paragraph",
+   "text": "معدات:\nDiamo System Cards"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration Signals of Diamo (S) , (K)"
+  },
+  {
+   "type": "paragraph",
+   "text": "SKODA PLZEN"
+  },
+  {
+   "type": "paragraph",
+   "text": "وثيقة\n لا: \n DSC-001-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "صدرت إلى: \n Talkha 2x210MW"
+  },
+  {
+   "type": "paragraph",
+   "text": "حالة: \n موافقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "إجراء:\n Testing Procedures (P1-M6)"
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمة"
+  },
+  {
+   "type": "heading",
+   "level": 5,
+   "text": "This document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the title block to \nre-calibrate cards of Diamo (S) & (K), to \nensure the limits of alarm and trip for \nall signals."
+  },
+  {
+   "type": "heading",
+   "level": 5,
+   "text": "The first draft initiated by eng. Ramadan Helmy, tested at 04 \nMay 2003, revised by quality control eng. Abdl Menem Al Emam at EDEPCo., \naccepted by: eng. Aly Abd Elwhab, and approved by eng. Awad Mohamed Fathy - Head \nSector of talkha power station"
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات السلامة"
+  },
+  {
+   "type": "paragraph",
+   "text": "يجب إصدار تصريح العمل و \n يجب أن يحمل موظفو الصيانة المؤهلون فئة السلامة المناسبة."
+  },
+  {
+   "type": "paragraph",
+   "text": "سياج أمان (حبل) مع علامات التحذير \nالمحيطة بمنطقة العمل."
+  },
+  {
+   "type": "paragraph",
+   "text": "ارتدِ خوذة الأمان والأحذية وما إلى ذلك."
+  },
+  {
+   "type": "list",
+   "items": [
+    "يجب إصدار تصريح العمل و \n يجب أن يحمل موظفو الصيانة المؤهلون فئة السلامة المناسبة.",
+    "سياج أمان (حبل) مع علامات التحذير \nالمحيطة بمنطقة العمل.",
+    "ارتدِ خوذة الأمان والأحذية وما إلى ذلك."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "يجب أن تكون التوربينات خارج الخدمة."
+  },
+  {
+   "type": "paragraph",
+   "text": "الأدوات والمعدات"
+  },
+  {
+   "type": "paragraph",
+   "text": "Personal computer type ( covtura 3/20 ) \n loaded with diamo (S) software"
+  },
+  {
+   "type": "paragraph",
+   "text": "Screw driver"
+  },
+  {
+   "type": "paragraph",
+   "text": "Special wire connection"
+  },
+  {
+   "type": "paragraph",
+   "text": "m.A Source \n Type Siemens Calibrator O5 - \n NH2011"
+  },
+  {
+   "type": "paragraph",
+   "text": "Indication lamp ( 24v ) for control room ."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Personal computer type ( covtura 3/20 ) \n loaded with diamo (S) software",
+    "Screw driver",
+    "Special wire connection",
+    "m.A Source \n Type Siemens Calibrator O5 - \n NH2011",
+    "Indication lamp ( 24v ) for control room ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العمل المراد تنفيذه"
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the inlet signals of cable which need calibrated by removing the \n cabinet sockets and put the socket of m.A source."
+  },
+  {
+   "type": "paragraph",
+   "text": "قم بتوصيل الكابل الخاص بالكمبيوتر ببطاقة (بطاقات) المعالج الموجودة بالداخل \n مجلس الوزراء"
+  },
+  {
+   "type": "paragraph",
+   "text": "We make soft wear copy of the testing system form computer archive and open \n the page which we need."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject inlet mA signal through the socket and check the reading limitation \n according to the specification sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase mA until alarm lamp light on comparator card ( k752 ), control room, \n Information system and the computer ( diamo s )"
+  },
+  {
+   "type": "paragraph",
+   "text": "If the reading signal is the same ( diamo s , diamo k , control room and \n information system ) , the system is ok ."
+  },
+  {
+   "type": "paragraph",
+   "text": "If any reading of signal not ok make adjustment for comparator as mansion in \n calibration sheet ."
+  },
+  {
+   "type": "paragraph",
+   "text": "If the comparator of ( diamo s ) not generate desired signal then make new \n copy of soft ware from stored archive of computer to the card (S35) .and \n check again the test, if the test ok then the test complete."
+  },
+  {
+   "type": "paragraph",
+   "text": "if the test not successful then change the card (s 35) and make again copy and \n check again."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect the inlet signals of cable which need calibrated by removing the \n cabinet sockets and put the socket of m.A source.",
+    "قم بتوصيل الكابل الخاص بالكمبيوتر ببطاقة (بطاقات) المعالج الموجودة بالداخل \n مجلس الوزراء",
+    "We make soft wear copy of the testing system form computer archive and open \n the page which we need.",
+    "Inject inlet mA signal through the socket and check the reading limitation \n according to the specification sheet",
+    "Increase mA until alarm lamp light on comparator card ( k752 ), control room, \n Information system and the computer ( diamo s )",
+    "If the reading signal is the same ( diamo s , diamo k , control room and \n information system ) , the system is ok .",
+    "If any reading of signal not ok make adjustment for comparator as mansion in \n calibration sheet .",
+    "If the comparator of ( diamo s ) not generate desired signal then make new \n copy of soft ware from stored archive of computer to the card (S35) .and \n check again the test, if the test ok then the test complete.",
+    "if the test not successful then change the card (s 35) and make again copy and \n check again."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return system in service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the socket of mA source."
+  },
+  {
+   "type": "paragraph",
+   "text": "Put the socket of signal in its position."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make rest of system."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the socket of mA source.",
+    "Put the socket of signal in its position.",
+    "Make rest of system."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الموقع: \nالرقم التسلسلي للمروحة :"
+  },
+  {
+   "type": "paragraph",
+   "text": "تم الفحص \nبواسطة: \nالتوقيع: التاريخ:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer Setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Cable No."
+  },
+  {
+   "type": "paragraph",
+   "text": "Pin No."
+  },
+  {
+   "type": "paragraph",
+   "text": "CIRCUIT NAME"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE"
+  },
+  {
+   "type": "paragraph",
+   "text": "LIMIT ADGUST"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL VALUE (mA)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Before Adjust"
+  },
+  {
+   "type": "paragraph",
+   "text": "After Adjust"
+  },
+  {
+   "type": "paragraph",
+   "text": "المقارنة"
+  },
+  {
+   "type": "paragraph",
+   "text": "A10 -"
+  },
+  {
+   "type": "paragraph",
+   "text": "A9 \n +"
+  },
+  {
+   "type": "paragraph",
+   "text": "A8"
+  },
+  {
+   "type": "paragraph",
+   "text": "A7 +"
+  },
+  {
+   "type": "paragraph",
+   "text": "A6"
+  },
+  {
+   "type": "paragraph",
+   "text": "A5 +"
+  },
+  {
+   "type": "paragraph",
+   "text": "A4"
+  },
+  {
+   "type": "paragraph",
+   "text": "A3 +"
+  },
+  {
+   "type": "paragraph",
+   "text": "A2"
+  },
+  {
+   "type": "paragraph",
+   "text": "A1 +"
+  },
+  {
+   "type": "paragraph",
+   "text": "B8"
+  },
+  {
+   "type": "paragraph",
+   "text": "B7 +"
+  },
+  {
+   "type": "paragraph",
+   "text": "B6"
+  },
+  {
+   "type": "paragraph",
+   "text": "B5 +"
+  },
+  {
+   "type": "paragraph",
+   "text": "B4"
+  },
+  {
+   "type": "paragraph",
+   "text": "B3 +"
+  },
+  {
+   "type": "paragraph",
+   "text": "B2"
+  },
+  {
+   "type": "paragraph",
+   "text": "B1 +"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (1): Signals of Diamo K &S for FG01 (HC01) \nlung. air heaters ."
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE (4-20mA)"
+  },
+  {
+   "type": "paragraph",
+   "text": "LIMIT"
+  },
+  {
+   "type": "paragraph",
+   "text": "NW01 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2>55 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H3>60ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "12.87 mA"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.69 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NH20 T202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1>80ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2>100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "12.6 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.7 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NH20 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1>80ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2>100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "12.6 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.7 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NH10 T202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1>80ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2>100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "12.6 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.7 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NH10 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1>80ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2>100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "12.6 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.7 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NR20 T206"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-400ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L2<100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "8 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NR20 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-400ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1<150ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L2<100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "9.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "8 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NR20 T202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-400ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1<150ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L2<100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "9.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "8 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "جدول (2): إشارات Diamo K&S لـ FG05 (HC02) \nمروحة غاز المداخن أ"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE\n (4-20mA)"
+  },
+  {
+   "type": "paragraph",
+   "text": "LIMIT"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 F201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-200 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1 12.5m^3"
+  },
+  {
+   "type": "paragraph",
+   "text": "5 mA"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 T204"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=8 ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=90 ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 T203"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=80 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 T202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح280 ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=80 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NW10 T202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=40 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=50 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "10.5 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "11.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NW10 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=30 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=20 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "8.8 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "7.2 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "جدول (3): إشارات Diamo K&S لـ (FG05) (HC02) \nإعادة تعميم. مروحة غاز المداخن أ (NS10)"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE"
+  },
+  {
+   "type": "paragraph",
+   "text": "SETTING"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/P SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 T204"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=80ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=90ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3m A"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9 mA"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 T2203"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=80ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=90ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 T202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=70ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=80ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "//"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=70ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=80ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS10 T202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=40ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=50ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "10.5 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "11.9 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "NW10 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=30 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=20 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "8.8 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "7.2 //"
+  },
+  {
+   "type": "paragraph",
+   "text": "جدول (4): إشارات Diamo K&S لـ (FG06)(HC03) \nإعادة تعميم. مروحة غاز المداخن ب.(NS20)"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE"
+  },
+  {
+   "type": "paragraph",
+   "text": "SETTING"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/P SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS20 F201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-200m^3 /H"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=12-5m^3"
+  },
+  {
+   "type": "paragraph",
+   "text": "5m A"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS20 T204"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=80ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=90ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS20 T203"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=80 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS20 T02"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=80 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS20 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=80 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.3"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.9"
+  },
+  {
+   "type": "paragraph",
+   "text": "NW20 T202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=40 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=50 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "10.5"
+  },
+  {
+   "type": "paragraph",
+   "text": "11.9"
+  },
+  {
+   "type": "paragraph",
+   "text": "NW20 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=30 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=20 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "8.8"
+  },
+  {
+   "type": "paragraph",
+   "text": "7.2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (5): Signals of Diamo K&S for (FG04)(HC03) \nCOMBU. AIR fan B.(NG20)"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE"
+  },
+  {
+   "type": "paragraph",
+   "text": "SETTING"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/P SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "NG20 T205"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=110 ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.6"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.8"
+  },
+  {
+   "type": "paragraph",
+   "text": "NG20 T204"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=85 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.6"
+  },
+  {
+   "type": "paragraph",
+   "text": "184"
+  },
+  {
+   "type": "paragraph",
+   "text": "NG20 T203"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=85 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=40 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.6"
+  },
+  {
+   "type": "paragraph",
+   "text": "18.4"
+  },
+  {
+   "type": "paragraph",
+   "text": "NG20 T202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=85 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.6"
+  },
+  {
+   "type": "paragraph",
+   "text": "18.4"
+  },
+  {
+   "type": "paragraph",
+   "text": "NG20 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=85 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.6"
+  },
+  {
+   "type": "paragraph",
+   "text": "18.4"
+  },
+  {
+   "type": "paragraph",
+   "text": "NG20 T207"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=110 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.6"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.8"
+  },
+  {
+   "type": "paragraph",
+   "text": "NG20 T206"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=110 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.6"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.8"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (6): Signals of Diamo K&S for HC04&FG15 \nfuel gas system FG16 burners FG31 boilers protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE"
+  },
+  {
+   "type": "paragraph",
+   "text": "SETTING"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/P SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "NR01 P202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-12 KPa"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=4 Kpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=4.8 Kpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "9.39 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "10.4 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "NN10 ص 205"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-400 Kpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=20 كيلو باسكال"
+  },
+  {
+   "type": "paragraph",
+   "text": "L2=12 Kpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "4.8 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "4.48 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "NN10 P202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-400 Kpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=300 KPa"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.95 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "NG00 F201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-600 m ^3"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=320 m^3"
+  },
+  {
+   "type": "paragraph",
+   "text": "12.53 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "NS00 F201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-400 m ^3"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=200m^3"
+  },
+  {
+   "type": "paragraph",
+   "text": "12 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (7): Signals of Diamo K&S for HC05&FG08 \nSoot blower of lung.FG09 lung fire FG11 steam air heater"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE"
+  },
+  {
+   "type": "paragraph",
+   "text": "SETTING"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/P SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "NV13 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-600 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1<250 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "10.66"
+  },
+  {
+   "type": "paragraph",
+   "text": "NV10 P201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-12 bar"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1<,60mpu"
+  },
+  {
+   "type": "paragraph",
+   "text": "4.799"
+  },
+  {
+   "type": "paragraph",
+   "text": "NV10 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-600"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=410 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=370 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.85"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.72"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (8): Signals of Diamo\nK&S for HC05&FG13 Oil system."
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE"
+  },
+  {
+   "type": "paragraph",
+   "text": "SETTING"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/P SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "NM40 P201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-4.5 كيلوبو"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1= 0.7 mpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "6.49 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "NM10 P202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-50kpu"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=2.5 mpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=3.1 mpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "12.25 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.97 أماه"
+  },
+  {
+   "type": "paragraph",
+   "text": "NM10 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-200 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=105 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=130 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "12.5 أماه"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.41 أماه"
+  },
+  {
+   "type": "paragraph",
+   "text": "PE31 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-200 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=140 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=155 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "16.4 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "PC30 L201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-50 cm"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=5.0 cm"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=45.0 cm"
+  },
+  {
+   "type": "paragraph",
+   "text": "5.6 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "18.39 ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "جدول (9): إشارات Diamo K&S لـ HC06&FG21 \nمضخة التغذية (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE"
+  },
+  {
+   "type": "paragraph",
+   "text": "SETTING"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/P SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T203"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T204"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.4 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T205-6"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=20 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=25 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.06 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.33 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T207"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.4 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T208"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.4 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T209"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.4 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T212"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=100 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.5 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.66 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T213"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=100 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.5 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.66 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T214"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=110 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=130 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.7 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.86 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T215"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=110 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=130 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.7 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.86 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T216"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=110 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=130 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.7 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.86 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T217"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=95 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T218"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=95 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T219"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=95 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T220"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=95 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T221"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=95 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T222"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=95 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 T228"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-200 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=50 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=45 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "8 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "7.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL01 P203"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-11 Kpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=055 Mpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "11.99 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL02 P202"
+  },
+  {
+   "type": "paragraph",
+   "text": "0- 30 Mpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=28 Pma"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=7Mpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "19 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "7.73 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL02 P203"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-30 ميجا باسكال"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=8 Mpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "L1=7.5Mpa"
+  },
+  {
+   "type": "paragraph",
+   "text": "8.26 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "8 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "UF01 T201"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=110 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=130 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.73 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.86 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (10): Signals of Diamo\nK&S for HC07&FG22 feed pump (2)"
+  },
+  {
+   "type": "paragraph",
+   "text": "SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RANGE"
+  },
+  {
+   "type": "paragraph",
+   "text": "SETTING"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/P SIGNAL"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T208"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.4 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T207"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.4 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T206"
+  },
+  {
+   "type": "paragraph",
+   "text": "-150+150 \nċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=20 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=25"
+  },
+  {
+   "type": "paragraph",
+   "text": "13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.3 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T204"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.4 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T203"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.4 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T215"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=110 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=130 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.7 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.9 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T214"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=110 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=130 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.7 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "17.9 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T213"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.7 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T212"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ح2=100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.7 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T209"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=65 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=70 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.4 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "15.2 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T220"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=95 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T219"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=95 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T218"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H2=95 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "13.6 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "14.13 Ma"
+  },
+  {
+   "type": "paragraph",
+   "text": "RL11 T217"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-150 \n ċ"
+  },
+  {
+   "type": "paragraph",
+   "text": "H1=90 \n ċ"
+  }
+ ],
+ "text": "محطات الطاقة\nالإجراء الفني\nمعدات:\nDiamo System Cards\nCalibration Signals of Diamo (S) , (K)\nSKODA PLZEN\nوثيقة\n لا: \n DSC-001-r0\nصدرت إلى: \n Talkha 2x210MW\nحالة: \n موافقة\nإجراء:\n Testing Procedures (P1-M6)\nمقدمة\nThis document outlines the testing procedure P1, \nwhich performed every six months as indicated by M6 in the title block to \nre-calibrate cards of Diamo (S) & (K), to \nensure the limits of alarm and trip for \nall signals.\nThe first draft initiated by eng. Ramadan Helmy, tested at 04 \nMay 2003, revised by quality control eng. Abdl Menem Al Emam at EDEPCo., \naccepted by: eng. Aly Abd Elwhab, and approved by eng. Awad Mohamed Fathy - Head \nSector of talkha power station\nاحتياطات السلامة\nيجب إصدار تصريح العمل و \n يجب أن يحمل موظفو الصيانة المؤهلون فئة السلامة المناسبة.\nسياج أمان (حبل) مع علامات التحذير \nالمحيطة بمنطقة العمل.\nارتدِ خوذة الأمان والأحذية وما إلى ذلك.\nيجب إصدار تصريح العمل و \n يجب أن يحمل موظفو الصيانة المؤهلون فئة السلامة المناسبة.\nسياج أمان (حبل) مع علامات التحذير \nالمحيطة بمنطقة العمل.\nارتدِ خوذة الأمان والأحذية وما إلى ذلك.\nيجب أن تكون التوربينات خارج الخدمة.\nالأدوات والمعدات\nPersonal computer type ( covtura 3/20 ) \n loaded with diamo (S) software\nScrew driver\nSpecial wire connection\nm.A Source \n Type Siemens Calibrator O5 - \n NH2011\nIndication lamp ( 24v ) for control room .\nPersonal computer type ( covtura 3/20 ) \n loaded with diamo (S) software\nScrew driver\nSpecial wire connection\nm.A Source \n Type Siemens Calibrator O5 - \n NH2011\nIndication lamp ( 24v ) for control room .\nالعمل المراد تنفيذه\nDisconnect the inlet signals of cable which need calibrated by removing the \n cabinet sockets and put the socket of m.A source.\nقم بتوصيل الكابل الخاص بالكمبيوتر ببطاقة (بطاقات) المعالج الموجودة بالداخل \n مجلس الوزراء\nWe make soft wear copy of the testing system form computer archive and open \n the page which we need.\nInject inlet mA signal through the socket and check the reading limitation \n according to the specification sheet\nIncrease mA until alarm lamp light on comparator card ( k752 ), control room, \n Information system and the computer ( diamo s )\nIf the reading signal is the same ( diamo s , diamo k , control room and \n information system ) , the system is ok .\nIf any reading of signal not ok make adjustment for comparator as mansion in \n calibration sheet .\nIf the comparator of ( diamo s ) not generate desired signal then make new \n copy of soft ware from stored archive of computer to the card (S35) .and \n check again the test, if the test ok then the test complete.\nif the test not successful then change the card (s 35) and make again copy and \n check again.\nDisconnect the inlet signals of cable which need calibrated by removing the \n cabinet sockets and put the socket of m.A source.\nقم بتوصيل الكابل الخاص بالكمبيوتر ببطاقة (بطاقات) المعالج الموجودة بالداخل \n مجلس الوزراء\nWe make soft wear copy of the testing system form computer archive and open \n the page which we need.\nInject inlet mA signal through the socket and check the reading limitation \n according to the specification sheet\nIncrease mA until alarm lamp light on comparator card ( k752 ), control room, \n Information system and the computer ( diamo s )\nIf the reading signal is the same ( diamo s , diamo k , control room and \n information system ) , the system is ok .\nIf any reading of signal not ok make adjustment for comparator as mansion in \n calibration sheet .\nIf the comparator of ( diamo s ) not generate desired signal then make new \n copy of soft ware from stored archive of computer to the card (S35) .and \n check again the test, if the test ok then the test complete.\nif the test not successful then change the card (s 35) and make again copy and \n check again.\nReturn system in service\nRemove the socket of mA source.\nPut the socket of signal in its position.\nMake rest of system.\nRemove the socket of mA source.\nPut the socket of signal in its position.\nMake rest of system.\nالموقع: \nالرقم التسلسلي للمروحة :\nتم الفحص \nبواسطة: \nالتوقيع: التاريخ:\nManufacturer Setting\nCable No.\nPin No.\nCIRCUIT NAME\nRANGE\nLIMIT ADGUST\nSIGNAL VALUE (mA)\nBefore Adjust\nAfter Adjust\nالمقارنة\nA10 -\nA9 \n +\nA8\nA7 +\nA6\nA5 +\nA4\nA3 +\nA2\nA1 +\nB8\nB7 +\nB6\nB5 +\nB4\nB3 +\nB2\nB1 +\nTable (1): Signals of Diamo K &S for FG01 (HC01) \nlung. air heaters .\nSIGNAL\nRANGE (4-20mA)\nLIMIT\nNW01 T201\n0-100ċ\nH2>55 \n ċ\nH3>60ċ\n12.87 mA\n13.69 //\nNH20 T202\n0-150ċ\nH1>80ċ\nH2>100ċ\n12.6 //\n14.7 //\nNH20 T201\n0-150ċ\nH1>80ċ\nH2>100ċ\n12.6 //\n14.7 //\nNH10 T202\n0-150ċ\nH1>80ċ\nH2>100ċ\n12.6 //\n14.7 //\nNH10 T201\n0-150ċ\nH1>80ċ\nH2>100ċ\n12.6 //\n14.7 //\nNR20 T206\n0-400ċ\nL2<100ċ\n8 //\nNR20 T201\n0-400ċ\nL1<150ċ\nL2<100ċ\n9.9 //\n8 //\nNR20 T202\n0-400ċ\nL1<150ċ\nL2<100ċ\n9.9 //\n8 //\nجدول (2): إشارات Diamo K&S لـ FG05 (HC02) \nمروحة غاز المداخن أ\nSIGNAL\nRANGE\n (4-20mA)\nLIMIT\nNS10 F201\n0-200 \n ċ\nL1 12.5m^3\n5 mA\nNS10 T204\n0-100 \n ċ\nH1=8 ċ\nH2=90 ċ\n15.3 //\n16.9 //\nNS10 T203\n0-100 \n ċ\nH1=80 \n ċ\nH2=90 \n ċ\n15.3 //\n16.9 //\nNS10 T202\n0-100 \n ċ\nH1=70 \n ċ\nح280 ċ\n15.3 //\n16.9 //\nNS10 T201\n0-100 \n ċ\nH1=70 \n ċ\nح2=80 \n ċ\n15.3 //\n16.9 //\nNW10 T202\n0-100 \n ċ\nL1=40 \n ċ\nH1=50 \n ċ\n10.5 //\n11.9 //\nNW10 T201\n0-100 \n ċ\nH1=30 \n ċ\nL1=20 \n ċ\n8.8 //\n7.2 //\nجدول (3): إشارات Diamo K&S لـ (FG05) (HC02) \nإعادة تعميم. مروحة غاز المداخن أ (NS10)\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nNS10 T204\n0-100ċ\nH1=80ċ\nH2=90ċ\n15.3m A\n16.9 mA\nNS10 T2203\n0-100ċ\nH1=80ċ\nH2=90ċ\n15.3 //\n16.9 //\nNS10 T202\n0-100ċ\nH1=70ċ\nح2=80ċ\n//\n16.9 //\nNS10 T201\n0-100ċ\nH1=70ċ\nح2=80ċ\n15.3 //\n16.9 //\nNS10 T202\n0-100ċ\nL1=40ċ\nH1=50ċ\n10.5 //\n11.9 //\nNW10 T201\n0-100ċ\nH1=30 \n ċ\nL1=20 \n ċ\n8.8 //\n7.2 //\nجدول (4): إشارات Diamo K&S لـ (FG06)(HC03) \nإعادة تعميم. مروحة غاز المداخن ب.(NS20)\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nNS20 F201\n0-200m^3 /H\nL1=12-5m^3\n5m A\nNS20 T204\n0-100ċ\nH1=80ċ\nH2=90ċ\n15.3\n16.9\nNS20 T203\n0-100ċ\nH1=80 \n ċ\nH2=90 \n ċ\n15.3\n16.9\nNS20 T02\n0-100 \n ċ\nH1=70 \n ċ\nح2=80 \n ċ\n15.3\n16.9\nNS20 T201\n0-100 \n ċ\nH1=70 \n ċ\nح2=80 \n ċ\n15.3\n16.9\nNW20 T202\n0-100 \n ċ\nL1=40 \n ċ\nH1=50 \n ċ\n10.5\n11.9\nNW20 T201\n0-100 \n ċ\nH1=30 \n ċ\nL1=20 \n ċ\n8.8\n7.2\nTable (5): Signals of Diamo K&S for (FG04)(HC03) \nCOMBU. AIR fan B.(NG20)\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nNG20 T205\n0-150 \n ċ\nH1=100 \n ċ\nH2=110 ċ\n14.6\n15.8\nNG20 T204\n0-100 \n ċ\nH1=85 \n ċ\nH2=90 \n ċ\n17.6\n184\nNG20 T203\n0-100 \n ċ\nH1=85 \n ċ\nح2=40 \n ċ\n17.6\n18.4\nNG20 T202\n0-100 \n ċ\nH1=85 \n ċ\nH2=90 \n ċ\n17.6\n18.4\nNG20 T201\n0-100 \n ċ\nH1=85 \n ċ\nH2=90 \n ċ\n17.6\n18.4\nNG20 T207\n0-150 \n ċ\nH1=100 \n ċ\nح2=110 \n ċ\n14.6\n15.8\nNG20 T206\n0-150 \n ċ\nH1=100 \n ċ\nح2=110 \n ċ\n14.6\n15.8\nTable (6): Signals of Diamo K&S for HC04&FG15 \nfuel gas system FG16 burners FG31 boilers protection\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nNR01 P202\n0-12 KPa\nH1=4 Kpa\nH2=4.8 Kpa\n9.39 ma\n10.4 ma\nNN10 ص 205\n0-400 Kpa\nL1=20 كيلو باسكال\nL2=12 Kpa\n4.8 ma\n4.48 ma\nNN10 P202\n0-400 Kpa\nH1=300 KPa\n15.95 ma\nNG00 F201\n0-600 m ^3\nH1=320 m^3\n12.53 ma\nNS00 F201\n0-400 m ^3\nH1=200m^3\n12 ma\nTable (7): Signals of Diamo K&S for HC05&FG08 \nSoot blower of lung.FG09 lung fire FG11 steam air heater\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nNV13 T201\n0-600 \n ċ\nL1<250 \n ċ\n10.66\nNV10 P201\n0-12 bar\nL1<,60mpu\n4.799\nNV10 T201\n0-600\nH1=410 \n ċ\nL1=370 \n ċ\n14.85\n13.72\nTable (8): Signals of Diamo\nK&S for HC05&FG13 Oil system.\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nNM40 P201\n0-4.5 كيلوبو\nL1= 0.7 mpa\n6.49 ma\nNM10 P202\n0-50kpu\nH1=2.5 mpa\nH2=3.1 mpa\n12.25 ma\n13.97 أماه\nNM10 T201\n0-200 \n ċ\nH1=105 \nċ\nH2=130 \nċ\n12.5 أماه\n14.41 أماه\nPE31 T201\n0-200 \n ċ\nL1=140 \nċ\nH1=155 \nċ\n15.2 ma\n16.4 ma\nPC30 L201\n0-50 cm\nL1=5.0 cm\nH1=45.0 cm\n5.6 ma\n18.39 ma\nجدول (9): إشارات Diamo K&S لـ HC06&FG21 \nمضخة التغذية (1)\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nRL01 T203\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\nMa\n15.2 Ma\nRL01 T204\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL01 T205-6\n0-100 \n ċ\nH1=20 \n ċ\nH2=25 \n ċ\n13.06 Ma\n13.33 Ma\nRL01 T207\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL01 T208\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL01 T209\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL01 T212\n0-100 \n ċ\nH1=90 \n ċ\nح2=100 \nċ\n13.5 Ma\n14.66 Ma\nRL01 T213\n0-100 \n ċ\nH1=90 \n ċ\nح2=100 \nċ\n13.5 Ma\n14.66 Ma\nRL01 T214\n0-150 \n ċ\nH1=110 \nċ\nH2=130 \nċ\n15.7 Ma\n17.86 Ma\nRL01 T215\n0-150 \n ċ\nH1=110 \nċ\nH2=130 \nċ\n15.7 Ma\n17.86 Ma\nRL01 T216\n0-150 \n ċ\nH1=110 \nċ\nH2=130 \nċ\n15.7 Ma\n17.86 Ma\nRL01 T217\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL01 T218\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL01 T219\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL01 T220\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL01 T221\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL01 T222\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL01 T228\n0-200 \n ċ\nH1=50 \n ċ\nL1=45 \n ċ\n8 Ma\n7.6 Ma\nRL01 P203\n0-11 Kpa\nL1=055 Mpa\n11.99 Ma\nRL02 P202\n0- 30 Mpa\nH1=28 Pma\nL1=7Mpa\n19 Ma\n7.73 Ma\nRL02 P203\n0-30 ميجا باسكال\nH1=8 Mpa\nL1=7.5Mpa\n8.26 Ma\n8 Ma\nUF01 T201\n0-150 \n ċ\nH1=110 \nċ\nH2=130 \nċ\n15.73 Ma\n17.86 Ma\nTable (10): Signals of Diamo\nK&S for HC07&FG22 feed pump (2)\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nRL11 T208\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL11 T207\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL11 T206\n-150+150 \nċ\nH1=20 \n ċ\nH2=25\n13 Ma\n13.3 Ma\nRL11 T204\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL11 T203\n0-100 \n ċ\nH1=70 \n ċ\nH2=65 \n ċ\n14.4 Ma\n15.2 Ma\nRL11 T215\n0-150 \n ċ\nH1=110 \n ċ\nH2=130 \n ċ\n15.7 Ma\n17.9 Ma\nRL11 T214\n0-150 \n ċ\nH1=110 \n ċ\nH2=130 \n ċ\n15.7 Ma\n17.9 Ma\nRL11 T213\n0-150 \n ċ\nH1=90 \n ċ\nح2=100 \n ċ\n13.6 Ma\n14.7 Ma\nRL11 T212\n0-150 \n ċ\nH1=90 \n ċ\nح2=100 \n ċ\n13.6 Ma\n14.7 Ma\nRL11 T209\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL11 T220\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL11 T219\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL11 T218\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL11 T217\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.13 Ma\nRL11 T216\n0-150 \n ċ\nH1=110 \n ċ\nH2=130 \n ċ\n15.73 Ma\n17.87 أماه\nRL11 T228\n0-200 \n ċ\nH1=50 \n ċ\nL1=45 \n ċ\n8 Ma\n7.6 Ma\nRL11 T222\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.3 Ma\nRL11 T221\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.3 Ma\nRL12 ص 203\n0-30Mpa\nL1=7.5Mpa\nH1=8Mpa\n8 Ma\n8.26 Ma\nRL12 P202\n0-30Mpa\nL1=7 Mpa\nH1=28 Mpa\n7.73 Ma\n18.94 Ma\nRL11 F202\n0-450 T/ h\nH2=202 t/ h\n11.2 Ma\nRL11 P203\n0-11 Kpa\nL1=5.5 Kpa\n11.99 Ma\nUF14 T201\n0-100 \n ċ\nH1=55 \n ċ\n12.8 Ma\nUF12 T201\n0-100 \n ċ\nH1=75 \n ċ\n16 Ma\nRL11 T211\n0-100 \n ċ\nH1=60ċ\n13.6 Ma\nRL11 T210\n0-100 \n ċ\nH1=110 \n ċ\nH2=130 \n ċ\n13.6 Ma\nF11 T201\n0-150 \n ċ\n15.73 Ma\n17.86 Ma\nTable (11): Signals of Diamo\nK&S for HC08&FG(23 ) feed pump (3)\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nRL21 T208\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL21 T207\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL21 T205\n0-150 \n ċ\nH1=20 \n ċ\nH2=25 \n ċ\n13.05 Ma\n13.33 Ma\nRL21 T204\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL21 T203\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL21 T215\n0-150 \n ċ\nH1=110 \n ċ\nH2=130 \n ċ\n15.73 Ma\n17.87 أماه\nRL21 T214\n0-150 \n ċ\nH1=110 \n ċ\nH2=130 \n ċ\n15.73 Ma\n17.87 أماه\nRL21 T213\n0-100 \n ċ\nH1=90 \n ċ\nح2=100 \n ċ\n13.6 Ma\n14.7 Ma\nRL21 T212\n0-100 \n ċ\nH1=90 \n ċ\nح2=100 \n ċ\n13.6 Ma\n14.4 Ma\nRL21 T204\n0-100 \n ċ\nH1=65 \n ċ\nH2=70 \n ċ\n14.4 Ma\n15.2 Ma\nRL21 T220\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6Ma\n14.1 مللي أمبير\nRL21 T219\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.1 Ma\nRL21 T218\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.1 Ma\nRL21 T217\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.1 Ma\nRL21 T216\n0-150 \n ċ\nH1=110 \n ċ\nH2=130 \n ċ\n15.73 Ma\n17.87 أماه\nRL21 T228\n0-200 \n ċ\nH1=50 \n ċ\nH2=45 \n ċ\n8 Ma\n7.6 Ma\nRL21 T222\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.1 Ma\nRL21 T221\n0-150 \n ċ\nH1=90 \n ċ\nH2=95 \n ċ\n13.6 Ma\n14.1 Ma\nRL22 P203\n0-30 ميجا باسكال\nL1=7.5 \n ċ\nH1=8 ċ\n8 Ma\n8.26 Ma\nRL22 P202\n0-30 ميجا باسكال\nL1=7.8 \n ċ\nH1=28 \n ċ\n7.73 Ma\n18.93 Ma\nRL21 F202-01\n0-450 طن/ساعة\nH2=202 T/ h\n11.99 Ma\nRL21 P203\n0-16 Kpa\nL1=5.5 Kpa\n9.5 Ma\nUF24 T201\n0-100 \n ċ\nH1=55 \n ċ\n12.8 Ma\nUF22 T201\n0-100 \n ċ\nH1=75 \n ċ\n16 Ma\nRL21 T211\n0-100 \n ċ\nH1=60 \n ċ\n12.8 Ma\nRL21 T210\n0-100 \n ċ\nH1=60 \n ċ\n12.8 Ma\nUF21 T201\n0-150 \n ċ\nH1=110 \n ċ\nH2=130 \n ċ\n15.73 Ma\n17.87 أماه\nTable (12): Signals of Diamo\nK&S for HC(11)&FG(41 ) Twrbine prtect\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nSA10 T205-8\n-150-0+150 \nċ\nH1=10 \n ċ\n12.6 Ma\nSA10 T203-4\n-150-0+150 \n ċ\nL1=-50 \n ċ\nح1=+50 \n ċ\n9.33 Ma\n14.7 Ma\nRA20 ص 201\n0-20 Mpa\nH1=17.8Mpa\nH2=19.7 Mpa\n18.16 Ma\n19.76 Ma\nRA20 T201\n0-600 \n ċ\nL1=505 \n ċ\nH1=538 \n ċ\nH2=544 \n ċ\nH3=558 \n ċ\n17.46 Ma\n18.34 Ma\n18.5 أماه\n18.87 أماه\nRA10 T202\n-150-0+150 \n ċ\nL1=-17 \n ċ\nL2=-28 \n ċ\n11.09 Ma\n10.5 Ma\nRA10 T203\n-150-0+150 \n ċ\nH1=+17 \n ċ\nH2=+28 \n ċ\n12.9 Ma\n13.49 Ma\nSA20 T205\n-150-0+150 \n ċ\nH1=+10 \n ċ\n12.53 Ma\nSA20 T203\n-150-0+150 \n ċ\nL1=-50 \n ċ\nح1=+50 \n ċ\n9.33 Ma\n14.7 Ma\nRB10 T202\n-150-0+150 \n ċ\nL1=-17 \n ċ\nL2=-28 \n ċ\n11.9 Ma\n10.5 Ma\nRB20 T202\n-150-0+150 \n ċ\nH1=+17 \n ċ\nH2+28 \n ċ\n12.9 Ma\n13.49 Ma\nRB10 T201\n0-600 \n ċ\nL1=505 \n ċ\nH1=538 \n ċ\nH2=544 \n ċ\nH3=558 \n ċ\n17.46 Ma\n18.34 Ma\n18.5 أماه\n18.87 أماه\nSA10 P201\n0-16 ميجا باسكال\nH1=5 Mpa\nH2=14 MPa\n9 Ma\n18 Ma\nTable (13): Signals of Diamo\nK&S for HC(40) & FG(81 ) primary circuit of cooling A42\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nIVC01 T201\n0- 150 \n ċ\nH1 60\nH2 80\n10.45 أماه\n12.85 ma\nIVC01 T202\n0- 140 \n ċ\nH1 90\nح2 100\n14.34 ma\n15.5 ma\nIVC01 T203\n0- 150 \n ċ\nH1 90\nح2 100\n13.7 ma\n14.79 ma\nIVC01 T204\n0- 200 \n ċ\nH1 140\nح2 155\n15.2 ma\n16.4 ma\nIVC01 T205\n0- 200 \n ċ\nH1 140\nح2 155\n15.3 أماه\n16.4 ma\nIVC01 T206\n0- 200 \n ċ\nH1 140\nح2 155\n15.2 ma\n16.4 ma\nIVC01 P201\n0- 400 KPa\nH1 210Kpa\nL1 110KPa\n12.4\n8.4\nIVC01 L201\n-485: -7.35M\nL1-5.15 \n ċ\nL2-5.5 \n ċ\n17.2ma\n15.8ma\nIVC02 T201\n0- 150 \n ċ\nH1 60 \n ċ\nH2 80 \n ċ\n10.4 ma\n12.53 ma\nIVC02 T202\n0- 150 \n ċ\nH1 90 \n ċ\nح2 100 \n ċ\n13.6 ma\n14.66 أماه\nTable (14): Signals of Diamo\nK&S for HC(40)&FG(81 ) primary circuit of cooling A43\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nIVC02 T203\nO-150 \n ċ\nH1 90 \n ċ\nح2 100 \n ċ\n13.7 ma\n14.79 ma\nIVC02 T204\n0-200 \n ċ\nH1 140 \nċ\nح2 155 \n ċ\n15.3 أماه\n16.48 ma\nIVC02 T205\n0-200 \n ċ\nH1 140 \n ċ\nح2 155 \n ċ\n15.3 أماه\n16.4 ma\nIVC02 T206\n0-200 \n ċ\nH1 140 \n ċ\nح2 155 \n ċ\n15.3 أماه\n16.4 ma\nIVC02 P201\n0-400 Kpa\nH1 210Kpa\nL1 110Kpa\n12.4 ma\n8.4 ma\nIVC02 L201\n-4.85:-7.35ma\nL1 5.15m\nL2 5.5m\n17.2 ma\n15.8 ma\nIVC03 T201\n0- 150 \n ċ\nH1 60 \n ċ ċ\nح280 ċ\n10.45 أماه\n12.58 ma\nIVC03 T202\n0- 140 \n ċ\nH1 90 \n ċ\nح2 100 \n ċ\n14.34 ma\n15.5 ma\nIVC03 T203\n0-150 \n ċ\nH1 90 \n ċ\nح2 100 \nċ\n13.7 ma\n14.79 ma\nIVC03 T204\n0-200 \n ċ\nH1 140 \n ċ\nح2 155 \n ċ\n15.3 أماه\n16.48 ma\nTable (15): Signals of Diamo\nK&S for HC(40) & FG(81 ) primary circuit of cooling A44\nSIGNAL\nRANGE\nSETTING\nO/P SIGNAL\nIVC03 T205\n0-150 \n ċ\nH1 140 \n ċ\nح2 155 \n ċ\n15.3 أماه\n16.4 ma\nIVC03 T206\n0-200 \n ċ\nH1 140 \n ċ\nح2 155 \n ċ\nIVC03 P201\n0-400 \n ċ\nH1 210 \n ċ\nL1 110 \n ċ\n12.4 ma\n8.4 ma\nIVC03 L201\n-4.85:-7.35 \n ċ\nL1 5.5 \n ċ\nL2 5.5 \n ċ\n17.2 ma\n15.8 ma\nIVC04 T201\n0-200 \n ċ\nH1 60 \n ċ\nH2 80 \n ċ\nIVC04 T202\n0-150 \n ċ\nH1 90 \n ċ\nح2 100 \n ċ\nIVC04 T203\n0-150 \n ċ\nH1 90 \n ċ\nح2 100 \n ċ\n13.7 ma\n14.79 ma\nIVC04 T204\n0-200 \n ċ\nH1 140 \n ċ\nح2 155 \n ċ\nIVC04 T205\n0-150 \n ċ\nH1 140 \n ċ\nح2 155 \n ċ\nIVC04 T206\n0-200 \n ċ\nH1 140 \n ċ\nح2 155 \n ċ",
+ "text_truncated": true,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "../all_docs/graphics/Dms-001-01.gif",
+   "alt": ""
+  }
+ ]
+}

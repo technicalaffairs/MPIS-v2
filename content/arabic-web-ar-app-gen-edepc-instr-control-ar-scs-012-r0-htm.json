@@ -1,0 +1,795 @@
+{
+ "id": "arabic-web-ar-app-gen-edepc-instr-control-ar-scs-012-r0-htm",
+ "doc_number": "STS-012-R0",
+ "title_en": "",
+ "title_ar": "STS-012-r0 \nAPPROVED",
+ "category": "instruments",
+ "source_path": "arabic_web/Ar_app_gen/EDEPC/Instr+control/Ar_SCS-012-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "ar",
+ "languages_available": [
+  "ar"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "محطات الطاقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "الإجراء الفني"
+  },
+  {
+   "type": "paragraph",
+   "text": "REC920"
+  },
+  {
+   "type": "paragraph",
+   "text": "CEG ELEC ALSTOM"
+  },
+  {
+   "type": "paragraph",
+   "text": "CEG ELEC ALSTOM"
+  },
+  {
+   "type": "paragraph",
+   "text": "وثيقة\n لا: \nSCS-012-r0"
+  },
+  {
+   "type": "paragraph",
+   "text": "صدرت إلى: دمياط\nCCPS"
+  },
+  {
+   "type": "paragraph",
+   "text": "حالة: \n موافقة"
+  },
+  {
+   "type": "paragraph",
+   "text": "إجراء:\nTesting Procedure(s) (P1-Y1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "تمت الموافقة عليه \n التاريخ:\n 20 June 2004"
+  },
+  {
+   "type": "paragraph",
+   "text": "تاريخ المراجعة:"
+  },
+  {
+   "type": "paragraph",
+   "text": "مقدمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document \noutlines the testing procedure P1, which must performed on an annually bases as \nindicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "REC 920 is a steam turbine control \nand safety systems it contains the following subsystems:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Speed Control System, Vibration \nSystem, Safety System, PLC system, Load Control System, Gland Steam Control \nSystem, By Pass Control System"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Components: \n The \nspeed control system consist of:"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "One Rack \n(9 cards):"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Two \ncards type AH112 - One card type AH113 - One card type AH111."
+  },
+  {
+   "type": "paragraph",
+   "text": "- One \ncard type LV 110 - One card type MZ134 - Three cards type LV108"
+  },
+  {
+   "type": "paragraph",
+   "text": "صمام مؤازر ثلاثي الاتجاه."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft \ninitiated by eng. Gabre Ali Ramadan tested by, eng. Mostafa Ibrahim,Alaa \nELshal, \nEDEPC \nrevised by quality control eng. Abdel Menem ALEmam, accepted \nby general director eng. Fawzy Sobhy Esmaile, and approved by eng. Monir \nElwakel Head Sector of Damietta CCPS, and certified by eng. Aly Mostafa Al Lethy \nEDEPC head sector of inspection & quality control."
+  },
+  {
+   "type": "paragraph",
+   "text": "احتياطات السلامة"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence (rope) with caution marks surrounding the work area is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear safety \nand healthy equipment as safety Helmet, safety shoes ...etc"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit in stand still."
+  },
+  {
+   "type": "paragraph",
+   "text": "When working on steam valves oil circuit ensure that no one is working on the \n components of control oil system as valves, pipes, pumps, and so on by \n coordinating with shift engineer."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,",
+    "Safety fence (rope) with caution marks surrounding the work area is required.",
+    "Wear safety \nand healthy equipment as safety Helmet, safety shoes ...etc",
+    "Unit in stand still.",
+    "When working on steam valves oil circuit ensure that no one is working on the \n components of control oil system as valves, pipes, pumps, and so on by \n coordinating with shift engineer."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "الأدوات والمعدات"
+  },
+  {
+   "type": "paragraph",
+   "text": "Digital multi meter,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wire connection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Contact cleaner"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Digital multi meter,",
+    "Wire connection",
+    "Contact cleaner"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "العمل المراد تنفيذه"
+  },
+  {
+   "type": "paragraph",
+   "text": "Clean all cards"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tighten all bolts and terminals."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the card according to the MRDS (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibrate the servo control valves according to the MRDS (2)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Simulate the following Signal \n to make the system available."
+  },
+  {
+   "type": "paragraph",
+   "text": "Jumper X16(21&22) \n to ensure that the lube oil \n pressure is OK."
+  },
+  {
+   "type": "paragraph",
+   "text": "الطائر XX4 (57 و 58) إلى \n تأكد من أن مكثف الفراغ على ما يرام."
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove X16(97) \n to ensure that the Processing failure is OK."
+  },
+  {
+   "type": "paragraph",
+   "text": "Put the control oil pump in operation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject the signal to the card LV108 \n and check the reading according to the MRDS (2)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove \n all jumpers"
+  },
+  {
+   "type": "paragraph",
+   "text": "Stop the control oil pump"
+  },
+  {
+   "type": "paragraph",
+   "text": "Close the work order."
+  },
+  {
+   "type": "paragraph",
+   "text": "Close the work order."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Clean all cards",
+    "Tighten all bolts and terminals.",
+    "Check the card according to the MRDS (1)",
+    "Calibrate the servo control valves according to the MRDS (2)",
+    "Simulate the following Signal \n to make the system available.",
+    "Jumper X16(21&22) \n to ensure that the lube oil \n pressure is OK.",
+    "الطائر XX4 (57 و 58) إلى \n تأكد من أن مكثف الفراغ على ما يرام.",
+    "Remove X16(97) \n to ensure that the Processing failure is OK.",
+    "Put the control oil pump in operation",
+    "Inject the signal to the card LV108 \n and check the reading according to the MRDS (2).",
+    "Remove \n all jumpers",
+    "Stop the control oil pump",
+    "Close the work order.",
+    "Close the work order."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "MRDS Testing for LV108 Cards at C38, C50, C56 MRDS(1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Position"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Point"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacture ref."
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring Values"
+  },
+  {
+   "type": "paragraph",
+   "text": "قيمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "وحدة"
+  },
+  {
+   "type": "paragraph",
+   "text": "Acc %"
+  },
+  {
+   "type": "paragraph",
+   "text": "قيمة"
+  },
+  {
+   "type": "paragraph",
+   "text": "وحدة"
+  },
+  {
+   "type": "paragraph",
+   "text": "Acc %"
+  },
+  {
+   "type": "paragraph",
+   "text": "ج38"
+  },
+  {
+   "type": "paragraph",
+   "text": "De"
+  },
+  {
+   "type": "paragraph",
+   "text": "Q0"
+  },
+  {
+   "type": "paragraph",
+   "text": "S1"
+  },
+  {
+   "type": "paragraph",
+   "text": "S2"
+  },
+  {
+   "type": "paragraph",
+   "text": "S3"
+  },
+  {
+   "type": "paragraph",
+   "text": "S4"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.2"
+  },
+  {
+   "type": "paragraph",
+   "text": "8.0"
+  },
+  {
+   "type": "paragraph",
+   "text": "1.2"
+  },
+  {
+   "type": "paragraph",
+   "text": "2.32"
+  },
+  {
+   "type": "paragraph",
+   "text": "4.85"
+  },
+  {
+   "type": "paragraph",
+   "text": "8.0"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "C50"
+  },
+  {
+   "type": "paragraph",
+   "text": "De"
+  },
+  {
+   "type": "paragraph",
+   "text": "S1"
+  },
+  {
+   "type": "paragraph",
+   "text": "S3"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.2"
+  },
+  {
+   "type": "paragraph",
+   "text": "1.2"
+  },
+  {
+   "type": "paragraph",
+   "text": "4.85"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "C56"
+  },
+  {
+   "type": "paragraph",
+   "text": "De"
+  },
+  {
+   "type": "paragraph",
+   "text": "S1"
+  },
+  {
+   "type": "paragraph",
+   "text": "S3"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.0"
+  },
+  {
+   "type": "paragraph",
+   "text": "1.9"
+  },
+  {
+   "type": "paragraph",
+   "text": "5.0"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "VDC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Notice: If that reading is (ok) that is means the system is \n(ok) if not should be change the card and test again ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Location :................... \n Card Designation:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by : \n ........... إمضاء: \n تاريخ الاختبار الأخير:"
+  },
+  {
+   "type": "paragraph",
+   "text": "تمت المراجعة بواسطة : \n......... \nإمضاء: Lest Date:"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Approved \nby : \n......... \nإمضاء: \n تاريخ:"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "MRDS Maintenance Record Data Sheet MRDS \n(2)\nfor Servo control Valves"
+  },
+  {
+   "type": "paragraph",
+   "text": "Adj"
+  },
+  {
+   "type": "heading",
+   "level": 6,
+   "text": "ملاحظات"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-8"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100%"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "VDC open\n ing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zero:R196\n Span:R195"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-8"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100%"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "VDC open\n ing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zero:R196\n Span:R195"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-8"
+  },
+  {
+   "type": "paragraph",
+   "text": "0-100%"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "VDC open\n ing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zero:R196\n Span:R195"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Valve\n رقم العلامة",
+     "Manufacturer Ref.",
+     "",
+     "اختبار",
+     "",
+     ""
+    ],
+    [
+     "Range",
+     "وحدة",
+     "Acc.",
+     "0%",
+     "25%",
+     "50%",
+     "75%",
+     "100%"
+    ],
+    [
+     "HPCV1\n(Steam control \n valve)",
+     "",
+     "",
+     "0.5%",
+     "I / P",
+     "0",
+     "2",
+     "4",
+     "6",
+     "8",
+     "",
+     ""
+    ],
+    [
+     "O/P",
+     "Mfg Ref",
+     "0",
+     "25%",
+     "50%",
+     "75%",
+     "100%"
+    ],
+    [
+     "",
+     "قبل الصفة",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "After Adj",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "HPCV2",
+     "",
+     "",
+     "0.5%",
+     "I / P",
+     "0",
+     "2",
+     "4",
+     "6",
+     "8",
+     "",
+     ""
+    ],
+    [
+     "O/P",
+     "Mfg Ref",
+     "0",
+     "25%",
+     "50%",
+     "75%",
+     "100%"
+    ],
+    [
+     "",
+     "قبل الصفة",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "After Adj",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "HPCV3",
+     "",
+     "",
+     "0.5%",
+     "I / P",
+     "0",
+     "2",
+     "4",
+     "6",
+     "8",
+     "",
+     ""
+    ],
+    [
+     "O/P",
+     "Mfg Ref",
+     "0",
+     "25%",
+     "50%",
+     "75%",
+     "100%"
+    ],
+    [
+     "",
+     "قبل الصفة",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "After Adj",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location :................... \n Card Designation:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by : \n ........... إمضاء: \n تاريخ الاختبار الأخير:"
+  },
+  {
+   "type": "paragraph",
+   "text": "تمت المراجعة بواسطة : \n......... \nإمضاء: Lest Date:"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Approved \nby : \n......... \nإمضاء: \n تاريخ:"
+  }
+ ],
+ "text": "محطات الطاقة\nالإجراء الفني\nREC920\nCEG ELEC ALSTOM\nCEG ELEC ALSTOM\nوثيقة\n لا: \nSCS-012-r0\nصدرت إلى: دمياط\nCCPS\nحالة: \n موافقة\nإجراء:\nTesting Procedure(s) (P1-Y1)\nتمت الموافقة عليه \n التاريخ:\n 20 June 2004\nتاريخ المراجعة:\nمقدمة\nThis document \noutlines the testing procedure P1, which must performed on an annually bases as \nindicated by Y1 in the title block.\nREC 920 is a steam turbine control \nand safety systems it contains the following subsystems:\nSpeed Control System, Vibration \nSystem, Safety System, PLC system, Load Control System, Gland Steam Control \nSystem, By Pass Control System\nComponents: \n The \nspeed control system consist of:\nOne Rack \n(9 cards):\n- Two \ncards type AH112 - One card type AH113 - One card type AH111.\n- One \ncard type LV 110 - One card type MZ134 - Three cards type LV108\nصمام مؤازر ثلاثي الاتجاه.\nThe first draft \ninitiated by eng. Gabre Ali Ramadan tested by, eng. Mostafa Ibrahim,Alaa \nELshal, \nEDEPC \nrevised by quality control eng. Abdel Menem ALEmam, accepted \nby general director eng. Fawzy Sobhy Esmaile, and approved by eng. Monir \nElwakel Head Sector of Damietta CCPS, and certified by eng. Aly Mostafa Al Lethy \nEDEPC head sector of inspection & quality control.\nاحتياطات السلامة\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence (rope) with caution marks surrounding the work area is required.\nWear safety \nand healthy equipment as safety Helmet, safety shoes ...etc\nUnit in stand still.\nWhen working on steam valves oil circuit ensure that no one is working on the \n components of control oil system as valves, pipes, pumps, and so on by \n coordinating with shift engineer.\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence (rope) with caution marks surrounding the work area is required.\nWear safety \nand healthy equipment as safety Helmet, safety shoes ...etc\nUnit in stand still.\nWhen working on steam valves oil circuit ensure that no one is working on the \n components of control oil system as valves, pipes, pumps, and so on by \n coordinating with shift engineer.\nالأدوات والمعدات\nDigital multi meter,\nWire connection\nContact cleaner\nDigital multi meter,\nWire connection\nContact cleaner\nالعمل المراد تنفيذه\nClean all cards\nTighten all bolts and terminals.\nCheck the card according to the MRDS (1)\nCalibrate the servo control valves according to the MRDS (2)\nSimulate the following Signal \n to make the system available.\nJumper X16(21&22) \n to ensure that the lube oil \n pressure is OK.\nالطائر XX4 (57 و 58) إلى \n تأكد من أن مكثف الفراغ على ما يرام.\nRemove X16(97) \n to ensure that the Processing failure is OK.\nPut the control oil pump in operation\nInject the signal to the card LV108 \n and check the reading according to the MRDS (2).\nRemove \n all jumpers\nStop the control oil pump\nClose the work order.\nClose the work order.\nClean all cards\nTighten all bolts and terminals.\nCheck the card according to the MRDS (1)\nCalibrate the servo control valves according to the MRDS (2)\nSimulate the following Signal \n to make the system available.\nJumper X16(21&22) \n to ensure that the lube oil \n pressure is OK.\nالطائر XX4 (57 و 58) إلى \n تأكد من أن مكثف الفراغ على ما يرام.\nRemove X16(97) \n to ensure that the Processing failure is OK.\nPut the control oil pump in operation\nInject the signal to the card LV108 \n and check the reading according to the MRDS (2).\nRemove \n all jumpers\nStop the control oil pump\nClose the work order.\nClose the work order.\nMRDS Testing for LV108 Cards at C38, C50, C56 MRDS(1)\nPosition\nTest Point\nManufacture ref.\nMeasuring Values\nقيمة\nوحدة\nAcc %\nقيمة\nوحدة\nAcc %\nج38\nDe\nQ0\nS1\nS2\nS3\nS4\n0.2\n8.0\n1.2\n2.32\n4.85\n8.0\nVDC\nVDC\nVDC\nVDC\nVDC\nVDC\n0.1\n0.1\n0.1\n0.1\n0.1\n0.1\nVDC\nVDC\nVDC\nVDC\nVDC\nVDC\nC50\nDe\nS1\nS3\n0.2\n1.2\n4.85\nVDC\nVDC\nVDC\n0.1\n0.1\n0.1\nVDC\nVDC\nVDC\nC56\nDe\nS1\nS3\n0.0\n1.9\n5.0\nVDC\nVDC\nVDC\n0.1\n0.1\n0.1\nVDC\nVDC\nVDC\nNotice: If that reading is (ok) that is means the system is \n(ok) if not should be change the card and test again .\nLocation :................... \n Card Designation:\nTested by : \n ........... إمضاء: \n تاريخ الاختبار الأخير:\nتمت المراجعة بواسطة : \n......... \nإمضاء: Lest Date:\nApproved \nby : \n......... \nإمضاء: \n تاريخ:\nMRDS Maintenance Record Data Sheet MRDS \n(2)\nfor Servo control Valves\nAdj\nملاحظات\n0-8\n0-100%\nVDC open\n ing\nZero:R196\n Span:R195\n0-8\n0-100%\nVDC open\n ing\nZero:R196\n Span:R195\n0-8\n0-100%\nVDC open\n ing\nZero:R196\n Span:R195\n\nLocation :................... \n Card Designation:\nTested by : \n ........... إمضاء: \n تاريخ الاختبار الأخير:\nتمت المراجعة بواسطة : \n......... \nإمضاء: Lest Date:\nApproved \nby : \n......... \nإمضاء: \n تاريخ:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}
