@@ -125,6 +125,11 @@ class Extractor(HTMLParser):
         if tag in ("script", "style", "noscript"):
             self._in_script_style = True
             return
+        # Inside a table cell, <p>/<h*>/<li> are just formatting wrappers
+        # (FrontPage files often have unclosed <p> inside <td>); their text
+        # belongs to the cell, not to a new paragraph/heading block.
+        if self._cell is not None and tag in ("p", "h1", "h2", "h3", "h4", "h5", "h6", "li", "ul", "ol"):
+            return
         if tag == "title":
             self._in_title = True
             self._buf = ""
@@ -154,6 +159,10 @@ class Extractor(HTMLParser):
     def handle_endtag(self, tag):
         if tag in ("script", "style", "noscript"):
             self._in_script_style = False
+            return
+        # Closing a formatting tag inside a cell ends nothing: the cell
+        # is still open until </td>/<th>.
+        if self._cell is not None and tag in ("p", "h1", "h2", "h3", "h4", "h5", "h6", "li", "ul", "ol"):
             return
         if tag == "title":
             self._in_title = False
@@ -229,9 +238,13 @@ def extract_html(path):
             b["items"] = [repair_mojibake(i) for i in b["items"]]
         if "rows" in b:
             b["rows"] = [[repair_mojibake(c) for c in row] for row in b["rows"]]
-    plain = "\n".join(
-        b.get("text", "") if b["type"] != "list" else "\n".join(b["items"])
-        for b in ex.blocks)
+    def block_text(b):
+        if b["type"] == "list":
+            return "\n".join(b["items"])
+        if b["type"] == "table":
+            return "\n".join(" | ".join(row) for row in b.get("rows", []))
+        return b.get("text", "")
+    plain = "\n".join(block_text(b) for b in ex.blocks)
     return ex, plain, enc
 
 

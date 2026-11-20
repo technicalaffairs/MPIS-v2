@@ -1296,6 +1296,21 @@ CATEGORY_AR = {
     "general": "عام", "index_htm": "عام",
 }
 
+CATEGORY_EN = {
+    "transformers": "Transformers", "boilers": "Boilers", "turbines": "Turbines",
+    "generators": "Generators", "switchgear": "Switchgear",
+    "protection": "Protection", "motors": "Motors", "pumps": "Pumps",
+    "valves": "Valves", "cranes": "Cranes", "fans": "Fans",
+    "filters": "Filters", "instruments": "Instruments & Control",
+    "substations": "Substations", "distribution": "Distribution & Transmission",
+    "coordinators": "Coordinators", "forms": "Forms", "whatsnew": "What's New",
+    "tech_resource": "Technical Resources", "admin_inst": "Administrative Instructions",
+    "draft_documents": "Draft Documents", "quality_control": "Quality Control",
+    "about": "About", "gen_docs": "General Documents", "arabic_web": "Arabic Pages",
+    "appr_docs": "Approved Documents", "distr_trans": "Distribution & Transmission",
+    "general": "General", "index_htm": "General",
+}
+
 
 def esc(s):
     return htmlmod.escape(str(s or ""), quote=True)
@@ -1385,6 +1400,7 @@ function applyLang(l){lang=l; localStorage.setItem('mpis-lang',l);
     if(I18N[l]&&I18N[l][k]) el.textContent=I18N[l][k];});
   document.querySelectorAll('[data-i18n-ph]').forEach(el=>{const k=el.getAttribute('data-i18n-ph');
     if(I18N[l]&&I18N[l][k]) el.placeholder=I18N[l][k];});
+  document.querySelectorAll('[data-cat]').forEach(el=>{el.textContent=(l==='ar'?el.getAttribute('data-cat-ar'):el.getAttribute('data-cat-en'))||el.textContent;});
   const sw=document.getElementById('langBtn'); if(sw) sw.textContent=(l==='ar'?'English':'العربية');
   applyTheme();}
 document.addEventListener('DOMContentLoaded',()=>{
@@ -1585,9 +1601,9 @@ def build(content_dir, dist_dir, v1_root):
 <p class="noprint"><a href="../index.html" data-i18n="home">Home</a> ›
 <a href="../categories/{esc(doc['category'])}.html">{esc(doc['category'])}</a></p>
 <h1>{esc(title)}</h1>
-<div class="doc-meta"><span><b>{esc(i18n['en']['doc_number'])}</b> {esc(doc.get('doc_number') or '—')}</span>
-<span><b>{esc(i18n['en']['category'])}</b> {esc(doc['category'])}</span>
-<span><b>{esc(i18n['en']['source'])}</b> <code>{esc(doc['source_path'])}</code></span>
+<div class="doc-meta"><span><b data-i18n="doc_number">{esc(i18n['en']['doc_number'])}</b> {esc(doc.get('doc_number') or '—')}</span>
+<span><b data-i18n="category">{esc(i18n['en']['category'])}</b> {esc(doc['category'])}</span>
+<span><b data-i18n="source">{esc(i18n['en']['source'])}</b> <code>{esc(doc['source_path'])}</code></span>
 <span>{badge}</span></div>
 {other_link}
 {draft_note}
@@ -1642,7 +1658,7 @@ def build(content_dir, dist_dir, v1_root):
 <div class="controls"><button id="langBtn" type="button">English</button>
 <button id="themeBtn" type="button">🌙</button></div></div></header>
 <main class="wrap"><p><a href="../index.html" data-i18n="home">Home</a></p>
-<h1>{esc(label)} ({len(ms)})</h1><ul class="results">{rows}</ul></main>
+<h1><span data-cat data-cat-ar='{esc(CATEGORY_AR.get(cat, cat))}' data-cat-en='{esc(CATEGORY_EN.get(cat, cat))}'>{esc(label)}</span> ({len(ms)})</h1><ul class="results">{rows}</ul></main>
 <footer><div class="wrap"><span data-i18n="footer_note"></span></div></footer></body></html>""")
 
     # ---- home ----
@@ -1650,8 +1666,8 @@ def build(content_dir, dist_dir, v1_root):
     both = sum(1 for m in manifest if m.get("translation_status") == "available")
     missing = sum(1 for m in manifest if m.get("translation_status") == "missing")
     cat_cards = "".join(
-        f"<a class='card' href='categories/{esc(cat)}.html'><h3>{esc(CATEGORY_AR.get(cat, cat))}</h3>"
-        f"<p>{esc(cat)} — {len(ms)} {esc(i18n['en']['documents'])}</p></a>"
+        f"<a class='card' href='categories/{esc(cat)}.html'><h3 data-cat data-cat-ar='{esc(CATEGORY_AR.get(cat, cat))}' data-cat-en='{esc(CATEGORY_EN.get(cat, cat))}'>{esc(CATEGORY_AR.get(cat, cat))}</h3>"
+        f"<p>{esc(cat)} — {len(ms)} <span data-i18n='documents'>documents</span></p></a>"
         for cat, ms in sorted(cats.items(), key=lambda kv: -len(kv[1])))
     feat = ""
     for no in FEATURED:
@@ -1671,10 +1687,10 @@ def build(content_dir, dist_dir, v1_root):
 <div class="controls"><button id="langBtn" type="button">English</button>
 <button id="themeBtn" type="button">🌙</button></div></div></header>
 <main class="wrap">
-<section class="hero"><img class="hero-logo" src="assets/logo.png" alt="Ministry of Electricity and Renewable Energy logo"><p>{esc(i18n['ar']['org_line1'])} — {esc(i18n['ar']['org_line2'])}</p>
+<section class="hero"><img class="hero-logo" src="assets/logo.png" alt="Ministry of Electricity and Renewable Energy logo"><p><span data-i18n="org_line1">{esc(i18n['ar']['org_line1'])}</span> — <span data-i18n="org_line2">{esc(i18n['ar']['org_line2'])}</span></p>
 <h1 data-i18n="site_title">نظام معلومات إجراءات الصيانة</h1>
 <p>Maintenance Procedure Information System — MPIS</p>
-<p>{esc(i18n['ar']['org_line3'])}</p></section>
+<p data-i18n="org_line3">{esc(i18n['ar']['org_line3'])}</p></section>
 <div class="stats">
 <div class="stat"><b>{total}</b><span data-i18n="stats_docs">documents</span></div>
 <div class="stat"><b>{len(cats)}</b><span data-i18n="stats_categories">categories</span></div>
