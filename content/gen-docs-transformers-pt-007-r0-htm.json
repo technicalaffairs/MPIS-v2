@@ -17,7 +17,7 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "Power\n Stations",
      "Technical Procedure"
     ]
    ],
@@ -101,8 +101,70 @@
    "rows": [
     [
      "Temp",
+     "Measured",
+     "Ground",
+     "Phase A\n s/n: 880042",
+     "Phase B\n s/n: 880045",
+     "Phase C\n s/n: 880044"
+    ],
+    [
+     "47 \n OC",
+     "H.W (A-X)",
+     "(a-x) & (ag-xg)",
+     "3.5/4.5",
+     "4.2/6",
+     "3.1/3.6"
+    ],
+    [
+     "",
+     "L.W1 (a-x)",
+     "(ag-xg)& (A-X)",
+     "2/2.5",
+     "3/3.6",
+     "1.6/2.1"
+    ],
+    [
+     "",
+     "L.W2 (ag-xg)",
+     "(a-x) & (A-X)",
+     "3/4",
+     "5/6.1",
+     "2.9/3.3"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Temp",
+     "Measured",
+     "Ground",
+     "Phase A\n s/n: 880042",
+     "Phase B\n s/n: 880045",
+     "Phase C\n s/n: 880044"
+    ],
+    [
+     "",
+     "H.W (A-X)",
+     "(a-x) & (ag-xg)",
      "",
      "",
+     ""
+    ],
+    [
+     "",
+     "L.W1 (a-x)",
+     "(ag-xg)& (A-X)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "L.W2 (ag-xg)",
+     "(a-x) & (A-X)",
      "",
      "",
      ""
@@ -124,16 +186,33 @@
     [
      "Test",
      "Winding",
-     "",
-     "",
-     ""
+     "Phase B",
+     "Phase C",
+     "Phase A"
+    ],
+    [
+     "No: \n 880042",
+     "No: \n 880045",
+     "No: \n 880044"
     ],
     [
      "DC resistance \n At temp :47C",
-     "",
-     "",
-     "",
-     ""
+     "A-X",
+     "3415",
+     "3413",
+     "3401"
+    ],
+    [
+     "a-x",
+     "0.0265",
+     "0.0263",
+     "0.0262"
+    ],
+    [
+     "Ag-xg",
+     "0.0478",
+     "0.0477",
+     "0.0477"
     ]
    ],
    "truncated_rows": 0
@@ -144,13 +223,30 @@
     [
      "Test",
      "Winding",
+     "Phase B",
+     "Phase C",
+     "Phase A"
+    ],
+    [
+     "No: \n 880042",
+     "No: \n 880045",
+     "No: \n 880044"
+    ],
+    [
+     "DC resistance \n At temp :",
+     "A-X",
      "",
      "",
      ""
     ],
     [
-     "DC resistance \n At temp :",
+     "a-x",
      "",
+     "",
+     ""
+    ],
+    [
+     "Ag-xg",
      "",
      "",
      ""
@@ -170,33 +266,33 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
+     "Phase",
+     "ENG",
+     "GROUND",
      "KV",
      "D.F%\n Temp. 50 C",
      "Cap. p.f"
     ],
     [
-     "",
-     "",
-     "",
+     "A",
+     "GND",
+     "H.W(A-X)",
      "10",
      "2.23",
      "118"
     ],
     [
-     "",
-     "",
-     "",
+     "B",
+     "GND",
+     "H.W(A-X)",
      "10",
      "2.47",
      "119"
     ],
     [
-     "",
-     "",
-     "",
+     "C",
+     "GND",
+     "H.W(A-X)",
      "10",
      "2.59",
      "120"
@@ -208,12 +304,36 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
-     "",
+     "Phase",
+     "ENG",
+     "GROUND",
      "KV",
      "D.F%\n Temp. 50 C",
      "Cap. p.f"
+    ],
+    [
+     "A",
+     "GND",
+     "H.W(A-X)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "GND",
+     "H.W(A-X)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "C",
+     "GND",
+     "H.W(A-X)",
+     "",
+     "",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -226,18 +346,70 @@
    "type": "table",
    "rows": [
     [
-     "",
-     "",
+     "Phase",
+     "A",
+     "B",
+     "C"
+    ],
+    [
+     "C.R",
+     "M.R",
+     "C.R",
+     "M.R",
+     "C.R",
+     "M.R"
+    ],
+    [
+     "H//a-x (15750/√3:100√3)",
+     "1320",
      "1310",
+     "1320",
+     "1314.9",
+     "1320",
+     "1310.7"
+    ],
+    [
+     "H//ag-xg (15750/√3:100/3)",
+     "762.1",
+     "750.1",
+     "762.1",
+     "749.4",
+     "762.1",
+     "748.1"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "A",
+     "B",
+     "C"
+    ],
+    [
+     "C.R",
+     "M.R",
+     "C.R",
+     "M.R",
+     "C.R",
+     "M.R"
+    ],
+    [
+     "H//a-x (15750/√3:100√3)",
+     "",
+     "",
      "",
      "",
      "",
      ""
     ],
     [
+     "H//ag-xg (15750/√3:100/3)",
      "",
      "",
-     "750.1",
      "",
      "",
      "",
@@ -255,7 +427,7 @@
    "text": "Location: \nEquipment code: \nChecked by: \nDate: Signature:"
   }
  ],
- "text": "\nIntroduction\nThis document outlines \nthe equipment tests I1, which must performed on an annually bases as indicated \nby Y1 in the titled block The tests will be done \nafter any fault, \nat capital repair, and at acceptance tests.\nThe first draft \ninitiated at High Dam HPS, by eng. Hossain Mahrous, tested at 10 June 2002\nSafety Precautions\nWear \nsafety helmet, shoes, safety belt.\nA work permit must be issued and the qualified maintenance staff should\n carry the suitable safety category,\nSafety fence (rope) with caution marks surrounding the work area,\nWear \nsafety helmet, shoes, safety belt.\nSwitch off the line 132kv.\nSeparate the primary \nterminals of v.t (high winding).\nSeparate the secondary \nterminals of v.t (low winding).\nSwitch on the grounds.\nPresence the industrial \nsafety supervisor.\nTools and Equipment\nSafety helmet, safety belt, \n rags, and silicagel\nMegger: \n isol 5003\nMicro ohmmeter type AC 10,\nDoble type \nM4000 (Insulation analyzer),\nRatio tester type ATRT-03\nWorks to be Carried Out\nInsulation test using \nMegger: isol 5003, This test should be done yearly\nTest voltage 2.5kv\nConnection and results of R60 \n(G.ohm) at the schedule\nTest voltage 2.5kv\nConnection and results of R60 \n(G.ohm) at the schedule\n\nDC resistance test \n use microhmmeter type AC 10,\nThis test done \n periodically, and at capital repair.\n\n\nHigh \nVoltage Test (tg δ \n%) and Capacitance (P.F) \nuse Doble \ntype \nM4000 (insulation analyzer)\nThis test done periodically \n& at capital repair\n\n\nTurns Ratio Test \nusing\nATRT-03\n\nThis test should be done periodically & at capital \nrepair\nLocation: \nEquipment code: \nChecked by: \nDate: Signature:",
+ "text": "Power\n Stations | Technical Procedure\nIntroduction\nThis document outlines \nthe equipment tests I1, which must performed on an annually bases as indicated \nby Y1 in the titled block The tests will be done \nafter any fault, \nat capital repair, and at acceptance tests.\nThe first draft \ninitiated at High Dam HPS, by eng. Hossain Mahrous, tested at 10 June 2002\nSafety Precautions\nWear \nsafety helmet, shoes, safety belt.\nA work permit must be issued and the qualified maintenance staff should\n carry the suitable safety category,\nSafety fence (rope) with caution marks surrounding the work area,\nWear \nsafety helmet, shoes, safety belt.\nSwitch off the line 132kv.\nSeparate the primary \nterminals of v.t (high winding).\nSeparate the secondary \nterminals of v.t (low winding).\nSwitch on the grounds.\nPresence the industrial \nsafety supervisor.\nTools and Equipment\nSafety helmet, safety belt, \n rags, and silicagel\nMegger: \n isol 5003\nMicro ohmmeter type AC 10,\nDoble type \nM4000 (Insulation analyzer),\nRatio tester type ATRT-03\nWorks to be Carried Out\nInsulation test using \nMegger: isol 5003, This test should be done yearly\nTest voltage 2.5kv\nConnection and results of R60 \n(G.ohm) at the schedule\nTest voltage 2.5kv\nConnection and results of R60 \n(G.ohm) at the schedule\nTemp | Measured | Ground | Phase A\n s/n: 880042 | Phase B\n s/n: 880045 | Phase C\n s/n: 880044\n47 \n OC | H.W (A-X) | (a-x) & (ag-xg) | 3.5/4.5 | 4.2/6 | 3.1/3.6\n | L.W1 (a-x) | (ag-xg)& (A-X) | 2/2.5 | 3/3.6 | 1.6/2.1\n | L.W2 (ag-xg) | (a-x) & (A-X) | 3/4 | 5/6.1 | 2.9/3.3\nTemp | Measured | Ground | Phase A\n s/n: 880042 | Phase B\n s/n: 880045 | Phase C\n s/n: 880044\n | H.W (A-X) | (a-x) & (ag-xg) |  |  | \n | L.W1 (a-x) | (ag-xg)& (A-X) |  |  | \n | L.W2 (ag-xg) | (a-x) & (A-X) |  |  | \nDC resistance test \n use microhmmeter type AC 10,\nThis test done \n periodically, and at capital repair.\nTest | Winding | Phase B | Phase C | Phase A\nNo: \n 880042 | No: \n 880045 | No: \n 880044\nDC resistance \n At temp :47C | A-X | 3415 | 3413 | 3401\na-x | 0.0265 | 0.0263 | 0.0262\nAg-xg | 0.0478 | 0.0477 | 0.0477\nTest | Winding | Phase B | Phase C | Phase A\nNo: \n 880042 | No: \n 880045 | No: \n 880044\nDC resistance \n At temp : | A-X |  |  | \na-x |  |  | \nAg-xg |  |  | \nHigh \nVoltage Test (tg δ \n%) and Capacitance (P.F) \nuse Doble \ntype \nM4000 (insulation analyzer)\nThis test done periodically \n& at capital repair\nPhase | ENG | GROUND | KV | D.F%\n Temp. 50 C | Cap. p.f\nA | GND | H.W(A-X) | 10 | 2.23 | 118\nB | GND | H.W(A-X) | 10 | 2.47 | 119\nC | GND | H.W(A-X) | 10 | 2.59 | 120\nPhase | ENG | GROUND | KV | D.F%\n Temp. 50 C | Cap. p.f\nA | GND | H.W(A-X) |  |  | \nB | GND | H.W(A-X) |  |  | \nC | GND | H.W(A-X) |  |  | \nTurns Ratio Test \nusing\nATRT-03\nPhase | A | B | C\nC.R | M.R | C.R | M.R | C.R | M.R\nH//a-x (15750/√3:100√3) | 1320 | 1310 | 1320 | 1314.9 | 1320 | 1310.7\nH//ag-xg (15750/√3:100/3) | 762.1 | 750.1 | 762.1 | 749.4 | 762.1 | 748.1\nPhase | A | B | C\nC.R | M.R | C.R | M.R | C.R | M.R\nH//a-x (15750/√3:100√3) |  |  |  |  |  | \nH//ag-xg (15750/√3:100/3) |  |  |  |  |  | \nThis test should be done periodically & at capital \nrepair\nLocation: \nEquipment code: \nChecked by: \nDate: Signature:",
  "text_truncated": false,
  "links": [],
  "images": [

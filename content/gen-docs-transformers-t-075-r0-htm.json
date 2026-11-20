@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Autotransformers\n 525/132/15.75kv,\n 107MVA"
-  },
-  {
-   "type": "paragraph",
-   "text": "AOCTN-107000/500/132-T1\n Russian"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -168,6 +162,176 @@
     "Connect the line terminal of megger to high winding and \n earthed the low winding read R 15 & R 60 in (MΩ) \n of H.W",
     "Repeat the item 1 to low winding \n and earthed the high winding read R15 & R 60 in (MΩ)"
    ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Test",
+     "Energized",
+     "R 15 (MΩ)",
+     "R 60 (MΩ)"
+    ],
+    [
+     "1",
+     "HV-TANK",
+     "5100",
+     "6450"
+    ],
+    [
+     "2",
+     "LV-TANK",
+     "4860",
+     "6250"
+    ],
+    [
+     "3",
+     "HV+LV---TANK",
+     "6700",
+     "8600"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Test",
+     "Energized",
+     "R 15 (MΩ)",
+     "R 60 (MΩ)"
+    ],
+    [
+     "1",
+     "HV-TANK",
+     "",
+     ""
+    ],
+    [
+     "2",
+     "LV-TANK",
+     "",
+     ""
+    ],
+    [
+     "3",
+     "HV+LV---TANK",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Equipment's & S.N",
+     "Temp.",
+     "R15/R60",
+     "Temp.",
+     "R15/R60"
+    ],
+    [
+     "13T-A 70397",
+     "32",
+     "380/650",
+     "57",
+     "140/210"
+    ],
+    [
+     "13T-B 72671",
+     "41",
+     "320/590",
+     "64",
+     "130/200"
+    ],
+    [
+     "13T-C156803",
+     "15",
+     "5100/6450",
+     "--",
+     "--"
+    ],
+    [
+     "14T-A69579",
+     "36",
+     "290/550",
+     "65",
+     "150/230"
+    ],
+    [
+     "14T-B67543",
+     "32",
+     "290/550",
+     "64",
+     "120/152"
+    ],
+    [
+     "14T-C70395",
+     "38",
+     "250/420",
+     "64",
+     "130/230"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Equipment's & S.N",
+     "Temp.",
+     "R15/R60",
+     "Temp.",
+     "R15/R60"
+    ],
+    [
+     "13T-A 70397",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "13T-B 72671",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "13T-C156803",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "14T-A69579",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "14T-B67543",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "14T-C70395",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "list",
@@ -478,6 +642,13 @@
     ],
     [
      "HV-LV"
+    ],
+    [
+     "7",
+     "",
+     "18.201",
+     "18.384",
+     ""
     ]
    ],
    "truncated_rows": 0
@@ -1038,6 +1209,9 @@
      "Test voltage"
     ],
     [
+     "Delta and ungrounded Wye Windings"
+    ],
+    [
      "(L to L kv)",
      "(L to G kv)"
     ],
@@ -1098,7 +1272,7 @@
    "type": "list",
    "items": [
     "Tested of insulating liquid-filled power and distribution \ntransformers. use the standard\nANSI/IEEE C 57.12.00 - 1987. American National Standard\ngeneral requirements for liquid - immersed distribution, power, and regulating \ntransformers",
-    "Delta and ungrounded Wye Windings",
+    "Tested of insulating liquid - filled power and distribution \ntransformers, in the absence of insulating liquid and under atmospheric air / \ngas pressure (not under vacuum)\nIngeneral the test voltage should be limited to 5% to 10% of the voltage \nrecommended for transformer insulation power - factor tests in standard ANSI / \nIEEE C57.12.00 - 1987, American National Standard",
     "Bushing kv Test\n Bushing (C1) (center conductor energized)"
    ]
   },
@@ -1154,6 +1328,13 @@
      "0.3",
      "64",
      "0.7"
+    ],
+    [
+     "14T-C\n 70395",
+     "38",
+     "0.4",
+     "64",
+     "0.8"
     ]
    ],
    "truncated_rows": 0
@@ -1161,6 +1342,13 @@
   {
    "type": "table",
    "rows": [
+    [
+     "Equipment's & S.N",
+     "Temp.",
+     "(%Tg δ)",
+     "Temp.",
+     "(%Tg δ)"
+    ],
     [
      "13T-A\n 70397",
      "",
@@ -1219,7 +1407,7 @@
    "text": "Location: Equipment \nDesignation: Tested by: Signature: \nTest Date:"
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:Autotransformers\n 525/132/15.75kv,\n 107MVA\nAOCTN-107000/500/132-T1\n Russian\nIntroduction\nThis document outlines the high voltage tests procedure P1, which must be performed an annually bases as indicated \nby Y1 in the title block.\nThe first draft initiated and tested by eng. \nHussein Mahrous Mohamed, accepted by eng. \nMohamed Diaa El Din El Gabalwy \ngeneral director, approved by eng. Abd Elkreem Abu Zaid: head sector of Power Station, and certified by eng Kamel \nRagheb Hakim : HPGC QC general director and MMS coordinator\nTests\nInsulation resistance\nMeasuring the turns ratio\nMeasuring of D.C resistance\nHigh voltage tests\nInsulation resistance\nMeasuring the turns ratio\nMeasuring of D.C resistance\nHigh voltage tests\nInsulation Resistance Test\nSafety Precautions\nWork permit must be issued\nSafety fence with caution marks surrounding the work area is required\nSwitch off the transformer\nSeparate the primary circuits of transformer from both sides\nSwitch off the disconnect\nSwitch on the earth from both sides\nThe terminals of high and low winding must be shorted\nWork permit must be issued\nSafety fence with caution marks surrounding the work area is required\nWear \n standard personal safety and healthy equipment as helmet, safety shoes, rubber gloves, ... etc.\nSwitch off the transformer\nSeparate the primary circuits of transformer from both sides\nSwitch off the disconnect\nSwitch on the earth from both sides\nThe terminals of high and low winding must be shorted\nTools and Equipment\nMegger: isol 5003, Range 500 & 1000 & 2500 & 5000 v\nAC supply 220 V\nTwo voltmeters V1& V2\nDC battery 12 v heavy duty , circuit breaker , ammeter 0--12 amp & variable \n resistance.\nDoble (M4000)\nMicrohmmeter CA 10\nMegger: isol 5003, Range 500 & 1000 & 2500 & 5000 v\nAC supply 220 V\nTwo voltmeters V1& V2\nDC battery 12 v heavy duty , circuit breaker , ammeter 0--12 amp & variable \n resistance.\nDoble (M4000)\nMicrohmmeter CA 10\nWork to be Carried Out\nConnect the line terminal of megger to high winding and \n earthed the low winding read R 15 & R 60 in (MΩ) \n of H.W\nRepeat the item 1 to low winding \n and earthed the high winding read R15 & R 60 in (MΩ)\nConnect (cable H) to high winding \n - (H1 --- to A) & (H0 --- to neutral X)\nConnect (cable X) to low winding \n --- (X1 --- to --- a1,a2) & (X0 --- to ... x1,x2)\nOperate the device & chose the \n program ... (transformer test & configuartion single phase & name plate and \n start)\nThe ratio measured directly from \n device and recorded in chart\nUse external a.c supply 220 v and \n two voltmeter v1 & v2\n connect AC supply to high winding (A&X) read (V1) and connect voltmeter (v2) \n to low winding (a&x) read (v2) then\nCalculate the ratio of phase (A) \n = V1/V2 and repeat the same sequence to phase B and C\n\n\nMeasuring DC Resistance\nNormal Method:\nThe equipments as shown in the diagram\nDC battery 12 v heavy duty & circuit breaker & ammeter 0 --- 12 amp. Variable \nresistance and voltammeter. Connect the circuit as shown. The potential cables \nmust always be connected inside of the current cable and inject the current \napproximate to 2 amp. or less in the winding still the current stable and read I \n& Vb then calculate R d.c = V/I\nUsed equipment: (microhmmeter CA 10)connect the cable to the \nwinding need to be measured (plug in the heavy current cable and connect the 2 \nlarge clamps together. Current and potential cable) then read R d.c directly \nfrom device\nUsed equipment: (microhmmeter CA 10)connect the cable to the \nwinding need to be measured (plug in the heavy current cable and connect the 2 \nlarge clamps together. Current and potential cable) then read R d.c directly \nfrom device\nThe results of DC resistance (Ω) in \ntable (4&5) at temp. 18c\n\n\n\n\n\n\nIndicate the values between temperatures and DC resistance in (Ω) \nfor HW (A--X) of autotransformers (manufacture reading)\nHigh voltage test\nMeasuring of Dissipation Factor (% \np.f) & Capacitance of two winding autotransformer\nUsing equipment: \n(doble M 4000)\nProcedures\nOperate the equipment doble M 4000. \nunit control\nFrom the program chose...(two winding \ntransformer)\nRecord technical data of transformer\nRecord test KV for winding and \nbushing\nThe terminals of high and low winding \nshorted\nConnect HV cable to high voltage \nwinding\nConnect LV lead (read) to low voltage \nwinaing\nConnect Ground cable (green) to the \ntank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and \ndevice\nStart the test (overall test) for H.W \n& L.W and bushing\nOperate the equipment doble M 4000. \nunit control\nFrom the program chose...(two winding \ntransformer)\nRecord technical data of transformer\nRecord test KV for winding and \nbushing\nThe terminals of high and low winding \nshorted\nConnect HV cable to high voltage \nwinding\nConnect LV lead (read) to low voltage \nwinaing\nConnect Ground cable (green) to the \ntank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and \ndevice\nStart the test (overall test) for H.W \n& L.W and bushing\nTest Procedure for two winding \nautotransformer\nThe standard doble test procedure for \ntwo winding transformer is outline in figure\n\nRecord overall test results in the computer and the copy are \nattached in the following page\nTest Voltages\nTested of insulating liquid-filled power and distribution \ntransformers. use the standard\nANSI/IEEE C 57.12.00 - 1987. American National Standard\ngeneral requirements for liquid - immersed distribution, power, and regulating \ntransformers\n\nTested of insulating liquid - filled power and distribution \ntransformers, in the absence of insulating liquid and under atmospheric air / \ngas pressure (not under vacuum)\nIngeneral the test voltage should be limited to 5% to 10% of the voltage \nrecommended for transformer insulation power - factor tests in standard ANSI / \nIEEE C57.12.00 - 1987, American National Standard\n\nBushing kv Test\n Bushing (C1) (center conductor energized)\n\nTested of insulating liquid-filled power and distribution \ntransformers. use the standard\nANSI/IEEE C 57.12.00 - 1987. American National Standard\ngeneral requirements for liquid - immersed distribution, power, and regulating \ntransformers\nDelta and ungrounded Wye Windings\nBushing kv Test\n Bushing (C1) (center conductor energized)\nBushing (C2)\nThe limit of test voltage is 500 volt or less\n\n\nIndicate the values between temperatures and (%Tg \nδ) for \nAutotransformer (manufacture tests)\nThe limit of % D.F or (%Tg δ) from (0.1 up to 0.7 at temp 20 c\nLocation: Equipment \nDesignation: Tested by: Signature: \nTest Date:",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines the high voltage tests procedure P1, which must be performed an annually bases as indicated \nby Y1 in the title block.\nThe first draft initiated and tested by eng. \nHussein Mahrous Mohamed, accepted by eng. \nMohamed Diaa El Din El Gabalwy \ngeneral director, approved by eng. Abd Elkreem Abu Zaid: head sector of Power Station, and certified by eng Kamel \nRagheb Hakim : HPGC QC general director and MMS coordinator\nTests\nInsulation resistance\nMeasuring the turns ratio\nMeasuring of D.C resistance\nHigh voltage tests\nInsulation resistance\nMeasuring the turns ratio\nMeasuring of D.C resistance\nHigh voltage tests\nInsulation Resistance Test\nSafety Precautions\nWork permit must be issued\nSafety fence with caution marks surrounding the work area is required\nSwitch off the transformer\nSeparate the primary circuits of transformer from both sides\nSwitch off the disconnect\nSwitch on the earth from both sides\nThe terminals of high and low winding must be shorted\nWork permit must be issued\nSafety fence with caution marks surrounding the work area is required\nWear \n standard personal safety and healthy equipment as helmet, safety shoes, rubber gloves, ... etc.\nSwitch off the transformer\nSeparate the primary circuits of transformer from both sides\nSwitch off the disconnect\nSwitch on the earth from both sides\nThe terminals of high and low winding must be shorted\nTools and Equipment\nMegger: isol 5003, Range 500 & 1000 & 2500 & 5000 v\nAC supply 220 V\nTwo voltmeters V1& V2\nDC battery 12 v heavy duty , circuit breaker , ammeter 0--12 amp & variable \n resistance.\nDoble (M4000)\nMicrohmmeter CA 10\nMegger: isol 5003, Range 500 & 1000 & 2500 & 5000 v\nAC supply 220 V\nTwo voltmeters V1& V2\nDC battery 12 v heavy duty , circuit breaker , ammeter 0--12 amp & variable \n resistance.\nDoble (M4000)\nMicrohmmeter CA 10\nWork to be Carried Out\nConnect the line terminal of megger to high winding and \n earthed the low winding read R 15 & R 60 in (MΩ) \n of H.W\nRepeat the item 1 to low winding \n and earthed the high winding read R15 & R 60 in (MΩ)\nTest | Energized | R 15 (MΩ) | R 60 (MΩ)\n1 | HV-TANK | 5100 | 6450\n2 | LV-TANK | 4860 | 6250\n3 | HV+LV---TANK | 6700 | 8600\nTest | Energized | R 15 (MΩ) | R 60 (MΩ)\n1 | HV-TANK |  | \n2 | LV-TANK |  | \n3 | HV+LV---TANK |  | \nEquipment's & S.N | Temp. | R15/R60 | Temp. | R15/R60\n13T-A 70397 | 32 | 380/650 | 57 | 140/210\n13T-B 72671 | 41 | 320/590 | 64 | 130/200\n13T-C156803 | 15 | 5100/6450 | -- | --\n14T-A69579 | 36 | 290/550 | 65 | 150/230\n14T-B67543 | 32 | 290/550 | 64 | 120/152\n14T-C70395 | 38 | 250/420 | 64 | 130/230\nEquipment's & S.N | Temp. | R15/R60 | Temp. | R15/R60\n13T-A 70397 |  |  |  | \n13T-B 72671 |  |  |  | \n13T-C156803 |  |  |  | \n14T-A69579 |  |  |  | \n14T-B67543 |  |  |  | \n14T-C70395 |  |  |  | \nConnect (cable H) to high winding \n - (H1 --- to A) & (H0 --- to neutral X)\nConnect (cable X) to low winding \n --- (X1 --- to --- a1,a2) & (X0 --- to ... x1,x2)\nOperate the device & chose the \n program ... (transformer test & configuartion single phase & name plate and \n start)\nThe ratio measured directly from \n device and recorded in chart\nUse external a.c supply 220 v and \n two voltmeter v1 & v2\n connect AC supply to high winding (A&X) read (V1) and connect voltmeter (v2) \n to low winding (a&x) read (v2) then\nCalculate the ratio of phase (A) \n = V1/V2 and repeat the same sequence to phase B and C\nOLTC \n Pos. | HV - MV | MV - LV\nMeasured | Rated | Measured | Rated\nV.R | Minimum | Maximum | V.R | Minimum | Maximum\n1 | 3.3785 | 3.357 | 3.391 | 5.6796 | 5.649 | 5.705\n2 | 3.4380 | 3.416 | 3.451 | 5.5426 | 5.511 | 5.566\n3 | 3.5067 | 3.485 | 3.520 | 5.3870 | 5.358 | 5.412\n4 | 3.5730 | 3.551 | 3.587 | 5.2482 | 5.220 | 5.272\n5 | 3.6429 | 3.620 | 3.657 | 5.1098 | 5.082 | 5.133\n6 | 3.7252 | 3.702 | 3.739 | 4.956 | 4.929 | 4.979\n7-8-9 | 3.8034 | 3.780 | 3.818 | 4.8168 | 4.791 | 4.839\n10 | 3.8868 | 3.862 | 3.901 | 4.6789 | 4.654 | 4.700\n11 | 3.9846 | 3.960 | 3.999 | 4.5250 | 4.500 | 4.546\n12 | 4.0786 | 4.053 | 4.094 | 4.3870 | 4.363 | 4.407\n13 | 4.1788 | 4.153 | 4.195 | 4.2481 | 4.225 | 4.267\n14 | 4.2984 | 4.272 | 4.315 | 4.0940 | 4.072 | 4.113\n15 | 4.4153 | 4.386 | 4.431 | 3.9558 | 3.934 | 3.974\nHV-LV\n7 | 18.344 | 18.201 | 18.384 | \nOLTC \n Pos. | HV - MV | MV - LV\nMeasured | Rated | Measured | Rated\nV.R | Minimum | Maximum | V.R | Minimum | Maximum\n1 |  | 3.357 | 3.391 |  | 5.649 | 5.705\n2 |  | 3.416 | 3.451 |  | 5.511 | 5.566\n3 |  | 3.485 | 3.520 |  | 5.358 | 5.412\n4 |  | 3.551 | 3.587 |  | 5.220 | 5.272\n5 |  | 3.620 | 3.657 |  | 5.082 | 5.133\n6 |  | 3.702 | 3.739 |  | 4.929 | 4.979\n7-8-9 |  | 3.780 | 3.818 |  | 4.791 | 4.839\n10 |  | 3.862 | 3.901 |  | 4.654 | 4.700\n11 |  | 3.960 | 3.999 |  | 4.500 | 4.546\n12 |  | 4.053 | 4.094 |  | 4.363 | 4.407\n13 |  | 4.153 | 4.195 |  | 4.225 | 4.267\n14 |  | 4.272 | 4.315 |  | 4.072 | 4.113\n15 |  | 4.386 | 4.431 |  | 3.934 | 3.974\nHV-LV\n7 |  | 18.201 | 18.384 | \nMeasuring DC Resistance\nNormal Method:\nThe equipments as shown in the diagram\nDC battery 12 v heavy duty & circuit breaker & ammeter 0 --- 12 amp. Variable \nresistance and voltammeter. Connect the circuit as shown. The potential cables \nmust always be connected inside of the current cable and inject the current \napproximate to 2 amp. or less in the winding still the current stable and read I \n& Vb then calculate R d.c = V/I\nUsed equipment: (microhmmeter CA 10)connect the cable to the \nwinding need to be measured (plug in the heavy current cable and connect the 2 \nlarge clamps together. Current and potential cable) then read R d.c directly \nfrom device\nUsed equipment: (microhmmeter CA 10)connect the cable to the \nwinding need to be measured (plug in the heavy current cable and connect the 2 \nlarge clamps together. Current and potential cable) then read R d.c directly \nfrom device\nThe results of DC resistance (Ω) in \ntable (4&5) at temp. 18c\nOLTC \n pos. 7-8-9 | Winding HV \n A-X | LV1\n a1 - x1 | LV2\n a2 - x2\nR d.c (Ω) | 0.765 | 0.004525 | 0.004525\nOLTC \n pos. 7-8-9 | Winding HV \n A-X | LV1\n a1 - x1 | LV2\n a2 - x2\nR d.c (Ω) |  |  | \nOLTC\n Pos. | Winding -- MV \n (AM--- X)\nI | U | R d.c\nAmp. | V | Ohm\n1 | 2.0 | 0.1410 | 0.0705\n2 | 2.0 | 0.1380 | 0.0690\n3 | 2.0 | 0.1350 | 0.0675\n4 | 2.0 | 0.1330 | 0.0665\n5 | 2.0 | 0.01304 | 0.0652\n6 | 2.0 | 0.1280 | 0.0640\n7-8-9 | 2.0 | 0.1256 | 0.0628\n10 | 2.0 | 0.1280 | 0.0640\n11 | 2.0 | 0.1304 | 0.0652\n12 | 2.0 | 0.1330 | 0.0665\n13 | 2.0 | 0.1350 | 0.0675\n14 | 2.0 | 0.1380 | 0.0690\n15 | 2.0 | 0.1410 | 0.0705\nOLTC\n Pos. | Winding -- MV \n (AM--- X)\nI | U | R d.c\nAmp. | V | Ohm\n1 |  |  | \n2 |  |  | \n3 |  |  | \n4 |  |  | \n5 |  |  | \n6 |  |  | \n7-8-9 |  |  | \n10 |  |  | \n11 |  |  | \n12 |  |  | \n13 |  |  | \n14 |  |  | \n15 |  |  | \nEquipment's\n & S.N | Temp. | Rd.c\n13-T-A\n 70397 | 36 | 0.730\n13 T-B \n 72681 | 35 | 0.725\n13 T-C \n 156803 | 18 | 0.765\n14 T-A \n 69579 | 35 | 0.700\n14 T-B\n 67543 | 35 | 0.730\n14 T-C\n 70395 | 38 | 0.722\nEquipment's\n & S.N | Temp. | Rd.c\n13-T-A\n 70397 |  | \n13 T-B \n 72681 |  | \n13 T-C \n 156803 |  | \n14 T-A \n 69579 |  | \n14 T-B\n 67543 |  | \n14 T-C\n 70395 |  | \nIndicate the values between temperatures and DC resistance in (Ω) \nfor HW (A--X) of autotransformers (manufacture reading)\nHigh voltage test\nMeasuring of Dissipation Factor (% \np.f) & Capacitance of two winding autotransformer\nUsing equipment: \n(doble M 4000)\nProcedures\nOperate the equipment doble M 4000. \nunit control\nFrom the program chose...(two winding \ntransformer)\nRecord technical data of transformer\nRecord test KV for winding and \nbushing\nThe terminals of high and low winding \nshorted\nConnect HV cable to high voltage \nwinding\nConnect LV lead (read) to low voltage \nwinaing\nConnect Ground cable (green) to the \ntank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and \ndevice\nStart the test (overall test) for H.W \n& L.W and bushing\nOperate the equipment doble M 4000. \nunit control\nFrom the program chose...(two winding \ntransformer)\nRecord technical data of transformer\nRecord test KV for winding and \nbushing\nThe terminals of high and low winding \nshorted\nConnect HV cable to high voltage \nwinding\nConnect LV lead (read) to low voltage \nwinaing\nConnect Ground cable (green) to the \ntank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and \ndevice\nStart the test (overall test) for H.W \n& L.W and bushing\nTest Procedure for two winding \nautotransformer\nThe standard doble test procedure for \ntwo winding transformer is outline in figure\nTest | Test | \nno | mode | Energize | Ground | Guard | UST | Measured\n1 | GST | High | Tert | --- | --- | CH+CHT\n2 | GST | High | --- | Tert | --- | CH\n3 | GST | Tert | High | --- | --- | CT+CHT\n4 | GST | Tert | --- | High | --- | CT\n5 | UST | High | --- | --- | Terth | CHT\n6 | UST | Tert | --- | --- | High | CHT\nRecord overall test results in the computer and the copy are \nattached in the following page\nTest Voltages\nTested of insulating liquid-filled power and distribution \ntransformers. use the standard\nANSI/IEEE C 57.12.00 - 1987. American National Standard\ngeneral requirements for liquid - immersed distribution, power, and regulating \ntransformers\nTransformer winding rating\n L to L kv | test voltage\n L to G kv\n12 and above | 10\n5.04 to 8.72 | 5\n2.4 to 4.8 | 2\nBelow 2.4 | 1\nTested of insulating liquid - filled power and distribution \ntransformers, in the absence of insulating liquid and under atmospheric air / \ngas pressure (not under vacuum)\nIngeneral the test voltage should be limited to 5% to 10% of the voltage \nrecommended for transformer insulation power - factor tests in standard ANSI / \nIEEE C57.12.00 - 1987, American National Standard\nTransformer winding rating | Test voltage\nDelta and ungrounded Wye Windings\n(L to L kv) | (L to G kv)\n161 and above | 10\n115 to 138 | 5\n34 to 69 | 2\n12 to 25 | 1\nbelow | 0.5\nBushing kv Test\n Bushing (C1) (center conductor energized)\nBushing rating (KV) | Test voltage (KV)\n8.7 | 8\n5 | 5\n4.3 | 4\n1.2 | 1\nTested of insulating liquid-filled power and distribution \ntransformers. use the standard\nANSI/IEEE C 57.12.00 - 1987. American National Standard\ngeneral requirements for liquid - immersed distribution, power, and regulating \ntransformers\nTested of insulating liquid - filled power and distribution \ntransformers, in the absence of insulating liquid and under atmospheric air / \ngas pressure (not under vacuum)\nIngeneral the test voltage should be limited to 5% to 10% of the voltage \nrecommended for transformer insulation power - factor tests in standard ANSI / \nIEEE C57.12.00 - 1987, American National Standard\nBushing kv Test\n Bushing (C1) (center conductor energized)\nBushing (C2)\nThe limit of test voltage is 500 volt or less\nEquipment's & S.N | Temp. | (%Tg δ) | Temp. | (%Tg δ)\n13T-A\n 70397 | 32 | 0.3 | 57 | 0.4\n13T-B\n 72618 | 41 | 0.3 | 64 | 0.6\n13T-C\n 156803 | 15 | 0.2 | -- | --\n14T-A\n 69579 | 35 | 0.300 | 65 | 0.6\n14T-B\n 67543 | 32 | 0.3 | 64 | 0.7\n14T-C\n 70395 | 38 | 0.4 | 64 | 0.8\nEquipment's & S.N | Temp. | (%Tg δ) | Temp. | (%Tg δ)\n13T-A\n 70397 |  |  |  | \n13T-B\n 72618 |  |  |  | \n13T-C\n 156803 |  |  |  | \n14T-A\n 69579 |  |  |  | \n14T-B\n 67543 |  |  |  | \n14T-C\n 70395 |  |  |  | \nIndicate the values between temperatures and (%Tg \nδ) for \nAutotransformer (manufacture tests)\nThe limit of % D.F or (%Tg δ) from (0.1 up to 0.7 at temp 20 c\nLocation: Equipment \nDesignation: Tested by: Signature: \nTest Date:",
  "text_truncated": false,
  "links": [],
  "images": [

@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Interlocking Logic System \n for 66kv"
-  },
-  {
-   "type": "paragraph",
-   "text": "MERLIN GERIN - FRANCE"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -105,21 +99,62 @@
    "text": "( K \n)"
   },
   {
-   "type": "paragraph",
-   "text": "QEA1QE1\n QE2\n [ (QF x QL3 xQL2) \n + (K14QL1 x K14QF x"
-  },
-  {
-   "type": "paragraph",
-   "text": "K14QL2 \n x K14QLB x QL2 x QF x QL3) ] x (K14QLA + K14QLA)"
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x \n ( QL2 + QL2 ) x ( QL3 + QL3 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA1QE1\n QE2\n [ (QF x QL3 xQL2) \n + (K14QL1 x K14QF x\n K14QL2 \n x K14QLB x QL2 x QF x QL3) ] x (K14QLA + K14QLA)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB1QE1QE2 \n [ (QF QL3QL1) \n + ( K14QLB x K14QL1 x\n K14QF x K14QL2 x QL1 x QF x \n QL3 )] x (K14QLA + K14QLA)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1\n QL2 \n QL3",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1\n QL2 \n QL3",
+     ""
+    ],
+    [
+     "QL3",
+     "O/C",
+     "IF",
+     "QF \n QE1 x QE2 QE3 \n ( QL1 + QL2)",
+     ""
+    ],
+    [
      "QE3",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL3 \n NO VOLTAGE",
      ""
     ]
    ],
@@ -130,80 +165,166 @@
    "text": "K 11"
   },
   {
-   "type": "paragraph",
-   "text": "QEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x"
-  },
-  {
-   "type": "paragraph",
-   "text": "QEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QLF x"
+   "type": "table",
+   "rows": [
+    [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 \n )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x\n K14QLB x QL2 x QF ) ] x ( \n K14QLA + K14QLA) +F04QE6 (220KV)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QLF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLA + K14QLA) +F04QE6 (220KV)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1\n QL2 \n F04QL6 (220KV)",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1\n QL2 \n F04QL6 (220KV)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "K 12"
   },
   {
-   "type": "paragraph",
-   "text": "QEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x"
+   "type": "table",
+   "rows": [
+    [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( \n QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x\n K14QLB x QL2 x QF ) ] x ( \n K14QLA + K14QLA) +F04QE6 (220KV)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLA + K14QLA) +F04QE6 (220KV)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 \n QL2 F05QL6 (220KV)",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 \n QL2 F05QL6 (220KV)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "QEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QF x"
-  },
-  {
-   "type": "paragraph",
-   "text": "Location:"
-  },
-  {
-   "type": "paragraph",
-   "text": "PTW ''Work Order No.'': \n Equipment Designation:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Tested by:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Test Date: \nSignature:"
-  },
-  {
-   "type": "paragraph",
-   "text": "LOGIC KEY"
-  },
-  {
-   "type": "paragraph",
-   "text": "AND, QF: CB"
-  },
-  {
-   "type": "paragraph",
-   "text": "+ OR \n QL: DS QE: ES"
-  },
-  {
-   "type": "paragraph",
-   "text": "O \n Opening Coil"
-  },
-  {
-   "type": "paragraph",
-   "text": "C \n Closing Coil"
-  },
-  {
-   "type": "paragraph",
-   "text": "QL \n Apparatus Open"
-  },
-  {
-   "type": "paragraph",
-   "text": "QL Apparatus \n Close"
+   "type": "table",
+   "rows": [
+    [
+     "Location: \nPTW ''Work Order No.'': \n Equipment Designation:\nTested by: \nTest Date: \nSignature:",
+     "LOGIC KEY\n AND, QF: CB\n + OR \n QL: DS QE: ES\n O \n Opening Coil\n C \n Closing Coil\n QL \n Apparatus Open\n QL Apparatus \n Close\n O/C Coil \n Open to Close\n OR \n Coil \n Close to Open"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "K 13 (Inter \nLocking Logic)"
   },
   {
-   "type": "paragraph",
-   "text": "QEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x"
-  },
-  {
-   "type": "paragraph",
-   "text": "QEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QF x"
+   "type": "table",
+   "rows": [
+    [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( \n QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x\n K14QLB x QL2 x QF ) ] x ( \n K14QLA + K14QLA) \n (Interlock low voltage side)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLA + K14QLA) \n (Interlock low voltage side)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 \n QL2 (Interlock low \n voltage side)",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 \n QL2 (Interlock low \n voltage side)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -213,65 +334,92 @@
    "type": "table",
    "rows": [
     [
+     "Equip.",
+     "Position",
      "",
-     "",
-     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QF\n QE1x \n QE2 x QEA1 x QEA2"
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
      "QF\n QE1x \n QE2 x QEB1 x QEB2",
      ""
     ],
     [
      "QLA",
-     "",
-     "",
-     ""
+     "O/C",
+     "IF",
+     "QEA1 \n X QEA2 X \n (K01QL1 X K02QL1 X \n K03QL1 X K04QL1 X \n K05QL1X\n K06QL1 X \n K07QL1 X K08QL1 X \n K09QL1 X K10QL1 X \n K11QL1 X K12QL1X\n K13QL1) + (K15QL1 X \n K16QL1 X K17QL1 X\n K18QL1 X \n K19QL1 X K20QL1\n X \n K21QL1 X K22QL1 X K23QL1 X \n K24QL1XK25QL1XK26QL1XK27QL1)"
     ],
     [
      "QLB",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QEB1 \n X \n QEB2 X \n (K01QL2 X \n K02QL2X \n K03QL2 X \n K04QL2 X \n K05QL2X\n K06QL2X \n K07QL2 X \n K08QL2 X \n K09QL2XK10QL2XK11QL2XK12QL2X\n K13QL2) + (K15QL2 \n X \n K16QL2 X \n K17QL2 X \n K18QL2 \n X \n K19QL2X \n K20QL2\n X \n K21QL2X \n K22QL2 X K23QL2X \n K24QL2XK25QL2XK26QL2XK27QL2)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 \n QL2",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 \n QL2",
      ""
     ],
     [
      "QF",
      "C",
-     "",
-     "",
+     "IF",
+     "( QL1 + QL1 ) x ( \n QL2 + QL2 )",
      ""
     ],
     [
      "QF",
      "TRIP",
      "IF",
-     "",
+     "(K01QL1+ K01QL2)\n (K02QL1+K02QL2) \n (K03QL1+K03QL2) (K04QL1+ K04QL2)\n (K05QL1+K05QL2) \n (K06QL1+K06QL2) (K07QL1+K07QL2)\n (K08QL1+K08QL2) \n (K09QL1+K09QL2) (K10QL1+K10QL2)\n (K11QL1+K11QL2) \n (K12QL1+K12QL2) (K13QL1+K13QL2)\n (K14QL1+K14QL2) \n (K15QL1+K15QL2) (K16QL1+K16QL2)\n (K17QL1+K17QL2) \n (K18QL1+K18QL2) (K19QL1+K19QL2)\n (K20QL1+K20QL2) \n (K21QL1+K21QL2) (K22QL1+K22QL2)\n (K23QL1+K23QL2) \n (K24QL1+K24QL2) (K25QL1+K25QL2)\n (K26QL1+K26QL2) \n (K27QL1+K27QL2)",
      ""
     ],
     [
      "QEA1",
      "C",
-     "",
-     "",
+     "IF",
+     "QLA QL1 \n K01QLA K02QL1 \n K03QL1 K04QL1\n K05QL1 \n K06QL1 K07QL1\n K08QL1 K09QL1\n K10QL1 \n K11QL1 K12QL1\n K13QL1",
      ""
     ],
     [
      "QEB1",
      "O/C",
-     "",
-     "",
+     "IF",
+     "QLB \n K01QL2 K02QL2\n K03QL2 K04QL2\n K05QL2 K06QL2\n K07QL2 K08QL2\n K09QL2 K10QL2\n K11QL2 K12QL2\n K13QL2",
      ""
     ],
     [
      "QEA2",
      "O/C",
-     "",
-     "",
+     "IF",
+     "QLA K15QL1\n K16QL1 K17QL1\n K18QL1 K19QL1\n K20QL1 K21QL1\n K22QL1 K23QL1\n K24QL1 K25QL1\n K26QL1 K27QL1",
      ""
     ],
     [
      "QEB2",
      "O/C",
-     "",
-     "",
+     "IF",
+     "QLB\n QL2K15QL2\n K16QL2 K17QL2\n K18QL2 K19QL2\n K20QL2 K21QL2\n K22QL2 K23QL2\n K24QL2 \n K25QL2 K26QL2 \n K27QL2",
      ""
     ]
    ],
@@ -282,36 +430,156 @@
    "text": "K 15"
   },
   {
-   "type": "paragraph",
-   "text": "QEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x"
-  },
-  {
-   "type": "paragraph",
-   "text": "QEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x"
+   "type": "table",
+   "rows": [
+    [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( \n QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL2 x QF ) ] x ( \n K14QLB+K14QLB) X \n (Interlock low voltage side)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLB + K14QLB) X \n (Interlock low voltage side)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 \n QL2 (Interlock low \n voltage side)",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 \n QL2 (Interlock low \n voltage side)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "K 16 (Inter \nLocking Logic)"
   },
   {
-   "type": "paragraph",
-   "text": "QEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x"
-  },
-  {
-   "type": "paragraph",
-   "text": "QEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x"
+   "type": "table",
+   "rows": [
+    [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( \n QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL2 x QF ) ] x ( \n K14QLB+K14QLB) X \n F07QE6 \n (220KV)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLB + K14QLB) X \n F07QE6 \n (220KV)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 \n QL2 F07QL6 \n ( 220 KV )",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 \n QL2 F07QL6 \n ( 220 KV )",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "K 17"
   },
   {
-   "type": "paragraph",
-   "text": "QEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x"
-  },
-  {
-   "type": "paragraph",
-   "text": "QEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x"
+   "type": "table",
+   "rows": [
+    [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( \n QL2 + QL2 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL2 x QF ) ] x ( \n K14QLB+K14QLB) X \n F08QE6 \n (220KV)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLB + K14QLB) X \n F08QE6 \n (220KV)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1\n x QL2 F08QE6 \n ( 220 KV )",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2\n F08QE6 \n ( 220 KV )",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -322,36 +590,61 @@
    "text": "( K )"
   },
   {
-   "type": "paragraph",
-   "text": "QEA2QE1X QE2\n [ (QF x QL3 x QL2) \n + (K14QLA x K14QL1 x"
-  },
-  {
-   "type": "paragraph",
-   "text": "_____ \n ______ ___- __ \n ___ ______"
-  },
-  {
-   "type": "paragraph",
-   "text": "K14QF x K14QL2 x QL2 \n X QF x QL3) ] x ( \n K14QLB+K14QLB)"
-  },
-  {
-   "type": "paragraph",
-   "text": "QEB2QE1X QE2\n [ (QF x QL3 x QL1) \n + (K14QLA x K14QL1 x"
-  },
-  {
-   "type": "paragraph",
-   "text": "_____ \n ______ ___- __ \n ___ ______"
-  },
-  {
-   "type": "paragraph",
-   "text": "K14QF x K14QL2 x QL1 \n X QF x QL3) ] x ( \n K14QLB+K14QLB)"
-  },
-  {
    "type": "table",
    "rows": [
     [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QF",
+     "C",
+     "IF",
+     "( QL1 + QL1 ) x ( \n QL2 + QL2 ) x ( QL3 + QL3 )",
+     ""
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "QEA2QE1X QE2\n [ (QF x QL3 x QL2) \n + (K14QLA x K14QL1 x\n _____ \n ______ ___- __ \n ___ ______\n K14QF x K14QL2 x QL2 \n X QF x QL3) ] x ( \n K14QLB+K14QLB)",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QEB2QE1X QE2\n [ (QF x QL3 x QL1) \n + (K14QLA x K14QL1 x\n _____ \n ______ ___- __ \n ___ ______\n K14QF x K14QL2 x QL1 \n X QF x QL3) ] x ( \n K14QLB+K14QLB)",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1\n x QL2 QL3",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1\n x QL2 QL3",
+     ""
+    ],
+    [
+     "QL3",
+     "O/C",
+     "IF",
+     "QF QE1\n QE2 QE3 x ( \n QL1 + QL2 \n )",
+     ""
+    ],
+    [
      "QE3",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QL3\n NO VOLTAGE",
      ""
     ]
@@ -359,7 +652,7 @@
    "truncated_rows": 0
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\n Interlocking Logic System \n for 66kv\nMERLIN GERIN - FRANCE\nIntroduction\nThis document outlines the \nequipment inspection I1, which must be performed \non an annually bases \nas indicated by Y1 in the title block\nThe first draft initiated \nby eng. Abd Allah Elsayed Mohamed, tested by eng Abdel Latif Ahmed, \nrevised by EDEPC quality control eng Adel Abdel Qader El Nagar, \naccepted by eng El Sayed Attiah Abd El Maksood general director, and approved \nby eng. Fathy Mahmoud Ragb: head sector of Talkha PS.\nThis \ndocument accepted by eng. Samir Abd El Gilil; EDEPC inspection & quality control \ngeneral director, MPIS coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC admin & financial inspection & \nquality control's general director and supervisor of inspection & quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued and qualified maintanance staff should carry the \n suitable safty category\nSafty fence with caution marks surrounding the work area is required\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nShut down the equipment under testing.\nA work permit must be issued and qualified maintanance staff should carry the \n suitable safty category\nSafty fence with caution marks surrounding the work area is required\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nShut down the equipment under testing.\nTools and Equipment\nComplete tool kit of screw drivers and common keys.\nDigital multimeter.\nWork to be Carried Out\nTest the Interlocking System according to the attached logic diagram.\n( K01 → K10 ) \nInter \nLocking Logic\n( K \n)\nQEA1QE1\n QE2\n [ (QF x QL3 xQL2) \n + (K14QL1 x K14QF x\nK14QL2 \n x K14QLB x QL2 x QF x QL3) ] x (K14QLA + K14QLA)\n\nK 11\nQEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x\nQEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QLF x\nK 12\nQEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x\nQEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QF x\nLocation:\nPTW ''Work Order No.'': \n Equipment Designation:\nTested by:\nTest Date: \nSignature:\nLOGIC KEY\nAND, QF: CB\n+ OR \n QL: DS QE: ES\nO \n Opening Coil\nC \n Closing Coil\nQL \n Apparatus Open\nQL Apparatus \n Close\nK 13 (Inter \nLocking Logic)\nQEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x\nQEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QF x\nK 14\n\nK 15\nQEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x\nQEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x\nK 16 (Inter \nLocking Logic)\nQEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x\nQEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x\nK 17\nQEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x\nQEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x\n( K18 → K27 )\n( K )\nQEA2QE1X QE2\n [ (QF x QL3 x QL2) \n + (K14QLA x K14QL1 x\n_____ \n ______ ___- __ \n ___ ______\nK14QF x K14QL2 x QL2 \n X QF x QL3) ] x ( \n K14QLB+K14QLB)\nQEB2QE1X QE2\n [ (QF x QL3 x QL1) \n + (K14QLA x K14QL1 x\n_____ \n ______ ___- __ \n ___ ______\nK14QF x K14QL2 x QL1 \n X QF x QL3) ] x ( \n K14QLB+K14QLB)\n",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines the \nequipment inspection I1, which must be performed \non an annually bases \nas indicated by Y1 in the title block\nThe first draft initiated \nby eng. Abd Allah Elsayed Mohamed, tested by eng Abdel Latif Ahmed, \nrevised by EDEPC quality control eng Adel Abdel Qader El Nagar, \naccepted by eng El Sayed Attiah Abd El Maksood general director, and approved \nby eng. Fathy Mahmoud Ragb: head sector of Talkha PS.\nThis \ndocument accepted by eng. Samir Abd El Gilil; EDEPC inspection & quality control \ngeneral director, MPIS coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC admin & financial inspection & \nquality control's general director and supervisor of inspection & quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued and qualified maintanance staff should carry the \n suitable safty category\nSafty fence with caution marks surrounding the work area is required\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nShut down the equipment under testing.\nA work permit must be issued and qualified maintanance staff should carry the \n suitable safty category\nSafty fence with caution marks surrounding the work area is required\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nShut down the equipment under testing.\nTools and Equipment\nComplete tool kit of screw drivers and common keys.\nDigital multimeter.\nWork to be Carried Out\nTest the Interlocking System according to the attached logic diagram.\n( K01 → K10 ) \nInter \nLocking Logic\n( K \n)\nEquip. | Position |  | Conditions | Test \n Result\nQF | C | IF | ( QL1 + QL1 ) x \n ( QL2 + QL2 ) x ( QL3 + QL3 ) | \nQL1 | O/C | IF | QEA1QE1\n QE2\n [ (QF x QL3 xQL2) \n + (K14QL1 x K14QF x\n K14QL2 \n x K14QLB x QL2 x QF x QL3) ] x (K14QLA + K14QLA) | \nQL2 | O/C | IF | QEB1QE1QE2 \n [ (QF QL3QL1) \n + ( K14QLB x K14QL1 x\n K14QF x K14QL2 x QL1 x QF x \n QL3 )] x (K14QLA + K14QLA) | \nQE1 | O/C | IF | QL1\n QL2 \n QL3 | \nQE2 | O/C | IF | QL1\n QL2 \n QL3 | \nQL3 | O/C | IF | QF \n QE1 x QE2 QE3 \n ( QL1 + QL2) | \nQE3 | O/C | IF | QL3 \n NO VOLTAGE | \nK 11\nEquip. | Position |  | Conditions | Test \n Result\nQF | C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 \n ) | \nQL1 | O/C | IF | QEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x\n K14QLB x QL2 x QF ) ] x ( \n K14QLA + K14QLA) +F04QE6 (220KV) | \nQL2 | O/C | IF | QEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QLF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLA + K14QLA) +F04QE6 (220KV) | \nQE1 | O/C | IF | QL1\n QL2 \n F04QL6 (220KV) | \nQE2 | O/C | IF | QL1\n QL2 \n F04QL6 (220KV) | \nK 12\nEquip. | Position |  | Conditions | Test \n Result\nQF | C | IF | ( QL1 + QL1 ) x ( \n QL2 + QL2 ) | \nQL1 | O/C | IF | QEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x\n K14QLB x QL2 x QF ) ] x ( \n K14QLA + K14QLA) +F04QE6 (220KV) | \nQL2 | O/C | IF | QEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLA + K14QLA) +F04QE6 (220KV) | \nQE1 | O/C | IF | QL1 \n QL2 F05QL6 (220KV) | \nQE2 | O/C | IF | QL1 \n QL2 F05QL6 (220KV) | \nLocation: \nPTW ''Work Order No.'': \n Equipment Designation:\nTested by: \nTest Date: \nSignature: | LOGIC KEY\n AND, QF: CB\n + OR \n QL: DS QE: ES\n O \n Opening Coil\n C \n Closing Coil\n QL \n Apparatus Open\n QL Apparatus \n Close\n O/C Coil \n Open to Close\n OR \n Coil \n Close to Open\nK 13 (Inter \nLocking Logic)\nEquip. | Position |  | Conditions | Test \n Result\nQF | C | IF | ( QL1 + QL1 ) x ( \n QL2 + QL2 ) | \nQL1 | O/C | IF | QEA1QE1\n QE2\n [ (QF x QL2) \n + (K14QL1 x K14QF x K14QL2 x\n K14QLB x QL2 x QF ) ] x ( \n K14QLA + K14QLA) \n (Interlock low voltage side) | \nQL2 | O/C | IF | QEB1QE1\n QE2\n [ (QF x QL1) \n + (K14QLB x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLA + K14QLA) \n (Interlock low voltage side) | \nQE1 | O/C | IF | QL1 \n QL2 (Interlock low \n voltage side) | \nQE2 | O/C | IF | QL1 \n QL2 (Interlock low \n voltage side) | \nK 14\nEquip. | Position |  | Conditions | Test \n Result\nQL1 | O/C | IF | QF\n QE1x \n QE2 x QEA1 x QEA2\nQL2 | O/C | IF | QF\n QE1x \n QE2 x QEB1 x QEB2 | \nQLA | O/C | IF | QEA1 \n X QEA2 X \n (K01QL1 X K02QL1 X \n K03QL1 X K04QL1 X \n K05QL1X\n K06QL1 X \n K07QL1 X K08QL1 X \n K09QL1 X K10QL1 X \n K11QL1 X K12QL1X\n K13QL1) + (K15QL1 X \n K16QL1 X K17QL1 X\n K18QL1 X \n K19QL1 X K20QL1\n X \n K21QL1 X K22QL1 X K23QL1 X \n K24QL1XK25QL1XK26QL1XK27QL1)\nQLB | O/C | IF | QEB1 \n X \n QEB2 X \n (K01QL2 X \n K02QL2X \n K03QL2 X \n K04QL2 X \n K05QL2X\n K06QL2X \n K07QL2 X \n K08QL2 X \n K09QL2XK10QL2XK11QL2XK12QL2X\n K13QL2) + (K15QL2 \n X \n K16QL2 X \n K17QL2 X \n K18QL2 \n X \n K19QL2X \n K20QL2\n X \n K21QL2X \n K22QL2 X K23QL2X \n K24QL2XK25QL2XK26QL2XK27QL2) | \nQE1 | O/C | IF | QL1 \n QL2 | \nQE2 | O/C | IF | QL1 \n QL2 | \nQF | C | IF | ( QL1 + QL1 ) x ( \n QL2 + QL2 ) | \nQF | TRIP | IF | (K01QL1+ K01QL2)\n (K02QL1+K02QL2) \n (K03QL1+K03QL2) (K04QL1+ K04QL2)\n (K05QL1+K05QL2) \n (K06QL1+K06QL2) (K07QL1+K07QL2)\n (K08QL1+K08QL2) \n (K09QL1+K09QL2) (K10QL1+K10QL2)\n (K11QL1+K11QL2) \n (K12QL1+K12QL2) (K13QL1+K13QL2)\n (K14QL1+K14QL2) \n (K15QL1+K15QL2) (K16QL1+K16QL2)\n (K17QL1+K17QL2) \n (K18QL1+K18QL2) (K19QL1+K19QL2)\n (K20QL1+K20QL2) \n (K21QL1+K21QL2) (K22QL1+K22QL2)\n (K23QL1+K23QL2) \n (K24QL1+K24QL2) (K25QL1+K25QL2)\n (K26QL1+K26QL2) \n (K27QL1+K27QL2) | \nQEA1 | C | IF | QLA QL1 \n K01QLA K02QL1 \n K03QL1 K04QL1\n K05QL1 \n K06QL1 K07QL1\n K08QL1 K09QL1\n K10QL1 \n K11QL1 K12QL1\n K13QL1 | \nQEB1 | O/C | IF | QLB \n K01QL2 K02QL2\n K03QL2 K04QL2\n K05QL2 K06QL2\n K07QL2 K08QL2\n K09QL2 K10QL2\n K11QL2 K12QL2\n K13QL2 | \nQEA2 | O/C | IF | QLA K15QL1\n K16QL1 K17QL1\n K18QL1 K19QL1\n K20QL1 K21QL1\n K22QL1 K23QL1\n K24QL1 K25QL1\n K26QL1 K27QL1 | \nQEB2 | O/C | IF | QLB\n QL2K15QL2\n K16QL2 K17QL2\n K18QL2 K19QL2\n K20QL2 K21QL2\n K22QL2 K23QL2\n K24QL2 \n K25QL2 K26QL2 \n K27QL2 | \nK 15\nEquip. | Position |  | Conditions | Test \n Result\nQF | C | IF | ( QL1 + QL1 ) x ( \n QL2 + QL2 ) | \nQL1 | O/C | IF | QEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL2 x QF ) ] x ( \n K14QLB+K14QLB) X \n (Interlock low voltage side) | \nQL2 | O/C | IF | QEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLB + K14QLB) X \n (Interlock low voltage side) | \nQE1 | O/C | IF | QL1 \n QL2 (Interlock low \n voltage side) | \nQE2 | O/C | IF | QL1 \n QL2 (Interlock low \n voltage side) | \nK 16 (Inter \nLocking Logic)\nEquip. | Position |  | Conditions | Test \n Result\nQF | C | IF | ( QL1 + QL1 ) x ( \n QL2 + QL2 ) | \nQL1 | O/C | IF | QEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL2 x QF ) ] x ( \n K14QLB+K14QLB) X \n F07QE6 \n (220KV) | \nQL2 | O/C | IF | QEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLB + K14QLB) X \n F07QE6 \n (220KV) | \nQE1 | O/C | IF | QL1 \n QL2 F07QL6 \n ( 220 KV ) | \nQE2 | O/C | IF | QL1 \n QL2 F07QL6 \n ( 220 KV ) | \nK 17\nEquip. | Position |  | Conditions | Test \n Result\nQF | C | IF | ( QL1 + QL1 ) x ( \n QL2 + QL2 ) | \nQL1 | O/C | IF | QEA2QE1X QE2\n [ (QF x QL2) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL2 x QF ) ] x ( \n K14QLB+K14QLB) X \n F08QE6 \n (220KV) | \nQL2 | O/C | IF | QEB2QE1\n QE2\n [ (QF x QL1) \n + (K14QLA x K14QL1 x K14QF x\n K14QL2 x QL1 x QF ) ] x ( \n K14QLB + K14QLB) X \n F08QE6 \n (220KV) | \nQE1 | O/C | IF | QL1\n x QL2 F08QE6 \n ( 220 KV ) | \nQE2 | O/C | IF | QL1 QL2\n F08QE6 \n ( 220 KV ) | \n( K18 → K27 )\n( K )\nEquip. | Position |  | Conditions | Test \n Result\nQF | C | IF | ( QL1 + QL1 ) x ( \n QL2 + QL2 ) x ( QL3 + QL3 ) | \nQL1 | O/C | IF | QEA2QE1X QE2\n [ (QF x QL3 x QL2) \n + (K14QLA x K14QL1 x\n _____ \n ______ ___- __ \n ___ ______\n K14QF x K14QL2 x QL2 \n X QF x QL3) ] x ( \n K14QLB+K14QLB) | \nQL2 | O/C | IF | QEB2QE1X QE2\n [ (QF x QL3 x QL1) \n + (K14QLA x K14QL1 x\n _____ \n ______ ___- __ \n ___ ______\n K14QF x K14QL2 x QL1 \n X QF x QL3) ] x ( \n K14QLB+K14QLB) | \nQE1 | O/C | IF | QL1\n x QL2 QL3 | \nQE2 | O/C | IF | QL1\n x QL2 QL3 | \nQL3 | O/C | IF | QF QE1\n QE2 QE3 x ( \n QL1 + QL2 \n ) | \nQE3 | O/C | IF | QL3\n NO VOLTAGE | ",
  "text_truncated": false,
  "links": [],
  "images": [

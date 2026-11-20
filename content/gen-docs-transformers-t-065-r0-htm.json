@@ -14,12 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Transformers"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical Procedure"
+   "type": "table",
+   "rows": [
+    [
+     "Transformers",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -136,8 +138,142 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Test",
+     "Energized",
+     "R15 (MΩ)",
+     "R60(MΩ)"
+    ],
+    [
+     "1",
+     "H.W-L (earthed)",
+     "232",
+     "484"
+    ],
+    [
+     "2",
+     "L.W-H (earthed)",
+     "274",
+     "565"
+    ],
+    [
+     "3",
+     "H & W",
+     "430",
+     "710"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "This table indicate the \nvalues between temperatures and insulation resistance for main power \ntransformers (manufactory) (MΩ)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Equipment's & SN",
+     "Temp.",
+     "R15/R60",
+     "Temp.",
+     "R15/R60"
+    ],
+    [
+     "T1\n 69678",
+     "40",
+     "180/500",
+     "59",
+     "150/380"
+    ],
+    [
+     "T2\n 75822",
+     "41",
+     "160/460",
+     "60",
+     "120/250"
+    ],
+    [
+     "T3\n 69677",
+     "39",
+     "200/600",
+     "66",
+     "140/330"
+    ],
+    [
+     "T4\n 69676",
+     "33",
+     "200/550",
+     "52",
+     "150/310"
+    ],
+    [
+     "T5\n 74227",
+     "41",
+     "180/450",
+     "55",
+     "140/330"
+    ],
+    [
+     "T6\n 73083",
+     "29",
+     "200/550",
+     "60",
+     "140/330"
+    ],
+    [
+     "T7\n 153341",
+     "29",
+     "1600/2000",
+     "--",
+     "--"
+    ],
+    [
+     "T8\n 154797",
+     "27",
+     "3200/3850",
+     "--",
+     "--"
+    ],
+    [
+     "T9\n 154720",
+     "18",
+     "4200/5200",
+     "--",
+     "--"
+    ],
+    [
+     "T10\n 74228",
+     "39",
+     "150/370",
+     "53",
+     "120/220"
+    ],
+    [
+     "T11\n 74226",
+     "40",
+     "200/280",
+     "57",
+     "160/400"
+    ],
+    [
+     "T12\n 69675",
+     "40",
+     "200/500",
+     "55",
+     "150/290"
+    ],
+    [
+     "Reserve (new)\n 153340",
+     "22",
+     "2200/3100",
+     "--",
+     "--"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -189,6 +325,36 @@
     "Use external AC supply 220 v & variable \n resistance and two voltmeter v1 & v2connect a.c supply to high winding phase \n (A) read (V1) and connect voltmeter (v2) to low winding phase (a) read (v2) \n then",
     "Calculate the ratio of phase (A) = V1/V2 and \n repeat the same sequence to phase B and C"
    ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Measuring \n Ratio",
+     "Calculated \n Ratio",
+     "% Difference"
+    ],
+    [
+     "A",
+     "19.310",
+     "19.233",
+     "%0.41"
+    ],
+    [
+     "B",
+     "19.284",
+     "19.233",
+     "%0.26"
+    ],
+    [
+     "C",
+     "19.306",
+     "19.233",
+     "%0.37"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -247,12 +413,101 @@
    "text": "The \nResults of DC Resistance (Ω) in \ntable at temp. 20c"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Connection",
+     "High \n Winding",
+     "Low winding"
+    ],
+    [
+     "Phase",
+     "A-O",
+     "B-O",
+     "C-O",
+     "a1-x1",
+     "a2-x2",
+     "b1-y1",
+     "b2-y2",
+     "c1-z1",
+     "c2-z2"
+    ],
+    [
+     "R dc(Ω)",
+     "1.26",
+     "1.27",
+     "1.26",
+     "0.005",
+     "0.005",
+     "0.005",
+     "0.005",
+     "0.005",
+     "0.005"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Table \n4"
   },
   {
    "type": "paragraph",
    "text": "This table indicate the values \nbetween temperatures and DC resistance in (Ω) for (HW) of main power \ntransformers (manufacture reading)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Equip.\n SN",
+     "T1\n 69678",
+     "T2\n 75822",
+     "T3\n 69677",
+     "T4\n 69676",
+     "T5\n 74227",
+     "T6\n 73083",
+     "T7\n 153341",
+     "T8\n 154797",
+     "T9\n 154720",
+     "T10\n 74228",
+     "T11\n 74226",
+     "T12\n 69675",
+     "reserve\n 153340"
+    ],
+    [
+     "Temp.",
+     "40",
+     "41",
+     "39",
+     "50",
+     "41",
+     "29",
+     "29",
+     "27",
+     "18",
+     "39",
+     "40",
+     "40",
+     "22"
+    ],
+    [
+     "R d.c",
+     "1.64",
+     "1.654",
+     "1.62",
+     "1.72",
+     "1.664",
+     "1.59",
+     "1.272",
+     "2356",
+     "1.225",
+     "1.656",
+     "1.64",
+     "1.66",
+     "1.264"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -343,6 +598,75 @@
    "text": "The standard Doble test procedure for two winding transformer is outline in \nfigure"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Test \n No",
+     "Test \n Mode",
+     "Energize",
+     "Ground",
+     "Guard",
+     "UST",
+     "Measured"
+    ],
+    [
+     "1",
+     "GST",
+     "High",
+     "Low",
+     "---",
+     "---",
+     "CH + CHL"
+    ],
+    [
+     "2",
+     "GST",
+     "High",
+     "---",
+     "Low",
+     "---",
+     "CH"
+    ],
+    [
+     "3",
+     "GST",
+     "Low",
+     "High",
+     "---",
+     "---",
+     "CL + CHL"
+    ],
+    [
+     "4",
+     "GST",
+     "Low",
+     "---",
+     "High",
+     "---",
+     "CL"
+    ],
+    [
+     "5",
+     "UST",
+     "High",
+     "---",
+     "---",
+     "Low",
+     "CHL"
+    ],
+    [
+     "6",
+     "UST",
+     "Low",
+     "---",
+     "---",
+     "High",
+     "CHL"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Record overall test results in the computer and the copy are \nattached in the following page"
   },
@@ -375,12 +699,124 @@
    "text": "Overall \nTests"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "#",
+     "Insul.",
+     "KV",
+     "mA",
+     "Watts",
+     "%Pwr\n meas",
+     "Factor\n corr",
+     "corr",
+     "Cap (pf)"
+    ],
+    [
+     "1",
+     "CH+CHL",
+     "10",
+     "92.370",
+     "3.695",
+     "",
+     "",
+     "0.64",
+     "29402"
+    ],
+    [
+     "2",
+     "CH",
+     "10",
+     "42",
+     "1.700",
+     "0.40",
+     "0.26",
+     "0.64",
+     "13371"
+    ],
+    [
+     "3",
+     "CHL(UST)",
+     "10",
+     "50.350",
+     "1.988",
+     "0.39",
+     "0.25",
+     "0.64",
+     "16028"
+    ],
+    [
+     "4",
+     "CHL",
+     "",
+     "50.370",
+     "1.995",
+     "0.40",
+     "0.26",
+     "0.64",
+     "16031"
+    ],
+    [
+     "5",
+     "CL+CHL",
+     "10",
+     "59.750",
+     "2.449",
+     "",
+     "",
+     "0.64",
+     "19018"
+    ],
+    [
+     "6",
+     "CL",
+     "10",
+     "9.388",
+     "0.438",
+     "0.47",
+     "0.30",
+     "0.64",
+     "2988"
+    ],
+    [
+     "7",
+     "CHL(UST)",
+     "10",
+     "50.350",
+     "2",
+     "0.40",
+     "0.26",
+     "0.64",
+     "16028"
+    ],
+    [
+     "8",
+     "CHL",
+     "",
+     "50.362",
+     "2.011",
+     "0.40",
+     "0.26",
+     "0.64",
+     "16030"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Bushing \nTests"
   },
   {
    "type": "table",
    "rows": [
+    [
+     "C1 \n Bush",
+     "Mfr",
+     "Nameplate data",
+     "Cap (pf) %pf",
+     "Test Results"
+    ],
     [
      "Type",
      "S/N",
@@ -471,6 +907,13 @@
   {
    "type": "table",
    "rows": [
+    [
+     "C2 \n Bush",
+     "Mfr",
+     "Nameplate data",
+     "Cap (pf) %pf",
+     "Test Results"
+    ],
     [
      "Type",
      "S/N",
@@ -644,6 +1087,111 @@
    "text": "For three Winding Transformer is \noutline in the Figure"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Test \n No.",
+     "Test mode",
+     "Energize",
+     "Ground",
+     "Guard",
+     "UST",
+     "Measured"
+    ],
+    [
+     "1",
+     "GST",
+     "High",
+     "Low",
+     "Tert",
+     "---",
+     "CH + CHL"
+    ],
+    [
+     "2",
+     "GST",
+     "High",
+     "---",
+     "Low",
+     "---",
+     "CH"
+    ],
+    [
+     "3",
+     "GST",
+     "Low",
+     "Tert",
+     "High",
+     "---",
+     "CL + CHL"
+    ],
+    [
+     "4",
+     "GST",
+     "Low",
+     "---",
+     "High, Tert",
+     "---",
+     "CL"
+    ],
+    [
+     "5",
+     "GST",
+     "Tert",
+     "High",
+     "Low",
+     "---",
+     "CT+CHT"
+    ],
+    [
+     "6",
+     "GST",
+     "Tert",
+     "---",
+     "High, Low",
+     "--",
+     "CT"
+    ],
+    [
+     "7",
+     "GST",
+     "High\n Low\n Tert",
+     "---",
+     "---",
+     "---",
+     "CH+CL+CT"
+    ],
+    [
+     "8",
+     "UST",
+     "High",
+     "Tert",
+     "---",
+     "Low",
+     "CHL"
+    ],
+    [
+     "9",
+     "UST",
+     "Low",
+     "High",
+     "---",
+     "Tert",
+     "CLT"
+    ],
+    [
+     "10",
+     "UST",
+     "Tert",
+     "Low",
+     "---",
+     "High",
+     "CHT"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Record overall test results in the computer and the copy are \nattached in the following page"
   },
@@ -715,6 +1263,16 @@
   {
    "type": "table",
    "rows": [
+    [
+     "#",
+     "Insul",
+     "kv",
+     "mA",
+     "Wait",
+     "% puf factor\n Meas Corr",
+     "Corr",
+     "Cap(pF)"
+    ],
     [
      "1",
      "CH + CHL",
@@ -874,6 +1432,36 @@
    "text": "ANSI/IEEE C57.12.00-1987, American national standard, general \nrequirements for linquid - immersed distribution, power, and regulating \ntransformers"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Transformer winding rating",
+     "Test voltage"
+    ],
+    [
+     "(L to L kv)",
+     "(L to G kv)"
+    ],
+    [
+     "12 and above",
+     "10"
+    ],
+    [
+     "5.04 to 8.72",
+     "5"
+    ],
+    [
+     "2.4 to 4.8",
+     "2"
+    ],
+    [
+     "Below",
+     "1"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Insulating\nLiquid - Filled \nPower and Distribution Transformers Test in the absence of \nInsulating Liquid and under atmospheric ait/gas \npressure (not under vacuum)"
   },
@@ -924,6 +1512,32 @@
    "text": "Bushing (C1) (center conductor energized)"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Bushing rating (KV)",
+     "Test voltage (KV)"
+    ],
+    [
+     "8.7",
+     "8"
+    ],
+    [
+     "5",
+     "5"
+    ],
+    [
+     "4.3",
+     "4"
+    ],
+    [
+     "1.2",
+     "1"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Bushing (C2)"
   },
@@ -947,11 +1561,115 @@
    ]
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Equipment's & S.N",
+     "Temp.",
+     "% Tg \n δ",
+     "Temp.",
+     "% Tg"
+    ],
+    [
+     "T1 \n 69678",
+     "40",
+     "0.3",
+     "59",
+     "0.4"
+    ],
+    [
+     "T2\n 75822",
+     "41",
+     "0.3",
+     "60",
+     "0.6"
+    ],
+    [
+     "T3\n 69677",
+     "39",
+     "0.3",
+     "66",
+     "0.5"
+    ],
+    [
+     "T4\n 69676",
+     "33",
+     "0.4",
+     "52",
+     "0.6"
+    ],
+    [
+     "T5\n 74227",
+     "41",
+     "0.3",
+     "55",
+     "0.4"
+    ],
+    [
+     "T6\n 73083",
+     "29",
+     "0.3",
+     "60",
+     "0.5"
+    ],
+    [
+     "T7\n 153341",
+     "29",
+     "0.235",
+     "--",
+     "--"
+    ],
+    [
+     "T8\n 154797",
+     "27",
+     "0.228",
+     "--",
+     "--"
+    ],
+    [
+     "T9\n 154720",
+     "18",
+     "0.239",
+     "--",
+     "--"
+    ],
+    [
+     "T10\n 74228",
+     "40",
+     "0.3",
+     "57",
+     "0.5"
+    ],
+    [
+     "T11\n 74226",
+     "39",
+     "0.5",
+     "53",
+     "0.8"
+    ],
+    [
+     "T12\n 69675",
+     "40",
+     "0.3",
+     "55",
+     "0.5"
+    ],
+    [
+     "Reserve (new)\n 153340",
+     "22",
+     "0.114",
+     "--",
+     "--s"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Location: Equipment \nDesignation: Tested by: \nTest Date: \nSignature:"
   }
  ],
- "text": "Transformers\nTechnical Procedure\nIntroduction\nThis document outlines the \nhigh voltage tests procedures P1, which must be performed on an an annually \nbases as indicated by Y1 in the title block .\nThe first draft is initiated and tested by eng. Hussein Mahrous \nMohamed, accepted by eng. Mohamed Diaa El din El Gabalawy \ngeneral director, and approved by eng. Abdel Karem Abu Zied Ismaiel; Head Sector \nof High Dam Hydraulic Power Station, Hyd.EPCo.\nThis document certified by eng. Kamel Ragheb Hakem \nMPIS Hyd.EPCo. Coordinat\nTests\nInsulation resistance\nMeasuring the turns ratio\nMeasuring of D.C resistance\nHigh voltage tests\nInsulation resistance\nMeasuring the turns ratio\nMeasuring of D.C resistance\nHigh voltage tests\nSafety Precautions\nWear the safety equipment as Safety helmet, safety shoes, ...etc\nSwitch off the transformer\nSeparate the primary circuits of transformer from both sides\nSwitch off the disconnect switch\nSwitch on the earth from both sides\nThe terminals of high and low winding must be shorted\nA work order must be issued and the qualified \n test group staff should carry the suitable safety category,\nSafety fence (rope) with caution marks \n surrounding the work area is required,\nWear the safety equipment as Safety helmet, safety shoes, ...etc\nSwitch off the transformer\nSeparate the primary circuits of transformer from both sides\nSwitch off the disconnect switch\nSwitch on the earth from both sides\nThe terminals of high and low winding must be shorted\nTools and Equipment\nMegger : isol 5003; Range (500 & 1000 & 2500 & 5000 v)\nMetal brushes, Grease, petrol ... etc\nMegger : isol 5003; Range (500 & 1000 & 2500 & 5000 v)\nScrew driving and cleaning materials\nCrane\nWork to be Carried Out\nConnect the line \nterminal of megger to high winding and earthed the low winding read R 15 & R 60 \nin (MΩ) of H.W\nRepeat the item 1 to low winding and earthed the \nhigh winding read R15 & R60 in (MΩ)\nThis table indicate the \nvalues between temperatures and insulation resistance for main power \ntransformers (manufactory) (MΩ)\nFor Insulation Resistance\nInsulation resistance reading must also not deviate \nexcessively from previously logged readings\nThe value of insulation resistance allow to less \n 30% from manufactures reading or 15% from last reading at the same temperature\nR60/R15 > 13\nMeasuring of Turns Ratio\nUsed ُEquipments (ATRT -03)\nMeasuring the ratio of three phase transformer (Y/∆ \n525/15.75)\nConnect cable (H) to high winding-(H1--to phase \n A)&(H2--to phase B)&(H3-- to phase C) (H0-- to neutral N)\nConnect cable (X) to low winding--(X1--to phase \n A)&(X2--to phase B)&(X3--to phase C)\nOperate the device & chose the \n program--(transformer test & configuration & name plate and start)\nThe ratio measured directly from device and \n recorded in chart\nNormal Method\nUsed equipments\nUse external AC supply 220 v & variable \n resistance and two voltmeter v1 & v2connect a.c supply to high winding phase \n (A) read (V1) and connect voltmeter (v2) to low winding phase (a) read (v2) \n then\nCalculate the ratio of phase (A) = V1/V2 and \n repeat the same sequence to phase B and C\nFigure 1: Measuring the DC \nResistance of Winding\nNormal Method\n The \nequipments as shown in the diagram:\nUse\nDC battery 12v heavy, circuit breaker,\nammeter 0-- 12 amp., variable resistance, \nand voltammeter\nConnect the circuit as shown.\nThe potential \ncables must always be connected inside of the current cable and inject the \ncurrent approximate to 1 amp. or less in the winding still the current stable \nand read I & V then calculate R d.c = V/I\nUse\nDC battery 12v heavy, circuit breaker,\nammeter 0-- 12 amp., variable resistance, \nand voltammeter\nConnect the circuit as shown.\nThe potential \ncables must always be connected inside of the current cable and inject the \ncurrent approximate to 1 amp. or less in the winding still the current stable \nand read I & V then calculate R d.c = V/I\nFigure 2\nUse\nmicro-ohmmeter CA 10,\nConnect the cable to the \nwinding need to be measured\nPlug in the heavy current cable and connect the 2 \nlarge clamps together. Current and potential cable)\nthen read R d.c \ndirectly from device\nUse\nmicro-ohmmeter CA 10,\nConnect the cable to the \nwinding need to be measured\nPlug in the heavy current cable and connect the 2 \nlarge clamps together. Current and potential cable)\nthen read R d.c \ndirectly from device\nThe \nResults of DC Resistance (Ω) in \ntable at temp. 20c\nTable \n4\nThis table indicate the values \nbetween temperatures and DC resistance in (Ω) for (HW) of main power \ntransformers (manufacture reading)\nTable \n5\nHigh Voltage\nTest\nMeasuring of Dissipation factor (% p.f ) and capacitance of two winding \ntransformer\nusing doble M4000\nOperate the equipment doble M4000 unit control\nFrom the program chose ... (two winding transformer)\nRecord technical data of transformer\nRecord test K.V for winding and bushing\nThe terminals of high and low winding shorted\nConnect HV cable to high voltage winding\nConnect LV lead (read) to low voltage winding\nConnect ground cable (green) to the tank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and device\nStart the test (overall test) for H.W & L.W and bushing\nOperate the equipment doble M4000 unit control\nFrom the program chose ... (two winding transformer)\nRecord technical data of transformer\nRecord test K.V for winding and bushing\nThe terminals of high and low winding shorted\nConnect HV cable to high voltage winding\nConnect LV lead (read) to low voltage winding\nConnect ground cable (green) to the tank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and device\nStart the test (overall test) for H.W & L.W and bushing\nTest Procedures\nfor two Winding Transformer\nFigure 3: Two Winding Transformer\nThe standard Doble test procedure for two winding transformer is outline in \nfigure\nRecord overall test results in the computer and the copy are \nattached in the following page\nTwo Winding transformer Date: \nTime: \npage:\nCompany : \nDivision : \nLocation : \nSpecial ID :\nTest date : \nTest Time\nIdentification\nMfr : ZTR Yr Mfr : 1968 \nSerial # : 69675\nPh : 3 cfr : Y-D CCT \ndesig :\nkv : 525 /15.75 MVA:206 / \n/ / / Tanktype : FREE - \nBREATH\nCoolant : OIL - AWTER\nAir temp : 29 deg C App temp : 30 deg C RH : \n78% weather : SUNNY\nOverall \nTests\nBushing \nTests\n\nBushing \nTests\n\nTest Procedures\nfor Three Winding Transformer\nMeasuring of Dissipation factor (%p.f) and capacitance of three winding \ntransformer\nUsing Doble M4000 Unit\nOperate the equipment \nDoble M4000 unit control\nFrom the program chose..(three winding transformer)\nRecord technical data of transformer\nRecord test KV for winding and bushing\nThe terminals of high & low and tertiary winding must be shorted\nConnect HV cable to high voltage winding\nConnect LV lead (read) to low voltage winding\nConnect LV lead (blue) to tertiary (tert) voltage winding\nConnect ground cable (green) to the tank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and device\nStart the test (overall test) for H.W & L.W and bushing\nOperate the equipment \nDoble M4000 unit control\nFrom the program chose..(three winding transformer)\nRecord technical data of transformer\nRecord test KV for winding and bushing\nThe terminals of high & low and tertiary winding must be shorted\nConnect HV cable to high voltage winding\nConnect LV lead (read) to low voltage winding\nConnect LV lead (blue) to tertiary (tert) voltage winding\nConnect ground cable (green) to the tank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and device\nStart the test (overall test) for H.W & L.W and bushing\nFigure 5\nThe \nStandard Doble Test \nProcedure\nFor three Winding Transformer is \noutline in the Figure\nRecord overall test results in the computer and the copy are \nattached in the following page\nBushing\nTest\nFigure \n6\nFor Bushing equipped \nwith taps. \n as shown in figure\nMeasuring C1 checked by the UST method connect HV cable to \nconductor and LV lead LV lead to (pin)\nRecord current & watt & capacitance and (%d.f) of C1\nMeasuring C2 checked by the UST method connect LV lead to \nconductor and HV cable to (pin)\nRecord current & watt & capacitance and (%d.f) of C2\nMeasuring C1 checked by the UST method connect HV cable to \nconductor and LV lead LV lead to (pin)\nRecord current & watt & capacitance and (%d.f) of C1\nMeasuring C2 checked by the UST method connect LV lead to \nconductor and HV cable to (pin)\nRecord current & watt & capacitance and (%d.f) of C2\nThree Winding \nTransformer Insulation \nTest\nCompany : \nDivision : \nLocation : \nSpecial ID :\nTest date : \nTest Time :\nIdentification\nMfr : SMIT \nYr Mfr : 1982 Serial # : \n : 3 \nChg : Y-D-D CCT desin :\nKV : 132 /11 /11 \nMVA : 150 / 75 / 75 / / \nTank type : free - breath\nCoolant other\nAIR TEMP : 31 deg c App temp : 40 deg c RH : 78% weather : sunny\nOverall Tests\n\nTest Voltages\nInsulating\nLiquid - Filled \nPower and Distribution \ntransformers Test using the standard\nANSI/IEEE C57.12.00-1987, American national standard, general \nrequirements for linquid - immersed distribution, power, and regulating \ntransformers\nInsulating\nLiquid - Filled \nPower and Distribution Transformers Test in the absence of \nInsulating Liquid and under atmospheric ait/gas \npressure (not under vacuum)\nIn general the test voltage should be limited to 5% to 10% of \nthe voltage recommended for transformer insulation power - factor test in \nstandard ANSI/IEEE C 57.12.00-1987, American\nnational standard,\n\nBushing KV Test\nBushing (C1) (center conductor energized)\nBushing (C2)\nThe limit of test voltage is 500 volt or less\nThe limit of %d.f from (0.1 up to 0.7 at temp. 20c\nThis table indicate the values between temperatures and (%Tg 8) \nfor main power transformer (manufacture)\nThe limit of %d.f from (0.1 up to 0.7 at temp. 20c\nThis table indicate the values between temperatures and (%Tg 8) \nfor main power transformer (manufacture)\nLocation: Equipment \nDesignation: Tested by: \nTest Date: \nSignature:",
+ "text": "Transformers | Technical Procedure\nIntroduction\nThis document outlines the \nhigh voltage tests procedures P1, which must be performed on an an annually \nbases as indicated by Y1 in the title block .\nThe first draft is initiated and tested by eng. Hussein Mahrous \nMohamed, accepted by eng. Mohamed Diaa El din El Gabalawy \ngeneral director, and approved by eng. Abdel Karem Abu Zied Ismaiel; Head Sector \nof High Dam Hydraulic Power Station, Hyd.EPCo.\nThis document certified by eng. Kamel Ragheb Hakem \nMPIS Hyd.EPCo. Coordinat\nTests\nInsulation resistance\nMeasuring the turns ratio\nMeasuring of D.C resistance\nHigh voltage tests\nInsulation resistance\nMeasuring the turns ratio\nMeasuring of D.C resistance\nHigh voltage tests\nSafety Precautions\nWear the safety equipment as Safety helmet, safety shoes, ...etc\nSwitch off the transformer\nSeparate the primary circuits of transformer from both sides\nSwitch off the disconnect switch\nSwitch on the earth from both sides\nThe terminals of high and low winding must be shorted\nA work order must be issued and the qualified \n test group staff should carry the suitable safety category,\nSafety fence (rope) with caution marks \n surrounding the work area is required,\nWear the safety equipment as Safety helmet, safety shoes, ...etc\nSwitch off the transformer\nSeparate the primary circuits of transformer from both sides\nSwitch off the disconnect switch\nSwitch on the earth from both sides\nThe terminals of high and low winding must be shorted\nTools and Equipment\nMegger : isol 5003; Range (500 & 1000 & 2500 & 5000 v)\nMetal brushes, Grease, petrol ... etc\nMegger : isol 5003; Range (500 & 1000 & 2500 & 5000 v)\nScrew driving and cleaning materials\nCrane\nWork to be Carried Out\nConnect the line \nterminal of megger to high winding and earthed the low winding read R 15 & R 60 \nin (MΩ) of H.W\nRepeat the item 1 to low winding and earthed the \nhigh winding read R15 & R60 in (MΩ)\nTest | Energized | R15 (MΩ) | R60(MΩ)\n1 | H.W-L (earthed) | 232 | 484\n2 | L.W-H (earthed) | 274 | 565\n3 | H & W | 430 | 710\nThis table indicate the \nvalues between temperatures and insulation resistance for main power \ntransformers (manufactory) (MΩ)\nEquipment's & SN | Temp. | R15/R60 | Temp. | R15/R60\nT1\n 69678 | 40 | 180/500 | 59 | 150/380\nT2\n 75822 | 41 | 160/460 | 60 | 120/250\nT3\n 69677 | 39 | 200/600 | 66 | 140/330\nT4\n 69676 | 33 | 200/550 | 52 | 150/310\nT5\n 74227 | 41 | 180/450 | 55 | 140/330\nT6\n 73083 | 29 | 200/550 | 60 | 140/330\nT7\n 153341 | 29 | 1600/2000 | -- | --\nT8\n 154797 | 27 | 3200/3850 | -- | --\nT9\n 154720 | 18 | 4200/5200 | -- | --\nT10\n 74228 | 39 | 150/370 | 53 | 120/220\nT11\n 74226 | 40 | 200/280 | 57 | 160/400\nT12\n 69675 | 40 | 200/500 | 55 | 150/290\nReserve (new)\n 153340 | 22 | 2200/3100 | -- | --\nFor Insulation Resistance\nInsulation resistance reading must also not deviate \nexcessively from previously logged readings\nThe value of insulation resistance allow to less \n 30% from manufactures reading or 15% from last reading at the same temperature\nR60/R15 > 13\nMeasuring of Turns Ratio\nUsed ُEquipments (ATRT -03)\nMeasuring the ratio of three phase transformer (Y/∆ \n525/15.75)\nConnect cable (H) to high winding-(H1--to phase \n A)&(H2--to phase B)&(H3-- to phase C) (H0-- to neutral N)\nConnect cable (X) to low winding--(X1--to phase \n A)&(X2--to phase B)&(X3--to phase C)\nOperate the device & chose the \n program--(transformer test & configuration & name plate and start)\nThe ratio measured directly from device and \n recorded in chart\nNormal Method\nUsed equipments\nUse external AC supply 220 v & variable \n resistance and two voltmeter v1 & v2connect a.c supply to high winding phase \n (A) read (V1) and connect voltmeter (v2) to low winding phase (a) read (v2) \n then\nCalculate the ratio of phase (A) = V1/V2 and \n repeat the same sequence to phase B and C\nPhase | Measuring \n Ratio | Calculated \n Ratio | % Difference\nA | 19.310 | 19.233 | %0.41\nB | 19.284 | 19.233 | %0.26\nC | 19.306 | 19.233 | %0.37\nFigure 1: Measuring the DC \nResistance of Winding\nNormal Method\n The \nequipments as shown in the diagram:\nUse\nDC battery 12v heavy, circuit breaker,\nammeter 0-- 12 amp., variable resistance, \nand voltammeter\nConnect the circuit as shown.\nThe potential \ncables must always be connected inside of the current cable and inject the \ncurrent approximate to 1 amp. or less in the winding still the current stable \nand read I & V then calculate R d.c = V/I\nUse\nDC battery 12v heavy, circuit breaker,\nammeter 0-- 12 amp., variable resistance, \nand voltammeter\nConnect the circuit as shown.\nThe potential \ncables must always be connected inside of the current cable and inject the \ncurrent approximate to 1 amp. or less in the winding still the current stable \nand read I & V then calculate R d.c = V/I\nFigure 2\nUse\nmicro-ohmmeter CA 10,\nConnect the cable to the \nwinding need to be measured\nPlug in the heavy current cable and connect the 2 \nlarge clamps together. Current and potential cable)\nthen read R d.c \ndirectly from device\nUse\nmicro-ohmmeter CA 10,\nConnect the cable to the \nwinding need to be measured\nPlug in the heavy current cable and connect the 2 \nlarge clamps together. Current and potential cable)\nthen read R d.c \ndirectly from device\nThe \nResults of DC Resistance (Ω) in \ntable at temp. 20c\nConnection | High \n Winding | Low winding\nPhase | A-O | B-O | C-O | a1-x1 | a2-x2 | b1-y1 | b2-y2 | c1-z1 | c2-z2\nR dc(Ω) | 1.26 | 1.27 | 1.26 | 0.005 | 0.005 | 0.005 | 0.005 | 0.005 | 0.005\nTable \n4\nThis table indicate the values \nbetween temperatures and DC resistance in (Ω) for (HW) of main power \ntransformers (manufacture reading)\nEquip.\n SN | T1\n 69678 | T2\n 75822 | T3\n 69677 | T4\n 69676 | T5\n 74227 | T6\n 73083 | T7\n 153341 | T8\n 154797 | T9\n 154720 | T10\n 74228 | T11\n 74226 | T12\n 69675 | reserve\n 153340\nTemp. | 40 | 41 | 39 | 50 | 41 | 29 | 29 | 27 | 18 | 39 | 40 | 40 | 22\nR d.c | 1.64 | 1.654 | 1.62 | 1.72 | 1.664 | 1.59 | 1.272 | 2356 | 1.225 | 1.656 | 1.64 | 1.66 | 1.264\nTable \n5\nHigh Voltage\nTest\nMeasuring of Dissipation factor (% p.f ) and capacitance of two winding \ntransformer\nusing doble M4000\nOperate the equipment doble M4000 unit control\nFrom the program chose ... (two winding transformer)\nRecord technical data of transformer\nRecord test K.V for winding and bushing\nThe terminals of high and low winding shorted\nConnect HV cable to high voltage winding\nConnect LV lead (read) to low voltage winding\nConnect ground cable (green) to the tank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and device\nStart the test (overall test) for H.W & L.W and bushing\nOperate the equipment doble M4000 unit control\nFrom the program chose ... (two winding transformer)\nRecord technical data of transformer\nRecord test K.V for winding and bushing\nThe terminals of high and low winding shorted\nConnect HV cable to high voltage winding\nConnect LV lead (read) to low voltage winding\nConnect ground cable (green) to the tank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and device\nStart the test (overall test) for H.W & L.W and bushing\nTest Procedures\nfor two Winding Transformer\nFigure 3: Two Winding Transformer\nThe standard Doble test procedure for two winding transformer is outline in \nfigure\nTest \n No | Test \n Mode | Energize | Ground | Guard | UST | Measured\n1 | GST | High | Low | --- | --- | CH + CHL\n2 | GST | High | --- | Low | --- | CH\n3 | GST | Low | High | --- | --- | CL + CHL\n4 | GST | Low | --- | High | --- | CL\n5 | UST | High | --- | --- | Low | CHL\n6 | UST | Low | --- | --- | High | CHL\nRecord overall test results in the computer and the copy are \nattached in the following page\nTwo Winding transformer Date: \nTime: \npage:\nCompany : \nDivision : \nLocation : \nSpecial ID :\nTest date : \nTest Time\nIdentification\nMfr : ZTR Yr Mfr : 1968 \nSerial # : 69675\nPh : 3 cfr : Y-D CCT \ndesig :\nkv : 525 /15.75 MVA:206 / \n/ / / Tanktype : FREE - \nBREATH\nCoolant : OIL - AWTER\nAir temp : 29 deg C App temp : 30 deg C RH : \n78% weather : SUNNY\nOverall \nTests\n# | Insul. | KV | mA | Watts | %Pwr\n meas | Factor\n corr | corr | Cap (pf)\n1 | CH+CHL | 10 | 92.370 | 3.695 |  |  | 0.64 | 29402\n2 | CH | 10 | 42 | 1.700 | 0.40 | 0.26 | 0.64 | 13371\n3 | CHL(UST) | 10 | 50.350 | 1.988 | 0.39 | 0.25 | 0.64 | 16028\n4 | CHL |  | 50.370 | 1.995 | 0.40 | 0.26 | 0.64 | 16031\n5 | CL+CHL | 10 | 59.750 | 2.449 |  |  | 0.64 | 19018\n6 | CL | 10 | 9.388 | 0.438 | 0.47 | 0.30 | 0.64 | 2988\n7 | CHL(UST) | 10 | 50.350 | 2 | 0.40 | 0.26 | 0.64 | 16028\n8 | CHL |  | 50.362 | 2.011 | 0.40 | 0.26 | 0.64 | 16030\nBushing \nTests\nC1 \n Bush | Mfr | Nameplate data | Cap (pf) %pf | Test Results\nType | S/N | KV | %PF | Cap (PF)\nH1 | ZTR | O + C | PHASE A |  | 10 | 0.40 | 611.70\nH2 | ZTR | O + C | PHASE B | 10 | 0..42 | 621\nH3 | ZTR | O + C | PHASE C | 10 | 0.35 | 611.60\nH0 |  |  |  |  |  | \nX1 |  |  |  |  |  | \nX2 |  |  |  |  |  | \nX3 |  |  |  |  |  | \nX0 |  |  |  |  |  | \nBushing \nTests\nC2 \n Bush | Mfr | Nameplate data | Cap (pf) %pf | Test Results\nType | S/N | KV | %PF | Cap (PF)\nH1 | ZTR | O + C | PHASE A |  | 0.5 | 0.34 | 3065\nH2 | ZTR | O + C | PHASE B | 0.5 | 0..39 | 3170\nH3 | ZTR | O + C | PHASE C | 0.5 | 0.45 | 3980\nH0 |  |  |  |  |  | \nX1 |  |  |  |  |  | \nX2 |  |  |  |  |  | \nX3 |  |  |  |  |  | \nX0 |  |  |  |  |  | \nTest Procedures\nfor Three Winding Transformer\nMeasuring of Dissipation factor (%p.f) and capacitance of three winding \ntransformer\nUsing Doble M4000 Unit\nOperate the equipment \nDoble M4000 unit control\nFrom the program chose..(three winding transformer)\nRecord technical data of transformer\nRecord test KV for winding and bushing\nThe terminals of high & low and tertiary winding must be shorted\nConnect HV cable to high voltage winding\nConnect LV lead (read) to low voltage winding\nConnect LV lead (blue) to tertiary (tert) voltage winding\nConnect ground cable (green) to the tank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and device\nStart the test (overall test) for H.W & L.W and bushing\nOperate the equipment \nDoble M4000 unit control\nFrom the program chose..(three winding transformer)\nRecord technical data of transformer\nRecord test KV for winding and bushing\nThe terminals of high & low and tertiary winding must be shorted\nConnect HV cable to high voltage winding\nConnect LV lead (read) to low voltage winding\nConnect LV lead (blue) to tertiary (tert) voltage winding\nConnect ground cable (green) to the tank (station ground)\nSwitch on the high voltage unit\nCheck and review all connections and device\nStart the test (overall test) for H.W & L.W and bushing\nFigure 5\nThe \nStandard Doble Test \nProcedure\nFor three Winding Transformer is \noutline in the Figure\nTest \n No. | Test mode | Energize | Ground | Guard | UST | Measured\n1 | GST | High | Low | Tert | --- | CH + CHL\n2 | GST | High | --- | Low | --- | CH\n3 | GST | Low | Tert | High | --- | CL + CHL\n4 | GST | Low | --- | High, Tert | --- | CL\n5 | GST | Tert | High | Low | --- | CT+CHT\n6 | GST | Tert | --- | High, Low | -- | CT\n7 | GST | High\n Low\n Tert | --- | --- | --- | CH+CL+CT\n8 | UST | High | Tert | --- | Low | CHL\n9 | UST | Low | High | --- | Tert | CLT\n10 | UST | Tert | Low | --- | High | CHT\nRecord overall test results in the computer and the copy are \nattached in the following page\nBushing\nTest\nFigure \n6\nFor Bushing equipped \nwith taps. \n as shown in figure\nMeasuring C1 checked by the UST method connect HV cable to \nconductor and LV lead LV lead to (pin)\nRecord current & watt & capacitance and (%d.f) of C1\nMeasuring C2 checked by the UST method connect LV lead to \nconductor and HV cable to (pin)\nRecord current & watt & capacitance and (%d.f) of C2\nMeasuring C1 checked by the UST method connect HV cable to \nconductor and LV lead LV lead to (pin)\nRecord current & watt & capacitance and (%d.f) of C1\nMeasuring C2 checked by the UST method connect LV lead to \nconductor and HV cable to (pin)\nRecord current & watt & capacitance and (%d.f) of C2\nThree Winding \nTransformer Insulation \nTest\nCompany : \nDivision : \nLocation : \nSpecial ID :\nTest date : \nTest Time :\nIdentification\nMfr : SMIT \nYr Mfr : 1982 Serial # : \n : 3 \nChg : Y-D-D CCT desin :\nKV : 132 /11 /11 \nMVA : 150 / 75 / 75 / / \nTank type : free - breath\nCoolant other\nAIR TEMP : 31 deg c App temp : 40 deg c RH : 78% weather : sunny\nOverall Tests\n# | Insul | kv | mA | Wait | % puf factor\n Meas Corr | Corr | Cap(pF)\n1 | CH + CHL |  | 9.3 |  |  |  | 0.41 | 2976\n2 | CH |  | 9.3 |  |  |  | 0.41 | 2976\n3 | CHL (UST) | 10 | 3.040 | 6.842 | 0.61 | 0.25 | 0.41 | 20068\n4 | CHL |  | 0.002 | 0 | 0 | 0 | 0.41 | 1\n5 | CL + CLT | 6 | 46.880 | 2.830 |  |  | 0.41 | 14922\n6 | CL | 6 | 46.880 | 2.842 | 0.61 | 0.25 | 0.41 | 14924\n7 | CLT (UST) | 6 | 32.260 | 1.573 | 0.49 | 0.20 | 0.41 | 10270\n8 | CLT |  | 0 | 0.012 | 100 | 41 | 0.41 | -2\n9 | CT + CHT | 6 | 11.350 | 0.575 |  |  | 0.41 | 3615\n10 | CT | 6 | 11.350 | 0.579 | 0.51 | 0.21 | 0.41 | 3616\n11 | CHT (UST) | 6 | 34.070 | 10409 | 0.41 | 0.17 | 0.41 | 10845\n12 | CHT |  | -0.010 | -0.004 | 4 | 1064 | 0.41 | -1\n13 | CH+CL+CT |  |  |  |  |  |  | \nTest Voltages\nInsulating\nLiquid - Filled \nPower and Distribution \ntransformers Test using the standard\nANSI/IEEE C57.12.00-1987, American national standard, general \nrequirements for linquid - immersed distribution, power, and regulating \ntransformers\nTransformer winding rating | Test voltage\n(L to L kv) | (L to G kv)\n12 and above | 10\n5.04 to 8.72 | 5\n2.4 to 4.8 | 2\nBelow | 1\nInsulating\nLiquid - Filled \nPower and Distribution Transformers Test in the absence of \nInsulating Liquid and under atmospheric ait/gas \npressure (not under vacuum)\nIn general the test voltage should be limited to 5% to 10% of \nthe voltage recommended for transformer insulation power - factor test in \nstandard ANSI/IEEE C 57.12.00-1987, American\nnational standard,\nTransformer \n Winding Rating\n Delat and Ungrounded wye Windings | Test \n Voltage\n(L to L kv) | (L to G kv)\n161 and above | 10\n115 to 138 | 5\n34 to 69 | 2\n12 to 25 | 1\nbelow 12 | 0.5\nBushing KV Test\nBushing (C1) (center conductor energized)\nBushing rating (KV) | Test voltage (KV)\n8.7 | 8\n5 | 5\n4.3 | 4\n1.2 | 1\nBushing (C2)\nThe limit of test voltage is 500 volt or less\nThe limit of %d.f from (0.1 up to 0.7 at temp. 20c\nThis table indicate the values between temperatures and (%Tg 8) \nfor main power transformer (manufacture)\nThe limit of %d.f from (0.1 up to 0.7 at temp. 20c\nThis table indicate the values between temperatures and (%Tg 8) \nfor main power transformer (manufacture)\nEquipment's & S.N | Temp. | % Tg \n δ | Temp. | % Tg\nT1 \n 69678 | 40 | 0.3 | 59 | 0.4\nT2\n 75822 | 41 | 0.3 | 60 | 0.6\nT3\n 69677 | 39 | 0.3 | 66 | 0.5\nT4\n 69676 | 33 | 0.4 | 52 | 0.6\nT5\n 74227 | 41 | 0.3 | 55 | 0.4\nT6\n 73083 | 29 | 0.3 | 60 | 0.5\nT7\n 153341 | 29 | 0.235 | -- | --\nT8\n 154797 | 27 | 0.228 | -- | --\nT9\n 154720 | 18 | 0.239 | -- | --\nT10\n 74228 | 40 | 0.3 | 57 | 0.5\nT11\n 74226 | 39 | 0.5 | 53 | 0.8\nT12\n 69675 | 40 | 0.3 | 55 | 0.5\nReserve (new)\n 153340 | 22 | 0.114 | -- | --s\nLocation: Equipment \nDesignation: Tested by: \nTest Date: \nSignature:",
  "text_truncated": false,
  "links": [],
  "images": [

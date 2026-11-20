@@ -14,20 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Power \n Station"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:\n Interlock Logic \n System 220kv"
-  },
-  {
-   "type": "paragraph",
-   "text": "MERLIN GERIN - FRANCE"
+   "type": "table",
+   "rows": [
+    [
+     "Power \n Station",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -108,58 +102,171 @@
    "type": "table",
    "rows": [
     [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "F06QEB1 \n QE1 QE2 \n QF1",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QE1\n QE2 QE9\n QF1",
+     ""
+    ],
+    [
+     "QL3",
+     "O/C",
+     "IF",
+     "QE3\n QE9 QF1\n QF2",
+     ""
+    ],
+    [
+     "QL4",
+     "O/C",
+     "IF",
+     "QE4\n QE5 QE9 \n QF2",
+     ""
+    ],
+    [
+     "QL5",
+     "O/C",
+     "IF",
+     "QE4\n QE5 QE10 \n QF2",
+     ""
+    ],
+    [
+     "QL6",
+     "O/C",
+     "IF",
+     "QE6\n QE10 QF2\n QF3",
+     ""
+    ],
+    [
+     "QL7",
+     "O/C",
+     "IF",
+     "QE7\n QE8 QE10\n QF3",
+     ""
+    ],
+    [
      "QL8",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QE7\n QE8 F06 \n QEA1QF3",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1\n QL2",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1\n QL2",
+     ""
+    ],
+    [
+     "QE3",
+     "O/C",
+     "IF",
+     "QL3\n F27 ( NO VOLTAGE )",
+     ""
+    ],
+    [
+     "QE4",
+     "O/C",
+     "IF",
+     "QL4\n QL5",
+     ""
+    ],
+    [
+     "QE5",
+     "O/C",
+     "IF",
+     "QL4\n QL5",
+     ""
+    ],
+    [
+     "QE6",
+     "O/C",
+     "IF",
+     "QL6\n F27 (NO VOLTAGE )",
+     ""
+    ],
+    [
+     "QE7",
+     "O/C",
+     "IF",
+     "QL7\n QL8",
+     ""
+    ],
+    [
+     "QE8",
+     "O/C",
+     "IF",
+     "QL7\n QL8",
+     ""
+    ],
+    [
+     "QE9",
+     "O/C",
+     "IF",
+     "QL2\n QL3 \n QL4",
+     ""
+    ],
+    [
+     "QE10",
+     "O/C",
+     "IF",
+     "QL5\n QL6 \n QL7",
+     ""
+    ],
+    [
+     "QF1",
+     "O/C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 \n ) x ( QL3 + QL3)",
+     ""
+    ],
+    [
+     "QF2",
+     "O/C",
+     "IF",
+     "( QL4 + QL4 ) x ( QL5 + QL5 \n ) x ( QL6 + QL6) x ( QL3 + QL3)",
+     ""
+    ],
+    [
+     "QF3",
+     "O/C",
+     "IF",
+     "( QL7 +QL7 ) x ( QL8 + QL8 ) \n x ( QL6 + QL6)",
      ""
     ]
    ],
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Location:"
-  },
-  {
-   "type": "paragraph",
-   "text": "PTW ''Work Order No.'': \n Equipment Designation:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Tested by:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Test Date: \nSignature:"
-  },
-  {
-   "type": "paragraph",
-   "text": "LOGIC KEY"
-  },
-  {
-   "type": "paragraph",
-   "text": "AND, QF: CB"
-  },
-  {
-   "type": "paragraph",
-   "text": "+ OR \n QL: DS QE: ES"
-  },
-  {
-   "type": "paragraph",
-   "text": "O \n Opening Coil"
-  },
-  {
-   "type": "paragraph",
-   "text": "C \n Closing Coil"
-  },
-  {
-   "type": "paragraph",
-   "text": "QL \n Apparatus Open"
-  },
-  {
-   "type": "paragraph",
-   "text": "QL Apparatus \n Close"
+   "type": "table",
+   "rows": [
+    [
+     "Location: \nPTW ''Work Order No.'': \n Equipment Designation:\nTested by: \nTest Date: \nSignature:",
+     "LOGIC KEY\n AND, QF: CB\n + OR \n QL: DS QE: ES\n O \n Opening Coil\n C \n Closing Coil\n QL \n Apparatus Open\n QL Apparatus \n Close\n O/C Coil \n Open to Close or\n O/C Coil \n Close to Open"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -173,10 +280,157 @@
    "type": "table",
    "rows": [
     [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "F06QEB1\n QE1 QE2\n QF1",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QE1 QE2\n QE9 QF1",
+     ""
+    ],
+    [
+     "QL3",
+     "O/C",
+     "IF",
+     "QE3 QE9\n QF1 QF2",
+     ""
+    ],
+    [
+     "QL4",
+     "O/C",
+     "IF",
+     "QE4 QE5\n QE9 QF2",
+     ""
+    ],
+    [
+     "QL5",
+     "O/C",
+     "IF",
+     "QE4 \n QE5 QE10\n QF2",
+     ""
+    ],
+    [
+     "QL6",
+     "O/C",
+     "IF",
+     "QE6 QE10\n QF2QF3\n K ..QE1( 66KV\n ( K .. QE2(66KV\n (",
+     ""
+    ],
+    [
+     "QL7",
+     "O/C",
+     "IF",
+     "QE7 QE8\n QE10 QF3",
+     ""
+    ],
+    [
      "QL8",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QE7 QE8\n F06 QEA1\n QF3",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 QL2",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2",
+     ""
+    ],
+    [
+     "QE3",
+     "O/C",
+     "IF",
+     "QL3 F27 \n ( NO VOLTAGE )",
+     ""
+    ],
+    [
+     "QE4",
+     "O/C",
+     "IF",
+     "QL4 QL5",
+     ""
+    ],
+    [
+     "QE5",
+     "O/C",
+     "IF",
+     "QL4 QL5",
+     ""
+    ],
+    [
+     "QE6",
+     "O/C",
+     "IF",
+     "QL6 K \n ..QL1 ( 66KV ( K ..QL2(66KV)",
+     ""
+    ],
+    [
+     "QE7",
+     "O/C",
+     "IF",
+     "QL7 QL8",
+     ""
+    ],
+    [
+     "QE8",
+     "O/C",
+     "IF",
+     "QL7 QL8",
+     ""
+    ],
+    [
+     "QE9",
+     "O/C",
+     "IF",
+     "QL2 QL3\n QL4",
+     ""
+    ],
+    [
+     "QE10",
+     "O/C",
+     "IF",
+     "QL5 QL6\n QL7",
+     ""
+    ],
+    [
+     "QF1",
+     "O/C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 \n ) x ( QL3 + QL3)",
+     ""
+    ],
+    [
+     "QF2",
+     "O/C",
+     "IF",
+     "( QL4 + QL4 ) x ( QL5 + QL5 \n ) x ( QL6 + QL6) x ( QL3 + QL3)",
+     ""
+    ],
+    [
+     "QF3",
+     "O/C",
+     "IF",
+     "( QL7 +QL7 ) x ( QL8 + QL8 ) \n x ( QL6 + QL6)",
      ""
     ]
    ],
@@ -191,100 +445,100 @@
    "rows": [
     [
      "QEB1",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QL1 \n F01QL1 F02QL1\n F03QL1 \n F04QL1 F05QL1",
      ""
     ],
     [
      "QE2",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QL1 QL2",
      ""
     ],
     [
      "QEB2",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QL2 F07 \n QL1 F08 QL1\n F09QL1\n F10 QL1",
      ""
     ],
     [
      "QE2",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QL1 QL2",
      ""
     ],
     [
      "QL1",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QF1 QEB1\n QE1 QE2",
      ""
     ],
     [
      "QL2",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QF1 QEB2\n QE1 QE2",
      ""
     ],
     [
      "QF1",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 \n )",
      ""
     ],
     [
      "QEA1",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QL3 F01 \n QL8F02 QL8\n F03 QL8 \n F04 QL8 F05 QL8",
      ""
     ],
     [
      "QE3",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QL3 \n QL4",
      ""
     ],
     [
      "QEA2",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QL4 F07 \n QL8 F08 QL8\n F09 QL8 \n F10 QL8",
      ""
     ],
     [
      "QE4",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QL3 QL4",
      ""
     ],
     [
      "QL3",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QF3 QEA1 \n QE3 QE4",
      ""
     ],
     [
      "QL4",
-     "",
-     "",
+     "O/C",
+     "IF",
      "QF3 QEA2 \n QE3 QE4",
      ""
     ],
     [
      "QF3",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "( QL3 + QL3 ) x ( QL4 + QL4 \n )",
      ""
     ]
    ],
@@ -299,48 +553,174 @@
    "text": "( F0 )"
   },
   {
-   "type": "paragraph",
-   "text": "Location:"
+   "type": "table",
+   "rows": [
+    [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "F06QEB2QE1QE2QF1",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QE1 QE2 \n QE9 QF1",
+     ""
+    ],
+    [
+     "QL3",
+     "O/C",
+     "IF",
+     "QE3 QE9 \n QF1 QF2",
+     ""
+    ],
+    [
+     "QL4",
+     "O/C",
+     "IF",
+     "QE4 QE5 \n QE9 QF2",
+     ""
+    ],
+    [
+     "QL5",
+     "O/C",
+     "IF",
+     "QE4 QE5 \n QE10 QF2",
+     ""
+    ],
+    [
+     "QL6",
+     "O/C",
+     "IF",
+     "QE6 QE10 QF2QF3\n K ..QE1 (66 KV ) K..QE2 \n (66 KV)",
+     ""
+    ],
+    [
+     "QL7",
+     "O/C",
+     "IF",
+     "QE7 QE8 QE10\n QF3",
+     ""
+    ],
+    [
+     "QL8",
+     "O/C",
+     "IF",
+     "QE7 QE8 \n F06 QEA2QF3",
+     ""
+    ],
+    [
+     "QE1",
+     "O/C",
+     "IF",
+     "QL1 QL2",
+     ""
+    ],
+    [
+     "QE2",
+     "O/C",
+     "IF",
+     "QL1 QL2",
+     ""
+    ],
+    [
+     "QE3",
+     "O/C",
+     "IF",
+     "QL3 F27 ( NO VOLTAGE )",
+     ""
+    ],
+    [
+     "QE4",
+     "O/C",
+     "IF",
+     "QL4 QL5",
+     ""
+    ],
+    [
+     "QE5",
+     "O/C",
+     "IF",
+     "QL4 QL5",
+     ""
+    ],
+    [
+     "QE6",
+     "O/C",
+     "IF",
+     "QL6 K ..QL1 (66 KV )\n K..QL2 (66 \n KV)",
+     ""
+    ],
+    [
+     "QE7",
+     "O/C",
+     "IF",
+     "QL7 QL8",
+     ""
+    ],
+    [
+     "QE8",
+     "O/C",
+     "IF",
+     "QL7 QL8",
+     ""
+    ],
+    [
+     "QE9",
+     "O/C",
+     "IF",
+     "QL2 QL3 \n QL4",
+     ""
+    ],
+    [
+     "QE10",
+     "O/C",
+     "IF",
+     "QL5 QL6 \n QL7",
+     ""
+    ],
+    [
+     "QF1",
+     "O/C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 \n ) x ( QL3 + QL3)",
+     ""
+    ],
+    [
+     "QF2",
+     "O/C",
+     "IF",
+     "( QL4 + QL4 ) x ( QL5 + QL5 \n ) x ( QL6 + QL6) x ( QL3 + QL3)",
+     ""
+    ],
+    [
+     "QF3",
+     "O/C",
+     "IF",
+     "( QL7 +QL7 ) x ( QL8 + QL8 ) \n x ( QL6 + QL6)",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "PTW ''Work Order No.'': \n Equipment Designation:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Tested by:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Test Date: \nSignature:"
-  },
-  {
-   "type": "paragraph",
-   "text": "LOGIC KEY"
-  },
-  {
-   "type": "paragraph",
-   "text": "AND, QF: CB"
-  },
-  {
-   "type": "paragraph",
-   "text": "+ OR \n QL: DS QE: ES"
-  },
-  {
-   "type": "paragraph",
-   "text": "O \n Opening Coil"
-  },
-  {
-   "type": "paragraph",
-   "text": "C \n Closing Coil"
-  },
-  {
-   "type": "paragraph",
-   "text": "QL \n Apparatus Open"
-  },
-  {
-   "type": "paragraph",
-   "text": "QL Apparatus \n Close"
+   "type": "table",
+   "rows": [
+    [
+     "Location: \nPTW ''Work Order No.'': \n Equipment Designation:\nTested by: \nTest Date: \nSignature:",
+     "LOGIC KEY\n AND, QF: CB\n + OR \n QL: DS QE: ES\n O \n Opening Coil\n C \n Closing Coil\n QL \n Apparatus Open\n QL Apparatus \n Close\n O/C Coil \n Open to Close or\n Coil \n Close to Open"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -354,173 +734,174 @@
    "type": "table",
    "rows": [
     [
+     "Equip.",
+     "Position",
+     "",
+     "Conditions",
+     "Test \n Result"
+    ],
+    [
+     "QL1",
+     "O/C",
+     "IF",
+     "F06QEB2 QE1\n QE2 QF1",
+     ""
+    ],
+    [
+     "QL2",
+     "O/C",
+     "IF",
+     "QE1 QE2\n QE9 QF1",
+     ""
+    ],
+    [
+     "QL3",
+     "O/C",
+     "IF",
+     "QE3 QE9\n QF1 QF2",
+     ""
+    ],
+    [
+     "QL4",
+     "O/C",
+     "IF",
+     "QE4 QE5\n QE9 QF2",
+     ""
+    ],
+    [
      "QL5",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QE4 \n QE5 \n QE10 QF2",
      ""
     ],
     [
      "QL6",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QE6 QE10\n QF2 QF3",
      ""
     ],
     [
      "QL7",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QE7 QE8\n QE10\n QF3",
      ""
     ],
     [
      "QL8",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QE7 QE8\n F06 QEA2QF3",
      ""
     ],
     [
      "QE1",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL1 QL2",
      ""
     ],
     [
      "QE2",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL1 QL2",
      ""
     ],
     [
      "QE3",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL3 F27 \n ( NO VOLTAGE )",
      ""
     ],
     [
      "QE4",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL4 QL5",
      ""
     ],
     [
      "QE5",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL4 QL5",
      ""
     ],
     [
      "QE6",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL6 F27 \n (NO VOLTAGE )",
      ""
     ],
     [
      "QE7",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL7 QL8",
      ""
     ],
     [
      "QE8",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL7 QL8",
      ""
     ],
     [
      "QE9",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL2 QL3\n QL4",
      ""
     ],
     [
      "QE10",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "QL5 QL6\n QL7",
      ""
     ],
     [
      "QF1",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "( QL1 + QL1 ) x ( QL2 + QL2 \n ) x ( QL3 + QL3)",
      ""
     ],
     [
      "QF2",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "( QL4 + QL4 ) x ( QL5 + QL5 \n ) x ( QL6 + QL6) x ( QL3 + QL3)",
      ""
     ],
     [
      "QF3",
-     "",
-     "",
-     "",
+     "O/C",
+     "IF",
+     "( QL7 +QL7 ) x ( QL8 + QL8 ) \n x ( QL6 + QL6)",
      ""
     ]
    ],
    "truncated_rows": 0
   },
   {
-   "type": "paragraph",
-   "text": "Location:"
-  },
-  {
-   "type": "paragraph",
-   "text": "PTW ''Work Order No.'': \n Equipment Designation:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Tested by:"
-  },
-  {
-   "type": "paragraph",
-   "text": "Test Date: \nSignature:"
-  },
-  {
-   "type": "paragraph",
-   "text": "LOGIC KEY"
-  },
-  {
-   "type": "paragraph",
-   "text": "AND, QF: CB"
-  },
-  {
-   "type": "paragraph",
-   "text": "+ OR \n QL: DS QE: ES"
-  },
-  {
-   "type": "paragraph",
-   "text": "O \n Opening Coil"
-  },
-  {
-   "type": "paragraph",
-   "text": "C \n Closing Coil"
-  },
-  {
-   "type": "paragraph",
-   "text": "QL \n Apparatus Open"
-  },
-  {
-   "type": "paragraph",
-   "text": "QL Apparatus \n Close"
+   "type": "table",
+   "rows": [
+    [
+     "Location: \nPTW ''Work Order No.'': \n Equipment Designation:\nTested by: \nTest Date: \nSignature:",
+     "LOGIC KEY\n AND, QF: CB\n + OR \n QL: DS QE: ES\n O \n Opening Coil\n C \n Closing Coil\n QL \n Apparatus Open\n QL Apparatus \n Close\n O/C Coil \n Open to Close or\n Coil \n Close to Open"
+    ]
+   ],
+   "truncated_rows": 0
   }
  ],
- "text": "Power \n Station\nTechnical \n Procedure\nEquipment:\n Interlock Logic \n System 220kv\nMERLIN GERIN - FRANCE\nIntroduction\nThis document outlines the \nequipment inspection I1, which must be performed \non an annually bases \nas indicated by Y1 in the title block\nThe first draft initiated \nby eng. \nAbd Allah Elsayed Mohamed, tested by eng \nAbdel Latif Ahmed, \nrevised by EDEPC quality control eng Adel Abdel Qader El Nagar, \naccepted by eng El Sayed Attiah Abd El Maksood general director, and approved \nby eng. Fathy \nMahmoud \nRagb Head Sector of Talkha PS.\nThis \ndocument accepted by eng. Samir Abd El Gilil; EDEPC inspection & quality control \ngeneral director, MPIS coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC admin & financial inspection & \nquality control's general director and supervisor of inspection & quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued and qualified maintanance staff should carry the \n suitable safety category\nSafty fence with caution marks surrounding the work area is required\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nShut down the equipment under testing.\nA work permit must be issued and qualified maintanance staff should carry the \n suitable safety category\nSafty fence with caution marks surrounding the work area is required\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nShut down the equipment under testing.\nTools and Equipment\nComplete tool kit of screw drivers and common keys.\nDigital multimeter.\nWork to be Carried Out\nTest the Interlocking System according to the attached logic diagram.\nF01-F02-F03 \n Interlocking Logic\nF0 ( )\n\nLocation:\nPTW ''Work Order No.'': \n Equipment Designation:\nTested by:\nTest Date: \nSignature:\nLOGIC KEY\nAND, QF: CB\n+ OR \n QL: DS QE: ES\nO \n Opening Coil\nC \n Closing Coil\nQL \n Apparatus Open\nQL Apparatus \n Close\nF04 - F05 \n Interlocking Logic \nSystem\n( F0 )\n\nF06\n\nF07-F08 \nInterlocking Logic System\n( F0 )\nLocation:\nPTW ''Work Order No.'': \n Equipment Designation:\nTested by:\nTest Date: \nSignature:\nLOGIC KEY\nAND, QF: CB\n+ OR \n QL: DS QE: ES\nO \n Opening Coil\nC \n Closing Coil\nQL \n Apparatus Open\nQL Apparatus \n Close\nF09 - F10 \n Interlocking Logic \nSystem\n( F0 )\n\nLocation:\nPTW ''Work Order No.'': \n Equipment Designation:\nTested by:\nTest Date: \nSignature:\nLOGIC KEY\nAND, QF: CB\n+ OR \n QL: DS QE: ES\nO \n Opening Coil\nC \n Closing Coil\nQL \n Apparatus Open\nQL Apparatus \n Close",
+ "text": "Power \n Station | Technical \n Procedure\nIntroduction\nThis document outlines the \nequipment inspection I1, which must be performed \non an annually bases \nas indicated by Y1 in the title block\nThe first draft initiated \nby eng. \nAbd Allah Elsayed Mohamed, tested by eng \nAbdel Latif Ahmed, \nrevised by EDEPC quality control eng Adel Abdel Qader El Nagar, \naccepted by eng El Sayed Attiah Abd El Maksood general director, and approved \nby eng. Fathy \nMahmoud \nRagb Head Sector of Talkha PS.\nThis \ndocument accepted by eng. Samir Abd El Gilil; EDEPC inspection & quality control \ngeneral director, MPIS coordinator, and \ncertified by accountant Mahmoud Soliman EDEPC admin & financial inspection & \nquality control's general director and supervisor of inspection & quality \ncontrol head sector.\nSafety Precautions\nA work permit must be issued and qualified maintanance staff should carry the \n suitable safety category\nSafty fence with caution marks surrounding the work area is required\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nShut down the equipment under testing.\nA work permit must be issued and qualified maintanance staff should carry the \n suitable safety category\nSafty fence with caution marks surrounding the work area is required\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nWear the safety \n and healthy equipment as safety helmet, safety shoes, safety belt ...etc.\nShut down the equipment under testing.\nTools and Equipment\nComplete tool kit of screw drivers and common keys.\nDigital multimeter.\nWork to be Carried Out\nTest the Interlocking System according to the attached logic diagram.\nF01-F02-F03 \n Interlocking Logic\nF0 ( )\nEquip. | Position |  | Conditions | Test \n Result\nQL1 | O/C | IF | F06QEB1 \n QE1 QE2 \n QF1 | \nQL2 | O/C | IF | QE1\n QE2 QE9\n QF1 | \nQL3 | O/C | IF | QE3\n QE9 QF1\n QF2 | \nQL4 | O/C | IF | QE4\n QE5 QE9 \n QF2 | \nQL5 | O/C | IF | QE4\n QE5 QE10 \n QF2 | \nQL6 | O/C | IF | QE6\n QE10 QF2\n QF3 | \nQL7 | O/C | IF | QE7\n QE8 QE10\n QF3 | \nQL8 | O/C | IF | QE7\n QE8 F06 \n QEA1QF3 | \nQE1 | O/C | IF | QL1\n QL2 | \nQE2 | O/C | IF | QL1\n QL2 | \nQE3 | O/C | IF | QL3\n F27 ( NO VOLTAGE ) | \nQE4 | O/C | IF | QL4\n QL5 | \nQE5 | O/C | IF | QL4\n QL5 | \nQE6 | O/C | IF | QL6\n F27 (NO VOLTAGE ) | \nQE7 | O/C | IF | QL7\n QL8 | \nQE8 | O/C | IF | QL7\n QL8 | \nQE9 | O/C | IF | QL2\n QL3 \n QL4 | \nQE10 | O/C | IF | QL5\n QL6 \n QL7 | \nQF1 | O/C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 \n ) x ( QL3 + QL3) | \nQF2 | O/C | IF | ( QL4 + QL4 ) x ( QL5 + QL5 \n ) x ( QL6 + QL6) x ( QL3 + QL3) | \nQF3 | O/C | IF | ( QL7 +QL7 ) x ( QL8 + QL8 ) \n x ( QL6 + QL6) | \nLocation: \nPTW ''Work Order No.'': \n Equipment Designation:\nTested by: \nTest Date: \nSignature: | LOGIC KEY\n AND, QF: CB\n + OR \n QL: DS QE: ES\n O \n Opening Coil\n C \n Closing Coil\n QL \n Apparatus Open\n QL Apparatus \n Close\n O/C Coil \n Open to Close or\n O/C Coil \n Close to Open\nF04 - F05 \n Interlocking Logic \nSystem\n( F0 )\nEquip. | Position |  | Conditions | Test \n Result\nQL1 | O/C | IF | F06QEB1\n QE1 QE2\n QF1 | \nQL2 | O/C | IF | QE1 QE2\n QE9 QF1 | \nQL3 | O/C | IF | QE3 QE9\n QF1 QF2 | \nQL4 | O/C | IF | QE4 QE5\n QE9 QF2 | \nQL5 | O/C | IF | QE4 \n QE5 QE10\n QF2 | \nQL6 | O/C | IF | QE6 QE10\n QF2QF3\n K ..QE1( 66KV\n ( K .. QE2(66KV\n ( | \nQL7 | O/C | IF | QE7 QE8\n QE10 QF3 | \nQL8 | O/C | IF | QE7 QE8\n F06 QEA1\n QF3 | \nQE1 | O/C | IF | QL1 QL2 | \nQE2 | O/C | IF | QL1 QL2 | \nQE3 | O/C | IF | QL3 F27 \n ( NO VOLTAGE ) | \nQE4 | O/C | IF | QL4 QL5 | \nQE5 | O/C | IF | QL4 QL5 | \nQE6 | O/C | IF | QL6 K \n ..QL1 ( 66KV ( K ..QL2(66KV) | \nQE7 | O/C | IF | QL7 QL8 | \nQE8 | O/C | IF | QL7 QL8 | \nQE9 | O/C | IF | QL2 QL3\n QL4 | \nQE10 | O/C | IF | QL5 QL6\n QL7 | \nQF1 | O/C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 \n ) x ( QL3 + QL3) | \nQF2 | O/C | IF | ( QL4 + QL4 ) x ( QL5 + QL5 \n ) x ( QL6 + QL6) x ( QL3 + QL3) | \nQF3 | O/C | IF | ( QL7 +QL7 ) x ( QL8 + QL8 ) \n x ( QL6 + QL6) | \nF06\nQEB1 | O/C | IF | QL1 \n F01QL1 F02QL1\n F03QL1 \n F04QL1 F05QL1 | \nQE2 | O/C | IF | QL1 QL2 | \nQEB2 | O/C | IF | QL2 F07 \n QL1 F08 QL1\n F09QL1\n F10 QL1 | \nQE2 | O/C | IF | QL1 QL2 | \nQL1 | O/C | IF | QF1 QEB1\n QE1 QE2 | \nQL2 | O/C | IF | QF1 QEB2\n QE1 QE2 | \nQF1 | O/C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 \n ) | \nQEA1 | O/C | IF | QL3 F01 \n QL8F02 QL8\n F03 QL8 \n F04 QL8 F05 QL8 | \nQE3 | O/C | IF | QL3 \n QL4 | \nQEA2 | O/C | IF | QL4 F07 \n QL8 F08 QL8\n F09 QL8 \n F10 QL8 | \nQE4 | O/C | IF | QL3 QL4 | \nQL3 | O/C | IF | QF3 QEA1 \n QE3 QE4 | \nQL4 | O/C | IF | QF3 QEA2 \n QE3 QE4 | \nQF3 | O/C | IF | ( QL3 + QL3 ) x ( QL4 + QL4 \n ) | \nF07-F08 \nInterlocking Logic System\n( F0 )\nEquip. | Position |  | Conditions | Test \n Result\nQL1 | O/C | IF | F06QEB2QE1QE2QF1 | \nQL2 | O/C | IF | QE1 QE2 \n QE9 QF1 | \nQL3 | O/C | IF | QE3 QE9 \n QF1 QF2 | \nQL4 | O/C | IF | QE4 QE5 \n QE9 QF2 | \nQL5 | O/C | IF | QE4 QE5 \n QE10 QF2 | \nQL6 | O/C | IF | QE6 QE10 QF2QF3\n K ..QE1 (66 KV ) K..QE2 \n (66 KV) | \nQL7 | O/C | IF | QE7 QE8 QE10\n QF3 | \nQL8 | O/C | IF | QE7 QE8 \n F06 QEA2QF3 | \nQE1 | O/C | IF | QL1 QL2 | \nQE2 | O/C | IF | QL1 QL2 | \nQE3 | O/C | IF | QL3 F27 ( NO VOLTAGE ) | \nQE4 | O/C | IF | QL4 QL5 | \nQE5 | O/C | IF | QL4 QL5 | \nQE6 | O/C | IF | QL6 K ..QL1 (66 KV )\n K..QL2 (66 \n KV) | \nQE7 | O/C | IF | QL7 QL8 | \nQE8 | O/C | IF | QL7 QL8 | \nQE9 | O/C | IF | QL2 QL3 \n QL4 | \nQE10 | O/C | IF | QL5 QL6 \n QL7 | \nQF1 | O/C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 \n ) x ( QL3 + QL3) | \nQF2 | O/C | IF | ( QL4 + QL4 ) x ( QL5 + QL5 \n ) x ( QL6 + QL6) x ( QL3 + QL3) | \nQF3 | O/C | IF | ( QL7 +QL7 ) x ( QL8 + QL8 ) \n x ( QL6 + QL6) | \nLocation: \nPTW ''Work Order No.'': \n Equipment Designation:\nTested by: \nTest Date: \nSignature: | LOGIC KEY\n AND, QF: CB\n + OR \n QL: DS QE: ES\n O \n Opening Coil\n C \n Closing Coil\n QL \n Apparatus Open\n QL Apparatus \n Close\n O/C Coil \n Open to Close or\n Coil \n Close to Open\nF09 - F10 \n Interlocking Logic \nSystem\n( F0 )\nEquip. | Position |  | Conditions | Test \n Result\nQL1 | O/C | IF | F06QEB2 QE1\n QE2 QF1 | \nQL2 | O/C | IF | QE1 QE2\n QE9 QF1 | \nQL3 | O/C | IF | QE3 QE9\n QF1 QF2 | \nQL4 | O/C | IF | QE4 QE5\n QE9 QF2 | \nQL5 | O/C | IF | QE4 \n QE5 \n QE10 QF2 | \nQL6 | O/C | IF | QE6 QE10\n QF2 QF3 | \nQL7 | O/C | IF | QE7 QE8\n QE10\n QF3 | \nQL8 | O/C | IF | QE7 QE8\n F06 QEA2QF3 | \nQE1 | O/C | IF | QL1 QL2 | \nQE2 | O/C | IF | QL1 QL2 | \nQE3 | O/C | IF | QL3 F27 \n ( NO VOLTAGE ) | \nQE4 | O/C | IF | QL4 QL5 | \nQE5 | O/C | IF | QL4 QL5 | \nQE6 | O/C | IF | QL6 F27 \n (NO VOLTAGE ) | \nQE7 | O/C | IF | QL7 QL8 | \nQE8 | O/C | IF | QL7 QL8 | \nQE9 | O/C | IF | QL2 QL3\n QL4 | \nQE10 | O/C | IF | QL5 QL6\n QL7 | \nQF1 | O/C | IF | ( QL1 + QL1 ) x ( QL2 + QL2 \n ) x ( QL3 + QL3) | \nQF2 | O/C | IF | ( QL4 + QL4 ) x ( QL5 + QL5 \n ) x ( QL6 + QL6) x ( QL3 + QL3) | \nQF3 | O/C | IF | ( QL7 +QL7 ) x ( QL8 + QL8 ) \n x ( QL6 + QL6) | \nLocation: \nPTW ''Work Order No.'': \n Equipment Designation:\nTested by: \nTest Date: \nSignature: | LOGIC KEY\n AND, QF: CB\n + OR \n QL: DS QE: ES\n O \n Opening Coil\n C \n Closing Coil\n QL \n Apparatus Open\n QL Apparatus \n Close\n O/C Coil \n Open to Close or\n Coil \n Close to Open",
  "text_truncated": false,
  "links": [],
  "images": [

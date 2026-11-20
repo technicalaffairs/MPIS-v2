@@ -14,16 +14,14 @@
  "translation_status": "missing",
  "sections": [
   {
-   "type": "paragraph",
-   "text": "Switchgear"
-  },
-  {
-   "type": "paragraph",
-   "text": "Technical \n Procedure"
-  },
-  {
-   "type": "paragraph",
-   "text": "Equipment:Circuit Breakers\n Measuring DC Resistance"
+   "type": "table",
+   "rows": [
+    [
+     "Switchgear",
+     "Technical \n Procedure"
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -148,6 +146,22 @@
    "text": "Tested by: \nSignature:"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Manufacturer",
+     "Type",
+     "Serial No.",
+     "Test \n Position",
+     "Injected Current \n DC Amps",
+     "Micro \n Ohm",
+     "Voltage \n Drop mv",
+     "Remarks"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Recommendations:"
   },
@@ -167,6 +181,37 @@
    "type": "table",
    "rows": [
     [
+     "1 Grounding terminal",
+     "6 AC current output",
+     "11 Setting selector"
+    ],
+    [
+     "2 Connection for mains voltage",
+     "7 Common output terminal",
+     "12 Function selector"
+    ],
+    [
+     "3 Miniature circuit breaker for mains",
+     "8 DC current output",
+     "13 Interrupts current and toggles the display between resistance and voltage"
+    ],
+    [
+     "4 Switch for mains voltage",
+     "9 Voltage measurement input",
+     "14 RS 232 Serial interface"
+    ],
+    [
+     "5 Variable transformer",
+     "10 Display",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
      "Figure 1:"
     ]
    ],
@@ -177,12 +222,15 @@
    "rows": [
     [
      "Figure 2: Measuring the Resistance of a \n Breaker"
+    ],
+    [
+     "Figure 3: \n Measuring the Resistance at Bus-Bar Joints"
     ]
    ],
    "truncated_rows": 0
   }
  ],
- "text": "Switchgear\nTechnical \n Procedure\nEquipment:Circuit Breakers\n Measuring DC Resistance\nIntroduction\nThis document outlines the testing procedures P1, \nwhich must be performed every two years as indicated by Y2 in the title block.\nThe first draft initiated \nby eng. Hanan Elbadrawy, revised by eng Ayman Ayyad, tested by eng Fahmy \nAbd El Khalek, revised by EDEPC quality control eng. Adel Abd EL-Qader El Nagar, \naccepted by general director eng Fawzy Elzemety, and approved by eng. Awad Fathy \nHead Sector of Talkha PS.\nThis document accepted by eng. Samir Abdel Gilel: EDEPC MPIS coordinator & inspection and \n quality control general director, and certified by accountant Mahmoud \n Mohamed Soliman EDEPC admin. & financial inspection, quality control general \n director and supervisor of inspection & quality control head sector.\nSafety Precautions\nA work permit must be issued and the maintenance staff \n should carry the suitable safety category.\nMaintenance staff should be well trained, qualified or \n directly supervised by some one who is.\nSafety fence with caution marks surrounding the work area \n is required.\nWear the personal protective equipment must used as \n safety shoes, safety helmet ...etc\nCT must be out of service and isolated from the network\nTools and Equipment\nCable set 15m (49 ft)\n2*15m (49 ft) 95mm (current cables )\n2*15m (49 ft) 2.5mm (sensing cables)\nThe tester MOM 690\nPower \n supply\nWork to be Carried Out\nIMPORTANT :\n the sensing cables must be \n connected inside the current cables.otherwise the test data will be \n incorrect. See fig.\nMeasuring the \n resistance of a breaker\nMake certain the line is de-energized on both side of the \n breaker .ground the breaker on one side and make certain it is closed\nGround the microhmmeter.\nMake certain the microhmmeters \n ON/ OFF while making connections.\nIMPORTANT :\n the sensing cables must be \n connected inside the current cables.otherwise the test data will be \n incorrect. See fig.\nSwitch on theMOM690 .\nSelect AUTOor MAN with the <func> button.\nSet output current to zero to start the \n measurement. cables must be connected inside the current cables.\nIncrease the current to the desired value (600A \n for example ).\nRead the resistance value.\nMeasuring \nResistance at Busbar Joints\nEnsure the line is de-energized and the test \n object is grounded.\nGround the microhmmeter.\nMake certain microhmmeters ON/OFF switch is OFF \n while making connections\nConnect the microhmmeters current cables to the \n test object . do not connect the sensing cables . measurement will be done \n manually using an external portable voltmeter\nSwitch on the MOM690\nSelect MAN with the < FUNC > button.\nSet output current to zero to start the \n measurement\nIncrease the current to the desired value (100A \n for example ).\nUsing an external voltmeter , measure the voltage \n drop across each contact element within section of the busbar being tested . \n the voltmeter must be set to DC .\nCalculate the actual resistance.\nExample \n:\nIf the voltage drop is 0.0067V at a current of 100A \nthe resistance will be 0.0067/100 Ώ i.e67 μΩ\nLocation: C \nB Designation: Tested by: Signature: \nTest Date:\nMRDS \nMaintenance Record Test Sheet MRDS\nMicro Ohm testing for all \nBreakers (Contact Resistance Testing)\nCircuit Breaker Data:\nKV Rating: \nCB Designation: \nCB Type: \nManufacturer:\nLocation; \nTested Date:\nTested by: \nSignature:\nRecommendations:\n...................................................................................................................................................\n...................................................................................................................................................\n...................................................................................................................................................\n\n",
+ "text": "Switchgear | Technical \n Procedure\nIntroduction\nThis document outlines the testing procedures P1, \nwhich must be performed every two years as indicated by Y2 in the title block.\nThe first draft initiated \nby eng. Hanan Elbadrawy, revised by eng Ayman Ayyad, tested by eng Fahmy \nAbd El Khalek, revised by EDEPC quality control eng. Adel Abd EL-Qader El Nagar, \naccepted by general director eng Fawzy Elzemety, and approved by eng. Awad Fathy \nHead Sector of Talkha PS.\nThis document accepted by eng. Samir Abdel Gilel: EDEPC MPIS coordinator & inspection and \n quality control general director, and certified by accountant Mahmoud \n Mohamed Soliman EDEPC admin. & financial inspection, quality control general \n director and supervisor of inspection & quality control head sector.\nSafety Precautions\nA work permit must be issued and the maintenance staff \n should carry the suitable safety category.\nMaintenance staff should be well trained, qualified or \n directly supervised by some one who is.\nSafety fence with caution marks surrounding the work area \n is required.\nWear the personal protective equipment must used as \n safety shoes, safety helmet ...etc\nCT must be out of service and isolated from the network\nTools and Equipment\nCable set 15m (49 ft)\n2*15m (49 ft) 95mm (current cables )\n2*15m (49 ft) 2.5mm (sensing cables)\nThe tester MOM 690\nPower \n supply\nWork to be Carried Out\nIMPORTANT :\n the sensing cables must be \n connected inside the current cables.otherwise the test data will be \n incorrect. See fig.\nMeasuring the \n resistance of a breaker\nMake certain the line is de-energized on both side of the \n breaker .ground the breaker on one side and make certain it is closed\nGround the microhmmeter.\nMake certain the microhmmeters \n ON/ OFF while making connections.\nIMPORTANT :\n the sensing cables must be \n connected inside the current cables.otherwise the test data will be \n incorrect. See fig.\nSwitch on theMOM690 .\nSelect AUTOor MAN with the <func> button.\nSet output current to zero to start the \n measurement. cables must be connected inside the current cables.\nIncrease the current to the desired value (600A \n for example ).\nRead the resistance value.\nMeasuring \nResistance at Busbar Joints\nEnsure the line is de-energized and the test \n object is grounded.\nGround the microhmmeter.\nMake certain microhmmeters ON/OFF switch is OFF \n while making connections\nConnect the microhmmeters current cables to the \n test object . do not connect the sensing cables . measurement will be done \n manually using an external portable voltmeter\nSwitch on the MOM690\nSelect MAN with the < FUNC > button.\nSet output current to zero to start the \n measurement\nIncrease the current to the desired value (100A \n for example ).\nUsing an external voltmeter , measure the voltage \n drop across each contact element within section of the busbar being tested . \n the voltmeter must be set to DC .\nCalculate the actual resistance.\nExample \n:\nIf the voltage drop is 0.0067V at a current of 100A \nthe resistance will be 0.0067/100 Ώ i.e67 μΩ\nLocation: C \nB Designation: Tested by: Signature: \nTest Date:\nMRDS \nMaintenance Record Test Sheet MRDS\nMicro Ohm testing for all \nBreakers (Contact Resistance Testing)\nCircuit Breaker Data:\nKV Rating: \nCB Designation: \nCB Type: \nManufacturer:\nLocation; \nTested Date:\nTested by: \nSignature:\nManufacturer | Type | Serial No. | Test \n Position | Injected Current \n DC Amps | Micro \n Ohm | Voltage \n Drop mv | Remarks\nRecommendations:\n...................................................................................................................................................\n...................................................................................................................................................\n...................................................................................................................................................\n1 Grounding terminal | 6 AC current output | 11 Setting selector\n2 Connection for mains voltage | 7 Common output terminal | 12 Function selector\n3 Miniature circuit breaker for mains | 8 DC current output | 13 Interrupts current and toggles the display between resistance and voltage\n4 Switch for mains voltage | 9 Voltage measurement input | 14 RS 232 Serial interface\n5 Variable transformer | 10 Display | \nFigure 1:\nFigure 2: Measuring the Resistance of a \n Breaker\nFigure 3: \n Measuring the Resistance at Bus-Bar Joints",
  "text_truncated": false,
  "links": [],
  "images": [
