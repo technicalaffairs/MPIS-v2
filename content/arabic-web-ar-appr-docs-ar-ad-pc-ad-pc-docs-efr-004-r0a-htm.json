@@ -27,10 +27,18 @@
    "type": "table",
    "rows": [
     [
+     ":\n RC 91 \n ABB",
+     ": EFR-004-r0a",
+     ""
+    ],
+    [
      ":"
     ],
     [
-     "",
+     ":"
+    ],
+    [
+     ":\n XS92a",
      ": \n 22 2002"
     ],
     [
@@ -70,24 +78,28 @@
    "type": "table",
    "rows": [
     [
-     "",
+     "1.",
      "XS92a ( \n )"
     ],
     [
-     "",
+     "2.",
      "DC/DC\n RC91"
     ],
     [
-     "",
+     "3.",
      "YX91 \n XX91\n RC91"
     ],
     [
-     "",
+     "4.",
      "DC/DC"
     ],
     [
-     "",
+     "5.",
      "AC \n XS92a"
+    ],
+    [
+     "6.",
+     "DC \n XS92a"
     ]
    ],
    "truncated_rows": 0
@@ -113,6 +125,32 @@
    "text": "START"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "CURRENT",
+     "Nominal",
+     "Measured Value"
+    ],
+    [
+     "2* IR = 0.2 A",
+     "3 SEC.",
+     ""
+    ],
+    [
+     "= 0.4 A",
+     "1.49 SEC.",
+     ""
+    ],
+    [
+     "= 0.8 A",
+     "0.99 SEC.",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "/ \n :"
   },
@@ -125,7 +163,7 @@
    "text": "د، \n :"
   }
  ],
- "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\n\nمقدمـة\n/\nاحتياطات الآمـان\nنظام معلومات إجراءات الصيانة\nجهاز \n الاختبار\n XS92a\nجهاز افوميتر\nالمطلوب تنفيذها\n\n:\nMode FF\n FC 01\n SQ 0F0\n A 0\n TF =3500\nMode UI\nU 0\n I 0.2 , 0.4 , 0.8\n DI 0\n PPH 132\nSTART\n/ \n :\n: :\nد، \n :",
+ "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\n:\n RC 91 \n ABB | : EFR-004-r0a | \n:\n:\n:\n XS92a | : \n 22 2002\n: \n 2007\nمقدمـة\n/\nاحتياطات الآمـان\nنظام معلومات إجراءات الصيانة\nجهاز \n الاختبار\n XS92a\nجهاز افوميتر\nالمطلوب تنفيذها\n1. | XS92a ( \n )\n2. | DC/DC\n RC91\n3. | YX91 \n XX91\n RC91\n4. | DC/DC\n5. | AC \n XS92a\n6. | DC \n XS92a\n:\nMode FF\n FC 01\n SQ 0F0\n A 0\n TF =3500\nMode UI\nU 0\n I 0.2 , 0.4 , 0.8\n DI 0\n PPH 132\nSTART\nCURRENT | Nominal | Measured Value\n2* IR = 0.2 A | 3 SEC. | \n= 0.4 A | 1.49 SEC. | \n= 0.8 A | 0.99 SEC. | \n/ \n :\n: :\nد، \n :",
  "text_truncated": false,
  "links": [
   {

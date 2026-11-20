@@ -24,16 +24,32 @@
    "text": "نظام معلومات إجراءات الصيانة"
   },
   {
-   "type": "paragraph",
-   "text": "الإجراء:\n الاختبار باستخدام \n جهاز الاختبار \n Sverker 650"
-  },
-  {
    "type": "table",
    "rows": [
+    [
+     "نظام\nمعلومات إجراءات\nالصيانة"
+    ],
     [
      "",
      "الوقاية - الإنتاج",
      "إجـراءات الصيانـة"
+    ],
+    [
+     "رقم المستند:\n BFR-004-r0a",
+     "المعدة:\n جهاز الوقاية ضد فشل القواطع \n للفصل\n TC024B - TUIQ\n TOSHIBA"
+    ],
+    [
+     "صادرة الى: \n محطة \n كهرباء \n أسيوط الجديدة"
+    ],
+    [
+     "الموقف: \n معتمـــد"
+    ],
+    [
+     "تاريخ الاعتماد: \n 06 أبريل 2003",
+     "الإجراء:\n الاختبار باستخدام \n جهاز الاختبار \n Sverker 650"
+    ],
+    [
+     "تاريخ المراجعة \nالتالية: أبريل \n2008"
     ]
    ],
    "truncated_rows": 0
@@ -83,15 +99,15 @@
    "rows": [
     [
      "ضع \n Change-over Switch (43)type BH-H7\n لاختبار وقاية ضد فشل \n القاطع على وضع Test \n على خلية الوقاية",
-     ""
+     "1"
     ],
     [
      "اعمل قصر على النقطتين \n (a17,18),(a11,12),(a11,12)(a11,12) \n على \n Test plug type HP2-C8",
-     ""
+     "2"
     ],
     [
      "ضع \n test plug type HP2-C8\n في \n Test socket type HR2A-C8\n الخاص بالريلاي\n ( \n z50BF)\n على خلية الوقاية",
-     ""
+     "3"
     ],
     [
      "احقن تيار في النقطتين \n (a21,22)\n في \n Test \n plug \n لاختبار الوجه R \n حتي تظهر الاشارة",
@@ -277,8 +293,169 @@
    "text": "Test Sheet"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Power Station Name:",
+     ""
+    ],
+    [
+     "Relay type:",
+     ""
+    ],
+    [
+     "Manufacturing no.",
+     "M530864"
+    ],
+    [
+     "Circuit :",
+     "Type form: TCO 24B - TU1Q"
+    ],
+    [
+     "Device no.:",
+     "Location no.:"
+    ],
+    [
+     "Rating",
+     "1A, 50Hz DC 220V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay Test:",
+     ""
+    ],
+    [
+     "1. General Inspection",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Checking Item",
+     "Result"
+    ],
+    [
+     "Appearance casing:",
+     ""
+    ],
+    [
+     "Tightness of fastening",
+     ""
+    ],
+    [
+     "Smooth rack in rack out",
+     ""
+    ],
+    [
+     "CT Shorting provision",
+     ""
+    ],
+    [
+     "Inspection of printed card",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "2. Tap value test of OC element",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Measure the operating value of O.C element of each \nsetting tap when C.B failure initiation contact is closed"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Setting Tap",
+     "0.05",
+     "0.1",
+     "0.2",
+     "0.3",
+     "0.4",
+     "",
+     "RESULT"
+    ],
+    [
+     "R",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "N",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -287,6 +464,16 @@
   {
    "type": "paragraph",
    "text": "Resetting value More than 90 % of setting"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "3. Tap value test of time element",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -313,6 +500,83 @@
    "text": "initiation contact is opened"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Setting Tap",
+     "40",
+     "100",
+     "150",
+     "200",
+     "300",
+     "350",
+     "Result"
+    ],
+    [
+     "R",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "N",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Criteria : Operating time setting value 10 ms"
   },
@@ -329,7 +593,7 @@
    "text": "القائم بالاختبار: \nالتوقيع: \nتاريخ التنفيذ:"
   }
  ],
- "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\nالإجراء:\n الاختبار باستخدام \n جهاز الاختبار \n Sverker 650\n\nمقدمـة\nهذا \nالمستند يبين خطوات \nالاختبار والمعايرة لجهاز الوقاية ضد فشل القواطع للفصل\nكما هو مبين أعلاه\n ، \nاعد المسودة الأولية لهذا المستند \nم/محمود أحمد فيصل بمحطة أسيوط الحرارية بشركة الوجه القبلى لإنتاج الكهرباء \n، تم إجراء الاختبار الميداني يوم 06 \nأبريل 2003 بمعرفة كل من م/ على حسين فراج ، م/محمود أحمد فيصل\nاحتياطات \n الأمـان\nفصل المفتاح المراد اختبار وقاية ضد فشل القاطع له وكذلك \n فصل سكينتي المفتاح\nفتح أمر شغل\nتسوير مكان \n العمل\nاتباع تعليمات الأمن الصناعي والصحة المهنية لسلامة \n الأفراد والمعدات\nالعدد والأدوات والأجهزة المستخدمة\nجهاز حقن تيار طراز SVERKER 650\nجهاز قياس تيار \n AC V-A \n طراز \n YOKOGAWA\nMillisecond Counter (Timer) Type MCS - 5N\nمشط اختار طراز \n RTXH\n 18\nأسلاك اختبار \n Test leads\nمفتاح \nSwitch 2 pole \n (يستخدم \nفي دائرة قياس الزمن)\nخطوات العمل المطلوب تنفيذه\n\nTest Sheet\nMeasure the operating value of O.C element of each \nsetting tap when C.B failure initiation contact is closed\nCriteria : Operating value Less than 50% of \nsetting\nResetting value More than 90 % of setting\nCondition : Setting tap 0.05 + 0.15 A (R.B), 0.05 + 0.05 A (N)\nInput current 200 % x setting\nOperating time : Measure the time after CB failure\ninitiation contact is closed\nResetting time : Measure the time after CB failure\ninitiation contact is opened\nCriteria : Operating time setting value 10 ms\nResetting time less than 20 ms\nاسم \nالموقع: \nكود \nالجهاز:\nالقائم بالاختبار: \nالتوقيع: \nتاريخ التنفيذ:",
+ "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\nنظام\nمعلومات إجراءات\nالصيانة\n | الوقاية - الإنتاج | إجـراءات الصيانـة\nرقم المستند:\n BFR-004-r0a | المعدة:\n جهاز الوقاية ضد فشل القواطع \n للفصل\n TC024B - TUIQ\n TOSHIBA\nصادرة الى: \n محطة \n كهرباء \n أسيوط الجديدة\nالموقف: \n معتمـــد\nتاريخ الاعتماد: \n 06 أبريل 2003 | الإجراء:\n الاختبار باستخدام \n جهاز الاختبار \n Sverker 650\nتاريخ المراجعة \nالتالية: أبريل \n2008\nمقدمـة\nهذا \nالمستند يبين خطوات \nالاختبار والمعايرة لجهاز الوقاية ضد فشل القواطع للفصل\nكما هو مبين أعلاه\n ، \nاعد المسودة الأولية لهذا المستند \nم/محمود أحمد فيصل بمحطة أسيوط الحرارية بشركة الوجه القبلى لإنتاج الكهرباء \n، تم إجراء الاختبار الميداني يوم 06 \nأبريل 2003 بمعرفة كل من م/ على حسين فراج ، م/محمود أحمد فيصل\nاحتياطات \n الأمـان\nفصل المفتاح المراد اختبار وقاية ضد فشل القاطع له وكذلك \n فصل سكينتي المفتاح\nفتح أمر شغل\nتسوير مكان \n العمل\nاتباع تعليمات الأمن الصناعي والصحة المهنية لسلامة \n الأفراد والمعدات\nالعدد والأدوات والأجهزة المستخدمة\nجهاز حقن تيار طراز SVERKER 650\nجهاز قياس تيار \n AC V-A \n طراز \n YOKOGAWA\nMillisecond Counter (Timer) Type MCS - 5N\nمشط اختار طراز \n RTXH\n 18\nأسلاك اختبار \n Test leads\nمفتاح \nSwitch 2 pole \n (يستخدم \nفي دائرة قياس الزمن)\nخطوات العمل المطلوب تنفيذه\nضع \n Change-over Switch (43)type BH-H7\n لاختبار وقاية ضد فشل \n القاطع على وضع Test \n على خلية الوقاية | 1\nاعمل قصر على النقطتين \n (a17,18),(a11,12),(a11,12)(a11,12) \n على \n Test plug type HP2-C8 | 2\nضع \n test plug type HP2-C8\n في \n Test socket type HR2A-C8\n الخاص بالريلاي\n ( \n z50BF)\n على خلية الوقاية | 3\nاحقن تيار في النقطتين \n (a21,22)\n في \n Test \n plug \n لاختبار الوجه R \n حتي تظهر الاشارة | 4\nسجل قيمة التيار(Operating) للوجه \n R | 5\nانزل \n بالتيار تدريجيا حتى تخطفي الإشارة | 6\nسجل قيمة التيار(Operating) للوجه \n R | 7\nافصل جهاز الحقن | 8\nحقن تيار في النقطتين \n ( a25,26) في \n Test plug لاختبار الوجه \n T \n حتى تظهر الإشارة | 9\nسجل قيمة التيار \n (Operating) للوجه \n T | 10\nانزل \n بالتيار تدريجيا حتى تخطفي الإشارة | 11\nسجل قيمة التيار(Operating)\n للوجه \n T | 12\nفصل جهاز الحقن | 13\nاحقن تيار في النقطتين \n (x27,28) \n في \n Test \n plug\n لاختبار\n نقطة \n التعادل \n N حتى \n تظهر الإشارة | 14\nسجل قيمة التيار \n (Operating)\n لنقطة التعادل \n N | 15\nانزل \n بالتيار تدريجيا حتى تخطفي الإشارة | 16\nسجل قيمة التيار \n Resetting\n لنقطة التعادل N | 17\nأفصل جهاز حقن | 18\nضع المفتاح \n Switch على \n وضع Off | 19\nوصل طرفي في \n Stop \n لجهاز قياس الزمن على النقطتين\n ( a13,14) \n على الريلاي \n ( \n z50BF) | 20\nوصل طرفي \n Start \n لجهاز قياس الزمن على طرفي احدي وجهي المفتاح \n Switch | 21\nوصل طرفي الوجه الآخر للمفتاح \n Switch \n على النقطتين (a1,10) \n على الريلاي \n ( \n z50BF) | 22\nاحقن تيار على النقطتين \n (a21,22)\n في Test Plug\n قيمته (a2xOperating)\n للوجة\n R | 23\nعمل \n Reset\n لجهاز قياس الزمن | 24\nضع المفتاح \n Switch \n على وضع ON | 25\nسجل قيمة الزمن \n Operating \n للوجه R | 26\nاعمل \n Restart \n لجهاز قياس الزمن | 27\nضع المفتاح \n Switch \n على وضع Off | 28\nاسجل \n قيمة الزمن \n Operating \n للوجه R | 29\nاحقن تيار على النقطتين \n (a25,26)\n في \n Test Plug \n قيمته (a2Operating \n Value)\n للوجه \n T | 30\nاعمل \n Reset لجهاز قياس الزمن | 31\nضع المفتاح \n Switch \n على وضع ON | 32\nسجل قيمة الزمن \n Operating \n للوجه T | 33\nاعمل \n Restart \n لجهاز قياس الزمن | 34\nضع المفتاح \n Switch \n على وضع Off | 35\nسجل \n قيمة الزمن \n Operating \n للوجه T | 36\nاحقن \n تيار على النقطتين \n (a27,28)\n في \n Test Plug \n قيمته (a2Operating \n Value)\n لنقطة التعادل \n N | 37\nاعمل \n Reset\n لجهاز قياس الزمن | 38\nضع المفتاح \n Switch \n على وضع ON | 39\nسجل قيمة الزمن \n Operating \n لنقطة التعادل \n N | 40\nاعمل \n Restart \n لجهاز قياس الزمن | 41\nضع المفتاح \n Switch \n على وضع Off | 42\nسجل \n قيمة الزمن \n Operating \n لنقطة التعادل \n N | 43\nارفع\n Test plug type HP2-C8\n من Test socket \n type HR2A - C8\n الخاص بالريلاي (a50BF) \n على خلية الوقاية | 44\nاعمل\n Restart بالريلاي\n (a50BF)\n على خلية \n الوقاية | 45\nعمل\n Restart للـ (Lock \n Out Relay) \n الخاص بالريلاي\n (a50BF)\n على خلية \n الوقاية | 46\nضع Change-over \n Switch (43) type BH-H7\n لاختبار وقاية ضد فشل القاطع \n على وضع Normal\n على خلية الوقاية | 47\nTest Sheet\nPower Station Name: | \nRelay type: | \nManufacturing no. | M530864\nCircuit : | Type form: TCO 24B - TU1Q\nDevice no.: | Location no.:\nRating | 1A, 50Hz DC 220V\nRelay Test: | \n1. General Inspection | \nChecking Item | Result\nAppearance casing: | \nTightness of fastening | \nSmooth rack in rack out | \nCT Shorting provision | \nInspection of printed card | \n2. Tap value test of OC element | \nMeasure the operating value of O.C element of each \nsetting tap when C.B failure initiation contact is closed\nPhase | Setting Tap | 0.05 | 0.1 | 0.2 | 0.3 | 0.4 |  | RESULT\nR | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nB | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nN | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nCriteria : Operating value Less than 50% of \nsetting\nResetting value More than 90 % of setting\n3. Tap value test of time element | \nCondition : Setting tap 0.05 + 0.15 A (R.B), 0.05 + 0.05 A (N)\nInput current 200 % x setting\nOperating time : Measure the time after CB failure\ninitiation contact is closed\nResetting time : Measure the time after CB failure\ninitiation contact is opened\nPhase | Setting Tap | 40 | 100 | 150 | 200 | 300 | 350 | Result\nR | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nB | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nN | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nCriteria : Operating time setting value 10 ms\nResetting time less than 20 ms\nاسم \nالموقع: \nكود \nالجهاز:\nالقائم بالاختبار: \nالتوقيع: \nتاريخ التنفيذ:",
  "text_truncated": false,
  "links": [
   {

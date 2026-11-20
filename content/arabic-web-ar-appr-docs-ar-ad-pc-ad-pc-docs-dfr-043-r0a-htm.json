@@ -24,48 +24,32 @@
    "text": "نظام معلومات إجراءات الصيانة"
   },
   {
-   "type": "paragraph",
-   "text": "نظام معلومات إجراءات \n الصيانة"
-  },
-  {
-   "type": "paragraph",
-   "text": "رقم المستند: DfR-043-r0a"
-  },
-  {
-   "type": "paragraph",
-   "text": "المعدة:\n الوقاية \n التفاضلية على \n القضبان منظومة 220ك ف"
-  },
-  {
-   "type": "paragraph",
-   "text": "TBB7B \n DU2X\n TOSHIBA"
-  },
-  {
-   "type": "paragraph",
-   "text": "صادرة الى: محطة كهرباء الوليدية"
-  },
-  {
-   "type": "paragraph",
-   "text": "الموقف: \n معتمد"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ \n الاعتماد: 14 يناير \n 2007"
-  },
-  {
-   "type": "paragraph",
-   "text": "الإجراء:\n باستخدام \n جهاز \n حقن جهد \n PHU 1040"
-  },
-  {
-   "type": "paragraph",
-   "text": "تاريخ المراجعة التالية: يناير \n 2012"
-  },
-  {
    "type": "table",
    "rows": [
+    [
+     "نظام معلومات إجراءات \n الصيانة"
+    ],
     [
      "",
      "الوقاية - الإنتاج",
      "إجـراءات الصيانـة"
+    ],
+    [
+     "رقم المستند: DfR-043-r0a",
+     "المعدة:\n الوقاية \n التفاضلية على \n القضبان منظومة 220ك ف\n TBB7B \n DU2X\n TOSHIBA"
+    ],
+    [
+     "صادرة الى: محطة كهرباء الوليدية"
+    ],
+    [
+     "الموقف: \n معتمد"
+    ],
+    [
+     "تاريخ \n الاعتماد: 14 يناير \n 2007",
+     "الإجراء:\n باستخدام \n جهاز \n حقن جهد \n PHU 1040"
+    ],
+    [
+     "تاريخ المراجعة التالية: يناير \n 2012"
     ]
    ],
    "truncated_rows": 0
@@ -117,32 +101,204 @@
    "text": "الإجراءات المطلوب تنفيذها"
   },
   {
-   "type": "paragraph",
-   "text": "1."
-  },
-  {
-   "type": "paragraph",
-   "text": "2."
-  },
-  {
-   "type": "paragraph",
-   "text": "4."
-  },
-  {
-   "type": "paragraph",
-   "text": "5."
-  },
-  {
-   "type": "paragraph",
-   "text": "7."
-  },
-  {
-   "type": "paragraph",
-   "text": "8."
+   "type": "table",
+   "rows": [
+    [
+     "ضعChange-over \n switch (43) type BH-H7 لاختباروقاية (a87B) على \n وضع Test على \n خلية الوقاية",
+     "1."
+    ],
+    [
+     "فك الغطاء الخارجى على الريلاى واعمل نظافة للريلاى بنافخ الهواء",
+     "2."
+    ],
+    [
+     "ضع Test \n plug type HP2-C4 فى Test \n socket type HR2A-P4 \n الخاص بالريلاى(a87B) على \n خلية الوقاية",
+     "3."
+    ],
+    [
+     "ضع الـ Pin \n فىSV(0)a\n على الريلاى \n (a87BA) \n للوج \n R",
+     "4."
+    ],
+    [
+     "احقن جهد فى النقطتين (24،21)\n فى \n Test plug",
+     "5."
+    ],
+    [
+     "ارفع الجهد حتى طهور الاشارة على الريلاى",
+     "6."
+    ],
+    [
+     "سجل قيمة الجهد \n Operating value for diff. element",
+     "7."
+    ],
+    [
+     "افع الـ \n Pin \n منSV(0)a\n على الريلاى \n (a87BA) \n للوجة \n R",
+     "8."
+    ],
+    [
+     "ضع الـ \n Pin \n منDiff(0)a\n على الريلاى \n (a87BA) \n للوجة \n R",
+     "9."
+    ],
+    [
+     "احقن جهد فى النقطتين (24،21) فى \n Test plug",
+     "10."
+    ],
+    [
+     "ارفع الجهد حتى طهور الاشارة على الريلاى",
+     "11."
+    ],
+    [
+     "سجل قيمة الجهد \n Operating value for SV element",
+     "12."
+    ],
+    [
+     "افع الـ \n Pin \n منDiff.(0)a\n على الريلاى \n (a87BA) \n للوجة \n R",
+     "13."
+    ],
+    [
+     "وصل طرفىStart (dry \n contact)a\n من على جهاز \n قياس الزمن الى الطرفين \n T1,T2 \n على جهاز حقن الجهد طراز PHU \n 1040",
+     "14."
+    ],
+    [
+     "وصل طرفىStop \n (dry contact)a\n من على جهاز \n قياس الزمن على النقطتين 17،18 \n على الريلاى \n a87BA) \n من الخلف",
+     "15."
+    ],
+    [
+     "احقن جهد على النقطتين (24،21) فى \n Test plug \n قيمته \n (a2xsetting value = 500v) \n للوجة \n R",
+     "16."
+    ],
+    [
+     "افصل جهاز الحقن",
+     "17."
+    ],
+    [
+     "اعمل Reset\n لجهاز قياس الزمن",
+     "18."
+    ],
+    [
+     "وصل جهاز الحقن",
+     "19."
+    ],
+    [
+     "سجل قيمة الزمن \n Operating time for diff. element \n للوجة \n R",
+     "20."
+    ],
+    [
+     "اعمل Reset\n لجهاز قياس الزمن",
+     "21."
+    ],
+    [
+     "افصل جهاز الحقن",
+     "22."
+    ],
+    [
+     "سجل قيمة الزمن \n Operating time for diff. element \n للوجة \n R",
+     "23."
+    ],
+    [
+     "ارفع طرفى\n Stop المتصلين \n بجهازقياس الزمن من على النقطتين18,17من على الريلاى (a87BA)من \n الخلف",
+     "24."
+    ],
+    [
+     "وصل طرفى Stop\n من علىجهاز \n قياس الزمن على النقطتين 20،19 \n على الريلاى (a87BA)\n من الخلف",
+     "25."
+    ],
+    [
+     "احقن جهد على النقطتين (24،21) فى \n Test plug \n قيمته \n (a2xsetting value =80v) \n للوجة \n R",
+     "26."
+    ],
+    [
+     "افصل جهاز الحقن",
+     "27."
+    ],
+    [
+     "اعمل Reset\n لجهاز قياس الزمن",
+     "28."
+    ],
+    [
+     "وصل جهاز الحقن",
+     "29."
+    ],
+    [
+     "سجل قيمة الزمن \n Operating time for SV element \n للوجة \n R",
+     "30."
+    ],
+    [
+     "اعمل Reset\n لجهاز قياس الزمن",
+     "31."
+    ],
+    [
+     "افصل جهاز الحقن",
+     "32."
+    ],
+    [
+     "سجل قيمة الزمن \n Operating time for SV element \n للوجة \n R",
+     "33."
+    ],
+    [
+     "كرر الخطوات من (4إلى33) للوجة \n S \n مع تغيير نقطتى الحقن إلى 24،22 فى\n Test plug",
+     "34."
+    ],
+    [
+     "كرر الخطوات من (4إلى33) للوجة \n T \n مع تغيير نقطتى الحقن إلى 24،22 فى\n Test plug",
+     "35."
+    ],
+    [
+     "ضع الغطاء الزجاجى على الريلاى",
+     "36."
+    ],
+    [
+     "أرفع Test plug \n طراز HP2-C4 \n من Test socket \n لخلية الوقاية",
+     "37."
+    ],
+    [
+     "اعمل Reset\n للريلاى \n (a87B)",
+     "38."
+    ],
+    [
+     "اعمل Reset\n للـ \n (Lock out relay) الخاص \n بالريلاى (a87B)",
+     "39."
+    ],
+    [
+     "ضع Change-over switch (43)\n type \n BH-H7 لاختبار \n وقاية (a87B) على \n وضع Normal \n على خلية الوقاية",
+     "40."
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
    "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Power Station Name:",
+     ""
+    ],
+    [
+     "Relay type:",
+     ""
+    ],
+    [
+     "Manufacturing No.",
+     ""
+    ],
+    [
+     "Circuit :",
+     "Type form:"
+    ],
+    [
+     "Device No.:",
+     "Location no.:"
+    ],
+    [
+     "Rating",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "paragraph",
@@ -153,6 +309,36 @@
    "text": "General Inspection"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Checking item",
+     "Results"
+    ],
+    [
+     "Appearance \n easing",
+     ""
+    ],
+    [
+     "Tightness of \n fastening",
+     ""
+    ],
+    [
+     "Smooth Rack\n in rack out",
+     ""
+    ],
+    [
+     "CT shorting \n provision",
+     ""
+    ],
+    [
+     "Inspection of \n printed card",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Minimum operation value least"
   },
@@ -161,18 +347,32 @@
    "text": "For each selling value of DIFF and SV element, the operating value is measured. \nInterlock is off"
   },
   {
-   "type": "paragraph",
-   "text": "Setting \n Tap"
-  },
-  {
-   "type": "paragraph",
-   "text": "Setting \n Tap"
+   "type": "table",
+   "rows": [
+    [
+     "Setting \n Tap\n Element",
+     "100",
+     "150",
+     "200",
+     "250",
+     "300"
+    ],
+    [
+     "Diff",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
   },
   {
    "type": "table",
    "rows": [
     [
-     "",
+     "Setting \n Tap\n Element",
      "30",
      "40",
      "50"
@@ -199,6 +399,27 @@
    "text": "The voltage setting is at 250/40V and interlock is off"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Element",
+     "Setting \n Tap",
+     "Operating \n Time (ms)"
+    ],
+    [
+     "Diff",
+     "250 V",
+     ""
+    ],
+    [
+     "SV",
+     "40 V",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "Criteria : Diff element less than 25 ms\n SV \nelement 500 ms 50 ms"
   },
@@ -211,6 +432,27 @@
    "text": "The resetting time is measured by rapidly changing \nthe input voltage from 2 times the setting value to 0V with the voltage setting \nat 250/40 V and interlock off"
   },
   {
+   "type": "table",
+   "rows": [
+    [
+     "Element",
+     "Setting \n Tap",
+     "Resetting \n Time (ms)"
+    ],
+    [
+     "Diff",
+     "250",
+     ""
+    ],
+    [
+     "SV",
+     "40",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
    "type": "paragraph",
    "text": "اسم الموقع: \n كود جهاز \nالوقاية:"
   },
@@ -219,7 +461,7 @@
    "text": "القائم \nبالاختبار: \nالتوقيع: \nتاريخ التنفيذ:"
   }
  ],
- "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\nنظام معلومات إجراءات \n الصيانة\nرقم المستند: DfR-043-r0a\nالمعدة:\n الوقاية \n التفاضلية على \n القضبان منظومة 220ك ف\nTBB7B \n DU2X\n TOSHIBA\nصادرة الى: محطة كهرباء الوليدية\nالموقف: \n معتمد\nتاريخ \n الاعتماد: 14 يناير \n 2007\nالإجراء:\n باستخدام \n جهاز \n حقن جهد \n PHU 1040\nتاريخ المراجعة التالية: يناير \n 2012\n\nمقدمـة\nاعد المسودة الأولية لهذا \n المستند المهندس/ على حسين فراج \n وتم إجراء الاختبار الميداني \n بمعرفة كل من المهندس/ على حسين فراج والمهندس/اسامة \n فتحي عبد الكريم \n ووافق عليه المهندس/ عبد \n الناصرمعروف احمد المستشار \n الفنى للصيانة الكهربية واعتمد من المهندس/ ابراهيم \n الشحات ابراهيم رئيس القطاع ووثق من المهندس/ جمال عبد الوهاب رئيس قطاع الجودة ومنسق الـ \n MPIS\n بشركة الوجه القبلى لانتاج \n الكهرباء\nاحتياطات \nالأمـان\nفتح أمر شغل وتوفر كروت فئة السلامة والصحة المهنية\nتسوير مكان العمل ووضع اللافتات التحذيرية المناسبة0\nاتباع تعليمات \n السلامة والصحة المهنية لسلامة الأفراد والمعدات\nالوحدة في حالة إيقاف والمولد خارج الخدمة.\nالعدد والأدوات والأجهزة المستخدمة\nمشط إختبار\n Test Plug \n طراز \n HP2-C4\nجهاز قياس جهدAC V-A \n عياري طراز\n YOKOGAWA\nجهاز \n Millisecond Counter (Timer) \n طراز \n MCS-5N\nجهاز حقن جهد طراز \n PHU 1040\nأسلاك اختبار\n Test Leads\nالإجراءات المطلوب تنفيذها\n1.\n2.\n4.\n5.\n7.\n8.\nTest Sheet\nRelay Test\nGeneral Inspection\nMinimum operation value least\nFor each selling value of DIFF and SV element, the operating value is measured. \nInterlock is off\nSetting \n Tap\nSetting \n Tap\n\nOperating time characteristic\nThe operating time is measured by rapidly the input voltage from 0V L0 lw0 times \nthe setting value.\nThe voltage setting is at 250/40V and interlock is off\nCriteria : Diff element less than 25 ms\n SV \nelement 500 ms 50 ms\nResetting time characteristic\nThe resetting time is measured by rapidly changing \nthe input voltage from 2 times the setting value to 0V with the voltage setting \nat 250/40 V and interlock off\nاسم الموقع: \n كود جهاز \nالوقاية:\nالقائم \nبالاختبار: \nالتوقيع: \nتاريخ التنفيذ:",
+ "text": "الشركة القابضة لكهرباء مصر\nنظام معلومات إجراءات الصيانة\nنظام معلومات إجراءات \n الصيانة\n | الوقاية - الإنتاج | إجـراءات الصيانـة\nرقم المستند: DfR-043-r0a | المعدة:\n الوقاية \n التفاضلية على \n القضبان منظومة 220ك ف\n TBB7B \n DU2X\n TOSHIBA\nصادرة الى: محطة كهرباء الوليدية\nالموقف: \n معتمد\nتاريخ \n الاعتماد: 14 يناير \n 2007 | الإجراء:\n باستخدام \n جهاز \n حقن جهد \n PHU 1040\nتاريخ المراجعة التالية: يناير \n 2012\nمقدمـة\nاعد المسودة الأولية لهذا \n المستند المهندس/ على حسين فراج \n وتم إجراء الاختبار الميداني \n بمعرفة كل من المهندس/ على حسين فراج والمهندس/اسامة \n فتحي عبد الكريم \n ووافق عليه المهندس/ عبد \n الناصرمعروف احمد المستشار \n الفنى للصيانة الكهربية واعتمد من المهندس/ ابراهيم \n الشحات ابراهيم رئيس القطاع ووثق من المهندس/ جمال عبد الوهاب رئيس قطاع الجودة ومنسق الـ \n MPIS\n بشركة الوجه القبلى لانتاج \n الكهرباء\nاحتياطات \nالأمـان\nفتح أمر شغل وتوفر كروت فئة السلامة والصحة المهنية\nتسوير مكان العمل ووضع اللافتات التحذيرية المناسبة0\nاتباع تعليمات \n السلامة والصحة المهنية لسلامة الأفراد والمعدات\nالوحدة في حالة إيقاف والمولد خارج الخدمة.\nالعدد والأدوات والأجهزة المستخدمة\nمشط إختبار\n Test Plug \n طراز \n HP2-C4\nجهاز قياس جهدAC V-A \n عياري طراز\n YOKOGAWA\nجهاز \n Millisecond Counter (Timer) \n طراز \n MCS-5N\nجهاز حقن جهد طراز \n PHU 1040\nأسلاك اختبار\n Test Leads\nالإجراءات المطلوب تنفيذها\nضعChange-over \n switch (43) type BH-H7 لاختباروقاية (a87B) على \n وضع Test على \n خلية الوقاية | 1.\nفك الغطاء الخارجى على الريلاى واعمل نظافة للريلاى بنافخ الهواء | 2.\nضع Test \n plug type HP2-C4 فى Test \n socket type HR2A-P4 \n الخاص بالريلاى(a87B) على \n خلية الوقاية | 3.\nضع الـ Pin \n فىSV(0)a\n على الريلاى \n (a87BA) \n للوج \n R | 4.\nاحقن جهد فى النقطتين (24،21)\n فى \n Test plug | 5.\nارفع الجهد حتى طهور الاشارة على الريلاى | 6.\nسجل قيمة الجهد \n Operating value for diff. element | 7.\nافع الـ \n Pin \n منSV(0)a\n على الريلاى \n (a87BA) \n للوجة \n R | 8.\nضع الـ \n Pin \n منDiff(0)a\n على الريلاى \n (a87BA) \n للوجة \n R | 9.\nاحقن جهد فى النقطتين (24،21) فى \n Test plug | 10.\nارفع الجهد حتى طهور الاشارة على الريلاى | 11.\nسجل قيمة الجهد \n Operating value for SV element | 12.\nافع الـ \n Pin \n منDiff.(0)a\n على الريلاى \n (a87BA) \n للوجة \n R | 13.\nوصل طرفىStart (dry \n contact)a\n من على جهاز \n قياس الزمن الى الطرفين \n T1,T2 \n على جهاز حقن الجهد طراز PHU \n 1040 | 14.\nوصل طرفىStop \n (dry contact)a\n من على جهاز \n قياس الزمن على النقطتين 17،18 \n على الريلاى \n a87BA) \n من الخلف | 15.\nاحقن جهد على النقطتين (24،21) فى \n Test plug \n قيمته \n (a2xsetting value = 500v) \n للوجة \n R | 16.\nافصل جهاز الحقن | 17.\nاعمل Reset\n لجهاز قياس الزمن | 18.\nوصل جهاز الحقن | 19.\nسجل قيمة الزمن \n Operating time for diff. element \n للوجة \n R | 20.\nاعمل Reset\n لجهاز قياس الزمن | 21.\nافصل جهاز الحقن | 22.\nسجل قيمة الزمن \n Operating time for diff. element \n للوجة \n R | 23.\nارفع طرفى\n Stop المتصلين \n بجهازقياس الزمن من على النقطتين18,17من على الريلاى (a87BA)من \n الخلف | 24.\nوصل طرفى Stop\n من علىجهاز \n قياس الزمن على النقطتين 20،19 \n على الريلاى (a87BA)\n من الخلف | 25.\nاحقن جهد على النقطتين (24،21) فى \n Test plug \n قيمته \n (a2xsetting value =80v) \n للوجة \n R | 26.\nافصل جهاز الحقن | 27.\nاعمل Reset\n لجهاز قياس الزمن | 28.\nوصل جهاز الحقن | 29.\nسجل قيمة الزمن \n Operating time for SV element \n للوجة \n R | 30.\nاعمل Reset\n لجهاز قياس الزمن | 31.\nافصل جهاز الحقن | 32.\nسجل قيمة الزمن \n Operating time for SV element \n للوجة \n R | 33.\nكرر الخطوات من (4إلى33) للوجة \n S \n مع تغيير نقطتى الحقن إلى 24،22 فى\n Test plug | 34.\nكرر الخطوات من (4إلى33) للوجة \n T \n مع تغيير نقطتى الحقن إلى 24،22 فى\n Test plug | 35.\nضع الغطاء الزجاجى على الريلاى | 36.\nأرفع Test plug \n طراز HP2-C4 \n من Test socket \n لخلية الوقاية | 37.\nاعمل Reset\n للريلاى \n (a87B) | 38.\nاعمل Reset\n للـ \n (Lock out relay) الخاص \n بالريلاى (a87B) | 39.\nضع Change-over switch (43)\n type \n BH-H7 لاختبار \n وقاية (a87B) على \n وضع Normal \n على خلية الوقاية | 40.\nTest Sheet\nPower Station Name: | \nRelay type: | \nManufacturing No. | \nCircuit : | Type form:\nDevice No.: | Location no.:\nRating | \nRelay Test\nGeneral Inspection\nChecking item | Results\nAppearance \n easing | \nTightness of \n fastening | \nSmooth Rack\n in rack out | \nCT shorting \n provision | \nInspection of \n printed card | \nMinimum operation value least\nFor each selling value of DIFF and SV element, the operating value is measured. \nInterlock is off\nSetting \n Tap\n Element | 100 | 150 | 200 | 250 | 300\nDiff |  |  |  |  | \nSetting \n Tap\n Element | 30 | 40 | 50\nDiff |  |  | \nOperating time characteristic\nThe operating time is measured by rapidly the input voltage from 0V L0 lw0 times \nthe setting value.\nThe voltage setting is at 250/40V and interlock is off\nElement | Setting \n Tap | Operating \n Time (ms)\nDiff | 250 V | \nSV | 40 V | \nCriteria : Diff element less than 25 ms\n SV \nelement 500 ms 50 ms\nResetting time characteristic\nThe resetting time is measured by rapidly changing \nthe input voltage from 2 times the setting value to 0V with the voltage setting \nat 250/40 V and interlock off\nElement | Setting \n Tap | Resetting \n Time (ms)\nDiff | 250 | \nSV | 40 | \nاسم الموقع: \n كود جهاز \nالوقاية:\nالقائم \nبالاختبار: \nالتوقيع: \nتاريخ التنفيذ:",
  "text_truncated": false,
  "links": [
   {
