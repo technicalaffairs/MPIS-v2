@@ -1,0 +1,603 @@
+{
+ "id": "gen-docs-protection-synr-002-r0-htm",
+ "doc_number": "SYNR-002-R0",
+ "title_en": "SynR-002-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/SynR-002-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the \ntest steps for the Synchrocheck Relay device using secondary injection devices \nISA Test Set Type ART/3 or Omicron to ensure the correct operation of it."
+  },
+  {
+   "type": "paragraph",
+   "text": "There are eight opto isolated inputs to the relay that can be \narranged to operate up to 16 alternative ladder inputs, which perform functions \nassigned to them in the ladder diagram, as determined by the setting of the \nINPUT MASKS and so making maximum use of the available control inputs."
+  },
+  {
+   "type": "paragraph",
+   "text": "Software \nfiltering is applied to eliminate the adverse effects of induced ac signals in \nthe external wiring. Eight programmable output relays are provided on all \nmodels. These relays can be arranged to operate in response to any, or all, of \nup to 16 alternative ladder outputs, whose function is assigned in the ladder \ndiagram, by suitably setting the OUTPUT MASKS."
+  },
+  {
+   "type": "paragraph",
+   "text": "In addition there is a watchdog \nrelay for external indication of equipment failure/healthy status. Measurements \nare only available in relays including check synchronism features (KAVS and KAVR). \nThese relays have two voltage transformers for measuring line and bus bar \nvoltages."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by quality control eng. Adel Abdel Qader El Nagar at EDEPCo., accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued, maintenance \n staff must carry the suitable safety ID category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence (rope) with caution marks surrounding the \n work area is required,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety and healthy equipment must be used as safety shoes, and \n safety Helmet .. etc"
+  },
+  {
+   "type": "paragraph",
+   "text": "Line \nisolation is required"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, maintenance \n staff must carry the suitable safety ID category,",
+    "Safety fence (rope) with caution marks surrounding the \n work area is required,",
+    "Safety and healthy equipment must be used as safety shoes, and \n safety Helmet .. etc",
+    "Line \nisolation is required"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and \nEquipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "ISA test set type ART/3 or Omicron"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltmeter, Ammeter, \ntest plug, and test leads."
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA test set type ART/3 or Omicron",
+    "Voltmeter, Ammeter, \ntest plug, and test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review the manual and drawings."
+  },
+  {
+   "type": "paragraph",
+   "text": "Prepare the previous or commissioning results of the \nrelay testing."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the wires of the relay by hand."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the AC source is available to the tester."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the existence of the DC sources in panels."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the outputs of the relay and \nconnect one of them to the timer of the tester."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check all the leads used in tests."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual and drawings.",
+    "Prepare the previous or commissioning results of the \nrelay testing.",
+    "Check the wires of the relay by hand.",
+    "Check the AC source is available to the tester.",
+    "Check the existence of the DC sources in panels.",
+    "Disconnect the outputs of the relay and \nconnect one of them to the timer of the tester.",
+    "Check all the leads used in tests."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Steps"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the voltage leads of a tester unit to the \nrelay points according to the drawings and scheme."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject voltage to each couple of points."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the steps for each pair of points according to the \ntest sheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the results."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the voltage leads of a tester unit to the \nrelay points according to the drawings and scheme.",
+    "Inject voltage to each couple of points.",
+    "Repeat the steps for each pair of points according to the \ntest sheet.",
+    "Record the results."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps",
+    "Verify the test result match the relay setting. If not consult \n technical services."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Standard connection table"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Function",
+     "Terminal",
+     "Function"
+    ],
+    [
+     "Not Used",
+     "--",
+     "2",
+     "1",
+     "--",
+     "Earth Terminal"
+    ],
+    [
+     "Watchdog Relay (Break contact)",
+     "m",
+     "4\n 6",
+     "3\n 5",
+     "b\n --",
+     "Watchdog Relay (Break contact)"
+    ],
+    [
+     "48V Field Voltage",
+     "(-)",
+     "8",
+     "7",
+     "(+)",
+     "48V Field Voltage"
+    ],
+    [
+     "Not Used",
+     "",
+     "10",
+     "9",
+     "",
+     "Not Used"
+    ],
+    [
+     "Not Used",
+     "",
+     "12",
+     "11",
+     "",
+     "Not Used"
+    ],
+    [
+     "Auxiliary Voltage Input",
+     "(-)",
+     "14",
+     "13",
+     "(+)",
+     "Auxiliary Voltage Input"
+    ],
+    [
+     "Not Used",
+     "",
+     "16",
+     "15",
+     "",
+     "Not Used"
+    ],
+    [
+     "Line Voltage",
+     "In",
+     "18",
+     "17",
+     "In",
+     "Line Voltage"
+    ],
+    [
+     "Busbar Voltage",
+     "Out",
+     "20",
+     "19",
+     "In",
+     "Busbar Voltage"
+    ],
+    [
+     "Not Used",
+     "",
+     "22",
+     "21",
+     "",
+     "Not Used"
+    ],
+    [
+     "Not Used",
+     "",
+     "24",
+     "23",
+     "",
+     "Not Used"
+    ],
+    [
+     "Not Used",
+     "",
+     "26",
+     "25",
+     "",
+     "Not Used"
+    ],
+    [
+     "Not Used",
+     "",
+     "28",
+     "27",
+     "",
+     "Not Used"
+    ],
+    [
+     "Output Relay 0",
+     "--",
+     "30\n 32",
+     "29\n 31",
+     "--",
+     "Output Relay 4"
+    ],
+    [
+     "Output Relay 1",
+     "--",
+     "34\n 36",
+     "33\n 35",
+     "--",
+     "Output Relay 5"
+    ],
+    [
+     "Output Relay 2",
+     "--",
+     "38\n 40",
+     "37\n 39",
+     "--",
+     "Output Relay 6"
+    ],
+    [
+     "Output Relay 3",
+     "--",
+     "42\n 44",
+     "41\n 43",
+     "--",
+     "Output Relay 7"
+    ],
+    [
+     "Opto Control Input L0",
+     "(+)",
+     "46",
+     "45",
+     "(+)",
+     "Opto Control Input L3"
+    ],
+    [
+     "Opto Control Input L1",
+     "(+)",
+     "48",
+     "47",
+     "(+)",
+     "Opto Control Input L4"
+    ],
+    [
+     "Opto Control Input L2",
+     "(+)",
+     "50",
+     "49",
+     "(+)",
+     "Opto Control Input L5"
+    ],
+    [
+     "Common L0/L1/L2",
+     "(-)",
+     "52",
+     "51",
+     "(+)",
+     "Opto Control Input L6"
+    ],
+    [
+     "K-Bus Serial Port",
+     "--",
+     "54",
+     "53",
+     "(+)",
+     "Opto Control Input L7"
+    ],
+    [
+     "K-Bus Serial Port",
+     "--",
+     "56",
+     "55",
+     "(-)",
+     "Common L3/L4/L5/L6/L7"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Key to connection tables\n(+) and (-) indicate the polarity of \nthe dc output from these terminals\n(+) and (-) indicate the polarity of \nthe applied dc supply\nIn / Out \nthe signal direction for the in phase condition \nShaded is not available on KVTR relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note : All relays have standard Midos terminal blocks to which \nconnection can be made with either \n 4mm screws or 4.8 mm \npre-insulated snap-on connectors.\n Two connections can be \nmade to each terminal."
+  },
+  {
+   "type": "paragraph",
+   "text": "TECHNICAL DATA\nRatings\nInputs"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Operative range",
+     "Nominal rating",
+     "Input voltage (Vn)"
+    ],
+    [
+     "0-440V",
+     "63.5/110V",
+     "(KAVR and KAVS only)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Outputs \nField voltage \n48V dc (current limited to 60mA)\nBurdens\nVoltage circuits\n0.012VA at 100V\n0.15VA at 327V\n0.87VA at 440V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Auxiliary voltage"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "at Vx max. with no output relays or logic inputs \n energized",
+     "AC supply 4.5-9.0 VA"
+    ],
+    [
+     "at Vx max. with 2 output relays and 2 logic inputs \n energized",
+     "6.0 - 12.0 VA"
+    ],
+    [
+     "at Vx max. with all output relays and logic inputs \n energized",
+     "7.5 - 20.0 VA"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Opto-isolated inputs \nDC supply \n0.25W per input (50V 10KΩ)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting Ranges\nAuto-reclose setting\nTimer setting range"
+  },
+  {
+   "type": "paragraph",
+   "text": "The default setting range for all timers is 0.01 to 999 seconds \nMore restrictive limits may be applied to each timer. See the scheme \ndocumentation for details"
+  },
+  {
+   "type": "paragraph",
+   "text": "Counter setting range\nThe default setting range for all counter setting is 1 to 9999\nMore restrictive limits may be applied to each counter. See the scheme \ndocumentation for details\nCheck synchronism setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under voltage detector\nVoltage setting range 22 to 132V ms\nVoltage setting step 0.5V\nOperate \n 5% of the set value\nReset \n< 105% of operation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential voltage detector\nVoltage setting range 0.5 to 22V \nrms\nVoltage setting step \n0.5V\nOperate \n 5% of the set value\nReset \n>97% of setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase angle measurement \nSetting range \n5 to 90\nSetting step \n1\nOperates at \nSetting +0-3\nResets at \nOperate value -0+3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note : The live voltage setting cannot be set to less than the dead \nvoltage setting and the dead voltage setting \ncannot be set to greater than the live voltage setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "TEST SHEET"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "Rated voltage Vn"
+    ],
+    [
+     "",
+     "57/120v",
+     ""
+    ],
+    [
+     "",
+     "24/125v",
+     "Auxiliary voltage"
+    ],
+    [
+     "",
+     "48/250v",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Commissioning preliminaries"
+    ],
+    [
+     "",
+     "Serial number on case, module and cover chocked"
+    ],
+    [
+     "",
+     "CT shorting switches in case checked"
+    ],
+    [
+     "",
+     "External wining checked to diagrarn (if available)"
+    ],
+    [
+     "",
+     "Earth connection to case checked"
+    ],
+    [
+     "",
+     "Test block connections checked"
+    ],
+    [
+     "",
+     "Insulation checked"
+    ],
+    [
+     "",
+     "Auxiliary supply checked"
+    ],
+    [
+     "",
+     "Auxiliary voltage at relay \n terminals ---------------------------- V ac/dc"
+    ],
+    [
+     "",
+     "Watching contacts checked"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Supply off Terminals 3 and 5"
+    ],
+    [
+     "",
+     "Terminals 4 and 6"
+    ],
+    [
+     "",
+     "Supply on Terminals 3 and 5"
+    ],
+    [
+     "",
+     "Terminals 4 and 6"
+    ],
+    [
+     "",
+     "Field \n voltage ---------------------------- V d"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nRelay Designation: \nTest date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: \n Last test date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by: Signature:"
+  }
+ ],
+ "text": "\nIntroduction\nThis document outlines the \ntest steps for the Synchrocheck Relay device using secondary injection devices \nISA Test Set Type ART/3 or Omicron to ensure the correct operation of it.\nThere are eight opto isolated inputs to the relay that can be \narranged to operate up to 16 alternative ladder inputs, which perform functions \nassigned to them in the ladder diagram, as determined by the setting of the \nINPUT MASKS and so making maximum use of the available control inputs.\nSoftware \nfiltering is applied to eliminate the adverse effects of induced ac signals in \nthe external wiring. Eight programmable output relays are provided on all \nmodels. These relays can be arranged to operate in response to any, or all, of \nup to 16 alternative ladder outputs, whose function is assigned in the ladder \ndiagram, by suitably setting the OUTPUT MASKS.\nIn addition there is a watchdog \nrelay for external indication of equipment failure/healthy status. Measurements \nare only available in relays including check synchronism features (KAVS and KAVR). \nThese relays have two voltage transformers for measuring line and bus bar \nvoltages.\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by quality control eng. Adel Abdel Qader El Nagar at EDEPCo., accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, maintenance \n staff must carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nSafety and healthy equipment must be used as safety shoes, and \n safety Helmet .. etc\nLine \nisolation is required\nA work permit must be issued, maintenance \n staff must carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nSafety and healthy equipment must be used as safety shoes, and \n safety Helmet .. etc\nLine \nisolation is required\nTools and \nEquipment\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter, \ntest plug, and test leads.\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter, \ntest plug, and test leads.\nWork to be carried out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the outputs of the relay and \nconnect one of them to the timer of the tester.\nCheck all the leads used in tests.\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the outputs of the relay and \nconnect one of them to the timer of the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the voltage leads of a tester unit to the \nrelay points according to the drawings and scheme.\nInject voltage to each couple of points.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nConnect the voltage leads of a tester unit to the \nrelay points according to the drawings and scheme.\nInject voltage to each couple of points.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nStandard connection table\n\nKey to connection tables\n(+) and (-) indicate the polarity of \nthe dc output from these terminals\n(+) and (-) indicate the polarity of \nthe applied dc supply\nIn / Out \nthe signal direction for the in phase condition \nShaded is not available on KVTR relays\nNote : All relays have standard Midos terminal blocks to which \nconnection can be made with either \n 4mm screws or 4.8 mm \npre-insulated snap-on connectors.\n Two connections can be \nmade to each terminal.\nTECHNICAL DATA\nRatings\nInputs\n\nOutputs \nField voltage \n48V dc (current limited to 60mA)\nBurdens\nVoltage circuits\n0.012VA at 100V\n0.15VA at 327V\n0.87VA at 440V\nAuxiliary voltage\n\nOpto-isolated inputs \nDC supply \n0.25W per input (50V 10KΩ)\nSetting Ranges\nAuto-reclose setting\nTimer setting range\nThe default setting range for all timers is 0.01 to 999 seconds \nMore restrictive limits may be applied to each timer. See the scheme \ndocumentation for details\nCounter setting range\nThe default setting range for all counter setting is 1 to 9999\nMore restrictive limits may be applied to each counter. See the scheme \ndocumentation for details\nCheck synchronism setting\nUnder voltage detector\nVoltage setting range 22 to 132V ms\nVoltage setting step 0.5V\nOperate \n 5% of the set value\nReset \n< 105% of operation\nDifferential voltage detector\nVoltage setting range 0.5 to 22V \nrms\nVoltage setting step \n0.5V\nOperate \n 5% of the set value\nReset \n>97% of setting\nPhase angle measurement \nSetting range \n5 to 90\nSetting step \n1\nOperates at \nSetting +0-3\nResets at \nOperate value -0+3\nNote : The live voltage setting cannot be set to less than the dead \nvoltage setting and the dead voltage setting \ncannot be set to greater than the live voltage setting\nTEST SHEET\n\n\n\nLocation: \nRelay Designation: \nTest date:\nTested by: Signature: \n Last test date:\nApproved by: Signature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/SCR-002-01.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/SynR-002-02.gif",
+   "alt": ""
+  }
+ ]
+}

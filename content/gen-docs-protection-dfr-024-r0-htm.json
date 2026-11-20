@@ -1,0 +1,582 @@
+{
+ "id": "gen-docs-protection-dfr-024-r0-htm",
+ "doc_number": "DFR-024-R0",
+ "title_en": "DfR-024-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/DFR-024-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The MBCH is a high \nspeed biased differential relay suitable for protecting two or three winding \ntransformers. It is extremely stable during through external faults and will not \noperate during inrush currents on energizing. It is manufactured by GEC Alstom."
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure \ndetails the steps required to completely check the proper operation and \ncalibration of the MBCH relay. It is recommended this procedure be carried out \non a yearly bases."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first \npreliminary steps to prepare for relay testing describes the activities required \nprior to testing. Some of these steps could be performed days before the actual \ntest. The second section Preparation for testing describes the steps to set up \nthe equipment for performing the actual tests. The third section is the actual \ntest."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is \ninitiated by eng. Hany Bassuony and eng. Saber mohamed, tested by eng. Hany \nBassuony, accepted by eng. Mahmoud Badawy general director, revised by \nWDEPC quality control general director eng. Gamal Abdel Wahab, approved by Dr. \nSarwat Sabry."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work \n area is required"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety and healthy\n equipment must be used as safety shoes, and safety Helmet ... etc."
+  },
+  {
+   "type": "paragraph",
+   "text": "Power transformer must be isolated"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make \n sure CT Secondary circuits are shorted."
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure \n all CT path elements are secure after any test disturbance."
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch off DC power supply before inserting or \n withdrawing any card from the relay module."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,",
+    "Safety fence with caution marks surrounding the work \n area is required",
+    "Safety and healthy\n equipment must be used as safety shoes, and safety Helmet ... etc.",
+    "Power transformer must be isolated",
+    "Make \n sure CT Secondary circuits are shorted.",
+    "Ensure \n all CT path elements are secure after any test disturbance.",
+    "Switch off DC power supply before inserting or \n withdrawing any card from the relay module."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "MANTA \ntest set"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltmeter"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test plug test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "MANTA \ntest set",
+    "Voltmeter",
+    "Test plug test leads",
+    "Clip on ammeter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain outage for transformer protected by this relay.",
+    "Check that the two bus disconnect switches are opened and \n tagged.",
+    "Inspect the CT secondary circuits and all cabling supplying the \n relaying including matching CT.",
+    "Use the station drawings to isolate the following:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated with the relay.",
+    "Disturbance alarms and fault recorder associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps.",
+    "Verify the test results match the relay setting, if not consult \n technical services."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off load relay testing.",
+    "Look at the EEC panel nameplate and check that this EE system \n designation agrees with the power transformer that has been taken out of \n service for maintenance.",
+    "Check there is no AC current from CTs by using a clip on \n ammeter.",
+    "Check there is no AC voltage from VTs by using a voltmeter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing \nProcedure (s)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick up \nCurrent \nTest"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the circuit as \nin Fig 1 and adjust the tester ( MANTA ) to I1 low , Φ-N and A-N"
+  },
+  {
+   "type": "paragraph",
+   "text": "For the first winding, the \ncurrent is injected at the terminals 25,27."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press current ( I \n)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press dynamic \nthen press fault."
+  },
+  {
+   "type": "paragraph",
+   "text": "Raise the \ncurrent \nslowly from zero until the relay picks up."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record this current ,this is the pick up current and check that current is in \nthe \naccepted range i.e 10% setting."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the steps 1 to 6 for the second winding and the third winding\nNote for the second \nwinding the current is injected at the terminals 23,27-for the third winding the \ncurrent is injected at the terminals 21,27"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat this test for phases B and C."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the circuit as \nin Fig 1 and adjust the tester ( MANTA ) to I1 low , Φ-N and A-N",
+    "For the first winding, the \ncurrent is injected at the terminals 25,27.",
+    "Press current ( I \n).",
+    "Press dynamic \nthen press fault.",
+    "Raise the \ncurrent \nslowly from zero until the relay picks up.",
+    "Record this current ,this is the pick up current and check that current is in \nthe \naccepted range i.e 10% setting.",
+    "Repeat the steps 1 to 6 for the second winding and the third winding\nNote for the second \nwinding the current is injected at the terminals 23,27-for the third winding the \ncurrent is injected at the terminals 21,27",
+    "Repeat this test for phases B and C."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating Time \nTest"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the circuit as \nin Fig 1 and adjust the tester ( MANTA ) to I1 low , Φ-N and A-N"
+  },
+  {
+   "type": "paragraph",
+   "text": "Short circuit the \noutput of I1"
+  },
+  {
+   "type": "paragraph",
+   "text": "For the first winding, \nthe current is injected at the terminals 25,27."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press current ( I \n)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press dynamic \nthen press fault and adjust the current to more than the pick \nup current."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press static\nthen remove the short circuit of I1 output."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the output of \nI1 to terminal 25-27"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press time ( toggle the \ntime button to have time in seconds )."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press dynamic \nthen press fault"
+  },
+  {
+   "type": "paragraph",
+   "text": "The relay picks up and \nthe tester is stopped after the apparent time on the LCD."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record this time"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the steps 1 to 11 for the second winding and the third winding"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the circuit as \nin Fig 1 and adjust the tester ( MANTA ) to I1 low , Φ-N and A-N",
+    "Short circuit the \noutput of I1",
+    "For the first winding, \nthe current is injected at the terminals 25,27.",
+    "Press current ( I \n).",
+    "Press dynamic \nthen press fault and adjust the current to more than the pick \nup current.",
+    "Press static\nthen remove the short circuit of I1 output.",
+    "Connect the output of \nI1 to terminal 25-27",
+    "Press time ( toggle the \ntime button to have time in seconds ).",
+    "Press dynamic \nthen press fault",
+    "The relay picks up and \nthe tester is stopped after the apparent time on the LCD.",
+    "Record this time",
+    "Repeat the steps 1 to 11 for the second winding and the third winding"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note for the second winding the current is injected at the terminals 23,27 for \nthe third winding the current is injected at the terminals 21,27"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat this test for phases B and C."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat this test for phases B and C."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Restraint Characteristic Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "First \nWinding with Second Winding"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the circuit as in Fig 2 and adjust the tester to I1 & I2.",
+    "Short circuit the output of I1",
+    "Short circuit the output of I2",
+    "Press I",
+    "Press dynamic then press fault",
+    "Adjust I1 to 0.6In",
+    "Press I and adjust I2 to 0.6In .",
+    "Press Φ and adjust the angle to 0.",
+    "Press static.",
+    "Remove the short circuit of I1 & I2 output and connect the leads \n as follow: - for I1 red at 25, black at 27 & for I2 red at 27, black at \n 23.",
+    "Press dynamic then press fault",
+    "Decrease I2 slowly until the relay picks up and the tester is \n stopped.",
+    "Record I1 & I2 then calculate",
+    "Mean bias = (I1 + I2 ) \\ 2",
+    "Differential current = I1 - I2",
+    "Using the curves ( curve Is = setting ) and at the calculated \n mean bias determine the theoretical differential current and compare it with \n the calculated differential current",
+    "Press reset of the tester.",
+    "Repeat the steps from 1 to 11.",
+    "Increase I2 slowly until the relay picks up and the tester is \n stopped.",
+    "Calculate the mean bias and get theoretical differential current \n and compare it with the calculated differential current",
+    "Repeat this test for first winding with third winding for I1 red \n at 25, black at 27 & for I2 red at 27, black at 21.",
+    "Repeat the test steps from 1 to 21 for phase B and phase C."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "NOTE: For relay 5A, the values of the calculated mean bias have to be \ndivided by 5 before applying the bias curve and the theoretical \ndifferential current multiplied by 5 before comparing with the calculated \ndifferential current."
+  },
+  {
+   "type": "paragraph",
+   "text": "For MBCH 16 only, repeat the \nabove test with the fourth to sixth bias coils (terminal 19,17 and 15 \nrespectively)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Second Harmonic Restraint Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "As the pick up test , but the injected current is 0.6 A with second harmonic with \nhigh level and then decrease the level of second harmonic until the relay picks \nup then record this ratio of the second harmonic ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the steps 1 to 11 for the second winding and the third winding\nNote: -for the second winding the current is \ninjected at the terminals 23,27-for the third winding the current is injected at \nthe terminals 21,27"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat this test for phases B and C."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the circuit as in Fig 3 and adjust the tester to I4 \n .",
+    "Short circuit the output of I2.",
+    "Press I.",
+    "Press dynamic then press fault.",
+    "Adjust I2 to 0.6A .",
+    "Press I and adjust the second harmonic ratio to 30% .",
+    "Press static.",
+    "Remove the short circuit of I2 output",
+    "For the first winding the current is injected at terminal 25 - \n 27.",
+    "Press dynamic then press fault.",
+    "Decrease the level of second harmonic \n until the relay picks up \n and record the ratio of second harmonic.",
+    "Repeat the steps 1 to 11 for the second winding and the third winding\nNote: -for the second winding the current is \ninjected at the terminals 23,27-for the third winding the current is injected at \nthe terminals 21,27",
+    "Repeat this test for phases B and C."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify the test results match the relay setting, if not consult \n technical services.",
+    "Trip the circuit breaker associated with the relay.",
+    "Return relay to service by removing the test leads from the relay \n terminals block and the test set. Make sure CT and VT secondary circuits are \n in normal condition.",
+    "Any equipment associated with the relay which has been isolated, must be \n returned to service by the following restoration step"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Breaker trip coils."
+  },
+  {
+   "type": "paragraph",
+   "text": "Breaker failure scheme associated this relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disturbance alarm and fault recorder associated \nwith this relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated this relay.",
+    "Disturbance alarm and fault recorder associated \nwith this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1: Connection diagram for pickup current and pickup time test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2: Connection diagram for restraint characteristic test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 3: Connection diagram for second harmonic test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 4 : MBCH 12/13/16 BIAS CURVE"
+  },
+  {
+   "type": "paragraph",
+   "text": "TEST SHEET"
+  },
+  {
+   "type": "paragraph",
+   "text": "EQUIPMENT:"
+  },
+  {
+   "type": "paragraph",
+   "text": "RELAY FUNCTION: Biased \nDifferential Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "RELAY TYPE: MBCH13"
+  },
+  {
+   "type": "paragraph",
+   "text": "SERIAL NO.:"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "RELAY \nSETTING"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick up Current Is = ... ... In"
+  },
+  {
+   "type": "paragraph",
+   "text": "TEST RESULTS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick up \nCharacteristic Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Restraint Characteristic Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Mean Bias = 0.5 ( I1 + I2 )"
+  },
+  {
+   "type": "paragraph",
+   "text": "PHASE A"
+  },
+  {
+   "type": "paragraph",
+   "text": "1st winding with 2nd winding"
+  },
+  {
+   "type": "paragraph",
+   "text": "1st winding with 3rd winding"
+  },
+  {
+   "type": "heading",
+   "level": 5,
+   "text": "PHASE B"
+  },
+  {
+   "type": "heading",
+   "level": 5,
+   "text": "1st winding with 2nd \nwinding"
+  },
+  {
+   "type": "paragraph",
+   "text": "1st winding with 3rd \n winding"
+  },
+  {
+   "type": "heading",
+   "level": 5,
+   "text": "PHASE C\n1st winding with 2nd winding"
+  },
+  {
+   "type": "paragraph",
+   "text": "1st winding with 3rd \nwinding"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test results of 2nd harmonic restraint"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "2nd harmonic Ratio %",
+     "1st \n winding",
+     "2\n nd winding",
+     "3rd \n winding"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Pickup \ntime"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "1st \n winding",
+     "2\n nd winding",
+     "3rd \n winding"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \n Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: \nSignature: \n Last test date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Revised by: \nSignature: \nTest date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by: Signature:"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe MBCH is a high \nspeed biased differential relay suitable for protecting two or three winding \ntransformers. It is extremely stable during through external faults and will not \noperate during inrush currents on energizing. It is manufactured by GEC Alstom.\nThis procedure \ndetails the steps required to completely check the proper operation and \ncalibration of the MBCH relay. It is recommended this procedure be carried out \non a yearly bases.\nThe first \npreliminary steps to prepare for relay testing describes the activities required \nprior to testing. Some of these steps could be performed days before the actual \ntest. The second section Preparation for testing describes the steps to set up \nthe equipment for performing the actual tests. The third section is the actual \ntest.\nThe first draft is \ninitiated by eng. Hany Bassuony and eng. Saber mohamed, tested by eng. Hany \nBassuony, accepted by eng. Mahmoud Badawy general director, revised by \nWDEPC quality control general director eng. Gamal Abdel Wahab, approved by Dr. \nSarwat Sabry.\nSafety Precautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the work \n area is required\nSafety and healthy\n equipment must be used as safety shoes, and safety Helmet ... etc.\nPower transformer must be isolated\nMake \n sure CT Secondary circuits are shorted.\nEnsure \n all CT path elements are secure after any test disturbance.\nSwitch off DC power supply before inserting or \n withdrawing any card from the relay module.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the work \n area is required\nSafety and healthy\n equipment must be used as safety shoes, and safety Helmet ... etc.\nPower transformer must be isolated\nMake \n sure CT Secondary circuits are shorted.\nEnsure \n all CT path elements are secure after any test disturbance.\nSwitch off DC power supply before inserting or \n withdrawing any card from the relay module.\nMANTA \ntest set\nVoltmeter\nTest plug test leads\nMANTA \ntest set\nVoltmeter\nTest plug test leads\nClip on ammeter\nWork to be Carried Out\nRelays Preparation\nObtain outage for transformer protected by this relay.\nCheck that the two bus disconnect switches are opened and \n tagged.\nInspect the CT secondary circuits and all cabling supplying the \n relaying including matching CT.\nUse the station drawings to isolate the following:\nBreaker trip coils.\nBreaker failure scheme associated with the relay.\nDisturbance alarms and fault recorder associated with the relay.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps.\nVerify the test results match the relay setting, if not consult \n technical services.\nPreparation\nThis procedure is used to perform off load relay testing.\nLook at the EEC panel nameplate and check that this EE system \n designation agrees with the power transformer that has been taken out of \n service for maintenance.\nCheck there is no AC current from CTs by using a clip on \n ammeter.\nCheck there is no AC voltage from VTs by using a voltmeter.\nTesting \nProcedure (s)\nPick up \nCurrent \nTest\nPhase A\nConnect the circuit as \nin Fig 1 and adjust the tester ( MANTA ) to I1 low , Φ-N and A-N\nFor the first winding, the \ncurrent is injected at the terminals 25,27.\nPress current ( I \n).\nPress dynamic \nthen press fault.\nRaise the \ncurrent \nslowly from zero until the relay picks up.\nRecord this current ,this is the pick up current and check that current is in \nthe \naccepted range i.e 10% setting.\nRepeat the steps 1 to 6 for the second winding and the third winding\nNote for the second \nwinding the current is injected at the terminals 23,27-for the third winding the \ncurrent is injected at the terminals 21,27\nRepeat this test for phases B and C.\nConnect the circuit as \nin Fig 1 and adjust the tester ( MANTA ) to I1 low , Φ-N and A-N\nFor the first winding, the \ncurrent is injected at the terminals 25,27.\nPress current ( I \n).\nPress dynamic \nthen press fault.\nRaise the \ncurrent \nslowly from zero until the relay picks up.\nRecord this current ,this is the pick up current and check that current is in \nthe \naccepted range i.e 10% setting.\nRepeat the steps 1 to 6 for the second winding and the third winding\nNote for the second \nwinding the current is injected at the terminals 23,27-for the third winding the \ncurrent is injected at the terminals 21,27\nRepeat this test for phases B and C.\nOperating Time \nTest\nPhase A\nConnect the circuit as \nin Fig 1 and adjust the tester ( MANTA ) to I1 low , Φ-N and A-N\nShort circuit the \noutput of I1\nFor the first winding, \nthe current is injected at the terminals 25,27.\nPress current ( I \n).\nPress dynamic \nthen press fault and adjust the current to more than the pick \nup current.\nPress static\nthen remove the short circuit of I1 output.\nConnect the output of \nI1 to terminal 25-27\nPress time ( toggle the \ntime button to have time in seconds ).\nPress dynamic \nthen press fault\nThe relay picks up and \nthe tester is stopped after the apparent time on the LCD.\nRecord this time\nRepeat the steps 1 to 11 for the second winding and the third winding\nConnect the circuit as \nin Fig 1 and adjust the tester ( MANTA ) to I1 low , Φ-N and A-N\nShort circuit the \noutput of I1\nFor the first winding, \nthe current is injected at the terminals 25,27.\nPress current ( I \n).\nPress dynamic \nthen press fault and adjust the current to more than the pick \nup current.\nPress static\nthen remove the short circuit of I1 output.\nConnect the output of \nI1 to terminal 25-27\nPress time ( toggle the \ntime button to have time in seconds ).\nPress dynamic \nthen press fault\nThe relay picks up and \nthe tester is stopped after the apparent time on the LCD.\nRecord this time\nRepeat the steps 1 to 11 for the second winding and the third winding\nNote for the second winding the current is injected at the terminals 23,27 for \nthe third winding the current is injected at the terminals 21,27\nRepeat this test for phases B and C.\nRepeat this test for phases B and C.\nRestraint Characteristic Test\nFirst \nWinding with Second Winding\nConnect the circuit as in Fig 2 and adjust the tester to I1 & I2.\nShort circuit the output of I1\nShort circuit the output of I2\nPress I\nPress dynamic then press fault\nAdjust I1 to 0.6In\nPress I and adjust I2 to 0.6In .\nPress Φ and adjust the angle to 0.\nPress static.\nRemove the short circuit of I1 & I2 output and connect the leads \n as follow: - for I1 red at 25, black at 27 & for I2 red at 27, black at \n 23.\nPress dynamic then press fault\nDecrease I2 slowly until the relay picks up and the tester is \n stopped.\nRecord I1 & I2 then calculate\nMean bias = (I1 + I2 ) \\ 2\nDifferential current = I1 - I2\nUsing the curves ( curve Is = setting ) and at the calculated \n mean bias determine the theoretical differential current and compare it with \n the calculated differential current\nPress reset of the tester.\nRepeat the steps from 1 to 11.\nIncrease I2 slowly until the relay picks up and the tester is \n stopped.\nCalculate the mean bias and get theoretical differential current \n and compare it with the calculated differential current\nRepeat this test for first winding with third winding for I1 red \n at 25, black at 27 & for I2 red at 27, black at 21.\nRepeat the test steps from 1 to 21 for phase B and phase C.\nNOTE: For relay 5A, the values of the calculated mean bias have to be \ndivided by 5 before applying the bias curve and the theoretical \ndifferential current multiplied by 5 before comparing with the calculated \ndifferential current.\nFor MBCH 16 only, repeat the \nabove test with the fourth to sixth bias coils (terminal 19,17 and 15 \nrespectively)\nSecond Harmonic Restraint Test\nAs the pick up test , but the injected current is 0.6 A with second harmonic with \nhigh level and then decrease the level of second harmonic until the relay picks \nup then record this ratio of the second harmonic .\nRepeat the steps 1 to 11 for the second winding and the third winding\nNote: -for the second winding the current is \ninjected at the terminals 23,27-for the third winding the current is injected at \nthe terminals 21,27\nRepeat this test for phases B and C.\nConnect the circuit as in Fig 3 and adjust the tester to I4 \n .\nShort circuit the output of I2.\nPress I.\nPress dynamic then press fault.\nAdjust I2 to 0.6A .\nPress I and adjust the second harmonic ratio to 30% .\nPress static.\nRemove the short circuit of I2 output\nFor the first winding the current is injected at terminal 25 - \n 27.\nPress dynamic then press fault.\nDecrease the level of second harmonic \n until the relay picks up \n and record the ratio of second harmonic.\nRepeat the steps 1 to 11 for the second winding and the third winding\nNote: -for the second winding the current is \ninjected at the terminals 23,27-for the third winding the current is injected at \nthe terminals 21,27\nRepeat this test for phases B and C.\nReturn Relay and Associated Equipment to Service\nVerify the test results match the relay setting, if not consult \n technical services.\nTrip the circuit breaker associated with the relay.\nReturn relay to service by removing the test leads from the relay \n terminals block and the test set. Make sure CT and VT secondary circuits are \n in normal condition.\nAny equipment associated with the relay which has been isolated, must be \n returned to service by the following restoration step\nBreaker trip coils.\nBreaker failure scheme associated this relay.\nDisturbance alarm and fault recorder associated \nwith this relay.\nBreaker trip coils.\nBreaker failure scheme associated this relay.\nDisturbance alarm and fault recorder associated \nwith this relay.\nFigure 1: Connection diagram for pickup current and pickup time test\nFigure 2: Connection diagram for restraint characteristic test\nFigure 3: Connection diagram for second harmonic test\nFigure 4 : MBCH 12/13/16 BIAS CURVE\nTEST SHEET\nEQUIPMENT:\nRELAY FUNCTION: Biased \nDifferential Protection\nRELAY TYPE: MBCH13\nSERIAL NO.:\nRELAY \nSETTING\nPick up Current Is = ... ... In\nTEST RESULTS\nPick up \nCharacteristic Test\nRestraint Characteristic Test\nMean Bias = 0.5 ( I1 + I2 )\nPHASE A\n1st winding with 2nd winding\n1st winding with 3rd winding\nPHASE B\n1st winding with 2nd \nwinding\n1st winding with 3rd \n winding\nPHASE C\n1st winding with 2nd winding\n1st winding with 3rd \nwinding\nTest results of 2nd harmonic restraint\n\nPickup \ntime\n\nLocation: \n Equipment code:\nTested by: \nSignature: \n Last test date:\nRevised by: \nSignature: \nTest date:\nApproved by: Signature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-024-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-024-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-024-03.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dfr-024-04.jpg",
+   "alt": ""
+  }
+ ]
+}

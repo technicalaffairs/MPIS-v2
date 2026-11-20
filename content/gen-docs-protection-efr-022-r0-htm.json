@@ -1,0 +1,386 @@
+{
+ "id": "gen-docs-protection-efr-022-r0-htm",
+ "doc_number": "EFR-022-R0",
+ "title_en": "EFR-022-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/EFR-022-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The RMX911 is intended primarily for use with the time over current relays \n types IKT 943 and the IDMT relays IKC911. It is designed to determine the \n direction of earth fault in both solidly Grounded and ungrounded power system."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft is initiated, tested by eng. Hany Bassuony Abdel Razek,\n accepted by general manager \n eng. \n Gamal Abdel Wahab head sector of \ninspection & quality \n control"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the \n work area is required,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Personal protective equipment must be used as safety shoes, and safety Helmet."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,",
+    "Safety fence with caution marks surrounding the \n work area is required,",
+    "Personal protective equipment must be used as safety shoes, and safety Helmet.",
+    "Line isolation \n is required.",
+    "Make sure CT secondary \n circuits are shorted before isolating the relay current circuits for test \n current injection.",
+    "Switch off DC power \n supply before changing setting of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and \nEquipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "XS92a test set",
+    "Test leads,\n Screwdriver"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Steps to Prepare for \nRelay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off load relay test.",
+    "The test is done for ( 50/51 & 67G ) as a one relay.",
+    "Review technical reference material: Manufacturer's manual.",
+    "Obtain copy of relay setting from field maintenance file.",
+    "Obtain outage for line protected by this relay.",
+    "Check that the bus and line disconnect switches are opened and tagged.",
+    "Inspect the CT secondary \n circuits, the VT Miniature Circuit Breakers MCB'S, \n and all cabling supplying the relay.",
+    "Use station drawing to isolate:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and \nProtection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps.",
+    "Verify the test results match the relay setting, if not consult technical \n services.",
+    "Test trip all breakers associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Prior to Starting Testing Procedure(s) \nEnsure the Following Steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Look at the \n EEHC panel nameplate and check that this EEHC system designation nameplate \n agrees with the line that has been taken out of service for maintenance.",
+    "Check there \n is no AC current from CT's by using a clip on ammeter.",
+    "Check there \n is no AC voltage from VT's by using a voltmeter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect \n the xs92a test set with the relay as shown in Figure 1.",
+    "Ensure that the CT secondary is correctly short circuited and voltage teminals \n supplying the relay is opened.",
+    "These connections must be made before starting test."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedures"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Pick up and reset \ncurrent"
+  },
+  {
+   "type": "list",
+   "items": [
+    "injection of testing signals"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the injection starts notice the yellow led of 67G OFF.",
+    "The current still increasing until the 50/51 relay trips \n after the setting time this is the pick up current.",
+    "When the relay gives tripping signal press _ to decrease \n current injection until the relay resets.",
+    "Read the values in hand terminal of set test XS92a, reset \n current."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Boundary operation \nangle"
+  },
+  {
+   "type": "list",
+   "items": [
+    "injection of testing signals"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "We entered above \nparameters according to the flow charts of set Test XS92a"
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the injection starts notice the yellow led of 67G lights, \n this means that 67G blocks 50/51 .",
+    "The angle still decreasing until the yellow led off, now 50/51 \n relay will trip after the setting time.",
+    "When the relay gives tripping signal press ◙ to stop injection.",
+    "Read the values in hand terminal of set test XS92a, and \n compare this value Φ1 with the value of ( Φsetting+90 ).",
+    "Observe that the red indication on the 50/51 relay will light \n up.",
+    "Press the reset button on the relay front panel and check that \n the led indicator resets.",
+    "injection of testing \n signals"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the injection starts notice the yellow led of 67G lights, \n this means that 67G blocks 50/51.",
+    "The angle still increasing until the yellow led off, now 50/51 relay will trip \n after the setting time.",
+    "When the relay gives tripping signal press ◙ to stop injection.",
+    "Read the values in hand terminal of set test XS92a, and \n compare this value Φ2 with the value \n of ( Φsetting+270 ).",
+    "Observe that the red indication on the 50/51 relay will light up.",
+    "Press \n the reset button on the relay front panel and check that the led indicator \n resets."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the \nMinimum Operating Voltage"
+  },
+  {
+   "type": "list",
+   "items": [
+    "injection of testing signals"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the injection starts notice the yellow led of 67G lights, \n this means that 67G blocks 50/51.",
+    "The voltage still decreasing until the yellow led off, now \n 50/51 relay will trip after the setting time.",
+    "When the relay gives tripping signal press ◙ to stop injection.",
+    "Read the values in hand terminal of set test XS92a, this is \n minimum operating voltage."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the \nOperating Times"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The operating Time of 50/51 relay should be measured using the \n tripping contact (free contact).",
+    "Connected The free contact to (+) and ( __\\__ ) in the front \n panel of test set XS 92a ."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the trip occurs the value is automatically stopped by \n free contact then read the value of the time in the hand terminal.",
+    "Repeat this test for other values of current."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test \nTrip all Breakers associated with the Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Reconnect Breaker trip coils.",
+    "Close only the circuit breakers associated with the relay.",
+    "Adjust the injection parameters to make trip.",
+    "Start injection and make sure all breakers are tripped."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Restore the Relay to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Unplug the test set XS92a from the power source.",
+    "Remove the test leads from the relay and the test equipment.",
+    "Return the relay to the permanent settings as indicated in the maintenance \n file.",
+    "This Completes the Test Procedure."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Return Relay and associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by withdrawing the test plug handle from the relay.",
+    "Reconnect any equipment associated with the relay has been isolated:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Station:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Feeder:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment : directional earth fault relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : RMX911 & IKC911"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "In = 1 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fn = 50 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "IB ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Angle ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Time multip. K ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Curve :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Results"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating Range"
+  },
+  {
+   "type": "paragraph",
+   "text": "Boundary operating angle : Φ1 = \n Φ2 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Intermediate operating angle"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick up current = A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reset current = A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Minimum operating voltage = V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating time"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test voltage \n = 15 V Φ ="
+  },
+  {
+   "type": "paragraph",
+   "text": "DATE : \nTESTED BY :"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe RMX911 is intended primarily for use with the time over current relays \n types IKT 943 and the IDMT relays IKC911. It is designed to determine the \n direction of earth fault in both solidly Grounded and ungrounded power system.\nThe first draft is initiated, tested by eng. Hany Bassuony Abdel Razek,\n accepted by general manager \n eng. \n Gamal Abdel Wahab head sector of \ninspection & quality \n control\nSafety Precautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nLine isolation \n is required.\nMake sure CT secondary \n circuits are shorted before isolating the relay current circuits for test \n current injection.\nSwitch off DC power \n supply before changing setting of the relay.\nTools and \nEquipment\nXS92a test set\nTest leads,\n Screwdriver\nWork to be Carried out\nPreliminary Steps to Prepare for \nRelay Testing\nThis procedure is used to perform off load relay test.\nThe test is done for ( 50/51 & 67G ) as a one relay.\nReview technical reference material: Manufacturer's manual.\nObtain copy of relay setting from field maintenance file.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches are opened and tagged.\nInspect the CT secondary \n circuits, the VT Miniature Circuit Breakers MCB'S, \n and all cabling supplying the relay.\nUse station drawing to isolate:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nTesting the Relay and \nProtection Outputs\nCarefully follow these test procedure steps.\nVerify the test results match the relay setting, if not consult technical \n services.\nTest trip all breakers associated with the relay.\nPrior to Starting Testing Procedure(s) \nEnsure the Following Steps\nLook at the \n EEHC panel nameplate and check that this EEHC system designation nameplate \n agrees with the line that has been taken out of service for maintenance.\nCheck there \n is no AC current from CT's by using a clip on ammeter.\nCheck there \n is no AC voltage from VT's by using a voltmeter.\nPreparation\nConnect \n the xs92a test set with the relay as shown in Figure 1.\nEnsure that the CT secondary is correctly short circuited and voltage teminals \n supplying the relay is opened.\nThese connections must be made before starting test.\nTesting Procedures\nMeasuring the Pick up and reset \ncurrent\ninjection of testing signals\nWhen the injection starts notice the yellow led of 67G OFF.\nThe current still increasing until the 50/51 relay trips \n after the setting time this is the pick up current.\nWhen the relay gives tripping signal press _ to decrease \n current injection until the relay resets.\nRead the values in hand terminal of set test XS92a, reset \n current.\nTesting the Boundary operation \nangle\ninjection of testing signals\nWe entered above \nparameters according to the flow charts of set Test XS92a\nWhen the injection starts notice the yellow led of 67G lights, \n this means that 67G blocks 50/51 .\nThe angle still decreasing until the yellow led off, now 50/51 \n relay will trip after the setting time.\nWhen the relay gives tripping signal press ◙ to stop injection.\nRead the values in hand terminal of set test XS92a, and \n compare this value Φ1 with the value of ( Φsetting+90 ).\nObserve that the red indication on the 50/51 relay will light \n up.\nPress the reset button on the relay front panel and check that \n the led indicator resets.\ninjection of testing \n signals\nWhen the injection starts notice the yellow led of 67G lights, \n this means that 67G blocks 50/51.\nThe angle still increasing until the yellow led off, now 50/51 relay will trip \n after the setting time.\nWhen the relay gives tripping signal press ◙ to stop injection.\nRead the values in hand terminal of set test XS92a, and \n compare this value Φ2 with the value \n of ( Φsetting+270 ).\nObserve that the red indication on the 50/51 relay will light up.\nPress \n the reset button on the relay front panel and check that the led indicator \n resets.\nMeasuring the \nMinimum Operating Voltage\ninjection of testing signals\nWhen the injection starts notice the yellow led of 67G lights, \n this means that 67G blocks 50/51.\nThe voltage still decreasing until the yellow led off, now \n 50/51 relay will trip after the setting time.\nWhen the relay gives tripping signal press ◙ to stop injection.\nRead the values in hand terminal of set test XS92a, this is \n minimum operating voltage.\nMeasuring the \nOperating Times\nThe operating Time of 50/51 relay should be measured using the \n tripping contact (free contact).\nConnected The free contact to (+) and ( __\\__ ) in the front \n panel of test set XS 92a .\nWhen the trip occurs the value is automatically stopped by \n free contact then read the value of the time in the hand terminal.\nRepeat this test for other values of current.\nTest \nTrip all Breakers associated with the Relay\nReconnect Breaker trip coils.\nClose only the circuit breakers associated with the relay.\nAdjust the injection parameters to make trip.\nStart injection and make sure all breakers are tripped.\nRestore the Relay to Service\nUnplug the test set XS92a from the power source.\nRemove the test leads from the relay and the test equipment.\nReturn the relay to the permanent settings as indicated in the maintenance \n file.\nThis Completes the Test Procedure.\nReturn Relay and associated Equipment to Service\nReturn relay to service by withdrawing the test plug handle from the relay.\nReconnect any equipment associated with the relay has been isolated:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nTest Sheet\nStation:\nFeeder:\nEquipment : directional earth fault relay\nType : RMX911 & IKC911\nSetting\nIn = 1 A\nFn = 50 HZ\nIB =\nAngle =\nTime multip. K =\nCurve :\nTest Results\nOperating Range\nBoundary operating angle : Φ1 = \n Φ2 =\nIntermediate operating angle\nPick up current = A\nReset current = A\nMinimum operating voltage = V\nOperating time\nTest voltage \n = 15 V Φ =\nDATE : \nTESTED BY :",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/efr-022-01.jpg",
+   "alt": ""
+  }
+ ]
+}

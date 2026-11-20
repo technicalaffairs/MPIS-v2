@@ -1,0 +1,237 @@
+{
+ "id": "gen-docs-protection-ocr-011-r0-htm",
+ "doc_number": "OCR-011-R0",
+ "title_en": "OCR-011-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/OCR-011--r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protections",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The document over current relays are back - up relay for pilot - wire diff \n relay The document over current relays have a characteristic of (-30) RXPE 42 \n The relay operates down to a supply voltage of 0.15 % of the rated voltage for \n a current of 1= 10 x IS. the voltage U that is completely independent of the \n set value on the current scale."
+  },
+  {
+   "type": "paragraph",
+   "text": "For large currents, above 1 = 50 x IS, the relay will operate even if the \n voltage is zero but the operation is no directional. In order that directional \n operation can be ensured at such large currents, the voltage must be larger \n than 0.1% of rated voltage."
+  },
+  {
+   "type": "paragraph",
+   "text": "When faster fault clearing is required, the \n directional over current relay can be used in a directional comparison scheme \n with a communication channel. In such a scheme the over current relay operates \n instantaneously but is allowed to trip only receipt of a carrier signal \n (permissive scheme), in this way tripping will be made only for faults on the \n protected line section"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft of this document initiated by eng \n Mohye El Deen Khames Ramadan from Esna Hyd. PS, HPSC-EP and tested at \n 24/12/2001"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Work order must be issued",
+    "The line is out of service",
+    "Isolate the relay from PT`s & CT`s"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Second. 1 - ph. injection test set (SVERKER 650 \n - Sweden)",
+    "Multimeter, Test wires, Test - plug handle (RTXH 18)",
+    "Variable resistance (0 - 450) ohm"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work\nto be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "The line is out of service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the circuit as shown in fig (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase the current gradually until reach the operating value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure that the relay operates at the setting current value (1.5)A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure that the relay operates at the setting tine value (2) sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat for phases S & T"
+  },
+  {
+   "type": "paragraph",
+   "text": "Record this values on the test sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Take off the equipments and the wires, then return the relay to its normal \nposition"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the circuit as shown in fig (1)",
+    "Increase the current gradually until reach the operating value",
+    "Ensure that the relay operates at the setting current value (1.5)A",
+    "Ensure that the relay operates at the setting tine value (2) sec",
+    "Repeat for phases S & T",
+    "Record this values on the test sheet",
+    "Take off the equipments and the wires, then return the relay to its normal \nposition"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay type : RXPE 42"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay symbol : 67 L"
+  },
+  {
+   "type": "paragraph",
+   "text": "P.T.R. : 132000 / √3 :100/√3 V"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T.R. 500/1A"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay setting",
+     "Phase R",
+     "Phase S",
+     "Phase T",
+     "Time",
+     "Reset Factor"
+    ],
+    [
+     "Current",
+     "Time",
+     "Operate",
+     "Reset",
+     "Operate",
+     "Reset",
+     "Operate",
+     "Reset",
+     "R",
+     "S",
+     "T"
+    ],
+    [
+     "1.5A",
+     "2 Sec",
+     "1.54A",
+     "1.29A",
+     "1.54A",
+     "1.29A",
+     "1.54A",
+     "1.29A",
+     "2.11 sec",
+     "84 %",
+     "84 %",
+     "84 %"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay setting",
+     "Phase R",
+     "Phase S",
+     "Phase T",
+     "Time",
+     "Reset Factor"
+    ],
+    [
+     "Current",
+     "Time",
+     "Operate",
+     "Reset",
+     "Operate",
+     "Reset",
+     "Operate",
+     "Reset",
+     "R",
+     "S",
+     "T"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig. \n(1): Testing of directional relay RXPE 42 with relay testing set \" \nSVERKER\" for other types of directional relays,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nEquipment Code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checked\nby :\nSignature: \nDate :"
+  }
+ ],
+ "text": "\nIntroduction\nThe document over current relays are back - up relay for pilot - wire diff \n relay The document over current relays have a characteristic of (-30) RXPE 42 \n The relay operates down to a supply voltage of 0.15 % of the rated voltage for \n a current of 1= 10 x IS. the voltage U that is completely independent of the \n set value on the current scale.\nFor large currents, above 1 = 50 x IS, the relay will operate even if the \n voltage is zero but the operation is no directional. In order that directional \n operation can be ensured at such large currents, the voltage must be larger \n than 0.1% of rated voltage.\nWhen faster fault clearing is required, the \n directional over current relay can be used in a directional comparison scheme \n with a communication channel. In such a scheme the over current relay operates \n instantaneously but is allowed to trip only receipt of a carrier signal \n (permissive scheme), in this way tripping will be made only for faults on the \n protected line section\nThe first draft of this document initiated by eng \n Mohye El Deen Khames Ramadan from Esna Hyd. PS, HPSC-EP and tested at \n 24/12/2001\nSafety Precautions\nWork order must be issued\nThe line is out of service\nIsolate the relay from PT`s & CT`s\nTools and Equipment\nSecond. 1 - ph. injection test set (SVERKER 650 \n - Sweden)\nMultimeter, Test wires, Test - plug handle (RTXH 18)\nVariable resistance (0 - 450) ohm\nWork\nto be Carried Out\nThe line is out of service\nConnect the circuit as shown in fig (1)\nIncrease the current gradually until reach the operating value\nEnsure that the relay operates at the setting current value (1.5)A\nEnsure that the relay operates at the setting tine value (2) sec\nRepeat for phases S & T\nRecord this values on the test sheet\nTake off the equipments and the wires, then return the relay to its normal \nposition\nConnect the circuit as shown in fig (1)\nIncrease the current gradually until reach the operating value\nEnsure that the relay operates at the setting current value (1.5)A\nEnsure that the relay operates at the setting tine value (2) sec\nRepeat for phases S & T\nRecord this values on the test sheet\nTake off the equipments and the wires, then return the relay to its normal \nposition\nTest sheet\nRelay type : RXPE 42\nRelay symbol : 67 L\nP.T.R. : 132000 / √3 :100/√3 V\nC.T.R. 500/1A\n\n\nFig. \n(1): Testing of directional relay RXPE 42 with relay testing set \" \nSVERKER\" for other types of directional relays,\nLocation: \nEquipment Code:\nChecked\nby :\nSignature: \nDate :",
+ "text_truncated": false,
+ "links": [
+  {
+   "href": "../../appr_docs/ad_pc/ad_p-c_tp/graphics/ocr-011-r0-1.jpg",
+   "text": ""
+  }
+ ],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "../../appr_docs/ad_pc/ad_p-c_tp/graphics/ocr-011-r0-1.jpg",
+   "alt": ""
+  }
+ ]
+}

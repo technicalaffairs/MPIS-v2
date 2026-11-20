@@ -1,0 +1,313 @@
+{
+ "id": "gen-docs-protection-bbp-013-r0-html",
+ "doc_number": "BBP-013-R0",
+ "title_en": "BBP-013-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/BBP-013-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document lists the testing \n procedure P1, which must be performed on an annually bases as indicated by Y1 \n in the above title block"
+  },
+  {
+   "type": "paragraph",
+   "text": "The MBCZ16 Bus bar protection is a \n Modular, solid state, low impedance blast differential based on the \n circulating current principle, dual cratered of protection, provides \n continuous supervision of CT secondary circuits and constant monitoring of \n vital circuits extremely stable up to the max switch gear."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by \n eng. Hany Bassuony, tested by eng. Hany Bassuony, accepted by eng. Mahmoud \n Badawy general director, revised by Dr. Sarwat Sabry, approved by eng. \n Mohamed Gamal El-Deen Diab Kureimat PS Head sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document certified by \n eng. Gamal Abdel Wahab UEEPC MPIS \n coordinator, and inspection & quality control general \n director"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the maintenance staff should carry the \n suitable safety category",
+    "Maintenance staff should be well trained \n qualified or directly supervised by some one who is",
+    "Safety fence with caution marks \n surrounding the work area is required",
+    "Personal protective equipment must be \n used as safety shoes, helmet ... etc",
+    "Outage arrangement is required.",
+    "Switches off DC supply before inserting or with drawing any \n card from the relay .",
+    "Before with drawing MBCZ 16 modules from its case fit CT shorting to test \n bluge before inserted into test \n block.",
+    "The generator must be isolated"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Sverker 650 test set.",
+    "Test \nleads",
+    "Test plugs MMLB01"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Testing the differential relay ( Zone and Zone check ) of Bus #.",
+    "Testing the associated Breaker fail modules ."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain outage for the Bus Bar # protected by this relay.",
+    "Check that the bus bar circuit breakers and the disconnect switches are opened \nand tagged.",
+    "Turn the Key switch on the alarm unit to the PROTECTION OUT position.",
+    "Inspect the CT secondary circuits and all cabling supplying the relaying \nincluding matching CT.",
+    "Use the station drawings to isolate the following"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Trip output of \n each Bay.",
+    "Back \n trip output and the remote end inter trip of each Bay.",
+    "Disturbance alarm and fault recorder of each Bay."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Use the \n station drawings to get the following:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "The breaker fail initiation of \n each Bay.",
+    "Trip contact to stop the injection while testing \n differential for each Bay.",
+    "Back trip contact to stop the injection while testing \n Breaker fail for each Bay.",
+    "The input points of current injection of each Bay on its \n test plug per phase for Example"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase A at 2 , 22 on test plug ( *D ) ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase B at 4 , 24 on test plug ( *D ) ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase C at 6 , 26 on test plug ( *D ) ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Note : \nRelates to the tested Bay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Turn the Key switch on the alarm unit to the PROTECTION IN position."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedure(s)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test the Breaker Fail Module"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase A"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the test plug *D",
+    "Connect the circuit as shown in \n figure 1.",
+    "Increase the current slowly \n from zero until the breaker fail module operates and the injection is stopped \n .",
+    "This is the pick up current, \n compare it with the setting.",
+    "Make sure that this module gives \n Trip and Back Trip and all other modules connected to this bus bar give Trip \n only.",
+    "Make sure that, the trip and Back \n trip lock out relays of the tested Bay pick up and close their contacts.",
+    "Make sure that, the trip lock \n out relays of other Bays connected to this bus bar pick up and close their \n contacts.",
+    "Apply current ( just more than the \n pick up current ) suddenly and measure the trip time.",
+    "Record the results in the test \n sheet.",
+    "Repeat this test for phases B and C"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase B at 4 , 24 on test plug ( *D ) \n Phase C at 6 , 26 on test plug ( *D ) .\n Note: Relates to the tested Bay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the circuit as shown in \nfigure 2.",
+    "Increase the current slowly from zero \nuntil the main alarm appears this is the alarm current. continue increasing the \ncurrent until the zone and zone check trip and the injection is stopped.",
+    "Make sure, that phase A led lights in \neach of zone and zone check modules.",
+    "Make sure, that all breaker fail \nmodules connected to this bus bar pick up and give trip only.",
+    "Apply current ( just more than the \npick up current ) suddenly and measure the trip time.",
+    "Record the results in the test \nsheet.",
+    "Repeat this test for phases B and C."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note : Phase B at 4 , 24 on test plug ( *D ) ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase C at 6 , 26 on test plug ( *D ) ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Relates to the tested Bay"
+  },
+  {
+   "type": "paragraph",
+   "text": "repeat the \nTest steps of 1 and 2 for each Bay connected \nto this Bus Bar."
+  },
+  {
+   "type": "list",
+   "items": [
+    "After finishing the tests, Turn the \n Key switch on the alarm unit to the PROTECTION OUT position. key.",
+    "Restore all disconnected wires.",
+    "Turn the Key switch on \n the alarm unit to the PROTECTION OUT position."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: \nRelates to the tested bay"
+  },
+  {
+   "type": "paragraph",
+   "text": "To \nback trip contact \n to breaker fail initiation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1: Circuit Connection for Breaker failure \nTest Phase A"
+  },
+  {
+   "type": "paragraph",
+   "text": "To \n trip contact"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2: Circuit Connection for Differential \nTest Phase A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: relates to the tested bay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Breaker \nFailure Setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Current = A Time = m sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential \nSetting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Alarm = \nA Trip = A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Circuit \nBreaker No. ......."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Breaker Fail",
+     "Differential"
+    ],
+    [
+     "Alarm ( A )",
+     "Trip"
+    ],
+    [
+     "Current ( A )",
+     "Time ( msec )",
+     "Current ( A )",
+     ""
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThis document lists the testing \n procedure P1, which must be performed on an annually bases as indicated by Y1 \n in the above title block\nThe MBCZ16 Bus bar protection is a \n Modular, solid state, low impedance blast differential based on the \n circulating current principle, dual cratered of protection, provides \n continuous supervision of CT secondary circuits and constant monitoring of \n vital circuits extremely stable up to the max switch gear.\nThe first draft initiated by \n eng. Hany Bassuony, tested by eng. Hany Bassuony, accepted by eng. Mahmoud \n Badawy general director, revised by Dr. Sarwat Sabry, approved by eng. \n Mohamed Gamal El-Deen Diab Kureimat PS Head sector.\nThis document certified by \n eng. Gamal Abdel Wahab UEEPC MPIS \n coordinator, and inspection & quality control general \n director\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the \n suitable safety category\nMaintenance staff should be well trained \n qualified or directly supervised by some one who is\nSafety fence with caution marks \n surrounding the work area is required\nPersonal protective equipment must be \n used as safety shoes, helmet ... etc\nOutage arrangement is required.\nSwitches off DC supply before inserting or with drawing any \n card from the relay .\nBefore with drawing MBCZ 16 modules from its case fit CT shorting to test \n bluge before inserted into test \n block.\nThe generator must be isolated\nTools and Equipment\nSverker 650 test set.\nTest \nleads\nTest plugs MMLB01\nWork to be Carried Out\nTesting the differential relay ( Zone and Zone check ) of Bus #.\nTesting the associated Breaker fail modules .\nObtain outage for the Bus Bar # protected by this relay.\nCheck that the bus bar circuit breakers and the disconnect switches are opened \nand tagged.\nTurn the Key switch on the alarm unit to the PROTECTION OUT position.\nInspect the CT secondary circuits and all cabling supplying the relaying \nincluding matching CT.\nUse the station drawings to isolate the following\nTrip output of \n each Bay.\nBack \n trip output and the remote end inter trip of each Bay.\nDisturbance alarm and fault recorder of each Bay.\nUse the \n station drawings to get the following:\nThe breaker fail initiation of \n each Bay.\nTrip contact to stop the injection while testing \n differential for each Bay.\nBack trip contact to stop the injection while testing \n Breaker fail for each Bay.\nThe input points of current injection of each Bay on its \n test plug per phase for Example\nPhase A at 2 , 22 on test plug ( *D ) .\nPhase B at 4 , 24 on test plug ( *D ) .\nPhase C at 6 , 26 on test plug ( *D ) .\nNote : \nRelates to the tested Bay\nTurn the Key switch on the alarm unit to the PROTECTION IN position.\nTesting Procedure(s)\nTest the Breaker Fail Module\nPhase A\nInsert the test plug *D\nConnect the circuit as shown in \n figure 1.\nIncrease the current slowly \n from zero until the breaker fail module operates and the injection is stopped \n .\nThis is the pick up current, \n compare it with the setting.\nMake sure that this module gives \n Trip and Back Trip and all other modules connected to this bus bar give Trip \n only.\nMake sure that, the trip and Back \n trip lock out relays of the tested Bay pick up and close their contacts.\nMake sure that, the trip lock \n out relays of other Bays connected to this bus bar pick up and close their \n contacts.\nApply current ( just more than the \n pick up current ) suddenly and measure the trip time.\nRecord the results in the test \n sheet.\nRepeat this test for phases B and C\nPhase B at 4 , 24 on test plug ( *D ) \n Phase C at 6 , 26 on test plug ( *D ) .\n Note: Relates to the tested Bay\nConnect the circuit as shown in \nfigure 2.\nIncrease the current slowly from zero \nuntil the main alarm appears this is the alarm current. continue increasing the \ncurrent until the zone and zone check trip and the injection is stopped.\nMake sure, that phase A led lights in \neach of zone and zone check modules.\nMake sure, that all breaker fail \nmodules connected to this bus bar pick up and give trip only.\nApply current ( just more than the \npick up current ) suddenly and measure the trip time.\nRecord the results in the test \nsheet.\nRepeat this test for phases B and C.\nNote : Phase B at 4 , 24 on test plug ( *D ) .\nPhase C at 6 , 26 on test plug ( *D ) .\nRelates to the tested Bay\nrepeat the \nTest steps of 1 and 2 for each Bay connected \nto this Bus Bar.\nAfter finishing the tests, Turn the \n Key switch on the alarm unit to the PROTECTION OUT position. key.\nRestore all disconnected wires.\nTurn the Key switch on \n the alarm unit to the PROTECTION OUT position.\nNote: \nRelates to the tested bay\nTo \nback trip contact \n to breaker fail initiation\nFigure 1: Circuit Connection for Breaker failure \nTest Phase A\nTo \n trip contact\nFigure 2: Circuit Connection for Differential \nTest Phase A\nNote: relates to the tested bay\nBreaker \nFailure Setting\nCurrent = A Time = m sec\nDifferential \nSetting\nAlarm = \nA Trip = A\nCircuit \nBreaker No. .......\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-013-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/bbp-013-02.jpg",
+   "alt": ""
+  }
+ ]
+}

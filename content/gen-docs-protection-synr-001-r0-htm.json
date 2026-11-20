@@ -1,0 +1,420 @@
+{
+ "id": "gen-docs-protection-synr-001-r0-htm",
+ "doc_number": "SYNR-001-R0",
+ "title_en": "SynR-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/SynR-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "There are eight up to isolated inputs to the relay that can be \narranged to operate up to alternative ladder inputs, which perform functions \nassigned to them in the ladder diagram, as determined by the setting of the \nINPUT MASKS and so making maximum use of the available control inputs. Software \nfiltering is applied to eliminate the adverse effects of induced ac signals in \nthe external wiring eight programmable output relays are provided on all models."
+  },
+  {
+   "type": "paragraph",
+   "text": "These relays can be arranged to operate in response to any, or all, of up to 16 \nalternative ladder outputs, whose function is assigned in the ladder diagram, by \nsuitably setting the OUTPUT MASKS. In addition there is a watchdog relay for \nexternal indication of equipment failure/healthy status. Measurements are only \navailable in relays including check synchronism features (KAVS and KAVR). These \nrelays have two voltage transformers for measuring line and bus bar voltages."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by quality control eng. Adel Abdel Qader El Nagar at EDEPCo., accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, qualified maintenance staff carry the suitable \n safety ID category,",
+    "Safety fence (rope) with caution marks surrounding the work area is required,",
+    "Personal protective equipment must be used as safety shoes, and safety Helmet.",
+    "Line isolation must be done."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA test set type ART/3 or Omicron",
+    "Voltmeter, and Ammeter",
+    "Test plug test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual and drawings",
+    "Prepare the previous or commissioning results of the relay testing",
+    "Check the wires of the relay by hand.",
+    "Check the AC source is available to the tester.",
+    "Check the existence of the DC sources in panels.",
+    "Disconnect the outputs of the relay and connect one of them to the \n timer of the tester.",
+    "Check all the leads used in tests."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Test \nSteps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the voltage leads of a tester unit to the relay points according \n to the drawings and scheme",
+    "Inject \n voltage to each couple of points.",
+    "Repeat the steps for each pair of points according to the test sheet.",
+    "Record the results."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps",
+    "Verify the test result match the relay setting. If not consult \n technical services."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Standard connection table"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Watchdog Relay (Break contact)",
+     "m",
+     "4\n 6",
+     "3\n 5",
+     "b\n --",
+     "Watchdog Relay (Break contact)"
+    ],
+    [
+     "48V Field Voltage",
+     "(-)",
+     "8",
+     "7",
+     "(+)",
+     "48V Field Voltage"
+    ],
+    [
+     "Not Used",
+     "",
+     "10",
+     "9",
+     "",
+     "Not Used"
+    ],
+    [
+     "Not Used",
+     "",
+     "12",
+     "11",
+     "",
+     "Not Used"
+    ],
+    [
+     "Auxiliary Voltage Input",
+     "(-)",
+     "14",
+     "13",
+     "(+)",
+     "Auxiliary Voltage Input"
+    ],
+    [
+     "Not Used",
+     "",
+     "16",
+     "15",
+     "",
+     "Not Used"
+    ],
+    [
+     "Line Voltage",
+     "In",
+     "18",
+     "17",
+     "In",
+     "Line Voltage"
+    ],
+    [
+     "Bushar Voltage",
+     "Out",
+     "20",
+     "19",
+     "In",
+     "Bushar Voltage"
+    ],
+    [
+     "Not Used",
+     "",
+     "22",
+     "21",
+     "",
+     "Not Used"
+    ],
+    [
+     "Not Used",
+     "",
+     "24",
+     "23",
+     "",
+     "Not Used"
+    ],
+    [
+     "Not Used",
+     "",
+     "26",
+     "25",
+     "",
+     "Not Used"
+    ],
+    [
+     "Not Used",
+     "",
+     "28",
+     "27",
+     "",
+     "Not Used"
+    ],
+    [
+     "Output Relay 0",
+     "--",
+     "30\n 32",
+     "29\n 31",
+     "--",
+     "Output Relay 4"
+    ],
+    [
+     "Output Relay 1",
+     "--",
+     "34\n 36",
+     "33\n 35",
+     "--",
+     "Output Relay 5"
+    ],
+    [
+     "Output Relay 2",
+     "--",
+     "38\n 40",
+     "37\n 39",
+     "--",
+     "Output Relay 6"
+    ],
+    [
+     "Output Relay 3",
+     "--",
+     "42\n 44",
+     "41\n 43",
+     "--",
+     "Output Relay 7"
+    ],
+    [
+     "Opto Control Input L0",
+     "(+)",
+     "46",
+     "45",
+     "(+)",
+     "Opto Control Input L3"
+    ],
+    [
+     "Opto Control Input L1",
+     "(+)",
+     "48",
+     "47",
+     "(+)",
+     "Opto Control Input L4"
+    ],
+    [
+     "Opto Control Input L2",
+     "(+)",
+     "50",
+     "49",
+     "(+)",
+     "Opto Control Input L5"
+    ],
+    [
+     "Common L0/L1/L2",
+     "(-)",
+     "52",
+     "51",
+     "(+)",
+     "Opto Control Input L6"
+    ],
+    [
+     "K-Bus Serial Port",
+     "--",
+     "54",
+     "53",
+     "(+)",
+     "Opto Control Input L7"
+    ],
+    [
+     "K-Bus Serial Port",
+     "--",
+     "56",
+     "55",
+     "(-)",
+     "Common L3/L4/L5/L6/L7"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Key to connection tables\n(+) and (-) indicate the polarity of \nthe dc output from these terminals\n(+) and (-) indicate the polarity of \nthe applied dc supply\nIn / Out \nthe signal direction for the in phase condition \nShaded is not available on KVTR relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note : All relays have standard Midos terminal blocks to which \nconnection can be made with either \n 4mm screws or 4.8 mm \npre-insulated snap-on connectors.\n Two connections can be \nmade to each terminal."
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Data"
+  },
+  {
+   "type": "paragraph",
+   "text": "The KAVS is in tended to provide the \n check synchronizing or dead line"
+  },
+  {
+   "type": "paragraph",
+   "text": "5 to 90"
+  },
+  {
+   "type": "paragraph",
+   "text": "5 to 90"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase angle settings:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check synchronism"
+  },
+  {
+   "type": "paragraph",
+   "text": "System synchronism"
+  },
+  {
+   "type": "paragraph",
+   "text": "TEST SHEET"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "57/120v"
+    ],
+    [
+     "",
+     "Auxiliary Voltage 24/125v"
+    ],
+    [
+     "",
+     "48/250v"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Commissioning preliminaries"
+    ],
+    [
+     "",
+     "Serial number on case, module and cover chocked"
+    ],
+    [
+     "",
+     "CT shorting switches in case checked"
+    ],
+    [
+     "",
+     "Terminal x 21 and 22,23and 24,25 and 26,27 and 28 checked"
+    ],
+    [
+     "",
+     "External wining checked to diagrarn (if available)"
+    ],
+    [
+     "",
+     "Earth connection to case checked"
+    ],
+    [
+     "",
+     "Test block connections checked"
+    ],
+    [
+     "",
+     "Insulation checked"
+    ],
+    [
+     "",
+     "Auxiliary supply checked"
+    ],
+    [
+     "",
+     "Watching contacts checked"
+    ],
+    [
+     "",
+     "Supply on \n Terminals 3 and 5"
+    ],
+    [
+     "",
+     "Terminals 4 and 6"
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "Introduction\nThere are eight up to isolated inputs to the relay that can be \narranged to operate up to alternative ladder inputs, which perform functions \nassigned to them in the ladder diagram, as determined by the setting of the \nINPUT MASKS and so making maximum use of the available control inputs. Software \nfiltering is applied to eliminate the adverse effects of induced ac signals in \nthe external wiring eight programmable output relays are provided on all models.\nThese relays can be arranged to operate in response to any, or all, of up to 16 \nalternative ladder outputs, whose function is assigned in the ladder diagram, by \nsuitably setting the OUTPUT MASKS. In addition there is a watchdog relay for \nexternal indication of equipment failure/healthy status. Measurements are only \navailable in relays including check synchronism features (KAVS and KAVR). These \nrelays have two voltage transformers for measuring line and bus bar voltages.\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by quality control eng. Adel Abdel Qader El Nagar at EDEPCo., accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety \nPrecautions\nA work permit must be issued, qualified maintenance staff carry the suitable \n safety ID category,\nSafety fence (rope) with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nLine isolation must be done.\nTools and Equipment\nISA test set type ART/3 or Omicron\nVoltmeter, and Ammeter\nTest plug test leads\nWork to be carried out\nRelays Preparation\nReview the manual and drawings\nPrepare the previous or commissioning results of the relay testing\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the outputs of the relay and connect one of them to the \n timer of the tester.\nCheck all the leads used in tests.\nTest \nSteps\nConnect the voltage leads of a tester unit to the relay points according \n to the drawings and scheme\nInject \n voltage to each couple of points.\nRepeat the steps for each pair of points according to the test sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nStandard connection table\n\nKey to connection tables\n(+) and (-) indicate the polarity of \nthe dc output from these terminals\n(+) and (-) indicate the polarity of \nthe applied dc supply\nIn / Out \nthe signal direction for the in phase condition \nShaded is not available on KVTR relays\nNote : All relays have standard Midos terminal blocks to which \nconnection can be made with either \n 4mm screws or 4.8 mm \npre-insulated snap-on connectors.\n Two connections can be \nmade to each terminal.\nTechnical Data\nThe KAVS is in tended to provide the \n check synchronizing or dead line\n5 to 90\n5 to 90\nPhase angle settings:\nCheck synchronism\nSystem synchronism\nTEST SHEET\n\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/SCR-001-01.giF",
+   "alt": ""
+  },
+  {
+   "src": "graphics/SynR-002-002.gif",
+   "alt": ""
+  }
+ ]
+}

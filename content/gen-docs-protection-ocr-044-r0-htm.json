@@ -1,0 +1,204 @@
+{
+ "id": "gen-docs-protection-ocr-044-r0-htm",
+ "doc_number": "OCR-044-R0",
+ "title_en": "OCR-044-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/OCR-044-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This \n document outlines the testing procedures P1, which must performed on an \n annually bases as indicated by Y1 in the titled block"
+  },
+  {
+   "type": "paragraph",
+   "text": "The RSZ3Ena relay is an electronic independent over current time lag relay. This \nprocedure details the steps required to completely check the proper operation \nand calibration of the RSZ3Ena relay. This document \nis divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing describes the \nactivities required prior to testing. Some of these steps could be performed \ndays before the actual test. The second section Preparation for testing \ndescribes the steps to set up the equipment for performing the actual tests. The \nthird section is the actual test. The document is formatted the way to minimize \nthe possibility of error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The \nfirst draft is initiated by eng. Fathy Abd El Salam Hassan tested by eng. Mahamed Tohamy Accepted by electrical general manger eng. Said \nFarag, revised by \nEDEPC inspection and quality control eng. Adel Abd ELQader El-Nagar, approved by eng. Moukhtar Abd Ellateef Mady head sectorof Ataka PS."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document accepted by eng. \nSamir Abdel Gilil: EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work area is required."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Wear safety and healthy equipments as safety \n helmet, safety shoes ...etc.",
+    "Line isolation is required.",
+    "Make sure CT Secondary circuits are \n shorted before isolating the relay current circuits for current injection."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set (Siemens type Clock)",
+    "Test leads, clamp meter type Hoky, voltmeter",
+    "Complete tool set."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Works to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay, \n and Protection Output"
+  },
+  {
+   "type": "paragraph",
+   "text": "Verify \n the test results match the relay setting, if not consult technical services."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test \n trip the breaker associated with the relay."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify \n the test results match the relay setting, if not consult technical services.",
+    "Test \n trip the breaker associated with the relay."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test.",
+    "Look at field maintenance file and compare the position of the setting \n switches on relay with those shown on the setting sheet.",
+    "Label the wires",
+    "Remove the input current terminals number 1,2,3,4,5.6.7 and 8",
+    "Connect test leads between the current terminal number 1and 4 on the relay to \n the current terminals on the test set",
+    "Slowly increase the current until the setting and wait the time until the red \n indication on the over current element",
+    "Repeat steps 5,6 for 2,5 and 3,6 for phase S and T",
+    "Connect test leads between the earth terminals number 7.8 on the relay to \n current terminals on the test set",
+    "Slowly increase the current time until the setting and wait the time until the \n red indication on the earth fault element",
+    "Record this value on the test sheet.",
+    "Increase the injected current with a value 25% greater than the operating \n value.",
+    "Slowly decrease the current until the relay resets.",
+    "Record this value on the test sheet."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Time test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current higher than the setting value so the relay picks up firmly.",
+    "Keep the injected current and switch off the test set.",
+    "Connect the time delayed contacts number 3 and 4 on the relay to timer \n terminals on the test set.",
+    "Switch on the test set.",
+    "Start the test by injecting current into the relay. The timer will stop once \n the relay has picked up.",
+    "Record this value of time on the test sheet.",
+    "Repeat the above test from step 1 to step 6 for other phases, but inject \n current at terminal 8 and 11 for phase S and terminals 9 and 12 for phase T."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Trip Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Request the Operator to switch on the main circuit breaker.",
+    "Operate the output-delayed- contact by hand to trip the circuit breaker.",
+    "Check that the circuit breaker trip."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "AKZ",
+     "Protection Type",
+     "CT Ratio"
+    ],
+    [
+     "OC",
+     "EF"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested \nby: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested Date: \n Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by: Signature:"
+  }
+ ],
+ "text": "Introduction\nThis \n document outlines the testing procedures P1, which must performed on an \n annually bases as indicated by Y1 in the titled block\nThe RSZ3Ena relay is an electronic independent over current time lag relay. This \nprocedure details the steps required to completely check the proper operation \nand calibration of the RSZ3Ena relay. This document \nis divided into 3 sections.\nThe first preliminary steps to prepare for relay testing describes the \nactivities required prior to testing. Some of these steps could be performed \ndays before the actual test. The second section Preparation for testing \ndescribes the steps to set up the equipment for performing the actual tests. The \nthird section is the actual test. The document is formatted the way to minimize \nthe possibility of error causing personal injury or damage to equipment.\nThe \nfirst draft is initiated by eng. Fathy Abd El Salam Hassan tested by eng. Mahamed Tohamy Accepted by electrical general manger eng. Said \nFarag, revised by \nEDEPC inspection and quality control eng. Adel Abd ELQader El-Nagar, approved by eng. Moukhtar Abd Ellateef Mady head sectorof Ataka PS.\nThis document accepted by eng. \nSamir Abdel Gilil: EDEPC MPIS coordinator, and certified by accountant Mahmoud \nMohamed Soliman EDEPC admin. & financial inspection, and quality control general \ndirector and supervisor of inspection & quality control's head sector.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence with caution marks surrounding the work area is required.\nWear safety and healthy equipments as safety \n helmet, safety shoes ...etc.\nLine isolation is required.\nMake sure CT Secondary circuits are \n shorted before isolating the relay current circuits for current injection.\nTools and Equipment\nSecondary injection test set (Siemens type Clock)\nTest leads, clamp meter type Hoky, voltmeter\nComplete tool set.\nWorks to be Carried Out\nTesting the Relay, \n and Protection Output\nVerify \n the test results match the relay setting, if not consult technical services.\nTest \n trip the breaker associated with the relay.\nVerify \n the test results match the relay setting, if not consult technical services.\nTest \n trip the breaker associated with the relay.\nPreparation\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolating the relay current circuit for test.\nLook at field maintenance file and compare the position of the setting \n switches on relay with those shown on the setting sheet.\nLabel the wires\nRemove the input current terminals number 1,2,3,4,5.6.7 and 8\nConnect test leads between the current terminal number 1and 4 on the relay to \n the current terminals on the test set\nSlowly increase the current until the setting and wait the time until the red \n indication on the over current element\nRepeat steps 5,6 for 2,5 and 3,6 for phase S and T\nConnect test leads between the earth terminals number 7.8 on the relay to \n current terminals on the test set\nSlowly increase the current time until the setting and wait the time until the \n red indication on the earth fault element\nRecord this value on the test sheet.\nIncrease the injected current with a value 25% greater than the operating \n value.\nSlowly decrease the current until the relay resets.\nRecord this value on the test sheet.\nTime test\nInject current higher than the setting value so the relay picks up firmly.\nKeep the injected current and switch off the test set.\nConnect the time delayed contacts number 3 and 4 on the relay to timer \n terminals on the test set.\nSwitch on the test set.\nStart the test by injecting current into the relay. The timer will stop once \n the relay has picked up.\nRecord this value of time on the test sheet.\nRepeat the above test from step 1 to step 6 for other phases, but inject \n current at terminal 8 and 11 for phase S and terminals 9 and 12 for phase T.\nTrip Test\nRequest the Operator to switch on the main circuit breaker.\nOperate the output-delayed- contact by hand to trip the circuit breaker.\nCheck that the circuit breaker trip.\nTest Sheet\n\nLocation: Signature:\nTested \nby: Signature:\nTested Date: \n Signature:\nApproved by: Signature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/OCR-044-01.jpg",
+   "alt": ""
+  }
+ ]
+}

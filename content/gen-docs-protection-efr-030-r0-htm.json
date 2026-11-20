@@ -1,0 +1,376 @@
+{
+ "id": "gen-docs-protection-efr-030-r0-htm",
+ "doc_number": "EFR-030-R0",
+ "title_en": "EFR-030-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/EFR-030-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The METI directional relay detects \nthe phase angle of the current in a power system and when used in conjunction \nwith over current relay type MCGG provides directional control of the time \ndelayed element."
+  },
+  {
+   "type": "paragraph",
+   "text": "The MCGG is a microprocessor based \nover-current relay available in single, two, three or four pole versions \nmanufactured by GEC ALSTHOM. Each pole is provided with a choice of four inverse \ntime characteristics and three definite time characteristics as well as a trip \ntest position. An instantaneous element is also available on each phase. The \nMCGG 22 is the single phase version."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated, tested by eng. Hany \nBassuony Abdel Razek, accepted by UEEPC general manager eng. Gamal Abdel Wahab \ninspection & quality control \nhead sector, \nand approved by Dr. Tharwat sabry."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the maintenance staff should carry the suitable safety category.",
+    "Safety fence with caution marks surrounding \n the work area is required.",
+    "Make sure CT secondary circuits are shorted before isolating the relay \n current circuits for test current injection.",
+    "Line isolation is required.",
+    "Switch off DC power supply \nbefore changing setting of the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and \nEquipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "XS92a test set",
+    "Test leads, Screwdriver",
+    "Ammeter, \n Avometer"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off load relay \n test.",
+    "The test is done for ( 50/51 & 67G ) as a one relay.",
+    "Review technical reference material: Manufacturer's \n manual.",
+    "Obtain copy of relay setting from field maintenance \n file.",
+    "Obtain outage for line protected by this relay.",
+    "Check that the bus and line disconnect switches are \n opened and tagged.",
+    "Inspect the CT secondary circuits, the VT Miniature \n Circuit Breakers MCB'S, and all cabling supplying the relay.",
+    "Use station drawing to isolate:",
+    "Breaker trip coils.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated \n with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps.",
+    "Verify the test results match the relay setting, if \n not consult technical services.",
+    "Test trip all breakers associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Prior to Starting Testing Procedure(s) Ensure the \nFollowing Steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Look at the EEHC panel nameplate and check that this \n EEHC system designation nameplate agrees with the line that has been taken out \n of service for maintenance.",
+    "Check there is no AC current from CT's by using a \n clip on ammeter.",
+    "Check there is no AC voltage from VT's by using a \n voltmeter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the xs92a test set with the relay as shown \n in Fig.( 1 ) .",
+    "Ensure that the CT secondary is correctly short \n circuited and voltage teminals supplying the relay is opened.",
+    "These connections must be made before starting test."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Pick up and Reset current"
+  },
+  {
+   "type": "paragraph",
+   "text": "Prepare the \ntest set XS92a as following:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Prepare the \ntest set XS92a as following:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the injection starts notice that there is no \n indication on 67G and 50/51.",
+    "The current still increasing until the green led of \n 67G lights and that I>of the 50/51 relay starts this is the pick up current , \n then press _ now the current will decrease until the led I>of the 50/51 \n relay resets this is the reset current.",
+    "Repeat that again without pressing _ and let the \n relay trips.",
+    "Record the pick up and the reset currents in the \n test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Boundary Operation Angle"
+  },
+  {
+   "type": "paragraph",
+   "text": "Prepare the \ntest set XS92a as following:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "We entered above parameters according to the flow \n charts of test set XS92a",
+    "When the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51.",
+    "The angle still decreasing until the green led of \n 67G lights, now 50/51 relay will trip after the setting time.",
+    "When the relay gives tripping signal press ◙ to stop \n injection",
+    "Read the values in hand terminal of test set XS92a, \n and compare this value Φ1 with the value of ( Φsetting+90 ).",
+    "Observe that the red indication on the 50/51 relay \n will light up.",
+    "Press the reset button on the relay front panel and \n check that the led indicator resets.",
+    "Prepare the test set XS92a as following:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51.",
+    "The \n angle still increasing until the green led of 67G lights, now 50/51 relay will \n trip after the setting time.",
+    "When \n the relay gives tripping signal press ◙ to stop injection",
+    "Read the values in hand terminal of set test XS92a, \n and compare this value Φ2 \n with the value of ( Φsetting+270 \n ).",
+    "Observe that the red indication on the 50/51 relay \n will light up.",
+    "Press the reset button on the relay front panel and \n check that the led indicator resets."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Minimum Operating Voltage"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Prepare the test set XS92a as following:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51 .",
+    "The voltage still decreasing until the green led of \n 67G lights, now 50/51 relay will trip after the setting time.",
+    "When the relay gives tripping signal press ◙ to stop \n injection",
+    "Read the values in hand terminal of test set XS92a, \n this is minimum operating voltage."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Operating Times"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The operating Time of 50/51 relay should be measured \n using the tripping contact (free contact).",
+    "Connect The free contact of MCGG22 to (+) and ( \n __\\__ ) in the front panel of test set XS 92a .",
+    "Prepare the test set XS92a as following:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the trip occurs the value is automatically \n stopped by free contact then read the value of the time in the hand terminal.",
+    "Repeat this test for other values of current if the \n setting time is not definite."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Trip all Breakers associated with the Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Reconnect Breaker trip coils.",
+    "Close only the circuit breakers associated with the \n relay.",
+    "Adjust the injection parameters to make trip.",
+    "Start injection and make sure all breakers are \n tripped."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Restore the Relay to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Unplug the test set XS92a from the power source.",
+    "Remove the test leads from the relay and the test \n equipment.",
+    "Return the relay to the permanent settings as \n indicated in the maintenance file.",
+    "This Completes the Test Procedure."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by withdrawing the test plug \n handle from the relay.",
+    "Reconnect any equipment associated with the relay \n has been isolated:",
+    "Breaker trip coils.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated \n with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Station:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Feeder:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment : Directional Earth Fault Relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : METI & MCGG22"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "I > = K3 % * In \n= A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Angle ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Time ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Results"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating Range"
+  },
+  {
+   "type": "paragraph",
+   "text": "Boundary operating angle: Φ1 \n= Φ2 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Intermediate operating angle"
+  },
+  {
+   "type": "paragraph",
+   "text": "Pick up current = A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reset current = A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Minimum operating voltage = V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating time"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test voltage = 10 V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test current = A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Φ ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Measured time ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \n Relay Code: \n Last \nTest date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Test date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Revised \nby: \nSignature:"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe METI directional relay detects \nthe phase angle of the current in a power system and when used in conjunction \nwith over current relay type MCGG provides directional control of the time \ndelayed element.\nThe MCGG is a microprocessor based \nover-current relay available in single, two, three or four pole versions \nmanufactured by GEC ALSTHOM. Each pole is provided with a choice of four inverse \ntime characteristics and three definite time characteristics as well as a trip \ntest position. An instantaneous element is also available on each phase. The \nMCGG 22 is the single phase version.\nThe first draft initiated, tested by eng. Hany \nBassuony Abdel Razek, accepted by UEEPC general manager eng. Gamal Abdel Wahab \ninspection & quality control \nhead sector, \nand approved by Dr. Tharwat sabry.\nSafety \nPrecautions\nA work permit must be issued and the maintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nMake sure CT secondary circuits are shorted before isolating the relay \n current circuits for test current injection.\nLine isolation is required.\nSwitch off DC power supply \nbefore changing setting of the relay.\nTools and \nEquipment\nXS92a test set\nTest leads, Screwdriver\nAmmeter, \n Avometer\nWork to be carried out\nPreliminary Steps to Prepare for Relay Testing\nThis procedure is used to perform off load relay \n test.\nThe test is done for ( 50/51 & 67G ) as a one relay.\nReview technical reference material: Manufacturer's \n manual.\nObtain copy of relay setting from field maintenance \n file.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches are \n opened and tagged.\nInspect the CT secondary circuits, the VT Miniature \n Circuit Breakers MCB'S, and all cabling supplying the relay.\nUse station drawing to isolate:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated \n with this relay.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps.\nVerify the test results match the relay setting, if \n not consult technical services.\nTest trip all breakers associated with the relay.\nPrior to Starting Testing Procedure(s) Ensure the \nFollowing Steps\nLook at the EEHC panel nameplate and check that this \n EEHC system designation nameplate agrees with the line that has been taken out \n of service for maintenance.\nCheck there is no AC current from CT's by using a \n clip on ammeter.\nCheck there is no AC voltage from VT's by using a \n voltmeter.\nPreparation\nConnect the xs92a test set with the relay as shown \n in Fig.( 1 ) .\nEnsure that the CT secondary is correctly short \n circuited and voltage teminals supplying the relay is opened.\nThese connections must be made before starting test.\nTesting Procedure\nMeasuring the Pick up and Reset current\nPrepare the \ntest set XS92a as following:\nPrepare the \ntest set XS92a as following:\nWhen the injection starts notice that there is no \n indication on 67G and 50/51.\nThe current still increasing until the green led of \n 67G lights and that I>of the 50/51 relay starts this is the pick up current , \n then press _ now the current will decrease until the led I>of the 50/51 \n relay resets this is the reset current.\nRepeat that again without pressing _ and let the \n relay trips.\nRecord the pick up and the reset currents in the \n test sheet.\nTesting the Boundary Operation Angle\nPrepare the \ntest set XS92a as following:\nWe entered above parameters according to the flow \n charts of test set XS92a\nWhen the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51.\nThe angle still decreasing until the green led of \n 67G lights, now 50/51 relay will trip after the setting time.\nWhen the relay gives tripping signal press ◙ to stop \n injection\nRead the values in hand terminal of test set XS92a, \n and compare this value Φ1 with the value of ( Φsetting+90 ).\nObserve that the red indication on the 50/51 relay \n will light up.\nPress the reset button on the relay front panel and \n check that the led indicator resets.\nPrepare the test set XS92a as following:\nWhen the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51.\nThe \n angle still increasing until the green led of 67G lights, now 50/51 relay will \n trip after the setting time.\nWhen \n the relay gives tripping signal press ◙ to stop injection\nRead the values in hand terminal of set test XS92a, \n and compare this value Φ2 \n with the value of ( Φsetting+270 \n ).\nObserve that the red indication on the 50/51 relay \n will light up.\nPress the reset button on the relay front panel and \n check that the led indicator resets.\nMeasuring the Minimum Operating Voltage\nPrepare the test set XS92a as following:\nWhen the injection starts notice that there is no \n indication on 67G and 50/51, this means that 67G blocks 50/51 .\nThe voltage still decreasing until the green led of \n 67G lights, now 50/51 relay will trip after the setting time.\nWhen the relay gives tripping signal press ◙ to stop \n injection\nRead the values in hand terminal of test set XS92a, \n this is minimum operating voltage.\nMeasuring the Operating Times\nThe operating Time of 50/51 relay should be measured \n using the tripping contact (free contact).\nConnect The free contact of MCGG22 to (+) and ( \n __\\__ ) in the front panel of test set XS 92a .\nPrepare the test set XS92a as following:\nWhen the trip occurs the value is automatically \n stopped by free contact then read the value of the time in the hand terminal.\nRepeat this test for other values of current if the \n setting time is not definite.\nTest Trip all Breakers associated with the Relay\nReconnect Breaker trip coils.\nClose only the circuit breakers associated with the \n relay.\nAdjust the injection parameters to make trip.\nStart injection and make sure all breakers are \n tripped.\nRestore the Relay to Service\nUnplug the test set XS92a from the power source.\nRemove the test leads from the relay and the test \n equipment.\nReturn the relay to the permanent settings as \n indicated in the maintenance file.\nThis Completes the Test Procedure.\nReturn Relay and Associated Equipment to Service\nReturn relay to service by withdrawing the test plug \n handle from the relay.\nReconnect any equipment associated with the relay \n has been isolated:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated \n with this relay.\nTest Sheet\nStation:\nFeeder:\nEquipment : Directional Earth Fault Relay\nType : METI & MCGG22\nSetting\nI > = K3 % * In \n= A\nAngle =\nTime =\nTest Results\nOperating Range\nBoundary operating angle: Φ1 \n= Φ2 =\nIntermediate operating angle\nPick up current = A\nReset current = A\nMinimum operating voltage = V\nOperating time\nTest voltage = 10 V\nTest current = A\nΦ =\nMeasured time =\nLocation: \n Relay Code: \n Last \nTest date:\nTested by: Signature: Test date:\nRevised \nby: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/EFR-030-01.JPG",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "id": "gen-docs-protection-flr-002-r0-htm",
+ "doc_number": "FLR-002-R0",
+ "title_en": "FLR-002-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/FLR-002-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The RANZA type fault locator is an essential complement to protective relays of \ntransmission lines, since it measures with great accuracy and indicate the \ndistance to the fault."
+  },
+  {
+   "type": "paragraph",
+   "text": "The RANZA works in co-operation with the line protection and receives the \nrequired phase selection and starting information from this. However,it can \nalso be provided with built in phase selection equipment and then only \nrequires starting information from the line protection."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated, tested by eng. Hany \nBassuony Abdel Razek, accepted by UEEPC general manager eng. Gamal Abdel Wahab \ninspection & quality control \nhead sector, \nand approved by Dr. Tharwat sabry."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety \nPrecautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the qualified\nmaintenance staff should carry the suitable safety category.",
+    "Safety fence with caution marks surrounding \n the work area is required.",
+    "Make sure CT secondary circuits are shorted before isolating the relay \n current circuits for test current injection.",
+    "Line isolation is required."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and \nEquipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "XS92a test set",
+    "Test plug RTXH18",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Preliminary \nsteps to Prepare for Relay Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Press the black button 3 times.",
+    "Now the printer will print the setting.",
+    "Calculate the following:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "ZL1 = P1 + JP2"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZL0 = P3 + JP4"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zs = P5 + JP6"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ko = ( ZL0 - ZL1 \n ) / 3 ZL1"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Test \nProcedure"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the test plug RTXH18",
+    "Connect the circuit as shown in Fig. 1",
+    "Adjust the test set xs92a as follow:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "FC = 111"
+  },
+  {
+   "type": "paragraph",
+   "text": "SQ = 1F1"
+  },
+  {
+   "type": "paragraph",
+   "text": "A = 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "TF = 3000"
+  },
+  {
+   "type": "paragraph",
+   "text": "Mod ZZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZL = more than half of ZL of the line"
+  },
+  {
+   "type": "paragraph",
+   "text": "PHI = the angle of the line"
+  },
+  {
+   "type": "paragraph",
+   "text": "K0 = from the above calculation"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZS = from the above calculation"
+  },
+  {
+   "type": "paragraph",
+   "text": "DZL = 0.01"
+  },
+  {
+   "type": "paragraph",
+   "text": "Start"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Now the injection is started and the impedance will decrease until it reaches \n a value equal 0.5 ZL at this moment make start to fault locator by shorting \n the test leads which connected to 1 and 2.",
+    "Press ◙ to stop the injection.",
+    "Now the fault locator is started.",
+    "Wait until the LCD of the fault locator lights with the percentage of the line \n length where the fault occurred, it is 50.",
+    "The printer now will print the sheet which reports the fault loop and faulted \n phase and the fault location as a percentage of the line length.",
+    "Repeat the above test steps 3 to 7 for fault codes 112 , 113, 121, 122, 123 ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Note"
+  },
+  {
+   "type": "list",
+   "items": [
+    "After finishing the test switch off the tester and withdraw the test plug.",
+    "Make reset to the fault locator."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Station:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Feeder:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay : Fault Locator"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : RANZA"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Setting"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Test \nResults"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZL1 = P1 + JP2 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "ZL0 = P3 + JP4 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Zs = P5 + JP6 ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Ko = ( ZL0 - \n ZL1 ) / 3 ZL1 ="
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Fault type"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \n Relay Code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Last test date: \nTest date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Revised \nby: \nSignature:"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe RANZA type fault locator is an essential complement to protective relays of \ntransmission lines, since it measures with great accuracy and indicate the \ndistance to the fault.\nThe RANZA works in co-operation with the line protection and receives the \nrequired phase selection and starting information from this. However,it can \nalso be provided with built in phase selection equipment and then only \nrequires starting information from the line protection.\nThe first draft initiated, tested by eng. Hany \nBassuony Abdel Razek, accepted by UEEPC general manager eng. Gamal Abdel Wahab \ninspection & quality control \nhead sector, \nand approved by Dr. Tharwat sabry.\nSafety \nPrecautions\nA work permit must be issued and the qualified\nmaintenance staff should carry the suitable safety category.\nSafety fence with caution marks surrounding \n the work area is required.\nMake sure CT secondary circuits are shorted before isolating the relay \n current circuits for test current injection.\nLine isolation is required.\nTools and \nEquipment\nXS92a test set\nTest plug RTXH18\nTest leads\nWork to be Carried Out\nPreliminary \nsteps to Prepare for Relay Test\nPress the black button 3 times.\nNow the printer will print the setting.\nCalculate the following:\nZL1 = P1 + JP2\nZL0 = P3 + JP4\nZs = P5 + JP6\nKo = ( ZL0 - ZL1 \n ) / 3 ZL1\nTest \nProcedure\nInsert the test plug RTXH18\nConnect the circuit as shown in Fig. 1\nAdjust the test set xs92a as follow:\nFC = 111\nSQ = 1F1\nA = 2\nTF = 3000\nMod ZZ\nZL = more than half of ZL of the line\nPHI = the angle of the line\nK0 = from the above calculation\nZS = from the above calculation\nDZL = 0.01\nStart\nNow the injection is started and the impedance will decrease until it reaches \n a value equal 0.5 ZL at this moment make start to fault locator by shorting \n the test leads which connected to 1 and 2.\nPress ◙ to stop the injection.\nNow the fault locator is started.\nWait until the LCD of the fault locator lights with the percentage of the line \n length where the fault occurred, it is 50.\nThe printer now will print the sheet which reports the fault loop and faulted \n phase and the fault location as a percentage of the line length.\nRepeat the above test steps 3 to 7 for fault codes 112 , 113, 121, 122, 123 .\nNote\nAfter finishing the test switch off the tester and withdraw the test plug.\nMake reset to the fault locator.\nTest Sheet\nStation:\nFeeder:\nRelay : Fault Locator\nType : RANZA\nSetting\nTest \nResults\nZL1 = P1 + JP2 =\nZL0 = P3 + JP4 =\nZs = P5 + JP6 =\nKo = ( ZL0 - \n ZL1 ) / 3 ZL1 =\nFault type\nLocation: \n Relay Code:\nTested by: Signature: Last test date: \nTest date:\nRevised \nby: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/FLR-002-01.JPG",
+   "alt": ""
+  }
+ ]
+}

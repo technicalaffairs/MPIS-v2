@@ -1,0 +1,241 @@
+{
+ "id": "gen-docs-protection-mfp-001-r0-htm",
+ "doc_number": "MFP-001-R0",
+ "title_en": "MFP-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/MFP-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by: eng. Saleh Abdou, \ntested by eng Mohamed Abaas, revised by EDEPCo. quality control eng. Adel Abdel Qader El \nNagar, accepted by general manager eng Tarek Yosife Ali and approved \nby eng Mechaeal Gorge Habashy head sector of Ayoun Moussa power station ."
+  },
+  {
+   "type": "paragraph",
+   "text": "The SR469 Motor Management Relay is a microprocessor based relay \ndesigned for the protection and management of medium and large horsepower motors \nand driven equipment. The SR469 is equipped with 6 output relays for trips, \nalarms, and start blocks. Motor protection, fault diagnostics, power metering, \nand RTU functions are integrated into one economical draw out package."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued, the qualified maintenance staff must carry the suitable ID safety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence (rope) with caution marks surrounding the work area is required,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Motor out of service."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT Secondary circuits are \n shorted."
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure all CT path elements are secure after any \n test disturbance."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, the qualified maintenance staff must carry the suitable ID safety category,",
+    "Safety fence (rope) with caution marks surrounding the work area is required,",
+    "Wear the appropriate \n safety equipment as safety \n shoes, helmet,",
+    "Motor out of service.",
+    "Make sure CT Secondary circuits are \n shorted.",
+    "Ensure all CT path elements are secure after any \n test disturbance."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "ISA test set type ART/3 or Omicron"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltmeter, Ammeter"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test plug test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA test set type ART/3 or Omicron",
+    "Voltmeter, Ammeter",
+    "Voltmeter, Ammeter",
+    "Test plug test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review the manual and drawings."
+  },
+  {
+   "type": "paragraph",
+   "text": "Prepare the previous or commissioning results of the \n relay testing."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the \n wires of the relay by hand."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the \n AC source is available to the tester."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the existence of the DC sources in panels."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect the trip leads of the relay and connect one \n of them to the timer of the tester."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check all the leads used in tests."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual and drawings.",
+    "Prepare the previous or commissioning results of the \n relay testing.",
+    "Check the \n wires of the relay by hand.",
+    "Check the \n AC source is available to the tester.",
+    "Check the existence of the DC sources in panels.",
+    "Disconnect the trip leads of the relay and connect one \n of them to the timer of the tester.",
+    "Check all the leads used in tests."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Steps"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the current leads of a tester unit to the relay \n points according to the drawings and scheme."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject current to each couple of points till the red \n flag of the device displays."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the steps for each pair of points according to \n the test sheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the results."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the current leads of a tester unit to the relay \n points according to the drawings and scheme.",
+    "Inject current to each couple of points till the red \n flag of the device displays.",
+    "Repeat the steps for each pair of points according to \n the test sheet.",
+    "Record the results."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps",
+    "Verify the test result match the relay setting. If not consult \n technical services.",
+    "Test trip the circuit breaker associated with the relay."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Trip Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Request the operator to switch on the main circuit breaker.",
+    "Operate the output auxiliary contact by injection to trip the \n circuit breaker.",
+    "Check that the circuit breaker tripped."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "MRDS \nMaintenance Record Data Sheet MRDS"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe first draft initiated by: eng. Saleh Abdou, \ntested by eng Mohamed Abaas, revised by EDEPCo. quality control eng. Adel Abdel Qader El \nNagar, accepted by general manager eng Tarek Yosife Ali and approved \nby eng Mechaeal Gorge Habashy head sector of Ayoun Moussa power station .\nThe SR469 Motor Management Relay is a microprocessor based relay \ndesigned for the protection and management of medium and large horsepower motors \nand driven equipment. The SR469 is equipped with 6 output relays for trips, \nalarms, and start blocks. Motor protection, fault diagnostics, power metering, \nand RTU functions are integrated into one economical draw out package.\nSafety Precautions\nA work permit must be issued, the qualified maintenance staff must carry the suitable ID safety category,\nSafety fence (rope) with caution marks surrounding the work area is required,\nMotor out of service.\nMake sure CT Secondary circuits are \n shorted.\nEnsure all CT path elements are secure after any \n test disturbance.\nA work permit must be issued, the qualified maintenance staff must carry the suitable ID safety category,\nSafety fence (rope) with caution marks surrounding the work area is required,\nWear the appropriate \n safety equipment as safety \n shoes, helmet,\nMotor out of service.\nMake sure CT Secondary circuits are \n shorted.\nEnsure all CT path elements are secure after any \n test disturbance.\nTools and Equipment\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter\nTest plug test leads\nISA test set type ART/3 or Omicron\nVoltmeter, Ammeter\nVoltmeter, Ammeter\nTest plug test leads\nWork to be Carried Out\nRelays Preparation\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \n relay testing.\nCheck the \n wires of the relay by hand.\nCheck the \n AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one \n of them to the timer of the tester.\nCheck all the leads used in tests.\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \n relay testing.\nCheck the \n wires of the relay by hand.\nCheck the \n AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one \n of them to the timer of the tester.\nCheck all the leads used in tests.\nTest Steps\nConnect the current leads of a tester unit to the relay \n points according to the drawings and scheme.\nInject current to each couple of points till the red \n flag of the device displays.\nRepeat the steps for each pair of points according to \n the test sheet.\nRecord the results.\nConnect the current leads of a tester unit to the relay \n points according to the drawings and scheme.\nInject current to each couple of points till the red \n flag of the device displays.\nRepeat the steps for each pair of points according to \n the test sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nTest trip the circuit breaker associated with the relay.\nTrip Test\nRequest the operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to trip the \n circuit breaker.\nCheck that the circuit breaker tripped.\nMRDS \nMaintenance Record Data Sheet MRDS",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/MMP-001-01.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/MMP-001-02.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/MMP-001-03.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/MMP-001-04.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/MMP-001-05.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/MMP-001-06.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/MMP-001-07.gif",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "id": "gen-docs-instr-control-sts-024-r0-htm",
+ "doc_number": "STS-024-R0",
+ "title_en": "STS-024-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "instruments",
+ "source_path": "gen_docs/Instr+control/STS-024-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Power Stations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment\n Speedtronic System"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Temperature \n Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "IC 3600 STKD, SOTH, \n SOTG"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the testing procedures \nP1, to be performed on an annually bases as indicated by Y1 in the title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. \nSawsan El_Lethy, \ntested by eng. \nWael Taha, \nreviewed by EDEPC quality control eng. Abd El-Menem El-Emam, and approved by \neng. Sawsan El_Lethy\nPort Said general director \nPS."
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "This document \naccepted by\neng. Samir Abdel Gilil; EDEPC\ninspection and quality control general director, MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "A work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category",
+    "Personal \nprotective equipment must be used safety shoes, safety helmet, ground strap \n...etc."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Suitable tool set",
+    "Safety \n helmet and safety shoes, ... etc.",
+    "Digital AVO Meter",
+    "Speed tronic calibrator set model \n (151A4925)",
+    "Remover card",
+    "Special tool to adjust the variable \n resistance at the cards"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Temperature Amplifier (IL - 1L ) STKD"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place all control thermocouple switches \n in (REJECT) position.",
+    "Make jumper between point ( 4C , 4D ) \n and between ( 5C , 5D ) at calibrator set",
+    "Set thermocouple selector switch to \n read average exhaust temperature usually position (12)",
+    "Adjust MV to obtain 700oF at \n temperature indicator (26TR) check that millivolt value is 24.69 + \n 0.2 MV",
+    "Connect a digital voltmeter to read \n temperature amplifier output (TX) of STKD at (8H) , Acom. on calibrator set by \n putting AVO.",
+    "Adjust (R87){2} offset to obtain TX \n output of 0.00 + 0.01volt",
+    "Increase MV to obtain 1200oF \n at temperature indicator (26TR) check that millivolt value is 36.49 + \n 0.2 MV",
+    "Adjust GAIN (R83){1} to obtain TX \n output of 5.00 + 0.01volt"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TEMP"
+  },
+  {
+   "type": "paragraph",
+   "text": "INPUT"
+  },
+  {
+   "type": "paragraph",
+   "text": "TEMP."
+  },
+  {
+   "type": "paragraph",
+   "text": "Temperature Amplifier (IL - 1K ) \nSOTH"
+  },
+  {
+   "type": "paragraph",
+   "text": "For Channel (A)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set",
+    "Connect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .",
+    "Set thermocouple selector switch to \n read average exhaust temperature usually position (12)",
+    "Put avometer at (12I , G) at \n calibrator set",
+    "Adjust MV to obtain 700 oF \n at temperature indicator (26TR)",
+    "It should be read zero volt if it is \n not, adjust it from (R73){1}offset",
+    "Increase MV to obtain 1200 oF \n at temperature indicator (26TR)",
+    "It shout be read 5 volt if it is \n not, adjust it from (R70){2}spn"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "For Channel (B)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set",
+    "Connect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .",
+    "Put avometer at (13I , G) at \n calibrator set",
+    "Adjust MV to obtain 700oF \n at temperature indicator (26TR)",
+    "It should be read zero volt if it is \n not, adjust it from (R73){6}offset",
+    "Increase MV to obtain 1200oF \n at temperature indicator (26TR)",
+    "It shout be read 5 volt if it is \n not, adjust it from (R70){5}spn"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Temperature ALARM (SOTG)"
+  },
+  {
+   "type": "paragraph",
+   "text": "For Channel (A)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .",
+    "Make jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set",
+    "Adjust MV to obtain 1000oF \n at temperature indicator (26TR)",
+    "Temp. alarm at card SOTG must be \n light",
+    "If it is not adjust card must be \n changed"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "For Channel (B)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .",
+    "Make jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set",
+    "Adjust MV to obtain 1000oF \n at temperature indicator (26TR)",
+    "Temp. alarm at card SOTG must be \n light",
+    "If it is not adjust card must be \n changed"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Temperature TRIP (SOTH)"
+  },
+  {
+   "type": "paragraph",
+   "text": "For Channel (A)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .",
+    "Make jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set",
+    "Raise MV to obtain 1028 oF \n at temperature indicator (26TR). Until trip lamp at card SOTH just comes on",
+    "If it is not adjusted, adjust \n it from (R72) Resistance No.{3}OFT (on \n card SOTH)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "For Channel (B)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect \n jumper between ( + ) OTB and ( + ) CK and jumper between CAL (OTB) and (-) \n CK on patch board .",
+    "Make \n jumper between point ( 4C , 8D ) and between ( 5C , 9D ) at calibrator set",
+    "Raise \n MV to obtain 1028oF at temperature indicator (26TR). Until trip \n lamp at card SOTH just comes on",
+    "If it \n is not adjusted, adjust it from (R72) Resistance No.{4}OFT (on \n card SOTH)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:"
+  }
+ ],
+ "text": "Power Stations\nTechnical Procedure\nEquipment\n Speedtronic System\nOver Temperature \n Protection\nIC 3600 STKD, SOTH, \n SOTG\nIntroduction\nThis document outlines the testing procedures \nP1, to be performed on an annually bases as indicated by Y1 in the title block.\nThe first draft initiated by eng. \nSawsan El_Lethy, \ntested by eng. \nWael Taha, \nreviewed by EDEPC quality control eng. Abd El-Menem El-Emam, and approved by \neng. Sawsan El_Lethy\nPort Said general director \nPS.\nThis document \naccepted by\neng. Samir Abdel Gilil; EDEPC\ninspection and quality control general director, MPIS coordinator, and certified by \naccountant Mahmoud Mohamed Soliman; general director of Admin.& Financial \nquality control, and supervisor of EDEPC inspection & quality control Head \nsector.\nSafety Precautions\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nA work permit must be \n issued and the qualified maintenance staff should carry the suitable safety \n category\nPersonal \nprotective equipment must be used safety shoes, safety helmet, ground strap \n...etc.\nTools and Equipment\nSuitable tool set\nSafety \n helmet and safety shoes, ... etc.\nDigital AVO Meter\nSpeed tronic calibrator set model \n (151A4925)\nRemover card\nSpecial tool to adjust the variable \n resistance at the cards\nWork to be Carried Out\nTemperature Amplifier (IL - 1L ) STKD\nPlace all control thermocouple switches \n in (REJECT) position.\nMake jumper between point ( 4C , 4D ) \n and between ( 5C , 5D ) at calibrator set\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nAdjust MV to obtain 700oF at \n temperature indicator (26TR) check that millivolt value is 24.69 + \n 0.2 MV\nConnect a digital voltmeter to read \n temperature amplifier output (TX) of STKD at (8H) , Acom. on calibrator set by \n putting AVO.\nAdjust (R87){2} offset to obtain TX \n output of 0.00 + 0.01volt\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR) check that millivolt value is 36.49 + \n 0.2 MV\nAdjust GAIN (R83){1} to obtain TX \n output of 5.00 + 0.01volt\nTEMP\nINPUT\nTEMP.\nTemperature Amplifier (IL - 1K ) \nSOTH\nFor Channel (A)\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nSet thermocouple selector switch to \n read average exhaust temperature usually position (12)\nPut avometer at (12I , G) at \n calibrator set\nAdjust MV to obtain 700 oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){1}offset\nIncrease MV to obtain 1200 oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){2}spn\nFor Channel (B)\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nPut avometer at (13I , G) at \n calibrator set\nAdjust MV to obtain 700oF \n at temperature indicator (26TR)\nIt should be read zero volt if it is \n not, adjust it from (R73){6}offset\nIncrease MV to obtain 1200oF \n at temperature indicator (26TR)\nIt shout be read 5 volt if it is \n not, adjust it from (R70){5}spn\nOver Temperature ALARM (SOTG)\nFor Channel (A)\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nFor Channel (B)\nConnect jumper between ( + ) OTB and \n ( + ) CK and jumper between CAL (OTB) and (-) CK on patch board .\nMake jumper between point ( 4C , 8D \n ) and between ( 5C , 9D ) at calibrator set\nAdjust MV to obtain 1000oF \n at temperature indicator (26TR)\nTemp. alarm at card SOTG must be \n light\nIf it is not adjust card must be \n changed\nOver Temperature TRIP (SOTH)\nFor Channel (A)\nConnect jumper between ( + ) OTA and \n ( + ) CK and jumper between CAL (OTA) and (-) CK on patch board .\nMake jumper between point ( 4C , 6D \n ) and between ( 5C , 7D ) at calibrator set\nRaise MV to obtain 1028 oF \n at temperature indicator (26TR). Until trip lamp at card SOTH just comes on\nIf it is not adjusted, adjust \n it from (R72) Resistance No.{3}OFT (on \n card SOTH)\nFor Channel (B)\nConnect \n jumper between ( + ) OTB and ( + ) CK and jumper between CAL (OTB) and (-) \n CK on patch board .\nMake \n jumper between point ( 4C , 8D ) and between ( 5C , 9D ) at calibrator set\nRaise \n MV to obtain 1028oF at temperature indicator (26TR). Until trip \n lamp at card SOTH just comes on\nIf it \n is not adjusted, adjust it from (R72) Resistance No.{4}OFT (on \n card SOTH)\nLocation: \nSystem \nCode: \nLast Test Date:\nChecked by: \nSignature: \nTested Date: \nApproved by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "../app_gen/EDEPC/Instr+control/graphics/sts-024-01.JPG",
+   "alt": ""
+  },
+  {
+   "src": "../app_gen/EDEPC/Instr+control/graphics/sts-024-02.JPG",
+   "alt": ""
+  },
+  {
+   "src": "STS-024-r0_files/image001.gif",
+   "alt": ""
+  },
+  {
+   "src": "STS-024-r0_files/image001.gif",
+   "alt": ""
+  },
+  {
+   "src": "STS-024-r0_files/image001.gif",
+   "alt": ""
+  },
+  {
+   "src": "STS-024-r0_files/image001.gif",
+   "alt": ""
+  }
+ ]
+}

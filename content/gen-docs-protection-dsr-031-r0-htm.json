@@ -1,0 +1,254 @@
+{
+ "id": "gen-docs-protection-dsr-031-r0-htm",
+ "doc_number": "DSR-031-R0",
+ "title_en": "DsR-031-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "protection",
+ "source_path": "gen_docs/Protection/DsR-031-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "All models of Optimho are \n full scheme distance relays which have a full set of measuring elements for \n each main zone of protection. Compared with the switched type of scheme, the \n full scheme system improves reliability by avoiding the need to rely on phase \n selection hardware or software and by removing dependence on a single \n measuring unit. Full scheme distance relays are better able to cope with \n inter-circuit faults on double circuit lines and evolving faults."
+  },
+  {
+   "type": "paragraph",
+   "text": "The \n measuring element uses a micro-controller to produce a direct software \n equivalent of the hardware phase comparator used in Optimhos forerunners, \n Micromho and Quadramho. This phase comparator design is well tried, having \n accumulated nearly ten thousand relay years of successful operating experience \n over the last decade at locations throughout the world. Many of the other \n hardware and software features of Quadramho have been retained and further \n enhanced in Optimho, ensuring the highest standards of reliability."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by EDEPC quality control eng. Adel Abdel Qader El Nagar, accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station, \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence (rope) with caution marks surrounding the \n work area is required,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Personal protective equipment must be used as safety shoes, and safety Helmet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Motor out of service is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT Secondary circuits are \nshorted."
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure all CT path elements are secure after any \ntest disturbance."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,",
+    "Safety fence (rope) with caution marks surrounding the \n work area is required,",
+    "Personal protective equipment must be used as safety shoes, and safety Helmet.",
+    "Motor out of service is required.",
+    "Make sure CT Secondary circuits are \nshorted.",
+    "Ensure all CT path elements are secure after any \ntest disturbance."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and \nEquipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "ISA test set type ART/3 or Omicron"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltmeter, \n Ammeter, \nand Test plug test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "ISA test set type ART/3 or Omicron",
+    "Voltmeter, \n Ammeter, \nand Test plug test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relays Preparation"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check all the leads used in tests."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual and drawings.",
+    "Prepare the previous or commissioning results of the \nrelay testing.",
+    "Check the wires of the relay by hand.",
+    "Check the AC source is available to the tester.",
+    "Check the existence of the DC sources in panels.",
+    "Disconnect the trip leads of the relay and connect one of \nthem to the timer of the tester.",
+    "Check all the leads used in tests."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Test \nSteps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the current and voltage leads of a tester \nunit to the relay points according to the drawings and scheme.",
+    "Inject current and voltage to each couple of points \ntill the red flag of the device displays.",
+    "Repeat the steps for each pair of points according to the \ntest sheet.",
+    "Record the results."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps",
+    "Verify the test result match the relay setting. If not consult \n technical services.",
+    "Test trip the circuit breaker associated with the relay."
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Trip Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Request the operator to switch on the main circuit breaker.",
+    "Operate the output auxiliary contact by injection to trip the \n circuit breaker.",
+    "Check that the circuit breaker tripped."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "figure 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "figure 3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Data"
+  },
+  {
+   "type": "paragraph",
+   "text": "MRDS \n TEST \n SHEET \n MRSD"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "In"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Vx(2)",
+     "",
+     ""
+    ],
+    [
+     "",
+     "Date 0f test",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Settings"
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Zone \n1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 3′"
+  }
+ ],
+ "text": "Introduction\nAll models of Optimho are \n full scheme distance relays which have a full set of measuring elements for \n each main zone of protection. Compared with the switched type of scheme, the \n full scheme system improves reliability by avoiding the need to rely on phase \n selection hardware or software and by removing dependence on a single \n measuring unit. Full scheme distance relays are better able to cope with \n inter-circuit faults on double circuit lines and evolving faults.\nThe \n measuring element uses a micro-controller to produce a direct software \n equivalent of the hardware phase comparator used in Optimhos forerunners, \n Micromho and Quadramho. This phase comparator design is well tried, having \n accumulated nearly ten thousand relay years of successful operating experience \n over the last decade at locations throughout the world. Many of the other \n hardware and software features of Quadramho have been retained and further \n enhanced in Optimho, ensuring the highest standards of reliability.\nThe first draft initiated by: eng. Saleh Abdou, tested by eng Mohamed Abaas, \n revised by EDEPC quality control eng. Adel Abdel Qader El Nagar, accepted \n by general manager \neng Tarek Yosife Ali, approved by eng Mechaeal Gorge \n Habashy head sector of Ayoun Moussa Power Station, \nand certified by eng. Aly \n Mostafa Al Lethy EDEPC inspection & quality control head sector\nSafety Precautions\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nMotor out of service is required.\nMake sure CT Secondary circuits are \nshorted.\nEnsure all CT path elements are secure after any \ntest disturbance.\nA work permit must be issued, qualified maintenance \n staff carry the suitable safety ID category,\nSafety fence (rope) with caution marks surrounding the \n work area is required,\nPersonal protective equipment must be used as safety shoes, and safety Helmet.\nMotor out of service is required.\nMake sure CT Secondary circuits are \nshorted.\nEnsure all CT path elements are secure after any \ntest disturbance.\nTools and \nEquipment\nISA test set type ART/3 or Omicron\nVoltmeter, \n Ammeter, \nand Test plug test leads\nISA test set type ART/3 or Omicron\nVoltmeter, \n Ammeter, \nand Test plug test leads\nWork to be Carried out\nRelays Preparation\nCheck all the leads used in tests.\nReview the manual and drawings.\nPrepare the previous or commissioning results of the \nrelay testing.\nCheck the wires of the relay by hand.\nCheck the AC source is available to the tester.\nCheck the existence of the DC sources in panels.\nDisconnect the trip leads of the relay and connect one of \nthem to the timer of the tester.\nCheck all the leads used in tests.\nTest \nSteps\nConnect the current and voltage leads of a tester \nunit to the relay points according to the drawings and scheme.\nInject current and voltage to each couple of points \ntill the red flag of the device displays.\nRepeat the steps for each pair of points according to the \ntest sheet.\nRecord the results.\nTesting the Relay and Protection Outputs\nCarefully follow these test procedure steps\nVerify the test result match the relay setting. If not consult \n technical services.\nTest trip the circuit breaker associated with the relay.\nTrip Test\nRequest the operator to switch on the main circuit breaker.\nOperate the output auxiliary contact by injection to trip the \n circuit breaker.\nCheck that the circuit breaker tripped.\nfigure 2\nfigure 3\nTechnical Data\nMRDS \n TEST \n SHEET \n MRSD\nIn\n\nSettings\nZone \n1\nZone 2\nZone 3\nZone 3′",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-031-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-031-02.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-031-03.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-031-04.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-031-05.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-031-06.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DSR-031-07.gif",
+   "alt": ""
+  }
+ ]
+}
