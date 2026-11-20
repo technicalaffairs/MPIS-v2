@@ -1,0 +1,435 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-efr-025-r0-html",
+ "doc_number": "EFR-025-R0",
+ "title_en": "EFR-025-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/EFR-025-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The MCGG is a microprocessor based over-current relay\navailable in single, two, three or four pole versions manufactured by GEC\nALSTHOM. Each pole is provided with a choice of four inverse time\ncharacteristics and three definite time characteristics as well as a trip test\nposition. An instantaneous element is also available on each phase. The MCGG 22\nis the single phase version."
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check\nthe proper operation and calibration of the MCGG22 relay. It is recommended this\nprocedure be carried out on a yearly bases. This work be carried out section of\nthis document is divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The\nfirst draft initialed and tested by eng. Mohamed EL Shahat Atia, at West El Asher \n."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation and work permit required.",
+    "Make sure CT secondary circuits are shorted before isolating the relay\n current circuits for test current injection.",
+    "A work permit must be issued and the maintenance staff should carry the suitable ID safety category,",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Personal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc",
+    "Outage arrangement must be done."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary Injection Test Set.",
+    "Test Leads.",
+    "Multi-meter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay, and Protection Output"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure \n steps",
+    "Verify the test results match the relay setting - If not consult technical\n services.",
+    "Test trip all breakers associated with the relay.",
+    "Test trip all breakers associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure CT secondary circuits are shorted at the incoming\n terminal blocks before isolating the relay current circuits for test.",
+    "Look at field maintenance file and compare the position of the setting\n switches on relay with those shown in the setting sheet.",
+    "Switch on the MCB for the DC supply and \n check that terminal 13 on the relay case is positive with respect to terminal \n 14"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Supply Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Press the RESET button and check that \nall LEDs are illuminated. This confirms that all measuring boards are operating \nsatisfactorily."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Release the RESET button and check that \n the LEDs reset.",
+    "Release the RESET button and check that \n the LEDs reset.",
+    "Press the RESET button and check that \nall LEDs are illuminated. This confirms that all measuring boards are operating \nsatisfactorily."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Set the curve selection switches to \nposition 111 (test mode) for the pole of the relay, which is to be tested."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that the LEDs associated with this pole of the relay flash at a\n frequency of the approximately once per second."
+  },
+  {
+   "type": "paragraph",
+   "text": "Press and hold the RESET button. After approximately 6 seconds the time\n delayed and instantaneous output elements associated with the pole under\n test should trip, and at the same time, the LEDs for instantaneous and\n time delayed elements should illuminate continuously on this pole."
+  },
+  {
+   "type": "paragraph",
+   "text": "Release the RESET button, the output elements should reset."
+  },
+  {
+   "type": "paragraph",
+   "text": "Change the curve selection switches from \nlll (test mode) to the position shown in the setting sheet."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the curve selection switches to \nposition 111 (test mode) for the pole of the relay, which is to be tested.",
+    "Check that the LEDs associated with this pole of the relay flash at a\n frequency of the approximately once per second.",
+    "Press and hold the RESET button. After approximately 6 seconds the time\n delayed and instantaneous output elements associated with the pole under\n test should trip, and at the same time, the LEDs for instantaneous and\n time delayed elements should illuminate continuously on this pole.",
+    "Release the RESET button, the output elements should reset.",
+    "Change the curve selection switches from \nlll (test mode) to the position shown in the setting sheet.",
+    "Change the curve selection switches from \nlll (test mode) to the position shown in the setting sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Current Setting Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect test leads between the current \n terminals on the relay (27, 28) and the current terminals on the test set."
+  },
+  {
+   "type": "paragraph",
+   "text": "Slowly increase the current until the \n green LED lights. The relay must operate with a current between +/- 10% of the \n setting value."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record this value on the test sheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase the injected current to a value \n 25% greater than the operate value."
+  },
+  {
+   "type": "paragraph",
+   "text": "Slowly decrease the current until the \n relay and the green LED, both, reset."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record this value on the test sheet."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect test leads between the current \n terminals on the relay (27, 28) and the current terminals on the test set.",
+    "Slowly increase the current until the \n green LED lights. The relay must operate with a current between +/- 10% of the \n setting value.",
+    "Record this value on the test sheet.",
+    "Increase the injected current to a value \n 25% greater than the operate value.",
+    "Slowly decrease the current until the \n relay and the green LED, both, reset.",
+    "Record this value on the test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Setting Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject current into relay until the \n relay picks up. Keep this value and switch off the test set."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the relay time delayed output \n contacts (No. 1, 2 or 5, 7) to the timer contacts of the test set."
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch on the test set and inject current. The timer will stop once the\n relay has picked up."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record this value on the test sheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the leads from the time delayed \n contact and the test set"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current into relay until the \n relay picks up. Keep this value and switch off the test set.",
+    "Connect the relay time delayed output \n contacts (No. 1, 2 or 5, 7) to the timer contacts of the test set.",
+    "Switch on the test set and inject current. The timer will stop once the\n relay has picked up.",
+    "Record this value on the test sheet.",
+    "Remove the leads from the time delayed \n contact and the test set"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Instantaneous Setting Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the \n instantaneous trip out put contacts (No. 15, 16 or 8, 9) to the timer contacts \n on the test set. This is to stop the current as soon as the relay picks up."
+  },
+  {
+   "type": "paragraph",
+   "text": "CAUTION: Do not keep \n this current on the relay for more than a few seconds as it may exceed the \n rating and damage the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase current quickly until the instantaneous element picks up."
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the pick up value \n on the test sheet. It must be within +/- 10% of the setting value."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the \n instantaneous trip out put contacts (No. 15, 16 or 8, 9) to the timer contacts \n on the test set. This is to stop the current as soon as the relay picks up.",
+    "Connect the \n instantaneous trip out put contacts (No. 15, 16 or 8, 9) to the timer contacts \n on the test set. This is to stop the current as soon as the relay picks up.",
+    "CAUTION: Do not keep \n this current on the relay for more than a few seconds as it may exceed the \n rating and damage the relay",
+    "Increase current quickly until the instantaneous element picks up.",
+    "Record the pick up value \n on the test sheet. It must be within +/- 10% of the setting value.",
+    "Record the pick up value \n on the test sheet. It must be within +/- 10% of the setting value."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Circuit Breaker Trip Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Set up the circuit breaker for a trip test."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject current into the relay until the circuit breaker trips at the time\n delayed setting."
+  },
+  {
+   "type": "paragraph",
+   "text": "Close the circuit breaker again."
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the wire from the relay time delayed contact terminals No. 5 or 1."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject a value of current greater than the instantaneous setting suddenly\n into relay until the circuit breaker trips at the instantaneous setting."
+  },
+  {
+   "type": "paragraph",
+   "text": "Re-install the wire which was \n removed"
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the shorts from the CT secondary circuits."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set up the circuit breaker for a trip test.",
+    "Inject current into the relay until the circuit breaker trips at the time\n delayed setting.",
+    "Close the circuit breaker again.",
+    "Remove the wire from the relay time delayed contact terminals No. 5 or 1.",
+    "Inject a value of current greater than the instantaneous setting suddenly\n into relay until the circuit breaker trips at the instantaneous setting.",
+    "Re-install the wire which was \n removed",
+    "Remove the shorts from the CT secondary circuits.",
+    "Remove the shorts from the CT secondary circuits."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return the Relay and Power Equipment to Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Verify the test result match the relay setting. If not consult\n technical services."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test trip the circuit breaker associated with the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make a final check that \n all switches on the relay are set according to the setting \n sheet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure the CT \n secondary circuit is in normal condition"
+  },
+  {
+   "type": "paragraph",
+   "text": "Remove the CT shorts which were \n installed in the Power Supply"
+  },
+  {
+   "type": "paragraph",
+   "text": "Return the relay and power equipment to service."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify the test result match the relay setting. If not consult\n technical services.",
+    "Test trip the circuit breaker associated with the relay.",
+    "Make a final check that \n all switches on the relay are set according to the setting \n sheet.",
+    "Make sure the CT \n secondary circuit is in normal condition",
+    "Remove the CT shorts which were \n installed in the Power Supply",
+    "Return the relay and power equipment to service."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth fault Relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type \n: MCGG22"
+  },
+  {
+   "type": "paragraph",
+   "text": "DC\nSupply :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay rated current = 1 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Bay No :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date \n:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T = \n400A \nV.T ="
+  },
+  {
+   "type": "paragraph",
+   "text": "IS(PR) = 8.0 I S(SEC) = 0.2 I n"
+  },
+  {
+   "type": "paragraph",
+   "text": "Curve : Difinit \nTime = 0.7"
+  },
+  {
+   "type": "paragraph",
+   "text": "TMS \n: \nIins = Is"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Neutral",
+     "Is= A",
+     "T= s",
+     "Iins = A",
+     "Alarm",
+     "Trip",
+     "Start C.B failure"
+    ],
+    [
+     "N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \n Protection \nDesignation: Tested by: \n Signature: \n Test Date:"
+  }
+ ],
+ "text": "\nIntroduction\nThe MCGG is a microprocessor based over-current relay\navailable in single, two, three or four pole versions manufactured by GEC\nALSTHOM. Each pole is provided with a choice of four inverse time\ncharacteristics and three definite time characteristics as well as a trip test\nposition. An instantaneous element is also available on each phase. The MCGG 22\nis the single phase version.\nThis procedure details the steps required to completely check\nthe proper operation and calibration of the MCGG22 relay. It is recommended this\nprocedure be carried out on a yearly bases. This work be carried out section of\nthis document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe\nfirst draft initialed and tested by eng. Mohamed EL Shahat Atia, at West El Asher \n.\nSafety Precautions\nLine isolation and work permit required.\nMake sure CT secondary circuits are shorted before isolating the relay\n current circuits for test current injection.\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nOutage arrangement must be done.\nTools and Equipment\nSecondary Injection Test Set.\nTest Leads.\nMulti-meter.\nWork to be Carried Out\nTesting the Relay, and Protection Output\nCarefully follow these test procedure \n steps\nVerify the test results match the relay setting - If not consult technical\n services.\nTest trip all breakers associated with the relay.\nTest trip all breakers associated with the relay.\nPreparation\nMake sure CT secondary circuits are shorted at the incoming\n terminal blocks before isolating the relay current circuits for test.\nLook at field maintenance file and compare the position of the setting\n switches on relay with those shown in the setting sheet.\nSwitch on the MCB for the DC supply and \n check that terminal 13 on the relay case is positive with respect to terminal \n 14\nPower Supply Test\nPress the RESET button and check that \nall LEDs are illuminated. This confirms that all measuring boards are operating \nsatisfactorily.\nRelease the RESET button and check that \n the LEDs reset.\nRelease the RESET button and check that \n the LEDs reset.\nPress the RESET button and check that \nall LEDs are illuminated. This confirms that all measuring boards are operating \nsatisfactorily.\nTrip Test\nSet the curve selection switches to \nposition 111 (test mode) for the pole of the relay, which is to be tested.\nCheck that the LEDs associated with this pole of the relay flash at a\n frequency of the approximately once per second.\nPress and hold the RESET button. After approximately 6 seconds the time\n delayed and instantaneous output elements associated with the pole under\n test should trip, and at the same time, the LEDs for instantaneous and\n time delayed elements should illuminate continuously on this pole.\nRelease the RESET button, the output elements should reset.\nChange the curve selection switches from \nlll (test mode) to the position shown in the setting sheet.\nSet the curve selection switches to \nposition 111 (test mode) for the pole of the relay, which is to be tested.\nCheck that the LEDs associated with this pole of the relay flash at a\n frequency of the approximately once per second.\nPress and hold the RESET button. After approximately 6 seconds the time\n delayed and instantaneous output elements associated with the pole under\n test should trip, and at the same time, the LEDs for instantaneous and\n time delayed elements should illuminate continuously on this pole.\nRelease the RESET button, the output elements should reset.\nChange the curve selection switches from \nlll (test mode) to the position shown in the setting sheet.\nChange the curve selection switches from \nlll (test mode) to the position shown in the setting sheet.\nCurrent Setting Test\nConnect test leads between the current \n terminals on the relay (27, 28) and the current terminals on the test set.\nSlowly increase the current until the \n green LED lights. The relay must operate with a current between +/- 10% of the \n setting value.\nRecord this value on the test sheet.\nIncrease the injected current to a value \n 25% greater than the operate value.\nSlowly decrease the current until the \n relay and the green LED, both, reset.\nRecord this value on the test sheet.\nConnect test leads between the current \n terminals on the relay (27, 28) and the current terminals on the test set.\nSlowly increase the current until the \n green LED lights. The relay must operate with a current between +/- 10% of the \n setting value.\nRecord this value on the test sheet.\nIncrease the injected current to a value \n 25% greater than the operate value.\nSlowly decrease the current until the \n relay and the green LED, both, reset.\nRecord this value on the test sheet.\nTime Setting Test\nInject current into relay until the \n relay picks up. Keep this value and switch off the test set.\nConnect the relay time delayed output \n contacts (No. 1, 2 or 5, 7) to the timer contacts of the test set.\nSwitch on the test set and inject current. The timer will stop once the\n relay has picked up.\nRecord this value on the test sheet.\nRemove the leads from the time delayed \n contact and the test set\nInject current into relay until the \n relay picks up. Keep this value and switch off the test set.\nConnect the relay time delayed output \n contacts (No. 1, 2 or 5, 7) to the timer contacts of the test set.\nSwitch on the test set and inject current. The timer will stop once the\n relay has picked up.\nRecord this value on the test sheet.\nRemove the leads from the time delayed \n contact and the test set\nInstantaneous Setting Test\nConnect the \n instantaneous trip out put contacts (No. 15, 16 or 8, 9) to the timer contacts \n on the test set. This is to stop the current as soon as the relay picks up.\nCAUTION: Do not keep \n this current on the relay for more than a few seconds as it may exceed the \n rating and damage the relay\nIncrease current quickly until the instantaneous element picks up.\nRecord the pick up value \n on the test sheet. It must be within +/- 10% of the setting value.\nConnect the \n instantaneous trip out put contacts (No. 15, 16 or 8, 9) to the timer contacts \n on the test set. This is to stop the current as soon as the relay picks up.\nConnect the \n instantaneous trip out put contacts (No. 15, 16 or 8, 9) to the timer contacts \n on the test set. This is to stop the current as soon as the relay picks up.\nCAUTION: Do not keep \n this current on the relay for more than a few seconds as it may exceed the \n rating and damage the relay\nIncrease current quickly until the instantaneous element picks up.\nRecord the pick up value \n on the test sheet. It must be within +/- 10% of the setting value.\nRecord the pick up value \n on the test sheet. It must be within +/- 10% of the setting value.\nCircuit Breaker Trip Test\nSet up the circuit breaker for a trip test.\nInject current into the relay until the circuit breaker trips at the time\n delayed setting.\nClose the circuit breaker again.\nRemove the wire from the relay time delayed contact terminals No. 5 or 1.\nInject a value of current greater than the instantaneous setting suddenly\n into relay until the circuit breaker trips at the instantaneous setting.\nRe-install the wire which was \n removed\nRemove the shorts from the CT secondary circuits.\nSet up the circuit breaker for a trip test.\nInject current into the relay until the circuit breaker trips at the time\n delayed setting.\nClose the circuit breaker again.\nRemove the wire from the relay time delayed contact terminals No. 5 or 1.\nInject a value of current greater than the instantaneous setting suddenly\n into relay until the circuit breaker trips at the instantaneous setting.\nRe-install the wire which was \n removed\nRemove the shorts from the CT secondary circuits.\nRemove the shorts from the CT secondary circuits.\nReturn the Relay and Power Equipment to Service\nVerify the test result match the relay setting. If not consult\n technical services.\nTest trip the circuit breaker associated with the relay.\nMake a final check that \n all switches on the relay are set according to the setting \n sheet.\nMake sure the CT \n secondary circuit is in normal condition\nRemove the CT shorts which were \n installed in the Power Supply\nReturn the relay and power equipment to service.\nVerify the test result match the relay setting. If not consult\n technical services.\nTest trip the circuit breaker associated with the relay.\nMake a final check that \n all switches on the relay are set according to the setting \n sheet.\nMake sure the CT \n secondary circuit is in normal condition\nRemove the CT shorts which were \n installed in the Power Supply\nReturn the relay and power equipment to service.\nTest Sheet\nEarth fault Relay\nType \n: MCGG22\nDC\nSupply :\nRelay rated current = 1 A\nBay No :\nDate \n:\nSetting\nC.T = \n400A \nV.T =\nIS(PR) = 8.0 I S(SEC) = 0.2 I n\nCurve : Difinit \nTime = 0.7\nTMS \n: \nIins = Is\n\nLocation: \n Protection \nDesignation: Tested by: \n Signature: \n Test Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/EFR-025.jpg",
+   "alt": ""
+  }
+ ]
+}

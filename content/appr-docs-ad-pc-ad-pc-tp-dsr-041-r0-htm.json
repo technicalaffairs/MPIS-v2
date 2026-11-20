@@ -1,0 +1,412 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-041-r0-htm",
+ "doc_number": "DSR-041-R0",
+ "title_en": "DsR-041-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-041-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "Static distance protection relays for the protection of high voltage\n transmission lines and under ground cables. Test set equipment type ZFB\n contained three portable metal cases: Supply unit, Control unit, Fault\n impedance."
+  },
+  {
+   "type": "paragraph",
+   "text": "Personal protective equipment must be used as safety shoes, and safety \n Helmet ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure that Line isolation is done."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,",
+    "Safety fence \n with caution marks surrounding the work area is required,",
+    "Personal protective equipment must be used as safety shoes, and safety \n Helmet .",
+    "Ensure that Line isolation is done."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be carried out"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Preliminary Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Use station \n drawing to isolate"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Preparation"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Testing the Phase to Phase Measuring Elements"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calculate from line impedance Z, the value for phase to phase impedance\n corresponding to zone one setting."
+  },
+  {
+   "type": "paragraph",
+   "text": "Note:The corresponding X (choke tap) and R (res. tap) from the table."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Repeat the Above Test for Phases B-C and C-A"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Testing the Phase to Ground Measuring Elements"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Repeat the Above Test for Phases B-N and C-N"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Measuring the Operating Times"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Repeat Tests for Zone 2 and Zone 3 Operating Times"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Repeat Tests for Phase to Earth Operating Times"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Voltage Level Detector"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Low Set Current Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Set the relay on option 06"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "High Set Current"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the relay on Option 07"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject the current for phase to neutral until"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "The pick up given by (7.5 x In) / (100 x Kzph)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the above for phases S-N and T-N\n When the relay picks up the monitor will read:"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Biased Low Set Current Residual Level Detector"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Biased High Set Residual Current Level Detector"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above for phases S-N and T-N."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Power Swing Blocking Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Set the taps on the impedance unit of the ZFB tester to a value greater\n than zone 6 impedance."
+  },
+  {
+   "type": "paragraph",
+   "text": "Decrease the % potential switches S5 and S6 until the relay picks up and 1\n appears under the column on the monitor."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Measuring the Time Z6 (TZ6)"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Simulated Power Swing Blocking"
+  },
+  {
+   "type": "paragraph",
+   "text": "Re-select monitor option 08 which makes available information on all zones\n giving trip out puts after any set time delay"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Voltage Transformer Supervision"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operation occurs when the zero sequence voltage above a set level is detected\nwithout any zero sequence current being detected above a set level. If set\n\"TO ALLOW TRIP\" instantaneous indication will be given if operation\nconditions are satisfied and a comparator is operated."
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Operation on Zero Sequence Volts"
+  },
+  {
+   "type": "paragraph",
+   "text": "The operation time 5.5 second+0.1 seconds. The zero sequence voltage setting\nis 15% of 635 v, thus the required voltage reduction on one phase is 45% of 63.5v"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Timing Check"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Instantaneous Indication"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Blocking Check"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Request Power Line be Returned to Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nEquipment code: \nChecked by: \nDate: \nSignature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Bay No \n: \nRelay Type :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Vr \n= \nIr \n= \nD.C\n= \nF \n= \nC.T\n= \nV.T ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Reach Testing using ZFB Test set"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay angle On/Oph",
+     "Reqd Reach Zr",
+     "Fault Type",
+     "Nom Loop z z Req",
+     "Test Set Source imp =",
+     "P act %",
+     "error",
+     "T"
+    ],
+    [
+     "fault imp zr",
+     "C.T N",
+     "tap",
+     "p % Z/Zr"
+    ],
+    [
+     "",
+     "ZONE1",
+     "A-G\n B-G\n C-G",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ZONE2",
+     "A-G\n B-G\n C-G",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ZONE3",
+     "A-G\n B-G\n C-G",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ZONE 3REV",
+     "A-G\n B-G\n C-G",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ZONE1",
+     "A-B\n B-C\n C-A",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ZONE2",
+     "A-B\n B-C\n C-A",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ZONE3",
+     "A-B\n B-C\n C-A",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "ZONE 3REV",
+     "A-B\n B-C\n C-A",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Where Z = 2Zr /N \nph-ph \n& Z\n= (1+ K )Zr / N ph-G \n P = Z /\nZ F"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nStatic distance protection relays for the protection of high voltage\n transmission lines and under ground cables. Test set equipment type ZFB\n contained three portable metal cases: Supply unit, Control unit, Fault\n impedance.\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet .\nEnsure that Line isolation is done.\nMake sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection.\nA work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,\nSafety fence \n with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet .\nEnsure that Line isolation is done.\nWork to be carried out\nPreliminary Steps to Prepare for Relay Testing\nUse station \n drawing to isolate\nTesting the Relay and Protection Outputs\nPreparation\nTesting the Phase to Phase Measuring Elements\nCalculate from line impedance Z, the value for phase to phase impedance\n corresponding to zone one setting.\nNote:The corresponding X (choke tap) and R (res. tap) from the table.\nRepeat the Above Test for Phases B-C and C-A\nTesting the Phase to Ground Measuring Elements\nRepeat the Above Test for Phases B-N and C-N\nMeasuring the Operating Times\nRepeat Tests for Zone 2 and Zone 3 Operating Times\nRepeat Tests for Phase to Earth Operating Times\nVoltage Level Detector\nLow Set Current Test\nSet the relay on option 06\nHigh Set Current\nSet the relay on Option 07\nInject the current for phase to neutral until\nThe pick up given by (7.5 x In) / (100 x Kzph)\nRepeat the above for phases S-N and T-N\n When the relay picks up the monitor will read:\nBiased Low Set Current Residual Level Detector\nBiased High Set Residual Current Level Detector\nRepeat the above for phases S-N and T-N.\nPower Swing Blocking Test\nSet the taps on the impedance unit of the ZFB tester to a value greater\n than zone 6 impedance.\nDecrease the % potential switches S5 and S6 until the relay picks up and 1\n appears under the column on the monitor.\nMeasuring the Time Z6 (TZ6)\nSimulated Power Swing Blocking\nRe-select monitor option 08 which makes available information on all zones\n giving trip out puts after any set time delay\nVoltage Transformer Supervision\nOperation occurs when the zero sequence voltage above a set level is detected\nwithout any zero sequence current being detected above a set level. If set\n\"TO ALLOW TRIP\" instantaneous indication will be given if operation\nconditions are satisfied and a comparator is operated.\nOperation on Zero Sequence Volts\nThe operation time 5.5 second+0.1 seconds. The zero sequence voltage setting\nis 15% of 635 v, thus the required voltage reduction on one phase is 45% of 63.5v\nTiming Check\nInstantaneous Indication\nBlocking Check\nReturn Relay and Associated Equipment to Service\nRequest Power Line be Returned to Service\nLocation: \nEquipment code: \nChecked by: \nDate: \nSignature:\nTest Sheet\nBay No \n: \nRelay Type :\nVr \n= \nIr \n= \nD.C\n= \nF \n= \nC.T\n= \nV.T =\nReach Testing using ZFB Test set\n\nWhere Z = 2Zr /N \nph-ph \n& Z\n= (1+ K )Zr / N ph-G \n P = Z /\nZ F",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-041-01.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-041-02.gif",
+   "alt": ""
+  }
+ ]
+}

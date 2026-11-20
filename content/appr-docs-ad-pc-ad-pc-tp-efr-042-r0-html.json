@@ -1,0 +1,343 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-efr-042-r0-html",
+ "doc_number": "EFR-042-R0",
+ "title_en": "EFR-042-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/EFR-042-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:\n Directional Earth Fault Relay\n TAL1114\n GEC"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the testing \nprocedures P1, which must be performed on an annually bases as indicated by Y1 \nin the above title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first \ndraft initiated & tested by eng. Salah Elsaied \nAbd-Elaal, reviewed by protection \nmanager eng. Magdy Salem, accepted and approved by general manager Eng. \nMohamed Elshahhat, revised by \neng. Mohamed Emran: quality control general manager, \napproved by eng. Alsaied Abd-Elaziz Nagy: Head Sector of Protection, Measurement \n& Testes and certified by eng. Ali Atiia Eldeeb: Head Sector \nof Canal Western Networks and MPIS Canal Zone Coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued",
+    "The maintenance staff should carry the suitable ID safety category,",
+    "Maintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Personal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc",
+    "Outage arrangement must be done.",
+    "Isolate the relay DC supply before drawing out \n any relay card.",
+    "Isolate the relay associated breaker trip Coils, \nbreaker failure system, disturbance alarm and fault recorder systems."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set ( XS92a \n).",
+    "Ammeter, AVOmeter & AC \nsupply.",
+    "Two test plugs ( voltage and current \n).",
+    "Test leads, Voltmeter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: Manufacturer's manual.",
+    "Obtain copy of \n relay settings from field maintenance file and compare it with the relay \n settings .",
+    "Obtain outage for line protected by this relay .(\n work permit must be issued )",
+    "Check that the bus and line disconnect switches are opened and tagged .",
+    "Make sure CT's Secondary circuits are \n shorted before isolating the relay current circuits forcurrent \n injection",
+    "Make sure V.Ts miniature circuit breakers ( \n MCB's ) is disconnected .",
+    "Isolate the relay DC supply .",
+    "Check that all cables supplying the relay and all \n wire connections are in good conditions."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparing \nthe Tester unit ( XS92a ) as followings"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Position the two units of XS92a as in figure (1) \n and figure (2).",
+    "The tester unit ( XS92a) should be earthed .",
+    "Connect the three jumpers between the two units.",
+    "Connect the hand terminal unit (YB92) -figure (3) \n - to the control unit (XC92) in the upper unit .",
+    "Connect current and voltage terminals unit to ( \n output and switching logic unit AX91/92 ) .",
+    "Connect current and voltage terminals unit to \n relay current and voltage test socket terminals . as in figure (4).",
+    "Connect the test unit (XS92a) power supply ( 220 \n Va.c ) .",
+    "Turn ( ON ) the switches on the lower and upper \n units of tester (XS92a) .",
+    "Use the hand terminal ( YB 92 ) according to \n test steps ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Parameters \nPreparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Restore DC supply to the relay scheme while \n the tester (XS92a) is ( 0N ) i.e ready.",
+    "On HAND TERMINAL UNIT ( YB92 ) Set :"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "MODE : FF then ENTER.",
+    "FREQUENCY = 50 Hz.",
+    "DFR = 0 ( Frequency Change )",
+    "Static or Dynamic Injection \n SQ = 2 i.e Static injection.",
+    "Automatic search A = 2 i.e with \n Interruption for Increasing injection signal",
+    "FC : fault codes ( 01) i.e Earth Fault",
+    "TL : duration of off-load voltage injection \n = 100 ms",
+    "To : duration of zero injection = 100 ms",
+    "Mode : UI then Enter ( in case of injection on \n directional over current relay i.e to Earth )",
+    "U : fault voltage = 63.5 V; U = ( 0.0 \n : 70 ) V",
+    "I : fault current range = 0.6 A; \n Operating Current = ( 0.0 : 20 ) A",
+    "PHI : angle between fault voltage and \n current = Value inside relay operating zone, PHI \n = ( 0 : 359 )",
+    "TF : duration of fault injection = 300 ms >Relay time setting. Duration of fault \n injection = (0 : 9999) ms",
+    "DU : (0.1 : 10 ) V Voltage change rate",
+    "DI : (0.01 : 1.0 ) A Current change rate",
+    "DPH : ( 1 : 30 ) Angle change rate"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "The test is accomplished in \nthree stages"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Finding \n relay operating current value while the voltage and current angle are \n constant .",
+    "Finding \n relay operating angle zone while the voltage and current are constant .",
+    "Finding \n relay operating time ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finding relay operating current\n(The voltage and current \nangle are constant )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "DI \n = 0.1 A ; Current change rate = ( 0.01 : 1.0 ) A"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Press start \n button then ( + ) button to start injection of testing signal.",
+    "Wait until \n auto. stop trigger point of relay starting current is shown on display.",
+    "Record in \n test sheet : the value of relay starting current ( I ) and the lighted leds on \n the relay.",
+    "Press ( 0 ) \n button then Enter.",
+    "Press the \n relay Reset ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finding relay operating \nangle zone ( The voltage and current are constant )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set \n U \n = 63.5 V (constant voltage ) ; U = ( 0.0 : 70 ) V\n I = 1.6 A ( The relay operating Current setting ) \n; Operating Current = ( 0.0 : 20 ) A\n PHI = 10 assumed value outside the relay operating \nangle zone ( : ) \n DPH = 0.01 ( Angle change rate ) \n; DPH = ( 1 : 30 )"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Press start \n button then ( + ) button to start injection of testing signal.",
+    "Wait until \n auto-stop trigger point of relay starting angle is shown on display.",
+    "Record in \n test sheet : the value of relay starting angle and the relay lighted leds .",
+    "Press ( 0 ) \n button then Enter.",
+    "Press the \n relay Reset .",
+    "Repeat the \n above steps for another assumed angle values to find the relay operating angle \n zone."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Finding relay operating time"
+  },
+  {
+   "type": "paragraph",
+   "text": "The \noperating time of a directional earth fault relay should be measured using the \ntrip contact ( free contact ) . connected the free contact to ( + ) and ( -\\ - \n) on the front panel of tester ( XS92a )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set \n U \n = 63.5V (constant voltage ) ; U = ( 0.0 \n : 70 ) V\n I = 1.6 A ( The relay operating Current \n setting ) ; I = ( 0.0 : 20 ) A\n PHI = assumed value inside the relay operating angle zone ( \n : ) \n TF = 1.7 sec. > The relay operating time setting ; Duration of fault \ninjection = ( 0 : 9999 ) ms"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Press start \n button then ( + ) button to start injection of testing signal.",
+    "Wait until \n auto. stop trigger point of relay starting current is shown on display.",
+    "Record in \n test sheet : the value of relay operating time and the lighted leds on the \n relay.",
+    "Press ( 0 ) \n button then Enter.",
+    "Press the \n relay Reset ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "NOTE : How to \nfind\" free contact\" on relay ( TAL1114 )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select any \n free contact and measure it`s dc voltage ( must have not DC voltage )",
+    "Check that \n it is normal open contact using avometer buzzer.",
+    "Check that \n it is close with trip, using tester ( XS92a ) and avometer buzzer."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return \nProtection Scheme and Associated Equipment to service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay \n ( TAL1114 ) to service by withdrawing test plug handle from the relay test \n socket",
+    "Make sure \n CT secondary are opened.",
+    "Return relay \n to service by restoring supply from voltage transformer (VT's miniature \n circuit breakers \n ( MCBs ) is closed.",
+    "Place the \n associated breaker failure ( BF ) protection scheme back in service.",
+    "Restore the \n previously blocked disturbance alarms and fault recorders associated with this \n protection.",
+    "Turn ON the \n power supply DC to relay ( TAL1114 )",
+    "Take crossed \n readings of all AC currents and voltages supplied to the relay ( TAL1114 ) and",
+    "Compare \n them to those for normal load conditions.",
+    "Check that \n these readings agree with station meters MW, MVAR, Power Factor, Amperes, \n and Voltages.",
+    "Place a copy \n of the test results in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation: \n Feeder : \n Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment: \n directional earth fault relay Type : GEC \n Model: TAL1114"
+  },
+  {
+   "type": "paragraph",
+   "text": "Auxiliary \n voltage: 220 Vdc Nominal\n current :1 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting Range : I = ( 0.1 : 3.2 ) In t = \n ( 0.3 : 4.8 ) Sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Checks\n Visual inspection : ( ) Auxiliary supply : ( \n ) Earthling of the rack : \n Secondary injection :\n I > = 1.6 In = 1.6 \n A Angle = Time \n = Sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase angle test\n Injection voltage : 63.5 V Injection current: A \n Ф set : \n Leading operating angel \n Boundary operating angle : Φ1 = Φ2 = \n Intermediate operating angle ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Current test :\n Injection voltage : 63.5 V Operating current setting : 1.6 A\n Pick up current = A Reset current = A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time delay test \n : \n Test voltage = 63.5 V Test current = 1.6 \n A Φ = \n Time delay Setting : Sec. Measured \n time delay : Sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Final setting Adjusted value ( on the setting switches )\n Is = In\n T = Sec.\n Ф ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Tripping \n :\n Signaling of tripping: ( ) Manual reset: ( )"
+  },
+  {
+   "type": "paragraph",
+   "text": "Load test after energizing line: ( )"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \n Protection \n Relay Designation: Tested by: \n Signature: \n Test Date:"
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\n Directional Earth Fault Relay\n TAL1114\n GEC\nIntroduction\nThis document outlines the testing \nprocedures P1, which must be performed on an annually bases as indicated by Y1 \nin the above title block.\nThe first \ndraft initiated & tested by eng. Salah Elsaied \nAbd-Elaal, reviewed by protection \nmanager eng. Magdy Salem, accepted and approved by general manager Eng. \nMohamed Elshahhat, revised by \neng. Mohamed Emran: quality control general manager, \napproved by eng. Alsaied Abd-Elaziz Nagy: Head Sector of Protection, Measurement \n& Testes and certified by eng. Ali Atiia Eldeeb: Head Sector \nof Canal Western Networks and MPIS Canal Zone Coordinator.\nSafety Precautions\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nOutage arrangement must be done.\nIsolate the relay DC supply before drawing out \n any relay card.\nIsolate the relay associated breaker trip Coils, \nbreaker failure system, disturbance alarm and fault recorder systems.\nTools and Equipment\nSecondary injection test set ( XS92a \n).\nAmmeter, AVOmeter & AC \nsupply.\nTwo test plugs ( voltage and current \n).\nTest leads, Voltmeter\nWork to be Carried Out\nSteps to Prepare for Relay Testing\nReview technical reference material: Manufacturer's manual.\nObtain copy of \n relay settings from field maintenance file and compare it with the relay \n settings .\nObtain outage for line protected by this relay .(\n work permit must be issued )\nCheck that the bus and line disconnect switches are opened and tagged .\nMake sure CT's Secondary circuits are \n shorted before isolating the relay current circuits forcurrent \n injection\nMake sure V.Ts miniature circuit breakers ( \n MCB's ) is disconnected .\nIsolate the relay DC supply .\nCheck that all cables supplying the relay and all \n wire connections are in good conditions.\nPreparing \nthe Tester unit ( XS92a ) as followings\nPosition the two units of XS92a as in figure (1) \n and figure (2).\nThe tester unit ( XS92a) should be earthed .\nConnect the three jumpers between the two units.\nConnect the hand terminal unit (YB92) -figure (3) \n - to the control unit (XC92) in the upper unit .\nConnect current and voltage terminals unit to ( \n output and switching logic unit AX91/92 ) .\nConnect current and voltage terminals unit to \n relay current and voltage test socket terminals . as in figure (4).\nConnect the test unit (XS92a) power supply ( 220 \n Va.c ) .\nTurn ( ON ) the switches on the lower and upper \n units of tester (XS92a) .\nUse the hand terminal ( YB 92 ) according to \n test steps .\nParameters \nPreparation\nRestore DC supply to the relay scheme while \n the tester (XS92a) is ( 0N ) i.e ready.\nOn HAND TERMINAL UNIT ( YB92 ) Set :\nMODE : FF then ENTER.\nFREQUENCY = 50 Hz.\nDFR = 0 ( Frequency Change )\nStatic or Dynamic Injection \n SQ = 2 i.e Static injection.\nAutomatic search A = 2 i.e with \n Interruption for Increasing injection signal\nFC : fault codes ( 01) i.e Earth Fault\nTL : duration of off-load voltage injection \n = 100 ms\nTo : duration of zero injection = 100 ms\nMode : UI then Enter ( in case of injection on \n directional over current relay i.e to Earth )\nU : fault voltage = 63.5 V; U = ( 0.0 \n : 70 ) V\nI : fault current range = 0.6 A; \n Operating Current = ( 0.0 : 20 ) A\nPHI : angle between fault voltage and \n current = Value inside relay operating zone, PHI \n = ( 0 : 359 )\nTF : duration of fault injection = 300 ms >Relay time setting. Duration of fault \n injection = (0 : 9999) ms\nDU : (0.1 : 10 ) V Voltage change rate\nDI : (0.01 : 1.0 ) A Current change rate\nDPH : ( 1 : 30 ) Angle change rate\nRelay Testing\nThe test is accomplished in \nthree stages\nFinding \n relay operating current value while the voltage and current angle are \n constant .\nFinding \n relay operating angle zone while the voltage and current are constant .\nFinding \n relay operating time .\nFinding relay operating current\n(The voltage and current \nangle are constant )\nDI \n = 0.1 A ; Current change rate = ( 0.01 : 1.0 ) A\nPress start \n button then ( + ) button to start injection of testing signal.\nWait until \n auto. stop trigger point of relay starting current is shown on display.\nRecord in \n test sheet : the value of relay starting current ( I ) and the lighted leds on \n the relay.\nPress ( 0 ) \n button then Enter.\nPress the \n relay Reset .\nFinding relay operating \nangle zone ( The voltage and current are constant )\nSet \n U \n = 63.5 V (constant voltage ) ; U = ( 0.0 : 70 ) V\n I = 1.6 A ( The relay operating Current setting ) \n; Operating Current = ( 0.0 : 20 ) A\n PHI = 10 assumed value outside the relay operating \nangle zone ( : ) \n DPH = 0.01 ( Angle change rate ) \n; DPH = ( 1 : 30 )\nPress start \n button then ( + ) button to start injection of testing signal.\nWait until \n auto-stop trigger point of relay starting angle is shown on display.\nRecord in \n test sheet : the value of relay starting angle and the relay lighted leds .\nPress ( 0 ) \n button then Enter.\nPress the \n relay Reset .\nRepeat the \n above steps for another assumed angle values to find the relay operating angle \n zone.\nFinding relay operating time\nThe \noperating time of a directional earth fault relay should be measured using the \ntrip contact ( free contact ) . connected the free contact to ( + ) and ( -\\ - \n) on the front panel of tester ( XS92a )\nSet \n U \n = 63.5V (constant voltage ) ; U = ( 0.0 \n : 70 ) V\n I = 1.6 A ( The relay operating Current \n setting ) ; I = ( 0.0 : 20 ) A\n PHI = assumed value inside the relay operating angle zone ( \n : ) \n TF = 1.7 sec. > The relay operating time setting ; Duration of fault \ninjection = ( 0 : 9999 ) ms\nPress start \n button then ( + ) button to start injection of testing signal.\nWait until \n auto. stop trigger point of relay starting current is shown on display.\nRecord in \n test sheet : the value of relay operating time and the lighted leds on the \n relay.\nPress ( 0 ) \n button then Enter.\nPress the \n relay Reset .\nNOTE : How to \nfind\" free contact\" on relay ( TAL1114 )\nSelect any \n free contact and measure it`s dc voltage ( must have not DC voltage )\nCheck that \n it is normal open contact using avometer buzzer.\nCheck that \n it is close with trip, using tester ( XS92a ) and avometer buzzer.\nReturn \nProtection Scheme and Associated Equipment to service\nReturn relay \n ( TAL1114 ) to service by withdrawing test plug handle from the relay test \n socket\nMake sure \n CT secondary are opened.\nReturn relay \n to service by restoring supply from voltage transformer (VT's miniature \n circuit breakers \n ( MCBs ) is closed.\nPlace the \n associated breaker failure ( BF ) protection scheme back in service.\nRestore the \n previously blocked disturbance alarms and fault recorders associated with this \n protection.\nTurn ON the \n power supply DC to relay ( TAL1114 )\nTake crossed \n readings of all AC currents and voltages supplied to the relay ( TAL1114 ) and\nCompare \n them to those for normal load conditions.\nCheck that \n these readings agree with station meters MW, MVAR, Power Factor, Amperes, \n and Voltages.\nPlace a copy \n of the test results in the field maintenance file.\nTest Sheet\nSubstation: \n Feeder : \n Date:\nEquipment: \n directional earth fault relay Type : GEC \n Model: TAL1114\nAuxiliary \n voltage: 220 Vdc Nominal\n current :1 A\nSetting Range : I = ( 0.1 : 3.2 ) In t = \n ( 0.3 : 4.8 ) Sec.\nChecks\n Visual inspection : ( ) Auxiliary supply : ( \n ) Earthling of the rack : \n Secondary injection :\n I > = 1.6 In = 1.6 \n A Angle = Time \n = Sec.\nPhase angle test\n Injection voltage : 63.5 V Injection current: A \n Ф set : \n Leading operating angel \n Boundary operating angle : Φ1 = Φ2 = \n Intermediate operating angle =\nCurrent test :\n Injection voltage : 63.5 V Operating current setting : 1.6 A\n Pick up current = A Reset current = A\nTime delay test \n : \n Test voltage = 63.5 V Test current = 1.6 \n A Φ = \n Time delay Setting : Sec. Measured \n time delay : Sec.\nFinal setting Adjusted value ( on the setting switches )\n Is = In\n T = Sec.\n Ф =\nTripping \n :\n Signaling of tripping: ( ) Manual reset: ( )\nLoad test after energizing line: ( )\nLocation: \n Protection \n Relay Designation: Tested by: \n Signature: \n Test Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-020-r0-03.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-020-r0-04.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-020-r0-05.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-020-r0-06.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/efr-042-03.JPG",
+   "alt": ""
+  },
+  {
+   "src": "graphics/efr-042-4.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/efr-042-02.gif",
+   "alt": ""
+  }
+ ]
+}

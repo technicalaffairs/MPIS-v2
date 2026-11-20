@@ -1,0 +1,400 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-efr-031-r0-html",
+ "doc_number": "EFR-031-R0",
+ "title_en": "EFR-031-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/EFR-031-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The RADSS relay is a high speed, moderately high impedance\ndifferential relay for phase and earth fault protection of buses. Internal\nfaults are detected prior to CT saturation. Stability on external faults is\nguaranteed even with instantaneous line CT Saturation."
+  },
+  {
+   "type": "paragraph",
+   "text": "The RADSS three phase differential relay is used in EEA for\n220 & 66KV bus bar protections. It is manufactured by ABB and can be used\nwith SF6 and conventional switchgear."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the maintenance staff should carry the suitable ID safety category,",
+    "Maintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Personal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc",
+    "Outage arrangement must be done.",
+    "Inserting the test plugs shorts make sure CT secondary circuits (for RADSS\n relay).",
+    "RADSS relay is normally tested with both bus A and bus B in service, so\n care must be taken to prevent sending trip signals to the circuit breaker\n trip coils.",
+    "Be very careful not to open any CT circuit, as this would cause dangerous\n voltages."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set.",
+    "Ammeter 0-2 A AC",
+    "Voltmeter 0-300 Vac, Voltmeter 0-300 \nVdc",
+    "Test leads",
+    "RTXH 18, test-plug handle with test wires (TS 18)",
+    "RTXM trip block plugs\nNote: RTXH 18, RTXM and RTXB plugs are\nsupplied with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: Manufacturers\n manual.",
+    "Obtain copy of relay setting from field maintenance file and\n compare it with the setting on the relay",
+    "Inspect the CT secondary circuits and all cabling supplying\n the relay.",
+    "Before inserting the \n test plug handle into the relay check from the station drawing that the test \n plug will isolate"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils",
+    "Breaker failure scheme associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "If the test plug does\nnot isolate any one of above items, you have to isolate it"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedures",
+    "Verify the test results match the relay setting, if not\n consult technical services.",
+    "Test trip all breakers associated with the relay.",
+    "Connect one or more circuit breakers to the bus and initiate\n a trip from the RADSS relay",
+    "Repeat to include all breakers"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Obtain authorization form the control center.",
+    "Look at the RADSS relay and make sure that the red DC\n flag\" is not present. Presence of this flag means there is no DC and\n the cause must be investigated.",
+    "Connect the test set and relay according to Fig. 1\n NOTE: During the routine testing the two bus bars A and B must NOT be\n interconnected via bus isolator switches. When both bus isolator switches\n are closed, the RADSS Bus B diode circuits are connected to RADSS Bus A.",
+    "EEA requires that all loads be switched off the bus being\n tested"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check of the RADSS Operating\nValues for Alarm Relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential Relays and Starting\nRelays"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The following steps block all tripping for Bus A and Bus B,\n respectively.",
+    "Insert one RTXB trip block plug in contact No. 17 of the\n RTXP 18 test switch for phase T seat 101.137 in RADSS Bus A.",
+    "Insert one RTXB trip block plug in contact No. 17 of the\n RTXP 18 test switch for phase T seat 101.137 in RADSS Bus B.\n Note: The trip relays for Bus A and Bus B are now blocked."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing RADSS Bus A Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Phase R"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insert the RTXH 18 test-plug handle with test wires in the\n RTXP 18 test switch for phase R seat 101.101 in RADSS Bus A.",
+    "If RADSS is designed for more than 12 lines, one more RTXH\n 18 test-plug handle without test wires must be inserted in the RTXP 18 test\n switch for phase R in seat 501.101 in RADSS Bus A.",
+    "The current \n transformers for Bus A are now short circuited and separated from RADSS Bus \n A"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "NOTE. The continuous \n thermal rating of the differential circuit is 0.5 A. However, a current of one \n Ampere is permitted for 50 seconds."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check of Alarm Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Increase slowly the injection voltage until the alarm relay\n for phase R operates.",
+    "Check that the R-phase flag in the indicator unit seat 315\n drops after a delay equal to the time setting on the RXKE 1 alarm timer in\n seat 307.",
+    "Check that the lamp \"BLOCK\" in seat 375 lights up.",
+    "Record the operating voltage UT3 and current Idl as shown in\n figure 1.",
+    "Push the push-button RESET located in seat 375"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check of Differential Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect a test lead from column T2 terminal 1 (T21) to\n terminal 2 (T22) on the same column in the RQDA 040 relay unit seat 115 for\n phase R in RADSS Bus A. (The starting relay contact for phase R in RADSS Bus\n A is now shorted)",
+    "Increase the injected voltage until the differential relay\n for phase R operates.",
+    "Check that the flag \"U\" in the indicator unit seat\n 345 drops.",
+    "Record the operating voltage U T3 and current I dl.",
+    "Check in the control room that the alarm signal for blocked\n RADSS has been received.",
+    "Push the push-button RESET located on seat 375."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check of RADSS Bus A Stability"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Reduce the injected current to 80 % of I d1.",
+    "Check of other lines on the RADDS relay:",
+    "Connect in turn terminals 3 to 14 on the test terminal\n strip, respectively, terminal 15 to the test set, and check that the current\n is 0.8 x I for all current circuits.\n Note: Turn off the test set current before moving the test lead from\n terminal to terminal to prevent arcing.",
+    "Check that the flag \"U\" in the indicator unit seat\n 345 does not drop.",
+    "If the flag \"U\" drops there may be a fault\n (diode-puncture) in one of the incoming line diode circuits. Each diode must\n then be checked by an ohmmeter.",
+    "If RADSS is designed for more than 12 lines, the two RTXH 18\n test-plug handles shall be interchanged.",
+    "Connect in turn terminal 3 to 14 on the test terminal strip,\n respectively and terminal 15 to the test set.",
+    "Check that the flag \"U\" in the indicator unit seat\n 345 does not drop.",
+    "Press the push-button \"RESET\" in seat 375."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check of Starting Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the test lead from T21 and T22 test terminals, which\n was installed in step no. 1 of Check of\n Differential Relay",
+    "Increase the injected voltage until the starting relay for\n phase R operates and the flag drops.",
+    "Check that the flag \"U\" in the indicator unit seat\n 345 drops.",
+    "Record the operating voltage UT3 and current I dl.",
+    "Reduce the injected voltage to zero to avoid unnecessary\n heating of the differential resistors.",
+    "Press the push-button \"RESET\" in seat 375.",
+    "Check that all flags in the indicator unit reset.",
+    "Check that the lamp \"BLOCK\" is switched off.",
+    "Remove the RTXH 18 test-plug handle(s) from phase R.",
+    "Check that the operating voltages and currents agree with\n those in the setting sheets. This completes the testing of Phase R"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Phases S and T"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above\nsteps from step 4 to step 10 for phases S and T."
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the RADDS Bus B\nProtection:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the steps from\nstep 3 to step 8 for testing the RADDS Bus B Protection."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check of Bus Interconnection\nRelays"
+  },
+  {
+   "type": "paragraph",
+   "text": "This feature is tested during restoration."
+  },
+  {
+   "type": "paragraph",
+   "text": "Check of AC Circuits"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the ammeter to the RTXM ammeter test-plug.",
+    "Insert the RTXM ammeter test-plug in turn into contact\n blocks numbers 3 to 14 in the RTXP 18 test switches for phases R, S and T\n for all lines.",
+    "Check for all lines that the current measured corresponds to\n the actual primary current reduced by the CT ratio.",
+    "Press the push-button \"BLOCK\" in seat 137.",
+    "Insert the RTXM ammeter test-plug in contact blocks 15 in\n the RTXP 18 test switches for phases R, S and T for RADSS Bus A and RADSS\n Bus",
+    "The measured differential spill current shall be negligible.\n Normally < 5 mA.\n Note: Blocking the RADSS means that the differential circuit resistors\n are short-circuited. Spill currents are then more easily detected.",
+    "Press the push-button \"RESET\" in seat 136 for\n RADSS Bus A and RADSS Bus B."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Completion"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check that:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "All RTXP18 test-plug handles are removed.",
+    "All test wires are removed.",
+    "All RTXB trip block pare removed."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check that all flags in the indicating units seat 131 for RADSS Bus A and\n RADSS Bus B are reset.",
+    "Inform the control center that testing is complete."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and \nassociated\nEquipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by withdrawing the test plug handles\n from the relay.",
+    "If any \n equipment associated with the relay has been isolated without the test plug, \n it should be returned to service by the following restoration steps: \n Breaker trip coils, Breaker failure scheme associated with this relay, and Disturbance alarms and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Line be returned to\nService"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC currents and voltages\n supplied to the relay and compare them to those for normal load conditions.",
+    "Check that readings agree with station meters: (MW/ MVAR/Power\n Factor/Amperes/voltages)",
+    "Place a copy of the test result in the field maintenance\n file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1: Routine Testing of Alarm Relay, Differential \n Relay,"
+  },
+  {
+   "type": "paragraph",
+   "text": "and Starting Relay using RTXH 18, Test-Plug \n Handle"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note"
+  },
+  {
+   "type": "paragraph",
+   "text": "When the neutral (N) of the current transformer \n circuit is earthed the test apparatus output voltage shall be isolated from \n earth."
+  },
+  {
+   "type": "paragraph",
+   "text": "Alternatively the wire N to terminal 15A of the \n RTXP 18 test switch shall be disconnected."
+  },
+  {
+   "type": "list",
+   "items": [
+    "When the neutral (N) of the current transformer \n circuit is earthed the test apparatus output voltage shall be isolated from \n earth.",
+    "Alternatively the wire N to terminal 15A of the \n RTXP 18 test switch shall be disconnected."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Commissioning Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "U"
+  },
+  {
+   "type": "paragraph",
+   "text": "I"
+  },
+  {
+   "type": "paragraph",
+   "text": "U"
+  },
+  {
+   "type": "paragraph",
+   "text": "I"
+  },
+  {
+   "type": "paragraph",
+   "text": "U"
+  },
+  {
+   "type": "paragraph",
+   "text": "I"
+  },
+  {
+   "type": "paragraph",
+   "text": "RADSS A"
+  },
+  {
+   "type": "paragraph",
+   "text": "RADSS B"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \n Protection \n Relay Designation: Tested by: \n Signature: \n Test Date:"
+  }
+ ],
+ "text": "\nIntroduction\nThe RADSS relay is a high speed, moderately high impedance\ndifferential relay for phase and earth fault protection of buses. Internal\nfaults are detected prior to CT saturation. Stability on external faults is\nguaranteed even with instantaneous line CT Saturation.\nThe RADSS three phase differential relay is used in EEA for\n220 & 66KV bus bar protections. It is manufactured by ABB and can be used\nwith SF6 and conventional switchgear.\nSafety Precautions\nA work permit must be issued and the maintenance staff should carry the suitable ID safety category,\nMaintenance \n staff should be trained well, qualified or directly supervised by some one \n who is.\nSafety fence with caution marks surrounding the work area is required.\nPersonal\n safety and healthy equipment must be used as safety shoes, safety helmet ... \n etc\nOutage arrangement must be done.\nInserting the test plugs shorts make sure CT secondary circuits (for RADSS\n relay).\nRADSS relay is normally tested with both bus A and bus B in service, so\n care must be taken to prevent sending trip signals to the circuit breaker\n trip coils.\nBe very careful not to open any CT circuit, as this would cause dangerous\n voltages.\nTools and Equipment\nSecondary injection test set.\nAmmeter 0-2 A AC\nVoltmeter 0-300 Vac, Voltmeter 0-300 \nVdc\nTest leads\nRTXH 18, test-plug handle with test wires (TS 18)\nRTXM trip block plugs\nNote: RTXH 18, RTXM and RTXB plugs are\nsupplied with the relay.\nWork to be Carried Out\nSteps to Prepare for Relay Testing\nReview technical reference material: Manufacturers\n manual.\nObtain copy of relay setting from field maintenance file and\n compare it with the setting on the relay\nInspect the CT secondary circuits and all cabling supplying\n the relay.\nBefore inserting the \n test plug handle into the relay check from the station drawing that the test \n plug will isolate\nBreaker trip coils\nBreaker failure scheme associated with this relay.\nIf the test plug does\nnot isolate any one of above items, you have to isolate it\nTesting the Relay\nCarefully follow these test procedures\nVerify the test results match the relay setting, if not\n consult technical services.\nTest trip all breakers associated with the relay.\nConnect one or more circuit breakers to the bus and initiate\n a trip from the RADSS relay\nRepeat to include all breakers\nPreparation\nObtain authorization form the control center.\nLook at the RADSS relay and make sure that the red DC\n flag\" is not present. Presence of this flag means there is no DC and\n the cause must be investigated.\nConnect the test set and relay according to Fig. 1\n NOTE: During the routine testing the two bus bars A and B must NOT be\n interconnected via bus isolator switches. When both bus isolator switches\n are closed, the RADSS Bus B diode circuits are connected to RADSS Bus A.\nEEA requires that all loads be switched off the bus being\n tested\nCheck of the RADSS Operating\nValues for Alarm Relays\nDifferential Relays and Starting\nRelays\nThe following steps block all tripping for Bus A and Bus B,\n respectively.\nInsert one RTXB trip block plug in contact No. 17 of the\n RTXP 18 test switch for phase T seat 101.137 in RADSS Bus A.\nInsert one RTXB trip block plug in contact No. 17 of the\n RTXP 18 test switch for phase T seat 101.137 in RADSS Bus B.\n Note: The trip relays for Bus A and Bus B are now blocked.\nTesting RADSS Bus A Protection\nTesting Phase R\nInsert the RTXH 18 test-plug handle with test wires in the\n RTXP 18 test switch for phase R seat 101.101 in RADSS Bus A.\nIf RADSS is designed for more than 12 lines, one more RTXH\n 18 test-plug handle without test wires must be inserted in the RTXP 18 test\n switch for phase R in seat 501.101 in RADSS Bus A.\nThe current \n transformers for Bus A are now short circuited and separated from RADSS Bus \n A\nNOTE. The continuous \n thermal rating of the differential circuit is 0.5 A. However, a current of one \n Ampere is permitted for 50 seconds.\nCheck of Alarm Relay\nIncrease slowly the injection voltage until the alarm relay\n for phase R operates.\nCheck that the R-phase flag in the indicator unit seat 315\n drops after a delay equal to the time setting on the RXKE 1 alarm timer in\n seat 307.\nCheck that the lamp \"BLOCK\" in seat 375 lights up.\nRecord the operating voltage UT3 and current Idl as shown in\n figure 1.\nPush the push-button RESET located in seat 375\nCheck of Differential Relay\nConnect a test lead from column T2 terminal 1 (T21) to\n terminal 2 (T22) on the same column in the RQDA 040 relay unit seat 115 for\n phase R in RADSS Bus A. (The starting relay contact for phase R in RADSS Bus\n A is now shorted)\nIncrease the injected voltage until the differential relay\n for phase R operates.\nCheck that the flag \"U\" in the indicator unit seat\n 345 drops.\nRecord the operating voltage U T3 and current I dl.\nCheck in the control room that the alarm signal for blocked\n RADSS has been received.\nPush the push-button RESET located on seat 375.\nCheck of RADSS Bus A Stability\nReduce the injected current to 80 % of I d1.\nCheck of other lines on the RADDS relay:\nConnect in turn terminals 3 to 14 on the test terminal\n strip, respectively, terminal 15 to the test set, and check that the current\n is 0.8 x I for all current circuits.\n Note: Turn off the test set current before moving the test lead from\n terminal to terminal to prevent arcing.\nCheck that the flag \"U\" in the indicator unit seat\n 345 does not drop.\nIf the flag \"U\" drops there may be a fault\n (diode-puncture) in one of the incoming line diode circuits. Each diode must\n then be checked by an ohmmeter.\nIf RADSS is designed for more than 12 lines, the two RTXH 18\n test-plug handles shall be interchanged.\nConnect in turn terminal 3 to 14 on the test terminal strip,\n respectively and terminal 15 to the test set.\nCheck that the flag \"U\" in the indicator unit seat\n 345 does not drop.\nPress the push-button \"RESET\" in seat 375.\nCheck of Starting Relay\nRemove the test lead from T21 and T22 test terminals, which\n was installed in step no. 1 of Check of\n Differential Relay\nIncrease the injected voltage until the starting relay for\n phase R operates and the flag drops.\nCheck that the flag \"U\" in the indicator unit seat\n 345 drops.\nRecord the operating voltage UT3 and current I dl.\nReduce the injected voltage to zero to avoid unnecessary\n heating of the differential resistors.\nPress the push-button \"RESET\" in seat 375.\nCheck that all flags in the indicator unit reset.\nCheck that the lamp \"BLOCK\" is switched off.\nRemove the RTXH 18 test-plug handle(s) from phase R.\nCheck that the operating voltages and currents agree with\n those in the setting sheets. This completes the testing of Phase R\nTesting Phases S and T\nRepeat the above\nsteps from step 4 to step 10 for phases S and T.\nTesting the RADDS Bus B\nProtection:\nRepeat the steps from\nstep 3 to step 8 for testing the RADDS Bus B Protection.\nCheck of Bus Interconnection\nRelays\nThis feature is tested during restoration.\nCheck of AC Circuits\nConnect the ammeter to the RTXM ammeter test-plug.\nInsert the RTXM ammeter test-plug in turn into contact\n blocks numbers 3 to 14 in the RTXP 18 test switches for phases R, S and T\n for all lines.\nCheck for all lines that the current measured corresponds to\n the actual primary current reduced by the CT ratio.\nPress the push-button \"BLOCK\" in seat 137.\nInsert the RTXM ammeter test-plug in contact blocks 15 in\n the RTXP 18 test switches for phases R, S and T for RADSS Bus A and RADSS\n Bus\nThe measured differential spill current shall be negligible.\n Normally < 5 mA.\n Note: Blocking the RADSS means that the differential circuit resistors\n are short-circuited. Spill currents are then more easily detected.\nPress the push-button \"RESET\" in seat 136 for\n RADSS Bus A and RADSS Bus B.\nCompletion\nCheck that:\nAll RTXP18 test-plug handles are removed.\nAll test wires are removed.\nAll RTXB trip block pare removed.\nCheck that all flags in the indicating units seat 131 for RADSS Bus A and\n RADSS Bus B are reset.\nInform the control center that testing is complete.\nReturn Relay and \nassociated\nEquipment to Service\nReturn relay to service by withdrawing the test plug handles\n from the relay.\nIf any \n equipment associated with the relay has been isolated without the test plug, \n it should be returned to service by the following restoration steps: \n Breaker trip coils, Breaker failure scheme associated with this relay, and Disturbance alarms and fault recorder associated with this relay.\nRequest Power Line be returned to\nService\nTake crossed readings of all AC currents and voltages\n supplied to the relay and compare them to those for normal load conditions.\nCheck that readings agree with station meters: (MW/ MVAR/Power\n Factor/Amperes/voltages)\nPlace a copy of the test result in the field maintenance\n file.\nFigure 1: Routine Testing of Alarm Relay, Differential \n Relay,\nand Starting Relay using RTXH 18, Test-Plug \n Handle\nNote\nWhen the neutral (N) of the current transformer \n circuit is earthed the test apparatus output voltage shall be isolated from \n earth.\nAlternatively the wire N to terminal 15A of the \n RTXP 18 test switch shall be disconnected.\nWhen the neutral (N) of the current transformer \n circuit is earthed the test apparatus output voltage shall be isolated from \n earth.\nAlternatively the wire N to terminal 15A of the \n RTXP 18 test switch shall be disconnected.\nTest Sheet\nCommissioning Date:\nU\nI\nU\nI\nU\nI\nRADSS A\nRADSS B\nLocation: \n Protection \n Relay Designation: Tested by: \n Signature: \n Test Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/EFR-031-01.jpg",
+   "alt": ""
+  }
+ ]
+}

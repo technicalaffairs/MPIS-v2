@@ -1,0 +1,752 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-035-r0-html",
+ "doc_number": "DSR-035-R0",
+ "title_en": "DsR-035-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-035-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Metro"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,",
+    "Safety \n fence with caution marks surrounding the work area is required,",
+    "Personal protective equipment must be used as safety shoes, and safety \n Helmet.",
+    "Ensure that the Line isolation is done.",
+    "Switch off DC power supply before inserting or withdrawing any card from\n the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test set type QZW415.",
+    "Supplementary unit type YLW442.",
+    "Test plug YX91, Test socket XX91, multi-meter",
+    "Timer.",
+    "Phase sequence indicator.",
+    "Clip-on ammeter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: Manufacturers manual.",
+    "Obtain copy of relay setting from field maintenance file.",
+    "Obtain outage for line protected by this relay.",
+    "Check that the bus and line disconnect switches are opened and tagged.",
+    "Inspect the CT secondary circuits, the VT Miniature Circuit Breakers (MCBS),\n and all cabling supplying the relay.",
+    "Before inserting the test plug \n handle into the relay check from the station drawing that the test plug will \n isolate"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils and transfer trip scheme.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated with this relay.",
+    "Auto-reclosure associated with this relay."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "If the test plug does not isolate any one of above items, you have to\n isolate it."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay, Relay Scheme, and Protection Output"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps.",
+    "Verify the test results match the relay setting - If not consult technical\n services.",
+    "Perform checks of the acceleration of the relay, breaker failure and\n reclosure, separate technical procedures should be used to test to test each\n of these systems.",
+    "Test trip all breakers associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Prior to Starting Testing Procedure (s) Ensure the Following\nSteps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off load relay test.",
+    "Look at the EEA panel nameplate and check that this EEA system designation\n nameplate agrees with the line that has been taken out of service for\n maintenance.",
+    "Check there is no AC current from CTs by using a clip on ammeter.",
+    "Check there is no AC voltage from VTs by using a voltmeter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparations"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the test set QZW, the supplementary unit YLW and, via\n the test plug YX91 and test socket XX91 as shown: in figure 1."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Any shorting plugs on the plug board at the rear of the connector of the\n test plug cable must be removed.",
+    "In the case of the version of the supplementary unit YLW according to\n Fig.2, the test connector of the QZW must be connected appropriately to the\n right-hand side of the YLW, paying attention that the terminal numbers of\n both connector and YLW agree.",
+    "The connecting cables of the YLW must be plugged into the sockets on the\n side of the QZW in accordance with their markings. The sockets in question\n are:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Socket\n R of group (v)\n Socket T\n Socket R\n Socket S of\n group (t)\n Socket T\n and also sockets 29b, 29p and 20."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch off the dc/dc converter on the relay.",
+    "Insert the test plug XX91 to the test socket A13 XX91 in the relay as\n shown in fig. 1.",
+    "Place the switches and links on the QZW in the initial positions as given\n in table1."
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "( c )",
+     "front",
+     ""
+    ],
+    [
+     "( u )",
+     "front",
+     ""
+    ],
+    [
+     "( b )",
+     "front",
+     ""
+    ],
+    [
+     "( y ),( d )",
+     "front",
+     ""
+    ],
+    [
+     "( w )",
+     "front",
+     ""
+    ],
+    [
+     "( f ),( g )",
+     "front",
+     ""
+    ],
+    [
+     "( h )",
+     "front",
+     ""
+    ],
+    [
+     "( i )",
+     "front",
+     ""
+    ],
+    [
+     "( k )",
+     "front",
+     ""
+    ],
+    [
+     "( n )",
+     "front",
+     ""
+    ],
+    [
+     "( x )",
+     "side",
+     ""
+    ],
+    [
+     "( o ),( p )\n Links",
+     "side",
+     ""
+    ],
+    [
+     "( q ),( r )",
+     "side",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (1) Initial positions of the switches and links on the\nQZW"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Providing the AC supply to the test set is being obtained from the main PTs\n which normally supply the relay under test place switch (u) on the QZW in\n position I. But if testing is being carried out using a separate supply\n (i.e. because the corresponding line is not energized). Connect a three\n phase 110V a.c. (phase to phase) supply in the correct phase sequence to\n terminal (a) of the QZW and place switch (u) in position II. It is advisable\n in the latter case to insert 6 A respectively 3 A fuses in the supply.",
+    "Draw the under voltage card UL91 and diagnostic card XV92 from the relay.",
+    "Switch on the DC/DC converter.",
+    "Put the rotary switch (S1) on the front of the test socket XX91 in\n position (I)."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Starting Unit"
+  },
+  {
+   "type": "paragraph",
+   "text": "Forward Direction"
+  },
+  {
+   "type": "paragraph",
+   "text": "Place the various switches in position according to table 2 for\nthis test"
+  },
+  {
+   "type": "paragraph",
+   "text": "(x)"
+  },
+  {
+   "type": "paragraph",
+   "text": "(g), (g1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "(f), (f1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "(h), (k)"
+  },
+  {
+   "type": "paragraph",
+   "text": "+I (corresponding to the direction selector switch on the\n front of the unit IW91"
+  },
+  {
+   "type": "paragraph",
+   "text": "1(phase-to phase fault)"
+  },
+  {
+   "type": "paragraph",
+   "text": "R(R to T fault)"
+  },
+  {
+   "type": "paragraph",
+   "text": "%Zph-ph"
+  },
+  {
+   "type": "paragraph",
+   "text": "to be operated"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (2) Switch positions for testing the starting units"
+  },
+  {
+   "type": "paragraph",
+   "text": "The values to be set on the switches (h) and (k) are calculated\nas follows:"
+  },
+  {
+   "type": "paragraph",
+   "text": "%Zph-ph = (100/ZQZW )x ZA x Kf \n(ohm/ph) \nFormula (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Where: ZA = 50 x ZM x 100/NA \n(ohm/ph)"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZQZW = impedance of the test set in ohm/ph. (see\ntable 3)"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZM = replica impedance according to the rating of the\nLZ96 (see table 4)"
+  },
+  {
+   "type": "paragraph",
+   "text": "NA = setting of starting units on the EA 91."
+  },
+  {
+   "type": "paragraph",
+   "text": "KF = correction factor for the differences between\nthe phase angle of the test set and replica angle set on the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "1"
+  },
+  {
+   "type": "paragraph",
+   "text": "2"
+  },
+  {
+   "type": "paragraph",
+   "text": "14"
+  },
+  {
+   "type": "paragraph",
+   "text": "7"
+  },
+  {
+   "type": "paragraph",
+   "text": "28"
+  },
+  {
+   "type": "paragraph",
+   "text": "14"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (3) Impedance ZQZW\nof the test in ohm/ph at 50 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "1"
+  },
+  {
+   "type": "paragraph",
+   "text": "2"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.05"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.2"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (4) Replica impedance ZM of the relay in ohm/ph at 50 HZ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Starting from the calculated value the switches (K) and (h)\n must be shifted up and /or down each time (n1) is released and the procedure\n repeated until the pick up point of the starting until in phases R and T has\n been found: Pick-up is indicated by the timer of the LZ96 running into higher\n time steps of the time-step characteristic. This test is performed in the same\n way for the other phases with the switches (f ) and (f1) in position (S) and\n (T) for earth fault place the switches (g) and (g1) in position (2) and repeat\n the above test with the switches (f) and (f1) in position R,S and T. In this \n case the value for the switches (h) and (k) are calculated as follows"
+  },
+  {
+   "type": "paragraph",
+   "text": "% Zph-0 = (100/ ZQZW ) x ZA x\n (1+k0)/2 x KF \n ohm/ph \n Formula (2)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Where: K0 = Zero sequence impedance compensation\n set on IW91."
+  },
+  {
+   "type": "paragraph",
+   "text": "ZA = As Formula (1), ZQZW = As Formula\n (1), Kf = As Formula (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reverse Direction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The starting unit for phase to phase faults does not\n respond to faults in the reverse direction because their measurement is\n directional."
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing therefore only involves earth fault and the\n procedure is the same as in the direction, but the values to be checked are\n those of ZB and the switch (X) must be placed in the opposite\n position (-I) compared with the direction selector switch (\n ) on the front of the unit IW91 the values of the setting %Z can be calculated\n as follows:"
+  },
+  {
+   "type": "paragraph",
+   "text": "%Zph-0 = (100/ZQZW )x ZB x (1/2) Kf \n ohm/ph \n Formula (3)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Where: ZB = KB x ZA \n ohm/ph"
+  },
+  {
+   "type": "paragraph",
+   "text": "KB = off-set factor set on unit EB91"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZA = As Formula (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZQZW = As Formula (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Kf = As Formula (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "At the conclusion of this test, return (X) to its previous\n position (+ I)."
+  },
+  {
+   "type": "paragraph",
+   "text": "The %Z setting can also be obtained from the curve of Fig 3\n in relation to the values of NA and KB set on the relay (starting), providing\n the phase angles of the relay and line correspond. The values obtained from\n the curve for earth faults must be multiplied by then factor 1+ko/2."
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone Reaches"
+  },
+  {
+   "type": "paragraph",
+   "text": "The switch positions are identical to those given in table 2\n (Page 4). The settings switches (h) and (k) can be calculated as follows:"
+  },
+  {
+   "type": "paragraph",
+   "text": "%Zph-0 = 100/ZQZW x Zi x (1+Ko)/2 x Kf \n ohm/ph"
+  },
+  {
+   "type": "paragraph",
+   "text": "%Zph-ph = (100/ZQZW )x Zi x Kf \n ohm/ph"
+  },
+  {
+   "type": "paragraph",
+   "text": "Where: Zi = Zm x mi 100/Ni"
+  },
+  {
+   "type": "paragraph",
+   "text": "i = Zone\n index, \n i = 1, 2, 3."
+  },
+  {
+   "type": "paragraph",
+   "text": "ZQZW = As Formula (1) and in table 3"
+  },
+  {
+   "type": "paragraph",
+   "text": "K0 = As Formula (2)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Kf = As Formula (1)"
+  },
+  {
+   "type": "paragraph",
+   "text": "ZM = As Formula (1) and in table 4"
+  },
+  {
+   "type": "paragraph",
+   "text": "mi = The factor of Zone ( i ) set on the unit EM92"
+  },
+  {
+   "type": "paragraph",
+   "text": "m= 1,10,100."
+  },
+  {
+   "type": "paragraph",
+   "text": "Ni = % value of zone ( i ) set on the unit EM92"
+  },
+  {
+   "type": "paragraph",
+   "text": "The %Z setting can be obtain from the curve of figure 4 in\n relation to the values of Ni set on the relay (measurement)."
+  },
+  {
+   "type": "paragraph",
+   "text": "This test procedure must be repeated in this entirely for\n the Zones i=2 and 3, noting the %Z values at which the timing unit just does\n not enable the measurement of the next Zone, i.e. The timing lamp of the next\n Zone just does not light up."
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: It is generally desirable to test relay with the setting\n actually required in operation."
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Operating Times"
+  },
+  {
+   "type": "paragraph",
+   "text": "Starting signals for a timing instrument is available at\n terminals (3) and (4) of the QZW as shown in circuit diagram (Fig. 5)."
+  },
+  {
+   "type": "paragraph",
+   "text": "The stop signal is provide by the tripping contact of LZ96\n via sockets b13 and c13 of the test plug YX91 (see Figures 6 and 7)."
+  },
+  {
+   "type": "paragraph",
+   "text": "It is only necessary to measure the operating times in one\n position of the switches (f) and (f1). If considered necessary, at least the\n first zone time can be measured in all the positions of the switches (if),\n (f1), (g) and (g1). For each measurement, the %Z value must be between two\n neighboring reach setting ."
+  },
+  {
+   "type": "paragraph",
+   "text": "All the remaining switch positions correspond to table 2."
+  },
+  {
+   "type": "paragraph",
+   "text": "Tripping and Signaling Circuits Checking"
+  },
+  {
+   "type": "paragraph",
+   "text": "The actual trip for the associated circuit breakers could\n be done by putting the shorting link (I) contacts 1A-2A on the test plug YX91."
+  },
+  {
+   "type": "paragraph",
+   "text": "For checking the signaling circuit, put shorting link (II)\n in contacts 3A-4A (see table 5)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Two c/bs"
+  },
+  {
+   "type": "paragraph",
+   "text": "I"
+  },
+  {
+   "type": "paragraph",
+   "text": "II"
+  },
+  {
+   "type": "paragraph",
+   "text": "III"
+  },
+  {
+   "type": "paragraph",
+   "text": "IV"
+  },
+  {
+   "type": "paragraph",
+   "text": "V"
+  },
+  {
+   "type": "paragraph",
+   "text": "1A-2A"
+  },
+  {
+   "type": "paragraph",
+   "text": "3A-4A"
+  },
+  {
+   "type": "paragraph",
+   "text": "5A-6A"
+  },
+  {
+   "type": "paragraph",
+   "text": "7A-8A"
+  },
+  {
+   "type": "paragraph",
+   "text": "9A-10A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Direct trip"
+  },
+  {
+   "type": "paragraph",
+   "text": "+24 v enable signal"
+  },
+  {
+   "type": "paragraph",
+   "text": "Spare trip"
+  },
+  {
+   "type": "paragraph",
+   "text": "Direct auto-reclosure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Direct breaker back up"
+  },
+  {
+   "type": "paragraph",
+   "text": "Direct trip No. 1"
+  },
+  {
+   "type": "paragraph",
+   "text": "+24 v enable signal"
+  },
+  {
+   "type": "paragraph",
+   "text": "Direct trip No. 2"
+  },
+  {
+   "type": "paragraph",
+   "text": "+24 v enable auto-reclosure / power swing blocking"
+  },
+  {
+   "type": "paragraph",
+   "text": "+24 v breaker back up control"
+  },
+  {
+   "type": "paragraph",
+   "text": "Table (5) Dc circuit of the LZ96 wired via the test\n socket XX91."
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by withdrawing the test plug handle from\n the relay.",
+    "If any equipment associated with the relay has been isolated without the\n test plug, , it should be returned to service by the following restoration\n steps:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated this relay.",
+    "Disturbance alarm and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Auto-reclosure associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Line be Returned to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all A.C currents and voltages supplied\n to the relay and compare them to those for normal load conditions.",
+    "Check that readings agree with station meters: (MW / MVAR / Power Factor /\n Amperes / Voltages).",
+    "Place a copy of the test result in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Simplified Formula for testing and setting the distance relay\nLZ96 with the test set QZW415 and supplementary unit YLW442-1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 1 Connection between relay LZ96 and test equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 2 Supplementary unit YLW442-1 for QZW415, Later version"
+  },
+  {
+   "type": "paragraph",
+   "text": "- The Curves are strictly accurate when j relay\n = j test\n set."
+  },
+  {
+   "type": "paragraph",
+   "text": "- The values obtained from the curves must be multiplied by\n(1+K 0 ) /2 for earth faults"
+  },
+  {
+   "type": "paragraph",
+   "text": "- K B is the off-set factor set on the unit EB 91"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 3 Calibration curves of the starting units of\n the distance relay LZ96, %Z setting on the test set QZW in relation to %N\n setting on the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "- The Curves are strictly accurate when j\nrelay = j\ntest set."
+  },
+  {
+   "type": "paragraph",
+   "text": "- The values obtained from the curves must be multiplied by\n(1+K 0 ) /2 for earth faults"
+  },
+  {
+   "type": "paragraph",
+   "text": "- m \ni is the setting multiple for the zone i ( i=1, 2,\n3) on the unit EM 92"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 4 Calibration curves of the measuring units of\n the distance relay LZ96, %Z setting on the test set QZW in relation to %N\n setting on the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure 6 Test plug YX91 according to HESG 216 587 R2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Record of Test Results for the Distance Relay LZ96"
+  }
+ ],
+ "text": "\nIssued to: \n Metro\nSafety Precautions\nA work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,\nSafety \n fence with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nEnsure that the Line isolation is done.\nSwitch off DC power supply before inserting or withdrawing any card from\n the relay.\nTools and Equipment\nTest set type QZW415.\nSupplementary unit type YLW442.\nTest plug YX91, Test socket XX91, multi-meter\nTimer.\nPhase sequence indicator.\nClip-on ammeter.\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nReview technical reference material: Manufacturers manual.\nObtain copy of relay setting from field maintenance file.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches are opened and tagged.\nInspect the CT secondary circuits, the VT Miniature Circuit Breakers (MCBS),\n and all cabling supplying the relay.\nBefore inserting the test plug \n handle into the relay check from the station drawing that the test plug will \n isolate\nBreaker trip coils and transfer trip scheme.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nAuto-reclosure associated with this relay.\nIf the test plug does not isolate any one of above items, you have to\n isolate it.\nTesting the Relay, Relay Scheme, and Protection Output\nCarefully follow these test procedure steps.\nVerify the test results match the relay setting - If not consult technical\n services.\nPerform checks of the acceleration of the relay, breaker failure and\n reclosure, separate technical procedures should be used to test to test each\n of these systems.\nTest trip all breakers associated with the relay.\nPrior to Starting Testing Procedure (s) Ensure the Following\nSteps\nThis procedure is used to perform off load relay test.\nLook at the EEA panel nameplate and check that this EEA system designation\n nameplate agrees with the line that has been taken out of service for\n maintenance.\nCheck there is no AC current from CTs by using a clip on ammeter.\nCheck there is no AC voltage from VTs by using a voltmeter.\nPreparations\nConnect the test set QZW, the supplementary unit YLW and, via\n the test plug YX91 and test socket XX91 as shown: in figure 1.\nAny shorting plugs on the plug board at the rear of the connector of the\n test plug cable must be removed.\nIn the case of the version of the supplementary unit YLW according to\n Fig.2, the test connector of the QZW must be connected appropriately to the\n right-hand side of the YLW, paying attention that the terminal numbers of\n both connector and YLW agree.\nThe connecting cables of the YLW must be plugged into the sockets on the\n side of the QZW in accordance with their markings. The sockets in question\n are:\nSocket\n R of group (v)\n Socket T\n Socket R\n Socket S of\n group (t)\n Socket T\n and also sockets 29b, 29p and 20.\nSwitch off the dc/dc converter on the relay.\nInsert the test plug XX91 to the test socket A13 XX91 in the relay as\n shown in fig. 1.\nPlace the switches and links on the QZW in the initial positions as given\n in table1.\n\nTable (1) Initial positions of the switches and links on the\nQZW\nProviding the AC supply to the test set is being obtained from the main PTs\n which normally supply the relay under test place switch (u) on the QZW in\n position I. But if testing is being carried out using a separate supply\n (i.e. because the corresponding line is not energized). Connect a three\n phase 110V a.c. (phase to phase) supply in the correct phase sequence to\n terminal (a) of the QZW and place switch (u) in position II. It is advisable\n in the latter case to insert 6 A respectively 3 A fuses in the supply.\nDraw the under voltage card UL91 and diagnostic card XV92 from the relay.\nSwitch on the DC/DC converter.\nPut the rotary switch (S1) on the front of the test socket XX91 in\n position (I).\nTesting the Starting Unit\nForward Direction\nPlace the various switches in position according to table 2 for\nthis test\n(x)\n(g), (g1)\n(f), (f1)\n(h), (k)\n+I (corresponding to the direction selector switch on the\n front of the unit IW91\n1(phase-to phase fault)\nR(R to T fault)\n%Zph-ph\nto be operated\nTable (2) Switch positions for testing the starting units\nThe values to be set on the switches (h) and (k) are calculated\nas follows:\n%Zph-ph = (100/ZQZW )x ZA x Kf \n(ohm/ph) \nFormula (1)\nWhere: ZA = 50 x ZM x 100/NA \n(ohm/ph)\nZQZW = impedance of the test set in ohm/ph. (see\ntable 3)\nZM = replica impedance according to the rating of the\nLZ96 (see table 4)\nNA = setting of starting units on the EA 91.\nKF = correction factor for the differences between\nthe phase angle of the test set and replica angle set on the relay.\n1\n2\n14\n7\n28\n14\nTable (3) Impedance ZQZW\nof the test in ohm/ph at 50 HZ\n1\n2\n0.1\n0.05\n0.2\n0.1\nTable (4) Replica impedance ZM of the relay in ohm/ph at 50 HZ\nStarting from the calculated value the switches (K) and (h)\n must be shifted up and /or down each time (n1) is released and the procedure\n repeated until the pick up point of the starting until in phases R and T has\n been found: Pick-up is indicated by the timer of the LZ96 running into higher\n time steps of the time-step characteristic. This test is performed in the same\n way for the other phases with the switches (f ) and (f1) in position (S) and\n (T) for earth fault place the switches (g) and (g1) in position (2) and repeat\n the above test with the switches (f) and (f1) in position R,S and T. In this \n case the value for the switches (h) and (k) are calculated as follows\n% Zph-0 = (100/ ZQZW ) x ZA x\n (1+k0)/2 x KF \n ohm/ph \n Formula (2)\nWhere: K0 = Zero sequence impedance compensation\n set on IW91.\nZA = As Formula (1), ZQZW = As Formula\n (1), Kf = As Formula (1)\nReverse Direction\nThe starting unit for phase to phase faults does not\n respond to faults in the reverse direction because their measurement is\n directional.\nTesting therefore only involves earth fault and the\n procedure is the same as in the direction, but the values to be checked are\n those of ZB and the switch (X) must be placed in the opposite\n position (-I) compared with the direction selector switch (\n ) on the front of the unit IW91 the values of the setting %Z can be calculated\n as follows:\n%Zph-0 = (100/ZQZW )x ZB x (1/2) Kf \n ohm/ph \n Formula (3)\nWhere: ZB = KB x ZA \n ohm/ph\nKB = off-set factor set on unit EB91\nZA = As Formula (1)\nZQZW = As Formula (1)\nKf = As Formula (1)\nAt the conclusion of this test, return (X) to its previous\n position (+ I).\nThe %Z setting can also be obtained from the curve of Fig 3\n in relation to the values of NA and KB set on the relay (starting), providing\n the phase angles of the relay and line correspond. The values obtained from\n the curve for earth faults must be multiplied by then factor 1+ko/2.\nZone Reaches\nThe switch positions are identical to those given in table 2\n (Page 4). The settings switches (h) and (k) can be calculated as follows:\n%Zph-0 = 100/ZQZW x Zi x (1+Ko)/2 x Kf \n ohm/ph\n%Zph-ph = (100/ZQZW )x Zi x Kf \n ohm/ph\nWhere: Zi = Zm x mi 100/Ni\ni = Zone\n index, \n i = 1, 2, 3.\nZQZW = As Formula (1) and in table 3\nK0 = As Formula (2)\nKf = As Formula (1)\nZM = As Formula (1) and in table 4\nmi = The factor of Zone ( i ) set on the unit EM92\nm= 1,10,100.\nNi = % value of zone ( i ) set on the unit EM92\nThe %Z setting can be obtain from the curve of figure 4 in\n relation to the values of Ni set on the relay (measurement).\nThis test procedure must be repeated in this entirely for\n the Zones i=2 and 3, noting the %Z values at which the timing unit just does\n not enable the measurement of the next Zone, i.e. The timing lamp of the next\n Zone just does not light up.\nNote: It is generally desirable to test relay with the setting\n actually required in operation.\nMeasuring the Operating Times\nStarting signals for a timing instrument is available at\n terminals (3) and (4) of the QZW as shown in circuit diagram (Fig. 5).\nThe stop signal is provide by the tripping contact of LZ96\n via sockets b13 and c13 of the test plug YX91 (see Figures 6 and 7).\nIt is only necessary to measure the operating times in one\n position of the switches (f) and (f1). If considered necessary, at least the\n first zone time can be measured in all the positions of the switches (if),\n (f1), (g) and (g1). For each measurement, the %Z value must be between two\n neighboring reach setting .\nAll the remaining switch positions correspond to table 2.\nTripping and Signaling Circuits Checking\nThe actual trip for the associated circuit breakers could\n be done by putting the shorting link (I) contacts 1A-2A on the test plug YX91.\nFor checking the signaling circuit, put shorting link (II)\n in contacts 3A-4A (see table 5).\nTwo c/bs\nI\nII\nIII\nIV\nV\n1A-2A\n3A-4A\n5A-6A\n7A-8A\n9A-10A\nDirect trip\n+24 v enable signal\nSpare trip\nDirect auto-reclosure\nDirect breaker back up\nDirect trip No. 1\n+24 v enable signal\nDirect trip No. 2\n+24 v enable auto-reclosure / power swing blocking\n+24 v breaker back up control\nTable (5) Dc circuit of the LZ96 wired via the test\n socket XX91.\nReturn Relay and Associated Equipment to Service\nReturn relay to service by withdrawing the test plug handle from\n the relay.\nIf any equipment associated with the relay has been isolated without the\n test plug, , it should be returned to service by the following restoration\n steps:\nBreaker trip coils.\nBreaker failure scheme associated this relay.\nDisturbance alarm and fault recorder associated with this relay.\nAuto-reclosure associated with this relay.\nRequest Power Line be Returned to Service\nTake crossed readings of all A.C currents and voltages supplied\n to the relay and compare them to those for normal load conditions.\nCheck that readings agree with station meters: (MW / MVAR / Power Factor /\n Amperes / Voltages).\nPlace a copy of the test result in the field maintenance file.\nSimplified Formula for testing and setting the distance relay\nLZ96 with the test set QZW415 and supplementary unit YLW442-1\nFigure 1 Connection between relay LZ96 and test equipment\nFigure 2 Supplementary unit YLW442-1 for QZW415, Later version\n- The Curves are strictly accurate when j relay\n = j test\n set.\n- The values obtained from the curves must be multiplied by\n(1+K 0 ) /2 for earth faults\n- K B is the off-set factor set on the unit EB 91\nFigure 3 Calibration curves of the starting units of\n the distance relay LZ96, %Z setting on the test set QZW in relation to %N\n setting on the relay\n- The Curves are strictly accurate when j\nrelay = j\ntest set.\n- The values obtained from the curves must be multiplied by\n(1+K 0 ) /2 for earth faults\n- m \ni is the setting multiple for the zone i ( i=1, 2,\n3) on the unit EM 92\nFigure 4 Calibration curves of the measuring units of\n the distance relay LZ96, %Z setting on the test set QZW in relation to %N\n setting on the relay\nFigure 6 Test plug YX91 according to HESG 216 587 R2\nTest Sheet\nRecord of Test Results for the Distance Relay LZ96",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-035-10.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-035-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-035-2.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-035-3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-035-4.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/pc-ss-62.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-035-6.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-035-7.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/pc-006-r0-8.gif",
+   "alt": ""
+  }
+ ]
+}

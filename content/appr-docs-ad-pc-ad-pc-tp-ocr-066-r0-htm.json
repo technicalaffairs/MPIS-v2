@@ -1,0 +1,201 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-ocr-066-r0-htm",
+ "doc_number": "OCR-066-R0",
+ "title_en": "OCR-066-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/OCR-066-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The KCGG \n142 is a numerical 3 plase over current and earth fault relay with 3 stages of \nphases and earth fault protection I>/I0>, I>>/10>> & \nI>>>/I0>>>, which can be used for 3 phase differential protection or restricted \nearth fault (ref) protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "The \noutput relay that is to trip the circuit breakers must be allocated in the relay \nmasks t > a ; for \nt > b and t > c"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated and tested by eng. Khaled \nSaad Ahmed, accepted by \neng. Fatma Elzhraa Mohamed: \ngeneral manager, approved by \neng. Abdel Maneam Rabeay: head sector of El Nakra Power Station, and \ncertified by eng. Mohamed Kamel \nAhmed: UE zone quality control general director and MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation is required.",
+    "A work permit must be issued",
+    "The maintenance staff should carry the suitable ID safety category,",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Personal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc",
+    "Make sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.",
+    "Outage arrangement must be done."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set type CTR 233",
+    "Test leads",
+    "Multi-meter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "KCGG 142 3phase over current relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Current setting test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect test leads between the current terminals on the relay (21,22) \n phase a and the current terminals on the test set type CTR 233 (phase a)",
+    "RL0: I > / 10 > start",
+    "Record \n the value on the test sheet",
+    "Decrease the current \n from the tester type ctR 233 until the relay rest and the contact change \n from RL 0 ( I → 0)",
+    "Repeat the same steps 1,2,3,4 for phases B, C\n on terminal (23,24) for phase B, and (25,26) for phase C"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the operating time"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat step no. 1 in current setting test.",
+    "Connect the relay time delayed out put contacts number (42-44) to the timer \n contacts of the test set type CTR 233",
+    "Reaper test set type CTR 233 for measuring time delay.\n (I normal = 0.5 I setting, I fault = 2 I setting) & apply the setting current \n in cell (0605 I >) to the KCGG and note the time \n displayed when the timer stops.",
+    "Prepare test set type CTR 233 for measuring time delay & inject.\n into the A phase and note \n the time displayed when the timer stop.",
+    "Check the operating time recorded by the timer is within the range \n shown in table 9",
+    "Repeat the same steps no 1,2,3,4 for \n phases B, C on terminal (23,24) for phase B, and (25,26) for phase C"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Circuit breaker trip test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set up the circuit breaker for trip test.",
+    "Repeat step No 1 in current setting test.",
+    "Inject current into the relay until the circuit breaker trips at the time \n belayed setting.",
+    "Close the circuit breaker again.",
+    "Repeat the same steps 1,2,3 for remaining phase B&C on terminal (23,24) for \n phase B and (25,26) for phase C"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Table 9: characteristic operating time for I>"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note : The operating given in table 9 are for a TMS of 1 therefore, to obtain \nthe operating time for other TMS setting the time given in table 9 must be \nmultiplied by the relays actual TM setting this setting can be found in cell \n(0606t/TMS ) in addition there is an additional tolerance of up to 0.04 second \nthat should be taken into account"
+  },
+  {
+   "type": "paragraph",
+   "text": "KCGG 142 (earth fault \nrelay)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Current setting test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect test leads between the current terminal on the relay (27,28) and the \n current terminal test set type CTR 233",
+    "RL0 : I\n > / 10 > start",
+    "Record \n the value on the test sheet",
+    "Decrease the current \n from the tester type ctR 233 until the relay rest and the contact change \n from RL 0 ( I → 0)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the operating time"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat step no 1-in current setting test",
+    "Connect the relay time delayed out put contacts number (42-44) to the timer \n contacts of the test set type CTR 233",
+    "Reaper test set type CTR 233 for measuring time delay\n (I normal = 0.5 I setting, I fault = 2 I setting) & apply the setting current \n in cell (0605 I >) to the KCGG and note the time \n displayed when the timer stops",
+    "Check the operating time recorded by the time is \n within the range shown in table 9"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Circuit breaker trip test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set up the circuit breaker for trip test",
+    "Repeat step No 1 in current setting test",
+    "Inject current into the relay until the circuit breaker trips at the time \n belayed setting"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return the Relay and Power Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify the test result match the relay setting if not consult technical \n service",
+    "Test trip the \n circuit breaker associated with the relay",
+    "Make a final check \n that all switches on the relay are set according to the setting sheet",
+    "Make \n sure the CT secondary circuit is in normal condition",
+    "Remove the CT shorts \n which were installed in the power supply"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nRelay Designation: Tested by: \nSignature: \nTest Date:"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nEquipment:\nIntroduction\nThe KCGG \n142 is a numerical 3 plase over current and earth fault relay with 3 stages of \nphases and earth fault protection I>/I0>, I>>/10>> & \nI>>>/I0>>>, which can be used for 3 phase differential protection or restricted \nearth fault (ref) protection\nThe \noutput relay that is to trip the circuit breakers must be allocated in the relay \nmasks t > a ; for \nt > b and t > c\nThe first draft initiated and tested by eng. Khaled \nSaad Ahmed, accepted by \neng. Fatma Elzhraa Mohamed: \ngeneral manager, approved by \neng. Abdel Maneam Rabeay: head sector of El Nakra Power Station, and \ncertified by eng. Mohamed Kamel \nAhmed: UE zone quality control general director and MPIS coordinator.\nSafety Precautions\nLine isolation is required.\nA work permit must be issued\nThe maintenance staff should carry the suitable ID safety category,\nSafety fence with caution marks surrounding the work area is required.\nPersonal safety and healthy equipment must be used as safety shoes, safety \n helmet ... etc\nMake sure CT secondary circuits are shorted before isolating the relay current \n circuits for test current injection.\nOutage arrangement must be done.\nTools and Equipment\nSecondary injection test set type CTR 233\nTest leads\nMulti-meter\nWork to be Carried Out\nKCGG 142 3phase over current relay\nCurrent setting test\nConnect test leads between the current terminals on the relay (21,22) \n phase a and the current terminals on the test set type CTR 233 (phase a)\nRL0: I > / 10 > start\nRecord \n the value on the test sheet\nDecrease the current \n from the tester type ctR 233 until the relay rest and the contact change \n from RL 0 ( I → 0)\nRepeat the same steps 1,2,3,4 for phases B, C\n on terminal (23,24) for phase B, and (25,26) for phase C\nCheck the operating time\nRepeat step no. 1 in current setting test.\nConnect the relay time delayed out put contacts number (42-44) to the timer \n contacts of the test set type CTR 233\nReaper test set type CTR 233 for measuring time delay.\n (I normal = 0.5 I setting, I fault = 2 I setting) & apply the setting current \n in cell (0605 I >) to the KCGG and note the time \n displayed when the timer stops.\nPrepare test set type CTR 233 for measuring time delay & inject.\n into the A phase and note \n the time displayed when the timer stop.\nCheck the operating time recorded by the timer is within the range \n shown in table 9\nRepeat the same steps no 1,2,3,4 for \n phases B, C on terminal (23,24) for phase B, and (25,26) for phase C\nCircuit breaker trip test\nSet up the circuit breaker for trip test.\nRepeat step No 1 in current setting test.\nInject current into the relay until the circuit breaker trips at the time \n belayed setting.\nClose the circuit breaker again.\nRepeat the same steps 1,2,3 for remaining phase B&C on terminal (23,24) for \n phase B and (25,26) for phase C\nTable 9: characteristic operating time for I>\nNote : The operating given in table 9 are for a TMS of 1 therefore, to obtain \nthe operating time for other TMS setting the time given in table 9 must be \nmultiplied by the relays actual TM setting this setting can be found in cell \n(0606t/TMS ) in addition there is an additional tolerance of up to 0.04 second \nthat should be taken into account\nKCGG 142 (earth fault \nrelay)\nCurrent setting test\nConnect test leads between the current terminal on the relay (27,28) and the \n current terminal test set type CTR 233\nRL0 : I\n > / 10 > start\nRecord \n the value on the test sheet\nDecrease the current \n from the tester type ctR 233 until the relay rest and the contact change \n from RL 0 ( I → 0)\nCheck the operating time\nRepeat step no 1-in current setting test\nConnect the relay time delayed out put contacts number (42-44) to the timer \n contacts of the test set type CTR 233\nReaper test set type CTR 233 for measuring time delay\n (I normal = 0.5 I setting, I fault = 2 I setting) & apply the setting current \n in cell (0605 I >) to the KCGG and note the time \n displayed when the timer stops\nCheck the operating time recorded by the time is \n within the range shown in table 9\nCircuit breaker trip test\nSet up the circuit breaker for trip test\nRepeat step No 1 in current setting test\nInject current into the relay until the circuit breaker trips at the time \n belayed setting\nReturn the Relay and Power Equipment to Service\nVerify the test result match the relay setting if not consult technical \n service\nTest trip the \n circuit breaker associated with the relay\nMake a final check \n that all switches on the relay are set according to the setting sheet\nMake \n sure the CT secondary circuit is in normal condition\nRemove the CT shorts \n which were installed in the power supply\nLocation: \nRelay Designation: Tested by: \nSignature: \nTest Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,436 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-037-r0-html",
+ "doc_number": "DSR-037-R0",
+ "title_en": "DsR-037-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-037-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n El ASHER"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The RD110 relay is an electromechanical three-phase distance\nrelay, which is used to protect many 33, 66 and 132KV lines at EEA substations.\nThe relay has three zones of impedance protection each with a different timing\nstep. The relay has one directional element and one measuring element, which\nwork in conjunction with all zones. The relay measures phase to phase and phase\nto ground faults. It is manufactured by EAW."
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check\nthe proper operation and calibration of the RD110 relay. It is recommended this\nprocedure be carried out on a yearly bases. This work be carried out section of\nthis document is divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initialed \n& tested by eng. Mohamed Ghareeb Radowan at 29 Dec 1997 at\n El \nASHER"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Personal protective equipment must be used as safety shoes, and safety \n Helmet ... etc."
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure that Line isolation is done."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,",
+    "Safety fence \n with caution marks surrounding the work area is required,",
+    "Personal protective equipment must be used as safety shoes, and safety \n Helmet ... etc.",
+    "Ensure that Line isolation is done.",
+    "Make sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test set type PE1",
+    "Voltmeter",
+    "Clip - on ammeter",
+    "Phase Rotation meter",
+    "Test leads, Ammeter (5 AMP)",
+    "Secondary Injection Test Set."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material: Manufacturers manual.",
+    "Obtain copy of relay setting from field maintenance file and compare it\n with the setting on the relay.",
+    "Obtain outage for line protected by this relay.",
+    "Check that the bus and line disconnect switches are opened and tagged.",
+    "Inspect the CT secondary circuits, the VT Miniature Circuit Breakers (MCBS),\n and all cabling supplying the relay.",
+    "Use the station drawing to isolate the following:"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and Protection Output"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow these test procedure steps from page 2 to Page 7.",
+    "Verify the test results match the relay setting, if not consult technical\n services.",
+    "Test trip the breaker associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Prior to Starting Testing Procedure (s) Ensure the Following\nSteps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off load relay testing.",
+    "Check that the Panel Nameplate agrees with the EEA designation of the line\n that has been taken out of service for maintenance.",
+    "Check there is no AC current from CT by using clip-on ammeter.",
+    "Check there is no AC voltage from VT by using voltmeter.",
+    "Check all external connections to the relay are in good condition and\n check that the terminal block wires are tight."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparations"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure secondary circuits are shorted before isolating the\n current circuits of the relay.",
+    "Using voltmeter, check that there is DC voltage on the relay, (positive on\n terminal 25 and negative on 26).",
+    "Switch off the MCB for a.c. voltage from voltage transformer.",
+    "Label the wires before removing from terminals of the relay.",
+    "Remove the wires from the current terminals (1, 2, 3, 4) on distance to\n terminals (6, 7, and 8) of the relay.",
+    "Connect between the current terminals (1, 2, 3, 4) on distance relay to\n terminals (IR, TS, IT, Io) on the PE1 test set, respectively.",
+    "Connect between the voltage terminals (5, 6, 7, 8) on the distance relay\n to terminals (UR, US, UT, Uo) on the PE1 test set, respectively.",
+    "Connect the trip terminal (23, 24 or 21, 22) on the distance relay to\n terminal (Aus) on the PE1 test set.",
+    "Put an ammeter between the two terminals labeled (I) and also put a short\n between terminals (OFFNER) on the test set.",
+    "Set the current selector switch on the test set as shown in figure 1 to\n value according to rated current relay. (1 Amp = 10Z; 5 Amps = 2Z)",
+    "Set the timer switch on the test set as shown in fig 1 to vertical\n position (on).",
+    "Set the (W ) switches on the test set to zero\n position.",
+    "Set the line angle selector switch on the test set to a value according to\n the line angle.",
+    "Set the switch (GRUNDLAST) to (EIN) position.",
+    "Set the switch (FEALERART) to (MK) position.",
+    "Set the directional selector switch as shown in fig.1 to (BEZOG) position\n (forward direction)",
+    "Set the main switch to (Aus) the position.",
+    "The test set PE1 can now be energized by plugging the (Main Input) cord\n into a 220 Vac wall outlet.",
+    "Set the main switch to (EIN) position."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedure (s)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Pick-Up Value of the Phase to Phase Measuring\nElements"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 1 Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the value on test sheet 1."
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: If rk is used, it must be checked by the same method\n from step 1 to step 5. (at Zone 1 Test Section)."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Select phase to phase fault by turning the test set phase\n selector switch to (RS) position as shown in figure 1.",
+    "Turn the (W ) switches to agree with the zone\n one setting.",
+    "Start the test by pushing down the push button (EIN) (number 8 as shown in\n figure 1).",
+    "The timer will stop once the relay has picked up which indicates that the\n relay has operated and tripped in first zone time T1.",
+    "Change the value of zone one impedance which is set on the test set by\n moving the (W ) switches up or down until the\n relay operates in the second step.",
+    "Record the value on test sheet 1."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 2 Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the (W ) switches to agree with\n the zone two setting.",
+    "Start the test by pushing down the push button (EIN). The timer will stop\n once the relay has picked up which indicates that the relay has operated and\n tripped in second zone T2.",
+    "Change the value of zone two impedance which is set on the test set by\n turning the (W ) switches up or down until the\n relay operates in the third step.",
+    "Record this value on test sheet 1."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 3 Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the (W ) switches to agree with\n the zone three setting.",
+    "Start the test by pushing down the push button (EIN). The timer will stop\n once the relay has picked up which indicates that the relay has operated and\n tripped in third zone T3.",
+    "Change the value of zone three impedance which is set on the test set by\n turning the (W ) switches up or down until the\n relay operates in the fourth step.",
+    "Record this value on test sheet 1."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase to Phase Test for Other Phases (ST and TR)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above tests (Zones 1, 2, 3) by changing the phase selector switch\n to ST and TR, respectively."
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Pick-Up Value of the Phase to Ground Measuring\nElements"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above tests (Zones 1, 2, 3) in addition to the previous step Phase\n to Phase Test for Other Phases (ST and TR) by changing the phase selector\n switch to R0, S0 and T0, respectively."
+  },
+  {
+   "type": "paragraph",
+   "text": "Reverse Direction Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Turn the directional selector switch to the vertical position (backward\n reach).",
+    "Start the test by pushing down the push button (EIN).",
+    "Observe that Qf flag\n will appear on the relay. This indicates that the fault is in the backward\n direction."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the Operating Times"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Set the impedance on the test set to a value which equals half\n the normal pick up value in the First time step for phase to phase fault.\n This will allow a good operation of zone one of the relay.",
+    "Select phase to phase fault position.",
+    "Reset the timer on the test set.",
+    "Start the test by pushing down the push button (EIN). The timer will stop\n once the relay has picked up.",
+    "Record the zone one tripping time from the timer on test sheet (1).",
+    "Repeat the above test from step 1 to step 5 to measure the zone two\n tripping time once again but this time set the impedance on the test set to\n a value equal to (Z1 + Z2)/2.",
+    "Repeat the above test from step 1 to step 5 to measure the zone three\n tripping time once again but this time set the impedance on the test set to\n a value equal to (Z2 + Z3)/2.",
+    "Set the main switch of the test set to the (Aus) position.",
+    "Disconnect the PE1 test set from the power supply and Remove the secondary\n connections between the relay and the test set."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Checking the Over-current Starting Units"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over-current Starting For Phase R"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Use secondary Injection test set to inject current between\n terminals 1 and 4 on the relay.",
+    "Slowly increase the current until the relay picks up.",
+    "Record this value on the test sheet.",
+    "Increase the injected current to a value 25% greater than the operating\n value.",
+    "Slowly decrease the current until the relay resets.",
+    "Record this value on the test sheet.",
+    "Inject current higher than the setting point so the relay picks up firmly.",
+    "Keep this value and switch off the test set.",
+    "Connect the tripping terminals (23, 24 or 21, 22) on the distance relay to\n the timer terminals on the test set.",
+    "Switch on the test set.",
+    "Start the test by injecting current into the relay. The timer will stop once\n the relay has picked up.",
+    "Record this value of time on the test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over-current Starting for Phases S and T"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the above test from step 1 to step 12 but inject current between\n terminals 2 and 4 for phase S and terminals 3 and 4 for phase T. This\n completes the test.",
+    "Remove the test leads between the relay and test set.",
+    "Return the wires, which were removed in step 5 Page 3."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Switch on the MCB, which was switched off in step 3 Page 3.",
+    "Request the operator to switch on the main CB of the line.",
+    "Operate the output auxiliary contact E1 by hand to trip the circuit\n breaker.",
+    "Check that the circuit breaker tripped."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test lead connections\n from the relay.",
+    "Any equipment associated with the relay has been isolated should be\n returned to service by the following steps :"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check that CT and VT secondary circuits are in normal condition."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power line be returned to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed readings of all AC. currents and voltages supplied\n to the relay and compare them to those for normal load conditions.",
+    "Check that readings agree with station meters: (MW/ MVAR/Power\n factor/Amperes/voltages)",
+    "Place a copy of the test result in the field maintenance file"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Primary Setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "X1= \nX2= \nX3="
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting Values"
+  },
+  {
+   "type": "paragraph",
+   "text": "r1= \nc1= \nK="
+  },
+  {
+   "type": "paragraph",
+   "text": "r2= q\n= \nc.t.r="
+  },
+  {
+   "type": "paragraph",
+   "text": "r3= \nIoc= \nv.t.r="
+  },
+  {
+   "type": "paragraph",
+   "text": "rk= \nIe= \nL= \nkm"
+  },
+  {
+   "type": "paragraph",
+   "text": "OVER CURRENT TEST"
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "T"
+  },
+  {
+   "type": "paragraph",
+   "text": "Impedance Test Characteristic Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nRelay \nDesignation: Tested \nby: \nSignature: \nTest Date: \nApproved by: \nSignature: \nTest Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure (1): TEST SET VIEW"
+  }
+ ],
+ "text": "\nIssued to: \n El ASHER\nIntroduction\nThe RD110 relay is an electromechanical three-phase distance\nrelay, which is used to protect many 33, 66 and 132KV lines at EEA substations.\nThe relay has three zones of impedance protection each with a different timing\nstep. The relay has one directional element and one measuring element, which\nwork in conjunction with all zones. The relay measures phase to phase and phase\nto ground faults. It is manufactured by EAW.\nThis procedure details the steps required to completely check\nthe proper operation and calibration of the RD110 relay. It is recommended this\nprocedure be carried out on a yearly bases. This work be carried out section of\nthis document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe first draft initialed \n& tested by eng. Mohamed Ghareeb Radowan at 29 Dec 1997 at\n El \nASHER\nSafety Precautions\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet ... etc.\nEnsure that Line isolation is done.\nMake sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection.\nA work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,\nSafety fence \n with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet ... etc.\nEnsure that Line isolation is done.\nMake sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection.\nTools and Equipment\nTest set type PE1\nVoltmeter\nClip - on ammeter\nPhase Rotation meter\nTest leads, Ammeter (5 AMP)\nSecondary Injection Test Set.\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nReview technical reference material: Manufacturers manual.\nObtain copy of relay setting from field maintenance file and compare it\n with the setting on the relay.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches are opened and tagged.\nInspect the CT secondary circuits, the VT Miniature Circuit Breakers (MCBS),\n and all cabling supplying the relay.\nUse the station drawing to isolate the following:\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nTesting the Relay and Protection Output\nCarefully follow these test procedure steps from page 2 to Page 7.\nVerify the test results match the relay setting, if not consult technical\n services.\nTest trip the breaker associated with the relay.\nPrior to Starting Testing Procedure (s) Ensure the Following\nSteps\nThis procedure is used to perform off load relay testing.\nCheck that the Panel Nameplate agrees with the EEA designation of the line\n that has been taken out of service for maintenance.\nCheck there is no AC current from CT by using clip-on ammeter.\nCheck there is no AC voltage from VT by using voltmeter.\nCheck all external connections to the relay are in good condition and\n check that the terminal block wires are tight.\nPreparations\nMake sure secondary circuits are shorted before isolating the\n current circuits of the relay.\nUsing voltmeter, check that there is DC voltage on the relay, (positive on\n terminal 25 and negative on 26).\nSwitch off the MCB for a.c. voltage from voltage transformer.\nLabel the wires before removing from terminals of the relay.\nRemove the wires from the current terminals (1, 2, 3, 4) on distance to\n terminals (6, 7, and 8) of the relay.\nConnect between the current terminals (1, 2, 3, 4) on distance relay to\n terminals (IR, TS, IT, Io) on the PE1 test set, respectively.\nConnect between the voltage terminals (5, 6, 7, 8) on the distance relay\n to terminals (UR, US, UT, Uo) on the PE1 test set, respectively.\nConnect the trip terminal (23, 24 or 21, 22) on the distance relay to\n terminal (Aus) on the PE1 test set.\nPut an ammeter between the two terminals labeled (I) and also put a short\n between terminals (OFFNER) on the test set.\nSet the current selector switch on the test set as shown in figure 1 to\n value according to rated current relay. (1 Amp = 10Z; 5 Amps = 2Z)\nSet the timer switch on the test set as shown in fig 1 to vertical\n position (on).\nSet the (W ) switches on the test set to zero\n position.\nSet the line angle selector switch on the test set to a value according to\n the line angle.\nSet the switch (GRUNDLAST) to (EIN) position.\nSet the switch (FEALERART) to (MK) position.\nSet the directional selector switch as shown in fig.1 to (BEZOG) position\n (forward direction)\nSet the main switch to (Aus) the position.\nThe test set PE1 can now be energized by plugging the (Main Input) cord\n into a 220 Vac wall outlet.\nSet the main switch to (EIN) position.\nTesting Procedure (s)\nChecking the Pick-Up Value of the Phase to Phase Measuring\nElements\nZone 1 Test\nRecord the value on test sheet 1.\nNote: If rk is used, it must be checked by the same method\n from step 1 to step 5. (at Zone 1 Test Section).\nSelect phase to phase fault by turning the test set phase\n selector switch to (RS) position as shown in figure 1.\nTurn the (W ) switches to agree with the zone\n one setting.\nStart the test by pushing down the push button (EIN) (number 8 as shown in\n figure 1).\nThe timer will stop once the relay has picked up which indicates that the\n relay has operated and tripped in first zone time T1.\nChange the value of zone one impedance which is set on the test set by\n moving the (W ) switches up or down until the\n relay operates in the second step.\nRecord the value on test sheet 1.\nZone 2 Test\nSet the (W ) switches to agree with\n the zone two setting.\nStart the test by pushing down the push button (EIN). The timer will stop\n once the relay has picked up which indicates that the relay has operated and\n tripped in second zone T2.\nChange the value of zone two impedance which is set on the test set by\n turning the (W ) switches up or down until the\n relay operates in the third step.\nRecord this value on test sheet 1.\nZone 3 Test\nSet the (W ) switches to agree with\n the zone three setting.\nStart the test by pushing down the push button (EIN). The timer will stop\n once the relay has picked up which indicates that the relay has operated and\n tripped in third zone T3.\nChange the value of zone three impedance which is set on the test set by\n turning the (W ) switches up or down until the\n relay operates in the fourth step.\nRecord this value on test sheet 1.\nPhase to Phase Test for Other Phases (ST and TR)\nRepeat the above tests (Zones 1, 2, 3) by changing the phase selector switch\n to ST and TR, respectively.\nChecking the Pick-Up Value of the Phase to Ground Measuring\nElements\nRepeat the above tests (Zones 1, 2, 3) in addition to the previous step Phase\n to Phase Test for Other Phases (ST and TR) by changing the phase selector\n switch to R0, S0 and T0, respectively.\nReverse Direction Test\nTurn the directional selector switch to the vertical position (backward\n reach).\nStart the test by pushing down the push button (EIN).\nObserve that Qf flag\n will appear on the relay. This indicates that the fault is in the backward\n direction.\nMeasuring the Operating Times\nSet the impedance on the test set to a value which equals half\n the normal pick up value in the First time step for phase to phase fault.\n This will allow a good operation of zone one of the relay.\nSelect phase to phase fault position.\nReset the timer on the test set.\nStart the test by pushing down the push button (EIN). The timer will stop\n once the relay has picked up.\nRecord the zone one tripping time from the timer on test sheet (1).\nRepeat the above test from step 1 to step 5 to measure the zone two\n tripping time once again but this time set the impedance on the test set to\n a value equal to (Z1 + Z2)/2.\nRepeat the above test from step 1 to step 5 to measure the zone three\n tripping time once again but this time set the impedance on the test set to\n a value equal to (Z2 + Z3)/2.\nSet the main switch of the test set to the (Aus) position.\nDisconnect the PE1 test set from the power supply and Remove the secondary\n connections between the relay and the test set.\nChecking the Over-current Starting Units\nOver-current Starting For Phase R\nUse secondary Injection test set to inject current between\n terminals 1 and 4 on the relay.\nSlowly increase the current until the relay picks up.\nRecord this value on the test sheet.\nIncrease the injected current to a value 25% greater than the operating\n value.\nSlowly decrease the current until the relay resets.\nRecord this value on the test sheet.\nInject current higher than the setting point so the relay picks up firmly.\nKeep this value and switch off the test set.\nConnect the tripping terminals (23, 24 or 21, 22) on the distance relay to\n the timer terminals on the test set.\nSwitch on the test set.\nStart the test by injecting current into the relay. The timer will stop once\n the relay has picked up.\nRecord this value of time on the test sheet.\nOver-current Starting for Phases S and T\nRepeat the above test from step 1 to step 12 but inject current between\n terminals 2 and 4 for phase S and terminals 3 and 4 for phase T. This\n completes the test.\nRemove the test leads between the relay and test set.\nReturn the wires, which were removed in step 5 Page 3.\nTrip Test\nSwitch on the MCB, which was switched off in step 3 Page 3.\nRequest the operator to switch on the main CB of the line.\nOperate the output auxiliary contact E1 by hand to trip the circuit\n breaker.\nCheck that the circuit breaker tripped.\nReturn Relay and Associated Equipment to Service\nReturn relay to service by removing the test lead connections\n from the relay.\nAny equipment associated with the relay has been isolated should be\n returned to service by the following steps :\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nCheck that CT and VT secondary circuits are in normal condition.\nRequest Power line be returned to Service\nTake crossed readings of all AC. currents and voltages supplied\n to the relay and compare them to those for normal load conditions.\nCheck that readings agree with station meters: (MW/ MVAR/Power\n factor/Amperes/voltages)\nPlace a copy of the test result in the field maintenance file\nPrimary Setting\nX1= \nX2= \nX3=\nSetting Values\nr1= \nc1= \nK=\nr2= q\n= \nc.t.r=\nr3= \nIoc= \nv.t.r=\nrk= \nIe= \nL= \nkm\nOVER CURRENT TEST\nR\nS\nT\nImpedance Test Characteristic Test\nLocation: \nRelay \nDesignation: Tested \nby: \nSignature: \nTest Date: \nApproved by: \nSignature: \nTest Date:\nFigure (1): TEST SET VIEW",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-037-r0-1.gif",
+   "alt": ""
+  }
+ ]
+}

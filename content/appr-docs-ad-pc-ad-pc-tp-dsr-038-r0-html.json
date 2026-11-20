@@ -1,0 +1,372 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-038-r0-html",
+ "doc_number": "DSR-038-R0",
+ "title_en": "DsR-038-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DsR-038-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: Helwaan"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure details the steps required to completely check\nthe proper operation and calibration of the 7SA511 distance relay. It is\nrecommended this procedure be carried out on a yearly bases. This work be\ncarried out section of this document is divided into 3 sections."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initialed \n& tested by eng. Abdel Azeez Mohamed at 29 Dec 1997 at Network training \ncenter."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Personal protective equipment must be used as safety shoes, and safety \n Helmet."
+  },
+  {
+   "type": "paragraph",
+   "text": "Ensure that Line isolation is done."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,",
+    "Safety fence \n with caution marks surrounding the work area is required,",
+    "Personal protective equipment must be used as safety shoes, and safety \n Helmet.",
+    "Ensure that Line isolation is done.",
+    "Make sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Siemens test set type 7VP48 and 7VP49.",
+    "Voltmeter,",
+    "Clip-on ammeter, Test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary Steps to Prepare for Relay Testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical references material Manufacturers manual.",
+    "Obtain copy of relay setting from field maintenance file and compare it\n with the setting on the relay.",
+    "Obtain outage for line protected by this relay.",
+    "Check that the bus and line disconnect switches are open and tagged.",
+    "Inspect the CT secondary circuits, the VT Miniature circuit breakers (MCBS),\n and all cables supplying the relay.",
+    "Use the \n station drawings to isolate the following items"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated with this relay.",
+    "Disturbance alarms and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay and Protection Outputs"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow all test procedure \n steps.",
+    "Verify the test results match the relay setting, if not consult technical\n services.",
+    "Test trip the breaker associated with the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Prior to Starting Testing Procedure (s) Ensure the Following\n Steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure is used to perform off load relay testing.",
+    "Look at the EEC panel nameplate and check that this EEC system designation\n agrees with the line that has been taken out of service for maintenance.",
+    "Check there is no AC current from CTs by using a clip on ammeter.",
+    "Check there is no AC voltage from VTs by using a voltmeter."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparations"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the two units of the tester together.",
+    "Connect the tester to a 3 phase 380v power source.",
+    "Check the phase sequence by pressing push-buttons (I) ON for current\n tester unit, if the green lamp lights up, the phase sequence is correct, if\n the red one lights, the phase sequence is NOT correct and must be changed.",
+    "Connect the current circuit between the relay and the tester 7VP4800.",
+    "Connect the voltage circuit between the relay and the tester 7VP4900",
+    "Connect a free contact from the relay to the current unit 7VP4800. (Relay\n terminals (95, 96) to tester terminals (21, 22), as shown in figure (1)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Procedure (s)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 1 Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calculate the operating voltage corresponding to each angle from 0 to 90\n degrees for all the four zones tests as follows:"
+  },
+  {
+   "type": "paragraph",
+   "text": "For Phase To Earth \n V= \n 1 [ X + X (XE/XL) ] R/X for angle zero\n V= 1 ( X + X ( XE/ XL) ) \n for angle 90"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Phase\n V= 1 (X + X) R/X \n for angle zero\n V= 1 ( X + X ) \n for angle 90"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To test first step, block the time steps for all other zones\n (except first zone) and other function (by computer or keyboard on the\n relay).",
+    "Calculate the operating voltage corresponding to each angle from 0 to 90\n degrees for all the four zones tests as follows:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Earth Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Press the push-button IL1 and In on current unit 7VP4800 to test\n phase R-N.",
+    "Adjust the voltage knob to maximum level.",
+    "Set the current selecting switch (S10) to the rated current of relay (1A\n or 5A)",
+    "Inject current by pressing the first push-button and rotating the knob IL1\n until the ammeter reads two times rated current (2*In).",
+    "Adjust the test angle to zero degrees.",
+    "Decrease the voltage by rotating the voltage knob counter-clockwise until\n the relay operates.",
+    "Record this value on the Test Sheet 1.",
+    "Compare this value (practical value) with (theoretical value), which was\n calculated, if the result is within \n 10%, it is acceptable, otherwise, consult technical services.",
+    "Repeat the above test from step 1 to step 8 but change the test angle to\n 90 degrees.",
+    "Repeat the above test from step 1 to step 9 for phases S-N and T-N."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Phase"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Press the push-buttons IL1 and IL2 on the current unit 7VP4800\n to test phaseR-S.",
+    "Adjust the voltage rotating knob to maximum level.",
+    "Put switch (S15) on L1 on unit 7VP4800.",
+    "Put switch (S6) on (L1-L2) on unit 7VP49.",
+    "Inject current by pressing push-buttons 1LI and 1L2 on unit 7VP4800 and\n rotate knobs1L1 and 1L2 until double rated current 2In is reached.",
+    "Adjust the test angle to zero degrees.",
+    "Decrease the voltage by rotating the voltage knob counterclockwise until\n the relay operates.",
+    "Record this value of voltage on Test Sheet 1.",
+    "Compare this \n value (practical value) with (theoretical value), which was calculated.",
+    "If the result is within 10%, it is\n acceptable, otherwise, consult technical services.",
+    "Repeat the above test from step 1 to step 10 but change the test angle to\n 90 degrees.",
+    "Repeat the above test from step 1 to step 11 for phases S-T and T-R"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet 1 (Zone 1 Test Results)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 2 Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To test zone 2, block the timer of zone 3 and zone 4 and other\n functions by a computer or the keyboard on the relay.",
+    "Calculate the operating voltages \n for zone 2 by the equations in step 8"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase to Earth Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase to Phase Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet 2 Zone 2 Test Results"
+  },
+  {
+   "type": "paragraph",
+   "text": "Zone 3 Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "To test zone 3, block the timer of zone 4 and other functions by a computer\n or the\n keyboard on the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Calculate the operating voltages for zone 3 by the equations instep 8 Page\n 2."
+  },
+  {
+   "type": "list",
+   "items": [
+    "To test zone 3, block the timer of zone 4 and other functions by a computer\n or the\n keyboard on the relay.",
+    "Calculate the operating voltages for zone 3 by the equations instep 8 Page\n 2."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Earth Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above test from step 1 to step 10 Page 3 and record the results\n in Test \n Sheet 3."
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Phase Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat the above test from step 1 to step 12 Pages 3, 4 and record the\n results in Test Sheet 3."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet 3 (Zone 3 Test Results)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "It is not necessary to block the timer of any zones",
+    "Calculate the operating voltages for zone 4 by the equations in step 8 Page\n 2."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Earth Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase To Phase Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet 4 (Zone 4 Test Results)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time Test for All Zones"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To measure the zone 1 time, set the tester to an impedance value equal to\n half the zone impedance value and a phase angle of 90 degrees.",
+    "To measure the zone 2 time, set the tester to an impedance value equal to ( Z1+\n (Z2 Z1)/2 ) and a\n phase angle of 90 degrees.",
+    "To measure the zone \n 3 time, set the tester to an impedance value equal to (Z2+\n (Z3 Z2)/2) and a\n phase angle of 90 degrees."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Prepare the Relay for Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test leads from the relay terminals\n block and the test set.",
+    "Make sure CT and VT secondary circuits are in normal condition."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Breaker trip coils.",
+    "Breaker failure scheme associated this relay.",
+    "Disturbance alarm and fault recorder associated with this relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Request Power Line be returned to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed reading of all AC currents and voltages supplied to the relay\n and compare them to those for normal load condition.",
+    "Check that readings agree with station meters (MW/MVAR/Power\n factor/Ampere/Voltages).",
+    "Place a copy of the test results in the field maintenance file."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Equipment \nDesignation: Tested \nby: \nSignature: \nTest Date: \nApproved by: \nSignature: \nTest Date:"
+  }
+ ],
+ "text": "\nIssued to: Helwaan\nIntroduction\nThis procedure details the steps required to completely check\nthe proper operation and calibration of the 7SA511 distance relay. It is\nrecommended this procedure be carried out on a yearly bases. This work be\ncarried out section of this document is divided into 3 sections.\nThe first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test. The second section Preparation for\ntesting describes the steps to set up the equipment for performing the actual\ntests. The third section is the actual test.\nThe document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe first draft initialed \n& tested by eng. Abdel Azeez Mohamed at 29 Dec 1997 at Network training \ncenter.\nSafety Precautions\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nEnsure that Line isolation is done.\nMake sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection.\nA work \n permit must be issued, qualified maintenance staff carry the suitable safety \n ID category,\nSafety fence \n with caution marks surrounding the work area is required,\nPersonal protective equipment must be used as safety shoes, and safety \n Helmet.\nEnsure that Line isolation is done.\nMake sure CT secondary circuits are shorted and VT secondary circuits are opened before \n injection.\nTools and Equipment\nSiemens test set type 7VP48 and 7VP49.\nVoltmeter,\nClip-on ammeter, Test leads.\nWork to be Carried Out\nPreliminary Steps to Prepare for Relay Testing\nReview technical references material Manufacturers manual.\nObtain copy of relay setting from field maintenance file and compare it\n with the setting on the relay.\nObtain outage for line protected by this relay.\nCheck that the bus and line disconnect switches are open and tagged.\nInspect the CT secondary circuits, the VT Miniature circuit breakers (MCBS),\n and all cables supplying the relay.\nUse the \n station drawings to isolate the following items\nBreaker trip coils.\nBreaker failure scheme associated with this relay.\nDisturbance alarms and fault recorder associated with this relay.\nTesting the Relay and Protection Outputs\nCarefully follow all test procedure \n steps.\nVerify the test results match the relay setting, if not consult technical\n services.\nTest trip the breaker associated with the relay.\nPrior to Starting Testing Procedure (s) Ensure the Following\n Steps\nThis procedure is used to perform off load relay testing.\nLook at the EEC panel nameplate and check that this EEC system designation\n agrees with the line that has been taken out of service for maintenance.\nCheck there is no AC current from CTs by using a clip on ammeter.\nCheck there is no AC voltage from VTs by using a voltmeter.\nPreparations\nConnect the two units of the tester together.\nConnect the tester to a 3 phase 380v power source.\nCheck the phase sequence by pressing push-buttons (I) ON for current\n tester unit, if the green lamp lights up, the phase sequence is correct, if\n the red one lights, the phase sequence is NOT correct and must be changed.\nConnect the current circuit between the relay and the tester 7VP4800.\nConnect the voltage circuit between the relay and the tester 7VP4900\nConnect a free contact from the relay to the current unit 7VP4800. (Relay\n terminals (95, 96) to tester terminals (21, 22), as shown in figure (1)\nTesting Procedure (s)\nZone 1 Test\nCalculate the operating voltage corresponding to each angle from 0 to 90\n degrees for all the four zones tests as follows:\nFor Phase To Earth \n V= \n 1 [ X + X (XE/XL) ] R/X for angle zero\n V= 1 ( X + X ( XE/ XL) ) \n for angle 90\nPhase To Phase\n V= 1 (X + X) R/X \n for angle zero\n V= 1 ( X + X ) \n for angle 90\nTo test first step, block the time steps for all other zones\n (except first zone) and other function (by computer or keyboard on the\n relay).\nCalculate the operating voltage corresponding to each angle from 0 to 90\n degrees for all the four zones tests as follows:\nPhase To Earth Test\nPress the push-button IL1 and In on current unit 7VP4800 to test\n phase R-N.\nAdjust the voltage knob to maximum level.\nSet the current selecting switch (S10) to the rated current of relay (1A\n or 5A)\nInject current by pressing the first push-button and rotating the knob IL1\n until the ammeter reads two times rated current (2*In).\nAdjust the test angle to zero degrees.\nDecrease the voltage by rotating the voltage knob counter-clockwise until\n the relay operates.\nRecord this value on the Test Sheet 1.\nCompare this value (practical value) with (theoretical value), which was\n calculated, if the result is within \n 10%, it is acceptable, otherwise, consult technical services.\nRepeat the above test from step 1 to step 8 but change the test angle to\n 90 degrees.\nRepeat the above test from step 1 to step 9 for phases S-N and T-N.\nPhase To Phase\nPress the push-buttons IL1 and IL2 on the current unit 7VP4800\n to test phaseR-S.\nAdjust the voltage rotating knob to maximum level.\nPut switch (S15) on L1 on unit 7VP4800.\nPut switch (S6) on (L1-L2) on unit 7VP49.\nInject current by pressing push-buttons 1LI and 1L2 on unit 7VP4800 and\n rotate knobs1L1 and 1L2 until double rated current 2In is reached.\nAdjust the test angle to zero degrees.\nDecrease the voltage by rotating the voltage knob counterclockwise until\n the relay operates.\nRecord this value of voltage on Test Sheet 1.\nCompare this \n value (practical value) with (theoretical value), which was calculated.\nIf the result is within 10%, it is\n acceptable, otherwise, consult technical services.\nRepeat the above test from step 1 to step 10 but change the test angle to\n 90 degrees.\nRepeat the above test from step 1 to step 11 for phases S-T and T-R\nTest Sheet 1 (Zone 1 Test Results)\nZone 2 Test\nTo test zone 2, block the timer of zone 3 and zone 4 and other\n functions by a computer or the keyboard on the relay.\nCalculate the operating voltages \n for zone 2 by the equations in step 8\nPhase to Earth Test\nPhase to Phase Test\nTest Sheet 2 Zone 2 Test Results\nZone 3 Test\nTo test zone 3, block the timer of zone 4 and other functions by a computer\n or the\n keyboard on the relay.\nCalculate the operating voltages for zone 3 by the equations instep 8 Page\n 2.\nTo test zone 3, block the timer of zone 4 and other functions by a computer\n or the\n keyboard on the relay.\nCalculate the operating voltages for zone 3 by the equations instep 8 Page\n 2.\nPhase To Earth Test\nRepeat the above test from step 1 to step 10 Page 3 and record the results\n in Test \n Sheet 3.\nPhase To Phase Test\nRepeat the above test from step 1 to step 12 Pages 3, 4 and record the\n results in Test Sheet 3.\nTest Sheet 3 (Zone 3 Test Results)\nIt is not necessary to block the timer of any zones\nCalculate the operating voltages for zone 4 by the equations in step 8 Page\n 2.\nPhase To Earth Test\nPhase To Phase Test\nTest Sheet 4 (Zone 4 Test Results)\nTime Test for All Zones\nTo measure the zone 1 time, set the tester to an impedance value equal to\n half the zone impedance value and a phase angle of 90 degrees.\nTo measure the zone 2 time, set the tester to an impedance value equal to ( Z1+\n (Z2 Z1)/2 ) and a\n phase angle of 90 degrees.\nTo measure the zone \n 3 time, set the tester to an impedance value equal to (Z2+\n (Z3 Z2)/2) and a\n phase angle of 90 degrees.\nPrepare the Relay for Service\nReturn Relay and Associated Equipment to Service\nReturn relay to service by removing the test leads from the relay terminals\n block and the test set.\nMake sure CT and VT secondary circuits are in normal condition.\nBreaker trip coils.\nBreaker failure scheme associated this relay.\nDisturbance alarm and fault recorder associated with this relay.\nRequest Power Line be returned to Service\nTake crossed reading of all AC currents and voltages supplied to the relay\n and compare them to those for normal load condition.\nCheck that readings agree with station meters (MW/MVAR/Power\n factor/Ampere/Voltages).\nPlace a copy of the test results in the field maintenance file.\nLocation: Equipment \nDesignation: Tested \nby: \nSignature: \nTest Date: \nApproved by: \nSignature: \nTest Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/DsR-038-r0-1.gif",
+   "alt": ""
+  }
+ ]
+}

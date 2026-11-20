@@ -1,0 +1,2276 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-gtp-001-r0-htm",
+ "doc_number": "GTP-001-R0",
+ "title_en": "GTP-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/GTP-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued and the qualified maintenance staff should carry the suitable safety category,"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued and the qualified maintenance staff should carry the suitable safety category,",
+    "Safety fence (rope) with caution \nmarks surrounding the work area,",
+    "Wear your safety helmet, shoes .... etc",
+    "Gas turbine out of service and work\n permit required.",
+    "Make sure CT secondary circuits are\n shorted.",
+    "Voltage transformer miniature\n circuit breakers (m.c.b) is opened"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Siemens\n test set which consists of two units",
+    "Current unit type 7VP48.",
+    "Voltage unit type 7VP49.",
+    "Voltmeter, \n Ammeter, Test leads."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preliminary\nSteps to Prepare for Relay Testing"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review\ntechnical reference material manufactures / manual."
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain\ncopy of relay setting from field maintenance file."
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain\noutage for unit protected by this relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check\nthat\nthe bus and unit disconnect switches are opened and tagged."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspect\nthe secondary circuits of CT , VT miniature circuit breakers."
+  },
+  {
+   "type": "paragraph",
+   "text": "(MCB)\nand all cabling supplying the relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Block\nany disturbance alarms or fault recorders associated with this protection."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review\ntechnical reference material manufactures / manual.",
+    "Obtain\ncopy of relay setting from field maintenance file.",
+    "Obtain\noutage for unit protected by this relay",
+    "Check\nthat\nthe bus and unit disconnect switches are opened and tagged.",
+    "Inspect\nthe secondary circuits of CT , VT miniature circuit breakers.",
+    "(MCB)\nand all cabling supplying the relay.",
+    "Block\nany disturbance alarms or fault recorders associated with this protection."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation\nof Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place the\n two cases one on the top of other (the voltage unit on the top of current\n unit)",
+    "Connect\n the two units together by the cable connector 7 XV6201 between test plug\n \"X2\" in current unit and test plug \"X1\" in voltage unit.",
+    "Connect\n the power supply cable 7XV6200 (3*380 V) between the plug \"X1\" in\n the current unit and the source (careful the positive sequence).",
+    "Connect an\n ammeter with the socket \"17 ,18\" in current unit and voltmeter\n with the socket \"5,6\" in voltage unit.",
+    "Connect \n the timer leads on the tester (11,12) to CHA12X02 :( 448,449 ) ."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "To permit the relay operate the current must be pass through the operating coil.",
+    "Inject the\n current to the relay for each phase of the two sides the current leads put\n as the follows:\n CHA 12-X01 neutral side \n Output side\n PH-R \n 128.136 \n 142.136\n PH-S \n 131.136 \n 144.136\n PH-T \n 134.136 \n 146.136",
+    "Determine \n the pick up valve and drop out value and time of pick up value"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reverse Power\nProtection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect\n the m.c.b. for P.T. F24, F25 in cabinet BAB 36",
+    "Disconnect\n the links CHA11-X01 (203,215,225,232,233,234)",
+    "Bridged\n (232,233,234)",
+    "Connect\n the voltage leads UR, US, UT, UN to\n terminal (203,215.225.232)",
+    "Connect\n the current leads IR, IN to terminal CHA11-X01(97.98)",
+    "Inject\n 3- voltage UL = 100v",
+    "Inject\n small current to adjust the angle at 180 then increase it until lamp light\n (Ipu = mA) them determine the time and angle zone, at\n 180 again decrease the current until lamp distinguish (Id.o)",
+    "Determine\n the angle zone for different values of current",
+    "Connect\n the current leads Is, In to terminal CHA11-X01 (101,102) then repeat the 3\n pervious steps.",
+    "Connect\n the current leads It, In to terminal CHA11-X01 (104,105) then repeat the\n previous step."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Under\nImpedance Protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect\n the m.c.b. for P.T. F25 in cabinet BAB 36.",
+    "Disconnect\n the links for CHA11-X01 (201,202,211,212,221,222,231)",
+    "Connect\n the current leads between tester PH-R and CHA11-X01 (81,82)",
+    "Connect\n the voltage between tester (UR, US, UT, UN)\n and terminal CHA11-X01 (201,211,221,231) and bridged both of\n (201,202) (211,212) (221,222)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Under\nVoltage Test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Apply 3-\n voltage by tester 100 v",
+    "Decrease\n the voltage until lamp light (Upu)",
+    "In crease\n the voltage until lamp distinguish (Ugo out)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over\nCurrent test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Increase\n the current until lamp L1 light (Ipu) and time t3",
+    "Decrease\n the current until lamp L1 distinguish (Ido)",
+    "Connect\n the current leads between Is, In PH-T tester are terminal CHA11-X01(89-90)\n and repeat as the previous step"
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject\n current equal the Ipu",
+    "Inject\n voltage to 100 v and decrease the voltage until lamp T1 light for\n each angle of (0,90,180,270)",
+    "Repeat the\n pervious steps to test PH-S & PH-T"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Second \nFault\nPH-PH"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect\n the current terminal between the IR,Is tester and\n CHA11-X01 (81,85) and bridge between CHA11-X01 (82,86)",
+    "Inject the\n P.U value Ipu",
+    "Decrease\n the voltage until lamp t1 light for each angle of\n (0,90,180,270) then record the voltage value .",
+    "Measure \n the time\nby connect terminal tester No (10,21) and terminal point CHA12-X02 No.(448,449)\nspare contact."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Negative\nPhase Sequence"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Put\n current leads to ph-s CHA11-X01 (69,70)",
+    "Put\n current leads to ph-t CHA11-X01 (73,74)",
+    "Determine\n p.u value and d.o value.",
+    "Determine\n the definite & inverse trip time from CHA12-X02(448-449) while bridged\n C.B on condition CHA11-X02 (504,532)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "100 %\nStator Earth Fault"
+  },
+  {
+   "type": "paragraph",
+   "text": "Bridge the\neach two points in CHA 12-X01 (282,288),(284,290),(286,292)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Bridge the\neach two points in CHA 12-X01 (282,288),(284,290),(286,292)",
+    "Connect\n the self test switch (stand still position)",
+    "Put\n variable resistance between the out put phases in cabinet BAB 35 or 36 or 37\n and earth",
+    "Make R=α\n not connect to earth determine the following current by inserting ammeter\n leads in two socket of the relay and removing the pin to out position and \n measure this value and record it .",
+    "Make R =\n 0.0 earth directly and determine the current by the same ammeter",
+    "and \n measure this value and record it .",
+    "Determine\n the Rpu by decreasing the resistance until the relay operate lamp\n light record it , determine the current at the Rpu record \n it."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Under\nexcitation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect\n the m.c.b. for P.T. F24,F25 in cabinet BAB 36",
+    "Disconnect\n the links for CHA 11-X01 (213,214,223,224)",
+    "Connect\n the voltage leads (Us,Ut) to terminal CHA11-X01 (213,223) and bridged\n (213,214), bridged (223,224)",
+    "Connect\n the current leads Ir,In (tester) to terminal CHA11-X01 (93,94)",
+    "Remove the\n two wires from CHA11-X01 (262,263) and connect there to injection DCV\n devices where 263 is (+) ve and 262 is (-) ve"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Excitation\nvoltage test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject DCV\n from DCV device increase the volt until Vex lamp distinguish then \n record this value(Uex\n D.o) then decrease the voltage until Uex lamp light (Uex\n pu)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Under\nvoltage test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Increase\n AC voltage from tester to 100v then decrease it until lamp HH1 light (Upu) \n then record this value\n then increase the voltage until lamp H1 distinguish (UD.0) then \n record this value"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Characteristics (Ch/s)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Put T2,T3 = α Vex\n= 0 U = 100 v"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Increase \n the current at 270 until the lamp α 1 light Ipu then \n record this value",
+    "Determine\n the angle zone for PU value and for other value",
+    "Determine\n the time (T1) and record it ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Ch/s \n2"
+  },
+  {
+   "type": "paragraph",
+   "text": "Put T3 = α \nVex =\n0 U = 100v"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the\n pervious stops for che.1",
+    "Determine\n the time (T2) and record it ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Ch/s \n3"
+  },
+  {
+   "type": "paragraph",
+   "text": "Normal setting \nUex = pu. value"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat the\n pervious stop for che. 1 but for lamp",
+    "Determine\n the time (T3) and record it ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage Rise"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect the m.c.b for P.T. F24, F25 in cabinet BAB 36",
+    "Disconnect the links for CHA11-X01 (205,216)",
+    "Connect the voltage leads to 205,216 relays side.",
+    "Increase the voltage until the lamp light Upu\n then decrease the voltage until the lamp distinguished Udo \n and record it .",
+    "Inject the PU value and determine the time from the \n free\n points of timer."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "80 % Stator Earth Fault E/F"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect the M.C.B. for P.T. F24,F25 in cabinet BAB 36",
+    "Disconnect the links for CHA11-X01 (246,247)",
+    "Connect the voltage leads to 246,247 relays side.",
+    "Increase the voltage until the lamp light Upu\n then decrease the voltage until the lamp distinguished Udo \n and record it .",
+    "Inject the PU value \n and determine the time from the free\n points of timer."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Rotor E/F"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Put variable resistance between the slip ring or brush and\n the earth.",
+    "Connect the self test switch (stand still position)",
+    "Decrease the resistance\n until lamp II (alarm) light Ralarm",
+    "Decrease again until the lamp III (trip) light Rtrip",
+    "Measure the two values Ralarm,\n Rtrip\n and record it"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Transformer Differential protection (step up traf. )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To permit\n the relay operate the current must be pass through the operating coil.",
+    "Inject the\n current to the relay for each phase of the two sides the current leads put\n as the follow:"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Step up trf. Diff",
+     "CHA12-X01",
+     "220 kv side",
+     "Gen. side",
+     "Unit Aux Trf."
+    ],
+    [
+     "",
+     "PH-R",
+     "61.73",
+     "65.73",
+     "78.73"
+    ],
+    [
+     "",
+     "PH-S",
+     "62.73",
+     "68.73",
+     "79.73"
+    ],
+    [
+     "",
+     "PH-T",
+     "63.73",
+     "71.73",
+     "80.73"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "3. Determine the pick up\nvalve and drop out value and time of pick up value and record this value."
+  },
+  {
+   "type": "paragraph",
+   "text": "Over All Differential protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To permit\n the relay operate the current must be pass through the operating coil.",
+    "Inject the\n current to the relay for each phase of the two sides the current leads put\n as the follow:"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Over All Diff.",
+     "CHA12-X06",
+     "220 kv side",
+     "neutral side",
+     "6.3 kv side"
+    ],
+    [
+     "",
+     "PH-R",
+     "61.73",
+     "65.73",
+     "78.73"
+    ],
+    [
+     "",
+     "PH-S",
+     "62.73",
+     "68.73",
+     "79.73"
+    ],
+    [
+     "",
+     "PH-T",
+     "63.73",
+     "71.73",
+     "80.73"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "3. Determine the pick up\nvalve and drop out value and time of pick up value and record this value."
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit Auxiliary transformer Differential \nprotection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To permit\n the relay operate the current must be pass through the operating coil.",
+    "Inject the\n current to the relay for each phase of the two sides the current leads put\n as the follow:"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "U. Aux. Trf. Diff.",
+     "CHA12-X01",
+     "10.5 kv side",
+     "6.3 kv side"
+    ],
+    [
+     "",
+     "PH-R",
+     "113.122",
+     "114.122"
+    ],
+    [
+     "",
+     "PH-S",
+     "116.122",
+     "117.122"
+    ],
+    [
+     "",
+     "PH-T",
+     "119.122",
+     "120.122"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "3. Determine the pick up\nvalve and drop out value and time of pick up value and record this value."
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Excitation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect the M.C.B. for P.T. F24,F25 in cabinet BAB 36",
+    "Disconnect the links for CHA11-X01 (217,227)",
+    "Connect the voltage leads to 217,227 relays side.",
+    "Increase the voltage until the lamp light Upu and \n record this value.\n then decrease the voltage until the lamp distinguished Udo and \n record this value.",
+    "Inject the PU value and determine the time from the common\n points"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Restricted \nEarth Fault for Step UP Transformer"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject current\nto CHA11-X05 (54,55) increase the current until lamp light Ipu, \nand record this value."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject the PU and determine the time from the free \npoints of timer ."
+  },
+  {
+   "type": "paragraph",
+   "text": "Determine the\ntime then decrease the current until the lamp distinguished Id.o and \nrecord this value."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current\nto CHA11-X05 (54,55) increase the current until lamp light Ipu, \nand record this value.",
+    "Inject the PU and determine the time from the free \npoints of timer .",
+    "Determine the\ntime then decrease the current until the lamp distinguished Id.o and \nrecord this value."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit \nAuxiliary Transformer Earth Fault"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject\n current to CHA11-X05 (58,59)",
+    "Determine\n the P.U and d.o value for j > lamp and the time for P.U value and for\n different times of P.U value and record this value.",
+    "Determine\n the P.U and d.o valve for j >> lamp and record this value."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "O/C Relay for Unit Auxiliary Transformer"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Put the\n current leads as the follow:\n U.Aux.\n Diff. Phase \n CHA12-X01 \n PH-R \n 93.94 \n PH-S \n 98.99 \n PH-T \n 103,104",
+    "Determine the PU value and D.O value and time for each phase record these \n values and calculate the reset factor."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "O/C Relay for Excited Transformer"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Put the\n current leads as the follow:\n Excit \n Phase \n CHA11-X01\n PH-R 52.60\n PH-S 55.61\n PH-T 58.62",
+    "Determine\n the PU value and D.O value and time for each phase record these values \n and calculate the reset\n factor."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "DC Earth \nFault E/F 91"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Remove the\n leads 1.2 for transducer and connect the calibrator leads mv 102 for\n transducer Ug 11 increase the mv until relay F91 operate lamp light measure\n the mv and O/P of transducer 5.6 Uup record these value.",
+    "Decrease\n the mv until reset lamp distinguished Ud.o record these value."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect\n the m.c.b for P.T. F 24, F 25 in BAB36 cabinet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect\n the link for point CHA 11 x 01 (288,269) & (265,266)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect\n the link for point CHA 11 x 01 (288,269) & (265,266)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect\n the voltage leads to points CHA 19 x 01 : (268,269) pro, tec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase\n the voltage to 100 v to release the under voltage element"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wait\n 4 sec. the fuse failure flag is appear"
+  },
+  {
+   "type": "paragraph",
+   "text": "Decrease\n the voltage until fuse failure is release, record this value as P.U value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase\n the voltage until ?"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat\n the steps from 3.7 but the voltage leads connected to terminals CHAU x 1 :\n (265,266)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat\n the steps from 3.7 but the voltage leads connected to terminals CHAU x 1 :\n (265,266)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect\n the current leads to the terminals CHA 11, x 01 : (98,106) ph.R"
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase\n the current until the trip flag is appeared, record this pu value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Decrease\n the current until the flag red ease, record this d.o value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat,\n the steps from to 3 for ph.s & ph.T but with connecting the current\n leads to terminals CHA 11, x 01 : (102,107) ph.s & (105,108) ph.T"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat,\n the steps from to 3 for ph.s & ph.T but with connecting the current\n leads to terminals CHA 11, x 01 : (102,107) ph.s & (105,108) ph.T"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect\n the voltage leads to the terminal CHA 11, x01 :(268,269) & (265,266)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect\n the current leads to the terminal CHA 11, x01 :(98,106)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect\n the timer to free contact"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject\n the pu. value of current at voltage element is released and not released"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure\n the time of trip, record this voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat\n the steps from 2-5 to the other phases"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat\n the steps from 2-5 to the other phases"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject\n the voltage 100 v as pervious"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject\n the pu. current for ph. R as pervious"
+  },
+  {
+   "type": "paragraph",
+   "text": "Decrease\n the voltage to p.u. value, trip command appear"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure\n the time as pervious"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure\n the time as pervious"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjust\n the current to p.u. value, while the voltage equal zero"
+  },
+  {
+   "type": "paragraph",
+   "text": "Close\n the unit C.B s without isolators"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject\n the current, the unit C.B s will tripped"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject\n the current, the unit C.B s will tripped"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over and Under frequency"
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect \n the m.b.c. of the secondary circuit of the potential transformer."
+  },
+  {
+   "type": "paragraph",
+   "text": "Disconnect \n the links of CHA11-X01(206,208)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the \n voltage leads to points terminals CHA11-X01(206,208)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject the voltage, \n increase the voltage to Un. (normal)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase \n the frequency until the relay picks up, record this value F > pu, then \n decrease the frequency until the relay drop off, record this value F > do. \n (do: drop out)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure \n this time from free contact where the relay picks up."
+  },
+  {
+   "type": "paragraph",
+   "text": "Again \n adjust the frequency to Fn. (n: nominal)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Decrease \n the frequency until the relay picks up, record this value F < pu, then \n increase the frequency until the relay drop off, record this value F < do."
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure \n this time from free contact where the relay picks up."
+  },
+  {
+   "type": "paragraph",
+   "text": "When the \n relay operate, decrease the voltage until the relay block, record this value \n U block, then increase the voltage until the relay ready, record this value \n U ready."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect \n the m.b.c. of the secondary circuit of the potential transformer.",
+    "Disconnect \n the links of CHA11-X01(206,208).",
+    "Connect the \n voltage leads to points terminals CHA11-X01(206,208).",
+    "Inject the voltage, \n increase the voltage to Un. (normal)",
+    "Increase \n the frequency until the relay picks up, record this value F > pu, then \n decrease the frequency until the relay drop off, record this value F > do. \n (do: drop out)",
+    "Measure \n this time from free contact where the relay picks up.",
+    "Again \n adjust the frequency to Fn. (n: nominal)",
+    "Decrease \n the frequency until the relay picks up, record this value F < pu, then \n increase the frequency until the relay drop off, record this value F < do.",
+    "Measure \n this time from free contact where the relay picks up.",
+    "When the \n relay operate, decrease the voltage until the relay block, record this value \n U block, then increase the voltage until the relay ready, record this value \n U ready."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over current Relay 75J500, Siemens"
+  },
+  {
+   "type": "paragraph",
+   "text": "Injection Current for Phase R"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/C Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect the current leads on\n test device L1, N to the points (1A2,1A1) on the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Increase the current\n to pick up value (>lamp light), record this\n pu value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Decrease\n the current to reset value, record this d.o value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure\n the time from free contact (2B1, 2B4)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat\n the previous steps for ph.s & ph.T, but the current leads connect the\n points (2A1,2A2)ph.s & (3A1,3A2) ph.t"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the current leads on\n test device L1, N to the points (1A2,1A1) on the relay",
+    "Increase the current\n to pick up value (>lamp light), record this\n pu value",
+    "Decrease\n the current to reset value, record this d.o value",
+    "Measure\n the time from free contact (2B1, 2B4)",
+    "Repeat\n the previous steps for ph.s & ph.T, but the current leads connect the\n points (2A1,2A2)ph.s & (3A1,3A2) ph.t"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Short\nCircuit Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat\n the steps on (A) but record the S.c value (I>>lamp light)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Repeat\n the steps on (A) but record the S.c value (I>>lamp light)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip\ncct Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjust\n the S.C. value for any phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "Close\n the CB on the test position (Rack out position (Rack out position)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject\n the current, the C.B is tripped."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Adjust\n the S.C. value for any phase",
+    "Close\n the CB on the test position (Rack out position (Rack out position)",
+    "Inject\n the current, the C.B is tripped."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheets"
+  },
+  {
+   "type": "paragraph",
+   "text": "Generator\nDifferential Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name : Generator Differential \n Manufacturer : Siemens\n Relay Type :\n7UD2110 (low impedance type, inverse ch/s.) \n Relay setting: C.T.R. (Neutral Side) = 10000/1 Id/In =\n0.1 Id (primary) = 1000A\n C.T.R (Output Side) = 10000/1 \nId/In = 1.0A Irated (gen.) ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Neutral Side",
+     "Output Side",
+     "Measuring VDC"
+    ],
+    [
+     "Value/Phase",
+     "Ipu\n mA",
+     "Ido\n mA",
+     "T1\n m sec.",
+     "T2 \n m sec",
+     "",
+     "Ipu\n mA",
+     "Ido\n mA",
+     "T1 \n m sec.",
+     "T2\n msec.",
+     "Operating",
+     "Stabilizing"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Reverse Power\nProtection Test\nSheet\nRelay\nName : Reverse Power Relay type 7RM3310, \nManufacturer : Siemens\nRelay Setting :\nC.T.R. = 10000/1 T1 (Long\nTime) = 5.0 Sec.\n P.T.R. = 10000/100 T2 (Long Time) = 1.0 Sec\nPa/Pn = 4 %"
+  },
+  {
+   "type": "paragraph",
+   "text": "Psec = Pan/2.7 * Pa/Pn%, Pprim = Psec * TRi * TRv \n Psec \n% = (Panaloge/2.7) * Pa/Pn%"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Psec = \nVph*\nIph \nPprim = Psec * TRi * TRv"
+  },
+  {
+   "type": "paragraph",
+   "text": "= Watt = Watt"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay\nName : Generator Impedance Test Sheet\nRelay Type : 7 SL 1810 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. =\n10000/1 \nP.T.R. = 10/0.1 kv\nIn =\n1A \nI> = 1.1A\nU< =\n70v \nr1 = r2 = 9.1\nT1 = 0.1sec \nT2 =0.1sec\nT3 = 3.4 sec \nT4 =4.0sec\nR/X = 2.5"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equation used\n: { (0-180) R=Vph/I \n& (90-270) X =\nVph/I }"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test\nResult"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ch/s 1 under \nvoltage V< \npu = \nV< go out ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Ch/s 2 over current * For V=100v"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Ipu",
+     "Ido",
+     "Time",
+     "R.F."
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "I > Tripped\nMatrix (8) With Time T3 = sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ch/s 3 \nUnder Impedance (parallel program): I> =\n1.1 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Z< Tripped Matrix (7) With Time T1 = \nsec"
+  },
+  {
+   "type": "paragraph",
+   "text": "R= Ώ\nX= Ώ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ch/s 4 Fault at minimum load"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fault < o/c setting + under voltage-------- trip C.B. only ( \n)"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Negative Phase Sequence \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay\nName : Negative phase sequence\nRelay Type : 7 US\n2210 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. =\n10000/1 \nT/S. = 2000 k\n= 0.02\nL2 (Alarm)= 8.5 % T2 \n=3.2sec \nL1 (Trip) = 16% T1 \n= 6.0sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Phase S",
+     "Phase T"
+    ],
+    [
+     "",
+     "Ipu mA",
+     "Ido mA",
+     "Tsec mA",
+     "Ipu mA",
+     "Ido mA",
+     "Tsec mA"
+    ],
+    [
+     "L1",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "L2",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "100 %\nStator Earth Fault \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name : 100 % \nstator earth fault\nRelay Type : 7 UE2210 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. = 400/5 \nP.T.R. = 10.5/0.5 kv \nIs = 4 mA \nT = 0.1sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "paragraph",
+   "text": "R \n= \nα \nI = mA\nR = 0.0 \nI = mA\nRpu = \n I = mA"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under Excitation \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay\nName : Under Excitation\nRelay Type : 7 RM\n3310 Manufacturer : Siemens\nRelay Setting :\nC.T.R. =\n10000/1 \nP.T.R. = 10000 √3/100 √3 \nVexe. \n= \nv \nVblock\n = \nv"
+  },
+  {
+   "type": "paragraph",
+   "text": "1 =\n80, T1 \n= Sec, \n2 =\n90, T2 = \nSec, \n3 = 90, T3 \n= Sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "ג \n= 2 \nג \n=1 \nג =\nEq.Used : \nQ = √3*ג * V* TRi* TRv"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test\nResult"
+  },
+  {
+   "type": "paragraph",
+   "text": "Vexe(pu)\n= \nv \nVexe(do)\n= v\nV<(pu)\n= \nv \nV<(do) \n= \nv"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ch/s 1 \nTest ( ג1, 1 ) : T2,T3 =\nα ,\nVexe. =0.0"
+  },
+  {
+   "type": "paragraph",
+   "text": "T1 = Sec \nTrip Matrix ( )\nQ = Mvar"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ch/s.2 \nTest ( ג2, \n2 ) T3 = α ,\nVexe. ="
+  },
+  {
+   "type": "paragraph",
+   "text": "T2 = \nSec \nTrip Matrix ( )\nQ = Mvar"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ch/c.3 \nTest ( ג3, \n3 ) ,\nVexe. = normal setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "T3 = \nSec \nTrip Matrix ( )\nQ = Mvar"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage Rise \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name : Voltage Rise \nRelay Type : 2RE2110 \nManufacturer: Siemens\nRelay Setting : P.T.R. = 10.0/0.1 kv \nVs =\n120v \nT = sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "paragraph",
+   "text": "Upu \n= \nv \nUdo = v\nT = \nsec"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "80 % Stator Earth Fault E/F \n Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name : 80% stator earth fault\nRelay Type : 7\nRE2610 \nManufacturer : Siemens\nRelay Setting : \nP.T.R. = 10.5/0.5 kv\nVs =\n10v \nT = 0.3 sec."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "paragraph",
+   "text": "Upu \n= \nv \nUdo = v \nT \n= sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rotor Earth \nFault \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name : \nRotor Earth Fault\nRelay Type : 7UR\n2201 \nManufacturer : Siemens\nRelay Setting : \nR (Alarm) = 80 k Ώ \nR(Trip) = 5.0 KΏ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "paragraph",
+   "text": "R (Alarm) = k Ώ \nR(Trip)= KΏ"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over/Under Frequency \n Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay\nName : Over/Under Frequency\nRelay Type : 7 RP2300 \nManufacturer : Siemens\nRelay Setting :\nO/F = 51.5\nHZ \nT(O/F) = 6.4 sec \nU/F = 47.5\nHZ \nT(U/F) = 1.0 sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test\nResult"
+  },
+  {
+   "type": "paragraph",
+   "text": "Uready = \nv \nUblock = \nv\nUo/f = \nhz \nUu/f \n= hz"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name : \nUnit Aux. Transformer Differential Test Sheet\nRelay Type : 7 UT2410 Manufacturer\n: Siemens"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Setting : \nC.T.R. (H.V. side) = 2*300/I/1 \nId/In = 0.4A"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T.R. (L.V. side) = 2*400/I/1 \nI/In = 1.0A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "Measuring VDC"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Operating",
+     "Stabilizing"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name: Step Up Transformer Differential Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Type : 7 UT2510 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. (220 kv side) \n= 1000/1 \nI/In = 0.3A"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T.R. (10.5 kv Gen.side) \n= 1000/1 \nI/In = 1.0A"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T.R. (10.5 kv U.A. Traf. side) = 2* 300/I/1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "220KV Side",
+     "10.5KV Gen, side",
+     "10.5 \n KV U.A. Traf. Side",
+     "Measuring VDC"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Stabilizing"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name \n: Over All Differential \nTest Sheet\nRelay Type : 7 UT2510 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. (220 kv side) \n= 1000/1 \nI/In = 0.3A"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T.R. (Nutral side) \n= 1000/1 \nI/In = 1.0A"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T.R. (6.3 kv side) \n= 2* 400/I/1 \nIrated ="
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "",
+     "measuring VDC"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Stabilizing"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Excitation \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay\nName : Over Excitation\nRelay Type : 7 RC 3600 \nManufacturer : Siemens\nRelay Setting : \n0.5 Vn/Fn =\n1.21 \nT = 2 sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test\nResult"
+  },
+  {
+   "type": "paragraph",
+   "text": "Upu\n= \nv \nUdo\n= \nv\nT = \nsec"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Restricted Earth Fault Step UP Trf. \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay\nName : Restricted Earth Fault Step UP Trf.\nRelay Type : 7 UT3110 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. (neutral\npoint) \n= 600/1"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T.R.\n(H.V.) \n=\n1000/1"
+  },
+  {
+   "type": "paragraph",
+   "text": "Is = \nA \nTime = Inst."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test\nResult"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ipu\n= mA \nIdo = mA"
+  },
+  {
+   "type": "paragraph",
+   "text": "T1 \n= \nm\nsec. \nT2 \n= m\nsec."
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit Aux. Trf. E/F \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay\nName : Earth fault Relay 6.3 kv\nRelay Type : 7 SK 1311 \nManufacturer : Siemens\nRelay Setting : C.T.R. = 600/1 \nJn =1.00"
+  },
+  {
+   "type": "paragraph",
+   "text": "Jp>/Jn \n= \nT (Jp>) =\ninverse TM =\n0.05\nJ>>/Jp> \n= \nT (J>>) =\ninst."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Jpu mA",
+     "Jdo mA",
+     "T1msec",
+     "T2msec"
+    ],
+    [
+     "Jp>",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "J>>",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current Relay (Unit aux. traf.) Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay\nName : Over current 10.5kv side, type 7 SJ 3110, \nManufacturer : Siemens\nRelay Setting : \nC.T.R (H.V. side) = 2*300/I/1\nIrated= A, \nI > = 4.00\nA \nT = sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test\nResult"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current Relay (excitation traf.) Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay\nName : Over current 10.5 kv side\nRelay Type : 7SJ3110 \nManufacturer : Siemens\nRelay Setting : \nC.T.R = 100/1\nIrated = A, \nI > = 4.00\nA \nT = sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test\nResult"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "JpuA",
+     "JdoA",
+     "T sec",
+     "R.F."
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "DC Earth \nFault F91 \nRelay Name : Earth Fault Relay F91"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Type : 7RE2700 \nManufacturer : Siemens\nRelay Setting : \n Upu\n= \nv \nUdo\n= \nv \nUtransducer pu\n= \nmv \nUtransducer do\n= \nmv T\n= sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet for\nProtective Relays G.T. \nNo."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "1",
+     "Generator Diff.",
+     "F01",
+     "7UD21",
+     ""
+    ],
+    [
+     "2",
+     "Reverse power",
+     "F33",
+     "7RM33",
+     ""
+    ],
+    [
+     "3",
+     "Impedance",
+     "F30",
+     "7SL18",
+     ""
+    ],
+    [
+     "4",
+     "Negative phase seq.",
+     "F24",
+     "7US22",
+     ""
+    ],
+    [
+     "5",
+     "100 % Stator E/F",
+     "F47",
+     "7UE22",
+     ""
+    ],
+    [
+     "6",
+     "80 % Stator E/F",
+     "F40",
+     "7RE26",
+     ""
+    ],
+    [
+     "7",
+     "Rotor E/F",
+     "F48",
+     "7UR22",
+     ""
+    ],
+    [
+     "8",
+     "Over voltage",
+     "F51",
+     "7RE21",
+     ""
+    ],
+    [
+     "9",
+     "Over/ Under frequency",
+     "F58",
+     "7RP23",
+     ""
+    ],
+    [
+     "10",
+     "Under Excitation",
+     "F39",
+     "7UU21",
+     ""
+    ],
+    [
+     "11",
+     "Step Up Trf. Diff.",
+     "F07",
+     "7UT25",
+     ""
+    ],
+    [
+     "12",
+     "Step Up Trf. Rest. E/F.",
+     "F13",
+     "7UT31",
+     ""
+    ],
+    [
+     "13",
+     "Over All Differential",
+     "F08",
+     "7UT25",
+     ""
+    ],
+    [
+     "14",
+     "Unit Aux. TRf. Diff.",
+     "F04",
+     "7UT24",
+     ""
+    ],
+    [
+     "15",
+     "Unit Aux. TRf. O/C",
+     "F10",
+     "7SJ31",
+     ""
+    ],
+    [
+     "16",
+     "Unit Aux. TRf. E/F",
+     "F12",
+     "7SK13",
+     ""
+    ],
+    [
+     "17",
+     "Excitation Trf. O/C",
+     "F11",
+     "7SJ31",
+     ""
+    ],
+    [
+     "18",
+     "S.F.C E/F.",
+     "F91",
+     "7RE27",
+     ""
+    ],
+    [
+     "19",
+     "Over excitation",
+     "F53",
+     "7RG36",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "220 kv C.Bs D11 & D13 is closed isolators\n and tripped them by Buchholz relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result."
+  },
+  {
+   "type": "paragraph",
+   "text": "Step Up"
+  },
+  {
+   "type": "paragraph",
+   "text": "U. Aux"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for relay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Dead Machine Relay Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under\nVoltage element test:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Value /\n Phase"
+  },
+  {
+   "type": "paragraph",
+   "text": "P.U."
+  },
+  {
+   "type": "paragraph",
+   "text": "D.O"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over current element test: Ur-s (P.T.1) = \nV & Ur-s(P.T.2)= V (D/M Case)"
+  },
+  {
+   "type": "paragraph",
+   "text": "I>P.U \n A"
+  },
+  {
+   "type": "paragraph",
+   "text": "I>d.o A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tmsec."
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "T"
+  },
+  {
+   "type": "paragraph",
+   "text": "Dead machine test\n Case No.1: Injection {I>+Ur-s > (P.T.1) 100V+Ur-s > (P.T.2)100 V}\nat the\nsame time dead machine trip with time = ms\nCase No.2: Injection {I>Ur-s < (P.T.1) + Ur-s < (P.T.2)} \nat the same time\ndead machine trip with time = ms\nCase No. 3 Injection {I>+Ur-s > (P.T.1) 100 V + Ur-s<(P.T.2)}\nat the\nsame time dead machine trip with time = ms\nCase No. 4 Injection {I>+Ur-s < (P.T.1) + Ur-s > (P.T.2) 100 V}\nat the\nsame time dead machine trip with time = ms"
+  },
+  {
+   "type": "paragraph",
+   "text": "Back up protection test: \nUr-s(P.T.1) 100 V \nUr-s (P.T.2) 100 V"
+  },
+  {
+   "type": "paragraph",
+   "text": "I>P.U \n A"
+  },
+  {
+   "type": "paragraph",
+   "text": "I>d.o A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tmsec."
+  },
+  {
+   "type": "paragraph",
+   "text": "R"
+  },
+  {
+   "type": "paragraph",
+   "text": "S"
+  },
+  {
+   "type": "paragraph",
+   "text": "T"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fuse failure test:"
+  },
+  {
+   "type": "paragraph",
+   "text": "{I>+Ur-s<(P.T.1)+Ur-s>(P.T.2)} = Block"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name \n: \nOver Current 6.3kv,\n 7SJ5001 \nManufacturer: Siemens"
+  },
+  {
+   "type": "paragraph",
+   "text": "Feeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay \nSetting : C.T.R. = Jn = 1.00"
+  },
+  {
+   "type": "paragraph",
+   "text": "Jp \n= A (prim) \nT (Jp>) = sec \nJ \n= A (prim) \n T (J>>) \n= sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Jpu A",
+     "Jdo A",
+     "Tsec",
+     "R.F.",
+     "J>>",
+     "T \n (J>>)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for \nrelay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name : \nOver Current 6.3kv,\n 7SJ5001, \nManufacturer: Siemens Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Feeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay \nSetting : C.T.R. = Jn = 1.00"
+  },
+  {
+   "type": "paragraph",
+   "text": "Jp \n= A (prim) \nT (Jp>) = sec \nJ \n= A (prim) \n T (J>>) \n= sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Jpu A",
+     "Jdo A",
+     "Tsec",
+     "R.F.",
+     "J>>",
+     "T \n (J>>)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for \nrelay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name : \nOver Current 6.3kv,\n 7SJ5001, \nManufacturer: Siemens \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Feeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay \nSetting : C.T.R. = Jn = 1.00"
+  },
+  {
+   "type": "paragraph",
+   "text": "Jp \n= A (prim) \nT (Jp>) = sec \nJ \n= A (prim) \n T (J>>) \n= sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Jpu A",
+     "Jdo A",
+     "Tsec",
+     "R.F.",
+     "J>>",
+     "T \n (J>>)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "- Trip function for \nrelay \n-------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "-----------------------------------------------------------------------------------------------------------------"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Name : \nOver Current 6.3kv,\n 7SJ5001, \nManufacturer: Siemens \nTest Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Feeder Name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay \nSetting : C.T.R. = Jn = 1.00"
+  },
+  {
+   "type": "paragraph",
+   "text": "Jp \n= A (prim) \nT (Jp>) = sec \nJ \n= A (prim) \n T (J>>) \n= sec"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Result"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "Jpu A",
+     "Jdo A",
+     "Tsec",
+     "R.F.",
+     "J>>",
+     "T \n (J>>)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for \nrelay \n-------------------------------------------------------------------------------------"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety category,\nA work permit must be issued and the qualified maintenance staff should carry the suitable safety category,\nSafety fence (rope) with caution \nmarks surrounding the work area,\nWear your safety helmet, shoes .... etc\nGas turbine out of service and work\n permit required.\nMake sure CT secondary circuits are\n shorted.\nVoltage transformer miniature\n circuit breakers (m.c.b) is opened\nTools and Equipment\nSiemens\n test set which consists of two units\nCurrent unit type 7VP48.\nVoltage unit type 7VP49.\nVoltmeter, \n Ammeter, Test leads.\nWork to be Carried Out\nPreliminary\nSteps to Prepare for Relay Testing\nReview\ntechnical reference material manufactures / manual.\nObtain\ncopy of relay setting from field maintenance file.\nObtain\noutage for unit protected by this relay\nCheck\nthat\nthe bus and unit disconnect switches are opened and tagged.\nInspect\nthe secondary circuits of CT , VT miniature circuit breakers.\n(MCB)\nand all cabling supplying the relay.\nBlock\nany disturbance alarms or fault recorders associated with this protection.\nReview\ntechnical reference material manufactures / manual.\nObtain\ncopy of relay setting from field maintenance file.\nObtain\noutage for unit protected by this relay\nCheck\nthat\nthe bus and unit disconnect switches are opened and tagged.\nInspect\nthe secondary circuits of CT , VT miniature circuit breakers.\n(MCB)\nand all cabling supplying the relay.\nBlock\nany disturbance alarms or fault recorders associated with this protection.\nPreparation\nof Test\nPlace the\n two cases one on the top of other (the voltage unit on the top of current\n unit)\nConnect\n the two units together by the cable connector 7 XV6201 between test plug\n \"X2\" in current unit and test plug \"X1\" in voltage unit.\nConnect\n the power supply cable 7XV6200 (3*380 V) between the plug \"X1\" in\n the current unit and the source (careful the positive sequence).\nConnect an\n ammeter with the socket \"17 ,18\" in current unit and voltmeter\n with the socket \"5,6\" in voltage unit.\nConnect \n the timer leads on the tester (11,12) to CHA12X02 :( 448,449 ) .\nTo permit the relay operate the current must be pass through the operating coil.\nInject the\n current to the relay for each phase of the two sides the current leads put\n as the follows:\n CHA 12-X01 neutral side \n Output side\n PH-R \n 128.136 \n 142.136\n PH-S \n 131.136 \n 144.136\n PH-T \n 134.136 \n 146.136\nDetermine \n the pick up valve and drop out value and time of pick up value\nReverse Power\nProtection\nDisconnect\n the m.c.b. for P.T. F24, F25 in cabinet BAB 36\nDisconnect\n the links CHA11-X01 (203,215,225,232,233,234)\nBridged\n (232,233,234)\nConnect\n the voltage leads UR, US, UT, UN to\n terminal (203,215.225.232)\nConnect\n the current leads IR, IN to terminal CHA11-X01(97.98)\nInject\n 3- voltage UL = 100v\nInject\n small current to adjust the angle at 180 then increase it until lamp light\n (Ipu = mA) them determine the time and angle zone, at\n 180 again decrease the current until lamp distinguish (Id.o)\nDetermine\n the angle zone for different values of current\nConnect\n the current leads Is, In to terminal CHA11-X01 (101,102) then repeat the 3\n pervious steps.\nConnect\n the current leads It, In to terminal CHA11-X01 (104,105) then repeat the\n previous step.\nUnder\nImpedance Protection\nDisconnect\n the m.c.b. for P.T. F25 in cabinet BAB 36.\nDisconnect\n the links for CHA11-X01 (201,202,211,212,221,222,231)\nConnect\n the current leads between tester PH-R and CHA11-X01 (81,82)\nConnect\n the voltage between tester (UR, US, UT, UN)\n and terminal CHA11-X01 (201,211,221,231) and bridged both of\n (201,202) (211,212) (221,222)\nUnder\nVoltage Test\nApply 3-\n voltage by tester 100 v\nDecrease\n the voltage until lamp light (Upu)\nIn crease\n the voltage until lamp distinguish (Ugo out)\nOver\nCurrent test\nIncrease\n the current until lamp L1 light (Ipu) and time t3\nDecrease\n the current until lamp L1 distinguish (Ido)\nConnect\n the current leads between Is, In PH-T tester are terminal CHA11-X01(89-90)\n and repeat as the previous step\nInject\n current equal the Ipu\nInject\n voltage to 100 v and decrease the voltage until lamp T1 light for\n each angle of (0,90,180,270)\nRepeat the\n pervious steps to test PH-S & PH-T\nSecond \nFault\nPH-PH\nConnect\n the current terminal between the IR,Is tester and\n CHA11-X01 (81,85) and bridge between CHA11-X01 (82,86)\nInject the\n P.U value Ipu\nDecrease\n the voltage until lamp t1 light for each angle of\n (0,90,180,270) then record the voltage value .\nMeasure \n the time\nby connect terminal tester No (10,21) and terminal point CHA12-X02 No.(448,449)\nspare contact.\nNegative\nPhase Sequence\nPut\n current leads to ph-s CHA11-X01 (69,70)\nPut\n current leads to ph-t CHA11-X01 (73,74)\nDetermine\n p.u value and d.o value.\nDetermine\n the definite & inverse trip time from CHA12-X02(448-449) while bridged\n C.B on condition CHA11-X02 (504,532)\n100 %\nStator Earth Fault\nBridge the\neach two points in CHA 12-X01 (282,288),(284,290),(286,292)\nBridge the\neach two points in CHA 12-X01 (282,288),(284,290),(286,292)\nConnect\n the self test switch (stand still position)\nPut\n variable resistance between the out put phases in cabinet BAB 35 or 36 or 37\n and earth\nMake R=α\n not connect to earth determine the following current by inserting ammeter\n leads in two socket of the relay and removing the pin to out position and \n measure this value and record it .\nMake R =\n 0.0 earth directly and determine the current by the same ammeter\nand \n measure this value and record it .\nDetermine\n the Rpu by decreasing the resistance until the relay operate lamp\n light record it , determine the current at the Rpu record \n it.\nUnder\nexcitation\nDisconnect\n the m.c.b. for P.T. F24,F25 in cabinet BAB 36\nDisconnect\n the links for CHA 11-X01 (213,214,223,224)\nConnect\n the voltage leads (Us,Ut) to terminal CHA11-X01 (213,223) and bridged\n (213,214), bridged (223,224)\nConnect\n the current leads Ir,In (tester) to terminal CHA11-X01 (93,94)\nRemove the\n two wires from CHA11-X01 (262,263) and connect there to injection DCV\n devices where 263 is (+) ve and 262 is (-) ve\nExcitation\nvoltage test\nInject DCV\n from DCV device increase the volt until Vex lamp distinguish then \n record this value(Uex\n D.o) then decrease the voltage until Uex lamp light (Uex\n pu)\nUnder\nvoltage test\nIncrease\n AC voltage from tester to 100v then decrease it until lamp HH1 light (Upu) \n then record this value\n then increase the voltage until lamp H1 distinguish (UD.0) then \n record this value\nCharacteristics (Ch/s)\nPut T2,T3 = α Vex\n= 0 U = 100 v\nIncrease \n the current at 270 until the lamp α 1 light Ipu then \n record this value\nDetermine\n the angle zone for PU value and for other value\nDetermine\n the time (T1) and record it .\nCh/s \n2\nPut T3 = α \nVex =\n0 U = 100v\nRepeat the\n pervious stops for che.1\nDetermine\n the time (T2) and record it .\nCh/s \n3\nNormal setting \nUex = pu. value\nRepeat the\n pervious stop for che. 1 but for lamp\nDetermine\n the time (T3) and record it .\nVoltage Rise\nDisconnect the m.c.b for P.T. F24, F25 in cabinet BAB 36\nDisconnect the links for CHA11-X01 (205,216)\nConnect the voltage leads to 205,216 relays side.\nIncrease the voltage until the lamp light Upu\n then decrease the voltage until the lamp distinguished Udo \n and record it .\nInject the PU value and determine the time from the \n free\n points of timer.\n80 % Stator Earth Fault E/F\nDisconnect the M.C.B. for P.T. F24,F25 in cabinet BAB 36\nDisconnect the links for CHA11-X01 (246,247)\nConnect the voltage leads to 246,247 relays side.\nIncrease the voltage until the lamp light Upu\n then decrease the voltage until the lamp distinguished Udo \n and record it .\nInject the PU value \n and determine the time from the free\n points of timer.\nRotor E/F\nPut variable resistance between the slip ring or brush and\n the earth.\nConnect the self test switch (stand still position)\nDecrease the resistance\n until lamp II (alarm) light Ralarm\nDecrease again until the lamp III (trip) light Rtrip\nMeasure the two values Ralarm,\n Rtrip\n and record it\nTransformer Differential protection (step up traf. )\nTo permit\n the relay operate the current must be pass through the operating coil.\nInject the\n current to the relay for each phase of the two sides the current leads put\n as the follow:\n\n3. Determine the pick up\nvalve and drop out value and time of pick up value and record this value.\nOver All Differential protection\nTo permit\n the relay operate the current must be pass through the operating coil.\nInject the\n current to the relay for each phase of the two sides the current leads put\n as the follow:\n\n3. Determine the pick up\nvalve and drop out value and time of pick up value and record this value.\nUnit Auxiliary transformer Differential \nprotection\nTo permit\n the relay operate the current must be pass through the operating coil.\nInject the\n current to the relay for each phase of the two sides the current leads put\n as the follow:\n\n3. Determine the pick up\nvalve and drop out value and time of pick up value and record this value.\nOver Excitation\nDisconnect the M.C.B. for P.T. F24,F25 in cabinet BAB 36\nDisconnect the links for CHA11-X01 (217,227)\nConnect the voltage leads to 217,227 relays side.\nIncrease the voltage until the lamp light Upu and \n record this value.\n then decrease the voltage until the lamp distinguished Udo and \n record this value.\nInject the PU value and determine the time from the common\n points\nRestricted \nEarth Fault for Step UP Transformer\nInject current\nto CHA11-X05 (54,55) increase the current until lamp light Ipu, \nand record this value.\nInject the PU and determine the time from the free \npoints of timer .\nDetermine the\ntime then decrease the current until the lamp distinguished Id.o and \nrecord this value.\nInject current\nto CHA11-X05 (54,55) increase the current until lamp light Ipu, \nand record this value.\nInject the PU and determine the time from the free \npoints of timer .\nDetermine the\ntime then decrease the current until the lamp distinguished Id.o and \nrecord this value.\nUnit \nAuxiliary Transformer Earth Fault\nInject\n current to CHA11-X05 (58,59)\nDetermine\n the P.U and d.o value for j > lamp and the time for P.U value and for\n different times of P.U value and record this value.\nDetermine\n the P.U and d.o valve for j >> lamp and record this value.\nO/C Relay for Unit Auxiliary Transformer\nPut the\n current leads as the follow:\n U.Aux.\n Diff. Phase \n CHA12-X01 \n PH-R \n 93.94 \n PH-S \n 98.99 \n PH-T \n 103,104\nDetermine the PU value and D.O value and time for each phase record these \n values and calculate the reset factor.\nO/C Relay for Excited Transformer\nPut the\n current leads as the follow:\n Excit \n Phase \n CHA11-X01\n PH-R 52.60\n PH-S 55.61\n PH-T 58.62\nDetermine\n the PU value and D.O value and time for each phase record these values \n and calculate the reset\n factor.\nDC Earth \nFault E/F 91\nRemove the\n leads 1.2 for transducer and connect the calibrator leads mv 102 for\n transducer Ug 11 increase the mv until relay F91 operate lamp light measure\n the mv and O/P of transducer 5.6 Uup record these value.\nDecrease\n the mv until reset lamp distinguished Ud.o record these value.\nDisconnect\n the m.c.b for P.T. F 24, F 25 in BAB36 cabinet\nDisconnect\n the link for point CHA 11 x 01 (288,269) & (265,266)\nDisconnect\n the link for point CHA 11 x 01 (288,269) & (265,266)\nConnect\n the voltage leads to points CHA 19 x 01 : (268,269) pro, tec\nIncrease\n the voltage to 100 v to release the under voltage element\nWait\n 4 sec. the fuse failure flag is appear\nDecrease\n the voltage until fuse failure is release, record this value as P.U value\nIncrease\n the voltage until ?\nRepeat\n the steps from 3.7 but the voltage leads connected to terminals CHAU x 1 :\n (265,266)\nRepeat\n the steps from 3.7 but the voltage leads connected to terminals CHAU x 1 :\n (265,266)\nConnect\n the current leads to the terminals CHA 11, x 01 : (98,106) ph.R\nIncrease\n the current until the trip flag is appeared, record this pu value\nDecrease\n the current until the flag red ease, record this d.o value\nRepeat,\n the steps from to 3 for ph.s & ph.T but with connecting the current\n leads to terminals CHA 11, x 01 : (102,107) ph.s & (105,108) ph.T\nRepeat,\n the steps from to 3 for ph.s & ph.T but with connecting the current\n leads to terminals CHA 11, x 01 : (102,107) ph.s & (105,108) ph.T\nConnect\n the voltage leads to the terminal CHA 11, x01 :(268,269) & (265,266)\nConnect\n the current leads to the terminal CHA 11, x01 :(98,106)\nConnect\n the timer to free contact\nInject\n the pu. value of current at voltage element is released and not released\nMeasure\n the time of trip, record this voltage\nRepeat\n the steps from 2-5 to the other phases\nRepeat\n the steps from 2-5 to the other phases\nInject\n the voltage 100 v as pervious\nInject\n the pu. current for ph. R as pervious\nDecrease\n the voltage to p.u. value, trip command appear\nMeasure\n the time as pervious\nMeasure\n the time as pervious\nAdjust\n the current to p.u. value, while the voltage equal zero\nClose\n the unit C.B s without isolators\nInject\n the current, the unit C.B s will tripped\nInject\n the current, the unit C.B s will tripped\nOver and Under frequency\nDisconnect \n the m.b.c. of the secondary circuit of the potential transformer.\nDisconnect \n the links of CHA11-X01(206,208).\nConnect the \n voltage leads to points terminals CHA11-X01(206,208).\nInject the voltage, \n increase the voltage to Un. (normal)\nIncrease \n the frequency until the relay picks up, record this value F > pu, then \n decrease the frequency until the relay drop off, record this value F > do. \n (do: drop out)\nMeasure \n this time from free contact where the relay picks up.\nAgain \n adjust the frequency to Fn. (n: nominal)\nDecrease \n the frequency until the relay picks up, record this value F < pu, then \n increase the frequency until the relay drop off, record this value F < do.\nMeasure \n this time from free contact where the relay picks up.\nWhen the \n relay operate, decrease the voltage until the relay block, record this value \n U block, then increase the voltage until the relay ready, record this value \n U ready.\nDisconnect \n the m.b.c. of the secondary circuit of the potential transformer.\nDisconnect \n the links of CHA11-X01(206,208).\nConnect the \n voltage leads to points terminals CHA11-X01(206,208).\nInject the voltage, \n increase the voltage to Un. (normal)\nIncrease \n the frequency until the relay picks up, record this value F > pu, then \n decrease the frequency until the relay drop off, record this value F > do. \n (do: drop out)\nMeasure \n this time from free contact where the relay picks up.\nAgain \n adjust the frequency to Fn. (n: nominal)\nDecrease \n the frequency until the relay picks up, record this value F < pu, then \n increase the frequency until the relay drop off, record this value F < do.\nMeasure \n this time from free contact where the relay picks up.\nWhen the \n relay operate, decrease the voltage until the relay block, record this value \n U block, then increase the voltage until the relay ready, record this value \n U ready.\nOver current Relay 75J500, Siemens\nInjection Current for Phase R\nO/C Test\nConnect the current leads on\n test device L1, N to the points (1A2,1A1) on the relay\nIncrease the current\n to pick up value (>lamp light), record this\n pu value\nDecrease\n the current to reset value, record this d.o value\nMeasure\n the time from free contact (2B1, 2B4)\nRepeat\n the previous steps for ph.s & ph.T, but the current leads connect the\n points (2A1,2A2)ph.s & (3A1,3A2) ph.t\nConnect the current leads on\n test device L1, N to the points (1A2,1A1) on the relay\nIncrease the current\n to pick up value (>lamp light), record this\n pu value\nDecrease\n the current to reset value, record this d.o value\nMeasure\n the time from free contact (2B1, 2B4)\nRepeat\n the previous steps for ph.s & ph.T, but the current leads connect the\n points (2A1,2A2)ph.s & (3A1,3A2) ph.t\nShort\nCircuit Test\nRepeat\n the steps on (A) but record the S.c value (I>>lamp light)\nRepeat\n the steps on (A) but record the S.c value (I>>lamp light)\nTrip\ncct Test\nAdjust\n the S.C. value for any phase\nClose\n the CB on the test position (Rack out position (Rack out position)\nInject\n the current, the C.B is tripped.\nAdjust\n the S.C. value for any phase\nClose\n the CB on the test position (Rack out position (Rack out position)\nInject\n the current, the C.B is tripped.\nTest Sheets\nGenerator\nDifferential Protection\nRelay Name : Generator Differential \n Manufacturer : Siemens\n Relay Type :\n7UD2110 (low impedance type, inverse ch/s.) \n Relay setting: C.T.R. (Neutral Side) = 10000/1 Id/In =\n0.1 Id (primary) = 1000A\n C.T.R (Output Side) = 10000/1 \nId/In = 1.0A Irated (gen.) =\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nReverse Power\nProtection Test\nSheet\nRelay\nName : Reverse Power Relay type 7RM3310, \nManufacturer : Siemens\nRelay Setting :\nC.T.R. = 10000/1 T1 (Long\nTime) = 5.0 Sec.\n P.T.R. = 10000/100 T2 (Long Time) = 1.0 Sec\nPa/Pn = 4 %\nPsec = Pan/2.7 * Pa/Pn%, Pprim = Psec * TRi * TRv \n Psec \n% = (Panaloge/2.7) * Pa/Pn%\nTest Result\n\nPsec = \nVph*\nIph \nPprim = Psec * TRi * TRv\n= Watt = Watt\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\nRelay\nName : Generator Impedance Test Sheet\nRelay Type : 7 SL 1810 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. =\n10000/1 \nP.T.R. = 10/0.1 kv\nIn =\n1A \nI> = 1.1A\nU< =\n70v \nr1 = r2 = 9.1\nT1 = 0.1sec \nT2 =0.1sec\nT3 = 3.4 sec \nT4 =4.0sec\nR/X = 2.5\nEquation used\n: { (0-180) R=Vph/I \n& (90-270) X =\nVph/I }\nTest\nResult\nCh/s 1 under \nvoltage V< \npu = \nV< go out =\nCh/s 2 over current * For V=100v\n\nI > Tripped\nMatrix (8) With Time T3 = sec\nCh/s 3 \nUnder Impedance (parallel program): I> =\n1.1 A\nZ< Tripped Matrix (7) With Time T1 = \nsec\nR= Ώ\nX= Ώ\nCh/s 4 Fault at minimum load\nFault < o/c setting + under voltage-------- trip C.B. only ( \n)\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nNegative Phase Sequence \nTest Sheet\nRelay\nName : Negative phase sequence\nRelay Type : 7 US\n2210 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. =\n10000/1 \nT/S. = 2000 k\n= 0.02\nL2 (Alarm)= 8.5 % T2 \n=3.2sec \nL1 (Trip) = 16% T1 \n= 6.0sec\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n100 %\nStator Earth Fault \nTest Sheet\nRelay Name : 100 % \nstator earth fault\nRelay Type : 7 UE2210 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. = 400/5 \nP.T.R. = 10.5/0.5 kv \nIs = 4 mA \nT = 0.1sec\nTest Result\nR \n= \nα \nI = mA\nR = 0.0 \nI = mA\nRpu = \n I = mA\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nUnder Excitation \nTest Sheet\nRelay\nName : Under Excitation\nRelay Type : 7 RM\n3310 Manufacturer : Siemens\nRelay Setting :\nC.T.R. =\n10000/1 \nP.T.R. = 10000 √3/100 √3 \nVexe. \n= \nv \nVblock\n = \nv\n1 =\n80, T1 \n= Sec, \n2 =\n90, T2 = \nSec, \n3 = 90, T3 \n= Sec\nג \n= 2 \nג \n=1 \nג =\nEq.Used : \nQ = √3*ג * V* TRi* TRv\nTest\nResult\nVexe(pu)\n= \nv \nVexe(do)\n= v\nV<(pu)\n= \nv \nV<(do) \n= \nv\nCh/s 1 \nTest ( ג1, 1 ) : T2,T3 =\nα ,\nVexe. =0.0\nT1 = Sec \nTrip Matrix ( )\nQ = Mvar\nCh/s.2 \nTest ( ג2, \n2 ) T3 = α ,\nVexe. =\nT2 = \nSec \nTrip Matrix ( )\nQ = Mvar\nCh/c.3 \nTest ( ג3, \n3 ) ,\nVexe. = normal setting\nT3 = \nSec \nTrip Matrix ( )\nQ = Mvar\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\nVoltage Rise \nTest Sheet\nRelay Name : Voltage Rise \nRelay Type : 2RE2110 \nManufacturer: Siemens\nRelay Setting : P.T.R. = 10.0/0.1 kv \nVs =\n120v \nT = sec.\nTest Result\nUpu \n= \nv \nUdo = v\nT = \nsec\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\n80 % Stator Earth Fault E/F \n Test Sheet\nRelay Name : 80% stator earth fault\nRelay Type : 7\nRE2610 \nManufacturer : Siemens\nRelay Setting : \nP.T.R. = 10.5/0.5 kv\nVs =\n10v \nT = 0.3 sec.\nTest Result\nUpu \n= \nv \nUdo = v \nT \n= sec\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nRotor Earth \nFault \nTest Sheet\nRelay Name : \nRotor Earth Fault\nRelay Type : 7UR\n2201 \nManufacturer : Siemens\nRelay Setting : \nR (Alarm) = 80 k Ώ \nR(Trip) = 5.0 KΏ\nTest Result\nR (Alarm) = k Ώ \nR(Trip)= KΏ\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nOver/Under Frequency \n Test Sheet\nRelay\nName : Over/Under Frequency\nRelay Type : 7 RP2300 \nManufacturer : Siemens\nRelay Setting :\nO/F = 51.5\nHZ \nT(O/F) = 6.4 sec \nU/F = 47.5\nHZ \nT(U/F) = 1.0 sec\nTest\nResult\nUready = \nv \nUblock = \nv\nUo/f = \nhz \nUu/f \n= hz\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\nRelay Name : \nUnit Aux. Transformer Differential Test Sheet\nRelay Type : 7 UT2410 Manufacturer\n: Siemens\nRelay Setting : \nC.T.R. (H.V. side) = 2*300/I/1 \nId/In = 0.4A\nC.T.R. (L.V. side) = 2*400/I/1 \nI/In = 1.0A\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nRelay Name: Step Up Transformer Differential Test Sheet\nRelay Type : 7 UT2510 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. (220 kv side) \n= 1000/1 \nI/In = 0.3A\nC.T.R. (10.5 kv Gen.side) \n= 1000/1 \nI/In = 1.0A\nC.T.R. (10.5 kv U.A. Traf. side) = 2* 300/I/1\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nRelay Name \n: Over All Differential \nTest Sheet\nRelay Type : 7 UT2510 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. (220 kv side) \n= 1000/1 \nI/In = 0.3A\nC.T.R. (Nutral side) \n= 1000/1 \nI/In = 1.0A\nC.T.R. (6.3 kv side) \n= 2* 400/I/1 \nIrated =\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\nOver Excitation \nTest Sheet\nRelay\nName : Over Excitation\nRelay Type : 7 RC 3600 \nManufacturer : Siemens\nRelay Setting : \n0.5 Vn/Fn =\n1.21 \nT = 2 sec\nTest\nResult\nUpu\n= \nv \nUdo\n= \nv\nT = \nsec\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nRestricted Earth Fault Step UP Trf. \nTest Sheet\nRelay\nName : Restricted Earth Fault Step UP Trf.\nRelay Type : 7 UT3110 \nManufacturer : Siemens\nRelay Setting : \nC.T.R. (neutral\npoint) \n= 600/1\nC.T.R.\n(H.V.) \n=\n1000/1\nIs = \nA \nTime = Inst.\nTest\nResult\nIpu\n= mA \nIdo = mA\nT1 \n= \nm\nsec. \nT2 \n= m\nsec.\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nUnit Aux. Trf. E/F \nTest Sheet\nRelay\nName : Earth fault Relay 6.3 kv\nRelay Type : 7 SK 1311 \nManufacturer : Siemens\nRelay Setting : C.T.R. = 600/1 \nJn =1.00\nJp>/Jn \n= \nT (Jp>) =\ninverse TM =\n0.05\nJ>>/Jp> \n= \nT (J>>) =\ninst.\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nOver Current Relay (Unit aux. traf.) Test Sheet\nRelay\nName : Over current 10.5kv side, type 7 SJ 3110, \nManufacturer : Siemens\nRelay Setting : \nC.T.R (H.V. side) = 2*300/I/1\nIrated= A, \nI > = 4.00\nA \nT = sec\nTest\nResult\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\nOver Current Relay (excitation traf.) Test Sheet\nRelay\nName : Over current 10.5 kv side\nRelay Type : 7SJ3110 \nManufacturer : Siemens\nRelay Setting : \nC.T.R = 100/1\nIrated = A, \nI > = 4.00\nA \nT = sec\nTest\nResult\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nDC Earth \nFault F91 \nRelay Name : Earth Fault Relay F91\nRelay Type : 7RE2700 \nManufacturer : Siemens\nRelay Setting : \n Upu\n= \nv \nUdo\n= \nv \nUtransducer pu\n= \nmv \nUtransducer do\n= \nmv T\n= sec\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nTest Sheet for\nProtective Relays G.T. \nNo.\n\n220 kv C.Bs D11 & D13 is closed isolators\n and tripped them by Buchholz relay.\nTest Result.\nStep Up\nU. Aux\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nDead Machine Relay Test Sheet\nUnder\nVoltage element test:\nValue /\n Phase\nP.U.\nD.O\nOver current element test: Ur-s (P.T.1) = \nV & Ur-s(P.T.2)= V (D/M Case)\nI>P.U \n A\nI>d.o A\nTmsec.\nR\nS\nT\nDead machine test\n Case No.1: Injection {I>+Ur-s > (P.T.1) 100V+Ur-s > (P.T.2)100 V}\nat the\nsame time dead machine trip with time = ms\nCase No.2: Injection {I>Ur-s < (P.T.1) + Ur-s < (P.T.2)} \nat the same time\ndead machine trip with time = ms\nCase No. 3 Injection {I>+Ur-s > (P.T.1) 100 V + Ur-s<(P.T.2)}\nat the\nsame time dead machine trip with time = ms\nCase No. 4 Injection {I>+Ur-s < (P.T.1) + Ur-s > (P.T.2) 100 V}\nat the\nsame time dead machine trip with time = ms\nBack up protection test: \nUr-s(P.T.1) 100 V \nUr-s (P.T.2) 100 V\nI>P.U \n A\nI>d.o A\nTmsec.\nR\nS\nT\nFuse failure test:\n{I>+Ur-s<(P.T.1)+Ur-s>(P.T.2)} = Block\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for relay \n-------------------------------------------------------------------------------------\nTest Sheet\nRelay Name \n: \nOver Current 6.3kv,\n 7SJ5001 \nManufacturer: Siemens\nFeeder Name:\nRelay \nSetting : C.T.R. = Jn = 1.00\nJp \n= A (prim) \nT (Jp>) = sec \nJ \n= A (prim) \n T (J>>) \n= sec\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for \nrelay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nRelay Name : \nOver Current 6.3kv,\n 7SJ5001, \nManufacturer: Siemens Test Sheet\nFeeder Name:\nRelay \nSetting : C.T.R. = Jn = 1.00\nJp \n= A (prim) \nT (Jp>) = sec \nJ \n= A (prim) \n T (J>>) \n= sec\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for \nrelay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nRelay Name : \nOver Current 6.3kv,\n 7SJ5001, \nManufacturer: Siemens \nTest Sheet\nFeeder Name:\nRelay \nSetting : C.T.R. = Jn = 1.00\nJp \n= A (prim) \nT (Jp>) = sec \nJ \n= A (prim) \n T (J>>) \n= sec\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for \nrelay \n-------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------\nRelay Name : \nOver Current 6.3kv,\n 7SJ5001, \nManufacturer: Siemens \nTest Sheet\nFeeder Name:\nRelay \nSetting : C.T.R. = Jn = 1.00\nJp \n= A (prim) \nT (Jp>) = sec \nJ \n= A (prim) \n T (J>>) \n= sec\nTest Result\n\n- Relay function protection \n-------------------------------------------------------------------------------------\n- Trip function for \nrelay \n-------------------------------------------------------------------------------------",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/GTP-001-eq3.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/GTP-001-eq1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/GTP-001-eq2.gif",
+   "alt": ""
+  }
+ ]
+}

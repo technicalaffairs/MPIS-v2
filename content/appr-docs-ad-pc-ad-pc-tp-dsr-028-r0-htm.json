@@ -1,0 +1,808 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-028-r0-htm",
+ "doc_number": "DSR-028-R0",
+ "title_en": "dsr-028-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DSR-028-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Substations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The REL511 is \na universal line protection, control and monitoring terminal that can be applied to \ntransmission and sub-transmission overhead lines and cables in solidly \nearthed, as well as in low resistance earthed networks. The basic \nprotection function in REL521 is a full scheme distance protection with indivicual \nmeasuring elements for the different types of faults that belong to the \nvarious impedance zones. The terminal includes three impedance measuring zones \nwith programmable directionality."
+  },
+  {
+   "type": "paragraph",
+   "text": "The \nindependent measuring elements provide general fault criterion"
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The\n first draft initiated by eng. Samah Mokhtar Mostafa,\n tested at 15 Oct 2002 by eng. Yousef Melad Shahat at El Eslah Portable station, accepted by General director eng. \n Abdel Menem Rabie Motalaqeh,\n and approved by eng. Fawzy Mourse Mohamed:\n Head Sector of Aswan Network."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence\n(rope) with caution marks surrounding the work area,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Line isolation and work permit required"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,",
+    "Safety fence\n(rope) with caution marks surrounding the work area,",
+    "Line isolation and work permit required",
+    "Make sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltmeter, Ammeter, \nand Test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "RTS 21 (FREJA) a test \n set",
+    "Voltmeter, Ammeter, \nand Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to prepare for relay \ntesting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review technical reference material and \nmanufacturer's manual"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain outage for line protected by this \nrelay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that the circuit breaker is opened and \ntagged"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying"
+  },
+  {
+   "type": "paragraph",
+   "text": "Use the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material and \nmanufacturer's manual",
+    "Obtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay",
+    "Obtain outage for line protected by this \nrelay",
+    "Check that the circuit breaker is opened and \ntagged",
+    "Inspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying",
+    "Use the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow this test procedure",
+    "Verify the test results match the relay setting",
+    "Trip the circuit breaker associated with the relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure shoud be used for performing off load line",
+    "Look the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance",
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the setting from the relay by using \nthe PC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "By using the six keys on the MMI (mam machine interface) of the relay read the \n setting"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Distance protection test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Be sure that the D.C power of the relay is correct by applying a D.C voltmeter \n across points X16 (17) and X16 (18) on the rear of the relay",
+    "Connect the current test leads on the current terminals of the relay \n X11(1,2,3,8) and the voltage test leads on the voltage terminals of the relay \n X12 (1,6,8,10)",
+    "Connect A.C power to the test set",
+    "Inject current, voltage and phase angle by selecting the value of impedance \n (X)",
+    "To test zone (1) phase R to Neutral:\n * Take the value of (X) greater than the maximum value of working for zone 1 \n and decrease it slowly until the \n relay operates and the Red LED (right) on the MMI be steady light\n * Display the last disturbance on the LCD of the MMI and check the displayed \n disturbance with the actual fault disturbance",
+    "Repeat step 5 to test zone (1) phase S to Neutral",
+    "Repeat step 5 to test zone (1) phase T to Neutral",
+    "Repeat step 5 to test zone (1) phase R to S",
+    "Repeat step 5 to test zone (1) phase S to T",
+    "Repeat step 5 to test zone (1) phase T to R",
+    "Repeat step 5 to test zone (1) phase R to S To T"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return relay and associated equipment to \nservice"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test leads from the relay terminals \n and the test set",
+    "Make sure CT and V T secondary circuits are in normal condition",
+    "Remove the disturbance alarm LED`s on the relay which is caused by the test",
+    "Request feeder to be returned in service",
+    "Take phasor readings of all A C currents and voltages and compare them to \n those for normal load condition",
+    "Check that these reading agree with station meters (MW, MVAR, Amperes and Power \n Factor)",
+    "Place a copy of the test result in \n the field maintenance file"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet\nfor Line protection type REL \n521, ABB"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay number: \n ---------------------------------------",
+     "----------------------------------"
+    ],
+    [
+     "Check of\n HF circuits",
+     "---------------------------------"
+    ],
+    [
+     "HF -\n \"End to End\" test",
+     "----------------------------------"
+    ],
+    [
+     "Check of\n tripping",
+     ""
+    ],
+    [
+     "Check of\n reclosing",
+     "----------------------------------"
+    ],
+    [
+     "Directional\n check",
+     "---------------------------------"
+    ],
+    [
+     "Final\n check",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Settings",
+     "----------------------------------"
+    ],
+    [
+     "According to separate print out",
+     "---------------------------------"
+    ],
+    [
+     "Software version of the relay",
+     "----------------------------------"
+    ],
+    [
+     "CT 800 - 1600 / 1A",
+     ""
+    ],
+    [
+     "VT 220 \n / 0.1 KV",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "SynchroCheck",
+     "",
+     "SCADA",
+     ""
+    ],
+    [
+     "CB Trip Phase R",
+     "",
+     "CB Trip Phase S",
+     "",
+     "CB Trip Phase T",
+     ""
+    ],
+    [
+     "Alarms",
+     "",
+     "Lamps",
+     "",
+     "Reset",
+     ""
+    ],
+    [
+     "SOTF",
+     "",
+     "VT Sup",
+     "",
+     "Event Rec",
+     ""
+    ],
+    [
+     "Block VT MCB",
+     "",
+     "Com Send",
+     "",
+     "Com Rec",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Secondary injection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring Zone 1"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "PZL",
+     "Sett",
+     "R-0",
+     "S-0",
+     "T-0",
+     "",
+     "PZL",
+     "Sett",
+     "R-S",
+     "S-T",
+     "T-R"
+    ],
+    [
+     "345",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "345",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "15",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "30",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "30",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "45",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "45",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "60",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "60",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "75",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "75",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "90",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "90",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "105",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "105",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "90",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "90",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring Zone 2"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "PZL",
+     "Sett",
+     "R-0",
+     "S-0",
+     "T-0",
+     "",
+     "PZL",
+     "Sett",
+     "R-S",
+     "S-T",
+     "T-R"
+    ],
+    [
+     "345",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "345",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "15",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "30",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "30",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "45",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "45",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "60",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "60",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "75",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "75",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "90",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "90",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "105",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "105",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "90",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "90",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring Zone 3"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "PZL",
+     "Sett",
+     "R-0",
+     "S-0",
+     "T-0",
+     "",
+     "PZL",
+     "Sett",
+     "R-S",
+     "S-T",
+     "T-R"
+    ],
+    [
+     "345",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "345",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "0",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "0",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "15",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "15",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "30",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "30",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "45",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "45",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "60",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "60",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "75",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "75",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "90",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "90",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "105",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "105",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "90",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "90",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "1) Communication Port to SCS OR/AND SMS when \nincluded."
+  },
+  {
+   "type": "paragraph",
+   "text": "2) Optical output from local MMI connection made \nwith a special interface cable."
+  },
+  {
+   "type": "paragraph",
+   "text": "3) Reserved for parallel line:\n or CT supervision \n or 4 step earth fault overcurrent 4) Reserved for ref. voltage"
+  },
+  {
+   "type": "paragraph",
+   "text": "5) Reserved for directional earth-fault function"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: Relay\nCode: \nTest\nDate: \nTested by: \nSignature:"
+  }
+ ],
+ "text": "Substations\nTechnical Procedure\nIntroduction\nThe REL511 is \na universal line protection, control and monitoring terminal that can be applied to \ntransmission and sub-transmission overhead lines and cables in solidly \nearthed, as well as in low resistance earthed networks. The basic \nprotection function in REL521 is a full scheme distance protection with indivicual \nmeasuring elements for the different types of faults that belong to the \nvarious impedance zones. The terminal includes three impedance measuring zones \nwith programmable directionality.\nThe \nindependent measuring elements provide general fault criterion\nThis procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe\n first draft initiated by eng. Samah Mokhtar Mostafa,\n tested at 15 Oct 2002 by eng. Yousef Melad Shahat at El Eslah Portable station, accepted by General director eng. \n Abdel Menem Rabie Motalaqeh,\n and approved by eng. Fawzy Mourse Mohamed:\n Head Sector of Aswan Network.\nSafety Precautions\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence\n(rope) with caution marks surrounding the work area,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nA work permit\nmust be issued and the qualified maintenance staff should carry the suitable\nsafety category,\nSafety fence\n(rope) with caution marks surrounding the work area,\nLine isolation and work permit required\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nTools and Equipment\nVoltmeter, Ammeter, \nand Test leads\nRTS 21 (FREJA) a test \n set\nVoltmeter, Ammeter, \nand Test leads\nWork to be Carried Out\nSteps to prepare for relay \ntesting\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the V T \nminiature circuit breakers ( mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nTesting the relay\nCarefully follow this test procedure\nVerify the test results match the relay setting\nTrip the circuit breaker associated with the relay\nPreparation\nThis procedure shoud be used for performing off load line\nLook the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test\nReading the setting from the relay by using \nthe PC\nBy using the six keys on the MMI (mam machine interface) of the relay read the \n setting\nDistance protection test\nBe sure that the D.C power of the relay is correct by applying a D.C voltmeter \n across points X16 (17) and X16 (18) on the rear of the relay\nConnect the current test leads on the current terminals of the relay \n X11(1,2,3,8) and the voltage test leads on the voltage terminals of the relay \n X12 (1,6,8,10)\nConnect A.C power to the test set\nInject current, voltage and phase angle by selecting the value of impedance \n (X)\nTo test zone (1) phase R to Neutral:\n * Take the value of (X) greater than the maximum value of working for zone 1 \n and decrease it slowly until the \n relay operates and the Red LED (right) on the MMI be steady light\n * Display the last disturbance on the LCD of the MMI and check the displayed \n disturbance with the actual fault disturbance\nRepeat step 5 to test zone (1) phase S to Neutral\nRepeat step 5 to test zone (1) phase T to Neutral\nRepeat step 5 to test zone (1) phase R to S\nRepeat step 5 to test zone (1) phase S to T\nRepeat step 5 to test zone (1) phase T to R\nRepeat step 5 to test zone (1) phase R to S To T\nReturn relay and associated equipment to \nservice\nReturn relay to service by removing the test leads from the relay terminals \n and the test set\nMake sure CT and V T secondary circuits are in normal condition\nRemove the disturbance alarm LED`s on the relay which is caused by the test\nRequest feeder to be returned in service\nTake phasor readings of all A C currents and voltages and compare them to \n those for normal load condition\nCheck that these reading agree with station meters (MW, MVAR, Amperes and Power \n Factor)\nPlace a copy of the test result in \n the field maintenance file\nTest Sheet\nfor Line protection type REL \n521, ABB\n\n\n\nSecondary injection\nMeasuring Zone 1\n\nMeasuring Zone 2\n\nMeasuring Zone 3\n\n1) Communication Port to SCS OR/AND SMS when \nincluded.\n2) Optical output from local MMI connection made \nwith a special interface cable.\n3) Reserved for parallel line:\n or CT supervision \n or 4 step earth fault overcurrent 4) Reserved for ref. voltage\n5) Reserved for directional earth-fault function\nLocation: Relay\nCode: \nTest\nDate: \nTested by: \nSignature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/dsr-028-r0-1.jpg",
+   "alt": ""
+  }
+ ]
+}

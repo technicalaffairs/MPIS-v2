@@ -1,0 +1,214 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-efr-001-r0-htm",
+ "doc_number": "EFR-001-R0",
+ "title_en": "EFR-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/EFR-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The MCAG is a \nstatic restricted earth fault relay available single and triple pole \nmanufactured by GEC ALSTHOM. This relay is used for protected the power \ntransformers and generators. This is a current operated having seven equally \nspaced setting. The setting ranges are given below:"
+  },
+  {
+   "type": "paragraph",
+   "text": "0.025 \n0.1 A\n0.05 \n0.2 A\n0.1 \n0.4 A\n0.2 \n0.8 A\n0.25 \n1.0 A\n0.5 \n2.0 A\n1.0 \n4.0 A"
+  },
+  {
+   "type": "paragraph",
+   "text": "The relay may be used for any type of high\nimpedance\ncirculating current protection\nWhen used as a high impedance relay a stabilizing resistor must be connected in\nseries with the current circuit"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng\nQrashy Ghareeb from WDL, The document tested at Sep. 2001 at\nEl EZZ 220kv substation, by eng. Mohamed Helmy El Qady\nand approved at 22 May. 2002"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make CT secondary circuits are shorted\n before isolating the\n relay for test",
+    "Switch on the MCB for DC supply",
+    "The equipment under test must be out of service"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test",
+    "Multi finger test plug type MMLB 01 for use with block\n type MMLG is fitted",
+    "Miniature split plug type MMLB 03 to fit relay plug bridge",
+    "Three calibrated multi\n meters 0-10A ac, 0-400 V ac"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Works to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Terminals of the relay are normally as below, but reference should always be\nmade to the relevant diagram"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay type",
+     "AC current input",
+     "Normally\n open contacts"
+    ],
+    [
+     "Single pole",
+     "27-28",
+     "1,3 and 2,4"
+    ],
+    [
+     "Triple pole",
+     "R \n 23,24",
+     "1,3 and 2,4"
+    ],
+    [
+     "Triple pole",
+     "S \n 25,26",
+     "1,3 and 2,4"
+    ],
+    [
+     "Triple pole",
+     "T \n 27,28",
+     "1,3 and 2,4"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "The contacts are normally connected in parallel for the three phases but\naversion of the relay having contacts brought out separately is available"
+  },
+  {
+   "type": "paragraph",
+   "text": "Commissioning test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "If the relay is wired through an MMLG test block it is recommended that\n all secondary injection tests should be carried out using this block.",
+    "Ensure that the main system current transformer are shorted before isolating the relay from the current transformer in preparation for\n secondary injection test.",
+    "When type MMLG test block facilities are installed it is important that\n the sockets in the type MMLB 01 test plug, which correspond to the current\n transformer secondary winding, are linked before the test plug is inserted\n into the test block. Similarly, a MMLB 02 single finger test plug must be\n terminated with an ammeter before it is inserted to monitor CT secondary\n currents."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay CT shorting switches"
+  },
+  {
+   "type": "paragraph",
+   "text": "With the relay removed from its case, check electrically that the\nCT shorting\nswitch is closed"
+  },
+  {
+   "type": "paragraph",
+   "text": "Secondary injection testing"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the circuit as shown in figure\n (1) and ensure that the current\n transformer primary is open circuit and that if any earthing connection are\n fitted",
+    "Increase the current until the relay just operates",
+    "Record the operating current of the relay which measured by ammeter A2",
+    "Record the total current which measured by ammeter A1",
+    "This test should be repeated for each pole of the relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TEST RECORD"
+  },
+  {
+   "type": "paragraph",
+   "text": "High Stability Circulating Current Relay Type MCAG\n14 , 34"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date ................................\nStation \n.................................................... \nCircuit .........................................\nRelay model No\n............................................ \nSerial No ....................................\nSetting range\n................................................. \nCT ratio ......................................\nSetting voltage\n.............................................. \nRelay setting ................................\nStabilizing resistor ohms\n.................................. Shunt\nresistor ohms (if fitted) ........................\nType of external metrosil\n.................................. Calculated primary OP current .....................\nTest results"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay ct shorting\nswitch [ ]\n Secondary current to\noperate relay."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Total current (A1)",
+     "Relay current (A2)",
+     "Voltage"
+    ],
+    [
+     "A",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "",
+     "",
+     ""
+    ],
+    [
+     "C",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Fig 1 Secondary injection of\nrelay to check secondary operating current , setting voltage and relay operating\ncurrent"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nIntroduction\nThe MCAG is a \nstatic restricted earth fault relay available single and triple pole \nmanufactured by GEC ALSTHOM. This relay is used for protected the power \ntransformers and generators. This is a current operated having seven equally \nspaced setting. The setting ranges are given below:\n0.025 \n0.1 A\n0.05 \n0.2 A\n0.1 \n0.4 A\n0.2 \n0.8 A\n0.25 \n1.0 A\n0.5 \n2.0 A\n1.0 \n4.0 A\nThe relay may be used for any type of high\nimpedance\ncirculating current protection\nWhen used as a high impedance relay a stabilizing resistor must be connected in\nseries with the current circuit\nThe first draft initiated by eng\nQrashy Ghareeb from WDL, The document tested at Sep. 2001 at\nEl EZZ 220kv substation, by eng. Mohamed Helmy El Qady\nand approved at 22 May. 2002\nSafety Precautions\nMake CT secondary circuits are shorted\n before isolating the\n relay for test\nSwitch on the MCB for DC supply\nThe equipment under test must be out of service\nTools and Equipment\nSecondary injection test\nMulti finger test plug type MMLB 01 for use with block\n type MMLG is fitted\nMiniature split plug type MMLB 03 to fit relay plug bridge\nThree calibrated multi\n meters 0-10A ac, 0-400 V ac\nWorks to be Carried Out\nTerminals of the relay are normally as below, but reference should always be\nmade to the relevant diagram\n\nThe contacts are normally connected in parallel for the three phases but\naversion of the relay having contacts brought out separately is available\nCommissioning test\nIf the relay is wired through an MMLG test block it is recommended that\n all secondary injection tests should be carried out using this block.\nEnsure that the main system current transformer are shorted before isolating the relay from the current transformer in preparation for\n secondary injection test.\nWhen type MMLG test block facilities are installed it is important that\n the sockets in the type MMLB 01 test plug, which correspond to the current\n transformer secondary winding, are linked before the test plug is inserted\n into the test block. Similarly, a MMLB 02 single finger test plug must be\n terminated with an ammeter before it is inserted to monitor CT secondary\n currents.\nRelay CT shorting switches\nWith the relay removed from its case, check electrically that the\nCT shorting\nswitch is closed\nSecondary injection testing\nConnect the circuit as shown in figure\n (1) and ensure that the current\n transformer primary is open circuit and that if any earthing connection are\n fitted\nIncrease the current until the relay just operates\nRecord the operating current of the relay which measured by ammeter A2\nRecord the total current which measured by ammeter A1\nThis test should be repeated for each pole of the relay\nTEST RECORD\nHigh Stability Circulating Current Relay Type MCAG\n14 , 34\nDate ................................\nStation \n.................................................... \nCircuit .........................................\nRelay model No\n............................................ \nSerial No ....................................\nSetting range\n................................................. \nCT ratio ......................................\nSetting voltage\n.............................................. \nRelay setting ................................\nStabilizing resistor ohms\n.................................. Shunt\nresistor ohms (if fitted) ........................\nType of external metrosil\n.................................. Calculated primary OP current .....................\nTest results\nRelay ct shorting\nswitch [ ]\n Secondary current to\noperate relay.\n\nFig 1 Secondary injection of\nrelay to check secondary operating current , setting voltage and relay operating\ncurrent",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/efr-001-r0-1.gif",
+   "alt": ""
+  }
+ ]
+}

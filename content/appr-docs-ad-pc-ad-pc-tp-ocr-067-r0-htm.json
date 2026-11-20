@@ -1,0 +1,254 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-ocr-067-r0-htm",
+ "doc_number": "OCR-067-R0",
+ "title_en": "OCR-067-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/OCR-067-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This \nprocedure details the steps required to complete and check the proper operation \nand calibration of the over current relay type 7SJ600 using secondary injection \ntest set"
+  },
+  {
+   "type": "paragraph",
+   "text": "The \ndocument is formatted the way to minimize the possibility of error causing \npersonal injury or damage to cquipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng. Mohamed Yahia, tested by eng. Marwa \nAbdel-Naby Ismaiel, accepted by eng. Hiat Farouq Ahmed, \napproved by eng. Mohamed Abu Taleb: Head Sector of Cairo Zone Protection, and certified by eng. Abdel \nMaqsoud Ahmed Mahmoud: general director of North Stations & Cairo Zone MPIS coordinator."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit must be issued."
+  },
+  {
+   "type": "paragraph",
+   "text": "The qualified maintenance staff should carry \n the suitable ID safety category."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence with caution marks surrounding the work area is required."
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment isolation (disconnect switches are opened and tagged)."
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the current circuit of the relay by clip ammeter to be sure that is no \n current."
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure ct secondary are shorted before isolating relay current \n circuits for test current injection."
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit must be issued.",
+    "The qualified maintenance staff should carry \n the suitable ID safety category.",
+    "Safety fence with caution marks surrounding the work area is required.",
+    "Equipment isolation (disconnect switches are opened and tagged).",
+    "Measure the current circuit of the relay by clip ammeter to be sure that is no \n current.",
+    "Make sure ct secondary are shorted before isolating relay current \n circuits for test current injection."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Mulit meter, clip meter.",
+    "Test leads, toolkit."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical \n reference material (manufacturer's manual).",
+    "Obtain copy of relay \n setting from field maintenance file.",
+    "Obtain outage of the \n equipment (line or transformer) protected by relay.",
+    "Review station \n drawing.",
+    "Check that the bus \n and equipment disconnect switches are operned and tagged.",
+    "Prepare the test \n sheet for the tested relay.",
+    "Short the current \n circuit of the relay at the C.T side on the relay terminals.",
+    "Isolate the current \n circuit of the relay for current injection, be sure the injection current \n will flow on the relay under test only.",
+    "Isolate the trip, \n B.F. fault recorder and any associtated equipment.",
+    "Obtain the input \n terminals of the relay (current terminals) and also the output terminals \n (trip terminals) from the station from the station drawing."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the over current element"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject current phase terminal (1,3),(3,5) or (5,1)",
+    "Slowly increase the current until the relay pick up and record it as a pick up \n value.",
+    "Slowly decrease the current until the relay drop off and record it as a drop \n off value.",
+    "To measure the tripping time connect the out trip contact to stop terminals of \n the tester then inject current equal twice the pick up value and record it as \n an operating time.",
+    "Repeat the above steps (form 1 to 4) on the others phases."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the earth fault element"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Inject any phase to neutral for example (R-N)(1,2),(3,4) or (5,6).",
+    "Slowly increase the \n current until the relay pick up and record it is a pick up value (for earth \n fault).",
+    "Measure the time by \n injection current equal twice the pick up value and record it as an operating \n time."
+   ]
+  },
+  {
+   "type": "list",
+   "items": [
+    "Compare the recorded \n value with the setting values of the relay and give your comment.",
+    "Check all he used of \n any displayed stage should be enabled.",
+    "Check the other used \n output contest."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing Thermal Overload Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Using thermal overload with memory or \nthermal overload without memory."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test as the over current element."
+  },
+  {
+   "type": "paragraph",
+   "text": "Repeat step \n(1 to 5) but with thermal time longer than over current t = 1 min to 999 min."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Using thermal overload with memory or \nthermal overload without memory.",
+    "Test as the over current element.",
+    "Repeat step \n(1 to 5) but with thermal time longer than over current t = 1 min to 999 min."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Trip Circuit Supervision"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Supervision using two binary input.",
+    "Supervision using one binary input."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Supervision using two Binary input"
+  },
+  {
+   "type": "paragraph",
+   "text": "Supervision using one Binary input"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect as shown in fig (2), so this checked up every 30 s"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing trip circuit Supervision"
+  },
+  {
+   "type": "paragraph",
+   "text": "Return relay and associated equipment \nto Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Disconnect the connection between the relay and the test equipment",
+    "Connect the current \n circuit of the relay then remove the short circuit at the C.T side",
+    "Connect the trip B.F \n fault recorder and associated equipment"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Protection Relay and associated Equipment to Service"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Take crossed reading of all AC current",
+    "Compare this to the \n normal loading",
+    "Place a copy of the \n test resulting on the old maintenance file"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nRelay Designation: Tested by: \nSignature: \nTest Date:"
+  }
+ ],
+ "text": "Protection\nTechnical Procedure\nEquipment:\nIntroduction\nThis \nprocedure details the steps required to complete and check the proper operation \nand calibration of the over current relay type 7SJ600 using secondary injection \ntest set\nThe \ndocument is formatted the way to minimize the possibility of error causing \npersonal injury or damage to cquipment\nThe first draft initiated by eng. Mohamed Yahia, tested by eng. Marwa \nAbdel-Naby Ismaiel, accepted by eng. Hiat Farouq Ahmed, \napproved by eng. Mohamed Abu Taleb: Head Sector of Cairo Zone Protection, and certified by eng. Abdel \nMaqsoud Ahmed Mahmoud: general director of North Stations & Cairo Zone MPIS coordinator.\nSafety Precautions\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nEquipment isolation (disconnect switches are opened and tagged).\nMeasure the current circuit of the relay by clip ammeter to be sure that is no \n current.\nMake sure ct secondary are shorted before isolating relay current \n circuits for test current injection.\nA work permit must be issued.\nThe qualified maintenance staff should carry \n the suitable ID safety category.\nSafety fence with caution marks surrounding the work area is required.\nEquipment isolation (disconnect switches are opened and tagged).\nMeasure the current circuit of the relay by clip ammeter to be sure that is no \n current.\nMake sure ct secondary are shorted before isolating relay current \n circuits for test current injection.\nTools and Equipment\nMulit meter, clip meter.\nTest leads, toolkit.\nWork to be Carried Out\nPreparation\nReview technical \n reference material (manufacturer's manual).\nObtain copy of relay \n setting from field maintenance file.\nObtain outage of the \n equipment (line or transformer) protected by relay.\nReview station \n drawing.\nCheck that the bus \n and equipment disconnect switches are operned and tagged.\nPrepare the test \n sheet for the tested relay.\nShort the current \n circuit of the relay at the C.T side on the relay terminals.\nIsolate the current \n circuit of the relay for current injection, be sure the injection current \n will flow on the relay under test only.\nIsolate the trip, \n B.F. fault recorder and any associtated equipment.\nObtain the input \n terminals of the relay (current terminals) and also the output terminals \n (trip terminals) from the station from the station drawing.\nTesting the over current element\nInject current phase terminal (1,3),(3,5) or (5,1)\nSlowly increase the current until the relay pick up and record it as a pick up \n value.\nSlowly decrease the current until the relay drop off and record it as a drop \n off value.\nTo measure the tripping time connect the out trip contact to stop terminals of \n the tester then inject current equal twice the pick up value and record it as \n an operating time.\nRepeat the above steps (form 1 to 4) on the others phases.\nTesting the earth fault element\nInject any phase to neutral for example (R-N)(1,2),(3,4) or (5,6).\nSlowly increase the \n current until the relay pick up and record it is a pick up value (for earth \n fault).\nMeasure the time by \n injection current equal twice the pick up value and record it as an operating \n time.\nCompare the recorded \n value with the setting values of the relay and give your comment.\nCheck all he used of \n any displayed stage should be enabled.\nCheck the other used \n output contest.\nTesting Thermal Overload Protection\nUsing thermal overload with memory or \nthermal overload without memory.\nTest as the over current element.\nRepeat step \n(1 to 5) but with thermal time longer than over current t = 1 min to 999 min.\nUsing thermal overload with memory or \nthermal overload without memory.\nTest as the over current element.\nRepeat step \n(1 to 5) but with thermal time longer than over current t = 1 min to 999 min.\nTrip Circuit Supervision\nSupervision using two binary input.\nSupervision using one binary input.\nSupervision using two Binary input\nSupervision using one Binary input\nConnect as shown in fig (2), so this checked up every 30 s\nTesting trip circuit Supervision\nReturn relay and associated equipment \nto Service\nDisconnect the connection between the relay and the test equipment\nConnect the current \n circuit of the relay then remove the short circuit at the C.T side\nConnect the trip B.F \n fault recorder and associated equipment\nReturn Protection Relay and associated Equipment to Service\nTake crossed reading of all AC current\nCompare this to the \n normal loading\nPlace a copy of the \n test resulting on the old maintenance file\nLocation: \nRelay Designation: Tested by: \nSignature: \nTest Date:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/OCR-067-01.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/OCR-067-02.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/OCR-067-03.jpg",
+   "alt": ""
+  }
+ ]
+}

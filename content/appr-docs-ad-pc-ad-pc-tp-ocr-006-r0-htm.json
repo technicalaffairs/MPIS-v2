@@ -1,0 +1,338 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-ocr-006-r0-htm",
+ "doc_number": "OCR-006-R0",
+ "title_en": "OCR-006-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/ocr-006-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The combined over current \nand earth-fault SPAJ 140 C relay is a digital relay is designed specially for \nselective short-circuit and earth-fault protection with definite time operation \nor the calculated operate time at inverse time operation. These procedure details\nthe steps required to completely check the proper operation and calibration of\nthe SPAJ 140C relay. It is recommended this procedure be carried or a yearly\nbases. This work be carried out section of this document is divided into three\nsection."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The second section preparation for testing describes the\nsteps to set up the equipment for performing the actual tests. The third section is the actual test. The document is formatted\nthe way minimize the possibility of error causing personal injury or damage to\nequipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated by eng Nadia Mohamed Abdel Ghany, \nCairo zone and tested 7 Oct 01 at \n6 October substation, and the first approval date: 17 Oct 2001"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Make sure that CT\n secondary circuits are shorted before isolating the current circuit for test\n current injection"
+   ]
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Manta test set\n (powertec)",
+    "Volt meter",
+    "Ammeter",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to \nPrepare for Relay\nTesting"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical\n reference material and manufacturer's manual.",
+    "Obtain copy of relay\n setting from field maintenance file and compare it with the setting on the\n relay",
+    "Obtain outage for line\n protected by this relay",
+    "Check that the circuit\n breaker is opened and tagged.",
+    "Inspect the CT\n secondary circuits, the VT miniature circuit breakers (MCB`s) and all\n cabling supplying the relaying.",
+    "Use the station\n drawings to isolate the following\n * Breaker\n trip coils\n * Breaker\n failure scheme associated with the relay and disturbance alarms"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow this \n test procedure",
+    "Verify the test results match the relay setting, if not \n consult technical services, read the paragraph of relay settings\n .",
+    "Trip the circuit breaker associated with the\n relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure should\n be used for performing off load line",
+    "Look the EEC panel\n name plate and check this EEC system designation name plate agrees with the\n line that has been taken out of service for maintenance",
+    "Make sure CT secondary\n circuits are shorted at the incoming terminal blocks before isolate the\n relay current circuits for test",
+    "Using a clip on ammeter checks there is no current flowing\n in the SPAJ relay circuits. Wire going to the rear terminals number 1,2,3\n and 4 should have no current flowing in them.\n Note , Always check the continuity of the ammeter before using it in a\n (possible) live current circuit.",
+    "Check all external connections to the relay are in a good\n condition and check terminal block wires are tight.",
+    "Compare the settings being recorded on the display of the\n relay with those on the EEC test sheet, located in the field maintenance\n file. Check that all the appropriate settings have been correctly applied to\n the SPAJ relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the Settings From the Relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Be sure that the Dc power of the relay is correct by\n applying a Dc voltmeter across points 61 and 62 on the rear of the\n relay.",
+    "Connect the current test leads between the current terminals on the\n relay 1 and 2 if using the 5 Amp mode or 1 and 3 if using the 1 Amp mode.\n For phase R, connect to current terminals A and B on the test set with the\n current mode switch set to LOW.",
+    "Select the position of fault mode on test set.\n a . Set the left switch on A-B\n B . Set the right switch on 0-0",
+    "Connect A.C power to the test set",
+    "Select the current button in modify mode",
+    "Inject current to the relay by selecting\n the current button\n in the modify section and select the static/dynamic button and choose the\n static mode ( static mode means we get light at static)",
+    "Increase slowly the injected current by pressing the FAULT\n button and move the modify switch at the same time until you reach to the\n operating value and then the yellow \" LEDs\" labeled \"\n L1,>/ In\" light The relay must operate with a current between 10%\n of the setting value. The operate current is shown on the display of the\n test set.",
+    "Record this value (I operate) on the test sheet",
+    "Switch off the test set",
+    "Connect leads between the time delayed trip output contact\n terminals 65 and 66 on the relay to the time (normally open) terminals on\n the tester. Choose the upper if the trip out put contact is dry or lower if\n the contact is wet.",
+    "Switch on the test set.",
+    "repeat steps 6 and 7 to inject a current 25% larger than the\n operating value, Ioper",
+    "Select the yellow button to the time mode. This will light\n when the relay operates",
+    "Slowly decrease the injected current by selecting the static\n button and fault button in the control section of the test set. Move the\n modify switch anti-clockwise until the yellow button goes dark.",
+    "Press the current button in the modify mode to record the\n value of Ioper from the display of the test set",
+    "Repeat steps 6 and 7 to inject a current 25% larger than the\n operating value, Ioper",
+    "Select the yellow button to the time mode",
+    "Select the dynamic mode by pressing the static/dynamic\n button. The dynamic light will then be lit",
+    "Press the Fault button. After\n a time delay, the relay will\n operate and we will get that time displayed on the display of the test set.\n We also get the red trip indicator light at O/P Trip on the relay .",
+    "Record this value, Trip Time on the Test Sheet .",
+    "Switch off the test to reset the LED's on the relay .",
+    "To test phase S, move the leads from terminals\n 1&2(1&3) on the relay to terminals 4&5 (4&6)",
+    "Repeat the above test from steps 6 to 20for phase S. In this\n case indicator L2,1>In will light .",
+    "Switch off the test set.",
+    "To test Phase T, move the leads from terminals\n 4&5(4&6) on the relay to terminals 6&8 (7&9)",
+    "Repeat the above test from steps 6 to 20 for Phase T. In\n this case indicator L2,1>In will light.",
+    "Switch off the test set ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "28. Move the leads from terminals\n7&8 (7&9) on the relay to terminals 25&26 (26&27) to test \n the\nearth fault feature on the relay ."
+  },
+  {
+   "type": "paragraph",
+   "text": "29. Repeat the above test from steps 6 to 20 for the\nearth fault feature. In this case indicator L2, \n 1>In will light."
+  },
+  {
+   "type": "paragraph",
+   "text": "Return Relay and Associated Equipment to Service"
+  },
+  {
+   "type": "paragraph",
+   "text": "30. Return relay to service by removing the test\nleads from the relay terminals block and the test"
+  },
+  {
+   "type": "paragraph",
+   "text": "31. Set. make sure CT and VT secondary circuits are in\nnormal condition"
+  },
+  {
+   "type": "paragraph",
+   "text": "32. If any equipment associated with the relay has\nbeen isolated, it should be returned to service"
+  },
+  {
+   "type": "paragraph",
+   "text": "33. By the following restoration steps"
+  },
+  {
+   "type": "paragraph",
+   "text": "34. Breaker trip coils"
+  },
+  {
+   "type": "paragraph",
+   "text": "35. Breaker failure scheme associated this relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "36. Disturbance alarm associated with this relay."
+  },
+  {
+   "type": "paragraph",
+   "text": "37. Request feeder to be returned in service"
+  },
+  {
+   "type": "paragraph",
+   "text": "38. Take phasor readings of all A.C currents and\nvoltages and compare them to those for normal \n load condition"
+  },
+  {
+   "type": "paragraph",
+   "text": "39. Check that these reading agree with station meters\n(MW, Mvar, Amperes and power factor)"
+  },
+  {
+   "type": "paragraph",
+   "text": "40. Place a copy of the test result in the field\nmaintenance file"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location: \nChecked by: \nDate: \nSignature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "General Director Approval\nName:\nEngineer, \nSignature: Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test sheet\nCombined over current & earth fault\nRelay type SPAJ 140 C"
+  },
+  {
+   "type": "paragraph",
+   "text": "Station :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Date:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Circuit:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rated\ncurrent \n1A \n5A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Current transformer ratio: /"
+  },
+  {
+   "type": "paragraph",
+   "text": "AC voltage:"
+  },
+  {
+   "type": "paragraph",
+   "text": "DC voltage:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current unit"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "I\n Setting",
+     "I\n Pickup",
+     "I\n Reset",
+     "Reset\n Factor",
+     "Time\n Setting",
+     "Time \n test",
+     "Remake"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth fault unit"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "I\n Setting",
+     "I\n Pickup",
+     "I\n Reset",
+     "Reset\n Factor",
+     "Time\n Setting",
+     "Time \n test",
+     "Remake"
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text": "\nIntroduction\nThe combined over current \nand earth-fault SPAJ 140 C relay is a digital relay is designed specially for \nselective short-circuit and earth-fault protection with definite time operation \nor the calculated operate time at inverse time operation. These procedure details\nthe steps required to completely check the proper operation and calibration of\nthe SPAJ 140C relay. It is recommended this procedure be carried or a yearly\nbases. This work be carried out section of this document is divided into three\nsection.\nThe first preliminary steps to prepare for relay testing\ndescribes the activities required prior to testing. Some of these steps could be\nperformed days before the actual test.\nThe second section preparation for testing describes the\nsteps to set up the equipment for performing the actual tests. The third section is the actual test. The document is formatted\nthe way minimize the possibility of error causing personal injury or damage to\nequipment.\nThe first draft initiated by eng Nadia Mohamed Abdel Ghany, \nCairo zone and tested 7 Oct 01 at \n6 October substation, and the first approval date: 17 Oct 2001\nSafety Precautions\nMake sure that CT\n secondary circuits are shorted before isolating the current circuit for test\n current injection\nTools and Equipment\nManta test set\n (powertec)\nVolt meter\nAmmeter\nTest leads\nSteps to \nPrepare for Relay\nTesting\nReview technical\n reference material and manufacturer's manual.\nObtain copy of relay\n setting from field maintenance file and compare it with the setting on the\n relay\nObtain outage for line\n protected by this relay\nCheck that the circuit\n breaker is opened and tagged.\nInspect the CT\n secondary circuits, the VT miniature circuit breakers (MCB`s) and all\n cabling supplying the relaying.\nUse the station\n drawings to isolate the following\n * Breaker\n trip coils\n * Breaker\n failure scheme associated with the relay and disturbance alarms\nTesting the Relay\nCarefully follow this \n test procedure\nVerify the test results match the relay setting, if not \n consult technical services, read the paragraph of relay settings\n .\nTrip the circuit breaker associated with the\n relay\nPreparation\nThis procedure should\n be used for performing off load line\nLook the EEC panel\n name plate and check this EEC system designation name plate agrees with the\n line that has been taken out of service for maintenance\nMake sure CT secondary\n circuits are shorted at the incoming terminal blocks before isolate the\n relay current circuits for test\nUsing a clip on ammeter checks there is no current flowing\n in the SPAJ relay circuits. Wire going to the rear terminals number 1,2,3\n and 4 should have no current flowing in them.\n Note , Always check the continuity of the ammeter before using it in a\n (possible) live current circuit.\nCheck all external connections to the relay are in a good\n condition and check terminal block wires are tight.\nCompare the settings being recorded on the display of the\n relay with those on the EEC test sheet, located in the field maintenance\n file. Check that all the appropriate settings have been correctly applied to\n the SPAJ relay.\nReading the Settings From the Relay\nBe sure that the Dc power of the relay is correct by\n applying a Dc voltmeter across points 61 and 62 on the rear of the\n relay.\nConnect the current test leads between the current terminals on the\n relay 1 and 2 if using the 5 Amp mode or 1 and 3 if using the 1 Amp mode.\n For phase R, connect to current terminals A and B on the test set with the\n current mode switch set to LOW.\nSelect the position of fault mode on test set.\n a . Set the left switch on A-B\n B . Set the right switch on 0-0\nConnect A.C power to the test set\nSelect the current button in modify mode\nInject current to the relay by selecting\n the current button\n in the modify section and select the static/dynamic button and choose the\n static mode ( static mode means we get light at static)\nIncrease slowly the injected current by pressing the FAULT\n button and move the modify switch at the same time until you reach to the\n operating value and then the yellow \" LEDs\" labeled \"\n L1,>/ In\" light The relay must operate with a current between 10%\n of the setting value. The operate current is shown on the display of the\n test set.\nRecord this value (I operate) on the test sheet\nSwitch off the test set\nConnect leads between the time delayed trip output contact\n terminals 65 and 66 on the relay to the time (normally open) terminals on\n the tester. Choose the upper if the trip out put contact is dry or lower if\n the contact is wet.\nSwitch on the test set.\nrepeat steps 6 and 7 to inject a current 25% larger than the\n operating value, Ioper\nSelect the yellow button to the time mode. This will light\n when the relay operates\nSlowly decrease the injected current by selecting the static\n button and fault button in the control section of the test set. Move the\n modify switch anti-clockwise until the yellow button goes dark.\nPress the current button in the modify mode to record the\n value of Ioper from the display of the test set\nRepeat steps 6 and 7 to inject a current 25% larger than the\n operating value, Ioper\nSelect the yellow button to the time mode\nSelect the dynamic mode by pressing the static/dynamic\n button. The dynamic light will then be lit\nPress the Fault button. After\n a time delay, the relay will\n operate and we will get that time displayed on the display of the test set.\n We also get the red trip indicator light at O/P Trip on the relay .\nRecord this value, Trip Time on the Test Sheet .\nSwitch off the test to reset the LED's on the relay .\nTo test phase S, move the leads from terminals\n 1&2(1&3) on the relay to terminals 4&5 (4&6)\nRepeat the above test from steps 6 to 20for phase S. In this\n case indicator L2,1>In will light .\nSwitch off the test set.\nTo test Phase T, move the leads from terminals\n 4&5(4&6) on the relay to terminals 6&8 (7&9)\nRepeat the above test from steps 6 to 20 for Phase T. In\n this case indicator L2,1>In will light.\nSwitch off the test set .\nEarth Fault Test\n28. Move the leads from terminals\n7&8 (7&9) on the relay to terminals 25&26 (26&27) to test \n the\nearth fault feature on the relay .\n29. Repeat the above test from steps 6 to 20 for the\nearth fault feature. In this case indicator L2, \n 1>In will light.\nReturn Relay and Associated Equipment to Service\n30. Return relay to service by removing the test\nleads from the relay terminals block and the test\n31. Set. make sure CT and VT secondary circuits are in\nnormal condition\n32. If any equipment associated with the relay has\nbeen isolated, it should be returned to service\n33. By the following restoration steps\n34. Breaker trip coils\n35. Breaker failure scheme associated this relay.\n36. Disturbance alarm associated with this relay.\n37. Request feeder to be returned in service\n38. Take phasor readings of all A.C currents and\nvoltages and compare them to those for normal \n load condition\n39. Check that these reading agree with station meters\n(MW, Mvar, Amperes and power factor)\n40. Place a copy of the test result in the field\nmaintenance file\nLocation: \nChecked by: \nDate: \nSignature:\nGeneral Director Approval\nName:\nEngineer, \nSignature: Date:\nTest sheet\nCombined over current & earth fault\nRelay type SPAJ 140 C\nStation :\nDate:\nCircuit:\nRated\ncurrent \n1A \n5A\nCurrent transformer ratio: /\nAC voltage:\nDC voltage:\nOver Current unit\n\nEarth fault unit\n",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/OCR-006-r0-1.jpg",
+   "alt": ""
+  },
+  {
+   "src": "graphics/OCR-006-r0-2.jpg",
+   "alt": ""
+  }
+ ]
+}

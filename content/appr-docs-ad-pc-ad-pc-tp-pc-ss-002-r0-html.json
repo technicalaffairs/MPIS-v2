@@ -1,0 +1,326 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-pc-ss-002-r0-html",
+ "doc_number": "PC-002-R0",
+ "title_en": "PC-002-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/pc-ss-002-r0.html",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical \n Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Calibration \n TZ/2\n CEE"
+  },
+  {
+   "type": "list",
+   "items": [
+    "When removing relays for bench testing ensure that the CT\n secondary circuits are short circuited.",
+    "Ensure that injected test currents only supply the relay\n under test.",
+    "When using the test set, it should always be connected to\n a station earth point via the yellow earth plugs."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "INDEPENDENT VOLTAGE TESTS"
+  },
+  {
+   "type": "paragraph",
+   "text": "(Using the Voltage Set to check under-voltage (#27) and\novervoltage (#59) relays.)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under-voltage relays are typically used where a decrease in\nthe normal voltage supply level triggers a protection event such as tripping,\nreclosure or an alarm. In most cases, the relay operate time for an\nunder-voltage condition is not critical. Consequently, this procedure details\nthe simple steps to determine the actual under and over-voltage calibration\npoints. Use of the timer is therefore presented as a separate section in this\ndocument."
+  },
+  {
+   "type": "paragraph",
+   "text": "INITIALIZATION of the VOLTAGE\nTEST SET:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Connect a three phase 220/380supply to the Voltage Test\n Set using one of the following two methods:\n i)Use the connector cable with a connector on one end and banana plugs/clips\n on the other end. first attach the connector end to the voltage test set and\n carefully connect the banana plugs/clips to a three-phase supply."
+  },
+  {
+   "type": "paragraph",
+   "text": "Or:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place the three shorting plugs in the terminals R, Y, B\n to jumper out the terminals for the optional phase shifter, which is not\n required for these tests.",
+    "Turn the two Phase Adjust knobs to indicate zero degrees.",
+    "Rotate the large Fault Voltage Adjustment knob to the\n minimum voltage level by turning it to the fully counterclockwise position.",
+    "Turn the Fault Voltage Range switch to the desired (10 or\n 60 volts) level. Remember that these maximum values will be increased by 3\n to 17.32 or 103.92 volts when the Type of Fault selector indicates\n phase-to-phase faults.",
+    "Turn the Type of Fault switch to select either a phase-to\n neutral fault or a phase- to-phase fault.",
+    "Connect the voltage coil of the relay under test to the\n appropriate Relay Test Terminals in agreement with the type of fault\n selected above.",
+    "ii) Use the cable mentioned before, but this time it\n should be attached via the connector end to the Current Test Set. Then use\n the supplied inter-test set connector cable to supply the Voltage Set from\n the Current Set. When using this arrangement, the main breaker on the Current\n Test Set must be closed before the supply will be available at the\n Voltage Set.",
+    "Energize the Voltage Test Set by pushing the white 'ON' Pushbutton. The\n red 'OFF' pushbutton will now be lit to indicate that the test voltage\n circuit is alive and that the voltage to the relay under test can be\n disabled by pushing the 'OFF'' pushbutton."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TESTING of the UNDERVOLTAGE (#27)\nRELAY:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "To check the under-voltage setting, energize the Voltage\n Test Set by one of the above methods and increase the voltage by turning the\n large Fault Voltage knob clockwise until the voltmeter indicates the normal\n operating voltage. Slowly decrease the voltage until the under-voltage relay\n drops out.",
+    "Put the test switch on the right bottom corner of voltage\n test set on start position.",
+    "Repeat the above step three times to determine the\n average drop-out value.",
+    "Record this under-voltage drop-out value on the\n maintenance test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TESTING of the OVERVOLTAGE (#59)\nRELAY:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Note:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Maximum Output voltage from the tester is { (3) (60) }\nvolt. Therefore, it is not possible to calibrate over-voltage relays rated at\n100 volts or above."
+  },
+  {
+   "type": "list",
+   "items": [
+    "To check the over-voltage setting, energize the Voltage\n Test Set as described above, and then increase the voltage by turning the\n large Fault Voltage knob clockwise until the voltmeter indicates the normal\n operating voltage. Slowly increase the test voltage until the over-voltage\n relay picks-up.",
+    "Repeat the above step three times to determine the\n average pick-up value.",
+    "Record this overvoltage pick-up value on the maintenance\n test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "INDEPENDENT CURRENT TESTS"
+  },
+  {
+   "type": "paragraph",
+   "text": "(Using the Current Test Set to check instantaneous (#50) and\ntimed (#51) overcurrent relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Initialization of the Current\nTest Set"
+  },
+  {
+   "type": "paragraph",
+   "text": "Initially\nset the Current Test Set switches in the following positions:"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Main Breaker switch to 'OFF'.",
+    "Current Adjust rheostat to minimum. (Fully\n counterclockwise)",
+    "Amp Range switch to minimum. (3 amps)",
+    "Current Direction switch to 'Normal'.",
+    "Test Set Selector switch to I. (Current only)",
+    "Tighten the metal link to short the optional ammeter\n binding posts. If an additional meter is desired, the additional ammeter\n should be attached and then the link opened.",
+    "Turn the Type of Fault witch to select the desired\n (phase-to-neutral or phase-to- phase) fault.",
+    "Connect the relay under test to the appropriate Relay\n Test Terminals.",
+    "Connect the three-phase supply to the Current Set as\n described previously.",
+    "Turn on the three-phase switch of the Main Breaker."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TESTING\nINSTANTANEOUS OVERCURRENT RELAYS"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Energize the Current Test Set by pushing the whit ON\n pushbutton. The red OFF pushbutton will now be lit to indicate that\n the test current circuit is alive and current to the relay under test can be\n disabled by pushing the 'OFF' pushbutton.",
+    "Gradually increase the test current by rotating the large\n Current Adjustment knob in a clockwise direction, unit the relay picks up.\n If, when the knob has been turned fully clockwise and the relay still does\n not pickup, then the knob should be returned to its minimum position (fully\n counterclockwise), and then the Ampere Range switch moved to the next higher\n current position.",
+    "After moving the Amp Range switch to the next higher\n position, repeat the above step until the relay operates.",
+    "Once the relay operates, leave the Current Adjust knob in\n that position and disable the current by pushing the OFF pushbutton.\n If necessary allow the relay to reset.",
+    "Press the ON pushbutton and observe whether the\n relay instaneously picks up.",
+    "If the relay fails to pickup, slightly increase the fault\n current and repeat the test.",
+    "Repeat this instantaneous test three times to determine\n the average pick-up value.",
+    "Record the instantaneouse pick-up value on the\n maintenance test sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TESTING, TIMED OVERCURRENT (#51)\nRELAYS"
+  },
+  {
+   "type": "paragraph",
+   "text": "General: Normally, two types of tests are performed\n to check timed overcurrent relays. These are the basic minimum pick-up test\n and then several (3 to 5) time tests are performed at various current levels\n to determine the relay operate time for various levels of fault currents.\n Definite time relays should be checked at their normal time and current\n setting values only"
+  },
+  {
+   "type": "paragraph",
+   "text": "To determine the B asic Minimum Pick-up value, follow the\n same initialization procedure as outlined before for instantaneous relays."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Rotate the Current Adjust knob until the relay disk just\n begins to rotate or the contact just begins to leave the backstop and note\n this value.",
+    "Repeat the above test three times to determine the\n average Minimum Pick-up value of the relay and record this value on the\n maintenance sheet."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TESTING, TIMED OVERCURRENT (#51)\nRELAYS (Cont'd.)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Determine the normal operating range of the relay and\n select (3 to 5) test currents to check the relay timing characteristics.\n (Refer to the manufacturer's test curves for comparison to the test\n calibration curves.)",
+    "Energize the Test Set as previously described and adjust\n the test current to the desired calibration level.",
+    "Push the 'ON' pushbutton and adjust the current to the\n desired test level. Leave the Current Adjust rheostat at this setting.",
+    "Disable the test current by pushing the 'OFF' pushbutton.",
+    "Jumper the N.O. (normally open) internal contact to the\n C1 timer start terminals using the two black jumper plugs. This arrangement\n allows the timer to start once the current is flowing to the relay under\n test.",
+    "Initially set the timer control switches to the following\n positions:",
+    "Start module switch to 'AMP BOX'",
+    "Measurement mode switch to t .",
+    "Start contact mode switch to N.O.",
+    "Stop contact mode switch to N.O. or N.C. (normally\n closed) as required.",
+    "Connect a stop timer signal from the relay to the Current\n Test Set using one of the following three methods:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "i) Dry (no voltage) relay stop contacts should be connected\n across the C2 Stopbinding posts. Switch the N.O./N.C. stop switch to properly\n represent the normal position of these contacts before the relay operates."
+  },
+  {
+   "type": "paragraph",
+   "text": "Or"
+  },
+  {
+   "type": "paragraph",
+   "text": "ii) If there is a long distance between the Test Set or\n high inductive interference, the dry contacts from the relay may not properly\n stop the timer. In these casesthe Floating Contact Optocoupler Stop contact\n should be used."
+  },
+  {
+   "type": "paragraph",
+   "text": "Or"
+  },
+  {
+   "type": "paragraph",
+   "text": "iii) Contacts which have voltage on them once the relay\n picks-up, should beconnected to the Test Set via the V2 voltage input plug and\n the corresponding cable. Voltages in the range of 24 to 220 volts d.c or a.c.\n can be used."
+  },
+  {
+   "type": "paragraph",
+   "text": "NOTE: No external voltage should be applied to terminals\n C1, C2 or the floating ContactOptocoupler input terminals!"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Reset the timer by pushing the timer reset pushbutton\n Press the 'ON' pushbutton to start the timer and start the test current flow\n to the relay. Be sure to allow the relay to reset between the tests. The\n timer should stop once the relay has picked-up.",
+    "Repeat the test to determine the average timed pick-up\n point for this current level. Record the, test current value and the relay\n operate time on the maintenance sheet.",
+    "Repeat the steps above using other appropriate current\n levels and compare all results of these time curves to the manufacturer's\n data sheet for the relay."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TESTING~'DISTANCE (#21) and\nGROUND DIRECTIONAL (#67) RELAYS"
+  },
+  {
+   "type": "paragraph",
+   "text": "General: These relays require both a test current and\n test voltage to operate. Many of the steps previously given for independent\n use of the Current and Voltage Test Sets will also apply here. The main\n difference is that the phase angle of the current with respect to the voltage\n and the direction of the current are critical to the proper calibration of\n these relays."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Interconnect the power supply between the two test sets\n and initialize the Current and Voltage Test Sets as previously described.",
+    "Check for proper phase rotation of the supply voltage by\n pushing the phase rotation check button. The push-button will glows green\n for proper phase rotation and will not light if phase rotation is incorrect.",
+    "Turn both, of the large Current and Voltage Adjustment\n knobs to their minimum position. (fully counterclockwise)",
+    "The Test Start switch, located on the voltage box, should\n be switched to the start position. This allows initial adjustment of the\n voltage to the desired fault level.",
+    "Adjust the voltage box to the desired fault voltage level\n and phase angle using the appropriate selector knobs. Remember to always\n reduce the large rheostat knobs to their minimum setting (fully cow) before\n changing the corresponding current or voltage range selector switches.",
+    "Turn the (2) Phase Adjustment knobs on the voltage box to\n select the desired phase angle of the current with respect to the voltage.\n The following table gives the possible combinations:"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "TESTING\nDISTANCE and GROUND DIRECTIONAL RELAYS (cont'd.)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The optional phase shifter can also be added to the\n Voltage Test Set for increased accuracy. If desired, connect the phase\n shifter by removing the Voltage Set jumpers.",
+    "On the Current Test Set, turn the Test Set selector knob\n to the 'V+I' position. This allows the fault current to circulate at the\n same time that the fault voltage is applied. Similarly, on the Voltage Test\n box the Timer Test mode switch should be selected to indicate 'V+I'.",
+    "Preset both the voltage and Amp boxes for the Type of\n Fault (Phase-to-Neutral or Phase-to-Phase) by means of the selector switches\n on each box.",
+    "Connect the relay under test to the appropriate voltage\n and current Relay Test Terminals Qn the test sets.",
+    "To properly check the operating point of the distance\n relay, the (fault) voltage should be raised to the normal level with a fixed\n current flow and then the voltage reduced until the desired zone of the\n relay operates.",
+    "Repeat the above step three times to determine the\n average zone operating point.",
+    "Record the test current value, the fault voltage and the\n phase angle.",
+    "Calculate the operating point of this zone and record\n this point on an R-X diagram.",
+    "Change the phase angle and repeat the steps above to\n calculate other operating points and also record these points on the R-X\n diagram.",
+    "Repeat for the other Zones.",
+    "Continue the steps above until a good graph is obtained\n of the relay characteristics."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "USING THE DIGITAL TIMER"
+  },
+  {
+   "type": "paragraph",
+   "text": "General: The timer model CSP/2 1 located on the Amp\n Test box has several measurement modes. Essentially the timer requires a start\n signal and a stop signal Proper use of the Stop signal inputs has been\n described previously in the timed overcurrent section of this procedure. The\n timer may be STARTED in these ways:"
+  },
+  {
+   "type": "paragraph",
+   "text": "i) Jumper the N.O. (normally open) internal contact to\n the C1 timer start terrn,inals using the two black jumper plugs. This\n arrangement allows the timer to start once the current is flowing to the\n relay under test."
+  },
+  {
+   "type": "paragraph",
+   "text": "ii) Dry (no voltage) relay Start contacts should be\n connected across the C1 START binding posts. Switch the N.O./N.C. start\n switch to properly represent the normal position of these contacts before\n the relay operates."
+  },
+  {
+   "type": "paragraph",
+   "text": "iii) Contacts which have voltage on them once the relay\n starts should be connected to the Test Set via the V1 voltage input plug and\n the corresponding cable. Voltages in the range of 24 to 220 volts d.c or\n a.c.~can be used."
+  },
+  {
+   "type": "paragraph",
+   "text": "iv) Energization of the fault test voltage or the Volt\n Test Set breaker can also be Used to start the timer. The selector switch on\n the Current box should be Selected to indicate 'VOLT BOX'. On the Volt box\n the Timer Start switch can then be selected for M.B. (start the timer from\n the Main Breaker of the Volt box) or the Timer Start Switch can be selected\n for F.V., which Will start the timer once the fault voltage is applied to\n the relay under test."
+  },
+  {
+   "type": "paragraph",
+   "text": "The Test Switch should be placed in the Stop position and\n the Reset Switch turned to 'MANUAL' after each timing test."
+  },
+  {
+   "type": "paragraph",
+   "text": "When using the Current Test Set, the Reset switch on this\n box will need to be pushed to prepare for the next timing sequence."
+  }
+ ],
+ "text": "Protection\nTechnical \n Procedure\nEquipment:\nRelay Calibration \n TZ/2\n CEE\nWhen removing relays for bench testing ensure that the CT\n secondary circuits are short circuited.\nEnsure that injected test currents only supply the relay\n under test.\nWhen using the test set, it should always be connected to\n a station earth point via the yellow earth plugs.\nWork to be Carried Out\nINDEPENDENT VOLTAGE TESTS\n(Using the Voltage Set to check under-voltage (#27) and\novervoltage (#59) relays.)\nUnder-voltage relays are typically used where a decrease in\nthe normal voltage supply level triggers a protection event such as tripping,\nreclosure or an alarm. In most cases, the relay operate time for an\nunder-voltage condition is not critical. Consequently, this procedure details\nthe simple steps to determine the actual under and over-voltage calibration\npoints. Use of the timer is therefore presented as a separate section in this\ndocument.\nINITIALIZATION of the VOLTAGE\nTEST SET:\nConnect a three phase 220/380supply to the Voltage Test\n Set using one of the following two methods:\n i)Use the connector cable with a connector on one end and banana plugs/clips\n on the other end. first attach the connector end to the voltage test set and\n carefully connect the banana plugs/clips to a three-phase supply.\nOr:\nPlace the three shorting plugs in the terminals R, Y, B\n to jumper out the terminals for the optional phase shifter, which is not\n required for these tests.\nTurn the two Phase Adjust knobs to indicate zero degrees.\nRotate the large Fault Voltage Adjustment knob to the\n minimum voltage level by turning it to the fully counterclockwise position.\nTurn the Fault Voltage Range switch to the desired (10 or\n 60 volts) level. Remember that these maximum values will be increased by 3\n to 17.32 or 103.92 volts when the Type of Fault selector indicates\n phase-to-phase faults.\nTurn the Type of Fault switch to select either a phase-to\n neutral fault or a phase- to-phase fault.\nConnect the voltage coil of the relay under test to the\n appropriate Relay Test Terminals in agreement with the type of fault\n selected above.\nii) Use the cable mentioned before, but this time it\n should be attached via the connector end to the Current Test Set. Then use\n the supplied inter-test set connector cable to supply the Voltage Set from\n the Current Set. When using this arrangement, the main breaker on the Current\n Test Set must be closed before the supply will be available at the\n Voltage Set.\nEnergize the Voltage Test Set by pushing the white 'ON' Pushbutton. The\n red 'OFF' pushbutton will now be lit to indicate that the test voltage\n circuit is alive and that the voltage to the relay under test can be\n disabled by pushing the 'OFF'' pushbutton.\nTESTING of the UNDERVOLTAGE (#27)\nRELAY:\nTo check the under-voltage setting, energize the Voltage\n Test Set by one of the above methods and increase the voltage by turning the\n large Fault Voltage knob clockwise until the voltmeter indicates the normal\n operating voltage. Slowly decrease the voltage until the under-voltage relay\n drops out.\nPut the test switch on the right bottom corner of voltage\n test set on start position.\nRepeat the above step three times to determine the\n average drop-out value.\nRecord this under-voltage drop-out value on the\n maintenance test sheet.\nTESTING of the OVERVOLTAGE (#59)\nRELAY:\nNote:\nMaximum Output voltage from the tester is { (3) (60) }\nvolt. Therefore, it is not possible to calibrate over-voltage relays rated at\n100 volts or above.\nTo check the over-voltage setting, energize the Voltage\n Test Set as described above, and then increase the voltage by turning the\n large Fault Voltage knob clockwise until the voltmeter indicates the normal\n operating voltage. Slowly increase the test voltage until the over-voltage\n relay picks-up.\nRepeat the above step three times to determine the\n average pick-up value.\nRecord this overvoltage pick-up value on the maintenance\n test sheet.\nINDEPENDENT CURRENT TESTS\n(Using the Current Test Set to check instantaneous (#50) and\ntimed (#51) overcurrent relays\nInitialization of the Current\nTest Set\nInitially\nset the Current Test Set switches in the following positions:\nMain Breaker switch to 'OFF'.\nCurrent Adjust rheostat to minimum. (Fully\n counterclockwise)\nAmp Range switch to minimum. (3 amps)\nCurrent Direction switch to 'Normal'.\nTest Set Selector switch to I. (Current only)\nTighten the metal link to short the optional ammeter\n binding posts. If an additional meter is desired, the additional ammeter\n should be attached and then the link opened.\nTurn the Type of Fault witch to select the desired\n (phase-to-neutral or phase-to- phase) fault.\nConnect the relay under test to the appropriate Relay\n Test Terminals.\nConnect the three-phase supply to the Current Set as\n described previously.\nTurn on the three-phase switch of the Main Breaker.\nTESTING\nINSTANTANEOUS OVERCURRENT RELAYS\nEnergize the Current Test Set by pushing the whit ON\n pushbutton. The red OFF pushbutton will now be lit to indicate that\n the test current circuit is alive and current to the relay under test can be\n disabled by pushing the 'OFF' pushbutton.\nGradually increase the test current by rotating the large\n Current Adjustment knob in a clockwise direction, unit the relay picks up.\n If, when the knob has been turned fully clockwise and the relay still does\n not pickup, then the knob should be returned to its minimum position (fully\n counterclockwise), and then the Ampere Range switch moved to the next higher\n current position.\nAfter moving the Amp Range switch to the next higher\n position, repeat the above step until the relay operates.\nOnce the relay operates, leave the Current Adjust knob in\n that position and disable the current by pushing the OFF pushbutton.\n If necessary allow the relay to reset.\nPress the ON pushbutton and observe whether the\n relay instaneously picks up.\nIf the relay fails to pickup, slightly increase the fault\n current and repeat the test.\nRepeat this instantaneous test three times to determine\n the average pick-up value.\nRecord the instantaneouse pick-up value on the\n maintenance test sheet.\nTESTING, TIMED OVERCURRENT (#51)\nRELAYS\nGeneral: Normally, two types of tests are performed\n to check timed overcurrent relays. These are the basic minimum pick-up test\n and then several (3 to 5) time tests are performed at various current levels\n to determine the relay operate time for various levels of fault currents.\n Definite time relays should be checked at their normal time and current\n setting values only\nTo determine the B asic Minimum Pick-up value, follow the\n same initialization procedure as outlined before for instantaneous relays.\nRotate the Current Adjust knob until the relay disk just\n begins to rotate or the contact just begins to leave the backstop and note\n this value.\nRepeat the above test three times to determine the\n average Minimum Pick-up value of the relay and record this value on the\n maintenance sheet.\nTESTING, TIMED OVERCURRENT (#51)\nRELAYS (Cont'd.)\nDetermine the normal operating range of the relay and\n select (3 to 5) test currents to check the relay timing characteristics.\n (Refer to the manufacturer's test curves for comparison to the test\n calibration curves.)\nEnergize the Test Set as previously described and adjust\n the test current to the desired calibration level.\nPush the 'ON' pushbutton and adjust the current to the\n desired test level. Leave the Current Adjust rheostat at this setting.\nDisable the test current by pushing the 'OFF' pushbutton.\nJumper the N.O. (normally open) internal contact to the\n C1 timer start terminals using the two black jumper plugs. This arrangement\n allows the timer to start once the current is flowing to the relay under\n test.\nInitially set the timer control switches to the following\n positions:\nStart module switch to 'AMP BOX'\nMeasurement mode switch to t .\nStart contact mode switch to N.O.\nStop contact mode switch to N.O. or N.C. (normally\n closed) as required.\nConnect a stop timer signal from the relay to the Current\n Test Set using one of the following three methods:\ni) Dry (no voltage) relay stop contacts should be connected\n across the C2 Stopbinding posts. Switch the N.O./N.C. stop switch to properly\n represent the normal position of these contacts before the relay operates.\nOr\nii) If there is a long distance between the Test Set or\n high inductive interference, the dry contacts from the relay may not properly\n stop the timer. In these casesthe Floating Contact Optocoupler Stop contact\n should be used.\nOr\niii) Contacts which have voltage on them once the relay\n picks-up, should beconnected to the Test Set via the V2 voltage input plug and\n the corresponding cable. Voltages in the range of 24 to 220 volts d.c or a.c.\n can be used.\nNOTE: No external voltage should be applied to terminals\n C1, C2 or the floating ContactOptocoupler input terminals!\nReset the timer by pushing the timer reset pushbutton\n Press the 'ON' pushbutton to start the timer and start the test current flow\n to the relay. Be sure to allow the relay to reset between the tests. The\n timer should stop once the relay has picked-up.\nRepeat the test to determine the average timed pick-up\n point for this current level. Record the, test current value and the relay\n operate time on the maintenance sheet.\nRepeat the steps above using other appropriate current\n levels and compare all results of these time curves to the manufacturer's\n data sheet for the relay.\nTESTING~'DISTANCE (#21) and\nGROUND DIRECTIONAL (#67) RELAYS\nGeneral: These relays require both a test current and\n test voltage to operate. Many of the steps previously given for independent\n use of the Current and Voltage Test Sets will also apply here. The main\n difference is that the phase angle of the current with respect to the voltage\n and the direction of the current are critical to the proper calibration of\n these relays.\nInterconnect the power supply between the two test sets\n and initialize the Current and Voltage Test Sets as previously described.\nCheck for proper phase rotation of the supply voltage by\n pushing the phase rotation check button. The push-button will glows green\n for proper phase rotation and will not light if phase rotation is incorrect.\nTurn both, of the large Current and Voltage Adjustment\n knobs to their minimum position. (fully counterclockwise)\nThe Test Start switch, located on the voltage box, should\n be switched to the start position. This allows initial adjustment of the\n voltage to the desired fault level.\nAdjust the voltage box to the desired fault voltage level\n and phase angle using the appropriate selector knobs. Remember to always\n reduce the large rheostat knobs to their minimum setting (fully cow) before\n changing the corresponding current or voltage range selector switches.\nTurn the (2) Phase Adjustment knobs on the voltage box to\n select the desired phase angle of the current with respect to the voltage.\n The following table gives the possible combinations:\nTESTING\nDISTANCE and GROUND DIRECTIONAL RELAYS (cont'd.)\nThe optional phase shifter can also be added to the\n Voltage Test Set for increased accuracy. If desired, connect the phase\n shifter by removing the Voltage Set jumpers.\nOn the Current Test Set, turn the Test Set selector knob\n to the 'V+I' position. This allows the fault current to circulate at the\n same time that the fault voltage is applied. Similarly, on the Voltage Test\n box the Timer Test mode switch should be selected to indicate 'V+I'.\nPreset both the voltage and Amp boxes for the Type of\n Fault (Phase-to-Neutral or Phase-to-Phase) by means of the selector switches\n on each box.\nConnect the relay under test to the appropriate voltage\n and current Relay Test Terminals Qn the test sets.\nTo properly check the operating point of the distance\n relay, the (fault) voltage should be raised to the normal level with a fixed\n current flow and then the voltage reduced until the desired zone of the\n relay operates.\nRepeat the above step three times to determine the\n average zone operating point.\nRecord the test current value, the fault voltage and the\n phase angle.\nCalculate the operating point of this zone and record\n this point on an R-X diagram.\nChange the phase angle and repeat the steps above to\n calculate other operating points and also record these points on the R-X\n diagram.\nRepeat for the other Zones.\nContinue the steps above until a good graph is obtained\n of the relay characteristics.\nUSING THE DIGITAL TIMER\nGeneral: The timer model CSP/2 1 located on the Amp\n Test box has several measurement modes. Essentially the timer requires a start\n signal and a stop signal Proper use of the Stop signal inputs has been\n described previously in the timed overcurrent section of this procedure. The\n timer may be STARTED in these ways:\ni) Jumper the N.O. (normally open) internal contact to\n the C1 timer start terrn,inals using the two black jumper plugs. This\n arrangement allows the timer to start once the current is flowing to the\n relay under test.\nii) Dry (no voltage) relay Start contacts should be\n connected across the C1 START binding posts. Switch the N.O./N.C. start\n switch to properly represent the normal position of these contacts before\n the relay operates.\niii) Contacts which have voltage on them once the relay\n starts should be connected to the Test Set via the V1 voltage input plug and\n the corresponding cable. Voltages in the range of 24 to 220 volts d.c or\n a.c.~can be used.\niv) Energization of the fault test voltage or the Volt\n Test Set breaker can also be Used to start the timer. The selector switch on\n the Current box should be Selected to indicate 'VOLT BOX'. On the Volt box\n the Timer Start switch can then be selected for M.B. (start the timer from\n the Main Breaker of the Volt box) or the Timer Start Switch can be selected\n for F.V., which Will start the timer once the fault voltage is applied to\n the relay under test.\nThe Test Switch should be placed in the Stop position and\n the Reset Switch turned to 'MANUAL' after each timing test.\nWhen using the Current Test Set, the Reset switch on this\n box will need to be pushed to prepare for the next timing sequence.",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/pc-002-02.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/p-c02-01.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/pc-002-03.gif",
+   "alt": ""
+  }
+ ]
+}

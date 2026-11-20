@@ -1,0 +1,443 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-dsr-030-r0-htm",
+ "doc_number": "DSR-030-R0",
+ "title_en": "dsr-030-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/DSR-030-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Substations"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The REL100 \ndigital line protection scheme is designed for simultaneous phase - phase and \nphase - earth loop impedance measurement with individual numerical measuring \nelements for each type of fault and each distance zone ensures fast and reliable \nfault detection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Following functions are available optionally \nindependent one on another:"
+  },
+  {
+   "type": "paragraph",
+   "text": "16 programmable signaling output relays"
+  },
+  {
+   "type": "paragraph",
+   "text": "Two additional distance measuring zones with \nprogrammable directionality"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase selective single phase tripping"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power swing detecting element with programmable effect \non different zones"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fuse failure supervision function"
+  },
+  {
+   "type": "paragraph",
+   "text": "Synchro check and dead line check function"
+  },
+  {
+   "type": "paragraph",
+   "text": "Supervision of protected power line"
+  },
+  {
+   "type": "paragraph",
+   "text": "Stub protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Weak and infeed trip and echo logic"
+  },
+  {
+   "type": "paragraph",
+   "text": "Directional or non directional earth fault over current \nprotection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Accurate fault locator based on well proven measuring \nalgorithm"
+  },
+  {
+   "type": "list",
+   "items": [
+    "16 programmable signaling output relays",
+    "Two additional distance measuring zones with \nprogrammable directionality",
+    "Phase selective single phase tripping",
+    "Power swing detecting element with programmable effect \non different zones",
+    "Fuse failure supervision function",
+    "Synchro check and dead line check function",
+    "Supervision of protected power line",
+    "Stub protection",
+    "Weak and infeed trip and echo logic",
+    "Directional or non directional earth fault over current \nprotection",
+    "Accurate fault locator based on well proven measuring \nalgorithm"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "This procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The\n first draft initiated by eng. Samah Mokhtar Mostafa,\n tested at 31 Dec 2002 by eng. Yousef Melad Shahat at El Eslah Portable station, accepted by General director eng. \n Abdel Menem Rabie Motalaqeh,\n and approved by eng. Fawzy Mourse Mohamed:\n Head Sector of Aswan Network."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Line isolation and a work permit must be issued"
+  },
+  {
+   "type": "paragraph",
+   "text": "The qualified maintenance staff should carry the suitable safety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence\n(rope) with caution marks surrounding the work area is required,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Make sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Line isolation and a work permit must be issued",
+    "The qualified maintenance staff should carry the suitable safety category,",
+    "Safety fence\n(rope) with caution marks surrounding the work area is required,",
+    "Make sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltmeter, Ammeter, \nand Test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "FREJA test \n set and Test plug \n handle type RTXP 24",
+    "Voltmeter, Ammeter, \nand Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps to prepare for relay \ntesting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Review technical reference material and \nmanufacturer's manual"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Obtain outage for line protected by this \nrelay"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check that the circuit breaker is opened and \ntagged"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspect the CT secondary circuits, the VT \nminiature circuit breakers (mcb.s) and all cabling supplying the relaying"
+  },
+  {
+   "type": "paragraph",
+   "text": "Use the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review technical reference material and \nmanufacturer's manual",
+    "Obtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay",
+    "Obtain outage for line protected by this \nrelay",
+    "Check that the circuit breaker is opened and \ntagged",
+    "Inspect the CT secondary circuits, the VT \nminiature circuit breakers (mcb.s) and all cabling supplying the relaying",
+    "Use the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the relay"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Carefully follow this test procedure",
+    "Verify the test results match the relay setting",
+    "Trip the circuit breaker associated with the relay"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This procedure should be used for performing off load line",
+    "Look at the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance",
+    "Make sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Reading the setting from the relay by using \nthe PC"
+  },
+  {
+   "type": "list",
+   "items": [
+    "By using the keys on the MMI (Man Machine Interface) of the relay read the \n setting"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Distance protection test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Be sure that the DC power of the relay is correct by applying a DC voltmeter \n across points 134 :402 (B12) and\n 134 :402 (B12) on the rear of the relay.",
+    "Connect the current test leads on the current terminals of the test plug \n handle 13A , 15A , 17A , 19A , and the voltage test leads on the voltage \n terminals of the test plug handle 21A , 22A , 23A , 24A and the trap leads on \n terminals 9A(trip R), 10A (trip S), 11A (trip T) of the test plug handle.",
+    "Connect AC power to the test set",
+    "Checking of impedance zones:\n a) Set the fault impedance (Z) and impedance angle Z φ \n for the zone under test to within 10% of the zone setting \n b) Supply the relay with healthy conditions (depress key \n < W > W - Healthy) for at least two seconds\n c) Apply the fault condition (depress key < S > S - faulty / auto open)\n d) Check that the correct trip outputs and external \n signals are obtained for the type of voltage generated and the trip \n time is in accordance with the zone timer under test.\n e) If the relay dose not operate after the set time of \n the zone timer, turn (off) the generators (depress key < Q > Q - \n open) and check that the zone timer \n is turned on and test point is within the range.\n f) Repeat steps ( a ) to ( d ) for other test points.\n g) Repeat steps ( a ) to ( f ) for other zone.\n h) Repeat steps ( a ) to ( g ) for other types of faults."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Return relay and associated equipment to \nservice"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Return relay to service by removing the test leads from the relay terminals \n and the test set",
+    "Make sure CT and V T secondary circuits are in normal condition",
+    "Remove the disturbance alarm LED`s on the relay which is caused by the test",
+    "Request feeder to be returned in service",
+    "Take phasor readings of all AC currents and voltages and compare them to \n those for normal load condition",
+    "Check that these reading agree with station meters (MW, Mvar, Amperes and power \n factor)",
+    "Place a copy of the test result in \n the field maintenance file"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet\nfor Line protection type REL \n100"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Kind of check",
+     "Remarks"
+    ],
+    [
+     "Relay \n number:",
+     "----------------------------------"
+    ],
+    [
+     "Visual \n check for transport damage",
+     "----------------------------------"
+    ],
+    [
+     "Visual \n check of external wiring",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n relay grounding",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n supply voltage (DC/AC)",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n setting",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n CT circuits",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n PT circuits",
+     "----------------------------------"
+    ],
+    [
+     "Secondary \n injection with test set type",
+     "----------------------------------"
+    ],
+    [
+     "Check of \n input signals",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n signalization / alarms",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n starting breaker failure protection",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n tripping",
+     "---------------------------------"
+    ],
+    [
+     "Check of \n reclosing",
+     "----------------------------------"
+    ],
+    [
+     "Directional \n check",
+     "----------------------------------"
+    ],
+    [
+     "Stability \n check (longitudinal diff. function)",
+     "---------------------------------"
+    ],
+    [
+     "Final check",
+     "----------------------------------"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Step Fault",
+     "1",
+     "2",
+     "3"
+    ],
+    [
+     "Setting",
+     "Measure",
+     "Setting",
+     "Measure",
+     "Setting",
+     "Measure"
+    ],
+    [
+     "R-S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S-T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T-R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T-N",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Setting Time",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Operation Time",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: \nTest\nDate: \nSignature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Approved by: Date: Signature:"
+  }
+ ],
+ "text": "Substations\nTechnical Procedure\nIntroduction\nThe REL100 \ndigital line protection scheme is designed for simultaneous phase - phase and \nphase - earth loop impedance measurement with individual numerical measuring \nelements for each type of fault and each distance zone ensures fast and reliable \nfault detection\nFollowing functions are available optionally \nindependent one on another:\n16 programmable signaling output relays\nTwo additional distance measuring zones with \nprogrammable directionality\nPhase selective single phase tripping\nPower swing detecting element with programmable effect \non different zones\nFuse failure supervision function\nSynchro check and dead line check function\nSupervision of protected power line\nStub protection\nWeak and infeed trip and echo logic\nDirectional or non directional earth fault over current \nprotection\nAccurate fault locator based on well proven measuring \nalgorithm\n16 programmable signaling output relays\nTwo additional distance measuring zones with \nprogrammable directionality\nPhase selective single phase tripping\nPower swing detecting element with programmable effect \non different zones\nFuse failure supervision function\nSynchro check and dead line check function\nSupervision of protected power line\nStub protection\nWeak and infeed trip and echo logic\nDirectional or non directional earth fault over current \nprotection\nAccurate fault locator based on well proven measuring \nalgorithm\nThis procedure\ndetails the steps required to completely check the proper operation and\ncalibration of the relay. It is recommended this procedure be carried out on an\nannually bases. The document is formatted the way to minimize the possibility\nof error causing personal injury or damage to equipment.\nThe\n first draft initiated by eng. Samah Mokhtar Mostafa,\n tested at 31 Dec 2002 by eng. Yousef Melad Shahat at El Eslah Portable station, accepted by General director eng. \n Abdel Menem Rabie Motalaqeh,\n and approved by eng. Fawzy Mourse Mohamed:\n Head Sector of Aswan Network.\nSafety Precautions\nLine isolation and a work permit must be issued\nThe qualified maintenance staff should carry the suitable safety category,\nSafety fence\n(rope) with caution marks surrounding the work area is required,\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nLine isolation and a work permit must be issued\nThe qualified maintenance staff should carry the suitable safety category,\nSafety fence\n(rope) with caution marks surrounding the work area is required,\nMake sure that \nCT secondary circuits are shorted before isolating the current circuits for test \ndistance protection\nTools and Equipment\nVoltmeter, Ammeter, \nand Test leads\nFREJA test \n set and Test plug \n handle type RTXP 24\nVoltmeter, Ammeter, \nand Test leads\nWork to be Carried Out\nSteps to prepare for relay \ntesting\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the VT \nminiature circuit breakers (mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nReview technical reference material and \nmanufacturer's manual\nObtain copy of relay setting from field \nmaintenance file and compare it with the setting on the relay\nObtain outage for line protected by this \nrelay\nCheck that the circuit breaker is opened and \ntagged\nInspect the CT secondary circuits, the VT \nminiature circuit breakers (mcb.s) and all cabling supplying the relaying\nUse the station drawings to isolate the \nfollowing:\n * Breaker trip coils\n * Breaker failure scheme associated with the relay and \ndisturbance alarms\nTesting the relay\nCarefully follow this test procedure\nVerify the test results match the relay setting\nTrip the circuit breaker associated with the relay\nPreparation\nThis procedure should be used for performing off load line\nLook at the EEC panel name plate and check this EEC system designation name plate \n agrees with the line that has been taken out of service for maintenance\nMake sure CT secondary circuits are shorted at the incoming terminal blocks \n before isolate the relay current circuits for test\nReading the setting from the relay by using \nthe PC\nBy using the keys on the MMI (Man Machine Interface) of the relay read the \n setting\nDistance protection test\nBe sure that the DC power of the relay is correct by applying a DC voltmeter \n across points 134 :402 (B12) and\n 134 :402 (B12) on the rear of the relay.\nConnect the current test leads on the current terminals of the test plug \n handle 13A , 15A , 17A , 19A , and the voltage test leads on the voltage \n terminals of the test plug handle 21A , 22A , 23A , 24A and the trap leads on \n terminals 9A(trip R), 10A (trip S), 11A (trip T) of the test plug handle.\nConnect AC power to the test set\nChecking of impedance zones:\n a) Set the fault impedance (Z) and impedance angle Z φ \n for the zone under test to within 10% of the zone setting \n b) Supply the relay with healthy conditions (depress key \n < W > W - Healthy) for at least two seconds\n c) Apply the fault condition (depress key < S > S - faulty / auto open)\n d) Check that the correct trip outputs and external \n signals are obtained for the type of voltage generated and the trip \n time is in accordance with the zone timer under test.\n e) If the relay dose not operate after the set time of \n the zone timer, turn (off) the generators (depress key < Q > Q - \n open) and check that the zone timer \n is turned on and test point is within the range.\n f) Repeat steps ( a ) to ( d ) for other test points.\n g) Repeat steps ( a ) to ( f ) for other zone.\n h) Repeat steps ( a ) to ( g ) for other types of faults.\nReturn relay and associated equipment to \nservice\nReturn relay to service by removing the test leads from the relay terminals \n and the test set\nMake sure CT and V T secondary circuits are in normal condition\nRemove the disturbance alarm LED`s on the relay which is caused by the test\nRequest feeder to be returned in service\nTake phasor readings of all AC currents and voltages and compare them to \n those for normal load condition\nCheck that these reading agree with station meters (MW, Mvar, Amperes and power \n factor)\nPlace a copy of the test result in \n the field maintenance file\nTest Sheet\nfor Line protection type REL \n100\n\n\nTested by: \nTest\nDate: \nSignature:\nApproved by: Date: Signature:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}

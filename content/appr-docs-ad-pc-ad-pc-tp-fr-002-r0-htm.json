@@ -1,0 +1,391 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-fr-002-r0-htm",
+ "doc_number": "FR-002-R0",
+ "title_en": "FR-002-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/FR-002-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Protection",
+     "Technical Procedure"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Issued to: \n Networks"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document details the check steps, which are performed on the fault recorder\ntype TPE 2000 manufacturer Enertic, on a monthly basis M1."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "A work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety fence\n (rope) with caution marks bust be surrounding the work area,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wear \n Safety helmet, Safety shoes"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Work order should be issued,",
+    "The fault recorder should be in service,",
+    "Appropriate personnel protective equipment must be used."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Normal multimeter or digital Multimeter,",
+    "Complete set of screwdrivers.",
+    "Blower."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Visual Inspection of the Fault Recorder"
+  },
+  {
+   "type": "paragraph",
+   "text": "Check the DC/DC converter and its output to UA250 & UR2000,\nthe correct values as indicated in figure 1."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Clean the outside casing of the fault recorder from the dust using the blower.",
+    "Ensure that the operation lamps are in the correct position reference to the\nDaily MPIS doc's no. FR-001-r0.",
+    "Check that all connections of the complete fault recorder system \"not loose\".",
+    "Check the DC/DC converter and its output to UA250 & UR2000,\nthe correct values as indicated in figure 1."
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "UAN number of unit",
+     "SUB name of substation"
+    ],
+    [
+     "FEE name of feeder"
+    ],
+    [
+     "PRT record time before event",
+     "PST record time after event"
+    ],
+    [
+     "RDU starting mode \n M (monostable) \n R (restarted) \n P (permanent)"
+    ],
+    [
+     "CAR memory mode \n 0 (linear ) \n 1 (circular )"
+    ],
+    [
+     "ACC compacting mode 1 \n 2 3 4 5 6 \n 7 8 9 10 %"
+    ],
+    [
+     "SYN \n M (minute) \n J (day ) \n U (UR ) \n 0 (without )"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "ANA analogical channels",
+     "nb 1",
+     "Name",
+     "Grope",
+     "Sing"
+    ],
+    [
+     "nb 2",
+     "Name",
+     "Grope",
+     "Sing"
+    ],
+    [
+     "nb 3",
+     "Name",
+     "Grope",
+     "Sing"
+    ],
+    [
+     "nb 4",
+     "Name",
+     "Grope",
+     "Sing"
+    ],
+    [
+     "nb 5",
+     "Name",
+     "Grope",
+     "Sing"
+    ],
+    [
+     "nb 6",
+     "Name",
+     "Grope",
+     "Sing"
+    ],
+    [
+     "nb 7",
+     "Name",
+     "Grope",
+     "Sing"
+    ],
+    [
+     "nb 8",
+     "Name",
+     "Grope",
+     "Sing"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "GRP reference settings \n attached to analogical channels",
+     "nb 1",
+     "I or U",
+     "Rated",
+     "Ratio"
+    ],
+    [
+     "nb 2",
+     "I or U",
+     "Rated",
+     "Ratio"
+    ],
+    [
+     "nb 3",
+     "I or U",
+     "Rated",
+     "Ratio"
+    ],
+    [
+     "nb 4",
+     "I or U",
+     "Rated",
+     "Ratio"
+    ],
+    [
+     "nb 5",
+     "I or U",
+     "Rated",
+     "Ratio"
+    ],
+    [
+     "nb 6",
+     "I or U",
+     "Rated",
+     "Ratio"
+    ],
+    [
+     "nb 7",
+     "I or U",
+     "Rated",
+     "Ratio"
+    ],
+    [
+     "nb 8",
+     "I or U",
+     "Rated",
+     "Ratio"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "DIG setting for digital channels"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "CHANNEL",
+     "NAME",
+     "START",
+     "STOP PRINT",
+     "SPECIAL PRINT"
+    ],
+    [
+     "nb 1",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 2",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 3",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 4",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 5",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 6",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 7",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 8",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 9",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 10",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 11",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 12",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 13",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 14",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 15",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "nb 16",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "STH daily test time",
+     "FRQ network frequency"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Substation Name: Fault Recorder Serial no.:\nChecked by: \nSignature: \nDate:"
+  }
+ ],
+ "text": "\nIssued to: \n Networks\nIntroduction\nThis document details the check steps, which are performed on the fault recorder\ntype TPE 2000 manufacturer Enertic, on a monthly basis M1.\nSafety Precautions\nA work permit\n must be issued and the qualified maintenance staff should carry the suitable\n safety category,\nSafety fence\n (rope) with caution marks bust be surrounding the work area,\nWear \n Safety helmet, Safety shoes\nWork order should be issued,\nThe fault recorder should be in service,\nAppropriate personnel protective equipment must be used.\nTools and Equipment\nNormal multimeter or digital Multimeter,\nComplete set of screwdrivers.\nBlower.\nWork to be Carried Out\nVisual Inspection of the Fault Recorder\nCheck the DC/DC converter and its output to UA250 & UR2000,\nthe correct values as indicated in figure 1.\nClean the outside casing of the fault recorder from the dust using the blower.\nEnsure that the operation lamps are in the correct position reference to the\nDaily MPIS doc's no. FR-001-r0.\nCheck that all connections of the complete fault recorder system \"not loose\".\nCheck the DC/DC converter and its output to UA250 & UR2000,\nthe correct values as indicated in figure 1.\n\n\n\nDIG setting for digital channels\n\n\nSubstation Name: Fault Recorder Serial no.:\nChecked by: \nSignature: \nDate:",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  },
+  {
+   "src": "graphics/fr-02-1.gif",
+   "alt": ""
+  }
+ ]
+}

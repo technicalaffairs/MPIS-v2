@@ -1,0 +1,532 @@
+{
+ "id": "appr-docs-ad-pc-ad-pc-tp-eps-001-r0-htm",
+ "doc_number": "EPS-001-R0",
+ "title_en": "EPS-001-r0 \nAPPROVED",
+ "title_ar": "",
+ "category": "appr_docs",
+ "source_path": "appr_docs/ad_pc/ad_pc_tp/EPS-001-r0.htm",
+ "source_type": "html",
+ "source_encoding": "utf-8",
+ "language": "en",
+ "languages_available": [
+  "en"
+ ],
+ "translation_status": "missing",
+ "sections": [
+  {
+   "type": "paragraph",
+   "text": "Protections"
+  },
+  {
+   "type": "paragraph",
+   "text": "Technical Procedure"
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document outlines the \ntesting procedure P1, which must be performed every 6 months as indicated by M6 in the above title block."
+  },
+  {
+   "type": "paragraph",
+   "text": "This patent concerns the \ntest of protection relays of the exciter \nmanufactured by SKODA PLZEN. \nThe exciter \nis of type HE500630/2, rated active power 1210KW, rated apparent power \n2200KVA, stator nominal voltage 525V, and rated field current 190A ."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft initiated \n by eng .Maysa Ahmady, tested at 27 Jan. 2003 by eng. Iman Rizk ElAshry, reviewed by quality control \n engineer eng. Adel Abd El Kader EL Nagar of EDEPCo, accepted by general \n director eng . Mahmoud El Saied Sakr, and approved by eng. Mohamed Reda Abdel \n Azez Soliman Pre. Sector Head of Talkha PS 2x210 MW."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "A work permit \nmust be issued and the qualified maintenance staff should carry the suitable \nsafely category",
+    "Safety fence \n(rope) with caution marks and No Smoking sign surrounding the work area must be used.",
+    "Wearing safety \nhelmet, shoes, masks are necessary.",
+    "Ascertain the disconnection of the exciter, the generator, main \ntransform, and home transformer .",
+    "Be aware of parts in service.",
+    "Follow the work permission instructions."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "An A.C. voltage source of type Z11.",
+    "An A.C. current source of type Z11.",
+    "Varying - Resistance Box .",
+    "An ammeter & A voltmeter.",
+    "A timer unit TM-2 ( Program )",
+    "Some leads & screws."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation of Relays"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Review the manual.",
+    "Prepare the previous results of the relay \n testing.",
+    "Check the wires of the relay beforehand.",
+    "Be sure that the unit and the transformer are \n disconnected and the DC source is available.",
+    "Check the existence of the d.c. sources in \n panels.",
+    "Disconnect the trip leads of the relay and \n connect the timer to them.",
+    "Check all the leads used in tests"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Preparation of Testing Tools"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Connect the testing units of Z11 to a power \n source.",
+    "Connect the timer to a power source and its \n terminals to the trip terminals of the relay under test.",
+    "Place an ammeter on current leads of Z11 to \n measure the current.",
+    "Connect the voltmeter in \n parallel with the voltage leads of Z11 ( the other unit ) to measure the \n voltage."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential of exciter type R32X1"
+  },
+  {
+   "type": "paragraph",
+   "text": "It is a three point differential protection with \nthe measuring member in each phase, locked switching on surge."
+  },
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "C.T. TA12 & TA14 2500/5A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test steps"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inject the current in points ( 11,12,13,14N ) \n of Z13 either ph-ph or ph-N"
+  },
+  {
+   "type": "paragraph",
+   "text": "Or inject the current in points ( 11,12,13 ) \n of Z14 ph-ph."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place a socket ZZ10 in Z13 (TA12), and another \n one in Z14 (TA14).",
+    "Fix the timer leads in (172,188) at the rear \n of panel HH03.",
+    "Or inject the current in terminal (14(N)) of \n Z13, and (11,12,13)(phase) of Z14.",
+    "Increase the injected current gradually till \n the red flag of the device displays. Let the timer start acting till it stops \n (almost instantaneously)",
+    "Record the results in each case of injection."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current type A33TX1"
+  },
+  {
+   "type": "paragraph",
+   "text": "It is a three \nphase over- current protection with a distinguishing of the effected phases, and \na time member."
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T. TA13 2500/5A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place the socket ZZ10 in Z11 (HH01).",
+    "Fix the timer leads in (172,199) at the rear \n of panel HH02.",
+    "Inject the current in points \n (11,14),(12,14),(13,14(N))of Z11 respectively phase-N .",
+    "Increase the injected current gradually till \n the red flag of the device displays.",
+    "Let the timer start acting till it stops (its \n red flag displays) indicating the tripping time of the device.",
+    "Repeat the steps for each phase.",
+    "Record the results."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Load type A3TX1"
+  },
+  {
+   "type": "paragraph",
+   "text": "It is a three phase over- current protection \nwithout distinguishing of the effected phases with a time member."
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T. TA13 2500/5A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place the socket ZZ10 in Z11 (HH01).",
+    "Fix the timer leads in (172,197) at the rear \n of panel HH04.",
+    "Inject the current to points (11,14) then \n (12,14), and finally (13,14(N)) of Z11 ph-N.",
+    "Increase the injected current gradually till \n the red flag of the device displays.",
+    "Let the timer start acting till it stops (its \n red flag displays) indicating the signaling time of the device.",
+    "Repeat the steps for each phase.",
+    "Record the results."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Rotor Earth fault \nprotection ( \n 1st unit 210MW ) \ntype GRX1"
+  },
+  {
+   "type": "paragraph",
+   "text": "It is an earth \n fault protection and measuring of insulation state of generator stator. It is \nthe protection with D.C. superposition."
+  },
+  {
+   "type": "paragraph",
+   "text": "G2 Rotor insulating condition checking"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Supply 220 Vdc between 15 (-) & 16 (+). \n Supply an a.c. voltage of 100V to terminals 12,13 .",
+    "A 750 V will be measured on C4 then with \" IZOL. G2 \" pressed down.",
+    "Connect resistance R = 68 kW ( by a resistance box) to terminal 1{ ground } and 4. With \" Isolation \n G2\" push button pressed down the 1A, 2A relays will start operating and the \n respective millimeter on the panel must indicate 20 mA in stabilized \n state / within about 3 sec .",
+    "Repeat the test with 220 Va.c to terminals \n 12,14 ."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "G2 Generator earth connection test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Supply 220 Vdc between 15 (-) & 16(+) \n . Supply an AC voltage of 100 V to terminals 12 , 13.",
+    "Terminals 1,5 are disconnected. With \n the press of \" TestG2\" push button, the B, 1B relays, J reed relay, C,D \n relays will close.",
+    "The alarm relay will fall into the \n red flag and the 1B relay has about 2 sec slow release.",
+    "Connect terminal 1{ground}& 5 \n through resistance about 220 ohm The D relay closes with voltage lower than \n 50V. Check that contact on terminals 6 - 7 & 8 - 9 closes.",
+    "Press down the Reset push button then \n the white flag displays again. + 220 V on terminal 11, the B, 1B,J,C, and D \n relays will start operating. The NG2 magnetic indicator will start operating. \n Circuits of contacts on terminals 6-7 , 8-9 are opened . With + 220V \n connection to terminal 10, the magnetic indicator will release."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing of exciting of terminals 12-14"
+  },
+  {
+   "type": "paragraph",
+   "text": "Supply an a.c. voltage of 100V to \nterminals (12,13) and measure by a voltmeter the existence of 220 V on terminals \n(12,14)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rotor Earth fault protection\n( 2nd unit 210MW ) type ALOX \nGR100"
+  },
+  {
+   "type": "paragraph",
+   "text": "It is an earth fault \nprotection and measuring of insulation state of generator stator. Its the \nprotection with DC superposition."
+  },
+  {
+   "type": "paragraph",
+   "text": "Test steps"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Check the existence of the dc voltage ( 220 Vdc \n ).",
+    "Fulfill the self test of the device.",
+    "Place the leads of the varying-resistance box \n on terminals (3,5) at the rear of panel hh06",
+    "Decrease the value of resistance gradually till \n the red lamp indicating both the first stage (R <) and the relay signal - \n switches on.",
+    "Keep on decreasing the resistance till the \n red lamp indicating both the second stage (R<</t) and the relay tripping \n value - switches on.",
+    "Record the value of the resistance for the two \n stages & compare them with the previous ones."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Pro Maintenance \nProcedures"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Loosen the leads of the testing \n instruments.",
+    "Check the return of relay- wires and \n trip-leads to their original places and tighten them carefully.",
+    "Press the main RESET button in \n HH01.",
+    "Be sure that the relay is completely \n ready for service any time.",
+    "Alienate the testing materials and \n equipments in addition to the caution signs and leave the place clean.",
+    "Return the work permission."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "MRDS \nTest Sheet of Exciter Protection Relays \nMRDS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Name :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power station:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Differential of Exciter"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : R32X1 \nFunction : F304 \nIn : 5A"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T. 1 : TA12 \nC.T. 1.R : 2500/5A \nSetting : 0.2 In"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T. 2 : TA14 \nC.T.2. R : 2500/5A \n0.2X In"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "PH-N",
+     "TA 12",
+     "TA14",
+     "PH-PH",
+     "TA 12"
+    ],
+    [
+     "Set value",
+     "Reset value",
+     "Set value",
+     "Reset value",
+     "Set value",
+     "Reset value"
+    ],
+    [
+     "R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment:"
+  },
+  {
+   "type": "paragraph",
+   "text": "...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "....................................................................................................................................................................................\n...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Current"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : A33TX1 \nFunction : F114 \nIn :5A"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T. : TA 13 \nC.T.R : 2500/5A \nSetting : 0.2 In, 1sec"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "PH-N",
+     "Over Current"
+    ],
+    [
+     "Set Value",
+     "Reset Value"
+    ],
+    [
+     "R",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment:"
+  },
+  {
+   "type": "paragraph",
+   "text": "...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "....................................................................................................................................................................................\n...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "MRDS \nTest sheet of Exiter Protection Relays \nMRDS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over Load"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : A3TX1 \nFunction : F136 \nIn : 5A"
+  },
+  {
+   "type": "paragraph",
+   "text": "C.T. : TA 13 \nC.T.R : 2500/5A \nSetting : 1.4In, 6sec"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "PH-N",
+     "Over Load"
+    ],
+    [
+     "Set Value",
+     "Reset Value"
+    ],
+    [
+     "R",
+     "",
+     ""
+    ],
+    [
+     "S",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment:"
+  },
+  {
+   "type": "paragraph",
+   "text": "...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "....................................................................................................................................................................................\n...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth Fault Protection"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : \nFunction : F432 \nSetting :not adjustable"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "First stage",
+     "",
+     ""
+    ],
+    [
+     "Second stage",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Comment:"
+  },
+  {
+   "type": "paragraph",
+   "text": "...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "....................................................................................................................................................................................\n...................................................................................................................................................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "...................................................................................................................................................................................."
+  }
+ ],
+ "text": "Protections\nTechnical Procedure\nIntroduction\nThis document outlines the \ntesting procedure P1, which must be performed every 6 months as indicated by M6 in the above title block.\nThis patent concerns the \ntest of protection relays of the exciter \nmanufactured by SKODA PLZEN. \nThe exciter \nis of type HE500630/2, rated active power 1210KW, rated apparent power \n2200KVA, stator nominal voltage 525V, and rated field current 190A .\nThe first draft initiated \n by eng .Maysa Ahmady, tested at 27 Jan. 2003 by eng. Iman Rizk ElAshry, reviewed by quality control \n engineer eng. Adel Abd El Kader EL Nagar of EDEPCo, accepted by general \n director eng . Mahmoud El Saied Sakr, and approved by eng. Mohamed Reda Abdel \n Azez Soliman Pre. Sector Head of Talkha PS 2x210 MW.\nSafety Precautions\nA work permit \nmust be issued and the qualified maintenance staff should carry the suitable \nsafely category\nSafety fence \n(rope) with caution marks and No Smoking sign surrounding the work area must be used.\nWearing safety \nhelmet, shoes, masks are necessary.\nAscertain the disconnection of the exciter, the generator, main \ntransform, and home transformer .\nBe aware of parts in service.\nFollow the work permission instructions.\nTools and Equipment\nAn A.C. voltage source of type Z11.\nAn A.C. current source of type Z11.\nVarying - Resistance Box .\nAn ammeter & A voltmeter.\nA timer unit TM-2 ( Program )\nSome leads & screws.\nWork to be Carried Out\nPreparation of Relays\nReview the manual.\nPrepare the previous results of the relay \n testing.\nCheck the wires of the relay beforehand.\nBe sure that the unit and the transformer are \n disconnected and the DC source is available.\nCheck the existence of the d.c. sources in \n panels.\nDisconnect the trip leads of the relay and \n connect the timer to them.\nCheck all the leads used in tests\nPreparation of Testing Tools\nConnect the testing units of Z11 to a power \n source.\nConnect the timer to a power source and its \n terminals to the trip terminals of the relay under test.\nPlace an ammeter on current leads of Z11 to \n measure the current.\nConnect the voltmeter in \n parallel with the voltage leads of Z11 ( the other unit ) to measure the \n voltage.\nDifferential of exciter type R32X1\nIt is a three point differential protection with \nthe measuring member in each phase, locked switching on surge.\nC.T. TA12 & TA14 2500/5A\nTest steps\nInject the current in points ( 11,12,13,14N ) \n of Z13 either ph-ph or ph-N\nOr inject the current in points ( 11,12,13 ) \n of Z14 ph-ph.\nPlace a socket ZZ10 in Z13 (TA12), and another \n one in Z14 (TA14).\nFix the timer leads in (172,188) at the rear \n of panel HH03.\nOr inject the current in terminal (14(N)) of \n Z13, and (11,12,13)(phase) of Z14.\nIncrease the injected current gradually till \n the red flag of the device displays. Let the timer start acting till it stops \n (almost instantaneously)\nRecord the results in each case of injection.\nOver Current type A33TX1\nIt is a three \nphase over- current protection with a distinguishing of the effected phases, and \na time member.\nC.T. TA13 2500/5A\nTest Steps\nPlace the socket ZZ10 in Z11 (HH01).\nFix the timer leads in (172,199) at the rear \n of panel HH02.\nInject the current in points \n (11,14),(12,14),(13,14(N))of Z11 respectively phase-N .\nIncrease the injected current gradually till \n the red flag of the device displays.\nLet the timer start acting till it stops (its \n red flag displays) indicating the tripping time of the device.\nRepeat the steps for each phase.\nRecord the results.\nOver Load type A3TX1\nIt is a three phase over- current protection \nwithout distinguishing of the effected phases with a time member.\nC.T. TA13 2500/5A\nTest Steps\nPlace the socket ZZ10 in Z11 (HH01).\nFix the timer leads in (172,197) at the rear \n of panel HH04.\nInject the current to points (11,14) then \n (12,14), and finally (13,14(N)) of Z11 ph-N.\nIncrease the injected current gradually till \n the red flag of the device displays.\nLet the timer start acting till it stops (its \n red flag displays) indicating the signaling time of the device.\nRepeat the steps for each phase.\nRecord the results.\nRotor Earth fault \nprotection ( \n 1st unit 210MW ) \ntype GRX1\nIt is an earth \n fault protection and measuring of insulation state of generator stator. It is \nthe protection with D.C. superposition.\nG2 Rotor insulating condition checking\nSupply 220 Vdc between 15 (-) & 16 (+). \n Supply an a.c. voltage of 100V to terminals 12,13 .\nA 750 V will be measured on C4 then with \" IZOL. G2 \" pressed down.\nConnect resistance R = 68 kW ( by a resistance box) to terminal 1{ ground } and 4. With \" Isolation \n G2\" push button pressed down the 1A, 2A relays will start operating and the \n respective millimeter on the panel must indicate 20 mA in stabilized \n state / within about 3 sec .\nRepeat the test with 220 Va.c to terminals \n 12,14 .\nG2 Generator earth connection test\nSupply 220 Vdc between 15 (-) & 16(+) \n . Supply an AC voltage of 100 V to terminals 12 , 13.\nTerminals 1,5 are disconnected. With \n the press of \" TestG2\" push button, the B, 1B relays, J reed relay, C,D \n relays will close.\nThe alarm relay will fall into the \n red flag and the 1B relay has about 2 sec slow release.\nConnect terminal 1{ground}& 5 \n through resistance about 220 ohm The D relay closes with voltage lower than \n 50V. Check that contact on terminals 6 - 7 & 8 - 9 closes.\nPress down the Reset push button then \n the white flag displays again. + 220 V on terminal 11, the B, 1B,J,C, and D \n relays will start operating. The NG2 magnetic indicator will start operating. \n Circuits of contacts on terminals 6-7 , 8-9 are opened . With + 220V \n connection to terminal 10, the magnetic indicator will release.\nTesting of exciting of terminals 12-14\nSupply an a.c. voltage of 100V to \nterminals (12,13) and measure by a voltmeter the existence of 220 V on terminals \n(12,14)\nRotor Earth fault protection\n( 2nd unit 210MW ) type ALOX \nGR100\nIt is an earth fault \nprotection and measuring of insulation state of generator stator. Its the \nprotection with DC superposition.\nTest steps\nCheck the existence of the dc voltage ( 220 Vdc \n ).\nFulfill the self test of the device.\nPlace the leads of the varying-resistance box \n on terminals (3,5) at the rear of panel hh06\nDecrease the value of resistance gradually till \n the red lamp indicating both the first stage (R <) and the relay signal - \n switches on.\nKeep on decreasing the resistance till the \n red lamp indicating both the second stage (R<</t) and the relay tripping \n value - switches on.\nRecord the value of the resistance for the two \n stages & compare them with the previous ones.\nPro Maintenance \nProcedures\nLoosen the leads of the testing \n instruments.\nCheck the return of relay- wires and \n trip-leads to their original places and tighten them carefully.\nPress the main RESET button in \n HH01.\nBe sure that the relay is completely \n ready for service any time.\nAlienate the testing materials and \n equipments in addition to the caution signs and leave the place clean.\nReturn the work permission.\nMRDS \nTest Sheet of Exciter Protection Relays \nMRDS\nName :\nPower station:\nManufacturer :\nDifferential of Exciter\nType : R32X1 \nFunction : F304 \nIn : 5A\nC.T. 1 : TA12 \nC.T. 1.R : 2500/5A \nSetting : 0.2 In\nC.T. 2 : TA14 \nC.T.2. R : 2500/5A \n0.2X In\n\nComment:\n....................................................................................................................................................................................\n....................................................................................................................................................................................\n....................................................................................................................................................................................\n....................................................................................................................................................................................\nOver Current\nType : A33TX1 \nFunction : F114 \nIn :5A\nC.T. : TA 13 \nC.T.R : 2500/5A \nSetting : 0.2 In, 1sec\n\nComment:\n....................................................................................................................................................................................\n....................................................................................................................................................................................\n....................................................................................................................................................................................\n....................................................................................................................................................................................\nMRDS \nTest sheet of Exiter Protection Relays \nMRDS\nOver Load\nType : A3TX1 \nFunction : F136 \nIn : 5A\nC.T. : TA 13 \nC.T.R : 2500/5A \nSetting : 1.4In, 6sec\n\nComment:\n....................................................................................................................................................................................\n....................................................................................................................................................................................\n....................................................................................................................................................................................\n....................................................................................................................................................................................\nEarth Fault Protection\nType : \nFunction : F432 \nSetting :not adjustable\n\nComment:\n....................................................................................................................................................................................\n....................................................................................................................................................................................\n....................................................................................................................................................................................\n....................................................................................................................................................................................",
+ "text_truncated": false,
+ "links": [],
+ "images": [
+  {
+   "src": "../../../images/mpis-1.gif",
+   "alt": ""
+  }
+ ]
+}
