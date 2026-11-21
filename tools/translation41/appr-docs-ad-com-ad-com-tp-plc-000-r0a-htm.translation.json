@@ -1,0 +1,601 @@
+{
+ "id": "appr-docs-ad-com-ad-com-tp-plc-000-r0a-htm",
+ "doc_number": "PLC-001-R0A",
+ "category": "appr_docs",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "plc-001-r0a",
+ "sections_target": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Communications",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document Number: PLC-001-r0a",
+     "Equipment: Power Line Carrier (PLC) equipment for 132 kV tie lines — AF Tele Protection type 199202, Cegelec"
+    ],
+    [
+     "Issued to: Networks"
+    ],
+    [
+     "Status: First Draft"
+    ],
+    [
+     "Approval Date:",
+     "Procedure: Periodic Tests"
+    ],
+    [
+     "Date of Next Review:"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Line Carrier (PLC) equipment on power transmission lines at power stations is no less important than the protection equipment installed at those stations, as the work of this equipment complements the role of protection. Since, when a short circuit occurs on the tie line between two power stations, the protection equipment at each station trips only the equipment connected to it at that same station, without being able to trip the equipment of the other side, then when protection operates at one side of the tie, the line remains in service until the protection equipment at the next tie side plays its role in tripping its equipment. It was therefore necessary to use PLC equipment so that trip commands can be transferred between the two sides of the tie without waiting for the protection equipment at both sides of the tie to operate each on its own."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Preparation of the work order document",
+    "Disconnect the line concerned by the maintenance from both sides and earth it.",
+    "Erect a fence around the work place and place the appropriate warning signs.",
+    "Put the test switches at both stations of the tie line in test position."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Instruments Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Portable air compressor (Blower)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Digital measuring instrument ...."
+  },
+  {
+   "type": "paragraph",
+   "text": "Selective Level Meter"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Portable air compressor (Blower)",
+    "Digital measuring instrument ....",
+    "Selective Level Meter"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the PLC for 132 kV lines"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Clean the equipment, put the equipment on Local test.",
+     "1."
+    ],
+    [
+     "Disconnect terminals 14 from 202, and 16, 18 from 304.",
+     "2."
+    ],
+    [
+     "Take the DC voltage readings on TA-304 AL25-2 with the digital avometer, the red lead on O = 1, + = 1, - = +, = 15, - = 15, +.",
+     "3."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "ta 304"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "RMF O — black",
+     "F (KHZ)",
+     "Level dB"
+    ],
+    [
+     "0.1",
+     "",
+     ""
+    ],
+    [
+     "0.2",
+     "",
+     ""
+    ],
+    [
+     "0.3",
+     "",
+     ""
+    ],
+    [
+     "0.4",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "TA 304"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "EMF",
+     "F \n (KHZ)",
+     "Level dB",
+     "The switch in position 3"
+    ],
+    [
+     "0.1",
+     "",
+     "",
+     "Pilot 1"
+    ],
+    [
+     "0.2",
+     "",
+     "",
+     "Order 1"
+    ],
+    [
+     "0.3",
+     "",
+     "",
+     "Pilot 2"
+    ],
+    [
+     "0.4",
+     "",
+     "",
+     "Order 2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "The switch in position 3, point (O, BF) on card TA 304 RMF"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "F (KHZ)",
+     "Level dB",
+     ""
+    ],
+    [
+     "2.4",
+     "--",
+     "Pilot 1"
+    ],
+    [
+     "2.64",
+     "--",
+     "Order 1"
+    ],
+    [
+     "2.88",
+     "--",
+     "Pilot 2"
+    ],
+    [
+     "3.12",
+     "--",
+     "Order 2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "EMF",
+     "(O, BF)",
+     "The switch in position 3, point"
+    ],
+    [
+     "F (KHZ)",
+     "Level dB",
+     ""
+    ],
+    [
+     "2.4",
+     "--",
+     "Pilot 1"
+    ],
+    [
+     "2.64",
+     "--",
+     "Order 1"
+    ],
+    [
+     "2.88",
+     "--",
+     "Pilot 2"
+    ],
+    [
+     "3.12",
+     "--",
+     "Order 2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "For CPL 301",
+     "The points on ETE"
+    ],
+    [
+     "F (KHZ)",
+     "Level dB",
+     "The switch in position 1"
+    ],
+    [
+     "2.4",
+     "--",
+     "Pilot"
+    ],
+    [
+     "2.64",
+     "--",
+     "Order 1"
+    ],
+    [
+     "2.88",
+     "--",
+     "Pilot 2"
+    ],
+    [
+     "3.12",
+     "--",
+     "Order 2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "304",
+     "SERV on card",
+     "EM — terminals on"
+    ],
+    [
+     "F (KHZ)",
+     "",
+     "The switch in position 4"
+    ],
+    [
+     "2.4",
+     "--",
+     "Pilot"
+    ],
+    [
+     "2.64",
+     "--",
+     "Order 1"
+    ],
+    [
+     "2.88",
+     "--",
+     "Pilot"
+    ],
+    [
+     "3.12",
+     "--",
+     "Order 2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "202",
+     ""
+    ],
+    [
+     "DC Volt",
+     "- + 48 =",
+     "V"
+    ],
+    [
+     "DC Volt",
+     "- + 24 =",
+     "V"
+    ],
+    [
+     "",
+     "On card SEHF",
+     "The terminals on the right ETAC"
+    ],
+    [
+     "",
+     "With instrument CPL-301",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "202",
+     "",
+     ""
+    ],
+    [
+     "F (KHZ)",
+     "Level dB",
+     ""
+    ],
+    [
+     "2.22",
+     "--",
+     "General Pilot"
+    ],
+    [
+     "0.55",
+     "--",
+     "Order 1 cde1"
+    ],
+    [
+     "1.55",
+     "--",
+     "Order 2 cde2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "202",
+     "Test card 612, install it on an extension board, and use the digital AVO."
+    ],
+    [
+     "The points",
+     "V DC",
+     ""
+    ],
+    [
+     "T12,T4",
+     "--",
+     "Pilot"
+    ],
+    [
+     "T12,T1",
+     "--",
+     "Order 1 cd1"
+    ],
+    [
+     "T12,T2",
+     "--",
+     "Pilor 1 cd1"
+    ],
+    [
+     "T12,T3",
+     "--",
+     "Order 2 cd2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Remove card 610, install it on an extension board, and measure on resistors R80 using the Selec(tive meter)."
+    ],
+    [
+     "F KHZ",
+     "Level dB",
+     "F Measure"
+    ],
+    [
+     "0.550",
+     "---",
+     "",
+     "Order 1"
+    ],
+    [
+     "1.050",
+     "---",
+     "",
+     "Order 1, 2"
+    ],
+    [
+     "1.550",
+     "---",
+     "",
+     "Order 2"
+    ],
+    [
+     "2.22",
+     "---",
+     "",
+     "Pilot"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "",
+     "On the same card 610, read the frequencies."
+    ],
+    [
+     "Resistance",
+     "KHZ",
+     "Level",
+     ""
+    ],
+    [
+     "R 85",
+     "0.550",
+     "---",
+     "Order 1"
+    ],
+    [
+     "R 86",
+     "",
+     "---",
+     "Order 1,2"
+    ],
+    [
+     "R 87",
+     "",
+     "---",
+     "Order 2"
+    ],
+    [
+     "R 88",
+     "",
+     "---",
+     "Pilot"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "CPL - 301",
+     "AL 25 B - 2"
+    ],
+    [
+     "",
+     "+ 1 =",
+     "VDC"
+    ],
+    [
+     "",
+     "- 1 =",
+     "~"
+    ],
+    [
+     "",
+     "+ \n =",
+     "~"
+    ],
+    [
+     "",
+     "- 15 \n =",
+     "~"
+    ],
+    [
+     "",
+     "+15 =",
+     "~"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "GPEP"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "The point",
+     "F KHZ",
+     "Level dB"
+    ],
+    [
+     "0,EM",
+     "",
+     ""
+    ],
+    [
+     "0,REC",
+     "",
+     ""
+    ],
+    [
+     "On card MFQ, take the clock frequency using the Counter."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspected by: Signature: Execution date:"
+  }
+ ],
+ "text_target": "Maintenance Procedures Information System\n | Communications | Maintenance Procedures\nDocument Number: PLC-001-r0a | Equipment: Power Line Carrier (PLC) equipment for 132 kV tie lines — AF Tele Protection type 199202, Cegelec\nIssued to: Networks\nStatus: First Draft\nApproval Date: | Procedure: Periodic Tests\nDate of Next Review:\nIntroduction\nPower Line Carrier (PLC) equipment on power transmission lines at power stations is no less important than the protection equipment installed at those stations, as the work of this equipment complements the role of protection. Since, when a short circuit occurs on the tie line between two power stations, the protection equipment at each station trips only the equipment connected to it at that same station, without being able to trip the equipment of the other side, then when protection operates at one side of the tie, the line remains in service until the protection equipment at the next tie side plays its role in tripping its equipment. It was therefore necessary to use PLC equipment so that trip commands can be transferred between the two sides of the tie without waiting for the protection equipment at both sides of the tie to operate each on its own.\nSafety Precautions\nPreparation of the work order document\nDisconnect the line concerned by the maintenance from both sides and earth it.\nErect a fence around the work place and place the appropriate warning signs.\nPut the test switches at both stations of the tie line in test position.\nTools and Instruments Used\nPortable air compressor (Blower)\nDigital measuring instrument ....\nSelective Level Meter\nPortable air compressor (Blower)\nDigital measuring instrument ....\nSelective Level Meter\nProcedures to be Carried Out\nTesting the PLC for 132 kV lines\nClean the equipment, put the equipment on Local test. | 1.\nDisconnect terminals 14 from 202, and 16, 18 from 304. | 2.\nTake the DC voltage readings on TA-304 AL25-2 with the digital avometer, the red lead on O = 1, + = 1, - = +, = 15, - = 15, +. | 3.\nta 304\nRMF O — black | F (KHZ) | Level dB\n0.1 |  | \n0.2 |  | \n0.3 |  | \n0.4 |  | \nTA 304\nEMF | F \n (KHZ) | Level dB | The switch in position 3\n0.1 |  |  | Pilot 1\n0.2 |  |  | Order 1\n0.3 |  |  | Pilot 2\n0.4 |  |  | Order 2\nThe switch in position 3, point (O, BF) on card TA 304 RMF\nF (KHZ) | Level dB | \n2.4 | -- | Pilot 1\n2.64 | -- | Order 1\n2.88 | -- | Pilot 2\n3.12 | -- | Order 2\nEMF | (O, BF) | The switch in position 3, point\nF (KHZ) | Level dB | \n2.4 | -- | Pilot 1\n2.64 | -- | Order 1\n2.88 | -- | Pilot 2\n3.12 | -- | Order 2\n | For CPL 301 | The points on ETE\nF (KHZ) | Level dB | The switch in position 1\n2.4 | -- | Pilot\n2.64 | -- | Order 1\n2.88 | -- | Pilot 2\n3.12 | -- | Order 2\n304 | SERV on card | EM — terminals on\nF (KHZ) |  | The switch in position 4\n2.4 | -- | Pilot\n2.64 | -- | Order 1\n2.88 | -- | Pilot\n3.12 | -- | Order 2\n | 202 | \nDC Volt | - + 48 = | V\nDC Volt | - + 24 = | V\n | On card SEHF | The terminals on the right ETAC\n | With instrument CPL-301 | \n202 |  | \nF (KHZ) | Level dB | \n2.22 | -- | General Pilot\n0.55 | -- | Order 1 cde1\n1.55 | -- | Order 2 cde2\n202 | Test card 612, install it on an extension board, and use the digital AVO.\nThe points | V DC | \nT12,T4 | -- | Pilot\nT12,T1 | -- | Order 1 cd1\nT12,T2 | -- | Pilor 1 cd1\nT12,T3 | -- | Order 2 cd2\nRemove card 610, install it on an extension board, and measure on resistors R80 using the Selec(tive meter).\nF KHZ | Level dB | F Measure\n0.550 | --- |  | Order 1\n1.050 | --- |  | Order 1, 2\n1.550 | --- |  | Order 2\n2.22 | --- |  | Pilot\n |  | On the same card 610, read the frequencies.\nResistance | KHZ | Level | \nR 85 | 0.550 | --- | Order 1\nR 86 |  | --- | Order 1,2\nR 87 |  | --- | Order 2\nR 88 |  | --- | Pilot\nCPL - 301 | AL 25 B - 2\n | + 1 = | VDC\n | - 1 = | ~\n | + \n = | ~\n | - 15 \n = | ~\n | +15 = | ~\nGPEP\nThe point | F KHZ | Level dB\n0,EM |  | \n0,REC |  | \nOn card MFQ, take the clock frequency using the Counter.\nSite name: Equipment code:\nInspected by: Signature: Execution date:",
+ "word_count_source": 776,
+ "uncertain_terms": [
+  {
+   "term": "doc_number PLC-001-r0a vs file plc-000",
+   "note": "Source file doc_number is PLC-001-r0a (same as plc-001); copied verbatim from the source file. The title_target follows the source doc_number with no status, as the approval date field is empty and the status is \"مسودة أولية\" (first draft)."
+  },
+  {
+   "term": "\"يتم أخذ فراءت الـ DC فولت ... O = 1 + = 1 - = + = 15 - = 15 +\"",
+   "note": "Source table cell is fragmented; translated by intended meaning, keeping the terminal designations as written."
+  },
+  {
+   "term": "\"اخراج كارت 610 ... وباستخدام الـ Selec\"",
+   "note": "Source word truncated (\"Selec\"); rendered as Selective meter."
+  },
+  {
+   "term": "\"وضع الجهاز على test) Local)\"",
+   "note": "Source has unmatched parentheses; rendered as Local test."
+  },
+  {
+   "term": "\"أعداد وثيقة أمر الشغل\"",
+   "note": "Source heading; rendered as \"Preparation of the work order document\" (likely إعداد)."
+  }
+ ]
+}
