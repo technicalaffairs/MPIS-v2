@@ -1,0 +1,411 @@
+{
+  "id": "distr-trans-ad-pc-ocr-084-r0a-htm",
+  "doc_number": "OCR-084-R0A",
+  "category": "distribution",
+  "source_language": "ar",
+  "target_language": "en",
+  "title_target": "OCR-084-r0a — Draft",
+  "sections_target": [
+    {
+      "type": "table",
+      "rows": [
+        [
+          "نظام معلومات إجراءات \n الصيانة"
+        ],
+        [
+          "",
+          "الوقايـة",
+          "إجـراءات الصيانـة"
+        ],
+        [
+          "رقم المستند: OCR-084-r0a",
+          "المعدة:\n الوقاية ضد \n زيادة التيار والتسرب الارضى\n SC\n Sepam 2000\n Schneider \n Electric MERLIN GERIN"
+        ],
+        [
+          "صادرة الى: \n شركات \n التوزيع"
+        ],
+        [
+          "الموقف: \n مسودة"
+        ],
+        [
+          "تاريخ \n الاعتماد: \n 2009",
+          "الإجراء:\n جهاز حقن \n ثانوى \n ثلاثى الأوجه \"فولت وتيار\""
+        ],
+        [
+          "تاريخ المراجعة التالية: \n 2014"
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "text": "System Feeder Protection Management Numerical. This document sets out the steps for testing and calibrating the directional and non-directional overcurrent and earth leakage protection device. This device is installed in the incoming cells of the medium voltage distributor, in addition to the measuring functions (active and reactive power, current, voltage, power factor and frequency)."
+    },
+    {
+      "type": "paragraph",
+      "text": "This document was prepared by Canal Electricity Distribution Company and was reviewed and approved by the MPIS coordinators."
+    },
+    {
+      "type": "paragraph",
+      "text": "Safety Precautions"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "اصدار امر شغل معتمد تملئ به كل البنود",
+          ""
+        ],
+        [
+          "يجب ان يحمل \n القائمون بأعمال الصيانة والاختبارات كارت فئة السلامة والصحة المهنية",
+          ""
+        ],
+        [
+          "يتم فصل القاطع \n وسحبه خارج الخلية \n (وضع القاطع فى وضع الاختبار)",
+          ""
+        ],
+        [
+          "تأكد من وضع علامات \n التحذير على الخلايا المراد العمل\n عليها",
+          ""
+        ],
+        [
+          "ضرورة اتباع \n تعليمات السلامة والصحة المهنية فى مكان العمل",
+          ""
+        ],
+        [
+          "التأكد من سلامة \n تتابع الاوجه للجهد والتيار على جهاز الوقاية\n VRIR \n - VSIS \n - VTIT\n بجهاز \n الـ \n Power Analyzer \n قبل الفصل",
+          ""
+        ],
+        [
+          "عدم فتح \n أطراف محولات التيار في حالة التشغيل أو \n الإختبار",
+          ""
+        ],
+        [
+          "يجب مراعاة القطبية عند التعامل مع الجهد المستمر \n DC",
+          ""
+        ],
+        [
+          "تأكد من تأريض جهاز الوقاية بالخلية",
+          ""
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Tools, Instruments and Equipment Used"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Analyzer\n Three Phase Circuit \n جهاز",
+          ""
+        ],
+        [
+          "جهاز \n حقن \n ثانوى ثلاثى الاوجه (فولت وتيار)",
+          ""
+        ],
+        [
+          "بنسة احمال وافوميتر",
+          ""
+        ],
+        [
+          "جهاز كمبيوتر محمول\n مناسب علية البرنامج الخاص بالريلاى",
+          ""
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Procedures to be Carried Out"
+    },
+    {
+      "type": "paragraph",
+      "text": "First: Overcurrent Test, Non-Directional (measured values are compared with rated values)"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "تأكد من وجود الجهد المساعد \n (dc)\n بجهاز الوقاية على النقطة (-)4 \n 1A 3(+) ,1A\n شكل رقم \n 4",
+          "1."
+        ],
+        [
+          "يتم تجهيز جهاز الحقن \n وتغذيته بالجهد المساعد \n (ac) \n للتشغيل المناسب",
+          "2."
+        ],
+        [
+          "وصل اطراف التيار على جهاز الوقاية على النقاط \n .\n 2B 2 , 2B 1",
+          "3."
+        ],
+        [
+          "ارفع التيار تدريجيا حتى نصل لقيمة تيار بدء التشغيل \n IPICK UP \n لجهاز \n الوقاية وسجل هذه القيمة",
+          "4."
+        ],
+        [
+          "انزل \n بالتيار تدريجيا حتى نصل لقيمة تيار الـ \n IReset\n لجهاز \n الوقاية وسجل هذه القيمة",
+          "5."
+        ],
+        [
+          "احسب \n معامل الرجوع %95 < \n PICK UP I / IRESET = reset Factor K",
+          "6."
+        ],
+        [
+          "كرر هذه \n الخطوات للوجه الثانى والثالث",
+          "7."
+        ],
+        [
+          "وصل اطراف \n الـ TRIP\n الخاصة بالجهاز بطرفى الـ \n Stop Timer \n الخاص بجهاز الحقن لحساب زمن الفصل",
+          "8."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Second: Earth Leakage Test, Non-Directional"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "وصل اطراف التيار على جهاز الوقاية على النقط2A \n 4 , \n 3 2A",
+          "1."
+        ],
+        [
+          "ارفع التيار تدريجيا حتى نصل لقيمة تيار بدء التشغيلI \n Pick up \n لجهاز الوقاية وسجل هذه القيمة",
+          "2."
+        ],
+        [
+          "انزل بالتيار تدريجيا حتى نصل لقيمة تيار الـ \n I Reset\n لجهاز \n الوقاية وسجل هذه القيمة",
+          "3."
+        ],
+        [
+          "احسب معامل الرجوع \n K Reset \n Factor=I RESET/I PICK UP < %95",
+          "4."
+        ],
+        [
+          "وصل اطراف الـ \n TRIP\n الخاصة بالجهاز بطرفى الـ\n Stop \n Timer \n الخاص بجهاز الحقن لحساب زمن الفصل",
+          "5."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Third: Directional Overcurrent Test"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "اضبط جهاز \n SEPAM 2000 \n بقيم الضبط المناسب وليكن \n (\n 0-1 ) In ، ( t = 100 \n ms )، \n =( 0 - 90 ) \n مع \n ملاحظة انه يتم ضبط زاوية الحمل فى \n الربع الاول فقط للجهاز"
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Fourth: Testing the Directional Earth Leakage Characteristic"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "اضبط جهاز الوقاية \n SEPAM 2000على \n قيم الضبط مناسبة ( \n I \n = 0 : 0.2 \n In \n ) ( t=100ms \n ) ( \n 45-: \n 0=\n مع العلم\n بان الزاوية ما \n بين (VN & IN) \n لا يمكن ضبطها على الجهاز الا فى الربع الرابع ( \n صفر الى \n -90)",
+          "1."
+        ],
+        [
+          "يتم توصيل جهاز الحقن الثانوى على ملف الجهد والتيار مع مراعاة \n القطبية للملفات\n اطراف التيار على النقاط (4 \n - 3)2A \n اطراف الجهد على النقاط (8 \n - 7) 4A",
+          "2."
+        ],
+        [
+          "يتم تشغيل جهاز الحقن وحقن تيار وجهد مناسب لقيم الضبط",
+          "3."
+        ],
+        [
+          "يتم توصيل اطراف الـ \n Trip الخاصة بجهاز الوقاية بـ\n Stop \n timer الخاص بجهاز الحقن الثانوى",
+          "4."
+        ],
+        [
+          "يتم \n تغيير زاوية الحمل ما بين التيار والجهد \n على جهاز الحقن من صفر \n الى\n 360 \n لنجد ان جهاز الوقاية يعمل الـ\n Trip \n فى النطاق \n من \n ( + 85\n )الى\n ( - 85)\n حيث ان \n هى زاوية الاتجاهية المضبوط عليها جهاز الوقاية والتى \n تكون \n فى الربع الاول ولا يعمل الـ \n Trip \n فى باقى النطاق",
+          "5."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Fifth: How to Set the Directionality of the Directional Protection Device In Situ"
+    },
+    {
+      "type": "paragraph",
+      "text": "After finishing the test of the directional overcurrent and earth leakage protection element in items three and four, all the test unit leads shall be disconnected from the device and a Simulation of overcurrent and earth leakage shall be carried out as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Directional Overcurrent"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "اضبط \n اتجاهية الجهاز على وضع الـ \n Reverse \n كما هو موضح بالرسم",
+          "1."
+        ],
+        [
+          "يتم توصيل \n الكابلين بالتوازى وتحميلهما بالحمل الطبيعى بالموزع مع \n تحديد اتجاهية الـ \n Load Flow",
+          "2."
+        ],
+        [
+          "أعزل طرف الفصل لزيادة التيار الاتجاهى \n للكابل رقم \n (1)",
+          "3."
+        ],
+        [
+          "يتم النزول بقيمة الضبط لزيادة التيار الاتجاهى لقيمة اقل من قيمة \n الخلية فى هذه الحالة الجهاز لا يعطى اشارة فصل",
+          "4."
+        ],
+        [
+          "اعكس \n اتجاهية الجهاز بالبند \n (1)\n الى \n Forward",
+          "5."
+        ],
+        [
+          "يتم تكرار ما حدث بالبند \n (4) \n لحين حدوث بدء تشغيل للجهاز واعطاء اشارة فصل",
+          "6."
+        ],
+        [
+          "يتم \n اعادة ضبط الاتجاهية على وضع \n Reverse \n وضبط الجهاز على الضبط الطبيعى وتوصيل طرفى الفصل بجهاز الوقاية",
+          "7."
+        ],
+        [
+          "كرر البنود من \n (7:1) \n على الكابل رقم \n (2)",
+          "8."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Directional Earth Leakage"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "اضبط اتجاهية الجهاز على وضع \n Reverse",
+          "1."
+        ],
+        [
+          "افصل الوجه \n R \n من الجهد على جهاز الوقاية",
+          "2."
+        ],
+        [
+          "تأكد \n من اختبار الاتجاهية بطريقتين هما :",
+          "3."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "First Method"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "اعمل كوبرى على الوجهين \n S, T بذلك يمر تيار الوجه \n R\n بملف التسرب الارضى لجهاز الوقاية ويحدث بدء تشغيل للتسرب الارضى فى هذه \n الحالة اذا اعطى الجهاز اشارة فصل يتم عكس الاتجاهية واعادة التجربة لحين \n حدوث بدء تشغيل للجهاز واعطاء اشارة بدء تشغيل فقط بدون اعطاء اشارة فصل",
+          "1."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Second Method"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "اعمل كوبرى على الوجه \n R \n تيار مع الارضى بذلك يمر تيار بملف التسرب الارضى مجموع \n S, T \n والبدء يقابل عكس اتجاه تيار \n R\n وبذلك يحدث بدء تشغيل للتسرب الارضى الاتجاهى ويعطى اشارة فصل",
+          "1."
+        ],
+        [
+          "تأكد من سلامة الاتجاهية يتم عمل كوبرى على الوجه \n S \n تيار مع الارضى فى هذه الحالة يحدث بدء تشغيل للجهاز ولا يعطى اشارة فصل \n وكذلك تكرر مع الوجه \n T \n تيار",
+          "2."
+        ],
+        [
+          "يتم توصيل جهد الوجه \n R \n ورفع القصر عن الوجهين \n S,\n T وكذا الوجه \n N, \n R مع ضبط اجهزة الوقاية على الوضع \n الطبيعى للاجهزة",
+          "3."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 2: Protection device according to the SEPAM 2000 TSM 2001 catalogue. Figure 1: shows the common supply between stations and distributors."
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 3: TSM 2001"
+    },
+    {
+      "type": "paragraph",
+      "text": "Figure 4: (External Connection Diagram) according to the SEPAM 2000 TSM 2001 catalogue."
+    },
+    {
+      "type": "paragraph",
+      "text": "Site name: \nCircuit breaker code:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Checked by: \nSignature: \n Date of execution:"
+    }
+  ],
+  "text_target": "Maintenance Procedure Information System\n | Protection | Maintenance Procedures\nDocument No.: OCR-084-r0a | Equipment:\n Overcurrent and Earth Leakage Protection, SC\n Sepam 2000\n Schneider Electric MERLIN GERIN\nIssued to: \n Distribution Companies\nStatus: \n Draft\nApproval date: \n 2009 | Procedure:\n Three-phase secondary injection device (voltage and current)\nNext review date: \n 2014\nIntroduction\nSystem Feeder Protection Management Numerical. This document sets out the steps for testing and calibrating the directional and non-directional overcurrent and earth leakage protection device. This device is installed in the incoming cells of the medium voltage distributor, in addition to the measuring functions (active and reactive power, current, voltage, power factor and frequency).\nThis document was prepared by Canal Electricity Distribution Company and was reviewed and approved by the MPIS coordinators.\nSafety Precautions\nIssue an approved work order with all items completed. | \nMaintenance and test personnel must carry the occupational safety and health category card. | \nSwitch off the circuit breaker and withdraw it outside the cell (place the circuit breaker in the test position). | \nEnsure warning signs are posted on the cells to be worked on. | \nOccupational safety and health instructions must be followed at the work site. | \nEnsure the correct phase sequence of voltage and current on the protection device VRIR - VSIS - VTIT using the Power Analyzer before switching off. | \nDo not open current transformer terminals while in service or under test. | \nObserve polarity when dealing with DC voltage. | \nEnsure the protection device is earthed in the cell. | \nTools, Instruments and Equipment Used\nThree Phase Circuit Analyzer device. | \nThree-phase secondary injection device (voltage and current). | \nLoad clamp and avometer. | \nSuitable laptop computer with the relay software. | \nProcedures to be Carried Out\nFirst: Overcurrent Test, Non-Directional (measured values are compared with rated values)\nEnsure the DC auxiliary voltage is present on the protection device at points 1A 3 (+), 1A 4 (-) — Figure 4 | 1.\nPrepare the injection device and supply it with the appropriate AC auxiliary voltage for operation | 2.\nConnect the current leads to the protection device at points 2B 1, 2B 2 | 3.\nRaise the current gradually until reaching the pickup current IPICK UP of the protection device and record this value | 4.\nLower the current gradually until reaching the IReset current of the protection device and record this value | 5.\nCalculate the reset factor K Reset Factor = I PICK UP / I RESET > 95% | 6.\nRepeat these steps for the second and third phases | 7.\nConnect the TRIP leads of the device to the Stop Timer terminals of the injection device to calculate the tripping time | 8.\nSecond: Earth Leakage Test, Non-Directional\nConnect the current leads to the protection device at points 2A 3, 2A 4 | 1.\nRaise the current gradually until reaching the pickup current I Pick up of the protection device and record this value | 2.\nLower the current gradually until reaching the I Reset current of the protection device and record this value | 3.\nCalculate the reset factor K Reset Factor = I RESET / I PICK UP < 95% | 4.\nConnect the TRIP leads of the device to the Stop Timer terminals of the injection device to calculate the tripping time | 5.\nThird: Directional Overcurrent Test\nSet the SEPAM 2000 device to suitable setting values, e.g. (I = 0–1 In, t = 100 ms), (angle = 0–90), noting that the load angle is set in the first quadrant only for the device\nFourth: Testing the Directional Earth Leakage Characteristic\nSet the SEPAM 2000 protection device to suitable setting values (I = 0 : 0.2 In) (t = 100 ms) (angle = 0 : -45), noting that the angle between (VN & IN) can only be set on the device in the fourth quadrant (zero to -90) | 1.\nConnect the secondary injection device to the voltage and current windings, observing the polarity of the windings: current leads at points (3 - 4) 2A; voltage leads at points (7 - 8) 4A | 2.\nOperate the injection device and inject suitable current and voltage for the setting values | 3.\nConnect the Trip leads of the protection device to the Stop timer of the secondary injection device | 4.\nChange the load angle between current and voltage on the injection device from zero to 360 to find that the protection device operates Trip in the range from (-85) to (+85), where the angle is the directionality angle set on the protection device, which is in the first quadrant, and Trip does not operate in the rest of the range | 5.\nFifth: How to Set the Directionality of the Directional Protection Device In Situ\nAfter finishing the test of the directional overcurrent and earth leakage protection element in items three and four, all the test unit leads shall be disconnected from the device and a Simulation of overcurrent and earth leakage shall be carried out as follows:\nDirectional Overcurrent\nSet the device directionality to Reverse mode as shown in the drawing | 1.\nConnect the two cables in parallel and load them with the normal load in the distributor, determining the direction of the Load Flow | 2.\nIsolate the tripping terminal of the directional overcurrent for cable No. (1) | 3.\nLower the directional overcurrent setting value to a value below the cell value; in this case the device does not give a tripping signal | 4.\nReverse the device directionality in item (1) to Forward | 5.\nRepeat what happened in item (4) until pickup of the device occurs and a tripping signal is given | 6.\nReset the directionality to Reverse mode, set the device to the normal setting, and connect the tripping terminals to the protection device | 7.\nRepeat items (1:7) on cable No. (2) | 8.\nDirectional Earth Leakage\nSet the device directionality to Reverse mode | 1.\nDisconnect phase R from the voltage on the protection device | 2.\nEnsure the directionality is tested by two methods, namely: | 3.\nFirst Method\nMake a bridge across phases S, T; current of phase R then passes through the earth leakage winding of the protection device and directional earth leakage pickup occurs. In this case, if the device gives a tripping signal, reverse the directionality and repeat the test until pickup of the device occurs and only a pickup signal is given, without a tripping signal | 1.\nSecond Method\nMake a bridge across phase R current with earth; current then passes through the earth leakage winding as the sum of S and T, and pickup is opposite to the direction of R current; directional earth leakage pickup thus occurs and a tripping signal is given | 1.\nTo ensure the directionality is correct, make a bridge across phase S current with earth; in this case pickup of the device occurs but no tripping signal is given, and repeat likewise with phase T current | 2.\nConnect the R-phase voltage and remove the short-circuit from phases S, T as well as phases R, N, with the protection devices set to the normal setting of the devices | 3.\nFigure 2: Protection device according to the SEPAM 2000 TSM 2001 catalogue. Figure 1: shows the common supply between stations and distributors.\nFigure 3: TSM 2001\nFigure 4: (External Connection Diagram) according to the SEPAM 2000 TSM 2001 catalogue.\nSite name: \nCircuit breaker code:\nChecked by: \nSignature: \n Date of execution:",
+  "word_count_source": 1068,
+  "uncertain_terms": [
+    {
+      "term": "reset factor formulae (first and second tests)",
+      "note": "The two reset-factor formulae in the source are inconsistent with each other (first: I PICK UP / I RESET > 95%; second: I RESET / I PICK UP < 95%); both translated literally as written."
+    },
+    {
+      "term": "setting values, third test (0-1 In, t = 100 ms, angle 0-90)",
+      "note": "Source setting line is garbled; rendered by intent as (I = 0–1 In, t = 100 ms), (angle = 0–90)."
+    },
+    {
+      "term": "angle = 0 : -45 (fourth test)",
+      "note": "Source writes '( 45-: 0='; read by intent as an angle range of 0 to -45."
+    },
+    {
+      "term": "حيث ان هى زاوية الاتجاهية (fourth test step 5)",
+      "note": "Source omits the subject; rendered as 'where the angle is the directionality angle set on the protection device'."
+    },
+    {
+      "term": "الطريقة الثانية (directional earth leakage)",
+      "note": "Source wording is garbled; rendered by intent as a bridge across phase R current with earth."
+    },
+    {
+      "term": "VRIR - VSIS - VTIT",
+      "note": "Phase-sequence notation kept verbatim as in the source."
+    }
+  ]
+}
