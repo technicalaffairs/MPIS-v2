@@ -1,7 +1,7 @@
 {
  "id": "gen-docs-app-gen-ueepc-instr-control-mi-004-r0a-htm",
  "doc_number": "MI-004-R0A",
- "title_en": "",
+ "title_en": "MI-004-R0A",
  "title_ar": "MI-004-r0a \nمعتمد",
  "category": "instruments",
  "source_path": "gen_docs/app_gen/UEEPC/Instr+control/MI-004-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -232,5 +233,174 @@
    "src": "graphics/MI-004-01.jpg",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Instrumentation and Control",
+     "Maintenance procedures"
+    ],
+    [
+     "Document No.: MI-004-r0a",
+     "Equipment:\nControl circuit of the electric feed pump for unit No. 2\nABB"
+    ],
+    [
+     "Issued to:\nAssiut\n3 x 30 MW"
+    ],
+    [
+     "Status:\nApproved"
+    ],
+    [
+     "Approval date:\n28 March 2007",
+     "Procedure:\nChecking the pump trip indication signal"
+    ],
+    [
+     "Next review date: March\n2012"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "This document sets out the steps for repairing the fault of the electric feed pump trip indication signal for unit No. 2 not appearing on the boiler panel and the pump switch indication lamp on the control desk; these procedures are carried out when a fault occurs in the electric feed pump trip indication signal for unit No. 2. The document was prepared by Eng. Mansour Mohamed Sleiman, reviewed and tested by Eng. Magdy Mahrous Shehata, endorsed by Eng. Abdel Azim Gomaa Hagras El-Din, General Manager of Assiut Thermal Station, approved by Mr. Eng. Hussein Ahmed El-Mahdy, Head of Sector, and certified by Mr. Eng. Gamal Abdel Wahab, Head of the Inspection and Quality Control Sector and MPIS Coordinator for the company.",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety precautions"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Issue a work order approved by the station operations department; work is carried out under the supervision of the maintenance engineer approved by the head of the instrument maintenance department, and those carrying out the maintenance must hold an occupational safety and health category card",
+     ""
+    ],
+    [
+     "Make sure the area is fenced off to define the work area and warning signs are placed",
+     ""
+    ],
+    [
+     "Notify the No. 2 thermal control room operator that a spurious 'Pump off' signal will appear and the No. 2 electric feed pump switch will light, together with an alarm",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and equipment used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Insulated plastic gloves, avometer"
+  },
+  {
+   "type": "paragraph",
+   "text": "New contactor, identical to the faulty one in contact points and switching time"
+  },
+  {
+   "type": "paragraph",
+   "text": "Needle-nose pliers, flat pliers, ordinary pliers 6 inch"
+  },
+  {
+   "type": "paragraph",
+   "text": "Ordinary screwdriver 3 x 100 mm, ordinary screwdriver 6 x 150 mm"
+  },
+  {
+   "type": "paragraph",
+   "text": "Wire stripper, test lead 2 x 20 mm"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Insulated plastic gloves, avometer",
+    "New contactor, identical to the faulty one in contact points and switching time",
+    "Needle-nose pliers, flat pliers, ordinary pliers 6 inch",
+    "Ordinary screwdriver 3 x 100 mm, ordinary screwdriver 6 x 150 mm",
+    "Wire stripper, test lead 2 x 20 mm"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be carried out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Check the control circuit of the electric feed pump 2 No. (MK169-1201)",
+     "1."
+    ],
+    [
+     "Test the contactor (d2) by isolating one 110 Vdc terminal and test points (1,2), (3,4), (5,6), (7,8), identify which points have a bad contact, and check the operation of the timer for connecting points (7,8).",
+     "2."
+    ],
+    [
+     "Place the pump switch in the off position and make sure the contactor d2 is in the connected state and that the switch lamp is lit",
+     "3."
+    ],
+    [
+     "If the switch lamp is not lit, make sure 110 Vdc reaches the lamp",
+     "4."
+    ],
+    [
+     "Short-circuit points (7,8) and observe the appearance of the Pump Off signal",
+     "5."
+    ],
+    [
+     "If the signal does not appear, make sure 110 Vdc reaches points (7,8)",
+     "6."
+    ],
+    [
+     "If the 110 Vdc is isolated, test the auxiliary contact points",
+     "7."
+    ],
+    [
+     "If there is a bad contact on any of the auxiliary contact points, replace the auxiliary contactor with a new one exactly identical to the faulty one, of type (HWRa-T/1s+10+1WiR/110V), test it and make sure the signal appears",
+     "8."
+    ],
+    [
+     "Make sure conditions return to normal and close the work order",
+     "9."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Unit number: Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checked by: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Instrumentation and Control | Maintenance procedures\nDocument No.: MI-004-r0a | Equipment:\nControl circuit of the electric feed pump for unit No. 2\nABB\nIssued to:\nAssiut\n3 x 30 MW\nStatus:\nApproved\nApproval date:\n28 March 2007 | Procedure:\nChecking the pump trip indication signal\nNext review date: March\n2012\nIntroduction\nThis document sets out the steps for repairing the fault of the electric feed pump trip indication signal for unit No. 2 not appearing on the boiler panel and the pump switch indication lamp on the control desk; these procedures are carried out when a fault occurs in the electric feed pump trip indication signal for unit No. 2. The document was prepared by Eng. Mansour Mohamed Sleiman, reviewed and tested by Eng. Magdy Mahrous Shehata, endorsed by Eng. Abdel Azim Gomaa Hagras El-Din, General Manager of Assiut Thermal Station, approved by Mr. Eng. Hussein Ahmed El-Mahdy, Head of Sector, and certified by Mr. Eng. Gamal Abdel Wahab, Head of the Inspection and Quality Control Sector and MPIS Coordinator for the company. | \nSafety precautions\nIssue a work order approved by the station operations department; work is carried out under the supervision of the maintenance engineer approved by the head of the instrument maintenance department, and those carrying out the maintenance must hold an occupational safety and health category card | \nMake sure the area is fenced off to define the work area and warning signs are placed | \nNotify the No. 2 thermal control room operator that a spurious 'Pump off' signal will appear and the No. 2 electric feed pump switch will light, together with an alarm | \nTools and equipment used\nInsulated plastic gloves, avometer\nNew contactor, identical to the faulty one in contact points and switching time\nNeedle-nose pliers, flat pliers, ordinary pliers 6 inch\nOrdinary screwdriver 3 x 100 mm, ordinary screwdriver 6 x 150 mm\nWire stripper, test lead 2 x 20 mm\nInsulated plastic gloves, avometer\nNew contactor, identical to the faulty one in contact points and switching time\nNeedle-nose pliers, flat pliers, ordinary pliers 6 inch\nOrdinary screwdriver 3 x 100 mm, ordinary screwdriver 6 x 150 mm\nWire stripper, test lead 2 x 20 mm\nProcedures to be carried out\nCheck the control circuit of the electric feed pump 2 No. (MK169-1201) | 1.\nTest the contactor (d2) by isolating one 110 Vdc terminal and test points (1,2), (3,4), (5,6), (7,8), identify which points have a bad contact, and check the operation of the timer for connecting points (7,8). | 2.\nPlace the pump switch in the off position and make sure the contactor d2 is in the connected state and that the switch lamp is lit | 3.\nIf the switch lamp is not lit, make sure 110 Vdc reaches the lamp | 4.\nShort-circuit points (7,8) and observe the appearance of the Pump Off signal | 5.\nIf the signal does not appear, make sure 110 Vdc reaches points (7,8) | 6.\nIf the 110 Vdc is isolated, test the auxiliary contact points | 7.\nIf there is a bad contact on any of the auxiliary contact points, replace the auxiliary contactor with a new one exactly identical to the faulty one, of type (HWRa-T/1s+10+1WiR/110V), test it and make sure the signal appears | 8.\nMake sure conditions return to normal and close the work order | 9.\nSite name: Unit number: Equipment code:\nChecked by: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }
