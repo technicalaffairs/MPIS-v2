@@ -1,7 +1,7 @@
 {
  "id": "gen-docs-app-gen-edepc-instr-control-sts-020-r0a-htm",
  "doc_number": "STS-020-R0A",
- "title_en": "",
+ "title_en": "STS-020-R0A\nApproved",
  "title_ar": "STS-020-r0a \nمعتمد",
  "category": "instruments",
  "source_path": "gen_docs/app_gen/EDEPC/Instr+control/STS-020-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -947,5 +948,893 @@
    "src": "../../../../images/mpis-1.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Instrumentation and Control",
+     "Maintenance procedures"
+    ],
+    [
+     "Document No.:\nSTS-020-r0a",
+     "Equipment:\nCalibration of the gas circuit for gas units\nMark II\nGeneral Electric"
+    ],
+    [
+     "Issued to:\nTalkha Gas Turbine Station"
+    ],
+    [
+     "Status:\nApproved"
+    ],
+    [
+     "Approval date:\n14 August 2005",
+     "Procedure:\nAnnual maintenance\n(I1-Y1)"
+    ],
+    [
+     "Next review date: August\n2010"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the calibration steps I1 to be carried out annually on the gas circuit of the gas turbine, as indicated by the code Y1 above. The first draft of this document was prepared by Eng. Doaa Mohamed Shabana, field-tested by Eng. Marwa El-Sayed El-Hadidy, endorsed by General Manager Eng. Yousry Ahmed Abdel Maksoud, reviewed by Eng. Abdel Monem El-Emam, Manager of the Instruments and Electricity Department in the Inspection Sector of the East Delta Electricity Production Company, and approved by Eng. Fathy Mahmoud Ragab, Head of the Talkha Gas Turbine Station Sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "It was endorsed by Eng. Samir Abdel Galil, General Manager of Inspection and Quality at the East Delta Electricity Production Company and MPIS Coordinator, and approved by Mr. Mahmoud Mohamed Sleiman, General Manager of Financial and Administrative Control and Supervisor of the Inspection and Quality Control Sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Issue a work order, with an industrial safety category card available for the site workers",
+    "Fence off the area and use the appropriate warning signs",
+    "Use occupational safety and health equipment such as a safety helmet and safety shoes, etc.",
+    "The unit must be shut down and stopped before starting the maintenance work"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and equipment used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Frequency measuring instrument, oil pump calibration set"
+  },
+  {
+   "type": "paragraph",
+   "text": "2 digital voltmeters, occupational safety and health equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Frequency measuring instrument, oil pump calibration set",
+    "2 digital voltmeters, occupational safety and health equipment",
+    "Suitable tool kit"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be carried out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect the calibrator to:\nأ - Connector A on Red Slot\nin x1L7X\nب - Connector B on Blue Slot\nin x1L7X",
+     "1."
+    ],
+    [
+     "Make sure that the control valve is closed and that the hydraulic oil pressure is zero",
+     "2."
+    ],
+    [
+     "Make sure that the clearance is between 30 and 50 thou for the gas control valve",
+     "3."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of the oscillator"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Adj.",
+     "After Adj.",
+     "Before Adj.",
+     "Manf. Setting",
+     ""
+    ],
+    [
+     "AC (V)",
+     "Hz",
+     "AC (V)",
+     "Hz",
+     "AC (V)",
+     "Hz"
+    ],
+    [
+     "R40 (2)",
+     "",
+     "",
+     "",
+     "",
+     "7 + 0.1",
+     "2920 + 20",
+     "Osc. (1)"
+    ],
+    [
+     "R41 (1)",
+     "",
+     "",
+     "",
+     "",
+     "7 + 0.1",
+     "3080 + 20",
+     "Osc. (2)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "أ Oscillator No. (1):"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect the voltmeter lead to pin (45) on the SOSG card in x1LOE and the other lead to earth A com",
+     "1."
+    ],
+    [
+     "Adjust the voltage and frequency to the calibrated value (measurement can be taken from the calibrator) [A09R26] A com &.",
+     "2."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "ب Oscillator No. (2):"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect the voltmeter lead to pin (45) on the SOSG card in x1LOG and the other lead to earth A com, and adjust the voltage and frequency to the calibrated value (measurement can be taken from the calibrator) [A10R28] A com &",
+     "1."
+    ],
+    [
+     "If adjustment to the values in the table is not possible, replace the SOSG card with a new one and repeat the calibration.",
+     "2."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of the LVDT (output) for each of x96SR, 96GC1,2):"
+  },
+  {
+   "type": "paragraph",
+   "text": "The AC voltage output from the LVDT transducer is measured as follows:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "VAC",
+     "Adj.",
+     "After Adj.",
+     "Before Adj.",
+     "Manf. Setting",
+     ""
+    ],
+    [
+     "LVDT Nut",
+     "",
+     "",
+     "0.7 + 0.01",
+     "96 SR"
+    ],
+    [
+     "LVDT Nut",
+     "",
+     "",
+     "0.7 + 0.01",
+     "96GC1"
+    ],
+    [
+     "LVDT Nut",
+     "",
+     "",
+     "0.7 + 0.01",
+     "96GC2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of x96FG:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Calibrate the P2 pressure transducer (96FG) as follows:",
+     "1."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Adj.",
+     "After Adj.",
+     "Before Adj.",
+     "Manf. Setting",
+     "Pressure (PSI)"
+    ],
+    [
+     "Zero",
+     "",
+     "",
+     "0",
+     "0"
+    ],
+    [
+     "--",
+     "",
+     "",
+     "2.5",
+     "125"
+    ],
+    [
+     "Gain",
+     "",
+     "",
+     "5",
+     "250"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Take this reading from (JB 25) or from LCTB1",
+     "2."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Determining the two ends of the control valve stroke:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Start the unit in CRANK mode to obtain hydraulic oil pressure; the gas valve must be closed",
+     "1."
+    ],
+    [
+     "Make a jumper on J2, J1 on the face of the SSVG card",
+     "2."
+    ],
+    [
+     "Set the VCE value to Max by making a jumper between pin D10y and pin Acom on the calibrator",
+     "3."
+    ],
+    [
+     "Connect the voltmeter to (A com & F11Y) & (A com & G12Y) on the calibrator, or between (A com & Out 1, A com & Out 1) & (A com & Out 2) on the face of the SSVG card, to read the servo valve voltage",
+     "4."
+    ],
+    [
+     "Connect the voltmeter to measure VCE between pin H07, Acom on the calibrator",
+     "5."
+    ],
+    [
+     "Match the following table, noting that the required VCE value is changed from the variable resistance on the SSKC card in x1L1T:",
+     "6."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Adjustment",
+     "Feed Back DC",
+     "LVDT F.B V (AC)",
+     "Stroke",
+     "VCE"
+    ],
+    [
+     "POS V(DC)",
+     "FB1 V(DC)",
+     "cm",
+     "Inch"
+    ],
+    [
+     "From R60 on SSVF (2) zero",
+     "",
+     "",
+     "0.7 + 0.05",
+     "0",
+     "0",
+     "2"
+    ],
+    [
+     "--",
+     "",
+     "",
+     "2.1",
+     "1.9",
+     "0.75",
+     "6"
+    ],
+    [
+     "From R62 on SSVF (1) span",
+     "",
+     "",
+     "3.5",
+     "3.81",
+     "1.5",
+     "10"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "To test the LVDT fault circuit, remove the SOSG card in x1LOE; a 'Position Servo Trouble' alarm appears",
+     "7."
+    ],
+    [
+     "To test the fault circuit of the servo valve, make a jumper between Out1 and Out2 and Acom on the face of the card; a 'Position Servo Trouble' alarm appears and the red lamp on the SSVF card lights",
+     "8."
+    ],
+    [
+     "Remove the jumper between Out1 or Out2 and Acom",
+     "9."
+    ],
+    [
+     "Disconnect all connections and device leads and stop the diesel",
+     "10."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjusting the stroke of the stop and speed ratio valve (VSR):"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Make sure the stop and speed ratio valve is closed and the hydraulic pressure is zero, and make sure the clearance is within 30 to 50 thou",
+     "1."
+    ],
+    [
+     "Measure the output of x96SR from the adjacent box JB25 between the blue and yellow wires No. 3, 4 on the terminal block",
+     "2."
+    ],
+    [
+     "Adjust the Stability from R98 (2) on the SSVD card by turning counter-clockwise 3 turns",
+     "3."
+    ],
+    [
+     "Remove the gas control card SSVG from its place (control valve)",
+     "4."
+    ],
+    [
+     "Start the unit in CRANK mode",
+     "5."
+    ],
+    [
+     "Remove the VMPA cards",
+     "6."
+    ],
+    [
+     "Make a jumper between J1, J2 on the face of the SSVD card",
+     "7."
+    ],
+    [
+     "Set VCE to the MAX. value by making a jumper between Acom, D10y on the calibrator",
+     "8."
+    ],
+    [
+     "Connect the voltmeter to measure the servo voltage x90SR between pins (A com & G13Y) & (A com & G14Y)",
+     "9."
+    ],
+    [
+     "Energize the solenoid valve x20FG manually, or make a jumper on the valve control points on page x20F between [RTB2S (4) & RTB 3Q (2)] - [RTB 3S (2) & RTB 3Q (1)]",
+     "10."
+    ],
+    [
+     "Adjust the VCE corresponding to the valve stroke as per the following table, noting that the required VCE value is changed from the variable resistance on the SSKC card in (1L1T):",
+     "11."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "AdJ.",
+     "TPC (D.C)",
+     "LVDT (AC)",
+     "Stroke",
+     "VCE"
+    ],
+    [
+     "cm",
+     "inch"
+    ],
+    [
+     "SSVD zero R95",
+     "",
+     "",
+     "0",
+     "0",
+     "1.25"
+    ],
+    [
+     "--",
+     "",
+     "",
+     "1.905",
+     "0.75",
+     "5.25"
+    ],
+    [
+     "SSVD gain R92",
+     "",
+     "",
+     "3.81",
+     "1.5",
+     "9.75"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "To test the LVDT fault circuit, take the SOSG card out of its place; a 'Position Servo Trouble' alarm appears on the alarm panel, then return the card to its place.",
+     "1."
+    ],
+    [
+     "Trip the unit manually via (12 HA) Mech. Overspeed; the stop and speed ratio valve is observed to close",
+     "2."
+    ],
+    [
+     "Disconnect all connections and return the cards to their places.",
+     "3."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of the governing pressure P2:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Make sure the hydraulic oil pressure is zero and the stop and speed ratio valve is closed.",
+     "1."
+    ],
+    [
+     "Disconnect the wires of the 96FG transducer from the adjacent box (JB25)",
+     "2."
+    ],
+    [
+     "Simulate the transducer output with VCE values by making a jumper between pin (H07R) and PFG (C03R) on the calibrator panel, measure the voltage, and connect the voltmeter between pin (H07R) and earth A com.",
+     "3."
+    ],
+    [
+     "Simulate the turbine speed NHP using an oscillator and a frequency counter by making a jumper between Freq. Source (C01), NHP (B02)",
+     "4."
+    ],
+    [
+     "Connect the Freq. Count pins between B02, Acom.",
+     "5."
+    ],
+    [
+     "Connect a voltmeter between pin 45 of the SSVD card and Acom (TRD signal).",
+     "6."
+    ],
+    [
+     "Make a jumper to cut off firing by placing Logic 0 on pin x38 on the SSVD card so that the pressure governor can perform its function",
+     "7."
+    ],
+    [
+     "Remove the SSVG card to prevent the control valve from opening.",
+     "8."
+    ],
+    [
+     "Adjust the VCE voltage (transducer output) as per the following table:",
+     "9."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "NHP / RPM",
+     "P2 / PSI Kg/Cm2",
+     "96 FG / VOLT",
+     "Adj."
+    ],
+    [
+     "1018",
+     "18",
+     "1.27",
+     "",
+     "SSVD NHP Offset, R96(5)"
+    ],
+    [
+     "3053",
+     "110",
+     "7.73",
+     "",
+     "--"
+    ],
+    [
+     "5089",
+     "202",
+     "14.2",
+     "",
+     "SSVD Press, SPAN, R93 (6)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Disconnect all the above connections, return the cards to their places, and make sure there are no alarms and that the turbine is Ready",
+     "10."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Test date: Signature:"
+  },
+  {
+   "type": "paragraph",
+   "text": "MRDS Maintenance Record Data Sheet MRDS"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of the oscillator"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Adj.",
+     "After Adj.",
+     "Before Adj.",
+     "Manf. Setting",
+     ""
+    ],
+    [
+     "AC (V)",
+     "Hz",
+     "AC (V)",
+     "Hz",
+     "AC (V)",
+     "Hz"
+    ],
+    [
+     "R40 (2)",
+     "",
+     "",
+     "",
+     "",
+     "7 + 0.1",
+     "2920 + 20",
+     "Osc. (1)"
+    ],
+    [
+     "R41 (1)",
+     "",
+     "",
+     "",
+     "",
+     "7 + 0.1",
+     "3080 + 20",
+     "Osc. (2)"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of the LVDT (output) for each of x96SR, 96GC1,2):"
+  },
+  {
+   "type": "paragraph",
+   "text": "The AC voltage output from the LVDT transducer is measured as follows:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "VAC",
+     "Adj.",
+     "After Adj.",
+     "Before Adj.",
+     "Manf. Setting",
+     ""
+    ],
+    [
+     "LVDT Nut",
+     "",
+     "",
+     "0.7 + 0.01",
+     "96 SR"
+    ],
+    [
+     "LVDT Nut",
+     "",
+     "",
+     "0.7 + 0.01",
+     "96GC1"
+    ],
+    [
+     "LVDT Nut",
+     "",
+     "",
+     "0.7 + 0.01",
+     "96GC2"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of x96FG:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Calibrate the P2 pressure transducer (96FG) as follows:",
+     "1."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Adj.",
+     "After Adj.",
+     "Before Adj.",
+     "Manf. Setting",
+     "Pressure (PSI)"
+    ],
+    [
+     "Zero",
+     "",
+     "",
+     "0",
+     "0"
+    ],
+    [
+     "--",
+     "",
+     "",
+     "2.5",
+     "125"
+    ],
+    [
+     "Gain",
+     "",
+     "",
+     "5",
+     "250"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Take this reading from (JB 25) or from LCTB1",
+     "2."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Determining the two ends of the control valve stroke:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Adjustment",
+     "Feed Back DC",
+     "LVDT F.B V (AC)",
+     "Stroke",
+     "VCE"
+    ],
+    [
+     "POS V(DC)",
+     "FB1 V(DC)",
+     "cm",
+     "Inc"
+    ],
+    [
+     "From R60 on SSVF (2) zero",
+     "",
+     "",
+     "0.7 + 0.05",
+     "0",
+     "0",
+     "2"
+    ],
+    [
+     "--",
+     "",
+     "",
+     "2.1",
+     "1.9",
+     "0.75",
+     "6"
+    ],
+    [
+     "From R62 on SSVF (1) span",
+     "",
+     "",
+     "3.5",
+     "3.81",
+     "1.5",
+     "10"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjusting the stroke of the stop and speed ratio valve (VSR):"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "AdJ.",
+     "TPC (D.C)",
+     "LVDT (AC)",
+     "Stroke",
+     "VCE"
+    ],
+    [
+     "cm",
+     "inch"
+    ],
+    [
+     "SSVD zero R95",
+     "",
+     "",
+     "0",
+     "0",
+     "1.25"
+    ],
+    [
+     "--",
+     "",
+     "",
+     "1.905",
+     "0.75",
+     "5.25"
+    ],
+    [
+     "SSVD gain R92",
+     "",
+     "",
+     "3.81",
+     "1.5",
+     "9.75"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of the governing pressure P2:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "NHP / RPM",
+     "P2 / PSI Kg/Cm2",
+     "96 FG / VOLT",
+     "Adj."
+    ],
+    [
+     "1018",
+     "18",
+     "1.27",
+     "",
+     "SSVD NHP Offset, R96(5)"
+    ],
+    [
+     "3053",
+     "110",
+     "7.73",
+     "",
+     "--"
+    ],
+    [
+     "5089",
+     "202",
+     "14.2",
+     "",
+     "SSVD Press, SPAN, R93 (6)"
+    ]
+   ],
+   "truncated_rows": 0
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Instrumentation and Control | Maintenance procedures\nDocument No.:\nSTS-020-r0a | Equipment:\nCalibration of the gas circuit for gas units\nMark II\nGeneral Electric\nIssued to:\nTalkha Gas Turbine Station\nStatus:\nApproved\nApproval date:\n14 August 2005 | Procedure:\nAnnual maintenance\n(I1-Y1)\nNext review date: August\n2010\nIntroduction\nThis document sets out the calibration steps I1 to be carried out annually on the gas circuit of the gas turbine, as indicated by the code Y1 above. The first draft of this document was prepared by Eng. Doaa Mohamed Shabana, field-tested by Eng. Marwa El-Sayed El-Hadidy, endorsed by General Manager Eng. Yousry Ahmed Abdel Maksoud, reviewed by Eng. Abdel Monem El-Emam, Manager of the Instruments and Electricity Department in the Inspection Sector of the East Delta Electricity Production Company, and approved by Eng. Fathy Mahmoud Ragab, Head of the Talkha Gas Turbine Station Sector.\nIt was endorsed by Eng. Samir Abdel Galil, General Manager of Inspection and Quality at the East Delta Electricity Production Company and MPIS Coordinator, and approved by Mr. Mahmoud Mohamed Sleiman, General Manager of Financial and Administrative Control and Supervisor of the Inspection and Quality Control Sector.\nSafety precautions\nIssue a work order, with an industrial safety category card available for the site workers\nFence off the area and use the appropriate warning signs\nUse occupational safety and health equipment such as a safety helmet and safety shoes, etc.\nThe unit must be shut down and stopped before starting the maintenance work\nTools and equipment used\nFrequency measuring instrument, oil pump calibration set\n2 digital voltmeters, occupational safety and health equipment\nFrequency measuring instrument, oil pump calibration set\n2 digital voltmeters, occupational safety and health equipment\nSuitable tool kit\nProcedures to be carried out\nConnect the calibrator to:\nأ - Connector A on Red Slot\nin x1L7X\nب - Connector B on Blue Slot\nin x1L7X | 1.\nMake sure that the control valve is closed and that the hydraulic oil pressure is zero | 2.\nMake sure that the clearance is between 30 and 50 thou for the gas control valve | 3.\nCalibration of the oscillator\nAdj. | After Adj. | Before Adj. | Manf. Setting | \nAC (V) | Hz | AC (V) | Hz | AC (V) | Hz\nR40 (2) |  |  |  |  | 7 + 0.1 | 2920 + 20 | Osc. (1)\nR41 (1) |  |  |  |  | 7 + 0.1 | 3080 + 20 | Osc. (2)\nأ Oscillator No. (1):\nConnect the voltmeter lead to pin (45) on the SOSG card in x1LOE and the other lead to earth A com | 1.\nAdjust the voltage and frequency to the calibrated value (measurement can be taken from the calibrator) [A09R26] A com &. | 2.\nب Oscillator No. (2):\nConnect the voltmeter lead to pin (45) on the SOSG card in x1LOG and the other lead to earth A com, and adjust the voltage and frequency to the calibrated value (measurement can be taken from the calibrator) [A10R28] A com & | 1.\nIf adjustment to the values in the table is not possible, replace the SOSG card with a new one and repeat the calibration. | 2.\nCalibration of the LVDT (output) for each of x96SR, 96GC1,2):\nThe AC voltage output from the LVDT transducer is measured as follows:\nVAC | Adj. | After Adj. | Before Adj. | Manf. Setting | \nLVDT Nut |  |  | 0.7 + 0.01 | 96 SR\nLVDT Nut |  |  | 0.7 + 0.01 | 96GC1\nLVDT Nut |  |  | 0.7 + 0.01 | 96GC2\nCalibration of x96FG:\nCalibrate the P2 pressure transducer (96FG) as follows: | 1.\nAdj. | After Adj. | Before Adj. | Manf. Setting | Pressure (PSI)\nZero |  |  | 0 | 0\n-- |  |  | 2.5 | 125\nGain |  |  | 5 | 250\nTake this reading from (JB 25) or from LCTB1 | 2.\nDetermining the two ends of the control valve stroke:\nStart the unit in CRANK mode to obtain hydraulic oil pressure; the gas valve must be closed | 1.\nMake a jumper on J2, J1 on the face of the SSVG card | 2.\nSet the VCE value to Max by making a jumper between pin D10y and pin Acom on the calibrator | 3.\nConnect the voltmeter to (A com & F11Y) & (A com & G12Y) on the calibrator, or between (A com & Out 1, A com & Out 1) & (A com & Out 2) on the face of the SSVG card, to read the servo valve voltage | 4.\nConnect the voltmeter to measure VCE between pin H07, Acom on the calibrator | 5.\nMatch the following table, noting that the required VCE value is changed from the variable resistance on the SSKC card in x1L1T: | 6.\nAdjustment | Feed Back DC | LVDT F.B V (AC) | Stroke | VCE\nPOS V(DC) | FB1 V(DC) | cm | Inch\nFrom R60 on SSVF (2) zero |  |  | 0.7 + 0.05 | 0 | 0 | 2\n-- |  |  | 2.1 | 1.9 | 0.75 | 6\nFrom R62 on SSVF (1) span |  |  | 3.5 | 3.81 | 1.5 | 10\nTo test the LVDT fault circuit, remove the SOSG card in x1LOE; a 'Position Servo Trouble' alarm appears | 7.\nTo test the fault circuit of the servo valve, make a jumper between Out1 and Out2 and Acom on the face of the card; a 'Position Servo Trouble' alarm appears and the red lamp on the SSVF card lights | 8.\nRemove the jumper between Out1 or Out2 and Acom | 9.\nDisconnect all connections and device leads and stop the diesel | 10.\nAdjusting the stroke of the stop and speed ratio valve (VSR):\nMake sure the stop and speed ratio valve is closed and the hydraulic pressure is zero, and make sure the clearance is within 30 to 50 thou | 1.\nMeasure the output of x96SR from the adjacent box JB25 between the blue and yellow wires No. 3, 4 on the terminal block | 2.\nAdjust the Stability from R98 (2) on the SSVD card by turning counter-clockwise 3 turns | 3.\nRemove the gas control card SSVG from its place (control valve) | 4.\nStart the unit in CRANK mode | 5.\nRemove the VMPA cards | 6.\nMake a jumper between J1, J2 on the face of the SSVD card | 7.\nSet VCE to the MAX. value by making a jumper between Acom, D10y on the calibrator | 8.\nConnect the voltmeter to measure the servo voltage x90SR between pins (A com & G13Y) & (A com & G14Y) | 9.\nEnergize the solenoid valve x20FG manually, or make a jumper on the valve control points on page x20F between [RTB2S (4) & RTB 3Q (2)] - [RTB 3S (2) & RTB 3Q (1)] | 10.\nAdjust the VCE corresponding to the valve stroke as per the following table, noting that the required VCE value is changed from the variable resistance on the SSKC card in (1L1T): | 11.\nAdJ. | TPC (D.C) | LVDT (AC) | Stroke | VCE\ncm | inch\nSSVD zero R95 |  |  | 0 | 0 | 1.25\n-- |  |  | 1.905 | 0.75 | 5.25\nSSVD gain R92 |  |  | 3.81 | 1.5 | 9.75\nTo test the LVDT fault circuit, take the SOSG card out of its place; a 'Position Servo Trouble' alarm appears on the alarm panel, then return the card to its place. | 1.\nTrip the unit manually via (12 HA) Mech. Overspeed; the stop and speed ratio valve is observed to close | 2.\nDisconnect all connections and return the cards to their places. | 3.\nCalibration of the governing pressure P2:\nMake sure the hydraulic oil pressure is zero and the stop and speed ratio valve is closed. | 1.\nDisconnect the wires of the 96FG transducer from the adjacent box (JB25) | 2.\nSimulate the transducer output with VCE values by making a jumper between pin (H07R) and PFG (C03R) on the calibrator panel, measure the voltage, and connect the voltmeter between pin (H07R) and earth A com. | 3.\nSimulate the turbine speed NHP using an oscillator and a frequency counter by making a jumper between Freq. Source (C01), NHP (B02) | 4.\nConnect the Freq. Count pins between B02, Acom. | 5.\nConnect a voltmeter between pin 45 of the SSVD card and Acom (TRD signal). | 6.\nMake a jumper to cut off firing by placing Logic 0 on pin x38 on the SSVD card so that the pressure governor can perform its function | 7.\nRemove the SSVG card to prevent the control valve from opening. | 8.\nAdjust the VCE voltage (transducer output) as per the following table: | 9.\nNHP / RPM | P2 / PSI Kg/Cm2 | 96 FG / VOLT | Adj.\n1018 | 18 | 1.27 |  | SSVD NHP Offset, R96(5)\n3053 | 110 | 7.73 |  | --\n5089 | 202 | 14.2 |  | SSVD Press, SPAN, R93 (6)\nDisconnect all the above connections, return the cards to their places, and make sure there are no alarms and that the turbine is Ready | 10.\nSite name: Equipment code:\nTested by: Test date: Signature:\nMRDS Maintenance Record Data Sheet MRDS\nCalibration of the oscillator\nAdj. | After Adj. | Before Adj. | Manf. Setting | \nAC (V) | Hz | AC (V) | Hz | AC (V) | Hz\nR40 (2) |  |  |  |  | 7 + 0.1 | 2920 + 20 | Osc. (1)\nR41 (1) |  |  |  |  | 7 + 0.1 | 3080 + 20 | Osc. (2)\nCalibration of the LVDT (output) for each of x96SR, 96GC1,2):\nThe AC voltage output from the LVDT transducer is measured as follows:\nVAC | Adj. | After Adj. | Before Adj. | Manf. Setting | \nLVDT Nut |  |  | 0.7 + 0.01 | 96 SR\nLVDT Nut |  |  | 0.7 + 0.01 | 96GC1\nLVDT Nut |  |  | 0.7 + 0.01 | 96GC2\nCalibration of x96FG:\nCalibrate the P2 pressure transducer (96FG) as follows: | 1.\nAdj. | After Adj. | Before Adj. | Manf. Setting | Pressure (PSI)\nZero |  |  | 0 | 0\n-- |  |  | 2.5 | 125\nGain |  |  | 5 | 250\nTake this reading from (JB 25) or from LCTB1 | 2.\nDetermining the two ends of the control valve stroke:\nAdjustment | Feed Back DC | LVDT F.B V (AC) | Stroke | VCE\nPOS V(DC) | FB1 V(DC) | cm | Inc\nFrom R60 on SSVF (2) zero |  |  | 0.7 + 0.05 | 0 | 0 | 2\n-- |  |  | 2.1 | 1.9 | 0.75 | 6\nFrom R62 on SSVF (1) span |  |  | 3.5 | 3.81 | 1.5 | 10\nAdjusting the stroke of the stop and speed ratio valve (VSR):\nAdJ. | TPC (D.C) | LVDT (AC) | Stroke | VCE\ncm | inch\nSSVD zero R95 |  |  | 0 | 0 | 1.25\n-- |  |  | 1.905 | 0.75 | 5.25\nSSVD gain R92 |  |  | 3.81 | 1.5 | 9.75\nCalibration of the governing pressure P2:\nNHP / RPM | P2 / PSI Kg/Cm2 | 96 FG / VOLT | Adj.\n1018 | 18 | 1.27 |  | SSVD NHP Offset, R96(5)\n3053 | 110 | 7.73 |  | --\n5089 | 202 | 14.2 |  | SSVD Press, SPAN, R93 (6)",
+ "translation_review": "draft — needs human review before operational use"
 }
