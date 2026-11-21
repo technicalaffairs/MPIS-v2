@@ -1,0 +1,239 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-loe-001-r0a-htm",
+ "doc_number": "LOE-001-R0A",
+ "category": "arabic_web",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "loe-001-r0a APPROVED",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: LOE-001-r0a",
+     "Equipment: Generator loss-of-field protection, 40G, RAGPC, ABB"
+    ],
+    [
+     "Issued to: El-Walidia Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 5 January 2003",
+     "Procedure: Annual test using secondary-circuit injection, Y1"
+    ],
+    [
+     "Next review date: January 2008"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps that must be carried out annually. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station \"El-Walidia\", 2*300 MW, Upper Egypt Electricity Production Company; the test was carried out on the second unit generator on 18 October 2002 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Issue an approved work order from the competent authority, and the test crew must carry the industrial safety category card",
+    "Fence off the work area and place the warning signs.",
+    "The unit is out of service",
+    "Follow the industrial safety and occupational health instructions"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "PHU-100 current injection set"
+  },
+  {
+   "type": "paragraph",
+   "text": "PHU-100 voltage injection set"
+  },
+  {
+   "type": "paragraph",
+   "text": "AC V-A current measuring instrument, type YOGOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "AC V-A voltage measuring instrument, type YOGOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "KDK DPF-30N phase-shift meter"
+  },
+  {
+   "type": "paragraph",
+   "text": "Millisecond Counter (Timer) type MCS - 5N"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test comb, type RTXH18,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "PHU-100 current injection set",
+    "PHU-100 voltage injection set",
+    "AC V-A current measuring instrument, type YOGOGAWA",
+    "AC V-A voltage measuring instrument, type YOGOGAWA",
+    "KDK DPF-30N phase-shift meter",
+    "Millisecond Counter (Timer) type MCS - 5N",
+    "Test comb, type RTXH18,",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Place Test plug type RTXH 18 in Test Socket type RTXP18 at the relay 40G"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Place Test plug type RTXH 18 in Test Socket type RTXP18 at the relay 40G",
+    "Short A1A and 2A in test plug RTXP 18",
+    "Inject voltage of 100 V at points (9A, 10A) in test plug RTXH 18",
+    "Inject current gradually at points (3A, 4A) in test plug RTXH18 until the alarm signal appears (RXPE 40) Alarm under excitation",
+    "Record the current reading.",
+    "Raise the current until the tripping signal appears: tripping loss-of-field (RXIG2)",
+    "Record the current reading.",
+    "Reduce the current until the tripping signal disappears and the alarm signal appears",
+    "Reduce the voltage gradually until the tripping loss of field (RXEG 2) signal appears",
+    "Record the voltage reading.",
+    "Connect the Start terminals of the timer to points T1, T2 in the voltage injection set",
+    "Connect the Stop terminals of the timer to point 2A in Test plug RTXH 18 and point 28 on auxiliary relay No. 337.",
+    "Raise the voltage to 100 V",
+    "Raise the current until the tripping signal appears",
+    "Disconnect the voltage and current injection sets",
+    "Reset the timer",
+    "Connect the voltage and current injection sets at the same time",
+    "Record the time reading",
+    "Remove Test plug type RTXH18 from Test Socket type RTXP 18 at the relay (40G)"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Op values",
+     "Settings",
+     "Measuring",
+     "Terminals",
+     ""
+    ],
+    [
+     "I dir (A)",
+     "2:153 Am",
+     "",
+     "",
+     "RXTPE",
+     "D13.107"
+    ],
+    [
+     "I mx (A)",
+     "5.0 39 Am",
+     "",
+     "",
+     "RXI G21",
+     "D 13.119"
+    ],
+    [
+     "Umin (V)",
+     "90 volt",
+     "",
+     "",
+     "RXEG 21",
+     "D13.319"
+    ],
+    [
+     "I. Step",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "II Step",
+     "1.653",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspected by: Signature: Date of execution:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: LOE-001-r0a | Equipment: Generator loss-of-field protection, 40G, RAGPC, ABB\nIssued to: El-Walidia Power Station\nStatus: APPROVED\nApproval date: 5 January 2003 | Procedure: Annual test using secondary-circuit injection, Y1\nNext review date: January 2008\nIntroduction\nThis document sets out the test steps that must be carried out annually. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station \"El-Walidia\", 2*300 MW, Upper Egypt Electricity Production Company; the test was carried out on the second unit generator on 18 October 2002 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed.\nSafety Precautions\nIssue an approved work order from the competent authority, and the test crew must carry the industrial safety category card\nFence off the work area and place the warning signs.\nThe unit is out of service\nFollow the industrial safety and occupational health instructions\nTools, Equipment and Instruments Used\nPHU-100 current injection set\nPHU-100 voltage injection set\nAC V-A current measuring instrument, type YOGOGAWA\nAC V-A voltage measuring instrument, type YOGOGAWA\nKDK DPF-30N phase-shift meter\nMillisecond Counter (Timer) type MCS - 5N\nTest comb, type RTXH18,\nTest leads\nPHU-100 current injection set\nPHU-100 voltage injection set\nAC V-A current measuring instrument, type YOGOGAWA\nAC V-A voltage measuring instrument, type YOGOGAWA\nKDK DPF-30N phase-shift meter\nMillisecond Counter (Timer) type MCS - 5N\nTest comb, type RTXH18,\nTest leads\nWork Steps to be Carried Out\nPlace Test plug type RTXH 18 in Test Socket type RTXP18 at the relay 40G\nPlace Test plug type RTXH 18 in Test Socket type RTXP18 at the relay 40G\nShort A1A and 2A in test plug RTXP 18\nInject voltage of 100 V at points (9A, 10A) in test plug RTXH 18\nInject current gradually at points (3A, 4A) in test plug RTXH18 until the alarm signal appears (RXPE 40) Alarm under excitation\nRecord the current reading.\nRaise the current until the tripping signal appears: tripping loss-of-field (RXIG2)\nRecord the current reading.\nReduce the current until the tripping signal disappears and the alarm signal appears\nReduce the voltage gradually until the tripping loss of field (RXEG 2) signal appears\nRecord the voltage reading.\nConnect the Start terminals of the timer to points T1, T2 in the voltage injection set\nConnect the Stop terminals of the timer to point 2A in Test plug RTXH 18 and point 28 on auxiliary relay No. 337.\nRaise the voltage to 100 V\nRaise the current until the tripping signal appears\nDisconnect the voltage and current injection sets\nReset the timer\nConnect the voltage and current injection sets at the same time\nRecord the time reading\nRemove Test plug type RTXH18 from Test Socket type RTXP 18 at the relay (40G)\nOp values | Settings | Measuring | Terminals | \nI dir (A) | 2:153 Am |  |  | RXTPE | D13.107\nI mx (A) | 5.0 39 Am |  |  | RXI G21 | D 13.119\nUmin (V) | 90 volt |  |  | RXEG 21 | D13.319\nI. Step |  |  |  |  | \nII Step | 1.653 | \nSite name: Equipment code:\nInspected by: Signature: Date of execution:",
+ "word_count_source": 521,
+ "uncertain_terms": [
+  {
+   "term": "YOGOGAWA",
+   "note": "As written in the source (presumably YOKOGAWA); kept verbatim."
+  },
+  {
+   "term": "type KDK DPF-30 N meter shifter phase",
+   "note": "Rendered as \"KDK DPF-30N phase-shift meter\"; the exact instrument description is uncertain."
+  },
+  {
+   "term": "2:153 Am / 5.0 39 Am",
+   "note": "Setting values as written in the source table; \"Am\" presumably means amp; kept verbatim."
+  },
+  {
+   "term": "a(40G)a",
+   "note": "Source carries stray \"a\" fragments around \"(40G)\" in the last step; translated as \"(40G)\"."
+  },
+  {
+   "term": "طرفلجهاز",
+   "note": "Garbled source wording in the timer Start step; rendered as \"Connect the Start terminals of the timer\"."
+  },
+  {
+   "term": "RAGPC",
+   "note": "Relay type as written in the source (the index page renders the related type as \"RAGEB\"); kept verbatim."
+  }
+ ]
+}

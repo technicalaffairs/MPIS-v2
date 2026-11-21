@@ -1,0 +1,584 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-rpr-004-r0a-htm",
+ "doc_number": "RPR-004-R0A",
+ "category": "arabic_web",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "RPR-004-R0A — Approved",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection - Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: RPR-004-r0a",
+     "Equipment: Reverse power protection for the main generator x32G CW-12B-D, Mitsubishi of Japan"
+    ],
+    [
+     "Issued to: Assiut Power Generation Station"
+    ],
+    [
+     "Status: Approved"
+    ],
+    [
+     "Approval date: 13 September 2005",
+     "Procedure: Using the PHU-100 current and voltage injection test set"
+    ],
+    [
+     "Next review date: September 2010"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps for the reverse power protection device of the main generator. The first draft of this document was prepared by Eng. Mahmoud Ahmed Mahmoud at Assiut New Power Station, Upper Egypt Electricity Production Company. The field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 9 May 2005."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "The unit is shut down and the generator is out of service."
+  },
+  {
+   "type": "paragraph",
+   "text": "Open a work order and ensure the availability of occupational safety and health cards."
+  },
+  {
+   "type": "paragraph",
+   "text": "Fence off the work area and place the appropriate warning signs."
+  },
+  {
+   "type": "paragraph",
+   "text": "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Instruments and Equipment Used"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Two (2) PHU-100 current and voltage injection test sets",
+    "Two (2) single-phase 400/200 V transformers, 1 kVA capacity",
+    "One (1) three-phase switch.",
+    "Avometer (Fluky 87).",
+    "Two (2) V-A AC current measuring instruments, model YOKOGAWA",
+    "Test leads",
+    "One (1) Digital Phase Meter KDK DPF-30N",
+    "One (1) Time Counter",
+    "Contact cleaning tools (Spray Crown-8276)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Remove the front cover of the relay.",
+     "1."
+    ],
+    [
+     "Disconnect terminals T5:44, 46 inside cell 1PRP to prevent disabling the generator cooling water system.",
+     "2."
+    ],
+    [
+     "Clean the contacts using (Spray Crown-8276).",
+     "3."
+    ],
+    [
+     "Clean the relay of dust using an air blower, taking care not to direct the air at the springs.",
+     "4."
+    ],
+    [
+     "Lower the links inside the relay numbered (4, 5, 6, 7).",
+     "5."
+    ],
+    [
+     "Connect the circuit as shown in the attached figure.",
+     "6."
+    ],
+    [
+     "Set the angle measuring instrument selector to the Lead position.",
+     "7."
+    ],
+    [
+     "Set the time dial to 10.",
+     "8."
+    ],
+    [
+     "Measuring the Operating Value"
+    ],
+    [
+     "Connect the current injection leads to points (6, 7) on the relay (32G) as in the explanatory figure.",
+     "9."
+    ],
+    [
+     "Connect the voltage injection leads to points (4, 5) on the relay (32G) as in the explanatory figure.",
+     "10."
+    ],
+    [
+     "Inject voltage of 110 V.",
+     "11."
+    ],
+    [
+     "Raise the current gradually until you can read the phase difference between voltage and current.",
+     "12."
+    ],
+    [
+     "Set the angle to 30 degrees (voltage on Input and current on Reference).",
+     "13."
+    ],
+    [
+     "Raise the current gradually until the disc of element 32G starts to move.",
+     "14."
+    ],
+    [
+     "Record the current value at which the disc of element 32G starts to move.",
+     "15."
+    ],
+    [
+     "Characteristic Test"
+    ],
+    [
+     "Inject 110 V.",
+     "16."
+    ],
+    [
+     "Set the injection current to the value given in the attached table.",
+     "17."
+    ],
+    [
+     "Change the phase angle between voltage and current in the LAG direction until the 32G disc moves.",
+     "18."
+    ],
+    [
+     "Record the phase angle value.",
+     "19."
+    ],
+    [
+     "Change the phase angle between voltage and current in the LEAD direction until the 32G disc moves.",
+     "20."
+    ],
+    [
+     "Record the phase angle value.",
+     "21."
+    ],
+    [
+     "Repeat steps 16 to 21, setting the current to the value given in the attached table.",
+     "22."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "INPUT CURRENT",
+     "0.1 A",
+     "0.5",
+     "1.0",
+     "5.0",
+     "RESULT"
+    ],
+    [
+     "LEAD SIDE",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "LAG SIDE",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Switch off the current.",
+     "23."
+    ],
+    [
+     "Switch off the voltage.",
+     "24."
+    ],
+    [
+     "Measuring the voltage value at which element T operates"
+    ],
+    [
+     "Latch the disc of element 32G (manually) until element S operates.",
+     "25."
+    ],
+    [
+     "Raise the voltage from 0 to the value at which disc T starts to move, while keeping element S operated.",
+     "26."
+    ],
+    [
+     "Record the voltage value.",
+     "27."
+    ],
+    [
+     "Testing the time of element T"
+    ],
+    [
+     "Connect the start points of the time counter to the start points of the PHU-100 voltage injector.",
+     "28."
+    ],
+    [
+     "Open links (2 and 10).",
+     "29."
+    ],
+    [
+     "Connect the stop points of the time counter to points (2, 10) on the relay.",
+     "30."
+    ],
+    [
+     "Reset the time setting to 6 instead of time dial 10.",
+     "31."
+    ],
+    [
+     "Select the Dry Contact position on the time counter for both START & STOP.",
+     "32."
+    ],
+    [
+     "Switch on the time counter.",
+     "33."
+    ],
+    [
+     "Set the voltage to 110 V.",
+     "34."
+    ],
+    [
+     "Switch off the voltage switch.",
+     "35."
+    ],
+    [
+     "Latch the disc of element 32G (manually) until the element operates.",
+     "36."
+    ],
+    [
+     "RESET the time counter.",
+     "37."
+    ],
+    [
+     "Switch on the voltage switch.",
+     "38."
+    ],
+    [
+     "Record the time value.",
+     "39."
+    ],
+    [
+     "Remove the wire leads from the relay.",
+     "40."
+    ],
+    [
+     "Close the relay links numbered (2, 4, 5, 6, 7, 10).",
+     "41."
+    ],
+    [
+     "Connect terminals T5:44, 46 inside cell 1PRP.",
+     "42."
+    ],
+    [
+     "Fit the front cover of the relay.",
+     "43."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Date:",
+     "",
+     "Unit No.",
+     ""
+    ],
+    [
+     "Station Name:",
+     "",
+     "Device No.",
+     "Manufacturer No."
+    ],
+    [
+     "Equipment:",
+     ""
+    ],
+    [
+     "Circuit",
+     "Type Form",
+     "Location No.",
+     "Rating:"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Setting : Time Dail:10"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "67-D Element"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating Value Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the operating value"
+  },
+  {
+   "type": "paragraph",
+   "text": "Input voltage:110v ( I Lead 30 for V )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the operating value",
+    "Input voltage:110v ( I Lead 30 for V )"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Measuring Value",
+     "Result",
+     "Criteria: within 15% of 0.025A"
+    ],
+    [
+     "A",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase Characteristic Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the operating phase angle"
+  },
+  {
+   "type": "paragraph",
+   "text": "Input voltage :110v ( I Lead for V )"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the operating phase angle",
+    "Input voltage :110v ( I Lead for V )"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit (deg.)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Input Current",
+     "0.1A",
+     "0.5A",
+     "1.0A",
+     "5.0A",
+     "Result"
+    ],
+    [
+     "Lead Side",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Lag Side",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Criteria within 5 of lead 30"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "",
+     "67-T Element"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Starting Value Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the starting value."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the starting value."
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Measuring Value",
+     "Result",
+     "Criteria: within 5% of 64V"
+    ],
+    [
+     "V",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating Time Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the operating time."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Measure the operating time."
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Input Voltage",
+     "110 v",
+     "Result",
+     "Criteria: within 4 sec of 20 sec"
+    ],
+    [
+     "Measured Value",
+     "sec",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Protection device code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection - Generation | Maintenance Procedures\nDocument No.: RPR-004-r0a | Equipment: Reverse power protection for the main generator x32G CW-12B-D, Mitsubishi of Japan\nIssued to: Assiut Power Generation Station\nStatus: Approved\nApproval date: 13 September 2005 | Procedure: Using the PHU-100 current and voltage injection test set\nNext review date: September 2010\nIntroduction\nThis document sets out the test steps for the reverse power protection device of the main generator. The first draft of this document was prepared by Eng. Mahmoud Ahmed Mahmoud at Assiut New Power Station, Upper Egypt Electricity Production Company. The field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 9 May 2005.\nSafety Precautions\nThe unit is shut down and the generator is out of service.\nOpen a work order and ensure the availability of occupational safety and health cards.\nFence off the work area and place the appropriate warning signs.\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment.\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment.\nTools, Instruments and Equipment Used\nTwo (2) PHU-100 current and voltage injection test sets\nTwo (2) single-phase 400/200 V transformers, 1 kVA capacity\nOne (1) three-phase switch.\nAvometer (Fluky 87).\nTwo (2) V-A AC current measuring instruments, model YOKOGAWA\nTest leads\nOne (1) Digital Phase Meter KDK DPF-30N\nOne (1) Time Counter\nContact cleaning tools (Spray Crown-8276)\nWork Steps to be Carried Out\nRemove the front cover of the relay. | 1.\nDisconnect terminals T5:44, 46 inside cell 1PRP to prevent disabling the generator cooling water system. | 2.\nClean the contacts using (Spray Crown-8276). | 3.\nClean the relay of dust using an air blower, taking care not to direct the air at the springs. | 4.\nLower the links inside the relay numbered (4, 5, 6, 7). | 5.\nConnect the circuit as shown in the attached figure. | 6.\nSet the angle measuring instrument selector to the Lead position. | 7.\nSet the time dial to 10. | 8.\nMeasuring the Operating Value\nConnect the current injection leads to points (6, 7) on the relay (32G) as in the explanatory figure. | 9.\nConnect the voltage injection leads to points (4, 5) on the relay (32G) as in the explanatory figure. | 10.\nInject voltage of 110 V. | 11.\nRaise the current gradually until you can read the phase difference between voltage and current. | 12.\nSet the angle to 30 degrees (voltage on Input and current on Reference). | 13.\nRaise the current gradually until the disc of element 32G starts to move. | 14.\nRecord the current value at which the disc of element 32G starts to move. | 15.\nCharacteristic Test\nInject 110 V. | 16.\nSet the injection current to the value given in the attached table. | 17.\nChange the phase angle between voltage and current in the LAG direction until the 32G disc moves. | 18.\nRecord the phase angle value. | 19.\nChange the phase angle between voltage and current in the LEAD direction until the 32G disc moves. | 20.\nRecord the phase angle value. | 21.\nRepeat steps 16 to 21, setting the current to the value given in the attached table. | 22.\nINPUT CURRENT | 0.1 A | 0.5 | 1.0 | 5.0 | RESULT\nLEAD SIDE |  |  |  |  | \nLAG SIDE |  |  |  |  | \nSwitch off the current. | 23.\nSwitch off the voltage. | 24.\nMeasuring the voltage value at which element T operates\nLatch the disc of element 32G (manually) until element S operates. | 25.\nRaise the voltage from 0 to the value at which disc T starts to move, while keeping element S operated. | 26.\nRecord the voltage value. | 27.\nTesting the time of element T\nConnect the start points of the time counter to the start points of the PHU-100 voltage injector. | 28.\nOpen links (2 and 10). | 29.\nConnect the stop points of the time counter to points (2, 10) on the relay. | 30.\nReset the time setting to 6 instead of time dial 10. | 31.\nSelect the Dry Contact position on the time counter for both START & STOP. | 32.\nSwitch on the time counter. | 33.\nSet the voltage to 110 V. | 34.\nSwitch off the voltage switch. | 35.\nLatch the disc of element 32G (manually) until the element operates. | 36.\nRESET the time counter. | 37.\nSwitch on the voltage switch. | 38.\nRecord the time value. | 39.\nRemove the wire leads from the relay. | 40.\nClose the relay links numbered (2, 4, 5, 6, 7, 10). | 41.\nConnect terminals T5:44, 46 inside cell 1PRP. | 42.\nFit the front cover of the relay. | 43.\nTest Sheet\nDate: |  | Unit No. | \nStation Name: |  | Device No. | Manufacturer No.\nEquipment: | \nCircuit | Type Form | Location No. | Rating:\nRelay Test\nSetting : Time Dail:10\n | 67-D Element\nOperating Value Test\nMeasure the operating value\nInput voltage:110v ( I Lead 30 for V )\nMeasure the operating value\nInput voltage:110v ( I Lead 30 for V )\nMeasuring Value | Result | Criteria: within 15% of 0.025A\nA | \nPhase Characteristic Test\nMeasure the operating phase angle\nInput voltage :110v ( I Lead for V )\nMeasure the operating phase angle\nInput voltage :110v ( I Lead for V )\nUnit (deg.)\nInput Current | 0.1A | 0.5A | 1.0A | 5.0A | Result\nLead Side |  |  |  |  | \nLag Side |  |  |  |  | \nCriteria within 5 of lead 30\n | 67-T Element\nStarting Value Test\nMeasure the starting value.\nMeasure the starting value.\nMeasuring Value | Result | Criteria: within 5% of 64V\nV | \nOperating Time Test\nMeasure the operating time.\nMeasure the operating time.\nInput Voltage | 110 v | Result | Criteria: within 4 sec of 20 sec\nMeasured Value | sec | \nSite name: Protection device code:\nTested by: Signature: Date of execution:",
+ "word_count_source": 925,
+ "uncertain_terms": [
+  {
+   "note": "Function code carries a stray leading 'x' ('x32G'); kept as written.",
+   "term": "x32G"
+  },
+  {
+   "note": "'Fluky 87' kept verbatim; presumably Fluke 87.",
+   "term": "Fluky 87"
+  },
+  {
+   "note": "'للسست' rendered as 'springs' (Egyptian dialect 'السوست'); the source spelling is unclear.",
+   "term": "للسست"
+  },
+  {
+   "note": "'السكاكين' (literally 'knives') rendered as 'links', the relay link/knife-switch sense.",
+   "term": "السكاكين"
+  },
+  {
+   "note": "'لقط القرص' rendered as 'latch the disc'; the intended manual operation is not further specified in the source.",
+   "term": "لقط القرص"
+  },
+  {
+   "note": "Stray '0' at the end of sections 8 and 14:2:0 looks like an OCR artefact; omitted.",
+   "term": "المناسبة0 / (Spray Crown-8276) 0"
+  },
+  {
+   "note": "Terminal notation 'T5:44,46' kept as written; the separator between the two terminals is unclear in the source.",
+   "term": "T5:44,46"
+  }
+ ]
+}

@@ -1,0 +1,266 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-ocr-062-r0a-htm",
+ "doc_number": "OCR-062-R0A",
+ "category": "arabic_web",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "OCR-062-R0A — APPROVED",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: OCR-062-r0a",
+     "Equipment: Directional overcurrent protection device C-3BI-IGF"
+    ],
+    [
+     "Issued to: Damanhour Combined Cycle"
+    ],
+    [
+     "Status: Approved"
+    ],
+    [
+     "Approval date: 18 April 2007",
+     "Procedure: Using the a3/TRE-F (ISA) secondary injection test set"
+    ],
+    [
+     "Next review date: April 2012"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps for the protection device mentioned above. The first draft of this document was prepared by Eng. Gehan Abdel Monsef, and the field test was carried out by Eng. Mokhles Mahmoud Refaei. It was approved by Eng. Mahmoud Saad Balbaa, Sector Head, and reviewed and documented by Eng. Mona El-Sharkawy, Senior Engineering Consultant and Coordinator of the Maintenance Procedures Information System at the West Delta Electricity Production Company."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Open a work order.",
+    "The circuit breaker of the bay on which the protection device mentioned is installed is open.",
+    "Fence off the work area and place warning signs.",
+    "Follow the occupational safety and health instructions for the safety of personnel and equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Instruments and Equipment Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Secondary injection test set, model a3/TRE-F (ISA)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring instrument, FLUKE 83 I,V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi-range ammeters, model VEB, HB"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test socket, model TP Form 2, for the protection device mentioned"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set, model a3/TRE-F (ISA)",
+    "Measuring instrument, FLUKE 83 I,V",
+    "Multi-range ammeters, model VEB, HB",
+    "Test leads",
+    "Test socket, model TP Form 2, for the protection device mentioned"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Insert the test socket into its designated place in the relay.",
+     "1."
+    ],
+    [
+     "Short-circuit points (7-14, 8-12) on the socket.",
+     "2."
+    ],
+    [
+     "Connect the current injection leads between the injection test set and the test socket as follows: (R-1&N-2).",
+     "3."
+    ],
+    [
+     "Connect the voltage injection leads between the injection test set and the test socket as follows: (R-4&N-5).",
+     "4."
+    ],
+    [
+     "Connect the timer leads to points (8, 7) on the test socket.",
+     "5."
+    ],
+    [
+     "Raise the voltage gradually to the device setting value.",
+     "6."
+    ],
+    [
+     "Set the injection current test switch to (5A) and raise the current (preset setting value) gradually until the disc starts to move, and record the pick-up and reset values.",
+     "7."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "To calculate the time delay of the device, do the following:"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Raise the current to the preset setting value (as per the previous connection).",
+     "1."
+    ],
+    [
+     "Raise the voltage to the device setting value.",
+     "2."
+    ],
+    [
+     "Switch the injection test set 'Off'.",
+     "3."
+    ],
+    [
+     "Set the timer and reset it.",
+     "4."
+    ],
+    [
+     "Switch the injection test set 'On'; note the start of the timer.",
+     "5."
+    ],
+    [
+     "The injection will switch off automatically when the timer stops.",
+     "6."
+    ],
+    [
+     "Record the above results on the test results sheet, sign it and record the date.",
+     "7."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "DC 110",
+     "AUX - Supply",
+     "IGF-C-3BI",
+     "Relay type"
+    ],
+    [
+     "1.5 A",
+     "Contact rating",
+     "Primary current 1.5 A at 7.9 V",
+     "Current setting range"
+    ],
+    [
+     "15 A",
+     "Max. Contact Rating",
+     "Curve",
+     "Time setting range"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Earth fault relay test sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "Relay setting",
+     "Relay results",
+     "Remarks"
+    ],
+    [
+     "Earth fault"
+    ],
+    [
+     "Pick up reset",
+     "Time",
+     "Rest factor"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Station name: Device code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection | Maintenance Procedures\nDocument No.: OCR-062-r0a | Equipment: Directional overcurrent protection device C-3BI-IGF\nIssued to: Damanhour Combined Cycle\nStatus: Approved\nApproval date: 18 April 2007 | Procedure: Using the a3/TRE-F (ISA) secondary injection test set\nNext review date: April 2012\nIntroduction\nThis document sets out the test steps for the protection device mentioned above. The first draft of this document was prepared by Eng. Gehan Abdel Monsef, and the field test was carried out by Eng. Mokhles Mahmoud Refaei. It was approved by Eng. Mahmoud Saad Balbaa, Sector Head, and reviewed and documented by Eng. Mona El-Sharkawy, Senior Engineering Consultant and Coordinator of the Maintenance Procedures Information System at the West Delta Electricity Production Company.\nSafety Precautions\nOpen a work order.\nThe circuit breaker of the bay on which the protection device mentioned is installed is open.\nFence off the work area and place warning signs.\nFollow the occupational safety and health instructions for the safety of personnel and equipment.\nTools, Instruments and Equipment Used\nSecondary injection test set, model a3/TRE-F (ISA)\nMeasuring instrument, FLUKE 83 I,V\nMulti-range ammeters, model VEB, HB\nTest leads\nTest socket, model TP Form 2, for the protection device mentioned\nSecondary injection test set, model a3/TRE-F (ISA)\nMeasuring instrument, FLUKE 83 I,V\nMulti-range ammeters, model VEB, HB\nTest leads\nTest socket, model TP Form 2, for the protection device mentioned\nProcedures to be Carried Out\nInsert the test socket into its designated place in the relay. | 1.\nShort-circuit points (7-14, 8-12) on the socket. | 2.\nConnect the current injection leads between the injection test set and the test socket as follows: (R-1&N-2). | 3.\nConnect the voltage injection leads between the injection test set and the test socket as follows: (R-4&N-5). | 4.\nConnect the timer leads to points (8, 7) on the test socket. | 5.\nRaise the voltage gradually to the device setting value. | 6.\nSet the injection current test switch to (5A) and raise the current (preset setting value) gradually until the disc starts to move, and record the pick-up and reset values. | 7.\nTo calculate the time delay of the device, do the following:\nRaise the current to the preset setting value (as per the previous connection). | 1.\nRaise the voltage to the device setting value. | 2.\nSwitch the injection test set 'Off'. | 3.\nSet the timer and reset it. | 4.\nSwitch the injection test set 'On'; note the start of the timer. | 5.\nThe injection will switch off automatically when the timer stops. | 6.\nRecord the above results on the test results sheet, sign it and record the date. | 7.\nTest Sheet\nDC 110 | AUX - Supply | IGF-C-3BI | Relay type\n1.5 A | Contact rating | Primary current 1.5 A at 7.9 V | Current setting range\n15 A | Max. Contact Rating | Curve | Time setting range\nEarth fault relay test sheet\nDate | Relay setting | Relay results | Remarks\nEarth fault\nPick up reset | Time | Rest factor\nStation name: Device code:\nTested by: Signature: Date of execution:",
+ "word_count_source": 468,
+ "uncertain_terms": [
+  {
+   "note": "'قاطع المهمة' rendered as 'circuit breaker of the bay'; the literal wording is 'breaker of the task/duty'.",
+   "term": "قاطع المهمة"
+  },
+  {
+   "note": "Stray trailing 'a' in '(ISA)a' in sections 8 and 13:0 looks like an OCR artefact; omitted.",
+   "term": "(ISA)a"
+  },
+  {
+   "note": "Source reads '( a5A)'; rendered as '(5A)'.",
+   "term": "( a5A)"
+  },
+  {
+   "note": "Section 17:2:0 is garbled in the source ('يتم عمل جهاز \"Off\" جهاز الحقن'); rendered as 'Switch the injection test set Off'.",
+   "term": "يتم عمل جهاز \"Off\" جهاز الحقن"
+  },
+  {
+   "note": "Stray '0' at the end of section 4 looks like an OCR artefact; omitted.",
+   "term": "الكهرباء0"
+  }
+ ]
+}

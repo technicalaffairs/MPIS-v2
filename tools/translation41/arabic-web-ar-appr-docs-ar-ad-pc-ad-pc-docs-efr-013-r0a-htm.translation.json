@@ -1,0 +1,366 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-efr-013-r0a-htm",
+ "doc_number": "EFR-013-R0A",
+ "category": "arabic_web",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "EFR-013-r0a APPROVED",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: EFR-013-r0a",
+     "Equipment: Rotor earth-fault protection x64GE, TCR3D-BSI, Toshiba"
+    ],
+    [
+     "Issued to: Assiut Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 03 July 2003",
+     "Procedure: Using the Fluke 87 current measuring instrument and the MCS-5N timer"
+    ],
+    [
+     "Next review date: July 2008"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps for the earth-fault protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 22 April 2003."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The unit is out of service",
+    "Open a work order",
+    "Fence off the work area and place the appropriate warning signs.",
+    "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Variable resistor, 25 kΩ"
+  },
+  {
+   "type": "paragraph",
+   "text": "True RMS Multimeter type Fluke 78"
+  },
+  {
+   "type": "paragraph",
+   "text": "Millisecond Counter (Timer) type MCS-5N"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "paragraph",
+   "text": "Switch (2 Pole)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Variable resistor, 25 kΩ",
+    "True RMS Multimeter type Fluke 78",
+    "Millisecond Counter (Timer) type MCS-5N",
+    "Test leads",
+    "Switch (2 Pole)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "..."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Verify that switch 43-64GE (OFF/NORMAL/TEST) is in the Normal position",
+     "1"
+    ],
+    [
+     "Set the variable resistor to its highest value",
+     "2"
+    ],
+    [
+     "Connect one terminal of the variable resistor to point (6) on the relay (64GE) from the back",
+     "3"
+    ],
+    [
+     "Reduce the resistance gradually until the Operation signal drops",
+     "4"
+    ],
+    [
+     "Remove the variable resistor terminals from the relay and the earth",
+     "5"
+    ],
+    [
+     "Record the measured value of the variable resistor using the True RMS Multimeter Type Fluke 87",
+     "6"
+    ],
+    [
+     "Connect one terminal of the Switch to point (6) on the relay (64GE) from the back, and the other terminal of the Switch to the variable resistor, and the other terminal of the variable resistor to earth",
+     "7"
+    ],
+    [
+     "Connect the Start terminals of the timer to the Switch terminals",
+     "8"
+    ],
+    [
+     "Connect the Stop terminals of the timer to points (4,6) on the relay (64GE) from the back, figure No. 2",
+     "9"
+    ],
+    [
+     "Reset the timer",
+     "10"
+    ],
+    [
+     "Switch the Switch to the ON position",
+     "11"
+    ],
+    [
+     "Record the time value (Operating Time)",
+     "12"
+    ],
+    [
+     "Remove the wire terminals connected to points (4,6) on the relay (64GE) from the back",
+     "13"
+    ],
+    [
+     "Reset the protection device (64GE)",
+     "14"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet For Rotor Earth Fault Relay (64GE) type TCR3D, Toshiba"
+  },
+  {
+   "type": "paragraph",
+   "text": "DESCRIPTION : UNIT No.1"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "NO. 1 EXC",
+     "Panel"
+    ],
+    [
+     "Item",
+     "Rotor Earth Fault 64GE"
+    ],
+    [
+     "Single line",
+     "7K2F0321-115G"
+    ],
+    [
+     "Type",
+     "TCR3D-BS1"
+    ],
+    [
+     "Test",
+     "Relay Verifications"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "."
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Data"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Rated Voltage",
+     "470 VDC"
+    ],
+    [
+     "Auxiliary",
+     "220VAC 50 Hz"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "General Inspection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Checking Item",
+     "Result"
+    ],
+    [
+     "Appearance casing",
+     ""
+    ],
+    [
+     "Tightness of fastening",
+     ""
+    ],
+    [
+     "Smooth rack in rack out",
+     ""
+    ],
+    [
+     "Inspection of printed card",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "."
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating value test"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Measured value",
+     "Result"
+    ],
+    [
+     "KΩ",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Criteria within 15 kΩ 5kΩ"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating time test"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Measured value",
+     "Result"
+    ],
+    [
+     "ms",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Criteria within 250 ms 05ms"
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Name and location of the protection device:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure No. 1: shows the test connection of the x64GE protection device using a variable resistor"
+  },
+  {
+   "type": "paragraph",
+   "text": "Figure No. 2: shows the time test connections for the Ex64GE protection"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: EFR-013-r0a | Equipment: Rotor earth-fault protection x64GE, TCR3D-BSI, Toshiba\nIssued to: Assiut Power Station\nStatus: APPROVED\nApproval date: 03 July 2003 | Procedure: Using the Fluke 87 current measuring instrument and the MCS-5N timer\nNext review date: July 2008\nIntroduction\nThis document sets out the test steps for the earth-fault protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 22 April 2003.\nSafety Precautions\nThe unit is out of service\nOpen a work order\nFence off the work area and place the appropriate warning signs.\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment\nTools, Equipment and Instruments Used\nVariable resistor, 25 kΩ\nTrue RMS Multimeter type Fluke 78\nMillisecond Counter (Timer) type MCS-5N\nTest leads\nSwitch (2 Pole)\nVariable resistor, 25 kΩ\nTrue RMS Multimeter type Fluke 78\nMillisecond Counter (Timer) type MCS-5N\nTest leads\nSwitch (2 Pole)\nWork Steps to be Carried Out\n...\nVerify that switch 43-64GE (OFF/NORMAL/TEST) is in the Normal position | 1\nSet the variable resistor to its highest value | 2\nConnect one terminal of the variable resistor to point (6) on the relay (64GE) from the back | 3\nReduce the resistance gradually until the Operation signal drops | 4\nRemove the variable resistor terminals from the relay and the earth | 5\nRecord the measured value of the variable resistor using the True RMS Multimeter Type Fluke 87 | 6\nConnect one terminal of the Switch to point (6) on the relay (64GE) from the back, and the other terminal of the Switch to the variable resistor, and the other terminal of the variable resistor to earth | 7\nConnect the Start terminals of the timer to the Switch terminals | 8\nConnect the Stop terminals of the timer to points (4,6) on the relay (64GE) from the back, figure No. 2 | 9\nReset the timer | 10\nSwitch the Switch to the ON position | 11\nRecord the time value (Operating Time) | 12\nRemove the wire terminals connected to points (4,6) on the relay (64GE) from the back | 13\nReset the protection device (64GE) | 14\nTest Sheet For Rotor Earth Fault Relay (64GE) type TCR3D, Toshiba\nDESCRIPTION : UNIT No.1\nNO. 1 EXC | Panel\nItem | Rotor Earth Fault 64GE\nSingle line | 7K2F0321-115G\nType | TCR3D-BS1\nTest | Relay Verifications\n.\nRelay Data\nRated Voltage | 470 VDC\nAuxiliary | 220VAC 50 Hz\nGeneral Inspection\nChecking Item | Result\nAppearance casing | \nTightness of fastening | \nSmooth rack in rack out | \nInspection of printed card | \n.\nOperating value test\nMeasured value | Result\nKΩ | \nCriteria within 15 kΩ 5kΩ\nOperating time test\nMeasured value | Result\nms | \nCriteria within 250 ms 05ms\nSite name: Name and location of the protection device:\nTested by: Signature: Date of execution:\nFigure No. 1: shows the test connection of the x64GE protection device using a variable resistor\nFigure No. 2: shows the time test connections for the Ex64GE protection",
+ "word_count_source": 499,
+ "uncertain_terms": [
+  {
+   "term": "Noramal",
+   "note": "Source spelling in step 1; rendered as \"Normal\"."
+  },
+  {
+   "term": "a43-64GE(OFF/NORMAL/TEST)a",
+   "note": "Source carries stray \"a\" fragments around the switch designation in step 1; translated without them."
+  },
+  {
+   "term": "مقاومة متغيرة P25 K ohm",
+   "note": "Source spelling; rendered as \"Variable resistor, 25 kΩ\"."
+  },
+  {
+   "term": "مفتاح (Switch (t2Pole",
+   "note": "Garbled source wording; rendered as \"Switch (2 Pole)\"."
+  },
+  {
+   "term": "TCR3D-BS1 vs TCR3D-BSI",
+   "note": "Inconsistency in the source: the header gives \"TCR3D-BSI\" while the test sheet gives \"TCR3D-BS1\"; both kept verbatim."
+  },
+  {
+   "term": "a470 VDC",
+   "note": "Source carries a stray \"a\" before the voltage; translated as \"470 VDC\"."
+  },
+  {
+   "term": "Criteria within 15 kΩ 5kΩ / within 250 ms 05ms",
+   "note": "Criteria text as in the source; the paired values are unclear; kept verbatim."
+  },
+  {
+   "term": "Ex64GE",
+   "note": "As written in the figure 2 caption; kept verbatim."
+  },
+  {
+   "term": "المناسبة0",
+   "note": "Source text carries a stray trailing \"0\" in the safety list; translated without it."
+  }
+ ]
+}

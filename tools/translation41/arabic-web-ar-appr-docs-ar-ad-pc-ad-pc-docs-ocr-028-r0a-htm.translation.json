@@ -1,0 +1,397 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-ocr-028-r0a-htm",
+ "doc_number": "OCR-028-R0A",
+ "category": "arabic_web",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "OCR-028-r0a APPROVED",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: OCR-028-r0a",
+     "Equipment: Overcurrent protection device (50/51), SPAJ 140C, ABB"
+    ],
+    [
+     "Issued to: New Assiut Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 06 April 2003",
+     "Procedure: Test using the Sverker 650 test set"
+    ],
+    [
+     "Next review date: April 2008"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test and calibration steps for the overcurrent protection device, as shown above. The first draft of this document was prepared by Eng. Mahmoud Ahmed Faisal at the Assiut Thermal Station, Upper Egypt Electricity Production Company; the field test was carried out on 06 April 2003 by Eng. Ali Hussein Farrag and Eng. Mahmoud Ahmed Faisal."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Isolate the circuit breaker whose breaker failure protection is to be tested, and also isolate the breaker's two disconnectors",
+    "Open an approved work order and provide the industrial safety category card for the workers",
+    "Fence off the work area and place the necessary warning signs",
+    "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "list",
+   "items": [
+    "SVERKER 650 current injection set",
+    "AC V-A current measuring instrument, type YOKOGAWA",
+    "Test comb, type RTXH 18",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Place Test plug type RTXH 18 in Test socket type RTXP 18 on the relay (50/51)",
+     "1"
+    ],
+    [
+     "Short points (65, 17B) at the back of the relay (50/51)",
+     "2"
+    ],
+    [
+     "Inject current at points (3, 4) in the Test plug to test phase R until the signal appears",
+     "3"
+    ],
+    [
+     "Record the current value for phase R",
+     "4"
+    ],
+    [
+     "Disconnect the injection set",
+     "5"
+    ],
+    [
+     "Inject current at points (5,6) in the Test plug to test phase S until the signal appears",
+     "6"
+    ],
+    [
+     "Record the current value for phase S",
+     "7"
+    ],
+    [
+     "Disconnect the injection set",
+     "8"
+    ],
+    [
+     "Inject current at points (7,8) in the Test plug to test phase T until the signal appears",
+     "9"
+    ],
+    [
+     "Record the current value for phase T",
+     "10"
+    ],
+    [
+     "Disconnect the injection set",
+     "11"
+    ],
+    [
+     "Remove the short from points (65,17B) at the back of the relay (50/51)",
+     "12"
+    ],
+    [
+     "Connect the Stop terminals of the current injection set to points (65,1A), where 1A in the Test plug connects to the negative (-) terminal of the injection set, and 65 at the back of the relay (50/51) connects to the positive (+) terminal of the injection set",
+     "13"
+    ],
+    [
+     "Inject current of value (1.2 x In) at points (3, 4) in the Test plug to test Time delay t1",
+     "14"
+    ],
+    [
+     "Disconnect the injection set",
+     "15"
+    ],
+    [
+     "Reset the timer",
+     "16"
+    ],
+    [
+     "Connect the current injection set",
+     "17"
+    ],
+    [
+     "Record the time value, Time delay t1",
+     "18"
+    ],
+    [
+     "Disconnect the current injection set",
+     "19"
+    ],
+    [
+     "Connect the Stop terminals of the current injection set to points (77,78) at the back of the relay, where 78 at the back of the relay (50/51) connects to the negative (-) terminal of the injection set, and 77 at the back of the relay (50/51) connects to the positive (+) terminal of the injection set",
+     "20"
+    ],
+    [
+     "Inject current of value (5 x In) at points (3, 4) in the Test plug to test Time delay t2",
+     "21"
+    ],
+    [
+     "Disconnect the injection set",
+     "22"
+    ],
+    [
+     "Reset the timer",
+     "23"
+    ],
+    [
+     "Connect the current injection set",
+     "24"
+    ],
+    [
+     "Record the time value, Time delay t2",
+     "25"
+    ],
+    [
+     "Disconnect the current injection set",
+     "26"
+    ],
+    [
+     "Reset the relay (50/51)",
+     "27"
+    ],
+    [
+     "Reset the Lock Out Relay of the relay (50/51)",
+     "28"
+    ],
+    [
+     "Remove Test plug type RTXH from Test socket type RTXP on the relay (50/51)",
+     "29"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "TEST SHEET"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Equipment",
+     ""
+    ],
+    [
+     "Description",
+     "Over Current Relay SPAJ 140C, ABB"
+    ],
+    [
+     "Item",
+     "50/51"
+    ],
+    [
+     "Single Line drawing",
+     "a 1512 VA 7120J001"
+    ],
+    [
+     "Test :",
+     "Relay Verifications"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Rated current :",
+     "1A"
+    ],
+    [
+     "Rated frequency :",
+     "50 Hz"
+    ],
+    [
+     "Auxiliary voltage :",
+     "80 - 265 V AC"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "DATA DESCRIPTION",
+     "SETTING RANGE",
+     "SETTING VALUE",
+     "RECORDED VALUE"
+    ],
+    [
+     "",
+     "",
+     "",
+     "R"
+    ],
+    [
+     "Over current first step",
+     "0.5 : 2.5 In",
+     "1.2 In",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "T"
+    ],
+    [
+     "Time delay",
+     "0.04 300s",
+     "200 ms",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "R"
+    ],
+    [
+     "Over current second step",
+     "0.5 : 40 In",
+     "5 In",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "T"
+    ],
+    [
+     "Time delay",
+     "0.04 : 300 S",
+     "0.04 S",
+     ""
+    ],
+    [
+     "Over current neutral first step",
+     "0.1 : 0.8In",
+     "not used",
+     ""
+    ],
+    [
+     "Time delay",
+     "0.05 : 300s",
+     "not used",
+     ""
+    ],
+    [
+     "Over current neutral second step",
+     "0.1 : 10I",
+     "not used",
+     ""
+    ],
+    [
+     "Time delay",
+     "0.05 : 300s",
+     "not used",
+     ""
+    ],
+    [
+     "DIP SWITCH group SGR1 = 11110000",
+     "",
+     "∑15",
+     ""
+    ],
+    [
+     "DIP SWITCH group SGR2 = 11110000",
+     "",
+     "∑15",
+     ""
+    ],
+    [
+     "DIP SWITCH group SGR3 = 11111111",
+     "",
+     "∑15",
+     ""
+    ],
+    [
+     "DIP SWITCH group SGR1 = 00000000",
+     "",
+     "∑0",
+     ""
+    ],
+    [
+     "DIP SWITCH group SGR2 = 00000100",
+     "",
+     "∑ = 32",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: OCR-028-r0a | Equipment: Overcurrent protection device (50/51), SPAJ 140C, ABB\nIssued to: New Assiut Power Station\nStatus: APPROVED\nApproval date: 06 April 2003 | Procedure: Test using the Sverker 650 test set\nNext review date: April 2008\nIntroduction\nThis document sets out the test and calibration steps for the overcurrent protection device, as shown above. The first draft of this document was prepared by Eng. Mahmoud Ahmed Faisal at the Assiut Thermal Station, Upper Egypt Electricity Production Company; the field test was carried out on 06 April 2003 by Eng. Ali Hussein Farrag and Eng. Mahmoud Ahmed Faisal.\nSafety Precautions\nIsolate the circuit breaker whose breaker failure protection is to be tested, and also isolate the breaker's two disconnectors\nOpen an approved work order and provide the industrial safety category card for the workers\nFence off the work area and place the necessary warning signs\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment\nTools, Equipment and Instruments Used\nSVERKER 650 current injection set\nAC V-A current measuring instrument, type YOKOGAWA\nTest comb, type RTXH 18\nTest leads\nWork Steps to be Carried Out\nPlace Test plug type RTXH 18 in Test socket type RTXP 18 on the relay (50/51) | 1\nShort points (65, 17B) at the back of the relay (50/51) | 2\nInject current at points (3, 4) in the Test plug to test phase R until the signal appears | 3\nRecord the current value for phase R | 4\nDisconnect the injection set | 5\nInject current at points (5,6) in the Test plug to test phase S until the signal appears | 6\nRecord the current value for phase S | 7\nDisconnect the injection set | 8\nInject current at points (7,8) in the Test plug to test phase T until the signal appears | 9\nRecord the current value for phase T | 10\nDisconnect the injection set | 11\nRemove the short from points (65,17B) at the back of the relay (50/51) | 12\nConnect the Stop terminals of the current injection set to points (65,1A), where 1A in the Test plug connects to the negative (-) terminal of the injection set, and 65 at the back of the relay (50/51) connects to the positive (+) terminal of the injection set | 13\nInject current of value (1.2 x In) at points (3, 4) in the Test plug to test Time delay t1 | 14\nDisconnect the injection set | 15\nReset the timer | 16\nConnect the current injection set | 17\nRecord the time value, Time delay t1 | 18\nDisconnect the current injection set | 19\nConnect the Stop terminals of the current injection set to points (77,78) at the back of the relay, where 78 at the back of the relay (50/51) connects to the negative (-) terminal of the injection set, and 77 at the back of the relay (50/51) connects to the positive (+) terminal of the injection set | 20\nInject current of value (5 x In) at points (3, 4) in the Test plug to test Time delay t2 | 21\nDisconnect the injection set | 22\nReset the timer | 23\nConnect the current injection set | 24\nRecord the time value, Time delay t2 | 25\nDisconnect the current injection set | 26\nReset the relay (50/51) | 27\nReset the Lock Out Relay of the relay (50/51) | 28\nRemove Test plug type RTXH from Test socket type RTXP on the relay (50/51) | 29\nTEST SHEET\nEquipment | \nDescription | Over Current Relay SPAJ 140C, ABB\nItem | 50/51\nSingle Line drawing | a 1512 VA 7120J001\nTest : | Relay Verifications\nRated current : | 1A\nRated frequency : | 50 Hz\nAuxiliary voltage : | 80 - 265 V AC\nDATA DESCRIPTION | SETTING RANGE | SETTING VALUE | RECORDED VALUE\n |  |  | R\nOver current first step | 0.5 : 2.5 In | 1.2 In | S\n |  |  | T\nTime delay | 0.04 300s | 200 ms | \n |  |  | R\nOver current second step | 0.5 : 40 In | 5 In | S\n |  |  | T\nTime delay | 0.04 : 300 S | 0.04 S | \nOver current neutral first step | 0.1 : 0.8In | not used | \nTime delay | 0.05 : 300s | not used | \nOver current neutral second step | 0.1 : 10I | not used | \nTime delay | 0.05 : 300s | not used | \nDIP SWITCH group SGR1 = 11110000 |  | ∑15 | \nDIP SWITCH group SGR2 = 11110000 |  | ∑15 | \nDIP SWITCH group SGR3 = 11111111 |  | ∑15 | \nDIP SWITCH group SGR1 = 00000000 |  | ∑0 | \nDIP SWITCH group SGR2 = 00000100 |  | ∑ = 32 | \nSite name: Equipment code:\nTested by: Signature: Date of execution:",
+ "word_count_source": 777,
+ "uncertain_terms": [
+  {
+   "term": "safety list step 1",
+   "note": "Suspect copy-paste in the source: the safety list refers to testing \"breaker failure protection\", although this document is the 50/51 overcurrent protection test (same wording as BFR-004); kept faithful to the source."
+  },
+  {
+   "term": "z / a fragments before point numbers",
+   "note": "The source carries stray \"z\" and \"a\" fragments before terminal/point numbers throughout the steps (e.g. \"(z65, 17B)\", \"(a5,6)\", \"(x1.2 x In)\"); translated without them."
+  },
+  {
+   "term": "مشط اختار",
+   "note": "Rendered as \"test comb\" (test plug comb), type RTXH 18."
+  }
+ ]
+}

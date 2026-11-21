@@ -1,0 +1,475 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-uvr-002-r0a-htm",
+ "doc_number": "UVR-002-R0A",
+ "category": "arabic_web",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "UVR-002-R0A — Approved",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection Devices",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: UVR-002-r0a",
+     "Equipment: Undervoltage protection on the 6.3 kV and 380 V busbars (x27) IVU1F-AG1 TOSHIBA"
+    ],
+    [
+     "Issued to: Assiut Power Station"
+    ],
+    [
+     "Status: Approved"
+    ],
+    [
+     "Approval date: 07 September 2003",
+     "Procedure: Test procedures using secondary circuit injection"
+    ],
+    [
+     "Next review date: September 2003"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps for the protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at Assiut New Power Station, Upper Egypt Electricity Production Company. The field test was carried out on 19 October 2002 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "The busbars shall be completely de-energised."
+  },
+  {
+   "type": "paragraph",
+   "text": "Open the work order and ensure the availability of an occupational safety and health card for the workers."
+  },
+  {
+   "type": "paragraph",
+   "text": "Fence off the work area and place warning signs."
+  },
+  {
+   "type": "paragraph",
+   "text": "Follow the occupational safety and health instructions for the safety of personnel and equipment."
+  },
+  {
+   "type": "list",
+   "items": [
+    "The busbars shall be completely de-energised.",
+    "Open the work order and ensure the availability of an occupational safety and health card for the workers.",
+    "Fence off the work area and place warning signs.",
+    "Follow the occupational safety and health instructions for the safety of personnel and equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Instruments and Equipment Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Two (2) XRT-1 test plugs"
+  },
+  {
+   "type": "paragraph",
+   "text": "Standard V-A AC voltage measuring instrument, model YOKOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Two (2) PHU-100 voltage injection test sets"
+  },
+  {
+   "type": "paragraph",
+   "text": "Millisecond Counter (Timer) type MCS - 5N"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "First: Measuring the relay operating voltage setting value on the three phases"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Remove the relay cover and withdraw the two relay connection plugs from the voltage transformer secondary terminals.",
+     "1"
+    ],
+    [
+     "Insert a Test Plug in place of each of the two relay connection plugs to the voltage transformer secondary terminals, gently, taking care that the Test Plug entry guide matches.",
+     "2"
+    ],
+    [
+     "Connect the voltage injection leads from PHU-100 injection test set No. (1) to terminals 5, 6 on the Test Plug (R-S position).",
+     "3"
+    ],
+    [
+     "Raise the voltage gradually to 110 V (note the movement of the upper disc of the relay, i.e. that the relay has reset).",
+     "4"
+    ],
+    [
+     "Reduce the voltage gradually until you observe the start of movement of the upper disc of the relay.",
+     "5"
+    ],
+    [
+     "Record the relay operating value (Vop) for the (R-S) position.",
+     "6"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (1).",
+     "7"
+    ],
+    [
+     "Connect the voltage injection leads from PHU-100 injection test set No. (1) to terminals 7, 8 on the Test Plug (S-T position).",
+     "8"
+    ],
+    [
+     "Raise the voltage gradually to 110 V (note the movement of the middle disc of the relay, i.e. that the relay has reset).",
+     "9"
+    ],
+    [
+     "Reduce the voltage gradually until you observe the start of movement of the middle disc of the relay.",
+     "10"
+    ],
+    [
+     "Record the relay operating value (Vop) for the (S-T) position.",
+     "11"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (1).",
+     "12"
+    ],
+    [
+     "Connect the voltage injection leads from PHU-100 injection test set No. (1) to terminals 9, 10 on the Test Plug (T-R position).",
+     "13"
+    ],
+    [
+     "Raise the voltage gradually to 110 V (note the movement of the lower disc of the relay, i.e. that the relay has reset).",
+     "14"
+    ],
+    [
+     "Reduce the voltage gradually until you observe the start of movement of the lower disc of the relay.",
+     "15"
+    ],
+    [
+     "Record the relay operating value (Vop) for the (T-R) position.",
+     "16"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (1).",
+     "17"
+    ],
+    [
+     "Measuring the relay operating times: Connect the Start leads from the time measuring instrument to terminals T1, T2 on PHU-100 injection test set No. (1).",
+     "Second: 18"
+    ],
+    [
+     "Connect the Stop leads from the time measuring instrument to terminals 1, 11 on the Test Plug for the (R-S) position.",
+     "19"
+    ],
+    [
+     "Set the voltage of PHU-100 injection test set No. (1) to 110 V.",
+     "20"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "21"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (1) to drop the voltage suddenly to zero volts.",
+     "22"
+    ],
+    [
+     "Record the time reading for the complete disappearance of the voltage (voltage value zero %) for the (R-S) position.",
+     "23"
+    ],
+    [
+     "Connect PHU-100 injection test set No. (2) in parallel with PHU-100 injection test set No. (1) on the V-A voltage measuring instrument.",
+     "24"
+    ],
+    [
+     "Set the output voltage of PHU-100 injection test set No. (2) to 80% of the relay operating value (Vop x (80/100)).",
+     "25"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (2).",
+     "26"
+    ],
+    [
+     "Switch on PHU-100 voltage injection test set No. (1) and set its output voltage to 110 V.",
+     "27"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "28"
+    ],
+    [
+     "At one simultaneous moment, switch off PHU-100 injection test set No. (1) at 110 V and connect PHU-100 injection test set No. (2) at voltage (Vop x (80/100)).",
+     "29"
+    ],
+    [
+     "Record the time reading for 80% of the relay operating value for the (R-S) position.",
+     "30"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (2).",
+     "31"
+    ],
+    [
+     "Connect the Stop leads from the time measuring instrument to terminals 2, 12 on the Test Plug for the (S-T) position.",
+     "32"
+    ],
+    [
+     "Set the voltage of PHU-100 injection test set No. (1) to 110 V.",
+     "34"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "35"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (1) to drop the voltage suddenly to zero volts.",
+     "36"
+    ],
+    [
+     "Record the time reading for the complete disappearance of the voltage (voltage value zero %) for the (S-T) position.",
+     "37"
+    ],
+    [
+     "Connect PHU-100 injection test set No. (2) in parallel with PHU-100 injection test set No. (1) on the V-A voltage measuring instrument.",
+     "38"
+    ],
+    [
+     "Set the output voltage of PHU-100 injection test set No. (2) to 80% of the relay operating value (Vop x (80/100)).",
+     "39"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (2).",
+     "40"
+    ],
+    [
+     "Switch on PHU-100 voltage injection test set No. (1) and set its output voltage to 110 V.",
+     "41"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "42"
+    ],
+    [
+     "At one simultaneous moment, switch off PHU-100 injection test set No. (1) at 110 V and connect PHU-100 injection test set No. (2) at voltage (Vop x (80/100)).",
+     "43"
+    ],
+    [
+     "Record the time reading for 80% of the relay operating value for the (S-T) position.",
+     "44"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (2).",
+     "45"
+    ],
+    [
+     "Connect the Stop leads from the time measuring instrument to terminals 3, 13 on the Test Plug for the (T-R) position.",
+     "46"
+    ],
+    [
+     "Set the voltage of PHU-100 injection test set No. (1) to 110 V.",
+     "47"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "48"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (1) to drop the voltage suddenly to zero volts.",
+     "49"
+    ],
+    [
+     "Record the time reading for the complete disappearance of the voltage (voltage value zero %) for the (T-R) position.",
+     "50"
+    ],
+    [
+     "Connect PHU-100 injection test set No. (2) in parallel with PHU-100 injection test set No. (1) on the V-A voltage measuring instrument.",
+     "51"
+    ],
+    [
+     "Set the output voltage of PHU-100 injection test set No. (2) to 80% of the relay operating value (Vop x (80/100)).",
+     "52"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (2).",
+     "53"
+    ],
+    [
+     "Switch on PHU-100 voltage injection test set No. (1) and set its output voltage to 110 V.",
+     "54"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "55"
+    ],
+    [
+     "At one simultaneous moment, switch off PHU-100 injection test set No. (1) at 110 V and connect PHU-100 injection test set No. (2) at voltage (Vop x (80/100)).",
+     "56"
+    ],
+    [
+     "Record the time reading for 80% of the relay operating value for the (T-R) position.",
+     "57"
+    ],
+    [
+     "Switch off PHU-100 injection test set No. (2).",
+     "58"
+    ],
+    [
+     "Reduce the voltage of PHU-100 injection test sets No. (1) and (2) to zero.",
+     "59"
+    ],
+    [
+     "Reset all indications on the relay.",
+     "60"
+    ],
+    [
+     "Withdraw the upper and lower Test Plugs from the relay.",
+     "61"
+    ],
+    [
+     "Refit the two relay connection plugs to the voltage transformer secondary terminals, then refit the relay cover.",
+     "62"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "for"
+  },
+  {
+   "type": "paragraph",
+   "text": "Under voltage Relay type IVU1F-AG1, TOSHIBA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit No. : .............................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Panel No. .............................................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer No.: ........................................."
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay data:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rating: 110V, 50 Hz"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment: 380 V, Unit P/C-A"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Name of Feeder",
+     "Relay. No.",
+     "Device No",
+     "Setting",
+     "Operating Value (V)",
+     "Operating Time (sec)",
+     "Result"
+    ],
+    [
+     "0%",
+     "80%",
+     ""
+    ],
+    [
+     "Incoming",
+     "M220-1",
+     "27UP 1A",
+     "Tap= 55 VTD = 2",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection Devices | Maintenance Procedures\nDocument No.: UVR-002-r0a | Equipment: Undervoltage protection on the 6.3 kV and 380 V busbars (x27) IVU1F-AG1 TOSHIBA\nIssued to: Assiut Power Station\nStatus: Approved\nApproval date: 07 September 2003 | Procedure: Test procedures using secondary circuit injection\nNext review date: September 2003\nIntroduction\nThis document sets out the test steps for the protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at Assiut New Power Station, Upper Egypt Electricity Production Company. The field test was carried out on 19 October 2002 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed.\nSafety Precautions\nThe busbars shall be completely de-energised.\nOpen the work order and ensure the availability of an occupational safety and health card for the workers.\nFence off the work area and place warning signs.\nFollow the occupational safety and health instructions for the safety of personnel and equipment.\nThe busbars shall be completely de-energised.\nOpen the work order and ensure the availability of an occupational safety and health card for the workers.\nFence off the work area and place warning signs.\nFollow the occupational safety and health instructions for the safety of personnel and equipment.\nTools, Instruments and Equipment Used\nTwo (2) XRT-1 test plugs\nStandard V-A AC voltage measuring instrument, model YOKOGAWA\nTwo (2) PHU-100 voltage injection test sets\nMillisecond Counter (Timer) type MCS - 5N\nTest leads\nTest leads\nProcedures to be Carried Out\nFirst: Measuring the relay operating voltage setting value on the three phases\nRemove the relay cover and withdraw the two relay connection plugs from the voltage transformer secondary terminals. | 1\nInsert a Test Plug in place of each of the two relay connection plugs to the voltage transformer secondary terminals, gently, taking care that the Test Plug entry guide matches. | 2\nConnect the voltage injection leads from PHU-100 injection test set No. (1) to terminals 5, 6 on the Test Plug (R-S position). | 3\nRaise the voltage gradually to 110 V (note the movement of the upper disc of the relay, i.e. that the relay has reset). | 4\nReduce the voltage gradually until you observe the start of movement of the upper disc of the relay. | 5\nRecord the relay operating value (Vop) for the (R-S) position. | 6\nSwitch off PHU-100 injection test set No. (1). | 7\nConnect the voltage injection leads from PHU-100 injection test set No. (1) to terminals 7, 8 on the Test Plug (S-T position). | 8\nRaise the voltage gradually to 110 V (note the movement of the middle disc of the relay, i.e. that the relay has reset). | 9\nReduce the voltage gradually until you observe the start of movement of the middle disc of the relay. | 10\nRecord the relay operating value (Vop) for the (S-T) position. | 11\nSwitch off PHU-100 injection test set No. (1). | 12\nConnect the voltage injection leads from PHU-100 injection test set No. (1) to terminals 9, 10 on the Test Plug (T-R position). | 13\nRaise the voltage gradually to 110 V (note the movement of the lower disc of the relay, i.e. that the relay has reset). | 14\nReduce the voltage gradually until you observe the start of movement of the lower disc of the relay. | 15\nRecord the relay operating value (Vop) for the (T-R) position. | 16\nSwitch off PHU-100 injection test set No. (1). | 17\nMeasuring the relay operating times: Connect the Start leads from the time measuring instrument to terminals T1, T2 on PHU-100 injection test set No. (1). | Second: 18\nConnect the Stop leads from the time measuring instrument to terminals 1, 11 on the Test Plug for the (R-S) position. | 19\nSet the voltage of PHU-100 injection test set No. (1) to 110 V. | 20\nReset the time measuring instrument. | 21\nSwitch off PHU-100 injection test set No. (1) to drop the voltage suddenly to zero volts. | 22\nRecord the time reading for the complete disappearance of the voltage (voltage value zero %) for the (R-S) position. | 23\nConnect PHU-100 injection test set No. (2) in parallel with PHU-100 injection test set No. (1) on the V-A voltage measuring instrument. | 24\nSet the output voltage of PHU-100 injection test set No. (2) to 80% of the relay operating value (Vop x (80/100)). | 25\nSwitch off PHU-100 injection test set No. (2). | 26\nSwitch on PHU-100 voltage injection test set No. (1) and set its output voltage to 110 V. | 27\nReset the time measuring instrument. | 28\nAt one simultaneous moment, switch off PHU-100 injection test set No. (1) at 110 V and connect PHU-100 injection test set No. (2) at voltage (Vop x (80/100)). | 29\nRecord the time reading for 80% of the relay operating value for the (R-S) position. | 30\nSwitch off PHU-100 injection test set No. (2). | 31\nConnect the Stop leads from the time measuring instrument to terminals 2, 12 on the Test Plug for the (S-T) position. | 32\nSet the voltage of PHU-100 injection test set No. (1) to 110 V. | 34\nReset the time measuring instrument. | 35\nSwitch off PHU-100 injection test set No. (1) to drop the voltage suddenly to zero volts. | 36\nRecord the time reading for the complete disappearance of the voltage (voltage value zero %) for the (S-T) position. | 37\nConnect PHU-100 injection test set No. (2) in parallel with PHU-100 injection test set No. (1) on the V-A voltage measuring instrument. | 38\nSet the output voltage of PHU-100 injection test set No. (2) to 80% of the relay operating value (Vop x (80/100)). | 39\nSwitch off PHU-100 injection test set No. (2). | 40\nSwitch on PHU-100 voltage injection test set No. (1) and set its output voltage to 110 V. | 41\nReset the time measuring instrument. | 42\nAt one simultaneous moment, switch off PHU-100 injection test set No. (1) at 110 V and connect PHU-100 injection test set No. (2) at voltage (Vop x (80/100)). | 43\nRecord the time reading for 80% of the relay operating value for the (S-T) position. | 44\nSwitch off PHU-100 injection test set No. (2). | 45\nConnect the Stop leads from the time measuring instrument to terminals 3, 13 on the Test Plug for the (T-R) position. | 46\nSet the voltage of PHU-100 injection test set No. (1) to 110 V. | 47\nReset the time measuring instrument. | 48\nSwitch off PHU-100 injection test set No. (1) to drop the voltage suddenly to zero volts. | 49\nRecord the time reading for the complete disappearance of the voltage (voltage value zero %) for the (T-R) position. | 50\nConnect PHU-100 injection test set No. (2) in parallel with PHU-100 injection test set No. (1) on the V-A voltage measuring instrument. | 51\nSet the output voltage of PHU-100 injection test set No. (2) to 80% of the relay operating value (Vop x (80/100)). | 52\nSwitch off PHU-100 injection test set No. (2). | 53\nSwitch on PHU-100 voltage injection test set No. (1) and set its output voltage to 110 V. | 54\nReset the time measuring instrument. | 55\nAt one simultaneous moment, switch off PHU-100 injection test set No. (1) at 110 V and connect PHU-100 injection test set No. (2) at voltage (Vop x (80/100)). | 56\nRecord the time reading for 80% of the relay operating value for the (T-R) position. | 57\nSwitch off PHU-100 injection test set No. (2). | 58\nReduce the voltage of PHU-100 injection test sets No. (1) and (2) to zero. | 59\nReset all indications on the relay. | 60\nWithdraw the upper and lower Test Plugs from the relay. | 61\nRefit the two relay connection plugs to the voltage transformer secondary terminals, then refit the relay cover. | 62\nTest Sheet\nfor\nUnder voltage Relay type IVU1F-AG1, TOSHIBA\nUnit No. : ..............................................................\nPanel No. ..............................................................\nManufacturer No.: .........................................\nRelay data:\nRating: 110V, 50 Hz\nEquipment: 380 V, Unit P/C-A\nName of Feeder | Relay. No. | Device No | Setting | Operating Value (V) | Operating Time (sec) | Result\n0% | 80% | \nIncoming | M220-1 | 27UP 1A | Tap= 55 VTD = 2 |  |  |  |  | \nSite name:\nTested by: Signature: Date of execution:",
+ "word_count_source": 1182,
+ "uncertain_terms": [
+  {
+   "note": "Function code carries a stray leading 'x' ('(x27)'); kept as written.",
+   "term": "(x27)"
+  },
+  {
+   "note": "Next review date (September 2003) is the same month as the approval date (07 September 2003); suspect value, kept as written.",
+   "term": "Next review date: September 2003"
+  },
+  {
+   "note": "Step-number cell of row 20:17:0 reads 'ثانيا / 18' (literally 'Second: / 18'); rendered as 'Second: 18'.",
+   "term": "ثانيا / 18"
+  },
+  {
+   "note": "Formulae in steps 20:24:0 etc. are garbled in the source ('(VopX(80/100' with unbalanced parentheses); normalised to '(Vop x (80/100))'.",
+   "term": "(VopX(80/100"
+  },
+  {
+   "note": "'قيمة الجهد صفر %' rendered as 'voltage value zero %' as written; the intended sense is probably a complete loss of voltage (0 V).",
+   "term": "قيمة الجهد صفر %"
+  }
+ ]
+}

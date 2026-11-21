@@ -1,0 +1,287 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-efr-010-r0a-htm",
+ "doc_number": "EFR-010-R0A",
+ "category": "arabic_web",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "EFR-010-r0a APPROVED",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: EFR-010-r0a",
+     "Equipment: Earth-fault protection x51N, RXIG21, ABB"
+    ],
+    [
+     "Issued to: New Assiut Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 25 March 2003",
+     "Procedure: Using injection into the secondary circuits"
+    ],
+    [
+     "Next review date: March 2008"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps for the earth-fault protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 19 October 2002."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The unit is out of service",
+    "Open a work order",
+    "Fence off the work area and place the appropriate warning signs.",
+    "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "PHU-100 current injection set"
+  },
+  {
+   "type": "paragraph",
+   "text": "AC V-A current measuring instrument, type YOKOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Millisecond counter (Timer) Type MCS -5N"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test comb, type RTXH 18"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "PHU-100 current injection set",
+    "AC V-A current measuring instrument, type YOKOGAWA",
+    "Millisecond counter (Timer) Type MCS -5N",
+    "Test comb, type RTXH 18",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Place the Test plug type RTXH in Test socket type RTXP 18 on the relay x51N",
+     "1"
+    ],
+    [
+     "Inject current at points (3, 4) in the Test plug until the signal appears",
+     "2"
+    ],
+    [
+     "Record the current value",
+     "3"
+    ],
+    [
+     "Disconnect the injection set",
+     "4"
+    ],
+    [
+     "Connect the Stop terminals of the timer to points (17, 18) in the Test plug",
+     "5"
+    ],
+    [
+     "Connect the Start terminals of the timer to points T1,T2 in the PHU-100 injection set",
+     "6"
+    ],
+    [
+     "Connect the injection set and set the current to the relay operating value",
+     "7"
+    ],
+    [
+     "Disconnect the injection set",
+     "8"
+    ],
+    [
+     "Reset the timer",
+     "9"
+    ],
+    [
+     "Connect the current injection set",
+     "10"
+    ],
+    [
+     "Record the time value",
+     "11"
+    ],
+    [
+     "Disconnect the current injection set",
+     "12"
+    ],
+    [
+     "Remove the Test plug type RTXH 18 from Test socket type RTXP 18 on the relay x51N",
+     "13"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Equipment:",
+     "Power Station Protection System 51N"
+    ],
+    [
+     "Description:",
+     "Earth Fault Protection RXIG21"
+    ],
+    [
+     "Item:",
+     "Panel ........... Poz .................."
+    ],
+    [
+     "Single line Diagram no.:",
+     "1512VA7120J001"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "---------------------------------------------------------------------------------"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay data :",
+     ""
+    ],
+    [
+     "Rated current :",
+     ""
+    ],
+    [
+     "Rated voltage :",
+     "63.5 , 110 , 220 V"
+    ],
+    [
+     "Rated frequency :",
+     "50 Hz"
+    ],
+    [
+     "Auxiliary voltage :",
+     "110/125 VAC"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Stage",
+     "Setting",
+     "Measurement I0(A)",
+     "Time (S)",
+     "Remarks"
+    ],
+    [
+     "I",
+     "0.3 Amp",
+     "A",
+     "",
+     "OK"
+    ],
+    [
+     "II",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Current injection at 3A , 4A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Time: stop at 17A, 18A (DC contact)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Start dry contact"
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: EFR-010-r0a | Equipment: Earth-fault protection x51N, RXIG21, ABB\nIssued to: New Assiut Power Station\nStatus: APPROVED\nApproval date: 25 March 2003 | Procedure: Using injection into the secondary circuits\nNext review date: March 2008\nIntroduction\nThis document sets out the test steps for the earth-fault protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 19 October 2002.\nSafety Precautions\nThe unit is out of service\nOpen a work order\nFence off the work area and place the appropriate warning signs.\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment\nTools, Equipment and Instruments Used\nPHU-100 current injection set\nAC V-A current measuring instrument, type YOKOGAWA\nMillisecond counter (Timer) Type MCS -5N\nTest comb, type RTXH 18\nTest leads\nPHU-100 current injection set\nAC V-A current measuring instrument, type YOKOGAWA\nMillisecond counter (Timer) Type MCS -5N\nTest comb, type RTXH 18\nTest leads\nWork Steps to be Carried Out\nPlace the Test plug type RTXH in Test socket type RTXP 18 on the relay x51N | 1\nInject current at points (3, 4) in the Test plug until the signal appears | 2\nRecord the current value | 3\nDisconnect the injection set | 4\nConnect the Stop terminals of the timer to points (17, 18) in the Test plug | 5\nConnect the Start terminals of the timer to points T1,T2 in the PHU-100 injection set | 6\nConnect the injection set and set the current to the relay operating value | 7\nDisconnect the injection set | 8\nReset the timer | 9\nConnect the current injection set | 10\nRecord the time value | 11\nDisconnect the current injection set | 12\nRemove the Test plug type RTXH 18 from Test socket type RTXP 18 on the relay x51N | 13\nTest Sheet\nEquipment: | Power Station Protection System 51N\nDescription: | Earth Fault Protection RXIG21\nItem: | Panel ........... Poz ..................\nSingle line Diagram no.: | 1512VA7120J001\n---------------------------------------------------------------------------------\nRelay data : | \nRated current : | \nRated voltage : | 63.5 , 110 , 220 V\nRated frequency : | 50 Hz\nAuxiliary voltage : | 110/125 VAC\nStage | Setting | Measurement I0(A) | Time (S) | Remarks\nI | 0.3 Amp | A |  | OK\nII |  |  |  | \nCurrent injection at 3A , 4A\nTime: stop at 17A, 18A (DC contact)\nStart dry contact\nSite name: Equipment code:\nTested by: Signature: Date of execution:",
+ "word_count_source": 428,
+ "uncertain_terms": [
+  {
+   "term": "Test plus",
+   "note": "Source spelling in steps 1 and 13; rendered as \"Test plug\"."
+  },
+  {
+   "term": "(x3 ، 4)",
+   "note": "Source carries a stray \"x\" before the terminal numbers in step 2; translated as \"(3, 4)\"."
+  },
+  {
+   "term": "المناسبة0",
+   "note": "Source text carries a stray trailing \"0\" in the safety list; translated without it."
+  }
+ ]
+}

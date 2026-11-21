@@ -1,0 +1,262 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-gvr-001-r0a-htm",
+ "doc_number": "GVR-001-R0A",
+ "category": "arabic_web",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "GVR-001-r0a APPROVED",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: GVR-001-r0a",
+     "Equipment: Ground Voltage Relay protection on the 6.3 kV busbars (64), IVG1D-BG1, Toshiba"
+    ],
+    [
+     "Issued to: Assiut Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 13 August 2006",
+     "Procedure: Using the PHU-100 voltage injection set"
+    ],
+    [
+     "Next review date: August 2011"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft of this document was prepared by Eng. Ali Hussein Farrag; the field test was carried out by Eng. Ali Hussein Farrag and Eng. Osama Fathy Abdel Karim; approved by Eng. Abdel Nasser Maarouf Ahmed, General Manager, endorsed by Eng. Ibrahim El-Shahat Ibrahim, Head of the Sector, and documented by Eng. Gamal Abdel Wahab, Head of the Quality Sector and MPIS Coordinator at the Upper Egypt Electricity Production Company."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Open a work order and provide occupational safety and health category cards.",
+     ""
+    ],
+    [
+     "Fence off the work area and place the appropriate warning signs.",
+     ""
+    ],
+    [
+     "Follow the occupational safety and health instructions for the safety of personnel and equipment.",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Test comb, Test Plug type XRT-1",
+     ""
+    ],
+    [
+     "AC V-A voltage measuring instrument, type YOKOGAWA",
+     ""
+    ],
+    [
+     "PHU-100 voltage injection set",
+     ""
+    ],
+    [
+     "Millisecond Counter (Timer) Type MCS-5N",
+     ""
+    ],
+    [
+     "Test leads",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Remove the relay cover and withdraw the relay contact comb from the VT secondary terminals",
+     "1."
+    ],
+    [
+     "Place the Test plug in place of the relay contact comb on the VT secondary terminals, gently, taking care that the Test plug entry guide matches",
+     "2."
+    ],
+    [
+     "Connect the voltage injection terminals from the PHU-100 injection set to terminals 5, 6 on the Test Plug",
+     "3."
+    ],
+    [
+     "Raise the voltage gradually until the relay disc moves",
+     "4."
+    ],
+    [
+     "Record the relay operating value {Vop}",
+     "5."
+    ],
+    [
+     "Reduce the voltage gradually to zero, then disconnect the PHU-100 injection set",
+     "6."
+    ],
+    [
+     "Connect the Start terminals from the timer to terminals T1, T2 on the PHU-100 injection set",
+     "7."
+    ],
+    [
+     "Connect the Stop terminals from the timer to terminals 1, 2 on the Test Plug",
+     "8."
+    ],
+    [
+     "Set the PHU-100 injection set voltage to {Vop} 150%",
+     "9."
+    ],
+    [
+     "Disconnect the PHU-100 injection set",
+     "10."
+    ],
+    [
+     "Reset the timer",
+     "11."
+    ],
+    [
+     "Connect the PHU-100 injection set",
+     "12."
+    ],
+    [
+     "Record the time reading",
+     "13."
+    ],
+    [
+     "Reduce the voltage gradually to zero, then disconnect the PHU-100 injection set",
+     "14."
+    ],
+    [
+     "Reset all the signals on the relay",
+     "15."
+    ],
+    [
+     "Withdraw the Test Plug from the relay",
+     "16."
+    ],
+    [
+     "Fit the relay contact comb to the VT secondary terminals, then fit the relay cover",
+     "17."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:: 6.3KV UNIT M/C-B"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : IVGID - BGI"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rating : 110V - 50HZ"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Name of Feeder",
+     "RY. No.",
+     "DEV. No.",
+     "Setting",
+     "Operating Value (A)",
+     "Operating Time (Sec)",
+     ""
+    ],
+    [
+     "150%",
+     ""
+    ],
+    [
+     "Unit GVT-B",
+     "M230",
+     "64UIB",
+     "TAP=20V",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Protection device code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: GVR-001-r0a | Equipment: Ground Voltage Relay protection on the 6.3 kV busbars (64), IVG1D-BG1, Toshiba\nIssued to: Assiut Power Station\nStatus: APPROVED\nApproval date: 13 August 2006 | Procedure: Using the PHU-100 voltage injection set\nNext review date: August 2011\nIntroduction\nThe first draft of this document was prepared by Eng. Ali Hussein Farrag; the field test was carried out by Eng. Ali Hussein Farrag and Eng. Osama Fathy Abdel Karim; approved by Eng. Abdel Nasser Maarouf Ahmed, General Manager, endorsed by Eng. Ibrahim El-Shahat Ibrahim, Head of the Sector, and documented by Eng. Gamal Abdel Wahab, Head of the Quality Sector and MPIS Coordinator at the Upper Egypt Electricity Production Company.\nSafety Precautions\nOpen a work order and provide occupational safety and health category cards. | \nFence off the work area and place the appropriate warning signs. | \nFollow the occupational safety and health instructions for the safety of personnel and equipment. | \nTools, Equipment and Instruments Used\nTest comb, Test Plug type XRT-1 | \nAC V-A voltage measuring instrument, type YOKOGAWA | \nPHU-100 voltage injection set | \nMillisecond Counter (Timer) Type MCS-5N | \nTest leads | \nProcedures to be Carried Out\nRemove the relay cover and withdraw the relay contact comb from the VT secondary terminals | 1.\nPlace the Test plug in place of the relay contact comb on the VT secondary terminals, gently, taking care that the Test plug entry guide matches | 2.\nConnect the voltage injection terminals from the PHU-100 injection set to terminals 5, 6 on the Test Plug | 3.\nRaise the voltage gradually until the relay disc moves | 4.\nRecord the relay operating value {Vop} | 5.\nReduce the voltage gradually to zero, then disconnect the PHU-100 injection set | 6.\nConnect the Start terminals from the timer to terminals T1, T2 on the PHU-100 injection set | 7.\nConnect the Stop terminals from the timer to terminals 1, 2 on the Test Plug | 8.\nSet the PHU-100 injection set voltage to {Vop} 150% | 9.\nDisconnect the PHU-100 injection set | 10.\nReset the timer | 11.\nConnect the PHU-100 injection set | 12.\nRecord the time reading | 13.\nReduce the voltage gradually to zero, then disconnect the PHU-100 injection set | 14.\nReset all the signals on the relay | 15.\nWithdraw the Test Plug from the relay | 16.\nFit the relay contact comb to the VT secondary terminals, then fit the relay cover | 17.\nTest Sheet\nEquipment:: 6.3KV UNIT M/C-B\nType : IVGID - BGI\nRating : 110V - 50HZ\nName of Feeder | RY. No. | DEV. No. | Setting | Operating Value (A) | Operating Time (Sec) | \n150% | \nUnit GVT-B | M230 | 64UIB | TAP=20V |  |  |  | \nSite name: Protection device code:\nTested by: Signature: Date of execution:",
+ "word_count_source": 441,
+ "uncertain_terms": [
+  {
+   "term": "IVG1D-BG1 vs IVGID - BGI",
+   "note": "Inconsistency in the source: the header gives \"IVG1D-BG1\" while the test sheet gives \"IVGID - BGI\"; both kept verbatim."
+  },
+  {
+   "term": "مشط إتصال الريل��ي",
+   "note": "Source text is corrupted (replacement characters) in step 1; translated from the intact wording as \"relay contact comb\"."
+  },
+  {
+   "term": "المناسبة0",
+   "note": "Source text carries a stray trailing \"0\" in the safety table; translated without it."
+  },
+  {
+   "term": "Ground Voltage Relay",
+   "note": "Equipment name as written in the source (mixed English/Arabic header)."
+  }
+ ]
+}

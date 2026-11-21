@@ -1,0 +1,193 @@
+{
+ "id": "arabic-web-ar-app-gen-ueepc-instr-control-ar-mi-003-r0a-htm",
+ "doc_number": "MI-003-R0A",
+ "category": "instruments",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "MI-003-r0a APPROVED",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Instrumentation and Control",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: MI-003-r0a",
+     "Equipment: Control circuit of the turbine safety-oil presence signal, PS, on the thermal disk, ABB"
+    ],
+    [
+     "Issued to: Assiut 3, 30 MW"
+    ],
+    [
+     "Status: Approved"
+    ],
+    [
+     "Approval date: 26 March 2007",
+     "Procedure: Repair of the fault of the signal not appearing"
+    ],
+    [
+     "Next review date: March 2012"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the steps for repairing the fault of the safety-oil presence indicating lamp of the turbine not appearing."
+  },
+  {
+   "type": "paragraph",
+   "text": "The document was prepared by Eng. Ayman Mohamed Abdel Magid, reviewed and tested by Eng. Magdy Mahrous Shehata, approved by Eng. Abdel Azim Gomaa Hagras, General Manager of Assiut Thermal, and approved by Mr. Eng. Hussein Ahmed El-Mahdy, Head of Sector, and certified by Mr. Eng. Gamal El-Din Abdel Wahab, Head of the Inspection and Quality Control Sector and the company coordinator for the"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "This fault is worked on while the unit is out of service, because working on the switch for the turbine safety-oil presence indicating lamp signal (PS), located on the main stop valve, causes tripping of the unit's 132 kV circuit breaker."
+  },
+  {
+   "type": "paragraph",
+   "text": "Issue a work permit approved by the station Operations Department; the procedures are carried out under the supervision of the maintenance engineer executing the work permit approved by the Head of the Instrument Maintenance Department"
+  },
+  {
+   "type": "paragraph",
+   "text": "Record the occupational safety and health category of all personnel whose names are mentioned in the work permit"
+  },
+  {
+   "type": "list",
+   "items": [
+    "This fault is worked on while the unit is out of service, because working on the switch for the turbine safety-oil presence indicating lamp signal (PS), located on the main stop valve, causes tripping of the unit's 132 kV circuit breaker.",
+    "Issue a work permit approved by the station Operations Department; the procedures are carried out under the supervision of the maintenance engineer executing the work permit approved by the Head of the Instrument Maintenance Department",
+    "Record the occupational safety and health category of all personnel whose names are mentioned in the work permit"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Equipment Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Flat screwdriver, 8 inch, pliers, 7 inch"
+  },
+  {
+   "type": "paragraph",
+   "text": "Flat screwdriver, 4 inch, Allen key, 6 inch"
+  },
+  {
+   "type": "paragraph",
+   "text": "Avometer for measurement"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Flat screwdriver, 8 inch, pliers, 7 inch",
+    "Flat screwdriver, 4 inch, Allen key, 6 inch",
+    "Avometer for measurement"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Open the work permit",
+     "1."
+    ],
+    [
+     "Look in the turbine file, Turbine control supervising (204)a, Chapter 5, Turbine Protection, page Max60a, where it is shown that there are two switches on the main stop valve: switch No. (a3325A) on the right-hand main stop valve and the other, No. (a3325B), on the main stop valve left; they are responsible for lighting the P2 priming indicating lamp",
+     "2."
+    ],
+    [
+     "Enter the addresses of the two switches on the computer, (B328) and (BF28); it was found that there is an error in the output signal of the BF28 address",
+     "3."
+    ],
+    [
+     "Simulate this address, (BF28), and the lamp lit",
+     "4."
+    ],
+    [
+     "Upon removing the cover on the main stop valve left, a problem was found in the switch on it: its normal position, with safety oil present, is open on its terminals (110 V DC), but it was found closed",
+     "5."
+    ],
+    [
+     "Check that the switch repair is complete and that it is working normally",
+     "6."
+    ],
+    [
+     "Re-prime the oil and check that the indicating lamp appears and the fault is repaired",
+     "7."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit number: Circuit code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspected by: Signature: Date of execution:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Instrumentation and Control | Maintenance Procedures\nDocument No.: MI-003-r0a | Equipment: Control circuit of the turbine safety-oil presence signal, PS, on the thermal disk, ABB\nIssued to: Assiut 3, 30 MW\nStatus: Approved\nApproval date: 26 March 2007 | Procedure: Repair of the fault of the signal not appearing\nNext review date: March 2012\nIntroduction\nThis document sets out the steps for repairing the fault of the safety-oil presence indicating lamp of the turbine not appearing.\nThe document was prepared by Eng. Ayman Mohamed Abdel Magid, reviewed and tested by Eng. Magdy Mahrous Shehata, approved by Eng. Abdel Azim Gomaa Hagras, General Manager of Assiut Thermal, and approved by Mr. Eng. Hussein Ahmed El-Mahdy, Head of Sector, and certified by Mr. Eng. Gamal El-Din Abdel Wahab, Head of the Inspection and Quality Control Sector and the company coordinator for the\nSafety Precautions\nThis fault is worked on while the unit is out of service, because working on the switch for the turbine safety-oil presence indicating lamp signal (PS), located on the main stop valve, causes tripping of the unit's 132 kV circuit breaker.\nIssue a work permit approved by the station Operations Department; the procedures are carried out under the supervision of the maintenance engineer executing the work permit approved by the Head of the Instrument Maintenance Department\nRecord the occupational safety and health category of all personnel whose names are mentioned in the work permit\nThis fault is worked on while the unit is out of service, because working on the switch for the turbine safety-oil presence indicating lamp signal (PS), located on the main stop valve, causes tripping of the unit's 132 kV circuit breaker.\nIssue a work permit approved by the station Operations Department; the procedures are carried out under the supervision of the maintenance engineer executing the work permit approved by the Head of the Instrument Maintenance Department\nRecord the occupational safety and health category of all personnel whose names are mentioned in the work permit\nTools and Equipment Used\nFlat screwdriver, 8 inch, pliers, 7 inch\nFlat screwdriver, 4 inch, Allen key, 6 inch\nAvometer for measurement\nFlat screwdriver, 8 inch, pliers, 7 inch\nFlat screwdriver, 4 inch, Allen key, 6 inch\nAvometer for measurement\nProcedures to be Carried Out\nOpen the work permit | 1.\nLook in the turbine file, Turbine control supervising (204)a, Chapter 5, Turbine Protection, page Max60a, where it is shown that there are two switches on the main stop valve: switch No. (a3325A) on the right-hand main stop valve and the other, No. (a3325B), on the main stop valve left; they are responsible for lighting the P2 priming indicating lamp | 2.\nEnter the addresses of the two switches on the computer, (B328) and (BF28); it was found that there is an error in the output signal of the BF28 address | 3.\nSimulate this address, (BF28), and the lamp lit | 4.\nUpon removing the cover on the main stop valve left, a problem was found in the switch on it: its normal position, with safety oil present, is open on its terminals (110 V DC), but it was found closed | 5.\nCheck that the switch repair is complete and that it is working normally | 6.\nRe-prime the oil and check that the indicating lamp appears and the fault is repaired | 7.\nUnit number: Circuit code:\nInspected by: Signature: Date of execution:",
+ "word_count_source": 498,
+ "uncertain_terms": [
+  {
+   "note": "Source '30x م و' is garbled OCR for '30 MW'; rendered as '30 MW'.",
+   "term": "30x م و"
+  },
+  {
+   "note": "The approval paragraph ends truncated in the source ('ومنسق الشركة للـ'); rendered literally as the incomplete 'and the company coordinator for the'.",
+   "term": "ومنسق الشركة للـ"
+  },
+  {
+   "note": "Source 'a2-switch' evidently means '2 switches'; rendered as 'two switches'.",
+   "term": "a2-switch"
+  },
+  {
+   "note": "Source switch tag '(a3325أ)' rendered as '(a3325A)' (Arabic أ = A in the tag); the companion tag is '(a3325B)'.",
+   "term": "a3325أ"
+  },
+  {
+   "note": "Source 'لمبة بيان تحضير الـ ص2' rendered as 'P2 priming indicating lamp'; 'ص2' is read as 'P2' by analogy with the pressure designation used elsewhere in MPIS, but the sense here is not certain.",
+   "term": "ص2"
+  },
+  {
+   "note": "Step 7 in the source is garbled ('يتم اعادة تحضير الـ ملاحظة: والتأكد من ظهور لمبة البيان واصلاح العطل') — the noun after 'تحضير الـ' is missing and 'ملاحظة:' is intrusive; rendered as 'Re-prime the oil and check that the indicating lamp appears and the fault is repaired'.",
+   "term": "يتم اعادة تحضير الـ ملاحظة"
+  },
+  {
+   "note": "Source 'Thermal disk' kept as in the source.",
+   "term": "Thermal disk"
+  },
+  {
+   "note": "Source 'زاردية' rendered as 'pliers'.",
+   "term": "زاردية"
+  }
+ ]
+}

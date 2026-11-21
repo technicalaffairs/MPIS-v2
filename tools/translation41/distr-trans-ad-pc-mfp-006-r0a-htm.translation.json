@@ -1,0 +1,728 @@
+{
+  "id": "distr-trans-ad-pc-mfp-006-r0a-htm",
+  "doc_number": "MFP-006-R0A",
+  "category": "distribution",
+  "source_language": "ar",
+  "target_language": "en",
+  "title_target": "MFP-006-r0a",
+  "sections_target": [
+    {
+      "type": "table",
+      "rows": [
+        [
+          "نظام معلومات إجراءات \n الصيانة"
+        ],
+        [
+          "",
+          "أجهزة الوقايـة",
+          "إجـراءات الصيانـة"
+        ],
+        [
+          "رقم المستند: \n MFP-006-r0a",
+          "الجهاز:\n الوقاية متعددة الوظائف\n MLFB SPIROTEC4 - 7SJ62\n ''Flush Type'' 7SJ6225 - \n F5EB203FG0\n SIEMENS"
+        ],
+        [
+          "صادرة الى: \n شركات التوزيع"
+        ],
+        [
+          "الموقف: \n مسودة \n رقم 1"
+        ],
+        [
+          "تاريخ \n الاعتماد:",
+          "الاجراء:\n الاختبار والمعايرة \n السنوية \n ( P1- \n Y1 \n )"
+        ],
+        [
+          "تاريخ المراجعة التالية:"
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "text": "This document was prepared by North Delta Electricity Distribution Company and discussed and approved at the meeting of the MPIS coordinators of the distribution companies on / /"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Protection Functions",
+          "",
+          "Monitoring Functions"
+        ],
+        [
+          "Time-overcurrent Protection.\n (Definite-time / inverse-time/user-definite)\n Directional time-overcurrent Protection.\n (Definite-time / inverse-time/user-definite)\n Sensitive earth fault\n Inrush restraint.\n Overload protection.\n Under - / over voltage Protection.\n Under - / over frequency Protection.\n Breaker failure Protection.\n Negative sequence Protection.\n Phase-sequence monitoring.",
+          "",
+          "Operational measured values V.I.f\n Energy metering values Wp.Wq\n Circuit-breaker wear monitoring.\n Trip circuit supervision fuse failure monitoring.\n 8 oscillographic fault records."
+        ],
+        [
+          "Communication \n Interfaces"
+        ],
+        [
+          "System Interface"
+        ],
+        [
+          "- IEC 60870-5-103/ IEC 618501"
+        ],
+        [
+          "- PROFBUS-FMS/-DP"
+        ],
+        [
+          "- DNP \n 3.0/MODBUS RTU"
+        ],
+        [
+          "Service interface"
+        ],
+        [
+          "Control Function / Programmable \n Logic",
+          "Front interface for DIGSI 4"
+        ],
+        [
+          "Commands D ctrl of CB and of isolators.",
+          "Hardware"
+        ],
+        [
+          "Control via keyboard, binary inputs.",
+          "4 current transformers"
+        ],
+        [
+          "DIGSI 4 or SCADA system.",
+          "3 voltage transformers"
+        ],
+        [
+          "User-defined logic with CFC",
+          "11 binary inputs"
+        ],
+        [
+          "(e.g. interlocking)",
+          "6 output relays"
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "All tests is done according to IEC 60255-5; ANSI / IEEE C 37.90.0"
+    },
+    {
+      "type": "paragraph",
+      "text": "Frequency of \nTesting"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is recommended that protective and auxiliary relays be given a complete calibration test and inspection at least once a year. This schedule however sometimes cannot be met due to existing workloads and available manpower with the result that routine calibration tests intervals of many relays are longer than a year."
+    },
+    {
+      "type": "paragraph",
+      "text": "Test Records"
+    },
+    {
+      "type": "paragraph",
+      "text": "A complete record should be kept of all test data and observations made during tests and inspections including identifying numbers of test equipment used. The following relay test report forms are available at distribution points."
+    },
+    {
+      "type": "paragraph",
+      "text": "Safety Precautions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Issue an approved work order; maintenance personnel must carry the occupational safety and health category card."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ensure warning signs are posted (Under Test)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Occupational safety and health instructions must be followed at the work site."
+    },
+    {
+      "type": "paragraph",
+      "text": "Switch off the circuit breaker and place it in the test position outside the cell."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do not open current transformers while in service or during testing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do not short-circuit the secondary winding terminals of the voltage transformers on the terminal block or through the installed protection device."
+    },
+    {
+      "type": "paragraph",
+      "text": "Earth the protection device to protect it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Observe polarity when dealing with DC voltage.\nDC Voltage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Switch off the DC circuit breakers when dealing with their circuits."
+    },
+    {
+      "type": "paragraph",
+      "text": "Observe occupational safety and health instructions when handling batteries (wear gloves, safety goggles, avometer, fork for measuring battery voltage, hydrometer for measuring battery solution density)."
+    },
+    {
+      "type": "list",
+      "items": [
+        "اصدار أمر شغل معتمد ويجب \nأن يحمل القائمون بأعمال الصيانة كارت\n فئة السلامة والصحة المهنية0",
+        "تأكد\n من \n وضع علامات التحذير \n (تحت الاختبار)",
+        "ضرورة اتباع تعليمات السلامة والصحة المهنية فى مكان العمل",
+        "فصل القاطع ووضعه فى وضع الاختبار خارج الخلية0",
+        "عدم فتح محولات التيار وهى فى حالة التشغيل او عند الاختبار",
+        "عدم عمل قصر على اطراف الملفات الثانوية لمحولات الجهد\nعلى الروزتة أو من خلال جهاز الوقاية المركب",
+        "تأريض جهاز الوقاية لحمايته0",
+        "مراعاة القطبية عند التعامل مع الجهد المستمر\nDC Voltage",
+        "فصل قواطع الجهد المستمر عند التعامل مع دوائره0",
+        "مراعاة تعليمات السلامة والصحة المهنية عند التعامل مع البطاريات ( ارتداء \nالقفازات ، النظارات الواقية \n، \n أفو ، شوكة لقياس جهد البطارية \n، الهيدروميتر لقياس كثافة محلول \nالبطاريات )"
+      ],
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Tools, Instruments and Equipment Used"
+    },
+    {
+      "type": "list",
+      "items": [
+        "جهاز حقن ثانوى بملحقاته",
+        "بنسة احمال لقياس التيار فى حالة اذا ما كان جهاز الحقن ليس رقمى",
+        "جهاز \n Avometer \n ، \n اطراف التوصيل"
+      ],
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Procedures to be Carried Out"
+    },
+    {
+      "type": "paragraph",
+      "text": "First: \nVisual Inspection of the Device"
+    },
+    {
+      "type": "paragraph",
+      "text": "A visual inspection of the relay cover can reveal valuable information. Any excessive dust, dirt or metallic material deposited on the cover should be noted and removed thus preventing such material from entering the relay when the cover is removed. A cover glass which is fogged should be cleaned fogging is in most cases a normal condition due to volatile materials being driven out of coils and insulating materials, and is not an indication of a problem."
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "وصل\n اطراف التغذية الجهد \n المستمر حسب جهد تشغيل الجهاز ( 24 ، 110 ، 220 ) فولت مستمر على \n النقاط ( \n F1\n الموجب ، \n F2 \n السالب ) \n بروزتة الجهاز الخلفية مع مراعاة القطبية",
+          "1."
+        ],
+        [
+          "تأكد من وجود \n الجهد المستمر على الجهاز من خلال لمبة الـ \n RUN \n والتى تظهر بلون اخضر",
+          "2."
+        ],
+        [
+          "تأكد من أن لمبة الـ \n Block \n غير مضيئة \n مما يدل على عدم عطل داخلى بالجهاز",
+          "3."
+        ],
+        [
+          "وكذلك متابعة\n Live status \n contact \n على النقطتين \n ( F5, F3 ) \n بعد توصيل التغذية للتأكد من سلامة الجهاز",
+          "4."
+        ],
+        [
+          "تأكد من أن جميع \n التوصيلات محكمة الربط لأن التربيطات الغير جيدة قد تسبب حدوث اهتزاز \n Vibration",
+          "5."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "",
+          "The phase over current protection \n function is three pole. It picks up if one or three of the phase currents \n reach the faulty phase or phases. It is time-delayed. the time delay is \n definite time."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1.",
+          "وصل\n اطراف التيار\n خرج جهاز الحقن على روزتة جهاز الوقاية على النقطتين \n (Q1,Q2)\n وهى نقاط التيار للوجه الأول \n (IL1)"
+        ],
+        [
+          "2.",
+          "ارفع قيمة التيار تدريجيا حتى تصل لقيمة الـ \n Pickup \n الموجودة بالجهاز"
+        ],
+        [
+          "3.",
+          "سجل هذة القيمة بالـ \n Test Sheet"
+        ],
+        [
+          "4.",
+          "انزل بالتيار للوصول الى قيمة \n I \n reset\n ومن \n ثم احسب\n قيمة\n Reset Factor \n من خلال قسمة تيار\n Reset / \n تيار \n Pickup \n والتى تكون لأجهزة الوقاية الرقمية فى حدود (0.95)"
+        ],
+        [
+          "5.",
+          "وصل اطراف الـ\n Tripلجهاز \n الوقاية على نقط الساعة فى جهاز الحقن مع الأخذ فى الأعتبار تكرار هذه العملية \n فى حالة برمجة اكثر من \n Output \n Contact \n للفصل بجهاز الوقاية كما هو الحال بمشروع التحكم \n R1 \n (F5,F6)x\n وكذلك\n R4 \n (F12,F13)x\n للفصل0"
+        ],
+        [
+          "6.",
+          "فى حالة اذا كان \n المراد عمل تدرج زمنى سليم يتم الأخذ فى الاعتبار \n زمن المفتاح ومن ثم يتم توصيل المفتاح الخاص بهذة الخلية مع توصيل طرفى الساعة \n على اطراف المفتاح وحساب زمن الفصل لكل وجه وكذا كل فيزة0"
+        ],
+        [
+          "7.",
+          "احقن\n جهاز الوقاية بقيمة \n Pickup\n وسجل زمن الفصل والذى يمثل زمن الفصل للمتمم الرقمى فقط \n ويتم تكرارها مع المفتاح وذلك لمعرفة زمن الفصل الميكانيكى للمفتاح0"
+        ],
+        [
+          "8.",
+          "يتم تكرار هذه الخطوات للوجه الثانى \n (IL2) \n على النقاط \n (Q3,Q4)"
+        ],
+        [
+          "9.",
+          "يتم تكرار هذه الخطوات للوجه الثالث \n (IL2) على \n النقاط \n (Q5,Q6)"
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "",
+          "The earth fault protection \n function is single-pole. It picks up if the earth fault current reaches the \n operation set point. It is time delayed. This time delay is definite time \n (DT)."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "1.",
+          "وصل\n اطراف التيار\n خرج جهاز الحقن على روزتة جهاز الوقاية على النقطتين \n (Q7,Q8)\n وهى نقاط التيار للارضى \n (IE)"
+        ],
+        [
+          "2.",
+          "ارفع قيمة التيار تدريجيا حتى تصل لقيمة الـ \n Pickup \n الموجودة بالجهاز"
+        ],
+        [
+          "3.",
+          "سجل هذة القيمة بالـ \n Test Sheet"
+        ],
+        [
+          "4.",
+          "انزل بالتيار للوصول الى قيمة \n I \n reset\n ومن ثم\n احسب\n قيمة\n Reset Factor \n من خلال قسمة تيار\n Reset /\n تيار Pickup \n والتى تكون لأجهزة الوقاية الرقمية فى حدود (\n )"
+        ],
+        [
+          "5.",
+          "وصل اطراف الـ\n Trip \n لجهاز الوقاية على نقط الساعة فى جهاز الحقن مع الأخذ فى الأعتبار تكرار هذه \n العملية فى حالة برمجة اكثر من \n Output \n Contact \n للفصل بجهاز الوقاية كما هو الحال بمشروع التحكم \n R1 \n (F5,F6)x\n وكذلكR4 \n (F12,F13)x \n للفصل"
+        ],
+        [
+          "6.",
+          "فى حالة اذا كان \n المراد عمل تدرج زمنى سليم يتم الأخذ فى الاعتبار \n زمن المفتاح ومن ثم يتم توصيل المفتاح الخاص بهذة الخلية مع توصيل طرفى الساعة \n على اطراف المفتاح وحساب زمن الفصل لكل وجه وكذا كل فيزة0"
+        ],
+        [
+          "7.",
+          "احقن\n جهاز الوقاية بقيمة \n Pickup \n وسجل زمن الفصل والذى يمثل زمن الفصل للمتمم الرقمى فقط \n ويتم تكرارها مع المفتاح وذلك لمعرفة زمن الفصل الميكانيكى للمفتاح0"
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "",
+          "This protection \n function is three-phase. It includes a phase overcurrent function associated \n with direction detection. It picks up if the phase overcurrent function in \n the chosen direction (line or busbar) is activated for at least one of the \n three phases. The direction\n of the current is determined according to the \n measurement of the phase in relation to a polarization value. It is \n qualified as busbar direction or line direction."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "توفير \n جهاز حقن له خرج (تيار \n وجهد فى نفس الوقت) مع امكانية تغيير زاوية الوجه بين التيار والجهد لتسهيل \n عملية الاختيار",
+          "1."
+        ],
+        [
+          "وصل \n اطراف التيار\n للاوجه الثلاثة على النقاطIL2 \n (Q3,Q4)x،\n IL3 (Q5,Q6) \n ، \n IL1 (Q1,Q2)x\n وكذلك \n نقاط الارضىIE \n (Q7,Q8)x",
+          "2."
+        ],
+        [
+          "وصل \n اطراف الجهد \n على النقاطV1 \n (R14,R16)x\n ، V2 \n (R14,R16)x \n ، V3/VE (R17,R18)x",
+          "3."
+        ],
+        [
+          "أغلق عناصر الوقاية ضد \n (\n x50/51 \n - 50/51N - 67N) \n حتى لا يحدث تداخل بين عناصر الوقاية لان جميعها هى عناصر زيادة التيار",
+          "4."
+        ],
+        [
+          "ارفع قيمة التيار تدريجيا حتى تصل لقيمة الـ \n Pickup\n الموجودة بالجهاز مع تغيير قيمة الجهد وقيمة زاوية الوجه \n والتى تكون قيمتها وفقا للرسم الموضح \n ( [setting \n angle - 90] < \"angle\" < [setting \n angle + 90] \n )",
+          "5."
+        ],
+        [
+          "سجل هذة القيمة بالـ \n Test Sheet",
+          "6."
+        ],
+        [
+          "وصل اطراف الـ\n Trip لجهاز الوقاية على نقط الساعة فى جهاز الحقن مع \n الأخذ فى الأعتبار تكرار هذه العملية فى حالة برمجة اكثر من \n Output \n Contact للفصل بجهاز الوقاية كما هو الحال بمشروع \n التحكم \n R1 \n (F5,F6)x\n وكذلكR4 \n (F12,F13)x \n للفصل",
+          "7."
+        ],
+        [
+          "فى حالة اذا كان \n المراد عمل تدرج زمنى سليم يتم الأخذ فى الاعتبار \n زمن المفتاح ومن ثم يتم توصيل المفتاح الخاص بهذة الخلية مع توصيل طرفى الساعة \n على اطراف المفتاح وحساب زمن الفصل لكل وجه وكذا كل فيزة0",
+          "8."
+        ],
+        [
+          "احقن\n جهاز الوقاية بقيمة \n Pickup \n وسجل زمن الفصل والذى يمثل زمن الفصل للمتمم الرقمى فقط \n ويتم تكرارها مع المفتاح وذلك لمعرفة زمن الفصل الميكانيكى للمفتاح0",
+          "9."
+        ],
+        [
+          "كرر هذة الخطوات للوجه الثانى والثالث",
+          "10."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "",
+          "This protection \n function operates like an earth fault protection with an added direction \n criterion. It is suitable for closed ring distribution networks with \n directly earthed neutral. It has all the characteristics of an earth fault \n protection function (50N/51N) and can therefore be easily coordinated with \n that function. The residual current is the current measured at the 7SJ62 10 \n input"
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "توفير \n جهاز حقن له خرج (تيار \n وجهد فى نفس الوقت) مع امكانية تغيير زاوية الوجه بين التيار والجهد لتسهيل \n عملية الاختيار",
+          "1."
+        ],
+        [
+          "وصل \n اطراف التيار\n للاوجه الثلاثة على النقاطIL2 \n (Q3,Q4)x،\n IL3 (Q5,Q6) \n ، \n IL1 (Q1,Q2)x\n وكذلك \n نقاط الارضىIE \n (Q7,Q8)x",
+          "2."
+        ],
+        [
+          "وصل \n اطراف الجهد \n على النقاطV1 \n (R14,R16)x\n ، V2 \n (R14,R16)x \n ، V3/VE (R17,R18)x",
+          "3."
+        ],
+        [
+          "أغلق عناصر الوقاية ضد \n (\n x50/51 \n - 50/51N - 67N) \n حتى لا يحدث تداخل بين عناصر الوقاية لان جميعها هى عناصر زيادة التيار",
+          "4."
+        ],
+        [
+          "ارفع قيمة التيار Io \n تدريجيا حتى تصل لقيمة الـ \n Pickup\n الموجودة بالجهاز مع تغيير قيمة الجهد المار بالارضى\n Vo \n وكذا قيمة زاوية الوجه بين التيار والجهد",
+          "5."
+        ],
+        [
+          "سجل هذة القيمة بالـ \n Test Sheet",
+          "6."
+        ],
+        [
+          "وصل اطراف الـ\n Trip\n لجهاز الوقاية على نقط الساعة فى جهاز الحقن مع الأخذ فى الأعتبار تكرار هذه \n العملية فى حالة برمجة اكثر من \n Output \n Contact للفصل بجهاز الوقاية كما هو الحال بمشروع \n التحكمR1 \n (F5,F6)x\n وكذلكR4 \n (F12,F13)x \n للفصل",
+          "7."
+        ],
+        [
+          "فى حالة اذا كان \n المراد عمل تدرج زمنى سليم يتم الأخذ فى الاعتبار \n زمن المفتاح ومن ثم يتم توصيل المفتاح الخاص بهذة الخلية مع توصيل طرفى الساعة \n على اطراف المفتاح وحساب زمن الفصل لكل وجه وكذا كل فيزة0",
+          "8."
+        ],
+        [
+          "احقن\n جهاز الوقاية بقيمة \n Pickup \n وسجل زمن الفصل والذى يمثل زمن الفصل للمتمم الرقمى فقط \n ويتم تكرارها مع المفتاح وذلك لمعرفة زمن الفصل الميكانيكى للمفتاح0",
+          "9."
+        ],
+        [
+          "كرر هذة الخطوات للوجه الثانى والثالث",
+          "10."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "يتم اختبار وظيفة التحكم بعد التأكد من برمجة \noutput Relay \n الخاص به على \n Output relay \n رقم \n [R3 \n (F10,F11) \n - \n R2 ( F8,F9 \n )x \n ] \n كما بأجهزة الدقهلية ضمن مشروع التحكم فيتم اعطاء امر للقاطع بالتوصيل من خلال:",
+          ""
+        ],
+        [
+          "من \n خلال \n الـ \n Software\n الخاص بالاجهزة \nDIGSI \n من قائمة Control",
+          "1."
+        ],
+        [
+          "من خلال مركز التحكم عن طريق \n SCADA",
+          "2."
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Fourth: \nTesting the Measuring Functions"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "يتم اختبار وظيفة القياس عن طريق حقن \n جهاز الوقاية\n لكل وجه على حده بقيمة من التيار لقيمة اقل من \nPickup \n ومتابعة القيمة المقاسة بواسطة الجهاز حيث أن درجة الدقة تكون فى حدود 3 % من\n قيمة \n التيار\nيتم الحقن على:",
+          ""
+        ],
+        [
+          "الوجه الاولIL1 \n (Q1,Q2)x",
+          "1."
+        ],
+        [
+          "الوجه الثانىIL2 \n (Q3,Q4)x",
+          "2."
+        ],
+        [
+          "الوجه الثالثIL3 \n (Q5,Q6)x",
+          "3."
+        ],
+        [
+          "الوجه الارضىLE \n (Q7,Q8)x",
+          "4."
+        ],
+        [
+          "ولاتزيد نسبة الخطأ \n فى حالة ارسال هذة القيمة لمركز التحكم خلال \n IEC60870-5-101 \n لتصبح \n x \n 5%",
+          ""
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Fifth: \nTesting the Monitoring Functions"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "يتم متابعة اوضاع مكونات \n الجهاز كـ\n Binary \n لعدد\n x11\nمن خلال حقن جهد مستمر حسب الجهد المقنن 110-220 فولت مستمر \n لجهاز الوقاية على اطراف كل من:",
+          ""
+        ],
+        [
+          "(F14,F16 ) Binary Input (1)",
+          "1."
+        ],
+        [
+          "(F15,F16 ) Binary Input (2)",
+          "2."
+        ],
+        [
+          "(F17,F18 ) Binary Input (3)",
+          "3."
+        ],
+        [
+          "(R9,R13 ) Binary Input (4)",
+          "4."
+        ],
+        [
+          "(R10,R13 ) Binary Input (5)",
+          "5."
+        ],
+        [
+          "(R11,R13 ) Binary Input (6)",
+          "6."
+        ],
+        [
+          "(R12,R13 ) Binary Input (7)",
+          "7."
+        ],
+        [
+          "(R8,R13 ) Binary Input (8)",
+          "8."
+        ],
+        [
+          "(R2,R13 ) Binary Input (9)",
+          "9."
+        ],
+        [
+          "(R6,R13 ) Binary Input (10)",
+          "10."
+        ],
+        [
+          "(R7,R13 ) Binary Input (11)",
+          "11."
+        ],
+        [
+          "مع الأخذ فى الاعتبار \n أن \n V pickup = 88Vdc"
+        ],
+        [
+          "ومتابعة أوضاع \n Binary Input \n من خلال ( \n x7s \n j 622 keypad - DIGSI \n - Master station)",
+          ""
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Test Sheet"
+    },
+    {
+      "type": "paragraph",
+      "text": "Distributor Protection Test Certificate"
+    },
+    {
+      "type": "paragraph",
+      "text": "Incoming Switches"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "الوقاية الاتجاهية ضد التسرب الارضى \n DEF",
+          "الوقاية الاتجاهية ضد زيادة التيار \n DOC",
+          "محولات التيار",
+          "نوع القاطع",
+          "اسم الخلية",
+          "م"
+        ],
+        [
+          "زمن الفصل",
+          "تيار الرجوع",
+          "تيار التشغيل",
+          "تيار التشغيل \n الابدائى",
+          "طراز الجهاز",
+          "زمن الفصل",
+          "تيار الرجوع",
+          "تيار التشغيل",
+          "تيار التشغيل \n الابدائى",
+          "طراز الجهاز"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "الرابط",
+          ""
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Outgoing Switches"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "S.C",
+          "التسرب الارضى",
+          "زيادة التيار",
+          "محولات التيار",
+          "نوع القاطع",
+          "اسم الخلية",
+          "م"
+        ],
+        [
+          "زمن الفصل",
+          "تيار الرجوع",
+          "تيار التشغيل",
+          "تيار التشغيل \n الابدائى",
+          "طراز الجهاز",
+          "زمن الفصل",
+          "تيار الرجوع",
+          "تيار التشغيل",
+          "تيار التشغيل \n الابدائى",
+          "طراز الجهاز"
+        ]
+      ],
+      "truncated_rows": 0,
+      "text": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Test Officials"
+    },
+    {
+      "type": "paragraph",
+      "text": "Site name:\nDevice code:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Transmission company official: \nSignature:\nDate of execution:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Distribution company official: \nSignature:\nDate of execution:"
+    }
+  ],
+  "text_target": "Maintenance Procedure Information System\n | Protection Devices | Maintenance Procedures\nDocument No.: \n MFP-006-r0a | Device:\n Multifunction Protection\n MLFB SPIROTEC4 - 7SJ62\n ''Flush Type'' 7SJ6225 - \n F5EB203FG0\n SIEMENS\nIssued to: \n Distribution Companies\nStatus: \n Draft No. 1\nApproval date: | Procedure:\n Annual Testing and Calibration \n ( P1- \n Y1 \n )\nNext review date:\nIntroduction\nThis document was prepared by North Delta Electricity Distribution Company and discussed and approved at the meeting of the MPIS coordinators of the distribution companies on / /\nProtection Functions |  | Monitoring Functions\nTime-overcurrent Protection.\n (Definite-time / inverse-time/user-definite)\n Directional time-overcurrent Protection.\n (Definite-time / inverse-time/user-definite)\n Sensitive earth fault\n Inrush restraint.\n Overload protection.\n Under - / over voltage Protection.\n Under - / over frequency Protection.\n Breaker failure Protection.\n Negative sequence Protection.\n Phase-sequence monitoring. |  | Operational measured values V.I.f\n Energy metering values Wp.Wq\n Circuit-breaker wear monitoring.\n Trip circuit supervision fuse failure monitoring.\n 8 oscillographic fault records.\nCommunication \n Interfaces\nSystem Interface\n- IEC 60870-5-103/ IEC 61850\n- PROFIBUS-FMS/-DP\n- DNP \n 3.0/MODBUS RTU\nService interface\nControl Function / Programmable \n Logic | Front interface for DIGSI 4\nCommands D ctrl of CB and of isolators. | Hardware\nControl via keyboard, binary inputs. | 4 current transformers\nDIGSI 4 or SCADA system. | 3 voltage transformers\nUser-defined logic with CFC | 11 binary inputs\n(e.g. interlocking) | 6 output relays\nAll tests is done according to IEC 60255-5; ANSI / IEEE C 37.90.0\nFrequency of \nTesting\nIt is recommended that protective and auxiliary relays be given a complete calibration test and inspection at least once a year. This schedule however sometimes cannot be met due to existing workloads and available manpower with the result that routine calibration tests intervals of many relays are longer than a year.\nTest Records\nA complete record should be kept of all test data and observations made during tests and inspections including identifying numbers of test equipment used. The following relay test report forms are available at distribution points.\nSafety Precautions\nIssue an approved work order; maintenance personnel must carry the occupational safety and health category card.\nEnsure warning signs are posted (Under Test).\nOccupational safety and health instructions must be followed at the work site.\nSwitch off the circuit breaker and place it in the test position outside the cell.\nDo not open current transformers while in service or during testing.\nDo not short-circuit the secondary winding terminals of the voltage transformers on the terminal block or through the installed protection device.\nEarth the protection device to protect it.\nObserve polarity when dealing with DC voltage.\nDC Voltage\nSwitch off the DC circuit breakers when dealing with their circuits.\nObserve occupational safety and health instructions when handling batteries (wear gloves, safety goggles, avometer, fork for measuring battery voltage, hydrometer for measuring battery solution density).\nIssue an approved work order; maintenance personnel must carry the occupational safety and health category card.\nEnsure warning signs are posted (Under Test).\nOccupational safety and health instructions must be followed at the work site.\nSwitch off the circuit breaker and place it in the test position outside the cell.\nDo not open current transformers while in service or during testing.\nDo not short-circuit the secondary winding terminals of the voltage transformers on the terminal block or through the installed protection device.\nEarth the protection device to protect it.\nObserve polarity when dealing with DC voltage.\nDC Voltage\nSwitch off the DC circuit breakers when dealing with their circuits.\nObserve occupational safety and health instructions when handling batteries (wear gloves, safety goggles, avometer, fork for measuring battery voltage, hydrometer for measuring battery solution density).\nTools, Instruments and Equipment Used\nSecondary injection device with its accessories\nLoad clamp for measuring current if the injection device is not digital\nAvometer \n , \n connection leads\nProcedures to be Carried Out\nFirst: \nVisual Inspection of the Device\nA visual inspection of the relay cover can reveal valuable information. Any excessive dust, dirt or metallic material deposited on the cover should be noted and removed thus preventing such material from entering the relay when the cover is removed. A cover glass which is fogged should be cleaned fogging is in most cases a normal condition due to volatile materials being driven out of coils and insulating materials, and is not an indication of a problem.\nConnect the DC supply leads according to the device operating voltage (24, 110, 220) V DC to points (F1 positive, F2 negative) on the rear terminal block of the device, observing polarity | 1.\nEnsure DC voltage is present on the device via the RUN lamp, which shows green | 2.\nEnsure the Block lamp is not lit, indicating no internal fault in the device | 3.\nAlso follow the Live status contact on points (F5, F3) after connecting the supply to ensure the device is sound | 4.\nEnsure all connections are tightly fastened, as loose fastenings may cause vibration | 5.\n | The phase over current protection function is three pole. It picks up if one or three of the phase currents reach the faulty phase or phases. It is time-delayed. the time delay is definite time.\n1. | Connect the current leads (injection device output) to the protection device terminal block at points (Q1,Q2), which are the current points for the first phase (IL1)\n2. | Raise the current value gradually until reaching the Pickup value set on the device\n3. | Record this value in the Test Sheet\n4. | Lower the current to reach I reset, then calculate the Reset Factor by dividing Reset current / Pickup current, which for digital protection devices is about (0.95)\n5. | Connect the Trip leads of the protection device to the timer points on the injection device, noting that this operation shall be repeated if more than one Output Contact for tripping is programmed on the protection device, as in the control project: R1 (F5,F6) and also R4 (F12,F13) for tripping.\n6. | If a correct time grading is required, the circuit breaker time shall be taken into account; the circuit breaker of this cell shall then be connected, with the two timer leads connected to the circuit breaker terminals, and the tripping time calculated for each phase.\n7. | Inject the protection device with the Pickup value and record the tripping time, which represents the tripping time of the digital relay only; repeat with the circuit breaker to determine the mechanical tripping time of the circuit breaker.\n8. | Repeat these steps for the second phase (IL2) at points (Q3,Q4)\n9. | Repeat these steps for the third phase (IL2) at points (Q5,Q6)\n | The earth fault protection function is single-pole. It picks up if the earth fault current reaches the operation set point. It is time delayed. This time delay is definite time (DT).\n1. | Connect the current leads (injection device output) to the protection device terminal block at points (Q7,Q8), which are the earth current points (IE)\n2. | Raise the current value gradually until reaching the Pickup value set on the device\n3. | Record this value in the Test Sheet\n4. | Lower the current to reach I reset, then calculate the Reset Factor by dividing Reset current / Pickup current, which for digital protection devices is in the range of ( )\n5. | Connect the Trip leads of the protection device to the timer points on the injection device, noting that this operation shall be repeated if more than one Output Contact for tripping is programmed on the protection device, as in the control project: R1 (F5,F6) and also R4 (F12,F13) for tripping.\n6. | If a correct time grading is required, the circuit breaker time shall be taken into account; the circuit breaker of this cell shall then be connected, with the two timer leads connected to the circuit breaker terminals, and the tripping time calculated for each phase.\n7. | Inject the protection device with the Pickup value and record the tripping time, which represents the tripping time of the digital relay only; repeat with the circuit breaker to determine the mechanical tripping time of the circuit breaker.\n | This protection function is three-phase. It includes a phase overcurrent function associated with direction detection. It picks up if the phase overcurrent function in the chosen direction (line or busbar) is activated for at least one of the three phases. The direction of the current is determined according to the measurement of the phase in relation to a polarization value. It is qualified as busbar direction or line direction.\nProvide an injection device with an output (current and voltage at the same time) with the ability to change the phase angle between current and voltage to facilitate the selection process | 1.\nConnect the current leads for the three phases at points IL1 (Q1,Q2), IL2 (Q3,Q4), IL3 (Q5,Q6), as well as the earth points IE (Q7,Q8) | 2.\nConnect the voltage leads at points V1 (R14,R16), V2 (R14,R16), V3/VE (R17,R18) | 3.\nClose the protection elements (50/51 - 50/51N - 67N) so that no interference occurs between the protection elements, as all of them are overcurrent elements | 4.\nRaise the current value gradually until reaching the Pickup value set on the device, changing the voltage value and the phase angle value, which shall be as shown in the diagram ([setting angle - 90] < \"angle\" < [setting angle + 90]) | 5.\nRecord this value in the Test Sheet | 6.\nConnect the Trip leads of the protection device to the timer points on the injection device, noting that this operation shall be repeated if more than one Output Contact for tripping is programmed on the protection device, as in the control project: R1 (F5,F6) and also R4 (F12,F13) for tripping | 7.\nIn the case of a correct time grading being required, the circuit breaker time shall be taken into account; the circuit breaker of this cell shall then be connected, with the two timer leads connected to the circuit breaker terminals, and the tripping time calculated for each phase | 8.\nInject the protection device with the Pickup value and record the tripping time, which represents the tripping time of the digital relay only; repeat with the circuit breaker to determine the mechanical tripping time of the circuit breaker | 9.\nRepeat these steps for the second and third phases | 10.\n | This protection function operates like an earth fault protection with an added direction criterion. It is suitable for closed ring distribution networks with directly earthed neutral. It has all the characteristics of an earth fault protection function (50N/51N) and can therefore be easily coordinated with that function. The residual current is the current measured at the 7SJ62 10 input\nProvide an injection device with an output (current and voltage at the same time) with the ability to change the phase angle between current and voltage to facilitate the selection process | 1.\nConnect the current leads for the three phases at points IL1 (Q1,Q2), IL2 (Q3,Q4), IL3 (Q5,Q6), as well as the earth points IE (Q7,Q8) | 2.\nConnect the voltage leads at points V1 (R14,R16), V2 (R14,R16), V3/VE (R17,R18) | 3.\nClose the protection elements (50/51 - 50/51N - 67N) so that no interference occurs between the protection elements, as all of them are overcurrent elements | 4.\nRaise the Io current value gradually until reaching the Pickup value set on the device, changing the earth voltage value Vo as well as the phase angle value between current and voltage | 5.\nRecord this value in the Test Sheet | 6.\nConnect the Trip leads of the protection device to the timer points on the injection device, noting that this operation shall be repeated if more than one Output Contact for tripping is programmed on the protection device, as in the control project: R1 (F5,F6) and also R4 (F12,F13) for tripping | 7.\nIn the case of a correct time grading being required, the circuit breaker time shall be taken into account; the circuit breaker of this cell shall then be connected, with the two timer leads connected to the circuit breaker terminals, and the tripping time calculated for each phase | 8.\nInject the protection device with the Pickup value and record the tripping time, which represents the tripping time of the digital relay only; repeat with the circuit breaker to determine the mechanical tripping time of the circuit breaker | 9.\nRepeat these steps for the second and third phases | 10.\nThe control function shall be tested after ensuring that its output relay is programmed on output relay No. [R3 (F10,F11) - R2 (F8,F9)] as in the Dakahlia devices within the control project; a closing command shall then be given to the circuit breaker through: | \nThrough the DIGSI device software, from the Control menu | 1.\nThrough the control centre via SCADA | 2.\nFourth: \nTesting the Measuring Functions\nThe measuring function shall be tested by injecting the protection device for each phase separately with a current value lower than the Pickup value and following the value measured by the device, as the accuracy shall be within 3% of the current value. Injection shall be applied to: | \nFirst phase IL1 (Q1,Q2) | 1.\nSecond phase IL2 (Q3,Q4) | 2.\nThird phase IL3 (Q5,Q6) | 3.\nEarth phase LE (Q7,Q8) | 4.\nAnd the error shall not exceed 5% when this value is sent to the control centre via IEC 60870-5-101 | \nFifth: \nTesting the Monitoring Functions\nThe states of the device components shall be followed as Binary inputs, 11 in number, by injecting DC voltage according to the rated voltage 110–220 V DC for the protection device on the terminals of each of: | \n(F14,F16) Binary Input (1) | 1.\n(F15,F16) Binary Input (2) | 2.\n(F17,F18) Binary Input (3) | 3.\n(R9,R13) Binary Input (4) | 4.\n(R10,R13) Binary Input (5) | 5.\n(R11,R13) Binary Input (6) | 6.\n(R12,R13) Binary Input (7) | 7.\n(R8,R13) Binary Input (8) | 8.\n(R2,R13) Binary Input (9) | 9.\n(R6,R13) Binary Input (10) | 10.\n(R7,R13) Binary Input (11) | 11.\nTaking into account that V pickup = 88 Vdc, and following the Binary Input states via (7SJ622 keypad - DIGSI - Master station) | \nTest Sheet\nDistributor Protection Test Certificate\nIncoming Switches\nDirectional Earth Leakage Protection DEF | Directional Overcurrent Protection DOC | Current Transformers | Circuit Breaker Type | Cell Name | No.\nTripping Time | Reset Current | Operating Current | Initial Operating Current | Device Model | Tripping Time | Reset Current | Operating Current | Initial Operating Current | Device Model\n |  |  |  |  |  |  |  |  |  |  |  | Link | \nOutgoing Switches\nS.C. | Earth Leakage | Overcurrent | Current Transformers | Circuit Breaker Type | Cell Name | No.\nTripping Time | Reset Current | Operating Current | Initial Operating Current | Device Model | Tripping Time | Reset Current | Operating Current | Initial Operating Current | Device Model\nTest Officials\nSite name:\nDevice code:\nTransmission company official: \nSignature:\nDate of execution:\nDistribution company official: \nSignature:\nDate of execution:",
+  "word_count_source": 2247,
+  "uncertain_terms": [
+    {
+      "term": "SPIROTEC4",
+      "note": "Source spelling kept verbatim; the Siemens relay family is SIPROTEC 4."
+    },
+    {
+      "term": "IEC 618501",
+      "note": "Source spelling kept verbatim in the header table; the standard is IEC 61850."
+    },
+    {
+      "term": "الوجه الثالث (IL2) — phase overcurrent step 9",
+      "note": "Source labels the third phase IL2 (should be IL3); kept verbatim."
+    },
+    {
+      "term": "V1 (R14,R16) and V2 (R14,R16)",
+      "note": "Source gives the same terminals for V1 and V2; kept verbatim."
+    },
+    {
+      "term": "x50/51",
+      "note": "Source writes '( x50/51 - 50/51N - 67N)'; the leading 'x' appears to be a stray marker and was dropped, rendering '(50/51 - 50/51N - 67N)'."
+    },
+    {
+      "term": "Reset Factor range for earth fault ( )",
+      "note": "Source leaves the range blank; the blank is preserved."
+    },
+    {
+      "term": "ولاتزيد نسبة الخطأ ... لتصبح x 5%",
+      "note": "Source wording is garbled; read by intent as the error not exceeding 5% when the value is sent to the control centre via IEC 60870-5-101."
+    },
+    {
+      "term": "x7s j 622 keypad",
+      "note": "Source text is garbled; read by intent as the 7SJ622 keypad."
+    },
+    {
+      "term": "residual current ... measured at the 7SJ62 10 input",
+      "note": "English passage in the source appears truncated; kept verbatim."
+    },
+    {
+      "term": "All tests is done according to...",
+      "note": "English passage in the source kept verbatim, including its grammar."
+    },
+    {
+      "term": "الرابط (incoming switches table)",
+      "note": "Unclear stray cell in the source table; translated literally as 'Link'."
+    }
+  ]
+}

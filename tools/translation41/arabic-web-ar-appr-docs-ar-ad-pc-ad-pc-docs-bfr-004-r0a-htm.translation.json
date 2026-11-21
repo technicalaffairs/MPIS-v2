@@ -1,0 +1,621 @@
+{
+ "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-bfr-004-r0a-htm",
+ "doc_number": "BFR-004-R0A",
+ "category": "arabic_web",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "BFR-004-r0a APPROVED",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: BFR-004-r0a",
+     "Equipment: Breaker failure protection device for disconnection, TC024B - TUIQ, TOSHIBA"
+    ],
+    [
+     "Issued to: New Assiut Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 06 April 2003",
+     "Procedure: Test using the Sverker 650 test set"
+    ],
+    [
+     "Next review date: April 2008"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the steps for testing and calibrating the breaker failure protection device for disconnection, as shown above. The first draft of this document was prepared by Eng. Mahmoud Ahmed Faisal at the Assiut Thermal Station, Upper Egypt Electricity Production Company; the field test was carried out on 06 April 2003 by Eng. Ali Hussein Farrag and Eng. Mahmoud Ahmed Faisal."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Isolate the circuit breaker whose breaker failure protection is to be tested, and also isolate the breaker's two disconnectors",
+    "Open a work order",
+    "Fence off the work area",
+    "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Current injection test set, type SVERKER 650",
+    "AC V-A current measuring instrument, type YOKOGAWA",
+    "Millisecond Counter (Timer) Type MCS - 5N",
+    "Test comb, type RTXH 18",
+    "Test leads",
+    "Switch 2 pole (used in the timing measurement circuit)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Set the Change-over Switch (43), type BH-H7, for breaker failure protection testing to the Test position on the protection cubicle",
+     "1"
+    ],
+    [
+     "Short the points (a17,18), (a11,12), (a11,12), (a11,12) on the Test plug type HP2-C8",
+     "2"
+    ],
+    [
+     "Insert the test plug type HP2-C8 in the Test socket type HR2A-C8 of the relay (z50BF) on the protection cubicle",
+     "3"
+    ],
+    [
+     "Inject current at points (a21,22) in the Test plug to test phase R until the signal appears",
+     "4"
+    ],
+    [
+     "Record the current (Operating) value for phase R",
+     "5"
+    ],
+    [
+     "Reduce the current gradually until the signal disappears",
+     "6"
+    ],
+    [
+     "Record the current (Operating) value for phase R",
+     "7"
+    ],
+    [
+     "Disconnect the injection set",
+     "8"
+    ],
+    [
+     "Inject current at points (a25,26) in the Test plug to test phase T until the signal appears",
+     "9"
+    ],
+    [
+     "Record the current (Operating) value for phase T",
+     "10"
+    ],
+    [
+     "Reduce the current gradually until the signal disappears",
+     "11"
+    ],
+    [
+     "Record the current (Operating) value for phase T",
+     "12"
+    ],
+    [
+     "Disconnect the injection set",
+     "13"
+    ],
+    [
+     "Inject current at points (x27,28) in the Test plug to test the neutral point N until the signal appears",
+     "14"
+    ],
+    [
+     "Record the current (Operating) value for the neutral point N",
+     "15"
+    ],
+    [
+     "Reduce the current gradually until the signal disappears",
+     "16"
+    ],
+    [
+     "Record the current Resetting value for the neutral point N",
+     "17"
+    ],
+    [
+     "Disconnect the injection set",
+     "18"
+    ],
+    [
+     "Set the Switch to the Off position",
+     "19"
+    ],
+    [
+     "Connect the two Stop terminals of the timer to points (a13,14) on the relay (z50BF)",
+     "20"
+    ],
+    [
+     "Connect the two Start terminals of the timer to the terminals of one side of the Switch",
+     "21"
+    ],
+    [
+     "Connect the two terminals of the other side of the Switch to points (a1,10) on the relay (z50BF)",
+     "22"
+    ],
+    [
+     "Inject current at points (a21,22) in the Test Plug, of value (2x Operating) for phase R",
+     "23"
+    ],
+    [
+     "Reset the timer",
+     "24"
+    ],
+    [
+     "Set the Switch to the ON position",
+     "25"
+    ],
+    [
+     "Record the Operating time value for phase R",
+     "26"
+    ],
+    [
+     "Restart the timer",
+     "27"
+    ],
+    [
+     "Set the Switch to the Off position",
+     "28"
+    ],
+    [
+     "Record the Operating time value for phase R",
+     "29"
+    ],
+    [
+     "Inject current at points (a25,26) in the Test Plug, of value (2x Operating Value) for phase T",
+     "30"
+    ],
+    [
+     "Reset the timer",
+     "31"
+    ],
+    [
+     "Set the Switch to the ON position",
+     "32"
+    ],
+    [
+     "Record the Operating time value for phase T",
+     "33"
+    ],
+    [
+     "Restart the timer",
+     "34"
+    ],
+    [
+     "Set the Switch to the Off position",
+     "35"
+    ],
+    [
+     "Record the Operating time value for phase T",
+     "36"
+    ],
+    [
+     "Inject current at points (a27,28) in the Test Plug, of value (2x Operating Value) for the neutral point N",
+     "37"
+    ],
+    [
+     "Reset the timer",
+     "38"
+    ],
+    [
+     "Set the Switch to the ON position",
+     "39"
+    ],
+    [
+     "Record the Operating time value for the neutral point N",
+     "40"
+    ],
+    [
+     "Restart the timer",
+     "41"
+    ],
+    [
+     "Set the Switch to the Off position",
+     "42"
+    ],
+    [
+     "Record the Operating time value for the neutral point N",
+     "43"
+    ],
+    [
+     "Remove the Test plug type HP2-C8 from the Test socket type HR2A-C8 of the relay (50BF) on the protection cubicle",
+     "44"
+    ],
+    [
+     "Restart the relay (50BF) on the protection cubicle",
+     "45"
+    ],
+    [
+     "Restart the (Lock Out Relay) of the relay (50BF) on the protection cubicle",
+     "46"
+    ],
+    [
+     "Set the Change-over Switch (43), type BH-H7, for breaker failure protection testing to the Normal position on the protection cubicle",
+     "47"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Power Station Name:",
+     ""
+    ],
+    [
+     "Relay type:",
+     ""
+    ],
+    [
+     "Manufacturing no.",
+     "M530864"
+    ],
+    [
+     "Circuit :",
+     "Type form: TCO 24B - TU1Q"
+    ],
+    [
+     "Device no.:",
+     "Location no.:"
+    ],
+    [
+     "Rating",
+     "1A, 50Hz DC 220V"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay Test:",
+     ""
+    ],
+    [
+     "1. General Inspection",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Checking Item",
+     "Result"
+    ],
+    [
+     "Appearance casing:",
+     ""
+    ],
+    [
+     "Tightness of fastening",
+     ""
+    ],
+    [
+     "Smooth rack in rack out",
+     ""
+    ],
+    [
+     "CT Shorting provision",
+     ""
+    ],
+    [
+     "Inspection of printed card",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "2. Tap value test of OC element",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Measure the operating value of O.C element of each setting tap when C.B failure initiation contact is closed"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Setting Tap",
+     "0.05",
+     "0.1",
+     "0.2",
+     "0.3",
+     "0.4",
+     "",
+     "RESULT"
+    ],
+    [
+     "R",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "N",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Criteria : Operating value Less than 50% of setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Resetting value More than 90 % of setting"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "3. Tap value test of time element",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Condition : Setting tap 0.05 + 0.15 A (R.B), 0.05 + 0.05 A (N)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Input current 200 % x setting"
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating time : Measure the time after CB failure"
+  },
+  {
+   "type": "paragraph",
+   "text": "initiation contact is closed"
+  },
+  {
+   "type": "paragraph",
+   "text": "Resetting time : Measure the time after CB failure"
+  },
+  {
+   "type": "paragraph",
+   "text": "initiation contact is opened"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Setting Tap",
+     "40",
+     "100",
+     "150",
+     "200",
+     "300",
+     "350",
+     "Result"
+    ],
+    [
+     "R",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "N",
+     "Operating",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Resetting",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Criteria : Operating time setting value 10 ms"
+  },
+  {
+   "type": "paragraph",
+   "text": "Resetting time less than 20 ms"
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Instrument code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: BFR-004-r0a | Equipment: Breaker failure protection device for disconnection, TC024B - TUIQ, TOSHIBA\nIssued to: New Assiut Power Station\nStatus: APPROVED\nApproval date: 06 April 2003 | Procedure: Test using the Sverker 650 test set\nNext review date: April 2008\nIntroduction\nThis document sets out the steps for testing and calibrating the breaker failure protection device for disconnection, as shown above. The first draft of this document was prepared by Eng. Mahmoud Ahmed Faisal at the Assiut Thermal Station, Upper Egypt Electricity Production Company; the field test was carried out on 06 April 2003 by Eng. Ali Hussein Farrag and Eng. Mahmoud Ahmed Faisal.\nSafety Precautions\nIsolate the circuit breaker whose breaker failure protection is to be tested, and also isolate the breaker's two disconnectors\nOpen a work order\nFence off the work area\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment\nTools, Equipment and Instruments Used\nCurrent injection test set, type SVERKER 650\nAC V-A current measuring instrument, type YOKOGAWA\nMillisecond Counter (Timer) Type MCS - 5N\nTest comb, type RTXH 18\nTest leads\nSwitch 2 pole (used in the timing measurement circuit)\nWork Steps to be Carried Out\nSet the Change-over Switch (43), type BH-H7, for breaker failure protection testing to the Test position on the protection cubicle | 1\nShort the points (a17,18), (a11,12), (a11,12), (a11,12) on the Test plug type HP2-C8 | 2\nInsert the test plug type HP2-C8 in the Test socket type HR2A-C8 of the relay (z50BF) on the protection cubicle | 3\nInject current at points (a21,22) in the Test plug to test phase R until the signal appears | 4\nRecord the current (Operating) value for phase R | 5\nReduce the current gradually until the signal disappears | 6\nRecord the current (Operating) value for phase R | 7\nDisconnect the injection set | 8\nInject current at points (a25,26) in the Test plug to test phase T until the signal appears | 9\nRecord the current (Operating) value for phase T | 10\nReduce the current gradually until the signal disappears | 11\nRecord the current (Operating) value for phase T | 12\nDisconnect the injection set | 13\nInject current at points (x27,28) in the Test plug to test the neutral point N until the signal appears | 14\nRecord the current (Operating) value for the neutral point N | 15\nReduce the current gradually until the signal disappears | 16\nRecord the current Resetting value for the neutral point N | 17\nDisconnect the injection set | 18\nSet the Switch to the Off position | 19\nConnect the two Stop terminals of the timer to points (a13,14) on the relay (z50BF) | 20\nConnect the two Start terminals of the timer to the terminals of one side of the Switch | 21\nConnect the two terminals of the other side of the Switch to points (a1,10) on the relay (z50BF) | 22\nInject current at points (a21,22) in the Test Plug, of value (2x Operating) for phase R | 23\nReset the timer | 24\nSet the Switch to the ON position | 25\nRecord the Operating time value for phase R | 26\nRestart the timer | 27\nSet the Switch to the Off position | 28\nRecord the Operating time value for phase R | 29\nInject current at points (a25,26) in the Test Plug, of value (2x Operating Value) for phase T | 30\nReset the timer | 31\nSet the Switch to the ON position | 32\nRecord the Operating time value for phase T | 33\nRestart the timer | 34\nSet the Switch to the Off position | 35\nRecord the Operating time value for phase T | 36\nInject current at points (a27,28) in the Test Plug, of value (2x Operating Value) for the neutral point N | 37\nReset the timer | 38\nSet the Switch to the ON position | 39\nRecord the Operating time value for the neutral point N | 40\nRestart the timer | 41\nSet the Switch to the Off position | 42\nRecord the Operating time value for the neutral point N | 43\nRemove the Test plug type HP2-C8 from the Test socket type HR2A-C8 of the relay (50BF) on the protection cubicle | 44\nRestart the relay (50BF) on the protection cubicle | 45\nRestart the (Lock Out Relay) of the relay (50BF) on the protection cubicle | 46\nSet the Change-over Switch (43), type BH-H7, for breaker failure protection testing to the Normal position on the protection cubicle | 47\nTest Sheet\nPower Station Name: | \nRelay type: | \nManufacturing no. | M530864\nCircuit : | Type form: TCO 24B - TU1Q\nDevice no.: | Location no.:\nRating | 1A, 50Hz DC 220V\nRelay Test: | \n1. General Inspection | \nChecking Item | Result\nAppearance casing: | \nTightness of fastening | \nSmooth rack in rack out | \nCT Shorting provision | \nInspection of printed card | \n2. Tap value test of OC element | \nMeasure the operating value of O.C element of each setting tap when C.B failure initiation contact is closed\nPhase | Setting Tap | 0.05 | 0.1 | 0.2 | 0.3 | 0.4 |  | RESULT\nR | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nB | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nN | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nCriteria : Operating value Less than 50% of setting\nResetting value More than 90 % of setting\n3. Tap value test of time element | \nCondition : Setting tap 0.05 + 0.15 A (R.B), 0.05 + 0.05 A (N)\nInput current 200 % x setting\nOperating time : Measure the time after CB failure\ninitiation contact is closed\nResetting time : Measure the time after CB failure\ninitiation contact is opened\nPhase | Setting Tap | 40 | 100 | 150 | 200 | 300 | 350 | Result\nR | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nB | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nN | Operating |  |  |  |  |  |  | \nResetting |  |  |  |  |  | \nCriteria : Operating time setting value 10 ms\nResetting time less than 20 ms\nSite name: Instrument code:\nTested by: Signature: Date of execution:",
+ "word_count_source": 999,
+ "uncertain_terms": [
+  {
+   "term": "للفصل",
+   "note": "Unclear qualifier in the equipment name (\"for disconnection\"); rendered as \"for disconnection\" and flagged."
+  },
+  {
+   "term": "(a11,12) x3 in step 2",
+   "note": "Source repeats the point (a11,12) three times in the shorting list; kept verbatim."
+  },
+  {
+   "term": "steps 5 and 7 / 10 and 12",
+   "note": "Suspect source values: the second recording after reducing the current is labelled \"(Operating)\" in the source where \"Resetting\" would be expected (as in step 17); kept faithful to the source."
+  },
+  {
+   "term": "(a2xOperating)",
+   "note": "Source wording in step 23; read as \"(2x Operating)\" (twice the operating value)."
+  },
+  {
+   "term": "z50BF vs 50BF",
+   "note": "Inconsistent relay designation in the source: steps 3–22 use (z50BF), steps 44–46 use (a50BF)/(50BF); kept verbatim per step."
+  },
+  {
+   "term": "مشط اختار",
+   "note": "Rendered as \"test comb\" (test plug comb), type RTXH 18."
+  },
+  {
+   "term": "اسجل",
+   "note": "Source typo in step 29 for \"سجل\"; translated as \"Record\"."
+  }
+ ]
+}
