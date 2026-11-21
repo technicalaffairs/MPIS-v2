@@ -1,7 +1,7 @@
 {
  "id": "appr-docs-ad-com-ad-com-tp-plc-001-r0a-htm",
  "doc_number": "PLC-001-R0A",
- "title_en": "",
+ "title_en": "plc-001-r0a APPROVED",
  "title_ar": "plc-001-r0a \nAPPROVED",
  "category": "appr_docs",
  "source_path": "appr_docs/ad_com/ad_com_tp/PLC-001-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "table",
@@ -517,5 +518,504 @@
    "src": "../../../images/mpis-1.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Communications",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document Number: PLC-001-r0a",
+     "Equipment: Power Line Carrier (PLC) equipment for 500 kV tie lines, French General Electric"
+    ],
+    [
+     "Issued to: High Dam Power Station"
+    ],
+    [
+     "Status: Approved"
+    ],
+    [
+     "Approval Date: 18 April 2005",
+     "Procedure: Annual Tests P1-Y1"
+    ],
+    [
+     "Next Review Date: April 2010"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "Power Line Carrier (PLC) equipment on power transmission lines at power stations is no less important than the protection equipment installed at those stations, as the work of this equipment complements the role of protection. Since, when a short circuit occurs on the tie line between two power stations, the protection equipment at each station trips only the equipment connected to it at that same station, without being able to trip the equipment of the other side, then when protection operates at one side of the tie, the line remains in service until the protection equipment at the next tie side plays its role in tripping its equipment. It was therefore necessary to use PLC equipment so that trip commands can be transferred between the two sides of the tie without waiting for the protection equipment at both sides of the tie to operate each on its own."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Issue an approved work order and provide the occupational safety and health category card for workers.",
+    "Disconnect the line concerned by the maintenance from both sides and earth it.",
+    "Erect a fence around the work place and place the appropriate warning signs.",
+    "Put the test switches at both stations of the tie line in test position."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and Instruments Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Portable air compressor (Blower)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Digital measuring instrument ...."
+  },
+  {
+   "type": "paragraph",
+   "text": "Rycom calibration instrument"
+  },
+  {
+   "type": "paragraph",
+   "text": "Frequency measuring instrument (F. meter)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Portable air compressor (Blower)",
+    "Digital measuring instrument ....",
+    "Rycom calibration instrument",
+    "Frequency measuring instrument (F. meter)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the transmitter CT.61A"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Put the TSS switch in Off position; its TSR switch at the other station in Test position.",
+     "1."
+    ],
+    [
+     "Measure the 125 VDC supply on card PWR. AUX at the two points NEG-BAT & POS-BAT using a digital AVO (within 10 V).",
+     "2."
+    ],
+    [
+     "Measure the 48 VDC supply on the same card (PWR-AUX) at the two points (A+48, com) and adjust it from resistor R18 within (1 V).",
+     "3."
+    ],
+    [
+     "Measure 36 VDC on card (PWR.AMPL/REG) at the two points (a+36, com) and adjust it from resistor R6 within (1 V).",
+     "4."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjust and measure the frequency at J23."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Remove card OSC.DRV and insert it in the extension card (Extender board) so that the words \"Transmitter up\" are at the top when adjusting the transmitter, then insert card OSC.DRV again in the extension card.",
+     "1."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "First: adjust the frequency of FC + 0.250 kHz Guard."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Put the TSS test switch in Off position.",
+     "1."
+    ],
+    [
+     "Put the frequency counter cable on J23 or on the two points (Out, Com) on card OSC,DRV.",
+     "2."
+    ],
+    [
+     "Adjust the frequency from capacitor C3 within 3 Hz.",
+     "3."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Second: adjust the frequency of FC - 0.250 kHz Trip."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Put the TSS test switch in Trip position.",
+     "1."
+    ],
+    [
+     "Put the frequency counter cable on J23 or on the two points (Out, Com) on card OSC,DRV.",
+     "2."
+    ],
+    [
+     "Adjust the frequency from capacitor C21 within 3 Hz.",
+     "3."
+    ],
+    [
+     "Return the test switch to Off position to verify the Guard frequency, then return card OSC-DRV to its correct place.",
+     "4."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjust and measure the Level at J23 using a Selective voltmeter."
+  },
+  {
+   "type": "paragraph",
+   "text": "First: adjust 250 mV Guard level."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Put the test switch in Off position.",
+     "1."
+    ],
+    [
+     "Connect the Selective instrument cable to J23.",
+     "2."
+    ],
+    [
+     "Tune the Selective instrument frequency to the Guard frequency whose Level is to be measured.",
+     "3."
+    ],
+    [
+     "Adjust the Guard signal Level from resistor R45 on card OSC.DRV up to the peak of 250 ± 5 mV.",
+     "4."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Adjust 500 mV: Trip Level."
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Put the test switch in Trip position after making sure that the test switch of the receiver (of the same transmitter) at the other station is in Test position.",
+     "1."
+    ],
+    [
+     "Connect the Selective instrument cable to J23.",
+     "2."
+    ],
+    [
+     "Tune the Selective instrument to the Trip frequency whose Level is to be measured.",
+     "3."
+    ],
+    [
+     "Adjust the Trip signal Level from resistor R42 on card OSC.DRV up to the peak (500 ± 20 mV).",
+     "4."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Steps for testing the receiver CR-61A"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Put the TSR test switch in Test position.",
+     "1."
+    ],
+    [
+     "Measure 125 VDC using the digital AVO (125 ± 7 VDC) on the card at the two points (NEGBAT, Pos BAT).",
+     "2."
+    ],
+    [
+     "Adjust (48 ± 1 VDC) on card PWR, AUX at the two points (A48, com).",
+     "3."
+    ],
+    [
+     "Adjust (36 ± 1 VDC) on card Filter at the two points (a+36, com).",
+     "4."
+    ],
+    [
+     "Measure the frequency FC ± 29 kHz ± 2 Hz at the two points (LOC.OSC, com) using the frequency counter on card OSC.MIXER.",
+     "5."
+    ],
+    [
+     "Measure the RF frequency received from the other side, FC + 0.250 kHz ± 3 Hz, at the two points (RF, com).",
+     "6."
+    ],
+    [
+     "Adjust RFIN from resistor R3 on the Filter card up to 18 dBm at (Com, IF out) on card OSC.MIXER using a Selective Voltmeter.",
+     "7."
+    ],
+    [
+     "Adjust the CCM meter up to 2 mA using resistor R86 on card signal noise, carrier level monitor.",
+     "8."
+    ],
+    [
+     "Measure Guard out using a digital AVO at the two points Guard out, com on card Discriminator, to be 51 VDC.",
+     "9."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Transmitter / Receiver Data"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Channels",
+     "DC Voltage",
+     "TRANSMITTER",
+     "RECEIVER"
+    ],
+    [
+     "I/P",
+     "O/P",
+     "I/P",
+     "48V",
+     "36V",
+     "FC",
+     "FG",
+     "LEVEL",
+     "I/P",
+     "48V",
+     "36V",
+     "FC",
+     "L.O"
+    ],
+    [
+     "LZ96",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "L8B",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "B.F",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S.R",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "G.O.S",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Amplifiers/Matching Transformer"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "DC Voltage (250V DC \n REG.)"
+    ],
+    [
+     "POWER REG.",
+     "1",
+     "2"
+    ],
+    [
+     "I/P",
+     "",
+     ""
+    ],
+    [
+     "O/P",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "WILMORE DC/DC \n CONVERTERS OUTPUT"
+    ],
+    [
+     "NO.",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    [
+     "O/P",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Output Levels"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Ch/Amp.",
+     "LZ96",
+     "L8B",
+     "B.F",
+     "S.R",
+     "G.O.S"
+    ],
+    [
+     "Amp. 1",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Amp. 2",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Amp. 3",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Amp. 4",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment name: Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspected by: Signature: Execution date:"
+  }
+ ],
+ "text_en": "Maintenance Procedures Information System\n | Communications | Maintenance Procedures\nDocument Number: PLC-001-r0a | Equipment: Power Line Carrier (PLC) equipment for 500 kV tie lines, French General Electric\nIssued to: High Dam Power Station\nStatus: Approved\nApproval Date: 18 April 2005 | Procedure: Annual Tests P1-Y1\nNext Review Date: April 2010\nIntroduction\nPower Line Carrier (PLC) equipment on power transmission lines at power stations is no less important than the protection equipment installed at those stations, as the work of this equipment complements the role of protection. Since, when a short circuit occurs on the tie line between two power stations, the protection equipment at each station trips only the equipment connected to it at that same station, without being able to trip the equipment of the other side, then when protection operates at one side of the tie, the line remains in service until the protection equipment at the next tie side plays its role in tripping its equipment. It was therefore necessary to use PLC equipment so that trip commands can be transferred between the two sides of the tie without waiting for the protection equipment at both sides of the tie to operate each on its own.\nSafety Precautions\nIssue an approved work order and provide the occupational safety and health category card for workers.\nDisconnect the line concerned by the maintenance from both sides and earth it.\nErect a fence around the work place and place the appropriate warning signs.\nPut the test switches at both stations of the tie line in test position.\nTools and Instruments Used\nPortable air compressor (Blower)\nDigital measuring instrument ....\nRycom calibration instrument\nFrequency measuring instrument (F. meter)\nPortable air compressor (Blower)\nDigital measuring instrument ....\nRycom calibration instrument\nFrequency measuring instrument (F. meter)\nProcedures to be Carried Out\nTesting the transmitter CT.61A\nPut the TSS switch in Off position; its TSR switch at the other station in Test position. | 1.\nMeasure the 125 VDC supply on card PWR. AUX at the two points NEG-BAT & POS-BAT using a digital AVO (within 10 V). | 2.\nMeasure the 48 VDC supply on the same card (PWR-AUX) at the two points (A+48, com) and adjust it from resistor R18 within (1 V). | 3.\nMeasure 36 VDC on card (PWR.AMPL/REG) at the two points (a+36, com) and adjust it from resistor R6 within (1 V). | 4.\nAdjust and measure the frequency at J23.\nRemove card OSC.DRV and insert it in the extension card (Extender board) so that the words \"Transmitter up\" are at the top when adjusting the transmitter, then insert card OSC.DRV again in the extension card. | 1.\nFirst: adjust the frequency of FC + 0.250 kHz Guard.\nPut the TSS test switch in Off position. | 1.\nPut the frequency counter cable on J23 or on the two points (Out, Com) on card OSC,DRV. | 2.\nAdjust the frequency from capacitor C3 within 3 Hz. | 3.\nSecond: adjust the frequency of FC - 0.250 kHz Trip.\nPut the TSS test switch in Trip position. | 1.\nPut the frequency counter cable on J23 or on the two points (Out, Com) on card OSC,DRV. | 2.\nAdjust the frequency from capacitor C21 within 3 Hz. | 3.\nReturn the test switch to Off position to verify the Guard frequency, then return card OSC-DRV to its correct place. | 4.\nAdjust and measure the Level at J23 using a Selective voltmeter.\nFirst: adjust 250 mV Guard level.\nPut the test switch in Off position. | 1.\nConnect the Selective instrument cable to J23. | 2.\nTune the Selective instrument frequency to the Guard frequency whose Level is to be measured. | 3.\nAdjust the Guard signal Level from resistor R45 on card OSC.DRV up to the peak of 250 ± 5 mV. | 4.\nAdjust 500 mV: Trip Level.\nPut the test switch in Trip position after making sure that the test switch of the receiver (of the same transmitter) at the other station is in Test position. | 1.\nConnect the Selective instrument cable to J23. | 2.\nTune the Selective instrument to the Trip frequency whose Level is to be measured. | 3.\nAdjust the Trip signal Level from resistor R42 on card OSC.DRV up to the peak (500 ± 20 mV). | 4.\nSteps for testing the receiver CR-61A\nPut the TSR test switch in Test position. | 1.\nMeasure 125 VDC using the digital AVO (125 ± 7 VDC) on the card at the two points (NEGBAT, Pos BAT). | 2.\nAdjust (48 ± 1 VDC) on card PWR, AUX at the two points (A48, com). | 3.\nAdjust (36 ± 1 VDC) on card Filter at the two points (a+36, com). | 4.\nMeasure the frequency FC ± 29 kHz ± 2 Hz at the two points (LOC.OSC, com) using the frequency counter on card OSC.MIXER. | 5.\nMeasure the RF frequency received from the other side, FC + 0.250 kHz ± 3 Hz, at the two points (RF, com). | 6.\nAdjust RFIN from resistor R3 on the Filter card up to 18 dBm at (Com, IF out) on card OSC.MIXER using a Selective Voltmeter. | 7.\nAdjust the CCM meter up to 2 mA using resistor R86 on card signal noise, carrier level monitor. | 8.\nMeasure Guard out using a digital AVO at the two points Guard out, com on card Discriminator, to be 51 VDC. | 9.\nTransmitter / Receiver Data\nChannels | DC Voltage | TRANSMITTER | RECEIVER\nI/P | O/P | I/P | 48V | 36V | FC | FG | LEVEL | I/P | 48V | 36V | FC | L.O\nLZ96 |  |  |  |  |  |  |  |  |  |  |  |  | \nL8B |  |  |  |  |  |  |  |  |  |  |  |  | \nB.F |  |  |  |  |  |  |  |  |  |  |  |  | \nS.R |  |  |  |  |  |  |  |  |  |  |  |  | \nG.O.S |  |  |  |  |  |  |  |  |  |  |  |  | \nAmplifiers/Matching Transformer\nDC Voltage (250V DC \n REG.)\nPOWER REG. | 1 | 2\nI/P |  | \nO/P |  | \nWILMORE DC/DC \n CONVERTERS OUTPUT\nNO. | 1 | 2 | 3 | 4\nO/P |  |  |  | \nOutput Levels\nCh/Amp. | LZ96 | L8B | B.F | S.R | G.O.S\nAmp. 1 |  |  |  |  | \nAmp. 2 |  |  |  |  | \nAmp. 3 |  |  |  |  | \nAmp. 4 |  |  |  |  | \nEquipment name: Equipment code:\nInspected by: Signature: Execution date:",
+ "translation_review": "draft — needs human review before operational use"
 }
