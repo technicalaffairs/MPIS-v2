@@ -1,7 +1,7 @@
 {
  "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-rpr-002-r0a-htm",
  "doc_number": "RPR-002-R0A",
- "title_en": "",
+ "title_en": "RPR-002-R0A — Approved",
  "title_ar": "RPR-002-r0a \nمعتمـــد",
  "category": "arabic_web",
  "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/RPR-002-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -538,5 +539,484 @@
    "src": "../../../../images/mpis-1.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection - Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: RPR-002-r0a",
+     "Equipment: Testing the reverse power protection device x32G RXPE ABB"
+    ],
+    [
+     "Issued to: Assiut New Power Station"
+    ],
+    [
+     "Status: Approved"
+    ],
+    [
+     "Approval date: 26 January 2003",
+     "Procedure: Annual test of the protection device using PHU-100"
+    ],
+    [
+     "Next review date: January 2008"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps to be carried out annually. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at Assiut New Power Station ('El-Walidia', 2 x 300 MW), Upper Egypt Electricity Production Company, and the test was carried out on 18 October 2002 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "The unit is out of service.",
+    "Open the work order.",
+    "Fence off the work area and place the necessary warning signs.",
+    "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Instruments and Equipment Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "PHU-100 current injection test set"
+  },
+  {
+   "type": "paragraph",
+   "text": "PHU-100 voltage injection test set"
+  },
+  {
+   "type": "paragraph",
+   "text": "V-A AC current measuring instrument, model YOKOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "V-A AC voltage measuring instrument, model YOKOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Phase Shifter meter, model KDKDPF 30 N"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test plug, model RTXH 18"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "PHU-100 current injection test set",
+    "PHU-100 voltage injection test set",
+    "V-A AC current measuring instrument, model YOKOGAWA",
+    "V-A AC voltage measuring instrument, model YOKOGAWA",
+    "Phase Shifter meter, model KDKDPF 30 N",
+    "Millisecond Counter (Timer), model MCS-5N",
+    "Test plug, model RTXH 18",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Insert Test plug type RTXH 18 into Test socket type RTXP 18 on the relay (X32G).",
+     "1"
+    ],
+    [
+     "Short-circuit point x2A on Test plug type RTXH 18 and point x2A on Test plug type RTXP 18.",
+     "2"
+    ],
+    [
+     "Inject voltage at points (9, 12) on the Test plug up to 20 V for phase R.",
+     "3"
+    ],
+    [
+     "Inject current at points (3, 4) on the Test plug until the Alarm indication for phase R appears, with the phase shift set to Zero between voltage and current.",
+     "4"
+    ],
+    [
+     "Record the current reading.",
+     "5"
+    ],
+    [
+     "Switch off the current injection test set.",
+     "6"
+    ],
+    [
+     "Connect the Start leads of the time measuring instrument to points (T1, T2) on the PHU-100 current injection test set.",
+     "7"
+    ],
+    [
+     "Connect the Stop leads of the time measuring instrument to points (15, 18) on the RTXH 18 test plug.",
+     "8"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "9"
+    ],
+    [
+     "Connect the current injection test set.",
+     "10"
+    ],
+    [
+     "Record the time reading.",
+     "11"
+    ],
+    [
+     "Change the angle between current and voltage to 60 degrees.",
+     "12"
+    ],
+    [
+     "Raise the current until the alarm indication appears.",
+     "13"
+    ],
+    [
+     "Record the current value.",
+     "14"
+    ],
+    [
+     "Switch off the current injection test set.",
+     "15"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "16"
+    ],
+    [
+     "Connect the current injection test set.",
+     "17"
+    ],
+    [
+     "Record the time reading.",
+     "18"
+    ],
+    [
+     "Change the angle between current and voltage to 180 degrees.",
+     "19"
+    ],
+    [
+     "Raise the current until we observe that the relay does not operate.",
+     "20"
+    ],
+    [
+     "Inject voltage at points (10, 13) on the Test plug up to 20 V for phase S.",
+     "21"
+    ],
+    [
+     "Inject current at points (5, 6) on the Test plug until the Alarm indication for phase S appears, with the phase shift set to Zero between voltage and current.",
+     "22"
+    ],
+    [
+     "Record the current value.",
+     "23"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "24"
+    ],
+    [
+     "Connect the current injection test set.",
+     "25"
+    ],
+    [
+     "Record the time reading.",
+     "26"
+    ],
+    [
+     "Change the angle between current and voltage to 60 degrees.",
+     "27"
+    ],
+    [
+     "Raise the current until the alarm indication appears.",
+     "28"
+    ],
+    [
+     "Record the current value.",
+     "29"
+    ],
+    [
+     "Switch off the current injection test set.",
+     "30"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "31"
+    ],
+    [
+     "Connect the current injection test set.",
+     "32"
+    ],
+    [
+     "Record the time reading.",
+     "33"
+    ],
+    [
+     "Change the angle between current and voltage to 160 degrees.",
+     "34"
+    ],
+    [
+     "Raise the current until we observe that the relay does not operate.",
+     "35"
+    ],
+    [
+     "Inject voltage at points (11, 14) on the Test plug up to 20 V for phase T.",
+     "36"
+    ],
+    [
+     "Inject current at points (7, 8) on the Test plug until the Alarm indication for phase T appears, with the phase shift set to Zero between voltage and current.",
+     "37"
+    ],
+    [
+     "Record the current value.",
+     "38"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "39"
+    ],
+    [
+     "Connect the current injection test set.",
+     "40"
+    ],
+    [
+     "Record the time reading.",
+     "41"
+    ],
+    [
+     "Change the angle between current and voltage to 60 degrees.",
+     "42"
+    ],
+    [
+     "Raise the current until the alarm indication appears.",
+     "43"
+    ],
+    [
+     "Record the current value.",
+     "44"
+    ],
+    [
+     "Switch off the current injection test set.",
+     "45"
+    ],
+    [
+     "Reset the time measuring instrument.",
+     "46"
+    ],
+    [
+     "Connect the current injection test set.",
+     "47"
+    ],
+    [
+     "Record the time reading.",
+     "48"
+    ],
+    [
+     "Change the angle between current and voltage to 180 degrees.",
+     "49"
+    ],
+    [
+     "Raise the current until we observe that the relay does not operate.",
+     "50"
+    ],
+    [
+     "Switch off the current and voltage injection test sets.",
+     "51"
+    ],
+    [
+     "Remove Test plug type RTXH 18 from Test socket type RTXP 18.",
+     "52"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet for Generator Protection 32G"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Equipment:",
+     "Power Station Protection System"
+    ],
+    [
+     "Description:",
+     "Reverse Power Relay 32 Type RXPE, ABB"
+    ],
+    [
+     "Item:",
+     "Panel: 2CAE 01/1 Position: D21.101"
+    ],
+    [
+     "Single Line Diagram No.",
+     "1512VA7120J001"
+    ],
+    [
+     "Test:",
+     "Relay Verifications"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay data:",
+     ""
+    ],
+    [
+     "Rated current:",
+     ""
+    ],
+    [
+     "Rated voltage:",
+     "63.5 , 110 , 220v"
+    ],
+    [
+     "Rated frequency :",
+     "50Hz"
+    ],
+    [
+     "Auxiliary voltage :",
+     "110/125 VAC"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase & Current Points",
+     "I (mA) Ref. 90",
+     "U(V) Angle Lag Voltage Points",
+     "t(s) Ref. 10",
+     "Result Trip / Not Operation",
+     "Remark"
+    ],
+    [
+     "R (3) & (4)",
+     "",
+     "20/0 (9) & (12)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R (3) & (4)",
+     "",
+     "20/60",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R (3) & (4)",
+     "",
+     "20/180",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S (5) & (6)",
+     "",
+     "20/0 (10) & (13)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S (5) & (6)",
+     "",
+     "20/60",
+     "",
+     "",
+     ""
+    ],
+    [
+     "S (5) & (6)",
+     "",
+     "20/180",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T (7) & (8)",
+     "",
+     "20/0 (11) & (14)",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T (7) & (8)",
+     "",
+     "20/60",
+     "",
+     "",
+     ""
+    ],
+    [
+     "T (7) & (8)",
+     "",
+     "20/180",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Protection device installed on:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Name of person carrying out the work: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection - Generation | Maintenance Procedures\nDocument No.: RPR-002-r0a | Equipment: Testing the reverse power protection device x32G RXPE ABB\nIssued to: Assiut New Power Station\nStatus: Approved\nApproval date: 26 January 2003 | Procedure: Annual test of the protection device using PHU-100\nNext review date: January 2008\nIntroduction\nThis document sets out the test steps to be carried out annually. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at Assiut New Power Station ('El-Walidia', 2 x 300 MW), Upper Egypt Electricity Production Company, and the test was carried out on 18 October 2002 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed.\nSafety Precautions\nThe unit is out of service.\nOpen the work order.\nFence off the work area and place the necessary warning signs.\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment.\nTools, Instruments and Equipment Used\nPHU-100 current injection test set\nPHU-100 voltage injection test set\nV-A AC current measuring instrument, model YOKOGAWA\nV-A AC voltage measuring instrument, model YOKOGAWA\nPhase Shifter meter, model KDKDPF 30 N\nTest plug, model RTXH 18\nTest leads\nPHU-100 current injection test set\nPHU-100 voltage injection test set\nV-A AC current measuring instrument, model YOKOGAWA\nV-A AC voltage measuring instrument, model YOKOGAWA\nPhase Shifter meter, model KDKDPF 30 N\nMillisecond Counter (Timer), model MCS-5N\nTest plug, model RTXH 18\nTest leads\nWork Steps to be Carried Out\nInsert Test plug type RTXH 18 into Test socket type RTXP 18 on the relay (X32G). | 1\nShort-circuit point x2A on Test plug type RTXH 18 and point x2A on Test plug type RTXP 18. | 2\nInject voltage at points (9, 12) on the Test plug up to 20 V for phase R. | 3\nInject current at points (3, 4) on the Test plug until the Alarm indication for phase R appears, with the phase shift set to Zero between voltage and current. | 4\nRecord the current reading. | 5\nSwitch off the current injection test set. | 6\nConnect the Start leads of the time measuring instrument to points (T1, T2) on the PHU-100 current injection test set. | 7\nConnect the Stop leads of the time measuring instrument to points (15, 18) on the RTXH 18 test plug. | 8\nReset the time measuring instrument. | 9\nConnect the current injection test set. | 10\nRecord the time reading. | 11\nChange the angle between current and voltage to 60 degrees. | 12\nRaise the current until the alarm indication appears. | 13\nRecord the current value. | 14\nSwitch off the current injection test set. | 15\nReset the time measuring instrument. | 16\nConnect the current injection test set. | 17\nRecord the time reading. | 18\nChange the angle between current and voltage to 180 degrees. | 19\nRaise the current until we observe that the relay does not operate. | 20\nInject voltage at points (10, 13) on the Test plug up to 20 V for phase S. | 21\nInject current at points (5, 6) on the Test plug until the Alarm indication for phase S appears, with the phase shift set to Zero between voltage and current. | 22\nRecord the current value. | 23\nReset the time measuring instrument. | 24\nConnect the current injection test set. | 25\nRecord the time reading. | 26\nChange the angle between current and voltage to 60 degrees. | 27\nRaise the current until the alarm indication appears. | 28\nRecord the current value. | 29\nSwitch off the current injection test set. | 30\nReset the time measuring instrument. | 31\nConnect the current injection test set. | 32\nRecord the time reading. | 33\nChange the angle between current and voltage to 160 degrees. | 34\nRaise the current until we observe that the relay does not operate. | 35\nInject voltage at points (11, 14) on the Test plug up to 20 V for phase T. | 36\nInject current at points (7, 8) on the Test plug until the Alarm indication for phase T appears, with the phase shift set to Zero between voltage and current. | 37\nRecord the current value. | 38\nReset the time measuring instrument. | 39\nConnect the current injection test set. | 40\nRecord the time reading. | 41\nChange the angle between current and voltage to 60 degrees. | 42\nRaise the current until the alarm indication appears. | 43\nRecord the current value. | 44\nSwitch off the current injection test set. | 45\nReset the time measuring instrument. | 46\nConnect the current injection test set. | 47\nRecord the time reading. | 48\nChange the angle between current and voltage to 180 degrees. | 49\nRaise the current until we observe that the relay does not operate. | 50\nSwitch off the current and voltage injection test sets. | 51\nRemove Test plug type RTXH 18 from Test socket type RTXP 18. | 52\nTest Sheet for Generator Protection 32G\nEquipment: | Power Station Protection System\nDescription: | Reverse Power Relay 32 Type RXPE, ABB\nItem: | Panel: 2CAE 01/1 Position: D21.101\nSingle Line Diagram No. | 1512VA7120J001\nTest: | Relay Verifications\nRelay data: | \nRated current: | \nRated voltage: | 63.5 , 110 , 220v\nRated frequency : | 50Hz\nAuxiliary voltage : | 110/125 VAC\nPhase & Current Points | I (mA) Ref. 90 | U(V) Angle Lag Voltage Points | t(s) Ref. 10 | Result Trip / Not Operation | Remark\nR (3) & (4) |  | 20/0 (9) & (12) |  |  | \nR (3) & (4) |  | 20/60 |  |  | \nR (3) & (4) |  | 20/180 |  |  | \nS (5) & (6) |  | 20/0 (10) & (13) |  |  | \nS (5) & (6) |  | 20/60 |  |  | \nS (5) & (6) |  | 20/180 |  |  | \nT (7) & (8) |  | 20/0 (11) & (14) |  |  | \nT (7) & (8) |  | 20/60 |  |  | \nT (7) & (8) |  | 20/180 |  |  | \nSite name: Protection device installed on:\nName of person carrying out the work: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }

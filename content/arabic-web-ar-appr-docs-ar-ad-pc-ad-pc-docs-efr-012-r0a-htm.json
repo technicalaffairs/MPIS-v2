@@ -1,7 +1,7 @@
 {
  "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-efr-012-r0a-htm",
  "doc_number": "EFR-012-R0A",
- "title_en": "",
+ "title_en": "EFR-012-r0a APPROVED",
  "title_ar": "EFR-012-r0a \nمعتمــد",
  "category": "arabic_web",
  "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/EFR-012-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -411,5 +412,357 @@
    "src": "../../../../images/mpis-1.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: EFR-012-r0a",
+     "Equipment: Stator earth-fault protection x64S, RAGEA, ABB"
+    ],
+    [
+     "Issued to: Assiut Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 03 July 2003",
+     "Procedure: Test using the PHU-100 voltage injection set"
+    ],
+    [
+     "Next review date: July 2008"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps for the earth-fault protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 19 October 2002."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "The unit is out of service"
+  },
+  {
+   "type": "paragraph",
+   "text": "Open a work order"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fence off the work area and place the appropriate warning signs."
+  },
+  {
+   "type": "paragraph",
+   "text": "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "PHU-100 voltage injection set"
+  },
+  {
+   "type": "paragraph",
+   "text": "AC V-A voltage measuring instrument, type YOKOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test comb, type RTXH 18"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "paragraph",
+   "text": "Milisecond Counter (Timer) type MCS-5N"
+  },
+  {
+   "type": "paragraph",
+   "text": "Function generator type FG-121B"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Function generator type FG-121B"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "First: Testing the RXIG28 0-95% element"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Place the Test plug type RTXH18 in Test socket type RTXP 18 on the relay x64S",
+     "1"
+    ],
+    [
+     "Connect the Start terminals of the timer to points (T1, T2) in the PHU-100 voltage injection set",
+     "2"
+    ],
+    [
+     "Connect the Stop terminals of the timer to points (25, 26) at the back of the RXKBI 11 element",
+     "3"
+    ],
+    [
+     "Inject voltage at points (9, 10) in the Test Plug until the signal drops",
+     "4"
+    ],
+    [
+     "Record the voltage reading",
+     "5"
+    ],
+    [
+     "Disconnect the voltage injection set",
+     "6"
+    ],
+    [
+     "Reset the timer",
+     "7"
+    ],
+    [
+     "Connect the voltage injection set",
+     "8"
+    ],
+    [
+     "Record the time for the RXIG28 element",
+     "9"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Second: Testing the RXIG21 95-100% element"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Set the frequency to 150 Hz on the Function Generator",
+     "1"
+    ],
+    [
+     "Inject voltage from the Function Generator at points (11, 12) on the Test plug",
+     "2"
+    ],
+    [
+     "Raise the voltage gradually until the signal drops",
+     "3"
+    ],
+    [
+     "Record the voltage value",
+     "4"
+    ],
+    [
+     "Disconnect the voltage injection set",
+     "5"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Third: Testing the RXIG21 Supervision element"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Inject voltage from the PHU-100 set at points (7, 8) on the Test plug",
+     "1"
+    ],
+    [
+     "Raise the voltage gradually until the signal drops",
+     "2"
+    ],
+    [
+     "Record the voltage value",
+     "3"
+    ],
+    [
+     "Disconnect the injection set",
+     "4"
+    ],
+    [
+     "Connect the Start terminals of the timer to points t1, t2 on the PHU-100 set",
+     "5"
+    ],
+    [
+     "Connect the Stop terminals of the timer to points (16,15) on the RXKBI 149 element",
+     "6"
+    ],
+    [
+     "Reset the timer",
+     "7"
+    ],
+    [
+     "Connect the voltage injection set at the relay operating voltage value",
+     "8"
+    ],
+    [
+     "Record the time value for the RXEG21 element",
+     "9"
+    ],
+    [
+     "Remove the Test plug type RTXH 18 from Test socket type RTXP 18 on the relay x64S",
+     "10"
+    ],
+    [
+     "Reset all the signals on the relay (64S)",
+     "11"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "For Stator Ground Relay (64S) type RAGEA, ABB"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Description",
+     "Unit No."
+    ],
+    [
+     "Panel",
+     "No. 2CAE01/2"
+    ],
+    [
+     "Item",
+     "100% Stator Ground Relay 64S"
+    ],
+    [
+     "Single Line Diagram no.:",
+     "1512VA7120J001"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "---------------------------------------------------------------------------------"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay Data :",
+     ""
+    ],
+    [
+     "Rated Current",
+     "5"
+    ],
+    [
+     "Rated Voltage :",
+     "63.5 , 110 , 220 V"
+    ],
+    [
+     "Rated Frequency :",
+     "50 HZ"
+    ],
+    [
+     "Auxiliary Voltage :",
+     "110/125 Vac"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Relay type",
+     "Setting",
+     "Measurement",
+     "Function Remark"
+    ],
+    [
+     "U(v)",
+     "T(s)"
+    ],
+    [
+     "RXIG 28 150 Hz",
+     "U = 7 vT = 400 m sec",
+     "",
+     "",
+     "95%59 N1 Protection (Over voltage)"
+    ],
+    [
+     "RXIG 21 150 Hz",
+     "U = 0.3 v",
+     "",
+     "",
+     "100%27 N1 Protection(Under Voltage)"
+    ],
+    [
+     "RXIG 21 50HZ",
+     "U = 92T = 1 sec",
+     "",
+     "",
+     "Over VoltageSupervision"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Name and location of the protection device:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: EFR-012-r0a | Equipment: Stator earth-fault protection x64S, RAGEA, ABB\nIssued to: Assiut Power Station\nStatus: APPROVED\nApproval date: 03 July 2003 | Procedure: Test using the PHU-100 voltage injection set\nNext review date: July 2008\nIntroduction\nThis document sets out the test steps for the earth-fault protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 19 October 2002.\nSafety Precautions\nThe unit is out of service\nOpen a work order\nFence off the work area and place the appropriate warning signs.\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment\nTools, Equipment and Instruments Used\nPHU-100 voltage injection set\nAC V-A voltage measuring instrument, type YOKOGAWA\nTest comb, type RTXH 18\nTest leads\nMilisecond Counter (Timer) type MCS-5N\nFunction generator type FG-121B\nFunction generator type FG-121B\nWork Steps to be Carried Out\nFirst: Testing the RXIG28 0-95% element\nPlace the Test plug type RTXH18 in Test socket type RTXP 18 on the relay x64S | 1\nConnect the Start terminals of the timer to points (T1, T2) in the PHU-100 voltage injection set | 2\nConnect the Stop terminals of the timer to points (25, 26) at the back of the RXKBI 11 element | 3\nInject voltage at points (9, 10) in the Test Plug until the signal drops | 4\nRecord the voltage reading | 5\nDisconnect the voltage injection set | 6\nReset the timer | 7\nConnect the voltage injection set | 8\nRecord the time for the RXIG28 element | 9\nSecond: Testing the RXIG21 95-100% element\nSet the frequency to 150 Hz on the Function Generator | 1\nInject voltage from the Function Generator at points (11, 12) on the Test plug | 2\nRaise the voltage gradually until the signal drops | 3\nRecord the voltage value | 4\nDisconnect the voltage injection set | 5\nThird: Testing the RXIG21 Supervision element\nInject voltage from the PHU-100 set at points (7, 8) on the Test plug | 1\nRaise the voltage gradually until the signal drops | 2\nRecord the voltage value | 3\nDisconnect the injection set | 4\nConnect the Start terminals of the timer to points t1, t2 on the PHU-100 set | 5\nConnect the Stop terminals of the timer to points (16,15) on the RXKBI 149 element | 6\nReset the timer | 7\nConnect the voltage injection set at the relay operating voltage value | 8\nRecord the time value for the RXEG21 element | 9\nRemove the Test plug type RTXH 18 from Test socket type RTXP 18 on the relay x64S | 10\nReset all the signals on the relay (64S) | 11\nTest Sheet\nFor Stator Ground Relay (64S) type RAGEA, ABB\nDescription | Unit No.\nPanel | No. 2CAE01/2\nItem | 100% Stator Ground Relay 64S\nSingle Line Diagram no.: | 1512VA7120J001\n---------------------------------------------------------------------------------\nRelay Data : | \nRated Current | 5\nRated Voltage : | 63.5 , 110 , 220 V\nRated Frequency : | 50 HZ\nAuxiliary Voltage : | 110/125 Vac\nRelay type | Setting | Measurement | Function Remark\nU(v) | T(s)\nRXIG 28 150 Hz | U = 7 vT = 400 m sec |  |  | 95%59 N1 Protection (Over voltage)\nRXIG 21 150 Hz | U = 0.3 v |  |  | 100%27 N1 Protection(Under Voltage)\nRXIG 21 50HZ | U = 92T = 1 sec |  |  | Over VoltageSupervision\nSite name: Name and location of the protection device:\nTested by: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }

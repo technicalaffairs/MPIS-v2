@@ -1,7 +1,7 @@
 {
  "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-ocr-012-r0a-htm",
  "doc_number": "OCR-012-R0A",
- "title_en": "",
+ "title_en": "ocr-012-r0a APPROVED",
  "title_ar": "ocr-012-r0a \nمعتمد",
  "category": "arabic_web",
  "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/OCR-012-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -240,5 +241,182 @@
    "src": "../../../../images/square%20root%20of%203.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: OCR-012-r0a",
+     "Equipment: 46G negative-sequence overcurrent protection (Negative Phase Sequence), RARIB, ABB"
+    ],
+    [
+     "Issued to: El-Walidia Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 5 January 2003",
+     "Procedure: Test the protection using the PHU 100 current injection set"
+    ],
+    [
+     "Next review date: January 2008"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps that must be carried out annually. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station \"El-Walidia\", 2*300 MW, Upper Egypt Electricity Production Company; the test was carried out on 18 October 2002 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Issue an approved work order from the competent authority, and the test crew must carry the industrial safety category card",
+    "Fence off the work area and place the warning signs.",
+    "The unit is out of service",
+    "Verify that the device to be tested is as stated on the Name Plate"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety helmet and safety shoes"
+  },
+  {
+   "type": "paragraph",
+   "text": "PHU 100 current injection set"
+  },
+  {
+   "type": "paragraph",
+   "text": "AC V-A current measuring instrument, type YOGOGAWA"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Safety helmet and safety shoes",
+    "PHU 100 current injection set",
+    "AC V-A current measuring instrument, type YOGOGAWA",
+    "Millisecond counter type MCS 5 N (Timer)",
+    "Test comb type RTXH 18, test leads used"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Verify that the unit is out of service",
+    "Verify that the device to be tested is as stated on the Name Plate",
+    "Place the RTXH 18 test comb in test socket type RTXP18 at the relay a64G",
+    "Short points 1A and 2A on the test comb (to connect DC) — Shorted 1A, 2A",
+    "Short points 4A and 6A on the test comb — simulate negative phase sequence by shorting 4A, 6A",
+    "Inject current at points (3A, 5A) until the Alarm signal appears",
+    "Record the Alarm current reading",
+    "Continue injecting current at points (3A, 5A) until the Start signal appears",
+    "Record the Start current reading",
+    "Connect the Start terminals of the timer to points (T1, T2) in the PHU100 current injection set",
+    "Connect the Stop terminals of the timer to points (17A, 18A) in the RTXH 18 test comb",
+    "Inject current of value 4.55 × √3 = 7.88 A at points (3A, 5A) in the RTXH 18 test comb",
+    "Disconnect the injection set",
+    "Set the timer Start Mode to Contact and set the timer Stop Mode to DC V",
+    "Reset the timer",
+    "Connect the injection set",
+    "Record the Start time reading",
+    "Disconnect the injection set",
+    "Connect the timer Stop terminal to points (12A, 18A) in the RTXH 18 test comb",
+    "Inject current of value [1A > 0.63 at points (3A, 5A) in the RTXH 18 test comb",
+    "Disconnect the injection set",
+    "Set the timer Start Mode to Contact and set the timer Stop Mode to DCV",
+    "Reset the timer",
+    "Connect the injection set",
+    "Record the Alarm time reading",
+    "Remove Test plug type RTXH18 from Test socket type RTXP 18 at the relay (a48G)"
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Data description",
+     "Setting range",
+     "Setting value",
+     "Recorded value"
+    ],
+    [
+     "Uasic current",
+     "0.7 : 1.1 I n",
+     "0.91 I n",
+     ""
+    ],
+    [
+     "Alarm level",
+     "1 : 9% I n",
+     "I 2 > 4 %",
+     ""
+    ],
+    [
+     "Start level",
+     "1 : 16% I 2",
+     "I 2 > 4 %",
+     ""
+    ],
+    [
+     "Time constant",
+     "1 : 63 s",
+     "8 s",
+     ""
+    ],
+    [
+     "Alarm delay time",
+     "0.1 or 6 s",
+     "6 s",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspected by: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: OCR-012-r0a | Equipment: 46G negative-sequence overcurrent protection (Negative Phase Sequence), RARIB, ABB\nIssued to: El-Walidia Power Station\nStatus: APPROVED\nApproval date: 5 January 2003 | Procedure: Test the protection using the PHU 100 current injection set\nNext review date: January 2008\nIntroduction\nThis document sets out the test steps that must be carried out annually. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station \"El-Walidia\", 2*300 MW, Upper Egypt Electricity Production Company; the test was carried out on 18 October 2002 by Eng. Ali Hussein Farrag and Eng. Mahmoud Faisal Mohamed.\nSafety Precautions\nIssue an approved work order from the competent authority, and the test crew must carry the industrial safety category card\nFence off the work area and place the warning signs.\nThe unit is out of service\nVerify that the device to be tested is as stated on the Name Plate\nTools, Equipment and Instruments Used\nSafety helmet and safety shoes\nPHU 100 current injection set\nAC V-A current measuring instrument, type YOGOGAWA\nSafety helmet and safety shoes\nPHU 100 current injection set\nAC V-A current measuring instrument, type YOGOGAWA\nMillisecond counter type MCS 5 N (Timer)\nTest comb type RTXH 18, test leads used\nWork Steps to be Carried Out\nVerify that the unit is out of service\nVerify that the device to be tested is as stated on the Name Plate\nPlace the RTXH 18 test comb in test socket type RTXP18 at the relay a64G\nShort points 1A and 2A on the test comb (to connect DC) — Shorted 1A, 2A\nShort points 4A and 6A on the test comb — simulate negative phase sequence by shorting 4A, 6A\nInject current at points (3A, 5A) until the Alarm signal appears\nRecord the Alarm current reading\nContinue injecting current at points (3A, 5A) until the Start signal appears\nRecord the Start current reading\nConnect the Start terminals of the timer to points (T1, T2) in the PHU100 current injection set\nConnect the Stop terminals of the timer to points (17A, 18A) in the RTXH 18 test comb\nInject current of value 4.55 × √3 = 7.88 A at points (3A, 5A) in the RTXH 18 test comb\nDisconnect the injection set\nSet the timer Start Mode to Contact and set the timer Stop Mode to DC V\nReset the timer\nConnect the injection set\nRecord the Start time reading\nDisconnect the injection set\nConnect the timer Stop terminal to points (12A, 18A) in the RTXH 18 test comb\nInject current of value [1A > 0.63 at points (3A, 5A) in the RTXH 18 test comb\nDisconnect the injection set\nSet the timer Start Mode to Contact and set the timer Stop Mode to DCV\nReset the timer\nConnect the injection set\nRecord the Alarm time reading\nRemove Test plug type RTXH18 from Test socket type RTXP 18 at the relay (a48G)\nData description | Setting range | Setting value | Recorded value\nUasic current | 0.7 : 1.1 I n | 0.91 I n | \nAlarm level | 1 : 9% I n | I 2 > 4 % | \nStart level | 1 : 16% I 2 | I 2 > 4 % | \nTime constant | 1 : 63 s | 8 s | \nAlarm delay time | 0.1 or 6 s | 6 s | \nSite name: Equipment code:\nInspected by: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }

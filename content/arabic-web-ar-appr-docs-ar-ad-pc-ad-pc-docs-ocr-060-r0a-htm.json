@@ -1,7 +1,7 @@
 {
  "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-ocr-060-r0a-htm",
  "doc_number": "OCR-060-R0A",
- "title_en": "",
+ "title_en": "OCR-060-R0A — APPROVED",
  "title_ar": "OCR-060-r0a \nAPPROVED",
  "category": "arabic_web",
  "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/OCR-060-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -425,5 +426,371 @@
    "src": "../../../../images/mpis-1.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: OCR-060-r0a",
+     "Equipment: Overcurrent protection IO-C-B1, IO-CI-B1, IO-L-B1, Hitachi"
+    ],
+    [
+     "Issued to: Damanhour Combined Cycle"
+    ],
+    [
+     "Status: Approved"
+    ],
+    [
+     "Approval date: 26 April 2007",
+     "Procedure: Using the a3/TRE-F (ISA) secondary injection test set"
+    ],
+    [
+     "Next review date: April 2012"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps for the overcurrent protection devices mentioned above. The first draft of this document was prepared by Eng. Gehan Abdel Monsef, and the field test was carried out by Eng. Mokhles Mahmoud Refaei. It was approved by Eng. Mahmoud Saad Balbaa, Sector Head, and reviewed and documented by Eng. Mona El-Sharkawy, Senior Engineering Consultant and Coordinator of the Maintenance Procedures Information System at the West Delta Electricity Production Company."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Open a work order.",
+    "Fence off the work area and place warning signs.",
+    "Ensure that the circuit breaker of the bay on which the protection device mentioned is installed is open.",
+    "Follow the occupational safety and health instructions for the safety of personnel and equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Instruments and Equipment Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Secondary injection test set, model a3/TRE-F (ISA)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring instrument, FLUKE 83 I,V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi-range ammeters, model VEB, HB"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test socket, model TP Form 2, for the protection devices mentioned"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set, model a3/TRE-F (ISA)",
+    "Measuring instrument, FLUKE 83 I,V",
+    "Multi-range ammeters, model VEB, HB",
+    "Test leads",
+    "Test socket, model TP Form 2, for the protection devices mentioned"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the IO-C-B1 overcurrent protection device"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Insert the test socket into its designated place in the relay.",
+     "1."
+    ],
+    [
+     "Short-circuit points (7-14, 8-13) on the socket.",
+     "2."
+    ],
+    [
+     "Connect the current injection leads between the injection test set and the test socket as follows: (R-1, N-2).",
+     "3."
+    ],
+    [
+     "Connect the timer leads to points (8, 7) on the test socket.",
+     "4."
+    ],
+    [
+     "Switch the injection test set On, raise the current gradually and record the pick-up value of the device (start of movement of the device disc).",
+     "5."
+    ],
+    [
+     "Reduce the injection current gradually until the device disc moves in the reverse direction, and record the reset value.",
+     "6."
+    ],
+    [
+     "To calculate the time recording of the device, do the following: raise the current to the preset setting value on the relay (as per the previous connection); switch the injection test set Off; set the timer and reset it (as per the previous connection); switch the injection test set On and note the start of the timer; the injection test set will switch off automatically when the timer stops; record the time delay.",
+     "7."
+    ],
+    [
+     "Repeat the previous steps (1-7) to test the electrical protection devices installed on phases S and T, and record the results.",
+     "8."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the IO-C1-B1 overcurrent protection device"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Move the test socket to the device installed on phase R, model (IO-C1-B1).",
+     "1."
+    ],
+    [
+     "Add a short circuit between points (9-12) and (10-11) on the test socket.",
+     "2."
+    ],
+    [
+     "Follow the same previous steps (1 to 7) to test the overcurrent protection element of the device.",
+     "3."
+    ],
+    [
+     "To test the short-circuit current protection element of the device, raise the current to the preset setting value using the same connection points, and record and note the PICK-UP and RESET values.",
+     "4."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the earth leakage protection device (IO-L-B1)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Follow the same previous steps (1 to 7) after moving the test socket to the earth leakage protection device, model IO-L-B1, removing the short circuit between (9-12, 10-11) on the test socket, noting that for step 7 the current is raised to the preset setting value on the relay (SETTING).",
+     "1."
+    ],
+    [
+     "Record the pick-up, reset and time delay values.",
+     "2."
+    ],
+    [
+     "Record the above results on the Test Sheet, sign it and write the test date.",
+     "3."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Over current relay technical data"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "DC 110",
+     "Aux-Supply",
+     "IO-C-B1",
+     "Relay type"
+    ],
+    [
+     "1.5 A",
+     "Contact rating",
+     "(0.6-0.8-1-1.2-1.4-1.6-2-2.4)A",
+     "Current setting range"
+    ],
+    [
+     "15 A",
+     "Max. Contact rating",
+     "(0 10 )",
+     "Time setting range Curve"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Over current relay test sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Remarks",
+     "Relay Results",
+     "Ph",
+     "Relay Setting",
+     "Date"
+    ],
+    [
+     "Rest factor",
+     "Time",
+     "Pick up Reset"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "R",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "T"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "R",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "T"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "R",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "T"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Ground relay technical data"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "(0-10)",
+     "Time Setting (TDS)",
+     "IO-FORM-L-B1",
+     "Relay type"
+    ],
+    [
+     "2A",
+     "Rated current"
+    ],
+    [
+     "110 Vdc",
+     "Aux-Supply",
+     "(0.2-0.25-0.35-0.5-0.7-1-1.4-2)",
+     "Current setting range"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Ground relay test sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Date",
+     "Setting",
+     "Relay Results",
+     "Remarks"
+    ],
+    [
+     "Pick up Reset",
+     "Time",
+     "Rest factor"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Station name: Device code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection | Maintenance Procedures\nDocument No.: OCR-060-r0a | Equipment: Overcurrent protection IO-C-B1, IO-CI-B1, IO-L-B1, Hitachi\nIssued to: Damanhour Combined Cycle\nStatus: Approved\nApproval date: 26 April 2007 | Procedure: Using the a3/TRE-F (ISA) secondary injection test set\nNext review date: April 2012\nIntroduction\nThis document sets out the test steps for the overcurrent protection devices mentioned above. The first draft of this document was prepared by Eng. Gehan Abdel Monsef, and the field test was carried out by Eng. Mokhles Mahmoud Refaei. It was approved by Eng. Mahmoud Saad Balbaa, Sector Head, and reviewed and documented by Eng. Mona El-Sharkawy, Senior Engineering Consultant and Coordinator of the Maintenance Procedures Information System at the West Delta Electricity Production Company.\nSafety Precautions\nOpen a work order.\nFence off the work area and place warning signs.\nEnsure that the circuit breaker of the bay on which the protection device mentioned is installed is open.\nFollow the occupational safety and health instructions for the safety of personnel and equipment.\nTools, Instruments and Equipment Used\nSecondary injection test set, model a3/TRE-F (ISA)\nMeasuring instrument, FLUKE 83 I,V\nMulti-range ammeters, model VEB, HB\nTest leads\nTest socket, model TP Form 2, for the protection devices mentioned\nSecondary injection test set, model a3/TRE-F (ISA)\nMeasuring instrument, FLUKE 83 I,V\nMulti-range ammeters, model VEB, HB\nTest leads\nTest socket, model TP Form 2, for the protection devices mentioned\nProcedures to be Carried Out\nTesting the IO-C-B1 overcurrent protection device\nInsert the test socket into its designated place in the relay. | 1.\nShort-circuit points (7-14, 8-13) on the socket. | 2.\nConnect the current injection leads between the injection test set and the test socket as follows: (R-1, N-2). | 3.\nConnect the timer leads to points (8, 7) on the test socket. | 4.\nSwitch the injection test set On, raise the current gradually and record the pick-up value of the device (start of movement of the device disc). | 5.\nReduce the injection current gradually until the device disc moves in the reverse direction, and record the reset value. | 6.\nTo calculate the time recording of the device, do the following: raise the current to the preset setting value on the relay (as per the previous connection); switch the injection test set Off; set the timer and reset it (as per the previous connection); switch the injection test set On and note the start of the timer; the injection test set will switch off automatically when the timer stops; record the time delay. | 7.\nRepeat the previous steps (1-7) to test the electrical protection devices installed on phases S and T, and record the results. | 8.\nTesting the IO-C1-B1 overcurrent protection device\nMove the test socket to the device installed on phase R, model (IO-C1-B1). | 1.\nAdd a short circuit between points (9-12) and (10-11) on the test socket. | 2.\nFollow the same previous steps (1 to 7) to test the overcurrent protection element of the device. | 3.\nTo test the short-circuit current protection element of the device, raise the current to the preset setting value using the same connection points, and record and note the PICK-UP and RESET values. | 4.\nTesting the earth leakage protection device (IO-L-B1)\nFollow the same previous steps (1 to 7) after moving the test socket to the earth leakage protection device, model IO-L-B1, removing the short circuit between (9-12, 10-11) on the test socket, noting that for step 7 the current is raised to the preset setting value on the relay (SETTING). | 1.\nRecord the pick-up, reset and time delay values. | 2.\nRecord the above results on the Test Sheet, sign it and write the test date. | 3.\nTest Sheet\nOver current relay technical data\nDC 110 | Aux-Supply | IO-C-B1 | Relay type\n1.5 A | Contact rating | (0.6-0.8-1-1.2-1.4-1.6-2-2.4)A | Current setting range\n15 A | Max. Contact rating | (0 10 ) | Time setting range Curve\nOver current relay test sheet\nRemarks | Relay Results | Ph | Relay Setting | Date\nRest factor | Time | Pick up Reset\n |  |  |  | R |  | \n |  |  | S\n |  |  | T\n |  |  |  | R |  | \n |  |  | S\n |  |  | T\n |  |  |  | R |  | \n |  |  | S\n |  |  | T\nGround relay technical data\n(0-10) | Time Setting (TDS) | IO-FORM-L-B1 | Relay type\n2A | Rated current\n110 Vdc | Aux-Supply | (0.2-0.25-0.35-0.5-0.7-1-1.4-2) | Current setting range\nGround relay test sheet\nDate | Setting | Relay Results | Remarks\nPick up Reset | Time | Rest factor\nStation name: Device code:\nTested by: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }

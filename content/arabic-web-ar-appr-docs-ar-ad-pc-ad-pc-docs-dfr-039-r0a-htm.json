@@ -1,7 +1,7 @@
 {
  "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-dfr-039-r0a-htm",
  "doc_number": "DFR-039-R0A",
- "title_en": "",
+ "title_en": "DfR-039-r0a APPROVED",
  "title_ar": "DfR-039-r0a \nمعتمد",
  "category": "arabic_web",
  "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/DfR-039-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -443,5 +444,389 @@
    "src": "../../../../images/mpis-1.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: DfR-039-r0a",
+     "Equipment: Differential protection on the unit busbars in the 6.3 kV system, ICO1F-AT2H, TOSHIBA"
+    ],
+    [
+     "Issued to: Assiut Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 9 August 2006",
+     "Procedure: Using the Severker 650 set"
+    ],
+    [
+     "Next review date: August 2011"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft of this document was prepared by Eng. Ali Hussein Farrag; the field test was carried out by Eng. Ali Hussein Farrag and Eng. Osama Fathy Abdel Karim; approved by Eng. Abdel Nasser Maarouf Ahmed, General Manager, endorsed by Eng. Ibrahim El-Shahat Ibrahim, Head of the Sector, and documented by Eng. Gamal Abdel Wahab, Head of the Quality Sector and MPIS Coordinator at the Upper Egypt Electricity Production Company."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Open a work order and provide occupational safety and health category cards."
+  },
+  {
+   "type": "paragraph",
+   "text": "Fence off the work area and place the appropriate warning signs."
+  },
+  {
+   "type": "paragraph",
+   "text": "Follow the occupational safety and health instructions for the safety of personnel and equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The unit is shut down and the generator is out of service."
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test comb, Test Plug type XRT-1",
+    "AC V-A current measuring instrument, type YOKOGAWA",
+    "Clamp Meter, type Kew Snap 2002 (KYORITSU)",
+    "Voltage and current injection set, type Severker 650",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "First: Precautionary procedures"
+    ],
+    [
+     "Make a direct connection (Jumper) between terminals (11,12,13,14) on both Test Plug type HP2-C4",
+     "1."
+    ],
+    [
+     "Place both HP2-C4 Test Plug type in HR2A-C4 type Test Socket in I(87) Incoming, (87) M/C Bus to short the CT circuits",
+     "2."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Second: Measuring the relay operating current setting value:"
+    ],
+    [
+     "Remove the relay cover and withdraw the relay contact comb from the CT secondary terminals",
+     "1."
+    ],
+    [
+     "Clean the relay and the cubicle with the air blower",
+     "2."
+    ],
+    [
+     "Make a direct connection (Jumper) between terminals (11,12), (13,14), (15,16) on the CT side on Test Plug type XRT-1",
+     "3."
+    ],
+    [
+     "Place Test Plug type XRT-1 in place of the contact comb inside the relay",
+     "4."
+    ],
+    [
+     "Connect the current injection terminals to terminals (5, 6) on Test Plug type XRT-1",
+     "5."
+    ],
+    [
+     "Switch on the Severker 650 injection set",
+     "6."
+    ],
+    [
+     "Raise the current gradually until you notice the upper relay disc for phase R move",
+     "7."
+    ],
+    [
+     "Record the relay operating current value for phase R",
+     "8."
+    ],
+    [
+     "Reduce the current value to zero, then disconnect the Severker 650 injection set",
+     "9."
+    ],
+    [
+     "Connect the current injection terminals to terminals (7, 8) on Test Plug type XRT-1",
+     "10."
+    ],
+    [
+     "Switch on the Severker 650 injection set",
+     "11."
+    ],
+    [
+     "Raise the current gradually until you notice the middle relay disc for phase S move",
+     "12."
+    ],
+    [
+     "Record the relay operating current value for phase S",
+     "13."
+    ],
+    [
+     "Reduce the current value to zero, then disconnect the Severker 650 injection set",
+     "14."
+    ],
+    [
+     "Connect the current injection terminals to terminals (9, 10) on Test Plug type XRT-1",
+     "15."
+    ],
+    [
+     "Switch on the Severker 650 injection set",
+     "16."
+    ],
+    [
+     "Raise the current gradually until you notice the lower relay disc for phase T move",
+     "17."
+    ],
+    [
+     "Record the relay operating current value for phase T",
+     "18."
+    ],
+    [
+     "Reduce the current value to zero, then disconnect the Severker 650 injection set",
+     "19."
+    ],
+    [
+     "Third: Measuring the current-time relationship on phase R"
+    ],
+    [
+     "Connect the Stop terminals from the Severker 650 injection set to terminals (1, 2) on the Test Plug",
+     "1."
+    ],
+    [
+     "Connect the current injection terminals to terminals (5, 6) on Test Plug XRT-1",
+     "2."
+    ],
+    [
+     "Switch on the Severker 650 injection set",
+     "3."
+    ],
+    [
+     "Set the injection current to twice the Setting Value",
+     "4."
+    ],
+    [
+     "Disconnect the Severker 650 injection set",
+     "5."
+    ],
+    [
+     "Reset the time counter display on the Severker 650 injection set",
+     "6."
+    ],
+    [
+     "Set the Severker 650 injection set switch to the (ON Time) position",
+     "7."
+    ],
+    [
+     "Record the relay operating time corresponding to twice the Setting Value for phase R (note that the Severker 650 injection set disconnects automatically after the relay operates)",
+     "8."
+    ],
+    [
+     "Fourth: Measuring the current-time relationship on phase S"
+    ],
+    [
+     "Connect the current injection terminals to terminals (7, 8) on XRT-1 type Test Plug",
+     "1."
+    ],
+    [
+     "Switch on the Severker 650 injection set",
+     "2."
+    ],
+    [
+     "Set the injection current to twice the Setting Value",
+     "3."
+    ],
+    [
+     "Disconnect the Severker 650 injection set",
+     "4."
+    ],
+    [
+     "Reset the time counter display on the Severker 650 injection set",
+     "5."
+    ],
+    [
+     "Set the Severker 650 injection set switch to the (ON Time) position",
+     "6."
+    ],
+    [
+     "Record the relay operating time corresponding to twice the Setting Value for phase S (note that the Severker 650 injection set disconnects automatically after the relay operates)",
+     "7."
+    ],
+    [
+     "Fifth: Measuring the current-time relationship on phase T"
+    ],
+    [
+     "Connect the current injection terminals to terminals (9, 10) on the XRT-1 test comb",
+     "1."
+    ],
+    [
+     "Switch on the Severker 650 injection set",
+     "2."
+    ],
+    [
+     "Set the injection current to twice the Setting Value",
+     "3."
+    ],
+    [
+     "Disconnect the Severker 650 injection set",
+     "4."
+    ],
+    [
+     "Reset the time counter display on the Severker 650 injection set",
+     "5."
+    ],
+    [
+     "Set the Severker 650 injection set switch to the (ON Time) position",
+     "6."
+    ],
+    [
+     "Record the relay operating time corresponding to twice the Setting Value for phase T (note that the Severker 650 injection set disconnects automatically after the relay operates)",
+     "7."
+    ],
+    [
+     "Repeat steps 22 to 43 with the injection current set to 3 times the Setting Value",
+     "8."
+    ],
+    [
+     "Reduce the current value to zero, then disconnect the Severker 650 injection set",
+     "9."
+    ],
+    [
+     "Reset all the signals on the relay",
+     "10."
+    ],
+    [
+     "Withdraw the XRT-1 type Test Plug from the relay",
+     "11."
+    ],
+    [
+     "Fit the relay contact comb to the CT secondary terminals inside the relay",
+     "12."
+    ],
+    [
+     "Fit the relay cover",
+     "13."
+    ],
+    [
+     "Remove both HP2-C4 Test Plug type from Test Socket type HR2A-C4 in I(87) Incoming, (87) M/C Bus",
+     "14."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "Equipment:: 6.3KV UNIT M/C-B"
+  },
+  {
+   "type": "paragraph",
+   "text": "Type : ICOIF - AT2H"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rating : 5A - 50HZ"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Name of Feeder",
+     "RY. No.",
+     "DEV. No.",
+     "Setting",
+     "Operating Value (A)",
+     "Operating Time (Sec)",
+     "INST.(A)"
+    ],
+    [
+     "200%",
+     "300%",
+     ""
+    ],
+    [
+     "Unit P/C TR-B",
+     "M200A",
+     "50-51UB2",
+     "INDU=16A TD=3 INST=40A",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Unit Incoming B",
+     "M240",
+     "87U1-2",
+     "INDU=10A TD=4 INST=not used",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Protection device code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: DfR-039-r0a | Equipment: Differential protection on the unit busbars in the 6.3 kV system, ICO1F-AT2H, TOSHIBA\nIssued to: Assiut Power Station\nStatus: APPROVED\nApproval date: 9 August 2006 | Procedure: Using the Severker 650 set\nNext review date: August 2011\nIntroduction\nThe first draft of this document was prepared by Eng. Ali Hussein Farrag; the field test was carried out by Eng. Ali Hussein Farrag and Eng. Osama Fathy Abdel Karim; approved by Eng. Abdel Nasser Maarouf Ahmed, General Manager, endorsed by Eng. Ibrahim El-Shahat Ibrahim, Head of the Sector, and documented by Eng. Gamal Abdel Wahab, Head of the Quality Sector and MPIS Coordinator at the Upper Egypt Electricity Production Company.\nSafety Precautions\nOpen a work order and provide occupational safety and health category cards.\nFence off the work area and place the appropriate warning signs.\nFollow the occupational safety and health instructions for the safety of personnel and equipment.\nThe unit is shut down and the generator is out of service.\nTools, Equipment and Instruments Used\nTest comb, Test Plug type XRT-1\nAC V-A current measuring instrument, type YOKOGAWA\nClamp Meter, type Kew Snap 2002 (KYORITSU)\nVoltage and current injection set, type Severker 650\nTest leads\nWork Steps to be Carried Out\nFirst: Precautionary procedures\nMake a direct connection (Jumper) between terminals (11,12,13,14) on both Test Plug type HP2-C4 | 1.\nPlace both HP2-C4 Test Plug type in HR2A-C4 type Test Socket in I(87) Incoming, (87) M/C Bus to short the CT circuits | 2.\nSecond: Measuring the relay operating current setting value:\nRemove the relay cover and withdraw the relay contact comb from the CT secondary terminals | 1.\nClean the relay and the cubicle with the air blower | 2.\nMake a direct connection (Jumper) between terminals (11,12), (13,14), (15,16) on the CT side on Test Plug type XRT-1 | 3.\nPlace Test Plug type XRT-1 in place of the contact comb inside the relay | 4.\nConnect the current injection terminals to terminals (5, 6) on Test Plug type XRT-1 | 5.\nSwitch on the Severker 650 injection set | 6.\nRaise the current gradually until you notice the upper relay disc for phase R move | 7.\nRecord the relay operating current value for phase R | 8.\nReduce the current value to zero, then disconnect the Severker 650 injection set | 9.\nConnect the current injection terminals to terminals (7, 8) on Test Plug type XRT-1 | 10.\nSwitch on the Severker 650 injection set | 11.\nRaise the current gradually until you notice the middle relay disc for phase S move | 12.\nRecord the relay operating current value for phase S | 13.\nReduce the current value to zero, then disconnect the Severker 650 injection set | 14.\nConnect the current injection terminals to terminals (9, 10) on Test Plug type XRT-1 | 15.\nSwitch on the Severker 650 injection set | 16.\nRaise the current gradually until you notice the lower relay disc for phase T move | 17.\nRecord the relay operating current value for phase T | 18.\nReduce the current value to zero, then disconnect the Severker 650 injection set | 19.\nThird: Measuring the current-time relationship on phase R\nConnect the Stop terminals from the Severker 650 injection set to terminals (1, 2) on the Test Plug | 1.\nConnect the current injection terminals to terminals (5, 6) on Test Plug XRT-1 | 2.\nSwitch on the Severker 650 injection set | 3.\nSet the injection current to twice the Setting Value | 4.\nDisconnect the Severker 650 injection set | 5.\nReset the time counter display on the Severker 650 injection set | 6.\nSet the Severker 650 injection set switch to the (ON Time) position | 7.\nRecord the relay operating time corresponding to twice the Setting Value for phase R (note that the Severker 650 injection set disconnects automatically after the relay operates) | 8.\nFourth: Measuring the current-time relationship on phase S\nConnect the current injection terminals to terminals (7, 8) on XRT-1 type Test Plug | 1.\nSwitch on the Severker 650 injection set | 2.\nSet the injection current to twice the Setting Value | 3.\nDisconnect the Severker 650 injection set | 4.\nReset the time counter display on the Severker 650 injection set | 5.\nSet the Severker 650 injection set switch to the (ON Time) position | 6.\nRecord the relay operating time corresponding to twice the Setting Value for phase S (note that the Severker 650 injection set disconnects automatically after the relay operates) | 7.\nFifth: Measuring the current-time relationship on phase T\nConnect the current injection terminals to terminals (9, 10) on the XRT-1 test comb | 1.\nSwitch on the Severker 650 injection set | 2.\nSet the injection current to twice the Setting Value | 3.\nDisconnect the Severker 650 injection set | 4.\nReset the time counter display on the Severker 650 injection set | 5.\nSet the Severker 650 injection set switch to the (ON Time) position | 6.\nRecord the relay operating time corresponding to twice the Setting Value for phase T (note that the Severker 650 injection set disconnects automatically after the relay operates) | 7.\nRepeat steps 22 to 43 with the injection current set to 3 times the Setting Value | 8.\nReduce the current value to zero, then disconnect the Severker 650 injection set | 9.\nReset all the signals on the relay | 10.\nWithdraw the XRT-1 type Test Plug from the relay | 11.\nFit the relay contact comb to the CT secondary terminals inside the relay | 12.\nFit the relay cover | 13.\nRemove both HP2-C4 Test Plug type from Test Socket type HR2A-C4 in I(87) Incoming, (87) M/C Bus | 14.\nTest Sheet\nEquipment:: 6.3KV UNIT M/C-B\nType : ICOIF - AT2H\nRating : 5A - 50HZ\nName of Feeder | RY. No. | DEV. No. | Setting | Operating Value (A) | Operating Time (Sec) | INST.(A)\n200% | 300% | \nUnit P/C TR-B | M200A | 50-51UB2 | INDU=16A TD=3 INST=40A |  |  |  |  | \nUnit Incoming B | M240 | 87U1-2 | INDU=10A TD=4 INST=not used |  |  |  |  | \nSite name: Protection device code:\nTested by: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }

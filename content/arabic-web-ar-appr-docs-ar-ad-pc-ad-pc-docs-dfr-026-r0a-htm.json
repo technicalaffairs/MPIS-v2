@@ -1,7 +1,7 @@
 {
  "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-dfr-026-r0a-htm",
  "doc_number": "DFR-026-R0A",
- "title_en": "",
+ "title_en": "DfR-026-r0a APPROVED",
  "title_ar": "DfR-026-r0a \nمعتمد",
  "category": "arabic_web",
  "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/DFR-026-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -803,5 +804,737 @@
    "src": "graphics/DFR-026-02.jpg",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: DfR-026-r0a",
+     "Equipment: Differential protection, x87GT, TYPE- TBT11B-TU2K, Toshiba"
+    ],
+    [
+     "Issued to: Assiut Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 13 September 2005",
+     "Procedure: Using a current and voltage injection set, type PHU-100"
+    ],
+    [
+     "Next review date: September 2010"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps for the generator reverse power protection device for the main generator. The first draft of this document was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 9/5/2005."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "The unit is shut down and the generator is out of service."
+  },
+  {
+   "type": "paragraph",
+   "text": "Open a work order and provide occupational safety and health category cards."
+  },
+  {
+   "type": "paragraph",
+   "text": "Fence off the work area and place the appropriate warning signs."
+  },
+  {
+   "type": "paragraph",
+   "text": "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment."
+  },
+  {
+   "type": "list",
+   "items": [
+    "Follow the industrial safety and occupational health instructions for the safety of personnel and equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "list",
+   "items": [
+    "2 No. PHU-100 current and voltage injection sets",
+    "2 No. 400/200 V, 1 kVA single-phase transformers",
+    "1 No. three-phase switch.",
+    "AVO meter (Fluky 87).",
+    "2 No. AC V-A current measuring instruments, type YOKOGAWA",
+    "Test leads",
+    "1 No. Digital Phase Meter (KDK DPF-30N)",
+    "1 No. time counter (Time Counter)",
+    "Contact cleaning tools (Spray CROWN -8276)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Remove the front cover of the relay",
+     "1."
+    ],
+    [
+     "Open the cubicle from the back",
+     "2."
+    ],
+    [
+     "Isolate the DC supply feeding the relay by opening the two fuses feeding the relay",
+     "3."
+    ],
+    [
+     "Disconnect terminals T5:44,46 inside cubicle 1PRP to prevent disabling the generator cooling water system",
+     "4."
+    ],
+    [
+     "Disconnect all the current terminals from the relay as shown in Table No. 1",
+     "5."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Table No. (1)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Return terminal",
+     "Wire marking colour",
+     "Number on the wire",
+     "Number on the relay"
+    ],
+    [
+     "4 CG016MR4",
+     "",
+     "Red",
+     "CG016TG1",
+     "3"
+    ],
+    [
+     "6",
+     "Yellow",
+     "CG016TH2",
+     "5"
+    ],
+    [
+     "8",
+     "Blue",
+     "CG016TJ3",
+     "7"
+    ],
+    [
+     "10",
+     "Red",
+     "CG016TN1",
+     "9"
+    ],
+    [
+     "12",
+     "Yellow",
+     "CG016TP2",
+     "11"
+    ],
+    [
+     "14",
+     "Blue",
+     "CG016TQ3",
+     "13"
+    ],
+    [
+     "16",
+     "Red",
+     "CG016TR1",
+     "15"
+    ],
+    [
+     "18",
+     "Yellow",
+     "CG016TS2",
+     "17"
+    ],
+    [
+     "20",
+     "Blue",
+     "CG016TT3",
+     "19"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Withdraw the relay from the cubicle",
+     "6."
+    ],
+    [
+     "Clean the relay of dust using the air blower.",
+     "7."
+    ],
+    [
+     "Clean the contacts using (Spray Crown - 8276)",
+     "8."
+    ],
+    [
+     "Return the relay to the cubicle.",
+     "9."
+    ],
+    [
+     "Connect the two fuses to restore the relay supply",
+     "10."
+    ],
+    [
+     "Connect the circuit as shown in the attached figure",
+     "11."
+    ],
+    [
+     "Make one of the two PHU-100 sets called Ia and the other called Ib",
+     "12."
+    ],
+    [
+     "Set the PHU-100 Ia set to an angle (INPUT CURRENT) 0.0°",
+     "13."
+    ],
+    [
+     "Set the PHU-100 Ib set to an angle (OUT GOING CURRENT) 180°",
+     "14."
+    ],
+    [
+     "Check the setting values as shown in Table (2)",
+     "15."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Table No. (2)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "DESIGNATION",
+     "OVER ALL DIFF RELAY",
+     "DEV. NO.",
+     "87GT"
+    ],
+    [
+     "ACTION",
+     "UNIT TRIP"
+    ],
+    [
+     "RATING A",
+     "1A,50Hz MATCH 0.58 TO 1.7A % SLOPE 15-25-40% HOC 200 TO 800% OF MATCH TAP",
+     "INSTRUCTION",
+     "6F2S0623"
+    ],
+    [
+     "SETTING VALUE",
+     "MATCH I1 = 0.76, I2 = 0.92, I3 = 0.92 SLOPE 40% HOC 600%",
+     "PURPOSE",
+     "GENERATOR A, UNIE TR. AND MIAN TR. DIFF PROTECTION"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "First: Measurement of Differential Element Min. Operating Values"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Use only one injector for this measurement",
+     "16."
+    ],
+    [
+     "BLOCK the overcurrent (HOC) element",
+     "17."
+    ],
+    [
+     "Inject at the points as shown in Table (3)",
+     "18."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Table No. (3)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "I3 = 0.92",
+     "I2 = 0.92",
+     "I1 = 0.76",
+     "Setting values"
+    ],
+    [
+     "R",
+     "Y",
+     "B",
+     "R",
+     "Y",
+     "B",
+     "R",
+     "Y",
+     "B",
+     "Phase"
+    ],
+    [
+     "15,16",
+     "19,20",
+     "17.18",
+     "9,10",
+     "11,12",
+     "13,14",
+     "3,4",
+     "5,6",
+     "7,8",
+     "Injection points"
+    ],
+    [
+     "0.92 x 0.3",
+     "0.92 x 0.3",
+     "0.92 x 0.3",
+     "0.92 x 0.3",
+     "0.92 x 0.3",
+     "0.92 x 0.3",
+     "0.76 x 0.3",
+     "0.76 x 0.3",
+     "0.76 x 0.3",
+     "Expected value"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Measured value"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Raise the current value slowly until the differential element operating signal appears",
+     "19."
+    ],
+    [
+     "Record the current values",
+     "20."
+    ],
+    [
+     "Note that the operating values = 0.3 x the setting values on the relay.",
+     "21."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Second: Testing the overcurrent (HOC) element"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Use only one injector for this measurement",
+     "22."
+    ],
+    [
+     "BLOCK the differential (DIFFERENTIAL) element",
+     "23."
+    ],
+    [
+     "Release the overcurrent (HOC) element",
+     "24."
+    ],
+    [
+     "Inject at the points as shown in Table (4)",
+     "25."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Table No. (4)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Current",
+     "Injection points",
+     "Measured value",
+     "HOC SETTING",
+     "Remarks"
+    ],
+    [
+     "I1",
+     "3,4",
+     "",
+     "6",
+     ""
+    ],
+    [
+     "I2",
+     "9,10",
+     "",
+     "6",
+     ""
+    ],
+    [
+     "I3",
+     "15,16",
+     "",
+     "6",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Raise the current value until the overcurrent (HOC) operating signal appears",
+     "26."
+    ],
+    [
+     "Record the current values",
+     "27."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Third: Testing the Percentage Characteristics"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Release the differential element",
+     "28."
+    ],
+    [
+     "BLOCK the overcurrent (HOC) element",
+     "29."
+    ],
+    [
+     "Inject at the points as shown in Table (5)",
+     "30."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Table No. (5)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Phase",
+     "Injection side",
+     "Injection set",
+     "Injection points",
+     "Injection current",
+     "Slope setting value",
+     "Design value (Ia - Ib)",
+     "Measured value (Ia - Ib)",
+     "To find the difference between the two currents,",
+     "Remarks"
+    ],
+    [
+     "R",
+     "I1",
+     "Ia",
+     "3,4",
+     "2 x I1 setting",
+     "40 %",
+     "0.516",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I2",
+     "Ib",
+     "9,10",
+     "2 x I2 setting",
+     "40 %",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I2",
+     "Ia",
+     "9,10",
+     "2 x I2 setting",
+     "40 %",
+     "1.012",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I3",
+     "Ib",
+     "15,16",
+     "2 x I3 setting",
+     "40 %",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I3",
+     "Ia",
+     "15,16",
+     "2 x I3 setting",
+     "40 %",
+     "1.332",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I1",
+     "Ib",
+     "3,4",
+     "2 x I1 setting",
+     "40 %",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "Y",
+     "I1",
+     "Ia",
+     "5,6",
+     "2 x I1 setting",
+     "40 %",
+     "0.516",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I2",
+     "Ib",
+     "11,12",
+     "2 x I2 setting",
+     "40 %",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I2",
+     "Ia",
+     "11,12",
+     "2 x I2 setting",
+     "40 %",
+     "1.012",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I3",
+     "Ib",
+     "17,18",
+     "2 x I3 setting",
+     "40 %",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I3",
+     "Ia",
+     "17,18",
+     "2 x I3 setting",
+     "40 %",
+     "1.332",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I1",
+     "Ib",
+     "5,6",
+     "2 x I1 setting",
+     "40 %",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "B",
+     "I1",
+     "Ia",
+     "7,8",
+     "2 x I1 setting",
+     "40 %",
+     "0.516",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I2",
+     "Ib",
+     "13,14",
+     "2 x I2 setting",
+     "40 %",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I2",
+     "Ia",
+     "13,14",
+     "2 x I2 setting",
+     "40 %",
+     "1.012",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I3",
+     "Ib",
+     "19,20",
+     "2 x I3 setting",
+     "40 %",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I3",
+     "Ia",
+     "19,20",
+     "2 x I3 setting",
+     "40 %",
+     "1.332",
+     "",
+     "Increase Ia",
+     ""
+    ],
+    [
+     "I1",
+     "Ib",
+     "7,8",
+     "2 x I1 setting",
+     "40 %",
+     "",
+     "Increase Ia",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Calculate the value (Ia - Ib) and record the value",
+     "31."
+    ],
+    [
+     "Release the overcurrent (HOC) element",
+     "32."
+    ],
+    [
+     "Refit the glass cover of the relay",
+     "33."
+    ],
+    [
+     "RESET the relay and the LOCK OUT RELAY",
+     "34."
+    ],
+    [
+     "Verify that all terminals are restored as shown in Table No. (1)",
+     "35."
+    ],
+    [
+     "Connect terminals T5:44,46 inside cubicle 1PRP",
+     "36."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Protection device code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: DfR-026-r0a | Equipment: Differential protection, x87GT, TYPE- TBT11B-TU2K, Toshiba\nIssued to: Assiut Power Station\nStatus: APPROVED\nApproval date: 13 September 2005 | Procedure: Using a current and voltage injection set, type PHU-100\nNext review date: September 2010\nIntroduction\nThis document sets out the test steps for the generator reverse power protection device for the main generator. The first draft of this document was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 9/5/2005.\nSafety Precautions\nThe unit is shut down and the generator is out of service.\nOpen a work order and provide occupational safety and health category cards.\nFence off the work area and place the appropriate warning signs.\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment.\nFollow the industrial safety and occupational health instructions for the safety of personnel and equipment.\nTools, Equipment and Instruments Used\n2 No. PHU-100 current and voltage injection sets\n2 No. 400/200 V, 1 kVA single-phase transformers\n1 No. three-phase switch.\nAVO meter (Fluky 87).\n2 No. AC V-A current measuring instruments, type YOKOGAWA\nTest leads\n1 No. Digital Phase Meter (KDK DPF-30N)\n1 No. time counter (Time Counter)\nContact cleaning tools (Spray CROWN -8276)\nWork Steps to be Carried Out\nRemove the front cover of the relay | 1.\nOpen the cubicle from the back | 2.\nIsolate the DC supply feeding the relay by opening the two fuses feeding the relay | 3.\nDisconnect terminals T5:44,46 inside cubicle 1PRP to prevent disabling the generator cooling water system | 4.\nDisconnect all the current terminals from the relay as shown in Table No. 1 | 5.\nTable No. (1)\nReturn terminal | Wire marking colour | Number on the wire | Number on the relay\n4 CG016MR4 |  | Red | CG016TG1 | 3\n6 | Yellow | CG016TH2 | 5\n8 | Blue | CG016TJ3 | 7\n10 | Red | CG016TN1 | 9\n12 | Yellow | CG016TP2 | 11\n14 | Blue | CG016TQ3 | 13\n16 | Red | CG016TR1 | 15\n18 | Yellow | CG016TS2 | 17\n20 | Blue | CG016TT3 | 19\nWithdraw the relay from the cubicle | 6.\nClean the relay of dust using the air blower. | 7.\nClean the contacts using (Spray Crown - 8276) | 8.\nReturn the relay to the cubicle. | 9.\nConnect the two fuses to restore the relay supply | 10.\nConnect the circuit as shown in the attached figure | 11.\nMake one of the two PHU-100 sets called Ia and the other called Ib | 12.\nSet the PHU-100 Ia set to an angle (INPUT CURRENT) 0.0° | 13.\nSet the PHU-100 Ib set to an angle (OUT GOING CURRENT) 180° | 14.\nCheck the setting values as shown in Table (2) | 15.\nTable No. (2)\nDESIGNATION | OVER ALL DIFF RELAY | DEV. NO. | 87GT\nACTION | UNIT TRIP\nRATING A | 1A,50Hz MATCH 0.58 TO 1.7A % SLOPE 15-25-40% HOC 200 TO 800% OF MATCH TAP | INSTRUCTION | 6F2S0623\nSETTING VALUE | MATCH I1 = 0.76, I2 = 0.92, I3 = 0.92 SLOPE 40% HOC 600% | PURPOSE | GENERATOR A, UNIE TR. AND MIAN TR. DIFF PROTECTION\nFirst: Measurement of Differential Element Min. Operating Values\nUse only one injector for this measurement | 16.\nBLOCK the overcurrent (HOC) element | 17.\nInject at the points as shown in Table (3) | 18.\nTable No. (3)\nI3 = 0.92 | I2 = 0.92 | I1 = 0.76 | Setting values\nR | Y | B | R | Y | B | R | Y | B | Phase\n15,16 | 19,20 | 17.18 | 9,10 | 11,12 | 13,14 | 3,4 | 5,6 | 7,8 | Injection points\n0.92 x 0.3 | 0.92 x 0.3 | 0.92 x 0.3 | 0.92 x 0.3 | 0.92 x 0.3 | 0.92 x 0.3 | 0.76 x 0.3 | 0.76 x 0.3 | 0.76 x 0.3 | Expected value\n |  |  |  |  |  |  |  |  | Measured value\nRaise the current value slowly until the differential element operating signal appears | 19.\nRecord the current values | 20.\nNote that the operating values = 0.3 x the setting values on the relay. | 21.\nSecond: Testing the overcurrent (HOC) element\nUse only one injector for this measurement | 22.\nBLOCK the differential (DIFFERENTIAL) element | 23.\nRelease the overcurrent (HOC) element | 24.\nInject at the points as shown in Table (4) | 25.\nTable No. (4)\nCurrent | Injection points | Measured value | HOC SETTING | Remarks\nI1 | 3,4 |  | 6 | \nI2 | 9,10 |  | 6 | \nI3 | 15,16 |  | 6 | \nRaise the current value until the overcurrent (HOC) operating signal appears | 26.\nRecord the current values | 27.\nThird: Testing the Percentage Characteristics\nRelease the differential element | 28.\nBLOCK the overcurrent (HOC) element | 29.\nInject at the points as shown in Table (5) | 30.\nTable No. (5)\nPhase | Injection side | Injection set | Injection points | Injection current | Slope setting value | Design value (Ia - Ib) | Measured value (Ia - Ib) | To find the difference between the two currents, | Remarks\nR | I1 | Ia | 3,4 | 2 x I1 setting | 40 % | 0.516 |  | Increase Ia | \nI2 | Ib | 9,10 | 2 x I2 setting | 40 % |  | Increase Ia | \nI2 | Ia | 9,10 | 2 x I2 setting | 40 % | 1.012 |  | Increase Ia | \nI3 | Ib | 15,16 | 2 x I3 setting | 40 % |  | Increase Ia | \nI3 | Ia | 15,16 | 2 x I3 setting | 40 % | 1.332 |  | Increase Ia | \nI1 | Ib | 3,4 | 2 x I1 setting | 40 % |  | Increase Ia | \nY | I1 | Ia | 5,6 | 2 x I1 setting | 40 % | 0.516 |  | Increase Ia | \nI2 | Ib | 11,12 | 2 x I2 setting | 40 % |  | Increase Ia | \nI2 | Ia | 11,12 | 2 x I2 setting | 40 % | 1.012 |  | Increase Ia | \nI3 | Ib | 17,18 | 2 x I3 setting | 40 % |  | Increase Ia | \nI3 | Ia | 17,18 | 2 x I3 setting | 40 % | 1.332 |  | Increase Ia | \nI1 | Ib | 5,6 | 2 x I1 setting | 40 % |  | Increase Ia | \nB | I1 | Ia | 7,8 | 2 x I1 setting | 40 % | 0.516 |  | Increase Ia | \nI2 | Ib | 13,14 | 2 x I2 setting | 40 % |  | Increase Ia | \nI2 | Ia | 13,14 | 2 x I2 setting | 40 % | 1.012 |  | Increase Ia | \nI3 | Ib | 19,20 | 2 x I3 setting | 40 % |  | Increase Ia | \nI3 | Ia | 19,20 | 2 x I3 setting | 40 % | 1.332 |  | Increase Ia | \nI1 | Ib | 7,8 | 2 x I1 setting | 40 % |  | Increase Ia | \nCalculate the value (Ia - Ib) and record the value | 31.\nRelease the overcurrent (HOC) element | 32.\nRefit the glass cover of the relay | 33.\nRESET the relay and the LOCK OUT RELAY | 34.\nVerify that all terminals are restored as shown in Table No. (1) | 35.\nConnect terminals T5:44,46 inside cubicle 1PRP | 36.\nSite name: Protection device code:\nTested by: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }

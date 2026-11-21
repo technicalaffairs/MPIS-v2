@@ -1,7 +1,7 @@
 {
  "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-ocr-061-r0a-htm",
  "doc_number": "OCR-061-R0A",
- "title_en": "",
+ "title_en": "OCR-061-R0A — APPROVED",
  "title_ar": "OCR-061-r0a \nAPPROVED",
  "category": "arabic_web",
  "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/OCR-061-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -520,5 +521,466 @@
    "src": "../../../../images/mpis-1.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: OCR-061-r0a",
+     "Equipment: Overcurrent and earth leakage protection a50/51/50/51N SPAJ 140C ABB"
+    ],
+    [
+     "Issued to: Damanhour Combined Cycle"
+    ],
+    [
+     "Status: Approved"
+    ],
+    [
+     "Approval date: 26 April 2007",
+     "Procedure: Using the a3/TRE-F (ISA) secondary injection test set"
+    ],
+    [
+     "Next review date: April 2012"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft of this document was prepared by Eng. Gehan Abdel Monsef, and the field test was carried out by Eng. Mokhles Mahmoud Refaei. It was approved by Eng. Mahmoud Saad Balbaa, Sector Head, and reviewed and documented by Eng. Mona El-Sharkawy, Senior Engineering Consultant and Coordinator of the Maintenance Procedures Information System at the West Delta Electricity Production Company."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Open a work order.",
+    "The circuit breaker of the bay on which the protection device mentioned is installed is open.",
+    "Fence off the work area and place warning signs.",
+    "Follow the occupational safety and health instructions for the safety of personnel and equipment."
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Instruments and Equipment Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Secondary injection test set, model a3/TRE-F (ISA)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring instrument, FLUKE 83 I,V"
+  },
+  {
+   "type": "paragraph",
+   "text": "Multi-range ammeters, model VEB, HB"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Secondary injection test set, model a3/TRE-F (ISA)",
+    "Measuring instrument, FLUKE 83 I,V",
+    "Multi-range ammeters, model VEB, HB",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Check that the Uaux lamp, indicating arrival of the supply voltage to the protection device, is lit.",
+     "1."
+    ],
+    [
+     "Connect the current injection leads between the injection test set and the protection device mentioned as follows: N-25, T-8, S-5, R-2.",
+     "2."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the overcurrent protection element of the device"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Set the initial value of the current to be raised on the test switch of the injection test set, x5A.",
+     "1."
+    ],
+    [
+     "Raise the current of phase 'R' gradually until the I>/In lamp on the protection device lights up, and record the pick-up value.",
+     "2."
+    ],
+    [
+     "Reduce the current gradually for the same phase (R) until the I>/In lamp goes out, and record the reset value.",
+     "3."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the time delay of the overcurrent protection element"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect the two timer leads of the injection test set to points 65 and 66 on the protection device.",
+     "1."
+    ],
+    [
+     "Raise the current on phase 'R' to the preset setting value (SETTING) on the relay.",
+     "2."
+    ],
+    [
+     "Switch the injection test set 'Off' at this current.",
+     "3."
+    ],
+    [
+     "Reset the timer.",
+     "4."
+    ],
+    [
+     "Switch the injection test set 'On' at the same previous setting.",
+     "5."
+    ],
+    [
+     "Note the start of the timer count; when it stops, note that the injection test set switches off automatically, with the [Trip, I>/In, t>] lamps lit.",
+     "6."
+    ],
+    [
+     "Record the time delay values and the injection current values at which they were measured.",
+     "7."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the short-circuit overcurrent protection element of the device"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Set the initial value of the current to be raised on the test switch of the injection test set, x5A.",
+     "1."
+    ],
+    [
+     "Raise the current of phase 'R' to the preset setting value and record the value at which the [Trip, I>>/In, t>>] lamps light up.",
+     "2."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the earth leakage protection element of the device"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect the current injection leads between the injection test set and the protection device mentioned as follows: R-25, N-26.",
+     "1."
+    ],
+    [
+     "Set the initial value of the current to be raised on the test switch of the injection test set, x5A.",
+     "2."
+    ],
+    [
+     "Raise the current of phase 'R' gradually until the Io>In lamp lights up, and record the PICK-UP values.",
+     "3."
+    ],
+    [
+     "Reduce the current gradually until the Io>In lamp goes out, and record the RESET value.",
+     "4."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Measuring the time delay of the earth leakage protection element"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect the two timer leads to points 65, 66 on the protection device.",
+     "1."
+    ],
+    [
+     "Raise the current, with the same connections mentioned in item 7, to the device setting value.",
+     "2."
+    ],
+    [
+     "Switch the injection test set 'Off' at this current.",
+     "3."
+    ],
+    [
+     "Reset the timer.",
+     "4."
+    ],
+    [
+     "Switch the injection test set 'On'.",
+     "5."
+    ],
+    [
+     "Note the start of the timer count; when it stops, note that the injection test set switches off automatically, with the [Trip, Io>In, t>] lamps lit.",
+     "6."
+    ],
+    [
+     "Record the time and current values and reset the protection device.",
+     "7."
+    ],
+    [
+     "This completes the testing of the three elements (overcurrent protection, short-circuit current protection and earth leakage protection) in the protection device.",
+     "8."
+    ],
+    [
+     "Review the results, record them, sign them and note the test date on the attached test results sheet.",
+     "9."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "paragraph",
+   "text": "O/C - S/C - E/F Relay (50-51-54) 11.5kv"
+  },
+  {
+   "type": "paragraph",
+   "text": "50 - 51 64 relay Technical data"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "(0.1 0.8 ) In",
+     "E/F setting range",
+     "SPAJ 140C",
+     "Relay type"
+    ],
+    [
+     "(0.05 300 ) Sec",
+     "E/F setting time",
+     "( 5 1 ) A",
+     "Rated Current In"
+    ],
+    [
+     "(0.1 10 ) In",
+     "E/F setting range",
+     "(0.5 5 ) In",
+     "O/C setting range"
+    ],
+    [
+     "6 W",
+     "burden",
+     "(0.05 300 ) Sec",
+     "O/C setting time"
+    ],
+    [
+     "50 HZ",
+     "Frequency",
+     "(0.5 40 ) In",
+     "S/C setting"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "E/F (hight set)",
+     "E/F",
+     "S/C",
+     "O/C",
+     "Ph",
+     "Date"
+    ],
+    [
+     "Rest Factor",
+     "Pick up Reset",
+     "Rest Factor",
+     "Time",
+     "Pick up Reset",
+     "Rest Factor",
+     "Pick up Reset",
+     "Rest Factor",
+     "Time",
+     "Pick up Reset"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "R",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "T"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "R",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "T"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "R",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "T"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "R",
+     ""
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "S"
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "T"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Station name: Device code: Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection | Maintenance Procedures\nDocument No.: OCR-061-r0a | Equipment: Overcurrent and earth leakage protection a50/51/50/51N SPAJ 140C ABB\nIssued to: Damanhour Combined Cycle\nStatus: Approved\nApproval date: 26 April 2007 | Procedure: Using the a3/TRE-F (ISA) secondary injection test set\nNext review date: April 2012\nIntroduction\nThe first draft of this document was prepared by Eng. Gehan Abdel Monsef, and the field test was carried out by Eng. Mokhles Mahmoud Refaei. It was approved by Eng. Mahmoud Saad Balbaa, Sector Head, and reviewed and documented by Eng. Mona El-Sharkawy, Senior Engineering Consultant and Coordinator of the Maintenance Procedures Information System at the West Delta Electricity Production Company.\nSafety Precautions\nOpen a work order.\nThe circuit breaker of the bay on which the protection device mentioned is installed is open.\nFence off the work area and place warning signs.\nFollow the occupational safety and health instructions for the safety of personnel and equipment.\nTools, Instruments and Equipment Used\nSecondary injection test set, model a3/TRE-F (ISA)\nMeasuring instrument, FLUKE 83 I,V\nMulti-range ammeters, model VEB, HB\nTest leads\nSecondary injection test set, model a3/TRE-F (ISA)\nMeasuring instrument, FLUKE 83 I,V\nMulti-range ammeters, model VEB, HB\nTest leads\nProcedures to be Carried Out\nCheck that the Uaux lamp, indicating arrival of the supply voltage to the protection device, is lit. | 1.\nConnect the current injection leads between the injection test set and the protection device mentioned as follows: N-25, T-8, S-5, R-2. | 2.\nTesting the overcurrent protection element of the device\nSet the initial value of the current to be raised on the test switch of the injection test set, x5A. | 1.\nRaise the current of phase 'R' gradually until the I>/In lamp on the protection device lights up, and record the pick-up value. | 2.\nReduce the current gradually for the same phase (R) until the I>/In lamp goes out, and record the reset value. | 3.\nMeasuring the time delay of the overcurrent protection element\nConnect the two timer leads of the injection test set to points 65 and 66 on the protection device. | 1.\nRaise the current on phase 'R' to the preset setting value (SETTING) on the relay. | 2.\nSwitch the injection test set 'Off' at this current. | 3.\nReset the timer. | 4.\nSwitch the injection test set 'On' at the same previous setting. | 5.\nNote the start of the timer count; when it stops, note that the injection test set switches off automatically, with the [Trip, I>/In, t>] lamps lit. | 6.\nRecord the time delay values and the injection current values at which they were measured. | 7.\nTesting the short-circuit overcurrent protection element of the device\nSet the initial value of the current to be raised on the test switch of the injection test set, x5A. | 1.\nRaise the current of phase 'R' to the preset setting value and record the value at which the [Trip, I>>/In, t>>] lamps light up. | 2.\nTesting the earth leakage protection element of the device\nConnect the current injection leads between the injection test set and the protection device mentioned as follows: R-25, N-26. | 1.\nSet the initial value of the current to be raised on the test switch of the injection test set, x5A. | 2.\nRaise the current of phase 'R' gradually until the Io>In lamp lights up, and record the PICK-UP values. | 3.\nReduce the current gradually until the Io>In lamp goes out, and record the RESET value. | 4.\nMeasuring the time delay of the earth leakage protection element\nConnect the two timer leads to points 65, 66 on the protection device. | 1.\nRaise the current, with the same connections mentioned in item 7, to the device setting value. | 2.\nSwitch the injection test set 'Off' at this current. | 3.\nReset the timer. | 4.\nSwitch the injection test set 'On'. | 5.\nNote the start of the timer count; when it stops, note that the injection test set switches off automatically, with the [Trip, Io>In, t>] lamps lit. | 6.\nRecord the time and current values and reset the protection device. | 7.\nThis completes the testing of the three elements (overcurrent protection, short-circuit current protection and earth leakage protection) in the protection device. | 8.\nReview the results, record them, sign them and note the test date on the attached test results sheet. | 9.\nTest Sheet\nO/C - S/C - E/F Relay (50-51-54) 11.5kv\n50 - 51 64 relay Technical data\n(0.1 0.8 ) In | E/F setting range | SPAJ 140C | Relay type\n(0.05 300 ) Sec | E/F setting time | ( 5 1 ) A | Rated Current In\n(0.1 10 ) In | E/F setting range | (0.5 5 ) In | O/C setting range\n6 W | burden | (0.05 300 ) Sec | O/C setting time\n50 HZ | Frequency | (0.5 40 ) In | S/C setting\nE/F (hight set) | E/F | S/C | O/C | Ph | Date\nRest Factor | Pick up Reset | Rest Factor | Time | Pick up Reset | Rest Factor | Pick up Reset | Rest Factor | Time | Pick up Reset\n |  |  |  |  |  |  |  |  |  | R | \n |  |  |  |  | S\n |  |  |  |  | T\n |  |  |  |  |  |  |  |  |  | R | \n |  |  |  |  | S\n |  |  |  |  | T\n |  |  |  |  |  |  |  |  |  | R | \n |  |  |  |  | S\n |  |  |  |  | T\n |  |  |  |  |  |  |  |  |  | R | \n |  |  |  |  | S\n |  |  |  |  | T\nStation name: Device code: Tested by: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }

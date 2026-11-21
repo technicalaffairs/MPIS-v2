@@ -1,7 +1,7 @@
 {
  "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-dfr-043-r0a-htm",
  "doc_number": "DFR-043-R0A",
- "title_en": "",
+ "title_en": "DfR-043-r0a APPROVED",
  "title_ar": "DfR-043-r0a \nمعتمد",
  "category": "arabic_web",
  "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/DfR-043-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -510,5 +511,456 @@
    "src": "../../../../images/mpis-1.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection – Generation",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: DfR-043-r0a",
+     "Equipment: Differential protection on the busbars, 220 kV system, TBB7B DU2X, TOSHIBA"
+    ],
+    [
+     "Issued to: El-Walidia Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 14 January 2007",
+     "Procedure: Using the PHU 1040 voltage injection set"
+    ],
+    [
+     "Next review date: January 2012"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft of this document was prepared by Eng. Ali Hussein Farrag; the field test was carried out by Eng. Ali Hussein Farrag and Eng. Osama Fathy Abdel Karim; approved by Eng. Abdel Nasser Maarouf Ahmed, Technical Advisor for Electrical Maintenance, endorsed by Eng. Ibrahim El-Shahat Ibrahim, Head of the Sector, and documented by Eng. Gamal Abdel Wahab, Head of the Quality Sector and MPIS Coordinator at the Upper Egypt Electricity Production Company."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Open a work order and provide occupational safety and health category cards."
+  },
+  {
+   "type": "paragraph",
+   "text": "Fence off the work area and place the appropriate warning signs."
+  },
+  {
+   "type": "paragraph",
+   "text": "Follow the occupational safety and health instructions for the safety of personnel and equipment."
+  },
+  {
+   "type": "paragraph",
+   "text": "The unit is shut down and the generator is out of service."
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test comb, Test Plug type HP2-C4",
+    "AC V-A voltage measuring instrument, type YOKOGAWA",
+    "Millisecond Counter (Timer), type MCS-5N",
+    "Voltage injection set, type PHU 1040",
+    "Test leads"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Set the Change-over switch (43), type BH-H7, for testing the (87B) protection to the Test position on the protection cubicle",
+     "1."
+    ],
+    [
+     "Remove the outer cover of the relay and clean the relay with the air blower",
+     "2."
+    ],
+    [
+     "Place Test plug type HP2-C4 in Test socket type HR2A-P4 of the relay (87B) on the protection cubicle",
+     "3."
+    ],
+    [
+     "Place the Pin in SV(0) on the relay (87BA) for phase R",
+     "4."
+    ],
+    [
+     "Inject voltage at points (24,21) in the Test plug",
+     "5."
+    ],
+    [
+     "Raise the voltage until the signal appears on the relay",
+     "6."
+    ],
+    [
+     "Record the voltage value: Operating value for diff. element",
+     "7."
+    ],
+    [
+     "Remove the Pin from SV(0) on the relay (87BA) for phase R",
+     "8."
+    ],
+    [
+     "Place the Pin in Diff(0) on the relay (87BA) for phase R",
+     "9."
+    ],
+    [
+     "Inject voltage at points (24,21) in the Test plug",
+     "10."
+    ],
+    [
+     "Raise the voltage until the signal appears on the relay",
+     "11."
+    ],
+    [
+     "Record the voltage value: Operating value for SV element",
+     "12."
+    ],
+    [
+     "Remove the Pin from Diff.(0) on the relay (87BA) for phase R",
+     "13."
+    ],
+    [
+     "Connect the Start (dry contact) terminals from the timer to terminals T1,T2 on the PHU 1040 voltage injection set",
+     "14."
+    ],
+    [
+     "Connect the Stop (dry contact) terminals from the timer to points 17,18 on the relay (87BA) from the back",
+     "15."
+    ],
+    [
+     "Inject voltage at points (24,21) in the Test plug, of value (2x setting value = 500V) for phase R",
+     "16."
+    ],
+    [
+     "Disconnect the injection set",
+     "17."
+    ],
+    [
+     "Reset the timer",
+     "18."
+    ],
+    [
+     "Connect the injection set",
+     "19."
+    ],
+    [
+     "Record the time value: Operating time for diff. element for phase R",
+     "20."
+    ],
+    [
+     "Reset the timer",
+     "21."
+    ],
+    [
+     "Disconnect the injection set",
+     "22."
+    ],
+    [
+     "Record the time value: Operating time for diff. element for phase R",
+     "23."
+    ],
+    [
+     "Remove the Stop terminals connected to the timer from points 17,18 on the relay (87BA) from the back",
+     "24."
+    ],
+    [
+     "Connect the Stop terminals from the timer to points 19,20 on the relay (87BA) from the back",
+     "25."
+    ],
+    [
+     "Inject voltage at points (24,21) in the Test plug, of value (2x setting value = 80V) for phase R",
+     "26."
+    ],
+    [
+     "Disconnect the injection set",
+     "27."
+    ],
+    [
+     "Reset the timer",
+     "28."
+    ],
+    [
+     "Connect the injection set",
+     "29."
+    ],
+    [
+     "Record the time value: Operating time for SV element for phase R",
+     "30."
+    ],
+    [
+     "Reset the timer",
+     "31."
+    ],
+    [
+     "Disconnect the injection set",
+     "32."
+    ],
+    [
+     "Record the time value: Operating time for SV element for phase R",
+     "33."
+    ],
+    [
+     "Repeat steps (4 to 33) for phase S, changing the injection points to 24,22 in the Test plug",
+     "34."
+    ],
+    [
+     "Repeat steps (4 to 33) for phase T, changing the injection points to 24,22 in the Test plug",
+     "35."
+    ],
+    [
+     "Place the glass cover on the relay",
+     "36."
+    ],
+    [
+     "Remove the HP2-C4 Test plug from the Test socket of the protection cubicle",
+     "37."
+    ],
+    [
+     "Reset the relay (87B)",
+     "38."
+    ],
+    [
+     "Reset the (Lock out relay) of the relay (87B)",
+     "39."
+    ],
+    [
+     "Set the Change-over switch (43), type BH-H7, for testing the (87B) protection to the Normal position on the protection cubicle",
+     "40."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Power Station Name:",
+     ""
+    ],
+    [
+     "Relay type:",
+     ""
+    ],
+    [
+     "Manufacturing No.",
+     ""
+    ],
+    [
+     "Circuit :",
+     "Type form:"
+    ],
+    [
+     "Device No.:",
+     "Location no.:"
+    ],
+    [
+     "Rating",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay Test"
+  },
+  {
+   "type": "paragraph",
+   "text": "General Inspection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Checking item",
+     "Results"
+    ],
+    [
+     "Appearance easing",
+     ""
+    ],
+    [
+     "Tightness of fastening",
+     ""
+    ],
+    [
+     "Smooth Rack in rack out",
+     ""
+    ],
+    [
+     "CT shorting provision",
+     ""
+    ],
+    [
+     "Inspection of printed card",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Minimum operation value least"
+  },
+  {
+   "type": "paragraph",
+   "text": "For each selling value of DIFF and SV element, the operating value is measured. Interlock is off"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Setting Tap Element",
+     "100",
+     "150",
+     "200",
+     "250",
+     "300"
+    ],
+    [
+     "Diff",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Setting Tap Element",
+     "30",
+     "40",
+     "50"
+    ],
+    [
+     "Diff",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Operating time characteristic"
+  },
+  {
+   "type": "paragraph",
+   "text": "The operating time is measured by rapidly the input voltage from 0V L0 lw0 times the setting value."
+  },
+  {
+   "type": "paragraph",
+   "text": "The voltage setting is at 250/40V and interlock is off"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Element",
+     "Setting Tap",
+     "Operating Time (ms)"
+    ],
+    [
+     "Diff",
+     "250 V",
+     ""
+    ],
+    [
+     "SV",
+     "40 V",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Criteria : Diff element less than 25 ms SV element 500 ms 50 ms"
+  },
+  {
+   "type": "paragraph",
+   "text": "Resetting time characteristic"
+  },
+  {
+   "type": "paragraph",
+   "text": "The resetting time is measured by rapidly changing the input voltage from 2 times the setting value to 0V with the voltage setting at 250/40 V and interlock off"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Element",
+     "Setting Tap",
+     "Resetting Time (ms)"
+    ],
+    [
+     "Diff",
+     "250",
+     ""
+    ],
+    [
+     "SV",
+     "40",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Protection device code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection – Generation | Maintenance Procedures\nDocument No.: DfR-043-r0a | Equipment: Differential protection on the busbars, 220 kV system, TBB7B DU2X, TOSHIBA\nIssued to: El-Walidia Power Station\nStatus: APPROVED\nApproval date: 14 January 2007 | Procedure: Using the PHU 1040 voltage injection set\nNext review date: January 2012\nIntroduction\nThe first draft of this document was prepared by Eng. Ali Hussein Farrag; the field test was carried out by Eng. Ali Hussein Farrag and Eng. Osama Fathy Abdel Karim; approved by Eng. Abdel Nasser Maarouf Ahmed, Technical Advisor for Electrical Maintenance, endorsed by Eng. Ibrahim El-Shahat Ibrahim, Head of the Sector, and documented by Eng. Gamal Abdel Wahab, Head of the Quality Sector and MPIS Coordinator at the Upper Egypt Electricity Production Company.\nSafety Precautions\nOpen a work order and provide occupational safety and health category cards.\nFence off the work area and place the appropriate warning signs.\nFollow the occupational safety and health instructions for the safety of personnel and equipment.\nThe unit is shut down and the generator is out of service.\nTools, Equipment and Instruments Used\nTest comb, Test Plug type HP2-C4\nAC V-A voltage measuring instrument, type YOKOGAWA\nMillisecond Counter (Timer), type MCS-5N\nVoltage injection set, type PHU 1040\nTest leads\nProcedures to be Carried Out\nSet the Change-over switch (43), type BH-H7, for testing the (87B) protection to the Test position on the protection cubicle | 1.\nRemove the outer cover of the relay and clean the relay with the air blower | 2.\nPlace Test plug type HP2-C4 in Test socket type HR2A-P4 of the relay (87B) on the protection cubicle | 3.\nPlace the Pin in SV(0) on the relay (87BA) for phase R | 4.\nInject voltage at points (24,21) in the Test plug | 5.\nRaise the voltage until the signal appears on the relay | 6.\nRecord the voltage value: Operating value for diff. element | 7.\nRemove the Pin from SV(0) on the relay (87BA) for phase R | 8.\nPlace the Pin in Diff(0) on the relay (87BA) for phase R | 9.\nInject voltage at points (24,21) in the Test plug | 10.\nRaise the voltage until the signal appears on the relay | 11.\nRecord the voltage value: Operating value for SV element | 12.\nRemove the Pin from Diff.(0) on the relay (87BA) for phase R | 13.\nConnect the Start (dry contact) terminals from the timer to terminals T1,T2 on the PHU 1040 voltage injection set | 14.\nConnect the Stop (dry contact) terminals from the timer to points 17,18 on the relay (87BA) from the back | 15.\nInject voltage at points (24,21) in the Test plug, of value (2x setting value = 500V) for phase R | 16.\nDisconnect the injection set | 17.\nReset the timer | 18.\nConnect the injection set | 19.\nRecord the time value: Operating time for diff. element for phase R | 20.\nReset the timer | 21.\nDisconnect the injection set | 22.\nRecord the time value: Operating time for diff. element for phase R | 23.\nRemove the Stop terminals connected to the timer from points 17,18 on the relay (87BA) from the back | 24.\nConnect the Stop terminals from the timer to points 19,20 on the relay (87BA) from the back | 25.\nInject voltage at points (24,21) in the Test plug, of value (2x setting value = 80V) for phase R | 26.\nDisconnect the injection set | 27.\nReset the timer | 28.\nConnect the injection set | 29.\nRecord the time value: Operating time for SV element for phase R | 30.\nReset the timer | 31.\nDisconnect the injection set | 32.\nRecord the time value: Operating time for SV element for phase R | 33.\nRepeat steps (4 to 33) for phase S, changing the injection points to 24,22 in the Test plug | 34.\nRepeat steps (4 to 33) for phase T, changing the injection points to 24,22 in the Test plug | 35.\nPlace the glass cover on the relay | 36.\nRemove the HP2-C4 Test plug from the Test socket of the protection cubicle | 37.\nReset the relay (87B) | 38.\nReset the (Lock out relay) of the relay (87B) | 39.\nSet the Change-over switch (43), type BH-H7, for testing the (87B) protection to the Normal position on the protection cubicle | 40.\nTest Sheet\nPower Station Name: | \nRelay type: | \nManufacturing No. | \nCircuit : | Type form:\nDevice No.: | Location no.:\nRating | \nRelay Test\nGeneral Inspection\nChecking item | Results\nAppearance easing | \nTightness of fastening | \nSmooth Rack in rack out | \nCT shorting provision | \nInspection of printed card | \nMinimum operation value least\nFor each selling value of DIFF and SV element, the operating value is measured. Interlock is off\nSetting Tap Element | 100 | 150 | 200 | 250 | 300\nDiff |  |  |  |  | \nSetting Tap Element | 30 | 40 | 50\nDiff |  |  | \nOperating time characteristic\nThe operating time is measured by rapidly the input voltage from 0V L0 lw0 times the setting value.\nThe voltage setting is at 250/40V and interlock is off\nElement | Setting Tap | Operating Time (ms)\nDiff | 250 V | \nSV | 40 V | \nCriteria : Diff element less than 25 ms SV element 500 ms 50 ms\nResetting time characteristic\nThe resetting time is measured by rapidly changing the input voltage from 2 times the setting value to 0V with the voltage setting at 250/40 V and interlock off\nElement | Setting Tap | Resetting Time (ms)\nDiff | 250 | \nSV | 40 | \nSite name: Protection device code:\nTested by: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }

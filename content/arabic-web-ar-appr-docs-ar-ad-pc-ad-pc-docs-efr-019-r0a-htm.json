@@ -1,7 +1,7 @@
 {
  "id": "arabic-web-ar-appr-docs-ar-ad-pc-ad-pc-docs-efr-019-r0a-htm",
  "doc_number": "EFR-019-R0A",
- "title_en": "",
+ "title_en": "efr-019-r0a APPROVED",
  "title_ar": "efr-019-r0a \nمعتمــد",
  "category": "arabic_web",
  "source_path": "arabic_web/Ar_appr_docs/Ar_ad_pc/ad_pc_docs/EFR -019-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "heading",
@@ -369,5 +370,315 @@
    "src": "../../../../images/mpis-1.gif",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Protection Devices",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: EFR-019-r0a",
+     "Equipment: Testing of earth leakage protection in the 6.3 kV, 380 V system, x51N ICOID-ATI, Toshiba"
+    ],
+    [
+     "Issued to: Assiut Power Station"
+    ],
+    [
+     "Status: APPROVED"
+    ],
+    [
+     "Approval date: 07 September 2003",
+     "Procedure: Test procedures using Severker"
+    ],
+    [
+     "Next review date: September 2003"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the test steps for the protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 19 October 2002."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Open the work order"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fence off the work area and place the warning signs"
+  },
+  {
+   "type": "paragraph",
+   "text": "Follow the occupational safety and health instructions for the safety of personnel and equipment"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Open the work order",
+    "Fence off the work area and place the warning signs",
+    "Follow the occupational safety and health instructions for the safety of personnel and equipment"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Equipment and Instruments Used"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test comb, Test plug type XRT-1"
+  },
+  {
+   "type": "paragraph",
+   "text": "AC V-A voltage measuring instrument, type YOKOGAWA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Clamp meter, type Kew Snap 2002 (KYORITSU) A"
+  },
+  {
+   "type": "paragraph",
+   "text": "Voltage and current injection set, type Severker"
+  },
+  {
+   "type": "paragraph",
+   "text": "Test leads"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Test comb, Test plug type XRT-1"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Work Steps to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "First: Measuring the relay operating current setting value"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Remove the relay cover and withdraw the relay contact comb from the CT secondary terminals",
+     "1"
+    ],
+    [
+     "Make a direct connection (Jumper) between terminals (15,16) on the Test plug",
+     "2"
+    ],
+    [
+     "Place the Test plug in place of the relay contact comb on the CT secondary terminals",
+     "3"
+    ],
+    [
+     "Connect the current injection terminals from the Severker 650 set to terminals (5,6) on the Test plug",
+     "4"
+    ],
+    [
+     "Switch on the Severker injection set",
+     "5"
+    ],
+    [
+     "Raise the current gradually until you notice the relay disc move",
+     "6"
+    ],
+    [
+     "Record the relay operating current value",
+     "7"
+    ],
+    [
+     "Reduce the current value to zero, then disconnect the Severker injection set",
+     "8"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Second: Measuring the relay operating times"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect the Stop terminals from the Severker injection set to terminals (1,2) on the Test plug",
+     "9"
+    ],
+    [
+     "Switch on the Severker 650 injection set",
+     "10"
+    ],
+    [
+     "Set the injection current to (2 x Setting) and measure the current using the Clamp Meter",
+     "11"
+    ],
+    [
+     "Disconnect the Severker 650 injection set",
+     "12"
+    ],
+    [
+     "Reset the time counter display on the Severker injection set",
+     "13"
+    ],
+    [
+     "Set the Severker injection set switch to the (ON Time) position",
+     "14"
+    ],
+    [
+     "Record the relay operating time corresponding to the current (2 x Setting Value) (note that the Severker injection set disconnects automatically after the relay operates)",
+     "15"
+    ],
+    [
+     "Switch on the Severker injection set",
+     "16"
+    ],
+    [
+     "Set the injection current to (3 x Setting Value) and measure the current using the Clamp Meter",
+     "17"
+    ],
+    [
+     "Disconnect the Severker 650 injection set",
+     "18"
+    ],
+    [
+     "Reset the time counter display on the Severker injection set",
+     "19"
+    ],
+    [
+     "Set the Severker injection set switch to the (ON Time) position",
+     "20"
+    ],
+    [
+     "Record the relay operating time corresponding to the current (3 x Setting) (note that the Severker 650 injection set disconnects automatically after the relay operates)",
+     "21"
+    ],
+    [
+     "Reduce the current value to zero, then disconnect the Severker injection set",
+     "22"
+    ],
+    [
+     "Withdraw the Test plug from the relay",
+     "23"
+    ],
+    [
+     "Reset all the signals on the relay",
+     "24"
+    ],
+    [
+     "Fit the relay contact comb to the CT secondary terminals",
+     "25"
+    ],
+    [
+     "Fit the relay cover",
+     "26"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Test Sheet for Earth Fault Relay (51N) type ICOID-ATI, Toshiba"
+  },
+  {
+   "type": "paragraph",
+   "text": "Location:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Unit no. :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Panel : No."
+  },
+  {
+   "type": "paragraph",
+   "text": "Manufacturer No. :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Relay data :"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rating : 5 A,"
+  },
+  {
+   "type": "paragraph",
+   "text": "Rated frequency : 50 Hz"
+  },
+  {
+   "type": "paragraph",
+   "text": "Auxiliary : 380 V common P/C-A"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Name of feeder",
+     "Relay No.",
+     "Device No.",
+     "Setting",
+     "Operating Value (A)",
+     "Operating Time (Sec)",
+     "Result"
+    ],
+    [
+     "%200",
+     "%300",
+     ""
+    ],
+    [
+     "Incoming",
+     "M 200-2",
+     "a5IN",
+     "Tap =16a Td = 3",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Inspected by: Signature: Date of execution:"
+  }
+ ],
+ "text_en": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Protection Devices | Maintenance Procedures\nDocument No.: EFR-019-r0a | Equipment: Testing of earth leakage protection in the 6.3 kV, 380 V system, x51N ICOID-ATI, Toshiba\nIssued to: Assiut Power Station\nStatus: APPROVED\nApproval date: 07 September 2003 | Procedure: Test procedures using Severker\nNext review date: September 2003\nIntroduction\nThis document sets out the test steps for the protection device mentioned above. The first draft was prepared by Eng. Mahmoud Ahmed Mahmoud at the New Assiut Power Station, Upper Egypt Electricity Production Company; the field test was carried out by Eng. Ali Hussein Farrag and Mahmoud Faisal Mohamed on 19 October 2002.\nSafety Precautions\nOpen the work order\nFence off the work area and place the warning signs\nFollow the occupational safety and health instructions for the safety of personnel and equipment\nOpen the work order\nFence off the work area and place the warning signs\nFollow the occupational safety and health instructions for the safety of personnel and equipment\nTools, Equipment and Instruments Used\nTest comb, Test plug type XRT-1\nAC V-A voltage measuring instrument, type YOKOGAWA\nClamp meter, type Kew Snap 2002 (KYORITSU) A\nVoltage and current injection set, type Severker\nTest leads\nTest comb, Test plug type XRT-1\nWork Steps to be Carried Out\nFirst: Measuring the relay operating current setting value\nRemove the relay cover and withdraw the relay contact comb from the CT secondary terminals | 1\nMake a direct connection (Jumper) between terminals (15,16) on the Test plug | 2\nPlace the Test plug in place of the relay contact comb on the CT secondary terminals | 3\nConnect the current injection terminals from the Severker 650 set to terminals (5,6) on the Test plug | 4\nSwitch on the Severker injection set | 5\nRaise the current gradually until you notice the relay disc move | 6\nRecord the relay operating current value | 7\nReduce the current value to zero, then disconnect the Severker injection set | 8\nSecond: Measuring the relay operating times\nConnect the Stop terminals from the Severker injection set to terminals (1,2) on the Test plug | 9\nSwitch on the Severker 650 injection set | 10\nSet the injection current to (2 x Setting) and measure the current using the Clamp Meter | 11\nDisconnect the Severker 650 injection set | 12\nReset the time counter display on the Severker injection set | 13\nSet the Severker injection set switch to the (ON Time) position | 14\nRecord the relay operating time corresponding to the current (2 x Setting Value) (note that the Severker injection set disconnects automatically after the relay operates) | 15\nSwitch on the Severker injection set | 16\nSet the injection current to (3 x Setting Value) and measure the current using the Clamp Meter | 17\nDisconnect the Severker 650 injection set | 18\nReset the time counter display on the Severker injection set | 19\nSet the Severker injection set switch to the (ON Time) position | 20\nRecord the relay operating time corresponding to the current (3 x Setting) (note that the Severker 650 injection set disconnects automatically after the relay operates) | 21\nReduce the current value to zero, then disconnect the Severker injection set | 22\nWithdraw the Test plug from the relay | 23\nReset all the signals on the relay | 24\nFit the relay contact comb to the CT secondary terminals | 25\nFit the relay cover | 26\nTest Sheet for Earth Fault Relay (51N) type ICOID-ATI, Toshiba\nLocation:\nUnit no. :\nPanel : No.\nManufacturer No. :\nRelay data :\nRating : 5 A,\nRated frequency : 50 Hz\nAuxiliary : 380 V common P/C-A\nName of feeder | Relay No. | Device No. | Setting | Operating Value (A) | Operating Time (Sec) | Result\n%200 | %300 | \nIncoming | M 200-2 | a5IN | Tap =16a Td = 3 |  |  |  |  | \nSite name:\nInspected by: Signature: Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }
