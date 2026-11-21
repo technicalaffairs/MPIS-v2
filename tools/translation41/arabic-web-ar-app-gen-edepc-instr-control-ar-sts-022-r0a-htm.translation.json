@@ -1,0 +1,490 @@
+{
+ "id": "arabic-web-ar-app-gen-edepc-instr-control-ar-sts-022-r0a-htm",
+ "doc_number": "STS-022-R0A",
+ "category": "instruments",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "STS-022-r0a APPROVED",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Instrumentation and Control",
+     "Maintenance Procedures"
+    ],
+    [
+     "Document No.: STS-022-r0a",
+     "Equipment: Temperature control card for the Mark II gas units, STKJ, STKK, General Electric"
+    ],
+    [
+     "Issued to: Talkha Combined Cycle"
+    ],
+    [
+     "Status: Approved"
+    ],
+    [
+     "Approval date: 19 September 2005",
+     "Procedure: Annual maintenance (I1-Y1)"
+    ],
+    [
+     "Next review date: September 2010"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the calibration steps"
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft of this document was prepared by Eng. Marwa El-Sayed El-Hadidy and Eng. Amal Hamed El-Maken, reviewed by Eng. Magdy Saad El-Khamis Gad El-Haq, tested by Eng. Wagdy Eid Mansour on 14 July 2005, approved by the General Manager Eng. Yousry Ahmed Abdel Maksoud, reviewed by Eng. Abdel Monem El-Emam, Manager of the Instrumentation and Electricity Department in the Inspection Sector of the East Delta Electricity Production Company, and approved by Eng. Fathy Mahmoud Ragab, Head of the Talkha Power Station Sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "It was approved by Eng. Samir Abdel Galil, General Manager of Inspection and Quality of the East Delta Electricity Production Company and MPIS Coordinator, and approved by Mr. Accountant Mahmoud Mohamed Soliman, General Manager of Financial and Administrative Control and Supervisor of the Inspection and Quality Control Sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "paragraph",
+   "text": "Issue a work permit, with an industrial safety category card available for the personnel on site"
+  },
+  {
+   "type": "paragraph",
+   "text": "Fence off the area, using the appropriate warning signs"
+  },
+  {
+   "type": "paragraph",
+   "text": "Use personal protective equipment (PPE) such as a safety helmet and safety shoes, etc."
+  },
+  {
+   "type": "paragraph",
+   "text": "The unit must be isolated and shut down and be in a cooled-down state before starting the test"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Issue a work permit, with an industrial safety category card available for the personnel on site",
+    "Fence off the area, using the appropriate warning signs",
+    "Use personal protective equipment (PPE) such as a safety helmet and safety shoes, etc.",
+    "The unit must be isolated and shut down and be in a cooled-down state before starting the test"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Suitable tool bag, personal protective equipment (PPE)"
+  },
+  {
+   "type": "paragraph",
+   "text": "2 digital voltmeters, Fluk 187, calibration instrument No. IC 4988A100AA"
+  },
+  {
+   "type": "paragraph",
+   "text": "Compressed air source (PSI)"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Suitable tool bag, personal protective equipment (PPE)",
+    "2 digital voltmeters, Fluk 187, calibration instrument No. IC 4988A100AA",
+    "Compressed air source (PSI)"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Mercury thermometer (0–212 °F)"
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of STKJ for the TX signal"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Insert the thermometer in the back of the STKJ card for 15 minutes, then remove the front of the Thermocouple module switches, and switch OFF all the switches",
+     "1."
+    ],
+    [
+     "Connect an mV source from C4,5 on the calibrator to in, +in on the TX-A channel, then connect a digital voltmeter (DVM) to measure this mV, and connect another DVM at Acom & Out for the TX-A channel to measure the output of the STKJ card",
+     "2."
+    ],
+    [
+     "Calculate the true mV value from the following relation: mV = 0.02248 (TAF - 32) - (recorded) mV, correction factor @ 1.02. Actual mV = TX - Correction Factor",
+     "3."
+    ],
+    [
+     "Achieve the following table:",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Manufacture Setting",
+     "Before Adjust.",
+     "After Adjust.",
+     "Adjustment"
+    ],
+    [
+     "C",
+     "F",
+     "Input m.V",
+     "Out volt from STKJ"
+    ],
+    [
+     "371",
+     "700",
+     "15.18 1.02",
+     "3.50 + 0.02",
+     "",
+     "",
+     ""
+    ],
+    [
+     "510",
+     "950",
+     "21.07 1.02",
+     "4.75 + 0.02",
+     "",
+     "",
+     "Factory Calibrated"
+    ],
+    [
+     "649",
+     "1200",
+     "26.98 1.02",
+     "6.6 + 0.02",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Repeat steps (2–3) to calibrate the Temp. Meter",
+     "4."
+    ],
+    [
+     "Repeat steps (2–3) to calibrate the STKJ cards for the (OTA & OTB) signals",
+     "5."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of Pressure Compressor Discharge (PCD)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Disconnect the air signal line and connect it to an external air line (0–150 PSI)",
+     "1.",
+     ""
+    ],
+    [
+     "Measure the output of 96CD according to the following table:",
+     "2.",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Manufacture Setting",
+     "Before Adjust.",
+     "After Adjust.",
+     "Adjustment"
+    ],
+    [
+     "PSI",
+     "Kg / Cm2",
+     "Out Volt from 96CD"
+    ],
+    [
+     "0",
+     "0",
+     "0 + 0.005",
+     "",
+     "",
+     "Zero"
+    ],
+    [
+     "87.5",
+     "6.152",
+     "2.5 + 0.005",
+     "",
+     "",
+     "--"
+    ],
+    [
+     "175.5",
+     "12.304",
+     "5 + 0.005",
+     "",
+     "",
+     "Gain Potential"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of the PCDN signal on the IC3600 STKK card"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Disconnect the 96CD terminals in LCTB2",
+     "1."
+    ],
+    [
+     "Inject volts at D3 from D2 at the values in the table; also inject mV until the Temp control lamp lights, noting the output at D4 & Acom, and achieve the following table",
+     "2."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "ADJ",
+     "AFTER ADJ",
+     "BEFOR ADJ",
+     "STKK O/P PCDN at PIN 13",
+     "PCD sensing",
+     ""
+    ],
+    [
+     "Offset R66",
+     "",
+     "",
+     "1.2",
+     "3.38",
+     "BREAK Point"
+    ],
+    [
+     "R67",
+     "",
+     "",
+     "3.4",
+     "4.29",
+     "Setting point"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of the base load signal"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect a digital voltmeter to Pin 9 of the STKK card at (G01R02) Acom, (D03R04), then connect D2 to D3 to inject and measure the voltage representing the compressor pressure",
+     "1."
+    ],
+    [
+     "Connect an mV source from C4,5 to +1N, -1N; also measure the output of this mV with another digital voltmeter from out & A com on the front of the switches, and this voltage can be measured from D4 & Acom; this reading is the voltage representing the temperature, and the temperature can be obtained as follows:",
+     "2."
+    ],
+    [
+     "Temperature in Fahrenheit = (200) × voltage reading from (D4, Acom)",
+     ""
+    ],
+    [
+     "Make Max. VCE by connecting (D10Y & A com).",
+     "3."
+    ],
+    [
+     "Inject volts at D3 from D2 at the values in the table; also inject mV until the Temp control lamp lights, noting the output at D4 & Acom, and achieve the following table:",
+     "4."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Manufacture Setting",
+     "Adjustment"
+    ],
+    [
+     "F (Temp.)",
+     "PCD"
+    ],
+    [
+     "523 C",
+     "2.88",
+     ""
+    ],
+    [
+     "506 C",
+     "3.38",
+     "STKK Base R69"
+    ],
+    [
+     "476 C",
+     "4.29",
+     ""
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Note: Inject the volts representing the compressor pressure as in each step, then inject mV until the Temp. control lamp lights"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Leave the connections as they are",
+     "5."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Calibration of the peak load signal"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Use the same previous connections as in the Base signal",
+     "1."
+    ],
+    [
+     "Raise the Temp. Control limit by placing Logic (0) on Pin (3) in the SPOA card.",
+     "2."
+    ],
+    [
+     "Inject volts at D3 from D2 (PCD Pressure) at the values in the table; also inject mV until the Temp control lamp lights, noting the drop in the VCE value and noting the output at D4 & Acom, and achieve the following table:",
+     "3."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Manufacture Setting",
+     "Adjustment"
+    ],
+    [
+     "m.V (Temp.)",
+     "PCD"
+    ],
+    [
+     "549 C",
+     "2.88",
+     "SPOA PK R114"
+    ],
+    [
+     "533 C",
+     "3.38",
+     "--"
+    ],
+    [
+     "503 C",
+     "4.29",
+     "--"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Location name: Instrument code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Test date: Signature:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Instrumentation and Control | Maintenance Procedures\nDocument No.: STS-022-r0a | Equipment: Temperature control card for the Mark II gas units, STKJ, STKK, General Electric\nIssued to: Talkha Combined Cycle\nStatus: Approved\nApproval date: 19 September 2005 | Procedure: Annual maintenance (I1-Y1)\nNext review date: September 2010\nThis document sets out the calibration steps\nThe first draft of this document was prepared by Eng. Marwa El-Sayed El-Hadidy and Eng. Amal Hamed El-Maken, reviewed by Eng. Magdy Saad El-Khamis Gad El-Haq, tested by Eng. Wagdy Eid Mansour on 14 July 2005, approved by the General Manager Eng. Yousry Ahmed Abdel Maksoud, reviewed by Eng. Abdel Monem El-Emam, Manager of the Instrumentation and Electricity Department in the Inspection Sector of the East Delta Electricity Production Company, and approved by Eng. Fathy Mahmoud Ragab, Head of the Talkha Power Station Sector.\nIt was approved by Eng. Samir Abdel Galil, General Manager of Inspection and Quality of the East Delta Electricity Production Company and MPIS Coordinator, and approved by Mr. Accountant Mahmoud Mohamed Soliman, General Manager of Financial and Administrative Control and Supervisor of the Inspection and Quality Control Sector.\nSafety Precautions\nIssue a work permit, with an industrial safety category card available for the personnel on site\nFence off the area, using the appropriate warning signs\nUse personal protective equipment (PPE) such as a safety helmet and safety shoes, etc.\nThe unit must be isolated and shut down and be in a cooled-down state before starting the test\nIssue a work permit, with an industrial safety category card available for the personnel on site\nFence off the area, using the appropriate warning signs\nUse personal protective equipment (PPE) such as a safety helmet and safety shoes, etc.\nThe unit must be isolated and shut down and be in a cooled-down state before starting the test\nSuitable tool bag, personal protective equipment (PPE)\n2 digital voltmeters, Fluk 187, calibration instrument No. IC 4988A100AA\nCompressed air source (PSI)\nSuitable tool bag, personal protective equipment (PPE)\n2 digital voltmeters, Fluk 187, calibration instrument No. IC 4988A100AA\nCompressed air source (PSI)\nMercury thermometer (0–212 °F)\nProcedures to be Carried Out\nCalibration of STKJ for the TX signal\nInsert the thermometer in the back of the STKJ card for 15 minutes, then remove the front of the Thermocouple module switches, and switch OFF all the switches | 1.\nConnect an mV source from C4,5 on the calibrator to in, +in on the TX-A channel, then connect a digital voltmeter (DVM) to measure this mV, and connect another DVM at Acom & Out for the TX-A channel to measure the output of the STKJ card | 2.\nCalculate the true mV value from the following relation: mV = 0.02248 (TAF - 32) - (recorded) mV, correction factor @ 1.02. Actual mV = TX - Correction Factor | 3.\nAchieve the following table: | \nManufacture Setting | Before Adjust. | After Adjust. | Adjustment\nC | F | Input m.V | Out volt from STKJ\n371 | 700 | 15.18 1.02 | 3.50 + 0.02 |  |  | \n510 | 950 | 21.07 1.02 | 4.75 + 0.02 |  |  | Factory Calibrated\n649 | 1200 | 26.98 1.02 | 6.6 + 0.02 |  |  | \nRepeat steps (2–3) to calibrate the Temp. Meter | 4.\nRepeat steps (2–3) to calibrate the STKJ cards for the (OTA & OTB) signals | 5.\nCalibration of Pressure Compressor Discharge (PCD)\nDisconnect the air signal line and connect it to an external air line (0–150 PSI) | 1. | \nMeasure the output of 96CD according to the following table: | 2. | \nManufacture Setting | Before Adjust. | After Adjust. | Adjustment\nPSI | Kg / Cm2 | Out Volt from 96CD\n0 | 0 | 0 + 0.005 |  |  | Zero\n87.5 | 6.152 | 2.5 + 0.005 |  |  | --\n175.5 | 12.304 | 5 + 0.005 |  |  | Gain Potential\nCalibration of the PCDN signal on the IC3600 STKK card\nDisconnect the 96CD terminals in LCTB2 | 1.\nInject volts at D3 from D2 at the values in the table; also inject mV until the Temp control lamp lights, noting the output at D4 & Acom, and achieve the following table | 2.\nADJ | AFTER ADJ | BEFOR ADJ | STKK O/P PCDN at PIN 13 | PCD sensing | \nOffset R66 |  |  | 1.2 | 3.38 | BREAK Point\nR67 |  |  | 3.4 | 4.29 | Setting point\nCalibration of the base load signal\nConnect a digital voltmeter to Pin 9 of the STKK card at (G01R02) Acom, (D03R04), then connect D2 to D3 to inject and measure the voltage representing the compressor pressure | 1.\nConnect an mV source from C4,5 to +1N, -1N; also measure the output of this mV with another digital voltmeter from out & A com on the front of the switches, and this voltage can be measured from D4 & Acom; this reading is the voltage representing the temperature, and the temperature can be obtained as follows: | 2.\nTemperature in Fahrenheit = (200) × voltage reading from (D4, Acom) | \nMake Max. VCE by connecting (D10Y & A com). | 3.\nInject volts at D3 from D2 at the values in the table; also inject mV until the Temp control lamp lights, noting the output at D4 & Acom, and achieve the following table: | 4.\nManufacture Setting | Adjustment\nF (Temp.) | PCD\n523 C | 2.88 | \n506 C | 3.38 | STKK Base R69\n476 C | 4.29 | \nNote: Inject the volts representing the compressor pressure as in each step, then inject mV until the Temp. control lamp lights\nLeave the connections as they are | 5.\nCalibration of the peak load signal\nUse the same previous connections as in the Base signal | 1.\nRaise the Temp. Control limit by placing Logic (0) on Pin (3) in the SPOA card. | 2.\nInject volts at D3 from D2 (PCD Pressure) at the values in the table; also inject mV until the Temp control lamp lights, noting the drop in the VCE value and noting the output at D4 & Acom, and achieve the following table: | 3.\nManufacture Setting | Adjustment\nm.V (Temp.) | PCD\n549 C | 2.88 | SPOA PK R114\n533 C | 3.38 | --\n503 C | 4.29 | --\nLocation name: Instrument code:\nTested by: Test date: Signature:",
+ "word_count_source": 1011,
+ "uncertain_terms": [
+  {
+   "note": "Source spells the meter 'Fluk 187' (presumably Fluke 187); kept verbatim as in the source.",
+   "term": "Fluk 187"
+  },
+  {
+   "note": "Source 'يرفض' (literally 'refuses') is garbled OCR for 'OFF'; rendered as 'switch OFF all the switches'.",
+   "term": "يرفض"
+  },
+  {
+   "note": "The mV formula in step 3 is garbled in the source ('عامل التصحيح @ 1.02 بالسيارات'); rendered literally as far as readable, with 'بالسيارات' dropped as OCR noise. The formula as printed is suspect.",
+   "term": "mV = 0.02248 (TAF 32)"
+  },
+  {
+   "note": "Source 'الترموتر' rendered as 'thermometer' (inserted in the back of the card for 15 minutes, i.e. for cold-junction stabilisation).",
+   "term": "الترموتر"
+  },
+  {
+   "note": "Source input values read '15.18 1.02' etc. with no operator between the two numbers; kept verbatim.",
+   "term": "15.18 1.02"
+  },
+  {
+   "note": "Source header 'PCD الاستشعار (الخامس)' rendered as 'PCD sensing'; '(الخامس)' is unexplained OCR noise.",
+   "term": "الاستشعار (الخامس)"
+  },
+  {
+   "note": "Source 'Gain Potential' kept verbatim; evidently 'Gain Potentiometer'.",
+   "term": "Gain Potential"
+  },
+  {
+   "note": "Source temperature rows read '523 C' etc. while the sub-header reads 'م.ف' (Fahrenheit); the unit is ambiguous and was kept as printed ('523 C').",
+   "term": "523 C"
+  },
+  {
+   "note": "Source thermometer range reads '(F 0 212)'; rendered as '(0–212 °F)'.",
+   "term": "(F 0 212)"
+  },
+  {
+   "note": "Source 'كارت سبوا' rendered as 'SPOA card' by analogy with 'SPOA PK R114' in the peak-load table.",
+   "term": "سبوا"
+  }
+ ]
+}
