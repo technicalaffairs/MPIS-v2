@@ -1,7 +1,7 @@
 {
  "id": "distr-trans-ad-pc-ocr-087-r0a-htm",
  "doc_number": "OCR-087-R0A",
- "title_en": "",
+ "title_en": "OCR-087-r0a",
  "title_ar": "OCR-087-r0a",
  "category": "distribution",
  "source_path": "distr+Trans/ad_pc/OCR-087-r0a.htm",
@@ -9,9 +9,10 @@
  "source_encoding": "utf-8",
  "language": "ar",
  "languages_available": [
+  "en",
   "ar"
  ],
- "translation_status": "missing",
+ "translation_status": "available",
  "sections": [
   {
    "type": "table",
@@ -269,5 +270,251 @@
    "src": "graphics/OCR-087-03.jpg",
    "alt": ""
   }
- ]
+ ],
+ "sections_en": [
+  {
+   "type": "table",
+   "rows": [
+    [
+     "نظام معلومات إجراءات \n الصيانة"
+    ],
+    [
+     "",
+     "الوقايـة",
+     "إجـراءات الصيانـة"
+    ],
+    [
+     "رقم المستند: OCR-087-r0a",
+     "المعدة:\n الوقاية ضد \n زيادة التيار والتسرب الارضى\n MIF II \n ge"
+    ],
+    [
+     "صادرة الى: \n شركات \n التوزيع"
+    ],
+    [
+     "الموقف: \n مسودة"
+    ],
+    [
+     "تاريخ \n الاعتماد: \n 2009",
+     "الإجراء:\n جهاز حقن\n تيار \n ثانوى \n احادى الوجه \n \" امبير\""
+    ],
+    [
+     "تاريخ المراجعة التالية: \n 2014"
+    ]
+   ],
+   "truncated_rows": 0,
+   "text": ""
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the steps to be followed when testing the overcurrent and earth leakage protection device, model MIF II."
+  },
+  {
+   "type": "paragraph",
+   "text": "This document was prepared by Alexandria Electricity Distribution Company and was reviewed and approved by the MPIS coordinators."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety Precautions"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "يتم ابلاغ التحكم / التشغيل المختص بالخلايا المطلوب اختبار الوقاية عليها",
+     ""
+    ],
+    [
+     "اصدار امر شغل معتمد يحدد فيه مكان العمل وفريق العمل مع مراعاة قواعد \n السلامة والصحة المهنية",
+     ""
+    ],
+    [
+     "يجب ان يحمل \n فريق العمل كارت فئة السلامة والصحة المهنية",
+     ""
+    ],
+    [
+     "تأكد من فصل قاطع \n الخلية بمعرفة فنى التشغيل المختص ووضع القاطع فى \n وضع الاختبار",
+     ""
+    ],
+    [
+     "تأكد من وضع علامات \n التحذير على الخلايا المراد العمل عليها",
+     ""
+    ],
+    [
+     "تأكد من تأريض جهاز \n الوقاية",
+     ""
+    ],
+    [
+     "يجب مراعاة القطبية عتد التعامل مع الجهد المستمر \n D.C",
+     ""
+    ]
+   ],
+   "truncated_rows": 0,
+   "text": ""
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools, Instruments and Equipment Used"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "جهاز حقن ثانوى \n احادى الاوجه \"الامبير\"",
+     ""
+    ],
+    [
+     "جهاز\n Three Phase Circuit \n Analyzer",
+     ""
+    ],
+    [
+     "بنسبة احمال وافوميتر",
+     ""
+    ],
+    [
+     "جهاز كمبيوتر محمول مناسب علية البرنامج الخاص بالريلاى",
+     ""
+    ]
+   ],
+   "truncated_rows": 0,
+   "text": ""
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be Carried Out\nFirst: Testing the Non-Directional Overcurrent Characteristic (measured values are compared with rated values)"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "تأكد من وجود الجهد المساعد \n dc \n بجهاز الوقاية على النقطة \n A1 + ve , A2 - ve \n كما فى الشكل",
+     ""
+    ],
+    [
+     "يتم تجهيز جهاز الحقن وتغذيتة بالجهد المساعد ac \n للتشغيل المناسب",
+     "2."
+    ],
+    [
+     "وضع اطراف التيار على جهاز الوقاية على النقاط \n R=C1-C2",
+     "3."
+    ],
+    [
+     "ارفع التيار تدريجيا نصل لقيمة تيار بدء التشغيل \n pick up \n لجهاز الوقاية وسجل هذه القيمة",
+     "4."
+    ],
+    [
+     "انزل بالتيار تدريجيا حتى نصل لقيمة تيار الـ \n I Reset \n لجهاز الوقاية وسجل هذه القيمة",
+     "5."
+    ],
+    [
+     "احسب معامل الرجوع K(Reset \n factors) = Ireset / I pick up >95%",
+     "6."
+    ],
+    [
+     "كرر هذه الخطوات للوجه الثانى والثالث",
+     "7."
+    ],
+    [
+     "وصل اطراق الـ Trip \n الخاصة بالجهاز بطرفى Stop \n Timer \n الخاص بجهاز الحقن لحساب زمن الفصل",
+     "8."
+    ],
+    [
+     "التأكد من نزول اشارة الفصل بجهاز الوقاية بمركز التحكم",
+     "9."
+    ]
+   ],
+   "truncated_rows": 0,
+   "text": ""
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Instantaneous Short-Circuit Currents Characteristic"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "ارفع التيار تدريجيا حتى نصل لقيمة تيار التشغيل المضبوطة عليه \n الجهاز",
+     "1."
+    ],
+    [
+     "كرر هذه الخطوات للوجه الثانى والثالث",
+     "2."
+    ],
+    [
+     "وصل اطراف الـ \n Trip \n الخاصة بالجهاز بطرف الـ \n Stop timer \n الخاصة بجهاز الحقن لحساب زمن الفصل",
+     "3."
+    ]
+   ],
+   "truncated_rows": 0,
+   "text": ""
+  },
+  {
+   "type": "paragraph",
+   "text": "Second: Testing the Non-Directional Earth Leakage Characteristic"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "صل اطراف التيار على جهاز الوقاية على النقاط \n C7,C8",
+     "1."
+    ],
+    [
+     "ارفع التيار تدريجيا حتى تصل لقيمة تيار بدء التشغيل \n I pick up \n لجهاز الوقاية وسجل هذه القيمة",
+     "2."
+    ],
+    [
+     "انزل بالتيار تدريجيا حتى تصل لقيم تيار\n I reset \n لجهاز الوقاية وسجل هذه القيمة",
+     "3."
+    ],
+    [
+     "احسب معامل الرجوع \n K reset factor = Ireset / \n Ipick up>95%",
+     "4."
+    ],
+    [
+     "وصل اطراف الـ \n Trip \n الخاصة بالجهاز بطرفى الـ \n Stop timer\n الخاصة بجهاز الحقن لحساب زمن الفصل",
+     "5."
+    ],
+    [
+     "التأكد من نزول اشارة الفصل بجهاز الوقاية بمركز التحكم",
+     ""
+    ]
+   ],
+   "truncated_rows": 0,
+   "text": ""
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the Instantaneous Short-Circuit Currents Characteristic"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "ارفع التيار تدريجيا حتى نصل لقيمة تيار التشغبل المضبوطة عليه \n الجهاز",
+     "1."
+    ],
+    [
+     "وصل اطراف الـ \n Trip \n الخاصة بالجهاز اطرفى \n Stop timer \n الخاصة بجهاز الحقن لحساب زمن الفصل",
+     "2."
+    ]
+   ],
+   "truncated_rows": 0,
+   "text": ""
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: \nCircuit breaker code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Checked by: \nSignature: \n Date of execution:"
+  }
+ ],
+ "text_en": "Maintenance Procedure Information System\n | Protection | Maintenance Procedures\nDocument No.: OCR-087-r0a | Equipment:\n Overcurrent and Earth Leakage Protection\n MIF II \n GE\nIssued to: \n Distribution Companies\nStatus: \n Draft\nApproval date: \n 2009 | Procedure:\n Single-phase secondary current injection device ('Ampere')\nNext review date: \n 2014\nIntroduction\nThis document sets out the steps to be followed when testing the overcurrent and earth leakage protection device, model MIF II.\nThis document was prepared by Alexandria Electricity Distribution Company and was reviewed and approved by the MPIS coordinators.\nSafety Precautions\nNotify the competent control/operation of the cells on which the protection is to be tested. | \nIssue an approved work order specifying the work location and the work team, observing occupational safety and health rules. | \nThe work team must carry the occupational safety and health category card. | \nEnsure the cell circuit breaker is switched off by the competent operation technician and the circuit breaker placed in the test position. | \nEnsure warning signs are posted on the cells to be worked on. | \nEnsure the protection device is earthed. | \nObserve polarity when dealing with DC voltage.\nTools, Instruments and Equipment Used\nSingle-phase secondary injection device ('Ampere'). | \nThree Phase Circuit Analyzer device. | \nLoad clamp and avometer. | \nSuitable laptop computer with the relay software. | \nProcedures to be Carried Out\nFirst: Testing the Non-Directional Overcurrent Characteristic (measured values are compared with rated values)\nEnsure the DC auxiliary voltage is present on the protection device at points A1 +ve, A2 -ve as in the figure. | \nPrepare the injection device and supply it with the appropriate AC auxiliary voltage for operation | 2.\nPlace the current leads on the protection device at points R = C1-C2 | 3.\nRaise the current gradually until reaching the pickup current of the protection device and record this value | 4.\nLower the current gradually until reaching the I Reset current of the protection device and record this value | 5.\nCalculate the reset factor K (Reset factors) = Ireset / I pick up > 95% | 6.\nRepeat these steps for the second and third phases | 7.\nConnect the Trip leads of the device to the Stop Timer terminals of the injection device to calculate the tripping time | 8.\nEnsure the tripping signal of the protection device is received at the control centre | 9.\nTesting the Instantaneous Short-Circuit Currents Characteristic\nRaise the current gradually until reaching the operating current set on the device | 1.\nRepeat these steps for the second and third phases | 2.\nConnect the Trip leads of the device to the Stop timer terminal of the injection device to calculate the tripping time | 3.\nSecond: Testing the Non-Directional Earth Leakage Characteristic\nConnect the current leads to the protection device at points C7, C8 | 1.\nRaise the current gradually until reaching the pickup current I pick up of the protection device and record this value | 2.\nLower the current gradually until reaching the I reset current of the protection device and record this value | 3.\nCalculate the reset factor K reset factor = Ireset / Ipick up > 95% | 4.\nConnect the Trip leads of the device to the Stop timer terminals of the injection device to calculate the tripping time | 5.\nEnsure the tripping signal of the protection device is received at the control centre | \nTesting the Instantaneous Short-Circuit Currents Characteristic\nRaise the current gradually until reaching the operating current set on the device | 1.\nConnect the Trip leads of the device to the Stop timer terminals of the injection device to calculate the tripping time | 2.\nSite name: \nCircuit breaker code:\nChecked by: \nSignature: \n Date of execution:",
+ "translation_review": "draft — needs human review before operational use"
 }
