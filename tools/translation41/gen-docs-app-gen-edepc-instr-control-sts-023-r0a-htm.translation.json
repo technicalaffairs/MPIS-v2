@@ -1,0 +1,303 @@
+{
+ "id": "gen-docs-app-gen-edepc-instr-control-sts-023-r0a-htm",
+ "doc_number": "STS-023-R0A",
+ "category": "instruments",
+ "source_language": "ar",
+ "target_language": "en",
+ "title_target": "STS-023-R0A\nApproved",
+ "sections_target": [
+  {
+   "type": "heading",
+   "level": 1,
+   "text": "Egyptian Electricity Holding Company"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Maintenance Procedures Information System"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Maintenance Procedures Information System"
+    ],
+    [
+     "",
+     "Instrumentation and Control",
+     "Maintenance procedures"
+    ],
+    [
+     "Document No.:\nSTS-023-r0a",
+     "Equipment:\nTurbine exhaust over-temperature protection card\nGT SOTJ\nGeneral Electric, USA"
+    ],
+    [
+     "Issued to:\nTalkha Combined Cycle"
+    ],
+    [
+     "Status:\nApproved"
+    ],
+    [
+     "Approval date:\n09 October 2005",
+     "Procedure:\nAnnual calibration\n(I1-Y1)"
+    ],
+    [
+     "Next review date: October\n2010"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Introduction"
+  },
+  {
+   "type": "paragraph",
+   "text": "This document sets out the calibration steps I1 to be carried out annually, as indicated by the code Y1 above."
+  },
+  {
+   "type": "paragraph",
+   "text": "The first draft of this document was prepared by Eng. Taher Abdel Galil Mohamed Mostafa El-Khatib and Mrs. Asmaa Abdel Monem Abdel Aaty, reviewed by Eng. Magdy Saad El-Khamisy, tested by Eng. Wagdy Eid Mansour, endorsed by General Manager Eng. Yousry Ahmed Abdel Maksoud, reviewed by Eng. Abdel Monem El-Emam, Manager of the Instruments and Electricity Department in the Inspection Sector of the East Delta Electricity Production Company, and approved by Eng. Fathy Mahmoud Ragab, Head of the Talkha Power Station Sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "It was endorsed by Eng. Samir Abdel Galil, General Manager of Inspection and Quality at the East Delta Electricity Production Company and MPIS Coordinator, and approved by Mr. Mahmoud Mohamed Sleiman, General Manager of Financial and Administrative Control and Supervisor of the Inspection and Quality Control Sector."
+  },
+  {
+   "type": "paragraph",
+   "text": "Safety precautions"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Issue a work order, with an occupational safety and health category card available for the site workers",
+    "Fence off the area and use the appropriate warning signs",
+    "Use occupational safety and health equipment such as a safety helmet and safety shoes, etc.",
+    "The unit must be shut down and stopped and in a cooled-down state before starting the test"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Tools and equipment used"
+  },
+  {
+   "type": "list",
+   "items": [
+    "Suitable tool kit, occupational safety and health equipment",
+    "2 digital voltmeters, Fluk 187",
+    "Calibration set No. IC 4988A100AA",
+    "Frequency source"
+   ]
+  },
+  {
+   "type": "paragraph",
+   "text": "Procedures to be carried out"
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the over-temperature alarm signal"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Adj",
+     "PCD (v)",
+     "Tc - mv",
+     "Temp (C)"
+    ],
+    [
+     "R2 (2)",
+     "0 - 2.88",
+     "23.2",
+     "560"
+    ],
+    [
+     "---",
+     "3.38",
+     "22.84",
+     "552"
+    ],
+    [
+     "---",
+     "4.29",
+     "21.33",
+     "516"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the over-temperature trip"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Adj",
+     "PCD (v)",
+     "Tc - mv",
+     "Temp (C)"
+    ],
+    [
+     "R1 (1)",
+     "0 - 2.88",
+     "23.67",
+     "571"
+    ],
+    [
+     "---",
+     "3.38",
+     "22.96",
+     "554"
+    ],
+    [
+     "---",
+     "4.29",
+     "21.68",
+     "524"
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Testing the exhaust temperature differential alarm signal"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Set all switches to Reject, then connect an mV source to each of OTA, OTB separately, and connect another mV source to TX-A",
+     "1."
+    ],
+    [
+     "Before injecting, determine the mV corresponding to 400 °C, the mV corresponding to 420 °C, and the mV corresponding to 80 °C, to facilitate injection",
+     "2."
+    ],
+    [
+     "Inject 400 °C in each of TX & OTA separately, then raise the temperature in OTA to 420 °C and observe the alarm coming in 30 seconds after reaching 420 °C, or read it directly from F12, F13",
+     "3."
+    ],
+    [
+     "Reduce the injection in OTA to 380 °C and observe the alarm disappearing from the card face",
+     "4."
+    ],
+    [
+     "If the values are not achieved, change resistor R3 (3) on the SOTJ card, then repeat the above steps",
+     "5."
+    ],
+    [
+     "Repeat all of this for the second channel, i.e. injection in TX-A & OTB and reading from D8, D9",
+     "6."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "System Failure Induction"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect an mV source to each of OTA, OTB in parallel, and connect a (DVM) to Out, A com of either OTA, OTB, or at D6, D7; also connect the frequency generator C1 at B02 and measure it with Acom",
+     "1."
+    ],
+    [
+     "Inject mV until the (DVM) reading equals 2 volts, and inject frequency until the 14HS lamp lights (4845 + 100)",
+     "2."
+    ],
+    [
+     "Lower the mV and observe that the Failure alarm lamp lights on both SOTJ cards, and observe that the (DVM) reading is less than 1 volt",
+     "3."
+    ],
+    [
+     "Raise the mV again until the (DVM) reading equals 2 volts and observe that the Failure alarm lamp does not go out; then reset it from the card face and observe that the Trip lamp is also lit, so reset it too from the card face",
+     "4."
+    ],
+    [
+     "Disconnect the mV source from one of the channels and observe that the Failure lamp lights on the card opposite that channel.",
+     "5."
+    ],
+    [
+     "Lower the frequency until the 14HS lamp goes out (3855 + 100) and observe that the Failure lamp goes out automatically",
+     "6."
+    ],
+    [
+     "Disconnect all instruments.",
+     "7."
+    ],
+    [
+     "Reset and make sure there are no alarms on the unit",
+     "8."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Ground Fault Detection"
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Connect a 20 kΩ resistor between 41N in TX-A and the panel earth; observe the appearance of the 'Power supply or battery OR Exhaust thermocouple ground' alarm",
+     "1."
+    ],
+    [
+     "Disconnect the resistor",
+     "2."
+    ],
+    [
+     "Reset the alarm and make sure there are no alarms on the unit",
+     "3."
+    ]
+   ],
+   "truncated_rows": 0
+  },
+  {
+   "type": "paragraph",
+   "text": "Site name: Equipment code:"
+  },
+  {
+   "type": "paragraph",
+   "text": "Tested by: Test date: Signature:"
+  }
+ ],
+ "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedures Information System\nMaintenance Procedures Information System\n | Instrumentation and Control | Maintenance procedures\nDocument No.:\nSTS-023-r0a | Equipment:\nTurbine exhaust over-temperature protection card\nGT SOTJ\nGeneral Electric, USA\nIssued to:\nTalkha Combined Cycle\nStatus:\nApproved\nApproval date:\n09 October 2005 | Procedure:\nAnnual calibration\n(I1-Y1)\nNext review date: October\n2010\nIntroduction\nThis document sets out the calibration steps I1 to be carried out annually, as indicated by the code Y1 above.\nThe first draft of this document was prepared by Eng. Taher Abdel Galil Mohamed Mostafa El-Khatib and Mrs. Asmaa Abdel Monem Abdel Aaty, reviewed by Eng. Magdy Saad El-Khamisy, tested by Eng. Wagdy Eid Mansour, endorsed by General Manager Eng. Yousry Ahmed Abdel Maksoud, reviewed by Eng. Abdel Monem El-Emam, Manager of the Instruments and Electricity Department in the Inspection Sector of the East Delta Electricity Production Company, and approved by Eng. Fathy Mahmoud Ragab, Head of the Talkha Power Station Sector.\nIt was endorsed by Eng. Samir Abdel Galil, General Manager of Inspection and Quality at the East Delta Electricity Production Company and MPIS Coordinator, and approved by Mr. Mahmoud Mohamed Sleiman, General Manager of Financial and Administrative Control and Supervisor of the Inspection and Quality Control Sector.\nSafety precautions\nIssue a work order, with an occupational safety and health category card available for the site workers\nFence off the area and use the appropriate warning signs\nUse occupational safety and health equipment such as a safety helmet and safety shoes, etc.\nThe unit must be shut down and stopped and in a cooled-down state before starting the test\nTools and equipment used\nSuitable tool kit, occupational safety and health equipment\n2 digital voltmeters, Fluk 187\nCalibration set No. IC 4988A100AA\nFrequency source\nProcedures to be carried out\nTesting the over-temperature alarm signal\nAdj | PCD (v) | Tc - mv | Temp (C)\nR2 (2) | 0 - 2.88 | 23.2 | 560\n--- | 3.38 | 22.84 | 552\n--- | 4.29 | 21.33 | 516\nTesting the over-temperature trip\nAdj | PCD (v) | Tc - mv | Temp (C)\nR1 (1) | 0 - 2.88 | 23.67 | 571\n--- | 3.38 | 22.96 | 554\n--- | 4.29 | 21.68 | 524\nTesting the exhaust temperature differential alarm signal\nSet all switches to Reject, then connect an mV source to each of OTA, OTB separately, and connect another mV source to TX-A | 1.\nBefore injecting, determine the mV corresponding to 400 °C, the mV corresponding to 420 °C, and the mV corresponding to 80 °C, to facilitate injection | 2.\nInject 400 °C in each of TX & OTA separately, then raise the temperature in OTA to 420 °C and observe the alarm coming in 30 seconds after reaching 420 °C, or read it directly from F12, F13 | 3.\nReduce the injection in OTA to 380 °C and observe the alarm disappearing from the card face | 4.\nIf the values are not achieved, change resistor R3 (3) on the SOTJ card, then repeat the above steps | 5.\nRepeat all of this for the second channel, i.e. injection in TX-A & OTB and reading from D8, D9 | 6.\nSystem Failure Induction\nConnect an mV source to each of OTA, OTB in parallel, and connect a (DVM) to Out, A com of either OTA, OTB, or at D6, D7; also connect the frequency generator C1 at B02 and measure it with Acom | 1.\nInject mV until the (DVM) reading equals 2 volts, and inject frequency until the 14HS lamp lights (4845 + 100) | 2.\nLower the mV and observe that the Failure alarm lamp lights on both SOTJ cards, and observe that the (DVM) reading is less than 1 volt | 3.\nRaise the mV again until the (DVM) reading equals 2 volts and observe that the Failure alarm lamp does not go out; then reset it from the card face and observe that the Trip lamp is also lit, so reset it too from the card face | 4.\nDisconnect the mV source from one of the channels and observe that the Failure lamp lights on the card opposite that channel. | 5.\nLower the frequency until the 14HS lamp goes out (3855 + 100) and observe that the Failure lamp goes out automatically | 6.\nDisconnect all instruments. | 7.\nReset and make sure there are no alarms on the unit | 8.\nGround Fault Detection\nConnect a 20 kΩ resistor between 41N in TX-A and the panel earth; observe the appearance of the 'Power supply or battery OR Exhaust thermocouple ground' alarm | 1.\nDisconnect the resistor | 2.\nReset the alarm and make sure there are no alarms on the unit | 3.\nSite name: Equipment code:\nTested by: Test date: Signature:",
+ "word_count_source": 764,
+ "uncertain_terms": [
+  {
+   "term": "Fluk 187",
+   "note": "Source spelling 'Fluk 187'; almost certainly Fluke 187, kept verbatim."
+  },
+  {
+   "term": "000الخ",
+   "note": "Source artifact '000' before 'الخ' (etc.) in the safety list; rendered as 'etc.'."
+  },
+  {
+   "term": "aالمعايرة السنوية",
+   "note": "Stray Latin 'a' at the start of the procedure cell in the source header table; dropped from the translation."
+  },
+  {
+   "term": "المهندسة/ عبد المنعم الأمام",
+   "note": "Source gives the feminine title 'المهندسة' with the masculine name Abdel Monem El-Emam; rendered 'Eng. Abdel Monem El-Emam'."
+  },
+  {
+   "term": "14HS dropout (3855 + 100)",
+   "note": "Source gives 14HS pickup at 4845 + 100 but dropout at 3855 + 100 in step 6; preserved verbatim (large hysteresis, or a source error)."
+  },
+  {
+   "term": "x400 C / x420 C",
+   "note": "Source notation 'x400 C' rendered as '400 °C'; the 'x' prefix is unexplained in the source."
+  },
+  {
+   "term": "80 °C mV reference",
+   "note": "Step 2 asks for the mV corresponding to 80 °C, but the steps only inject 400/420/380 °C; preserved as written."
+  }
+ ]
+}

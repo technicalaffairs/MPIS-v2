@@ -1,0 +1,311 @@
+{
+  "id": "gen-docs-app-gen-hyd-ep-all-docs-chargers-ups-ups-010-r0a-htm",
+  "doc_number": "UPS-010-R0",
+  "category": "gen_docs",
+  "source_language": "ar",
+  "target_language": "en",
+  "title_target": "UPS-010-r0\nAPPROVED",
+  "sections_target": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Egyptian Electricity Holding Company"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Maintenance Procedure Information System"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Maintenance Procedure Information System"
+        ],
+        [
+          "",
+          "Power Stations",
+          "Maintenance Procedures"
+        ],
+        [
+          "Document No.: UPS-010-r0a",
+          "Equipment: Uninterruptible Power Supply (UPS) unit LT-1003838 LTI"
+        ],
+        [
+          "Issued to: High Dam"
+        ],
+        [
+          "Status: APPROVED"
+        ],
+        [
+          "Approval date: 29 May 2006",
+          "Procedure: Annual maintenance of the UPS unit (I1-Y1)"
+        ],
+        [
+          "Next review date: May 2011"
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "text": "This document sets out the steps for the annual maintenance of the uninterruptible power supply (UPS) unit (three-phase)"
+    },
+    {
+      "type": "paragraph",
+      "text": "This document was prepared and the field test carried out by Eng. Essam Ahmed Ahmed Osman, and approved by Eng. Mohamed Diaa El-Din El-Gabalawy, General Manager of High Dam Power Station"
+    },
+    {
+      "type": "paragraph",
+      "text": "The purpose of the UPS unit is to increase the reliability of the available AC supply. The required electrical energy storage is provided by a bank of internal or external batteries. These batteries can only store DC energy, whereas critical loads require AC energy. The UPS unit performs this conversion from DC to regulated AC"
+    },
+    {
+      "type": "paragraph",
+      "text": "Safety Precautions"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Issue a work permit and a work order, with site personnel carrying the occupational safety and health category card",
+          ""
+        ],
+        [
+          "Fence off the work area and place the appropriate warning signs",
+          ""
+        ],
+        [
+          "The annual maintenance of the UPS unit is carried out after it is fully disconnected, with the load supplied through the bypass, in accordance with the UPS disconnection manoeuvre for the annual maintenance works",
+          ""
+        ],
+        [
+          "Wait at least 5 minutes after disconnecting the UPS unit and before starting any work inside the UPS cabinet, until the capacitor circuit is discharged",
+          ""
+        ],
+        [
+          "Note when carrying out testing that the manual bypass path is still live, through the bypass input cables and around the bypass, the AC output supply branch and the manual bypass switch",
+          ""
+        ],
+        [
+          "Before carrying out any dismantling or assembly work — if any — verify with the measuring instrument that the parts are disconnected and voltage-free",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Tools and Equipment"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Portable earthing, voltage indicator",
+          ""
+        ],
+        [
+          "PPE such as safety helmet and safety belt, etc.",
+          ""
+        ],
+        [
+          "Portable air blower",
+          ""
+        ],
+        [
+          "Digital multimeter, Fluk 77 model",
+          ""
+        ],
+        [
+          "DC clamp meter",
+          ""
+        ],
+        [
+          "Set of screwdrivers",
+          ""
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Work to be Carried Out"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "Remove the ventilation filters (\"cover and right side of the unit\") and clean them outside the room using a blower, and replace any damaged ones if found",
+          "1."
+        ],
+        [
+          "Clean inside the UPS cabinet using a blower after opening the rear and front sides",
+          "2."
+        ],
+        [
+          "Check the fixing terminals of all connections inside the unit, except the live connections referred to in item 3 of the safety precautions",
+          "3."
+        ],
+        [
+          "Verify that all electronic cards and the connections between them are sound and firmly fixed",
+          "4."
+        ],
+        [
+          "Fit the rear cover of the unit (\"contains ----- cooling\") and start the unit in accordance with the \"manoeuvre\" for connecting the UPS unit after completion of the maintenance works while the load is supplied from the bypass, in the following order: a- Connect the AC input switch and wait until the capacitor circuit is charged after about 20 seconds; b- Measure the charger input voltage on the AC input cable, within 380 V; c- Measure the charger output voltage, Rectifier DC input, by connecting the measuring instrument to the DC capacitor terminals at the bottom of the cabinet on the right side, on terminal \"+42\" for capacitors No. \"29\" and on terminal \"-43\" for capacitors No. \"30\"; the voltage shall be within 405 V DC",
+          "5."
+        ],
+        [
+          "Connect the battery switch (Safety switch) and measure the battery voltage inside the UPS cabinet on the DC terminal block; it shall be within 380 V",
+          "6."
+        ],
+        [
+          "Connect the battery output breaker (DC o/p breaker)",
+          "7."
+        ],
+        [
+          "Carry out a reset by pressing the yellow button, then press both red tripping buttons together",
+          "8."
+        ],
+        [
+          "Connect the static switch and wait until the cooling fans operate",
+          "9."
+        ],
+        [
+          "Connect the AC output switch inside the UPS cabinet",
+          "10."
+        ],
+        [
+          "Disconnect the manual bypass switch inside the UPS cabinet",
+          "11."
+        ],
+        [
+          "Connect the inverter by pressing the green connection button",
+          "12."
+        ],
+        [
+          "After the message \"Load on inverter\" appears, measure the inverter output on the AC output cable",
+          "13."
+        ],
+        [
+          "Fit the cabinet sides and record the input and output voltage and current readings from the display screen",
+          "14."
+        ],
+        [
+          "Measure the charging current from the battery room using a DC clamp meter",
+          "15."
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Readings Recording Table"
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          "UPS logics display",
+          "Actual measured"
+        ],
+        [
+          "Battery voltage : VDC",
+          "Battery terminal voltage: VDC"
+        ],
+        [
+          "Blue inverter : VAC",
+          "AC output ph. A1 : VAC"
+        ],
+        [
+          "Yellow inverter : VAC",
+          "AC output ph. B1 : VAC"
+        ],
+        [
+          "Ked inverter : VAC",
+          "AC output ph. C1 : VAC"
+        ],
+        [
+          "Blue main : VAC",
+          "Bypass input ph. A1: VAC"
+        ],
+        [
+          "Yellow main : VAC",
+          "Bypass input ph. B1: VAC"
+        ],
+        [
+          "Ked main : VAC",
+          "Bypass input ph. C1 : VAC"
+        ],
+        [
+          "Battery charge I : %",
+          "Batt charge : ADC"
+        ],
+        [
+          "Blue load I : %",
+          "Load current ph. A1 : AAC"
+        ],
+        [
+          "Yellow load I : %",
+          "Load current ph. B1 : AAC"
+        ],
+        [
+          "Ked load I : %",
+          "Load current ph. C1 : AAC"
+        ],
+        [
+          "Frequency : HZ",
+          "Frequency : HZ"
+        ]
+      ],
+      "truncated_rows": 0
+    },
+    {
+      "type": "paragraph",
+      "text": "Department: Line name:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Executed by: Execution date: Signature:"
+    }
+  ],
+  "text_target": "Egyptian Electricity Holding Company\nMaintenance Procedure Information System\nMaintenance Procedure Information System\n | Power Stations | Maintenance Procedures\nDocument No.: UPS-010-r0a | Equipment: Uninterruptible Power Supply (UPS) unit LT-1003838 LTI\nIssued to: High Dam\nStatus: APPROVED\nApproval date: 29 May 2006 | Procedure: Annual maintenance of the UPS unit (I1-Y1)\nNext review date: May 2011\nIntroduction\nThis document sets out the steps for the annual maintenance of the uninterruptible power supply (UPS) unit (three-phase)\nThis document was prepared and the field test carried out by Eng. Essam Ahmed Ahmed Osman, and approved by Eng. Mohamed Diaa El-Din El-Gabalawy, General Manager of High Dam Power Station\nThe purpose of the UPS unit is to increase the reliability of the available AC supply. The required electrical energy storage is provided by a bank of internal or external batteries. These batteries can only store DC energy, whereas critical loads require AC energy. The UPS unit performs this conversion from DC to regulated AC\nSafety Precautions\nIssue a work permit and a work order, with site personnel carrying the occupational safety and health category card | \nFence off the work area and place the appropriate warning signs | \nThe annual maintenance of the UPS unit is carried out after it is fully disconnected, with the load supplied through the bypass, in accordance with the UPS disconnection manoeuvre for the annual maintenance works | \nWait at least 5 minutes after disconnecting the UPS unit and before starting any work inside the UPS cabinet, until the capacitor circuit is discharged | \nNote when carrying out testing that the manual bypass path is still live, through the bypass input cables and around the bypass, the AC output supply branch and the manual bypass switch | \nBefore carrying out any dismantling or assembly work — if any — verify with the measuring instrument that the parts are disconnected and voltage-free | \nTools and Equipment\nPortable earthing, voltage indicator | \nPPE such as safety helmet and safety belt, etc. | \nPortable air blower | \nDigital multimeter, Fluk 77 model | \nDC clamp meter | \nSet of screwdrivers | \nWork to be Carried Out\nRemove the ventilation filters (\"cover and right side of the unit\") and clean them outside the room using a blower, and replace any damaged ones if found | 1.\nClean inside the UPS cabinet using a blower after opening the rear and front sides | 2.\nCheck the fixing terminals of all connections inside the unit, except the live connections referred to in item 3 of the safety precautions | 3.\nVerify that all electronic cards and the connections between them are sound and firmly fixed | 4.\nFit the rear cover of the unit (\"contains ----- cooling\") and start the unit in accordance with the \"manoeuvre\" for connecting the UPS unit after completion of the maintenance works while the load is supplied from the bypass, in the following order: a- Connect the AC input switch and wait until the capacitor circuit is charged after about 20 seconds; b- Measure the charger input voltage on the AC input cable, within 380 V; c- Measure the charger output voltage, Rectifier DC input, by connecting the measuring instrument to the DC capacitor terminals at the bottom of the cabinet on the right side, on terminal \"+42\" for capacitors No. \"29\" and on terminal \"-43\" for capacitors No. \"30\"; the voltage shall be within 405 V DC | 5.\nConnect the battery switch (Safety switch) and measure the battery voltage inside the UPS cabinet on the DC terminal block; it shall be within 380 V | 6.\nConnect the battery output breaker (DC o/p breaker) | 7.\nCarry out a reset by pressing the yellow button, then press both red tripping buttons together | 8.\nConnect the static switch and wait until the cooling fans operate | 9.\nConnect the AC output switch inside the UPS cabinet | 10.\nDisconnect the manual bypass switch inside the UPS cabinet | 11.\nConnect the inverter by pressing the green connection button | 12.\nAfter the message \"Load on inverter\" appears, measure the inverter output on the AC output cable | 13.\nFit the cabinet sides and record the input and output voltage and current readings from the display screen | 14.\nMeasure the charging current from the battery room using a DC clamp meter | 15.\nReadings Recording Table\nUPS logics display | Actual measured\nBattery voltage : VDC | Battery terminal voltage: VDC\nBlue inverter : VAC | AC output ph. A1 : VAC\nYellow inverter : VAC | AC output ph. B1 : VAC\nKed inverter : VAC | AC output ph. C1 : VAC\nBlue main : VAC | Bypass input ph. A1: VAC\nYellow main : VAC | Bypass input ph. B1: VAC\nKed main : VAC | Bypass input ph. C1 : VAC\nBattery charge I : % | Batt charge : ADC\nBlue load I : % | Load current ph. A1 : AAC\nYellow load I : % | Load current ph. B1 : AAC\nKed load I : % | Load current ph. C1 : AAC\nFrequency : HZ | Frequency : HZ\nDepartment: Line name:\nExecuted by: Execution date: Signature:",
+  "word_count_source": 768,
+  "uncertain_terms": [
+    {
+      "note": "Garbled characters «000» in the source before «etc.»; rendered as «etc.» only.",
+      "term": "حزام أمان 000الخ"
+    },
+    {
+      "note": "Brand/model written «Fluk 77» in the source; kept verbatim — most likely Fluke 77.",
+      "term": "Fluk 77"
+    },
+    {
+      "note": "Source refers to «item 3» of the safety precautions for the live connections, but the live-connections precaution is the 5th row of the safety table; translated verbatim as item 3.",
+      "term": "البند 3 من الاحتياطات"
+    },
+    {
+      "note": "Missing word in the source shown as «-----» before «cooling»; kept as «----- cooling».",
+      "term": "يحتوي على ----- التبريد"
+    },
+    {
+      "note": "Typo in the source (ولاب for دولاب = cabinet); translated as cabinet.",
+      "term": "ولاب UPS"
+    },
+    {
+      "note": "«Ked» is most likely an OCR error for «Red» (blue/yellow/red phases); kept verbatim as in the source.",
+      "term": "Ked inverter / Ked main"
+    },
+    {
+      "note": "Typo in the source; translated as «current» per intent.",
+      "term": "Load currant"
+    },
+    {
+      "note": "Typo in the source; translated as «Frequency».",
+      "term": "Frequeney"
+    }
+  ]
+}
