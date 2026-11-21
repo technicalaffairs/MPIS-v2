@@ -73,11 +73,29 @@ def main():
             skipped.append((doc_id, "target fields already present"))
             continue
         # refuse same-language pass-throughs: target text must be in the other language
+        # (verbatim team-number codes like "أ1".."أ20" are source codes kept as-is
+        # and must not count as Arabic content — forms WOF-002 / QCD-024, 2026-11-20;
+        # likewise isolated single Arabic letters, e.g. a lone "ا" source fragment
+        # kept verbatim in instruments TIMP-001, 2026-11-20, or a trailing "د،"
+        # fragment in degraded arabic_web scans EFR-002/003/004, OCR-007/008,
+        # 2026-11-20 — a real pass-through contains multi-letter Arabic words,
+        # which this still catches. Note: the "isolated" test must ignore Arabic
+        # punctuation (،) next to the letter, so it uses the Arabic LETTER ranges,
+        # not the whole Arabic block.)
+        import re as _re
+        _AR_LETTER = r"[\u0621-\u064a\u066e-\u06d3\u06fa-\u06fc\u06ff]"
         tgt_text = (tr.get("text_target") or "")[:2000]
+        tgt_text_check = _re.sub(r"أ\d+", "", tgt_text)
+        tgt_text_check = _re.sub(
+            r"(?<!" + _AR_LETTER + r")" + _AR_LETTER + r"(?!" + _AR_LETTER + r")",
+            "", tgt_text_check)
+        # NB: the EN-target check below tests for Arabic LETTERS, not any char in
+        # the Arabic block — a lone Arabic comma "،" left behind after stripping
+        # an isolated "د" fragment is punctuation, not content.
         if other == "ar" and not has_arabic(tgt_text):
             skipped.append((doc_id, "target text has no Arabic (pass-through?)"))
             continue
-        if other == "en" and has_arabic(tgt_text):
+        if other == "en" and _re.search(_AR_LETTER, tgt_text_check):
             skipped.append((doc_id, "target text is Arabic but target is English (pass-through?)"))
             continue
         doc["title_" + other] = tr["title_target"]
